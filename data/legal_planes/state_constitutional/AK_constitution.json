@@ -6,15 +6,15 @@
   "state_code": "AK",
   "state_name": "Alaska",
   "version": "1.0.0",
-  "created": "2025-12-22",
-  "updated": "2025-12-22",
+  "created": "2025-01-08",
+  "updated": "2025-01-08",
   "copyright": "Project Milk Carton 501(c)(3) - All Rights Reserved",
   "constitution_source": {
-    "url": "https://ltgov.alaska.gov/information/alaskas-constitution/",
+    "url": "http://www.legis.state.ak.us/basis/folioproxy.asp?url=http://wwwjnu01.legis.state.ak.us/cgi-bin/folioisa.dll/acontitle.nfo/query=/doc/{t1}?",
     "justia_url": "https://law.justia.com/constitution/alaska/",
     "official_name": "Alaska Constitution",
-    "last_amended": "2022-11-08",
-    "last_verified": "2025-12-22"
+    "last_amended": "2024",
+    "last_verified": "2025-01-08"
   },
   "relationship_to_federal": {
     "supremacy_clause_applies": true,
@@ -27,13 +27,21 @@
       "name": "Search and Seizure",
       "article": "Article I",
       "section": "Section 14",
-      "url": "https://law.justia.com/constitution/alaska/constitution-1.html#:~:text=%C2%A7%2014.%20Searches%20and,to%20be%20seized",
+      "url": "https://law.justia.com/constitution/alaska/article-i.html",
       "citation": "Alaska Const. art. I, \u00a7 14",
-      "text": "The right of the people to be secure in their persons, houses and other property, papers, and effects, against unreasonable searches and seizures, shall not be violated.",
-      "application_to_cps": "CPS removal of a child constitutes a seizure. Warrantless removals must meet exigent circumstances exception or be supported by court order.",
+      "text": "The right of the people to be secure in their persons, houses and other property, papers, and effects, against unreasonable searches and seizures, shall not be violated. No warrants shall issue, but upon probable cause, supported by oath or affirmation, and particularly describing the place to be searched, and the persons or things to be seized.",
+      "application_to_cps": "CPS removal of a child constitutes a seizure. Alaska courts have interpreted this provision to provide greater protection than the Fourth Amendment. Warrantless removals must meet strict exigent circumstances standard.",
       "federal_parallel": "U.S. Const. amend. IV",
-      "state_provides_greater_protection": false,
-      "key_cases": [],
+      "state_provides_greater_protection": true,
+      "key_cases": [
+        {
+          "case_name": "State v. Glass",
+          "citation": "583 P.2d 872 (Alaska 1978)",
+          "year": 1978,
+          "holding": "Alaska Constitution provides greater privacy protection than federal Fourth Amendment",
+          "relevance": "Establishes independent state constitutional analysis for search and seizure claims"
+        }
+      ],
       "triggers_at_nodes": [
         "INP-12",
         "DEC-04",
@@ -43,163 +51,47 @@
     },
     {
       "provision_id": "AK_CONST_DUE_PROCESS",
-      "name": "Due Process / Law of the Land",
+      "name": "Due Process",
       "article": "Article I",
       "section": "Section 7",
-      "url": "https://law.justia.com/constitution/alaska/constitution-1.html#:~:text=%C2%A7%207.%20Due%20Process,not%20be%20infringed",
+      "url": "https://law.justia.com/constitution/alaska/article-i.html",
       "citation": "Alaska Const. art. I, \u00a7 7",
-      "text": "No person shall be deprived of life, liberty, or property, without due process of law The right of all persons to fair and just treatment in the course of legislative and executive investigations shall not be infringed.",
-      "application_to_cps": "Parents have a fundamental liberty interest in the care and custody of their children. Termination of parental rights requires clear and convincing evidence and proper procedural protections.",
+      "text": "No person shall be deprived of life, liberty, or property, without due process of law. The right of all persons to fair and just treatment in the course of legislative and executive investigations shall not be infringed.",
+      "application_to_cps": "Parents have a fundamental liberty interest in the care, custody, and control of their children. Termination of parental rights requires clear and convincing evidence and full procedural protections. The second sentence provides additional procedural protections during CPS investigations.",
       "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1",
-      "state_provides_greater_protection": false,
+      "state_provides_greater_protection": true,
       "key_cases": [
         {
-          "case_id": "s-18753",
-          "title": "In the Matter of the Necessity for the Hospitalization of: Tavis J.",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-18753.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-18753 (2025)",
-          "relevance_score": 1,
-          "matched_keywords": [
-            "child welfare case"
-          ],
-          "child_welfare_reason": "High: Matter of",
-          "provision_match": "DUE_PROCESS"
-        },
-        {
-          "case_id": "s-19299",
-          "title": "Enzo C. v. State, DFCS, OCS (Unpublished)",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19299.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-19299 (2025)",
-          "relevance_score": 1,
-          "matched_keywords": [
-            "child welfare case"
-          ],
-          "child_welfare_reason": "High: DFCS, OCS",
-          "provision_match": "DUE_PROCESS"
-        },
-        {
-          "case_id": "s-19347",
-          "title": "R. S. (Father) v. State of Alaska, DFCS, OCS (Unpublished)",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19347.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-19347 (2025)",
-          "relevance_score": 1,
-          "matched_keywords": [
-            "child welfare case"
-          ],
-          "child_welfare_reason": "High: DFCS, OCS",
-          "provision_match": "DUE_PROCESS"
-        },
-        {
-          "case_id": "s-18902",
-          "title": "In the Matter of the Estate of Kay Louise Rollison, In the Matter of the Estate of Kay Louise Rollison (Unpublished)",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-18902.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-18902 (2025)",
-          "relevance_score": 1,
-          "matched_keywords": [
-            "child welfare case"
-          ],
-          "child_welfare_reason": "High: Matter of",
-          "provision_match": "DUE_PROCESS"
-        },
-        {
-          "case_id": "s-19190",
-          "title": "Terry W. (Father) v. State of Alaska, DHSS, OCS (Unpublished)",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19190.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-19190 (2025)",
-          "relevance_score": 1,
-          "matched_keywords": [
-            "child welfare case"
-          ],
-          "child_welfare_reason": "High: OCS",
-          "provision_match": "DUE_PROCESS"
-        },
-        {
-          "case_id": "s-18848",
-          "title": "R. G. (Father) v. State of Alaska, DFCS, OCS (Unpublished)",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-18848.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-18848 (2025)",
-          "relevance_score": 1,
-          "matched_keywords": [
-            "child welfare case"
-          ],
-          "child_welfare_reason": "High: DFCS, OCS",
-          "provision_match": "DUE_PROCESS"
-        },
-        {
-          "case_id": "s-19209",
-          "title": "Alana M. (Mother) v. State of Alaska, DFCS, OCS (Unpublished)",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19209.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-19209 (2025)",
-          "relevance_score": 1,
-          "matched_keywords": [
-            "child welfare case"
-          ],
-          "child_welfare_reason": "High: DFCS, OCS",
-          "provision_match": "DUE_PROCESS"
-        },
-        {
-          "case_id": "s-19210",
-          "title": "Kash B. (Father) v. State of Alaska, DFCS, OCS (Unpublished)",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19210.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-19210 (2025)",
-          "relevance_score": 1,
-          "matched_keywords": [
-            "child welfare case"
-          ],
-          "child_welfare_reason": "High: DFCS, OCS",
-          "provision_match": "DUE_PROCESS"
-        },
-        {
-          "case_id": "s-19096",
-          "title": "M. J. (Father) v. State of Alaska, DFCS, OCS (Unpublished)",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19096.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-19096 (2025)",
-          "relevance_score": 1,
-          "matched_keywords": [
-            "child welfare case"
-          ],
-          "child_welfare_reason": "High: DFCS, OCS",
-          "provision_match": "DUE_PROCESS"
-        },
-        {
-          "case_id": "s-19011",
-          "title": "In re Adoption of C.R. and E.R. v. State",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19011.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-19011 (2025)",
-          "relevance_score": 1,
-          "matched_keywords": [
-            "child welfare case"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re",
-          "provision_match": "DUE_PROCESS"
+          "case_name": "A.A. v. State, Dep't of Family & Youth Servs.",
+          "citation": "982 P.2d 256 (Alaska 1999)",
+          "year": 1999,
+          "holding": "Parental rights are fundamental; termination requires clear and convincing evidence",
+          "relevance": "Applies due process protections to parental rights termination proceedings"
         }
       ],
       "triggers_at_nodes": [
-        "DEC-05",
-        "DEC-06",
-        "ACT-04",
-        "OUT-02",
-        "OUT-03"
+        "INP-01",
+        "DEC-01",
+        "DEC-02",
+        "ACT-02",
+        "FAIL-02"
+      ]
+    },
+    {
+      "provision_id": "AK_CONST_EQUAL_PROTECTION",
+      "name": "Equal Rights and Opportunities",
+      "article": "Article I",
+      "section": "Section 1",
+      "url": "https://law.justia.com/constitution/alaska/article-i.html",
+      "citation": "Alaska Const. art. I, \u00a7 1",
+      "text": "This constitution is dedicated to the principles that all persons have a natural right to life, liberty, the pursuit of happiness, and the enjoyment of the rewards of their own industry; that all persons are equal and entitled to equal rights, opportunities, and protection under the law; and that all persons have corresponding obligations to the people and to the State.",
+      "application_to_cps": "Provides equal protection guarantees. CPS cannot discriminate on basis of protected classifications. May provide broader protection than federal equal protection clause.",
+      "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1 (Equal Protection Clause)",
+      "state_provides_greater_protection": false,
+      "key_cases": [],
+      "triggers_at_nodes": [
+        "DEC-03",
+        "ACT-03"
       ]
     },
     {
@@ -207,218 +99,120 @@
       "name": "Right to Privacy",
       "article": "Article I",
       "section": "Section 22",
-      "url": "https://law.justia.com/constitution/alaska/constitution-1.html#:~:text=%C2%A7%2022.%20Right%20of,section.%20%5BAmended%201972%5D",
+      "url": "https://law.justia.com/constitution/alaska/article-i.html",
       "citation": "Alaska Const. art. I, \u00a7 22",
-      "text": "The right of the people to privacy is recognized and shall not be infringed.",
-      "application_to_cps": "Explicit privacy right may provide additional protection against government intrusion into family decisions. May require compelling state interest for CPS intervention.",
-      "federal_parallel": "No explicit federal parallel - implied from penumbras of Bill of Rights (Griswold v. Connecticut)",
+      "text": "The right of the people to privacy is recognized and shall not be infringed. The legislature shall implement this section.",
+      "application_to_cps": "Alaska has an explicit constitutional right to privacy, which provides significantly greater protection than federal law. This affects CPS home inspections, investigations, and intrusions into family life. State must demonstrate compelling interest to justify intrusions.",
+      "federal_parallel": "None (no explicit federal constitutional privacy provision)",
+      "state_provides_greater_protection": true,
+      "key_cases": [
+        {
+          "case_name": "Ravin v. State",
+          "citation": "537 P.2d 494 (Alaska 1975)",
+          "year": 1975,
+          "holding": "Alaska Constitution provides explicit and robust right to privacy in the home",
+          "relevance": "Establishes strong privacy protections that limit state intrusion into family matters"
+        },
+        {
+          "case_name": "Falcon v. Alaska Pub. Offices Comm'n",
+          "citation": "570 P.2d 469 (Alaska 1977)",
+          "year": 1977,
+          "holding": "Privacy right requires balancing individual privacy against state interests",
+          "relevance": "Framework for analyzing privacy claims in child welfare investigations"
+        }
+      ],
+      "triggers_at_nodes": [
+        "INP-02",
+        "INP-12",
+        "DEC-04",
+        "ACT-01"
+      ]
+    },
+    {
+      "provision_id": "AK_CONST_JURY_TRIAL",
+      "name": "Trial by Jury",
+      "article": "Article I",
+      "section": "Section 16",
+      "url": "https://law.justia.com/constitution/alaska/article-i.html",
+      "citation": "Alaska Const. art. I, \u00a7 16",
+      "text": "The right of trial by jury shall be secured to all and remain inviolate. The legislature may provide, however, for a jury of not less than twelve in civil cases and for a verdict by not less than three-fourths of the jury in any civil case.",
+      "application_to_cps": "In civil proceedings, including termination of parental rights cases, parties may have right to jury trial if requested, though Alaska law typically provides for bench trials in TPR cases. Civil jury verdicts may be by three-fourths majority rather than unanimous.",
+      "federal_parallel": "U.S. Const. amend. VII",
+      "state_provides_greater_protection": false,
+      "key_cases": [],
+      "triggers_at_nodes": [
+        "DEC-05",
+        "ACT-04"
+      ]
+    },
+    {
+      "provision_id": "AK_CONST_REMEDY",
+      "name": "Right to Remedy",
+      "article": "Article I",
+      "section": "Section 9",
+      "url": "https://law.justia.com/constitution/alaska/article-i.html",
+      "citation": "Alaska Const. art. I, \u00a7 9",
+      "text": "Courts shall be open and justice shall be administered without unnecessary delay. Every person shall have a remedy in the law for injuries to his person, property, or reputation.",
+      "application_to_cps": "Parents who suffer injuries to person, property, or reputation due to wrongful CPS actions have a constitutional right to remedy. Cannot be barred by sovereign immunity in cases of constitutional violations.",
+      "federal_parallel": "None (state-specific provision)",
       "state_provides_greater_protection": true,
       "key_cases": [],
       "triggers_at_nodes": [
-        "INP-01",
-        "DEC-01",
-        "ACT-01"
+        "FAIL-03",
+        "OUT-05"
       ]
+    },
+    {
+      "provision_id": "AK_CONST_EXCESSIVE_BAIL",
+      "name": "Bail, Fines, and Punishment",
+      "article": "Article I",
+      "section": "Section 12",
+      "url": "https://law.justia.com/constitution/alaska/article-i.html",
+      "citation": "Alaska Const. art. I, \u00a7 12",
+      "text": "Excessive bail shall not be required, nor excessive fines imposed, nor cruel and unusual punishments inflicted.",
+      "application_to_cps": "While primarily applicable to criminal cases, has been cited in civil child welfare proceedings regarding conditions of supervision and requirements imposed on parents during reunification.",
+      "federal_parallel": "U.S. Const. amend. VIII",
+      "state_provides_greater_protection": false,
+      "key_cases": [],
+      "triggers_at_nodes": []
+    },
+    {
+      "provision_id": "AK_CONST_HABEAS_CORPUS",
+      "name": "Habeas Corpus",
+      "article": "Article I",
+      "section": "Section 8",
+      "url": "https://law.justia.com/constitution/alaska/article-i.html",
+      "citation": "Alaska Const. art. I, \u00a7 8",
+      "text": "The privilege of the writ of habeas corpus shall not be suspended, unless in case of rebellion or actual or threatened invasion, and then only if public safety requires it.",
+      "application_to_cps": "Parents may seek habeas corpus relief to challenge unlawful detention or custody of their children by the state.",
+      "federal_parallel": "U.S. Const. art. I, \u00a7 9",
+      "state_provides_greater_protection": false,
+      "key_cases": [],
+      "triggers_at_nodes": [
+        "ACT-02",
+        "OUT-04"
+      ]
+    },
+    {
+      "provision_id": "AK_CONST_FAMILY_FOUNDATION",
+      "name": "Public Education and Family Foundation",
+      "article": "Article VII",
+      "section": "Section 1",
+      "url": "https://law.justia.com/constitution/alaska/article-vii.html",
+      "citation": "Alaska Const. art. VII, \u00a7 1",
+      "text": "The legislature shall by general law establish and maintain a system of public schools open to all children of the State, and may provide for other public educational institutions. Schools and institutions so established shall be free from sectarian control. No money shall be paid from public funds for the direct benefit of any religious or other private educational institution.",
+      "application_to_cps": "While primarily focused on education, recognizes children's rights and state's role in supporting children. References 'all children of the State' establishes baseline state interest in child welfare.",
+      "federal_parallel": "None (state-specific provision)",
+      "state_provides_greater_protection": false,
+      "key_cases": [],
+      "triggers_at_nodes": []
     }
   ],
-  "unique_state_protections": [
-    {
-      "protection": "Explicit Constitutional Privacy Right",
-      "description": "Alaska constitution explicitly protects privacy rights",
-      "federal_comparison": "Federal constitution has no explicit privacy right"
-    }
-  ],
-  "case_law_search_keywords": [
-    "Alaska Office of Children's Services",
-    "OCS",
-    "CPS",
-    "due process",
-    "14th Amendment",
-    "42 U.S.C. 1983",
-    "reasonable efforts",
-    "reunification",
-    "emergency removal",
-    "wrongful removal",
-    "exigent circumstances",
-    "abuse",
-    "familial association",
-    "CINA"
-  ],
-  "state_supreme_court_cps_cases": [
-    {
-      "case_id": "s-18753",
-      "title": "In the Matter of the Necessity for the Hospitalization of: Tavis J.",
-      "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-18753.html",
-      "year": 2025,
-      "court": "Supreme Court",
-      "citation": "Alaska Supreme Court Case s-18753 (2025)",
-      "relevance_score": 1,
-      "matched_keywords": [
-        "child welfare case"
-      ],
-      "child_welfare_reason": "High: Matter of",
-      "provision_match": "DUE_PROCESS"
-    },
-    {
-      "case_id": "s-19299",
-      "title": "Enzo C. v. State, DFCS, OCS (Unpublished)",
-      "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19299.html",
-      "year": 2025,
-      "court": "Supreme Court",
-      "citation": "Alaska Supreme Court Case s-19299 (2025)",
-      "relevance_score": 1,
-      "matched_keywords": [
-        "child welfare case"
-      ],
-      "child_welfare_reason": "High: DFCS, OCS",
-      "provision_match": "DUE_PROCESS"
-    },
-    {
-      "case_id": "s-19347",
-      "title": "R. S. (Father) v. State of Alaska, DFCS, OCS (Unpublished)",
-      "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19347.html",
-      "year": 2025,
-      "court": "Supreme Court",
-      "citation": "Alaska Supreme Court Case s-19347 (2025)",
-      "relevance_score": 1,
-      "matched_keywords": [
-        "child welfare case"
-      ],
-      "child_welfare_reason": "High: DFCS, OCS",
-      "provision_match": "DUE_PROCESS"
-    },
-    {
-      "case_id": "s-18902",
-      "title": "In the Matter of the Estate of Kay Louise Rollison, In the Matter of the Estate of Kay Louise Rollison (Unpublished)",
-      "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-18902.html",
-      "year": 2025,
-      "court": "Supreme Court",
-      "citation": "Alaska Supreme Court Case s-18902 (2025)",
-      "relevance_score": 1,
-      "matched_keywords": [
-        "child welfare case"
-      ],
-      "child_welfare_reason": "High: Matter of",
-      "provision_match": "DUE_PROCESS"
-    },
-    {
-      "case_id": "s-19190",
-      "title": "Terry W. (Father) v. State of Alaska, DHSS, OCS (Unpublished)",
-      "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19190.html",
-      "year": 2025,
-      "court": "Supreme Court",
-      "citation": "Alaska Supreme Court Case s-19190 (2025)",
-      "relevance_score": 1,
-      "matched_keywords": [
-        "child welfare case"
-      ],
-      "child_welfare_reason": "High: OCS",
-      "provision_match": "DUE_PROCESS"
-    },
-    {
-      "case_id": "s-18848",
-      "title": "R. G. (Father) v. State of Alaska, DFCS, OCS (Unpublished)",
-      "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-18848.html",
-      "year": 2025,
-      "court": "Supreme Court",
-      "citation": "Alaska Supreme Court Case s-18848 (2025)",
-      "relevance_score": 1,
-      "matched_keywords": [
-        "child welfare case"
-      ],
-      "child_welfare_reason": "High: DFCS, OCS",
-      "provision_match": "DUE_PROCESS"
-    },
-    {
-      "case_id": "s-19209",
-      "title": "Alana M. (Mother) v. State of Alaska, DFCS, OCS (Unpublished)",
-      "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19209.html",
-      "year": 2025,
-      "court": "Supreme Court",
-      "citation": "Alaska Supreme Court Case s-19209 (2025)",
-      "relevance_score": 1,
-      "matched_keywords": [
-        "child welfare case"
-      ],
-      "child_welfare_reason": "High: DFCS, OCS",
-      "provision_match": "DUE_PROCESS"
-    },
-    {
-      "case_id": "s-19210",
-      "title": "Kash B. (Father) v. State of Alaska, DFCS, OCS (Unpublished)",
-      "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19210.html",
-      "year": 2025,
-      "court": "Supreme Court",
-      "citation": "Alaska Supreme Court Case s-19210 (2025)",
-      "relevance_score": 1,
-      "matched_keywords": [
-        "child welfare case"
-      ],
-      "child_welfare_reason": "High: DFCS, OCS",
-      "provision_match": "DUE_PROCESS"
-    },
-    {
-      "case_id": "s-19096",
-      "title": "M. J. (Father) v. State of Alaska, DFCS, OCS (Unpublished)",
-      "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19096.html",
-      "year": 2025,
-      "court": "Supreme Court",
-      "citation": "Alaska Supreme Court Case s-19096 (2025)",
-      "relevance_score": 1,
-      "matched_keywords": [
-        "child welfare case"
-      ],
-      "child_welfare_reason": "High: DFCS, OCS",
-      "provision_match": "DUE_PROCESS"
-    },
-    {
-      "case_id": "s-19011",
-      "title": "In re Adoption of C.R. and E.R. v. State",
-      "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19011.html",
-      "year": 2025,
-      "court": "Supreme Court",
-      "citation": "Alaska Supreme Court Case s-19011 (2025)",
-      "relevance_score": 1,
-      "matched_keywords": [
-        "child welfare case"
-      ],
-      "child_welfare_reason": "High: In re adoption, In re",
-      "provision_match": "DUE_PROCESS"
-    }
-  ],
-  "procedural_weight_modifiers": {
-    "explicit_privacy_right": 0.1,
-    "note": "Modifiers adjust procedural_weight for state nodes based on enhanced protections"
-  },
   "_metadata": {
-    "created": "2025-12-22T20:08:31.669030",
-    "source": "state_constitution_etl",
-    "data_sources": [
-      "justia",
-      "state_legislature",
-      "courtlistener_keywords"
-    ],
-    "requires_case_law_enrichment": false,
-    "case_law_enriched": "2025-12-24T20:37:15.259810+00:00",
-    "enricher_version": "1.0.0",
-    "cases_analyzed": 153,
-    "cases_linked": 10
-  },
-  "case_law_search": {
-    "search_keywords": [
-      "Alaska Office of Children's Services",
-      "OCS",
-      "CPS",
-      "due process",
-      "14th Amendment",
-      "42 U.S.C. 1983",
-      "reasonable efforts",
-      "reunification",
-      "emergency removal",
-      "wrongful removal"
-    ],
-    "courtlistener_url": "https://www.courtlistener.com/?q=%22Alaska%22%20AND%20%28%22Alaska%20Office%20of%20Children%27s%20Services%22%20OR%20%22OCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-    "supreme_court_focus": true,
-    "_note": "Search for state supreme court cases on CPS constitutional issues"
+    "generated_by": "AI State Constitution Researcher (GitHub Actions)",
+    "model": "claude-sonnet-4-5-20250929",
+    "generated_at": "2026-02-16T06:08:31.286932Z",
+    "status": "ai_generated_needs_human_review",
+    "review_notes": "This file was auto-generated by AI. All citations should be verified by a legal professional before relying on this data."
   }
 }
