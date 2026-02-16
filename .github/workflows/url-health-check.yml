@@ -153,6 +153,10 @@ jobs:
               print(f'- ... and {len(report[\"dead_urls\"]) - 30} more')
           ")
 
+          # Ensure labels exist
+          gh label create "url-health" --color "0e8a16" --description "URL health check results" 2>/dev/null || true
+          gh label create "maintenance" --color "c5def5" --description "Maintenance tasks" 2>/dev/null || true
+
           gh issue create \
             --title "URL Health Check: ${DEAD_COUNT} dead URLs found ($(date +%B\ %Y))" \
             --label "url-health,maintenance" \
