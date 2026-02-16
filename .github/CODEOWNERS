@@ -1,0 +1,18 @@
+# CODEOWNERS — All changes require review from PMC maintainers
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default: ALL files require PMC review
+* @SpartanAltsoba
+
+# Schemas are critical — never merge without careful review
+data/schemas/ @SpartanAltsoba
+
+# Federal baselines are foundational
+data/chains/ @SpartanAltsoba
+
+# Legal planes define the constitutional/federal framework
+data/legal_planes/constitutional_plane.json @SpartanAltsoba
+data/legal_planes/federal_plane.json @SpartanAltsoba
+
+# Tools can break the pipeline
+data/tools/ @SpartanAltsoba
