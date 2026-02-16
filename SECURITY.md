@@ -11,7 +11,7 @@ However, data integrity is critical. Incorrect legal information could harm fami
 If you find incorrect legal citations, fabricated case law, or deliberately misleading information in this dataset:
 
 1. **Open an issue** using the Data Correction template
-2. **Email us** at admin@projectmilkcarton.org with the subject "DATA INTEGRITY"
+2. **Email us** at chairman@projectmilkcarton.org with the subject "DATA INTEGRITY"
 
 ## What We Consider a Security Issue
 
