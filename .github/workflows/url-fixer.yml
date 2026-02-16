@@ -2,7 +2,7 @@ name: AI URL Fixer
 
 on:
   schedule:
-    # Every 15 minutes on the 3rd-5th of each month (after health check finishes)
+    # Every 15 minutes on the 3rd-5th of each month (runs after health check)
     - cron: '*/15 * 3-5 * *'
   workflow_dispatch:
     inputs:
