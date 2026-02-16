@@ -1,0 +1,182 @@
+name: Dataset URL Health Check
+
+on:
+  schedule:
+    # 1st of every month at 6 AM UTC
+    - cron: '0 6 1 * *'
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  check-urls:
+    runs-on: ubuntu-latest
+    name: Check All URLs in Dataset
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Check all URLs
+        run: |
+          python3 << 'SCRIPT'
+          import json
+          import requests
+          import os
+          import sys
+          import time
+          from pathlib import Path
+          from concurrent.futures import ThreadPoolExecutor, as_completed
+          from datetime import datetime
+
+          def extract_urls(obj, path=""):
+              """Recursively extract all URLs from a JSON object."""
+              urls = []
+              if isinstance(obj, dict):
+                  for k, v in obj.items():
+                      if isinstance(v, str) and v.startswith("http"):
+                          urls.append((v, f"{path}.{k}"))
+                      else:
+                          urls.extend(extract_urls(v, f"{path}.{k}"))
+              elif isinstance(obj, list):
+                  for i, item in enumerate(obj):
+                      urls.extend(extract_urls(item, f"{path}[{i}]"))
+              return urls
+
+          def check_url(url_info):
+              """Check if a URL is alive. Returns (url, field, status, ok)."""
+              url, field, filepath = url_info
+              try:
+                  resp = requests.head(url, timeout=10, allow_redirects=True,
+                                       headers={"User-Agent": "PMC-HealthCheck/1.0"})
+                  return (url, field, filepath, resp.status_code, resp.status_code < 400)
+              except requests.exceptions.Timeout:
+                  return (url, field, filepath, 0, False)
+              except Exception as e:
+                  return (url, field, filepath, -1, False)
+
+          # Collect all URLs from all JSON files
+          print("Scanning dataset for URLs...")
+          all_urls = []  # (url, field_path, filepath)
+          seen_urls = set()
+
+          data_dir = Path("data")
+          for json_file in data_dir.rglob("*.json"):
+              try:
+                  with open(json_file) as f:
+                      data = json.load(f)
+                  urls = extract_urls(data)
+                  for url, field in urls:
+                      if url not in seen_urls:
+                          seen_urls.add(url)
+                          all_urls.append((url, field, str(json_file)))
+              except:
+                  pass
+
+          print(f"Found {len(all_urls)} unique URLs to check")
+
+          # Check URLs in parallel (throttled)
+          dead = []
+          alive = 0
+
+          with ThreadPoolExecutor(max_workers=5) as executor:
+              futures = {executor.submit(check_url, u): u for u in all_urls}
+              for i, future in enumerate(as_completed(futures)):
+                  url, field, filepath, status, ok = future.result()
+                  if ok:
+                      alive += 1
+                  else:
+                      dead.append((url, field, filepath, status))
+
+                  if (i + 1) % 50 == 0:
+                      print(f"  Checked {i + 1}/{len(all_urls)}...")
+
+          print(f"\nResults: {alive} alive, {len(dead)} dead/broken")
+
+          # Write results for issue creation
+          report = {
+              "date": datetime.utcnow().isoformat() + "Z",
+              "total_urls": len(all_urls),
+              "alive": alive,
+              "dead": len(dead),
+              "dead_urls": [
+                  {"url": u, "field": f, "file": fp, "status": s}
+                  for u, f, fp, s in dead
+              ]
+          }
+
+          with open("/tmp/url_report.json", "w") as f:
+              json.dump(report, f, indent=2)
+
+          if dead:
+              print(f"\nDead URLs:")
+              for url, field, filepath, status in dead[:20]:
+                  print(f"  [{status}] {url}")
+                  print(f"         in {filepath}")
+          SCRIPT
+
+      - name: Create issue for dead URLs
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ ! -f /tmp/url_report.json ]; then
+            echo "No report generated"
+            exit 0
+          fi
+
+          DEAD_COUNT=$(python3 -c "import json; print(json.load(open('/tmp/url_report.json'))['dead'])")
+          TOTAL=$(python3 -c "import json; print(json.load(open('/tmp/url_report.json'))['total_urls'])")
+          ALIVE=$(python3 -c "import json; print(json.load(open('/tmp/url_report.json'))['alive'])")
+
+          if [ "$DEAD_COUNT" = "0" ]; then
+            echo "All $TOTAL URLs are healthy!"
+            exit 0
+          fi
+
+          # Build dead URL list for issue body
+          DEAD_LIST=$(python3 -c "
+          import json
+          report = json.load(open('/tmp/url_report.json'))
+          for d in report['dead_urls'][:30]:
+              status = f'HTTP {d[\"status\"]}' if d['status'] > 0 else 'TIMEOUT' if d['status'] == 0 else 'ERROR'
+              print(f'- [{status}] \`{d[\"file\"]}\`')
+              print(f'  URL: {d[\"url\"]}')
+          if len(report['dead_urls']) > 30:
+              print(f'- ... and {len(report[\"dead_urls\"]) - 30} more')
+          ")
+
+          gh issue create \
+            --title "URL Health Check: ${DEAD_COUNT} dead URLs found ($(date +%B\ %Y))" \
+            --label "url-health,maintenance" \
+            --body "$(cat <<EOF
+          ## Monthly URL Health Check Report
+
+          **Date:** $(date -u +"%Y-%m-%d")
+          **Total URLs checked:** ${TOTAL}
+          **Alive:** ${ALIVE}
+          **Dead/Broken:** ${DEAD_COUNT}
+
+          ### Dead URLs
+
+          ${DEAD_LIST}
+
+          ### How to fix
+          1. Find the dead URL in the listed file
+          2. Search for the current URL of that statute/resource
+          3. Update the \`source_url\` field
+          4. Submit a PR
+
+          ---
+          *Auto-generated by PMC URL Health Check*
+          EOF
+          )"
+
+          echo "Issue created for ${DEAD_COUNT} dead URLs"

@@ -1,0 +1,91 @@
+name: Dataset Statistics Badge
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/**'
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    name: Update Dataset Statistics
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Calculate stats
+        run: |
+          python3 << 'SCRIPT'
+          import json
+          from pathlib import Path
+          from datetime import datetime
+
+          data_dir = Path("data")
+
+          # Count files
+          total_json = len(list(data_dir.rglob("*.json")))
+          total_py = len(list(data_dir.rglob("*.py")))
+
+          # Count state chains
+          states_dir = data_dir / "states_chains"
+          state_count = len([d for d in states_dir.iterdir() if d.is_dir()]) if states_dir.exists() else 0
+
+          # Count nodes per state (exclude backfill files)
+          node_count = 0
+          for state_dir in states_dir.iterdir():
+              if state_dir.is_dir():
+                  nodes = [f for f in state_dir.glob("*.json") if "backfill" not in f.name]
+                  node_count += len(nodes)
+
+          # Count completed state constitutions
+          const_dir = data_dir / "legal_planes" / "state_constitutional"
+          completed_const = 0
+          for f in const_dir.glob("*_constitution.json"):
+              if f.name.startswith("_"):
+                  continue
+              try:
+                  d = json.load(open(f))
+                  if d.get("provisions_exceeding_federal_floor") or d.get("search_and_seizure", {}).get("article_section"):
+                      completed_const += 1
+              except:
+                  pass
+
+          # Count URLs
+          url_count = 0
+          for jf in data_dir.rglob("*.json"):
+              try:
+                  content = jf.read_text()
+                  url_count += content.count("http://") + content.count("https://")
+              except:
+                  pass
+
+          stats = {
+              "last_updated": datetime.utcnow().isoformat() + "Z",
+              "total_files": total_json + total_py,
+              "json_files": total_json,
+              "jurisdictions": state_count,
+              "decision_nodes": node_count,
+              "state_constitutions_completed": completed_const,
+              "state_constitutions_remaining": 51 - completed_const,
+              "total_urls": url_count
+          }
+
+          with open("STATS.json", "w") as f:
+              json.dump(stats, f, indent=2)
+
+          print(f"Dataset Stats:")
+          for k, v in stats.items():
+              print(f"  {k}: {v}")
+          SCRIPT
+
+      - name: Commit stats
+        run: |
+          git config user.name "PMC Stats Bot"
+          git config user.email "stats@projectmilkcarton.org"
+          git add STATS.json
+          git diff --cached --quiet || git commit -m "Update dataset statistics [skip ci]"
+          git push

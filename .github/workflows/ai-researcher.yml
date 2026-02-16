@@ -1,0 +1,260 @@
+name: AI State Constitution Researcher
+
+on:
+  schedule:
+    # Every Monday at 9 AM UTC
+    - cron: '0 9 * * 1'
+  workflow_dispatch:  # Allow manual trigger
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  research-state:
+    runs-on: ubuntu-latest
+    name: Research Next Empty State Constitution
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install anthropic requests
+
+      - name: Find next empty state and research it
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python3 << 'PYEOF'
+          import json
+          import os
+          import sys
+          from pathlib import Path
+          from datetime import datetime
+
+          # =====================================================================
+          # STEP 1: Find the next empty state constitutional plane
+          # =====================================================================
+          state_const_dir = Path("data/legal_planes/state_constitutional")
+          template_path = state_const_dir / "_TEMPLATE.json"
+
+          if not template_path.exists():
+              print("No template found. Nothing to do.")
+              sys.exit(0)
+
+          with open(template_path) as f:
+              template = json.load(f)
+
+          # Get list of all state files
+          completed = set()
+          empty = []
+
+          # US states + DC
+          STATES = {
+              "AL": "Alabama", "AK": "Alaska", "AZ": "Arizona", "AR": "Arkansas",
+              "CA": "California", "CO": "Colorado", "CT": "Connecticut", "DE": "Delaware",
+              "DC": "District of Columbia", "FL": "Florida", "GA": "Georgia", "HI": "Hawaii",
+              "ID": "Idaho", "IL": "Illinois", "IN": "Indiana", "IA": "Iowa",
+              "KS": "Kansas", "KY": "Kentucky", "LA": "Louisiana", "ME": "Maine",
+              "MD": "Maryland", "MA": "Massachusetts", "MI": "Michigan", "MN": "Minnesota",
+              "MS": "Mississippi", "MO": "Missouri", "MT": "Montana", "NE": "Nebraska",
+              "NV": "Nevada", "NH": "New Hampshire", "NJ": "New Jersey", "NM": "New Mexico",
+              "NY": "New York", "NC": "North Carolina", "ND": "North Dakota", "OH": "Ohio",
+              "OK": "Oklahoma", "OR": "Oregon", "PA": "Pennsylvania", "RI": "Rhode Island",
+              "SC": "South Carolina", "SD": "South Dakota", "TN": "Tennessee", "TX": "Texas",
+              "UT": "Utah", "VT": "Vermont", "VA": "Virginia", "WA": "Washington",
+              "WV": "West Virginia", "WI": "Wisconsin", "WY": "Wyoming",
+          }
+
+          for abbrev, name in sorted(STATES.items()):
+              filepath = state_const_dir / f"{abbrev}_constitution.json"
+              if filepath.exists():
+                  with open(filepath) as f:
+                      try:
+                          data = json.load(f)
+                          # Check if it's actually filled (not just a copy of template)
+                          provisions = data.get("provisions_exceeding_federal_floor", [])
+                          search_seizure = data.get("search_and_seizure", {})
+                          if provisions or search_seizure.get("article_section"):
+                              completed.add(abbrev)
+                              continue
+                      except json.JSONDecodeError:
+                          pass
+              empty.append((abbrev, name))
+
+          if not empty:
+              print("All state constitutional planes are complete!")
+              sys.exit(0)
+
+          # Pick the next state
+          target_abbrev, target_name = empty[0]
+          print(f"Researching: {target_name} ({target_abbrev})")
+          print(f"Remaining after this: {len(empty) - 1} states")
+
+          # =====================================================================
+          # STEP 2: Use Claude to research the state constitution
+          # =====================================================================
+          import anthropic
+
+          client = anthropic.Anthropic()
+
+          # Load TX as the example of a completed state
+          tx_path = state_const_dir / "TX_constitution.json"
+          tx_example = "{}"
+          if tx_path.exists():
+              with open(tx_path) as f:
+                  tx_example = f.read()
+
+          prompt = f"""You are a legal researcher for Project Milk Carton, a 501(c)(3) nonprofit.
+
+          Your task: Research the {target_name} state constitution and produce a JSON file documenting
+          its child welfare-relevant provisions, following the exact same structure as the Texas example below.
+
+          CRITICAL RULES:
+          1. ONLY include REAL constitutional provisions with REAL article/section numbers
+          2. Every citation must be verifiable — include the actual text or a close paraphrase
+          3. If {target_name} does NOT have a specific provision, leave that field empty or null — do NOT fabricate
+          4. Source URLs must point to the official state constitution text (preferably .gov or law school sites)
+          5. Focus on: search & seizure, due process, equal protection, privacy rights, jury trial rights,
+             and any provision that gives GREATER protection than the federal 4th/14th Amendments
+          6. Include relevant state supreme court cases interpreting these provisions (if you know them with certainty)
+
+          TEXAS EXAMPLE (follow this structure exactly):
+          {tx_example[:8000]}
+
+          Now produce the same structure for {target_name} ({target_abbrev}).
+          Return ONLY valid JSON — no markdown, no explanation, just the JSON object.
+          The "state" field should be "{target_abbrev}" and "state_name" should be "{target_name}".
+          """
+
+          print("Calling Claude API...")
+          response = client.messages.create(
+              model="claude-sonnet-4-5-20250929",
+              max_tokens=8000,
+              messages=[{"role": "user", "content": prompt}]
+          )
+
+          response_text = response.content[0].text.strip()
+
+          # Extract JSON from response (handle possible markdown wrapping)
+          if response_text.startswith("```"):
+              lines = response_text.split("\n")
+              json_lines = []
+              in_json = False
+              for line in lines:
+                  if line.startswith("```") and not in_json:
+                      in_json = True
+                      continue
+                  elif line.startswith("```") and in_json:
+                      break
+                  elif in_json:
+                      json_lines.append(line)
+              response_text = "\n".join(json_lines)
+
+          # Validate JSON
+          try:
+              state_data = json.loads(response_text)
+          except json.JSONDecodeError as e:
+              print(f"ERROR: Claude returned invalid JSON: {e}")
+              print(f"Response preview: {response_text[:500]}")
+              sys.exit(1)
+
+          # Add metadata
+          state_data["_metadata"] = {
+              "generated_by": "AI State Constitution Researcher (GitHub Actions)",
+              "model": "claude-sonnet-4-5-20250929",
+              "generated_at": datetime.utcnow().isoformat() + "Z",
+              "status": "ai_generated_needs_human_review",
+              "review_notes": "This file was auto-generated by AI. All citations should be verified by a legal professional before relying on this data."
+          }
+
+          # Write the file
+          output_path = state_const_dir / f"{target_abbrev}_constitution.json"
+          with open(output_path, 'w') as f:
+              json.dump(state_data, f, indent=2)
+
+          print(f"Written: {output_path}")
+          print(f"File size: {output_path.stat().st_size:,} bytes")
+
+          # Save state info for the PR step
+          with open("/tmp/research_state.txt", "w") as f:
+              f.write(f"{target_abbrev}\n{target_name}\n{len(empty) - 1}")
+
+          PYEOF
+
+      - name: Create Pull Request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ ! -f /tmp/research_state.txt ]; then
+            echo "No research was performed. Exiting."
+            exit 0
+          fi
+
+          STATE_ABBREV=$(sed -n '1p' /tmp/research_state.txt)
+          STATE_NAME=$(sed -n '2p' /tmp/research_state.txt)
+          REMAINING=$(sed -n '3p' /tmp/research_state.txt)
+
+          BRANCH="ai-research/${STATE_ABBREV}-constitution"
+          FILE="data/legal_planes/state_constitutional/${STATE_ABBREV}_constitution.json"
+
+          # Configure git
+          git config user.name "PMC AI Researcher"
+          git config user.email "ai-researcher@projectmilkcarton.org"
+
+          # Create branch and commit
+          git checkout -b "$BRANCH"
+          git add "$FILE"
+          git commit -m "AI Research: ${STATE_NAME} (${STATE_ABBREV}) state constitutional plane
+
+          Auto-generated by the AI State Constitution Researcher workflow.
+          Status: NEEDS HUMAN REVIEW — all citations must be verified.
+          Remaining states: ${REMAINING}"
+
+          git push origin "$BRANCH"
+
+          # Create PR
+          gh pr create \
+            --title "AI Research: ${STATE_NAME} (${STATE_ABBREV}) Constitutional Plane" \
+            --body "$(cat <<EOF
+          ## AI-Generated State Constitutional Research
+
+          **State:** ${STATE_NAME} (${STATE_ABBREV})
+          **Generated by:** Claude Sonnet 4.5 via GitHub Actions
+          **Status:** ⚠️ NEEDS HUMAN REVIEW
+
+          ### What this contains
+          - State constitutional search & seizure provisions
+          - Due process protections
+          - Privacy rights
+          - Provisions exceeding the federal floor
+          - Relevant state supreme court cases
+
+          ### ⚠️ IMPORTANT: Human verification required
+          This was auto-generated by AI. Before merging:
+          - [ ] Verify all article/section numbers are correct
+          - [ ] Check that source URLs resolve to the cited provisions
+          - [ ] Confirm case law citations are real (check CourtListener)
+          - [ ] Verify whether provisions actually exceed the federal floor
+          - [ ] Check for any missing provisions the AI didn't find
+
+          ### How to verify
+          1. Open your state's constitution (URL should be in the JSON)
+          2. Search for the article/section numbers cited
+          3. Confirm the text matches what's described
+
+          **Remaining states after this: ${REMAINING}**
+
+          ---
+          *Auto-generated by [Project Milk Carton](https://projectmilkcarton.org) AI Researcher*
+          *One state per week. 49 states. All of them free.*
+          EOF
+          )" \
+            --label "ai-generated,needs-review"
+
+          echo "PR created for ${STATE_NAME}"

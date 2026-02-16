@@ -1,0 +1,160 @@
+name: Validate Dataset PR
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'data/**/*.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    name: Schema & URL Validation
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install jsonschema requests
+
+      - name: Validate changed JSON files against schema
+        run: |
+          python3 << 'SCRIPT'
+          import json
+          import sys
+          import os
+          import subprocess
+
+          # Get list of changed files in this PR
+          result = subprocess.run(
+              ['git', 'diff', '--name-only', 'origin/main...HEAD'],
+              capture_output=True, text=True
+          )
+          changed = [f for f in result.stdout.strip().split('\n') if f.endswith('.json') and f.startswith('data/')]
+
+          if not changed:
+              print("No data JSON files changed. Skipping validation.")
+              sys.exit(0)
+
+          print(f"Validating {len(changed)} changed file(s)...")
+
+          # Load schema
+          schema_path = "data/schemas/extended_decision_chain.schema.json"
+          if not os.path.exists(schema_path):
+              print("WARNING: Schema file not found, skipping schema validation")
+              schema = None
+          else:
+              with open(schema_path) as f:
+                  schema = json.load(f)
+
+          errors = []
+
+          for filepath in changed:
+              if not os.path.exists(filepath):
+                  continue  # File was deleted
+
+              # 1. Check valid JSON
+              try:
+                  with open(filepath) as f:
+                      data = json.load(f)
+              except json.JSONDecodeError as e:
+                  errors.append(f"INVALID JSON: {filepath} — {e}")
+                  continue
+
+              # 2. Schema validation (only for state chain nodes)
+              if schema and 'states_chains' in filepath and 'backfill' not in filepath:
+                  try:
+                      import jsonschema
+                      jsonschema.validate(data, schema)
+                  except jsonschema.ValidationError as e:
+                      errors.append(f"SCHEMA FAIL: {filepath} — {e.message[:200]}")
+
+              # 3. Check for empty critical fields in state chain nodes
+              if 'states_chains' in filepath and isinstance(data, dict):
+                  node_id = data.get('node_id', 'unknown')
+
+                  # Check state_statutory has real citations
+                  layers = data.get('layers', {})
+                  state_stat = layers.get('state_statutory', {})
+                  citations = state_stat.get('primary_citations', [])
+
+                  for cit in citations:
+                      url = cit.get('source_url', '')
+                      text = cit.get('citation_text', '')
+
+                      if not text:
+                          errors.append(f"EMPTY CITATION: {filepath} ({node_id}) — citation_text is blank")
+
+                      if url and not any(url.startswith(p) for p in ['http://', 'https://']):
+                          errors.append(f"BAD URL: {filepath} ({node_id}) — '{url}' is not a valid URL")
+
+              # 4. Reject modifications to protected files
+              protected = [
+                  'data/schemas/',
+                  'data/chains/cps/federal_baseline/',
+                  'data/legal_planes/constitutional_plane.json',
+                  'data/legal_planes/federal_plane.json',
+              ]
+              for p in protected:
+                  if filepath.startswith(p):
+                      errors.append(f"PROTECTED FILE: {filepath} — This file can only be modified by maintainers")
+
+          if errors:
+              print(f"\n{'='*60}")
+              print(f"VALIDATION FAILED — {len(errors)} error(s)")
+              print(f"{'='*60}\n")
+              for e in errors:
+                  print(f"  ✗ {e}")
+              print(f"\nFix these issues and push again.")
+              sys.exit(1)
+          else:
+              print(f"\n✓ All {len(changed)} files passed validation.")
+          SCRIPT
+
+      - name: Check for hallucinated content
+        run: |
+          python3 << 'SCRIPT'
+          import subprocess
+          import sys
+
+          # Get changed files
+          result = subprocess.run(
+              ['git', 'diff', '--name-only', 'origin/main...HEAD'],
+              capture_output=True, text=True
+          )
+          changed = [f for f in result.stdout.strip().split('\n') if f.endswith('.json') and f.startswith('data/')]
+
+          if not changed:
+              sys.exit(0)
+
+          # Read all changed content and look for red flags
+          red_flags = [
+              'placeholder', 'example.com', 'TODO', 'FIXME', 'xxx',
+              'lorem ipsum', 'test citation', 'fake', 'sample data',
+              'your state here', 'insert citation'
+          ]
+
+          warnings = []
+          for filepath in changed:
+              try:
+                  with open(filepath) as f:
+                      content = f.read().lower()
+                  for flag in red_flags:
+                      if flag.lower() in content:
+                          warnings.append(f"RED FLAG in {filepath}: contains '{flag}'")
+              except:
+                  pass
+
+          if warnings:
+              print(f"\n⚠ CONTENT WARNINGS ({len(warnings)}):")
+              for w in warnings:
+                  print(f"  ⚠ {w}")
+              print(f"\nThese may be legitimate but require manual review.")
+              # Don't fail — just warn
+          else:
+              print("✓ No red flags detected in content.")
+          SCRIPT
