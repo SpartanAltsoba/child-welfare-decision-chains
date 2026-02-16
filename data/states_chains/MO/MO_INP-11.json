@@ -1,0 +1,454 @@
+{
+  "node_id": "MO_INP-11",
+  "state": "MO",
+  "state_name": "Missouri",
+  "node_family": "INP",
+  "subnode": "INP-11",
+  "trigger_name": "Federal / Tribal Jurisdiction Trigger",
+  "summary_html": "Cases arising on **federal lands/facilities** or involving **Indian children** invoke federal/tribal jurisdictional rules (VICAA for federal facilities; **ICWA** for Indian children and tribal preference/jurisdiction).",
+  "authority_html": "- **VICAA (34 U.S.C. \u00a7\u00a7 20301\u201320307)** \u2014 federal-facility reporting mandates  \n- **ICWA (25 U.S.C. \u00a7\u00a7 1901\u20131963)** \u2014 tribal jurisdiction, placement preferences, notice to tribes",
+  "icon": "\ud83c\udfdb\ufe0f",
+  "theme_color": "#4682B4",
+  "domain": "civil",
+  "procedural_weight": 0.55,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "VICAA_Cornell": "https://www.law.cornell.edu/uscode/text/34/subtitle-II/chapter-203",
+    "ICWA_Cornell": "https://www.law.cornell.edu/uscode/text/25/chapter-21",
+    "ICWA_PDF": "https://www.govinfo.gov/content/pkg/USCODE-2021-title25/pdf/USCODE-2021-title25-chap21.pdf"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "34 U.S.C. \u00a7\u00a7 20301\u201320307 (Victims of Child Abuse Act)",
+        "25 U.S.C. \u00a7\u00a7 1901\u20131963 (ICWA)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Missouri - Mo. Rev. Stat. Chapter\u00a0210 (Child Protection and Reformation \u2013 includes \u00a7\u00a0210.115 reporting)",
+          "source_url": "https://revisor.mo.gov/main/OneChapter.aspx?chapter=210",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Missouri - Missouri Supreme Court Rules \u2013 Juvenile Proceedings (for abuse/neglect cases)",
+          "source_url": "https://www.mo.gov",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22"
+        },
+        {
+          "citation_text": "Title 210: Child Protection and Reformation - CHILD WELFARE PRIMARY",
+          "source_url": "https://law.justia.com/codes/missouri/title-210/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 211: Juvenile Courts",
+          "source_url": "https://law.justia.com/codes/missouri/title-211/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 452: Dissolution of Marriage",
+          "source_url": "https://law.justia.com/codes/missouri/title-452/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 453: Adoption",
+          "source_url": "https://law.justia.com/codes/missouri/title-453/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Title 13 - DEPARTMENT OF SOCIAL SERVICES",
+          "url": "https://www.law.cornell.edu/regulations/missouri/title-13"
+        },
+        {
+          "title": "Title 21 - MISSOURI FAMILY TRUST",
+          "url": "https://www.law.cornell.edu/regulations/missouri/title-21"
+        },
+        {
+          "title": "Missouri Administrative Regulations",
+          "url": "https://regulations.justia.com/states/missouri/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Missouri Administrative Rule Title 1",
+          "url": "https://regulations.justia.com/states/missouri/title-1/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Missouri Administrative Rule Title 2",
+          "url": "https://regulations.justia.com/states/missouri/title-2/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Missouri Administrative Rule Title 3",
+          "url": "https://regulations.justia.com/states/missouri/title-3/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Missouri Administrative Rule Title 4",
+          "url": "https://regulations.justia.com/states/missouri/title-4/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Missouri Administrative Rule Title 5",
+          "url": "https://regulations.justia.com/states/missouri/title-5/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Missouri Administrative Rule Title 6",
+          "url": "https://regulations.justia.com/states/missouri/title-6/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Missouri Administrative Rule Title 7",
+          "url": "https://regulations.justia.com/states/missouri/title-7/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Missouri Administrative Rule Title 8",
+          "url": "https://regulations.justia.com/states/missouri/title-8/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Missouri Administrative Rule Title 9",
+          "url": "https://regulations.justia.com/states/missouri/title-9/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/missouri.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_MO",
+      "plane_file": "legal_planes/state_constitutional/MO_constitution.json",
+      "provisions_triggered": []
+    },
+    "case_law": {
+      "search_keywords": [
+        "Missouri Department of Social Services",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal",
+        "exigent circumstances"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Missouri%22%20AND%20%28%22Missouri%20Department%20of%20Social%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "mandatory reporting",
+        "failure to report",
+        "reporter immunity",
+        "hotline"
+      ],
+      "jurisdiction": "Missouri state courts",
+      "key_cases": [
+        {
+          "case_id": "sd38940",
+          "title": "ELLIS WOODRUM, Appellant v. MISSOURI DEPARTMENT OF SOCIAL SERVICES, Respondent",
+          "url": "https://law.justia.com/cases/missouri/court-of-appeals/2025/sd38940.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Missouri Court Of Appeals Case sd38940 (2025)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "missouri department of social services"
+          ],
+          "child_welfare_reason": "High: DSS"
+        },
+        {
+          "case_id": "sd38618",
+          "title": "IN THE INTEREST OF D.J.Z., a minor child under seventeen years of age, MISSOURI DEPARTMENT OF SOCIAL SERVICES, CHILDRENS DIVISION, and, CRAWFORD COUNTY JUVENILE OFFICE, Petitioners-Respondent v. D.Z., Respondent-Appellant",
+          "url": "https://law.justia.com/cases/missouri/court-of-appeals/2025/sd38618.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Missouri Court Of Appeals Case sd38618 (2025)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "missouri department of social services"
+          ],
+          "child_welfare_reason": "High: DSS, In re interest, Interest of initials"
+        },
+        {
+          "case_id": "sd38474",
+          "title": "In the Interest of K.G.K. and A.R.K., MISSOURI DEPARTMENT OF SOCIAL SERVICES, CHILDREN'S DIVISION, Respondent v. S.J.K., Appellant",
+          "url": "https://law.justia.com/cases/missouri/court-of-appeals/2025/sd38474.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Missouri Court Of Appeals Case sd38474 (2025)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "missouri department of social services"
+          ],
+          "child_welfare_reason": "High: DSS, In re interest, Interest of initials"
+        },
+        {
+          "case_id": "sd38292",
+          "title": "IN THE INTEREST OF A.R.S., J.D.S., J.E.S., L.K.S., and T.E.S., MISSOURI DEPARTMENT OF SOCIAL SERVICES, CHILDREN'S DIVISION, Respondent vs. G.D.S., Appellant",
+          "url": "https://law.justia.com/cases/missouri/court-of-appeals/2024/sd38292.html",
+          "year": 2024,
+          "court": "Court Of Appeals",
+          "citation": "Missouri Court Of Appeals Case sd38292 (2024)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "missouri department of social services"
+          ],
+          "child_welfare_reason": "High: DSS, In re interest, Interest of initials"
+        },
+        {
+          "case_id": "sd38058",
+          "title": "IN THE INTEREST OF J.W.C., MISSOURI DEPARTMENT OF SOCIAL SERVICES, CHILDREN'S DIVISION, Respondent v. J.W.C., Appellant",
+          "url": "https://law.justia.com/cases/missouri/court-of-appeals/2023/sd38058.html",
+          "year": 2023,
+          "court": "Court Of Appeals",
+          "citation": "Missouri Court Of Appeals Case sd38058 (2023)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "missouri department of social services"
+          ],
+          "child_welfare_reason": "High: DSS, In re interest, Interest of initials"
+        },
+        {
+          "case_id": "ed109952",
+          "title": "Charles S. Covert, Appellant, vs. Director, Missouri Department of Social Services, Family Support Division, Respondent.",
+          "url": "https://law.justia.com/cases/missouri/court-of-appeals/2022/ed109952.html",
+          "year": 2022,
+          "court": "Court Of Appeals",
+          "citation": "Missouri Court Of Appeals Case ed109952 (2022)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "missouri department of social services"
+          ],
+          "child_welfare_reason": "High: DSS"
+        },
+        {
+          "case_id": "sd37344",
+          "title": "KENNETH D. GILMORE, Respondent v. MISSOURI DEPARTMENT OF SOCIAL SERVICES, CHILDREN'S DIVISION, Appellant",
+          "url": "https://law.justia.com/cases/missouri/court-of-appeals/2022/sd37344.html",
+          "year": 2022,
+          "court": "Court Of Appeals",
+          "citation": "Missouri Court Of Appeals Case sd37344 (2022)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "missouri department of social services"
+          ],
+          "child_welfare_reason": "High: DSS"
+        },
+        {
+          "case_id": "wd85072",
+          "title": "In the Interest of: L.N.G.S.; Juvenile Officer; and Missouri Department of Social Services, Children's Division vs. A.S. and A.S.",
+          "url": "https://law.justia.com/cases/missouri/court-of-appeals/2022/wd85072.html",
+          "year": 2022,
+          "court": "Court Of Appeals",
+          "citation": "Missouri Court Of Appeals Case wd85072 (2022)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "missouri department of social services"
+          ],
+          "child_welfare_reason": "High: DSS, In re interest, Interest of initials"
+        },
+        {
+          "case_id": "ed109899",
+          "title": "Arthur Jefferson , II, Appellant, v. Missouri Department of Social Services, Respondent.",
+          "url": "https://law.justia.com/cases/missouri/court-of-appeals/2022/ed109899.html",
+          "year": 2022,
+          "court": "Court Of Appeals",
+          "citation": "Missouri Court Of Appeals Case ed109899 (2022)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "missouri department of social services"
+          ],
+          "child_welfare_reason": "High: DSS"
+        },
+        {
+          "case_id": "ed109900",
+          "title": "Kaylisha Young, Appellant, v. Missouri Department of Social Services, Respondent.",
+          "url": "https://law.justia.com/cases/missouri/court-of-appeals/2022/ed109900.html",
+          "year": 2022,
+          "court": "Court Of Appeals",
+          "citation": "Missouri Court Of Appeals Case ed109900 (2022)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "missouri department of social services"
+          ],
+          "child_welfare_reason": "High: DSS"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Children's Division (DSS)",
+    "acronym": "DSS-CD",
+    "hotline": "1-800-392-3738",
+    "website": "https://www.mo.gov"
+  },
+  "mandatory_reporters": [
+    "Teachers/School Personnel",
+    "Medical/Dental Professionals",
+    "Mental Health Professionals",
+    "Law Enforcement",
+    "Childcare Staff",
+    "Clergy",
+    "Foster Parents",
+    "Coaches",
+    "Coroners",
+    "EMTs/Emergency Personnel"
+  ],
+  "reporting_type": "centralized",
+  "reporting_details": "Not applicable",
+  "definitions": {
+    "abuse": [
+      "Physical abuse",
+      "Sexual abuse",
+      "Emotional abuse",
+      "Excessive punishment",
+      "Shaken baby syndrome",
+      "Human trafficking",
+      "Failure to protect",
+      "Female genital mutilation",
+      "Factitious disorder (Munchausen by proxy)"
+    ],
+    "neglect": [
+      "General neglect",
+      "Medical neglect",
+      "Educational neglect",
+      "Abandonment",
+      "Inadequate supervision",
+      "Inadequate shelter/housing",
+      "Inadequate clothing",
+      "Malnourishment/failure to provide food",
+      "Failure to thrive",
+      "Injurious environment"
+    ],
+    "other": [],
+    "substance_related": [
+      "Drug lab exposure",
+      "Parental drug/alcohol misuse",
+      "Prenatal drug/alcohol exposure",
+      "Illicit substance involvement"
+    ]
+  },
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.774221",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.681694",
+    "schema_version": "3.0.0",
+    "leaves_linked": "2025-12-24T18:14:21.831944+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "reasonable_suspicion",
+    "who_bears_burden": "agency",
+    "common_failures": [
+      "Insufficient screening documentation",
+      "Failure to verify reporter allegations",
+      "Accepting anonymous reports without corroboration"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Initial response time",
+      "deadline": "24-72 hours",
+      "starts_from": "Report received",
+      "source": "state_statute",
+      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+    },
+    {
+      "requirement_name": "Investigation completion",
+      "deadline": "30-60 days",
+      "starts_from": "Investigation opened",
+      "source": "state_statute",
+      "consequence_of_miss": "Case dismissal risk"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian"
+      ],
+      "method": "any_reasonable",
+      "timing": "Before investigation interview",
+      "content_required": [
+        "Nature of allegation",
+        "Rights"
+      ],
+      "defective_notice_consequence": "May invalidate findings"
+    }
+  ],
+  "door_scenarios": [
+    {
+      "who_at_door": [
+        "caseworker"
+      ],
+      "trigger_reason": "Responding to abuse/neglect report",
+      "legal_authority_to_enter": "none_without_consent",
+      "parent_rights_at_moment": [
+        "Right to refuse entry without warrant",
+        "Right to remain silent",
+        "Right to attorney"
+      ],
+      "what_to_say": [
+        "I do not consent to entry without a warrant",
+        "Please provide your card and the allegations in writing",
+        "I will have my attorney contact you"
+      ],
+      "what_not_to_do": [
+        "Do not physically resist",
+        "Do not lie",
+        "Do not let them in 'just to look'"
+      ],
+      "next_possible_nodes": [
+        "DEC-01",
+        "DEC-04"
+      ]
+    }
+  ]
+}

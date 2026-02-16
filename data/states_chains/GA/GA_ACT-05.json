@@ -1,0 +1,353 @@
+{
+  "node_id": "GA_ACT-05",
+  "state": "GA",
+  "state_name": "Georgia",
+  "node_family": "ACT",
+  "subnode": "ACT-05",
+  "trigger_name": "Protective Order",
+  "summary_html": "Court issues a **protective or restraining order** to prevent contact, remove abuser, or ensure safety without removing the child. Federal law leaves implementation to states but funds protection efforts through CAPTA and IV-B.",
+  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 authorizes protective interventions and state plan requirements  \n- **SSA Title IV-B** \u2014 permits funding for protective services and court interventions",
+  "icon": "\ud83e\uddfe",
+  "theme_color": "#708090",
+  "domain": "civil",
+  "procedural_weight": 0.5,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "CAPTA_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-67",
+    "SSA_IV_B_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-7/subchapter-IV/part-B"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "42 U.S.C. \u00a7\u00a7 620\u2013629m (SSA Title IV-B)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Georgia - Title 19, Chapter 7, Section 5 (Georgia child abuse reporting statute)",
+          "source_url": "https://www.lexisnexis.com/hottopics/gacode/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Georgia - Title 15, Chapter 11 (Juvenile Code \u2013 dependency proceedings)",
+          "source_url": "https://www.lexisnexis.com/hottopics/gacode/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Title 15: Courts - Juvenile Courts",
+          "source_url": "https://law.justia.com/codes/georgia/title-15/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 19: Domestic Relations - CHILD WELFARE PRIMARY",
+          "source_url": "https://law.justia.com/codes/georgia/title-19/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 49: Social Services - DFCS",
+          "source_url": "https://law.justia.com/codes/georgia/title-49/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Department 96 - GRANTS OF GOVERNOR'S OFFICE FOR CHILDREN AND FAMILIES",
+          "url": "https://www.law.cornell.edu/regulations/georgia/department-96"
+        },
+        {
+          "title": "Department 97 - DEPARTMENT OF JUVENILE JUSTICE",
+          "url": "https://www.law.cornell.edu/regulations/georgia/department-97"
+        },
+        {
+          "title": "Department 98 - GRANTS OF THE CHILDREN'S TRUST FUND COMMISSION",
+          "url": "https://www.law.cornell.edu/regulations/georgia/department-98"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/georgia.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_GA",
+      "plane_file": "legal_planes/state_constitutional/GA_constitution.json",
+      "provisions_triggered": []
+    },
+    "case_law": {
+      "search_keywords": [
+        "Georgia Division of Family and Children Services",
+        "DFCS",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Georgia%22%20AND%20%28%22Georgia%20Division%20of%20Family%20and%20Children%20Services%22%20OR%20%22DFCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "removal",
+        "emergency custody",
+        "placement",
+        "reunification",
+        "services"
+      ],
+      "jurisdiction": "Georgia state courts",
+      "key_cases": [
+        {
+          "case_id": "s24y1247",
+          "title": "IN THE MATTER OF CHRISTOPHER CASEY TAYLOR (six cases)",
+          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s24y1247.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Georgia Supreme Court Case s24y1247 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "s26y0129",
+          "title": "IN THE MATTER OF JE\u2019NITA LANE",
+          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s26y0129.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Georgia Supreme Court Case s26y0129 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "s25y0795",
+          "title": "IN THE MATTER OF BRIAN JOEL APLIN (two cases)",
+          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y0795.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Georgia Supreme Court Case s25y0795 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "s25y1085",
+          "title": "IN THE MATTER OF HERALD J.A. ALEXANDER",
+          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y1085.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Georgia Supreme Court Case s25y1085 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "s25y1459",
+          "title": "IN THE MATTER OF DESTIN MICHELLE GILLUM",
+          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y1459.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Georgia Supreme Court Case s25y1459 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "s25y0965",
+          "title": "IN THE MATTER OF CRAIG S. BONNELL",
+          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y0965.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Georgia Supreme Court Case s25y0965 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "s25y1146",
+          "title": "IN THE MATTER OF MELVIN RAINES, II",
+          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y1146.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Georgia Supreme Court Case s25y1146 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "s25y1290",
+          "title": "IN THE MATTER OF PAUL GERARD WERSANT",
+          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y1290.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Georgia Supreme Court Case s25y1290 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "s25y0726",
+          "title": "IN THE MATTER OF ALLEN CHARLES JONES",
+          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y0726.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Georgia Supreme Court Case s25y0726 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "s25y1174",
+          "title": "IN THE MATTER OF VI BUI",
+          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y1174.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Georgia Supreme Court Case s25y1174 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Division of Family and Children Services",
+    "acronym": "DFCS",
+    "hotline": "1-855-422-4453",
+    "website": "https://www.legis.ga.gov"
+  },
+  "linked_decision": "DEC-05",
+  "linked_input": "INP-01",
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.736222",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.567354",
+    "schema_version": "3.0.0",
+    "trigger_name_fixed": "2025-12-22T22:53:02.305553",
+    "leaves_linked": "2025-12-24T18:14:21.176028+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "preponderance",
+    "who_bears_burden": "agency",
+    "common_failures": [
+      "Inadequate safety planning",
+      "Failure to consider less restrictive alternatives",
+      "Insufficient reasonable efforts documentation"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Emergency removal hearing",
+      "deadline": "24-72 hours",
+      "starts_from": "Child removed",
+      "source": "state_statute",
+      "consequence_of_miss": "Constitutional violation, case dismissal"
+    },
+    {
+      "requirement_name": "Case plan development",
+      "deadline": "30-60 days",
+      "starts_from": "Court jurisdiction",
+      "source": "federal_statute",
+      "consequence_of_miss": "IV-E funding penalty"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian",
+        "child_over_12",
+        "tribe"
+      ],
+      "method": "personal_service",
+      "timing": "Before court hearing",
+      "content_required": [
+        "Hearing date",
+        "Allegations",
+        "Right to counsel"
+      ],
+      "defective_notice_consequence": "Hearing must be continued"
+    }
+  ],
+  "door_scenarios": [
+    {
+      "who_at_door": [
+        "caseworker",
+        "law_enforcement"
+      ],
+      "trigger_reason": "Emergency removal attempt",
+      "legal_authority_to_enter": "exigent_circumstances",
+      "parent_rights_at_moment": [
+        "Demand to see court order",
+        "Right to know where child is going",
+        "Right to attorney",
+        "Right to hearing within 24-72 hours"
+      ],
+      "what_to_say": [
+        "Do you have a court order for removal?",
+        "What is the specific imminent danger?",
+        "Where are you taking my child?",
+        "I want my attorney present"
+      ],
+      "what_not_to_do": [
+        "Do not physically interfere with lawful removal",
+        "Do not flee with child",
+        "Do not make threats"
+      ],
+      "next_possible_nodes": [
+        "OUT-01",
+        "FAIL-02"
+      ]
+    }
+  ]
+}

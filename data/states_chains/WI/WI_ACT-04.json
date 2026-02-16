@@ -1,0 +1,424 @@
+{
+  "node_id": "WI_ACT-04",
+  "state": "WI",
+  "state_name": "Wisconsin",
+  "node_family": "ACT",
+  "subnode": "ACT-04",
+  "trigger_name": "Kinship Placement",
+  "summary_html": "Agency places a child with **relatives or kin caregivers** instead of non-relative foster care. Federal law favors kinship care as least-restrictive, family-preserving placement.",
+  "authority_html": "- **Fostering Connections to Success and Increasing Adoptions Act (FCSIAA 2008)** \u2014 kinship-care incentives  \n- **SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 reimbursement for approved kin placements",
+  "icon": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67",
+  "theme_color": "#FFD700",
+  "domain": "civil",
+  "procedural_weight": 0.45,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "FCSIAA_PLAW": "https://www.congress.gov/110/plaws/publ351/PLAW-110publ351.pdf",
+    "FCSIAA_PDF": "https://www.govinfo.gov/content/pkg/PLAW-110publ351/pdf/PLAW-110publ351.pdf",
+    "SSA_IV_E_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-7/subchapter-IV/part-E"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [
+        "U.S. Const. amend. XIV, \u00a7 1"
+      ],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "Public Law 110-351 (FCSIAA)",
+        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Wisconsin - Wis. Stat. \u00a7\u00a048.981 (Abuse and Neglect Reporting law)",
+          "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/48",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Wisconsin - Wis. Stat. Chapter\u00a048 (Children\u2019s Code \u2013 includes CHIPS proceedings)",
+          "source_url": "https://legis.wisconsin.gov",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22"
+        },
+        {
+          "citation_text": "Title 48: Children's Code - DCF - CHILD WELFARE PRIMARY",
+          "source_url": "https://law.justia.com/codes/wisconsin/title-48/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 767: Actions Affecting Family",
+          "source_url": "https://law.justia.com/codes/wisconsin/title-767/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 938: Juvenile Justice Code",
+          "source_url": "https://law.justia.com/codes/wisconsin/title-938/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Agency - Department of Children and Families",
+          "url": "https://www.law.cornell.edu/regulations/wisconsin/agency-department-of-children-and-families"
+        },
+        {
+          "title": "Agency - Marriage and Family Therapy, Professional Counseling, and Social Work Examining Board",
+          "url": "https://www.law.cornell.edu/regulations/wisconsin/agency-marriage-and-family-therapy-professional-counseling-and-social-work-examining-board"
+        },
+        {
+          "title": "Wisconsin Administrative Rule Title 48",
+          "url": "https://regulations.justia.com/states/wisconsin/title-48/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Wisconsin Administrative Rule Title 767",
+          "url": "https://regulations.justia.com/states/wisconsin/title-767/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Wisconsin Administrative Regulations",
+          "url": "https://regulations.justia.com/states/wisconsin/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Wisconsin Administrative Rule Title 1",
+          "url": "https://regulations.justia.com/states/wisconsin/title-1/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Wisconsin Administrative Rule Title 2",
+          "url": "https://regulations.justia.com/states/wisconsin/title-2/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Wisconsin Administrative Rule Title 3",
+          "url": "https://regulations.justia.com/states/wisconsin/title-3/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Wisconsin Administrative Rule Title 4",
+          "url": "https://regulations.justia.com/states/wisconsin/title-4/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Wisconsin Administrative Rule Title 5",
+          "url": "https://regulations.justia.com/states/wisconsin/title-5/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Wisconsin Administrative Rule Title 6",
+          "url": "https://regulations.justia.com/states/wisconsin/title-6/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Wisconsin Administrative Rule Title 7",
+          "url": "https://regulations.justia.com/states/wisconsin/title-7/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/wisconsin.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_WI",
+      "plane_file": "legal_planes/state_constitutional/WI_constitution.json",
+      "provisions_triggered": [
+        {
+          "provision_id": "WI_CONST_DUE_PROCESS",
+          "name": "Due Process / Law of the Land",
+          "citation": "Wisconsin Const. art. I, \u00a7 8",
+          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+        }
+      ]
+    },
+    "case_law": {
+      "search_keywords": [
+        "Wisconsin Department of Children and Families",
+        "DCF",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Wisconsin%22%20AND%20%28%22Wisconsin%20Department%20of%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "removal",
+        "emergency custody",
+        "placement",
+        "reunification",
+        "services"
+      ],
+      "jurisdiction": "Wisconsin state courts",
+      "key_cases": [
+        {
+          "case_id": "2024ap000472",
+          "title": "S. G. v. Wisconsin Department of Children and Families",
+          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2025/2024ap000472.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Wisconsin Court Of Appeals Case 2024ap000472 (2025)",
+          "relevance_score": 3.0,
+          "matched_keywords": [
+            "wisconsin department of children and families",
+            "dcf"
+          ],
+          "child_welfare_reason": "High: DCF"
+        },
+        {
+          "case_id": "2022ap001812",
+          "title": "Kenosha County DCFS v. D.R.-R.",
+          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2023/2022ap001812.html",
+          "year": 2023,
+          "court": "Court Of Appeals",
+          "citation": "Wisconsin Court Of Appeals Case 2022ap001812 (2023)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "dcf"
+          ],
+          "child_welfare_reason": "High: DCFS"
+        },
+        {
+          "case_id": "2024ap001166",
+          "title": "Jackson County DHS v. A. M. N.",
+          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2025/2024ap001166.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Wisconsin Court Of Appeals Case 2024ap001166 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: DHS"
+        },
+        {
+          "case_id": "2024ap001459",
+          "title": "Jane Doe v. Jay C. Lick, D.O.",
+          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2025/2024ap001459.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Wisconsin Court Of Appeals Case 2024ap001459 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Jane Doe, Doe plaintiff"
+        },
+        {
+          "case_id": "2024ap000553",
+          "title": "Fond du Lac County DSS v. T. P. W., Jr",
+          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2024/2024ap000553.html",
+          "year": 2024,
+          "court": "Court Of Appeals",
+          "citation": "Wisconsin Court Of Appeals Case 2024ap000553 (2024)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: DSS"
+        },
+        {
+          "case_id": "2024ap000733-0",
+          "title": "Waushara County DHS v. A. M. S.",
+          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2024/2024ap000733-0.html",
+          "year": 2024,
+          "court": "Court Of Appeals",
+          "citation": "Wisconsin Court Of Appeals Case 2024ap000733-0 (2024)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: DHS"
+        },
+        {
+          "case_id": "2024ap000733",
+          "title": "Waushara County DHS v. A. M. S.",
+          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2024/2024ap000733.html",
+          "year": 2024,
+          "court": "Court Of Appeals",
+          "citation": "Wisconsin Court Of Appeals Case 2024ap000733 (2024)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: DHS"
+        },
+        {
+          "case_id": "2024ap000081",
+          "title": "Winnebago County DHS v. C. R. Q., II",
+          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2024/2024ap000081.html",
+          "year": 2024,
+          "court": "Court Of Appeals",
+          "citation": "Wisconsin Court Of Appeals Case 2024ap000081 (2024)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: DHS"
+        },
+        {
+          "case_id": "2023ap001496",
+          "title": "Jackson County DHS v. I. J. R.",
+          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2024/2023ap001496.html",
+          "year": 2024,
+          "court": "Court Of Appeals",
+          "citation": "Wisconsin Court Of Appeals Case 2023ap001496 (2024)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: DHS"
+        },
+        {
+          "case_id": "2023ap001947",
+          "title": "Dane County DHS v. J. K.",
+          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2024/2023ap001947.html",
+          "year": 2024,
+          "court": "Court Of Appeals",
+          "citation": "Wisconsin Court Of Appeals Case 2023ap001947 (2024)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: DHS"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Department of Children and Families",
+    "acronym": "DCF",
+    "hotline": "1-800-422-4453",
+    "website": "https://legis.wisconsin.gov"
+  },
+  "icwa_compliant": true,
+  "icwa_details": {
+    "active_efforts": true,
+    "tribal_notification": true
+  },
+  "linked_decision": "DEC-04",
+  "linked_input": "INP-01",
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.843007",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.865948",
+    "schema_version": "3.0.0",
+    "trigger_name_fixed": "2025-12-22T22:53:02.458640",
+    "leaves_linked": "2025-12-24T18:14:22.681353+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "preponderance",
+    "who_bears_burden": "agency",
+    "common_failures": [
+      "Inadequate safety planning",
+      "Failure to consider less restrictive alternatives",
+      "Insufficient reasonable efforts documentation"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Emergency removal hearing",
+      "deadline": "24-72 hours",
+      "starts_from": "Child removed",
+      "source": "state_statute",
+      "consequence_of_miss": "Constitutional violation, case dismissal"
+    },
+    {
+      "requirement_name": "Case plan development",
+      "deadline": "30-60 days",
+      "starts_from": "Court jurisdiction",
+      "source": "federal_statute",
+      "consequence_of_miss": "IV-E funding penalty"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian",
+        "child_over_12",
+        "tribe"
+      ],
+      "method": "personal_service",
+      "timing": "Before court hearing",
+      "content_required": [
+        "Hearing date",
+        "Allegations",
+        "Right to counsel"
+      ],
+      "defective_notice_consequence": "Hearing must be continued"
+    }
+  ],
+  "door_scenarios": [
+    {
+      "who_at_door": [
+        "caseworker",
+        "law_enforcement"
+      ],
+      "trigger_reason": "Emergency removal attempt",
+      "legal_authority_to_enter": "exigent_circumstances",
+      "parent_rights_at_moment": [
+        "Demand to see court order",
+        "Right to know where child is going",
+        "Right to attorney",
+        "Right to hearing within 24-72 hours"
+      ],
+      "what_to_say": [
+        "Do you have a court order for removal?",
+        "What is the specific imminent danger?",
+        "Where are you taking my child?",
+        "I want my attorney present"
+      ],
+      "what_not_to_do": [
+        "Do not physically interfere with lawful removal",
+        "Do not flee with child",
+        "Do not make threats"
+      ],
+      "next_possible_nodes": [
+        "OUT-01",
+        "FAIL-02"
+      ]
+    }
+  ]
+}

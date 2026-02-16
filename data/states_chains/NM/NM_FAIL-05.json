@@ -1,0 +1,356 @@
+{
+  "node_id": "NM_FAIL-05",
+  "state": "NM",
+  "state_name": "New Mexico",
+  "node_family": "FAIL",
+  "subnode": "FAIL-05",
+  "trigger_name": "Discrimination / Retaliation",
+  "summary_html": "Agency or actor engages in **discriminatory or retaliatory action**, violating civil-rights or placement-equality provisions. Federal statutes prohibit race, religion, sex, or disability bias in placements or investigations.",
+  "authority_html": "- **Multiethnic Placement Act (MEPA) & Interethnic Adoption Provisions (IEP)** \u2014 prohibits race/ethnicity discrimination in placements  \n- **Civil Rights Act (42 U.S.C. \u00a7 2000d)** \u2014 Title VI discrimination prohibitions in federally funded programs",
+  "icon": "\ud83d\udeab",
+  "theme_color": "#800080",
+  "domain": "civil",
+  "procedural_weight": 0.75,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "MEPA_PLAW": "https://www.congress.gov/103/plaws/publ382/PLAW-103publ382.pdf",
+    "CivilRights_Cornell": "https://www.law.cornell.edu/uscode/text/42/2000d"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "Public Law 103-382 (MEPA/IEP)",
+        "42 U.S.C. \u00a7 2000d (Title VI Civil Rights Act)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "New Mexico - Chapter 32A, Article 4 (Child Abuse and Neglect Act \u2013 mandatory reporting and custody)",
+          "source_url": "https://www.nmlegis.gov",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22"
+        },
+        {
+          "citation_text": "Title 27: Human Services Department - CYFD",
+          "source_url": "https://law.justia.com/codes/new-mexico/title-27/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 40: Domestic Affairs",
+          "source_url": "https://law.justia.com/codes/new-mexico/title-40/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Title 8 - SOCIAL SERVICES",
+          "url": "https://www.law.cornell.edu/regulations/new-mexico/title-8"
+        },
+        {
+          "title": "New-Mexico Administrative Regulations",
+          "url": "https://regulations.justia.com/states/new-mexico/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "New-Mexico Administrative Rule Title 1",
+          "url": "https://regulations.justia.com/states/new-mexico/title-1/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "New-Mexico Administrative Rule Title 2",
+          "url": "https://regulations.justia.com/states/new-mexico/title-2/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "New-Mexico Administrative Rule Title 3",
+          "url": "https://regulations.justia.com/states/new-mexico/title-3/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "New-Mexico Administrative Rule Title 4",
+          "url": "https://regulations.justia.com/states/new-mexico/title-4/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "New-Mexico Administrative Rule Title 5",
+          "url": "https://regulations.justia.com/states/new-mexico/title-5/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "New-Mexico Administrative Rule Title 6",
+          "url": "https://regulations.justia.com/states/new-mexico/title-6/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "New-Mexico Administrative Rule Title 7",
+          "url": "https://regulations.justia.com/states/new-mexico/title-7/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "New-Mexico Administrative Rule Title 8",
+          "url": "https://regulations.justia.com/states/new-mexico/title-8/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "New-Mexico Administrative Rule Title 9",
+          "url": "https://regulations.justia.com/states/new-mexico/title-9/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/new-mexico.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_NM",
+      "plane_file": "legal_planes/state_constitutional/NM_constitution.json",
+      "provisions_triggered": []
+    },
+    "case_law": {
+      "search_keywords": [
+        "New Mexico Children Youth and Families Department",
+        "CYFD",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22New%20Mexico%22%20AND%20%28%22New%20Mexico%20Children%20Youth%20and%20Families%20Department%22%20OR%20%22CYFD%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "wrongful removal",
+        "1983 claim",
+        "civil rights",
+        "immunity",
+        "damages"
+      ],
+      "jurisdiction": "New Mexico state courts",
+      "key_cases": [
+        {
+          "case_id": "s-1-sc-40711",
+          "title": "In re Rael (Unpublished Opinion)",
+          "url": "https://law.justia.com/cases/new-mexico/supreme-court/2025/s-1-sc-40711.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "New Mexico Supreme Court Case s-1-sc-40711 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "s-1-sc-40571",
+          "title": "In re Valdez (Unpublished Opinion)",
+          "url": "https://law.justia.com/cases/new-mexico/supreme-court/2025/s-1-sc-40571.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "New Mexico Supreme Court Case s-1-sc-40571 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "a-1-ca-41980",
+          "title": "In re Guardianship & Conservatorship of Linda D. (Unpublished Opinion)",
+          "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2025/a-1-ca-41980.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "New Mexico Court Of Appeals Case a-1-ca-41980 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re guardianship, In re"
+        },
+        {
+          "case_id": "a-1-ca-41751",
+          "title": "In re Estate of Sanchez (Unpublished Opinion)",
+          "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2025/a-1-ca-41751.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "New Mexico Court Of Appeals Case a-1-ca-41751 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "a-1-ca-42499",
+          "title": "In re Estate of Carr (Unpublished Opinion)",
+          "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2025/a-1-ca-42499.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "New Mexico Court Of Appeals Case a-1-ca-42499 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "a-1-ca-40832",
+          "title": "In re Maestas (Unpublished Opinion)",
+          "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2025/a-1-ca-40832.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "New Mexico Court Of Appeals Case a-1-ca-40832 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "a-1-ca-41794",
+          "title": "In re Dissolution of ROI Enters., LLC (Unpublished Opinion)",
+          "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2025/a-1-ca-41794.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "New Mexico Court Of Appeals Case a-1-ca-41794 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "a-1-ca-41644",
+          "title": "In re Estate of Chavez (Unpublished Opinion)",
+          "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2025/a-1-ca-41644.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "New Mexico Court Of Appeals Case a-1-ca-41644 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "a-1-ca-42410",
+          "title": "In re Estate of Groves (Unpublished Opinion)",
+          "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2025/a-1-ca-42410.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "New Mexico Court Of Appeals Case a-1-ca-42410 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "a-1-ca-42477",
+          "title": "In re Guardianship of Kenya A.C. (Unpublished Opinion)",
+          "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2025/a-1-ca-42477.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "New Mexico Court Of Appeals Case a-1-ca-42477 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re guardianship, In re"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Children, Youth and Families Department",
+    "acronym": "CYFD",
+    "hotline": "1-855-333-7233",
+    "website": "https://www.nmlegis.gov"
+  },
+  "linked_output": "OUT-02",
+  "linked_action": "ACT-04",
+  "linked_decision": "DEC-04",
+  "linked_input": "INP-01",
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.798009",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.743613",
+    "schema_version": "3.0.0",
+    "trigger_name_fixed": "2025-12-22T22:53:02.393699",
+    "leaves_linked": "2025-12-24T18:14:22.103746+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "preponderance",
+    "who_bears_burden": "parent",
+    "common_failures": [
+      "Failure to preserve evidence",
+      "Missing deadlines for legal challenges",
+      "Inadequate documentation of violations"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Appeal deadline",
+      "deadline": "30 days",
+      "starts_from": "Final order",
+      "source": "court_rule",
+      "consequence_of_miss": "Loss of appeal rights"
+    },
+    {
+      "requirement_name": "1983 statute of limitations",
+      "deadline": "2-3 years",
+      "starts_from": "Violation occurred",
+      "source": "federal_statute",
+      "consequence_of_miss": "Claim barred"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "attorney"
+      ],
+      "method": "personal_service",
+      "timing": "Upon violation discovery",
+      "content_required": [
+        "Nature of violation",
+        "Remedies available"
+      ],
+      "defective_notice_consequence": "May extend statute of limitations"
+    }
+  ]
+}

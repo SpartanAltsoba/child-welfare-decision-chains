@@ -1,0 +1,319 @@
+{
+  "node_id": "KS_OUT-06",
+  "state": "KS",
+  "state_name": "Kansas",
+  "node_family": "OUT",
+  "subnode": "OUT-06",
+  "trigger_name": "Child Fatality / Serious Injury",
+  "summary_html": "Case results in **child fatality or serious injury**, triggering mandatory federal and state review. Data and lessons inform systemic reform.",
+  "authority_html": "- **Protect Our Kids Act (PL 112-275)** \u2014 establishes national commission and reporting requirements  \n- **CAPTA \u00a75106a(b)(2)(A)(x)** \u2014 mandates public disclosure and case review of fatalities",
+  "icon": "\u26b0\ufe0f",
+  "theme_color": "#B22222",
+  "domain": "civil",
+  "procedural_weight": 0.3,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "POKA_PLAW": "https://www.congress.gov/112/plaws/publ275/PLAW-112publ275.pdf",
+    "CAPTA_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-67"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "Public Law 112-275 (Protect Our Kids Act)",
+        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Kansas - Chapter 38, Article 22 (Kansas Child in Need of Care Code \u2013 mandatory reporting \u00a7 38-2223)",
+          "source_url": "https://www.kslegislature.org",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22"
+        },
+        {
+          "citation_text": "Title 23: Marriage and Domestic Relations",
+          "source_url": "https://law.justia.com/codes/kansas/title-23/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 38: Minors - CHILD WELFARE PRIMARY",
+          "source_url": "https://law.justia.com/codes/kansas/title-38/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 65: Public Health - Child Abuse Reporting",
+          "source_url": "https://law.justia.com/codes/kansas/title-65/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Agency 30 - KANSAS DEPARTMENT FOR CHILDREN AND FAMILIES",
+          "url": "https://www.law.cornell.edu/regulations/kansas/agency-30"
+        },
+        {
+          "title": "Agency 123 - JUVENILE JUSTICE AUTHORITY",
+          "url": "https://www.law.cornell.edu/regulations/kansas/agency-123"
+        },
+        {
+          "title": "Agency 124 - CHILD DEATH REVIEW BOARD",
+          "url": "https://www.law.cornell.edu/regulations/kansas/agency-124"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/kansas.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_KS",
+      "plane_file": "legal_planes/state_constitutional/KS_constitution.json",
+      "provisions_triggered": []
+    },
+    "case_law": {
+      "search_keywords": [
+        "Kansas Department for Children and Families",
+        "DCF",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Kansas%22%20AND%20%28%22Kansas%20Department%20for%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "termination of parental rights",
+        "TPR",
+        "adoption",
+        "permanency",
+        "aging out"
+      ],
+      "jurisdiction": "Kansas state courts",
+      "key_cases": [
+        {
+          "case_id": "128197",
+          "title": "In re Adoption of Baby Boy S.",
+          "url": "https://law.justia.com/cases/kansas/court-of-appeals/2025/128197.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Kansas Court Of Appeals Case 128197 (2025)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "adoption"
+          ],
+          "child_welfare_reason": "High: In re adoption, In re"
+        },
+        {
+          "case_id": "128124",
+          "title": "In re Adoption of M.B.",
+          "url": "https://law.justia.com/cases/kansas/court-of-appeals/2025/128124.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Kansas Court Of Appeals Case 128124 (2025)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "adoption"
+          ],
+          "child_welfare_reason": "High: In re adoption, In re"
+        },
+        {
+          "case_id": "127484",
+          "title": "In re Adoption of E.R.K.",
+          "url": "https://law.justia.com/cases/kansas/court-of-appeals/2025/127484.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Kansas Court Of Appeals Case 127484 (2025)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "adoption"
+          ],
+          "child_welfare_reason": "High: In re adoption, In re"
+        },
+        {
+          "case_id": "128193",
+          "title": "In re Adoption of D.A., D.A., and Y.A.",
+          "url": "https://law.justia.com/cases/kansas/court-of-appeals/2025/128193.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Kansas Court Of Appeals Case 128193 (2025)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "adoption"
+          ],
+          "child_welfare_reason": "High: In re adoption, In re"
+        },
+        {
+          "case_id": "121051",
+          "title": "In re Adoption of Baby Girl G.",
+          "url": "https://law.justia.com/cases/kansas/supreme-court/2020/121051.html",
+          "year": 2020,
+          "court": "Supreme Court",
+          "citation": "Kansas Supreme Court Case 121051 (2020)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "adoption"
+          ],
+          "child_welfare_reason": "High: In re adoption, In re"
+        },
+        {
+          "case_id": "119012",
+          "title": "In re Mason",
+          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/119012.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kansas Supreme Court Case 119012 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "129013",
+          "title": "In re Wagle",
+          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/129013.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kansas Supreme Court Case 129013 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "20346",
+          "title": "In re Holmes",
+          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/20346.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kansas Supreme Court Case 20346 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "13805",
+          "title": "In re Peterson, II",
+          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/13805.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kansas Supreme Court Case 13805 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "118723",
+          "title": "In re Sullivan",
+          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/118723.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kansas Supreme Court Case 118723 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Department for Children and Families",
+    "acronym": "DCF",
+    "hotline": "1-800-922-5330",
+    "website": "https://www.kslegislature.org"
+  },
+  "extended_foster_care": true,
+  "extended_foster_care_age": "Up to age 21 (until 21st birthday)",
+  "linked_action": "ACT-03",
+  "linked_decision": "DEC-04",
+  "linked_input": "INP-01",
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.752904",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.620355",
+    "schema_version": "3.0.0",
+    "trigger_name_fixed": "2025-12-22T22:53:02.327302",
+    "leaves_linked": "2025-12-24T18:14:21.470332+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "clear_and_convincing",
+    "who_bears_burden": "state",
+    "common_failures": [
+      "Insufficient evidence for TPR",
+      "Failure to prove unfitness by clear and convincing evidence",
+      "Santosky v. Kramer standard not met"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Permanency hearing",
+      "deadline": "12 months",
+      "starts_from": "Child enters care",
+      "source": "federal_statute",
+      "consequence_of_miss": "ASFA violation"
+    },
+    {
+      "requirement_name": "TPR filing",
+      "deadline": "15 of 22 months",
+      "starts_from": "Child enters care",
+      "source": "federal_statute",
+      "consequence_of_miss": "Must file TPR or document compelling reason"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian",
+        "putative_father",
+        "tribe",
+        "foster_parent"
+      ],
+      "method": "certified_mail",
+      "timing": "10-30 days before TPR hearing",
+      "content_required": [
+        "TPR grounds",
+        "Date/time/location",
+        "Right to counsel"
+      ],
+      "icwa_additional_notice": true,
+      "defective_notice_consequence": "TPR may be vacated"
+    }
+  ]
+}

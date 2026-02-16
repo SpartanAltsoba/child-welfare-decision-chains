@@ -1,0 +1,399 @@
+{
+  "plane_id": "state_constitutional_TX",
+  "plane_name": "Texas State Constitutional Plane",
+  "description": "Texas Constitution provisions relevant to child welfare and family rights.",
+  "authority_level": "state_supreme",
+  "state_code": "TX",
+  "state_name": "Texas",
+  "version": "1.0.0",
+  "created": "2025-12-22",
+  "updated": "2025-12-22",
+  "copyright": "Project Milk Carton 501(c)(3) - All Rights Reserved",
+  "constitution_source": {
+    "url": "https://statutes.capitol.texas.gov/Docs/CN/htm/CN.1.htm",
+    "justia_url": "https://law.justia.com/constitution/texas/",
+    "official_name": "Texas Constitution",
+    "last_amended": "2023-11-07",
+    "last_verified": "2025-12-22"
+  },
+  "relationship_to_federal": {
+    "supremacy_clause_applies": true,
+    "can_provide_greater_protection": true,
+    "cannot_provide_less_protection": true
+  },
+  "relevant_provisions": [
+    {
+      "provision_id": "TX_CONST_SEARCH_SEIZURE",
+      "name": "Search and Seizure",
+      "article": "Article I",
+      "section": "Section 9",
+      "url": "https://law.justia.com/constitution/texas/#section-9",
+      "citation": "Texas Const. art. I, \u00a7 9",
+      "text": "The people shall be secure in their persons, houses, papers and possessions, from all unreasonable seizures or searches...",
+      "application_to_cps": "CPS removal of a child constitutes a seizure. Warrantless removals must meet exigent circumstances exception or be supported by court order.",
+      "federal_parallel": "U.S. Const. amend. IV",
+      "state_provides_greater_protection": false,
+      "key_cases": [],
+      "triggers_at_nodes": [
+        "INP-12",
+        "DEC-04",
+        "ACT-01",
+        "FAIL-01"
+      ]
+    },
+    {
+      "provision_id": "TX_CONST_DUE_PROCESS",
+      "name": "Due Process / Law of the Land",
+      "article": "Article I",
+      "section": "Section 19",
+      "url": "https://law.justia.com/constitution/texas/#section-19",
+      "citation": "Texas Const. art. I, \u00a7 19",
+      "text": "No citizen of this State shall be deprived of life, liberty, property, privileges or immunities, or in any manner disfranchised, except by the due course of the law of the land.",
+      "application_to_cps": "Parents have a fundamental liberty interest in the care and custody of their children. Termination of parental rights requires clear and convincing evidence and proper procedural protections.",
+      "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1",
+      "state_provides_greater_protection": false,
+      "key_cases": [
+        {
+          "case_id": "25-0307",
+          "title": "IN RE S.G. AND D.G.; from Denton County; 2nd Court of Appeals District (02-25-00044-CV, ___ SW3d ___, 03-14-25) (Concurring)",
+          "url": "https://law.justia.com/cases/texas/supreme-court/2025/25-0307.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Texas Supreme Court Case 25-0307 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "23-0965-0",
+          "title": "IN THE INTEREST OF N.L.S. AND E.J.C. A/K/A E.J.C., CHILDREN; from Brazoria County; 1st Court of Appeals District (01-23-00297-CV, ___ SW3d ___, 10-12-23) (Dissenting)",
+          "url": "https://law.justia.com/cases/texas/supreme-court/2025/23-0965-0.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Texas Supreme Court Case 23-0965-0 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re interest, Interest of initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "23-0965",
+          "title": "IN THE INTEREST OF N.L.S. AND E.J.C. A/K/A E.J.C., CHILDREN; from Brazoria County; 1st Court of Appeals District (01-23-00297-CV, ___ SW3d ___, 10-12-23) (Per Curiam)",
+          "url": "https://law.justia.com/cases/texas/supreme-court/2025/23-0965.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Texas Supreme Court Case 23-0965 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re interest, Interest of initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "22-0186",
+          "title": "CITY OF KILLEEN \u00e2\u20ac\u201c KILLEEN POLICE DEPARTMENT v. AAMIR TERRY, INDIVIDUALLY, AND A/N/F TO A.T., MINOR CHILD; from Bell County; 3rd Court of Appeals District (03-20-00071-CV, ___ SW3d ___, 01-26-22) (Per Curiam)",
+          "url": "https://law.justia.com/cases/texas/supreme-court/2025/22-0186.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Texas Supreme Court Case 22-0186 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "Medium: minor child",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "23-0463-0",
+          "title": "IN THE MATTER OF THE MARRIAGE OF CARLOS Y. BENAVIDES, JR. AND LETICIA R. BENAVIDES; from Webb County; 4th Court of Appeals District (04-20-00599-CV, 692 SW3d 526, 02-08-23) (Concurring)",
+          "url": "https://law.justia.com/cases/texas/supreme-court/2025/23-0463-0.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Texas Supreme Court Case 23-0463-0 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Matter of",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "23-0463",
+          "title": "IN THE MATTER OF THE MARRIAGE OF BENAVIDES (Opinion)",
+          "url": "https://law.justia.com/cases/texas/supreme-court/2025/23-0463.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Texas Supreme Court Case 23-0463 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Matter of",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "23-1028",
+          "title": "IN THE MATTER OF J.J.T. (Opinion)",
+          "url": "https://law.justia.com/cases/texas/supreme-court/2025/23-1028.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Texas Supreme Court Case 23-1028 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Matter of initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "24-0267",
+          "title": "In re C.K.M. (Per Curiam)",
+          "url": "https://law.justia.com/cases/texas/supreme-court/2025/24-0267.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Texas Supreme Court Case 24-0267 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "22-0787",
+          "title": "IN RE J.Y.O. (Opinion)",
+          "url": "https://law.justia.com/cases/texas/supreme-court/2024/22-0787.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Texas Supreme Court Case 22-0787 (2024)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "23-0281",
+          "title": "IN THE INTEREST OF J.O.L. AND I.C.L., CHILDREN; from Maverick County; 4th Court of Appeals District (04-21-00495-CV, 668 SW3d 160, 03-01-23) (Concurring)",
+          "url": "https://law.justia.com/cases/texas/supreme-court/2024/23-0281.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Texas Supreme Court Case 23-0281 (2024)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re interest, Interest of initials",
+          "provision_match": "DUE_PROCESS"
+        }
+      ],
+      "triggers_at_nodes": [
+        "DEC-05",
+        "DEC-06",
+        "ACT-04",
+        "OUT-02",
+        "OUT-03"
+      ]
+    }
+  ],
+  "unique_state_protections": [],
+  "case_law_search_keywords": [
+    "Texas Department of Family and Protective Services",
+    "DFPS",
+    "CPS",
+    "due process",
+    "14th Amendment",
+    "42 U.S.C. 1983",
+    "reasonable efforts",
+    "reunification",
+    "emergency removal",
+    "wrongful removal",
+    "exigent circumstances",
+    "abuse",
+    "familial association"
+  ],
+  "state_supreme_court_cps_cases": [
+    {
+      "case_id": "25-0307",
+      "title": "IN RE S.G. AND D.G.; from Denton County; 2nd Court of Appeals District (02-25-00044-CV, ___ SW3d ___, 03-14-25) (Concurring)",
+      "url": "https://law.justia.com/cases/texas/supreme-court/2025/25-0307.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Texas Supreme Court Case 25-0307 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "23-0965-0",
+      "title": "IN THE INTEREST OF N.L.S. AND E.J.C. A/K/A E.J.C., CHILDREN; from Brazoria County; 1st Court of Appeals District (01-23-00297-CV, ___ SW3d ___, 10-12-23) (Dissenting)",
+      "url": "https://law.justia.com/cases/texas/supreme-court/2025/23-0965-0.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Texas Supreme Court Case 23-0965-0 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re interest, Interest of initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "23-0965",
+      "title": "IN THE INTEREST OF N.L.S. AND E.J.C. A/K/A E.J.C., CHILDREN; from Brazoria County; 1st Court of Appeals District (01-23-00297-CV, ___ SW3d ___, 10-12-23) (Per Curiam)",
+      "url": "https://law.justia.com/cases/texas/supreme-court/2025/23-0965.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Texas Supreme Court Case 23-0965 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re interest, Interest of initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "22-0186",
+      "title": "CITY OF KILLEEN \u00e2\u20ac\u201c KILLEEN POLICE DEPARTMENT v. AAMIR TERRY, INDIVIDUALLY, AND A/N/F TO A.T., MINOR CHILD; from Bell County; 3rd Court of Appeals District (03-20-00071-CV, ___ SW3d ___, 01-26-22) (Per Curiam)",
+      "url": "https://law.justia.com/cases/texas/supreme-court/2025/22-0186.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Texas Supreme Court Case 22-0186 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "Medium: minor child",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "23-0463-0",
+      "title": "IN THE MATTER OF THE MARRIAGE OF CARLOS Y. BENAVIDES, JR. AND LETICIA R. BENAVIDES; from Webb County; 4th Court of Appeals District (04-20-00599-CV, 692 SW3d 526, 02-08-23) (Concurring)",
+      "url": "https://law.justia.com/cases/texas/supreme-court/2025/23-0463-0.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Texas Supreme Court Case 23-0463-0 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Matter of",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "23-0463",
+      "title": "IN THE MATTER OF THE MARRIAGE OF BENAVIDES (Opinion)",
+      "url": "https://law.justia.com/cases/texas/supreme-court/2025/23-0463.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Texas Supreme Court Case 23-0463 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Matter of",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "23-1028",
+      "title": "IN THE MATTER OF J.J.T. (Opinion)",
+      "url": "https://law.justia.com/cases/texas/supreme-court/2025/23-1028.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Texas Supreme Court Case 23-1028 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Matter of initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "24-0267",
+      "title": "In re C.K.M. (Per Curiam)",
+      "url": "https://law.justia.com/cases/texas/supreme-court/2025/24-0267.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Texas Supreme Court Case 24-0267 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "22-0787",
+      "title": "IN RE J.Y.O. (Opinion)",
+      "url": "https://law.justia.com/cases/texas/supreme-court/2024/22-0787.html",
+      "year": 2024,
+      "court": "Supreme Court",
+      "citation": "Texas Supreme Court Case 22-0787 (2024)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "23-0281",
+      "title": "IN THE INTEREST OF J.O.L. AND I.C.L., CHILDREN; from Maverick County; 4th Court of Appeals District (04-21-00495-CV, 668 SW3d 160, 03-01-23) (Concurring)",
+      "url": "https://law.justia.com/cases/texas/supreme-court/2024/23-0281.html",
+      "year": 2024,
+      "court": "Supreme Court",
+      "citation": "Texas Supreme Court Case 23-0281 (2024)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re interest, Interest of initials",
+      "provision_match": "DUE_PROCESS"
+    }
+  ],
+  "procedural_weight_modifiers": {
+    "explicit_privacy_right": 0,
+    "note": "Modifiers adjust procedural_weight for state nodes based on enhanced protections"
+  },
+  "_metadata": {
+    "created": "2025-12-22T20:38:16.838214",
+    "source": "state_constitution_etl",
+    "data_sources": [
+      "justia",
+      "state_legislature",
+      "courtlistener_keywords"
+    ],
+    "requires_case_law_enrichment": false,
+    "case_law_enriched": "2025-12-24T20:37:16.030521+00:00",
+    "enricher_version": "1.0.0",
+    "cases_analyzed": 267,
+    "cases_linked": 10
+  },
+  "case_law_search": {
+    "search_keywords": [
+      "Texas Department of Family and Protective Services",
+      "DFPS",
+      "CPS",
+      "due process",
+      "14th Amendment",
+      "42 U.S.C. 1983",
+      "reasonable efforts",
+      "reunification",
+      "emergency removal",
+      "wrongful removal"
+    ],
+    "courtlistener_url": "https://www.courtlistener.com/?q=%22Texas%22%20AND%20%28%22Texas%20Department%20of%20Family%20and%20Protective%20Services%22%20OR%20%22DFPS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
+    "supreme_court_focus": true,
+    "_note": "Search for state supreme court cases on CPS constitutional issues"
+  }
+}

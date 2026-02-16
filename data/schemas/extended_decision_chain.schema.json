@@ -1,0 +1,1020 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://projectmilkcarton.org/schema/extended_decision_chain.schema.json",
+  "title": "Extended Decision Chain Schema v3.0",
+  "description": "Complete multi-layer decision chain schema for child welfare jurisdiction analysis. Includes burden of proof, timelines, violation consequences, preemption, funding tracking, LEAF tool calls, notice requirements, and door scenarios. Proprietary methodology of Project Milk Carton 501(c)(3).",
+  "version": "3.0.0",
+  "created": "2025-12-22",
+  "updated": "2025-12-22",
+  "copyright": "Project Milk Carton 501(c)(3) - All Rights Reserved",
+
+  "definitions": {
+
+    "citation": {
+      "type": "object",
+      "description": "A verifiable legal citation with source URL",
+      "required": ["citation_text", "source_url", "authority_type"],
+      "properties": {
+        "citation_text": {
+          "type": "string",
+          "description": "Full legal citation (e.g., 'Tex. Fam. Code § 261.101')"
+        },
+        "source_url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Direct URL to official source (must be .gov or recognized legal database)"
+        },
+        "authority_type": {
+          "type": "string",
+          "enum": ["constitution", "federal_statute", "state_statute", "admin_rule", "case_law", "policy", "compact"],
+          "description": "Type of legal authority"
+        },
+        "last_verified": {
+          "type": "string",
+          "format": "date",
+          "description": "Date this URL was last verified as working"
+        },
+        "effective_date": {
+          "type": "string",
+          "format": "date",
+          "description": "When this law/rule became effective"
+        },
+        "last_amended": {
+          "type": "string",
+          "format": "date",
+          "description": "Most recent amendment date"
+        }
+      }
+    },
+
+    "case_law_reference": {
+      "type": "object",
+      "description": "A court case that interprets or applies the law",
+      "required": ["case_name", "citation", "court", "year"],
+      "properties": {
+        "case_name": {
+          "type": "string",
+          "description": "Case name (e.g., 'Santosky v. Kramer')"
+        },
+        "citation": {
+          "type": "string",
+          "description": "Legal citation (e.g., '455 U.S. 745 (1982)')"
+        },
+        "court": {
+          "type": "string",
+          "description": "Court that issued the decision"
+        },
+        "year": {
+          "type": "integer",
+          "description": "Year of decision"
+        },
+        "holding": {
+          "type": "string",
+          "description": "Brief statement of the court's holding"
+        },
+        "relevance": {
+          "type": "string",
+          "description": "Why this case matters for this node"
+        },
+        "courtlistener_url": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL to full opinion on CourtListener"
+        },
+        "google_scholar_url": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL to case on Google Scholar"
+        }
+      }
+    },
+
+    "actor_role": {
+      "type": "object",
+      "description": "A role/actor involved at this decision point",
+      "required": ["role_name", "authority_source"],
+      "properties": {
+        "role_name": {
+          "type": "string",
+          "enum": ["caseworker", "supervisor", "investigator", "judge", "magistrate", "prosecutor", "defense_attorney", "parent_attorney", "GAL", "CASA", "foster_parent", "kinship_caregiver", "service_provider", "reporter", "child"],
+          "description": "The actor's role"
+        },
+        "authority_source": {
+          "type": "string",
+          "description": "What statute/rule grants this role authority"
+        },
+        "responsibilities": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "What this actor must do at this node"
+        },
+        "decision_power": {
+          "type": "string",
+          "enum": ["binding", "advisory", "recommendation", "none"],
+          "description": "Level of decision-making authority"
+        },
+        "accountability_mechanism": {
+          "type": "string",
+          "description": "How this actor is held accountable"
+        }
+      }
+    },
+
+    "cross_reference": {
+      "type": "object",
+      "description": "Link to another node in the decision chain",
+      "required": ["target_node", "relationship"],
+      "properties": {
+        "target_node": {
+          "type": "string",
+          "pattern": "^[A-Z]+-[0-9]{2}$",
+          "description": "Target node ID (e.g., 'DEC-02')"
+        },
+        "relationship": {
+          "type": "string",
+          "enum": ["triggers", "requires", "may_lead_to", "blocks", "appeals_to", "overseen_by", "parallel"],
+          "description": "How this node relates to target"
+        },
+        "condition": {
+          "type": "string",
+          "description": "Under what conditions this transition occurs"
+        },
+        "typical_timeframe": {
+          "type": "string",
+          "description": "Typical time between this node and target"
+        }
+      }
+    },
+
+    "outcome_metric": {
+      "type": "object",
+      "description": "Measurable outcome associated with this node",
+      "properties": {
+        "metric_name": {
+          "type": "string",
+          "description": "Name of the metric"
+        },
+        "data_source": {
+          "type": "string",
+          "enum": ["CFSR", "AFCARS", "NCANDS", "SCAN", "state_audit", "local_data"],
+          "description": "Where this data comes from"
+        },
+        "cfsr_item": {
+          "type": "string",
+          "description": "CFSR item number if applicable (e.g., 'Item 1')"
+        },
+        "scan_variable": {
+          "type": "string",
+          "description": "SCAN database variable name if applicable"
+        },
+        "state_value": {
+          "type": "string",
+          "description": "This state's value/score"
+        },
+        "national_average": {
+          "type": "string",
+          "description": "National average for comparison"
+        }
+      }
+    },
+
+    "burden_of_proof": {
+      "type": "object",
+      "description": "Evidentiary standard required at this decision point - THE GATEKEEPER",
+      "required": ["standard", "who_bears_burden"],
+      "properties": {
+        "standard": {
+          "type": "string",
+          "enum": [
+            "reasonable_suspicion",
+            "probable_cause",
+            "exigent_circumstances",
+            "prima_facie",
+            "preponderance",
+            "clear_and_convincing",
+            "beyond_reasonable_doubt"
+          ],
+          "description": "Legal standard of proof required"
+        },
+        "who_bears_burden": {
+          "type": "string",
+          "enum": ["agency", "parent", "state", "petitioner"],
+          "description": "Party that must prove the case"
+        },
+        "statutory_basis": {
+          "$ref": "#/definitions/citation",
+          "description": "Where this standard is codified"
+        },
+        "constitutional_floor": {
+          "type": "string",
+          "description": "Minimum standard required by Constitution (e.g., Santosky for TPR)"
+        },
+        "key_case": {
+          "$ref": "#/definitions/case_law_reference",
+          "description": "Controlling case establishing this standard"
+        },
+        "common_failures": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "How agencies commonly fail to meet this standard"
+        }
+      }
+    },
+
+    "civil_jurisdiction_framework": {
+      "type": "object",
+      "description": "State's civil framework for child welfare - CHINS/PINS/FINS/dependency",
+      "properties": {
+        "framework_type": {
+          "type": "string",
+          "enum": ["CHINS", "PINS", "FINS", "dependency", "neglect_abuse", "unified"],
+          "description": "Type of civil jurisdiction used by state"
+        },
+        "framework_name": {
+          "type": "string",
+          "description": "Full name (e.g., 'Child in Need of Services')"
+        },
+        "statutory_chapter": {
+          "$ref": "#/definitions/citation",
+          "description": "Primary code chapter for this framework"
+        },
+        "definitions_apply": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Key definitions from this framework that apply at this node"
+        },
+        "procedural_track": {
+          "type": "string",
+          "enum": ["family_court", "juvenile_court", "district_court", "superior_court"],
+          "description": "Court that handles this type of case"
+        }
+      }
+    },
+
+    "timeline_requirement": {
+      "type": "object",
+      "description": "A specific timeline/deadline that applies at this node",
+      "required": ["requirement_name", "deadline", "source"],
+      "properties": {
+        "requirement_name": {
+          "type": "string",
+          "description": "Name of the timeline requirement"
+        },
+        "deadline": {
+          "type": "string",
+          "description": "The deadline (e.g., '72 hours', '15 months', 'immediately')"
+        },
+        "starts_from": {
+          "type": "string",
+          "description": "Event that starts the clock (e.g., 'removal', 'petition filed')"
+        },
+        "source": {
+          "type": "string",
+          "enum": ["constitutional", "federal_statute", "state_statute", "admin_rule", "court_rule"],
+          "description": "Source of authority for this deadline"
+        },
+        "citation": {
+          "$ref": "#/definitions/citation"
+        },
+        "consequence_of_miss": {
+          "type": "string",
+          "description": "What happens if deadline is missed"
+        },
+        "extension_allowed": {
+          "type": "boolean",
+          "description": "Can deadline be extended?"
+        },
+        "extension_grounds": {
+          "type": "string",
+          "description": "On what grounds can extension be granted?"
+        }
+      }
+    },
+
+    "violation_consequence": {
+      "type": "object",
+      "description": "What happens when a violation is detected - THE CONSEQUENCE TREE",
+      "required": ["violation_type", "remedies_available"],
+      "properties": {
+        "violation_type": {
+          "type": "string",
+          "enum": [
+            "constitutional",
+            "federal_statutory",
+            "state_statutory",
+            "procedural",
+            "timeline",
+            "notice",
+            "burden_of_proof"
+          ],
+          "description": "Type of violation"
+        },
+        "violation_description": {
+          "type": "string",
+          "description": "What specifically was violated"
+        },
+        "remedies_available": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "remedy_name": {
+                "type": "string",
+                "enum": [
+                  "motion_to_dismiss",
+                  "motion_to_suppress",
+                  "continuance",
+                  "mistrial",
+                  "appeal",
+                  "writ_of_habeas_corpus",
+                  "mandamus",
+                  "section_1983",
+                  "administrative_complaint",
+                  "licensing_complaint",
+                  "title_iv_e_audit_flag"
+                ]
+              },
+              "legal_basis": {"type": "string"},
+              "effectiveness": {"type": "string", "enum": ["high", "medium", "low"]},
+              "timing_window": {"type": "string"},
+              "who_can_file": {"type": "string"}
+            }
+          }
+        },
+        "automatic_consequences": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Consequences that happen automatically (e.g., case dismissed)"
+        },
+        "case_law_supporting": {
+          "type": "array",
+          "items": {"$ref": "#/definitions/case_law_reference"},
+          "description": "Cases where this remedy was granted"
+        }
+      }
+    },
+
+    "preemption_analysis": {
+      "type": "object",
+      "description": "Federal preemption and supremacy analysis",
+      "properties": {
+        "federal_floor": {
+          "type": "string",
+          "description": "Minimum federal requirement"
+        },
+        "state_provision": {
+          "type": "string",
+          "description": "What state law says"
+        },
+        "conflict_exists": {
+          "type": "boolean",
+          "description": "Is there a conflict between federal and state?"
+        },
+        "conflict_type": {
+          "type": "string",
+          "enum": ["express_preemption", "implied_preemption", "conflict_preemption", "field_preemption", "none"],
+          "description": "Type of preemption if conflict exists"
+        },
+        "resolution": {
+          "type": "string",
+          "enum": ["federal_controls", "state_exceeds_federal", "state_below_federal", "no_conflict"],
+          "description": "How the conflict is resolved"
+        },
+        "funding_implications": {
+          "type": "string",
+          "description": "Does this affect Title IV-E or other federal funding?"
+        }
+      }
+    },
+
+    "funding_incentive": {
+      "type": "object",
+      "description": "Financial incentives/disincentives at this node - FOLLOW THE MONEY",
+      "properties": {
+        "title_iv_e_applicable": {
+          "type": "boolean",
+          "description": "Is Title IV-E reimbursement triggered here?"
+        },
+        "reimbursement_rate": {
+          "type": "string",
+          "description": "Federal match rate (e.g., '50%', 'FMAP rate')"
+        },
+        "adoption_incentive_applies": {
+          "type": "boolean",
+          "description": "Does adoption incentive payment apply?"
+        },
+        "incentive_amount": {
+          "type": "string",
+          "description": "Dollar amount of incentive if applicable"
+        },
+        "afcars_penalty_risk": {
+          "type": "boolean",
+          "description": "Could non-compliance trigger AFCARS penalty?"
+        },
+        "cfsr_performance_item": {
+          "type": "string",
+          "description": "Which CFSR item this affects"
+        },
+        "perverse_incentive_warning": {
+          "type": "string",
+          "description": "Does this create incentive against family preservation?"
+        },
+        "funding_sources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "source_name": {"type": "string"},
+              "aln": {"type": "string", "description": "Assistance Listing Number"},
+              "amount_available": {"type": "string"},
+              "match_required": {"type": "string"}
+            }
+          }
+        }
+      }
+    },
+
+    "notice_requirement": {
+      "type": "object",
+      "description": "Due process notice requirements at this node",
+      "required": ["who_must_be_notified", "method", "timing"],
+      "properties": {
+        "who_must_be_notified": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["parent", "legal_guardian", "putative_father", "tribe", "child_over_12", "GAL", "attorney", "foster_parent", "relative_caregiver"]
+          },
+          "description": "Parties entitled to notice"
+        },
+        "method": {
+          "type": "string",
+          "enum": ["personal_service", "certified_mail", "regular_mail", "publication", "any_reasonable"],
+          "description": "How notice must be given"
+        },
+        "timing": {
+          "type": "string",
+          "description": "When notice must be given (e.g., '10 days before hearing')"
+        },
+        "content_required": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "What must be included in the notice"
+        },
+        "language_requirements": {
+          "type": "string",
+          "description": "Language accommodation requirements"
+        },
+        "icwa_additional_notice": {
+          "type": "boolean",
+          "description": "Are ICWA notice requirements triggered?"
+        },
+        "defective_notice_consequence": {
+          "type": "string",
+          "description": "What happens if notice is defective"
+        },
+        "statutory_basis": {
+          "$ref": "#/definitions/citation"
+        }
+      }
+    },
+
+    "leaf_tool_call": {
+      "type": "object",
+      "description": "LEAF database query hook - when ARIA should query real-time data",
+      "required": ["trigger_condition", "database_table"],
+      "properties": {
+        "trigger_condition": {
+          "type": "string",
+          "description": "When this LEAF call should be made (e.g., 'when discussing missing foster children')"
+        },
+        "database_table": {
+          "type": "string",
+          "enum": ["missing_children", "child_crimes", "taggs_fostercare_congressional_districts", "scan_policies", "state_clearinghouses"],
+          "description": "Which CivicOps table to query"
+        },
+        "query_pattern": {
+          "type": "string",
+          "description": "SQL pattern or description of query"
+        },
+        "parameters": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Parameters to pass (e.g., 'state', 'county', 'date_range')"
+        },
+        "response_format": {
+          "type": "string",
+          "description": "How to format the response for the user"
+        },
+        "freshness": {
+          "type": "string",
+          "enum": ["real_time", "daily", "weekly", "static"],
+          "description": "How fresh the data needs to be"
+        }
+      }
+    },
+
+    "door_scenario": {
+      "type": "object",
+      "description": "What happens when CPS shows up - SCENARIO PREDICTION",
+      "properties": {
+        "who_at_door": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["caseworker", "investigator", "supervisor", "law_enforcement", "warrant_officer", "reporter"]
+          },
+          "description": "Who is at the door"
+        },
+        "trigger_reason": {
+          "type": "string",
+          "description": "Why they are there based on this node"
+        },
+        "legal_authority_to_enter": {
+          "type": "string",
+          "enum": ["none_without_consent", "consent_or_warrant", "exigent_circumstances", "court_order"],
+          "description": "What authority do they have to enter"
+        },
+        "parent_rights_at_moment": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "What rights the parent has right now"
+        },
+        "what_to_say": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Recommended statements for parent"
+        },
+        "what_not_to_do": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Actions to avoid"
+        },
+        "next_possible_nodes": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Where this scenario can lead in the decision chain"
+        }
+      }
+    }
+  },
+
+  "type": "object",
+  "required": ["node_id", "state", "node_family", "layers"],
+
+  "properties": {
+
+    "node_id": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}_[A-Z]+-[0-9]{2}$",
+      "description": "Unique node identifier (e.g., 'TX_INP-01')"
+    },
+
+    "state": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}$",
+      "description": "Two-letter state code"
+    },
+
+    "state_name": {
+      "type": "string",
+      "description": "Full state name"
+    },
+
+    "node_family": {
+      "type": "string",
+      "enum": ["INP", "DEC", "ACT", "OUT", "FAIL", "PMC"],
+      "description": "Decision chain family"
+    },
+
+    "subnode": {
+      "type": "string",
+      "pattern": "^[A-Z]+-[0-9]{2}$",
+      "description": "Subnode identifier (e.g., 'INP-01')"
+    },
+
+    "trigger_name": {
+      "type": "string",
+      "description": "Human-readable name for this decision point"
+    },
+
+    "summary": {
+      "type": "string",
+      "description": "Plain-language summary of this decision point"
+    },
+
+    "layers": {
+      "type": "object",
+      "description": "Multi-layer legal authority structure",
+      "required": ["constitutional", "federal", "state_statutory"],
+      "properties": {
+
+        "constitutional": {
+          "type": "object",
+          "description": "Constitutional constraints applicable to this node",
+          "properties": {
+            "constraints_triggered": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "constraint_id": {"type": "string"},
+                  "constraint_name": {"type": "string"},
+                  "amendment": {"type": "string"},
+                  "applicability": {"type": "string"},
+                  "key_cases": {
+                    "type": "array",
+                    "items": {"$ref": "#/definitions/case_law_reference"}
+                  }
+                }
+              }
+            },
+            "alignment": {
+              "type": "string",
+              "enum": ["aligned", "conditional", "tension", "violation"]
+            }
+          }
+        },
+
+        "state_constitutional": {
+          "type": "object",
+          "description": "State constitutional provisions - may provide GREATER protection than federal floor",
+          "properties": {
+            "state_constitution_url": {
+              "type": "string",
+              "format": "uri",
+              "description": "URL to state constitution"
+            },
+            "provisions_triggered": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "provision_id": {"type": "string"},
+                  "provision_name": {"type": "string"},
+                  "article_section": {"type": "string"},
+                  "citation": {"type": "string"},
+                  "federal_parallel": {"type": "string", "description": "Corresponding federal provision"},
+                  "state_provides_greater_protection": {"type": "boolean"},
+                  "key_cases": {
+                    "type": "array",
+                    "items": {"$ref": "#/definitions/case_law_reference"}
+                  }
+                }
+              }
+            },
+            "unique_state_protections": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "protection": {"type": "string"},
+                  "description": {"type": "string"},
+                  "federal_comparison": {"type": "string"}
+                }
+              },
+              "description": "Protections in state constitution not found at federal level (e.g., CA explicit privacy right)"
+            },
+            "procedural_weight_modifier": {
+              "type": "number",
+              "minimum": -0.5,
+              "maximum": 0.5,
+              "description": "Adjustment to node's procedural_weight based on state constitutional protections"
+            },
+            "alignment": {
+              "type": "string",
+              "enum": ["exceeds_federal", "meets_federal", "same_as_federal"],
+              "description": "How state constitutional protection compares to federal floor"
+            }
+          }
+        },
+
+        "federal": {
+          "type": "object",
+          "description": "Federal statutory requirements",
+          "properties": {
+            "requirements_applicable": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "requirement_id": {"type": "string"},
+                  "requirement_name": {"type": "string"},
+                  "citations": {
+                    "type": "array",
+                    "items": {"$ref": "#/definitions/citation"}
+                  },
+                  "compliance_status": {
+                    "type": "string",
+                    "enum": ["baseline", "meets", "exceeds", "below"]
+                  },
+                  "funding_at_risk": {"type": "boolean"}
+                }
+              }
+            }
+          }
+        },
+
+        "interstate": {
+          "type": "object",
+          "description": "Interstate compact requirements (ICPC, UCCJEA)",
+          "properties": {
+            "icpc_applicable": {"type": "boolean"},
+            "uccjea_applicable": {"type": "boolean"},
+            "compact_citations": {
+              "type": "array",
+              "items": {"$ref": "#/definitions/citation"}
+            },
+            "state_icpc_office": {
+              "type": "object",
+              "properties": {
+                "name": {"type": "string"},
+                "url": {"type": "string", "format": "uri"},
+                "contact": {"type": "string"}
+              }
+            },
+            "requirements": {
+              "type": "array",
+              "items": {"type": "string"}
+            }
+          }
+        },
+
+        "state_statutory": {
+          "type": "object",
+          "description": "State statutory authority - THE PRIMARY LEAF",
+          "required": ["primary_citations"],
+          "properties": {
+            "primary_citations": {
+              "type": "array",
+              "items": {"$ref": "#/definitions/citation"},
+              "description": "Primary state statutes governing this node"
+            },
+            "related_citations": {
+              "type": "array",
+              "items": {"$ref": "#/definitions/citation"},
+              "description": "Related/supporting statutes"
+            },
+            "definitions_section": {
+              "$ref": "#/definitions/citation",
+              "description": "Link to definitions section of state code"
+            }
+          }
+        },
+
+        "administrative_rule": {
+          "type": "object",
+          "description": "State administrative code regulations",
+          "properties": {
+            "admin_code_name": {
+              "type": "string",
+              "description": "Name of state admin code (e.g., 'Texas Administrative Code')"
+            },
+            "citations": {
+              "type": "array",
+              "items": {"$ref": "#/definitions/citation"}
+            },
+            "agency_name": {
+              "type": "string",
+              "description": "Agency that promulgated the rule"
+            },
+            "rule_summary": {
+              "type": "string",
+              "description": "Summary of what the admin rule requires"
+            }
+          }
+        },
+
+        "case_law": {
+          "type": "object",
+          "description": "State court decisions interpreting the law",
+          "properties": {
+            "controlling_cases": {
+              "type": "array",
+              "items": {"$ref": "#/definitions/case_law_reference"},
+              "description": "Binding precedent from state supreme court"
+            },
+            "persuasive_cases": {
+              "type": "array",
+              "items": {"$ref": "#/definitions/case_law_reference"},
+              "description": "Persuasive authority from appellate courts"
+            },
+            "federal_cases": {
+              "type": "array",
+              "items": {"$ref": "#/definitions/case_law_reference"},
+              "description": "Federal cases applying to this state"
+            }
+          }
+        },
+
+        "policy_sop": {
+          "type": "object",
+          "description": "Agency policy and standard operating procedures",
+          "properties": {
+            "agency_name": {"type": "string"},
+            "policy_manual_url": {
+              "type": "string",
+              "format": "uri",
+              "description": "URL to agency policy manual"
+            },
+            "relevant_sections": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "section_number": {"type": "string"},
+                  "section_title": {"type": "string"},
+                  "url": {"type": "string", "format": "uri"},
+                  "summary": {"type": "string"}
+                }
+              }
+            },
+            "forms_required": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "form_name": {"type": "string"},
+                  "form_number": {"type": "string"},
+                  "url": {"type": "string", "format": "uri"}
+                }
+              }
+            },
+            "timeframes": {
+              "type": "object",
+              "description": "Required timeframes from policy",
+              "additionalProperties": {"type": "string"}
+            }
+          }
+        }
+      }
+    },
+
+    "cross_references": {
+      "type": "object",
+      "description": "How this node connects to other nodes",
+      "properties": {
+        "triggered_by": {
+          "type": "array",
+          "items": {"$ref": "#/definitions/cross_reference"},
+          "description": "Nodes that can trigger this node"
+        },
+        "leads_to": {
+          "type": "array",
+          "items": {"$ref": "#/definitions/cross_reference"},
+          "description": "Nodes this can trigger"
+        },
+        "oversight_nodes": {
+          "type": "array",
+          "items": {"$ref": "#/definitions/cross_reference"},
+          "description": "PMC nodes that oversee this node"
+        },
+        "failure_modes": {
+          "type": "array",
+          "items": {"$ref": "#/definitions/cross_reference"},
+          "description": "FAIL nodes if this goes wrong"
+        }
+      }
+    },
+
+    "actors": {
+      "type": "array",
+      "items": {"$ref": "#/definitions/actor_role"},
+      "description": "Roles/actors involved at this decision point"
+    },
+
+    "outcome_metrics": {
+      "type": "array",
+      "items": {"$ref": "#/definitions/outcome_metric"},
+      "description": "Measurable outcomes tied to this node"
+    },
+
+    "burden_of_proof": {
+      "$ref": "#/definitions/burden_of_proof",
+      "description": "Evidentiary standard required at this node"
+    },
+
+    "civil_jurisdiction": {
+      "$ref": "#/definitions/civil_jurisdiction_framework",
+      "description": "CHINS/PINS/FINS framework applicable at this node"
+    },
+
+    "timeline_requirements": {
+      "type": "array",
+      "items": {"$ref": "#/definitions/timeline_requirement"},
+      "description": "All timeline/deadline requirements at this node"
+    },
+
+    "violation_consequences": {
+      "type": "array",
+      "items": {"$ref": "#/definitions/violation_consequence"},
+      "description": "What happens when violations occur at this node"
+    },
+
+    "preemption": {
+      "$ref": "#/definitions/preemption_analysis",
+      "description": "Federal vs state preemption analysis"
+    },
+
+    "funding_incentives": {
+      "$ref": "#/definitions/funding_incentive",
+      "description": "Financial incentives/disincentives at this node"
+    },
+
+    "notice_requirements": {
+      "type": "array",
+      "items": {"$ref": "#/definitions/notice_requirement"},
+      "description": "Due process notice requirements"
+    },
+
+    "leaf_tool_calls": {
+      "type": "array",
+      "items": {"$ref": "#/definitions/leaf_tool_call"},
+      "description": "Database queries ARIA should make at this node"
+    },
+
+    "door_scenarios": {
+      "type": "array",
+      "items": {"$ref": "#/definitions/door_scenario"},
+      "description": "What happens when CPS shows up scenarios"
+    },
+
+    "evaluation": {
+      "type": "object",
+      "description": "Overall evaluation of this node",
+      "properties": {
+        "fairness_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "structural_advantage": {
+          "type": "string",
+          "enum": ["agency", "parent", "child", "neutral", "court"]
+        },
+        "due_process_adequacy": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "advocacy_hooks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "hook": {"type": "string"},
+              "legal_basis": {"type": "string"},
+              "effectiveness": {"type": "string", "enum": ["high", "medium", "low"]},
+              "timing": {"type": "string"}
+            }
+          }
+        }
+      }
+    },
+
+    "jurisdictional_comparison": {
+      "type": "object",
+      "description": "How this node compares to federal baseline and other states",
+      "properties": {
+        "vs_federal_baseline": {
+          "type": "string",
+          "enum": ["stronger", "equivalent", "weaker"],
+          "description": "Comparison to federal floor"
+        },
+        "notable_differences": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Key differences from federal baseline"
+        },
+        "similar_states": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "States with similar implementations"
+        },
+        "divergent_states": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "States with notably different implementations"
+        }
+      }
+    },
+
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "version": {"type": "string"},
+        "created": {"type": "string", "format": "date-time"},
+        "last_updated": {"type": "string", "format": "date-time"},
+        "verified_by": {"type": "string"},
+        "data_sources": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "confidence_level": {
+          "type": "string",
+          "enum": ["verified", "high", "medium", "needs_review"]
+        }
+      }
+    }
+  }
+}

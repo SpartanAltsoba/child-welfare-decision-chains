@@ -1,0 +1,346 @@
+{
+  "node_id": "UT_FAIL-03",
+  "state": "UT",
+  "state_name": "Utah",
+  "node_family": "FAIL",
+  "subnode": "FAIL-03",
+  "trigger_name": "Federal Compliance Failure",
+  "summary_html": "A **state agency fails** to meet federal child-welfare performance standards, triggering **funding penalties** or corrective action under the CFSR or Single Audit Act.",
+  "authority_html": "- **Child & Family Services Reviews (45 CFR Part 1355)** \u2014 performance oversight and penalties  \n- **Single Audit Act (31 U.S.C. \u00a7\u00a7 7501\u20137507)** \u2014 audit of federally funded programs  \n- **Inspector General Act (5 U.S.C. App.)** \u2014 oversight authority for HHS/OIG",
+  "icon": "\ud83d\udcb8",
+  "theme_color": "#FF8C00",
+  "domain": "civil",
+  "procedural_weight": 0.7,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "CFSR_CFR": "https://www.law.cornell.edu/cfr/text/45/part-1355",
+    "SAA_Cornell": "https://www.law.cornell.edu/uscode/text/31/chapter-75",
+    "IGA_Cornell": "https://www.law.cornell.edu/uscode/text/5a/appendix-3"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "45 CFR Part 1355 (CFSR)",
+        "31 U.S.C. \u00a7\u00a7 7501\u20137507 (Single Audit Act)",
+        "5 U.S.C. App. (Inspector General Act)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Utah - Utah Code Title\u00a062A, Part\u00a04a (Child and Family Services \u2013 includes \u00a7\u00a0403 mandatory reporting)",
+          "source_url": "https://le.utah.gov",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22"
+        },
+        {
+          "citation_text": "Utah - Utah Code Title\u00a078A, Chapter\u00a06 (Juvenile Court Act \u2013 abuse, neglect)",
+          "source_url": "https://le.utah.gov",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22"
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Topic - Human Services",
+          "url": "https://www.law.cornell.edu/regulations/utah/human-services"
+        },
+        {
+          "title": "Utah Administrative Rule Title 80",
+          "url": "https://regulations.justia.com/states/utah/title-80/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Utah Administrative Regulations",
+          "url": "https://regulations.justia.com/states/utah/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Utah Administrative Rule Title 1",
+          "url": "https://regulations.justia.com/states/utah/title-1/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Utah Administrative Rule Title 2",
+          "url": "https://regulations.justia.com/states/utah/title-2/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Utah Administrative Rule Title 3",
+          "url": "https://regulations.justia.com/states/utah/title-3/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Utah Administrative Rule Title 4",
+          "url": "https://regulations.justia.com/states/utah/title-4/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Utah Administrative Rule Title 5",
+          "url": "https://regulations.justia.com/states/utah/title-5/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Utah Administrative Rule Title 6",
+          "url": "https://regulations.justia.com/states/utah/title-6/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Utah Administrative Rule Title 7",
+          "url": "https://regulations.justia.com/states/utah/title-7/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Utah Administrative Rule Title 8",
+          "url": "https://regulations.justia.com/states/utah/title-8/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/utah.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_UT",
+      "plane_file": "legal_planes/state_constitutional/UT_constitution.json",
+      "provisions_triggered": []
+    },
+    "case_law": {
+      "search_keywords": [
+        "Utah Division of Child and Family Services",
+        "DCFS",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Utah%22%20AND%20%28%22Utah%20Division%20of%20Child%20and%20Family%20Services%22%20OR%20%22DCFS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "wrongful removal",
+        "1983 claim",
+        "civil rights",
+        "immunity",
+        "damages"
+      ],
+      "jurisdiction": "Utah state courts",
+      "key_cases": [
+        {
+          "case_id": "20231140",
+          "title": "In re Estate of Davies",
+          "url": "https://law.justia.com/cases/utah/supreme-court/2025/20231140.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Utah Supreme Court Case 20231140 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "20230726",
+          "title": "In re Adoption of B.C.",
+          "url": "https://law.justia.com/cases/utah/supreme-court/2025/20230726.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Utah Supreme Court Case 20230726 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re adoption, In re"
+        },
+        {
+          "case_id": "20230877",
+          "title": "In re D.S.",
+          "url": "https://law.justia.com/cases/utah/supreme-court/2025/20230877.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Utah Supreme Court Case 20230877 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re initials"
+        },
+        {
+          "case_id": "20220968",
+          "title": "In re E.M.",
+          "url": "https://law.justia.com/cases/utah/supreme-court/2025/20220968.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Utah Supreme Court Case 20220968 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re initials"
+        },
+        {
+          "case_id": "20221029",
+          "title": "In re A.H.",
+          "url": "https://law.justia.com/cases/utah/supreme-court/2024/20221029.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Utah Supreme Court Case 20221029 (2024)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re initials"
+        },
+        {
+          "case_id": "20220372",
+          "title": "In re Estate of Goldberg",
+          "url": "https://law.justia.com/cases/utah/supreme-court/2024/20220372.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Utah Supreme Court Case 20220372 (2024)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "20221097",
+          "title": "In re Adoption of M.A.",
+          "url": "https://law.justia.com/cases/utah/supreme-court/2024/20221097.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Utah Supreme Court Case 20221097 (2024)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re adoption, In re"
+        },
+        {
+          "case_id": "20220580",
+          "title": "In re C.D.S.",
+          "url": "https://law.justia.com/cases/utah/supreme-court/2023/20220580.html",
+          "year": 2023,
+          "court": "Supreme Court",
+          "citation": "Utah Supreme Court Case 20220580 (2023)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re initials"
+        },
+        {
+          "case_id": "20210776",
+          "title": "In re A.B.",
+          "url": "https://law.justia.com/cases/utah/supreme-court/2022/20210776.html",
+          "year": 2022,
+          "court": "Supreme Court",
+          "citation": "Utah Supreme Court Case 20210776 (2022)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re initials"
+        },
+        {
+          "case_id": "20200271",
+          "title": "In re J.L.",
+          "url": "https://law.justia.com/cases/utah/supreme-court/2022/20200271.html",
+          "year": 2022,
+          "court": "Supreme Court",
+          "citation": "Utah Supreme Court Case 20200271 (2022)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re initials"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Division of Child and Family Services",
+    "acronym": "DCFS",
+    "hotline": "1-855-323-3237",
+    "website": "https://le.utah.gov"
+  },
+  "linked_output": "OUT-06",
+  "linked_action": "ACT-03",
+  "linked_decision": "DEC-04",
+  "linked_input": "INP-01",
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.832433",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.836585",
+    "schema_version": "3.0.0",
+    "trigger_name_fixed": "2025-12-22T22:53:02.442755",
+    "leaves_linked": "2025-12-24T18:14:22.568844+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "preponderance",
+    "who_bears_burden": "parent",
+    "common_failures": [
+      "Failure to preserve evidence",
+      "Missing deadlines for legal challenges",
+      "Inadequate documentation of violations"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Appeal deadline",
+      "deadline": "30 days",
+      "starts_from": "Final order",
+      "source": "court_rule",
+      "consequence_of_miss": "Loss of appeal rights"
+    },
+    {
+      "requirement_name": "1983 statute of limitations",
+      "deadline": "2-3 years",
+      "starts_from": "Violation occurred",
+      "source": "federal_statute",
+      "consequence_of_miss": "Claim barred"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "attorney"
+      ],
+      "method": "personal_service",
+      "timing": "Upon violation discovery",
+      "content_required": [
+        "Nature of violation",
+        "Remedies available"
+      ],
+      "defective_notice_consequence": "May extend statute of limitations"
+    }
+  ]
+}

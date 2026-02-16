@@ -1,0 +1,299 @@
+{
+  "node_id": "OR_PMC-03",
+  "state": "OR",
+  "state_name": "Oregon",
+  "node_family": "PMC",
+  "subnode": "PMC-03",
+  "trigger_name": "Citizen Review Panels",
+  "summary_html": "**CAPTA \u00a75106a(c)** requires every state to maintain **Citizen Review Panels** that evaluate CPS policies. Project Milk Carton checks whether panels are active, independent, and publicly reporting.",
+  "authority_html": "- **CAPTA (42 U.S.C. \u00a7 5106a(c))** \u2014 Citizen Review Panel mandate and reporting requirements",
+  "icon": "\ud83d\udde3\ufe0f",
+  "theme_color": "#32CD32",
+  "domain": "civil",
+  "procedural_weight": 0.6,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "CAPTA_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-67"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "42 U.S.C. \u00a7 5106a(c) (CAPTA)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Oregon - ORS Chapter\u00a0419B (Juvenile Code: Dependency and Abuse \u2013 includes mandatory reporting \u00a7\u00a7\u00a0419B.005\u2013419B.050)",
+          "source_url": "https://www.oregonlegislature.gov",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22"
+        },
+        {
+          "citation_text": "Title 109: Parent and Child",
+          "source_url": "https://law.justia.com/codes/oregon/title-109/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 418: Child Care",
+          "source_url": "https://law.justia.com/codes/oregon/title-418/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Chapter 407 - DEPARTMENT OF HUMAN SERVICES",
+          "url": "https://www.law.cornell.edu/regulations/oregon/chapter-407"
+        },
+        {
+          "title": "Chapter 411 - DEPARTMENT OF HUMAN SERVICES, AGING AND PEOPLE WITH DISABILITIES AND DEVELOPMENTAL DISABILITIES",
+          "url": "https://www.law.cornell.edu/regulations/oregon/chapter-411"
+        },
+        {
+          "title": "Chapter 413 - DEPARTMENT OF HUMAN SERVICES, CHILD WELFARE PROGRAMS",
+          "url": "https://www.law.cornell.edu/regulations/oregon/chapter-413"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/oregon.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_OR",
+      "plane_file": "legal_planes/state_constitutional/OR_constitution.json",
+      "provisions_triggered": []
+    },
+    "case_law": {
+      "search_keywords": [
+        "Oregon Department of Human Services",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal",
+        "exigent circumstances"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Oregon%22%20AND%20%28%22Oregon%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "missing child",
+        "amber alert",
+        "custodial interference",
+        "parental kidnapping"
+      ],
+      "jurisdiction": "Oregon state courts",
+      "key_cases": [
+        {
+          "case_id": "s071019",
+          "title": "In re Gregory Mark Abel",
+          "url": "https://law.justia.com/cases/oregon/supreme-court/2025/s071019.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Oregon Supreme Court Case s071019 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "a184792",
+          "title": "In re Oregon State Hospital",
+          "url": "https://law.justia.com/cases/oregon/court-of-appeals/2025/a184792.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Oregon Court Of Appeals Case a184792 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "s071223",
+          "title": "In re Flint",
+          "url": "https://law.justia.com/cases/oregon/supreme-court/2024/s071223.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Oregon Supreme Court Case s071223 (2024)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "s070455",
+          "title": "In re Munn",
+          "url": "https://law.justia.com/cases/oregon/supreme-court/2024/s070455.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Oregon Supreme Court Case s070455 (2024)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "s068780",
+          "title": "In re: Sause and Schnitzer",
+          "url": "https://law.justia.com/cases/oregon/supreme-court/2023/s068780.html",
+          "year": 2023,
+          "court": "Supreme Court",
+          "citation": "Oregon Supreme Court Case s068780 (2023)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "s069006",
+          "title": "In re Duboff",
+          "url": "https://law.justia.com/cases/oregon/supreme-court/2023/s069006.html",
+          "year": 2023,
+          "court": "Supreme Court",
+          "citation": "Oregon Supreme Court Case s069006 (2023)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "a173412",
+          "title": "Doe v. First Christian Church of The Dalles",
+          "url": "https://law.justia.com/cases/oregon/court-of-appeals/2023/a173412.html",
+          "year": 2023,
+          "court": "Court Of Appeals",
+          "citation": "Oregon Court Of Appeals Case a173412 (2023)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Doe plaintiff"
+        },
+        {
+          "case_id": "s068805",
+          "title": "In re Keller",
+          "url": "https://law.justia.com/cases/oregon/supreme-court/2022/s068805.html",
+          "year": 2022,
+          "court": "Supreme Court",
+          "citation": "Oregon Supreme Court Case s068805 (2022)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "s068497",
+          "title": "In re Ard",
+          "url": "https://law.justia.com/cases/oregon/supreme-court/2021/s068497.html",
+          "year": 2021,
+          "court": "Supreme Court",
+          "citation": "Oregon Supreme Court Case s068497 (2021)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "s067932",
+          "title": "In re Kauffman",
+          "url": "https://law.justia.com/cases/oregon/supreme-court/2021/s067932.html",
+          "year": 2021,
+          "court": "Supreme Court",
+          "citation": "Oregon Supreme Court Case s067932 (2021)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Department of Human Services",
+    "acronym": "DHS",
+    "hotline": "1-855-503-7233",
+    "website": "https://www.oregonlegislature.gov"
+  },
+  "linked_fail": "FAIL-06",
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.813482",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.786476",
+    "schema_version": "3.0.0",
+    "trigger_name_fixed": "2025-12-22T22:53:02.413848",
+    "leaves_linked": "2025-12-24T18:14:22.268895+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "probable_cause",
+    "who_bears_burden": "agency",
+    "common_failures": [
+      "Delayed AMBER alert",
+      "Failure to coordinate with NCMEC",
+      "Inadequate search protocols"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Missing child report",
+      "deadline": "Immediate",
+      "starts_from": "Child discovered missing",
+      "source": "federal_statute",
+      "consequence_of_miss": "Criminal liability possible"
+    },
+    {
+      "requirement_name": "NCMEC notification",
+      "deadline": "24 hours",
+      "starts_from": "Child reported missing",
+      "source": "state_statute",
+      "consequence_of_miss": "Audit finding, delayed recovery"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian",
+        "law_enforcement"
+      ],
+      "method": "any_reasonable",
+      "timing": "Immediately upon discovery",
+      "content_required": [
+        "Child last seen location",
+        "Physical description"
+      ],
+      "defective_notice_consequence": "Delayed search response"
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "node_id": "PA_DEC-05",
+  "state": "PA",
+  "state_name": "Pennsylvania",
+  "node_family": "DEC",
+  "subnode": "DEC-05",
+  "trigger_name": "File Petition / Open Dependency Case",
+  "summary_html": "Agency **files a court petition** to open a **dependency** (or similar) case. Federal funding frameworks (IV-E/ASFA) link court oversight, reasonable-efforts findings, and permanency timelines to downstream actions.",
+  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 court findings; timelines; permanency planning  \n- **CFSR (45 CFR Part 1355)** \u2014 federal review of court/agency performance measures",
+  "icon": "\ud83d\udcdc",
+  "theme_color": "#6A5ACD",
+  "domain": "civil",
+  "procedural_weight": 0.45,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "SSA_IV_E_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-7/subchapter-IV/part-E",
+    "ASFA_PLAW": "https://www.congress.gov/105/plaws/publ89/PLAW-105publ89.pdf",
+    "ASFA_PDF": "https://www.govinfo.gov/content/pkg/PLAW-105publ89/pdf/PLAW-105publ89.pdf",
+    "CFSR_eCFR": "https://www.ecfr.gov/current/title-45/subtitle-B/chapter-XIII/subchapter-G/part-1355"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [
+        "U.S. Const. amend. XIV, \u00a7 1"
+      ],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E)",
+        "Public Law 105-89 (ASFA)",
+        "45 CFR Part 1355 (CFSR)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Pennsylvania - Title 23 Pa.C.S. Chapter\u00a063 (Child Protective Services Law)",
+          "source_url": "https://law.onecle.com/pennsylvania/title-23/chapter-63/index.html",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Pennsylvania - 42 Pa.C.S. Chapter\u00a063 (Juvenile Act \u2013 dependency proceedings)",
+          "source_url": "https://www.legis.state.pa.us/cfdocs/legis/LI/consCheck.cfm?txtType=HTM&ttl=4&div=0&chpt=2",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Title 23: Domestic Relations - CHILD WELFARE PRIMARY",
+          "source_url": "https://law.justia.com/codes/pennsylvania/title-23/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 42: Judiciary - Juvenile Matters",
+          "source_url": "https://law.justia.com/codes/pennsylvania/title-42/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 55: Public Welfare",
+          "source_url": "https://law.justia.com/codes/pennsylvania/title-55/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 62: Human Services Code",
+          "source_url": "https://law.justia.com/codes/pennsylvania/title-62/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Title 55 - HUMAN SERVICES",
+          "url": "https://www.law.cornell.edu/regulations/pennsylvania/title-55"
+        },
+        {
+          "title": "Title 237 - JUVENILE RULES",
+          "url": "https://www.law.cornell.edu/regulations/pennsylvania/title-237"
+        },
+        {
+          "title": "Title 246 - MINOR COURT CIVIL RULES",
+          "url": "https://www.law.cornell.edu/regulations/pennsylvania/title-246"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/pennsylvania.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_PA",
+      "plane_file": "legal_planes/state_constitutional/PA_constitution.json",
+      "provisions_triggered": [
+        {
+          "provision_id": "PA_CONST_DUE_PROCESS",
+          "name": "Due Process / Law of the Land",
+          "citation": "Pennsylvania Const. art. I, \u00a7 9",
+          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+        }
+      ]
+    },
+    "case_law": {
+      "search_keywords": [
+        "Pennsylvania Department of Human Services",
+        "Children and Youth Services",
+        "CYS",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Pennsylvania%22%20AND%20%28%22Pennsylvania%20Department%20of%20Human%20Services%22%20OR%20%22Children%20and%20Youth%20Services%22%20OR%20%22CYS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "investigation",
+        "substantiation",
+        "evidence standard",
+        "due process",
+        "reasonable efforts"
+      ],
+      "jurisdiction": "Pennsylvania state courts",
+      "key_cases": [
+        {
+          "case_id": "216-wal-2025",
+          "title": "In Re: Blythedale Park of: EQT Artemis - No. (Granted) (petitions for allowance of appeal)",
+          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/216-wal-2025.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Pennsylvania Supreme Court Case 216-wal-2025 (2025)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "471-mal-2025",
+          "title": "In Re: Estate of Byerley, D. of: Byerley, D. (petitions for allowance of appeal)",
+          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/471-mal-2025.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Pennsylvania Supreme Court Case 471-mal-2025 (2025)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "593-mal-2025",
+          "title": "In Re: Adopt. of: J.E.M.-M., a Minor (petitions for allowance of appeal)",
+          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/593-mal-2025.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Pennsylvania Supreme Court Case 593-mal-2025 (2025)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "157-eal-2025",
+          "title": "In Re:Gloria Deckard, Dec'd of: Deckard, W. (petitions for allowance of appeal)",
+          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/157-eal-2025.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Pennsylvania Supreme Court Case 157-eal-2025 (2025)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "513-mal-2025",
+          "title": "In Re: J.A.M., a Minor of: Father (petitions for allowance of appeal)",
+          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/513-mal-2025.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Pennsylvania Supreme Court Case 513-mal-2025 (2025)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re initials"
+        },
+        {
+          "case_id": "236-wal-2025",
+          "title": "In Re: Nomination Papers of Bolind of: Bolind (petitions for allowance of appeal)",
+          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/236-wal-2025.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Pennsylvania Supreme Court Case 236-wal-2025 (2025)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "206-mal-2025",
+          "title": "In Re: C.B. and J.B. ition of: C.B. and J.B. (petitions for allowance of appeal)",
+          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/206-mal-2025.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Pennsylvania Supreme Court Case 206-mal-2025 (2025)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re initials"
+        },
+        {
+          "case_id": "240-eal-2024",
+          "title": "In Re: Appeal of CH of Chestnut Hill, et al. (petitions for allowance of appeal)",
+          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2024/240-eal-2024.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Pennsylvania Supreme Court Case 240-eal-2024 (2024)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "292-wal-2024",
+          "title": "In the Interest of: G.G.B. ition of: J.B. - No. (Granted) (petitions for allowance of appeal)",
+          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2024/292-wal-2024.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Pennsylvania Supreme Court Case 292-wal-2024 (2024)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re interest, Interest of initials"
+        },
+        {
+          "case_id": "289-wal-2024",
+          "title": "In Re: M.S. of: H.L.S. (petitions for allowance of appeal)",
+          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2024/289-wal-2024.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Pennsylvania Supreme Court Case 289-wal-2024 (2024)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re initials"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Children and Youth Services",
+    "acronym": "CYS",
+    "hotline": "1-800-932-0313",
+    "website": "https://www.legis.state.pa.us"
+  },
+  "investigation_requirements": [
+    "Home visit required",
+    "Victim interview required",
+    "Risk assessment required"
+  ],
+  "evidence_level": "Credible or substantial evidence",
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.814951",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.789224",
+    "schema_version": "3.0.0",
+    "leaves_linked": "2025-12-24T18:14:22.299804+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "preponderance",
+    "who_bears_burden": "agency",
+    "common_failures": [
+      "Insufficient evidence for substantiation",
+      "Failure to document findings",
+      "Inconsistent application of evidence standards"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Safety decision",
+      "deadline": "Immediate upon contact",
+      "starts_from": "First family contact",
+      "source": "admin_rule",
+      "consequence_of_miss": "Child safety risk"
+    },
+    {
+      "requirement_name": "Disposition finding",
+      "deadline": "30-60 days",
+      "starts_from": "Investigation opened",
+      "source": "state_statute",
+      "consequence_of_miss": "Procedural violation"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian",
+        "putative_father"
+      ],
+      "method": "personal_service",
+      "timing": "Before disposition",
+      "content_required": [
+        "Findings",
+        "Rights to appeal"
+      ],
+      "defective_notice_consequence": "Disposition may be overturned"
+    }
+  ],
+  "door_scenarios": [
+    {
+      "who_at_door": [
+        "investigator",
+        "law_enforcement"
+      ],
+      "trigger_reason": "Investigation follow-up or joint response",
+      "legal_authority_to_enter": "consent_or_warrant",
+      "parent_rights_at_moment": [
+        "Right to see warrant",
+        "Right to attorney",
+        "Right to remain silent"
+      ],
+      "what_to_say": [
+        "Do you have a court order?",
+        "I need to see the warrant",
+        "I am exercising my right to remain silent"
+      ],
+      "what_not_to_do": [
+        "Do not consent to search",
+        "Do not sign anything without attorney review",
+        "Do not allow fishing expedition"
+      ],
+      "next_possible_nodes": [
+        "ACT-01",
+        "FAIL-02"
+      ]
+    }
+  ]
+}

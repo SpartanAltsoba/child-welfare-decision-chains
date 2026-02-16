@@ -1,0 +1,298 @@
+{
+  "node_id": "KY_OUT-03",
+  "state": "KY",
+  "state_name": "Kentucky",
+  "node_family": "OUT",
+  "subnode": "OUT-03",
+  "trigger_name": "Guardianship / Kinship Permanency",
+  "summary_html": "Child achieves **permanency through legal guardianship** or kinship care. Federal programs provide funding parity with adoption for approved relatives.",
+  "authority_html": "- **Fostering Connections to Success and Increasing Adoptions Act (FCSIAA)** \u2014 kinship-guardianship assistance  \n- **SSA Title IV-E (42 U.S.C. \u00a7 673(d))** \u2014 authorizes Guardianship Assistance Program (GAP)",
+  "icon": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67",
+  "theme_color": "#FFD700",
+  "domain": "civil",
+  "procedural_weight": 0.55,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "FCSIAA_PLAW": "https://www.congress.gov/110/plaws/publ351/PLAW-110publ351.pdf",
+    "SSA_IV_E_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-7/subchapter-IV/part-E"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [
+        "U.S. Const. amend. XIV, \u00a7 1"
+      ],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "Public Law 110-351 (FCSIAA)",
+        "42 U.S.C. \u00a7 673(d) (IV-E Guardianship Assistance)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Kentucky - KRS Chapter 620 (Child Abuse \u2013 dependency proceedings and reporting)",
+          "source_url": "https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=620",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Title 199: Adoption - CHFS",
+          "source_url": "https://law.justia.com/codes/kentucky/title-199/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Title 505 - JUSTICE AND PUBLIC SAFETY CABINET - DEPARTMENT OF JUVENILE JUSTICE",
+          "url": "https://www.law.cornell.edu/regulations/kentucky/title-505"
+        },
+        {
+          "title": "Title 900 - CABINET FOR HEALTH AND FAMILY SERVICES",
+          "url": "https://www.law.cornell.edu/regulations/kentucky/title-900"
+        },
+        {
+          "title": "Title 901 - CABINET FOR HEALTH AND FAMILY SERVICES - OFFICE OF ADMINISTRATIVE SERVICES",
+          "url": "https://www.law.cornell.edu/regulations/kentucky/title-901"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/kentucky.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_KY",
+      "plane_file": "legal_planes/state_constitutional/KY_constitution.json",
+      "provisions_triggered": [
+        {
+          "provision_id": "KY_CONST_DUE_PROCESS",
+          "name": "Due Process / Law of the Land",
+          "citation": "Kentucky Const. art. bill_of_rights, \u00a7 11",
+          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+        }
+      ]
+    },
+    "case_law": {
+      "search_keywords": [
+        "Kentucky Department for Community Based Services",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal",
+        "exigent circumstances"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Kentucky%22%20AND%20%28%22Kentucky%20Department%20for%20Community%20Based%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "termination of parental rights",
+        "TPR",
+        "adoption",
+        "permanency",
+        "aging out"
+      ],
+      "jurisdiction": "Kentucky state courts",
+      "key_cases": [
+        {
+          "case_id": "2024-ca-0273-me",
+          "title": "T.T. v. CABINET FOR HEALTH AND FAMILY SERVICES, DIVISION OF PROTECTION AND PERMANENCY, COMMONWEALTH OF KENTUCKY, ET AL.",
+          "url": "https://law.justia.com/cases/kentucky/court-of-appeals/2024/2024-ca-0273-me.html",
+          "year": 2024,
+          "court": "Court Of Appeals",
+          "citation": "Kentucky Court Of Appeals Case 2024-ca-0273-me (2024)",
+          "relevance_score": 2.5,
+          "matched_keywords": [
+            "permanency"
+          ],
+          "child_welfare_reason": "High: Family Services"
+        },
+        {
+          "case_id": "2019-sc-0295-dg",
+          "title": "Kentucky Guardianship Administrators, LLC v. Baptist Health System, Inc.",
+          "url": "https://law.justia.com/cases/kentucky/supreme-court/2021/2019-sc-0295-dg.html",
+          "year": 2021,
+          "court": "Supreme Court",
+          "citation": "Kentucky Supreme Court Case 2019-sc-0295-dg (2021)",
+          "relevance_score": 2.2,
+          "matched_keywords": [
+            "guardianship"
+          ],
+          "child_welfare_reason": "Medium: guardianship"
+        },
+        {
+          "case_id": "2024-sc-0496-kb",
+          "title": "IN RE: ARTHUR JOSEPH MCLAUGHLIN III",
+          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2024-sc-0496-kb.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kentucky Supreme Court Case 2024-sc-0496-kb (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "2025-sc-0118-kb",
+          "title": "IN RE: MARCUS DANIEL GALE",
+          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2025-sc-0118-kb.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kentucky Supreme Court Case 2025-sc-0118-kb (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "2025-sc-0423-kb",
+          "title": "IN RE: DANIEL LOUIS THOMPSON",
+          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2025-sc-0423-kb.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kentucky Supreme Court Case 2025-sc-0423-kb (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "2025-sc-0478-kb",
+          "title": "IN RE: J. TODD P'POOL",
+          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2025-sc-0478-kb.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kentucky Supreme Court Case 2025-sc-0478-kb (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re initial"
+        },
+        {
+          "case_id": "2025-sc-0365-kb",
+          "title": "IN RE: ERIC SHANE GRINNELL",
+          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2025-sc-0365-kb.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kentucky Supreme Court Case 2025-sc-0365-kb (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "2025-sc-0039-kb",
+          "title": "IN RE: DARREN CRAIG LAMB",
+          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2025-sc-0039-kb.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kentucky Supreme Court Case 2025-sc-0039-kb (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "2025-sc-0281-kb",
+          "title": "IN RE: HAROLD WAYNE ROBERTS",
+          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2025-sc-0281-kb.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kentucky Supreme Court Case 2025-sc-0281-kb (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Department for Community Based Services",
+    "acronym": "DCBS",
+    "hotline": "1-877-597-2331",
+    "website": "https://legislature.ky.gov"
+  },
+  "extended_foster_care": true,
+  "extended_foster_care_age": "Up to age 21 (until 21st birthday)",
+  "linked_action": "ACT-04",
+  "linked_decision": "DEC-04",
+  "linked_input": "INP-01",
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.755328",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.627548",
+    "schema_version": "3.0.0",
+    "trigger_name_fixed": "2025-12-22T22:53:02.331558",
+    "leaves_linked": "2025-12-24T18:14:21.524286+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "clear_and_convincing",
+    "who_bears_burden": "state",
+    "common_failures": [
+      "Insufficient evidence for TPR",
+      "Failure to prove unfitness by clear and convincing evidence",
+      "Santosky v. Kramer standard not met"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Permanency hearing",
+      "deadline": "12 months",
+      "starts_from": "Child enters care",
+      "source": "federal_statute",
+      "consequence_of_miss": "ASFA violation"
+    },
+    {
+      "requirement_name": "TPR filing",
+      "deadline": "15 of 22 months",
+      "starts_from": "Child enters care",
+      "source": "federal_statute",
+      "consequence_of_miss": "Must file TPR or document compelling reason"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian",
+        "putative_father",
+        "tribe",
+        "foster_parent"
+      ],
+      "method": "certified_mail",
+      "timing": "10-30 days before TPR hearing",
+      "content_required": [
+        "TPR grounds",
+        "Date/time/location",
+        "Right to counsel"
+      ],
+      "icwa_additional_notice": true,
+      "defective_notice_consequence": "TPR may be vacated"
+    }
+  ]
+}

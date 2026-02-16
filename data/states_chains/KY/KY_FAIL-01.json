@@ -1,0 +1,300 @@
+{
+  "node_id": "KY_FAIL-01",
+  "state": "KY",
+  "state_name": "Kentucky",
+  "node_family": "FAIL",
+  "subnode": "FAIL-01",
+  "trigger_name": "Court Reversal of Agency Decision",
+  "summary_html": "A **court reverses or vacates** a CPS or agency decision due to procedural error, insufficient evidence, or constitutional violation. Federal review data (CFSR, ASFA) tracks judicial determinations on reasonable efforts and due process.",
+  "authority_html": "- **Adoption and Safe Families Act (ASFA)** \u2014 judicial findings of 'reasonable efforts' compliance  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal review of judicial/agency conformity  \n- **42 U.S.C. \u00a7 1983** \u2014 civil-rights remedy for unconstitutional removals (14th & 4th Amendments).",
+  "icon": "\u2696\ufe0f",
+  "theme_color": "#FF6347",
+  "domain": "civil",
+  "procedural_weight": 0.8,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "ASFA_PDF": "https://www.govinfo.gov/content/pkg/PLAW-105publ89/pdf/PLAW-105publ89.pdf",
+    "CFSR_CFR": "https://www.law.cornell.edu/cfr/text/45/part-1355"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [
+        "U.S. Const. amend. IV",
+        "U.S. Const. amend. XIV, \u00a7 1"
+      ],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "Public Law 105-89 (ASFA)",
+        "45 CFR Part 1355 (CFSR)",
+        "42 U.S.C. \u00a7 1983 (Civil Rights Act)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Kentucky - KRS Chapter 620 (Child Abuse \u2013 dependency proceedings and reporting)",
+          "source_url": "https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=620",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Title 199: Adoption - CHFS",
+          "source_url": "https://law.justia.com/codes/kentucky/title-199/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Title 505 - JUSTICE AND PUBLIC SAFETY CABINET - DEPARTMENT OF JUVENILE JUSTICE",
+          "url": "https://www.law.cornell.edu/regulations/kentucky/title-505"
+        },
+        {
+          "title": "Title 900 - CABINET FOR HEALTH AND FAMILY SERVICES",
+          "url": "https://www.law.cornell.edu/regulations/kentucky/title-900"
+        },
+        {
+          "title": "Title 901 - CABINET FOR HEALTH AND FAMILY SERVICES - OFFICE OF ADMINISTRATIVE SERVICES",
+          "url": "https://www.law.cornell.edu/regulations/kentucky/title-901"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/kentucky.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_KY",
+      "plane_file": "legal_planes/state_constitutional/KY_constitution.json",
+      "provisions_triggered": [
+        {
+          "provision_id": "KY_CONST_SEARCH_SEIZURE",
+          "name": "Search and Seizure",
+          "citation": "Kentucky Const. art. bill_of_rights, \u00a7 10",
+          "federal_parallel": "U.S. Const. amend. IV"
+        },
+        {
+          "provision_id": "KY_CONST_DUE_PROCESS",
+          "name": "Due Process / Law of the Land",
+          "citation": "Kentucky Const. art. bill_of_rights, \u00a7 11",
+          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+        }
+      ]
+    },
+    "case_law": {
+      "search_keywords": [
+        "Kentucky Department for Community Based Services",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal",
+        "exigent circumstances"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Kentucky%22%20AND%20%28%22Kentucky%20Department%20for%20Community%20Based%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "wrongful removal",
+        "1983 claim",
+        "civil rights",
+        "immunity",
+        "damages"
+      ],
+      "jurisdiction": "Kentucky state courts",
+      "key_cases": [
+        {
+          "case_id": "2024-sc-0199-kb",
+          "title": "PETITION FOR MODIFICATION GRANTED - IN RE: PERRY THOMAS RYAN COURT IN RE: DAVID MICHAEL WILLIAMS COURT JOINT PETITION FOR MODIFICATION",
+          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2024-sc-0199-kb.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kentucky Supreme Court Case 2024-sc-0199-kb (2025)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "2024-sc-0194-kb-0",
+          "title": "IN RE: GERALD DOUGLAS DEROSSETT COURT",
+          "url": "https://law.justia.com/cases/kentucky/supreme-court/2024/2024-sc-0194-kb-0.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Kentucky Supreme Court Case 2024-sc-0194-kb-0 (2024)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "2022-sc-0426-oa",
+          "title": "IN RE: FLYNN, PULASKI CIRCUIT COURT CLERK",
+          "url": "https://law.justia.com/cases/kentucky/supreme-court/2024/2022-sc-0426-oa.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Kentucky Supreme Court Case 2022-sc-0426-oa (2024)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "2022-ca-1059-oa",
+          "title": "CABINET FOR HEALTH AND FAMILY SERVICES v. HONORABLE KENNETH HAROLD GOFF II, JUDGE, BRECKINRIDGE CIRCUIT COURT, ET AL.",
+          "url": "https://law.justia.com/cases/kentucky/court-of-appeals/2022/2022-ca-1059-oa.html",
+          "year": 2022,
+          "court": "Court Of Appeals",
+          "citation": "Kentucky Court Of Appeals Case 2022-ca-1059-oa (2022)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Family Services"
+        },
+        {
+          "case_id": "2024-sc-0496-kb",
+          "title": "IN RE: ARTHUR JOSEPH MCLAUGHLIN III",
+          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2024-sc-0496-kb.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kentucky Supreme Court Case 2024-sc-0496-kb (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "2025-sc-0118-kb",
+          "title": "IN RE: MARCUS DANIEL GALE",
+          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2025-sc-0118-kb.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kentucky Supreme Court Case 2025-sc-0118-kb (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "2025-sc-0423-kb",
+          "title": "IN RE: DANIEL LOUIS THOMPSON",
+          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2025-sc-0423-kb.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kentucky Supreme Court Case 2025-sc-0423-kb (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "2025-sc-0478-kb",
+          "title": "IN RE: J. TODD P'POOL",
+          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2025-sc-0478-kb.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kentucky Supreme Court Case 2025-sc-0478-kb (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re initial"
+        },
+        {
+          "case_id": "2025-sc-0365-kb",
+          "title": "IN RE: ERIC SHANE GRINNELL",
+          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2025-sc-0365-kb.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kentucky Supreme Court Case 2025-sc-0365-kb (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Department for Community Based Services",
+    "acronym": "DCBS",
+    "hotline": "1-877-597-2331",
+    "website": "https://legislature.ky.gov"
+  },
+  "linked_output": "OUT-02",
+  "linked_action": "ACT-03",
+  "linked_decision": "DEC-04",
+  "linked_input": "INP-01",
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.755588",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.623878",
+    "schema_version": "3.0.0",
+    "trigger_name_fixed": "2025-12-22T22:53:02.331403",
+    "leaves_linked": "2025-12-24T18:14:21.501004+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "preponderance",
+    "who_bears_burden": "parent",
+    "common_failures": [
+      "Failure to preserve evidence",
+      "Missing deadlines for legal challenges",
+      "Inadequate documentation of violations"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Appeal deadline",
+      "deadline": "30 days",
+      "starts_from": "Final order",
+      "source": "court_rule",
+      "consequence_of_miss": "Loss of appeal rights"
+    },
+    {
+      "requirement_name": "1983 statute of limitations",
+      "deadline": "2-3 years",
+      "starts_from": "Violation occurred",
+      "source": "federal_statute",
+      "consequence_of_miss": "Claim barred"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "attorney"
+      ],
+      "method": "personal_service",
+      "timing": "Upon violation discovery",
+      "content_required": [
+        "Nature of violation",
+        "Remedies available"
+      ],
+      "defective_notice_consequence": "May extend statute of limitations"
+    }
+  ]
+}

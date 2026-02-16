@@ -1,0 +1,194 @@
+{
+  "federal_dec_nodes": [
+    {
+      "subnode": "DEC-01",
+      "state": "United States",
+      "node": "DEC",
+      "trigger_name": "Screen-Out / Unfounded at Intake",
+      "theme_color": "#4B9CD3",
+      "icon": "🚫",
+      "summary_html": "CPS **screens out** a report (no investigation) or closes as **unfounded** after minimal review. Federal law (CAPTA) conditions funding on operating screening criteria and recordkeeping; federal reviews (CFSR) assess decision quality.",
+      "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — screening & intake system requirements  \n- **CFSR Regulations (45 CFR Part 1355)** — federal performance/quality review of state screening and responses",
+      "urls": {
+        "CAPTA_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-67",
+        "CAPTA_House": "https://uscode.house.gov/view.xhtml?path=/prelim@title42/chapter67&edition=prelim",
+        "CAPTA_PDF": "https://www.govinfo.gov/content/pkg/USCODE-2021-title42/pdf/USCODE-2021-title42-chap67.pdf",
+        "CFSR_CFR": "https://www.law.cornell.edu/cfr/text/45/part-1355",
+        "CFSR_eCFR": "https://www.ecfr.gov/current/title-45/subtitle-B/chapter-XIII/subchapter-G/part-1355"
+      },
+      "statutory_authority": {
+        "federal": [
+          "42 U.S.C. §§ 5101–5116 (CAPTA)",
+          "45 CFR Part 1355 (CFSR)"
+        ],
+        "state": []
+      },
+      "decision_basis": "Report does not meet statutory or policy criteria for investigation; insufficient information; outside jurisdiction; not child maltreatment.",
+      "due_process_hooks": "Recordkeeping; notice per state policy; ability to re-report with new facts.",
+      "domain": "civil",
+      "procedural_weight": 0.5,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "CAPTA intake/screening conditions",
+        "CFSR oversight links"
+      ]
+    },
+    {
+      "subnode": "DEC-02",
+      "state": "United States",
+      "node": "DEC",
+      "trigger_name": "Accept for Investigation / Assessment",
+      "theme_color": "#2E8B57",
+      "icon": "🗂️",
+      "summary_html": "CPS **accepts** a report for **investigation/assessment**. CAPTA sets the floor for investigation procedures; CFSR evaluates timeliness, safety, and decision quality.",
+      "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — investigation standards tied to funding  \n- **CFSR (45 CFR Part 1355)** — timeliness & response conformity indicators",
+      "urls": {
+        "CAPTA_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-67",
+        "CFSR_CFR": "https://www.law.cornell.edu/cfr/text/45/part-1355"
+      },
+      "statutory_authority": {
+        "federal": [
+          "42 U.S.C. §§ 5101–5116 (CAPTA)",
+          "45 CFR Part 1355 (CFSR)"
+        ],
+        "state": []
+      },
+      "decision_basis": "Allegations meet state statutory definitions or policy thresholds for child maltreatment; safety factors present.",
+      "due_process_hooks": "Notice to parents/guardians as required by state law; initiation timelines; documentation in SACWIS/CCWIS.",
+      "domain": "civil",
+      "procedural_weight": 0.55,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "CAPTA/CFSR investigation expectations"
+      ]
+    },
+    {
+      "subnode": "DEC-03",
+      "state": "United States",
+      "node": "DEC",
+      "trigger_name": "Substantiated / Founded Finding",
+      "theme_color": "#8B008B",
+      "icon": "✅",
+      "summary_html": "Agency makes a **substantiated (founded)** finding of abuse/neglect. This decision often unlocks **court petitions**, **service mandates**, and **federal reporting** duties.",
+      "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — definitions floor; data & record requirements  \n- **CFSR (45 CFR Part 1355)** — outcomes & safety performance reviews",
+      "urls": {
+        "CAPTA_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-67",
+        "CFSR_eCFR": "https://www.ecfr.gov/current/title-45/subtitle-B/chapter-XIII/subchapter-G/part-1355"
+      },
+      "statutory_authority": {
+        "federal": [
+          "42 U.S.C. §§ 5101–5116 (CAPTA)",
+          "45 CFR Part 1355 (CFSR)"
+        ],
+        "state": []
+      },
+      "decision_basis": "Evidence meets the state’s standard for substantiation (often preponderance).",
+      "due_process_hooks": "Notice of finding; appeal/review rights per state law; registry listing rules; confidentiality constraints.",
+      "domain": "civil",
+      "procedural_weight": 0.5,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "CAPTA definitions/data conditions",
+        "CFSR performance review framework"
+      ]
+    },
+    {
+      "subnode": "DEC-04",
+      "state": "United States",
+      "node": "DEC",
+      "trigger_name": "Emergency Removal Decision",
+      "theme_color": "#B22222",
+      "icon": "🚨",
+      "summary_html": "Agency decides to **remove a child immediately** due to **imminent danger** prior to a court order. Federal law (ASFA/IV-E) requires later **court findings** on reasonable efforts; constitutional limits (due process; search/seizure) apply.",
+      "authority_html": "- **ASFA / SSA Title IV-E (42 U.S.C. §§ 670–679c)** — reasonable-efforts findings; permanency timelines  \n- **CFSR (45 CFR Part 1355)** — monitors safety & removal decision quality",
+      "urls": {
+        "ASFA_PLAW": "https://www.congress.gov/105/plaws/publ89/PLAW-105publ89.pdf",
+        "ASFA_PDF": "https://www.govinfo.gov/content/pkg/PLAW-105publ89/pdf/PLAW-105publ89.pdf",
+        "SSA_IV_E_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-7/subchapter-IV/part-E",
+        "CFSR_CFR": "https://www.law.cornell.edu/cfr/text/45/part-1355"
+      },
+      "statutory_authority": {
+        "federal": [
+          "42 U.S.C. §§ 670–679c (Title IV-E)",
+          "Public Law 105-89 (ASFA)",
+          "45 CFR Part 1355 (CFSR)"
+        ],
+        "state": []
+      },
+      "decision_basis": "Specific, articulable facts indicate imminent threat of serious harm; exigency prevents obtaining a warrant first.",
+      "due_process_hooks": "Prompt judicial review/hearing; reasonable-efforts findings; notice to parties; counsel rights under state law.",
+      "domain": "civil",
+      "procedural_weight": 0.35,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "ASFA/IV-E & CFSR citations"
+      ]
+    },
+    {
+      "subnode": "DEC-05",
+      "state": "United States",
+      "node": "DEC",
+      "trigger_name": "File Petition / Open Dependency Case",
+      "theme_color": "#6A5ACD",
+      "icon": "📜",
+      "summary_html": "Agency **files a court petition** to open a **dependency** (or similar) case. Federal funding frameworks (IV-E/ASFA) link court oversight, reasonable-efforts findings, and permanency timelines to downstream actions.",
+      "authority_html": "- **ASFA / SSA Title IV-E** — court findings; timelines; permanency planning  \n- **CFSR (45 CFR Part 1355)** — federal review of court/agency performance measures",
+      "urls": {
+        "SSA_IV_E_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-7/subchapter-IV/part-E",
+        "ASFA_PLAW": "https://www.congress.gov/105/plaws/publ89/PLAW-105publ89.pdf",
+        "ASFA_PDF": "https://www.govinfo.gov/content/pkg/PLAW-105publ89/pdf/PLAW-105publ89.pdf",
+        "CFSR_eCFR": "https://www.ecfr.gov/current/title-45/subtitle-B/chapter-XIII/subchapter-G/part-1355"
+      },
+      "statutory_authority": {
+        "federal": [
+          "42 U.S.C. §§ 670–679c (Title IV-E)",
+          "Public Law 105-89 (ASFA)",
+          "45 CFR Part 1355 (CFSR)"
+        ],
+        "state": []
+      },
+      "decision_basis": "Evidence supports filing requirements under state juvenile/dependency code; safety/neglect/abuse grounds alleged.",
+      "due_process_hooks": "Right to counsel (state-provided); service of process; adjudication timelines; discovery rules per state law.",
+      "domain": "civil",
+      "procedural_weight": 0.45,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "IV-E/ASFA & CFSR links"
+      ]
+    },
+    {
+      "subnode": "DEC-06",
+      "state": "United States",
+      "node": "DEC",
+      "trigger_name": "Differential Response / Alternative Response (No Petition)",
+      "theme_color": "#20B2AA",
+      "icon": "🔧",
+      "summary_html": "Agency chooses **Differential Response (DR)**/**Alternative Response**: engage **services without court petition** when safety permits. FFPSA and IV-B/IV-E prevention funding support voluntary, front-end help to avert removals.",
+      "authority_html": "- **Family First Prevention Services Act (FFPSA)** — prevention services framework under IV-E  \n- **SSA Title IV-B & IV-E (42 U.S.C. §§ 620–629m; 670–679c)** — service funding & case-plan requirements  \n- **CFSR (45 CFR Part 1355)** — assesses safety/permanency outcomes in DR systems",
+      "urls": {
+        "FFPSA_PLAW": "https://www.congress.gov/115/plaws/publ123/PLAW-115publ123.pdf",
+        "FFPSA_PDF": "https://www.govinfo.gov/content/pkg/PLAW-115publ123/pdf/PLAW-115publ123.pdf",
+        "SSA_IV_B_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-7/subchapter-IV/part-B",
+        "SSA_IV_E_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-7/subchapter-IV/part-E",
+        "CFSR_CFR": "https://www.law.cornell.edu/cfr/text/45/part-1355"
+      },
+      "statutory_authority": {
+        "federal": [
+          "42 U.S.C. §§ 671–679b (FFPSA-related IV-E)",
+          "42 U.S.C. §§ 620–629m (Title IV-B)",
+          "42 U.S.C. §§ 670–679c (Title IV-E)",
+          "45 CFR Part 1355 (CFSR)"
+        ],
+        "state": []
+      },
+      "decision_basis": "Safety can be managed without court; family agrees to services; risk level appropriate for DR.",
+      "due_process_hooks": "Informed consent; voluntary case plans; ability to decline; documentation for oversight.",
+      "domain": "civil",
+      "procedural_weight": 0.6,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "FFPSA; IV-B/IV-E; CFSR references"
+      ]
+    }
+  ]
+}

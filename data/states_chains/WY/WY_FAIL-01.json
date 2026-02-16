@@ -1,0 +1,377 @@
+{
+  "node_id": "WY_FAIL-01",
+  "state": "WY",
+  "state_name": "Wyoming",
+  "node_family": "FAIL",
+  "subnode": "FAIL-01",
+  "trigger_name": "Court Reversal of Agency Decision",
+  "summary_html": "A **court reverses or vacates** a CPS or agency decision due to procedural error, insufficient evidence, or constitutional violation. Federal review data (CFSR, ASFA) tracks judicial determinations on reasonable efforts and due process.",
+  "authority_html": "- **Adoption and Safe Families Act (ASFA)** \u2014 judicial findings of 'reasonable efforts' compliance  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal review of judicial/agency conformity  \n- **42 U.S.C. \u00a7 1983** \u2014 civil-rights remedy for unconstitutional removals (14th & 4th Amendments).",
+  "icon": "\u2696\ufe0f",
+  "theme_color": "#FF6347",
+  "domain": "civil",
+  "procedural_weight": 0.8,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "ASFA_PDF": "https://www.govinfo.gov/content/pkg/PLAW-105publ89/pdf/PLAW-105publ89.pdf",
+    "CFSR_CFR": "https://www.law.cornell.edu/cfr/text/45/part-1355"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [
+        "U.S. Const. amend. IV",
+        "U.S. Const. amend. XIV, \u00a7 1"
+      ],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "Public Law 105-89 (ASFA)",
+        "45 CFR Part 1355 (CFSR)",
+        "42 U.S.C. \u00a7 1983 (Civil Rights Act)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Wyoming - Wyo. Stat. \u00a7\u00a014-3-201 et seq. (Child Protective Services Act \u2013 \u00a7\u00a014-3-205 duty to report)",
+          "source_url": "https://www.wyoleg.gov/statutes/compress/title14.pdf",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Wyoming - Wyo. Stat. \u00a7\u00a014-3-401 et seq. (Child Protection legal proceedings)",
+          "source_url": "https://www.wyoleg.gov/statutes/compress/title14.pdf",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Title 14: Children - DFS - CHILD WELFARE PRIMARY",
+          "source_url": "https://law.justia.com/codes/wyoming/title-14/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 20: Domestic Relations",
+          "source_url": "https://law.justia.com/codes/wyoming/title-20/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 35: Public Health",
+          "source_url": "https://law.justia.com/codes/wyoming/title-35/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Agency 49 - Family Services, Dept. of",
+          "url": "https://www.law.cornell.edu/regulations/wyoming/agency-049"
+        },
+        {
+          "title": "Wyoming Administrative Rule Title 14",
+          "url": "https://regulations.justia.com/states/wyoming/title-14/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Wyoming Administrative Rule Title 20",
+          "url": "https://regulations.justia.com/states/wyoming/title-20/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Wyoming Administrative Rule Title 35",
+          "url": "https://regulations.justia.com/states/wyoming/title-35/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Wyoming Administrative Regulations",
+          "url": "https://regulations.justia.com/states/wyoming/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Wyoming Administrative Rule Title 1",
+          "url": "https://regulations.justia.com/states/wyoming/title-1/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Wyoming Administrative Rule Title 2",
+          "url": "https://regulations.justia.com/states/wyoming/title-2/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Wyoming Administrative Rule Title 3",
+          "url": "https://regulations.justia.com/states/wyoming/title-3/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Wyoming Administrative Rule Title 4",
+          "url": "https://regulations.justia.com/states/wyoming/title-4/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Wyoming Administrative Rule Title 5",
+          "url": "https://regulations.justia.com/states/wyoming/title-5/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Wyoming Administrative Rule Title 6",
+          "url": "https://regulations.justia.com/states/wyoming/title-6/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/wyoming.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_WY",
+      "plane_file": "legal_planes/state_constitutional/WY_constitution.json",
+      "provisions_triggered": [
+        {
+          "provision_id": "WY_CONST_SEARCH_SEIZURE",
+          "name": "Search and Seizure",
+          "citation": "Wyoming Const. art. I, \u00a7 4",
+          "federal_parallel": "U.S. Const. amend. IV"
+        },
+        {
+          "provision_id": "WY_CONST_DUE_PROCESS",
+          "name": "Due Process / Law of the Land",
+          "citation": "Wyoming Const. art. I, \u00a7 6",
+          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+        }
+      ]
+    },
+    "case_law": {
+      "search_keywords": [
+        "Wyoming Department of Family Services",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal",
+        "exigent circumstances"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Wyoming%22%20AND%20%28%22Wyoming%20Department%20of%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "wrongful removal",
+        "1983 claim",
+        "civil rights",
+        "immunity",
+        "damages"
+      ],
+      "jurisdiction": "Wyoming state courts",
+      "key_cases": [
+        {
+          "case_id": "s-25-0035",
+          "title": "In the Interest of SP v. The State of Wyoming",
+          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-25-0035.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Wyoming Supreme Court Case s-25-0035 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re interest, Interest of"
+        },
+        {
+          "case_id": "s-25-0032",
+          "title": "In the Interest of MC, Minor Child: CC v. The State of Wyoming",
+          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-25-0032.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Wyoming Supreme Court Case s-25-0032 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re interest, Interest of"
+        },
+        {
+          "case_id": "s-24-0317",
+          "title": "In the Matter of the Sanction Fee of Christopher Goetz: Christopher Goetz, Defense Attorney for Jordan Ryan Borrego v. The State of Wyoming",
+          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0317.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Wyoming Supreme Court Case s-24-0317 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "s-24-0297",
+          "title": "In the Interest Of: AB and JC",
+          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0297.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Wyoming Supreme Court Case s-24-0297 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re interest, Interest of"
+        },
+        {
+          "case_id": "s-24-0228",
+          "title": "In the Matter of the Termination of Parental Rights To: Jdv, a Minor Child",
+          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0228.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Wyoming Supreme Court Case s-24-0228 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: TPR, Matter of TPR, Matter of"
+        },
+        {
+          "case_id": "s-24-0206",
+          "title": "In re Termination of Parental Rights To SLD v. Hansen",
+          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0206.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Wyoming Supreme Court Case s-24-0206 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: TPR, In re TPR, In re"
+        },
+        {
+          "case_id": "s-24-0214",
+          "title": "In re L.H. v. State",
+          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0214.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Wyoming Supreme Court Case s-24-0214 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re initials"
+        },
+        {
+          "case_id": "s-24-0134",
+          "title": "In the Interest of: JF v. The State of Wyoming",
+          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0134.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Wyoming Supreme Court Case s-24-0134 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re interest, Interest of"
+        },
+        {
+          "case_id": "s-24-0159",
+          "title": "In re PT v. State",
+          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0159.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Wyoming Supreme Court Case s-24-0159 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re name, In re"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Department of Family Services",
+    "acronym": "DFS",
+    "hotline": "1-800-457-3659",
+    "website": "https://www.wyoleg.gov"
+  },
+  "linked_output": "OUT-02",
+  "linked_action": "ACT-03",
+  "linked_decision": "DEC-04",
+  "linked_input": "INP-01",
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.849163",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.883832",
+    "schema_version": "3.0.0",
+    "trigger_name_fixed": "2025-12-22T22:53:02.466918",
+    "leaves_linked": "2025-12-24T18:14:22.802710+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "preponderance",
+    "who_bears_burden": "parent",
+    "common_failures": [
+      "Failure to preserve evidence",
+      "Missing deadlines for legal challenges",
+      "Inadequate documentation of violations"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Appeal deadline",
+      "deadline": "30 days",
+      "starts_from": "Final order",
+      "source": "court_rule",
+      "consequence_of_miss": "Loss of appeal rights"
+    },
+    {
+      "requirement_name": "1983 statute of limitations",
+      "deadline": "2-3 years",
+      "starts_from": "Violation occurred",
+      "source": "federal_statute",
+      "consequence_of_miss": "Claim barred"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "attorney"
+      ],
+      "method": "personal_service",
+      "timing": "Upon violation discovery",
+      "content_required": [
+        "Nature of violation",
+        "Remedies available"
+      ],
+      "defective_notice_consequence": "May extend statute of limitations"
+    }
+  ]
+}

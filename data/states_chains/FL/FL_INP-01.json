@@ -1,0 +1,428 @@
+{
+  "node_id": "FL_INP-01",
+  "state": "FL",
+  "state_name": "Florida",
+  "node_family": "INP",
+  "subnode": "INP-01",
+  "trigger_name": "Mandatory Report",
+  "summary_html": "**Mandatory reporters** (designated professionals) must report suspected child abuse or neglect. Federal law sets the funding and policy floor (CAPTA) and mandates reporter frameworks on federal lands/facilities (VICAA).",
+  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 federal floor for state reporting systems  \n- **Victims of Child Abuse Act (34 U.S.C. \u00a7\u00a7 20301\u201320307)** \u2014 includes federal-facility reporter duties (recodified from former 42 U.S.C. \u00a713031)",
+  "icon": "\ud83d\udcde",
+  "theme_color": "#1E90FF",
+  "domain": "civil",
+  "procedural_weight": 0.4,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "CAPTA_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-67",
+    "CAPTA_House": "https://uscode.house.gov/view.xhtml?path=/prelim@title42/chapter67&edition=prelim",
+    "CAPTA_PDF": "https://www.govinfo.gov/content/pkg/USCODE-2021-title42/pdf/USCODE-2021-title42-chap67.pdf",
+    "VICAA_Cornell": "https://www.law.cornell.edu/uscode/text/34/subtitle-II/chapter-203",
+    "VICAA_House": "https://uscode.house.gov/view.xhtml?path=/prelim@title34/subtitle2/chapter203&edition=prelim",
+    "VICAA_PDF": "https://www.govinfo.gov/content/pkg/USCODE-2021-title34/pdf/USCODE-2021-title34-subtitleII-chap203.pdf"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "34 U.S.C. \u00a7\u00a7 20301\u201320307 (Victims of Child Abuse Act)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Florida - Title V, Chapter 39 (Proceedings Relating to Children \u2013 abuse reporting and CPS)",
+          "source_url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099/0039/0039.html",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Title 39: Proceedings Relating to Children - CHILD WELFARE PRIMARY",
+          "source_url": "https://law.justia.com/codes/florida/title-39/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Department 63 - DEPARTMENT OF JUVENILE JUSTICE",
+          "url": "https://www.law.cornell.edu/regulations/florida/department-63"
+        },
+        {
+          "title": "Department 65 - DEPARTMENT OF CHILDREN AND FAMILIES",
+          "url": "https://www.law.cornell.edu/regulations/florida/department-65"
+        },
+        {
+          "title": "Florida Administrative Rule Title 39",
+          "url": "https://regulations.justia.com/states/florida/title-39/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Florida Administrative Rule Title 63",
+          "url": "https://regulations.justia.com/states/florida/title-63/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Florida Administrative Regulations",
+          "url": "https://regulations.justia.com/states/florida/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Florida Administrative Rule Title 1",
+          "url": "https://regulations.justia.com/states/florida/title-1/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Florida Administrative Rule Title 2",
+          "url": "https://regulations.justia.com/states/florida/title-2/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Florida Administrative Rule Title 3",
+          "url": "https://regulations.justia.com/states/florida/title-3/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Florida Administrative Rule Title 4",
+          "url": "https://regulations.justia.com/states/florida/title-4/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Florida Administrative Rule Title 5",
+          "url": "https://regulations.justia.com/states/florida/title-5/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Florida Administrative Rule Title 6",
+          "url": "https://regulations.justia.com/states/florida/title-6/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Florida Administrative Rule Title 7",
+          "url": "https://regulations.justia.com/states/florida/title-7/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/florida.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_FL",
+      "plane_file": "legal_planes/state_constitutional/FL_constitution.json",
+      "provisions_triggered": []
+    },
+    "case_law": {
+      "search_keywords": [
+        "Florida Department of Children and Families",
+        "DCF",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Florida%22%20AND%20%28%22Florida%20Department%20of%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "mandatory reporting",
+        "failure to report",
+        "reporter immunity",
+        "hotline"
+      ],
+      "jurisdiction": "Florida state courts",
+      "key_cases": [
+        {
+          "case_id": "sc2023-1072",
+          "title": "Christine Askew, etc. v. Florida Department of Children and Families",
+          "url": "https://law.justia.com/cases/florida/supreme-court/2024/sc2023-1072.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Florida Supreme Court Case sc2023-1072 (2024)",
+          "relevance_score": 3.0,
+          "matched_keywords": [
+            "florida department of children and families",
+            "dcf"
+          ],
+          "child_welfare_reason": "High: DCF"
+        },
+        {
+          "case_id": "sc21-1681",
+          "title": "In Re: Amendments to the Florida Rules of Juvenile Procedure - 2021 Fast-Track Report",
+          "url": "https://law.justia.com/cases/florida/supreme-court/2022/sc21-1681.html",
+          "year": 2022,
+          "court": "Supreme Court",
+          "citation": "Florida Supreme Court Case sc21-1681 (2022)",
+          "relevance_score": 2.5,
+          "matched_keywords": [
+            "report"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "sc21-1411",
+          "title": "In Re: Amendments to the Florida Probate Rules - 2021 Fast-Track Report",
+          "url": "https://law.justia.com/cases/florida/supreme-court/2021/sc21-1411.html",
+          "year": 2021,
+          "court": "Supreme Court",
+          "citation": "Florida Supreme Court Case sc21-1411 (2021)",
+          "relevance_score": 2.5,
+          "matched_keywords": [
+            "report"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "sc21-1091",
+          "title": "In Re: Amendments to the Florida Rules of Criminal Procedure - 2021 Fast-Track Report",
+          "url": "https://law.justia.com/cases/florida/supreme-court/2021/sc21-1091.html",
+          "year": 2021,
+          "court": "Supreme Court",
+          "citation": "Florida Supreme Court Case sc21-1091 (2021)",
+          "relevance_score": 2.5,
+          "matched_keywords": [
+            "report"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "sc20-1153",
+          "title": "In Re: Amendments to the Florida Rules of Juvenile Procedure - 2020 Fast-Track Report",
+          "url": "https://law.justia.com/cases/florida/supreme-court/2021/sc20-1153.html",
+          "year": 2021,
+          "court": "Supreme Court",
+          "citation": "Florida Supreme Court Case sc20-1153 (2021)",
+          "relevance_score": 2.5,
+          "matched_keywords": [
+            "report"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "sc20-873",
+          "title": "In Re: Amendments to Florida Rule of Judicial Administration 2.420, the Florida Rules of Juvenile Procedure, and the Florida Rules of Appellate Procedure\u00e2\u20ac\u201d2020 Joint Fast-Track Report",
+          "url": "https://law.justia.com/cases/florida/supreme-court/2021/sc20-873.html",
+          "year": 2021,
+          "court": "Supreme Court",
+          "citation": "Florida Supreme Court Case sc20-873 (2021)",
+          "relevance_score": 2.5,
+          "matched_keywords": [
+            "report"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "sc20-165",
+          "title": "In Re: Amendments to the Florida Rules of Judicial Administration - 2020 Regular-Cycle Report",
+          "url": "https://law.justia.com/cases/florida/supreme-court/2021/sc20-165.html",
+          "year": 2021,
+          "court": "Supreme Court",
+          "citation": "Florida Supreme Court Case sc20-165 (2021)",
+          "relevance_score": 2.5,
+          "matched_keywords": [
+            "report"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "sc20-1746",
+          "title": "In Re: Amendments to the Florida Probate Rules - 2020 Fast-Track Report",
+          "url": "https://law.justia.com/cases/florida/supreme-court/2020/sc20-1746.html",
+          "year": 2020,
+          "court": "Supreme Court",
+          "citation": "Florida Supreme Court Case sc20-1746 (2020)",
+          "relevance_score": 2.5,
+          "matched_keywords": [
+            "report"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "sc20-162",
+          "title": "In Re: Amendments to the Florida Family Law Rules of Procedure - 2020 Regular-Cycle Report",
+          "url": "https://law.justia.com/cases/florida/supreme-court/2020/sc20-162.html",
+          "year": 2020,
+          "court": "Supreme Court",
+          "citation": "Florida Supreme Court Case sc20-162 (2020)",
+          "relevance_score": 2.5,
+          "matched_keywords": [
+            "report"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "sc20-1374",
+          "title": "In Re: Amendments to the Florida Rules of Appellate Procedure - 2020 Fast-Track Report",
+          "url": "https://law.justia.com/cases/florida/supreme-court/2020/sc20-1374.html",
+          "year": 2020,
+          "court": "Supreme Court",
+          "citation": "Florida Supreme Court Case sc20-1374 (2020)",
+          "relevance_score": 2.5,
+          "matched_keywords": [
+            "report"
+          ],
+          "child_welfare_reason": "High: In re"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Department of Children and Families",
+    "acronym": "DCF",
+    "hotline": "1-800-962-2873",
+    "website": "https://www.leg.state.fl.us"
+  },
+  "mandatory_reporters": [
+    "Teachers/School Personnel",
+    "Medical/Dental Professionals",
+    "Mental Health Professionals",
+    "Law Enforcement",
+    "Shelter Staff",
+    "Childcare Staff",
+    "Clergy",
+    "Foster Parents",
+    "Coaches",
+    "Coroners",
+    "EMTs/Emergency Personnel",
+    "Judges",
+    "District Attorneys"
+  ],
+  "reporting_type": "centralized",
+  "reporting_details": "Not applicable",
+  "definitions": {
+    "abuse": [
+      "Physical abuse",
+      "Sexual abuse",
+      "Emotional abuse",
+      "Excessive punishment",
+      "Shaken baby syndrome",
+      "Human trafficking",
+      "Domestic violence exposure",
+      "Failure to protect",
+      "Factitious disorder (Munchausen by proxy)",
+      "Institutional abuse/neglect"
+    ],
+    "neglect": [
+      "General neglect",
+      "Medical neglect",
+      "Abandonment",
+      "Inadequate supervision",
+      "Inadequate shelter/housing",
+      "Inadequate clothing",
+      "Malnourishment/failure to provide food",
+      "Failure to thrive",
+      "Injurious environment"
+    ],
+    "other": [],
+    "substance_related": [
+      "Drug lab exposure",
+      "Parental drug/alcohol misuse",
+      "Prenatal drug/alcohol exposure",
+      "Illicit substance involvement"
+    ]
+  },
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.732098",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.562070",
+    "schema_version": "3.0.0",
+    "leaves_linked": "2025-12-24T18:14:21.144402+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "reasonable_suspicion",
+    "who_bears_burden": "agency",
+    "common_failures": [
+      "Insufficient screening documentation",
+      "Failure to verify reporter allegations",
+      "Accepting anonymous reports without corroboration"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Initial response time",
+      "deadline": "24-72 hours",
+      "starts_from": "Report received",
+      "source": "state_statute",
+      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+    },
+    {
+      "requirement_name": "Investigation completion",
+      "deadline": "30-60 days",
+      "starts_from": "Investigation opened",
+      "source": "state_statute",
+      "consequence_of_miss": "Case dismissal risk"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian"
+      ],
+      "method": "any_reasonable",
+      "timing": "Before investigation interview",
+      "content_required": [
+        "Nature of allegation",
+        "Rights"
+      ],
+      "defective_notice_consequence": "May invalidate findings"
+    }
+  ],
+  "door_scenarios": [
+    {
+      "who_at_door": [
+        "caseworker"
+      ],
+      "trigger_reason": "Responding to abuse/neglect report",
+      "legal_authority_to_enter": "none_without_consent",
+      "parent_rights_at_moment": [
+        "Right to refuse entry without warrant",
+        "Right to remain silent",
+        "Right to attorney"
+      ],
+      "what_to_say": [
+        "I do not consent to entry without a warrant",
+        "Please provide your card and the allegations in writing",
+        "I will have my attorney contact you"
+      ],
+      "what_not_to_do": [
+        "Do not physically resist",
+        "Do not lie",
+        "Do not let them in 'just to look'"
+      ],
+      "next_possible_nodes": [
+        "DEC-01",
+        "DEC-04"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "node_id": "CO_OUT-05",
+  "state": "CO",
+  "state_name": "Colorado",
+  "node_family": "OUT",
+  "subnode": "OUT-05",
+  "trigger_name": "Case Dismissal",
+  "summary_html": "Case dismissed due to **unsubstantiated evidence** or court determination that allegations not proven. Federal oversight requires accurate recording of such closures for audit and funding compliance.",
+  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 defines data-collection standards for unfounded cases  \n- **CFSR (45 CFR Part 1355)** \u2014 requires tracking and reporting of unsubstantiated outcomes",
+  "icon": "\ud83d\uddc3\ufe0f",
+  "theme_color": "#708090",
+  "domain": "civil",
+  "procedural_weight": 0.55,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "CAPTA_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-67",
+    "CFSR_CFR": "https://www.law.cornell.edu/cfr/text/45/part-1355"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "45 CFR Part 1355 (CFSR)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Colorado - Title 19, Article 3 (Colorado Children\u2019s Code \u2013 abuse/neglect reporting and dependency)",
+          "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Colorado - Title 19, Article 3, Part 3 (Dependency and neglect procedures)",
+          "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Title 14: Domestic Matters",
+          "source_url": "https://law.justia.com/codes/colorado/title-14/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 19: Children's Code - CHILD WELFARE PRIMARY",
+          "source_url": "https://law.justia.com/codes/colorado/title-19/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 26: Human Services Code",
+          "source_url": "https://law.justia.com/codes/colorado/title-26/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Department 500 - Department of Human Services",
+          "url": "https://www.law.cornell.edu/regulations/colorado/department-500"
+        },
+        {
+          "title": "Department 1008 - Department of Human Services",
+          "url": "https://www.law.cornell.edu/regulations/colorado/department-1008"
+        },
+        {
+          "title": "Department 1400 - Department of Early Childhood",
+          "url": "https://www.law.cornell.edu/regulations/colorado/department-1400"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/colorado.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_CO",
+      "plane_file": "legal_planes/state_constitutional/CO_constitution.json",
+      "provisions_triggered": []
+    },
+    "case_law": {
+      "search_keywords": [
+        "Colorado Department of Human Services",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal",
+        "exigent circumstances"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Colorado%22%20AND%20%28%22Colorado%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "termination of parental rights",
+        "TPR",
+        "adoption",
+        "permanency",
+        "aging out"
+      ],
+      "jurisdiction": "Colorado state courts",
+      "key_cases": [
+        {
+          "case_id": "19ca0759",
+          "title": "In re the Petition of M.M.V., for the Adoption of D.D.R., a Child, and Concerning B.P.R.",
+          "url": "https://law.justia.com/cases/colorado/court-of-appeals/2020/19ca0759.html",
+          "year": 2020,
+          "court": "Court Of Appeals",
+          "citation": "Colorado Court Of Appeals Case 19ca0759 (2020)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "adoption"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "24ca2275",
+          "title": "Adoption of LAQ",
+          "url": "https://law.justia.com/cases/colorado/court-of-appeals/2025/24ca2275.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Colorado Court Of Appeals Case 24ca2275 (2025)",
+          "relevance_score": 1.7,
+          "matched_keywords": [
+            "adoption"
+          ],
+          "child_welfare_reason": "Medium: adoption"
+        },
+        {
+          "case_id": "24ca1966",
+          "title": "Adoption of AES",
+          "url": "https://law.justia.com/cases/colorado/court-of-appeals/2025/24ca1966.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Colorado Court Of Appeals Case 24ca1966 (2025)",
+          "relevance_score": 1.7,
+          "matched_keywords": [
+            "adoption"
+          ],
+          "child_welfare_reason": "Medium: adoption"
+        },
+        {
+          "case_id": "24ca0307",
+          "title": "Adoption of ACZ",
+          "url": "https://law.justia.com/cases/colorado/court-of-appeals/2024/24ca0307.html",
+          "year": 2024,
+          "court": "Court Of Appeals",
+          "citation": "Colorado Court Of Appeals Case 24ca0307 (2024)",
+          "relevance_score": 1.7,
+          "matched_keywords": [
+            "adoption"
+          ],
+          "child_welfare_reason": "Medium: adoption"
+        },
+        {
+          "case_id": "24ca0435",
+          "title": "Adoption of JL",
+          "url": "https://law.justia.com/cases/colorado/court-of-appeals/2024/24ca0435.html",
+          "year": 2024,
+          "court": "Court Of Appeals",
+          "citation": "Colorado Court Of Appeals Case 24ca0435 (2024)",
+          "relevance_score": 1.7,
+          "matched_keywords": [
+            "adoption"
+          ],
+          "child_welfare_reason": "Medium: adoption"
+        },
+        {
+          "case_id": "21ca0520",
+          "title": "Adoption of E.A.T.",
+          "url": "https://law.justia.com/cases/colorado/court-of-appeals/2022/21ca0520.html",
+          "year": 2022,
+          "court": "Court Of Appeals",
+          "citation": "Colorado Court Of Appeals Case 21ca0520 (2022)",
+          "relevance_score": 1.7,
+          "matched_keywords": [
+            "adoption"
+          ],
+          "child_welfare_reason": "Medium: adoption"
+        },
+        {
+          "case_id": "19ca0806",
+          "title": "Adoption of J.D.",
+          "url": "https://law.justia.com/cases/colorado/court-of-appeals/2020/19ca0806.html",
+          "year": 2020,
+          "court": "Court Of Appeals",
+          "citation": "Colorado Court Of Appeals Case 19ca0806 (2020)",
+          "relevance_score": 1.7,
+          "matched_keywords": [
+            "adoption"
+          ],
+          "child_welfare_reason": "Medium: adoption"
+        },
+        {
+          "case_id": "25sc228",
+          "title": "In re The Marriage of Bailey",
+          "url": "https://law.justia.com/cases/colorado/supreme-court/2025/25sc228.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Colorado Supreme Court Case 25sc228 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "24sc788-0",
+          "title": "In re The Parental Responsibilities Concerning Children K.M.S.",
+          "url": "https://law.justia.com/cases/colorado/supreme-court/2025/24sc788-0.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Colorado Supreme Court Case 24sc788-0 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "25sa78-0",
+          "title": "In re People ex rel. R.M.P.",
+          "url": "https://law.justia.com/cases/colorado/supreme-court/2025/25sa78-0.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Colorado Supreme Court Case 25sa78-0 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Colorado Department of Human Services",
+    "acronym": "CDHS",
+    "hotline": "1-844-264-5437",
+    "website": "https://leg.colorado.gov"
+  },
+  "extended_foster_care": true,
+  "extended_foster_care_age": "Other",
+  "linked_action": "ACT-02",
+  "linked_decision": "DEC-01",
+  "linked_input": "INP-01",
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.723348",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.533613",
+    "schema_version": "3.0.0",
+    "trigger_name_fixed": "2025-12-22T22:53:02.287529",
+    "leaves_linked": "2025-12-24T18:14:21.059542+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "clear_and_convincing",
+    "who_bears_burden": "state",
+    "common_failures": [
+      "Insufficient evidence for TPR",
+      "Failure to prove unfitness by clear and convincing evidence",
+      "Santosky v. Kramer standard not met"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Permanency hearing",
+      "deadline": "12 months",
+      "starts_from": "Child enters care",
+      "source": "federal_statute",
+      "consequence_of_miss": "ASFA violation"
+    },
+    {
+      "requirement_name": "TPR filing",
+      "deadline": "15 of 22 months",
+      "starts_from": "Child enters care",
+      "source": "federal_statute",
+      "consequence_of_miss": "Must file TPR or document compelling reason"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian",
+        "putative_father",
+        "tribe",
+        "foster_parent"
+      ],
+      "method": "certified_mail",
+      "timing": "10-30 days before TPR hearing",
+      "content_required": [
+        "TPR grounds",
+        "Date/time/location",
+        "Right to counsel"
+      ],
+      "icwa_additional_notice": true,
+      "defective_notice_consequence": "TPR may be vacated"
+    }
+  ]
+}

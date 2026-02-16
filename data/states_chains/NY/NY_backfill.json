@@ -1,0 +1,3243 @@
+{
+  "state_code": "NY",
+  "state_name": "New York",
+  "backfill_timestamp": "2025-12-25T14:51:55.511498",
+  "sources": {
+    "cfsr_afcars": {
+      "source": "database",
+      "success": true,
+      "error": null,
+      "timestamp": "2025-12-25T14:51:52.408323",
+      "data": {
+        "welfare_statistics": [
+          {
+            "id": 32,
+            "state_code": "NY",
+            "state_name": "New York",
+            "fiscal_year": 2023,
+            "data_source": "cwoutcomes.acf.hhs.gov",
+            "scraped_at": "2025-12-14 15:32:43.307087",
+            "child_population": 3959908,
+            "child_poverty_rate": "18.60",
+            "demographic_white_pct": null,
+            "demographic_black_pct": null,
+            "demographic_hispanic_pct": null,
+            "demographic_asian_pct": null,
+            "demographic_other_pct": null,
+            "maltreatment_victims": 46431,
+            "maltreatment_rate_per_1000": "11.70",
+            "maltreatment_fatalities": 123,
+            "maltreatment_fatality_rate": null,
+            "maltreatment_neglect_pct": "112.10",
+            "maltreatment_physical_pct": null,
+            "maltreatment_sexual_pct": null,
+            "maltreatment_recurrence_pct": null,
+            "foster_care_children": 14928,
+            "foster_care_entry_rate": null,
+            "foster_care_median_stay_months": null,
+            "foster_care_in_care_maltreatment_pct": null,
+            "permanency_reunification_pct": null,
+            "permanency_adoption_pct": null,
+            "permanency_guardianship_pct": null,
+            "permanency_emancipation_pct": null,
+            "caseworker_monthly_visits_pct": "96.50",
+            "caseworker_home_visits_pct": null,
+            "created_at": "2025-12-14 15:34:59.672004"
+          },
+          {
+            "id": 239,
+            "state_code": "NY",
+            "state_name": "New York",
+            "fiscal_year": 2023,
+            "data_source": "cm2023.pdf",
+            "scraped_at": "2025-12-14 16:27:48.609073",
+            "child_population": null,
+            "child_poverty_rate": null,
+            "demographic_white_pct": null,
+            "demographic_black_pct": null,
+            "demographic_hispanic_pct": null,
+            "demographic_asian_pct": null,
+            "demographic_other_pct": null,
+            "maltreatment_victims": 46431,
+            "maltreatment_rate_per_1000": "37.60",
+            "maltreatment_fatalities": null,
+            "maltreatment_fatality_rate": null,
+            "maltreatment_neglect_pct": null,
+            "maltreatment_physical_pct": null,
+            "maltreatment_sexual_pct": null,
+            "maltreatment_recurrence_pct": null,
+            "foster_care_children": null,
+            "foster_care_entry_rate": null,
+            "foster_care_median_stay_months": null,
+            "foster_care_in_care_maltreatment_pct": null,
+            "permanency_reunification_pct": null,
+            "permanency_adoption_pct": null,
+            "permanency_guardianship_pct": null,
+            "permanency_emancipation_pct": null,
+            "caseworker_monthly_visits_pct": null,
+            "caseworker_home_visits_pct": null,
+            "created_at": "2025-12-14 16:22:39.922873"
+          },
+          {
+            "id": 187,
+            "state_code": "NY",
+            "state_name": "New York",
+            "fiscal_year": 2022,
+            "data_source": "cm2022.pdf",
+            "scraped_at": "2025-12-14 16:27:48.540788",
+            "child_population": null,
+            "child_poverty_rate": null,
+            "demographic_white_pct": null,
+            "demographic_black_pct": null,
+            "demographic_hispanic_pct": null,
+            "demographic_asian_pct": null,
+            "demographic_other_pct": null,
+            "maltreatment_victims": 50056,
+            "maltreatment_rate_per_1000": "48.30",
+            "maltreatment_fatalities": null,
+            "maltreatment_fatality_rate": null,
+            "maltreatment_neglect_pct": null,
+            "maltreatment_physical_pct": null,
+            "maltreatment_sexual_pct": null,
+            "maltreatment_recurrence_pct": null,
+            "foster_care_children": null,
+            "foster_care_entry_rate": null,
+            "foster_care_median_stay_months": null,
+            "foster_care_in_care_maltreatment_pct": null,
+            "permanency_reunification_pct": null,
+            "permanency_adoption_pct": null,
+            "permanency_guardianship_pct": null,
+            "permanency_emancipation_pct": null,
+            "caseworker_monthly_visits_pct": null,
+            "caseworker_home_visits_pct": null,
+            "created_at": "2025-12-14 16:22:39.850758"
+          },
+          {
+            "id": 136,
+            "state_code": "NY",
+            "state_name": "New York",
+            "fiscal_year": 2021,
+            "data_source": "cm2021.pdf",
+            "scraped_at": "2025-12-14 16:27:48.472998",
+            "child_population": null,
+            "child_poverty_rate": null,
+            "demographic_white_pct": null,
+            "demographic_black_pct": null,
+            "demographic_hispanic_pct": null,
+            "demographic_asian_pct": null,
+            "demographic_other_pct": null,
+            "maltreatment_victims": 56760,
+            "maltreatment_rate_per_1000": "46.10",
+            "maltreatment_fatalities": null,
+            "maltreatment_fatality_rate": null,
+            "maltreatment_neglect_pct": null,
+            "maltreatment_physical_pct": null,
+            "maltreatment_sexual_pct": null,
+            "maltreatment_recurrence_pct": null,
+            "foster_care_children": null,
+            "foster_care_entry_rate": null,
+            "foster_care_median_stay_months": null,
+            "foster_care_in_care_maltreatment_pct": null,
+            "permanency_reunification_pct": null,
+            "permanency_adoption_pct": null,
+            "permanency_guardianship_pct": null,
+            "permanency_emancipation_pct": null,
+            "caseworker_monthly_visits_pct": null,
+            "caseworker_home_visits_pct": null,
+            "created_at": "2025-12-14 16:22:39.778840"
+          },
+          {
+            "id": 86,
+            "state_code": "NY",
+            "state_name": "New York",
+            "fiscal_year": 2020,
+            "data_source": "cm2020.pdf",
+            "scraped_at": "2025-12-14 16:27:48.407196",
+            "child_population": null,
+            "child_poverty_rate": null,
+            "demographic_white_pct": null,
+            "demographic_black_pct": null,
+            "demographic_hispanic_pct": null,
+            "demographic_asian_pct": null,
+            "demographic_other_pct": null,
+            "maltreatment_victims": 59126,
+            "maltreatment_rate_per_1000": "48.70",
+            "maltreatment_fatalities": null,
+            "maltreatment_fatality_rate": null,
+            "maltreatment_neglect_pct": null,
+            "maltreatment_physical_pct": null,
+            "maltreatment_sexual_pct": null,
+            "maltreatment_recurrence_pct": null,
+            "foster_care_children": null,
+            "foster_care_entry_rate": null,
+            "foster_care_median_stay_months": null,
+            "foster_care_in_care_maltreatment_pct": null,
+            "permanency_reunification_pct": null,
+            "permanency_adoption_pct": null,
+            "permanency_guardianship_pct": null,
+            "permanency_emancipation_pct": null,
+            "caseworker_monthly_visits_pct": null,
+            "caseworker_home_visits_pct": null,
+            "created_at": "2025-12-14 16:22:39.711082"
+          },
+          {
+            "id": 1974,
+            "state_code": "NY",
+            "state_name": "New York",
+            "fiscal_year": 2019,
+            "data_source": "cm2019.pdf",
+            "scraped_at": "2025-12-14 16:27:48.339926",
+            "child_population": null,
+            "child_poverty_rate": null,
+            "demographic_white_pct": null,
+            "demographic_black_pct": null,
+            "demographic_hispanic_pct": null,
+            "demographic_asian_pct": null,
+            "demographic_other_pct": null,
+            "maltreatment_victims": 67269,
+            "maltreatment_rate_per_1000": "5.30",
+            "maltreatment_fatalities": null,
+            "maltreatment_fatality_rate": null,
+            "maltreatment_neglect_pct": null,
+            "maltreatment_physical_pct": null,
+            "maltreatment_sexual_pct": null,
+            "maltreatment_recurrence_pct": null,
+            "foster_care_children": null,
+            "foster_care_entry_rate": null,
+            "foster_care_median_stay_months": null,
+            "foster_care_in_care_maltreatment_pct": null,
+            "permanency_reunification_pct": null,
+            "permanency_adoption_pct": null,
+            "permanency_guardianship_pct": null,
+            "permanency_emancipation_pct": null,
+            "caseworker_monthly_visits_pct": null,
+            "caseworker_home_visits_pct": null,
+            "created_at": "2025-12-14 16:27:48.339943"
+          },
+          {
+            "id": 744,
+            "state_code": "NY",
+            "state_name": "New York",
+            "fiscal_year": 2018,
+            "data_source": "cm2018.pdf",
+            "scraped_at": "2025-12-14 16:27:48.271619",
+            "child_population": null,
+            "child_poverty_rate": null,
+            "demographic_white_pct": null,
+            "demographic_black_pct": null,
+            "demographic_hispanic_pct": null,
+            "demographic_asian_pct": null,
+            "demographic_other_pct": null,
+            "maltreatment_victims": 41116,
+            "maltreatment_rate_per_1000": "16.90",
+            "maltreatment_fatalities": null,
+            "maltreatment_fatality_rate": null,
+            "maltreatment_neglect_pct": null,
+            "maltreatment_physical_pct": null,
+            "maltreatment_sexual_pct": null,
+            "maltreatment_recurrence_pct": null,
+            "foster_care_children": null,
+            "foster_care_entry_rate": null,
+            "foster_care_median_stay_months": null,
+            "foster_care_in_care_maltreatment_pct": null,
+            "permanency_reunification_pct": null,
+            "permanency_adoption_pct": null,
+            "permanency_guardianship_pct": null,
+            "permanency_emancipation_pct": null,
+            "caseworker_monthly_visits_pct": null,
+            "caseworker_home_visits_pct": null,
+            "created_at": "2025-12-14 16:24:36.590219"
+          },
+          {
+            "id": 692,
+            "state_code": "NY",
+            "state_name": "New York",
+            "fiscal_year": 2017,
+            "data_source": "cm2017.pdf",
+            "scraped_at": "2025-12-14 16:27:48.204423",
+            "child_population": null,
+            "child_poverty_rate": null,
+            "demographic_white_pct": null,
+            "demographic_black_pct": null,
+            "demographic_hispanic_pct": null,
+            "demographic_asian_pct": null,
+            "demographic_other_pct": null,
+            "maltreatment_victims": 71226,
+            "maltreatment_rate_per_1000": "17.10",
+            "maltreatment_fatalities": null,
+            "maltreatment_fatality_rate": null,
+            "maltreatment_neglect_pct": null,
+            "maltreatment_physical_pct": null,
+            "maltreatment_sexual_pct": null,
+            "maltreatment_recurrence_pct": null,
+            "foster_care_children": null,
+            "foster_care_entry_rate": null,
+            "foster_care_median_stay_months": null,
+            "foster_care_in_care_maltreatment_pct": null,
+            "permanency_reunification_pct": null,
+            "permanency_adoption_pct": null,
+            "permanency_guardianship_pct": null,
+            "permanency_emancipation_pct": null,
+            "caseworker_monthly_visits_pct": null,
+            "caseworker_home_visits_pct": null,
+            "created_at": "2025-12-14 16:24:36.521014"
+          },
+          {
+            "id": 640,
+            "state_code": "NY",
+            "state_name": "New York",
+            "fiscal_year": 2016,
+            "data_source": "cm2016.pdf",
+            "scraped_at": "2025-12-14 16:27:48.136417",
+            "child_population": null,
+            "child_poverty_rate": null,
+            "demographic_white_pct": null,
+            "demographic_black_pct": null,
+            "demographic_hispanic_pct": null,
+            "demographic_asian_pct": null,
+            "demographic_other_pct": null,
+            "maltreatment_victims": 65123,
+            "maltreatment_rate_per_1000": "15.60",
+            "maltreatment_fatalities": null,
+            "maltreatment_fatality_rate": null,
+            "maltreatment_neglect_pct": null,
+            "maltreatment_physical_pct": null,
+            "maltreatment_sexual_pct": null,
+            "maltreatment_recurrence_pct": null,
+            "foster_care_children": null,
+            "foster_care_entry_rate": null,
+            "foster_care_median_stay_months": null,
+            "foster_care_in_care_maltreatment_pct": null,
+            "permanency_reunification_pct": null,
+            "permanency_adoption_pct": null,
+            "permanency_guardianship_pct": null,
+            "permanency_emancipation_pct": null,
+            "caseworker_monthly_visits_pct": null,
+            "caseworker_home_visits_pct": null,
+            "created_at": "2025-12-14 16:24:36.451100"
+          },
+          {
+            "id": 380,
+            "state_code": "NY",
+            "state_name": "New York",
+            "fiscal_year": 2015,
+            "data_source": "cm2015.pdf",
+            "scraped_at": "2025-12-14 16:27:48.068835",
+            "child_population": null,
+            "child_poverty_rate": null,
+            "demographic_white_pct": null,
+            "demographic_black_pct": null,
+            "demographic_hispanic_pct": null,
+            "demographic_asian_pct": null,
+            "demographic_other_pct": null,
+            "maltreatment_victims": 66676,
+            "maltreatment_rate_per_1000": "49.00",
+            "maltreatment_fatalities": null,
+            "maltreatment_fatality_rate": null,
+            "maltreatment_neglect_pct": null,
+            "maltreatment_physical_pct": null,
+            "maltreatment_sexual_pct": null,
+            "maltreatment_recurrence_pct": null,
+            "foster_care_children": null,
+            "foster_care_entry_rate": null,
+            "foster_care_median_stay_months": null,
+            "foster_care_in_care_maltreatment_pct": null,
+            "permanency_reunification_pct": null,
+            "permanency_adoption_pct": null,
+            "permanency_guardianship_pct": null,
+            "permanency_emancipation_pct": null,
+            "caseworker_monthly_visits_pct": null,
+            "caseworker_home_visits_pct": null,
+            "created_at": "2025-12-14 16:23:20.297179"
+          },
+          {
+            "id": 537,
+            "state_code": "NY",
+            "state_name": "New York",
+            "fiscal_year": 2014,
+            "data_source": "cm2014.pdf",
+            "scraped_at": "2025-12-14 16:27:47.999548",
+            "child_population": null,
+            "child_poverty_rate": null,
+            "demographic_white_pct": null,
+            "demographic_black_pct": null,
+            "demographic_hispanic_pct": null,
+            "demographic_asian_pct": null,
+            "demographic_other_pct": null,
+            "maltreatment_victims": 65655,
+            "maltreatment_rate_per_1000": "44.50",
+            "maltreatment_fatalities": null,
+            "maltreatment_fatality_rate": null,
+            "maltreatment_neglect_pct": null,
+            "maltreatment_physical_pct": null,
+            "maltreatment_sexual_pct": null,
+            "maltreatment_recurrence_pct": null,
+            "foster_care_children": null,
+            "foster_care_entry_rate": null,
+            "foster_care_median_stay_months": null,
+            "foster_care_in_care_maltreatment_pct": null,
+            "permanency_reunification_pct": null,
+            "permanency_adoption_pct": null,
+            "permanency_guardianship_pct": null,
+            "permanency_emancipation_pct": null,
+            "caseworker_monthly_visits_pct": null,
+            "caseworker_home_visits_pct": null,
+            "created_at": "2025-12-14 16:24:36.310122"
+          },
+          {
+            "id": 486,
+            "state_code": "NY",
+            "state_name": "New York",
+            "fiscal_year": 2013,
+            "data_source": "cm2013.pdf",
+            "scraped_at": "2025-12-14 16:27:47.933128",
+            "child_population": null,
+            "child_poverty_rate": null,
+            "demographic_white_pct": null,
+            "demographic_black_pct": null,
+            "demographic_hispanic_pct": null,
+            "demographic_asian_pct": null,
+            "demographic_other_pct": null,
+            "maltreatment_victims": 64578,
+            "maltreatment_rate_per_1000": "48.40",
+            "maltreatment_fatalities": null,
+            "maltreatment_fatality_rate": null,
+            "maltreatment_neglect_pct": null,
+            "maltreatment_physical_pct": null,
+            "maltreatment_sexual_pct": null,
+            "maltreatment_recurrence_pct": null,
+            "foster_care_children": null,
+            "foster_care_entry_rate": null,
+            "foster_care_median_stay_months": null,
+            "foster_care_in_care_maltreatment_pct": null,
+            "permanency_reunification_pct": null,
+            "permanency_adoption_pct": null,
+            "permanency_guardianship_pct": null,
+            "permanency_emancipation_pct": null,
+            "caseworker_monthly_visits_pct": null,
+            "caseworker_home_visits_pct": null,
+            "created_at": "2025-12-14 16:24:36.236575"
+          },
+          {
+            "id": 434,
+            "state_code": "NY",
+            "state_name": "New York",
+            "fiscal_year": 2012,
+            "data_source": "cm2012.pdf",
+            "scraped_at": "2025-12-14 16:27:47.863091",
+            "child_population": null,
+            "child_poverty_rate": null,
+            "demographic_white_pct": null,
+            "demographic_black_pct": null,
+            "demographic_hispanic_pct": null,
+            "demographic_asian_pct": null,
+            "demographic_other_pct": null,
+            "maltreatment_victims": 68375,
+            "maltreatment_rate_per_1000": "16.00",
+            "maltreatment_fatalities": null,
+            "maltreatment_fatality_rate": null,
+            "maltreatment_neglect_pct": null,
+            "maltreatment_physical_pct": null,
+            "maltreatment_sexual_pct": null,
+            "maltreatment_recurrence_pct": null,
+            "foster_care_children": null,
+            "foster_care_entry_rate": null,
+            "foster_care_median_stay_months": null,
+            "foster_care_in_care_maltreatment_pct": null,
+            "permanency_reunification_pct": null,
+            "permanency_adoption_pct": null,
+            "permanency_guardianship_pct": null,
+            "permanency_emancipation_pct": null,
+            "caseworker_monthly_visits_pct": null,
+            "caseworker_home_visits_pct": null,
+            "created_at": "2025-12-14 16:24:36.167473"
+          }
+        ],
+        "child_victims": [
+          {
+            "state": "New York",
+            "2019_rate_per_1_000_children": "16.7",
+            "2020_rate_per_1_000_children": "14.0",
+            "2021_rate_per_1_000_children": "13.8",
+            "2022_rate_per_1_000_children": "12.4",
+            "2023_rate_per_1_000_children": "11.7"
+          }
+        ],
+        "fatalities": [
+          {
+            "state": "New York",
+            "2019": "69",
+            "2020": "105",
+            "2021": "126",
+            "2022": "105",
+            "2023": "123"
+          }
+        ],
+        "response_times_hours": [
+          {
+            "state": "New York",
+            "2019": "12",
+            "2020": "10",
+            "2021": "11",
+            "2022": "14",
+            "2023": "13"
+          }
+        ],
+        "investigation_initiation_days": [
+          {
+            "state": "New York",
+            "children_who_received_services": "-",
+            "children_who_received_services_on_or_after_the_rep": "-",
+            "average_number_of_days_to_initiation_of_services": "-",
+            "median_number_of_days_to_initiation_of_services": "-"
+          }
+        ],
+        "total_referrals": [
+          {
+            "state": "New York",
+            "2023_screened_in_referrals_reports": "148,838",
+            "2023_screened_out_referrals": null,
+            "2023_total_referrals_from_reporting_states": "148,838",
+            "2023_rate_per_1_000_children": null,
+            "percent_change_from_2019_to_2023": null
+          }
+        ],
+        "screened_in_referrals": [
+          {
+            "state": "New York",
+            "2019_rate_per_1_000_children": "40.7",
+            "2020_rate_per_1_000_children": "34.4",
+            "2021_rate_per_1_000_children": "34.5",
+            "2022_rate_per_1_000_children": "37.0",
+            "2023_rate_per_1_000_children": "37.6"
+          }
+        ],
+        "screened_out_referrals": [
+          {
+            "state": "New York",
+            "2019_rate_per_1_000_children": null,
+            "2020_rate_per_1_000_children": null,
+            "2021_rate_per_1_000_children": null,
+            "2022_rate_per_1_000_children": null,
+            "2023_rate_per_1_000_children": null
+          }
+        ],
+        "perpetrators_trend": [
+          {
+            "state": "New York",
+            "2019": "52,669",
+            "2020": "45,922",
+            "2021": "43,478",
+            "2022": "38,597",
+            "2023": "35,819"
+          }
+        ],
+        "perpetrators_by_relationship": [
+          {
+            "state": "New York",
+            "other": "464",
+            "other_professional": "-",
+            "relative": "2,213",
+            "unmarried_partner_of_parent": "2,100",
+            "unknown": "27",
+            "total_perpetrators": "35,819"
+          }
+        ],
+        "perpetrators_by_age": [
+          {
+            "state": "New York",
+            "18_24_rate_per_1_000": "2.0",
+            "25_34_rate_per_1_000": "4.8",
+            "35_44_rate_per_1_000": "4.8",
+            "45_54_rate_per_1_000": "1.9",
+            "55_64_rate_per_1_000": "0.6",
+            "65_74_rate_per_1_000": "0.2",
+            "75_and_older_rate_per_1_000": "0.1"
+          }
+        ],
+        "perpetrators_by_sex": [
+          {
+            "state": "New York",
+            "men": "17,757",
+            "women": "18,052",
+            "unknown": "10",
+            "total_perpetrators": "35,819",
+            "men_percent": "49.6",
+            "women_percent": "50.4",
+            "unknown_percent": "0.0"
+          }
+        ],
+        "perpetrators_by_race": [
+          {
+            "state": "New York",
+            "american_indian_or_alaska_native_percent": "0.4",
+            "asian_percent": "2.7",
+            "black_or_african_american_percent": "27.6",
+            "hispanic_percent": "27.2",
+            "two_or_more_races_percent": "1.9",
+            "native_hawaiian_or_other_pacific_islander_percent": "0.1",
+            "white_percent": "39.2",
+            "unknown_percent": "0.9"
+          }
+        ],
+        "victims_by_age": [
+          {
+            "state": "New York",
+            "9_rate_per_1_000_children": "11.1",
+            "10_rate_per_1_000_children": "10.8",
+            "11_rate_per_1_000_children": "10.6",
+            "12_rate_per_1_000_children": "10.9",
+            "13_rate_per_1_000_children": "11.4",
+            "14_rate_per_1_000_children": "10.9",
+            "15_rate_per_1_000_children": "11.2",
+            "16_rate_per_1_000_children": "9.6",
+            "17_rate_per_1_000_children": "5.2"
+          }
+        ],
+        "victims_by_sex": [
+          {
+            "state": "New York",
+            "boy": "22,718",
+            "girl": "23,684",
+            "unknown": "29",
+            "total_victims": "46,431",
+            "boy_rate_per_1_000_children": "11.2",
+            "girl_rate_per_1_000_children": "12.3"
+          }
+        ],
+        "victims_by_race": [
+          {
+            "state": "New York",
+            "american_indian_or_alaska_native_rate_per_1_000_ch": "14.0",
+            "asian_rate_per_1_000_children": "3.4",
+            "black_or_african_american_rate_per_1_000_children": "20.7",
+            "hispanic_rate_per_1_000_children": "14.6",
+            "native_hawaiian_or_other_pacific_islander_rate_per": "10.1",
+            "two_or_more_races_rate_per_1_000_children": "15.4",
+            "white_rate_per_1_000_children": "8.5"
+          }
+        ],
+        "demographics_age_0_8": [
+          {
+            "state": "New York",
+            "1_age": "209,673",
+            "1_age_1": "208,015",
+            "2_age": "198,250",
+            "3_age": "209,648",
+            "4_age": "213,230",
+            "5_age": "216,890",
+            "6_age": "218,390",
+            "7_age": "221,231",
+            "8_age": "222,573"
+          }
+        ],
+        "demographics_age_9_17": [
+          {
+            "state": "New York",
+            "9_age": "220,916",
+            "10_age": "221,549",
+            "11_age": "222,249",
+            "12_age": "224,944",
+            "13_age": "225,671",
+            "14_age": "226,081",
+            "15_age": "233,776",
+            "16_age": "233,894",
+            "17_age": "232,928"
+          }
+        ],
+        "first_time_victims": [
+          {
+            "state": "New York",
+            "first_time_victims": "27,359",
+            "first_time_victims_rate_per_1_000_children": "6.9"
+          }
+        ],
+        "maltreatment_types": [
+          {
+            "state": "New York",
+            "medical_neglect_only": "0.4",
+            "neglect_only": "80.5",
+            "other_only": "0.4",
+            "physical_abuse_only": "0.6",
+            "psychological_maltreatment_only": "0.1",
+            "sexual_abuse_only": "0.6",
+            "sex_trafficking_only": "0.0",
+            "unknown_only": "-",
+            "multiple_maltreatments": "17.3"
+          }
+        ],
+        "caregiver_risk_factors": [
+          {
+            "state": "New York",
+            "victims_in_reporting_states": "46,431",
+            "drug_abuse": "7,761",
+            "drug_abuse_percent": "16.7",
+            "inadequate_housing": "-",
+            "inadequate_housing_percent": "-"
+          }
+        ],
+        "fatalities_after_reunification": [
+          {
+            "state": "New York",
+            "child_file_fatalities": "-",
+            "child_file_fatalities_who_were_reunited_with_their": "-",
+            "agency_file_fatalities": "-",
+            "agency_file_fatalities_who_were_reunited_with_thei": "-"
+          }
+        ],
+        "fatalities_after_family_preservation": [
+          {
+            "state": "New York",
+            "child_file_fatalities": "-",
+            "child_file_fatalities_whose_families_received_pres": "-",
+            "agency_file_fatalities": "-",
+            "agency_file_fatalities_whose_families_received_pre": "-"
+          }
+        ],
+        "fatalities_by_submission_type": [
+          {
+            "state": "New York",
+            "child_fatalities_reported_in_the_child_file": "123",
+            "child_fatalities_reported_in_the_agency_file": null,
+            "total_child_fatalities": "123",
+            "child_fatality_rates_per_100_000_children": "3.11"
+          }
+        ],
+        "received_investigation": [
+          {
+            "state": "New York",
+            "closed_with_no_finding": "-",
+            "no_alleged_maltreatment": "2,107",
+            "other": "-",
+            "unknown": "-",
+            "total_children": "243,064"
+          }
+        ],
+        "received_postresponse_services": [
+          {
+            "state": "New York",
+            "victims": null,
+            "victims_who_received_postresponse_services": null,
+            "victims_who_received_postresponse_services_percent": "-",
+            "nonvictims": null,
+            "nonvictims_who_received_postresponse_services": null,
+            "nonvictims_who_received_postresponse_services_perc": "-"
+          }
+        ],
+        "received_foster_postresponse": [
+          {
+            "state": "New York",
+            "victims": "-",
+            "victims_who_received_foster_care_postresponse_serv": "-",
+            "nonvictims": "-",
+            "nonvictims_who_received_foster_care_postresponse_s": "-"
+          }
+        ],
+        "received_prevention_services": [
+          {
+            "state": "New York",
+            "other_funding_other_children": "66,993",
+            "other_calculated_child_count": "-",
+            "other_estimated_total_child_recipients": "66,993",
+            "estimated_total_child_recipients_duplicate": "72,545"
+          }
+        ],
+        "prevention_by_funding_source": [
+          {
+            "state": "New York",
+            "promoting_safe_and_stable_families_pssf_children": "-",
+            "pssf_calculated_child_count": "-",
+            "pssf_estimated_total_child_recipients": "-",
+            "social_services_block_grant_ssbg_children": "-",
+            "ssbg_calculated_child_count": "-",
+            "ssbg_estimated_total_child_recipients": "-"
+          }
+        ],
+        "family_preservation_services": [
+          {
+            "state": "New York",
+            "victims": "-",
+            "victims_who_received_family_preservation_services": "-"
+          }
+        ],
+        "reunification_eligible": [
+          {
+            "state": "New York",
+            "victims_who_were_eligible_for_referral_to_part_c_a": "9,418",
+            "victims_who_were_referred_to_part_c_agencies": "-",
+            "victims_who_were_referred_to_part_c_agencies_percent": "-"
+          }
+        ],
+        "reunified_with_family": [
+          {
+            "state": "New York",
+            "victims": "-",
+            "victims_who_were_reunited_with_their_families_with": "-"
+          }
+        ],
+        "court_appointed_representatives": [
+          {
+            "state": "New York",
+            "victims": "-",
+            "victims_with_court_appointed_representatives": "-",
+            "victims_with_court_appointed_representatives_perce": "-"
+          }
+        ],
+        "prenatal_substance_exposure": [
+          {
+            "state": "New York",
+            "screened_in_ipse": "215",
+            "screened_out_ipse": "-",
+            "total_ipse": "215"
+          }
+        ],
+        "prenatal_screened_in": [
+          {
+            "state": "New York",
+            "screened_in_ipse": "215",
+            "screened_in_ipse_who_have_a_plan_of_safe_care": "184",
+            "screened_in_ipse_who_have_a_plan_of_safe_care_perc": "85.6"
+          }
+        ],
+        "administrative_structure": [
+          {
+            "table_c_1_state_administrative_structure": "New York",
+            "level_of": " -",
+            "data_column": " 1",
+            "column_4": " -",
+            "column_5": " -",
+            "column_6": " 1",
+            "column_7": " -",
+            "column_8": " -",
+            "column_9": " 1",
+            "column_10": null
+          }
+        ],
+        "child_population": [
+          {
+            "state": "New York",
+            "2019": "4,031,894",
+            "2020": "4,212,998",
+            "2021": "4,112,493",
+            "2022": "4,027,951",
+            "2023": "3,959,908"
+          }
+        ],
+        "population_demographics": [
+          {
+            "state": "New York",
+            "boy": "2,027,108",
+            "girl": "1,932,800",
+            "american_indian_or_alaska_native": "12,050",
+            "asian": "355,266",
+            "black_or_african_american": "576,531",
+            "hispanic": "1,006,227",
+            "native_hawaiian_or_other_pacific_islander": "2,172",
+            "two_or_more_races": "158,759",
+            "white": "1,848,903"
+          }
+        ],
+        "adult_population": [
+          {
+            "state": "New York",
+            "18_24": "1,741,335",
+            "25_34": "2,736,294",
+            "35_44": "2,545,614",
+            "45_54": "2,362,173",
+            "55_64": "2,591,791",
+            "65_75": "2,078,094",
+            "75_and_older": "1,556,007"
+          }
+        ],
+        "cps_agency_info": [
+          {
+            "state": "New York",
+            "investigation_and_alternative_response_workers": "-",
+            "completed_reports_reports_with_a_disposition": "-",
+            "completed_reports_per_investigation_and_alternativ": "-"
+          }
+        ],
+        "training_organizations": [
+          {
+            "id": 95,
+            "state": "New York",
+            "name": "New York OCFS Bureau of Training",
+            "description": "The New York State Office of Children & Family Services has a Bureau of Training responsible for child welfare workforce development. It oversees the training of CPS staff in New York\u2019s state-supervised, county-run system by setting curriculum and standards. Through contracts with SUNY and CUNY institutions, the bureau ensures that caseworkers and supervisors across all counties receive consistent core training and required annual education to maintain their skills.",
+            "created_at": "2025-08-16 01:01:00.860690"
+          },
+          {
+            "id": 96,
+            "state": "New York",
+            "name": "SUNY Albany Professional Development Program (PDP)",
+            "description": "A university-based program that serves as a major training contractor for New York\u2019s child welfare system. PDP develops and delivers a wide array of child welfare trainings on behalf of OCFS, including new caseworker core training, supervisory training, and specialized courses (such as preventive services, adoption casework, and juvenile justice crossover youth). Its trainers travel statewide to equip county CPS staff with up-to-date knowledge.",
+            "created_at": "2025-08-16 01:01:00.860690"
+          },
+          {
+            "id": 97,
+            "state": "New York",
+            "name": "Welfare Research, Inc. (WRI)",
+            "description": "A nonprofit organization in New York that provides training, technical assistance, and research for child welfare initiatives under contract with OCFS. WRI has assisted with implementing new practice models and data analysis. For example, WRI staff help train child welfare professionals on new policies or pilot programs, and they offer consulting expertise to counties in improving outcomes, acting as an external support arm for the state.",
+            "created_at": "2025-08-16 01:01:00.860690"
+          },
+          {
+            "id": 98,
+            "state": "New York",
+            "name": "New York City ACS Workforce Institute",
+            "description": "A partnership between NYC\u2019s Administration for Children\u2019s Services and CUNY that delivers training to child welfare and juvenile justice staff in the city. The Workforce Institute provides ongoing professional development to ACS caseworkers and supervisors (post-hire) on topics like motivational interviewing, trauma-informed care, and supervisory coaching. This is in addition to the pre-service training ACS staff receive, and is aimed at continually elevating practice quality in NYC\u2019s large child welfare system.",
+            "created_at": "2025-08-16 01:01:00.860690"
+          },
+          {
+            "id": 99,
+            "state": "New York",
+            "name": "The New York Foundling",
+            "description": "A historic nonprofit organization in New York City that contracts with ACS to provide a range of child welfare services. The New York Foundling manages foster care cases (receiving referrals from ACS to place children in foster homes it oversees), runs preventive services programs to support families and avoid foster care, and operates residential programs for youth. As one of many provider agencies in NYC\u2019s network, it carries out day-to-day case management for a portion of the city\u2019s children in foster care under ACS oversight.",
+            "created_at": "2025-08-16 01:01:00.860690"
+          }
+        ]
+      }
+    },
+    "crime_data": {
+      "source": "database",
+      "success": true,
+      "error": null,
+      "timestamp": "2025-12-25T14:51:52.443444",
+      "data": {
+        "crimes_by_offense": [
+          {
+            "offense_name": "Criminal Sexual Contact",
+            "count": 2516,
+            "avg_victim_age": 13.3620826709062
+          },
+          {
+            "offense_name": "Sodomy",
+            "count": 826,
+            "avg_victim_age": 13.938256658595641
+          },
+          {
+            "offense_name": "Rape",
+            "count": 651,
+            "avg_victim_age": 16.17357910906298
+          },
+          {
+            "offense_name": "Kidnapping/Abduction",
+            "count": 441,
+            "avg_victim_age": 13.399092970521542
+          },
+          {
+            "offense_name": "Statutory Rape",
+            "count": 187,
+            "avg_victim_age": 14.358288770053475
+          },
+          {
+            "offense_name": "Pornography/Obscene Material",
+            "count": 150,
+            "avg_victim_age": 15.14
+          },
+          {
+            "offense_name": "Sexual Assault With An Object",
+            "count": 49,
+            "avg_victim_age": 11.591836734693878
+          },
+          {
+            "offense_name": "Human Trafficking, Commercial Sex Acts",
+            "count": 17,
+            "avg_victim_age": 4.705882352941177
+          },
+          {
+            "offense_name": "Incest",
+            "count": 10,
+            "avg_victim_age": 11.2
+          }
+        ],
+        "trafficking_cases": [
+          {
+            "count": 17
+          }
+        ],
+        "perpetrator_relationships": [
+          {
+            "relationship": "Victim Was Acquaintance",
+            "count": 965
+          },
+          {
+            "relationship": "Victim Was Stranger",
+            "count": 951
+          },
+          {
+            "relationship": "Relationship Unknown",
+            "count": 729
+          },
+          {
+            "relationship": "Victim was Otherwise Known",
+            "count": 442
+          },
+          {
+            "relationship": "Victim Was Boyfriend/Girlfriend",
+            "count": 338
+          },
+          {
+            "relationship": "Victim Was Child",
+            "count": 302
+          },
+          {
+            "relationship": "Victim Was Other Family Member",
+            "count": 282
+          },
+          {
+            "relationship": "Victim was Ex-Spouse",
+            "count": 272
+          },
+          {
+            "relationship": "Victim Was Sibling",
+            "count": 147
+          },
+          {
+            "relationship": "Victim Was Stepchild",
+            "count": 109
+          },
+          {
+            "relationship": "Victim Was Friend",
+            "count": 83
+          },
+          {
+            "relationship": "Victim Was Grandchild",
+            "count": 35
+          },
+          {
+            "relationship": "Victim Was Stepparent",
+            "count": 24
+          },
+          {
+            "relationship": "Victim Was Stepsibling",
+            "count": 22
+          },
+          {
+            "relationship": "Victim Was Neighbor",
+            "count": 17
+          },
+          {
+            "relationship": "Victim Was Child of Boyfriend or Girlfriend",
+            "count": 16
+          },
+          {
+            "relationship": "Victim was Employee",
+            "count": 15
+          },
+          {
+            "relationship": "Victim was Employer",
+            "count": 8
+          },
+          {
+            "relationship": "Victim Was Spouse",
+            "count": 8
+          },
+          {
+            "relationship": "Victim Was In-law",
+            "count": 5
+          }
+        ]
+      }
+    },
+    "missing_children": {
+      "source": "database",
+      "success": true,
+      "error": null,
+      "timestamp": "2025-12-25T14:51:52.443894",
+      "data": [
+        {
+          "child_name": "Nikhita Jagtiani",
+          "age": 15,
+          "missing_date": "9/14/2013",
+          "missing_from_city": "NEW YORK",
+          "contact_agency": "Federal Bureau of Investigation",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/1244838/1"
+        },
+        {
+          "child_name": "Joshua Rivera",
+          "age": 16,
+          "missing_date": "8/17/2024",
+          "missing_from_city": "ALBANY",
+          "contact_agency": "Albany Police Department",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2029507/1"
+        },
+        {
+          "child_name": "Talia Bell",
+          "age": 17,
+          "missing_date": "7/15/2024",
+          "missing_from_city": "LOCKPORT",
+          "contact_agency": "Niagara County Sheriff's Office",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2026862/1"
+        },
+        {
+          "child_name": "Selah Davis",
+          "age": 17,
+          "missing_date": "2/15/2008",
+          "missing_from_city": "BRONX",
+          "contact_agency": "New York City Police Department",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/1091315/1"
+        },
+        {
+          "child_name": "Dorothy Torres",
+          "age": 17,
+          "missing_date": "1/7/2025",
+          "missing_from_city": "Pleasantville",
+          "contact_agency": "Mount Pleasant Town Police Department",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2040632/1"
+        },
+        {
+          "child_name": "Susan Staple",
+          "age": 15,
+          "missing_date": "12/20/2024",
+          "missing_from_city": "HEMPSTEAD",
+          "contact_agency": "Hempstead Police Department",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2039395/1"
+        },
+        {
+          "child_name": "Yahshemah Jones",
+          "age": 15,
+          "missing_date": "12/12/2024",
+          "missing_from_city": "BRONX",
+          "contact_agency": "New York Police Department",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2039085/1"
+        },
+        {
+          "child_name": "Qua'mere Rogers",
+          "age": 19,
+          "missing_date": "12/1/2008",
+          "missing_from_city": "SYRACUSE",
+          "contact_agency": "Syracuse Police Department",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/1145099/1"
+        },
+        {
+          "child_name": "Caroline Jacques",
+          "age": 15,
+          "missing_date": "11/22/2024",
+          "missing_from_city": "PLEASANTVILLE",
+          "contact_agency": "Pleasantville Police Department",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2037720/1"
+        },
+        {
+          "child_name": "Kayla Stewart",
+          "age": 19,
+          "missing_date": "10/9/2020",
+          "missing_from_city": "PLEASANTVILLE",
+          "contact_agency": "Mount Pleasant Police Department",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/1408629/1"
+        },
+        {
+          "child_name": "Essence Hardy",
+          "age": 17,
+          "missing_date": "10/27/2024",
+          "missing_from_city": "FLUSHING",
+          "contact_agency": "New York Police Department",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2035253/1"
+        },
+        {
+          "child_name": "Zulmi Mucu Tun",
+          "age": 18,
+          "missing_date": "10/20/2023",
+          "missing_from_city": "Middletown",
+          "contact_agency": "Wallkill Police Department (New York)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2004903/1"
+        },
+        {
+          "child_name": "Samantha Shaw",
+          "age": 14,
+          "missing_date": "10/12/2024",
+          "missing_from_city": "NEW YORK",
+          "contact_agency": "New York Police Department",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2040086/1"
+        },
+        {
+          "child_name": "Zamirah Morton",
+          "age": 10,
+          "missing_date": "07/09/2025",
+          "missing_from_city": "BRONX",
+          "contact_agency": "New York City Police Department (New York)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2055710/1"
+        },
+        {
+          "child_name": "Marloni Richards",
+          "age": 17,
+          "missing_date": "07/08/2025",
+          "missing_from_city": "BUFFALO",
+          "contact_agency": "Buffalo Police Department (New York)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2055555/1"
+        },
+        {
+          "child_name": "Brianna Baugh",
+          "age": 14,
+          "missing_date": "07/02/2025",
+          "missing_from_city": "MOUNT VERNON",
+          "contact_agency": "Mount Vernon Police Department (New York)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2055224/1"
+        },
+        {
+          "child_name": "Cedricka Calixte",
+          "age": 17,
+          "missing_date": "07/01/2025",
+          "missing_from_city": "NANUET",
+          "contact_agency": "Clarkstown Police Department (New York)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2055480/1"
+        },
+        {
+          "child_name": "Rhiquil Lewis-Cobb",
+          "age": 16,
+          "missing_date": "06/23/2025",
+          "missing_from_city": "NEW YORK",
+          "contact_agency": "Dobbs Ferry Police Department (New York)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2054490/1"
+        },
+        {
+          "child_name": "Shyann Ridgley",
+          "age": 17,
+          "missing_date": "06/21/2025",
+          "missing_from_city": "CORTLAND",
+          "contact_agency": "Cortland Police Department (New York)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2054509/1"
+        },
+        {
+          "child_name": "Zoey Grems",
+          "age": 17,
+          "missing_date": "06/21/2025",
+          "missing_from_city": "BINGHAMTON",
+          "contact_agency": "Broome County Sheriff's Office (New York)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2054484/1"
+        },
+        {
+          "child_name": "Isabella Thomas",
+          "age": 13,
+          "missing_date": "06/19/2025",
+          "missing_from_city": "New Rochelle",
+          "contact_agency": "City of New Rochelle Police Department (New York)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2054205/1"
+        },
+        {
+          "child_name": "Jamel Phinizy",
+          "age": 14,
+          "missing_date": "06/17/2025",
+          "missing_from_city": "NEW YORK",
+          "contact_agency": "New York Police Department (New York)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2054176/1"
+        },
+        {
+          "child_name": "Heaven Banton",
+          "age": 10,
+          "missing_date": "06/16/2025",
+          "missing_from_city": "NEW YORK",
+          "contact_agency": "New York City Police Department (New York)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2053938/1"
+        },
+        {
+          "child_name": "Ruben Rodriguez",
+          "age": 14,
+          "missing_date": "06/14/2025",
+          "missing_from_city": "NEW YORK",
+          "contact_agency": "New York City Police Department (New York)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2053840/1"
+        },
+        {
+          "child_name": "Deja Thomas",
+          "age": 17,
+          "missing_date": "06/13/2025",
+          "missing_from_city": "NEW YORK",
+          "contact_agency": "San Bernardino County Sheriff's Department (California)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2054333/1"
+        },
+        {
+          "child_name": "Skyla Bates",
+          "age": 15,
+          "missing_date": "06/11/2025",
+          "missing_from_city": "NEW YORK",
+          "contact_agency": "New York City Police Department (New York)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2054570/1"
+        },
+        {
+          "child_name": "Martin De Los Santos",
+          "age": 18,
+          "missing_date": "06/11/2025",
+          "missing_from_city": "Bronx",
+          "contact_agency": "Dobbs Ferry Police Department (New York)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2053523/1"
+        },
+        {
+          "child_name": "Jonathan Lewis",
+          "age": 17,
+          "missing_date": "06/08/2025",
+          "missing_from_city": "BUFFALO",
+          "contact_agency": "New York State Police Department (New York)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2053806/1"
+        },
+        {
+          "child_name": "Jalea Ellis",
+          "age": 15,
+          "missing_date": "06/06/2025",
+          "missing_from_city": "BRONX",
+          "contact_agency": "New York City Police Department (New York)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2054230/1"
+        },
+        {
+          "child_name": "Mykell Long",
+          "age": 16,
+          "missing_date": "06/05/2025",
+          "missing_from_city": "BUFFALO",
+          "contact_agency": "Amherst Police Department (New York)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2052958/1"
+        },
+        {
+          "child_name": "Sabrina Ayala",
+          "age": 16,
+          "missing_date": "06/04/2025",
+          "missing_from_city": "NEW YORK",
+          "contact_agency": "New York City Police Department (New York)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2054485/1"
+        },
+        {
+          "child_name": "Dezi Whittingham",
+          "age": 15,
+          "missing_date": "05/31/2025",
+          "missing_from_city": "BRONX",
+          "contact_agency": "New York City Police Department (New York)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2052818/1"
+        },
+        {
+          "child_name": "Luis Sabillon",
+          "age": 17,
+          "missing_date": "05/30/2025",
+          "missing_from_city": "BRONX",
+          "contact_agency": "Dobbs Ferry Police Department (New York)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2052608/1"
+        },
+        {
+          "child_name": "Charisma Myers-Gurley",
+          "age": 16,
+          "missing_date": "05/30/2025",
+          "missing_from_city": "Albany",
+          "contact_agency": "Albany Police Department (New York)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2052510/1"
+        },
+        {
+          "child_name": "Amanda Tucker",
+          "age": 17,
+          "missing_date": "05/28/2025",
+          "missing_from_city": "FLORAL PARK",
+          "contact_agency": "Suffolk County Police Department (New York)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2053156/1"
+        },
+        {
+          "child_name": "Malikah Cummings",
+          "age": 16,
+          "missing_date": "05/27/2025",
+          "missing_from_city": "Pleasantville",
+          "contact_agency": "Mount Pleasant Police Department (New York)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2052138/1"
+        },
+        {
+          "child_name": "Talia Hollins",
+          "age": 5,
+          "missing_date": "05/26/2024",
+          "missing_from_city": "BRONX",
+          "contact_agency": "New York City Police Department (New York)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2041920/1"
+        },
+        {
+          "child_name": "Oladimeji Odeyemi",
+          "age": 15,
+          "missing_date": "05/21/2025",
+          "missing_from_city": "BROOKLYN",
+          "contact_agency": "New York City Police Department (New York)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2052363/1"
+        },
+        {
+          "child_name": "Brooklyn Saez",
+          "age": 14,
+          "missing_date": "05/20/2025",
+          "missing_from_city": "Bronx",
+          "contact_agency": "New York City Police Department (New York)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2054510/1"
+        },
+        {
+          "child_name": "Rosalinda Popa",
+          "age": 16,
+          "missing_date": "05/20/2025",
+          "missing_from_city": "Albany",
+          "contact_agency": "Albany Police Department (New York)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2051519/1"
+        },
+        {
+          "child_name": "Michael Pompey",
+          "age": 19,
+          "missing_date": "05/16/2025",
+          "missing_from_city": "BUFFALO",
+          "contact_agency": "Buffalo Police Department (New York)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2051810/1"
+        },
+        {
+          "child_name": "Mia Rodriguez",
+          "age": 14,
+          "missing_date": "05/15/2025",
+          "missing_from_city": "BROOKLYN",
+          "contact_agency": "New York Police Department (New York)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2052299/1"
+        },
+        {
+          "child_name": "Hope Kessler",
+          "age": 17,
+          "missing_date": "05/12/2024",
+          "missing_from_city": "PLEASANTVILLE",
+          "contact_agency": "Mount Pleasantville Police Department (New York)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2045490/1"
+        },
+        {
+          "child_name": "Kristian Hudgins",
+          "age": 16,
+          "missing_date": "05/09/2025",
+          "missing_from_city": "STATEN ISLAND",
+          "contact_agency": "New York City Police Department (New York)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2053627/1"
+        },
+        {
+          "child_name": "Sierra Smith",
+          "age": 14,
+          "missing_date": "04/30/2025",
+          "missing_from_city": "ALBANY",
+          "contact_agency": "Albany Police Department (New York)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2049877/1"
+        },
+        {
+          "child_name": "Chrismie Aurilus",
+          "age": 17,
+          "missing_date": "04/17/2025",
+          "missing_from_city": "CORAM",
+          "contact_agency": "Suffolk County Police Department (New York)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2048749/1"
+        },
+        {
+          "child_name": "Gianna Tocco",
+          "age": 13,
+          "missing_date": "04/15/2025",
+          "missing_from_city": "FLUSHING",
+          "contact_agency": "New York Police Department (New York)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2048530/1"
+        },
+        {
+          "child_name": "Danielle Dean",
+          "age": 17,
+          "missing_date": "04/11/2025",
+          "missing_from_city": "BAY SHORE",
+          "contact_agency": "Suffolk County Police Department (New York)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2048443/1"
+        },
+        {
+          "child_name": "Angel Phillips",
+          "age": 16,
+          "missing_date": "04/07/2025",
+          "missing_from_city": "ROCHESTER",
+          "contact_agency": "Rochester Police Department (New York)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2047629/1"
+        },
+        {
+          "child_name": "Joanisha Pierre",
+          "age": 18,
+          "missing_date": "02/14/2025",
+          "missing_from_city": "ALBANY",
+          "contact_agency": "Albany Police Department (New York)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2043586/1"
+        },
+        {
+          "child_name": "Patrick Alford",
+          "age": 22,
+          "missing_date": "01/22/2010",
+          "missing_from_city": "BROOKLYN",
+          "contact_agency": "New York City Police Department (New York)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/1139843/1"
+        }
+      ]
+    },
+    "foster_funding": {
+      "source": "database",
+      "success": true,
+      "error": null,
+      "timestamp": "2025-12-25T14:51:52.445426",
+      "data": [
+        {
+          "award_title": "FOSTER-2020",
+          "total": "434247885.00",
+          "grant_count": 10
+        },
+        {
+          "award_title": "FOSTER-2023",
+          "total": "351451602.00",
+          "grant_count": 6
+        },
+        {
+          "award_title": "FOSTER-2021",
+          "total": "342158511.00",
+          "grant_count": 7
+        },
+        {
+          "award_title": "FOSTER-2024",
+          "total": "325909740.00",
+          "grant_count": 6
+        },
+        {
+          "award_title": "FOSTER-2022",
+          "total": "300373698.00",
+          "grant_count": 7
+        },
+        {
+          "award_title": "ADPTASST-2023",
+          "total": "228001616.00",
+          "grant_count": 7
+        },
+        {
+          "award_title": "ADPTASST-2025",
+          "total": "212066934.00",
+          "grant_count": 4
+        },
+        {
+          "award_title": "ADPTASST-2024",
+          "total": "205915989.00",
+          "grant_count": 6
+        },
+        {
+          "award_title": "FOSTER-2025",
+          "total": "199821746.00",
+          "grant_count": 3
+        },
+        {
+          "award_title": "ADPTASST-2022",
+          "total": "162492130.00",
+          "grant_count": 8
+        },
+        {
+          "award_title": "ADPTASST-2021",
+          "total": "160971045.00",
+          "grant_count": 7
+        },
+        {
+          "award_title": "ADPTASST-2020",
+          "total": "155884121.00",
+          "grant_count": 13
+        },
+        {
+          "award_title": "SSBG-2022",
+          "total": "97160141.00",
+          "grant_count": 5
+        },
+        {
+          "award_title": "SSBG-2020",
+          "total": "96941394.00",
+          "grant_count": 5
+        },
+        {
+          "award_title": "SSBG-2021",
+          "total": "95220593.00",
+          "grant_count": 5
+        },
+        {
+          "award_title": "SSBG-2023",
+          "total": "94117442.00",
+          "grant_count": 4
+        },
+        {
+          "award_title": "SSBG-2024",
+          "total": "93155895.00",
+          "grant_count": 6
+        },
+        {
+          "award_title": "SSBG-2025",
+          "total": "93120232.00",
+          "grant_count": 4
+        },
+        {
+          "award_title": "FY 2019 Foster Care",
+          "total": "23844362.00",
+          "grant_count": 3
+        },
+        {
+          "award_title": "FFTA-2020",
+          "total": "20523603.00",
+          "grant_count": 3
+        }
+      ]
+    },
+    "federal_programs": {
+      "source": "database",
+      "success": true,
+      "error": null,
+      "timestamp": "2025-12-25T14:51:52.450848",
+      "data": {
+        "title_iv_e_foster_care": [
+          {
+            "recipient_name": "CAYUGA HOME FOR CHILDREN",
+            "total_funding": "405328950.47",
+            "award_count": 76,
+            "latest_year": 2025
+          },
+          {
+            "recipient_name": "RISING GROUND, INC",
+            "total_funding": "168493747.00",
+            "award_count": 70,
+            "latest_year": 2025
+          },
+          {
+            "recipient_name": "THE CHILDREN'S VILLAGE",
+            "total_funding": "124961032.35",
+            "award_count": 110,
+            "latest_year": 2025
+          },
+          {
+            "recipient_name": "CHURCH WORLD SERVICE, INC.",
+            "total_funding": "96697974.66",
+            "award_count": 33,
+            "latest_year": 2025
+          },
+          {
+            "recipient_name": "CATHOLIC GUARDIAN SERVICES",
+            "total_funding": "86365581.09",
+            "award_count": 79,
+            "latest_year": 2025
+          },
+          {
+            "recipient_name": "THE CHILDREN'S HOME OF POUGHKEEPSIE, N.Y.",
+            "total_funding": "76895392.43",
+            "award_count": 45,
+            "latest_year": 2025
+          },
+          {
+            "recipient_name": "ABBOTT HOUSE",
+            "total_funding": "71949023.50",
+            "award_count": 64,
+            "latest_year": 2025
+          },
+          {
+            "recipient_name": "MERCYFIRST",
+            "total_funding": "56965128.49",
+            "award_count": 66,
+            "latest_year": 2025
+          },
+          {
+            "recipient_name": "INTERNATIONAL RESCUE COMMITTEE, INC.",
+            "total_funding": "54137479",
+            "award_count": 18,
+            "latest_year": 2025
+          },
+          {
+            "recipient_name": "LUTHERAN SOCIAL SERVICES OF METROPOLITAN NEW YORK, INC",
+            "total_funding": "50279231.77",
+            "award_count": 53,
+            "latest_year": 2025
+          },
+          {
+            "recipient_name": "TOGETHER FOR YOUTH",
+            "total_funding": "45012413.07",
+            "award_count": 35,
+            "latest_year": 2025
+          },
+          {
+            "recipient_name": "JEWISH CHILD CARE ASSOCIATION OF NEW YORK",
+            "total_funding": "26541186.08",
+            "award_count": 32,
+            "latest_year": 2025
+          },
+          {
+            "recipient_name": "THE CHILDREN'S HOME OF KINGSTON",
+            "total_funding": "17484634.83",
+            "award_count": 22,
+            "latest_year": 2024
+          },
+          {
+            "recipient_name": "LINCOLN HALL",
+            "total_funding": "17324543.99",
+            "award_count": 6,
+            "latest_year": 2024
+          },
+          {
+            "recipient_name": "ST. VINCENT'S SERVICES, INC.",
+            "total_funding": "15435387",
+            "award_count": 4,
+            "latest_year": 2024
+          },
+          {
+            "recipient_name": "ST. CHRISTOPHER'S, INC",
+            "total_funding": "14705688",
+            "award_count": 9,
+            "latest_year": 2024
+          },
+          {
+            "recipient_name": "DOMESTIC AND FOREIGN MISSIONARY SOCIETY OF THE PROTESTANT EPISCOPAL CHURCH IN THE USA",
+            "total_funding": "8683788",
+            "award_count": 5,
+            "latest_year": 2025
+          },
+          {
+            "recipient_name": "SHELTERING ARMS CHILDREN AND FAMILY SERVICES, INC.",
+            "total_funding": "8212835",
+            "award_count": 1,
+            "latest_year": 2022
+          },
+          {
+            "recipient_name": "LA SALLE SCHOOL",
+            "total_funding": "4909114",
+            "award_count": 6,
+            "latest_year": 2025
+          },
+          {
+            "recipient_name": "ACCOMPANY CAPITAL INC",
+            "total_funding": "600000",
+            "award_count": 2,
+            "latest_year": 2024
+          }
+        ],
+        "tanf": [],
+        "refugee_assistance": [
+          {
+            "recipient_name": "CHURCH WORLD SERVICE, INC.",
+            "total_funding": "44953051.07"
+          },
+          {
+            "recipient_name": "CAYUGA HOME FOR CHILDREN",
+            "total_funding": "44928354"
+          },
+          {
+            "recipient_name": "INTERNATIONAL RESCUE COMMITTEE, INC.",
+            "total_funding": "29486407"
+          },
+          {
+            "recipient_name": "RISING GROUND, INC",
+            "total_funding": "13953271"
+          },
+          {
+            "recipient_name": "DOMESTIC AND FOREIGN MISSIONARY SOCIETY OF THE PROTESTANT EPISCOPAL CHURCH IN THE USA",
+            "total_funding": "13789555"
+          },
+          {
+            "recipient_name": "CATHOLIC GUARDIAN SERVICES",
+            "total_funding": "10776168"
+          },
+          {
+            "recipient_name": "THE CHILDREN'S HOME OF POUGHKEEPSIE, N.Y.",
+            "total_funding": "8428581.11"
+          },
+          {
+            "recipient_name": "MERCYFIRST",
+            "total_funding": "6783551.93"
+          },
+          {
+            "recipient_name": "ABBOTT HOUSE",
+            "total_funding": "5659713.27"
+          },
+          {
+            "recipient_name": "THE CHILDREN'S VILLAGE",
+            "total_funding": "4334666.83"
+          }
+        ],
+        "healthy_marriage": [
+          {
+            "recipient_name": "MONTEFIORE MEDICAL CENTER",
+            "total_funding": "13497982"
+          },
+          {
+            "recipient_name": "STRUCTURED EMPLOYMENT ECONOMIC DEVELOPMENT CORPORATION",
+            "total_funding": "7105248.91"
+          },
+          {
+            "recipient_name": "THE OSBORNE ASSOCIATION, INC.",
+            "total_funding": "6116240.80"
+          },
+          {
+            "recipient_name": "RETREAT INC.",
+            "total_funding": "4628208.64"
+          },
+          {
+            "recipient_name": "CENTRAL NASSAU GUIDANCE AND COUNSELING SERVICES, INC.",
+            "total_funding": "4460272.00"
+          },
+          {
+            "recipient_name": "CHAUTAUQUA OPPORTUNITIES, INC.",
+            "total_funding": "1143404.24"
+          },
+          {
+            "recipient_name": "PUBLIC PREPATORY NETWORK INC.",
+            "total_funding": "0"
+          },
+          {
+            "recipient_name": "FAMILY ENRICHMENT NETWORK, INC.",
+            "total_funding": "0"
+          },
+          {
+            "recipient_name": "PEOPLES EQUAL ACTION AND COMMUNITY EFFORT, INC.",
+            "total_funding": "-4613.43"
+          },
+          {
+            "recipient_name": "NEPPERHAN COMMUNITY CENTER, INC.",
+            "total_funding": "-7999"
+          }
+        ],
+        "sexual_abuse_prevention": [
+          {
+            "recipient_name": "THE CENTER FOR YOUTH SERVICES, INC.",
+            "total_funding": "746050.88"
+          },
+          {
+            "recipient_name": "SAINT ANNE INSTITUTE",
+            "total_funding": "552143.31"
+          },
+          {
+            "recipient_name": "SAFE INC OF SCHENECTADY",
+            "total_funding": "450000"
+          },
+          {
+            "recipient_name": "THE SALVATION ARMY",
+            "total_funding": "408736.33"
+          },
+          {
+            "recipient_name": "CAPTAIN COMMUNITY HUMAN SERVICES, INC.",
+            "total_funding": "397743.19"
+          },
+          {
+            "recipient_name": "CHAUTAUQUA OPPORTUNITIES, INC.",
+            "total_funding": "372954.5"
+          },
+          {
+            "recipient_name": "OSWEGO COUNTY OPPORTUNITIES, INC.",
+            "total_funding": "284358"
+          },
+          {
+            "recipient_name": "GREEN CHIMNEYS CHILDREN'S SERVICES, INC.",
+            "total_funding": "0"
+          },
+          {
+            "recipient_name": "EQUINOX INC",
+            "total_funding": "-24900.59"
+          }
+        ]
+      }
+    },
+    "scan_policies": {
+      "source": "database",
+      "success": true,
+      "error": null,
+      "timestamp": "2025-12-25T14:51:52.451285",
+      "data": [
+        {
+          "state": "NY",
+          "state_name": "New York",
+          "region_code": "Northeast",
+          "scan_version": "2023v1",
+          "data_year": 2023,
+          "policies": {
+            "Year": "2023",
+            "State": "NY",
+            "DefAge": "Yes",
+            "Def_DV": "No",
+            "DefPerp": "Yes",
+            "Version": "2023v1",
+            "Verified": "Yes",
+            "Def_Other": "Yes",
+            "ICWAState": "Yes",
+            "StateFIPS": "36",
+            "Tribe_IVE": "No",
+            "RegionCode": "Northeast",
+            "AntiDiscrim": "Yes",
+            "Def_DrugLab": "Yes",
+            "Def_Neglect": "Yes",
+            "SubAdoption": "Yes",
+            "Def_SexAbuse": "Yes",
+            "Exempt_Other": "Yes",
+            "TribalFoster": "Yes, Tribes within state provide foster care",
+            "TribalReport": "Yes, Tribes directly accept reports",
+            "TribalScreen": "Yes, Tribes directly conduct screening",
+            "CWSystemAdmin": "County-administered",
+            "CentralScreen": "Yes",
+            "ConsentDecree": "No",
+            "DefHarm_Other": "No",
+            "DefPerp_Other": "No",
+            "Def_Emotional": "Yes",
+            "EvidenceLevel": "Preponderance of evidence",
+            "InvestQual_SW": "Yes, recommended or preferred, but not required",
+            "Penalty_Civil": "Yes",
+            "Penalty_Other": "No",
+            "SafeHaven_Age": "Yes",
+            "DefAge_Specify": "Under age 18",
+            "DefPerp_Parent": "Yes",
+            "Def_Punishment": "Yes",
+            "Def_ShakenBaby": "Yes",
+            "ReportImmunity": "Yes",
+            "Reporter_Coach": "No",
+            "Reporter_Other": "Yes",
+            "RiskOnlyReport": "No",
+            "ScreenRequired": "Yes",
+            "Screener_Other": "No",
+            "AntiDiscrim_Age": "Yes",
+            "AntiDiscrim_Sex": "Yes",
+            "DecentralScreen": "Logical Skip",
+            "Def_Abandonment": "Yes",
+            "InvestReq_Other": "Yes",
+            "KinGuardianship": "Yes",
+            "ReportAnonymous": "General public (not mandated reporters) can remain anonymous",
+            "ReporterPenalty": "Yes, all mandated reporters",
+            "Reporter_Clergy": "No",
+            "Reporter_Images": "No",
+            "Reporter_Judges": "No",
+            "Reporter_MHProf": "Yes",
+            "Reporter_Police": "Yes",
+            "SafeHaven_Other": "No",
+            "ScreenInfo_Perp": "No",
+            "ScreenReq_Other": "Yes",
+            "ScreenerQual_SW": "Yes, recommended or preferred, but not required",
+            "SubGuardianship": "Yes",
+            "AntiDiscrim_Crim": "No",
+            "AntiDiscrim_Race": "Yes",
+            "DefHarm_Physical": "Yes",
+            "DefPerp_Guardian": "Yes",
+            "Def_OtherSpecify": "Unreasonably inflicting or allowing to be inflicted harm by any other acts of a similarly serious nature requiring the aid of the court",
+            "Exempt_Religious": "No",
+            "Exempt_SafeHaven": "Yes",
+            "FatalitiesReview": "Yes, reviews are required for all or some cases",
+            "ICWAState_Expert": "Yes",
+            "InvestQual_Other": "No",
+            "InvestReq_MHEval": "No",
+            "InvestReq_Parent": "Yes",
+            "InvestReq_Victim": "Yes",
+            "InvestigationReq": "Yes",
+            "Penalty_Criminal": "Yes",
+            "ReportInfo_Other": "Yes",
+            "Reporter_Coroner": "Yes",
+            "Reporter_GALCASA": "No",
+            "SafeHaven_Parent": "No",
+            "ScreenInfo_Other": "Yes",
+            "Tribe_IVE_Number": "Logical Skip",
+            "AntiDiscrim_Color": "Yes",
+            "AntiDiscrim_Other": "No",
+            "DefAge_VaryByType": "No",
+            "DefHarm_Emotional": "Yes",
+            "DefMal_RiskOfHarm": "Yes",
+            "DefPerp_AnyPerson": "No",
+            "DefPerp_Caregiver": "Yes",
+            "Def_DrugAlcMisuse": "Yes",
+            "Def_PhysicalAbuse": "Yes",
+            "Def_Subtype_Abuse": "Abuse includes physical abuse, emotional maltreatment, sexual abuse, female genital mutilation, and permitting, encouraging, or allowing child sex trafficking. Depending upon acts, physical abuse, excessive corporal punishment, sexual abuse, shaken baby syndrome, and abusive head trauma, could constitute child abuse",
+            "Def_Subtype_Other": "Not applicable",
+            "EquityStaff_Other": "No",
+            "Exempt_Discipline": "Yes",
+            "ICWAState_Custody": "No",
+            "InvestQual_Master": "No",
+            "InvestReq_MedEval": "Yes",
+            "InvestStaff_Other": "No",
+            "ReportInfo_Parent": "Yes",
+            "Tribe_IVE_Specify": "Not applicable",
+            "AntiDiscrim_Gender": "Yes",
+            "AntiDiscrim_Tribal": "No",
+            "CaseManagerQual_SW": "Logical Skip",
+            "DefHarm_VaryByType": "Yes",
+            "DefMal_InflictHarm": "Yes",
+            "DefPerp_VaryByType": "Yes",
+            "Def_Malnourishment": "Yes",
+            "Def_MedicalNeglect": "Yes",
+            "DocumentsConfirmed": "Yes",
+            "EquityStaffRole_No": "No",
+            "ExtendedFosterCare": "Yes",
+            "FalseReportPenalty": "Yes",
+            "InvestInconclusive": "No",
+            "InvestReq_PerpCrim": "Yes",
+            "InvestReq_PriorCPS": "Yes",
+            "InvestReq_Reporter": "Yes",
+            "NearFatalities_Not": "No",
+            "Reporter_BusDriver": "No",
+            "Reporter_CampStaff": "Yes",
+            "Reporter_Volunteer": "Yes",
+            "SafeHaven_Location": "Yes",
+            "ScreenInfo_MalDate": "No",
+            "ScreenInfo_MalType": "No",
+            "ScreenProcess_Team": "No",
+            "ScreenReq_PriorCPS": "Yes",
+            "ScreenerQual_Other": "No",
+            "SubKinGuardianship": "Yes",
+            "AlternativeResponse": "Yes--implemented in specific counties or regions",
+            "AntiDiscrim_Genetic": "No",
+            "AntiDiscrim_Marital": "Yes",
+            "AntiDiscrim_Poverty": "No",
+            "AntiDiscrim_Unknown": "No",
+            "AntiDiscrim_Who_All": "Yes",
+            "DefHarm_Environment": "Yes",
+            "Def_FailuretoThrive": "Yes",
+            "Def_Subtype_Neglect": "Neglect includes inadequate food, inadequate clothing, inadequate shelter, educational neglect, medical neglect, injurious environment, illegally providing controlled substance to a child, child present within structure where methamphetamine is being created, parent responsibilities (harm due to inadequate supervision, failure to meet parent or caretaker responsibilities), failure to protect, excessive corporal punishment, drug or alcohol misuse, and abandonment. Depending upon acts, physical abuse, excessive corporal punishment, sexual abuse, misuse of drugs or alcohol, misuse of drugs or alcohol, shaken baby syndrome, and abusive head trauma could constitute child neglect",
+            "EquityStaff_Specify": "Office of Diversity, Equity, Inclusion and Accessibility (ODEIA)",
+            "Exempt_OtherSpecify": "Circumcision, excision or infibulation is not a violation if it is necessary to the health of the person on whom it is performed or done on a person in labor or who has just given birth and is performed for medical purposes connected with that labor",
+            "ICWAState_Placement": "Yes",
+            "InvPenalty_Criminal": "Yes",
+            "InvestQual_Bachelor": "Yes",
+            "InvestQual_Training": "Yes",
+            "InvestReq_HomeStudy": "Yes",
+            "InvestReq_HomeVisit": "Yes",
+            "ReligiousObjections": "No",
+            "ReportInfo_Reporter": "Yes",
+            "ReporterTrainingReq": "Yes, all mandated reporters",
+            "Reporter_OtherCourt": "Yes",
+            "ScreenProcess_Other": "No",
+            "ScreenerQual_Master": "No",
+            "Screener_Caseworker": "No",
+            "Screener_Supervisor": "No",
+            "AltResp_Inelig_Other": "Yes",
+            "AntiDiscrim_Ancestry": "No",
+            "AntiDiscrim_Familial": "No",
+            "AntiDiscrim_Military": "No",
+            "AntiDiscrim_National": "Yes",
+            "AntiDiscrim_Religion": "Yes",
+            "AntiDiscrim_Who_Some": "Yes",
+            "AntiDiscrim_Who_Vary": "Yes",
+            "CaseManagement_State": "Yes",
+            "CentralizedReporting": "Yes",
+            "CulturalBroker_Other": "Logical Skip",
+            "DefHarm_NotSpecified": "Yes",
+            "DefHarm_OtherSpecify": "Not applicable",
+            "DefPerp_FamilyMember": "No",
+            "DefPerp_OtherSpecify": "Not applicable",
+            "Def_FailureToProtect": "Yes",
+            "Def_HumanTrafficking": "Yes",
+            "Def_IllicitSubstance": "Yes",
+            "Def_PrenatalExposure": "No",
+            "EquityStaff_CaseMgmt": "Yes",
+            "FatalitiesDefine_Not": "No",
+            "InvestQual_Associate": "No",
+            "InvestReq_OtherCases": "Required for all",
+            "InvestReq_OtherChild": "Yes",
+            "InvestReq_RiskAssess": "Yes",
+            "NearFatalitiesReview": "Yes, reviews can be conducted but are not required",
+            "NearFatalities_Other": "No",
+            "Penalty_OtherSpecify": "Not applicable",
+            "Penalty_Professional": "Yes",
+            "ReportStandard_Known": "No",
+            "Reporter_AfterSchool": "Yes",
+            "Reporter_DAAttorneys": "Yes",
+            "Reporter_SUDProvider": "Yes",
+            "SafeHaven_AgeSpecify": "30 days old or younger",
+            "ScreenInfo_ChildAddr": "No",
+            "ScreenInfo_ChildName": "No",
+            "ScreenInfo_Statewide": "Consistent statewide",
+            "ScreenReq_OtherCases": "Required for some",
+            "ScreenReq_RiskAssess": "No",
+            "ScreenRiskAssess_SDM": "Logical Skip",
+            "Screener_SpecialUnit": "Yes",
+            "TribalFoster_Specify": "Saint Regis Mohawk Tribe",
+            "TribalReport_Specify": "Saint Regis Mohawk Tribe",
+            "TribalScreen_Specify": "Saint Regis Hawk Tribe",
+            "AltResp_Process_Other": "Yes",
+            "AntiDiscrim_Apply_All": "Yes",
+            "AntiDiscrim_Political": "No",
+            "CaseManagement_Tribal": "No",
+            "CaseManagerQual_Other": "Yes",
+            "ConsentDecree_Specify": "Not applicable",
+            "Def_GenitalMutilation": "Yes",
+            "Def_InadequateShelter": "Yes",
+            "EquityStaffRole_Other": "No",
+            "EquityStaff_Screening": "No",
+            "ExtFosterCare_Reentry": "Yes",
+            "ExtFosterCare_Request": "Yes",
+            "FatalitiesDefine_Care": "Yes",
+            "InvestQual_Experience": "Yes",
+            "InvestReq_MHEvalCases": "Logical Skip",
+            "InvestReq_ParentCases": "Required for all",
+            "InvestReq_VictimCases": "Required for all",
+            "ReporterPenalty_Coach": "Logical Skip",
+            "ReporterPenalty_Other": "Yes",
+            "Reporter_EMTEmergency": "Yes",
+            "Reporter_FosterParent": "No",
+            "Reporter_OtherSpecify": "Christian Science practitioner; Any other child care or foster care worker; Any person credentialed by New York State Office of Addiction Services and Supports",
+            "Reporter_ShelterStaff": "Yes",
+            "ScreenProcess_TeamReq": "Logical Skip",
+            "ScreenProcess_Unknown": "No",
+            "ScreenerQual_Bachelor": "Yes",
+            "ScreenerQual_Training": "Yes",
+            "Screener_OtherSpecify": "Not applicable",
+            "AltResp_Inelig_Neglect": "No",
+            "AntiDiscrim_Apply_Some": "No",
+            "AntiDiscrim_Apply_Vary": "No",
+            "AntiDiscrim_Disability": "Yes",
+            "AntiDiscrim_Staff_Vary": "No",
+            "CaseManagerQual_Master": "No",
+            "DecentralizedReporting": "Logical Skip",
+            "DefMal_Harm_VaryByType": "Yes",
+            "Def_EducationalNeglect": "Yes",
+            "Def_FactitiousDisorder": "Yes",
+            "Def_InadequateClothing": "Yes",
+            "Exempt_FinancialIssues": "Yes",
+            "ExtendedFosterCare_Age": "Up to age 21 (until 21st birthday)",
+            "FatalitiesDefine_Abuse": "Yes",
+            "FatalitiesDefine_Other": "Yes",
+            "ICWAState_Notification": "Yes",
+            "ICWAState_TribalStatus": "Yes",
+            "InHome_Unsubstantiated": "Yes--implemented statewide",
+            "InvestReq_MedEvalCases": "Required for some",
+            "InvestReq_OtherSpecify": "Determination of the nature, extent and cause of any condition enumerated in report and any other condition that may constitute abuse or maltreatment; Determination of the name, age and condition of the children in the home; Seeing to the safety of the child or children; After seeing to the safety of the child or children, notification in writing to the subjects of the report and other persons named in the report of the existence of the report and of their respective rights (no later than 7 days after receipt of the report); Obtaining information from reporting sources and other collateral sources which may have information relevant to the allegations in the report and to the safety of the children; Request copies of materials in the case records of other districts that are not part of the CONNECTIONS (CONNX) record (e.g., medical reports, schools, police, social service and other agencies, relatives, neighbors)",
+            "InvestReq_PerpPriorCPS": "Yes",
+            "InvestStaff_Caseworker": "Yes",
+            "InvestStaff_Supervisor": "Yes",
+            "NearFatalities_General": "Yes",
+            "ReportInfo_Perpetrator": "Yes",
+            "ReporterPenalty_Clergy": "Logical Skip",
+            "ReporterPenalty_Images": "Logical Skip",
+            "ReporterPenalty_Judges": "Logical Skip",
+            "ReporterPenalty_MHProf": "Yes",
+            "ReporterPenalty_Police": "Yes",
+            "ReporterTraining_Coach": "Logical Skip",
+            "ReporterTraining_Other": "Yes",
+            "Reporter_MedicalDental": "Yes",
+            "Reporter_TeacherSchool": "Yes",
+            "SafeHaven_OtherSpecify": "Not applicable",
+            "ScreenProcess_OtherReq": "Logical Skip",
+            "ScreenReq_OtherSpecify": "When a CPS using Family Assessment Response (FAR) receives a new report, staff confirm the report is within the LDSS's jurisdiction and uses the LDSS screening protocol to determine whether the report is eligible for the FAR track and decide on investigation or FAR track; In certain cases, LDSS also informs law enforcement or a supervisor offers the reporter a consultation",
+            "ScreenRiskAssess_Other": "Logical Skip",
+            "ScreenerQual_Associate": "Yes",
+            "AltResp_Inelig_Fatality": "Yes",
+            "AltResp_Inelig_SexAbuse": "Yes",
+            "AntiDiscrim_Staff_Other": "No",
+            "CaseManagement_Provider": "Yes",
+            "CulturalBroker_CaseMgmt": "Logical Skip",
+            "DefPerp_HouseholdMember": "Yes",
+            "EquityStaffRole_Manager": "Yes",
+            "EquityStaffRole_Unknown": "No",
+            "Exempt_SubstanceExposed": "Yes",
+            "FatalitiesDefine_Injury": "No",
+            "ICWAState_ActiveEfforts": "Yes",
+            "InvestQual_OtherSpecify": "Not applicable",
+            "InvestReq_PerpCrimCases": "Required for some",
+            "InvestReq_PerpInterview": "Yes",
+            "InvestReq_PriorCPSCases": "Required for all",
+            "InvestReq_ReporterCases": "Required for some",
+            "InvestStaff_SpecialUnit": "No",
+            "NearFatalities_Specific": "No",
+            "ReportInfo_FamilyMember": "Yes",
+            "ReportInfo_Maltreatment": "Yes",
+            "ReportInfo_OtherSpecify": "Any other information which the commissioner of the Office of Children and Family Services (OCFS) may, by regulation, require",
+            "ReporterPenalty_Coroner": "Yes",
+            "ReporterPenalty_GALCASA": "Logical Skip",
+            "ReporterTraining_Clergy": "Logical Skip",
+            "ReporterTraining_Images": "Logical Skip",
+            "ReporterTraining_Judges": "Logical Skip",
+            "ReporterTraining_MHProf": "Yes",
+            "ReporterTraining_Police": "Yes",
+            "Reporter_ChildcareStaff": "Yes",
+            "SafeHaven_ChildUnharmed": "Yes",
+            "ScreenInfo_OtherSpecify": "8 elements are needed to register a report of suspected child abuse/maltreatment in New York State: (1) Reasonable cause to suspect that a (2) minor child (less than eighteen years old) has been (3) impaired/harmed or is in (4) imminent danger of impairment/risk of harm because of the failure of a (5) parent or person legally responsible for the child to exercise a (6) minimum degree of care (7) within the jurisdiction in New York State based on residence of child and/or alleged subject and where the alleged maltreatment took place (8) with sufficient demographic information to locate the alleged subject and so Child Protective Services can initiate an investigation",
+            "ScreenProcess_Statewide": "Consistent statewide",
+            "ScreenProcess_SupReview": "Yes",
+            "ScreenReq_PriorCPSCases": "Required for all",
+            "ScreenerQual_Experience": "Yes",
+            "AltResp_Inelig_Abandoned": "Yes",
+            "AntiDiscrim_OtherSpecify": "Not applicable",
+            "AntiDiscrim_Staff_Foster": "No",
+            "CaseManagerQual_Bachelor": "No",
+            "CaseManagerQual_Training": "No",
+            "CulturalBroker_Screening": "Logical Skip",
+            "DefAge_VaryByTypeSpecify": "Not applicable",
+            "Def_InjuriousEnvironment": "Yes",
+            "EquityStaff_OtherSpecify": "Not applicable",
+            "FalseReportPenalty_Civil": "No",
+            "FalseReportPenalty_Other": "No",
+            "ICWAState_StateRecTribes": "Yes",
+            "InHome_PostReunification": "Yes--implemented statewide",
+            "InvestReq_HomeStudyCases": "Required for all",
+            "InvestReq_HomeVisitCases": "Required for all",
+            "InvestStaff_OtherSpecify": "Not applicable",
+            "ReportInfo_ChildIdentity": "Yes",
+            "ReporterTraining_Coroner": "Yes",
+            "ReporterTraining_GALCASA": "Logical Skip",
+            "SENNotificationReport_No": "Yes",
+            "SafeHaven_NoIntentReturn": "Yes",
+            "ScreenProcess_Individual": "Yes",
+            "AltResp_Eligibility_Other": "Yes",
+            "AltResp_Inelig_SubExposed": "No",
+            "CaseManagerQual_Associate": "No",
+            "DefHarm_VaryByTypeSpecify": "For sexual abuse and abandonment, there is not a requirement to specify harm. It is assumed in the finding",
+            "DefPerp_PersonResponsible": "Yes",
+            "DefPerp_VaryByTypeSpecify": "Only a parent or other person legally responsible for a child's care can abandon a child",
+            "Def_InadequateSupervision": "Yes",
+            "EquityStaff_Investigation": "Yes",
+            "InvestReq_RiskAssessCases": "Required for all",
+            "ReporterPenalty_BusDriver": "Logical Skip",
+            "ReporterPenalty_CampStaff": "Yes",
+            "ReporterPenalty_Volunteer": "Yes",
+            "ScreenReq_RiskAssessCases": "Logical Skip",
+            "ScreenerQual_OtherSpecify": "Not applicable",
+            "AltResp_EligibilityRiskDet": "Yes",
+            "AltResp_EligibilityRisk_No": "No",
+            "AltResp_ServiceReferral_No": "No",
+            "AntiDiscrim_Staff_CWAgency": "Yes",
+            "CaseManagerQual_Experience": "No",
+            "ExtFosterCare_Reentry_Best": "Yes",
+            "ExtFosterCare_Reentry_Plan": "No",
+            "InvestQual_SW_OtherSpecify": "Not applicable",
+            "InvestQual_TrainingSpecify": "Basic approved training program within three months of employment and annual in-service training beginning in the second year of employment",
+            "InvestStaff_LawEnforcement": "No",
+            "ReportStandard_ReasonCause": "Yes",
+            "ReporterPenalty_OtherCourt": "Yes",
+            "ReporterTraining_BusDriver": "Logical Skip",
+            "ReporterTraining_CampStaff": "Yes",
+            "ReporterTraining_Volunteer": "Yes",
+            "Reporter_StateCountyAgency": "Yes",
+            "ScreenProcess_OtherSpecify": "Not applicable",
+            "ScreenProcess_SupReviewReq": "Required for some",
+            "UniversalMandatedReporting": "No",
+            "AltResp_EligibilityRiskTool": "Yes",
+            "AltResp_EligibilityRisk_Low": "No",
+            "AltResp_Inelig_OtherSpecify": "Failure to thrive; Abandonment; Severe or repeated abuse; Sexual exploitation; Any allegations of abuse",
+            "AltResp_Process_AtScreening": "No",
+            "AntiDiscrim_Who_SomeSpecify": "Children and youth in foster care; Foster parents, kinship caretakers, and other out-of-home placement caregivers",
+            "AntiDiscrim_Who_VarySpecify": "Children and youth in foster care, foster parents, kinship, and other out-of-home placement caregivers are covered for gender identity or expression, sexual orientation, and marital status; All children, youth, and families engaged in the child welfare system are covered for the following characteristics: age, race, disability, religion, national origin, marital status, and sex",
+            "CulturalBroker_OtherSpecify": "Not applicable",
+            "ExtFosterCare_Criteria_None": "Yes",
+            "ExtFosterCare_Criteria_Plan": "No",
+            "ExtFosterCare_Reentry_Other": "Yes",
+            "FalseReportPenalty_Criminal": "Yes",
+            "InvestReq_OtherChildrenCase": "Required for all",
+            "InvestReq_PerpPriorCPSCases": "Required for all",
+            "NearFatalities_OtherSpecify": "Not applicable",
+            "ReportInfo_MaltreatmentDate": "Yes",
+            "ReporterPenalty_AfterSchool": "Yes",
+            "ReporterPenalty_DAAttorneys": "Yes",
+            "ReporterPenalty_SUDProvider": "Yes",
+            "ReporterTraining_OtherCourt": "Yes",
+            "RiskOnlyReport_OtherSpecify": "Not applicable",
+            "SENNotificationReport_Other": "No",
+            "ScreenInfo_VaryLocalSpecify": "Not applicable",
+            "ScreenProcess_IndividualReq": "Required for all",
+            "AltResp_Inelig_PhysicalAbuse": "Yes",
+            "AltResp_Process_OtherSpecify": "At intake a report is flagged as eligible for differential response if certain criteria are met. However, local departments of social services must use their own procedures and criteria to make a final assignment of the report to differential response.",
+            "AltResp_ServiceReferralOther": "No",
+            "AltResp_ServiceReferral_Risk": "Yes",
+            "AntiDiscrim_Staff_Contractor": "Yes",
+            "CaseManagerQual_OtherSpecify": "New York State does not have qualification standards. Such standards may be set at the county level by the local departments of social services. Each CPS must maintain a sufficient level of staff who are sufficiently qualified and trained, as specified by OCFS, to perform duties. It is preferable that CPS workers have an educational background or experience in social work or a related field and be skillful and experienced in working with children and families.",
+            "CaseManagerQual_SW_OtherSpec": "Not applicable",
+            "CentralizedReporting_Specify": "Not applicable",
+            "CulturalBroker_Investigation": "Logical Skip",
+            "ExtFosterCare_Criteria_Other": "No",
+            "InvestQual_ExperienceSpecify": "2 years of experience of relevant child welfare services experience for CPS supervisors; Unspecified relevant human services experience for non-supervisory workers, depending on degree",
+            "InvestReq_OtherCases_Specify": "Not applicable",
+            "InvestReq_PerpInterviewCases": "Required for all",
+            "ReportInfo_PriorMaltreatment": "Yes",
+            "ReporterPenalty_EMTEmergency": "Yes",
+            "ReporterPenalty_FosterParent": "Logical Skip",
+            "ReporterPenalty_OtherSpecify": "Christian Science practitioner; Any other child care or foster care worker; Any person credentialed by New York State Office of Addiction Services and Supports",
+            "ReporterPenalty_ShelterStaff": "Yes",
+            "ReporterTraining_AfterSchool": "Yes",
+            "ReporterTraining_DAAttorneys": "Yes",
+            "ReporterTraining_SUDProvider": "Yes",
+            "SENNotificationReport_YesAll": "No",
+            "ScreenReq_OtherCases_Specify": "LDSS contacts law enforcement when there is an allegation of maltreatment resulting in physical harm, when the report is made by a mandated reporter and there have been two other indicated or pending reports made within the last six months that involve the same child, sibling, or other children in the household, or the subject of the report); If the report is going to be screened out (does not meet criteria to be registered), a SCR supervisor offers the reporter a consultation",
+            "ScreenerQual_SW_OtherSpecify": "Not applicable",
+            "ScreenerQual_TrainingSpecify": "Training is unspecified",
+            "AltResp_EligibilityRisk_Other": "Yes",
+            "AltResp_Process_AfterScreenIn": "Yes",
+            "AntiDiscrim_Apply_SomeSpecify": "Not applicable",
+            "AntiDiscrim_Apply_VarySpecify": "Not applicable",
+            "AntiDiscrim_SexualOrientation": "Yes",
+            "AntiDiscrim_Staff_VarySpecify": "Not applicable",
+            "DefMal_Harm_VaryByTypeSpecify": "Definition of maltreatment both include harm, but they vary by the standard or level of harm; Definition for child abuse includes a standard of 'substantial risk' of death, serious or protracted disfigurement or protracted impairment of physical or emotional health or protracted loss or impairment of any bodily organ; Definition for child neglect includes a standard that the child is in 'imminent danger' of harm",
+            "Def_InstitutionalAbuseNeglect": "Yes",
+            "ExtFosterCare_Criteria_Exempt": "No",
+            "ExtFosterCare_Criteria_School": "No",
+            "ExtFosterCare_Reentry_Consent": "Yes",
+            "FatalitiesDefine_OtherSpecify": "Death of a child for whom any local department of social services or a voluntary authorized agency has an open child protective or preventive services case",
+            "FatalitiesReview_OtherSpecify": "Not applicable",
+            "InvestReq_MHEvalCases_Specify": "Not applicable",
+            "InvestReq_ParentCases_Specify": "Not applicable",
+            "InvestReq_VictimCases_Specify": "Not applicable",
+            "ReporterPenalty_MedicalDental": "Yes",
+            "ReporterPenalty_TeacherSchool": "Yes",
+            "ReporterTraining_EMTEmergency": "Yes",
+            "ReporterTraining_FosterParent": "Logical Skip",
+            "ReporterTraining_OtherSpecify": "Christian Science practitioner; Any other child care or foster care worker; Any person credentialed by New York State Office of Addiction Services and Supports",
+            "ReporterTraining_ShelterStaff": "Yes",
+            "ScreenRiskAssess_OtherSpecify": "Not applicable",
+            "AntiDiscrim_Staff_OtherSpecify": "Not applicable",
+            "CaseManagerQual_ExperienceSpec": "Not applicable",
+            "DecentralizedReporting_Specify": "Not applicable",
+            "EquityStaffRole_CulturalBroker": "No",
+            "InvestReq_MedEvalCases_Specify": "CPS units evaluate whether a medical exam is needed when a child named in a report has been physically abused or neglected, failed to thrive, lacks necessary medical care, where an examination is crucial for completing an investigation, or where the child requires immediate treatment",
+            "NearFatalitiesReview_OtherSpec": "Not applicable",
+            "NearFatalities_SpecificSpecify": "Not applicable",
+            "ReporterPenalty_ChildcareStaff": "Yes",
+            "ReporterTraining_MedicalDental": "Yes",
+            "ReporterTraining_TeacherSchool": "Yes",
+            "ScreenerQual_ExperienceSpecify": "2 years of experience in the direct provision of child welfare programs with an associate's degree; 4 years of experience in the direct provision of child welfare programs",
+            "AltResp_EligibilityMaltreatment": "Only certain types of maltreatment are eligible",
+            "AltResp_EligibilityRiskToolSpec": "Safety assessment; Risk assessment",
+            "AltResp_EligibilityRisk_Unknown": "No",
+            "AltResp_Eligibility_NoSafetyCon": "Yes",
+            "CaseManagerQual_TrainingSpecify": "Not applicable",
+            "ExtFosterCare_Criteria_Employed": "No",
+            "ExtFosterCare_Criteria_Services": "No",
+            "ExtFosterCare_Criteria_Training": "No",
+            "ExtFosterCare_Reentry_OtherSpec": "No reasonable alternative to foster care; A compelling reason for such former foster care youth to return to foster care; Re-entry motion filed within 24 months from the date of first final discharge that occurred on or after the youth's 18th birthday; Youth is participating in workforce development/training program",
+            "ExtFosterCare_Request_OtherSpec": "Not applicable",
+            "ExtendedFosterCare_OtherSpecify": "Not applicable",
+            "FalseReportPenalty_OtherSpecify": "Not applicable",
+            "FalseReportPenalty_Professional": "Yes",
+            "InvestReq_PerpCrimCases_Specify": "CPS units may apply to be able to obtain criminal history information for the perpetrator/other adults in the home on a report",
+            "InvestReq_PriorCPSCases_Specify": "Not applicable",
+            "InvestReq_ReporterCases_Specify": "Reports that were not made anonymously",
+            "ReportInfo_ChildLocationContact": "Yes",
+            "ReporterPenalty_StateCntyAgency": "Yes",
+            "ReporterTraining_ChildcareStaff": "Yes",
+            "SENNotificationReport_OtherSpec": "Not applicable",
+            "ScreenReq_PriorCPSCases_Specify": "Not applicable",
+            "AltResp_EligibilityRiskOtherSpec": "Determination that each child named in the CPS report or known to be living in the household is safe in the home. In operative terms, this means that there is a safety decision of \"1\" or \"2\" in the initial safety assessment.",
+            "AltResp_EligibilityRisk_Moderate": "No",
+            "AltResp_Eligibility_NoOtherCases": "No",
+            "AltResp_Eligibility_OtherSpecify": "The local department of social services (LDSS) is responsible for establishing protocol that specifies the types of allegations of maltreatment and situations that the CPS will or will not consider for potential assignment to FAR. The LDSS may establish more restrictive standards for the categories of reports it will accept for FAR. Must be compliant with state and local screening criteria including: (1) satisfactory record review, (2) no open CPS investigation, and (3) agreement by parents, guardians, or persons legally responsible for child. Some categories of New York defined maltreatment/neglect are eligible. The following categories are potentially eligible: (1) inadequate guardianship, (2) lack of supervision, (3) lack of food, clothing, shelter, (4) medical neglect, (5) educational neglect, (6) lacerations, bruises, welts, (7) excessive corporal punishment that does not rise to the level of abuse, (8) failure to provide minimum level of care for children due to misuse of alcohol or drugs.",
+            "AltResp_Eligibility_PriorReports": "No",
+            "AltResp_ServiceReferralOtherSpec": "Not applicable",
+            "AltResp_ServiceReferral_AllCases": "No",
+            "AltResp_ServiceReferral_Interest": "Yes",
+            "AlternativeResp_VaryLocalSpecify": "Any social services district may, upon the authorization of the Office of Children and Family Services, establish a program that implements differential responses to reports of child abuse and maltreatment",
+            "ExtFosterCare_Criteria_OtherSpec": "Not applicable",
+            "ExtendedFosterCare_Age_OtherSpec": "Not applicable",
+            "InvestReq_HomeStudyCases_Specify": "Not applicable",
+            "InvestReq_HomeVisitCases_Specify": "Not applicable",
+            "InvestReq_OtherChildrenCase_Spec": "Not applicable",
+            "InvestReq_PerpInterviewCase_Spec": "Not applicable",
+            "InvestReq_PerpPriorCPSCases_Spec": "Not applicable",
+            "InvestReq_RiskAssessCase_Specify": "Not applicable",
+            "ReligiousObjections_OtherSpecify": "Not applicable",
+            "ReporterTraining_StateCntyAgency": "Yes",
+            "ScreenReq_RiskAssessCase_Specify": "Not applicable"
+          }
+        }
+      ]
+    },
+    "legislators": {
+      "source": "database",
+      "success": true,
+      "error": null,
+      "timestamp": "2025-12-25T14:51:52.456173",
+      "data": {
+        "legislators": [
+          {
+            "full_name": "Nick LaLota",
+            "party": "Republican",
+            "chamber": "rep",
+            "district": "1",
+            "official_url": "https://lalota.house.gov"
+          },
+          {
+            "full_name": "Daniel S. Goldman",
+            "party": "Democrat",
+            "chamber": "rep",
+            "district": "10",
+            "official_url": "https://goldman.house.gov"
+          },
+          {
+            "full_name": "Nicole Malliotakis",
+            "party": "Republican",
+            "chamber": "rep",
+            "district": "11",
+            "official_url": "https://malliotakis.house.gov"
+          },
+          {
+            "full_name": "Jerrold Nadler",
+            "party": "Democrat",
+            "chamber": "rep",
+            "district": "12",
+            "official_url": "https://nadler.house.gov"
+          },
+          {
+            "full_name": "Adriano Espaillat",
+            "party": "Democrat",
+            "chamber": "rep",
+            "district": "13",
+            "official_url": "https://espaillat.house.gov"
+          },
+          {
+            "full_name": "Alexandria Ocasio-Cortez",
+            "party": "Democrat",
+            "chamber": "rep",
+            "district": "14",
+            "official_url": "https://ocasio-cortez.house.gov"
+          },
+          {
+            "full_name": "Ritchie Torres",
+            "party": "Democrat",
+            "chamber": "rep",
+            "district": "15",
+            "official_url": "https://ritchietorres.house.gov"
+          },
+          {
+            "full_name": "George Latimer",
+            "party": "Democrat",
+            "chamber": "rep",
+            "district": "16",
+            "official_url": "https://latimer.house.gov"
+          },
+          {
+            "full_name": "Michael Lawler",
+            "party": "Republican",
+            "chamber": "rep",
+            "district": "17",
+            "official_url": "https://lawler.house.gov"
+          },
+          {
+            "full_name": "Patrick Ryan",
+            "party": "Democrat",
+            "chamber": "rep",
+            "district": "18",
+            "official_url": "https://patryan.house.gov"
+          },
+          {
+            "full_name": "Josh Riley",
+            "party": "Democrat",
+            "chamber": "rep",
+            "district": "19",
+            "official_url": "https://riley.house.gov"
+          },
+          {
+            "full_name": "Andrew R. Garbarino",
+            "party": "Republican",
+            "chamber": "rep",
+            "district": "2",
+            "official_url": "https://garbarino.house.gov"
+          },
+          {
+            "full_name": "Paul Tonko",
+            "party": "Democrat",
+            "chamber": "rep",
+            "district": "20",
+            "official_url": "https://tonko.house.gov"
+          },
+          {
+            "full_name": "Elise M. Stefanik",
+            "party": "Republican",
+            "chamber": "rep",
+            "district": "21",
+            "official_url": "https://stefanik.house.gov"
+          },
+          {
+            "full_name": "John W. Mannion",
+            "party": "Democrat",
+            "chamber": "rep",
+            "district": "22",
+            "official_url": "https://mannion.house.gov"
+          },
+          {
+            "full_name": "Nicholas A. Langworthy",
+            "party": "Republican",
+            "chamber": "rep",
+            "district": "23",
+            "official_url": "https://langworthy.house.gov"
+          },
+          {
+            "full_name": "Claudia Tenney",
+            "party": "Republican",
+            "chamber": "rep",
+            "district": "24",
+            "official_url": "https://tenney.house.gov"
+          },
+          {
+            "full_name": "Joseph D. Morelle",
+            "party": "Democrat",
+            "chamber": "rep",
+            "district": "25",
+            "official_url": "https://morelle.house.gov"
+          },
+          {
+            "full_name": "Timothy M. Kennedy",
+            "party": "Democrat",
+            "chamber": "rep",
+            "district": "26",
+            "official_url": "https://kennedy.house.gov"
+          },
+          {
+            "full_name": "Thomas R. Suozzi",
+            "party": "Democrat",
+            "chamber": "rep",
+            "district": "3",
+            "official_url": "https://suozzi.house.gov"
+          },
+          {
+            "full_name": "Laura Gillen",
+            "party": "Democrat",
+            "chamber": "rep",
+            "district": "4",
+            "official_url": "https://gillen.house.gov"
+          },
+          {
+            "full_name": "Gregory W. Meeks",
+            "party": "Democrat",
+            "chamber": "rep",
+            "district": "5",
+            "official_url": "https://meeks.house.gov"
+          },
+          {
+            "full_name": "Grace Meng",
+            "party": "Democrat",
+            "chamber": "rep",
+            "district": "6",
+            "official_url": "https://meng.house.gov"
+          },
+          {
+            "full_name": "Nydia M. Vel\u00e1zquez",
+            "party": "Democrat",
+            "chamber": "rep",
+            "district": "7",
+            "official_url": "https://velazquez.house.gov"
+          },
+          {
+            "full_name": "Hakeem S. Jeffries",
+            "party": "Democrat",
+            "chamber": "rep",
+            "district": "8",
+            "official_url": "https://jeffries.house.gov"
+          },
+          {
+            "full_name": "Yvette D. Clarke",
+            "party": "Democrat",
+            "chamber": "rep",
+            "district": "9",
+            "official_url": "https://clarke.house.gov"
+          },
+          {
+            "full_name": "Charles E. Schumer",
+            "party": "Democrat",
+            "chamber": "sen",
+            "district": null,
+            "official_url": "https://www.schumer.senate.gov"
+          },
+          {
+            "full_name": "Kirsten E. Gillibrand",
+            "party": "Democrat",
+            "chamber": "sen",
+            "district": null,
+            "official_url": "https://www.gillibrand.senate.gov"
+          }
+        ],
+        "child_welfare_committees": []
+      }
+    },
+    "case_law_general": {
+      "source": "courtlistener",
+      "success": true,
+      "error": null,
+      "timestamp": "2025-12-25T14:51:52.985628",
+      "data": [
+        {
+          "case_name": "Farrell v. Child Welfare Administration",
+          "citation": [
+            "22 F. App'x 65"
+          ],
+          "court": "Court of Appeals for the Second Circuit",
+          "date_filed": "2001-11-20T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/7177229/farrell-v-child-welfare-administration/"
+        },
+        {
+          "case_name": "Camille v. Federation of Prot. Welfare Agencies, Inc.",
+          "citation": [
+            "2024 NY Slip Op 06182"
+          ],
+          "court": "Appellate Division of the Supreme Court of the State of New York",
+          "date_filed": "2024-12-11T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10292069/camille-v-federation-of-prot-welfare-agencies-inc/"
+        },
+        {
+          "case_name": "Farrell v. Child Welfare Administration",
+          "citation": [
+            "77 F. Supp. 2d 329",
+            "1999 U.S. Dist. LEXIS 19371",
+            "83 Fair Empl. Prac. Cas. (BNA) 325"
+          ],
+          "court": "District Court, E.D. New York",
+          "date_filed": "1999-12-15T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/2308650/farrell-v-child-welfare-administration/"
+        },
+        {
+          "case_name": "MARTINEZ v. MARTINEZ (CHILD CUSTODY)",
+          "citation": [
+            "559 P.3d 863",
+            "140 Nev. Adv. Op. No. 73"
+          ],
+          "court": "Nevada Supreme Court",
+          "date_filed": "2024-11-27T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10285105/martinez-v-martinez-child-custody/"
+        },
+        {
+          "case_name": "In the Matter of the Welfare of the Child of: K. O. and D. W., Commissioner of Human Services, Legal Custodian. ...",
+          "citation": null,
+          "court": "Court of Appeals of Minnesota",
+          "date_filed": "2024-02-26T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/9478760/in-the-matter-of-the-welfare-of-the-child-of-k-o-and-d-w-commissioner/"
+        },
+        {
+          "case_name": "In Re the Welfare of the Child of S.L.J.",
+          "citation": [
+            "772 N.W.2d 833",
+            "2009 Minn. App. LEXIS 167",
+            "2009 WL 2747359"
+          ],
+          "court": "Court of Appeals of Minnesota",
+          "date_filed": "2009-09-01T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/2059418/in-re-the-welfare-of-the-child-of-slj/"
+        },
+        {
+          "case_name": "Welfare Of O.C. And D.C.",
+          "citation": null,
+          "court": "Court of Appeals of Washington",
+          "date_filed": "2023-08-01T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/9440117/welfare-of-oc-and-dc/"
+        },
+        {
+          "case_name": "Variscite NY Four, LLC v. New York State Cannabis Control Board",
+          "citation": null,
+          "court": "Court of Appeals for the Second Circuit",
+          "date_filed": "2025-08-12T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10652221/variscite-ny-four-llc-v-new-york-state-cannabis-control-board/"
+        },
+        {
+          "case_name": "Terrance v. CITY OF GENEVA, NY",
+          "citation": [
+            "799 F. Supp. 2d 250",
+            "2011 U.S. Dist. LEXIS 69222",
+            "2011 WL 2580530"
+          ],
+          "court": "District Court, W.D. New York",
+          "date_filed": "2011-06-28T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/2144420/terrance-v-city-of-geneva-ny/"
+        },
+        {
+          "case_name": "in the Interest of I.D., a Child",
+          "citation": null,
+          "court": "Court of Appeals of Texas",
+          "date_filed": "2022-08-10T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/7857296/in-the-interest-of-id-a-child/"
+        },
+        {
+          "case_name": "in the Interest of W.L., a Child",
+          "citation": null,
+          "court": "Court of Appeals of Texas",
+          "date_filed": "2022-08-17T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/7859212/in-the-interest-of-wl-a-child/"
+        },
+        {
+          "case_name": "Jewel C. v. Dep't of Child Safety",
+          "citation": [
+            "418 P.3d 1120"
+          ],
+          "court": "Court of Appeals of Arizona",
+          "date_filed": "2018-02-05T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/6656602/jewel-c-v-dept-of-child-safety/"
+        },
+        {
+          "case_name": "In the Interest of L.P., Minor Child",
+          "citation": null,
+          "court": "Court of Appeals of Iowa",
+          "date_filed": "2025-08-06T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10648799/in-the-interest-of-lp-minor-child/"
+        },
+        {
+          "case_name": "CHINS: B R v. Indiana Department of Child Services",
+          "citation": null,
+          "court": "Indiana Court of Appeals",
+          "date_filed": "2025-05-07T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10553123/chins-b-r-v-indiana-department-of-child-services/"
+        },
+        {
+          "case_name": "Welfare of J.Y. and N.Y.; M.Y. v. DCYF",
+          "citation": null,
+          "court": "Court of Appeals of Washington",
+          "date_filed": "2025-07-29T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10643653/welfare-of-jy-and-ny-my-v-dcyf/"
+        },
+        {
+          "case_name": "In re Child of Radience K.",
+          "citation": [
+            "2019 ME 73",
+            "208 A.3d 380"
+          ],
+          "court": "Supreme Judicial Court of Maine",
+          "date_filed": "2019-05-21T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/4621574/in-re-child-of-radience-k/"
+        },
+        {
+          "case_name": "Atkerson v. Dep't of Child., Youth, & Fams.",
+          "citation": null,
+          "court": "Washington Supreme Court",
+          "date_filed": "2025-02-06T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10328433/atkerson-v-dept-of-child-youth-fams/"
+        },
+        {
+          "case_name": "CHINS: N M v. Indiana Department of Child Services",
+          "citation": null,
+          "court": "Indiana Court of Appeals",
+          "date_filed": "2023-11-21T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/9443508/chins-n-m-v-indiana-department-of-child-services/"
+        },
+        {
+          "case_name": "C.E. v. Department of Public Welfare",
+          "citation": [
+            "97 A.3d 828",
+            "2014 WL 3805744"
+          ],
+          "court": "Commonwealth Court of Pennsylvania",
+          "date_filed": "2014-08-04T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/5148151/ce-v-department-of-public-welfare/"
+        },
+        {
+          "case_name": "Navajo Nation v. Dep't of Child Safety",
+          "citation": [
+            "441 P.3d 982",
+            "246 Ariz. 463"
+          ],
+          "court": "Court of Appeals of Arizona",
+          "date_filed": "2019-04-18T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/6658776/navajo-nation-v-dept-of-child-safety/"
+        }
+      ]
+    },
+    "case_law_tpr": {
+      "source": "courtlistener",
+      "success": true,
+      "error": null,
+      "timestamp": "2025-12-25T14:51:53.544110",
+      "data": [
+        {
+          "case_name": "Termination of Parental Rights of John Doe (2014-25)",
+          "citation": [
+            "158 Idaho 614",
+            "349 P.3d 1205"
+          ],
+          "court": "Idaho Supreme Court",
+          "date_filed": "2015-05-28T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/3133235/termination-of-parental-rights-of-john-doe-2014-25/"
+        },
+        {
+          "case_name": "In the Matter of the Termination of Parental Rights To ARW, a minor child: DRW",
+          "citation": [
+            "2015 WY 25"
+          ],
+          "court": "Wyoming Supreme Court",
+          "date_filed": "2015-02-19T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/2781969/in-the-matter-of-the-termination-of-parental-rights-to-arw-a-minor-child/"
+        },
+        {
+          "case_name": "In Re the Termination of Parental Rights Over T.E.L.S.",
+          "citation": [
+            "2007 SD 50",
+            "732 N.W.2d 740",
+            "2007 S.D. LEXIS 55",
+            "2007 WL 1454444"
+          ],
+          "court": "South Dakota Supreme Court",
+          "date_filed": "2007-05-16T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/901623/in-re-the-termination-of-parental-rights-over-tels/"
+        },
+        {
+          "case_name": "In the Matter of the Termination of Parental Rights To: Dks and Ach, Minor Children, Rachael Marie Harmon v. State of Wyoming, Department of Family Services",
+          "citation": [
+            "2020 WY 12"
+          ],
+          "court": "Wyoming Supreme Court",
+          "date_filed": "2020-01-29T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10012209/in-the-matter-of-the-termination-of-parental-rights-to-dks-and-ach-minor/"
+        },
+        {
+          "case_name": "In the Matter of the Termination of Parental Rights To: LDB, TJB, and JCB, Minor Children, Sheryl Lynn Ellis v. State of Wyoming, Department of Family Services",
+          "citation": [
+            "2019 WY 127"
+          ],
+          "court": "Wyoming Supreme Court",
+          "date_filed": "2019-12-18T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10012227/in-the-matter-of-the-termination-of-parental-rights-to-ldb-tjb-and-jcb/"
+        },
+        {
+          "case_name": "In Matter of Termination of Parental Rights to AM",
+          "citation": [
+            "489 N.W.2d 719",
+            "170 Wis. 2d 685",
+            "1992 Wisc. App. LEXIS 552"
+          ],
+          "court": "Court of Appeals of Wisconsin",
+          "date_filed": "1992-08-25T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/1348635/in-matter-of-termination-of-parental-rights-to-am/"
+        },
+        {
+          "case_name": "Matter of Ny'Jeem D. (Shaina D.)",
+          "citation": [
+            "2021 NY Slip Op 06474"
+          ],
+          "court": "Appellate Division of the Supreme Court of the State of New York",
+          "date_filed": "2021-11-19T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/5299155/matter-of-nyjeem-d-shaina-d/"
+        },
+        {
+          "case_name": "Matter of Parental Rights as to QLR",
+          "citation": [
+            "54 P.3d 56",
+            "118 Nev. 602",
+            "118 Nev. Adv. Rep. 63",
+            "2002 Nev. LEXIS 77"
+          ],
+          "court": "Nevada Supreme Court",
+          "date_filed": "2002-09-18T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/2516615/matter-of-parental-rights-as-to-qlr/"
+        },
+        {
+          "case_name": "In re Involuntary Termination of Parental Rights K.D.M.A.",
+          "citation": [
+            "18 Pa. D. & C.4th 297",
+            "1993 Pa. Dist. & Cnty. Dec. LEXIS 219"
+          ],
+          "court": "Pennsylvania Court of Common Pleas, Bucks County",
+          "date_filed": "1993-03-01T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/6513227/in-re-involuntary-termination-of-parental-rights-kdma/"
+        },
+        {
+          "case_name": "Matter of Nautica Skyy W. (Amber NY-Cole W.)",
+          "citation": [
+            "2021 NY Slip Op 05841"
+          ],
+          "court": "Appellate Division of the Supreme Court of the State of New York",
+          "date_filed": "2021-10-26T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/5293242/matter-of-nautica-skyy-w-amber-ny-cole-w/"
+        },
+        {
+          "case_name": "Matter of Nautica Skyy W. (Amber NY-Cole W.)",
+          "citation": [
+            "2021 NY Slip Op 05841"
+          ],
+          "court": "Appellate Division of the Supreme Court of the State of New York",
+          "date_filed": "2021-10-26T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/5292641/matter-of-nautica-skyy-w-amber-ny-cole-w/"
+        },
+        {
+          "case_name": "Matter of Parental Rights as to Carron",
+          "citation": [
+            "956 P.2d 785",
+            "114 Nev. 370",
+            "1998 Nev. LEXIS 42"
+          ],
+          "court": "Nevada Supreme Court",
+          "date_filed": "1998-04-09T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/1433934/matter-of-parental-rights-as-to-carron/"
+        },
+        {
+          "case_name": "In re Karm'ny QQ.",
+          "citation": [
+            "114 A.D.3d 1101",
+            "981 N.Y.S.2d 217"
+          ],
+          "court": "Appellate Division of the Supreme Court of the State of New York",
+          "date_filed": "2014-02-27T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/6106605/in-re-karmny-qq/"
+        },
+        {
+          "case_name": "In re Karm'ny QQ.",
+          "citation": [
+            "114 A.D.3d 1101",
+            "981 N.Y.S.2d 217"
+          ],
+          "court": "Appellate Division of the Supreme Court of the State of New York",
+          "date_filed": "2014-02-27T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/6106602/in-re-karmny-qq/"
+        },
+        {
+          "case_name": "Coalition for Humane Immigrant Rights v. Noem",
+          "citation": null,
+          "court": "District Court, District of Columbia",
+          "date_filed": "2025-08-01T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10646200/coalition-for-humane-immigrant-rights-v-noem/"
+        },
+        {
+          "case_name": "Disability Rights N.Y. v. New York",
+          "citation": [
+            "916 F.3d 129"
+          ],
+          "court": "Court of Appeals for the Second Circuit",
+          "date_filed": "2019-02-15T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/8443882/disability-rights-ny-v-new-york/"
+        },
+        {
+          "case_name": "NY State Teamsters v. C&S Wholesale Grocers",
+          "citation": [
+            "24 F.4th 163"
+          ],
+          "court": "Court of Appeals for the Second Circuit",
+          "date_filed": "2022-01-27T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/6245918/ny-state-teamsters-v-cs-wholesale-grocers/"
+        },
+        {
+          "case_name": "Shreveport Bolt and Screw Co., Inc. v. Access.1 Communications Corp.-NY",
+          "citation": null,
+          "court": "Louisiana Court of Appeal",
+          "date_filed": "2025-07-16T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10633687/shreveport-bolt-and-screw-co-inc-v-access1-communications-corp-ny/"
+        },
+        {
+          "case_name": "Theresa Seeberger v. Davenport Civil Rights Commission",
+          "citation": [
+            "918 N.W.2d 502"
+          ],
+          "court": "Court of Appeals of Iowa",
+          "date_filed": "2018-04-18T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/4487788/theresa-seeberger-v-davenport-civil-rights-commission/"
+        },
+        {
+          "case_name": "Disability Rights N.Y. v. New York",
+          "citation": null,
+          "court": "Court of Appeals for the Second Circuit",
+          "date_filed": "2019-02-15T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/4591188/disability-rights-ny-v-new-york/"
+        }
+      ]
+    },
+    "case_law_removal": {
+      "source": "courtlistener",
+      "success": true,
+      "error": null,
+      "timestamp": "2025-12-25T14:51:54.619362",
+      "data": [
+        {
+          "case_name": "Jacqueline T. v. Alameda County Child Protective Services",
+          "citation": [
+            "66 Cal. Rptr. 3d 157",
+            "155 Cal. App. 4th 456"
+          ],
+          "court": "California Court of Appeal",
+          "date_filed": "2007-10-04T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/2299987/jacqueline-t-v-alameda-county-child-protective-services/"
+        },
+        {
+          "case_name": "D. R. v. Texas Department of Family and Protective Services",
+          "citation": null,
+          "court": "Court of Appeals of Texas",
+          "date_filed": "2023-04-27T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/9395923/d-r-v-texas-department-of-family-and-protective-services/"
+        },
+        {
+          "case_name": "CHINS: N M v. Indiana Department of Child Services",
+          "citation": null,
+          "court": "Indiana Court of Appeals",
+          "date_filed": "2023-11-21T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/9443508/chins-n-m-v-indiana-department-of-child-services/"
+        },
+        {
+          "case_name": "T. C. and X. M. v. Texas Department of Family and Protective Services",
+          "citation": null,
+          "court": "Court of Appeals of Texas",
+          "date_filed": "2024-04-25T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/9497862/t-c-and-x-m-v-texas-department-of-family-and-protective-services/"
+        },
+        {
+          "case_name": "In the Interest of B. J. F. v. Department of Family and Protective Services",
+          "citation": null,
+          "court": "Court of Appeals of Texas",
+          "date_filed": "2024-01-11T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/9460742/in-the-interest-of-b-j-f-v-department-of-family-and-protective-services/"
+        },
+        {
+          "case_name": "Comm'r of Emergency Servs. & Pub. Prot. v. Freedom of Info. Comm'n",
+          "citation": [
+            "194 A.3d 759",
+            "330 Conn. 372"
+          ],
+          "court": "Supreme Court of Connecticut",
+          "date_filed": "2018-10-30T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/6485924/commr-of-emergency-servs-pub-prot-v-freedom-of-info-commn/"
+        },
+        {
+          "case_name": "Preeminent Protective Servs., Inc. v. Serv. Emps. Int'l Union",
+          "citation": [
+            "330 F. Supp. 3d 505"
+          ],
+          "court": "Court of Appeals for the D.C. Circuit",
+          "date_filed": "2018-09-10T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/7331889/preeminent-protective-servs-inc-v-serv-emps-intl-union/"
+        },
+        {
+          "case_name": "Kempster v. Child Protective Services",
+          "citation": [
+            "130 A.D.2d 623",
+            "515 N.Y.S.2d 807"
+          ],
+          "court": "Appellate Division of the Supreme Court of the State of New York",
+          "date_filed": "1987-05-18T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/6032808/kempster-v-child-protective-services/"
+        },
+        {
+          "case_name": "Vk v. Child and Family Services Agency",
+          "citation": [
+            "14 A.3d 628",
+            "2011 D.C. App. LEXIS 31",
+            "2011 WL 534292"
+          ],
+          "court": "District of Columbia Court of Appeals",
+          "date_filed": "2011-02-17T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/2552462/vk-v-child-and-family-services-agency/"
+        },
+        {
+          "case_name": "Rosie Garris and Christopher Shadwick v. Arkansas Department of Human Services and Minor Child",
+          "citation": [
+            "2021 Ark. App. 118"
+          ],
+          "court": "Court of Appeals of Arkansas",
+          "date_filed": "2021-03-10T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10608625/rosie-garris-and-christopher-shadwick-v-arkansas-department-of-human/"
+        },
+        {
+          "case_name": "In the Interest of Kevin, a Minor: Shayla Taylor v. Mississippi Department of Child Protection Services",
+          "citation": null,
+          "court": "Court of Appeals of Mississippi",
+          "date_filed": "2022-06-14T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10629330/in-the-interest-of-kevin-a-minor-shayla-taylor-v-mississippi-department/"
+        },
+        {
+          "case_name": "L. J. v. Texas Department of Family and Protective Services",
+          "citation": null,
+          "court": "Court of Appeals of Texas",
+          "date_filed": "2012-08-01T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/2955307/l-j-v-texas-department-of-family-and-protective-se/"
+        },
+        {
+          "case_name": "L. J. v. Texas Department of Family and Protective Services",
+          "citation": null,
+          "court": "Court of Appeals of Texas",
+          "date_filed": "2012-08-01T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/2955306/l-j-v-texas-department-of-family-and-protective-se/"
+        },
+        {
+          "case_name": "Bateman v. Adams County Department of Child Services",
+          "citation": [
+            "865 N.E.2d 1068",
+            "2007 Ind. App. LEXIS 950"
+          ],
+          "court": "Indiana Court of Appeals",
+          "date_filed": "2007-05-11T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/7166251/bateman-v-adams-county-department-of-child-services/"
+        },
+        {
+          "case_name": "Atkerson v. Dep't of Child., Youth, & Fams.",
+          "citation": null,
+          "court": "Washington Supreme Court",
+          "date_filed": "2025-02-06T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10328433/atkerson-v-dept-of-child-youth-fams/"
+        },
+        {
+          "case_name": "Tina T. v. Department of Child Safety",
+          "citation": [
+            "236 Ariz. 295",
+            "339 P.3d 1040",
+            "701 Ariz. Adv. Rep. 22"
+          ],
+          "court": "Court of Appeals of Arizona",
+          "date_filed": "2014-12-11T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/2759661/tina-t-v-department-of-child-safety/"
+        },
+        {
+          "case_name": "Tapp v. Arkansas Department of Human Services",
+          "citation": [
+            "2017 Ark. App. 216",
+            "518 S.W.3d 725",
+            "2017 Ark. App. LEXIS 232"
+          ],
+          "court": "Court of Appeals of Arkansas",
+          "date_filed": "2017-04-05T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/4380861/tapp-v-arkansas-department-of-human-services/"
+        },
+        {
+          "case_name": "in the Interest of L.M.B., a Child",
+          "citation": null,
+          "court": "Court of Appeals of Texas",
+          "date_filed": "2019-09-17T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/4661892/in-the-interest-of-lmb-a-child/"
+        },
+        {
+          "case_name": "in the Interest of J.F.-g., a Child",
+          "citation": null,
+          "court": "Texas Supreme Court",
+          "date_filed": "2021-05-21T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/4885461/in-the-interest-of-jf-g-a-child/"
+        },
+        {
+          "case_name": "Dena M. v. Department of Health & Social Services, Office of Children's Services",
+          "citation": [
+            "442 P.3d 755"
+          ],
+          "court": "Alaska Supreme Court",
+          "date_filed": "2019-06-14T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/6658851/dena-m-v-department-of-health-social-services-office-of-childrens/"
+        }
+      ]
+    },
+    "case_law_1983": {
+      "source": "courtlistener",
+      "success": true,
+      "error": null,
+      "timestamp": "2025-12-25T14:51:55.250237",
+      "data": [
+        {
+          "case_name": "Christopher H. Creel a/k/a Christopher Houston Creel v. State of Mississippi",
+          "citation": null,
+          "court": "Court of Appeals of Mississippi",
+          "date_filed": "2023-01-17T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10628454/christopher-h-creel-aka-christopher-houston-creel-v-state-of/"
+        },
+        {
+          "case_name": "Derric McDonald v. State of Mississippi",
+          "citation": null,
+          "court": "Court of Appeals of Mississippi",
+          "date_filed": "2022-11-22T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10629605/derric-mcdonald-v-state-of-mississippi/"
+        },
+        {
+          "case_name": "Joe Clyde Tubwell v. FV-1, Inc., In Trust for Morgan Stanley Mortgage Capital Holdings, LLC, Morgan Stanley Mortgage Capital Holdings, LLC and Specialized Loan Servicing, LLC",
+          "citation": null,
+          "court": "Court of Appeals of Mississippi",
+          "date_filed": "2023-08-08T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10629428/joe-clyde-tubwell-v-fv-1-inc-in-trust-for-morgan-stanley-mortgage/"
+        },
+        {
+          "case_name": "Michael T. Gerty v. Joesie R. Gerty",
+          "citation": null,
+          "court": "Mississippi Supreme Court",
+          "date_filed": "2020-06-04T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/4758678/michael-t-gerty-v-joesie-r-gerty/"
+        },
+        {
+          "case_name": "Alfred Williams v. State of Mississippi",
+          "citation": null,
+          "court": "Court of Appeals of Mississippi",
+          "date_filed": "2022-02-15T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10629406/alfred-williams-v-state-of-mississippi/"
+        },
+        {
+          "case_name": "Adam Lee Pinkton v. State of Mississippi",
+          "citation": null,
+          "court": "Court of Appeals of Mississippi",
+          "date_filed": "2025-04-15T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10628568/adam-lee-pinkton-v-state-of-mississippi/"
+        },
+        {
+          "case_name": "Timothy Gene Pryer v. Thomas Gardner, III",
+          "citation": [
+            "247 So. 3d 1245"
+          ],
+          "court": "Mississippi Supreme Court",
+          "date_filed": "2018-05-17T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/4498949/timothy-gene-pryer-v-thomas-gardner-iii/"
+        },
+        {
+          "case_name": "Carl Rufus Walters a/k/a Carl Walters v. Dain Gates and Evelyn Daniel",
+          "citation": null,
+          "court": "Court of Appeals of Mississippi",
+          "date_filed": "2023-05-16T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10628699/carl-rufus-walters-aka-carl-walters-v-dain-gates-and-evelyn-daniel/"
+        },
+        {
+          "case_name": "Elijah T. Hall a/k/a Elijah Hall v. State of Mississippi",
+          "citation": null,
+          "court": "Court of Appeals of Mississippi",
+          "date_filed": "2023-08-29T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10629154/elijah-t-hall-aka-elijah-hall-v-state-of-mississippi/"
+        },
+        {
+          "case_name": "Garet Urban v. Tina Urban",
+          "citation": null,
+          "court": "Court of Appeals of Mississippi",
+          "date_filed": "2023-09-05T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10629633/garet-urban-v-tina-urban/"
+        },
+        {
+          "case_name": "In The Matter of The Estate of Frederick Adams Biddle, Deceased: Richard Brian Biddle and Brian Baines Biddle v. Dianne Biddle",
+          "citation": null,
+          "court": "Mississippi Supreme Court",
+          "date_filed": "2023-06-29T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10627952/in-the-matter-of-the-estate-of-frederick-adams-biddle-deceased-richard/"
+        },
+        {
+          "case_name": "Juliet Lawson Jowett v. SMBD, Inc. and Richard F. Scruggs",
+          "citation": null,
+          "court": "Court of Appeals of Mississippi",
+          "date_filed": "2022-01-11T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10628929/juliet-lawson-jowett-v-smbd-inc-and-richard-f-scruggs/"
+        },
+        {
+          "case_name": "Louis Edward Chandler v. State of Mississippi",
+          "citation": null,
+          "court": "Court of Appeals of Mississippi",
+          "date_filed": "2022-08-23T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10629207/louis-edward-chandler-v-state-of-mississippi/"
+        },
+        {
+          "case_name": "David Carter v. Mary A. Carter",
+          "citation": null,
+          "court": "Court of Appeals of Mississippi",
+          "date_filed": "2021-02-02T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10628532/david-carter-v-mary-a-carter/"
+        },
+        {
+          "case_name": "Veto F. Roley v. Chinelo J. Roley",
+          "citation": null,
+          "court": "Court of Appeals of Mississippi",
+          "date_filed": "2021-05-18T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10628513/veto-f-roley-v-chinelo-j-roley/"
+        },
+        {
+          "case_name": "Little v. Norman",
+          "citation": [
+            "119 So. 3d 382",
+            "2013 WL 3802452",
+            "2013 Miss. App. LEXIS 457"
+          ],
+          "court": "Court of Appeals of Mississippi",
+          "date_filed": "2013-07-23T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/4993156/little-v-norman/"
+        },
+        {
+          "case_name": "Jimmy Powell a/k/a Jamel Hobson a/k/a Jimmy Hobson v. State of Mississipp",
+          "citation": null,
+          "court": "Court of Appeals of Mississippi",
+          "date_filed": "2019-11-26T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10005379/jimmy-powell-aka-jamel-hobson-aka-jimmy-hobson-v-state-of-mississipp/"
+        },
+        {
+          "case_name": "Clifton Davenport a/k/a Clifton D. Davenport a/k/a Cliff Davenport a/k/a Clifford Davenport v. State of Mississippi;",
+          "citation": null,
+          "court": "Court of Appeals of Mississippi",
+          "date_filed": "2019-10-29T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/9987866/clifton-davenport-aka-clifton-d-davenport-aka-cliff-davenport-aka/"
+        },
+        {
+          "case_name": "Herman Barnes v. State of Mississippi",
+          "citation": [
+            "226 So. 3d 130",
+            "2017 Miss. App. LEXIS 481",
+            "2017 WL 3600384"
+          ],
+          "court": "Court of Appeals of Mississippi",
+          "date_filed": "2017-08-22T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/4420799/herman-barnes-v-state-of-mississippi/"
+        },
+        {
+          "case_name": "Ransom Levi Matheny v. State of Mississippi",
+          "citation": null,
+          "court": "Court of Appeals of Mississippi",
+          "date_filed": "2020-01-14T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10020223/ransom-levi-matheny-v-state-of-mississippi/"
+        }
+      ]
+    },
+    "pending_bills": {
+      "source": "openstates",
+      "success": false,
+      "error": "HTTP 429",
+      "timestamp": "2025-12-25T14:51:55.511345",
+      "data": null
+    },
+    "statutes": {
+      "source": "childwelfare.gov",
+      "success": false,
+      "error": "Spider disabled",
+      "timestamp": "2025-12-25T14:51:55.511350",
+      "data": null
+    }
+  }
+}

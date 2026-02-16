@@ -1,0 +1,287 @@
+{
+  "node_id": "CT_PMC-06",
+  "state": "CT",
+  "state_name": "Connecticut",
+  "node_family": "PMC",
+  "subnode": "PMC-06",
+  "trigger_name": "Project Milk Carton AI Analysis",
+  "summary_html": "The **Project Milk Carton AI Layer** performs cross-analysis of federal and state chains to identify weak points, policy gaps, and non-compliance. This is the citizen feedback mechanism for accountability and reform.",
+  "authority_html": "No direct statutory authority \u2014 citizen innovation layer built on public data and federal transparency laws.",
+  "icon": "\ud83e\udd16",
+  "theme_color": "#20B2AA",
+  "domain": "civil",
+  "procedural_weight": 0.9,
+  "federal_alignment_flag": "exceeds",
+  "urls": {
+    "PMC_ProjectSite": "https://projectmilkcarton.org"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": []
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Connecticut - Title 17a, Chapter 319 (Abuse of Children \u2013 mandatory reporters)",
+          "source_url": "https://www.cga.ct.gov/current/pub/chap_319.htm",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Connecticut - Title 46b, Chapter 815t (Juvenile Matters including neglect/termination)",
+          "source_url": "https://www.cga.ct.gov/current/pub/chap_815t.htm",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Title 17 - Public Assistance and Welfare Services",
+          "url": "https://www.law.cornell.edu/regulations/connecticut/title-17"
+        },
+        {
+          "title": "Title 17a - Social and Human Services and Resources",
+          "url": "https://www.law.cornell.edu/regulations/connecticut/title-17a"
+        },
+        {
+          "title": "Title 17b - Social Services",
+          "url": "https://www.law.cornell.edu/regulations/connecticut/title-17b"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/connecticut.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_CT",
+      "plane_file": "legal_planes/state_constitutional/CT_constitution.json",
+      "provisions_triggered": []
+    },
+    "case_law": {
+      "search_keywords": [
+        "Connecticut Department of Children and Families",
+        "DCF",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Connecticut%22%20AND%20%28%22Connecticut%20Department%20of%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "missing child",
+        "amber alert",
+        "custodial interference",
+        "parental kidnapping"
+      ],
+      "jurisdiction": "Connecticut state courts",
+      "key_cases": [
+        {
+          "case_id": "sc21078",
+          "title": "In re Andrew C.",
+          "url": "https://law.justia.com/cases/connecticut/supreme-court/2025/sc21078.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Connecticut Supreme Court Case sc21078 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re name, In re"
+        },
+        {
+          "case_id": "sc21055-0",
+          "title": "In re Jewelyette M.",
+          "url": "https://law.justia.com/cases/connecticut/supreme-court/2025/sc21055-0.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Connecticut Supreme Court Case sc21055-0 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re name, In re"
+        },
+        {
+          "case_id": "sc21055-1",
+          "title": "In re Jewelyette M. (First Dissent)",
+          "url": "https://law.justia.com/cases/connecticut/supreme-court/2025/sc21055-1.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Connecticut Supreme Court Case sc21055-1 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re name, In re"
+        },
+        {
+          "case_id": "sc21055-2",
+          "title": "In re Jewelyette M. (Second Dissent)",
+          "url": "https://law.justia.com/cases/connecticut/supreme-court/2025/sc21055-2.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Connecticut Supreme Court Case sc21055-2 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re name, In re"
+        },
+        {
+          "case_id": "sc21055",
+          "title": "In re Jewelyette M.",
+          "url": "https://law.justia.com/cases/connecticut/supreme-court/2025/sc21055.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Connecticut Supreme Court Case sc21055 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re name, In re"
+        },
+        {
+          "case_id": "ac48128",
+          "title": "In re Probate Appeal of Barbera",
+          "url": "https://law.justia.com/cases/connecticut/court-of-appeals/2025/ac48128.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Connecticut Court Of Appeals Case ac48128 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "ac46481",
+          "title": "In re Austin C.",
+          "url": "https://law.justia.com/cases/connecticut/court-of-appeals/2025/ac46481.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Connecticut Court Of Appeals Case ac46481 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re name, In re"
+        },
+        {
+          "case_id": "ac46466",
+          "title": "Doe v. Lamb",
+          "url": "https://law.justia.com/cases/connecticut/court-of-appeals/2025/ac46466.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Connecticut Court Of Appeals Case ac46466 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Doe plaintiff"
+        },
+        {
+          "case_id": "ac48293",
+          "title": "In re Ariella M.",
+          "url": "https://law.justia.com/cases/connecticut/court-of-appeals/2025/ac48293.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Connecticut Court Of Appeals Case ac48293 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re name, In re"
+        },
+        {
+          "case_id": "ac47269",
+          "title": "Doe v. Fasold",
+          "url": "https://law.justia.com/cases/connecticut/court-of-appeals/2025/ac47269.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Connecticut Court Of Appeals Case ac47269 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Doe plaintiff"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Department of Children and Families",
+    "acronym": "DCF",
+    "hotline": "1-800-842-2288",
+    "website": "https://www.cga.ct.gov"
+  },
+  "linked_fail": "ALL",
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.726972",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.542919",
+    "schema_version": "3.0.0",
+    "trigger_name_fixed": "2025-12-22T22:53:02.291158",
+    "leaves_linked": "2025-12-24T18:14:21.090541+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "probable_cause",
+    "who_bears_burden": "agency",
+    "common_failures": [
+      "Delayed AMBER alert",
+      "Failure to coordinate with NCMEC",
+      "Inadequate search protocols"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Missing child report",
+      "deadline": "Immediate",
+      "starts_from": "Child discovered missing",
+      "source": "federal_statute",
+      "consequence_of_miss": "Criminal liability possible"
+    },
+    {
+      "requirement_name": "NCMEC notification",
+      "deadline": "24 hours",
+      "starts_from": "Child reported missing",
+      "source": "state_statute",
+      "consequence_of_miss": "Audit finding, delayed recovery"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian",
+        "law_enforcement"
+      ],
+      "method": "any_reasonable",
+      "timing": "Immediately upon discovery",
+      "content_required": [
+        "Child last seen location",
+        "Physical description"
+      ],
+      "defective_notice_consequence": "Delayed search response"
+    }
+  ]
+}

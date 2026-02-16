@@ -1,0 +1,325 @@
+{
+  "node_id": "OH_ACT-05",
+  "state": "OH",
+  "state_name": "Ohio",
+  "node_family": "ACT",
+  "subnode": "ACT-05",
+  "trigger_name": "Protective Order",
+  "summary_html": "Court issues a **protective or restraining order** to prevent contact, remove abuser, or ensure safety without removing the child. Federal law leaves implementation to states but funds protection efforts through CAPTA and IV-B.",
+  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 authorizes protective interventions and state plan requirements  \n- **SSA Title IV-B** \u2014 permits funding for protective services and court interventions",
+  "icon": "\ud83e\uddfe",
+  "theme_color": "#708090",
+  "domain": "civil",
+  "procedural_weight": 0.5,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "CAPTA_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-67",
+    "SSA_IV_B_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-7/subchapter-IV/part-B"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "42 U.S.C. \u00a7\u00a7 620\u2013629m (SSA Title IV-B)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Ohio - Ohio Rev. Code \u00a7\u00a02151.421 (Mandatory reporting of child abuse)",
+          "source_url": "https://codes.ohio.gov/ohio-revised-code/chapter-2151",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Ohio - Ohio Rev. Code Chapter\u00a02151 (Juvenile Court \u2013 abuse, neglect, dependency)",
+          "source_url": "https://www.legislature.ohio.gov",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22"
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "5101:2 - Division of Social Services (Child Protective Services)",
+          "url": "https://www.law.cornell.edu/regulations/ohio/title-5101-2"
+        },
+        {
+          "title": "5101:5 - Child Abuse and Neglect Prevention",
+          "url": "https://www.law.cornell.edu/regulations/ohio/title-5101-5"
+        },
+        {
+          "title": "5101 - Department of Job and Family Services",
+          "url": "https://www.law.cornell.edu/regulations/ohio/title-5101"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/ohio.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_OH",
+      "plane_file": "legal_planes/state_constitutional/OH_constitution.json",
+      "provisions_triggered": []
+    },
+    "case_law": {
+      "search_keywords": [
+        "Ohio Department of Job and Family Services",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal",
+        "exigent circumstances"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Ohio%22%20AND%20%28%22Ohio%20Department%20of%20Job%20and%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "removal",
+        "emergency custody",
+        "placement",
+        "reunification",
+        "services"
+      ],
+      "jurisdiction": "Ohio state courts",
+      "key_cases": [
+        {
+          "case_id": "23-be-0007",
+          "title": "In re Foreclosure of Liens & Delinquent Taxes by Action in Rem v. Jaber",
+          "url": "https://law.justia.com/cases/ohio/seventh-district-court-of-appeals/2023/23-be-0007.html",
+          "year": 2023,
+          "court": "Seventh District Court Of Appeals",
+          "citation": "Ohio Seventh District Court Of Appeals Case 23-be-0007 (2023)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "closure"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "28855",
+          "title": "In re Removal of Whaley",
+          "url": "https://law.justia.com/cases/ohio/second-district-court-of-appeals/2020/28855.html",
+          "year": 2020,
+          "court": "Second District Court Of Appeals",
+          "citation": "Ohio Second District Court Of Appeals Case 28855 (2020)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "removal"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "2020-ca-0005-0",
+          "title": "In re Foreclosure of Liens for Delinquent Taxes by Action in Rem, Donaker v. Parcels for Mineral Right Taxes Encumbered with Delinquent Tax Liens & Diversified Oil & Gas L.L.C.",
+          "url": "https://law.justia.com/cases/ohio/fifth-district-court-of-appeals/2020/2020-ca-0005-0.html",
+          "year": 2020,
+          "court": "Fifth District Court Of Appeals",
+          "citation": "Ohio Fifth District Court Of Appeals Case 2020-ca-0005-0 (2020)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "closure"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "19ca00045",
+          "title": "In re Foreclosure of Liens for Delinquent Land Taxes v. Parcels of Land Encumbered with Delinquent Tax Liens",
+          "url": "https://law.justia.com/cases/ohio/fifth-district-court-of-appeals/2020/19ca00045.html",
+          "year": 2020,
+          "court": "Fifth District Court Of Appeals",
+          "citation": "Ohio Fifth District Court Of Appeals Case 19ca00045 (2020)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "closure"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "ca2022-06-039",
+          "title": "In re Adult Protective Servs. of Devanan",
+          "url": "https://law.justia.com/cases/ohio/twelfth-district-court-of-appeals/2023/ca2022-06-039.html",
+          "year": 2023,
+          "court": "Twelfth District Court Of Appeals",
+          "citation": "Ohio Twelfth District Court Of Appeals Case ca2022-06-039 (2023)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "c-250544",
+          "title": "In re A.J.",
+          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250544.html",
+          "year": 2025,
+          "court": "First District Court Of Appeals",
+          "citation": "Ohio First District Court Of Appeals Case c-250544 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re initials"
+        },
+        {
+          "case_id": "c-250454",
+          "title": "In re E.J.",
+          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250454.html",
+          "year": 2025,
+          "court": "First District Court Of Appeals",
+          "citation": "Ohio First District Court Of Appeals Case c-250454 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re initials"
+        },
+        {
+          "case_id": "c-250179",
+          "title": "In re L.K.",
+          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250179.html",
+          "year": 2025,
+          "court": "First District Court Of Appeals",
+          "citation": "Ohio First District Court Of Appeals Case c-250179 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re initials"
+        },
+        {
+          "case_id": "c-250248",
+          "title": "In re D.B.",
+          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250248.html",
+          "year": 2025,
+          "court": "First District Court Of Appeals",
+          "citation": "Ohio First District Court Of Appeals Case c-250248 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re initials"
+        },
+        {
+          "case_id": "c-240566",
+          "title": "In re J.W.",
+          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-240566.html",
+          "year": 2025,
+          "court": "First District Court Of Appeals",
+          "citation": "Ohio First District Court Of Appeals Case c-240566 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re initials"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Department of Job and Family Services",
+    "acronym": "ODJFS",
+    "hotline": "1-855-642-4453",
+    "website": "https://www.legislature.ohio.gov"
+  },
+  "linked_decision": "DEC-05",
+  "linked_input": "INP-01",
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.805479",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.764704",
+    "schema_version": "3.0.0",
+    "trigger_name_fixed": "2025-12-22T22:53:02.403058",
+    "leaves_linked": "2025-12-24T20:18:20.399751+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "preponderance",
+    "who_bears_burden": "agency",
+    "common_failures": [
+      "Inadequate safety planning",
+      "Failure to consider less restrictive alternatives",
+      "Insufficient reasonable efforts documentation"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Emergency removal hearing",
+      "deadline": "24-72 hours",
+      "starts_from": "Child removed",
+      "source": "state_statute",
+      "consequence_of_miss": "Constitutional violation, case dismissal"
+    },
+    {
+      "requirement_name": "Case plan development",
+      "deadline": "30-60 days",
+      "starts_from": "Court jurisdiction",
+      "source": "federal_statute",
+      "consequence_of_miss": "IV-E funding penalty"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian",
+        "child_over_12",
+        "tribe"
+      ],
+      "method": "personal_service",
+      "timing": "Before court hearing",
+      "content_required": [
+        "Hearing date",
+        "Allegations",
+        "Right to counsel"
+      ],
+      "defective_notice_consequence": "Hearing must be continued"
+    }
+  ],
+  "door_scenarios": [
+    {
+      "who_at_door": [
+        "caseworker",
+        "law_enforcement"
+      ],
+      "trigger_reason": "Emergency removal attempt",
+      "legal_authority_to_enter": "exigent_circumstances",
+      "parent_rights_at_moment": [
+        "Demand to see court order",
+        "Right to know where child is going",
+        "Right to attorney",
+        "Right to hearing within 24-72 hours"
+      ],
+      "what_to_say": [
+        "Do you have a court order for removal?",
+        "What is the specific imminent danger?",
+        "Where are you taking my child?",
+        "I want my attorney present"
+      ],
+      "what_not_to_do": [
+        "Do not physically interfere with lawful removal",
+        "Do not flee with child",
+        "Do not make threats"
+      ],
+      "next_possible_nodes": [
+        "OUT-01",
+        "FAIL-02"
+      ]
+    }
+  ]
+}

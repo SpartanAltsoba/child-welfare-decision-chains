@@ -1,0 +1,360 @@
+{
+  "node_id": "OH_INP-05",
+  "state": "OH",
+  "state_name": "Ohio",
+  "node_family": "INP",
+  "subnode": "INP-05",
+  "trigger_name": "Self-Report / Guardian Request",
+  "summary_html": "A **parent/guardian/child requests help** without a substantiated allegation. FFPSA created a federal pathway for **prevention services** to avert removal and stabilize families before a case escalates.",
+  "authority_html": "- **Family First Prevention Services Act (2018)** \u2014 prevention services, kinship support; shifts upstream from removal to support",
+  "icon": "\ud83e\udde9",
+  "theme_color": "#32CD32",
+  "domain": "civil",
+  "procedural_weight": 0.6,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "FFPSA_PLAW": "https://www.congress.gov/115/plaws/publ123/PLAW-115publ123.pdf",
+    "FFPSA_PDF": "https://www.govinfo.gov/content/pkg/PLAW-115publ123/pdf/PLAW-115publ123.pdf",
+    "FFPSA_ChildWelfareGov": "https://www.childwelfare.gov/topics/systemwide/laws-policies/federal/family-first/"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "42 U.S.C. \u00a7\u00a7 671\u2013679b (FFPSA-related IV-E changes)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Ohio - Ohio Rev. Code \u00a7\u00a02151.421 (Mandatory reporting of child abuse)",
+          "source_url": "https://codes.ohio.gov/ohio-revised-code/chapter-2151",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Ohio - Ohio Rev. Code Chapter\u00a02151 (Juvenile Court \u2013 abuse, neglect, dependency)",
+          "source_url": "https://www.legislature.ohio.gov",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22"
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "5101:2 - Division of Social Services (Child Protective Services)",
+          "url": "https://www.law.cornell.edu/regulations/ohio/title-5101-2"
+        },
+        {
+          "title": "5101:5 - Child Abuse and Neglect Prevention",
+          "url": "https://www.law.cornell.edu/regulations/ohio/title-5101-5"
+        },
+        {
+          "title": "5101 - Department of Job and Family Services",
+          "url": "https://www.law.cornell.edu/regulations/ohio/title-5101"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/ohio.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_OH",
+      "plane_file": "legal_planes/state_constitutional/OH_constitution.json",
+      "provisions_triggered": []
+    },
+    "case_law": {
+      "search_keywords": [
+        "Ohio Department of Job and Family Services",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal",
+        "exigent circumstances"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Ohio%22%20AND%20%28%22Ohio%20Department%20of%20Job%20and%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "mandatory reporting",
+        "failure to report",
+        "reporter immunity",
+        "hotline"
+      ],
+      "jurisdiction": "Ohio state courts",
+      "key_cases": [
+        {
+          "case_id": "2025ca00047",
+          "title": "In re Guardianship of Babcock",
+          "url": "https://law.justia.com/cases/ohio/fifth-district-court-of-appeals/2025/2025ca00047.html",
+          "year": 2025,
+          "court": "Fifth District Court Of Appeals",
+          "citation": "Ohio Fifth District Court Of Appeals Case 2025ca00047 (2025)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re guardianship, In re"
+        },
+        {
+          "case_id": "25ca0000002",
+          "title": "In re Guardianship of Cottrell",
+          "url": "https://law.justia.com/cases/ohio/fifth-district-court-of-appeals/2025/25ca0000002.html",
+          "year": 2025,
+          "court": "Fifth District Court Of Appeals",
+          "citation": "Ohio Fifth District Court Of Appeals Case 25ca0000002 (2025)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re guardianship, In re"
+        },
+        {
+          "case_id": "2025-ap-0002",
+          "title": "In re Guardianship of Mapel",
+          "url": "https://law.justia.com/cases/ohio/fifth-district-court-of-appeals/2025/2025-ap-0002.html",
+          "year": 2025,
+          "court": "Fifth District Court Of Appeals",
+          "citation": "Ohio Fifth District Court Of Appeals Case 2025-ap-0002 (2025)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re guardianship, In re"
+        },
+        {
+          "case_id": "25-coa-004",
+          "title": "In re Guardianship of Barrett",
+          "url": "https://law.justia.com/cases/ohio/fifth-district-court-of-appeals/2025/25-coa-004.html",
+          "year": 2025,
+          "court": "Fifth District Court Of Appeals",
+          "citation": "Ohio Fifth District Court Of Appeals Case 25-coa-004 (2025)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re guardianship, In re"
+        },
+        {
+          "case_id": "2024ca00039-0",
+          "title": "In re Guardianship of Burson",
+          "url": "https://law.justia.com/cases/ohio/fifth-district-court-of-appeals/2025/2024ca00039-0.html",
+          "year": 2025,
+          "court": "Fifth District Court Of Appeals",
+          "citation": "Ohio Fifth District Court Of Appeals Case 2024ca00039-0 (2025)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re guardianship, In re"
+        },
+        {
+          "case_id": "24ap-193",
+          "title": "In re Guardianship of K.A.H.",
+          "url": "https://law.justia.com/cases/ohio/tenth-district-court-of-appeals/2025/24ap-193.html",
+          "year": 2025,
+          "court": "Tenth District Court Of Appeals",
+          "citation": "Ohio Tenth District Court Of Appeals Case 24ap-193 (2025)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re guardianship, In re"
+        },
+        {
+          "case_id": "24ap-297",
+          "title": "In re Guardianship of A.K.",
+          "url": "https://law.justia.com/cases/ohio/tenth-district-court-of-appeals/2025/24ap-297.html",
+          "year": 2025,
+          "court": "Tenth District Court Of Appeals",
+          "citation": "Ohio Tenth District Court Of Appeals Case 24ap-297 (2025)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re guardianship, In re"
+        },
+        {
+          "case_id": "2025-p-0069",
+          "title": "In re Guardianship of Kluth",
+          "url": "https://law.justia.com/cases/ohio/eleventh-district-court-of-appeals/2025/2025-p-0069.html",
+          "year": 2025,
+          "court": "Eleventh District Court Of Appeals",
+          "citation": "Ohio Eleventh District Court Of Appeals Case 2025-p-0069 (2025)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re guardianship, In re"
+        },
+        {
+          "case_id": "c-230462",
+          "title": "In re Guardianship of Dwyer",
+          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2024/c-230462.html",
+          "year": 2024,
+          "court": "First District Court Of Appeals",
+          "citation": "Ohio First District Court Of Appeals Case c-230462 (2024)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re guardianship, In re"
+        },
+        {
+          "case_id": "c-230576",
+          "title": "In re Guardianship of Hyde",
+          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2024/c-230576.html",
+          "year": 2024,
+          "court": "First District Court Of Appeals",
+          "citation": "Ohio First District Court Of Appeals Case c-230576 (2024)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re guardianship, In re"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Department of Job and Family Services",
+    "acronym": "ODJFS",
+    "hotline": "1-855-642-4453",
+    "website": "https://www.legislature.ohio.gov"
+  },
+  "mandatory_reporters": [
+    "Teachers/School Personnel",
+    "Medical/Dental Professionals",
+    "Mental Health Professionals",
+    "Law Enforcement",
+    "Childcare Staff",
+    "Foster Parents",
+    "Coroners",
+    "District Attorneys"
+  ],
+  "reporting_type": "decentralized",
+  "definitions": {
+    "abuse": [
+      "Physical abuse",
+      "Sexual abuse",
+      "Emotional abuse",
+      "Excessive punishment",
+      "Shaken baby syndrome",
+      "Human trafficking",
+      "Domestic violence exposure",
+      "Failure to protect",
+      "Institutional abuse/neglect"
+    ],
+    "neglect": [
+      "General neglect",
+      "Medical neglect",
+      "Educational neglect",
+      "Abandonment",
+      "Inadequate supervision",
+      "Inadequate shelter/housing",
+      "Inadequate clothing",
+      "Malnourishment/failure to provide food",
+      "Failure to thrive",
+      "Injurious environment"
+    ],
+    "other": [
+      "Violation of out-of-home placement laws"
+    ],
+    "substance_related": [
+      "Drug lab exposure",
+      "Parental drug/alcohol misuse",
+      "Prenatal drug/alcohol exposure",
+      "Illicit substance involvement"
+    ]
+  },
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.804201",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.768005",
+    "schema_version": "3.0.0",
+    "leaves_linked": "2025-12-24T20:18:20.475556+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "reasonable_suspicion",
+    "who_bears_burden": "agency",
+    "common_failures": [
+      "Insufficient screening documentation",
+      "Failure to verify reporter allegations",
+      "Accepting anonymous reports without corroboration"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Initial response time",
+      "deadline": "24-72 hours",
+      "starts_from": "Report received",
+      "source": "state_statute",
+      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+    },
+    {
+      "requirement_name": "Investigation completion",
+      "deadline": "30-60 days",
+      "starts_from": "Investigation opened",
+      "source": "state_statute",
+      "consequence_of_miss": "Case dismissal risk"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian"
+      ],
+      "method": "any_reasonable",
+      "timing": "Before investigation interview",
+      "content_required": [
+        "Nature of allegation",
+        "Rights"
+      ],
+      "defective_notice_consequence": "May invalidate findings"
+    }
+  ],
+  "door_scenarios": [
+    {
+      "who_at_door": [
+        "caseworker"
+      ],
+      "trigger_reason": "Responding to abuse/neglect report",
+      "legal_authority_to_enter": "none_without_consent",
+      "parent_rights_at_moment": [
+        "Right to refuse entry without warrant",
+        "Right to remain silent",
+        "Right to attorney"
+      ],
+      "what_to_say": [
+        "I do not consent to entry without a warrant",
+        "Please provide your card and the allegations in writing",
+        "I will have my attorney contact you"
+      ],
+      "what_not_to_do": [
+        "Do not physically resist",
+        "Do not lie",
+        "Do not let them in 'just to look'"
+      ],
+      "next_possible_nodes": [
+        "DEC-01",
+        "DEC-04"
+      ]
+    }
+  ]
+}

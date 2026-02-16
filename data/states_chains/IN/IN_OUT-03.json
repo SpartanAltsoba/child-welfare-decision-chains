@@ -1,0 +1,344 @@
+{
+  "node_id": "IN_OUT-03",
+  "state": "IN",
+  "state_name": "Indiana",
+  "node_family": "OUT",
+  "subnode": "OUT-03",
+  "trigger_name": "Guardianship / Kinship Permanency",
+  "summary_html": "Child achieves **permanency through legal guardianship** or kinship care. Federal programs provide funding parity with adoption for approved relatives.",
+  "authority_html": "- **Fostering Connections to Success and Increasing Adoptions Act (FCSIAA)** \u2014 kinship-guardianship assistance  \n- **SSA Title IV-E (42 U.S.C. \u00a7 673(d))** \u2014 authorizes Guardianship Assistance Program (GAP)",
+  "icon": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67",
+  "theme_color": "#FFD700",
+  "domain": "civil",
+  "procedural_weight": 0.55,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "FCSIAA_PLAW": "https://www.congress.gov/110/plaws/publ351/PLAW-110publ351.pdf",
+    "SSA_IV_E_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-7/subchapter-IV/part-E"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [
+        "U.S. Const. amend. XIV, \u00a7 1"
+      ],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "Public Law 110-351 (FCSIAA)",
+        "42 U.S.C. \u00a7 673(d) (IV-E Guardianship Assistance)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Indiana - Title 31, Article 33 (Reporting and investigation of child abuse)",
+          "source_url": "https://iga.in.gov",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22"
+        },
+        {
+          "citation_text": "Indiana - Title 31, Article 34 (Juvenile Law \u2013 Children in Need of Services)",
+          "source_url": "https://iga.in.gov",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22"
+        },
+        {
+          "citation_text": "Title 12: Human Services - DCS",
+          "source_url": "https://law.justia.com/codes/indiana/title-12/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 31: Family Law and Juvenile Law - CHILD WELFARE PRIMARY",
+          "source_url": "https://law.justia.com/codes/indiana/title-31/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 35: Criminal Law - Child Abuse",
+          "source_url": "https://law.justia.com/codes/indiana/title-35/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Title 405 - OFFICE OF THE SECRETARY OF FAMILY AND SOCIAL SERVICES",
+          "url": "https://www.law.cornell.edu/regulations/indiana/title-405"
+        },
+        {
+          "title": "Title 407 - OFFICE OF THE CHILDREN'S HEALTH INSURANCE PROGRAM",
+          "url": "https://www.law.cornell.edu/regulations/indiana/title-407"
+        },
+        {
+          "title": "Title 465 - DEPARTMENT OF CHILD SERVICES",
+          "url": "https://www.law.cornell.edu/regulations/indiana/title-465"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/indiana.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_IN",
+      "plane_file": "legal_planes/state_constitutional/IN_constitution.json",
+      "provisions_triggered": [
+        {
+          "provision_id": "IN_CONST_DUE_PROCESS",
+          "name": "Due Process / Law of the Land",
+          "citation": "Indiana Const. art. I, \u00a7 12",
+          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+        }
+      ]
+    },
+    "case_law": {
+      "search_keywords": [
+        "Indiana Department of Child Services",
+        "DCS",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Indiana%22%20AND%20%28%22Indiana%20Department%20of%20Child%20Services%22%20OR%20%22DCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "termination of parental rights",
+        "TPR",
+        "adoption",
+        "permanency",
+        "aging out"
+      ],
+      "jurisdiction": "Indiana state courts",
+      "key_cases": [
+        {
+          "case_id": "20a-jt-1307",
+          "title": "In the Matter of the Involuntary Termination of the Parent-Child Relationship of: J.R. and J.M. (Minor Children) and V.R. (Mother) v. The Indiana Department of Child Services (mem. dec.)",
+          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-1307.html",
+          "year": 2020,
+          "court": "Court Of Appeals",
+          "citation": "Indiana Court Of Appeals Case 20a-jt-1307 (2020)",
+          "relevance_score": 3.0,
+          "matched_keywords": [
+            "tpr",
+            "indiana department of child services"
+          ],
+          "child_welfare_reason": "High: involuntary TPR, Matter of"
+        },
+        {
+          "case_id": "20a-jt-1284",
+          "title": "In the Matter of the Involuntary Termination of the Parent-Child Relationship of C.Q. (Minor Child) and K.Q. (Mother) v. The Indiana Department of Child Services (mem. dec.)",
+          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-1284.html",
+          "year": 2020,
+          "court": "Court Of Appeals",
+          "citation": "Indiana Court Of Appeals Case 20a-jt-1284 (2020)",
+          "relevance_score": 3.0,
+          "matched_keywords": [
+            "tpr",
+            "indiana department of child services"
+          ],
+          "child_welfare_reason": "High: involuntary TPR, Matter of"
+        },
+        {
+          "case_id": "20a-jt-318",
+          "title": "In the Matter of the Involuntary Termination of the Parent-Child Relationship of C.L. (Minor Child) and J.M. (Mother) v. Indiana Department of Child Services (mem. dec.)",
+          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-318.html",
+          "year": 2020,
+          "court": "Court Of Appeals",
+          "citation": "Indiana Court Of Appeals Case 20a-jt-318 (2020)",
+          "relevance_score": 3.0,
+          "matched_keywords": [
+            "tpr",
+            "indiana department of child services"
+          ],
+          "child_welfare_reason": "High: involuntary TPR, Matter of"
+        },
+        {
+          "case_id": "20a-jt-63",
+          "title": "In the Matter of the Termination of the Parent-Child Relationship, Q.J., et al. (Minor Children), and B.J. (Mother) and Q.J., Sr. (Father) v. Indiana Department of Child Services (mem. dec.)",
+          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-63.html",
+          "year": 2020,
+          "court": "Court Of Appeals",
+          "citation": "Indiana Court Of Appeals Case 20a-jt-63 (2020)",
+          "relevance_score": 3.0,
+          "matched_keywords": [
+            "tpr",
+            "indiana department of child services"
+          ],
+          "child_welfare_reason": "High: Matter of TPR, Matter of"
+        },
+        {
+          "case_id": "20a-jt-1175",
+          "title": "In the Matter of the Termination of the Parent-Child Relationship of: M.C., J.C., Ja.C., Ma.C., and P.C. (Minor Children); C.C. (Mother) and Ch.C. (Father) v. Indiana Department of Child Services",
+          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-1175.html",
+          "year": 2020,
+          "court": "Court Of Appeals",
+          "citation": "Indiana Court Of Appeals Case 20a-jt-1175 (2020)",
+          "relevance_score": 3.0,
+          "matched_keywords": [
+            "tpr",
+            "indiana department of child services"
+          ],
+          "child_welfare_reason": "High: Matter of TPR, Matter of"
+        },
+        {
+          "case_id": "20a-jt-1378",
+          "title": "In re the Termination of the Parent-Child Relationship of A.D. (Minor Child) and J.H. (Mother) v. Indiana Department of Child Services (mem. dec.)",
+          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-1378.html",
+          "year": 2020,
+          "court": "Court Of Appeals",
+          "citation": "Indiana Court Of Appeals Case 20a-jt-1378 (2020)",
+          "relevance_score": 3.0,
+          "matched_keywords": [
+            "tpr",
+            "indiana department of child services"
+          ],
+          "child_welfare_reason": "High: In re TPR, In re"
+        },
+        {
+          "case_id": "20a-jt-1044",
+          "title": "In re the Termination of the Parent-Child Relationship of: De.D., M.S., A.D. (Minor Children) and D.D. (Mother) v. Indiana Department of Child Services (mem. dec.)",
+          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-1044.html",
+          "year": 2020,
+          "court": "Court Of Appeals",
+          "citation": "Indiana Court Of Appeals Case 20a-jt-1044 (2020)",
+          "relevance_score": 3.0,
+          "matched_keywords": [
+            "tpr",
+            "indiana department of child services"
+          ],
+          "child_welfare_reason": "High: In re TPR, In re"
+        },
+        {
+          "case_id": "20a-jt-263",
+          "title": "In the Matter of the Termination of the Parent-Child Relationship, Ki.H., K.H., and Kr.H. (Minor Children) v. Indiana Department of Child Services, and Child Advocates, Inc. (mem. dec.)",
+          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-263.html",
+          "year": 2020,
+          "court": "Court Of Appeals",
+          "citation": "Indiana Court Of Appeals Case 20a-jt-263 (2020)",
+          "relevance_score": 3.0,
+          "matched_keywords": [
+            "tpr",
+            "indiana department of child services"
+          ],
+          "child_welfare_reason": "High: Matter of TPR, Matter of"
+        },
+        {
+          "case_id": "20a-jt-618",
+          "title": "In the Matter of the Termination of the Parent-Child Relationship of O.K. & B.K. (Minor Children) and T.A. (Mother) v. Indiana Department of Child Services (mem. dec.)",
+          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-618.html",
+          "year": 2020,
+          "court": "Court Of Appeals",
+          "citation": "Indiana Court Of Appeals Case 20a-jt-618 (2020)",
+          "relevance_score": 3.0,
+          "matched_keywords": [
+            "tpr",
+            "indiana department of child services"
+          ],
+          "child_welfare_reason": "High: Matter of TPR, Matter of"
+        },
+        {
+          "case_id": "20a-jt-812",
+          "title": "In the Matter of the Termination of the Parent-Child Relationship of K.A. (Minor Child) and B.A. (Father); B.A. (Father) v. Indiana Department of Child Services (mem. dec.)",
+          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-812.html",
+          "year": 2020,
+          "court": "Court Of Appeals",
+          "citation": "Indiana Court Of Appeals Case 20a-jt-812 (2020)",
+          "relevance_score": 3.0,
+          "matched_keywords": [
+            "tpr",
+            "indiana department of child services"
+          ],
+          "child_welfare_reason": "High: Matter of TPR, Matter of"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Department of Child Services",
+    "acronym": "DCS",
+    "hotline": "1-800-800-5556",
+    "website": "https://iga.in.gov"
+  },
+  "extended_foster_care": true,
+  "extended_foster_care_age": "Up to age 21 (until 21st birthday)",
+  "linked_action": "ACT-04",
+  "linked_decision": "DEC-04",
+  "linked_input": "INP-01",
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.750026",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.612081",
+    "schema_version": "3.0.0",
+    "trigger_name_fixed": "2025-12-22T22:53:02.325754",
+    "leaves_linked": "2025-12-24T18:14:21.431423+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "clear_and_convincing",
+    "who_bears_burden": "state",
+    "common_failures": [
+      "Insufficient evidence for TPR",
+      "Failure to prove unfitness by clear and convincing evidence",
+      "Santosky v. Kramer standard not met"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Permanency hearing",
+      "deadline": "12 months",
+      "starts_from": "Child enters care",
+      "source": "federal_statute",
+      "consequence_of_miss": "ASFA violation"
+    },
+    {
+      "requirement_name": "TPR filing",
+      "deadline": "15 of 22 months",
+      "starts_from": "Child enters care",
+      "source": "federal_statute",
+      "consequence_of_miss": "Must file TPR or document compelling reason"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian",
+        "putative_father",
+        "tribe",
+        "foster_parent"
+      ],
+      "method": "certified_mail",
+      "timing": "10-30 days before TPR hearing",
+      "content_required": [
+        "TPR grounds",
+        "Date/time/location",
+        "Right to counsel"
+      ],
+      "icwa_additional_notice": true,
+      "defective_notice_consequence": "TPR may be vacated"
+    }
+  ]
+}

@@ -1,0 +1,401 @@
+{
+  "node_id": "SD_ACT-05",
+  "state": "SD",
+  "state_name": "South Dakota",
+  "node_family": "ACT",
+  "subnode": "ACT-05",
+  "trigger_name": "Protective Order",
+  "summary_html": "Court issues a **protective or restraining order** to prevent contact, remove abuser, or ensure safety without removing the child. Federal law leaves implementation to states but funds protection efforts through CAPTA and IV-B.",
+  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 authorizes protective interventions and state plan requirements  \n- **SSA Title IV-B** \u2014 permits funding for protective services and court interventions",
+  "icon": "\ud83e\uddfe",
+  "theme_color": "#708090",
+  "domain": "civil",
+  "procedural_weight": 0.5,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "CAPTA_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-67",
+    "SSA_IV_B_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-7/subchapter-IV/part-B"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "42 U.S.C. \u00a7\u00a7 620\u2013629m (SSA Title IV-B)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "South Dakota - S.D. Codified Laws Chapter\u00a026-8A (Protection of Children \u2013 mandatory reporting and CPS)",
+          "source_url": "https://sdlegislature.gov",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22"
+        },
+        {
+          "citation_text": "Title 25: Domestic Relations",
+          "source_url": "https://law.justia.com/codes/south-dakota/title-25/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 26: Courts - Juvenile Proceedings - CHILD WELFARE PRIMARY",
+          "source_url": "https://law.justia.com/codes/south-dakota/title-26/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 28: Public Health - Child Abuse Reporting",
+          "source_url": "https://law.justia.com/codes/south-dakota/title-28/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Title 46 - Department of Human Services",
+          "url": "https://www.law.cornell.edu/regulations/south-dakota/title-46"
+        },
+        {
+          "title": "Title 67 - Department of Social Services",
+          "url": "https://www.law.cornell.edu/regulations/south-dakota/title-67"
+        },
+        {
+          "title": "South-Dakota Administrative Rule Title 25",
+          "url": "https://regulations.justia.com/states/south-dakota/title-25/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "South-Dakota Administrative Rule Title 26",
+          "url": "https://regulations.justia.com/states/south-dakota/title-26/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "South-Dakota Administrative Rule Title 28",
+          "url": "https://regulations.justia.com/states/south-dakota/title-28/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "South-Dakota Administrative Regulations",
+          "url": "https://regulations.justia.com/states/south-dakota/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "South-Dakota Administrative Rule Title 1",
+          "url": "https://regulations.justia.com/states/south-dakota/title-1/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "South-Dakota Administrative Rule Title 2",
+          "url": "https://regulations.justia.com/states/south-dakota/title-2/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "South-Dakota Administrative Rule Title 3",
+          "url": "https://regulations.justia.com/states/south-dakota/title-3/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "South-Dakota Administrative Rule Title 4",
+          "url": "https://regulations.justia.com/states/south-dakota/title-4/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "South-Dakota Administrative Rule Title 5",
+          "url": "https://regulations.justia.com/states/south-dakota/title-5/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "South-Dakota Administrative Rule Title 6",
+          "url": "https://regulations.justia.com/states/south-dakota/title-6/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/south-dakota.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_SD",
+      "plane_file": "legal_planes/state_constitutional/SD_constitution.json",
+      "provisions_triggered": []
+    },
+    "case_law": {
+      "search_keywords": [
+        "South Dakota Department of Social Services",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal",
+        "exigent circumstances"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22South%20Dakota%22%20AND%20%28%22South%20Dakota%20Department%20of%20Social%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "removal",
+        "emergency custody",
+        "placement",
+        "reunification",
+        "services"
+      ],
+      "jurisdiction": "South Dakota state courts",
+      "key_cases": [
+        {
+          "case_id": "30810",
+          "title": "Interest Of J.W.",
+          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2025/30810.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "South Dakota Supreme Court Case 30810 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Interest of initials"
+        },
+        {
+          "case_id": "30520",
+          "title": "In the Matter of the Estate Of Mack",
+          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2025/30520.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "South Dakota Supreme Court Case 30520 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "30549",
+          "title": "Interest Of N.K.",
+          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2024/30549.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "South Dakota Supreme Court Case 30549 (2024)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Interest of initials"
+        },
+        {
+          "case_id": "30081",
+          "title": "In the Matter of the Estate Of Simon",
+          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2024/30081.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "South Dakota Supreme Court Case 30081 (2024)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "30320",
+          "title": "In the Matter of the Adoption of I.V.E.",
+          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2024/30320.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "South Dakota Supreme Court Case 30320 (2024)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of adoption, Matter of"
+        },
+        {
+          "case_id": "30166",
+          "title": "In re Estate Of Schmeling",
+          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2024/30166.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "South Dakota Supreme Court Case 30166 (2024)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "30488",
+          "title": "In The Matter Of The Interpretation Of South Dakota Constitution And State Law Re: State Legislator\u2019s Interest In State Or County Contracts",
+          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2024/30488.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "South Dakota Supreme Court Case 30488 (2024)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "29809",
+          "title": "In re Estate of Tank",
+          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2023/29809.html",
+          "year": 2023,
+          "court": "Supreme Court",
+          "citation": "South Dakota Supreme Court Case 29809 (2023)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "29873",
+          "title": "In re S.A.",
+          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2023/29873.html",
+          "year": 2023,
+          "court": "Supreme Court",
+          "citation": "South Dakota Supreme Court Case 29873 (2023)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re initials"
+        },
+        {
+          "case_id": "29745",
+          "title": "In re Fred Petersen Living Trust",
+          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2023/29745.html",
+          "year": 2023,
+          "court": "Supreme Court",
+          "citation": "South Dakota Supreme Court Case 29745 (2023)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Department of Social Services",
+    "acronym": "DSS",
+    "hotline": "1-877-244-0864",
+    "website": "https://sdlegislature.gov"
+  },
+  "linked_decision": "DEC-05",
+  "linked_input": "INP-01",
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.823254",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.813275",
+    "schema_version": "3.0.0",
+    "trigger_name_fixed": "2025-12-22T22:53:02.429018",
+    "leaves_linked": "2025-12-24T18:14:22.427269+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "preponderance",
+    "who_bears_burden": "agency",
+    "common_failures": [
+      "Inadequate safety planning",
+      "Failure to consider less restrictive alternatives",
+      "Insufficient reasonable efforts documentation"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Emergency removal hearing",
+      "deadline": "24-72 hours",
+      "starts_from": "Child removed",
+      "source": "state_statute",
+      "consequence_of_miss": "Constitutional violation, case dismissal"
+    },
+    {
+      "requirement_name": "Case plan development",
+      "deadline": "30-60 days",
+      "starts_from": "Court jurisdiction",
+      "source": "federal_statute",
+      "consequence_of_miss": "IV-E funding penalty"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian",
+        "child_over_12",
+        "tribe"
+      ],
+      "method": "personal_service",
+      "timing": "Before court hearing",
+      "content_required": [
+        "Hearing date",
+        "Allegations",
+        "Right to counsel"
+      ],
+      "defective_notice_consequence": "Hearing must be continued"
+    }
+  ],
+  "door_scenarios": [
+    {
+      "who_at_door": [
+        "caseworker",
+        "law_enforcement"
+      ],
+      "trigger_reason": "Emergency removal attempt",
+      "legal_authority_to_enter": "exigent_circumstances",
+      "parent_rights_at_moment": [
+        "Demand to see court order",
+        "Right to know where child is going",
+        "Right to attorney",
+        "Right to hearing within 24-72 hours"
+      ],
+      "what_to_say": [
+        "Do you have a court order for removal?",
+        "What is the specific imminent danger?",
+        "Where are you taking my child?",
+        "I want my attorney present"
+      ],
+      "what_not_to_do": [
+        "Do not physically interfere with lawful removal",
+        "Do not flee with child",
+        "Do not make threats"
+      ],
+      "next_possible_nodes": [
+        "OUT-01",
+        "FAIL-02"
+      ]
+    }
+  ]
+}

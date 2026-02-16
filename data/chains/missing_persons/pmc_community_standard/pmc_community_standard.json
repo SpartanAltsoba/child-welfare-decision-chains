@@ -1,0 +1,606 @@
+{
+  "metadata": {
+    "chain_id": "MPDC-1",
+    "chain_name": "PMC Community Standard - Enhanced Missing Child Protocol",
+    "version": "1.0",
+    "created": "2025-12-22",
+    "description": "The Project Milk Carton Community Standard exceeds federal baseline requirements. Designed for parents, communities, and advocacy groups to ensure no child falls through the cracks. When agencies fail, communities act.",
+    "philosophy": "Federal law sets the FLOOR. PMC sets the STANDARD. Every minute matters. Every system failure is documented. Every child deserves maximum effort.",
+    "legal_framework": "Fully compliant with all federal laws while implementing ENHANCED timelines and community coordination that exceed minimum requirements."
+  },
+
+  "pmc_enhanced_timelines": {
+    "description": "PMC timelines are FASTER than federal minimums. These are community expectations, not legal requirements.",
+    "comparison": {
+      "report_acceptance": {
+        "federal_minimum": "Immediate",
+        "pmc_standard": "Immediate with WRITTEN confirmation within 5 minutes"
+      },
+      "ncic_entry": {
+        "federal_minimum": "Within 2 hours",
+        "pmc_standard": "Within 30 minutes with confirmation to family"
+      },
+      "ncmec_notification": {
+        "federal_minimum": "Within 24 hours",
+        "pmc_standard": "Within 2 hours - family can do this directly if agency hasn't"
+      },
+      "investigator_assignment": {
+        "federal_minimum": "No requirement",
+        "pmc_standard": "Within 4 hours with direct contact info provided"
+      },
+      "risk_assessment": {
+        "federal_minimum": "Within 4 hours (implied)",
+        "pmc_standard": "Within 1 hour using PMC Risk Matrix"
+      },
+      "amber_alert_decision": {
+        "federal_minimum": "Within hours (vague)",
+        "pmc_standard": "Within 2 hours of criteria being met"
+      },
+      "community_notification": {
+        "federal_minimum": "No requirement",
+        "pmc_standard": "Within 4 hours via PMC Community Alert Network"
+      },
+      "case_status_to_family": {
+        "federal_minimum": "No requirement",
+        "pmc_standard": "Every 4 hours for first 72 hours, then daily"
+      }
+    }
+  },
+
+  "golden_hours_protocol": {
+    "description": "Hour-by-hour action protocol for the critical first 72 hours. Designed for families and community coordinators.",
+
+    "hour_0": {
+      "name": "IMMEDIATE (0-15 minutes)",
+      "priority": "CRITICAL",
+      "actions": [
+        {
+          "action": "Call 911",
+          "details": "State clearly: 'My child is missing. I need to file a missing child report immediately.'",
+          "document": "Record: time of call, dispatcher name, what they said"
+        },
+        {
+          "action": "Get case number",
+          "details": "Do not hang up without a case number. Write it down.",
+          "escalation": "If refused, state: 'Federal law prohibits waiting periods for missing children under 21. I need a case number now.'"
+        },
+        {
+          "action": "Confirm NCIC entry will happen",
+          "details": "Ask: 'When will my child be entered into NCIC? Federal law requires within 2 hours.'",
+          "document": "Record officer's answer and name"
+        }
+      ],
+      "do_not_do": [
+        "Do not clean or disturb child's room",
+        "Do not delete any text messages or social media",
+        "Do not wait to see if they come home"
+      ]
+    },
+
+    "hour_1": {
+      "name": "FIRST HOUR (15-60 minutes)",
+      "priority": "CRITICAL",
+      "actions": [
+        {
+          "action": "Gather critical information",
+          "details": "Recent photo (within 6 months), physical description, what they were wearing, known associates, social media accounts, cell phone number",
+          "provide_to": "Law enforcement, NCMEC, community coordinators"
+        },
+        {
+          "action": "Check obvious locations",
+          "details": "Friend's houses, school, regular hangouts - call, don't go (you need to be reachable)",
+          "document": "Record everywhere you called and response"
+        },
+        {
+          "action": "Preserve digital evidence",
+          "details": "Screenshot child's social media, save text messages, note last known phone location",
+          "important": "Do NOT log into their accounts - just screenshot from outside"
+        },
+        {
+          "action": "Identify witnesses",
+          "details": "Who saw them last? Write down names and contact info for police",
+          "document": "Record every person who had contact"
+        }
+      ]
+    },
+
+    "hour_2": {
+      "name": "SECOND HOUR",
+      "priority": "URGENT",
+      "actions": [
+        {
+          "action": "Verify NCIC entry",
+          "details": "Call non-emergency line and ask: 'Has my child been entered into NCIC yet? What is the entry time?'",
+          "escalation": "If not entered after 2 hours, this is a federal law violation. Escalate to supervisor."
+        },
+        {
+          "action": "Call NCMEC directly",
+          "details": "1-800-THE-LOST (1-800-843-5678). Provide all information. Get NCMEC case number.",
+          "important": "You do NOT need to wait for police to do this. You can report directly."
+        },
+        {
+          "action": "Activate PMC Community Alert",
+          "details": "Contact community coordinator, faith community, school, neighbors",
+          "template": "See PMC_COMMUNITY_ALERT_TEMPLATE"
+        },
+        {
+          "action": "Designate family spokesperson",
+          "details": "One person handles all media/community communication",
+          "important": "Keep one phone line clear for tips and agency calls"
+        }
+      ]
+    },
+
+    "hours_3_6": {
+      "name": "HOURS 3-6",
+      "priority": "HIGH",
+      "actions": [
+        {
+          "action": "Request investigator assignment",
+          "details": "Ask: 'Who is the assigned investigator? I need their direct contact information.'",
+          "document": "Record investigator name, badge number, direct phone, email"
+        },
+        {
+          "action": "Provide expanded information",
+          "details": "List of everyone child knows, places they go, any concerning contacts, any conflicts at home or school",
+          "important": "Be completely honest - investigators need real information"
+        },
+        {
+          "action": "Request risk assessment",
+          "details": "Ask: 'Has a risk assessment been completed? What is my child's risk classification?'",
+          "escalation": "If child has ANY of these, insist on ENDANGERED status: under 13, special needs, in danger from someone, history of exploitation"
+        },
+        {
+          "action": "Social media coordination",
+          "details": "One designated person manages social media campaign",
+          "caution": "Do not post details that could tip off abductor or compromise investigation"
+        }
+      ]
+    },
+
+    "hours_6_12": {
+      "name": "HOURS 6-12",
+      "priority": "HIGH",
+      "actions": [
+        {
+          "action": "Verify AMBER Alert evaluation",
+          "details": "If child is endangered: 'Has AMBER Alert criteria been evaluated? What was the decision?'",
+          "escalation": "If criteria met but denied, request written explanation and escalate to state AMBER coordinator"
+        },
+        {
+          "action": "Organize community search",
+          "details": "Work with law enforcement to coordinate volunteer searches",
+          "important": "Searchers should work in pairs, carry phones, report finds immediately - DO NOT TOUCH EVIDENCE"
+        },
+        {
+          "action": "Expand notification radius",
+          "details": "Flyers to bus stations, truck stops, hospitals, shelters within 100-mile radius",
+          "resource": "NCMEC can create missing child posters"
+        },
+        {
+          "action": "Media outreach",
+          "details": "Contact local TV news assignment desks. Provide high-quality photo and brief factual statement.",
+          "timing": "Evening news deadlines are typically 3-4 PM"
+        }
+      ]
+    },
+
+    "hours_12_24": {
+      "name": "HOURS 12-24",
+      "priority": "HIGH",
+      "actions": [
+        {
+          "action": "Verify multi-agency coordination",
+          "details": "Ask: 'What other agencies are involved? Has FBI been notified?'",
+          "escalation": "After 24 hours, federal law presumes interstate transport - FBI should be involved"
+        },
+        {
+          "action": "Request case status briefing",
+          "details": "Formal meeting with investigator and supervisor to review all actions taken",
+          "document": "Take notes on everything discussed"
+        },
+        {
+          "action": "Trafficking screening",
+          "details": "If child is a runaway, foster child, or has history of exploitation: 'Has trafficking screening been completed?'",
+          "resource": "National Human Trafficking Hotline: 1-888-373-7888"
+        },
+        {
+          "action": "Document any failures",
+          "details": "Note any delays, refusals, or concerning responses from agencies",
+          "important": "This documentation may be needed later for accountability"
+        }
+      ]
+    },
+
+    "hours_24_72": {
+      "name": "HOURS 24-72",
+      "priority": "SUSTAINED",
+      "actions": [
+        {
+          "action": "Daily status meetings",
+          "details": "Request daily in-person or phone briefing from lead investigator",
+          "pmc_standard": "PMC standard is update every 12 hours minimum"
+        },
+        {
+          "action": "Verify FBI involvement",
+          "details": "After 24 hours, confirm FBI has been notified",
+          "escalation": "If local agency hasn't notified FBI, you can contact FBI field office directly"
+        },
+        {
+          "action": "NamUs entry",
+          "details": "For cases beyond 24-48 hours, request NamUs entry or enter yourself",
+          "resource": "namus.nij.ojp.gov - families can create cases"
+        },
+        {
+          "action": "Sustained community coordination",
+          "details": "Rotate search teams, maintain flyer distribution, keep social media active",
+          "important": "Keep momentum - cases that go quiet get deprioritized"
+        }
+      ]
+    },
+
+    "beyond_72_hours": {
+      "name": "BEYOND 72 HOURS",
+      "priority": "LONG-TERM",
+      "actions": [
+        {
+          "action": "Prevent case from going cold",
+          "details": "Request weekly case reviews, provide any new information immediately",
+          "pmc_standard": "Never accept 'we'll call you if something develops'"
+        },
+        {
+          "action": "Verify continued database entries",
+          "details": "NCIC, NCMEC, NamUs entries must remain active while child is missing",
+          "important": "Case CANNOT be closed while child is still missing"
+        },
+        {
+          "action": "Cold case prevention",
+          "details": "Request DNA collection from family members for database",
+          "resource": "NamUs provides free DNA collection kits"
+        },
+        {
+          "action": "Long-term advocacy",
+          "details": "Connect with missing children organizations for ongoing support",
+          "organizations": ["NCMEC", "Polly Klaas Foundation", "Team Hope"]
+        }
+      ]
+    }
+  },
+
+  "pmc_risk_matrix": {
+    "description": "Enhanced risk assessment matrix. If ANY of these factors are present, child should be classified as ENDANGERED.",
+    "endangered_criteria": [
+      {
+        "factor": "Age under 13",
+        "weight": "AUTO-ENDANGERED",
+        "rationale": "Young children cannot survive independently; vulnerability is absolute"
+      },
+      {
+        "factor": "Developmental disability or special needs",
+        "weight": "AUTO-ENDANGERED",
+        "rationale": "Child may be unable to seek help or communicate danger"
+      },
+      {
+        "factor": "Requires medication",
+        "weight": "AUTO-ENDANGERED",
+        "rationale": "Medical emergency if medication not available"
+      },
+      {
+        "factor": "Weather conditions dangerous",
+        "weight": "AUTO-ENDANGERED",
+        "rationale": "Exposure risk increases with time"
+      },
+      {
+        "factor": "Evidence of abduction",
+        "weight": "AUTO-ENDANGERED",
+        "rationale": "Non-family abduction is highest risk category"
+      },
+      {
+        "factor": "With person who may harm them",
+        "weight": "AUTO-ENDANGERED",
+        "rationale": "Immediate danger present"
+      },
+      {
+        "factor": "History of exploitation/trafficking",
+        "weight": "AUTO-ENDANGERED",
+        "rationale": "Traffickers often recapture victims"
+      },
+      {
+        "factor": "Missing from foster care or group home",
+        "weight": "AUTO-ENDANGERED",
+        "rationale": "Foster youth are disproportionately targeted by traffickers"
+      },
+      {
+        "factor": "Suicidal ideation or self-harm history",
+        "weight": "AUTO-ENDANGERED",
+        "rationale": "Life-threatening risk present"
+      },
+      {
+        "factor": "Multiple prior runaways",
+        "weight": "HIGH RISK - evaluate for trafficking",
+        "rationale": "Pattern indicates potential exploitation"
+      }
+    ],
+    "never_dismiss": [
+      "Never classify a missing child as 'low priority'",
+      "Never assume a teen runaway is 'voluntary' without assessment",
+      "Never delay based on 'they'll probably come back'",
+      "Never deprioritize based on race, socioeconomic status, or neighborhood"
+    ]
+  },
+
+  "pmc_community_alert_network": {
+    "description": "Community-based rapid notification system that supplements official channels.",
+    "purpose": "When agencies are slow or unresponsive, communities can act.",
+
+    "activation_triggers": [
+      "Family requests community help",
+      "AMBER Alert not issued but family believes child is in danger",
+      "Agency response perceived as inadequate",
+      "4+ hours since report with no visible search activity"
+    ],
+
+    "alert_template": {
+      "format": "MISSING CHILD ALERT",
+      "required_info": [
+        "Child's first name (no last name for safety)",
+        "Age and physical description",
+        "What they were wearing when last seen",
+        "Last known location",
+        "Time last seen",
+        "Case number (proves this is real report)",
+        "Who to call with information (tip line, not family phone)"
+      ],
+      "do_not_include": [
+        "Family address",
+        "Details about suspects (unless cleared by police)",
+        "Speculation about circumstances",
+        "Child's school name"
+      ]
+    },
+
+    "distribution_network": [
+      {
+        "channel": "Faith communities",
+        "method": "Alert to all churches/mosques/synagogues in 25-mile radius",
+        "timing": "Within 4 hours of activation"
+      },
+      {
+        "channel": "Schools",
+        "method": "Alert to school districts in area (if school in session)",
+        "timing": "Immediate"
+      },
+      {
+        "channel": "Businesses",
+        "method": "Flyers to gas stations, convenience stores, truck stops",
+        "timing": "Within 6 hours"
+      },
+      {
+        "channel": "Transit",
+        "method": "Bus stations, train stations, rideshare drivers",
+        "timing": "Within 6 hours"
+      },
+      {
+        "channel": "Healthcare",
+        "method": "Hospitals, urgent care, pharmacies",
+        "timing": "Within 12 hours"
+      },
+      {
+        "channel": "Social media",
+        "method": "Coordinated sharing campaign",
+        "caution": "Single source of truth to prevent misinformation"
+      }
+    ],
+
+    "volunteer_coordination": {
+      "roles": [
+        "Search coordinator - organizes ground searches",
+        "Communications coordinator - manages social media and media relations",
+        "Family liaison - supports family needs (food, childcare for siblings)",
+        "Documentation coordinator - tracks all actions and responses",
+        "Flyer coordinator - manages printing and distribution"
+      ],
+      "safety_rules": [
+        "Search in pairs only",
+        "Carry charged phone at all times",
+        "Do not approach suspects - call police",
+        "Do not touch potential evidence - mark and report",
+        "Check in hourly with search coordinator"
+      ]
+    }
+  },
+
+  "foster_care_integration": {
+    "description": "Enhanced protocols for missing children with child welfare involvement.",
+    "cross_reference": "Links to ARIA Child Welfare Decision Chains",
+
+    "special_considerations": [
+      "Foster children are disproportionately victims of trafficking",
+      "Biological parents have rights to be notified",
+      "CPS caseworker must be involved in search",
+      "Placement history may indicate where child went",
+      "Prior abuse may be factor in running away"
+    ],
+
+    "mandatory_actions": [
+      {
+        "action": "Cross-reference with CPS",
+        "timeline": "Within 1 hour of report",
+        "who": "Law enforcement + CPS"
+      },
+      {
+        "action": "Notify biological parents (if rights not terminated)",
+        "timeline": "Within 4 hours",
+        "who": "CPS caseworker"
+      },
+      {
+        "action": "Review placement history",
+        "timeline": "Within 2 hours",
+        "who": "CPS caseworker"
+      },
+      {
+        "action": "Trafficking screening",
+        "timeline": "Within 24 hours (immediately if indicators present)",
+        "who": "Specialized trafficking investigator"
+      }
+    ],
+
+    "parent_advocacy_for_bio_parents": [
+      "You have a right to be notified if your child in foster care goes missing",
+      "You can file a missing person report yourself",
+      "You can contact NCMEC directly",
+      "Document any failures by CPS to report or search",
+      "Contact child welfare ombudsman if agency is unresponsive"
+    ]
+  },
+
+  "agency_accountability_tracker": {
+    "description": "Documentation system for tracking agency performance and failures.",
+    "purpose": "Hold agencies accountable and provide evidence for complaints, lawsuits, or policy advocacy.",
+
+    "document_for_each_contact": [
+      "Date and time",
+      "Agency name",
+      "Person's name, title, badge number (if applicable)",
+      "What you requested",
+      "What they said/did",
+      "Any delays or refusals",
+      "Witnesses present"
+    ],
+
+    "failure_categories": [
+      {
+        "category": "Report refusal/delay",
+        "law_violated": "National Child Search Assistance Act",
+        "escalation": "State AG, FBI, media"
+      },
+      {
+        "category": "NCIC entry delay (>2 hours)",
+        "law_violated": "National Child Search Assistance Act",
+        "escalation": "Supervisor, state coordinator, FBI"
+      },
+      {
+        "category": "No investigator assigned",
+        "law_violated": "Failure of duty",
+        "escalation": "Police chief, mayor, media"
+      },
+      {
+        "category": "Inadequate search effort",
+        "law_violated": "Duty of care",
+        "escalation": "Command staff, oversight board"
+      },
+      {
+        "category": "AMBER Alert wrongly denied",
+        "law_violated": "DOJ AMBER criteria",
+        "escalation": "State AMBER coordinator, governor"
+      },
+      {
+        "category": "Foster child not properly reported",
+        "law_violated": "Fostering Connections Act",
+        "escalation": "CPS director, state licensing, federal ACF"
+      }
+    ],
+
+    "complaint_resources": [
+      {
+        "level": "Local",
+        "file_with": "Police Internal Affairs, Mayor's Office, City Council"
+      },
+      {
+        "level": "State",
+        "file_with": "Attorney General, State Missing Child Coordinator, Child Welfare Ombudsman"
+      },
+      {
+        "level": "Federal",
+        "file_with": "FBI Office of Professional Responsibility, DOJ Civil Rights Division, ACF (for foster care)"
+      }
+    ]
+  },
+
+  "legal_citations": {
+    "federal_laws": {
+      "national_child_search_assistance_act": {
+        "usc": "34 U.S.C. § 41307",
+        "url": "https://www.law.cornell.edu/uscode/text/34/41307",
+        "key_point": "No waiting period; NCIC within 2 hours"
+      },
+      "protect_act": {
+        "usc": "18 U.S.C. § 2258 et seq.",
+        "url": "https://www.law.cornell.edu/uscode/text/18/chapter-110A",
+        "key_point": "National AMBER Alert network"
+      },
+      "adam_walsh_act": {
+        "usc": "34 U.S.C. § 20901 et seq.",
+        "url": "https://www.law.cornell.edu/uscode/text/34/chapter-209",
+        "key_point": "NCMEC authorization, missing children assistance"
+      },
+      "suzannes_law": {
+        "usc": "34 U.S.C. § 41308",
+        "url": "https://www.law.cornell.edu/uscode/text/34/41308",
+        "key_point": "Extended to age 21"
+      },
+      "fostering_connections_act": {
+        "usc": "42 U.S.C. § 671(a)(35)",
+        "url": "https://www.law.cornell.edu/uscode/text/42/671",
+        "key_point": "24-hour reporting for foster children"
+      },
+      "federal_kidnapping_act": {
+        "usc": "18 U.S.C. § 1201",
+        "url": "https://www.law.cornell.edu/uscode/text/18/1201",
+        "key_point": "FBI jurisdiction after 24 hours"
+      },
+      "trafficking_victims_protection": {
+        "usc": "22 U.S.C. § 7101 et seq.",
+        "url": "https://www.law.cornell.edu/uscode/text/22/chapter-78",
+        "key_point": "Trafficking victim identification and services"
+      }
+    },
+    "resources": {
+      "ncmec": {
+        "phone": "1-800-THE-LOST (1-800-843-5678)",
+        "url": "https://www.missingkids.org/"
+      },
+      "namus": {
+        "url": "https://namus.nij.ojp.gov/"
+      },
+      "trafficking_hotline": {
+        "phone": "1-888-373-7888",
+        "url": "https://humantraffickinghotline.org/"
+      },
+      "fbi_kidnapping": {
+        "url": "https://www.fbi.gov/investigate/violent-crime/kidnapping"
+      }
+    }
+  },
+
+  "print_ready_materials": {
+    "description": "Materials communities can print and distribute.",
+    "available_documents": [
+      {
+        "name": "Golden Hours Checklist",
+        "purpose": "One-page hour-by-hour action guide for families",
+        "format": "PDF, printable"
+      },
+      {
+        "name": "Community Coordinator Packet",
+        "purpose": "Complete guide for organizing community response",
+        "format": "PDF, 10 pages"
+      },
+      {
+        "name": "Agency Contact Log",
+        "purpose": "Form for documenting all agency interactions",
+        "format": "PDF, printable"
+      },
+      {
+        "name": "Know Your Rights Card",
+        "purpose": "Wallet card with federal law requirements agencies must follow",
+        "format": "PDF, business card size"
+      },
+      {
+        "name": "Foster Parent Missing Child Guide",
+        "purpose": "Special guidance for foster families",
+        "format": "PDF, 2 pages"
+      }
+    ]
+  }
+}

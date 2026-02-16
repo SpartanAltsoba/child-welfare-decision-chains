@@ -1,0 +1,382 @@
+{
+  "node_id": "MN_INP-03",
+  "state": "MN",
+  "state_name": "Minnesota",
+  "node_family": "INP",
+  "subnode": "INP-03",
+  "trigger_name": "Law-Enforcement Referral",
+  "summary_html": "A **law-enforcement agency** encounters suspected maltreatment (e.g., during a domestic call or arrest) and **refers** to CPS. Federal child-abuse infrastructure promotes coordinated investigations via Children\u2019s Advocacy Centers.",
+  "authority_html": "- **Victims of Child Abuse Act (34 U.S.C. \u00a7\u00a7 20301\u201320307)** \u2014 support for multidisciplinary teams and CAC protocols; coordination with CPS  \n- **ASFA/SSA IV-E** \u2014 court findings and reasonable-efforts determinations later constrain downstream actions",
+  "icon": "\ud83d\ude94",
+  "theme_color": "#DC143C",
+  "domain": "civil",
+  "procedural_weight": 0.45,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "VICAA_Cornell": "https://www.law.cornell.edu/uscode/text/34/subtitle-II/chapter-203",
+    "VICAA_House": "https://uscode.house.gov/view.xhtml?path=/prelim@title34/subtitle2/chapter203&edition=prelim",
+    "ASFA_PLAW": "https://www.congress.gov/105/plaws/publ89/PLAW-105publ89.pdf",
+    "ASFA_PDF": "https://www.govinfo.gov/content/pkg/PLAW-105publ89/pdf/PLAW-105publ89.pdf"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "34 U.S.C. \u00a7\u00a7 20301\u201320307 (Victims of Child Abuse Act)",
+        "42 U.S.C. \u00a7\u00a7 671\u2013675 (ASFA-related IV-E conditions)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Minnesota - Minn. Stat. \u00a7\u00a0626.556 (Reporting of Maltreatment of Minors Act)",
+          "source_url": "https://www.revisor.mn.gov/statutes/cite/626",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Minnesota - Minn. Stat. Chapters\u00a0260C and 260E (Child protection and services)",
+          "source_url": "https://www.revisor.mn.gov/statutes/cite/260C",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Title 256: Human Services - DHS",
+          "source_url": "https://law.justia.com/codes/minnesota/title-256/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 260: Juvenile Court Act",
+          "source_url": "https://law.justia.com/codes/minnesota/title-260/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Agency 152 - Marriage and Family Therapy Board",
+          "url": "https://www.law.cornell.edu/regulations/minnesota/agency-152"
+        },
+        {
+          "title": "Agency 172 - Private Detective and Protective Agent Services Board",
+          "url": "https://www.law.cornell.edu/regulations/minnesota/agency-172"
+        },
+        {
+          "title": "Agency 196 - Human Services Department",
+          "url": "https://www.law.cornell.edu/regulations/minnesota/agency-196"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/minnesota.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_MN",
+      "plane_file": "legal_planes/state_constitutional/MN_constitution.json",
+      "provisions_triggered": []
+    },
+    "case_law": {
+      "search_keywords": [
+        "Minnesota Department of Human Services",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal",
+        "exigent circumstances"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Minnesota%22%20AND%20%28%22Minnesota%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "mandatory reporting",
+        "failure to report",
+        "reporter immunity",
+        "hotline"
+      ],
+      "jurisdiction": "Minnesota state courts",
+      "key_cases": [
+        {
+          "case_id": "a24-1562",
+          "title": "In the Matter of the Petition of Minnesota Association of Residential Services Homes (MARSH) under Minn. Stat. \u00c2\u00a7 14.381, subd. 1, for a Declaration that the Minnesota Department of Human Services Is Enforcing Unadopted Rules",
+          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2025/a24-1562.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Minnesota Court Of Appeals Case a24-1562 (2025)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "minnesota department of human services"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "a24-0126",
+          "title": "In re the Matter of: Western Prairie Human Services, Respondent, Commissioner of Minnesota Department of Human Services, Respondent, vs. County of Benton, Appellant",
+          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2024/a24-0126.html",
+          "year": 2024,
+          "court": "Court Of Appeals",
+          "citation": "Minnesota Court Of Appeals Case a24-0126 (2024)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "minnesota department of human services"
+          ],
+          "child_welfare_reason": "High: In re, Matter of"
+        },
+        {
+          "case_id": "a22-0367",
+          "title": "In the Matter of the Surveillance and Integrity Review Appeal by Smart Choice Health Care Corporation and Farah Jama Mohamed, Relators, vs. Minnesota Department of Human Services, Respondent",
+          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2022/a22-0367.html",
+          "year": 2022,
+          "court": "Court Of Appeals",
+          "citation": "Minnesota Court Of Appeals Case a22-0367 (2022)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "minnesota department of human services"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "a20-1300",
+          "title": "In re the Matter of: Dorothy Geyen, Respondent, vs. Commissioner of Minnesota Department of Human Services, Appellant, Carver County Health and Human Services, Respondent below",
+          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2021/a20-1300.html",
+          "year": 2021,
+          "court": "Court Of Appeals",
+          "citation": "Minnesota Court Of Appeals Case a20-1300 (2021)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "minnesota department of human services"
+          ],
+          "child_welfare_reason": "High: In re, Matter of"
+        },
+        {
+          "case_id": "a22-1688",
+          "title": "In the Matter of the SIRS Appeal by Best Care, LLC",
+          "url": "https://law.justia.com/cases/minnesota/supreme-court/2025/a22-1688.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Minnesota Supreme Court Case a22-1688 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "a24-0509",
+          "title": "In re Petition for Disciplinary Action Against",
+          "url": "https://law.justia.com/cases/minnesota/supreme-court/2025/a24-0509.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Minnesota Supreme Court Case a24-0509 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "a24-0128",
+          "title": "In the Matter of the Civil Commitment of: Swope",
+          "url": "https://law.justia.com/cases/minnesota/supreme-court/2025/a24-0128.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Minnesota Supreme Court Case a24-0128 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "a24-1189",
+          "title": "In re Johnson Trust",
+          "url": "https://law.justia.com/cases/minnesota/supreme-court/2025/a24-1189.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Minnesota Supreme Court Case a24-1189 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "a24-1673",
+          "title": "In the Matter of the Welfare of the Child of: B.D.D. and D.A.A.",
+          "url": "https://law.justia.com/cases/minnesota/supreme-court/2025/a24-1673.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Minnesota Supreme Court Case a24-1673 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "a23-0459",
+          "title": "In the Matter of the Welfare of: C.T.B",
+          "url": "https://law.justia.com/cases/minnesota/supreme-court/2025/a23-0459.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Minnesota Supreme Court Case a23-0459 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Department of Human Services",
+    "acronym": "DHS",
+    "hotline": "1-800-422-4453",
+    "website": "https://www.leg.state.mn.us"
+  },
+  "mandatory_reporters": [
+    "Teachers/School Personnel",
+    "Medical/Dental Professionals",
+    "Mental Health Professionals",
+    "Law Enforcement",
+    "Shelter Staff",
+    "Childcare Staff",
+    "Clergy",
+    "Foster Parents",
+    "Coaches",
+    "EMTs/Emergency Personnel"
+  ],
+  "reporting_type": "decentralized",
+  "definitions": {
+    "abuse": [
+      "Physical abuse",
+      "Sexual abuse",
+      "Emotional abuse",
+      "Excessive punishment",
+      "Shaken baby syndrome",
+      "Human trafficking",
+      "Domestic violence exposure",
+      "Failure to protect",
+      "Female genital mutilation",
+      "Institutional abuse/neglect"
+    ],
+    "neglect": [
+      "General neglect",
+      "Medical neglect",
+      "Educational neglect",
+      "Abandonment",
+      "Inadequate supervision",
+      "Inadequate shelter/housing",
+      "Inadequate clothing",
+      "Malnourishment/failure to provide food",
+      "Failure to thrive",
+      "Injurious environment"
+    ],
+    "other": [],
+    "substance_related": [
+      "Drug lab exposure",
+      "Parental drug/alcohol misuse",
+      "Prenatal drug/alcohol exposure",
+      "Illicit substance involvement"
+    ]
+  },
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.770745",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.672001",
+    "schema_version": "3.0.0",
+    "leaves_linked": "2025-12-24T18:14:21.744672+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "reasonable_suspicion",
+    "who_bears_burden": "agency",
+    "common_failures": [
+      "Insufficient screening documentation",
+      "Failure to verify reporter allegations",
+      "Accepting anonymous reports without corroboration"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Initial response time",
+      "deadline": "24-72 hours",
+      "starts_from": "Report received",
+      "source": "state_statute",
+      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+    },
+    {
+      "requirement_name": "Investigation completion",
+      "deadline": "30-60 days",
+      "starts_from": "Investigation opened",
+      "source": "state_statute",
+      "consequence_of_miss": "Case dismissal risk"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian"
+      ],
+      "method": "any_reasonable",
+      "timing": "Before investigation interview",
+      "content_required": [
+        "Nature of allegation",
+        "Rights"
+      ],
+      "defective_notice_consequence": "May invalidate findings"
+    }
+  ],
+  "door_scenarios": [
+    {
+      "who_at_door": [
+        "caseworker"
+      ],
+      "trigger_reason": "Responding to abuse/neglect report",
+      "legal_authority_to_enter": "none_without_consent",
+      "parent_rights_at_moment": [
+        "Right to refuse entry without warrant",
+        "Right to remain silent",
+        "Right to attorney"
+      ],
+      "what_to_say": [
+        "I do not consent to entry without a warrant",
+        "Please provide your card and the allegations in writing",
+        "I will have my attorney contact you"
+      ],
+      "what_not_to_do": [
+        "Do not physically resist",
+        "Do not lie",
+        "Do not let them in 'just to look'"
+      ],
+      "next_possible_nodes": [
+        "DEC-01",
+        "DEC-04"
+      ]
+    }
+  ]
+}

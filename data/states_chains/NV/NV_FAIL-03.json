@@ -1,0 +1,316 @@
+{
+  "node_id": "NV_FAIL-03",
+  "state": "NV",
+  "state_name": "Nevada",
+  "node_family": "FAIL",
+  "subnode": "FAIL-03",
+  "trigger_name": "Federal Compliance Failure",
+  "summary_html": "A **state agency fails** to meet federal child-welfare performance standards, triggering **funding penalties** or corrective action under the CFSR or Single Audit Act.",
+  "authority_html": "- **Child & Family Services Reviews (45 CFR Part 1355)** \u2014 performance oversight and penalties  \n- **Single Audit Act (31 U.S.C. \u00a7\u00a7 7501\u20137507)** \u2014 audit of federally funded programs  \n- **Inspector General Act (5 U.S.C. App.)** \u2014 oversight authority for HHS/OIG",
+  "icon": "\ud83d\udcb8",
+  "theme_color": "#FF8C00",
+  "domain": "civil",
+  "procedural_weight": 0.7,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "CFSR_CFR": "https://www.law.cornell.edu/cfr/text/45/part-1355",
+    "SAA_Cornell": "https://www.law.cornell.edu/uscode/text/31/chapter-75",
+    "IGA_Cornell": "https://www.law.cornell.edu/uscode/text/5a/appendix-3"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "45 CFR Part 1355 (CFSR)",
+        "31 U.S.C. \u00a7\u00a7 7501\u20137507 (Single Audit Act)",
+        "5 U.S.C. App. (Inspector General Act)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Nevada - NRS Chapter\u00a0432B (Protection of Children from Abuse and Neglect)",
+          "source_url": "https://www.leg.state.nv.us/NRS/NRS-432B.html",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Title 127: Adoption",
+          "source_url": "https://law.justia.com/codes/nevada/title-127/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 128: Termination of Parental Rights",
+          "source_url": "https://law.justia.com/codes/nevada/title-128/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 432: Services for Children - DCFS",
+          "source_url": "https://law.justia.com/codes/nevada/title-432/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Chapter 62G - Rehabilitation of Delinquent Children",
+          "url": "https://www.law.cornell.edu/regulations/nevada/chapter-62G"
+        },
+        {
+          "title": "Chapter 62H - Records Related to Children",
+          "url": "https://www.law.cornell.edu/regulations/nevada/chapter-62H"
+        },
+        {
+          "title": "Chapter 127 - Adoption of Children",
+          "url": "https://www.law.cornell.edu/regulations/nevada/chapter-127"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/nevada.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_NV",
+      "plane_file": "legal_planes/state_constitutional/NV_constitution.json",
+      "provisions_triggered": []
+    },
+    "case_law": {
+      "search_keywords": [
+        "Nevada Division of Child and Family Services",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal",
+        "exigent circumstances"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Nevada%22%20AND%20%28%22Nevada%20Division%20of%20Child%20and%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "wrongful removal",
+        "1983 claim",
+        "civil rights",
+        "immunity",
+        "damages"
+      ],
+      "jurisdiction": "Nevada state courts",
+      "key_cases": [
+        {
+          "case_id": "89258",
+          "title": "In re Parental Rights as to S.A.T.",
+          "url": "https://law.justia.com/cases/nevada/supreme-court/2025/89258.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Nevada Supreme Court Case 89258 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "86781",
+          "title": "IN RE: DISCIPLINE OF HARDEEP SULL",
+          "url": "https://law.justia.com/cases/nevada/supreme-court/2025/86781.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Nevada Supreme Court Case 86781 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "87684",
+          "title": "In re Goldstein Irrevocable Trust",
+          "url": "https://law.justia.com/cases/nevada/supreme-court/2025/87684.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Nevada Supreme Court Case 87684 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "89128",
+          "title": "In re A.T.",
+          "url": "https://law.justia.com/cases/nevada/supreme-court/2025/89128.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Nevada Supreme Court Case 89128 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re initials"
+        },
+        {
+          "case_id": "85598",
+          "title": "IN RE: PUB. RECORDS REQUEST TO LAS VEGAS METRO. POLICE DEP'T",
+          "url": "https://law.justia.com/cases/nevada/supreme-court/2025/85598.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Nevada Supreme Court Case 85598 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "88174",
+          "title": "IN RE: PARENTAL RIGHTS AS TO R.A.S.",
+          "url": "https://law.justia.com/cases/nevada/supreme-court/2025/88174.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Nevada Supreme Court Case 88174 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "87887",
+          "title": "IN RE: GUARDIANSHIP OF H.B. III",
+          "url": "https://law.justia.com/cases/nevada/supreme-court/2025/87887.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Nevada Supreme Court Case 87887 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re guardianship, In re"
+        },
+        {
+          "case_id": "88457",
+          "title": "Clark County Department of Family Services v. District Court",
+          "url": "https://law.justia.com/cases/nevada/supreme-court/2025/88457.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Nevada Supreme Court Case 88457 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: DFS, Family Services"
+        },
+        {
+          "case_id": "87857",
+          "title": "IN RE: PETITION FOR CHANGE OF NAME (FLEEK) C/W 88016/88190",
+          "url": "https://law.justia.com/cases/nevada/supreme-court/2025/87857.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Nevada Supreme Court Case 87857 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "89623-coa",
+          "title": "IN RE: GUARDIANSHIP OF A.L.R.-Q., A.R.W. AND A.M.W. (CHILD CUSTODY)",
+          "url": "https://law.justia.com/cases/nevada/court-of-appeals/2025/89623-coa.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Nevada Court Of Appeals Case 89623-coa (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re guardianship, In re"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Division of Child and Family Services",
+    "acronym": "DCFS",
+    "hotline": "1-833-803-1183",
+    "website": "https://www.leg.state.nv.us"
+  },
+  "linked_output": "OUT-06",
+  "linked_action": "ACT-03",
+  "linked_decision": "DEC-04",
+  "linked_input": "INP-01",
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.800497",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.750973",
+    "schema_version": "3.0.0",
+    "trigger_name_fixed": "2025-12-22T22:53:02.395602",
+    "leaves_linked": "2025-12-24T18:14:22.129236+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "preponderance",
+    "who_bears_burden": "parent",
+    "common_failures": [
+      "Failure to preserve evidence",
+      "Missing deadlines for legal challenges",
+      "Inadequate documentation of violations"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Appeal deadline",
+      "deadline": "30 days",
+      "starts_from": "Final order",
+      "source": "court_rule",
+      "consequence_of_miss": "Loss of appeal rights"
+    },
+    {
+      "requirement_name": "1983 statute of limitations",
+      "deadline": "2-3 years",
+      "starts_from": "Violation occurred",
+      "source": "federal_statute",
+      "consequence_of_miss": "Claim barred"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "attorney"
+      ],
+      "method": "personal_service",
+      "timing": "Upon violation discovery",
+      "content_required": [
+        "Nature of violation",
+        "Remedies available"
+      ],
+      "defective_notice_consequence": "May extend statute of limitations"
+    }
+  ]
+}

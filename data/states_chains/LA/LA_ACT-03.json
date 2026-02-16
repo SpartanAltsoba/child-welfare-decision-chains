@@ -1,0 +1,389 @@
+{
+  "node_id": "LA_ACT-03",
+  "state": "LA",
+  "state_name": "Louisiana",
+  "node_family": "ACT",
+  "subnode": "ACT-03",
+  "trigger_name": "Foster Care Placement",
+  "summary_html": "The child is **removed from the home** and placed in foster care under court order or emergency authority. Federal statutes tie funding to safety findings, judicial oversight, and permanency planning.",
+  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal monitoring of placement decisions",
+  "icon": "\ud83d\udea8",
+  "theme_color": "#B22222",
+  "domain": "civil",
+  "procedural_weight": 0.35,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "ASFA_PDF": "https://www.govinfo.gov/content/pkg/PLAW-105publ89/pdf/PLAW-105publ89.pdf",
+    "SSA_IV_E_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-7/subchapter-IV/part-E",
+    "CFSR_CFR": "https://www.law.cornell.edu/cfr/text/45/part-1355"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [
+        "U.S. Const. amend. IV",
+        "U.S. Const. amend. XIV, \u00a7 1"
+      ],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "Public Law 105-89 (ASFA)",
+        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)",
+        "45 CFR Part 1355 (CFSR)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Louisiana - Children\u2019s Code Article 601 et seq. (Children\u2019s Code \u2013 Child in Need of Care, includes reporting duties)",
+          "source_url": "https://www.legis.la.gov/legis/Laws_Toc.aspx",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Title 67 - SOCIAL SERVICES",
+          "url": "https://www.law.cornell.edu/regulations/louisiana/title-67"
+        },
+        {
+          "title": "Louisiana Administrative Regulations",
+          "url": "https://regulations.justia.com/states/louisiana/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Louisiana Administrative Rule Title 1",
+          "url": "https://regulations.justia.com/states/louisiana/title-1/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Louisiana Administrative Rule Title 2",
+          "url": "https://regulations.justia.com/states/louisiana/title-2/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Louisiana Administrative Rule Title 3",
+          "url": "https://regulations.justia.com/states/louisiana/title-3/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Louisiana Administrative Rule Title 4",
+          "url": "https://regulations.justia.com/states/louisiana/title-4/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Louisiana Administrative Rule Title 5",
+          "url": "https://regulations.justia.com/states/louisiana/title-5/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Louisiana Administrative Rule Title 6",
+          "url": "https://regulations.justia.com/states/louisiana/title-6/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Louisiana Administrative Rule Title 7",
+          "url": "https://regulations.justia.com/states/louisiana/title-7/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Louisiana Administrative Rule Title 8",
+          "url": "https://regulations.justia.com/states/louisiana/title-8/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Louisiana Administrative Rule Title 9",
+          "url": "https://regulations.justia.com/states/louisiana/title-9/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/louisiana.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_LA",
+      "plane_file": "legal_planes/state_constitutional/LA_constitution.json",
+      "provisions_triggered": [
+        {
+          "provision_id": "LA_CONST_SEARCH_SEIZURE",
+          "name": "Search and Seizure",
+          "citation": "Louisiana Const. art. I, \u00a7 5",
+          "federal_parallel": "U.S. Const. amend. IV"
+        },
+        {
+          "provision_id": "LA_CONST_DUE_PROCESS",
+          "name": "Due Process / Law of the Land",
+          "citation": "Louisiana Const. art. I, \u00a7 2",
+          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+        }
+      ]
+    },
+    "case_law": {
+      "search_keywords": [
+        "Louisiana Department of Children and Family Services",
+        "DCFS",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Louisiana%22%20AND%20%28%22Louisiana%20Department%20of%20Children%20and%20Family%20Services%22%20OR%20%22DCFS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "removal",
+        "emergency custody",
+        "placement",
+        "reunification",
+        "services"
+      ],
+      "jurisdiction": "Louisiana state courts",
+      "key_cases": [
+        {
+          "case_id": "2025-b-00537",
+          "title": "IN RE: HENRY L. KLEIN",
+          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2025-b-00537.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Louisiana Supreme Court Case 2025-b-00537 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re name, In re"
+        },
+        {
+          "case_id": "2025-o-00994",
+          "title": "IN RE: JUDGE ROYALE COLBERT",
+          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2025-o-00994.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Louisiana Supreme Court Case 2025-o-00994 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "2025-o-01127",
+          "title": "IN RE: JUDGE TIFFANY FOXWORTH-ROBERTS",
+          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2025-o-01127.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Louisiana Supreme Court Case 2025-o-01127 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "2025-o-00879",
+          "title": "IN RE: JUDGE JENNIFER M. MEDLEY",
+          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2025-o-00879.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Louisiana Supreme Court Case 2025-o-00879 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "2025-o-00320",
+          "title": "IN RE: JUDGE DONALD \"CHICK\" FORET TWENTY-FOURTH JUDICIAL DISTRICT COURT PARISH OF JEFFERSON STATE OF LOUISIANA",
+          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2025-o-00320.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Louisiana Supreme Court Case 2025-o-00320 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "2024-ck-00254",
+          "title": "In re D.D.",
+          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2024-ck-00254.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Louisiana Supreme Court Case 2024-ck-00254 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re initials"
+        },
+        {
+          "case_id": "2023-ba-00159",
+          "title": "IN RE: COMMITTEE ON BAR ADMISSIONS CFN-1791",
+          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2023-ba-00159.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Louisiana Supreme Court Case 2023-ba-00159 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "2023-ba-01455",
+          "title": "IN RE: COMMITTEE ON BAR ADMISSIONS CFN-65372",
+          "url": "https://law.justia.com/cases/louisiana/supreme-court/2024/2023-ba-01455.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Louisiana Supreme Court Case 2023-ba-01455 (2024)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "2024-b-00479",
+          "title": "IN RE: TRINA TRINHTHI CHU",
+          "url": "https://law.justia.com/cases/louisiana/supreme-court/2024/2024-b-00479.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Louisiana Supreme Court Case 2024-b-00479 (2024)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "2024-b-00520",
+          "title": "IN RE: NED FRANKLIN PIERCE SONNIER, SR.",
+          "url": "https://law.justia.com/cases/louisiana/supreme-court/2024/2024-b-00520.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Louisiana Supreme Court Case 2024-b-00520 (2024)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Department of Children and Family Services",
+    "acronym": "DCFS",
+    "hotline": "1-855-452-5437",
+    "website": "https://www.legis.la.gov"
+  },
+  "linked_decision": "DEC-04",
+  "linked_input": "INP-01",
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.757987",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.629761",
+    "schema_version": "3.0.0",
+    "trigger_name_fixed": "2025-12-22T22:53:02.337459",
+    "leaves_linked": "2025-12-24T18:14:21.539311+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "preponderance",
+    "who_bears_burden": "agency",
+    "common_failures": [
+      "Inadequate safety planning",
+      "Failure to consider less restrictive alternatives",
+      "Insufficient reasonable efforts documentation"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Emergency removal hearing",
+      "deadline": "24-72 hours",
+      "starts_from": "Child removed",
+      "source": "state_statute",
+      "consequence_of_miss": "Constitutional violation, case dismissal"
+    },
+    {
+      "requirement_name": "Case plan development",
+      "deadline": "30-60 days",
+      "starts_from": "Court jurisdiction",
+      "source": "federal_statute",
+      "consequence_of_miss": "IV-E funding penalty"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian",
+        "child_over_12",
+        "tribe"
+      ],
+      "method": "personal_service",
+      "timing": "Before court hearing",
+      "content_required": [
+        "Hearing date",
+        "Allegations",
+        "Right to counsel"
+      ],
+      "defective_notice_consequence": "Hearing must be continued"
+    }
+  ],
+  "door_scenarios": [
+    {
+      "who_at_door": [
+        "caseworker",
+        "law_enforcement"
+      ],
+      "trigger_reason": "Emergency removal attempt",
+      "legal_authority_to_enter": "exigent_circumstances",
+      "parent_rights_at_moment": [
+        "Demand to see court order",
+        "Right to know where child is going",
+        "Right to attorney",
+        "Right to hearing within 24-72 hours"
+      ],
+      "what_to_say": [
+        "Do you have a court order for removal?",
+        "What is the specific imminent danger?",
+        "Where are you taking my child?",
+        "I want my attorney present"
+      ],
+      "what_not_to_do": [
+        "Do not physically interfere with lawful removal",
+        "Do not flee with child",
+        "Do not make threats"
+      ],
+      "next_possible_nodes": [
+        "OUT-01",
+        "FAIL-02"
+      ]
+    }
+  ]
+}

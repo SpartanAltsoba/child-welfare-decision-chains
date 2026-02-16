@@ -1,0 +1,412 @@
+{
+  "plane_id": "state_constitutional_OH",
+  "plane_name": "Ohio State Constitutional Plane",
+  "description": "Ohio Constitution provisions relevant to child welfare and family rights.",
+  "authority_level": "state_supreme",
+  "state_code": "OH",
+  "state_name": "Ohio",
+  "version": "1.0.0",
+  "created": "2025-12-22",
+  "updated": "2025-12-22",
+  "copyright": "Project Milk Carton 501(c)(3) - All Rights Reserved",
+  "constitution_source": {
+    "url": "https://www.legislature.ohio.gov/laws/ohio-constitution",
+    "justia_url": "https://law.justia.com/constitution/ohio/",
+    "official_name": "Ohio Constitution",
+    "last_amended": "2022-11-08",
+    "last_verified": "2025-12-22"
+  },
+  "relationship_to_federal": {
+    "supremacy_clause_applies": true,
+    "can_provide_greater_protection": true,
+    "cannot_provide_less_protection": true
+  },
+  "relevant_provisions": [
+    {
+      "provision_id": "OH_CONST_SEARCH_SEIZURE",
+      "name": "Search and Seizure",
+      "article": "Article I",
+      "section": "Section 14",
+      "url": "https://law.justia.com/constitution/ohio/#section-14",
+      "citation": "Ohio Const. art. I, \u00a7 14",
+      "text": "The right of the people to be secure in their persons, houses, papers, and possessions, against unreasonable searches and seizures shall not be violated...",
+      "application_to_cps": "CPS removal of a child constitutes a seizure. Warrantless removals must meet exigent circumstances exception or be supported by court order.",
+      "federal_parallel": "U.S. Const. amend. IV",
+      "state_provides_greater_protection": false,
+      "key_cases": [],
+      "triggers_at_nodes": [
+        "INP-12",
+        "DEC-04",
+        "ACT-01",
+        "FAIL-01"
+      ]
+    },
+    {
+      "provision_id": "OH_CONST_DUE_PROCESS",
+      "name": "Due Process / Law of the Land",
+      "article": "Article I",
+      "section": "Section 16",
+      "url": "https://law.justia.com/constitution/ohio/#section-16",
+      "citation": "Ohio Const. art. I, \u00a7 16",
+      "text": "...nor shall any person be deprived of life, liberty, or property, without due process of law.",
+      "application_to_cps": "Parents have a fundamental liberty interest in the care and custody of their children. Termination of parental rights requires clear and convincing evidence and proper procedural protections.",
+      "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1",
+      "state_provides_greater_protection": false,
+      "key_cases": [
+        {
+          "case_id": "c-250544",
+          "title": "In re A.J.",
+          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250544.html",
+          "year": 2025,
+          "court": "First District Court Of Appeals",
+          "citation": "Ohio First District Court Of Appeals Case c-250544 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "c-250454",
+          "title": "In re E.J.",
+          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250454.html",
+          "year": 2025,
+          "court": "First District Court Of Appeals",
+          "citation": "Ohio First District Court Of Appeals Case c-250454 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "c-250179",
+          "title": "In re L.K.",
+          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250179.html",
+          "year": 2025,
+          "court": "First District Court Of Appeals",
+          "citation": "Ohio First District Court Of Appeals Case c-250179 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "c-250248",
+          "title": "In re D.B.",
+          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250248.html",
+          "year": 2025,
+          "court": "First District Court Of Appeals",
+          "citation": "Ohio First District Court Of Appeals Case c-250248 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "c-240566",
+          "title": "In re J.W.",
+          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-240566.html",
+          "year": 2025,
+          "court": "First District Court Of Appeals",
+          "citation": "Ohio First District Court Of Appeals Case c-240566 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "c-250379",
+          "title": "In re M. Children",
+          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250379.html",
+          "year": 2025,
+          "court": "First District Court Of Appeals",
+          "citation": "Ohio First District Court Of Appeals Case c-250379 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re initial",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "c-240546",
+          "title": "In re G.T.",
+          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-240546.html",
+          "year": 2025,
+          "court": "First District Court Of Appeals",
+          "citation": "Ohio First District Court Of Appeals Case c-240546 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "c-250178",
+          "title": "In re A.H.",
+          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250178.html",
+          "year": 2025,
+          "court": "First District Court Of Appeals",
+          "citation": "Ohio First District Court Of Appeals Case c-250178 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "c-250222",
+          "title": "In re R.K.",
+          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250222.html",
+          "year": 2025,
+          "court": "First District Court Of Appeals",
+          "citation": "Ohio First District Court Of Appeals Case c-250222 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "c-250160",
+          "title": "In re D.K.",
+          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250160.html",
+          "year": 2025,
+          "court": "First District Court Of Appeals",
+          "citation": "Ohio First District Court Of Appeals Case c-250160 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re initials",
+          "provision_match": "DUE_PROCESS"
+        }
+      ],
+      "triggers_at_nodes": [
+        "DEC-05",
+        "DEC-06",
+        "ACT-04",
+        "OUT-02",
+        "OUT-03"
+      ]
+    }
+  ],
+  "unique_state_protections": [],
+  "case_law_search_keywords": [
+    "Ohio Department of Job and Family Services",
+    "CPS",
+    "due process",
+    "14th Amendment",
+    "42 U.S.C. 1983",
+    "reasonable efforts",
+    "reunification",
+    "emergency removal",
+    "wrongful removal",
+    "exigent circumstances",
+    "abuse",
+    "familial association"
+  ],
+  "state_supreme_court_cps_cases": [
+    {
+      "case_id": "c-250544",
+      "title": "In re A.J.",
+      "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250544.html",
+      "year": 2025,
+      "court": "First District Court Of Appeals",
+      "citation": "Ohio First District Court Of Appeals Case c-250544 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "c-250454",
+      "title": "In re E.J.",
+      "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250454.html",
+      "year": 2025,
+      "court": "First District Court Of Appeals",
+      "citation": "Ohio First District Court Of Appeals Case c-250454 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "c-250179",
+      "title": "In re L.K.",
+      "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250179.html",
+      "year": 2025,
+      "court": "First District Court Of Appeals",
+      "citation": "Ohio First District Court Of Appeals Case c-250179 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "c-250248",
+      "title": "In re D.B.",
+      "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250248.html",
+      "year": 2025,
+      "court": "First District Court Of Appeals",
+      "citation": "Ohio First District Court Of Appeals Case c-250248 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "c-240566",
+      "title": "In re J.W.",
+      "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-240566.html",
+      "year": 2025,
+      "court": "First District Court Of Appeals",
+      "citation": "Ohio First District Court Of Appeals Case c-240566 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "c-250379",
+      "title": "In re M. Children",
+      "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250379.html",
+      "year": 2025,
+      "court": "First District Court Of Appeals",
+      "citation": "Ohio First District Court Of Appeals Case c-250379 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re initial",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "c-240546",
+      "title": "In re G.T.",
+      "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-240546.html",
+      "year": 2025,
+      "court": "First District Court Of Appeals",
+      "citation": "Ohio First District Court Of Appeals Case c-240546 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "c-250178",
+      "title": "In re A.H.",
+      "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250178.html",
+      "year": 2025,
+      "court": "First District Court Of Appeals",
+      "citation": "Ohio First District Court Of Appeals Case c-250178 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "c-250222",
+      "title": "In re R.K.",
+      "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250222.html",
+      "year": 2025,
+      "court": "First District Court Of Appeals",
+      "citation": "Ohio First District Court Of Appeals Case c-250222 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "c-250160",
+      "title": "In re D.K.",
+      "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250160.html",
+      "year": 2025,
+      "court": "First District Court Of Appeals",
+      "citation": "Ohio First District Court Of Appeals Case c-250160 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "23ap-684",
+      "title": "In re E.W. v. Natl. Youth Advocate Program",
+      "url": "https://law.justia.com/cases/ohio/tenth-district-court-of-appeals/2024/23ap-684.html",
+      "year": 2024,
+      "court": "Tenth District Court Of Appeals",
+      "citation": "Ohio Tenth District Court Of Appeals Case 23ap-684 (2024)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "advocate"
+      ],
+      "child_welfare_reason": "High: In re initials",
+      "provision_match": "RIGHT_TO_COUNSEL"
+    }
+  ],
+  "procedural_weight_modifiers": {
+    "explicit_privacy_right": 0,
+    "note": "Modifiers adjust procedural_weight for state nodes based on enhanced protections"
+  },
+  "_metadata": {
+    "created": "2025-12-22T20:38:16.837676",
+    "source": "state_constitution_etl",
+    "data_sources": [
+      "justia",
+      "state_legislature",
+      "courtlistener_keywords"
+    ],
+    "requires_case_law_enrichment": false,
+    "case_law_enriched": "2025-12-24T20:37:15.939636+00:00",
+    "enricher_version": "1.0.0",
+    "cases_analyzed": 2721,
+    "cases_linked": 10
+  },
+  "case_law_search": {
+    "search_keywords": [
+      "Ohio Department of Job and Family Services",
+      "CPS",
+      "due process",
+      "14th Amendment",
+      "42 U.S.C. 1983",
+      "reasonable efforts",
+      "reunification",
+      "emergency removal",
+      "wrongful removal",
+      "exigent circumstances"
+    ],
+    "courtlistener_url": "https://www.courtlistener.com/?q=%22Ohio%22%20AND%20%28%22Ohio%20Department%20of%20Job%20and%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
+    "supreme_court_focus": true,
+    "_note": "Search for state supreme court cases on CPS constitutional issues"
+  }
+}

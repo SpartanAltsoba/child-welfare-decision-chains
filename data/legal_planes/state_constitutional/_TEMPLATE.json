@@ -1,0 +1,66 @@
+{
+  "plane_id": "state_constitutional_{STATE_CODE}",
+  "plane_name": "{STATE_NAME} State Constitutional Plane",
+  "description": "{STATE_NAME} Constitution provisions relevant to child welfare and family rights.",
+  "authority_level": "state_supreme",
+  "state_code": "{STATE_CODE}",
+  "state_name": "{STATE_NAME}",
+  "version": "1.0.0",
+  "created": "2025-12-22",
+  "updated": "2025-12-22",
+  "copyright": "Project Milk Carton 501(c)(3) - All Rights Reserved",
+
+  "constitution_source": {
+    "url": "{STATE_CONSTITUTION_URL}",
+    "official_name": "{STATE_NAME} Constitution",
+    "last_amended": "{LAST_AMENDMENT_DATE}",
+    "last_verified": "2025-12-22"
+  },
+
+  "relationship_to_federal": {
+    "supremacy_clause_applies": true,
+    "can_provide_greater_protection": true,
+    "cannot_provide_less_protection": true
+  },
+
+  "relevant_provisions": [
+    {
+      "provision_id": "{STATE_CODE}_CONST_ART{X}_SEC{Y}",
+      "name": "Search and Seizure Equivalent",
+      "article": "Article {X}",
+      "section": "Section {Y}",
+      "citation": "{State} Const. art. {X}, § {Y}",
+      "citation_url": "{URL}",
+      "text": "{CONSTITUTIONAL_TEXT}",
+      "application_to_cps": "{HOW_THIS_APPLIES_TO_CPS}",
+      "federal_parallel": "U.S. Const. amend. IV",
+      "state_provides_greater_protection": false,
+      "key_cases": [],
+      "triggers_at_nodes": ["INP-12", "DEC-04", "ACT-01"]
+    },
+    {
+      "provision_id": "{STATE_CODE}_CONST_ART{X}_SEC{Y}",
+      "name": "Due Process Equivalent",
+      "article": "Article {X}",
+      "section": "Section {Y}",
+      "citation": "{State} Const. art. {X}, § {Y}",
+      "citation_url": "{URL}",
+      "text": "{CONSTITUTIONAL_TEXT}",
+      "application_to_cps": "{HOW_THIS_APPLIES_TO_CPS}",
+      "federal_parallel": "U.S. Const. amend. XIV, § 1",
+      "state_provides_greater_protection": false,
+      "key_cases": [],
+      "triggers_at_nodes": ["DEC-05", "DEC-06", "ACT-04"]
+    }
+  ],
+
+  "unique_state_protections": [],
+
+  "state_supreme_court_cps_cases": [],
+
+  "procedural_weight_modifiers": {
+    "note": "Add modifiers for enhanced state protections"
+  },
+
+  "_instructions": "REMOVE THIS FIELD. Replace all {PLACEHOLDERS} with actual values. Use CourtListener API to find key cases. Use state legislature website for constitution text."
+}

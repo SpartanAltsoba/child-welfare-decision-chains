@@ -1,0 +1,315 @@
+{
+  "node_id": "KS_FAIL-06",
+  "state": "KS",
+  "state_name": "Kansas",
+  "node_family": "FAIL",
+  "subnode": "FAIL-06",
+  "trigger_name": "Disclosure / Transparency Failure",
+  "summary_html": "Agency fails to **disclose required data or reports**, obstructing transparency. Federal statutes require public reporting under CAPTA, FOIA, and Sunshine provisions.",
+  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 mandates public availability of child-fatality information  \n- **Freedom of Information Act (5 U.S.C. \u00a7 552)** \u2014 public access to federal records  \n- **Government in the Sunshine Act (5 U.S.C. \u00a7 552b)** \u2014 open-meeting requirements",
+  "icon": "\ud83d\udd73\ufe0f",
+  "theme_color": "#708090",
+  "domain": "civil",
+  "procedural_weight": 0.6,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "CAPTA_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-67",
+    "FOIA_Cornell": "https://www.law.cornell.edu/uscode/text/5/552",
+    "Sunshine_Cornell": "https://www.law.cornell.edu/uscode/text/5/552b"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "5 U.S.C. \u00a7 552 (FOIA)",
+        "5 U.S.C. \u00a7 552b (Sunshine Act)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Kansas - Chapter 38, Article 22 (Kansas Child in Need of Care Code \u2013 mandatory reporting \u00a7 38-2223)",
+          "source_url": "https://www.kslegislature.org",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22"
+        },
+        {
+          "citation_text": "Title 23: Marriage and Domestic Relations",
+          "source_url": "https://law.justia.com/codes/kansas/title-23/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 38: Minors - CHILD WELFARE PRIMARY",
+          "source_url": "https://law.justia.com/codes/kansas/title-38/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 65: Public Health - Child Abuse Reporting",
+          "source_url": "https://law.justia.com/codes/kansas/title-65/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Agency 30 - KANSAS DEPARTMENT FOR CHILDREN AND FAMILIES",
+          "url": "https://www.law.cornell.edu/regulations/kansas/agency-30"
+        },
+        {
+          "title": "Agency 123 - JUVENILE JUSTICE AUTHORITY",
+          "url": "https://www.law.cornell.edu/regulations/kansas/agency-123"
+        },
+        {
+          "title": "Agency 124 - CHILD DEATH REVIEW BOARD",
+          "url": "https://www.law.cornell.edu/regulations/kansas/agency-124"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/kansas.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_KS",
+      "plane_file": "legal_planes/state_constitutional/KS_constitution.json",
+      "provisions_triggered": []
+    },
+    "case_law": {
+      "search_keywords": [
+        "Kansas Department for Children and Families",
+        "DCF",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Kansas%22%20AND%20%28%22Kansas%20Department%20for%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "wrongful removal",
+        "1983 claim",
+        "civil rights",
+        "immunity",
+        "damages"
+      ],
+      "jurisdiction": "Kansas state courts",
+      "key_cases": [
+        {
+          "case_id": "119012",
+          "title": "In re Mason",
+          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/119012.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kansas Supreme Court Case 119012 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "129013",
+          "title": "In re Wagle",
+          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/129013.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kansas Supreme Court Case 129013 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "20346",
+          "title": "In re Holmes",
+          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/20346.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kansas Supreme Court Case 20346 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "13805",
+          "title": "In re Peterson, II",
+          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/13805.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kansas Supreme Court Case 13805 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "118723",
+          "title": "In re Sullivan",
+          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/118723.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kansas Supreme Court Case 118723 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "125499",
+          "title": "In re McVey",
+          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/125499.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kansas Supreme Court Case 125499 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "127835",
+          "title": "In re Valdez",
+          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/127835.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kansas Supreme Court Case 127835 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "124395",
+          "title": "In re Martinez",
+          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/124395.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kansas Supreme Court Case 124395 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "125968",
+          "title": "In re Barnds",
+          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/125968.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kansas Supreme Court Case 125968 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "126718",
+          "title": "In re K.W.D.",
+          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/126718.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kansas Supreme Court Case 126718 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re initials"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Department for Children and Families",
+    "acronym": "DCF",
+    "hotline": "1-800-922-5330",
+    "website": "https://www.kslegislature.org"
+  },
+  "linked_output": "OUT-06",
+  "linked_action": "ACT-03",
+  "linked_decision": "DEC-04",
+  "linked_input": "INP-01",
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.753239",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.617017",
+    "schema_version": "3.0.0",
+    "trigger_name_fixed": "2025-12-22T22:53:02.330996",
+    "leaves_linked": "2025-12-24T18:14:21.456520+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "preponderance",
+    "who_bears_burden": "parent",
+    "common_failures": [
+      "Failure to preserve evidence",
+      "Missing deadlines for legal challenges",
+      "Inadequate documentation of violations"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Appeal deadline",
+      "deadline": "30 days",
+      "starts_from": "Final order",
+      "source": "court_rule",
+      "consequence_of_miss": "Loss of appeal rights"
+    },
+    {
+      "requirement_name": "1983 statute of limitations",
+      "deadline": "2-3 years",
+      "starts_from": "Violation occurred",
+      "source": "federal_statute",
+      "consequence_of_miss": "Claim barred"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "attorney"
+      ],
+      "method": "personal_service",
+      "timing": "Upon violation discovery",
+      "content_required": [
+        "Nature of violation",
+        "Remedies available"
+      ],
+      "defective_notice_consequence": "May extend statute of limitations"
+    }
+  ]
+}

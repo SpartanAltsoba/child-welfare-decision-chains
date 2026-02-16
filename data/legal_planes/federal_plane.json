@@ -1,0 +1,568 @@
+{
+  "plane_id": "federal",
+  "plane_name": "Federal Statutory Reference Plane",
+  "description": "Federal statutory floor conditioning state eligibility for child welfare funding. These statutes do not grant removal authority; they constrain and condition state action and funding under the Supremacy Clause.",
+  "authority_level": "federal_floor",
+  "version": "2.1.0",
+  "created": "2025-12-19",
+  "updated": "2025-12-23",
+  "copyright": "Project Milk Carton 501(c)(3) - All Rights Reserved",
+  "usc_source": {
+    "primary": "https://uscode.house.gov/",
+    "secondary": "https://www.law.cornell.edu/uscode",
+    "last_verified": "2025-12-23"
+  },
+  "requirements": [
+    {
+      "requirement_id": "FED_CAPTA",
+      "name": "Child Abuse Prevention and Treatment Act (CAPTA)",
+      "citation": "42 U.S.C. \u00a7\u00a7 5101\u20135116",
+      "public_law": "PL 93-247",
+      "year_enacted": 1974,
+      "year_last_amended": 2022,
+      "category": "reporting_and_intake",
+      "constitutional_alignment": "Fourteenth Amendment procedural due process; First Amendment petition rights",
+      "description": "Establishes minimum federal standards for state child abuse reporting, intake, and oversight systems as a condition of receiving CAPTA state grants.",
+      "key_provisions": [
+        "Mandatory reporter categories must be defined by state law",
+        "Statewide intake and reporting systems required",
+        "Good-faith immunity for reporters",
+        "Confidentiality protections for reports and records",
+        "Citizen Review Panels for independent oversight",
+        "Public disclosure of child abuse fatalities",
+        "Data submission to NCANDS"
+      ],
+      "constitutional_limits": [
+        "CAPTA does not authorize warrantless searches or removals",
+        "Reporting statutes must operate within Fourth and Fourteenth Amendment constraints",
+        "False or malicious reporting cannot override due process"
+      ],
+      "applies_to_nodes": [
+        "INP-01",
+        "INP-02",
+        "INP-06",
+        "INP-07",
+        "INP-08",
+        "INP-10"
+      ],
+      "compliance_indicators": {
+        "mandatory_reporters_defined": true,
+        "hotline_operational": true,
+        "reporter_immunity": true,
+        "citizen_review_panels": true,
+        "fatality_disclosure": true
+      },
+      "funding_at_risk": "CAPTA State Grant (42 U.S.C. \u00a7 5106a)",
+      "citation_urls": [
+        {
+          "section": "42 U.S.C. \u00a7 5101",
+          "title": "CAPTA Definitions",
+          "url": "https://www.law.cornell.edu/uscode/text/42/5101"
+        },
+        {
+          "section": "42 U.S.C. \u00a7 5106a",
+          "title": "State Grants",
+          "url": "https://www.law.cornell.edu/uscode/text/42/5106a"
+        },
+        {
+          "section": "42 U.S.C. \u00a7 5106c",
+          "title": "Citizen Review Panels",
+          "url": "https://www.law.cornell.edu/uscode/text/42/5106c"
+        }
+      ]
+    },
+    {
+      "requirement_id": "FED_ASFA",
+      "name": "Adoption and Safe Families Act (ASFA)",
+      "citation": "42 U.S.C. \u00a7\u00a7 671\u2013675",
+      "public_law": "PL 105-89",
+      "year_enacted": 1997,
+      "category": "permanency_and_removal",
+      "constitutional_alignment": "Fourteenth Amendment procedural and substantive due process",
+      "description": "Conditions Title IV-E funding on state compliance with reasonable-efforts findings, judicial oversight, and permanency timelines. ASFA does not itself create removal authority.",
+      "key_provisions": [
+        "Judicial finding of reasonable efforts prior to removal unless statutory exception applies",
+        "Reasonable efforts toward reunification required",
+        "Permanency hearing within 12 months of foster placement",
+        "TPR filing when child has been in care 15 of last 22 months (with statutory exceptions)",
+        "Child safety designated as paramount concern"
+      ],
+      "constitutional_limits": [
+        "Safety determinations must be individualized and evidence-based",
+        "Reasonable efforts findings are subject to due process review",
+        "Funding conditions cannot override constitutional family integrity rights"
+      ],
+      "applies_to_nodes": [
+        "INP-12",
+        "DEC-04",
+        "DEC-05",
+        "ACT-01",
+        "ACT-03",
+        "OUT-01",
+        "OUT-02",
+        "OUT-03"
+      ],
+      "compliance_indicators": {
+        "reasonable_efforts_documented": true,
+        "court_findings_obtained": true,
+        "permanency_timelines_met": true
+      },
+      "funding_at_risk": "Title IV-E Foster Care and Adoption Assistance",
+      "citation_urls": [
+        {
+          "section": "42 U.S.C. \u00a7 671",
+          "title": "State Plan Requirements",
+          "url": "https://www.law.cornell.edu/uscode/text/42/671"
+        },
+        {
+          "section": "42 U.S.C. \u00a7 672",
+          "title": "Foster Care Payments",
+          "url": "https://www.law.cornell.edu/uscode/text/42/672"
+        },
+        {
+          "section": "42 U.S.C. \u00a7 675",
+          "title": "Case Plan Definitions",
+          "url": "https://www.law.cornell.edu/uscode/text/42/675"
+        }
+      ]
+    },
+    {
+      "requirement_id": "FED_IV_E",
+      "name": "Social Security Act Title IV-E",
+      "citation": "42 U.S.C. \u00a7\u00a7 670\u2013679c",
+      "category": "funding_and_oversight",
+      "constitutional_alignment": "Spending Clause; Fourteenth Amendment due process",
+      "description": "Primary federal reimbursement mechanism for foster care, adoption assistance, and kinship guardianship. Funding is conditioned on strict compliance with judicial and procedural safeguards.",
+      "key_provisions": [
+        "Foster care maintenance payments",
+        "Adoption and guardianship assistance",
+        "Judicial determinations required for eligibility",
+        "Case plan and case review requirements",
+        "Ongoing federal audits and CFSR monitoring"
+      ],
+      "constitutional_limits": [
+        "Funding eligibility cannot substitute for judicial authority",
+        "Noncompliance results in funding disallowance, not retroactive authorization"
+      ],
+      "applies_to_nodes": [
+        "ALL"
+      ],
+      "compliance_indicators": {
+        "case_plans_current": true,
+        "judicial_determinations_made": true,
+        "placements_legally_authorized": true
+      },
+      "funding_at_risk": "All Title IV-E reimbursements",
+      "citation_urls": [
+        {
+          "section": "42 U.S.C. \u00a7 671",
+          "title": "State Plan Requirements",
+          "url": "https://www.law.cornell.edu/uscode/text/42/671"
+        },
+        {
+          "section": "42 U.S.C. \u00a7 672",
+          "title": "Foster Care Payments",
+          "url": "https://www.law.cornell.edu/uscode/text/42/672"
+        },
+        {
+          "section": "42 U.S.C. \u00a7 675",
+          "title": "Case Plan Definitions",
+          "url": "https://www.law.cornell.edu/uscode/text/42/675"
+        }
+      ]
+    },
+    {
+      "requirement_id": "FED_ICWA",
+      "name": "Indian Child Welfare Act (ICWA)",
+      "citation": "25 U.S.C. \u00a7\u00a7 1901\u20131963",
+      "public_law": "PL 95-608",
+      "year_enacted": 1978,
+      "category": "tribal_jurisdiction",
+      "constitutional_alignment": "Indian Commerce Clause; Due Process; Federal trust responsibility",
+      "description": "Establishes mandatory federal standards for proceedings involving Indian (Native American) children, superseding state law where applicable.",
+      "key_provisions": [
+        "Tribal jurisdiction and transfer rights",
+        "Active efforts requirement (heightened standard)",
+        "Qualified expert witness testimony",
+        "Placement preferences codified",
+        "Strict notice requirements to tribes"
+      ],
+      "constitutional_limits": [
+        "ICWA applies only when child meets federal definition of Indian child",
+        "State courts lack discretion to ignore ICWA mandates"
+      ],
+      "applies_to_nodes": [
+        "INP-11",
+        "DEC-04",
+        "DEC-05",
+        "ACT-01",
+        "OUT-01",
+        "OUT-02"
+      ],
+      "compliance_indicators": {
+        "tribe_notified": true,
+        "active_efforts_made": true,
+        "qew_testimony_obtained": true
+      },
+      "funding_at_risk": "Title IV-E; proceedings subject to invalidation",
+      "citation_urls": [
+        {
+          "section": "25 U.S.C. \u00a7 1901",
+          "title": "Congressional Findings",
+          "url": "https://www.law.cornell.edu/uscode/text/25/1901"
+        },
+        {
+          "section": "25 U.S.C. \u00a7 1912",
+          "title": "Pending Court Proceedings",
+          "url": "https://www.law.cornell.edu/uscode/text/25/1912"
+        },
+        {
+          "section": "25 U.S.C. \u00a7 1915",
+          "title": "Placement Preferences",
+          "url": "https://www.law.cornell.edu/uscode/text/25/1915"
+        }
+      ]
+    },
+    {
+      "requirement_id": "FED_FFPSA",
+      "name": "Family First Prevention Services Act (FFPSA)",
+      "citation": "42 U.S.C. \u00a7\u00a7 671\u2013679b",
+      "public_law": "PL 115-123",
+      "year_enacted": 2018,
+      "category": "prevention",
+      "constitutional_alignment": "Substantive due process; least-restrictive-means principles",
+      "description": "Reorients federal funding toward prevention services and family preservation, reducing reliance on congregate care.",
+      "key_provisions": [
+        "IV-E funding for prevention services",
+        "Evidence-based service requirements",
+        "Kinship placement prioritization",
+        "QRTP placement limitations"
+      ],
+      "constitutional_limits": [
+        "Prevention services must remain voluntary",
+        "Service refusal alone cannot justify removal"
+      ],
+      "applies_to_nodes": [
+        "INP-05",
+        "DEC-03",
+        "ACT-04",
+        "OUT-01"
+      ],
+      "compliance_indicators": {
+        "prevention_plan_submitted": true,
+        "services_evidence_based": true
+      },
+      "funding_at_risk": "Title IV-E Prevention Services funding",
+      "citation_urls": [
+        {
+          "section": "42 U.S.C. \u00a7 671(e)",
+          "title": "Prevention Services",
+          "url": "https://www.law.cornell.edu/uscode/text/42/671"
+        },
+        {
+          "section": "42 U.S.C. \u00a7 672(k)",
+          "title": "QRTP Requirements",
+          "url": "https://www.law.cornell.edu/uscode/text/42/672"
+        }
+      ]
+    },
+    {
+      "requirement_id": "FED_PKPA",
+      "name": "Parental Kidnapping Prevention Act (PKPA)",
+      "citation": "28 U.S.C. § 1738A",
+      "public_law": "PL 96-611",
+      "year_enacted": 1980,
+      "category": "interstate_custody",
+      "constitutional_alignment": "Full Faith and Credit Clause; Due Process",
+      "description": "Requires states to honor custody determinations from other states. In January 2025, a White House executive order directed agencies to consider applying PKPA to investigate 'sanctuary states' that facilitate custody changes for gender-affirming care.",
+      "key_provisions": [
+        "States must enforce valid custody orders from other states",
+        "Home state has priority jurisdiction",
+        "Prevents forum shopping in custody disputes",
+        "Federal enforcement mechanisms available"
+      ],
+      "constitutional_limits": [
+        "Does not preempt state child welfare authority",
+        "Application to gender-affirming care cases contested"
+      ],
+      "applies_to_nodes": [
+        "DEC-04",
+        "ACT-03",
+        "FAIL-01"
+      ],
+      "current_controversy": {
+        "issue": "Gender-Affirming Care Custody Disputes",
+        "description": "Conflict between states with shield laws protecting gender-affirming care and states banning it creates interstate custody battles. January 2025 executive order targets 'sanctuary states' under PKPA.",
+        "shield_states": ["CA", "CO", "CT", "IL", "MD", "MA", "MN", "NJ", "NM", "VT", "WA"],
+        "ban_states_count": 25,
+        "supreme_court_ruling": "US v. Skrmetti (2025) - upheld state bans as not violating Equal Protection"
+      },
+      "citation_urls": [
+        {
+          "section": "28 U.S.C. § 1738A",
+          "title": "Full Faith and Credit for Custody Determinations",
+          "url": "https://www.law.cornell.edu/uscode/text/28/1738A"
+        }
+      ]
+    }
+  ],
+  "gender_affirming_care_laws": {
+    "last_updated": "2025-12-29",
+    "summary": "As of 2025, states are sharply divided on gender-affirming care for minors. 25 states have bans following US v. Skrmetti (2025). 11 states have 'shield' or 'sanctuary' laws protecting care. Some shield laws include custody provisions that could affect CPS jurisdiction.",
+    "shield_sanctuary_states": [
+      {
+        "state": "CA",
+        "law": "SB 107",
+        "year": 2022,
+        "provisions": [
+          "California courts can take jurisdiction over children seeking gender-affirming care from ban states",
+          "Protects providers from out-of-state subpoenas",
+          "Prohibits enforcement of other states' custody orders based on gender-affirming care"
+        ],
+        "custody_implications": true,
+        "source_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202120220SB107"
+      },
+      {
+        "state": "MN",
+        "law": "HF 146 (Trans Refuge Bill)",
+        "year": 2023,
+        "provisions": [
+          "Minnesota courts have jurisdiction when child present for gender-affirming care",
+          "Prohibits enforcement of out-of-state orders removing child for receiving gender-affirming care",
+          "Prohibits enforcement of other states' laws in child protection actions based on gender-affirming care"
+        ],
+        "custody_implications": true,
+        "source_url": "https://www.revisor.mn.gov/bills/bill.php?b=House&f=HF0146&ssn=0&y=2023"
+      },
+      {
+        "state": "WA",
+        "law": "SB 5599",
+        "year": 2023,
+        "provisions": [
+          "Protects minors seeking gender-affirming care from estranged parents",
+          "Host homes can provide shelter without parental notification in some cases",
+          "Requires 'good faith attempt' to reunify family",
+          "Does NOT automatically remove children from homes"
+        ],
+        "custody_implications": true,
+        "source_url": "https://app.leg.wa.gov/billsummary?BillNumber=5599&Year=2023"
+      },
+      {
+        "state": "CO",
+        "law": "HB 23-1083",
+        "year": 2023,
+        "provisions": [
+          "Shield law protecting providers",
+          "Prohibits cooperation with out-of-state investigations"
+        ],
+        "custody_implications": false,
+        "source_url": "https://leg.colorado.gov/bills/hb23-1083"
+      },
+      {
+        "state": "IL",
+        "law": "HB 1286",
+        "year": 2023,
+        "provisions": [
+          "Shield law for providers and patients",
+          "Prohibits enforcement of out-of-state subpoenas"
+        ],
+        "custody_implications": false
+      },
+      {
+        "state": "CT",
+        "law": "SB 5",
+        "year": 2023,
+        "provisions": ["Shield law for providers"],
+        "custody_implications": false
+      },
+      {
+        "state": "MD",
+        "law": "HB 808",
+        "year": 2023,
+        "provisions": ["Shield law for providers"],
+        "custody_implications": false
+      },
+      {
+        "state": "MA",
+        "law": "Executive Order",
+        "year": 2023,
+        "provisions": ["Shield protections via executive action"],
+        "custody_implications": false
+      },
+      {
+        "state": "NJ",
+        "law": "A4818",
+        "year": 2023,
+        "provisions": ["Shield law for providers"],
+        "custody_implications": false
+      },
+      {
+        "state": "NM",
+        "law": "SB 223",
+        "year": 2023,
+        "provisions": ["Shield law for providers"],
+        "custody_implications": false
+      },
+      {
+        "state": "VT",
+        "law": "H.89",
+        "year": 2023,
+        "provisions": ["Shield law for providers"],
+        "custody_implications": false
+      }
+    ],
+    "ban_states": {
+      "count": 25,
+      "legal_status": "Upheld by US v. Skrmetti (2025)",
+      "states_with_abuse_classification": ["TX"],
+      "texas_note": "Texas directive classifies providing gender-affirming care as child abuse, potentially triggering CPS investigation and custody loss"
+    },
+    "federal_executive_action_2025": {
+      "date": "2025-01-28",
+      "title": "Protecting Children from Chemical and Surgical Mutilation",
+      "provisions": [
+        "Directs agencies to investigate sanctuary states under PKPA",
+        "Targets states that 'facilitate stripping custody from parents who support healthy development'",
+        "Federal funding restrictions contemplated"
+      ],
+      "source_url": "https://www.whitehouse.gov/presidential-actions/2025/01/protecting-children-from-chemical-and-surgical-mutilation/"
+    }
+  },
+  "trafficking_laws": {
+    "last_updated": "2026-01-05",
+    "summary": "Federal anti-trafficking laws establish protections for victims, including minors. Safe harbor laws protect minor victims from prosecution for prostitution-related offenses.",
+    "federal_statutes": [
+      {
+        "requirement_id": "FED_TVPA",
+        "name": "Trafficking Victims Protection Act (TVPA)",
+        "citation": "22 U.S.C. § 7101 et seq.",
+        "public_law": "PL 106-386",
+        "year_enacted": 2000,
+        "year_last_reauthorized": 2022,
+        "description": "Primary federal anti-trafficking law. Defines sex trafficking and labor trafficking. Creates federal crimes and victim protections.",
+        "key_provisions": [
+          "Defines severe forms of trafficking in persons",
+          "Sex trafficking: recruiting by force, fraud, or coercion for commercial sex acts",
+          "Any minor induced to perform commercial sex acts is trafficking victim regardless of force/fraud/coercion",
+          "Creates T-visa for trafficking victims",
+          "Mandatory restitution for victims",
+          "Up to life imprisonment for traffickers"
+        ],
+        "minor_specific_protections": [
+          "No force/fraud/coercion requirement for minors under 18",
+          "Minor victims cannot consent to commercial sex",
+          "Access to services through Office for Victims of Crime"
+        ],
+        "citation_urls": [
+          {
+            "section": "22 U.S.C. § 7102",
+            "title": "Definitions",
+            "url": "https://www.law.cornell.edu/uscode/text/22/7102"
+          },
+          {
+            "section": "18 U.S.C. § 1591",
+            "title": "Sex Trafficking of Children",
+            "url": "https://www.law.cornell.edu/uscode/text/18/1591"
+          }
+        ]
+      },
+      {
+        "requirement_id": "FED_JVTA",
+        "name": "Justice for Victims of Trafficking Act (JVTA)",
+        "citation": "34 U.S.C. § 20701 et seq.",
+        "public_law": "PL 114-22",
+        "year_enacted": 2015,
+        "description": "Strengthens TVPA, creates Domestic Trafficking Victims Fund, requires state child welfare agencies to develop protocols for trafficking victims.",
+        "key_provisions": [
+          "Creates Domestic Trafficking Victims Fund from fines",
+          "Requires states to develop protocols for identifying trafficking victims in child welfare system",
+          "Enhanced penalties for buyers of commercial sex with minors",
+          "Clarifies minors cannot be charged with prostitution under federal law"
+        ],
+        "child_welfare_requirements": [
+          "State plan must include procedures for identifying trafficking among foster children",
+          "Must document and report children who run away from foster care",
+          "Must have protocols for locating children missing from care"
+        ],
+        "citation_urls": [
+          {
+            "section": "34 U.S.C. § 20702",
+            "title": "Establishment of Grant Program",
+            "url": "https://www.law.cornell.edu/uscode/text/34/20702"
+          }
+        ]
+      },
+      {
+        "requirement_id": "FED_FSAHTSA",
+        "name": "Frederick Douglass Trafficking Victims Prevention and Protection Reauthorization Act",
+        "citation": "PL 115-425",
+        "year_enacted": 2018,
+        "description": "Reauthorizes TVPA with focus on child victims and runaway youth.",
+        "key_provisions": [
+          "Strengthens prevention programs for at-risk youth",
+          "Enhanced training for law enforcement on child trafficking",
+          "Improved data collection on child trafficking"
+        ]
+      }
+    ],
+    "safe_harbor_laws": {
+      "description": "Safe harbor laws protect minor trafficking victims from prosecution for prostitution and related offenses, recognizing them as victims rather than criminals.",
+      "federal_guidance": "While no federal safe harbor law exists, JVTA clarifies minors cannot be charged with prostitution under federal law. States encouraged to adopt safe harbor provisions.",
+      "states_with_safe_harbor": [
+        {"state": "AL", "year": 2016, "type": "full", "notes": "Immunity from prosecution + services mandate"},
+        {"state": "AK", "year": 2012, "type": "full", "notes": "Affirmative defense + specialized services"},
+        {"state": "AZ", "year": 2014, "type": "partial", "notes": "Affirmative defense only"},
+        {"state": "AR", "year": 2013, "type": "full", "notes": "Immunity + mandatory services"},
+        {"state": "CA", "year": 2016, "type": "full", "notes": "SB 1322 - No prosecution under 18"},
+        {"state": "CT", "year": 2010, "type": "full", "notes": "First safe harbor law in US"},
+        {"state": "DE", "year": 2013, "type": "full", "notes": "Immunity + services"},
+        {"state": "FL", "year": 2012, "type": "full", "notes": "Safe harbor + specialized housing"},
+        {"state": "GA", "year": 2015, "type": "full", "notes": "Immunity + victim services"},
+        {"state": "HI", "year": 2016, "type": "partial", "notes": "Affirmative defense"},
+        {"state": "IL", "year": 2010, "type": "full", "notes": "Immunity + specialized courts"},
+        {"state": "IN", "year": 2015, "type": "full", "notes": "Immunity under 18"},
+        {"state": "KY", "year": 2013, "type": "full", "notes": "Immunity + services"},
+        {"state": "LA", "year": 2012, "type": "full", "notes": "Immunity + specialized services"},
+        {"state": "MA", "year": 2011, "type": "full", "notes": "Immunity + diversion programs"},
+        {"state": "MI", "year": 2014, "type": "full", "notes": "Immunity + victim services"},
+        {"state": "MN", "year": 2011, "type": "full", "notes": "Comprehensive safe harbor"},
+        {"state": "MS", "year": 2013, "type": "partial", "notes": "Affirmative defense"},
+        {"state": "MT", "year": 2015, "type": "full", "notes": "Immunity + services"},
+        {"state": "NE", "year": 2012, "type": "full", "notes": "Immunity + specialized courts"},
+        {"state": "NH", "year": 2016, "type": "full", "notes": "Immunity + services"},
+        {"state": "NJ", "year": 2014, "type": "full", "notes": "Immunity under 18"},
+        {"state": "NY", "year": 2008, "type": "full", "notes": "First comprehensive safe harbor"},
+        {"state": "NC", "year": 2013, "type": "full", "notes": "Immunity + services"},
+        {"state": "ND", "year": 2013, "type": "partial", "notes": "Affirmative defense"},
+        {"state": "OH", "year": 2012, "type": "full", "notes": "Safe Harbor for Exploited Children Act"},
+        {"state": "OK", "year": 2014, "type": "full", "notes": "Immunity + services"},
+        {"state": "SC", "year": 2012, "type": "full", "notes": "Immunity + victim services"},
+        {"state": "TN", "year": 2011, "type": "full", "notes": "Immunity + specialized courts"},
+        {"state": "TX", "year": 2011, "type": "full", "notes": "Immunity + mandatory services"},
+        {"state": "VT", "year": 2011, "type": "full", "notes": "Immunity + victim services"},
+        {"state": "WA", "year": 2010, "type": "full", "notes": "Comprehensive safe harbor"},
+        {"state": "WY", "year": 2013, "type": "partial", "notes": "Affirmative defense"}
+      ],
+      "states_without_full_safe_harbor": ["AZ", "CO", "ID", "IA", "KS", "MD", "MO", "NV", "NM", "OR", "PA", "RI", "SD", "UT", "VA", "WV", "WI"],
+      "hotlines": {
+        "national_trafficking_hotline": "1-888-373-7888",
+        "text": "233733",
+        "operator": "Polaris Project",
+        "available": "24/7"
+      }
+    },
+    "foster_care_trafficking_link": {
+      "statistics": {
+        "source": "National Center for Missing & Exploited Children",
+        "finding": "1 in 6 endangered runaways reported to NCMEC are likely child sex trafficking victims",
+        "foster_care_connection": "Of those, 86% were in foster care or group homes when they ran"
+      },
+      "required_protocols": [
+        "Identify potential trafficking victims among children in care",
+        "Provide specialized services to identified victims",
+        "Report missing children to NCMEC within 24 hours",
+        "Screen runaway and homeless youth for trafficking indicators"
+      ]
+    }
+  }
+}

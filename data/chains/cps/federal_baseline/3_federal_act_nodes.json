@@ -1,0 +1,201 @@
+{
+  "federal_act_nodes": [
+    {
+      "subnode": "ACT-01",
+      "state": "United States",
+      "node": "ACT",
+      "action_name": "Service Plan / Voluntary Services",
+      "theme_color": "#32CD32",
+      "icon": "🧩",
+      "summary_html": "Family agrees to a **voluntary service plan**—counseling, substance-use treatment, parenting classes—designed to correct conditions without court compulsion. Federal law prioritizes family preservation through prevention and support services.",
+      "authority_html": "- **Family First Prevention Services Act (FFPSA)** — prevention services and kin support framework  \n- **SSA Title IV-B (42 U.S.C. §§ 620–629m)** — child-welfare services and family-preservation funding",
+      "urls": {
+        "FFPSA_PLAW": "https://www.congress.gov/115/plaws/publ123/PLAW-115publ123.pdf",
+        "FFPSA_PDF": "https://www.govinfo.gov/content/pkg/PLAW-115publ123/pdf/PLAW-115publ123.pdf",
+        "SSA_IV_B_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-7/subchapter-IV/part-B"
+      },
+      "statutory_authority": {
+        "federal": [
+          "Public Law 115-123 (FFPSA)",
+          "42 U.S.C. §§ 620–629m (SSA Title IV-B)"
+        ],
+        "state": []
+      },
+      "linked_decision": "DEC-06",
+      "linked_input": "INP-05",
+      "action_basis": "Family consents to participate in voluntary services after assessment; safety risk low or moderate.",
+      "due_process_hooks": "Voluntary; informed consent; right to withdraw; documentation in case record.",
+      "domain": "civil",
+      "procedural_weight": 0.6,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "FFPSA and IV-B prevention frameworks"
+      ],
+      "trigger_name": "Voluntary Services"
+    },
+    {
+      "subnode": "ACT-02",
+      "state": "United States",
+      "node": "ACT",
+      "action_name": "Court-Ordered Services / Supervision",
+      "theme_color": "#1E90FF",
+      "icon": "⚖️",
+      "summary_html": "Court orders a **service plan or supervision** period following a substantiated finding. The goal is rehabilitation and reunification consistent with federal 'reasonable-efforts' requirements.",
+      "authority_html": "- **Adoption and Safe Families Act (ASFA)** — reasonable-efforts and permanency mandates  \n- **SSA Title IV-E (42 U.S.C. §§ 670–679c)** — reimbursement framework for foster-care and service costs",
+      "urls": {
+        "ASFA_PLAW": "https://www.congress.gov/105/plaws/publ89/PLAW-105publ89.pdf",
+        "ASFA_PDF": "https://www.govinfo.gov/content/pkg/PLAW-105publ89/pdf/PLAW-105publ89.pdf",
+        "SSA_IV_E_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-7/subchapter-IV/part-E"
+      },
+      "statutory_authority": {
+        "federal": [
+          "Public Law 105-89 (ASFA)",
+          "42 U.S.C. §§ 670–679c (SSA Title IV-E)"
+        ],
+        "state": []
+      },
+      "linked_decision": "DEC-03",
+      "linked_input": "INP-01",
+      "action_basis": "Court determines services necessary for child safety or parental rehabilitation.",
+      "due_process_hooks": "Court order; notice and counsel; compliance review hearings; appeal rights per state law.",
+      "domain": "civil",
+      "procedural_weight": 0.55,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "ASFA reasonable-efforts clauses and IV-E funding rules"
+      ],
+      "trigger_name": "Court-Ordered Services"
+    },
+    {
+      "subnode": "ACT-03",
+      "state": "United States",
+      "node": "ACT",
+      "action_name": "Child Removal / Foster-Care Placement",
+      "theme_color": "#B22222",
+      "icon": "🚨",
+      "summary_html": "The child is **removed from the home** and placed in foster care under court order or emergency authority. Federal statutes tie funding to safety findings, judicial oversight, and permanency planning.",
+      "authority_html": "- **ASFA / SSA Title IV-E** — removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** — federal monitoring of placement decisions",
+      "urls": {
+        "ASFA_PDF": "https://www.govinfo.gov/content/pkg/PLAW-105publ89/pdf/PLAW-105publ89.pdf",
+        "SSA_IV_E_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-7/subchapter-IV/part-E",
+        "CFSR_CFR": "https://www.law.cornell.edu/cfr/text/45/part-1355"
+      },
+      "statutory_authority": {
+        "federal": [
+          "Public Law 105-89 (ASFA)",
+          "42 U.S.C. §§ 670–679c (SSA Title IV-E)",
+          "45 CFR Part 1355 (CFSR)"
+        ],
+        "state": []
+      },
+      "linked_decision": "DEC-04",
+      "linked_input": "INP-01",
+      "action_basis": "Court or agency determines imminent risk; removal authorized; foster placement initiated.",
+      "due_process_hooks": "Immediate hearing within statutory period; counsel for all parties; periodic permanency reviews.",
+      "domain": "civil",
+      "procedural_weight": 0.35,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "ASFA and CFSR placement rules"
+      ],
+      "trigger_name": "Foster Care Placement"
+    },
+    {
+      "subnode": "ACT-04",
+      "state": "United States",
+      "node": "ACT",
+      "action_name": "Kinship / Relative Placement",
+      "theme_color": "#FFD700",
+      "icon": "👨‍👩‍👧",
+      "summary_html": "Agency places a child with **relatives or kin caregivers** instead of non-relative foster care. Federal law favors kinship care as least-restrictive, family-preserving placement.",
+      "authority_html": "- **Fostering Connections to Success and Increasing Adoptions Act (FCSIAA 2008)** — kinship-care incentives  \n- **SSA Title IV-E (42 U.S.C. §§ 670–679c)** — reimbursement for approved kin placements",
+      "urls": {
+        "FCSIAA_PLAW": "https://www.congress.gov/110/plaws/publ351/PLAW-110publ351.pdf",
+        "FCSIAA_PDF": "https://www.govinfo.gov/content/pkg/PLAW-110publ351/pdf/PLAW-110publ351.pdf",
+        "SSA_IV_E_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-7/subchapter-IV/part-E"
+      },
+      "statutory_authority": {
+        "federal": [
+          "Public Law 110-351 (FCSIAA)",
+          "42 U.S.C. §§ 670–679c (SSA Title IV-E)"
+        ],
+        "state": []
+      },
+      "linked_decision": "DEC-04",
+      "linked_input": "INP-01",
+      "action_basis": "Relative or kin identified and approved; placement consistent with child safety and wellbeing.",
+      "due_process_hooks": "Relative notification within 30 days; background checks; licensing waivers per statute.",
+      "domain": "civil",
+      "procedural_weight": 0.45,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "FCSIAA and IV-E kinship provisions"
+      ],
+      "trigger_name": "Kinship Placement"
+    },
+    {
+      "subnode": "ACT-05",
+      "state": "United States",
+      "node": "ACT",
+      "action_name": "Protective Order / Injunction",
+      "theme_color": "#708090",
+      "icon": "🧾",
+      "summary_html": "Court issues a **protective or restraining order** to prevent contact, remove abuser, or ensure safety without removing the child. Federal law leaves implementation to states but funds protection efforts through CAPTA and IV-B.",
+      "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — authorizes protective interventions and state plan requirements  \n- **SSA Title IV-B** — permits funding for protective services and court interventions",
+      "urls": {
+        "CAPTA_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-67",
+        "SSA_IV_B_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-7/subchapter-IV/part-B"
+      },
+      "statutory_authority": {
+        "federal": [
+          "42 U.S.C. §§ 5101–5116 (CAPTA)",
+          "42 U.S.C. §§ 620–629m (SSA Title IV-B)"
+        ],
+        "state": []
+      },
+      "linked_decision": "DEC-05",
+      "linked_input": "INP-01",
+      "action_basis": "Court finds immediate danger from a specific individual; orders protection or exclusion.",
+      "due_process_hooks": "Notice; hearing; representation; expiration/review schedule; enforcement mechanisms.",
+      "domain": "civil",
+      "procedural_weight": 0.5,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "CAPTA and IV-B protective service rules"
+      ],
+      "trigger_name": "Protective Order"
+    },
+    {
+      "subnode": "ACT-06",
+      "state": "United States",
+      "node": "ACT",
+      "action_name": "Emergency Medical / Psychological Intervention",
+      "theme_color": "#FF69B4",
+      "icon": "🏥",
+      "summary_html": "Agency or court authorizes **immediate medical or psychological care** when delay endangers life or safety. Federal statutes support medical access and confidentiality exceptions for child protection.",
+      "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — permits emergency medical actions for abused/neglected children  \n- **Victims of Child Abuse Act (34 U.S.C. §§ 20301–20307)** — multidisciplinary response and medical-exam standards",
+      "urls": {
+        "CAPTA_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-67",
+        "VICAA_Cornell": "https://www.law.cornell.edu/uscode/text/34/subtitle-II/chapter-203"
+      },
+      "statutory_authority": {
+        "federal": [
+          "42 U.S.C. §§ 5101–5116 (CAPTA)",
+          "34 U.S.C. §§ 20301–20307 (VICAA)"
+        ],
+        "state": []
+      },
+      "linked_decision": "DEC-04",
+      "linked_input": "INP-07",
+      "action_basis": "Child requires immediate medical/psychological care; consent unobtainable; delay risks serious harm.",
+      "due_process_hooks": "Post-action notice; parental participation once safe; confidentiality per HIPAA child-protection exceptions.",
+      "domain": "civil",
+      "procedural_weight": 0.4,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "CAPTA and VICAA medical emergency rules"
+      ],
+      "trigger_name": "Emergency Medical/Psychological Care"
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "node_id": "WV_FAIL-04",
+  "state": "WV",
+  "state_name": "West Virginia",
+  "node_family": "FAIL",
+  "subnode": "FAIL-04",
+  "trigger_name": "Child Death Under Agency Supervision",
+  "summary_html": "A child dies or suffers serious harm while **under agency supervision**, constituting systemic failure. Federal law mandates disclosure and review to identify causes and reforms.",
+  "authority_html": "- **Protect Our Kids Act (PL 112-275)** \u2014 federal commission and review requirements  \n- **CAPTA \u00a75106a(b)(2)(A)(x)** \u2014 mandates public disclosure of child-fatality cases",
+  "icon": "\u26b0\ufe0f",
+  "theme_color": "#8B0000",
+  "domain": "civil",
+  "procedural_weight": 0.3,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "POKA_PLAW": "https://www.congress.gov/112/plaws/publ275/PLAW-112publ275.pdf",
+    "CAPTA_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-67"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "Public Law 112-275 (Protect Our Kids Act)",
+        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "West Virginia - W. Va. Code Chapter\u00a049, Article\u00a02 (Child Welfare \u2013 includes \u00a7\u00a049-2-803 mandatory reporting)",
+          "source_url": "https://www.wvlegislature.gov",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22"
+        },
+        {
+          "citation_text": "West Virginia - W. Va. Code \u00a7\u00a049-4-601 et seq. (Child abuse and neglect proceedings)",
+          "source_url": "https://www.wvlegislature.gov/WVCODE/ChapterEntire.cfm?chap=49&art=4",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Title 48: Domestic Relations",
+          "source_url": "https://law.justia.com/codes/west-virginia/title-48/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 49: Child Welfare - DHHR - CHILD WELFARE PRIMARY",
+          "source_url": "https://law.justia.com/codes/west-virginia/title-49/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Agency 67 - Human Services",
+          "url": "https://www.law.cornell.edu/regulations/west-virginia/agency-67"
+        },
+        {
+          "title": "Agency 78 - Human Services",
+          "url": "https://www.law.cornell.edu/regulations/west-virginia/agency-78"
+        },
+        {
+          "title": "Agency 79 - Children And Youth Commission",
+          "url": "https://www.law.cornell.edu/regulations/west-virginia/agency-79"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/west-virginia.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_WV",
+      "plane_file": "legal_planes/state_constitutional/WV_constitution.json",
+      "provisions_triggered": []
+    },
+    "case_law": {
+      "search_keywords": [
+        "West Virginia Department of Health and Human Resources",
+        "DHHR",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22West%20Virginia%22%20AND%20%28%22West%20Virginia%20Department%20of%20Health%20and%20Human%20Resources%22%20OR%20%22DHHR%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "wrongful removal",
+        "1983 claim",
+        "civil rights",
+        "immunity",
+        "damages"
+      ],
+      "jurisdiction": "West Virginia state courts",
+      "key_cases": [
+        {
+          "case_id": "21-0627",
+          "title": "In re J.S., L.S., and H.S. and State ex rel. D.S. and V.S. v. The Honorable Richard A. Facemire, Judge of the Circuit Court of Braxton County, and the West Virginia Department of Health and Human Resources (Memorandum Decision)",
+          "url": "https://law.justia.com/cases/west-virginia/supreme-court/2022/21-0627.html",
+          "year": 2022,
+          "court": "Supreme Court",
+          "citation": "West Virginia Supreme Court Case 21-0627 (2022)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "west virginia department of health and human resources"
+          ],
+          "child_welfare_reason": "High: In re initials"
+        },
+        {
+          "case_id": "20-0515",
+          "title": "In re The Children of S.U. v. C.J. (Memorandum Decision)",
+          "url": "https://law.justia.com/cases/west-virginia/supreme-court/2021/20-0515.html",
+          "year": 2021,
+          "court": "Supreme Court",
+          "citation": "West Virginia Supreme Court Case 20-0515 (2021)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re child, In re"
+        },
+        {
+          "case_id": "22-0285",
+          "title": "C.L., as parent and next friend of the minor child, H.L. v. Upshur County Board of Education (Memorandum Decision)",
+          "url": "https://law.justia.com/cases/west-virginia/supreme-court/2023/22-0285.html",
+          "year": 2023,
+          "court": "Supreme Court",
+          "citation": "West Virginia Supreme Court Case 22-0285 (2023)",
+          "relevance_score": 1.2,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "Medium: minor child"
+        },
+        {
+          "case_id": "20-0171-0",
+          "title": "C.C. and J.C., as next friends of the minor child M.C. vs. Harrison County Board of Education (Separate)",
+          "url": "https://law.justia.com/cases/west-virginia/supreme-court/2021/20-0171-0.html",
+          "year": 2021,
+          "court": "Supreme Court",
+          "citation": "West Virginia Supreme Court Case 20-0171-0 (2021)",
+          "relevance_score": 1.2,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "Medium: minor child"
+        },
+        {
+          "case_id": "24-310",
+          "title": "In re Adoption of R.B. (Memorandum Decision)",
+          "url": "https://law.justia.com/cases/west-virginia/supreme-court/2025/24-310.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "West Virginia Supreme Court Case 24-310 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re adoption, In re"
+        },
+        {
+          "case_id": "24-440",
+          "title": "In re T.P., S.P., M.P., E.P., and A.P.-1 (Memorandum Decision)",
+          "url": "https://law.justia.com/cases/west-virginia/supreme-court/2025/24-440.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "West Virginia Supreme Court Case 24-440 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re initials"
+        },
+        {
+          "case_id": "24-495",
+          "title": "In re K.H. and Q.H. (Memorandum Decision)",
+          "url": "https://law.justia.com/cases/west-virginia/supreme-court/2025/24-495.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "West Virginia Supreme Court Case 24-495 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re initials"
+        },
+        {
+          "case_id": "24-675",
+          "title": "In re A.E. and L.J. (Memorandum Decision)",
+          "url": "https://law.justia.com/cases/west-virginia/supreme-court/2025/24-675.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "West Virginia Supreme Court Case 24-675 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re initials"
+        },
+        {
+          "case_id": "24-683",
+          "title": "In re M.V. (Memorandum Decision)",
+          "url": "https://law.justia.com/cases/west-virginia/supreme-court/2025/24-683.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "West Virginia Supreme Court Case 24-683 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re initials"
+        },
+        {
+          "case_id": "24-693",
+          "title": "In re A.A.-1 and E.A. (Memorandum Decision)",
+          "url": "https://law.justia.com/cases/west-virginia/supreme-court/2025/24-693.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "West Virginia Supreme Court Case 24-693 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re initials"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Department of Health and Human Resources",
+    "acronym": "DHHR",
+    "hotline": "1-800-352-6513",
+    "website": "https://www.wvlegislature.gov"
+  },
+  "linked_output": "OUT-06",
+  "linked_action": "ACT-03",
+  "linked_decision": "DEC-04",
+  "linked_input": "INP-01",
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.846574",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.876292",
+    "schema_version": "3.0.0",
+    "trigger_name_fixed": "2025-12-22T22:53:02.461461",
+    "leaves_linked": "2025-12-24T18:14:22.735012+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "preponderance",
+    "who_bears_burden": "parent",
+    "common_failures": [
+      "Failure to preserve evidence",
+      "Missing deadlines for legal challenges",
+      "Inadequate documentation of violations"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Appeal deadline",
+      "deadline": "30 days",
+      "starts_from": "Final order",
+      "source": "court_rule",
+      "consequence_of_miss": "Loss of appeal rights"
+    },
+    {
+      "requirement_name": "1983 statute of limitations",
+      "deadline": "2-3 years",
+      "starts_from": "Violation occurred",
+      "source": "federal_statute",
+      "consequence_of_miss": "Claim barred"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "attorney"
+      ],
+      "method": "personal_service",
+      "timing": "Upon violation discovery",
+      "content_required": [
+        "Nature of violation",
+        "Remedies available"
+      ],
+      "defective_notice_consequence": "May extend statute of limitations"
+    }
+  ]
+}

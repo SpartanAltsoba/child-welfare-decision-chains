@@ -1,0 +1,423 @@
+{
+  "plane_id": "state_constitutional_MT",
+  "plane_name": "Montana State Constitutional Plane",
+  "description": "Montana Constitution provisions relevant to child welfare and family rights.",
+  "authority_level": "state_supreme",
+  "state_code": "MT",
+  "state_name": "Montana",
+  "version": "1.0.0",
+  "created": "2025-12-22",
+  "updated": "2025-12-22",
+  "copyright": "Project Milk Carton 501(c)(3) - All Rights Reserved",
+  "constitution_source": {
+    "url": "https://leg.mt.gov/bills/mca/title_0000/article_0000/part_0000/sections_index.html",
+    "justia_url": "https://law.justia.com/constitution/montana/",
+    "official_name": "Montana Constitution",
+    "last_amended": "2022-11-08",
+    "last_verified": "2025-12-22"
+  },
+  "relationship_to_federal": {
+    "supremacy_clause_applies": true,
+    "can_provide_greater_protection": true,
+    "cannot_provide_less_protection": true
+  },
+  "relevant_provisions": [
+    {
+      "provision_id": "MT_CONST_SEARCH_SEIZURE",
+      "name": "Search and Seizure",
+      "article": "Article II",
+      "section": "Section 11",
+      "url": "https://law.justia.com/constitution/montana/#section-11",
+      "citation": "Montana Const. art. II, \u00a7 11",
+      "text": "The people shall be secure in their persons, papers, homes and effects from unreasonable searches and seizures.",
+      "application_to_cps": "CPS removal of a child constitutes a seizure. Warrantless removals must meet exigent circumstances exception or be supported by court order.",
+      "federal_parallel": "U.S. Const. amend. IV",
+      "state_provides_greater_protection": false,
+      "key_cases": [],
+      "triggers_at_nodes": [
+        "INP-12",
+        "DEC-04",
+        "ACT-01",
+        "FAIL-01"
+      ]
+    },
+    {
+      "provision_id": "MT_CONST_DUE_PROCESS",
+      "name": "Due Process / Law of the Land",
+      "article": "Article II",
+      "section": "Section 17",
+      "url": "https://law.justia.com/constitution/montana/#section-17",
+      "citation": "Montana Const. art. II, \u00a7 17",
+      "text": "No person shall be deprived of life, liberty, or property without due process of law.",
+      "application_to_cps": "Parents have a fundamental liberty interest in the care and custody of their children. Termination of parental rights requires clear and convincing evidence and proper procedural protections.",
+      "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1",
+      "state_provides_greater_protection": false,
+      "key_cases": [
+        {
+          "case_id": "da-25-0161",
+          "title": "Parenting of A.C.P.S., Minor Child",
+          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0161.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Montana Supreme Court Case da-25-0161 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "Medium: minor child",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "da-25-0386",
+          "title": "Matter of K.H. & D.H., YINC",
+          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0386.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Montana Supreme Court Case da-25-0386 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Matter of initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "da-25-0073",
+          "title": "Matter of J.D.",
+          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0073.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Montana Supreme Court Case da-25-0073 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Matter of initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "da-25-0146",
+          "title": "In re C.M.B.",
+          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0146.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Montana Supreme Court Case da-25-0146 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "da-24-0148",
+          "title": "In re J.L.O.",
+          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-24-0148.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Montana Supreme Court Case da-24-0148 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "da-24-0187",
+          "title": "In re P.G.J.",
+          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-24-0187.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Montana Supreme Court Case da-24-0187 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "da-22-0645",
+          "title": "In re T.W.",
+          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-22-0645.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Montana Supreme Court Case da-22-0645 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "da-25-0009",
+          "title": "Matter of P.M.L.O., YINC",
+          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0009.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Montana Supreme Court Case da-25-0009 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Matter of initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "da-25-0026",
+          "title": "Matter of B.B.-R., YINC",
+          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0026.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Montana Supreme Court Case da-25-0026 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Matter of initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "da-24-0664",
+          "title": "In Re the Adoption of X.K.D.",
+          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-24-0664.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Montana Supreme Court Case da-24-0664 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re adoption, In re",
+          "provision_match": "DUE_PROCESS"
+        }
+      ],
+      "triggers_at_nodes": [
+        "DEC-05",
+        "DEC-06",
+        "ACT-04",
+        "OUT-02",
+        "OUT-03"
+      ]
+    },
+    {
+      "provision_id": "MT_CONST_PRIVACY",
+      "name": "Right to Privacy",
+      "article": "Article II",
+      "section": "Section 10",
+      "url": "https://law.justia.com/constitution/montana/#section-10",
+      "citation": "Montana Const. art. II, \u00a7 10",
+      "text": "The right of individual privacy is essential to the well-being of a free society and shall not be infringed without the showing of a compelling state interest.",
+      "application_to_cps": "Explicit privacy right may provide additional protection against government intrusion into family decisions. May require compelling state interest for CPS intervention.",
+      "federal_parallel": "No explicit federal parallel - implied from penumbras of Bill of Rights (Griswold v. Connecticut)",
+      "state_provides_greater_protection": true,
+      "key_cases": [],
+      "triggers_at_nodes": [
+        "INP-01",
+        "DEC-01",
+        "ACT-01"
+      ]
+    }
+  ],
+  "unique_state_protections": [
+    {
+      "protection": "Explicit Constitutional Privacy Right",
+      "description": "Montana constitution explicitly protects privacy rights",
+      "federal_comparison": "Federal constitution has no explicit privacy right"
+    }
+  ],
+  "case_law_search_keywords": [
+    "Montana Department of Public Health and Human Services",
+    "DPHHS",
+    "CPS",
+    "due process",
+    "14th Amendment",
+    "42 U.S.C. 1983",
+    "reasonable efforts",
+    "reunification",
+    "emergency removal",
+    "wrongful removal",
+    "exigent circumstances",
+    "abuse",
+    "familial association"
+  ],
+  "state_supreme_court_cps_cases": [
+    {
+      "case_id": "da-25-0161",
+      "title": "Parenting of A.C.P.S., Minor Child",
+      "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0161.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Montana Supreme Court Case da-25-0161 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "Medium: minor child",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "da-25-0386",
+      "title": "Matter of K.H. & D.H., YINC",
+      "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0386.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Montana Supreme Court Case da-25-0386 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Matter of initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "da-25-0073",
+      "title": "Matter of J.D.",
+      "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0073.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Montana Supreme Court Case da-25-0073 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Matter of initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "da-25-0146",
+      "title": "In re C.M.B.",
+      "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0146.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Montana Supreme Court Case da-25-0146 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "da-24-0148",
+      "title": "In re J.L.O.",
+      "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-24-0148.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Montana Supreme Court Case da-24-0148 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "da-24-0187",
+      "title": "In re P.G.J.",
+      "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-24-0187.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Montana Supreme Court Case da-24-0187 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "da-22-0645",
+      "title": "In re T.W.",
+      "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-22-0645.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Montana Supreme Court Case da-22-0645 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "da-25-0009",
+      "title": "Matter of P.M.L.O., YINC",
+      "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0009.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Montana Supreme Court Case da-25-0009 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Matter of initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "da-25-0026",
+      "title": "Matter of B.B.-R., YINC",
+      "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0026.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Montana Supreme Court Case da-25-0026 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Matter of initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "da-24-0664",
+      "title": "In Re the Adoption of X.K.D.",
+      "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-24-0664.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Montana Supreme Court Case da-24-0664 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re adoption, In re",
+      "provision_match": "DUE_PROCESS"
+    }
+  ],
+  "procedural_weight_modifiers": {
+    "explicit_privacy_right": 0.1,
+    "note": "Modifiers adjust procedural_weight for state nodes based on enhanced protections"
+  },
+  "_metadata": {
+    "created": "2025-12-22T20:38:16.837075",
+    "source": "state_constitution_etl",
+    "data_sources": [
+      "justia",
+      "state_legislature",
+      "courtlistener_keywords"
+    ],
+    "requires_case_law_enrichment": false,
+    "case_law_enriched": "2025-12-24T20:37:15.748874+00:00",
+    "enricher_version": "1.0.0",
+    "cases_analyzed": 224,
+    "cases_linked": 10
+  },
+  "case_law_search": {
+    "search_keywords": [
+      "Montana Department of Public Health and Human Services",
+      "DPHHS",
+      "CPS",
+      "due process",
+      "14th Amendment",
+      "42 U.S.C. 1983",
+      "reasonable efforts",
+      "reunification",
+      "emergency removal",
+      "wrongful removal"
+    ],
+    "courtlistener_url": "https://www.courtlistener.com/?q=%22Montana%22%20AND%20%28%22Montana%20Department%20of%20Public%20Health%20and%20Human%20Services%22%20OR%20%22DPHHS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
+    "supreme_court_focus": true,
+    "_note": "Search for state supreme court cases on CPS constitutional issues"
+  }
+}

@@ -1,0 +1,426 @@
+{
+  "plane_id": "state_constitutional_NE",
+  "plane_name": "Nebraska State Constitutional Plane",
+  "description": "Nebraska Constitution provisions relevant to child welfare and family rights.",
+  "authority_level": "state_supreme",
+  "state_code": "NE",
+  "state_name": "Nebraska",
+  "version": "1.0.0",
+  "created": "2025-12-22",
+  "updated": "2025-12-22",
+  "copyright": "Project Milk Carton 501(c)(3) - All Rights Reserved",
+  "constitution_source": {
+    "url": "https://nebraskalegislature.gov/laws/browse-constitution.php",
+    "justia_url": "https://law.justia.com/constitution/nebraska/",
+    "official_name": "Nebraska Constitution",
+    "last_amended": "2022-11-08",
+    "last_verified": "2025-12-22"
+  },
+  "relationship_to_federal": {
+    "supremacy_clause_applies": true,
+    "can_provide_greater_protection": true,
+    "cannot_provide_less_protection": true
+  },
+  "relevant_provisions": [
+    {
+      "provision_id": "NE_CONST_SEARCH_SEIZURE",
+      "name": "Search and Seizure",
+      "article": "Article I",
+      "section": "Section 7",
+      "url": "https://law.justia.com/constitution/nebraska/#section-7",
+      "citation": "Nebraska Const. art. I, \u00a7 7",
+      "text": "The right of the people to be secure in their persons, houses, papers, and effects against unreasonable searches and seizures shall not be violated...",
+      "application_to_cps": "CPS removal of a child constitutes a seizure. Warrantless removals must meet exigent circumstances exception or be supported by court order.",
+      "federal_parallel": "U.S. Const. amend. IV",
+      "state_provides_greater_protection": false,
+      "key_cases": [],
+      "triggers_at_nodes": [
+        "INP-12",
+        "DEC-04",
+        "ACT-01",
+        "FAIL-01"
+      ]
+    },
+    {
+      "provision_id": "NE_CONST_DUE_PROCESS",
+      "name": "Due Process / Law of the Land",
+      "article": "Article I",
+      "section": "Section 3",
+      "url": "https://law.justia.com/constitution/nebraska/#section-3",
+      "citation": "Nebraska Const. art. I, \u00a7 3",
+      "text": "No person shall be deprived of life, liberty, or property, without due process of law...",
+      "application_to_cps": "Parents have a fundamental liberty interest in the care and custody of their children. Termination of parental rights requires clear and convincing evidence and proper procedural protections.",
+      "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1",
+      "state_provides_greater_protection": false,
+      "key_cases": [
+        {
+          "case_id": "s-25-149",
+          "title": "In re Interest of Jerel S.",
+          "url": "https://law.justia.com/cases/nebraska/supreme-court/2025/s-25-149.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Nebraska Supreme Court Case s-25-149 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re interest, In re, Interest of",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "s-25-046",
+          "title": "In re Interest of M.S.",
+          "url": "https://law.justia.com/cases/nebraska/supreme-court/2025/s-25-046.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Nebraska Supreme Court Case s-25-046 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re interest, In re, Interest of initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "s-24-251",
+          "title": "In re Guardianship of Tomas J.",
+          "url": "https://law.justia.com/cases/nebraska/supreme-court/2025/s-24-251.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Nebraska Supreme Court Case s-24-251 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re guardianship, In re",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "a-25-271",
+          "title": "In re Interest of Elijah W. & Franklin W.",
+          "url": "https://law.justia.com/cases/nebraska/court-of-appeals/2025/a-25-271.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Nebraska Court Of Appeals Case a-25-271 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re interest, In re, Interest of",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "a-24-869",
+          "title": "In re Interest of Blessing T.",
+          "url": "https://law.justia.com/cases/nebraska/court-of-appeals/2025/a-24-869.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Nebraska Court Of Appeals Case a-24-869 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re interest, In re, Interest of",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "a-25-294",
+          "title": "In re Interest of Amaya S.",
+          "url": "https://law.justia.com/cases/nebraska/court-of-appeals/2025/a-25-294.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Nebraska Court Of Appeals Case a-25-294 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re interest, In re, Interest of",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "a-25-183",
+          "title": "In re Interest of M.L. & L.L.",
+          "url": "https://law.justia.com/cases/nebraska/court-of-appeals/2025/a-25-183.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Nebraska Court Of Appeals Case a-25-183 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re interest, In re, Interest of initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "a-25-119",
+          "title": "In re Interest of Dream C.",
+          "url": "https://law.justia.com/cases/nebraska/court-of-appeals/2025/a-25-119.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Nebraska Court Of Appeals Case a-25-119 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re interest, In re, Interest of",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "a-24-842",
+          "title": "In re Interest of Kaliyah C.",
+          "url": "https://law.justia.com/cases/nebraska/court-of-appeals/2025/a-24-842.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Nebraska Court Of Appeals Case a-24-842 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re interest, In re, Interest of",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "a-24-868",
+          "title": "In re Interest of Jaden C. et al.",
+          "url": "https://law.justia.com/cases/nebraska/court-of-appeals/2025/a-24-868.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Nebraska Court Of Appeals Case a-24-868 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re interest, In re, Interest of",
+          "provision_match": "DUE_PROCESS"
+        }
+      ],
+      "triggers_at_nodes": [
+        "DEC-05",
+        "DEC-06",
+        "ACT-04",
+        "OUT-02",
+        "OUT-03"
+      ]
+    }
+  ],
+  "unique_state_protections": [],
+  "case_law_search_keywords": [
+    "Nebraska Department of Health and Human Services",
+    "CPS",
+    "due process",
+    "14th Amendment",
+    "42 U.S.C. 1983",
+    "reasonable efforts",
+    "reunification",
+    "emergency removal",
+    "wrongful removal",
+    "exigent circumstances",
+    "abuse",
+    "familial association"
+  ],
+  "state_supreme_court_cps_cases": [
+    {
+      "case_id": "s-25-149",
+      "title": "In re Interest of Jerel S.",
+      "url": "https://law.justia.com/cases/nebraska/supreme-court/2025/s-25-149.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Nebraska Supreme Court Case s-25-149 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re interest, In re, Interest of",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "s-25-046",
+      "title": "In re Interest of M.S.",
+      "url": "https://law.justia.com/cases/nebraska/supreme-court/2025/s-25-046.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Nebraska Supreme Court Case s-25-046 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re interest, In re, Interest of initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "s-24-251",
+      "title": "In re Guardianship of Tomas J.",
+      "url": "https://law.justia.com/cases/nebraska/supreme-court/2025/s-24-251.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Nebraska Supreme Court Case s-24-251 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re guardianship, In re",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "a-25-271",
+      "title": "In re Interest of Elijah W. & Franklin W.",
+      "url": "https://law.justia.com/cases/nebraska/court-of-appeals/2025/a-25-271.html",
+      "year": 2025,
+      "court": "Court Of Appeals",
+      "citation": "Nebraska Court Of Appeals Case a-25-271 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re interest, In re, Interest of",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "a-24-869",
+      "title": "In re Interest of Blessing T.",
+      "url": "https://law.justia.com/cases/nebraska/court-of-appeals/2025/a-24-869.html",
+      "year": 2025,
+      "court": "Court Of Appeals",
+      "citation": "Nebraska Court Of Appeals Case a-24-869 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re interest, In re, Interest of",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "a-25-294",
+      "title": "In re Interest of Amaya S.",
+      "url": "https://law.justia.com/cases/nebraska/court-of-appeals/2025/a-25-294.html",
+      "year": 2025,
+      "court": "Court Of Appeals",
+      "citation": "Nebraska Court Of Appeals Case a-25-294 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re interest, In re, Interest of",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "a-25-183",
+      "title": "In re Interest of M.L. & L.L.",
+      "url": "https://law.justia.com/cases/nebraska/court-of-appeals/2025/a-25-183.html",
+      "year": 2025,
+      "court": "Court Of Appeals",
+      "citation": "Nebraska Court Of Appeals Case a-25-183 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re interest, In re, Interest of initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "a-25-119",
+      "title": "In re Interest of Dream C.",
+      "url": "https://law.justia.com/cases/nebraska/court-of-appeals/2025/a-25-119.html",
+      "year": 2025,
+      "court": "Court Of Appeals",
+      "citation": "Nebraska Court Of Appeals Case a-25-119 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re interest, In re, Interest of",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "a-24-842",
+      "title": "In re Interest of Kaliyah C.",
+      "url": "https://law.justia.com/cases/nebraska/court-of-appeals/2025/a-24-842.html",
+      "year": 2025,
+      "court": "Court Of Appeals",
+      "citation": "Nebraska Court Of Appeals Case a-24-842 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re interest, In re, Interest of",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "a-24-868",
+      "title": "In re Interest of Jaden C. et al.",
+      "url": "https://law.justia.com/cases/nebraska/court-of-appeals/2025/a-24-868.html",
+      "year": 2025,
+      "court": "Court Of Appeals",
+      "citation": "Nebraska Court Of Appeals Case a-24-868 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re interest, In re, Interest of",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "a-23-624",
+      "title": "In re Interest of Faith S.",
+      "url": "https://law.justia.com/cases/nebraska/court-of-appeals/2024/a-23-624.html",
+      "year": 2024,
+      "court": "Court Of Appeals",
+      "citation": "Nebraska Court Of Appeals Case a-23-624 (2024)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "faith"
+      ],
+      "child_welfare_reason": "High: In re interest, In re, Interest of",
+      "provision_match": "RELIGION"
+    },
+    {
+      "case_id": "s-22-398",
+      "title": "In re Adoption of Faith F.",
+      "url": "https://law.justia.com/cases/nebraska/supreme-court/2023/s-22-398.html",
+      "year": 2023,
+      "court": "Supreme Court",
+      "citation": "Nebraska Supreme Court Case s-22-398 (2023)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "faith"
+      ],
+      "child_welfare_reason": "High: In re adoption, In re",
+      "provision_match": "RELIGION"
+    }
+  ],
+  "procedural_weight_modifiers": {
+    "explicit_privacy_right": 0,
+    "note": "Modifiers adjust procedural_weight for state nodes based on enhanced protections"
+  },
+  "_metadata": {
+    "created": "2025-12-22T20:38:16.837160",
+    "source": "state_constitution_etl",
+    "data_sources": [
+      "justia",
+      "state_legislature",
+      "courtlistener_keywords"
+    ],
+    "requires_case_law_enrichment": false,
+    "case_law_enriched": "2025-12-24T20:37:15.818394+00:00",
+    "enricher_version": "1.0.0",
+    "cases_analyzed": 381,
+    "cases_linked": 10
+  },
+  "case_law_search": {
+    "search_keywords": [
+      "Nebraska Department of Health and Human Services",
+      "CPS",
+      "due process",
+      "14th Amendment",
+      "42 U.S.C. 1983",
+      "reasonable efforts",
+      "reunification",
+      "emergency removal",
+      "wrongful removal",
+      "exigent circumstances"
+    ],
+    "courtlistener_url": "https://www.courtlistener.com/?q=%22Nebraska%22%20AND%20%28%22Nebraska%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
+    "supreme_court_focus": true,
+    "_note": "Search for state supreme court cases on CPS constitutional issues"
+  }
+}

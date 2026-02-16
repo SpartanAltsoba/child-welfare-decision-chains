@@ -1,0 +1,354 @@
+{
+  "node_id": "KY_INP-05",
+  "state": "KY",
+  "state_name": "Kentucky",
+  "node_family": "INP",
+  "subnode": "INP-05",
+  "trigger_name": "Self-Report / Guardian Request",
+  "summary_html": "A **parent/guardian/child requests help** without a substantiated allegation. FFPSA created a federal pathway for **prevention services** to avert removal and stabilize families before a case escalates.",
+  "authority_html": "- **Family First Prevention Services Act (2018)** \u2014 prevention services, kinship support; shifts upstream from removal to support",
+  "icon": "\ud83e\udde9",
+  "theme_color": "#32CD32",
+  "domain": "civil",
+  "procedural_weight": 0.6,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "FFPSA_PLAW": "https://www.congress.gov/115/plaws/publ123/PLAW-115publ123.pdf",
+    "FFPSA_PDF": "https://www.govinfo.gov/content/pkg/PLAW-115publ123/pdf/PLAW-115publ123.pdf",
+    "FFPSA_ChildWelfareGov": "https://www.childwelfare.gov/topics/systemwide/laws-policies/federal/family-first/"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "42 U.S.C. \u00a7\u00a7 671\u2013679b (FFPSA-related IV-E changes)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Kentucky - KRS Chapter 620 (Child Abuse \u2013 dependency proceedings and reporting)",
+          "source_url": "https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=620",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Title 199: Adoption - CHFS",
+          "source_url": "https://law.justia.com/codes/kentucky/title-199/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Title 505 - JUSTICE AND PUBLIC SAFETY CABINET - DEPARTMENT OF JUVENILE JUSTICE",
+          "url": "https://www.law.cornell.edu/regulations/kentucky/title-505"
+        },
+        {
+          "title": "Title 900 - CABINET FOR HEALTH AND FAMILY SERVICES",
+          "url": "https://www.law.cornell.edu/regulations/kentucky/title-900"
+        },
+        {
+          "title": "Title 901 - CABINET FOR HEALTH AND FAMILY SERVICES - OFFICE OF ADMINISTRATIVE SERVICES",
+          "url": "https://www.law.cornell.edu/regulations/kentucky/title-901"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/kentucky.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_KY",
+      "plane_file": "legal_planes/state_constitutional/KY_constitution.json",
+      "provisions_triggered": []
+    },
+    "case_law": {
+      "search_keywords": [
+        "Kentucky Department for Community Based Services",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal",
+        "exigent circumstances"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Kentucky%22%20AND%20%28%22Kentucky%20Department%20for%20Community%20Based%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "mandatory reporting",
+        "failure to report",
+        "reporter immunity",
+        "hotline"
+      ],
+      "jurisdiction": "Kentucky state courts",
+      "key_cases": [
+        {
+          "case_id": "2019-sc-0295-dg",
+          "title": "Kentucky Guardianship Administrators, LLC v. Baptist Health System, Inc.",
+          "url": "https://law.justia.com/cases/kentucky/supreme-court/2021/2019-sc-0295-dg.html",
+          "year": 2021,
+          "court": "Supreme Court",
+          "citation": "Kentucky Supreme Court Case 2019-sc-0295-dg (2021)",
+          "relevance_score": 1.2,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "Medium: guardianship"
+        },
+        {
+          "case_id": "2024-sc-0496-kb",
+          "title": "IN RE: ARTHUR JOSEPH MCLAUGHLIN III",
+          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2024-sc-0496-kb.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kentucky Supreme Court Case 2024-sc-0496-kb (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "2025-sc-0118-kb",
+          "title": "IN RE: MARCUS DANIEL GALE",
+          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2025-sc-0118-kb.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kentucky Supreme Court Case 2025-sc-0118-kb (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "2025-sc-0423-kb",
+          "title": "IN RE: DANIEL LOUIS THOMPSON",
+          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2025-sc-0423-kb.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kentucky Supreme Court Case 2025-sc-0423-kb (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "2025-sc-0478-kb",
+          "title": "IN RE: J. TODD P'POOL",
+          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2025-sc-0478-kb.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kentucky Supreme Court Case 2025-sc-0478-kb (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re initial"
+        },
+        {
+          "case_id": "2025-sc-0365-kb",
+          "title": "IN RE: ERIC SHANE GRINNELL",
+          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2025-sc-0365-kb.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kentucky Supreme Court Case 2025-sc-0365-kb (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "2025-sc-0039-kb",
+          "title": "IN RE: DARREN CRAIG LAMB",
+          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2025-sc-0039-kb.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kentucky Supreme Court Case 2025-sc-0039-kb (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "2025-sc-0281-kb",
+          "title": "IN RE: HAROLD WAYNE ROBERTS",
+          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2025-sc-0281-kb.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kentucky Supreme Court Case 2025-sc-0281-kb (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "2025-sc-0314-kb",
+          "title": "IN RE: COLIN DOAN EDMUNDSON",
+          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2025-sc-0314-kb.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kentucky Supreme Court Case 2025-sc-0314-kb (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Department for Community Based Services",
+    "acronym": "DCBS",
+    "hotline": "1-877-597-2331",
+    "website": "https://legislature.ky.gov"
+  },
+  "mandatory_reporters": [
+    "Teachers/School Personnel",
+    "Medical/Dental Professionals",
+    "Mental Health Professionals",
+    "Law Enforcement",
+    "Shelter Staff",
+    "Childcare Staff",
+    "Clergy",
+    "Foster Parents",
+    "Coaches",
+    "Coroners",
+    "EMTs/Emergency Personnel",
+    "Judges",
+    "District Attorneys"
+  ],
+  "reporting_type": "centralized",
+  "reporting_details": "Not applicable",
+  "definitions": {
+    "abuse": [
+      "Physical abuse",
+      "Sexual abuse",
+      "Emotional abuse",
+      "Excessive punishment",
+      "Shaken baby syndrome",
+      "Human trafficking",
+      "Domestic violence exposure",
+      "Failure to protect",
+      "Female genital mutilation"
+    ],
+    "neglect": [
+      "General neglect",
+      "Medical neglect",
+      "Educational neglect",
+      "Abandonment",
+      "Inadequate supervision",
+      "Inadequate shelter/housing",
+      "Inadequate clothing",
+      "Malnourishment/failure to provide food",
+      "Failure to thrive",
+      "Injurious environment"
+    ],
+    "other": [],
+    "substance_related": [
+      "Drug lab exposure",
+      "Parental drug/alcohol misuse",
+      "Prenatal drug/alcohol exposure",
+      "Illicit substance involvement"
+    ]
+  },
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.753926",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.625714",
+    "schema_version": "3.0.0",
+    "leaves_linked": "2025-12-24T18:14:21.512661+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "reasonable_suspicion",
+    "who_bears_burden": "agency",
+    "common_failures": [
+      "Insufficient screening documentation",
+      "Failure to verify reporter allegations",
+      "Accepting anonymous reports without corroboration"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Initial response time",
+      "deadline": "24-72 hours",
+      "starts_from": "Report received",
+      "source": "state_statute",
+      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+    },
+    {
+      "requirement_name": "Investigation completion",
+      "deadline": "30-60 days",
+      "starts_from": "Investigation opened",
+      "source": "state_statute",
+      "consequence_of_miss": "Case dismissal risk"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian"
+      ],
+      "method": "any_reasonable",
+      "timing": "Before investigation interview",
+      "content_required": [
+        "Nature of allegation",
+        "Rights"
+      ],
+      "defective_notice_consequence": "May invalidate findings"
+    }
+  ],
+  "door_scenarios": [
+    {
+      "who_at_door": [
+        "caseworker"
+      ],
+      "trigger_reason": "Responding to abuse/neglect report",
+      "legal_authority_to_enter": "none_without_consent",
+      "parent_rights_at_moment": [
+        "Right to refuse entry without warrant",
+        "Right to remain silent",
+        "Right to attorney"
+      ],
+      "what_to_say": [
+        "I do not consent to entry without a warrant",
+        "Please provide your card and the allegations in writing",
+        "I will have my attorney contact you"
+      ],
+      "what_not_to_do": [
+        "Do not physically resist",
+        "Do not lie",
+        "Do not let them in 'just to look'"
+      ],
+      "next_possible_nodes": [
+        "DEC-01",
+        "DEC-04"
+      ]
+    }
+  ]
+}

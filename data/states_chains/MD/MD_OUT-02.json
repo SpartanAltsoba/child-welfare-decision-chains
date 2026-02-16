@@ -1,0 +1,363 @@
+{
+  "node_id": "MD_OUT-02",
+  "state": "MD",
+  "state_name": "Maryland",
+  "node_family": "OUT",
+  "subnode": "OUT-02",
+  "trigger_name": "Termination of Parental Rights / Adoption",
+  "summary_html": "**Parental rights terminated** and **child adopted**. Federal law prioritizes timely permanency for children when reunification is not viable.",
+  "authority_html": "- **ASFA (42 U.S.C. \u00a7\u00a7 671\u2013675)** \u2014 establishes 15/22-month TPR guideline  \n- **SSA Title IV-E** \u2014 adoption assistance and subsidy framework",
+  "icon": "\ud83d\udc76",
+  "theme_color": "#8A2BE2",
+  "domain": "civil",
+  "procedural_weight": 0.45,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "ASFA_PLAW": "https://www.congress.gov/105/plaws/publ89/PLAW-105publ89.pdf",
+    "SSA_IV_E_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-7/subchapter-IV/part-E"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [
+        "U.S. Const. amend. XIV, \u00a7 1"
+      ],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "42 U.S.C. \u00a7\u00a7 671\u2013675 (ASFA)",
+        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Maryland - Family Law Article, Title 5, Subtitle 7 (Child Abuse and Neglect \u2013 mandatory reporting)",
+          "source_url": "https://mgaleg.maryland.gov",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22"
+        },
+        {
+          "citation_text": "Maryland - Courts & Judicial Proc. \u00a7\u00a03-801 et seq. (CINA\u2014Child in Need of Assistance proceedings)",
+          "source_url": "https://mgaleg.maryland.gov",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22"
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Title 7 - DEPARTMENT OF HUMAN SERVICES",
+          "url": "https://www.law.cornell.edu/regulations/maryland/title-07"
+        },
+        {
+          "title": "Title 16 - DEPARTMENT OF JUVENILE SERVICES",
+          "url": "https://www.law.cornell.edu/regulations/maryland/title-16"
+        },
+        {
+          "title": "Maryland Administrative Regulations",
+          "url": "https://regulations.justia.com/states/maryland/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Maryland Administrative Rule Title 1",
+          "url": "https://regulations.justia.com/states/maryland/title-1/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Maryland Administrative Rule Title 2",
+          "url": "https://regulations.justia.com/states/maryland/title-2/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Maryland Administrative Rule Title 3",
+          "url": "https://regulations.justia.com/states/maryland/title-3/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Maryland Administrative Rule Title 4",
+          "url": "https://regulations.justia.com/states/maryland/title-4/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Maryland Administrative Rule Title 5",
+          "url": "https://regulations.justia.com/states/maryland/title-5/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Maryland Administrative Rule Title 6",
+          "url": "https://regulations.justia.com/states/maryland/title-6/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Maryland Administrative Rule Title 7",
+          "url": "https://regulations.justia.com/states/maryland/title-7/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Maryland Administrative Rule Title 8",
+          "url": "https://regulations.justia.com/states/maryland/title-8/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Maryland Administrative Rule Title 9",
+          "url": "https://regulations.justia.com/states/maryland/title-9/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/maryland.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_MD",
+      "plane_file": "legal_planes/state_constitutional/MD_constitution.json",
+      "provisions_triggered": [
+        {
+          "provision_id": "MD_CONST_DUE_PROCESS",
+          "name": "Due Process / Law of the Land",
+          "citation": "Maryland Const. art. 24, \u00a7 ",
+          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+        }
+      ]
+    },
+    "case_law": {
+      "search_keywords": [
+        "Maryland Department of Human Services",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal",
+        "exigent circumstances"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Maryland%22%20AND%20%28%22Maryland%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "termination of parental rights",
+        "TPR",
+        "adoption",
+        "permanency",
+        "aging out"
+      ],
+      "jurisdiction": "Maryland state courts",
+      "key_cases": [
+        {
+          "case_id": "25-24",
+          "title": "In re: Foster Farm",
+          "url": "https://law.justia.com/cases/maryland/court-of-appeals/2025/25-24.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Maryland Court Of Appeals Case 25-24 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "17o-24",
+          "title": "In re Petition of Featherfall Restoration",
+          "url": "https://law.justia.com/cases/maryland/court-of-appeals/2025/17o-24.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Maryland Court Of Appeals Case 17o-24 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "34-24-0",
+          "title": "In re: Marriage of Houser",
+          "url": "https://law.justia.com/cases/maryland/court-of-appeals/2025/34-24-0.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Maryland Court Of Appeals Case 34-24-0 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "34-24",
+          "title": "In re Marriage of Houser",
+          "url": "https://law.justia.com/cases/maryland/court-of-appeals/2025/34-24.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Maryland Court Of Appeals Case 34-24 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "8-24",
+          "title": "In re M.Z.",
+          "url": "https://law.justia.com/cases/maryland/court-of-appeals/2025/8-24.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Maryland Court Of Appeals Case 8-24 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re initials"
+        },
+        {
+          "case_id": "15-24-0",
+          "title": "In re: Estate of Schappell",
+          "url": "https://law.justia.com/cases/maryland/court-of-appeals/2025/15-24-0.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Maryland Court Of Appeals Case 15-24-0 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "15-24",
+          "title": "In re: Estate of Schappell",
+          "url": "https://law.justia.com/cases/maryland/court-of-appeals/2025/15-24.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Maryland Court Of Appeals Case 15-24 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "10-24",
+          "title": "Bd. of Education Of Harford Cnty. v. Doe",
+          "url": "https://law.justia.com/cases/maryland/court-of-appeals/2025/10-24.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Maryland Court Of Appeals Case 10-24 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Doe defendant"
+        },
+        {
+          "case_id": "9-24",
+          "title": "Archbishop of Washington v. Doe",
+          "url": "https://law.justia.com/cases/maryland/court-of-appeals/2025/9-24.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Maryland Court Of Appeals Case 9-24 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Doe defendant"
+        },
+        {
+          "case_id": "16-24",
+          "title": "In re Isely",
+          "url": "https://law.justia.com/cases/maryland/court-of-appeals/2025/16-24.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Maryland Court Of Appeals Case 16-24 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Department of Social Services",
+    "acronym": "DSS",
+    "hotline": "1-800-332-6347",
+    "website": "https://mgaleg.maryland.gov"
+  },
+  "extended_foster_care": true,
+  "extended_foster_care_age": "Up to age 21 (until 21st birthday)",
+  "linked_action": "ACT-03",
+  "linked_decision": "DEC-04",
+  "linked_input": "INP-01",
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.763982",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.650662",
+    "schema_version": "3.0.0",
+    "trigger_name_fixed": "2025-12-22T22:53:02.343922",
+    "leaves_linked": "2025-12-24T18:14:21.606398+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "clear_and_convincing",
+    "who_bears_burden": "state",
+    "common_failures": [
+      "Insufficient evidence for TPR",
+      "Failure to prove unfitness by clear and convincing evidence",
+      "Santosky v. Kramer standard not met"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Permanency hearing",
+      "deadline": "12 months",
+      "starts_from": "Child enters care",
+      "source": "federal_statute",
+      "consequence_of_miss": "ASFA violation"
+    },
+    {
+      "requirement_name": "TPR filing",
+      "deadline": "15 of 22 months",
+      "starts_from": "Child enters care",
+      "source": "federal_statute",
+      "consequence_of_miss": "Must file TPR or document compelling reason"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian",
+        "putative_father",
+        "tribe",
+        "foster_parent"
+      ],
+      "method": "certified_mail",
+      "timing": "10-30 days before TPR hearing",
+      "content_required": [
+        "TPR grounds",
+        "Date/time/location",
+        "Right to counsel"
+      ],
+      "icwa_additional_notice": true,
+      "defective_notice_consequence": "TPR may be vacated"
+    }
+  ]
+}

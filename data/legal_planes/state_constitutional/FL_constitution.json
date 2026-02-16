@@ -1,0 +1,425 @@
+{
+  "plane_id": "state_constitutional_FL",
+  "plane_name": "Florida State Constitutional Plane",
+  "description": "Florida Constitution provisions relevant to child welfare and family rights.",
+  "authority_level": "state_supreme",
+  "state_code": "FL",
+  "state_name": "Florida",
+  "version": "1.0.0",
+  "created": "2025-12-22",
+  "updated": "2025-12-22",
+  "copyright": "Project Milk Carton 501(c)(3) - All Rights Reserved",
+  "constitution_source": {
+    "url": "http://www.leg.state.fl.us/statutes/index.cfm?submenu=3",
+    "justia_url": "https://law.justia.com/constitution/florida/",
+    "official_name": "Florida Constitution",
+    "last_amended": "2022-11-08",
+    "last_verified": "2025-12-22"
+  },
+  "relationship_to_federal": {
+    "supremacy_clause_applies": true,
+    "can_provide_greater_protection": true,
+    "cannot_provide_less_protection": true
+  },
+  "relevant_provisions": [
+    {
+      "provision_id": "FL_CONST_SEARCH_SEIZURE",
+      "name": "Search and Seizure",
+      "article": "Article I",
+      "section": "Section 12",
+      "url": "https://law.justia.com/constitution/florida/#section-12",
+      "citation": "Florida Const. art. I, \u00a7 12",
+      "text": "The right of the people to be secure in their persons, houses, papers and effects against unreasonable searches and seizures... shall not be violated.",
+      "application_to_cps": "CPS removal of a child constitutes a seizure. Warrantless removals must meet exigent circumstances exception or be supported by court order.",
+      "federal_parallel": "U.S. Const. amend. IV",
+      "state_provides_greater_protection": false,
+      "key_cases": [],
+      "triggers_at_nodes": [
+        "INP-12",
+        "DEC-04",
+        "ACT-01",
+        "FAIL-01"
+      ]
+    },
+    {
+      "provision_id": "FL_CONST_DUE_PROCESS",
+      "name": "Due Process / Law of the Land",
+      "article": "Article I",
+      "section": "Section 9",
+      "url": "https://law.justia.com/constitution/florida/#section-9",
+      "citation": "Florida Const. art. I, \u00a7 9",
+      "text": "No person shall be deprived of life, liberty or property without due process of law...",
+      "application_to_cps": "Parents have a fundamental liberty interest in the care and custody of their children. Termination of parental rights requires clear and convincing evidence and proper procedural protections.",
+      "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1",
+      "state_provides_greater_protection": false,
+      "key_cases": [
+        {
+          "case_id": "sc2025-0237",
+          "title": "In Re: Amendments to Florida Rules of Juvenile Procedure",
+          "url": "https://law.justia.com/cases/florida/supreme-court/2025/sc2025-0237.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Florida Supreme Court Case sc2025-0237 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "sc2024-1779",
+          "title": "In Re: Amendments to Florida Rule of Juvenile Procedure 8.245",
+          "url": "https://law.justia.com/cases/florida/supreme-court/2025/sc2024-1779.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Florida Supreme Court Case sc2024-1779 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "sc2024-1717",
+          "title": "In Re: Amendments to Florida Rules of Juvenile Procedure",
+          "url": "https://law.justia.com/cases/florida/supreme-court/2025/sc2024-1717.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Florida Supreme Court Case sc2024-1717 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "sc2025-0016",
+          "title": "In Re: Amendments to Florida Rules of Juvenile Procedure - 2024 Legislation",
+          "url": "https://law.justia.com/cases/florida/supreme-court/2025/sc2025-0016.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Florida Supreme Court Case sc2025-0016 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "sc2024-0572",
+          "title": "In Re: Amendments to Florida Rules of Juvenile Procedure",
+          "url": "https://law.justia.com/cases/florida/supreme-court/2024/sc2024-0572.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Florida Supreme Court Case sc2024-0572 (2024)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "sc2024-1093",
+          "title": "In Re: Amendments to Florida Rules of Juvenile Procedure - 2024 Legislation",
+          "url": "https://law.justia.com/cases/florida/supreme-court/2024/sc2024-1093.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Florida Supreme Court Case sc2024-1093 (2024)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "sc2024-0382",
+          "title": "In Re: Amendments to Florida Rule of Juvenile Procedure 8.245",
+          "url": "https://law.justia.com/cases/florida/supreme-court/2024/sc2024-0382.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Florida Supreme Court Case sc2024-0382 (2024)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "sc2024-0127",
+          "title": "In Re: Amendments to Florida Rule of Juvenile Procedure 8.265",
+          "url": "https://law.justia.com/cases/florida/supreme-court/2024/sc2024-0127.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Florida Supreme Court Case sc2024-0127 (2024)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "sc2023-1707",
+          "title": "In Re: Amendments to Florida Rules of Juvenile Procedure",
+          "url": "https://law.justia.com/cases/florida/supreme-court/2024/sc2023-1707.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Florida Supreme Court Case sc2023-1707 (2024)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "sc2023-1072",
+          "title": "Christine Askew, etc. v. Florida Department of Children and Families",
+          "url": "https://law.justia.com/cases/florida/supreme-court/2024/sc2023-1072.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Florida Supreme Court Case sc2023-1072 (2024)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: DCF",
+          "provision_match": "DUE_PROCESS"
+        }
+      ],
+      "triggers_at_nodes": [
+        "DEC-05",
+        "DEC-06",
+        "ACT-04",
+        "OUT-02",
+        "OUT-03"
+      ]
+    },
+    {
+      "provision_id": "FL_CONST_PRIVACY",
+      "name": "Right to Privacy",
+      "article": "Article I",
+      "section": "Section 23",
+      "url": "https://law.justia.com/constitution/florida/#section-23",
+      "citation": "Florida Const. art. I, \u00a7 23",
+      "text": "Every natural person has the right to be let alone and free from governmental intrusion into the person's private life...",
+      "application_to_cps": "Explicit privacy right may provide additional protection against government intrusion into family decisions. May require compelling state interest for CPS intervention.",
+      "federal_parallel": "No explicit federal parallel - implied from penumbras of Bill of Rights (Griswold v. Connecticut)",
+      "state_provides_greater_protection": true,
+      "key_cases": [],
+      "triggers_at_nodes": [
+        "INP-01",
+        "DEC-01",
+        "ACT-01"
+      ]
+    }
+  ],
+  "unique_state_protections": [
+    {
+      "protection": "Explicit Constitutional Privacy Right",
+      "description": "Florida constitution explicitly protects privacy rights",
+      "federal_comparison": "Federal constitution has no explicit privacy right"
+    }
+  ],
+  "case_law_search_keywords": [
+    "Florida Department of Children and Families",
+    "DCF",
+    "CPS",
+    "due process",
+    "14th Amendment",
+    "42 U.S.C. 1983",
+    "reasonable efforts",
+    "reunification",
+    "emergency removal",
+    "wrongful removal",
+    "exigent circumstances",
+    "abuse",
+    "familial association",
+    "CINS",
+    "FINS"
+  ],
+  "state_supreme_court_cps_cases": [
+    {
+      "case_id": "sc2025-0237",
+      "title": "In Re: Amendments to Florida Rules of Juvenile Procedure",
+      "url": "https://law.justia.com/cases/florida/supreme-court/2025/sc2025-0237.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Florida Supreme Court Case sc2025-0237 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "sc2024-1779",
+      "title": "In Re: Amendments to Florida Rule of Juvenile Procedure 8.245",
+      "url": "https://law.justia.com/cases/florida/supreme-court/2025/sc2024-1779.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Florida Supreme Court Case sc2024-1779 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "sc2024-1717",
+      "title": "In Re: Amendments to Florida Rules of Juvenile Procedure",
+      "url": "https://law.justia.com/cases/florida/supreme-court/2025/sc2024-1717.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Florida Supreme Court Case sc2024-1717 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "sc2025-0016",
+      "title": "In Re: Amendments to Florida Rules of Juvenile Procedure - 2024 Legislation",
+      "url": "https://law.justia.com/cases/florida/supreme-court/2025/sc2025-0016.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Florida Supreme Court Case sc2025-0016 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "sc2024-0572",
+      "title": "In Re: Amendments to Florida Rules of Juvenile Procedure",
+      "url": "https://law.justia.com/cases/florida/supreme-court/2024/sc2024-0572.html",
+      "year": 2024,
+      "court": "Supreme Court",
+      "citation": "Florida Supreme Court Case sc2024-0572 (2024)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "sc2024-1093",
+      "title": "In Re: Amendments to Florida Rules of Juvenile Procedure - 2024 Legislation",
+      "url": "https://law.justia.com/cases/florida/supreme-court/2024/sc2024-1093.html",
+      "year": 2024,
+      "court": "Supreme Court",
+      "citation": "Florida Supreme Court Case sc2024-1093 (2024)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "sc2024-0382",
+      "title": "In Re: Amendments to Florida Rule of Juvenile Procedure 8.245",
+      "url": "https://law.justia.com/cases/florida/supreme-court/2024/sc2024-0382.html",
+      "year": 2024,
+      "court": "Supreme Court",
+      "citation": "Florida Supreme Court Case sc2024-0382 (2024)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "sc2024-0127",
+      "title": "In Re: Amendments to Florida Rule of Juvenile Procedure 8.265",
+      "url": "https://law.justia.com/cases/florida/supreme-court/2024/sc2024-0127.html",
+      "year": 2024,
+      "court": "Supreme Court",
+      "citation": "Florida Supreme Court Case sc2024-0127 (2024)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "sc2023-1707",
+      "title": "In Re: Amendments to Florida Rules of Juvenile Procedure",
+      "url": "https://law.justia.com/cases/florida/supreme-court/2024/sc2023-1707.html",
+      "year": 2024,
+      "court": "Supreme Court",
+      "citation": "Florida Supreme Court Case sc2023-1707 (2024)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "sc2023-1072",
+      "title": "Christine Askew, etc. v. Florida Department of Children and Families",
+      "url": "https://law.justia.com/cases/florida/supreme-court/2024/sc2023-1072.html",
+      "year": 2024,
+      "court": "Supreme Court",
+      "citation": "Florida Supreme Court Case sc2023-1072 (2024)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: DCF",
+      "provision_match": "DUE_PROCESS"
+    }
+  ],
+  "procedural_weight_modifiers": {
+    "explicit_privacy_right": 0.1,
+    "note": "Modifiers adjust procedural_weight for state nodes based on enhanced protections"
+  },
+  "_metadata": {
+    "created": "2025-12-22T20:38:16.835884",
+    "source": "state_constitution_etl",
+    "data_sources": [
+      "justia",
+      "state_legislature",
+      "courtlistener_keywords"
+    ],
+    "requires_case_law_enrichment": false,
+    "case_law_enriched": "2025-12-24T20:37:15.428591+00:00",
+    "enricher_version": "1.0.0",
+    "cases_analyzed": 278,
+    "cases_linked": 10
+  },
+  "case_law_search": {
+    "search_keywords": [
+      "Florida Department of Children and Families",
+      "DCF",
+      "CPS",
+      "due process",
+      "14th Amendment",
+      "42 U.S.C. 1983",
+      "reasonable efforts",
+      "reunification",
+      "emergency removal",
+      "wrongful removal"
+    ],
+    "courtlistener_url": "https://www.courtlistener.com/?q=%22Florida%22%20AND%20%28%22Florida%20Department%20of%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
+    "supreme_court_focus": true,
+    "_note": "Search for state supreme court cases on CPS constitutional issues"
+  }
+}

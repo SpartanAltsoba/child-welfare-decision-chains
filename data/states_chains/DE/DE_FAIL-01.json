@@ -1,0 +1,390 @@
+{
+  "node_id": "DE_FAIL-01",
+  "state": "DE",
+  "state_name": "Delaware",
+  "node_family": "FAIL",
+  "subnode": "FAIL-01",
+  "trigger_name": "Court Reversal of Agency Decision",
+  "summary_html": "A **court reverses or vacates** a CPS or agency decision due to procedural error, insufficient evidence, or constitutional violation. Federal review data (CFSR, ASFA) tracks judicial determinations on reasonable efforts and due process.",
+  "authority_html": "- **Adoption and Safe Families Act (ASFA)** \u2014 judicial findings of 'reasonable efforts' compliance  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal review of judicial/agency conformity  \n- **42 U.S.C. \u00a7 1983** \u2014 civil-rights remedy for unconstitutional removals (14th & 4th Amendments).",
+  "icon": "\u2696\ufe0f",
+  "theme_color": "#FF6347",
+  "domain": "civil",
+  "procedural_weight": 0.8,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "ASFA_PDF": "https://www.govinfo.gov/content/pkg/PLAW-105publ89/pdf/PLAW-105publ89.pdf",
+    "CFSR_CFR": "https://www.law.cornell.edu/cfr/text/45/part-1355"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [
+        "U.S. Const. amend. IV",
+        "U.S. Const. amend. XIV, \u00a7 1"
+      ],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "Public Law 105-89 (ASFA)",
+        "45 CFR Part 1355 (CFSR)",
+        "42 U.S.C. \u00a7 1983 (Civil Rights Act)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Delaware - Title 16, Chapter 9 (Abuse of Children \u2013 reporting requirements)",
+          "source_url": "https://delcode.delaware.gov/title16/c009/index.html",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Delaware - Title 13, Chapter 25 (Dependent children proceedings)",
+          "source_url": "https://delcode.delaware.gov/title13/c025/index.html",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Title 13: Domestic Relations - CHILD WELFARE PRIMARY",
+          "source_url": "https://law.justia.com/codes/delaware/title-13/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 16: Health and Safety - Child Abuse",
+          "source_url": "https://law.justia.com/codes/delaware/title-16/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 31: Welfare",
+          "source_url": "https://law.justia.com/codes/delaware/title-31/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Title 9 - Services for Children Youth and Their Families",
+          "url": "https://www.law.cornell.edu/regulations/delaware/title-9"
+        },
+        {
+          "title": "Delaware Administrative Rule Title 13",
+          "url": "https://regulations.justia.com/states/delaware/title-13/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Delaware Administrative Rule Title 16",
+          "url": "https://regulations.justia.com/states/delaware/title-16/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Delaware Administrative Regulations",
+          "url": "https://regulations.justia.com/states/delaware/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Delaware Administrative Rule Title 1",
+          "url": "https://regulations.justia.com/states/delaware/title-1/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Delaware Administrative Rule Title 2",
+          "url": "https://regulations.justia.com/states/delaware/title-2/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Delaware Administrative Rule Title 3",
+          "url": "https://regulations.justia.com/states/delaware/title-3/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Delaware Administrative Rule Title 4",
+          "url": "https://regulations.justia.com/states/delaware/title-4/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Delaware Administrative Rule Title 5",
+          "url": "https://regulations.justia.com/states/delaware/title-5/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Delaware Administrative Rule Title 6",
+          "url": "https://regulations.justia.com/states/delaware/title-6/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Delaware Administrative Rule Title 7",
+          "url": "https://regulations.justia.com/states/delaware/title-7/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/delaware.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_DE",
+      "plane_file": "legal_planes/state_constitutional/DE_constitution.json",
+      "provisions_triggered": [
+        {
+          "provision_id": "DE_CONST_SEARCH_SEIZURE",
+          "name": "Search and Seizure",
+          "citation": "Delaware Const. art. I, \u00a7 6",
+          "federal_parallel": "U.S. Const. amend. IV"
+        },
+        {
+          "provision_id": "DE_CONST_DUE_PROCESS",
+          "name": "Due Process / Law of the Land",
+          "citation": "Delaware Const. art. I, \u00a7 7",
+          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+        }
+      ]
+    },
+    "case_law": {
+      "search_keywords": [
+        "Delaware Division of Family Services",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal",
+        "exigent circumstances"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Delaware%22%20AND%20%28%22Delaware%20Division%20of%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "wrongful removal",
+        "1983 claim",
+        "civil rights",
+        "immunity",
+        "damages"
+      ],
+      "jurisdiction": "Delaware state courts",
+      "key_cases": [
+        {
+          "case_id": "292-2022",
+          "title": "Kline v. Delaware Division of Family Services",
+          "url": "https://law.justia.com/cases/delaware/supreme-court/2023/292-2022.html",
+          "year": 2023,
+          "court": "Supreme Court",
+          "citation": "Delaware Supreme Court Case 292-2022 (2023)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "delaware division of family services"
+          ],
+          "child_welfare_reason": "High: Family Services"
+        },
+        {
+          "case_id": "213-2025",
+          "title": "Roy Harris v. DSCYF TPR",
+          "url": "https://law.justia.com/cases/delaware/supreme-court/2025/213-2025.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Delaware Supreme Court Case 213-2025 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: TPR"
+        },
+        {
+          "case_id": "534-2024-10-11-and-12-2025",
+          "title": "In re Tesla, Inc. Derivative Litigation",
+          "url": "https://law.justia.com/cases/delaware/supreme-court/2025/534-2024-10-11-and-12-2025.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Delaware Supreme Court Case 534-2024-10-11-and-12-2025 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "306-2025",
+          "title": "Martin Schnell v. DSCYF TPR",
+          "url": "https://law.justia.com/cases/delaware/supreme-court/2025/306-2025.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Delaware Supreme Court Case 306-2025 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: TPR"
+        },
+        {
+          "case_id": "307-2025",
+          "title": "Shelby Davis v. DSCYF TPR",
+          "url": "https://law.justia.com/cases/delaware/supreme-court/2025/307-2025.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Delaware Supreme Court Case 307-2025 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: TPR"
+        },
+        {
+          "case_id": "19-2025",
+          "title": "In re Straight Path Communications Inc. Stockholder Litigation",
+          "url": "https://law.justia.com/cases/delaware/supreme-court/2025/19-2025.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Delaware Supreme Court Case 19-2025 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "114-2025",
+          "title": "In re The Trade Desk, Inc. Derivative Action",
+          "url": "https://law.justia.com/cases/delaware/supreme-court/2025/114-2025.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Delaware Supreme Court Case 114-2025 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "242-2025",
+          "title": "Storm v. DSCYF TPR",
+          "url": "https://law.justia.com/cases/delaware/supreme-court/2025/242-2025.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Delaware Supreme Court Case 242-2025 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: TPR"
+        },
+        {
+          "case_id": "397-2025",
+          "title": "In re Kostyshyn 634 Governor Circle",
+          "url": "https://law.justia.com/cases/delaware/supreme-court/2025/397-2025.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Delaware Supreme Court Case 397-2025 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "189-2025",
+          "title": "Ross v. DSCYF/DFS",
+          "url": "https://law.justia.com/cases/delaware/supreme-court/2025/189-2025.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Delaware Supreme Court Case 189-2025 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: DFS"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Division of Family Services",
+    "acronym": "DFS",
+    "hotline": "1-800-292-9582",
+    "website": "https://legis.delaware.gov"
+  },
+  "linked_output": "OUT-02",
+  "linked_action": "ACT-03",
+  "linked_decision": "DEC-04",
+  "linked_input": "INP-01",
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.731367",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.553086",
+    "schema_version": "3.0.0",
+    "trigger_name_fixed": "2025-12-22T22:53:02.298773",
+    "leaves_linked": "2025-12-24T18:14:21.105624+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "preponderance",
+    "who_bears_burden": "parent",
+    "common_failures": [
+      "Failure to preserve evidence",
+      "Missing deadlines for legal challenges",
+      "Inadequate documentation of violations"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Appeal deadline",
+      "deadline": "30 days",
+      "starts_from": "Final order",
+      "source": "court_rule",
+      "consequence_of_miss": "Loss of appeal rights"
+    },
+    {
+      "requirement_name": "1983 statute of limitations",
+      "deadline": "2-3 years",
+      "starts_from": "Violation occurred",
+      "source": "federal_statute",
+      "consequence_of_miss": "Claim barred"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "attorney"
+      ],
+      "method": "personal_service",
+      "timing": "Upon violation discovery",
+      "content_required": [
+        "Nature of violation",
+        "Remedies available"
+      ],
+      "defective_notice_consequence": "May extend statute of limitations"
+    }
+  ]
+}

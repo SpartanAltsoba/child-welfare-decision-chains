@@ -1,0 +1,301 @@
+{
+  "node_id": "SC_PMC-02",
+  "state": "SC",
+  "state_name": "South Carolina",
+  "node_family": "PMC",
+  "subnode": "PMC-02",
+  "trigger_name": "OIG / Financial Audit",
+  "summary_html": "Federal **OIG** investigations and **Single Audit Act** reviews track misuse of child-welfare funds. Project Milk Carton aggregates audit findings and highlights unresolved repeat deficiencies.",
+  "authority_html": "- **Inspector General Act (5 U.S.C. App.)** \u2014 OIG oversight of HHS  \n- **Single Audit Act (31 U.S.C. \u00a7\u00a7 7501\u20137507)** \u2014 audits of federally funded programs",
+  "icon": "\ud83e\uddfe",
+  "theme_color": "#708090",
+  "domain": "civil",
+  "procedural_weight": 0.7,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "IGA_Cornell": "https://www.law.cornell.edu/uscode/text/5a/appendix-3",
+    "SAA_Cornell": "https://www.law.cornell.edu/uscode/text/31/chapter-75"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "5 U.S.C. App. (Inspector General Act)",
+        "31 U.S.C. \u00a7\u00a7 7501\u20137507 (Single Audit Act)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "South Carolina - S.C. Code Title\u00a063, Chapter\u00a07 (Child Protection Act \u2013 includes \u00a7\u00a063-7-310 reporting)",
+          "source_url": "https://www.scstatehouse.gov",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22"
+        },
+        {
+          "citation_text": "Title 43: Social Services - DSS",
+          "source_url": "https://law.justia.com/codes/south-carolina/title-43/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 63: South Carolina Children's Code - CHILD WELFARE PRIMARY",
+          "source_url": "https://law.justia.com/codes/south-carolina/title-63/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Chapter 24 - OFFICE OF THE GOVERNOR- DIVISION FOR REVIEW OF THE FOSTER CARE OF CHILDREN",
+          "url": "https://www.law.cornell.edu/regulations/south-carolina/chapter-24"
+        },
+        {
+          "title": "Chapter 31 - OFFICE OF THE GOVERNOR- CONTINUUM OF CARE FOR EMOTIONALLY DISTURBED CHILDREN DIVISION",
+          "url": "https://www.law.cornell.edu/regulations/south-carolina/chapter-31"
+        },
+        {
+          "title": "Chapter 36 - DEPARTMENT OF LABOR, LICENSING AND REGULATION BOARD OF EXAMINERS FOR LICENSURE OF PROFESSIONAL COUNSELORS, MARRIAGE AND FAMILY THERAPISTS, ADDICTION COUNSELORS, AND PSYCHO-EDUCATIONAL SPECIALISTS",
+          "url": "https://www.law.cornell.edu/regulations/south-carolina/chapter-36"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/south-carolina.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_SC",
+      "plane_file": "legal_planes/state_constitutional/SC_constitution.json",
+      "provisions_triggered": []
+    },
+    "case_law": {
+      "search_keywords": [
+        "South Carolina Department of Social Services",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal",
+        "exigent circumstances"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22South%20Carolina%22%20AND%20%28%22South%20Carolina%20Department%20of%20Social%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "missing child",
+        "amber alert",
+        "custodial interference",
+        "parental kidnapping"
+      ],
+      "jurisdiction": "South Carolina state courts",
+      "key_cases": [
+        {
+          "case_id": "2021-up-303",
+          "title": "South Carolina Department of Social Services v. Poole",
+          "url": "https://law.justia.com/cases/south-carolina/court-of-appeals/2021/2021-up-303.html",
+          "year": 2021,
+          "court": "Court Of Appeals",
+          "citation": "South Carolina Court Of Appeals Case 2021-up-303 (2021)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "south carolina department of social services"
+          ],
+          "child_welfare_reason": "High: SCDSS, DSS"
+        },
+        {
+          "case_id": "2021-up-304",
+          "title": "South Carolina Department of Social Services v. Poole",
+          "url": "https://law.justia.com/cases/south-carolina/court-of-appeals/2021/2021-up-304.html",
+          "year": 2021,
+          "court": "Court Of Appeals",
+          "citation": "South Carolina Court Of Appeals Case 2021-up-304 (2021)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "south carolina department of social services"
+          ],
+          "child_welfare_reason": "High: SCDSS, DSS"
+        },
+        {
+          "case_id": "28302",
+          "title": "In the Matter of Edward Joseph Schafer",
+          "url": "https://law.justia.com/cases/south-carolina/supreme-court/2025/28302.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "South Carolina Supreme Court Case 28302 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "28299",
+          "title": "In the Matter of Travis W. White",
+          "url": "https://law.justia.com/cases/south-carolina/supreme-court/2025/28299.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "South Carolina Supreme Court Case 28299 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "28300",
+          "title": "In the Matter of Georgia Anne Shobe",
+          "url": "https://law.justia.com/cases/south-carolina/supreme-court/2025/28300.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "South Carolina Supreme Court Case 28300 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "28292",
+          "title": "In the Matter of David Charles Johnston",
+          "url": "https://law.justia.com/cases/south-carolina/supreme-court/2025/28292.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "South Carolina Supreme Court Case 28292 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "2025-mo-037",
+          "title": "In the Matter of: Estate of Florence Petrak Mensch",
+          "url": "https://law.justia.com/cases/south-carolina/supreme-court/2025/2025-mo-037.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "South Carolina Supreme Court Case 2025-mo-037 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "28287",
+          "title": "In the Matter of Joseph R. Surface",
+          "url": "https://law.justia.com/cases/south-carolina/supreme-court/2025/28287.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "South Carolina Supreme Court Case 28287 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "28288",
+          "title": "In the Matter of Claudia Flower",
+          "url": "https://law.justia.com/cases/south-carolina/supreme-court/2025/28288.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "South Carolina Supreme Court Case 28288 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "28286",
+          "title": "In the Matter of Edward C. Nix",
+          "url": "https://law.justia.com/cases/south-carolina/supreme-court/2025/28286.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "South Carolina Supreme Court Case 28286 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Department of Social Services",
+    "acronym": "DSS",
+    "hotline": "1-888-227-3487",
+    "website": "https://www.scstatehouse.gov"
+  },
+  "linked_fail": "FAIL-03",
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.821519",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.811405",
+    "schema_version": "3.0.0",
+    "trigger_name_fixed": "2025-12-22T22:53:02.424034",
+    "leaves_linked": "2025-12-24T18:14:22.415966+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "probable_cause",
+    "who_bears_burden": "agency",
+    "common_failures": [
+      "Delayed AMBER alert",
+      "Failure to coordinate with NCMEC",
+      "Inadequate search protocols"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Missing child report",
+      "deadline": "Immediate",
+      "starts_from": "Child discovered missing",
+      "source": "federal_statute",
+      "consequence_of_miss": "Criminal liability possible"
+    },
+    {
+      "requirement_name": "NCMEC notification",
+      "deadline": "24 hours",
+      "starts_from": "Child reported missing",
+      "source": "state_statute",
+      "consequence_of_miss": "Audit finding, delayed recovery"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian",
+        "law_enforcement"
+      ],
+      "method": "any_reasonable",
+      "timing": "Immediately upon discovery",
+      "content_required": [
+        "Child last seen location",
+        "Physical description"
+      ],
+      "defective_notice_consequence": "Delayed search response"
+    }
+  ]
+}

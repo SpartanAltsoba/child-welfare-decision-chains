@@ -1,0 +1,318 @@
+{
+  "node_id": "AR_OUT-01",
+  "state": "AR",
+  "state_name": "Arkansas",
+  "node_family": "OUT",
+  "subnode": "OUT-01",
+  "trigger_name": "Reunification",
+  "summary_html": "Child safely **reunified with parent or guardian**, case closed. Federal policy treats reunification as the preferred outcome once risk factors are mitigated.",
+  "authority_html": "- **Adoption and Safe Families Act (ASFA)** \u2014 establishes reunification timelines and permanency goals  \n- **SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 funds reunification services and tracks permanency outcomes",
+  "icon": "\ud83c\udfe0",
+  "theme_color": "#32CD32",
+  "domain": "civil",
+  "procedural_weight": 0.6,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "ASFA_PLAW": "https://www.congress.gov/105/plaws/publ89/PLAW-105publ89.pdf",
+    "ASFA_PDF": "https://www.govinfo.gov/content/pkg/PLAW-105publ89/pdf/PLAW-105publ89.pdf",
+    "SSA_IV_E_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-7/subchapter-IV/part-E"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "Public Law 105-89 (ASFA)",
+        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Arkansas - Title 12, Chapter 18 (Child Maltreatment Act \u2013 reporting and investigation)",
+          "source_url": "https://www.arkleg.state.ar.us",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22"
+        },
+        {
+          "citation_text": "Arkansas - Title 9, Chapter 27 (Juvenile Code \u2013 dependency-neglect cases)",
+          "source_url": "https://www.arkleg.state.ar.us",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22"
+        },
+        {
+          "citation_text": "Title 9: Family Law - Juveniles - CHILD WELFARE PRIMARY",
+          "source_url": "https://law.justia.com/codes/arkansas/title-9/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 12: Courts - Juvenile Division",
+          "source_url": "https://law.justia.com/codes/arkansas/title-12/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 20: Public Health and Welfare",
+          "source_url": "https://law.justia.com/codes/arkansas/title-20/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Agency 16 - DEPARTMENT OF HUMAN SERVICES",
+          "url": "https://www.law.cornell.edu/regulations/arkansas/agency-016"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/arkansas.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_AR",
+      "plane_file": "legal_planes/state_constitutional/AR_constitution.json",
+      "provisions_triggered": []
+    },
+    "case_law": {
+      "search_keywords": [
+        "Arkansas Department of Human Services",
+        "Arkansas DCFS",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Arkansas%22%20AND%20%28%22Arkansas%20Department%20of%20Human%20Services%22%20OR%20%22Arkansas%20DCFS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "termination of parental rights",
+        "TPR",
+        "adoption",
+        "permanency",
+        "aging out"
+      ],
+      "jurisdiction": "Arkansas state courts",
+      "key_cases": [
+        {
+          "case_id": "2025-ark-220",
+          "title": "IN RE ADOPTION OF ARKANSAS SUPREME COURT ADMINISTRATIVE ORDER NO. 25 ARTIFICIAL INTELLIGENCE (Per Curiam)",
+          "url": "https://law.justia.com/cases/arkansas/supreme-court/2025/2025-ark-220.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Arkansas Supreme Court Case 2025-ark-220 (2025)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "adoption"
+          ],
+          "child_welfare_reason": "High: In re adoption, In re"
+        },
+        {
+          "case_id": "2025-ark-119",
+          "title": "IN RE ADOPTION OF NEXTGEN BAR EXAMINATION (Per Curiam)",
+          "url": "https://law.justia.com/cases/arkansas/supreme-court/2025/2025-ark-119.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Arkansas Supreme Court Case 2025-ark-119 (2025)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "adoption"
+          ],
+          "child_welfare_reason": "High: In re adoption, In re"
+        },
+        {
+          "case_id": "cv-24-380",
+          "title": "(IN THE MATTER OF THE GUARDIANSHIP OF GRACE YVONNE FENNER) GRACE YVONNE FENNER v. CHRISTOPHER MICHAEL FENNER (Majority)",
+          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2025/cv-24-380.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Arkansas Court Of Appeals Case cv-24-380 (2025)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "guardianship"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "cv-24-609",
+          "title": "IN THE MATTER OF THE ADOPTION OF MINOR CHILDREN, WILLIAM KYLE MURPHY v. LAUREN TAYLOR MURPHY (Majority)",
+          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2025/cv-24-609.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Arkansas Court Of Appeals Case cv-24-609 (2025)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "adoption"
+          ],
+          "child_welfare_reason": "High: Matter of adoption, Matter of"
+        },
+        {
+          "case_id": "cv-23-679",
+          "title": "IN THE MATTER OF THE GUARDIANSHIP OF MC, A MINOR, SANDRA ANDRACA v. PATRICIA TICE (Majority)",
+          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2025/cv-23-679.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Arkansas Court Of Appeals Case cv-23-679 (2025)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "guardianship"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "cv-24-15",
+          "title": "IN THE MATTER OF THE ADOPTION OF MINOR CHILDREN, JESUS FELICIANA ANDRADE v. CARA JEAN DEROUEN AND COURTNEY LYNN DEROUEN (Majority)",
+          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2025/cv-24-15.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Arkansas Court Of Appeals Case cv-24-15 (2025)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "adoption"
+          ],
+          "child_welfare_reason": "High: Matter of adoption, Matter of"
+        },
+        {
+          "case_id": "2024-ark-109",
+          "title": "IN RE ADOPTION OF ARK. SUP. CT. ADMIN. ORDER NO. 23 (Per Curiam)",
+          "url": "https://law.justia.com/cases/arkansas/supreme-court/2024/2024-ark-109.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Arkansas Supreme Court Case 2024-ark-109 (2024)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "adoption"
+          ],
+          "child_welfare_reason": "High: In re adoption, In re"
+        },
+        {
+          "case_id": "cv-23-637",
+          "title": "(IN THE MATTER OF THE ADOPTION OF MC, A MINOR ) JAMES DAVID GARNER v. RHONDA MICHELLE BUNN AND PAUL BUNN (Majority)",
+          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2024/cv-23-637.html",
+          "year": 2024,
+          "court": "Court Of Appeals",
+          "citation": "Arkansas Court Of Appeals Case cv-23-637 (2024)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "adoption"
+          ],
+          "child_welfare_reason": "High: Matter of adoption, Matter of"
+        },
+        {
+          "case_id": "cv-23-172",
+          "title": "(IN THE MATTER OF THE ADOPTION OF MINOR CHILD) RANDELL G. SHELTON, JR. v. JESSE REID AND SHEENA REID",
+          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2024/cv-23-172.html",
+          "year": 2024,
+          "court": "Court Of Appeals",
+          "citation": "Arkansas Court Of Appeals Case cv-23-172 (2024)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "adoption"
+          ],
+          "child_welfare_reason": "High: Matter of adoption, Matter of"
+        },
+        {
+          "case_id": "2023-ark-167",
+          "title": "IN RE ARKANSAS SUPREME COURT COMMITTEE ON CIVIL PRACTICE - ADOPTION OF REVISED RULES 41 ADN 65 OF THE ARKANSAS RULES OF CIVIL PROCEDURE (Per Curiam)",
+          "url": "https://law.justia.com/cases/arkansas/supreme-court/2023/2023-ark-167.html",
+          "year": 2023,
+          "court": "Supreme Court",
+          "citation": "Arkansas Supreme Court Case 2023-ark-167 (2023)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "adoption"
+          ],
+          "child_welfare_reason": "High: In re"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Division of Children and Family Services",
+    "acronym": "DCFS",
+    "hotline": "1-800-482-5964",
+    "website": "https://www.arkleg.state.ar.us"
+  },
+  "extended_foster_care": true,
+  "extended_foster_care_age": "Up to age 21 (until 21st birthday)",
+  "linked_action": "ACT-02",
+  "linked_decision": "DEC-03",
+  "linked_input": "INP-01",
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.714683",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.511505",
+    "schema_version": "3.0.0",
+    "trigger_name_fixed": "2025-12-22T22:53:02.273254",
+    "leaves_linked": "2025-12-24T18:14:20.975338+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "clear_and_convincing",
+    "who_bears_burden": "state",
+    "common_failures": [
+      "Insufficient evidence for TPR",
+      "Failure to prove unfitness by clear and convincing evidence",
+      "Santosky v. Kramer standard not met"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Permanency hearing",
+      "deadline": "12 months",
+      "starts_from": "Child enters care",
+      "source": "federal_statute",
+      "consequence_of_miss": "ASFA violation"
+    },
+    {
+      "requirement_name": "TPR filing",
+      "deadline": "15 of 22 months",
+      "starts_from": "Child enters care",
+      "source": "federal_statute",
+      "consequence_of_miss": "Must file TPR or document compelling reason"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian",
+        "putative_father",
+        "tribe",
+        "foster_parent"
+      ],
+      "method": "certified_mail",
+      "timing": "10-30 days before TPR hearing",
+      "content_required": [
+        "TPR grounds",
+        "Date/time/location",
+        "Right to counsel"
+      ],
+      "icwa_additional_notice": true,
+      "defective_notice_consequence": "TPR may be vacated"
+    }
+  ]
+}

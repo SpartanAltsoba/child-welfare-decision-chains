@@ -1,0 +1,329 @@
+{
+  "node_id": "OK_OUT-02",
+  "state": "OK",
+  "state_name": "Oklahoma",
+  "node_family": "OUT",
+  "subnode": "OUT-02",
+  "trigger_name": "Termination of Parental Rights / Adoption",
+  "summary_html": "**Parental rights terminated** and **child adopted**. Federal law prioritizes timely permanency for children when reunification is not viable.",
+  "authority_html": "- **ASFA (42 U.S.C. \u00a7\u00a7 671\u2013675)** \u2014 establishes 15/22-month TPR guideline  \n- **SSA Title IV-E** \u2014 adoption assistance and subsidy framework",
+  "icon": "\ud83d\udc76",
+  "theme_color": "#8A2BE2",
+  "domain": "civil",
+  "procedural_weight": 0.45,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "ASFA_PLAW": "https://www.congress.gov/105/plaws/publ89/PLAW-105publ89.pdf",
+    "SSA_IV_E_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-7/subchapter-IV/part-E"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [
+        "U.S. Const. amend. XIV, \u00a7 1"
+      ],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "42 U.S.C. \u00a7\u00a7 671\u2013675 (ASFA)",
+        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Oklahoma - Title 10A (Children and Juvenile Code), \u00a7\u00a01-2-101 (Duty to report) and Article 1, Part 4 (deprived child proceedings)",
+          "source_url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=10000",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Title 21: Crimes - Child Abuse",
+          "source_url": "https://law.justia.com/codes/oklahoma/title-21/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 56: Poor Persons - DHS",
+          "source_url": "https://law.justia.com/codes/oklahoma/title-56/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 10a: Children and Juvenile Code - CHILD WELFARE PRIMARY",
+          "source_url": "https://law.justia.com/codes/oklahoma/title-10a/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Title 135 - Commission on Children and Youth",
+          "url": "https://www.law.cornell.edu/regulations/oklahoma/title-135"
+        },
+        {
+          "title": "Title 340 - Department of Human Services",
+          "url": "https://www.law.cornell.edu/regulations/oklahoma/title-340"
+        },
+        {
+          "title": "Title 377 - Office of Juvenile Affairs",
+          "url": "https://www.law.cornell.edu/regulations/oklahoma/title-377"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/oklahoma.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_OK",
+      "plane_file": "legal_planes/state_constitutional/OK_constitution.json",
+      "provisions_triggered": [
+        {
+          "provision_id": "OK_CONST_DUE_PROCESS",
+          "name": "Due Process / Law of the Land",
+          "citation": "Oklahoma Const. art. II, \u00a7 7",
+          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+        }
+      ]
+    },
+    "case_law": {
+      "search_keywords": [
+        "Oklahoma Department of Human Services",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal",
+        "exigent circumstances"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Oklahoma%22%20AND%20%28%22Oklahoma%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "termination of parental rights",
+        "TPR",
+        "adoption",
+        "permanency",
+        "aging out"
+      ],
+      "jurisdiction": "Oklahoma state courts",
+      "key_cases": [
+        {
+          "case_id": "120729",
+          "title": "IN THE MATTER OF THE ADOPTION OF N.J.B.",
+          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/120729.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Oklahoma Supreme Court Case 120729 (2025)",
+          "relevance_score": 2.5,
+          "matched_keywords": [
+            "adoption"
+          ],
+          "child_welfare_reason": "High: Matter of adoption, Matter of"
+        },
+        {
+          "case_id": "ccad-2025-1",
+          "title": "IN RE ADOPTION OF THE 2025 REVISIONS TO THE OKLAHOMA UNIFORM JURY INSTRUCTIONS CRIMINAL (SECOND EDITION)",
+          "url": "https://law.justia.com/cases/oklahoma/court-of-appeals-criminal/2025/ccad-2025-1.html",
+          "year": 2025,
+          "court": "Court Of Appeals Criminal",
+          "citation": "Oklahoma Court Of Appeals Criminal Case ccad-2025-1 (2025)",
+          "relevance_score": 2.5,
+          "matched_keywords": [
+            "adoption"
+          ],
+          "child_welfare_reason": "High: In re adoption, In re"
+        },
+        {
+          "case_id": "ccad-2024-2",
+          "title": "IN RE ADOPTION OF THE 2024 REVISIONS TO THE OKLAHOMA JURY INSTRUCTIONS-CRIMINAL (SECOND EDITION)",
+          "url": "https://law.justia.com/cases/oklahoma/court-of-appeals-criminal/2024/ccad-2024-2.html",
+          "year": 2024,
+          "court": "Court Of Appeals Criminal",
+          "citation": "Oklahoma Court Of Appeals Criminal Case ccad-2024-2 (2024)",
+          "relevance_score": 2.5,
+          "matched_keywords": [
+            "adoption"
+          ],
+          "child_welfare_reason": "High: In re adoption, In re"
+        },
+        {
+          "case_id": "ccad-2024-3",
+          "title": "IN RE ADOPTION OF THE 2024 REVISIONS TO OKLAHOMA UNIFORM JURY INSTRUCTIONS-CRIMINAL (SECOND EDITION)",
+          "url": "https://law.justia.com/cases/oklahoma/court-of-appeals-criminal/2024/ccad-2024-3.html",
+          "year": 2024,
+          "court": "Court Of Appeals Criminal",
+          "citation": "Oklahoma Court Of Appeals Criminal Case ccad-2024-3 (2024)",
+          "relevance_score": 2.5,
+          "matched_keywords": [
+            "adoption"
+          ],
+          "child_welfare_reason": "High: In re adoption, In re"
+        },
+        {
+          "case_id": "120431",
+          "title": "IN THE MATTER OF THE ADOPTION OF A.J.B.",
+          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2023/120431.html",
+          "year": 2023,
+          "court": "Supreme Court",
+          "citation": "Oklahoma Supreme Court Case 120431 (2023)",
+          "relevance_score": 2.5,
+          "matched_keywords": [
+            "adoption"
+          ],
+          "child_welfare_reason": "High: Matter of adoption, Matter of"
+        },
+        {
+          "case_id": "119316",
+          "title": "In the Matter of the Adoption of L.B.L.",
+          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2023/119316.html",
+          "year": 2023,
+          "court": "Supreme Court",
+          "citation": "Oklahoma Supreme Court Case 119316 (2023)",
+          "relevance_score": 2.5,
+          "matched_keywords": [
+            "adoption"
+          ],
+          "child_welfare_reason": "High: Matter of adoption, Matter of"
+        },
+        {
+          "case_id": "118986",
+          "title": "In the Matter of the Adoption of S.A.H.",
+          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2022/118986.html",
+          "year": 2022,
+          "court": "Supreme Court",
+          "citation": "Oklahoma Supreme Court Case 118986 (2022)",
+          "relevance_score": 2.5,
+          "matched_keywords": [
+            "adoption"
+          ],
+          "child_welfare_reason": "High: Matter of adoption, Matter of"
+        },
+        {
+          "case_id": "ccad-2022-1",
+          "title": "IN RE: ADOPTION OF THE 2022 REVISIONS TO THE OKLAHOMA UNIFORM JURY INSTRUCTIONS-CRIMINAL (SECOND EDITION)",
+          "url": "https://law.justia.com/cases/oklahoma/court-of-appeals-criminal/2022/ccad-2022-1.html",
+          "year": 2022,
+          "court": "Court Of Appeals Criminal",
+          "citation": "Oklahoma Court Of Appeals Criminal Case ccad-2022-1 (2022)",
+          "relevance_score": 2.5,
+          "matched_keywords": [
+            "adoption"
+          ],
+          "child_welfare_reason": "High: In re adoption, In re"
+        },
+        {
+          "case_id": "118478",
+          "title": "IN RE THE ADOPTION OF: P.R.M.",
+          "url": "https://law.justia.com/cases/oklahoma/court-of-appeals-civil/2020/118478.html",
+          "year": 2020,
+          "court": "Court Of Appeals Civil",
+          "citation": "Oklahoma Court Of Appeals Civil Case 118478 (2020)",
+          "relevance_score": 2.5,
+          "matched_keywords": [
+            "adoption"
+          ],
+          "child_welfare_reason": "High: In re adoption, In re"
+        },
+        {
+          "case_id": "121075",
+          "title": "In re Guardianship of K.D.B.",
+          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/121075.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Oklahoma Supreme Court Case 121075 (2025)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "guardianship"
+          ],
+          "child_welfare_reason": "High: In re guardianship, In re"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Department of Human Services",
+    "acronym": "OKDHS",
+    "hotline": "1-800-522-3511",
+    "website": "https://www.oklegislature.gov"
+  },
+  "extended_foster_care": true,
+  "extended_foster_care_age": "Up to age 21 (until 21st birthday)",
+  "linked_action": "ACT-03",
+  "linked_decision": "DEC-04",
+  "linked_input": "INP-01",
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.810099",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.777554",
+    "schema_version": "3.0.0",
+    "trigger_name_fixed": "2025-12-22T22:53:02.409268",
+    "leaves_linked": "2025-12-24T18:14:22.230027+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "clear_and_convincing",
+    "who_bears_burden": "state",
+    "common_failures": [
+      "Insufficient evidence for TPR",
+      "Failure to prove unfitness by clear and convincing evidence",
+      "Santosky v. Kramer standard not met"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Permanency hearing",
+      "deadline": "12 months",
+      "starts_from": "Child enters care",
+      "source": "federal_statute",
+      "consequence_of_miss": "ASFA violation"
+    },
+    {
+      "requirement_name": "TPR filing",
+      "deadline": "15 of 22 months",
+      "starts_from": "Child enters care",
+      "source": "federal_statute",
+      "consequence_of_miss": "Must file TPR or document compelling reason"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian",
+        "putative_father",
+        "tribe",
+        "foster_parent"
+      ],
+      "method": "certified_mail",
+      "timing": "10-30 days before TPR hearing",
+      "content_required": [
+        "TPR grounds",
+        "Date/time/location",
+        "Right to counsel"
+      ],
+      "icwa_additional_notice": true,
+      "defective_notice_consequence": "TPR may be vacated"
+    }
+  ]
+}

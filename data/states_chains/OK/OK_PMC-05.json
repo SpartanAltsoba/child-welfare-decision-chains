@@ -1,0 +1,311 @@
+{
+  "node_id": "OK_PMC-05",
+  "state": "OK",
+  "state_name": "Oklahoma",
+  "node_family": "PMC",
+  "subnode": "PMC-05",
+  "trigger_name": "FOIA / Transparency",
+  "summary_html": "Federal transparency statutes\u2014**FOIA** and **Sunshine Act**\u2014require disclosure of government data. Project Milk Carton promotes FOIA requests and public dashboards for child-welfare records.",
+  "authority_html": "- **Freedom of Information Act (5 U.S.C. \u00a7 552)** \u2014 public access to records  \n- **Government in the Sunshine Act (5 U.S.C. \u00a7 552b)** \u2014 open-meeting requirements",
+  "icon": "\ud83d\udcc2",
+  "theme_color": "#FFD700",
+  "domain": "civil",
+  "procedural_weight": 0.65,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "FOIA_Cornell": "https://www.law.cornell.edu/uscode/text/5/552",
+    "Sunshine_Cornell": "https://www.law.cornell.edu/uscode/text/5/552b"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "5 U.S.C. \u00a7 552 (FOIA)",
+        "5 U.S.C. \u00a7 552b (Sunshine Act)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Oklahoma - Title 10A (Children and Juvenile Code), \u00a7\u00a01-2-101 (Duty to report) and Article 1, Part 4 (deprived child proceedings)",
+          "source_url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=10000",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Title 21: Crimes - Child Abuse",
+          "source_url": "https://law.justia.com/codes/oklahoma/title-21/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 56: Poor Persons - DHS",
+          "source_url": "https://law.justia.com/codes/oklahoma/title-56/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 10a: Children and Juvenile Code - CHILD WELFARE PRIMARY",
+          "source_url": "https://law.justia.com/codes/oklahoma/title-10a/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Title 135 - Commission on Children and Youth",
+          "url": "https://www.law.cornell.edu/regulations/oklahoma/title-135"
+        },
+        {
+          "title": "Title 340 - Department of Human Services",
+          "url": "https://www.law.cornell.edu/regulations/oklahoma/title-340"
+        },
+        {
+          "title": "Title 377 - Office of Juvenile Affairs",
+          "url": "https://www.law.cornell.edu/regulations/oklahoma/title-377"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/oklahoma.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_OK",
+      "plane_file": "legal_planes/state_constitutional/OK_constitution.json",
+      "provisions_triggered": []
+    },
+    "case_law": {
+      "search_keywords": [
+        "Oklahoma Department of Human Services",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal",
+        "exigent circumstances"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Oklahoma%22%20AND%20%28%22Oklahoma%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "missing child",
+        "amber alert",
+        "custodial interference",
+        "parental kidnapping"
+      ],
+      "jurisdiction": "Oklahoma state courts",
+      "key_cases": [
+        {
+          "case_id": "2020-ok-61",
+          "title": "CREATION OF THE UNIFORM REPRESENTATION OF CHILDREN AND PARENTS IN CASES INVOLVING ABUSE AND NEGLECT OVERSIGHT COMMITTEE",
+          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2020/2020-ok-61.html",
+          "year": 2020,
+          "court": "Supreme Court",
+          "citation": "Oklahoma Supreme Court Case 2020-ok-61 (2020)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "oversight"
+          ],
+          "child_welfare_reason": "High: abuse/neglect"
+        },
+        {
+          "case_id": "scbd-8012",
+          "title": "IN RE: Rules of the Supreme Court for Mandatory Continuing Legal Education",
+          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/scbd-8012.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Oklahoma Supreme Court Case scbd-8012 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "122249",
+          "title": "IN THE MATTER OF THE ESTATE OF EVANS v. GREER",
+          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/122249.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Oklahoma Supreme Court Case 122249 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "scbd-7913",
+          "title": "IN THE MATTER OF THE REINSTATEMENT OF BRANDY KEARNEY CHAMBERS",
+          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/scbd-7913.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Oklahoma Supreme Court Case scbd-7913 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "2025-ok-83",
+          "title": "In Re: Rules of the Supreme Court of the State of Oklahoma on Legal Internship",
+          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/2025-ok-83.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Oklahoma Supreme Court Case 2025-ok-83 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "121662",
+          "title": "In the Matter of the Estate of Hill v. Hill",
+          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/121662.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Oklahoma Supreme Court Case 121662 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "scbd-7792",
+          "title": "IN THE MATTER OF THE REINSTATEMENT OF CAREY",
+          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/scbd-7792.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Oklahoma Supreme Court Case scbd-7792 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "2025-ok-70",
+          "title": "In re: Amendments to Rule 24-Voluntary Retired Certificate Status and Inactive Status of the Rules of the State Board of Examiners of Certified Shorthand Reporters",
+          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/2025-ok-70.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Oklahoma Supreme Court Case 2025-ok-70 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "123007",
+          "title": "IN RE INITIATIVE PETITION NO. 448, STATE QUESTION NO. 836: THE OKLAHOMA REPUBLICAN PARTY v. SETTER",
+          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/123007.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Oklahoma Supreme Court Case 123007 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "123375",
+          "title": "IN THE MATTER OF THE DISCIPLINARY PROCEEDING CONCERNING MUELLER",
+          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/123375.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Oklahoma Supreme Court Case 123375 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Department of Human Services",
+    "acronym": "OKDHS",
+    "hotline": "1-800-522-3511",
+    "website": "https://www.oklegislature.gov"
+  },
+  "linked_fail": "FAIL-06",
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.810930",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.779027",
+    "schema_version": "3.0.0",
+    "trigger_name_fixed": "2025-12-22T22:53:02.410490",
+    "leaves_linked": "2025-12-24T18:14:22.236433+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "probable_cause",
+    "who_bears_burden": "agency",
+    "common_failures": [
+      "Delayed AMBER alert",
+      "Failure to coordinate with NCMEC",
+      "Inadequate search protocols"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Missing child report",
+      "deadline": "Immediate",
+      "starts_from": "Child discovered missing",
+      "source": "federal_statute",
+      "consequence_of_miss": "Criminal liability possible"
+    },
+    {
+      "requirement_name": "NCMEC notification",
+      "deadline": "24 hours",
+      "starts_from": "Child reported missing",
+      "source": "state_statute",
+      "consequence_of_miss": "Audit finding, delayed recovery"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian",
+        "law_enforcement"
+      ],
+      "method": "any_reasonable",
+      "timing": "Immediately upon discovery",
+      "content_required": [
+        "Child last seen location",
+        "Physical description"
+      ],
+      "defective_notice_consequence": "Delayed search response"
+    }
+  ]
+}

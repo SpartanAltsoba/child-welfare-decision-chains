@@ -1,0 +1,320 @@
+{
+  "node_id": "NV_OUT-05",
+  "state": "NV",
+  "state_name": "Nevada",
+  "node_family": "OUT",
+  "subnode": "OUT-05",
+  "trigger_name": "Case Dismissal",
+  "summary_html": "Case dismissed due to **unsubstantiated evidence** or court determination that allegations not proven. Federal oversight requires accurate recording of such closures for audit and funding compliance.",
+  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 defines data-collection standards for unfounded cases  \n- **CFSR (45 CFR Part 1355)** \u2014 requires tracking and reporting of unsubstantiated outcomes",
+  "icon": "\ud83d\uddc3\ufe0f",
+  "theme_color": "#708090",
+  "domain": "civil",
+  "procedural_weight": 0.55,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "CAPTA_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-67",
+    "CFSR_CFR": "https://www.law.cornell.edu/cfr/text/45/part-1355"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "45 CFR Part 1355 (CFSR)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Nevada - NRS Chapter\u00a0432B (Protection of Children from Abuse and Neglect)",
+          "source_url": "https://www.leg.state.nv.us/NRS/NRS-432B.html",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Title 127: Adoption",
+          "source_url": "https://law.justia.com/codes/nevada/title-127/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 128: Termination of Parental Rights",
+          "source_url": "https://law.justia.com/codes/nevada/title-128/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 432: Services for Children - DCFS",
+          "source_url": "https://law.justia.com/codes/nevada/title-432/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Chapter 62G - Rehabilitation of Delinquent Children",
+          "url": "https://www.law.cornell.edu/regulations/nevada/chapter-62G"
+        },
+        {
+          "title": "Chapter 62H - Records Related to Children",
+          "url": "https://www.law.cornell.edu/regulations/nevada/chapter-62H"
+        },
+        {
+          "title": "Chapter 127 - Adoption of Children",
+          "url": "https://www.law.cornell.edu/regulations/nevada/chapter-127"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/nevada.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_NV",
+      "plane_file": "legal_planes/state_constitutional/NV_constitution.json",
+      "provisions_triggered": []
+    },
+    "case_law": {
+      "search_keywords": [
+        "Nevada Division of Child and Family Services",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal",
+        "exigent circumstances"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Nevada%22%20AND%20%28%22Nevada%20Division%20of%20Child%20and%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "termination of parental rights",
+        "TPR",
+        "adoption",
+        "permanency",
+        "aging out"
+      ],
+      "jurisdiction": "Nevada state courts",
+      "key_cases": [
+        {
+          "case_id": "87887",
+          "title": "IN RE: GUARDIANSHIP OF H.B. III",
+          "url": "https://law.justia.com/cases/nevada/supreme-court/2025/87887.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Nevada Supreme Court Case 87887 (2025)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "guardianship"
+          ],
+          "child_welfare_reason": "High: In re guardianship, In re"
+        },
+        {
+          "case_id": "89623-coa",
+          "title": "IN RE: GUARDIANSHIP OF A.L.R.-Q., A.R.W. AND A.M.W. (CHILD CUSTODY)",
+          "url": "https://law.justia.com/cases/nevada/court-of-appeals/2025/89623-coa.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Nevada Court Of Appeals Case 89623-coa (2025)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "guardianship"
+          ],
+          "child_welfare_reason": "High: In re guardianship, In re"
+        },
+        {
+          "case_id": "84655",
+          "title": "In re Guardianship of Jones",
+          "url": "https://law.justia.com/cases/nevada/supreme-court/2024/84655.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Nevada Supreme Court Case 84655 (2024)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "guardianship"
+          ],
+          "child_welfare_reason": "High: In re guardianship, In re"
+        },
+        {
+          "case_id": "84655",
+          "title": "In re Guardianship of Jones",
+          "url": "https://law.justia.com/cases/nevada/supreme-court/2023/84655.html",
+          "year": 2023,
+          "court": "Supreme Court",
+          "citation": "Nevada Supreme Court Case 84655 (2023)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "guardianship"
+          ],
+          "child_welfare_reason": "High: In re guardianship, In re"
+        },
+        {
+          "case_id": "83967",
+          "title": "In re Guardianship of Jones",
+          "url": "https://law.justia.com/cases/nevada/supreme-court/2023/83967.html",
+          "year": 2023,
+          "court": "Supreme Court",
+          "citation": "Nevada Supreme Court Case 83967 (2023)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "guardianship"
+          ],
+          "child_welfare_reason": "High: In re guardianship, In re"
+        },
+        {
+          "case_id": "81799-coa",
+          "title": "In re Guardianship of Jones",
+          "url": "https://law.justia.com/cases/nevada/court-of-appeals/2022/81799-coa.html",
+          "year": 2022,
+          "court": "Court Of Appeals",
+          "citation": "Nevada Court Of Appeals Case 81799-coa (2022)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "guardianship"
+          ],
+          "child_welfare_reason": "High: In re guardianship, In re"
+        },
+        {
+          "case_id": "80300",
+          "title": "In re Guardianship of Rubin",
+          "url": "https://law.justia.com/cases/nevada/supreme-court/2021/80300.html",
+          "year": 2021,
+          "court": "Supreme Court",
+          "citation": "Nevada Supreme Court Case 80300 (2021)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "guardianship"
+          ],
+          "child_welfare_reason": "High: In re guardianship, In re"
+        },
+        {
+          "case_id": "78626-coa",
+          "title": "In re Guardianship of B.A.A.R.",
+          "url": "https://law.justia.com/cases/nevada/court-of-appeals/2020/78626-coa.html",
+          "year": 2020,
+          "court": "Court Of Appeals",
+          "citation": "Nevada Court Of Appeals Case 78626-coa (2020)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "guardianship"
+          ],
+          "child_welfare_reason": "High: In re guardianship, In re"
+        },
+        {
+          "case_id": "89258",
+          "title": "In re Parental Rights as to S.A.T.",
+          "url": "https://law.justia.com/cases/nevada/supreme-court/2025/89258.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Nevada Supreme Court Case 89258 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "86781",
+          "title": "IN RE: DISCIPLINE OF HARDEEP SULL",
+          "url": "https://law.justia.com/cases/nevada/supreme-court/2025/86781.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Nevada Supreme Court Case 86781 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Division of Child and Family Services",
+    "acronym": "DCFS",
+    "hotline": "1-833-803-1183",
+    "website": "https://www.leg.state.nv.us"
+  },
+  "extended_foster_care": true,
+  "extended_foster_care_age": "Up to age 21 (until 21st birthday)",
+  "linked_action": "ACT-02",
+  "linked_decision": "DEC-01",
+  "linked_input": "INP-01",
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.800240",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.754608",
+    "schema_version": "3.0.0",
+    "trigger_name_fixed": "2025-12-22T22:53:02.397369",
+    "leaves_linked": "2025-12-24T18:14:22.141464+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "clear_and_convincing",
+    "who_bears_burden": "state",
+    "common_failures": [
+      "Insufficient evidence for TPR",
+      "Failure to prove unfitness by clear and convincing evidence",
+      "Santosky v. Kramer standard not met"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Permanency hearing",
+      "deadline": "12 months",
+      "starts_from": "Child enters care",
+      "source": "federal_statute",
+      "consequence_of_miss": "ASFA violation"
+    },
+    {
+      "requirement_name": "TPR filing",
+      "deadline": "15 of 22 months",
+      "starts_from": "Child enters care",
+      "source": "federal_statute",
+      "consequence_of_miss": "Must file TPR or document compelling reason"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian",
+        "putative_father",
+        "tribe",
+        "foster_parent"
+      ],
+      "method": "certified_mail",
+      "timing": "10-30 days before TPR hearing",
+      "content_required": [
+        "TPR grounds",
+        "Date/time/location",
+        "Right to counsel"
+      ],
+      "icwa_additional_notice": true,
+      "defective_notice_consequence": "TPR may be vacated"
+    }
+  ]
+}

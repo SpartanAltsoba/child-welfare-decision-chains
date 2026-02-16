@@ -1,0 +1,281 @@
+{
+  "node_id": "DC_FAIL-06",
+  "state": "DC",
+  "state_name": "District of Columbia",
+  "node_family": "FAIL",
+  "subnode": "FAIL-06",
+  "trigger_name": "Disclosure / Transparency Failure",
+  "summary_html": "Agency fails to **disclose required data or reports**, obstructing transparency. Federal statutes require public reporting under CAPTA, FOIA, and Sunshine provisions.",
+  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 mandates public availability of child-fatality information  \n- **Freedom of Information Act (5 U.S.C. \u00a7 552)** \u2014 public access to federal records  \n- **Government in the Sunshine Act (5 U.S.C. \u00a7 552b)** \u2014 open-meeting requirements",
+  "icon": "\ud83d\udd73\ufe0f",
+  "theme_color": "#708090",
+  "domain": "civil",
+  "procedural_weight": 0.6,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "CAPTA_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-67",
+    "FOIA_Cornell": "https://www.law.cornell.edu/uscode/text/5/552",
+    "Sunshine_Cornell": "https://www.law.cornell.edu/uscode/text/5/552b"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "5 U.S.C. \u00a7 552 (FOIA)",
+        "5 U.S.C. \u00a7 552b (Sunshine Act)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "District of Columbia - D.C. Code \u00a7 4-1321.02 (Failure to Report Penalties)",
+          "source_url": "https://code.dccouncil.gov/us/dc/council/code/titles/4/chapters/1321",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "District of Columbia - D.C. Code Title 16, Chapter 23 (Due Process Rights)",
+          "source_url": "https://code.dccouncil.gov/us/dc/council/code/titles/16/chapters/23",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        }
+      ]
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_DC",
+      "plane_file": "legal_planes/state_constitutional/DC_constitution.json",
+      "provisions_triggered": []
+    },
+    "case_law": {
+      "search_keywords": [
+        "CPS",
+        "child protective services",
+        "due process",
+        "parental rights",
+        "wrongful removal",
+        "1983 claim",
+        "civil rights",
+        "immunity",
+        "damages"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22District%20of%20Columbia%22%20AND%20%28%22CPS%22%20OR%20%22child%20protective%20services%22%20OR%20%22due%20process%22%20OR%20%22parental%20rights%22%20OR%20%22wrongful%20removal%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "wrongful removal",
+        "1983 claim",
+        "civil rights",
+        "immunity",
+        "damages"
+      ],
+      "jurisdiction": "District of Columbia state courts",
+      "key_cases": [
+        {
+          "case_id": "24-fs-0078",
+          "title": "In re L.C.",
+          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/24-fs-0078.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "District Of Columbia Court Of Appeals Case 24-fs-0078 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re initials"
+        },
+        {
+          "case_id": "25-bg-0469",
+          "title": "In re Gumbinner (Per Curiam)",
+          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/25-bg-0469.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "District Of Columbia Court Of Appeals Case 25-bg-0469 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "25-bg-0588-0",
+          "title": "In re Larson-Jackson (Per Curiam)",
+          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/25-bg-0588-0.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "District Of Columbia Court Of Appeals Case 25-bg-0588-0 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "25-bg-0704",
+          "title": "In re Pisner (Per Curiam)",
+          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/25-bg-0704.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "District Of Columbia Court Of Appeals Case 25-bg-0704 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "19-bg-0587",
+          "title": "In re Wallace",
+          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/19-bg-0587.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "District Of Columbia Court Of Appeals Case 19-bg-0587 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "25-bg-0685",
+          "title": "In re Lee (Per Curiam)",
+          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/25-bg-0685.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "District Of Columbia Court Of Appeals Case 25-bg-0685 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "25-bg-0729",
+          "title": "In re Banks (Per Curiam)",
+          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/25-bg-0729.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "District Of Columbia Court Of Appeals Case 25-bg-0729 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "25-bg-0588",
+          "title": "In re Larson-Jackson (Per Curiam)",
+          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/25-bg-0588.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "District Of Columbia Court Of Appeals Case 25-bg-0588 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "25-bg-0605",
+          "title": "In re Ross (Per Curiam)",
+          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/25-bg-0605.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "District Of Columbia Court Of Appeals Case 25-bg-0605 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "25-bg-0982",
+          "title": "In re Hill (Per Curiam)",
+          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/25-bg-0982.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "District Of Columbia Court Of Appeals Case 25-bg-0982 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    },
+    "administrative_rule": {
+      "regulations_applicable": []
+    }
+  },
+  "state_agency": {
+    "name": "Child and Family Services Agency",
+    "acronym": "CFSA",
+    "hotline": "202-671-7233",
+    "website": ""
+  },
+  "linked_output": "OUT-06",
+  "linked_action": "ACT-03",
+  "linked_decision": "DEC-04",
+  "linked_input": "INP-01",
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.728915",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.546250",
+    "schema_version": "3.0.0",
+    "trigger_name_fixed": "2025-12-22T22:53:02.295671",
+    "leaves_linked": "2025-12-24T20:18:20.319174+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "preponderance",
+    "who_bears_burden": "parent",
+    "common_failures": [
+      "Failure to preserve evidence",
+      "Missing deadlines for legal challenges",
+      "Inadequate documentation of violations"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Appeal deadline",
+      "deadline": "30 days",
+      "starts_from": "Final order",
+      "source": "court_rule",
+      "consequence_of_miss": "Loss of appeal rights"
+    },
+    {
+      "requirement_name": "1983 statute of limitations",
+      "deadline": "2-3 years",
+      "starts_from": "Violation occurred",
+      "source": "federal_statute",
+      "consequence_of_miss": "Claim barred"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "attorney"
+      ],
+      "method": "personal_service",
+      "timing": "Upon violation discovery",
+      "content_required": [
+        "Nature of violation",
+        "Remedies available"
+      ],
+      "defective_notice_consequence": "May extend statute of limitations"
+    }
+  ]
+}

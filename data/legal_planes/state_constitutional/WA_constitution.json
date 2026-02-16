@@ -1,0 +1,441 @@
+{
+  "plane_id": "state_constitutional_WA",
+  "plane_name": "Washington State Constitutional Plane",
+  "description": "Washington Constitution provisions relevant to child welfare and family rights.",
+  "authority_level": "state_supreme",
+  "state_code": "WA",
+  "state_name": "Washington",
+  "version": "1.0.0",
+  "created": "2025-12-22",
+  "updated": "2025-12-22",
+  "copyright": "Project Milk Carton 501(c)(3) - All Rights Reserved",
+  "constitution_source": {
+    "url": "https://leg.wa.gov/state-laws-and-rules/washington-state-constitution/",
+    "justia_url": "https://law.justia.com/constitution/washington/",
+    "official_name": "Washington Constitution",
+    "last_amended": "2022-11-08",
+    "last_verified": "2025-12-22"
+  },
+  "relationship_to_federal": {
+    "supremacy_clause_applies": true,
+    "can_provide_greater_protection": true,
+    "cannot_provide_less_protection": true
+  },
+  "relevant_provisions": [
+    {
+      "provision_id": "WA_CONST_SEARCH_SEIZURE",
+      "name": "Search and Seizure",
+      "article": "Article I",
+      "section": "Section 7",
+      "url": "https://law.justia.com/constitution/washington/constitution-1.html#:~:text=SECTION%207%20INVASION%20OF%20PRIVATE%20AFFAIRS%20OR%20HOME%20PROHIBITED.%0ANo%20person%20shall%20be%20disturbed%20in%20his%20private%20affairs%2C%20or%20his%20home%20invaded%2C%20without%20authority%20of%20law",
+      "citation": "Washington Const. art. I, \u00a7 7",
+      "text": "No person shall be disturbed in his private affairs, or his home invaded, without authority of law.",
+      "application_to_cps": "CPS removal of a child constitutes a seizure. Warrantless removals must meet exigent circumstances exception or be supported by court order.",
+      "federal_parallel": "U.S. Const. amend. IV",
+      "state_provides_greater_protection": false,
+      "key_cases": [],
+      "triggers_at_nodes": [
+        "INP-12",
+        "DEC-04",
+        "ACT-01",
+        "FAIL-01"
+      ]
+    },
+    {
+      "provision_id": "WA_CONST_DUE_PROCESS",
+      "name": "Due Process / Law of the Land",
+      "article": "Article I",
+      "section": "Section 3",
+      "url": "https://law.justia.com/constitution/washington/constitution-1.html#:~:text=SECTION%203%20PERSONAL%20RIGHTS.%0ANo%20person%20shall%20be%20deprived%20of%20life%2C%20liberty%2C%20or%20property%2C%20without%20due%20process%20of%20law",
+      "citation": "Washington Const. art. I, \u00a7 3",
+      "text": "No person shall be deprived of life, liberty, or property, without due process of law.",
+      "application_to_cps": "Parents have a fundamental liberty interest in the care and custody of their children. Termination of parental rights requires clear and convincing evidence and proper procedural protections.",
+      "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1",
+      "state_provides_greater_protection": false,
+      "key_cases": [
+        {
+          "case_id": "98905-2",
+          "title": "In re Termination of Parental Rights to M.A.S.C. (Majority)",
+          "url": "https://law.justia.com/cases/washington/supreme-court/2021/98905-2.html",
+          "year": 2021,
+          "court": "Supreme Court",
+          "citation": "Washington Supreme Court Case 98905-2 (2021)",
+          "relevance_score": 3,
+          "matched_keywords": [
+            "termination of parental rights",
+            "termination",
+            "tpr"
+          ],
+          "child_welfare_reason": "High: TPR, In re TPR, In re",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "103-768-6",
+          "title": "In re Dependency of C.J.J.I. (Majority)",
+          "url": "https://law.justia.com/cases/washington/supreme-court/2025/103-768-6.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Washington Supreme Court Case 103-768-6 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "dependency"
+          ],
+          "child_welfare_reason": "High: In re, dependency",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "103-541-1",
+          "title": "In Re Dependency of C.J.J.I. (Majority)",
+          "url": "https://law.justia.com/cases/washington/supreme-court/2025/103-541-1.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Washington Supreme Court Case 103-541-1 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "dependency"
+          ],
+          "child_welfare_reason": "High: In re, dependency",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "102-486-0",
+          "title": "In re Dependency of M.L.W. (Majority, Concurrence and Dissent)",
+          "url": "https://law.justia.com/cases/washington/supreme-court/2024/102-486-0.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Washington Supreme Court Case 102-486-0 (2024)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "dependency"
+          ],
+          "child_welfare_reason": "High: In re, dependency",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "103-129-7",
+          "title": "In re Dependency of E.M. (Majority)",
+          "url": "https://law.justia.com/cases/washington/supreme-court/2024/103-129-7.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Washington Supreme Court Case 103-129-7 (2024)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "dependency"
+          ],
+          "child_welfare_reason": "High: In re, dependency",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "102-344-8",
+          "title": "In re Dependency of Baby Boy B. (Majority)",
+          "url": "https://law.justia.com/cases/washington/supreme-court/2024/102-344-8.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Washington Supreme Court Case 102-344-8 (2024)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "dependency"
+          ],
+          "child_welfare_reason": "High: In re, dependency",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "102-558-1",
+          "title": "In re Dependency of A.H. (Majority)",
+          "url": "https://law.justia.com/cases/washington/supreme-court/2024/102-558-1.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Washington Supreme Court Case 102-558-1 (2024)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "dependency"
+          ],
+          "child_welfare_reason": "High: In re, dependency",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "102-729-0",
+          "title": "In re Dependency of Z.A. (Majority)",
+          "url": "https://law.justia.com/cases/washington/supreme-court/2024/102-729-0.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Washington Supreme Court Case 102-729-0 (2024)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "dependency"
+          ],
+          "child_welfare_reason": "High: In re, dependency",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "101-270-5",
+          "title": "In re Dependency of A.M.F. (Majority)",
+          "url": "https://law.justia.com/cases/washington/supreme-court/2023/101-270-5.html",
+          "year": 2023,
+          "court": "Supreme Court",
+          "citation": "Washington Supreme Court Case 101-270-5 (2023)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "dependency"
+          ],
+          "child_welfare_reason": "High: In re, dependency",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "100-966-6",
+          "title": "In re Dependency of A.C. (Majority, Concurrence and Dissent)",
+          "url": "https://law.justia.com/cases/washington/supreme-court/2023/100-966-6.html",
+          "year": 2023,
+          "court": "Supreme Court",
+          "citation": "Washington Supreme Court Case 100-966-6 (2023)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "dependency"
+          ],
+          "child_welfare_reason": "High: In re, dependency",
+          "provision_match": "DUE_PROCESS"
+        }
+      ],
+      "triggers_at_nodes": [
+        "DEC-05",
+        "DEC-06",
+        "ACT-04",
+        "OUT-02",
+        "OUT-03"
+      ]
+    },
+    {
+      "provision_id": "WA_CONST_PRIVACY",
+      "name": "Right to Privacy",
+      "article": "Article I",
+      "section": "Section 7",
+      "url": "https://law.justia.com/constitution/washington/#section-7",
+      "citation": "Washington Const. art. I, \u00a7 7",
+      "text": "No person shall be disturbed in his private affairs, or his home invaded, without authority of law.",
+      "application_to_cps": "Explicit privacy right may provide additional protection against government intrusion into family decisions. May require compelling state interest for CPS intervention.",
+      "federal_parallel": "No explicit federal parallel - implied from penumbras of Bill of Rights (Griswold v. Connecticut)",
+      "state_provides_greater_protection": true,
+      "key_cases": [],
+      "triggers_at_nodes": [
+        "INP-01",
+        "DEC-01",
+        "ACT-01"
+      ]
+    }
+  ],
+  "unique_state_protections": [
+    {
+      "protection": "Explicit Constitutional Privacy Right",
+      "description": "Washington constitution explicitly protects privacy rights",
+      "federal_comparison": "Federal constitution has no explicit privacy right"
+    }
+  ],
+  "case_law_search_keywords": [
+    "Washington Department of Children Youth & Families",
+    "DCYF",
+    "CPS",
+    "due process",
+    "14th Amendment",
+    "42 U.S.C. 1983",
+    "reasonable efforts",
+    "reunification",
+    "emergency removal",
+    "wrongful removal",
+    "exigent circumstances",
+    "abuse",
+    "familial association"
+  ],
+  "state_supreme_court_cps_cases": [
+    {
+      "case_id": "103-768-6",
+      "title": "In re Dependency of C.J.J.I. (Majority)",
+      "url": "https://law.justia.com/cases/washington/supreme-court/2025/103-768-6.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Washington Supreme Court Case 103-768-6 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "dependency"
+      ],
+      "child_welfare_reason": "High: In re, dependency",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "103-541-1",
+      "title": "In Re Dependency of C.J.J.I. (Majority)",
+      "url": "https://law.justia.com/cases/washington/supreme-court/2025/103-541-1.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Washington Supreme Court Case 103-541-1 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "dependency"
+      ],
+      "child_welfare_reason": "High: In re, dependency",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "102-486-0",
+      "title": "In re Dependency of M.L.W. (Majority, Concurrence and Dissent)",
+      "url": "https://law.justia.com/cases/washington/supreme-court/2024/102-486-0.html",
+      "year": 2024,
+      "court": "Supreme Court",
+      "citation": "Washington Supreme Court Case 102-486-0 (2024)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "dependency"
+      ],
+      "child_welfare_reason": "High: In re, dependency",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "103-129-7",
+      "title": "In re Dependency of E.M. (Majority)",
+      "url": "https://law.justia.com/cases/washington/supreme-court/2024/103-129-7.html",
+      "year": 2024,
+      "court": "Supreme Court",
+      "citation": "Washington Supreme Court Case 103-129-7 (2024)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "dependency"
+      ],
+      "child_welfare_reason": "High: In re, dependency",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "102-344-8",
+      "title": "In re Dependency of Baby Boy B. (Majority)",
+      "url": "https://law.justia.com/cases/washington/supreme-court/2024/102-344-8.html",
+      "year": 2024,
+      "court": "Supreme Court",
+      "citation": "Washington Supreme Court Case 102-344-8 (2024)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "dependency"
+      ],
+      "child_welfare_reason": "High: In re, dependency",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "102-558-1",
+      "title": "In re Dependency of A.H. (Majority)",
+      "url": "https://law.justia.com/cases/washington/supreme-court/2024/102-558-1.html",
+      "year": 2024,
+      "court": "Supreme Court",
+      "citation": "Washington Supreme Court Case 102-558-1 (2024)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "dependency"
+      ],
+      "child_welfare_reason": "High: In re, dependency",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "102-729-0",
+      "title": "In re Dependency of Z.A. (Majority)",
+      "url": "https://law.justia.com/cases/washington/supreme-court/2024/102-729-0.html",
+      "year": 2024,
+      "court": "Supreme Court",
+      "citation": "Washington Supreme Court Case 102-729-0 (2024)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "dependency"
+      ],
+      "child_welfare_reason": "High: In re, dependency",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "101-270-5",
+      "title": "In re Dependency of A.M.F. (Majority)",
+      "url": "https://law.justia.com/cases/washington/supreme-court/2023/101-270-5.html",
+      "year": 2023,
+      "court": "Supreme Court",
+      "citation": "Washington Supreme Court Case 101-270-5 (2023)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "dependency"
+      ],
+      "child_welfare_reason": "High: In re, dependency",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "100-966-6",
+      "title": "In re Dependency of A.C. (Majority, Concurrence and Dissent)",
+      "url": "https://law.justia.com/cases/washington/supreme-court/2023/100-966-6.html",
+      "year": 2023,
+      "court": "Supreme Court",
+      "citation": "Washington Supreme Court Case 100-966-6 (2023)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "dependency"
+      ],
+      "child_welfare_reason": "High: In re, dependency",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "100-144-4",
+      "title": "In re Welfare of M.R. (Majority and Dissent)",
+      "url": "https://law.justia.com/cases/washington/supreme-court/2022/100-144-4.html",
+      "year": 2022,
+      "court": "Supreme Court",
+      "citation": "Washington Supreme Court Case 100-144-4 (2022)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re",
+      "provision_match": "FAMILY_INTEGRITY"
+    },
+    {
+      "case_id": "98905-2",
+      "title": "In re Termination of Parental Rights to M.A.S.C. (Majority)",
+      "url": "https://law.justia.com/cases/washington/supreme-court/2021/98905-2.html",
+      "year": 2021,
+      "court": "Supreme Court",
+      "citation": "Washington Supreme Court Case 98905-2 (2021)",
+      "relevance_score": 3,
+      "matched_keywords": [
+        "termination of parental rights",
+        "termination",
+        "tpr"
+      ],
+      "child_welfare_reason": "High: TPR, In re TPR, In re",
+      "provision_match": "DUE_PROCESS"
+    }
+  ],
+  "procedural_weight_modifiers": {
+    "explicit_privacy_right": 0.1,
+    "note": "Modifiers adjust procedural_weight for state nodes based on enhanced protections"
+  },
+  "_metadata": {
+    "created": "2025-12-22T20:38:16.838468",
+    "source": "state_constitution_etl",
+    "data_sources": [
+      "justia",
+      "state_legislature",
+      "courtlistener_keywords"
+    ],
+    "requires_case_law_enrichment": false,
+    "case_law_enriched": "2025-12-24T20:37:16.048291+00:00",
+    "enricher_version": "1.0.0",
+    "cases_analyzed": 87,
+    "cases_linked": 10
+  },
+  "case_law_search": {
+    "search_keywords": [
+      "Washington Department of Children Youth & Families",
+      "DCYF",
+      "CPS",
+      "due process",
+      "14th Amendment",
+      "42 U.S.C. 1983",
+      "reasonable efforts",
+      "reunification",
+      "emergency removal",
+      "wrongful removal"
+    ],
+    "courtlistener_url": "https://www.courtlistener.com/?q=%22Washington%22%20AND%20%28%22Washington%20Department%20of%20Children%20Youth%20%26%20Families%22%20OR%20%22DCYF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
+    "supreme_court_focus": true,
+    "_note": "Search for state supreme court cases on CPS constitutional issues"
+  }
+}

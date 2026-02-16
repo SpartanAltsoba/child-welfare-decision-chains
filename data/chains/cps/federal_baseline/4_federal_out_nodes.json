@@ -1,0 +1,203 @@
+{
+  "federal_out_nodes": [
+    {
+      "subnode": "OUT-01",
+      "state": "United States",
+      "node": "OUT",
+      "output_name": "Family Reunification / Case Closure",
+      "theme_color": "#32CD32",
+      "icon": "🏠",
+      "summary_html": "Child safely **reunified with parent or guardian**, case closed. Federal policy treats reunification as the preferred outcome once risk factors are mitigated.",
+      "authority_html": "- **Adoption and Safe Families Act (ASFA)** — establishes reunification timelines and permanency goals  \n- **SSA Title IV-E (42 U.S.C. §§ 670–679c)** — funds reunification services and tracks permanency outcomes",
+      "urls": {
+        "ASFA_PLAW": "https://www.congress.gov/105/plaws/publ89/PLAW-105publ89.pdf",
+        "ASFA_PDF": "https://www.govinfo.gov/content/pkg/PLAW-105publ89/pdf/PLAW-105publ89.pdf",
+        "SSA_IV_E_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-7/subchapter-IV/part-E"
+      },
+      "statutory_authority": {
+        "federal": [
+          "Public Law 105-89 (ASFA)",
+          "42 U.S.C. §§ 670–679c (SSA Title IV-E)"
+        ],
+        "state": []
+      },
+      "linked_action": "ACT-02",
+      "linked_decision": "DEC-03",
+      "linked_input": "INP-01",
+      "outcome_basis": "Services successful; child safety assured; court orders case closure or dismisses petition.",
+      "due_process_hooks": "Court approval; notice to parties; discharge orders; record retention per state/federal rules.",
+      "domain": "civil",
+      "procedural_weight": 0.6,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "ASFA reunification and permanency provisions"
+      ],
+      "trigger_name": "Reunification"
+    },
+    {
+      "subnode": "OUT-02",
+      "state": "United States",
+      "node": "OUT",
+      "output_name": "Adoption / Termination of Parental Rights (TPR)",
+      "theme_color": "#8A2BE2",
+      "icon": "👶",
+      "summary_html": "**Parental rights terminated** and **child adopted**. Federal law prioritizes timely permanency for children when reunification is not viable.",
+      "authority_html": "- **ASFA (42 U.S.C. §§ 671–675)** — establishes 15/22-month TPR guideline  \n- **SSA Title IV-E** — adoption assistance and subsidy framework",
+      "urls": {
+        "ASFA_PLAW": "https://www.congress.gov/105/plaws/publ89/PLAW-105publ89.pdf",
+        "SSA_IV_E_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-7/subchapter-IV/part-E"
+      },
+      "statutory_authority": {
+        "federal": [
+          "42 U.S.C. §§ 671–675 (ASFA)",
+          "42 U.S.C. §§ 670–679c (SSA Title IV-E)"
+        ],
+        "state": []
+      },
+      "linked_action": "ACT-03",
+      "linked_decision": "DEC-04",
+      "linked_input": "INP-01",
+      "outcome_basis": "Court finds clear and convincing evidence parental rights should be terminated; adoption finalized.",
+      "due_process_hooks": "Counsel for parents; clear-and-convincing-evidence standard; appellate review; compliance with ICWA where applicable.",
+      "domain": "civil",
+      "procedural_weight": 0.45,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "ASFA/IV-E adoption and TPR guidelines"
+      ],
+      "trigger_name": "Termination of Parental Rights / Adoption"
+    },
+    {
+      "subnode": "OUT-03",
+      "state": "United States",
+      "node": "OUT",
+      "output_name": "Guardianship / Kinship Permanency",
+      "theme_color": "#FFD700",
+      "icon": "👨‍👩‍👧",
+      "summary_html": "Child achieves **permanency through legal guardianship** or kinship care. Federal programs provide funding parity with adoption for approved relatives.",
+      "authority_html": "- **Fostering Connections to Success and Increasing Adoptions Act (FCSIAA)** — kinship-guardianship assistance  \n- **SSA Title IV-E (42 U.S.C. § 673(d))** — authorizes Guardianship Assistance Program (GAP)",
+      "urls": {
+        "FCSIAA_PLAW": "https://www.congress.gov/110/plaws/publ351/PLAW-110publ351.pdf",
+        "SSA_IV_E_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-7/subchapter-IV/part-E"
+      },
+      "statutory_authority": {
+        "federal": [
+          "Public Law 110-351 (FCSIAA)",
+          "42 U.S.C. § 673(d) (IV-E Guardianship Assistance)"
+        ],
+        "state": []
+      },
+      "linked_action": "ACT-04",
+      "linked_decision": "DEC-04",
+      "linked_input": "INP-01",
+      "outcome_basis": "Court grants guardianship or legal custody to approved relative/kin; case closed.",
+      "due_process_hooks": "Court hearing; background checks; ongoing subsidy eligibility; periodic review optional.",
+      "domain": "civil",
+      "procedural_weight": 0.55,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "FCSIAA and IV-E Guardianship Assistance references"
+      ],
+      "trigger_name": "Guardianship / Kinship Permanency"
+    },
+    {
+      "subnode": "OUT-04",
+      "state": "United States",
+      "node": "OUT",
+      "output_name": "Extended Foster Care / Transitional Services (Aging Out)",
+      "theme_color": "#4682B4",
+      "icon": "🧭",
+      "summary_html": "Youth remains in **extended foster care** or receives **transitional services** after age 18 under federal programs promoting independence.",
+      "authority_html": "- **Chafee Foster Care Independence Act (CFCIA)** — independent-living and transition funding  \n- **FCSIAA** — extends care to age 21 with education and housing supports",
+      "urls": {
+        "CFCIA_PLAW": "https://www.congress.gov/106/plaws/publ169/PLAW-106publ169.pdf",
+        "FCSIAA_PLAW": "https://www.congress.gov/110/plaws/publ351/PLAW-110publ351.pdf"
+      },
+      "statutory_authority": {
+        "federal": [
+          "Public Law 106-169 (CFCIA)",
+          "Public Law 110-351 (FCSIAA)"
+        ],
+        "state": []
+      },
+      "linked_action": "ACT-03",
+      "linked_decision": "DEC-05",
+      "linked_input": "INP-01",
+      "outcome_basis": "Youth elects or qualifies for continued placement/support after 18; transition plan approved.",
+      "due_process_hooks": "Voluntary participation; eligibility review; notice of benefits and rights.",
+      "domain": "civil",
+      "procedural_weight": 0.5,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "CFCIA and FCSIAA transition provisions"
+      ],
+      "trigger_name": "Extended Foster Care / Aging Out"
+    },
+    {
+      "subnode": "OUT-05",
+      "state": "United States",
+      "node": "OUT",
+      "output_name": "Case Dismissed / Unsubstantiated Outcome",
+      "theme_color": "#708090",
+      "icon": "🗃️",
+      "summary_html": "Case dismissed due to **unsubstantiated evidence** or court determination that allegations not proven. Federal oversight requires accurate recording of such closures for audit and funding compliance.",
+      "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — defines data-collection standards for unfounded cases  \n- **CFSR (45 CFR Part 1355)** — requires tracking and reporting of unsubstantiated outcomes",
+      "urls": {
+        "CAPTA_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-67",
+        "CFSR_CFR": "https://www.law.cornell.edu/cfr/text/45/part-1355"
+      },
+      "statutory_authority": {
+        "federal": [
+          "42 U.S.C. §§ 5101–5116 (CAPTA)",
+          "45 CFR Part 1355 (CFSR)"
+        ],
+        "state": []
+      },
+      "linked_action": "ACT-02",
+      "linked_decision": "DEC-01",
+      "linked_input": "INP-01",
+      "outcome_basis": "Evidence insufficient; allegations not substantiated; court or agency closes case.",
+      "due_process_hooks": "Notice to family; record update; rights to seal or expunge per state law.",
+      "domain": "civil",
+      "procedural_weight": 0.55,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "CAPTA and CFSR data tracking standards"
+      ],
+      "trigger_name": "Case Dismissal"
+    },
+    {
+      "subnode": "OUT-06",
+      "state": "United States",
+      "node": "OUT",
+      "output_name": "Fatality / Serious Harm Review",
+      "theme_color": "#B22222",
+      "icon": "⚰️",
+      "summary_html": "Case results in **child fatality or serious injury**, triggering mandatory federal and state review. Data and lessons inform systemic reform.",
+      "authority_html": "- **Protect Our Kids Act (PL 112-275)** — establishes national commission and reporting requirements  \n- **CAPTA §5106a(b)(2)(A)(x)** — mandates public disclosure and case review of fatalities",
+      "urls": {
+        "POKA_PLAW": "https://www.congress.gov/112/plaws/publ275/PLAW-112publ275.pdf",
+        "CAPTA_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-67"
+      },
+      "statutory_authority": {
+        "federal": [
+          "Public Law 112-275 (Protect Our Kids Act)",
+          "42 U.S.C. §§ 5101–5116 (CAPTA)"
+        ],
+        "state": []
+      },
+      "linked_action": "ACT-03",
+      "linked_decision": "DEC-04",
+      "linked_input": "INP-01",
+      "outcome_basis": "Child death or near-fatal incident during or following CPS involvement.",
+      "due_process_hooks": "Mandatory review by oversight body; federal/state reporting; confidentiality per CAPTA.",
+      "domain": "civil",
+      "procedural_weight": 0.3,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "Protect Our Kids Act and CAPTA fatality disclosure rules"
+      ],
+      "trigger_name": "Child Fatality / Serious Injury"
+    }
+  ]
+}

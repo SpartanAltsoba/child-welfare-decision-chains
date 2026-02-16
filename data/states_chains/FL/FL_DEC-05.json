@@ -1,0 +1,396 @@
+{
+  "node_id": "FL_DEC-05",
+  "state": "FL",
+  "state_name": "Florida",
+  "node_family": "DEC",
+  "subnode": "DEC-05",
+  "trigger_name": "File Petition / Open Dependency Case",
+  "summary_html": "Agency **files a court petition** to open a **dependency** (or similar) case. Federal funding frameworks (IV-E/ASFA) link court oversight, reasonable-efforts findings, and permanency timelines to downstream actions.",
+  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 court findings; timelines; permanency planning  \n- **CFSR (45 CFR Part 1355)** \u2014 federal review of court/agency performance measures",
+  "icon": "\ud83d\udcdc",
+  "theme_color": "#6A5ACD",
+  "domain": "civil",
+  "procedural_weight": 0.45,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "SSA_IV_E_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-7/subchapter-IV/part-E",
+    "ASFA_PLAW": "https://www.congress.gov/105/plaws/publ89/PLAW-105publ89.pdf",
+    "ASFA_PDF": "https://www.govinfo.gov/content/pkg/PLAW-105publ89/pdf/PLAW-105publ89.pdf",
+    "CFSR_eCFR": "https://www.ecfr.gov/current/title-45/subtitle-B/chapter-XIII/subchapter-G/part-1355"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [
+        "U.S. Const. amend. XIV, \u00a7 1"
+      ],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E)",
+        "Public Law 105-89 (ASFA)",
+        "45 CFR Part 1355 (CFSR)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Florida - Title V, Chapter 39 (Proceedings Relating to Children \u2013 abuse reporting and CPS)",
+          "source_url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099/0039/0039.html",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Title 39: Proceedings Relating to Children - CHILD WELFARE PRIMARY",
+          "source_url": "https://law.justia.com/codes/florida/title-39/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Department 63 - DEPARTMENT OF JUVENILE JUSTICE",
+          "url": "https://www.law.cornell.edu/regulations/florida/department-63"
+        },
+        {
+          "title": "Department 65 - DEPARTMENT OF CHILDREN AND FAMILIES",
+          "url": "https://www.law.cornell.edu/regulations/florida/department-65"
+        },
+        {
+          "title": "Florida Administrative Rule Title 39",
+          "url": "https://regulations.justia.com/states/florida/title-39/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Florida Administrative Rule Title 63",
+          "url": "https://regulations.justia.com/states/florida/title-63/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Florida Administrative Regulations",
+          "url": "https://regulations.justia.com/states/florida/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Florida Administrative Rule Title 1",
+          "url": "https://regulations.justia.com/states/florida/title-1/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Florida Administrative Rule Title 2",
+          "url": "https://regulations.justia.com/states/florida/title-2/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Florida Administrative Rule Title 3",
+          "url": "https://regulations.justia.com/states/florida/title-3/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Florida Administrative Rule Title 4",
+          "url": "https://regulations.justia.com/states/florida/title-4/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Florida Administrative Rule Title 5",
+          "url": "https://regulations.justia.com/states/florida/title-5/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Florida Administrative Rule Title 6",
+          "url": "https://regulations.justia.com/states/florida/title-6/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Florida Administrative Rule Title 7",
+          "url": "https://regulations.justia.com/states/florida/title-7/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/florida.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_FL",
+      "plane_file": "legal_planes/state_constitutional/FL_constitution.json",
+      "provisions_triggered": [
+        {
+          "provision_id": "FL_CONST_DUE_PROCESS",
+          "name": "Due Process / Law of the Land",
+          "citation": "Florida Const. art. I, \u00a7 9",
+          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+        }
+      ]
+    },
+    "case_law": {
+      "search_keywords": [
+        "Florida Department of Children and Families",
+        "DCF",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Florida%22%20AND%20%28%22Florida%20Department%20of%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "investigation",
+        "substantiation",
+        "evidence standard",
+        "due process",
+        "reasonable efforts"
+      ],
+      "jurisdiction": "Florida state courts",
+      "key_cases": [
+        {
+          "case_id": "sc2023-1072",
+          "title": "Christine Askew, etc. v. Florida Department of Children and Families",
+          "url": "https://law.justia.com/cases/florida/supreme-court/2024/sc2023-1072.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Florida Supreme Court Case sc2023-1072 (2024)",
+          "relevance_score": 3.0,
+          "matched_keywords": [
+            "florida department of children and families",
+            "dcf"
+          ],
+          "child_welfare_reason": "High: DCF"
+        },
+        {
+          "case_id": "sc2024-0030",
+          "title": "In Re: Amendments to Rules Regulating The Florida Bar - Miscellaneous Petition",
+          "url": "https://law.justia.com/cases/florida/supreme-court/2024/sc2024-0030.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Florida Supreme Court Case sc2024-0030 (2024)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "sc20-1467",
+          "title": "In Re: Amendments to the Rules Regulating The Florida Bar - Biennial Petition",
+          "url": "https://law.justia.com/cases/florida/supreme-court/2022/sc20-1467.html",
+          "year": 2022,
+          "court": "Supreme Court",
+          "citation": "Florida Supreme Court Case sc20-1467 (2022)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "sc20-1236",
+          "title": "In Re: Petition to Amend the Rules of the Supreme Court Relating to Admissions to the Bar and the Rules Regulating The Florida Bar",
+          "url": "https://law.justia.com/cases/florida/supreme-court/2020/sc20-1236.html",
+          "year": 2020,
+          "court": "Supreme Court",
+          "citation": "Florida Supreme Court Case sc20-1236 (2020)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "sc19-1246",
+          "title": "In Re: Standard Jury Instructions in Civil Cases - Report No. 19-03",
+          "url": "https://law.justia.com/cases/florida/supreme-court/2020/sc19-1246.html",
+          "year": 2020,
+          "court": "Supreme Court",
+          "citation": "Florida Supreme Court Case sc19-1246 (2020)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "sc19-1806",
+          "title": "In Re: Standard Jury Instructions in Criminal Cases - Report 2019-11",
+          "url": "https://law.justia.com/cases/florida/supreme-court/2020/sc19-1806.html",
+          "year": 2020,
+          "court": "Supreme Court",
+          "citation": "Florida Supreme Court Case sc19-1806 (2020)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "sc19-1856",
+          "title": "In Re: Standard Jury Instructions in Criminal Cases - Report 2019-12",
+          "url": "https://law.justia.com/cases/florida/supreme-court/2020/sc19-1856.html",
+          "year": 2020,
+          "court": "Supreme Court",
+          "citation": "Florida Supreme Court Case sc19-1856 (2020)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "sc19-470",
+          "title": "In Re: Standard Jury Instructions in Criminal Cases - Report 2019-03",
+          "url": "https://law.justia.com/cases/florida/supreme-court/2020/sc19-470.html",
+          "year": 2020,
+          "court": "Supreme Court",
+          "citation": "Florida Supreme Court Case sc19-470 (2020)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "sc19-1350",
+          "title": "In Re: Standard Jury Instructions in Civil Cases - Report No. 19-04",
+          "url": "https://law.justia.com/cases/florida/supreme-court/2020/sc19-1350.html",
+          "year": 2020,
+          "court": "Supreme Court",
+          "citation": "Florida Supreme Court Case sc19-1350 (2020)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "sc19-1654",
+          "title": "In Re: Standard Jury Instructions in Criminal Cases - Report 2019-08",
+          "url": "https://law.justia.com/cases/florida/supreme-court/2020/sc19-1654.html",
+          "year": 2020,
+          "court": "Supreme Court",
+          "citation": "Florida Supreme Court Case sc19-1654 (2020)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Department of Children and Families",
+    "acronym": "DCF",
+    "hotline": "1-800-962-2873",
+    "website": "https://www.leg.state.fl.us"
+  },
+  "investigation_requirements": [
+    "Home visit required",
+    "Victim interview required",
+    "Risk assessment required"
+  ],
+  "evidence_level": "Preponderance of evidence",
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.733207",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.560571",
+    "schema_version": "3.0.0",
+    "leaves_linked": "2025-12-24T18:14:21.137415+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "preponderance",
+    "who_bears_burden": "agency",
+    "common_failures": [
+      "Insufficient evidence for substantiation",
+      "Failure to document findings",
+      "Inconsistent application of evidence standards"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Safety decision",
+      "deadline": "Immediate upon contact",
+      "starts_from": "First family contact",
+      "source": "admin_rule",
+      "consequence_of_miss": "Child safety risk"
+    },
+    {
+      "requirement_name": "Disposition finding",
+      "deadline": "30-60 days",
+      "starts_from": "Investigation opened",
+      "source": "state_statute",
+      "consequence_of_miss": "Procedural violation"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian",
+        "putative_father"
+      ],
+      "method": "personal_service",
+      "timing": "Before disposition",
+      "content_required": [
+        "Findings",
+        "Rights to appeal"
+      ],
+      "defective_notice_consequence": "Disposition may be overturned"
+    }
+  ],
+  "door_scenarios": [
+    {
+      "who_at_door": [
+        "investigator",
+        "law_enforcement"
+      ],
+      "trigger_reason": "Investigation follow-up or joint response",
+      "legal_authority_to_enter": "consent_or_warrant",
+      "parent_rights_at_moment": [
+        "Right to see warrant",
+        "Right to attorney",
+        "Right to remain silent"
+      ],
+      "what_to_say": [
+        "Do you have a court order?",
+        "I need to see the warrant",
+        "I am exercising my right to remain silent"
+      ],
+      "what_not_to_do": [
+        "Do not consent to search",
+        "Do not sign anything without attorney review",
+        "Do not allow fishing expedition"
+      ],
+      "next_possible_nodes": [
+        "ACT-01",
+        "FAIL-02"
+      ]
+    }
+  ]
+}

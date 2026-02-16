@@ -1,0 +1,354 @@
+{
+  "node_id": "TX_FAIL-01",
+  "state": "TX",
+  "state_name": "Texas",
+  "node_family": "FAIL",
+  "subnode": "FAIL-01",
+  "trigger_name": "Court Reversal of Agency Decision",
+  "summary_html": "A **court reverses or vacates** a CPS or agency decision due to procedural error, insufficient evidence, or constitutional violation. Federal review data (CFSR, ASFA) tracks judicial determinations on reasonable efforts and due process.",
+  "authority_html": "- **Adoption and Safe Families Act (ASFA)** \u2014 judicial findings of 'reasonable efforts' compliance  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal review of judicial/agency conformity  \n- **42 U.S.C. \u00a7 1983** \u2014 civil-rights remedy for unconstitutional removals (14th & 4th Amendments).",
+  "icon": "\u2696\ufe0f",
+  "theme_color": "#FF6347",
+  "domain": "civil",
+  "procedural_weight": 0.8,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "ASFA_PDF": "https://www.govinfo.gov/content/pkg/PLAW-105publ89/pdf/PLAW-105publ89.pdf",
+    "CFSR_CFR": "https://www.law.cornell.edu/cfr/text/45/part-1355"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [
+        "U.S. Const. amend. IV",
+        "U.S. Const. amend. XIV, \u00a7 1"
+      ],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "Public Law 105-89 (ASFA)",
+        "45 CFR Part 1355 (CFSR)",
+        "42 U.S.C. \u00a7 1983 (Civil Rights Act)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Texas - Texas Family Code Chapter\u00a0261 (Investigation of Report of Abuse or Neglect)",
+          "source_url": "https://statutes.capitol.texas.gov/Docs/FA/htm/FA.261.htm",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Texas - Texas Family Code Chapter\u00a0262 (Removal of Child in an Emergency)",
+          "source_url": "https://statutes.capitol.texas.gov/Docs/FA/htm/FA.262.htm",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Title 26 - HEALTH AND HUMAN SERVICES",
+          "url": "https://www.law.cornell.edu/regulations/texas/title-26"
+        },
+        {
+          "title": "Title 40 - SOCIAL SERVICES AND ASSISTANCE",
+          "url": "https://www.law.cornell.edu/regulations/texas/title-40"
+        },
+        {
+          "title": "Texas Administrative Regulations",
+          "url": "https://regulations.justia.com/states/texas/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Texas Administrative Rule Title 1",
+          "url": "https://regulations.justia.com/states/texas/title-1/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Texas Administrative Rule Title 2",
+          "url": "https://regulations.justia.com/states/texas/title-2/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Texas Administrative Rule Title 3",
+          "url": "https://regulations.justia.com/states/texas/title-3/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Texas Administrative Rule Title 4",
+          "url": "https://regulations.justia.com/states/texas/title-4/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Texas Administrative Rule Title 5",
+          "url": "https://regulations.justia.com/states/texas/title-5/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Texas Administrative Rule Title 6",
+          "url": "https://regulations.justia.com/states/texas/title-6/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Texas Administrative Rule Title 7",
+          "url": "https://regulations.justia.com/states/texas/title-7/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Texas Administrative Rule Title 8",
+          "url": "https://regulations.justia.com/states/texas/title-8/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Texas Administrative Rule Title 9",
+          "url": "https://regulations.justia.com/states/texas/title-9/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/texas.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_TX",
+      "plane_file": "legal_planes/state_constitutional/TX_constitution.json",
+      "provisions_triggered": [
+        {
+          "provision_id": "TX_CONST_SEARCH_SEIZURE",
+          "name": "Search and Seizure",
+          "citation": "Texas Const. art. I, \u00a7 9",
+          "federal_parallel": "U.S. Const. amend. IV"
+        },
+        {
+          "provision_id": "TX_CONST_DUE_PROCESS",
+          "name": "Due Process / Law of the Land",
+          "citation": "Texas Const. art. I, \u00a7 19",
+          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+        }
+      ]
+    },
+    "case_law": {
+      "search_keywords": [
+        "Texas Department of Family and Protective Services",
+        "DFPS",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Texas%22%20AND%20%28%22Texas%20Department%20of%20Family%20and%20Protective%20Services%22%20OR%20%22DFPS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "wrongful removal",
+        "1983 claim",
+        "civil rights",
+        "immunity",
+        "damages"
+      ],
+      "jurisdiction": "Texas state courts",
+      "key_cases": [
+        {
+          "case_id": "21-0235",
+          "title": "IN RE TEXAS DEPARTMENT OF FAMILY AND PROTECTIVE SERVICES; from Fort Bend County; 14th Court of Appeals District (14-20-00703-CV, ___ SW3d ___, 03-09-21) (Dissenting)",
+          "url": "https://law.justia.com/cases/texas/supreme-court/2021/21-0235.html",
+          "year": 2021,
+          "court": "Supreme Court",
+          "citation": "Texas Supreme Court Case 21-0235 (2021)",
+          "relevance_score": 2.5,
+          "matched_keywords": [
+            "texas department of family and protective services"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "22-0229",
+          "title": "IN RE GREG ABBOTT IN HIS OFFICIAL CAPACITY AS GOVERNOR OF THE STATE OF TEXAS; JAIME MASTERS IN HER OFFICIAL CAPACITY AS COMMISSIONER OF THE DEPARTMENT OF FAMILY AND PROTECTIVE SERVICES; AND THE TEXAS DEPARTMENT OF FAMILY AND PROTECTIVE SERVICES; from Travi (Concurring)",
+          "url": "https://law.justia.com/cases/texas/supreme-court/2022/22-0229.html",
+          "year": 2022,
+          "court": "Supreme Court",
+          "citation": "Texas Supreme Court Case 22-0229 (2022)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "texas department of family and protective services"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "20-0404",
+          "title": "IN RE THE TEXAS EDUCATION AGENCY; MIKE MORATH, COMMISSIONER OF EDUCATION IN HIS OFFICIAL CAPACITY; AND DORIS DELANEY, IN HER OFFICIAL CAPACITY; from Travis County; 3rd Court of Appeals District (03-20-00025-CV, 609 SW3d 569, 04-24-20) (Dissenting)",
+          "url": "https://law.justia.com/cases/texas/supreme-court/2021/20-0404.html",
+          "year": 2021,
+          "court": "Supreme Court",
+          "citation": "Texas Supreme Court Case 20-0404 (2021)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "25-0641-0",
+          "title": "IN RE KEN PAXTON AND THE OFFICE OF THE ATTORNEY GENERAL; from Travis County; 15th Court of Appeals District (15-25-00116-CV) (Concurring)",
+          "url": "https://law.justia.com/cases/texas/supreme-court/2025/25-0641-0.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Texas Supreme Court Case 25-0641-0 (2025)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "25-0641",
+          "title": "IN RE KEN PAXTON AND THE OFFICE OF THE ATTORNEY GENERAL; from Travis County; 15th Court of Appeals District (15-25-00116-CV) (Per Curiam)",
+          "url": "https://law.justia.com/cases/texas/supreme-court/2025/25-0641.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Texas Supreme Court Case 25-0641 (2025)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "24-0315",
+          "title": "IN RE ESTATE OF GUADALUPE LOPEZ, SR., DECEASED; from Jim Wells County; 4th Court of Appeals District (04-23-00130-CV, ___ SW3d ___, 03-06-24) (Per Curiam)",
+          "url": "https://law.justia.com/cases/texas/supreme-court/2025/24-0315.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Texas Supreme Court Case 24-0315 (2025)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "24-1073",
+          "title": "IN RE LYNN MADISON; from Bexar County; 4th Court of Appeals District (04-24-00814-CV, ___ SW3d ___, 12-18-24) (Per Curiam)",
+          "url": "https://law.justia.com/cases/texas/supreme-court/2025/24-1073.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Texas Supreme Court Case 24-1073 (2025)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "24-0239",
+          "title": "IN RE NOVARTIS PHARMACEUTICALS CORPORATION; from Harrison County; 6th Court of Appeals District (06-24-00005-CV, ___ SW3d ___, 03-01-24) (Statement)",
+          "url": "https://law.justia.com/cases/texas/supreme-court/2025/24-0239.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Texas Supreme Court Case 24-0239 (2025)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "24-1010",
+          "title": "IN RE E. PIERCE MARSHALL, JR.; from Harris County; 14th Court of Appeals District (14-24-00230-CV, ___ SW3d ___, 10-16-24) (Dissenting)",
+          "url": "https://law.justia.com/cases/texas/supreme-court/2025/24-1010.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Texas Supreme Court Case 24-1010 (2025)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re initial"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Department of Family and Protective Services",
+    "acronym": "DFPS",
+    "hotline": "1-800-252-5400",
+    "website": "https://capitol.texas.gov"
+  },
+  "linked_output": "OUT-02",
+  "linked_action": "ACT-03",
+  "linked_decision": "DEC-04",
+  "linked_input": "INP-01",
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.829408",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.829835",
+    "schema_version": "3.0.0",
+    "trigger_name_fixed": "2025-12-22T22:53:02.435990",
+    "leaves_linked": "2025-12-24T18:14:22.528118+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "preponderance",
+    "who_bears_burden": "parent",
+    "common_failures": [
+      "Failure to preserve evidence",
+      "Missing deadlines for legal challenges",
+      "Inadequate documentation of violations"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Appeal deadline",
+      "deadline": "30 days",
+      "starts_from": "Final order",
+      "source": "court_rule",
+      "consequence_of_miss": "Loss of appeal rights"
+    },
+    {
+      "requirement_name": "1983 statute of limitations",
+      "deadline": "2-3 years",
+      "starts_from": "Violation occurred",
+      "source": "federal_statute",
+      "consequence_of_miss": "Claim barred"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "attorney"
+      ],
+      "method": "personal_service",
+      "timing": "Upon violation discovery",
+      "content_required": [
+        "Nature of violation",
+        "Remedies available"
+      ],
+      "defective_notice_consequence": "May extend statute of limitations"
+    }
+  ]
+}

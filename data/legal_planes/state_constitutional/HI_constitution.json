@@ -1,0 +1,450 @@
+{
+  "plane_id": "state_constitutional_HI",
+  "plane_name": "Hawaii State Constitutional Plane",
+  "description": "Hawaii Constitution provisions relevant to child welfare and family rights.",
+  "authority_level": "state_supreme",
+  "state_code": "HI",
+  "state_name": "Hawaii",
+  "version": "1.0.0",
+  "created": "2025-12-22",
+  "updated": "2025-12-22",
+  "copyright": "Project Milk Carton 501(c)(3) - All Rights Reserved",
+  "constitution_source": {
+    "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol01_Const.htm",
+    "justia_url": "https://law.justia.com/constitution/hawaii/",
+    "official_name": "Hawaii Constitution",
+    "last_amended": "2022-11-08",
+    "last_verified": "2025-12-22"
+  },
+  "relationship_to_federal": {
+    "supremacy_clause_applies": true,
+    "can_provide_greater_protection": true,
+    "cannot_provide_less_protection": true
+  },
+  "relevant_provisions": [
+    {
+      "provision_id": "HI_CONST_SEARCH_SEIZURE",
+      "name": "Search and Seizure",
+      "article": "Article I",
+      "section": "Section 7",
+      "url": "https://law.justia.com/constitution/hawaii/#section-7",
+      "citation": "Hawaii Const. art. I, \u00a7 7",
+      "text": "The right of the people to be secure in their persons, houses, papers and effects against unreasonable searches, seizures and invasions of privacy shall not be violated...",
+      "application_to_cps": "CPS removal of a child constitutes a seizure. Warrantless removals must meet exigent circumstances exception or be supported by court order.",
+      "federal_parallel": "U.S. Const. amend. IV",
+      "state_provides_greater_protection": false,
+      "key_cases": [],
+      "triggers_at_nodes": [
+        "INP-12",
+        "DEC-04",
+        "ACT-01",
+        "FAIL-01"
+      ]
+    },
+    {
+      "provision_id": "HI_CONST_DUE_PROCESS",
+      "name": "Due Process / Law of the Land",
+      "article": "Article I",
+      "section": "Section 5",
+      "url": "https://law.justia.com/constitution/hawaii/#section-5",
+      "citation": "Hawaii Const. art. I, \u00a7 5",
+      "text": "No person shall be deprived of life, liberty or property without due process of law...",
+      "application_to_cps": "Parents have a fundamental liberty interest in the care and custody of their children. Termination of parental rights requires clear and convincing evidence and proper procedural protections.",
+      "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1",
+      "state_provides_greater_protection": false,
+      "key_cases": [
+        {
+          "case_id": "scwc-22-0000604",
+          "title": "In re: G.M.",
+          "url": "https://law.justia.com/cases/hawaii/supreme-court/2025/scwc-22-0000604.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Hawaii Supreme Court Case scwc-22-0000604 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "scwc-24-0000619",
+          "title": "In re: T.J. I.T., A.T.1, A.T.2, and K.T.2.",
+          "url": "https://law.justia.com/cases/hawaii/supreme-court/2025/scwc-24-0000619.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Hawaii Supreme Court Case scwc-24-0000619 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "scwc-24-0000715-0",
+          "title": "In re: F.G.",
+          "url": "https://law.justia.com/cases/hawaii/supreme-court/2025/scwc-24-0000715-0.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Hawaii Supreme Court Case scwc-24-0000715-0 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "scwc-18-0000678",
+          "title": "In re: FWH, by and through Aloha Nursing Rehab Centre v. Department of Human Services",
+          "url": "https://law.justia.com/cases/hawaii/supreme-court/2025/scwc-18-0000678.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Hawaii Supreme Court Case scwc-18-0000678 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "scwc-24-0000715",
+          "title": "In re: F.G.",
+          "url": "https://law.justia.com/cases/hawaii/supreme-court/2025/scwc-24-0000715.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Hawaii Supreme Court Case scwc-24-0000715 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "scwc-25-0000045",
+          "title": "In re: The K Children",
+          "url": "https://law.justia.com/cases/hawaii/supreme-court/2025/scwc-25-0000045.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Hawaii Supreme Court Case scwc-25-0000045 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "scwc-22-0000636-0",
+          "title": "In re: The P Children",
+          "url": "https://law.justia.com/cases/hawaii/supreme-court/2025/scwc-22-0000636-0.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Hawaii Supreme Court Case scwc-22-0000636-0 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "caap-24-0000319",
+          "title": "In re: B.C. and O.C.",
+          "url": "https://law.justia.com/cases/hawaii/court-of-appeals/2025/caap-24-0000319.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Hawaii Court Of Appeals Case caap-24-0000319 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "caap-25-0000067",
+          "title": "In re: V.R.",
+          "url": "https://law.justia.com/cases/hawaii/court-of-appeals/2025/caap-25-0000067.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Hawaii Court Of Appeals Case caap-25-0000067 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "caap-23-0000356",
+          "title": "In re: Guardianship of I.W. and T.E.",
+          "url": "https://law.justia.com/cases/hawaii/court-of-appeals/2025/caap-23-0000356.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Hawaii Court Of Appeals Case caap-23-0000356 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re guardianship, In re",
+          "provision_match": "DUE_PROCESS"
+        }
+      ],
+      "triggers_at_nodes": [
+        "DEC-05",
+        "DEC-06",
+        "ACT-04",
+        "OUT-02",
+        "OUT-03"
+      ]
+    },
+    {
+      "provision_id": "HI_CONST_PRIVACY",
+      "name": "Right to Privacy",
+      "article": "Article I",
+      "section": "Section 6",
+      "url": "https://law.justia.com/constitution/hawaii/#section-6",
+      "citation": "Hawaii Const. art. I, \u00a7 6",
+      "text": "The right of the people to privacy is recognized and shall not be infringed without the showing of a compelling state interest.",
+      "application_to_cps": "Explicit privacy right may provide additional protection against government intrusion into family decisions. May require compelling state interest for CPS intervention.",
+      "federal_parallel": "No explicit federal parallel - implied from penumbras of Bill of Rights (Griswold v. Connecticut)",
+      "state_provides_greater_protection": true,
+      "key_cases": [],
+      "triggers_at_nodes": [
+        "INP-01",
+        "DEC-01",
+        "ACT-01"
+      ]
+    }
+  ],
+  "unique_state_protections": [
+    {
+      "protection": "Explicit Constitutional Privacy Right",
+      "description": "Hawaii constitution explicitly protects privacy rights",
+      "federal_comparison": "Federal constitution has no explicit privacy right"
+    }
+  ],
+  "case_law_search_keywords": [
+    "Hawaii Department of Human Services",
+    "CPS",
+    "due process",
+    "14th Amendment",
+    "42 U.S.C. 1983",
+    "reasonable efforts",
+    "reunification",
+    "emergency removal",
+    "wrongful removal",
+    "exigent circumstances",
+    "abuse",
+    "familial association"
+  ],
+  "state_supreme_court_cps_cases": [
+    {
+      "case_id": "scwc-22-0000604",
+      "title": "In re: G.M.",
+      "url": "https://law.justia.com/cases/hawaii/supreme-court/2025/scwc-22-0000604.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Hawaii Supreme Court Case scwc-22-0000604 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "scwc-24-0000619",
+      "title": "In re: T.J. I.T., A.T.1, A.T.2, and K.T.2.",
+      "url": "https://law.justia.com/cases/hawaii/supreme-court/2025/scwc-24-0000619.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Hawaii Supreme Court Case scwc-24-0000619 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "scwc-24-0000715-0",
+      "title": "In re: F.G.",
+      "url": "https://law.justia.com/cases/hawaii/supreme-court/2025/scwc-24-0000715-0.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Hawaii Supreme Court Case scwc-24-0000715-0 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "scwc-18-0000678",
+      "title": "In re: FWH, by and through Aloha Nursing Rehab Centre v. Department of Human Services",
+      "url": "https://law.justia.com/cases/hawaii/supreme-court/2025/scwc-18-0000678.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Hawaii Supreme Court Case scwc-18-0000678 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "scwc-24-0000715",
+      "title": "In re: F.G.",
+      "url": "https://law.justia.com/cases/hawaii/supreme-court/2025/scwc-24-0000715.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Hawaii Supreme Court Case scwc-24-0000715 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "scwc-25-0000045",
+      "title": "In re: The K Children",
+      "url": "https://law.justia.com/cases/hawaii/supreme-court/2025/scwc-25-0000045.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Hawaii Supreme Court Case scwc-25-0000045 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "scwc-22-0000636-0",
+      "title": "In re: The P Children",
+      "url": "https://law.justia.com/cases/hawaii/supreme-court/2025/scwc-22-0000636-0.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Hawaii Supreme Court Case scwc-22-0000636-0 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "caap-24-0000319",
+      "title": "In re: B.C. and O.C.",
+      "url": "https://law.justia.com/cases/hawaii/court-of-appeals/2025/caap-24-0000319.html",
+      "year": 2025,
+      "court": "Court Of Appeals",
+      "citation": "Hawaii Court Of Appeals Case caap-24-0000319 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "caap-25-0000067",
+      "title": "In re: V.R.",
+      "url": "https://law.justia.com/cases/hawaii/court-of-appeals/2025/caap-25-0000067.html",
+      "year": 2025,
+      "court": "Court Of Appeals",
+      "citation": "Hawaii Court Of Appeals Case caap-25-0000067 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "caap-23-0000356",
+      "title": "In re: Guardianship of I.W. and T.E.",
+      "url": "https://law.justia.com/cases/hawaii/court-of-appeals/2025/caap-23-0000356.html",
+      "year": 2025,
+      "court": "Court Of Appeals",
+      "citation": "Hawaii Court Of Appeals Case caap-23-0000356 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re guardianship, In re",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "scpw-20-0000556-0",
+      "title": "In re: Rodriguez and Other Individuals Similarly Situated in the Custody of the State of Hawai'i",
+      "url": "https://law.justia.com/cases/hawaii/supreme-court/2020/scpw-20-0000556-0.html",
+      "year": 2020,
+      "court": "Supreme Court",
+      "citation": "Hawaii Supreme Court Case scpw-20-0000556-0 (2020)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "similarly situated"
+      ],
+      "child_welfare_reason": "High: In re",
+      "provision_match": "EQUAL_PROTECTION"
+    },
+    {
+      "case_id": "scpw-20-0000556",
+      "title": "In re: Rodriguez and Other Individuals Similarly Situated in the Custody of the State of Hawai'i, Petitioners",
+      "url": "https://law.justia.com/cases/hawaii/supreme-court/2020/scpw-20-0000556.html",
+      "year": 2020,
+      "court": "Supreme Court",
+      "citation": "Hawaii Supreme Court Case scpw-20-0000556 (2020)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "similarly situated"
+      ],
+      "child_welfare_reason": "High: In re",
+      "provision_match": "EQUAL_PROTECTION"
+    }
+  ],
+  "procedural_weight_modifiers": {
+    "explicit_privacy_right": 0.1,
+    "note": "Modifiers adjust procedural_weight for state nodes based on enhanced protections"
+  },
+  "_metadata": {
+    "created": "2025-12-22T20:38:16.836031",
+    "source": "state_constitution_etl",
+    "data_sources": [
+      "justia",
+      "state_legislature",
+      "courtlistener_keywords"
+    ],
+    "requires_case_law_enrichment": false,
+    "case_law_enriched": "2025-12-24T20:37:15.460548+00:00",
+    "enricher_version": "1.0.0",
+    "cases_analyzed": 492,
+    "cases_linked": 10
+  },
+  "case_law_search": {
+    "search_keywords": [
+      "Hawaii Department of Human Services",
+      "CPS",
+      "due process",
+      "14th Amendment",
+      "42 U.S.C. 1983",
+      "reasonable efforts",
+      "reunification",
+      "emergency removal",
+      "wrongful removal",
+      "exigent circumstances"
+    ],
+    "courtlistener_url": "https://www.courtlistener.com/?q=%22Hawaii%22%20AND%20%28%22Hawaii%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
+    "supreme_court_focus": true,
+    "_note": "Search for state supreme court cases on CPS constitutional issues"
+  }
+}

@@ -1,0 +1,408 @@
+{
+  "node_id": "TX_INP-04",
+  "state": "TX",
+  "state_name": "Texas",
+  "node_family": "INP",
+  "subnode": "INP-04",
+  "trigger_name": "Court-Ordered Referral",
+  "summary_html": "A **judge orders** CPS to investigate or assess during civil/criminal proceedings. Federal funding statutes (ASFA/IV-E) tether court findings to child-welfare actions, embedding judicial oversight into intake-to-case flow.",
+  "authority_html": "- **ASFA (42 U.S.C. \u00a7\u00a7 671\u2013675)** \u2014 court \u2018reasonable efforts\u2019 findings; permanency timelines  \n- **SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 funding structure linking court oversight to agency actions",
+  "icon": "\u2696\ufe0f",
+  "theme_color": "#8A2BE2",
+  "domain": "civil",
+  "procedural_weight": 0.55,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "ASFA_PLAW": "https://www.congress.gov/105/plaws/publ89/PLAW-105publ89.pdf",
+    "ASFA_PDF": "https://www.govinfo.gov/content/pkg/PLAW-105publ89/pdf/PLAW-105publ89.pdf",
+    "SSA_IV_E_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-7/subchapter-IV/part-E"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "42 U.S.C. \u00a7\u00a7 671\u2013675 (ASFA/IV-E)",
+        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E framework)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Texas - Texas Family Code Chapter\u00a0261 (Investigation of Report of Abuse or Neglect)",
+          "source_url": "https://statutes.capitol.texas.gov/Docs/FA/htm/FA.261.htm",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Texas - Texas Family Code Chapter\u00a0262 (Removal of Child in an Emergency)",
+          "source_url": "https://statutes.capitol.texas.gov/Docs/FA/htm/FA.262.htm",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Title 26 - HEALTH AND HUMAN SERVICES",
+          "url": "https://www.law.cornell.edu/regulations/texas/title-26"
+        },
+        {
+          "title": "Title 40 - SOCIAL SERVICES AND ASSISTANCE",
+          "url": "https://www.law.cornell.edu/regulations/texas/title-40"
+        },
+        {
+          "title": "Texas Administrative Regulations",
+          "url": "https://regulations.justia.com/states/texas/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Texas Administrative Rule Title 1",
+          "url": "https://regulations.justia.com/states/texas/title-1/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Texas Administrative Rule Title 2",
+          "url": "https://regulations.justia.com/states/texas/title-2/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Texas Administrative Rule Title 3",
+          "url": "https://regulations.justia.com/states/texas/title-3/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Texas Administrative Rule Title 4",
+          "url": "https://regulations.justia.com/states/texas/title-4/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Texas Administrative Rule Title 5",
+          "url": "https://regulations.justia.com/states/texas/title-5/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Texas Administrative Rule Title 6",
+          "url": "https://regulations.justia.com/states/texas/title-6/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Texas Administrative Rule Title 7",
+          "url": "https://regulations.justia.com/states/texas/title-7/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Texas Administrative Rule Title 8",
+          "url": "https://regulations.justia.com/states/texas/title-8/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Texas Administrative Rule Title 9",
+          "url": "https://regulations.justia.com/states/texas/title-9/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/texas.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_TX",
+      "plane_file": "legal_planes/state_constitutional/TX_constitution.json",
+      "provisions_triggered": []
+    },
+    "case_law": {
+      "search_keywords": [
+        "Texas Department of Family and Protective Services",
+        "DFPS",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Texas%22%20AND%20%28%22Texas%20Department%20of%20Family%20and%20Protective%20Services%22%20OR%20%22DFPS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "mandatory reporting",
+        "failure to report",
+        "reporter immunity",
+        "hotline"
+      ],
+      "jurisdiction": "Texas state courts",
+      "key_cases": [
+        {
+          "case_id": "22-0229",
+          "title": "IN RE GREG ABBOTT IN HIS OFFICIAL CAPACITY AS GOVERNOR OF THE STATE OF TEXAS; JAIME MASTERS IN HER OFFICIAL CAPACITY AS COMMISSIONER OF THE DEPARTMENT OF FAMILY AND PROTECTIVE SERVICES; AND THE TEXAS DEPARTMENT OF FAMILY AND PROTECTIVE SERVICES; from Travi (Concurring)",
+          "url": "https://law.justia.com/cases/texas/supreme-court/2022/22-0229.html",
+          "year": 2022,
+          "court": "Supreme Court",
+          "citation": "Texas Supreme Court Case 22-0229 (2022)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "texas department of family and protective services"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "21-0235",
+          "title": "IN RE TEXAS DEPARTMENT OF FAMILY AND PROTECTIVE SERVICES; from Fort Bend County; 14th Court of Appeals District (14-20-00703-CV, ___ SW3d ___, 03-09-21) (Dissenting)",
+          "url": "https://law.justia.com/cases/texas/supreme-court/2021/21-0235.html",
+          "year": 2021,
+          "court": "Supreme Court",
+          "citation": "Texas Supreme Court Case 21-0235 (2021)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "texas department of family and protective services"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "25-0641-0",
+          "title": "IN RE KEN PAXTON AND THE OFFICE OF THE ATTORNEY GENERAL; from Travis County; 15th Court of Appeals District (15-25-00116-CV) (Concurring)",
+          "url": "https://law.justia.com/cases/texas/supreme-court/2025/25-0641-0.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Texas Supreme Court Case 25-0641-0 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "25-0641",
+          "title": "IN RE KEN PAXTON AND THE OFFICE OF THE ATTORNEY GENERAL; from Travis County; 15th Court of Appeals District (15-25-00116-CV) (Per Curiam)",
+          "url": "https://law.justia.com/cases/texas/supreme-court/2025/25-0641.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Texas Supreme Court Case 25-0641 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "25-1107",
+          "title": "IN RE STEVE SMITH (Per Curiam)",
+          "url": "https://law.justia.com/cases/texas/supreme-court/2025/25-1107.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Texas Supreme Court Case 25-1107 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "24-0024",
+          "title": "IN RE UMTH GENERAL SERVICES, L.P. (Opinion)",
+          "url": "https://law.justia.com/cases/texas/supreme-court/2025/24-0024.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Texas Supreme Court Case 24-0024 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "24-0315",
+          "title": "IN RE ESTATE OF GUADALUPE LOPEZ, SR., DECEASED; from Jim Wells County; 4th Court of Appeals District (04-23-00130-CV, ___ SW3d ___, 03-06-24) (Per Curiam)",
+          "url": "https://law.justia.com/cases/texas/supreme-court/2025/24-0315.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Texas Supreme Court Case 24-0315 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "24-1073",
+          "title": "IN RE LYNN MADISON; from Bexar County; 4th Court of Appeals District (04-24-00814-CV, ___ SW3d ___, 12-18-24) (Per Curiam)",
+          "url": "https://law.justia.com/cases/texas/supreme-court/2025/24-1073.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Texas Supreme Court Case 24-1073 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "24-0239",
+          "title": "IN RE NOVARTIS PHARMACEUTICALS CORPORATION; from Harrison County; 6th Court of Appeals District (06-24-00005-CV, ___ SW3d ___, 03-01-24) (Statement)",
+          "url": "https://law.justia.com/cases/texas/supreme-court/2025/24-0239.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Texas Supreme Court Case 24-0239 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Department of Family and Protective Services",
+    "acronym": "DFPS",
+    "hotline": "1-800-252-5400",
+    "website": "https://capitol.texas.gov"
+  },
+  "mandatory_reporters": [
+    "Teachers/School Personnel",
+    "Medical/Dental Professionals",
+    "Mental Health Professionals",
+    "Law Enforcement",
+    "Shelter Staff",
+    "Childcare Staff",
+    "Clergy",
+    "Foster Parents",
+    "Coaches",
+    "Coroners",
+    "EMTs/Emergency Personnel",
+    "Judges",
+    "District Attorneys"
+  ],
+  "reporting_type": "centralized",
+  "reporting_details": "Not applicable",
+  "definitions": {
+    "abuse": [
+      "Physical abuse",
+      "Sexual abuse",
+      "Emotional abuse",
+      "Excessive punishment",
+      "Shaken baby syndrome",
+      "Human trafficking",
+      "Failure to protect",
+      "Female genital mutilation"
+    ],
+    "neglect": [
+      "General neglect",
+      "Medical neglect",
+      "Abandonment",
+      "Inadequate supervision",
+      "Inadequate shelter/housing",
+      "Inadequate clothing",
+      "Malnourishment/failure to provide food",
+      "Injurious environment"
+    ],
+    "other": [
+      "Forcing or coercing a child to enter into a marriage"
+    ],
+    "substance_related": [
+      "Drug lab exposure",
+      "Parental drug/alcohol misuse",
+      "Prenatal drug/alcohol exposure",
+      "Illicit substance involvement"
+    ]
+  },
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.827567",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.830982",
+    "schema_version": "3.0.0",
+    "leaves_linked": "2025-12-24T18:14:22.536740+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "reasonable_suspicion",
+    "who_bears_burden": "agency",
+    "common_failures": [
+      "Insufficient screening documentation",
+      "Failure to verify reporter allegations",
+      "Accepting anonymous reports without corroboration"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Initial response time",
+      "deadline": "24-72 hours",
+      "starts_from": "Report received",
+      "source": "state_statute",
+      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+    },
+    {
+      "requirement_name": "Investigation completion",
+      "deadline": "30-60 days",
+      "starts_from": "Investigation opened",
+      "source": "state_statute",
+      "consequence_of_miss": "Case dismissal risk"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian"
+      ],
+      "method": "any_reasonable",
+      "timing": "Before investigation interview",
+      "content_required": [
+        "Nature of allegation",
+        "Rights"
+      ],
+      "defective_notice_consequence": "May invalidate findings"
+    }
+  ],
+  "door_scenarios": [
+    {
+      "who_at_door": [
+        "caseworker"
+      ],
+      "trigger_reason": "Responding to abuse/neglect report",
+      "legal_authority_to_enter": "none_without_consent",
+      "parent_rights_at_moment": [
+        "Right to refuse entry without warrant",
+        "Right to remain silent",
+        "Right to attorney"
+      ],
+      "what_to_say": [
+        "I do not consent to entry without a warrant",
+        "Please provide your card and the allegations in writing",
+        "I will have my attorney contact you"
+      ],
+      "what_not_to_do": [
+        "Do not physically resist",
+        "Do not lie",
+        "Do not let them in 'just to look'"
+      ],
+      "next_possible_nodes": [
+        "DEC-01",
+        "DEC-04"
+      ]
+    }
+  ]
+}

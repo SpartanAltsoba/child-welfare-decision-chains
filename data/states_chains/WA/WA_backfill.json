@@ -1,0 +1,2994 @@
+{
+  "state_code": "WA",
+  "state_name": "Washington",
+  "backfill_timestamp": "2025-12-25T14:52:05.755646",
+  "sources": {
+    "cfsr_afcars": {
+      "source": "database",
+      "success": true,
+      "error": null,
+      "timestamp": "2025-12-25T14:52:01.631979",
+      "data": {
+        "welfare_statistics": [
+          {
+            "id": 47,
+            "state_code": "WA",
+            "state_name": "Washington",
+            "fiscal_year": 2023,
+            "data_source": "cwoutcomes.acf.hhs.gov",
+            "scraped_at": "2025-12-14 15:34:20.901113",
+            "child_population": 1648070,
+            "child_poverty_rate": "12.20",
+            "demographic_white_pct": null,
+            "demographic_black_pct": null,
+            "demographic_hispanic_pct": null,
+            "demographic_asian_pct": null,
+            "demographic_other_pct": null,
+            "maltreatment_victims": 3194,
+            "maltreatment_rate_per_1000": "1.90",
+            "maltreatment_fatalities": 31,
+            "maltreatment_fatality_rate": null,
+            "maltreatment_neglect_pct": "91.70",
+            "maltreatment_physical_pct": null,
+            "maltreatment_sexual_pct": null,
+            "maltreatment_recurrence_pct": null,
+            "foster_care_children": 7047,
+            "foster_care_entry_rate": null,
+            "foster_care_median_stay_months": null,
+            "foster_care_in_care_maltreatment_pct": null,
+            "permanency_reunification_pct": null,
+            "permanency_adoption_pct": null,
+            "permanency_guardianship_pct": null,
+            "permanency_emancipation_pct": null,
+            "caseworker_monthly_visits_pct": "97.60",
+            "caseworker_home_visits_pct": null,
+            "created_at": "2025-12-14 15:34:59.692843"
+          },
+          {
+            "id": 255,
+            "state_code": "WA",
+            "state_name": "Washington",
+            "fiscal_year": 2023,
+            "data_source": "cm2023.pdf",
+            "scraped_at": "2025-12-14 16:27:48.630109",
+            "child_population": null,
+            "child_poverty_rate": null,
+            "demographic_white_pct": null,
+            "demographic_black_pct": null,
+            "demographic_hispanic_pct": null,
+            "demographic_asian_pct": null,
+            "demographic_other_pct": null,
+            "maltreatment_victims": 3194,
+            "maltreatment_rate_per_1000": "25.40",
+            "maltreatment_fatalities": null,
+            "maltreatment_fatality_rate": null,
+            "maltreatment_neglect_pct": null,
+            "maltreatment_physical_pct": null,
+            "maltreatment_sexual_pct": null,
+            "maltreatment_recurrence_pct": null,
+            "foster_care_children": null,
+            "foster_care_entry_rate": null,
+            "foster_care_median_stay_months": null,
+            "foster_care_in_care_maltreatment_pct": null,
+            "permanency_reunification_pct": null,
+            "permanency_adoption_pct": null,
+            "permanency_guardianship_pct": null,
+            "permanency_emancipation_pct": null,
+            "caseworker_monthly_visits_pct": null,
+            "caseworker_home_visits_pct": null,
+            "created_at": "2025-12-14 16:22:39.944672"
+          },
+          {
+            "id": 203,
+            "state_code": "WA",
+            "state_name": "Washington",
+            "fiscal_year": 2022,
+            "data_source": "cm2022.pdf",
+            "scraped_at": "2025-12-14 16:27:48.561738",
+            "child_population": null,
+            "child_poverty_rate": null,
+            "demographic_white_pct": null,
+            "demographic_black_pct": null,
+            "demographic_hispanic_pct": null,
+            "demographic_asian_pct": null,
+            "demographic_other_pct": null,
+            "maltreatment_victims": 3389,
+            "maltreatment_rate_per_1000": "27.80",
+            "maltreatment_fatalities": null,
+            "maltreatment_fatality_rate": null,
+            "maltreatment_neglect_pct": null,
+            "maltreatment_physical_pct": null,
+            "maltreatment_sexual_pct": null,
+            "maltreatment_recurrence_pct": null,
+            "foster_care_children": null,
+            "foster_care_entry_rate": null,
+            "foster_care_median_stay_months": null,
+            "foster_care_in_care_maltreatment_pct": null,
+            "permanency_reunification_pct": null,
+            "permanency_adoption_pct": null,
+            "permanency_guardianship_pct": null,
+            "permanency_emancipation_pct": null,
+            "caseworker_monthly_visits_pct": null,
+            "caseworker_home_visits_pct": null,
+            "created_at": "2025-12-14 16:22:39.872932"
+          },
+          {
+            "id": 152,
+            "state_code": "WA",
+            "state_name": "Washington",
+            "fiscal_year": 2021,
+            "data_source": "cm2021.pdf",
+            "scraped_at": "2025-12-14 16:27:48.494203",
+            "child_population": null,
+            "child_poverty_rate": null,
+            "demographic_white_pct": null,
+            "demographic_black_pct": null,
+            "demographic_hispanic_pct": null,
+            "demographic_asian_pct": null,
+            "demographic_other_pct": null,
+            "maltreatment_victims": 3487,
+            "maltreatment_rate_per_1000": "25.90",
+            "maltreatment_fatalities": null,
+            "maltreatment_fatality_rate": null,
+            "maltreatment_neglect_pct": null,
+            "maltreatment_physical_pct": null,
+            "maltreatment_sexual_pct": null,
+            "maltreatment_recurrence_pct": null,
+            "foster_care_children": null,
+            "foster_care_entry_rate": null,
+            "foster_care_median_stay_months": null,
+            "foster_care_in_care_maltreatment_pct": null,
+            "permanency_reunification_pct": null,
+            "permanency_adoption_pct": null,
+            "permanency_guardianship_pct": null,
+            "permanency_emancipation_pct": null,
+            "caseworker_monthly_visits_pct": null,
+            "caseworker_home_visits_pct": null,
+            "created_at": "2025-12-14 16:22:39.801337"
+          },
+          {
+            "id": 101,
+            "state_code": "WA",
+            "state_name": "Washington",
+            "fiscal_year": 2020,
+            "data_source": "cm2020.pdf",
+            "scraped_at": "2025-12-14 16:27:48.427207",
+            "child_population": null,
+            "child_poverty_rate": null,
+            "demographic_white_pct": null,
+            "demographic_black_pct": null,
+            "demographic_hispanic_pct": null,
+            "demographic_asian_pct": null,
+            "demographic_other_pct": null,
+            "maltreatment_victims": 3967,
+            "maltreatment_rate_per_1000": "28.40",
+            "maltreatment_fatalities": null,
+            "maltreatment_fatality_rate": null,
+            "maltreatment_neglect_pct": null,
+            "maltreatment_physical_pct": null,
+            "maltreatment_sexual_pct": null,
+            "maltreatment_recurrence_pct": null,
+            "foster_care_children": null,
+            "foster_care_entry_rate": null,
+            "foster_care_median_stay_months": null,
+            "foster_care_in_care_maltreatment_pct": null,
+            "permanency_reunification_pct": null,
+            "permanency_adoption_pct": null,
+            "permanency_guardianship_pct": null,
+            "permanency_emancipation_pct": null,
+            "caseworker_monthly_visits_pct": null,
+            "caseworker_home_visits_pct": null,
+            "created_at": "2025-12-14 16:22:39.730838"
+          },
+          {
+            "id": 1989,
+            "state_code": "WA",
+            "state_name": "Washington",
+            "fiscal_year": 2019,
+            "data_source": "cm2019.pdf",
+            "scraped_at": "2025-12-14 16:27:48.359488",
+            "child_population": null,
+            "child_poverty_rate": null,
+            "demographic_white_pct": null,
+            "demographic_black_pct": null,
+            "demographic_hispanic_pct": null,
+            "demographic_asian_pct": null,
+            "demographic_other_pct": null,
+            "maltreatment_victims": 4222,
+            "maltreatment_rate_per_1000": "29.60",
+            "maltreatment_fatalities": null,
+            "maltreatment_fatality_rate": null,
+            "maltreatment_neglect_pct": null,
+            "maltreatment_physical_pct": null,
+            "maltreatment_sexual_pct": null,
+            "maltreatment_recurrence_pct": null,
+            "foster_care_children": null,
+            "foster_care_entry_rate": null,
+            "foster_care_median_stay_months": null,
+            "foster_care_in_care_maltreatment_pct": null,
+            "permanency_reunification_pct": null,
+            "permanency_adoption_pct": null,
+            "permanency_guardianship_pct": null,
+            "permanency_emancipation_pct": null,
+            "caseworker_monthly_visits_pct": null,
+            "caseworker_home_visits_pct": null,
+            "created_at": "2025-12-14 16:27:48.359499"
+          },
+          {
+            "id": 760,
+            "state_code": "WA",
+            "state_name": "Washington",
+            "fiscal_year": 2018,
+            "data_source": "cm2018.pdf",
+            "scraped_at": "2025-12-14 16:27:48.291735",
+            "child_population": null,
+            "child_poverty_rate": null,
+            "demographic_white_pct": null,
+            "demographic_black_pct": null,
+            "demographic_hispanic_pct": null,
+            "demographic_asian_pct": null,
+            "demographic_other_pct": null,
+            "maltreatment_victims": 2074,
+            "maltreatment_rate_per_1000": "27.70",
+            "maltreatment_fatalities": null,
+            "maltreatment_fatality_rate": null,
+            "maltreatment_neglect_pct": null,
+            "maltreatment_physical_pct": null,
+            "maltreatment_sexual_pct": null,
+            "maltreatment_recurrence_pct": null,
+            "foster_care_children": null,
+            "foster_care_entry_rate": null,
+            "foster_care_median_stay_months": null,
+            "foster_care_in_care_maltreatment_pct": null,
+            "permanency_reunification_pct": null,
+            "permanency_adoption_pct": null,
+            "permanency_guardianship_pct": null,
+            "permanency_emancipation_pct": null,
+            "caseworker_monthly_visits_pct": null,
+            "caseworker_home_visits_pct": null,
+            "created_at": "2025-12-14 16:24:36.611503"
+          },
+          {
+            "id": 708,
+            "state_code": "WA",
+            "state_name": "Washington",
+            "fiscal_year": 2017,
+            "data_source": "cm2017.pdf",
+            "scraped_at": "2025-12-14 16:27:48.224129",
+            "child_population": null,
+            "child_poverty_rate": null,
+            "demographic_white_pct": null,
+            "demographic_black_pct": null,
+            "demographic_hispanic_pct": null,
+            "demographic_asian_pct": null,
+            "demographic_other_pct": null,
+            "maltreatment_victims": 4386,
+            "maltreatment_rate_per_1000": "25.10",
+            "maltreatment_fatalities": null,
+            "maltreatment_fatality_rate": null,
+            "maltreatment_neglect_pct": null,
+            "maltreatment_physical_pct": null,
+            "maltreatment_sexual_pct": null,
+            "maltreatment_recurrence_pct": null,
+            "foster_care_children": null,
+            "foster_care_entry_rate": null,
+            "foster_care_median_stay_months": null,
+            "foster_care_in_care_maltreatment_pct": null,
+            "permanency_reunification_pct": null,
+            "permanency_adoption_pct": null,
+            "permanency_guardianship_pct": null,
+            "permanency_emancipation_pct": null,
+            "caseworker_monthly_visits_pct": null,
+            "caseworker_home_visits_pct": null,
+            "created_at": "2025-12-14 16:24:36.542511"
+          },
+          {
+            "id": 656,
+            "state_code": "WA",
+            "state_name": "Washington",
+            "fiscal_year": 2016,
+            "data_source": "cm2016.pdf",
+            "scraped_at": "2025-12-14 16:27:48.156397",
+            "child_population": null,
+            "child_poverty_rate": null,
+            "demographic_white_pct": null,
+            "demographic_black_pct": null,
+            "demographic_hispanic_pct": null,
+            "demographic_asian_pct": null,
+            "demographic_other_pct": null,
+            "maltreatment_victims": 4725,
+            "maltreatment_rate_per_1000": "25.00",
+            "maltreatment_fatalities": null,
+            "maltreatment_fatality_rate": null,
+            "maltreatment_neglect_pct": null,
+            "maltreatment_physical_pct": null,
+            "maltreatment_sexual_pct": null,
+            "maltreatment_recurrence_pct": null,
+            "foster_care_children": null,
+            "foster_care_entry_rate": null,
+            "foster_care_median_stay_months": null,
+            "foster_care_in_care_maltreatment_pct": null,
+            "permanency_reunification_pct": null,
+            "permanency_adoption_pct": null,
+            "permanency_guardianship_pct": null,
+            "permanency_emancipation_pct": null,
+            "caseworker_monthly_visits_pct": null,
+            "caseworker_home_visits_pct": null,
+            "created_at": "2025-12-14 16:24:36.472101"
+          },
+          {
+            "id": 394,
+            "state_code": "WA",
+            "state_name": "Washington",
+            "fiscal_year": 2015,
+            "data_source": "cm2015.pdf",
+            "scraped_at": "2025-12-14 16:27:48.088640",
+            "child_population": null,
+            "child_poverty_rate": null,
+            "demographic_white_pct": null,
+            "demographic_black_pct": null,
+            "demographic_hispanic_pct": null,
+            "demographic_asian_pct": null,
+            "demographic_other_pct": null,
+            "maltreatment_victims": 5894,
+            "maltreatment_rate_per_1000": "28.10",
+            "maltreatment_fatalities": null,
+            "maltreatment_fatality_rate": null,
+            "maltreatment_neglect_pct": null,
+            "maltreatment_physical_pct": null,
+            "maltreatment_sexual_pct": null,
+            "maltreatment_recurrence_pct": null,
+            "foster_care_children": null,
+            "foster_care_entry_rate": null,
+            "foster_care_median_stay_months": null,
+            "foster_care_in_care_maltreatment_pct": null,
+            "permanency_reunification_pct": null,
+            "permanency_adoption_pct": null,
+            "permanency_guardianship_pct": null,
+            "permanency_emancipation_pct": null,
+            "caseworker_monthly_visits_pct": null,
+            "caseworker_home_visits_pct": null,
+            "created_at": "2025-12-14 16:23:20.315747"
+          },
+          {
+            "id": 352,
+            "state_code": "WA",
+            "state_name": "Washington",
+            "fiscal_year": 2014,
+            "data_source": "cm2014.pdf",
+            "scraped_at": "2025-12-14 16:27:48.020859",
+            "child_population": null,
+            "child_poverty_rate": null,
+            "demographic_white_pct": null,
+            "demographic_black_pct": null,
+            "demographic_hispanic_pct": null,
+            "demographic_asian_pct": null,
+            "demographic_other_pct": null,
+            "maltreatment_victims": 7341,
+            "maltreatment_rate_per_1000": "26.60",
+            "maltreatment_fatalities": null,
+            "maltreatment_fatality_rate": null,
+            "maltreatment_neglect_pct": null,
+            "maltreatment_physical_pct": null,
+            "maltreatment_sexual_pct": null,
+            "maltreatment_recurrence_pct": null,
+            "foster_care_children": null,
+            "foster_care_entry_rate": null,
+            "foster_care_median_stay_months": null,
+            "foster_care_in_care_maltreatment_pct": null,
+            "permanency_reunification_pct": null,
+            "permanency_adoption_pct": null,
+            "permanency_guardianship_pct": null,
+            "permanency_emancipation_pct": null,
+            "caseworker_monthly_visits_pct": null,
+            "caseworker_home_visits_pct": null,
+            "created_at": "2025-12-14 16:23:20.260495"
+          },
+          {
+            "id": 326,
+            "state_code": "WA",
+            "state_name": "Washington",
+            "fiscal_year": 2013,
+            "data_source": "cm2013.pdf",
+            "scraped_at": "2025-12-14 16:27:47.952916",
+            "child_population": null,
+            "child_poverty_rate": null,
+            "demographic_white_pct": null,
+            "demographic_black_pct": null,
+            "demographic_hispanic_pct": null,
+            "demographic_asian_pct": null,
+            "demographic_other_pct": null,
+            "maltreatment_victims": 7132,
+            "maltreatment_rate_per_1000": "27.30",
+            "maltreatment_fatalities": null,
+            "maltreatment_fatality_rate": null,
+            "maltreatment_neglect_pct": null,
+            "maltreatment_physical_pct": null,
+            "maltreatment_sexual_pct": null,
+            "maltreatment_recurrence_pct": null,
+            "foster_care_children": null,
+            "foster_care_entry_rate": null,
+            "foster_care_median_stay_months": null,
+            "foster_care_in_care_maltreatment_pct": null,
+            "permanency_reunification_pct": null,
+            "permanency_adoption_pct": null,
+            "permanency_guardianship_pct": null,
+            "permanency_emancipation_pct": null,
+            "caseworker_monthly_visits_pct": null,
+            "caseworker_home_visits_pct": null,
+            "created_at": "2025-12-14 16:23:20.226049"
+          },
+          {
+            "id": 297,
+            "state_code": "WA",
+            "state_name": "Washington",
+            "fiscal_year": 2012,
+            "data_source": "cm2012.pdf",
+            "scraped_at": "2025-12-14 16:27:47.884389",
+            "child_population": null,
+            "child_poverty_rate": null,
+            "demographic_white_pct": null,
+            "demographic_black_pct": null,
+            "demographic_hispanic_pct": null,
+            "demographic_asian_pct": null,
+            "demographic_other_pct": null,
+            "maltreatment_victims": 6546,
+            "maltreatment_rate_per_1000": "27.60",
+            "maltreatment_fatalities": null,
+            "maltreatment_fatality_rate": null,
+            "maltreatment_neglect_pct": null,
+            "maltreatment_physical_pct": null,
+            "maltreatment_sexual_pct": null,
+            "maltreatment_recurrence_pct": null,
+            "foster_care_children": null,
+            "foster_care_entry_rate": null,
+            "foster_care_median_stay_months": null,
+            "foster_care_in_care_maltreatment_pct": null,
+            "permanency_reunification_pct": null,
+            "permanency_adoption_pct": null,
+            "permanency_guardianship_pct": null,
+            "permanency_emancipation_pct": null,
+            "caseworker_monthly_visits_pct": null,
+            "caseworker_home_visits_pct": null,
+            "created_at": "2025-12-14 16:23:20.186025"
+          }
+        ],
+        "child_victims": [
+          {
+            "state": "Washington",
+            "2019_rate_per_1_000_children": "2.5",
+            "2020_rate_per_1_000_children": "2.3",
+            "2021_rate_per_1_000_children": "2.1",
+            "2022_rate_per_1_000_children": "2.0",
+            "2023_rate_per_1_000_children": "1.9"
+          }
+        ],
+        "fatalities": [
+          {
+            "state": "Washington",
+            "2019": "25",
+            "2020": "14",
+            "2021": "19",
+            "2022": "31",
+            "2023": "31"
+          }
+        ],
+        "response_times_hours": [
+          {
+            "state": "Washington",
+            "2019": "37",
+            "2020": "35",
+            "2021": "34",
+            "2022": "32",
+            "2023": "33"
+          }
+        ],
+        "investigation_initiation_days": [
+          {
+            "state": "Washington",
+            "children_who_received_services": "5,550",
+            "children_who_received_services_on_or_after_the_rep": "4,267",
+            "average_number_of_days_to_initiation_of_services": "40",
+            "median_number_of_days_to_initiation_of_services": "22"
+          }
+        ],
+        "total_referrals": [
+          {
+            "state": "Washington",
+            "2023_screened_in_referrals_reports": "41,840",
+            "2023_screened_out_referrals": "74,965",
+            "2023_total_referrals_from_reporting_states": "116,805",
+            "2023_rate_per_1_000_children": "70.9",
+            "percent_change_from_2019_to_2023": "4.3"
+          }
+        ],
+        "screened_in_referrals": [
+          {
+            "state": "Washington",
+            "2019_rate_per_1_000_children": "26.4",
+            "2020_rate_per_1_000_children": "24.6",
+            "2021_rate_per_1_000_children": "22.8",
+            "2022_rate_per_1_000_children": "25.0",
+            "2023_rate_per_1_000_children": "25.4"
+          }
+        ],
+        "screened_out_referrals": [
+          {
+            "state": "Washington",
+            "2019_rate_per_1_000_children": "41.0",
+            "2020_rate_per_1_000_children": "35.9",
+            "2021_rate_per_1_000_children": "36.0",
+            "2022_rate_per_1_000_children": "40.8",
+            "2023_rate_per_1_000_children": "45.5"
+          }
+        ],
+        "perpetrators_trend": [
+          {
+            "state": "Washington",
+            "2019": "3,693",
+            "2020": "3,315",
+            "2021": "3,036",
+            "2022": "2,986",
+            "2023": "2,815"
+          }
+        ],
+        "perpetrators_by_relationship": [
+          {
+            "state": "Washington",
+            "other": "43",
+            "other_professional": "-",
+            "relative": "89",
+            "unmarried_partner_of_parent": "186",
+            "unknown": "2",
+            "total_perpetrators": "2,815"
+          }
+        ],
+        "perpetrators_by_age": [
+          {
+            "state": "Washington",
+            "18_24_rate_per_1_000": "0.4",
+            "25_34_rate_per_1_000": "0.9",
+            "35_44_rate_per_1_000": "1.0",
+            "45_54_rate_per_1_000": "0.3",
+            "55_64_rate_per_1_000": "0.1",
+            "65_74_rate_per_1_000": "0.0",
+            "75_and_older_rate_per_1_000": "0.0"
+          }
+        ],
+        "perpetrators_by_sex": [
+          {
+            "state": "Washington",
+            "men": "1,439",
+            "women": "1,361",
+            "unknown": "15",
+            "total_perpetrators": "2,815",
+            "men_percent": "51.1",
+            "women_percent": "48.3",
+            "unknown_percent": "0.5"
+          }
+        ],
+        "perpetrators_by_race": [
+          {
+            "state": "Washington",
+            "american_indian_or_alaska_native_percent": "4.2",
+            "asian_percent": "1.6",
+            "black_or_african_american_percent": "8.0",
+            "hispanic_percent": "15.6",
+            "two_or_more_races_percent": "5.3",
+            "native_hawaiian_or_other_pacific_islander_percent": "2.1",
+            "white_percent": "54.2",
+            "unknown_percent": "9.1"
+          }
+        ],
+        "victims_by_age": [
+          {
+            "state": "Washington",
+            "9_rate_per_1_000_children": "1.5",
+            "10_rate_per_1_000_children": "1.7",
+            "11_rate_per_1_000_children": "1.6",
+            "12_rate_per_1_000_children": "1.6",
+            "13_rate_per_1_000_children": "1.6",
+            "14_rate_per_1_000_children": "1.9",
+            "15_rate_per_1_000_children": "1.4",
+            "16_rate_per_1_000_children": "1.2",
+            "17_rate_per_1_000_children": "1.0"
+          }
+        ],
+        "victims_by_sex": [
+          {
+            "state": "Washington",
+            "boy": "1,429",
+            "girl": "1,758",
+            "unknown": "7",
+            "total_victims": "3,194",
+            "boy_rate_per_1_000_children": "1.7",
+            "girl_rate_per_1_000_children": "2.2"
+          }
+        ],
+        "victims_by_race": [
+          {
+            "state": "Washington",
+            "american_indian_or_alaska_native_rate_per_1_000_ch": "5.5",
+            "asian_rate_per_1_000_children": "0.3",
+            "black_or_african_american_rate_per_1_000_children": "2.7",
+            "hispanic_rate_per_1_000_children": "1.7",
+            "native_hawaiian_or_other_pacific_islander_rate_per": "4.0",
+            "two_or_more_races_rate_per_1_000_children": "3.0",
+            "white_rate_per_1_000_children": "1.7"
+          }
+        ],
+        "demographics_age_0_8": [
+          {
+            "state": "Washington",
+            "1_age": "82,456",
+            "1_age_1": "83,767",
+            "2_age": "82,734",
+            "3_age": "85,997",
+            "4_age": "86,173",
+            "5_age": "88,489",
+            "6_age": "91,667",
+            "7_age": "94,046",
+            "8_age": "94,280"
+          }
+        ],
+        "demographics_age_9_17": [
+          {
+            "state": "Washington",
+            "9_age": "93,298",
+            "10_age": "93,487",
+            "11_age": "92,850",
+            "12_age": "93,456",
+            "13_age": "95,466",
+            "14_age": "96,729",
+            "15_age": "99,159",
+            "16_age": "98,171",
+            "17_age": "95,845"
+          }
+        ],
+        "first_time_victims": [
+          {
+            "state": "Washington",
+            "first_time_victims": "1,375",
+            "first_time_victims_rate_per_1_000_children": "0.8"
+          }
+        ],
+        "maltreatment_types": [
+          {
+            "state": "Washington",
+            "medical_neglect_only": "-",
+            "neglect_only": "68.2",
+            "other_only": "-",
+            "physical_abuse_only": "14.9",
+            "psychological_maltreatment_only": "0.0",
+            "sexual_abuse_only": "8.5",
+            "sex_trafficking_only": "0.5",
+            "unknown_only": "-",
+            "multiple_maltreatments": "7.9"
+          }
+        ],
+        "caregiver_risk_factors": [
+          {
+            "state": "Washington",
+            "victims_in_reporting_states": "3,194",
+            "drug_abuse": "1,485",
+            "drug_abuse_percent": "46.5",
+            "inadequate_housing": "498",
+            "inadequate_housing_percent": "15.6"
+          }
+        ],
+        "fatalities_after_reunification": [
+          {
+            "state": "Washington",
+            "child_file_fatalities": "-",
+            "child_file_fatalities_who_were_reunited_with_their": "-",
+            "agency_file_fatalities": "31",
+            "agency_file_fatalities_who_were_reunited_with_thei": "2"
+          }
+        ],
+        "fatalities_after_family_preservation": [
+          {
+            "state": "Washington",
+            "child_file_fatalities": "-",
+            "child_file_fatalities_whose_families_received_pres": "-",
+            "agency_file_fatalities": "31",
+            "agency_file_fatalities_whose_families_received_pre": "3"
+          }
+        ],
+        "fatalities_by_submission_type": [
+          {
+            "state": "Washington",
+            "child_fatalities_reported_in_the_child_file": null,
+            "child_fatalities_reported_in_the_agency_file": "31",
+            "total_child_fatalities": "31",
+            "child_fatality_rates_per_100_000_children": "1.88"
+          }
+        ],
+        "received_investigation": [
+          {
+            "state": "Washington",
+            "closed_with_no_finding": "2,115",
+            "no_alleged_maltreatment": "-",
+            "other": "-",
+            "unknown": "-",
+            "total_children": "60,445"
+          }
+        ],
+        "received_postresponse_services": [
+          {
+            "state": "Washington",
+            "victims": "3,872",
+            "victims_who_received_postresponse_services": "1,918",
+            "victims_who_received_postresponse_services_percent": "49.5",
+            "nonvictims": "56,573",
+            "nonvictims_who_received_postresponse_services": "3,632",
+            "nonvictims_who_received_postresponse_services_perc": "6.4"
+          }
+        ],
+        "received_foster_postresponse": [
+          {
+            "state": "Washington",
+            "victims": "3,872",
+            "victims_who_received_foster_care_postresponse_serv": "1,215",
+            "nonvictims": "56,573",
+            "nonvictims_who_received_foster_care_postresponse_s": "1,106"
+          }
+        ],
+        "received_prevention_services": [
+          {
+            "state": "Washington",
+            "other_funding_other_children": "-",
+            "other_calculated_child_count": "-",
+            "other_estimated_total_child_recipients": "-",
+            "estimated_total_child_recipients_duplicate": "41,407"
+          }
+        ],
+        "prevention_by_funding_source": [
+          {
+            "state": "Washington",
+            "promoting_safe_and_stable_families_pssf_children": "3,820",
+            "pssf_calculated_child_count": "24,861",
+            "pssf_estimated_total_child_recipients": "28,681",
+            "social_services_block_grant_ssbg_children": "-",
+            "ssbg_calculated_child_count": "-",
+            "ssbg_estimated_total_child_recipients": "-"
+          }
+        ],
+        "family_preservation_services": [
+          {
+            "state": "Washington",
+            "victims": "3,194",
+            "victims_who_received_family_preservation_services": "231"
+          }
+        ],
+        "reunification_eligible": [
+          {
+            "state": "Washington",
+            "victims_who_were_eligible_for_referral_to_part_c_a": "762",
+            "victims_who_were_referred_to_part_c_agencies": "181",
+            "victims_who_were_referred_to_part_c_agencies_percent": "23.8"
+          }
+        ],
+        "reunified_with_family": [
+          {
+            "state": "Washington",
+            "victims": "3,194",
+            "victims_who_were_reunited_with_their_families_with": "400"
+          }
+        ],
+        "court_appointed_representatives": [
+          {
+            "state": "Washington",
+            "victims": "-",
+            "victims_with_court_appointed_representatives": "-",
+            "victims_with_court_appointed_representatives_perce": "-"
+          }
+        ],
+        "prenatal_substance_exposure": [
+          {
+            "state": "Washington",
+            "screened_in_ipse": "294",
+            "screened_out_ipse": "39",
+            "total_ipse": "333"
+          }
+        ],
+        "prenatal_screened_in": [
+          {
+            "state": "Washington",
+            "screened_in_ipse": "294",
+            "screened_in_ipse_who_have_a_plan_of_safe_care": "118",
+            "screened_in_ipse_who_have_a_plan_of_safe_care_perc": "40.1"
+          }
+        ],
+        "administrative_structure": [
+          {
+            "table_c_1_state_administrative_structure": "Washington",
+            "level_of": " -",
+            "data_column": " 1",
+            "column_4": " -",
+            "column_5": " -",
+            "column_6": " 1",
+            "column_7": " -",
+            "column_8": " -",
+            "column_9": " 1",
+            "column_10": null
+          }
+        ],
+        "child_population": [
+          {
+            "state": "Washington",
+            "2019": "1,661,024",
+            "2020": "1,697,257",
+            "2021": "1,681,898",
+            "2022": "1,665,998",
+            "2023": "1,648,070"
+          }
+        ],
+        "population_demographics": [
+          {
+            "state": "Washington",
+            "boy": "844,243",
+            "girl": "803,827",
+            "american_indian_or_alaska_native": "19,084",
+            "asian": "149,458",
+            "black_or_african_american": "74,456",
+            "hispanic": "393,802",
+            "native_hawaiian_or_other_pacific_islander": "15,712",
+            "two_or_more_races": "147,021",
+            "white": "848,537"
+          }
+        ],
+        "adult_population": [
+          {
+            "state": "Washington",
+            "18_24": "655,826",
+            "25_34": "1,183,601",
+            "35_44": "1,132,655",
+            "45_54": "933,407",
+            "55_64": "921,562",
+            "65_75": "800,441",
+            "75_and_older": "537,318"
+          }
+        ],
+        "cps_agency_info": [
+          {
+            "state": "Washington",
+            "investigation_and_alternative_response_workers": "591",
+            "completed_reports_reports_with_a_disposition": "41,645",
+            "completed_reports_per_investigation_and_alternativ": "70"
+          }
+        ],
+        "training_organizations": [
+          {
+            "id": 149,
+            "state": "Washington",
+            "name": "Washington State Alliance for Child Welfare Excellence",
+            "description": "A partnership involving Washington\u2019s Department of Children, Youth, and Families (DCYF), University of Washington, Eastern Washington University, and others to deliver training statewide. The Alliance develops and conducts all pre-service training for new CPS workers and licensors, as well as ongoing in-service courses. It also trains caregivers (foster parents and relative caregivers). By leveraging university expertise, the Alliance ensures Washington\u2019s child welfare workforce and caregivers have access to comprehensive, research-based training and support.",
+            "created_at": "2025-08-16 01:01:00.860690"
+          },
+          {
+            "id": 150,
+            "state": "Washington",
+            "name": "Olive Crest (Washington)",
+            "description": "A nonprofit agency that partners with Washington DCYF to recruit and support foster families, particularly for hard-to-place children (like large sibling groups or children with therapeutic needs). Olive Crest manages certain foster homes and provides the families with training and caseworker support, under contract with the state:contentReference[oaicite:51]{index=51}. It also runs some preventive programs (to stabilize families and prevent foster placements). Utilizing Olive Crest helps Washington expand its foster home capacity and find nurturing placements for children who might otherwise stay in shelters or far from their community.",
+            "created_at": "2025-08-16 01:01:00.860690"
+          },
+          {
+            "id": 151,
+            "state": "Washington",
+            "name": "Casey Family Programs",
+            "description": "A national operating foundation headquartered in Seattle that works closely with Washington\u2019s child welfare system. Casey Family Programs provides strategic consulting and technical assistance to DCYF and local courts, often piloting innovative approaches in Washington to safely reduce the number of children in foster care. They also directly serve some youth in care through their own foster care program (historically, Casey took long-term foster care cases in WA). Casey\u2019s partnership with Washington includes funding or supporting prevention initiatives, helping improve extended foster care services, and advising on child welfare policy changes \u2013 leveraging private foundation resources to improve public system outcomes.",
+            "created_at": "2025-08-16 01:01:00.860690"
+          }
+        ]
+      }
+    },
+    "crime_data": {
+      "source": "database",
+      "success": true,
+      "error": null,
+      "timestamp": "2025-12-25T14:52:01.667717",
+      "data": {
+        "crimes_by_offense": [
+          {
+            "offense_name": "Criminal Sexual Contact",
+            "count": 1865,
+            "avg_victim_age": 11.168900804289544
+          },
+          {
+            "offense_name": "Rape",
+            "count": 1302,
+            "avg_victim_age": 14.606758832565284
+          },
+          {
+            "offense_name": "Kidnapping/Abduction",
+            "count": 515,
+            "avg_victim_age": 13.095145631067961
+          },
+          {
+            "offense_name": "Statutory Rape",
+            "count": 246,
+            "avg_victim_age": 12.1869918699187
+          },
+          {
+            "offense_name": "Sodomy",
+            "count": 169,
+            "avg_victim_age": 10.78698224852071
+          },
+          {
+            "offense_name": "Pornography/Obscene Material",
+            "count": 75,
+            "avg_victim_age": 14.573333333333334
+          },
+          {
+            "offense_name": "Sexual Assault With An Object",
+            "count": 47,
+            "avg_victim_age": 13.936170212765957
+          },
+          {
+            "offense_name": "Human Trafficking, Commercial Sex Acts",
+            "count": 43,
+            "avg_victim_age": 14.162790697674419
+          },
+          {
+            "offense_name": "Incest",
+            "count": 37,
+            "avg_victim_age": 13.324324324324325
+          },
+          {
+            "offense_name": "Human Trafficking, Involuntary Servitude",
+            "count": 10,
+            "avg_victim_age": 12.9
+          }
+        ],
+        "trafficking_cases": [
+          {
+            "count": 53
+          }
+        ],
+        "perpetrator_relationships": [
+          {
+            "relationship": "Victim Was Acquaintance",
+            "count": 627
+          },
+          {
+            "relationship": "Victim Was Child",
+            "count": 470
+          },
+          {
+            "relationship": "Relationship Unknown",
+            "count": 451
+          },
+          {
+            "relationship": "Victim was Otherwise Known",
+            "count": 404
+          },
+          {
+            "relationship": "Victim Was Other Family Member",
+            "count": 332
+          },
+          {
+            "relationship": "Victim Was Stranger",
+            "count": 263
+          },
+          {
+            "relationship": "Victim Was Boyfriend/Girlfriend",
+            "count": 261
+          },
+          {
+            "relationship": "Victim Was Friend",
+            "count": 242
+          },
+          {
+            "relationship": "Victim Was Sibling",
+            "count": 201
+          },
+          {
+            "relationship": "Victim Was Stepchild",
+            "count": 167
+          },
+          {
+            "relationship": "Victim Was Ex-Relationship (Ex-Boyfriend/Girlfriend)",
+            "count": 162
+          },
+          {
+            "relationship": "Victim Was Grandchild",
+            "count": 97
+          },
+          {
+            "relationship": "Victim Was Child of Boyfriend or Girlfriend",
+            "count": 68
+          },
+          {
+            "relationship": "Victim Was Neighbor",
+            "count": 46
+          },
+          {
+            "relationship": "Victim Was Stepsibling",
+            "count": 44
+          },
+          {
+            "relationship": "Victim Was Babysittee",
+            "count": 15
+          },
+          {
+            "relationship": "Victim Was In-law",
+            "count": 9
+          },
+          {
+            "relationship": "Victim Was Offender",
+            "count": 8
+          },
+          {
+            "relationship": "Victim Was Stepparent",
+            "count": 8
+          },
+          {
+            "relationship": "Victim Was Spouse",
+            "count": 6
+          }
+        ]
+      }
+    },
+    "missing_children": {
+      "source": "database",
+      "success": true,
+      "error": null,
+      "timestamp": "2025-12-25T14:52:01.668118",
+      "data": [
+        {
+          "child_name": "Samantha Hickman",
+          "age": 17,
+          "missing_date": "9/9/2021",
+          "missing_from_city": "LONGVIEW",
+          "contact_agency": "Longview Police Department",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/1451020/1"
+        },
+        {
+          "child_name": "Chloe Hickman",
+          "age": 17,
+          "missing_date": "9/25/2024",
+          "missing_from_city": "YAKIMA",
+          "contact_agency": "Yakima Police Department",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2032573/1"
+        },
+        {
+          "child_name": "Logan Smith",
+          "age": 16,
+          "missing_date": "9/11/2024",
+          "missing_from_city": "OLYMPIA",
+          "contact_agency": "Thurston County Sheriff's Office",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2031382/1"
+        },
+        {
+          "child_name": "Yulia Berezow",
+          "age": 5,
+          "missing_date": "8/10/2020",
+          "missing_from_city": "WOODINVILLE",
+          "contact_agency": "King County Sheriff's Office",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/1452803/1"
+        },
+        {
+          "child_name": "Vail McCann",
+          "age": 20,
+          "missing_date": "7/28/2017",
+          "missing_from_city": "MAPLE VALLEY",
+          "contact_agency": "King County Sheriff's Office",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/1304208/1"
+        },
+        {
+          "child_name": "Bryan Sung",
+          "age": 8,
+          "missing_date": "6/3/2019",
+          "missing_from_city": "REDMOND",
+          "contact_agency": "Redmond Police Department",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/1361654/1"
+        },
+        {
+          "child_name": "Emily Johnson",
+          "age": 16,
+          "missing_date": "6/19/2024",
+          "missing_from_city": "Vancouver",
+          "contact_agency": "Vancouver Police Department",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2024554/1"
+        },
+        {
+          "child_name": "Esmerelda Mora",
+          "age": 19,
+          "missing_date": "4/1/2022",
+          "missing_from_city": "OMAK",
+          "contact_agency": "Omak Police Department",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/1466272/1"
+        },
+        {
+          "child_name": "Avery Blakeley",
+          "age": 18,
+          "missing_date": "3/26/2009",
+          "missing_from_city": "MALDEN",
+          "contact_agency": "Whitman County Sheriff's Office",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/1133050/1"
+        },
+        {
+          "child_name": "Asia Wilbon",
+          "age": 21,
+          "missing_date": "2/13/2020",
+          "missing_from_city": "KENT",
+          "contact_agency": "Kent Police Department",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/1382145/1"
+        },
+        {
+          "child_name": "Oakley Carlson",
+          "age": 8,
+          "missing_date": "2/10/2021",
+          "missing_from_city": "OAKVILLE",
+          "contact_agency": "Grays Harbor Sheriff's Office",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/1438219/1"
+        },
+        {
+          "child_name": "Neveah Trevino",
+          "age": 16,
+          "missing_date": "12/07/2024",
+          "missing_from_city": "MOSES LAKE",
+          "contact_agency": "Moses Lake Police Department (Washington)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2038530/1"
+        },
+        {
+          "child_name": "Julia Potter",
+          "age": 17,
+          "missing_date": "11/6/2014",
+          "missing_from_city": "SEATTLE",
+          "contact_agency": "Seattle Police Department",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/1240281/1"
+        },
+        {
+          "child_name": "Sky Metalwala",
+          "age": 15,
+          "missing_date": "11/6/2011",
+          "missing_from_city": "BELLEVUE",
+          "contact_agency": "Bellevue Police Department",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/1183128/1"
+        },
+        {
+          "child_name": "James White",
+          "age": 17,
+          "missing_date": "07/06/2025",
+          "missing_from_city": "Spokane Valley",
+          "contact_agency": "Spokane County Sheriff's Office (Washington)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2055358/1"
+        },
+        {
+          "child_name": "Regina Allen",
+          "age": 16,
+          "missing_date": "07/02/2025",
+          "missing_from_city": "TACOMA",
+          "contact_agency": "Pierce County Sheriff's Office (Washington)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2055302/1"
+        },
+        {
+          "child_name": "Caleb Tang",
+          "age": 16,
+          "missing_date": "06/30/2025",
+          "missing_from_city": "Vancouver",
+          "contact_agency": "Vancouver Police Department (Washington)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2054983/1"
+        },
+        {
+          "child_name": "Ariella Archie",
+          "age": 14,
+          "missing_date": "06/29/2025",
+          "missing_from_city": "SEATTLE",
+          "contact_agency": "Des Moines Police Department (Washington)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2055007/1"
+        },
+        {
+          "child_name": "Jose Antunez vargas",
+          "age": 23,
+          "missing_date": "06/19/2019",
+          "missing_from_city": "RENTON",
+          "contact_agency": "Renton Police Department (Washington)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/1361205/1"
+        },
+        {
+          "child_name": "Gage Kinville",
+          "age": 15,
+          "missing_date": "06/18/2025",
+          "missing_from_city": "SPOKANE",
+          "contact_agency": "Spokane Police Department (Washington)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2054063/1"
+        },
+        {
+          "child_name": "Isabella Jaime-Mcdougall",
+          "age": 14,
+          "missing_date": "06/16/2025",
+          "missing_from_city": "Spokane",
+          "contact_agency": "Spokane Police Department (Washington)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2053866/1"
+        },
+        {
+          "child_name": "Amie Siguenza",
+          "age": 17,
+          "missing_date": "06/11/2025",
+          "missing_from_city": "EVERETT",
+          "contact_agency": "Everett Police Department (Washington)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2053865/1"
+        },
+        {
+          "child_name": "Auriaunna Fernandez",
+          "age": 17,
+          "missing_date": "06/09/2025",
+          "missing_from_city": "SHELTON",
+          "contact_agency": "Olympia Police Department (Washington)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2053551/1"
+        },
+        {
+          "child_name": "Uriel Meneses",
+          "age": 14,
+          "missing_date": "06/07/2025",
+          "missing_from_city": "SPOKANE",
+          "contact_agency": "Spokane Police Department (Washington)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2053118/1"
+        },
+        {
+          "child_name": "Julen Glynn",
+          "age": 16,
+          "missing_date": "06/03/2025",
+          "missing_from_city": "SPOKANE VALLEY",
+          "contact_agency": "Spokane Police Department (Washington)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2052998/1"
+        },
+        {
+          "child_name": "Lydia Fullerton",
+          "age": 14,
+          "missing_date": "05/26/2025",
+          "missing_from_city": "TACOMA",
+          "contact_agency": "Pierce County Sheriff's Office (Washington)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2052938/1"
+        },
+        {
+          "child_name": "Carleigh Chaisson",
+          "age": 15,
+          "missing_date": "05/23/2025",
+          "missing_from_city": "Spokane",
+          "contact_agency": "Marysville Police Department",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2052548/1"
+        },
+        {
+          "child_name": "Odion Turner",
+          "age": 14,
+          "missing_date": "05/21/2025",
+          "missing_from_city": "VANCOUVER",
+          "contact_agency": "Clark County Sheriff's Office (Washington)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2051851/1"
+        },
+        {
+          "child_name": "Kiya Lookadoo",
+          "age": 14,
+          "missing_date": "05/15/2025",
+          "missing_from_city": "TACOMA",
+          "contact_agency": "Tacoma Police Department (Washington)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2052355/1"
+        },
+        {
+          "child_name": "Pedro Zamora Ordaz",
+          "age": 17,
+          "missing_date": "05/10/2025",
+          "missing_from_city": "SEATTLE",
+          "contact_agency": "Seattle Police Department (Washington)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2051481/1"
+        },
+        {
+          "child_name": "Jazmine Randall",
+          "age": 15,
+          "missing_date": "05/02/2025",
+          "missing_from_city": "SPOKANE",
+          "contact_agency": "Spokane Police Department (Washington)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2053032/1"
+        },
+        {
+          "child_name": "Araceli Angulo",
+          "age": 17,
+          "missing_date": "04/28/2025",
+          "missing_from_city": "Lake Stevens",
+          "contact_agency": "Snohomish County Sheriff's Office (Washington)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2049633/1"
+        },
+        {
+          "child_name": "Kensli Bruce",
+          "age": 17,
+          "missing_date": "04/26/2025",
+          "missing_from_city": "PUYALLUP",
+          "contact_agency": "Pierce County Sheriff's Office (Washington)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2049440/1"
+        },
+        {
+          "child_name": "Belen Altamirano",
+          "age": 16,
+          "missing_date": "04/24/2025",
+          "missing_from_city": "Vancouver",
+          "contact_agency": "Vancouver Police Department (Washington)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2049387/1"
+        },
+        {
+          "child_name": "Citlali Franco",
+          "age": 17,
+          "missing_date": "04/24/2025",
+          "missing_from_city": "MOSES LAKE",
+          "contact_agency": "Moses Lake Police Department (Washington)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2050187/1"
+        },
+        {
+          "child_name": "Jose Garcia",
+          "age": 25,
+          "missing_date": "04/19/2001",
+          "missing_from_city": "Longview",
+          "contact_agency": "Longview Police Department (Washington)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/922792/1"
+        },
+        {
+          "child_name": "Miracle Molina-Morris",
+          "age": 16,
+          "missing_date": "04/17/2025",
+          "missing_from_city": "RENTON",
+          "contact_agency": "King County Sheriff's Office (Washington)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2048969/1"
+        },
+        {
+          "child_name": "Mercedez Campos",
+          "age": 14,
+          "missing_date": "03/21/2025",
+          "missing_from_city": "Yakima",
+          "contact_agency": "Yakima City Police Department (Washington)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2054068/1"
+        },
+        {
+          "child_name": "Rusty Dean",
+          "age": 17,
+          "missing_date": "03/02/2025",
+          "missing_from_city": "SPANAWAY",
+          "contact_agency": "Pierce County Sheriff's Office (Washington)",
+          "poster_link": "http://www.missingkids.org/poster/NCMC/2045148/1"
+        }
+      ]
+    },
+    "foster_funding": {
+      "source": "database",
+      "success": true,
+      "error": null,
+      "timestamp": "2025-12-25T14:52:01.669805",
+      "data": [
+        {
+          "award_title": "FOSTER-2024",
+          "total": "167325544.00",
+          "grant_count": 9
+        },
+        {
+          "award_title": "FOSTER-2020",
+          "total": "140869110.00",
+          "grant_count": 18
+        },
+        {
+          "award_title": "FOSTER-2022",
+          "total": "138392323.00",
+          "grant_count": 15
+        },
+        {
+          "award_title": "FOSTER-2025",
+          "total": "131636342.00",
+          "grant_count": 5
+        },
+        {
+          "award_title": "FOSTER-2021",
+          "total": "127157993.00",
+          "grant_count": 14
+        },
+        {
+          "award_title": "FOSTER-2023",
+          "total": "125098122.00",
+          "grant_count": 13
+        },
+        {
+          "award_title": "ADPTASST-2022",
+          "total": "58672308.00",
+          "grant_count": 7
+        },
+        {
+          "award_title": "ADPTASST-2021",
+          "total": "58641263.00",
+          "grant_count": 7
+        },
+        {
+          "award_title": "ADPTASST-2025",
+          "total": "57968118.00",
+          "grant_count": 4
+        },
+        {
+          "award_title": "ADPTASST-2020",
+          "total": "56971367.00",
+          "grant_count": 9
+        },
+        {
+          "award_title": "ADPTASST-2023",
+          "total": "56590594.00",
+          "grant_count": 6
+        },
+        {
+          "award_title": "ADPTASST-2024",
+          "total": "55823776.00",
+          "grant_count": 6
+        },
+        {
+          "award_title": "SSBG-2025",
+          "total": "37300967.00",
+          "grant_count": 4
+        },
+        {
+          "award_title": "SSBG-2023",
+          "total": "37240059.00",
+          "grant_count": 4
+        },
+        {
+          "award_title": "SSBG-2024",
+          "total": "37188074.00",
+          "grant_count": 6
+        },
+        {
+          "award_title": "SSBG-2022",
+          "total": "37059401.00",
+          "grant_count": 5
+        },
+        {
+          "award_title": "SSBG-2021",
+          "total": "36717622.00",
+          "grant_count": 5
+        },
+        {
+          "award_title": "SSBG-2020",
+          "total": "36168503.00",
+          "grant_count": 5
+        },
+        {
+          "award_title": "FFTA-2020",
+          "total": "9747225.00",
+          "grant_count": 11
+        },
+        {
+          "award_title": "FY 2019 Foster Care",
+          "total": "8203501.00",
+          "grant_count": 6
+        }
+      ]
+    },
+    "federal_programs": {
+      "source": "database",
+      "success": true,
+      "error": null,
+      "timestamp": "2025-12-25T14:52:01.675592",
+      "data": {
+        "title_iv_e_foster_care": [
+          {
+            "recipient_name": "FRIENDS OF YOUTH",
+            "total_funding": "8822363.64",
+            "award_count": 17,
+            "latest_year": 2025
+          },
+          {
+            "recipient_name": "YOUTHCARE",
+            "total_funding": "7053613.76",
+            "award_count": 8,
+            "latest_year": 2025
+          },
+          {
+            "recipient_name": "PIONEER HUMAN SERVICES",
+            "total_funding": "1345367",
+            "award_count": 3,
+            "latest_year": 2024
+          },
+          {
+            "recipient_name": "NEW ROOTS FUND",
+            "total_funding": "500000",
+            "award_count": 2,
+            "latest_year": 2024
+          },
+          {
+            "recipient_name": "INTERNATIONAL RESCUE COMMITTEE, INC.",
+            "total_funding": "325000",
+            "award_count": 1,
+            "latest_year": 2024
+          },
+          {
+            "recipient_name": "WORKFORCE DEVELOPMENT COUNCIL SNOHOMISH COUNTY",
+            "total_funding": "325000",
+            "award_count": 1,
+            "latest_year": 2024
+          },
+          {
+            "recipient_name": "HIP OF SPOKANE COUNTY",
+            "total_funding": "249555",
+            "award_count": 1,
+            "latest_year": 2024
+          }
+        ],
+        "tanf": [],
+        "refugee_assistance": [
+          {
+            "recipient_name": "YOUTHCARE",
+            "total_funding": "1497324"
+          },
+          {
+            "recipient_name": "NEW ROOTS FUND",
+            "total_funding": "0"
+          },
+          {
+            "recipient_name": "FRIENDS OF YOUTH",
+            "total_funding": "-198406.35"
+          },
+          {
+            "recipient_name": "PIONEER HUMAN SERVICES",
+            "total_funding": "-858110.94"
+          }
+        ],
+        "healthy_marriage": [
+          {
+            "recipient_name": "KOREAN COMMUNITY SERVICE CENTER OF GREATER WASHINGTON, INCORPORATED",
+            "total_funding": "-69362.90"
+          }
+        ],
+        "sexual_abuse_prevention": [
+          {
+            "recipient_name": "YOUTHCARE",
+            "total_funding": "749038.19"
+          },
+          {
+            "recipient_name": "COCOON HOUSE",
+            "total_funding": "739439.28"
+          },
+          {
+            "recipient_name": "COMMUNITY YOUTH SERVICES",
+            "total_funding": "721024.19"
+          },
+          {
+            "recipient_name": "FRIENDS OF YOUTH",
+            "total_funding": "450000"
+          },
+          {
+            "recipient_name": "THE COFFEE OASIS",
+            "total_funding": "450000"
+          },
+          {
+            "recipient_name": "NORTHWEST YOUTH SERVICES",
+            "total_funding": "396510.99"
+          }
+        ]
+      }
+    },
+    "scan_policies": {
+      "source": "database",
+      "success": true,
+      "error": null,
+      "timestamp": "2025-12-25T14:52:01.675973",
+      "data": [
+        {
+          "state": "WA",
+          "state_name": "Washington",
+          "region_code": "West",
+          "scan_version": "2023v1",
+          "data_year": 2023,
+          "policies": {
+            "Year": "2023",
+            "State": "WA",
+            "DefAge": "Yes",
+            "Def_DV": "No",
+            "DefPerp": "Yes",
+            "Version": "2023v1",
+            "Verified": "Yes",
+            "Def_Other": "No",
+            "ICWAState": "Yes",
+            "StateFIPS": "53",
+            "Tribe_IVE": "Yes",
+            "RegionCode": "West",
+            "AntiDiscrim": "Yes",
+            "Def_DrugLab": "Yes",
+            "Def_Neglect": "Yes",
+            "SubAdoption": "Yes",
+            "Def_SexAbuse": "Yes",
+            "Exempt_Other": "No",
+            "TribalFoster": "Yes, Tribes within state provide foster care",
+            "TribalReport": "Yes, Tribes directly accept reports",
+            "TribalScreen": "Yes, Tribes directly conduct screening and collaborate with state/local public child welfare agency",
+            "CWSystemAdmin": "State-administered",
+            "CentralScreen": "No",
+            "ConsentDecree": "No",
+            "DefHarm_Other": "No",
+            "DefPerp_Other": "No",
+            "Def_Emotional": "Yes",
+            "EvidenceLevel": "Preponderance of evidence",
+            "InvestQual_SW": "Yes, required",
+            "Penalty_Civil": "No",
+            "Penalty_Other": "No",
+            "SafeHaven_Age": "Yes",
+            "DefAge_Specify": "Under age 18",
+            "DefPerp_Parent": "Yes",
+            "Def_Punishment": "Yes",
+            "Def_ShakenBaby": "Yes",
+            "ReportImmunity": "Yes",
+            "Reporter_Coach": "Yes",
+            "Reporter_Other": "Yes",
+            "RiskOnlyReport": "Yes",
+            "ScreenRequired": "Yes",
+            "Screener_Other": "No",
+            "AntiDiscrim_Age": "Yes",
+            "AntiDiscrim_Sex": "No",
+            "DecentralScreen": "During certain times of the day, counties/regions have own screening unit",
+            "Def_Abandonment": "Yes",
+            "InvestReq_Other": "Yes",
+            "KinGuardianship": "Yes",
+            "ReportAnonymous": "All reporters can remain anonymous",
+            "ReporterPenalty": "Yes, all mandated reporters",
+            "Reporter_Clergy": "No",
+            "Reporter_Images": "No",
+            "Reporter_Judges": "No",
+            "Reporter_MHProf": "Yes",
+            "Reporter_Police": "Yes",
+            "SafeHaven_Other": "No",
+            "ScreenInfo_Perp": "No",
+            "ScreenReq_Other": "Yes",
+            "ScreenerQual_SW": "Yes, required",
+            "SubGuardianship": "Yes",
+            "AntiDiscrim_Crim": "No",
+            "AntiDiscrim_Race": "Yes",
+            "DefHarm_Physical": "Yes",
+            "DefPerp_Guardian": "Yes",
+            "Def_OtherSpecify": "Not applicable",
+            "Exempt_Religious": "No",
+            "Exempt_SafeHaven": "Yes",
+            "FatalitiesReview": "Yes, reviews are required for all or some cases",
+            "ICWAState_Expert": "Yes",
+            "InvestQual_Other": "No",
+            "InvestReq_MHEval": "No",
+            "InvestReq_Parent": "Yes",
+            "InvestReq_Victim": "Yes",
+            "InvestigationReq": "Yes",
+            "Penalty_Criminal": "Yes",
+            "ReportInfo_Other": "No",
+            "Reporter_Coroner": "Yes",
+            "Reporter_GALCASA": "Yes",
+            "SafeHaven_Parent": "Yes",
+            "ScreenInfo_Other": "No",
+            "Tribe_IVE_Number": "1",
+            "AntiDiscrim_Color": "Yes",
+            "AntiDiscrim_Other": "No",
+            "DefAge_VaryByType": "No",
+            "DefHarm_Emotional": "Yes",
+            "DefMal_RiskOfHarm": "Yes",
+            "DefPerp_AnyPerson": "No",
+            "DefPerp_Caregiver": "Yes",
+            "Def_DrugAlcMisuse": "Yes",
+            "Def_PhysicalAbuse": "Yes",
+            "Def_Subtype_Abuse": "Abuse includes physical abuse, punishment, sexual abuse, and sex trafficking; Physical abuse includes shaken baby syndrome",
+            "Def_Subtype_Other": "Not applicable",
+            "EquityStaff_Other": "Yes",
+            "Exempt_Discipline": "Yes",
+            "ICWAState_Custody": "No",
+            "InvestQual_Master": "Yes",
+            "InvestReq_MedEval": "Yes",
+            "InvestStaff_Other": "No",
+            "ReportInfo_Parent": "Yes",
+            "Tribe_IVE_Specify": "Port Gamble S'Klallam Tribe",
+            "AntiDiscrim_Gender": "Yes",
+            "AntiDiscrim_Tribal": "No",
+            "CaseManagerQual_SW": "Yes, required",
+            "DefHarm_VaryByType": "No",
+            "DefMal_InflictHarm": "Yes",
+            "DefPerp_VaryByType": "Yes",
+            "Def_Malnourishment": "Yes",
+            "Def_MedicalNeglect": "Yes",
+            "DocumentsConfirmed": "Yes",
+            "EquityStaffRole_No": "No",
+            "ExtendedFosterCare": "Yes",
+            "FalseReportPenalty": "Yes",
+            "InvestInconclusive": "No",
+            "InvestReq_PerpCrim": "No",
+            "InvestReq_PriorCPS": "Yes",
+            "InvestReq_Reporter": "Yes",
+            "NearFatalities_Not": "No",
+            "Reporter_BusDriver": "Yes",
+            "Reporter_CampStaff": "No",
+            "Reporter_Volunteer": "Yes",
+            "SafeHaven_Location": "Yes",
+            "ScreenInfo_MalDate": "No",
+            "ScreenInfo_MalType": "Yes",
+            "ScreenProcess_Team": "No",
+            "ScreenReq_PriorCPS": "Yes",
+            "ScreenerQual_Other": "No",
+            "SubKinGuardianship": "Yes",
+            "AlternativeResponse": "Yes--implemented statewide",
+            "AntiDiscrim_Genetic": "No",
+            "AntiDiscrim_Marital": "Yes",
+            "AntiDiscrim_Poverty": "No",
+            "AntiDiscrim_Unknown": "No",
+            "AntiDiscrim_Who_All": "Yes",
+            "DefHarm_Environment": "Yes",
+            "Def_FailuretoThrive": "No",
+            "Def_Subtype_Neglect": "Neglect includes abandonment, emotional maltreatment, inadequate clothing, inadequate shelter, malnourishment, medical neglect, parent responsibilities, and failure to protect",
+            "EquityStaff_Specify": "Office of Racial Equity and Social Justice",
+            "Exempt_OtherSpecify": "Not applicable",
+            "ICWAState_Placement": "Yes",
+            "InvPenalty_Criminal": "Yes",
+            "InvestQual_Bachelor": "Yes",
+            "InvestQual_Training": "Yes",
+            "InvestReq_HomeStudy": "Yes",
+            "InvestReq_HomeVisit": "No",
+            "ReligiousObjections": "No",
+            "ReportInfo_Reporter": "Yes",
+            "ReporterTrainingReq": "Yes, some mandated reporters",
+            "Reporter_OtherCourt": "Yes",
+            "ScreenProcess_Other": "No",
+            "ScreenerQual_Master": "Yes",
+            "Screener_Caseworker": "No",
+            "Screener_Supervisor": "No",
+            "AltResp_Inelig_Other": "Yes",
+            "AntiDiscrim_Ancestry": "No",
+            "AntiDiscrim_Familial": "No",
+            "AntiDiscrim_Military": "Yes",
+            "AntiDiscrim_National": "Yes",
+            "AntiDiscrim_Religion": "Yes",
+            "AntiDiscrim_Who_Some": "No",
+            "AntiDiscrim_Who_Vary": "No",
+            "CaseManagement_State": "Yes",
+            "CentralizedReporting": "No",
+            "CulturalBroker_Other": "Logical Skip",
+            "DefHarm_NotSpecified": "No",
+            "DefHarm_OtherSpecify": "Not applicable",
+            "DefPerp_FamilyMember": "No",
+            "DefPerp_OtherSpecify": "Not applicable",
+            "Def_FailureToProtect": "Yes",
+            "Def_HumanTrafficking": "Yes",
+            "Def_IllicitSubstance": "Yes",
+            "Def_PrenatalExposure": "No",
+            "EquityStaff_CaseMgmt": "No",
+            "FatalitiesDefine_Not": "No",
+            "InvestQual_Associate": "No",
+            "InvestReq_OtherCases": "Required for some",
+            "InvestReq_OtherChild": "No",
+            "InvestReq_RiskAssess": "Yes",
+            "NearFatalitiesReview": "Yes, reviews are required for all or some cases",
+            "NearFatalities_Other": "No",
+            "Penalty_OtherSpecify": "Not applicable",
+            "Penalty_Professional": "No",
+            "ReportStandard_Known": "Yes",
+            "Reporter_AfterSchool": "No",
+            "Reporter_DAAttorneys": "No",
+            "Reporter_SUDProvider": "Yes",
+            "SafeHaven_AgeSpecify": "72 hours old or younger",
+            "ScreenInfo_ChildAddr": "No",
+            "ScreenInfo_ChildName": "Yes",
+            "ScreenInfo_Statewide": "Consistent statewide",
+            "ScreenReq_OtherCases": "Required for all",
+            "ScreenReq_RiskAssess": "Yes",
+            "ScreenRiskAssess_SDM": "Yes",
+            "Screener_SpecialUnit": "Yes",
+            "TribalFoster_Specify": "Chehalis Confederated Tribes; Colville Confederated Tribes; Lummi Nation; Muckleshoot Tribe; Port Gamble S'Klallam Tribe; Puyallup Tribe; Quinault Nation; Shoalwater Bay Tribe; Snoqualmie Tribe; Spokane Tribe; Tulalip Tribes; Yakama Nation Confederated Tribes",
+            "TribalReport_Specify": "Shoalwater Bay Tribe; Tulalip Tribes",
+            "TribalScreen_Specify": "Kalispel Tribe; Makah Tribe; Nisqually Tribe; Port Gamble S'Klallam Tribe; Shoalwater Bay Tribe; Suquamish Tribe; Tulalip Tribes conduct screening. Snoqualmie Tribe collaborates with state agency during screening process",
+            "AltResp_Process_Other": "No",
+            "AntiDiscrim_Apply_All": "Yes",
+            "AntiDiscrim_Political": "No",
+            "CaseManagement_Tribal": "Yes",
+            "CaseManagerQual_Other": "No",
+            "ConsentDecree_Specify": "Not applicable",
+            "Def_GenitalMutilation": "Yes",
+            "Def_InadequateShelter": "Yes",
+            "EquityStaffRole_Other": "No",
+            "EquityStaff_Screening": "No",
+            "ExtFosterCare_Reentry": "Yes",
+            "ExtFosterCare_Request": "Yes",
+            "FatalitiesDefine_Care": "Yes",
+            "InvestQual_Experience": "Yes",
+            "InvestReq_MHEvalCases": "Logical Skip",
+            "InvestReq_ParentCases": "Required for all",
+            "InvestReq_VictimCases": "Required for all",
+            "ReporterPenalty_Coach": "Yes",
+            "ReporterPenalty_Other": "Yes",
+            "Reporter_EMTEmergency": "No",
+            "Reporter_FosterParent": "Yes",
+            "Reporter_OtherSpecify": "Licensed pathologists; Staff or volunteers in the Family and Children's Ombudsman Office; Any adult who resides with a child suspected to have suffered severe abuse",
+            "Reporter_ShelterStaff": "Yes",
+            "ScreenProcess_TeamReq": "Logical Skip",
+            "ScreenProcess_Unknown": "No",
+            "ScreenerQual_Bachelor": "Yes",
+            "ScreenerQual_Training": "Yes",
+            "Screener_OtherSpecify": "Not applicable",
+            "AltResp_Inelig_Neglect": "No",
+            "AntiDiscrim_Apply_Some": "No",
+            "AntiDiscrim_Apply_Vary": "No",
+            "AntiDiscrim_Disability": "Yes",
+            "AntiDiscrim_Staff_Vary": "No",
+            "CaseManagerQual_Master": "Yes",
+            "DecentralizedReporting": "During some times of the day, counties/regions have own reporting hotline",
+            "DefMal_Harm_VaryByType": "Yes",
+            "Def_EducationalNeglect": "No",
+            "Def_FactitiousDisorder": "No",
+            "Def_InadequateClothing": "Yes",
+            "Exempt_FinancialIssues": "Yes",
+            "ExtendedFosterCare_Age": "Up to age 21 (until 21st birthday)",
+            "FatalitiesDefine_Abuse": "Yes",
+            "FatalitiesDefine_Other": "No",
+            "ICWAState_Notification": "Yes",
+            "ICWAState_TribalStatus": "Yes",
+            "InHome_Unsubstantiated": "Yes--implemented statewide",
+            "InvestReq_MedEvalCases": "Required for some",
+            "InvestReq_OtherSpecify": "If a child is believed to be unsafe and the child's whereabouts out-of-state are known, make a Child Protective Services (CPS) report in that state; If the investigation involves a military parent or guardian, notify the Department of Defense Family Advocacy Program, per the military Memorandum of Understanding; Provide infant safety education and intervention for all children in the household age birth to one year; Conduct a universal domestic violence (DV) screening; Complete the Investigative Assessment (IA); Refer a child or youth with complex behavioral health needs for a Wraparound Intensive Services (WISe) screen; Make a referral to Early Support for Infants and Toddlers (ESIT) services if a child younger than three years old is identified with a possible developmental delay; Conduct monthly health and safety visits with children and youth and monthly visits with parents or guardians when cases are open longer than 60 calendar days",
+            "InvestReq_PerpPriorCPS": "Yes",
+            "InvestStaff_Caseworker": "Yes",
+            "InvestStaff_Supervisor": "No",
+            "NearFatalities_General": "Yes",
+            "ReportInfo_Perpetrator": "Yes",
+            "ReporterPenalty_Clergy": "Logical Skip",
+            "ReporterPenalty_Images": "Logical Skip",
+            "ReporterPenalty_Judges": "Logical Skip",
+            "ReporterPenalty_MHProf": "Yes",
+            "ReporterPenalty_Police": "Yes",
+            "ReporterTraining_Coach": "No",
+            "ReporterTraining_Other": "No",
+            "Reporter_MedicalDental": "Yes",
+            "Reporter_TeacherSchool": "Yes",
+            "SafeHaven_OtherSpecify": "Not applicable",
+            "ScreenProcess_OtherReq": "Logical Skip",
+            "ScreenReq_OtherSpecify": "Response decision tree",
+            "ScreenRiskAssess_Other": "No",
+            "ScreenerQual_Associate": "No",
+            "AltResp_Inelig_Fatality": "Yes",
+            "AltResp_Inelig_SexAbuse": "Yes",
+            "AntiDiscrim_Staff_Other": "No",
+            "CaseManagement_Provider": "No",
+            "CulturalBroker_CaseMgmt": "Logical Skip",
+            "DefPerp_HouseholdMember": "No",
+            "EquityStaffRole_Manager": "Yes",
+            "EquityStaffRole_Unknown": "No",
+            "Exempt_SubstanceExposed": "No",
+            "FatalitiesDefine_Injury": "Yes",
+            "ICWAState_ActiveEfforts": "Yes",
+            "InvestQual_OtherSpecify": "Not applicable",
+            "InvestReq_PerpCrimCases": "Logical Skip",
+            "InvestReq_PerpInterview": "Yes",
+            "InvestReq_PriorCPSCases": "Required for all",
+            "InvestReq_ReporterCases": "Required for all",
+            "InvestStaff_SpecialUnit": "Yes",
+            "NearFatalities_Specific": "No",
+            "ReportInfo_FamilyMember": "Yes",
+            "ReportInfo_Maltreatment": "Yes",
+            "ReportInfo_OtherSpecify": "Not applicable",
+            "ReporterPenalty_Coroner": "Yes",
+            "ReporterPenalty_GALCASA": "Yes",
+            "ReporterTraining_Clergy": "Logical Skip",
+            "ReporterTraining_Images": "Logical Skip",
+            "ReporterTraining_Judges": "Logical Skip",
+            "ReporterTraining_MHProf": "No",
+            "ReporterTraining_Police": "No",
+            "Reporter_ChildcareStaff": "Yes",
+            "SafeHaven_ChildUnharmed": "No",
+            "ScreenInfo_OtherSpecify": "Not applicable",
+            "ScreenProcess_Statewide": "Consistent statewide",
+            "ScreenProcess_SupReview": "Yes",
+            "ScreenReq_PriorCPSCases": "Required for all",
+            "ScreenerQual_Experience": "Yes",
+            "AltResp_Inelig_Abandoned": "Yes",
+            "AntiDiscrim_OtherSpecify": "Not applicable",
+            "AntiDiscrim_Staff_Foster": "No",
+            "CaseManagerQual_Bachelor": "Yes",
+            "CaseManagerQual_Training": "No",
+            "CulturalBroker_Screening": "Logical Skip",
+            "DefAge_VaryByTypeSpecify": "Not applicable",
+            "Def_InjuriousEnvironment": "Yes",
+            "EquityStaff_OtherSpecify": "Provide the vision, expertise, and accountability mechanisms necessary to make progress on DCYF's commitment to advance racial equity and to reduce the impact of racial and ethnic disproportionality and disparities",
+            "FalseReportPenalty_Civil": "No",
+            "FalseReportPenalty_Other": "No",
+            "ICWAState_StateRecTribes": "No",
+            "InHome_PostReunification": "Yes--implemented statewide",
+            "InvestReq_HomeStudyCases": "Required for some",
+            "InvestReq_HomeVisitCases": "Logical Skip",
+            "InvestStaff_OtherSpecify": "Not applicable",
+            "ReportInfo_ChildIdentity": "Yes",
+            "ReporterTraining_Coroner": "No",
+            "ReporterTraining_GALCASA": "No",
+            "SENNotificationReport_No": "Yes",
+            "SafeHaven_NoIntentReturn": "No",
+            "ScreenProcess_Individual": "No",
+            "AltResp_Eligibility_Other": "Yes",
+            "AltResp_Inelig_SubExposed": "No",
+            "CaseManagerQual_Associate": "No",
+            "DefHarm_VaryByTypeSpecify": "Not applicable",
+            "DefPerp_PersonResponsible": "Yes",
+            "DefPerp_VaryByTypeSpecify": "For negligent treatment or maltreatment, the perpetrator is a child's parent, legal custodian, guardian, or caregiver; For abandonment, the perpetrator is a parent or guardian",
+            "Def_InadequateSupervision": "Yes",
+            "EquityStaff_Investigation": "No",
+            "InvestReq_RiskAssessCases": "Required for all",
+            "ReporterPenalty_BusDriver": "Yes",
+            "ReporterPenalty_CampStaff": "Logical Skip",
+            "ReporterPenalty_Volunteer": "Yes",
+            "ScreenReq_RiskAssessCases": "Required for all",
+            "ScreenerQual_OtherSpecify": "Not applicable",
+            "AltResp_EligibilityRiskDet": "Yes",
+            "AltResp_EligibilityRisk_No": "No",
+            "AltResp_ServiceReferral_No": "No",
+            "AntiDiscrim_Staff_CWAgency": "Yes",
+            "CaseManagerQual_Experience": "Yes",
+            "ExtFosterCare_Reentry_Best": "No",
+            "ExtFosterCare_Reentry_Plan": "No",
+            "InvestQual_SW_OtherSpecify": "Not applicable",
+            "InvestQual_TrainingSpecify": "Child Abuse Interviewing & Assessment training for physical and sexual abuse case investigations; Initial Core training for investigations with a specialized track or FAR",
+            "InvestStaff_LawEnforcement": "No",
+            "ReportStandard_ReasonCause": "Yes",
+            "ReporterPenalty_OtherCourt": "Yes",
+            "ReporterTraining_BusDriver": "No",
+            "ReporterTraining_CampStaff": "Logical Skip",
+            "ReporterTraining_Volunteer": "No",
+            "Reporter_StateCountyAgency": "Yes",
+            "ScreenProcess_OtherSpecify": "Not applicable",
+            "ScreenProcess_SupReviewReq": "Required for all",
+            "UniversalMandatedReporting": "No",
+            "AltResp_EligibilityRiskTool": "Yes",
+            "AltResp_EligibilityRisk_Low": "Yes",
+            "AltResp_Inelig_OtherSpecify": "Severe maltreatment or abuse by a parent or caregiver; Injury to non-mobile infant; Allegation of commercial sexual exploitation; Child-on-child sexualized contact; Medical abuse reported on behalf of medical professional",
+            "AltResp_Process_AtScreening": "Yes",
+            "AntiDiscrim_Who_SomeSpecify": "Not applicable",
+            "AntiDiscrim_Who_VarySpecify": "Not applicable",
+            "CulturalBroker_OtherSpecify": "Not applicable",
+            "ExtFosterCare_Criteria_None": "No",
+            "ExtFosterCare_Criteria_Plan": "No",
+            "ExtFosterCare_Reentry_Other": "Yes",
+            "FalseReportPenalty_Criminal": "Yes",
+            "InvestReq_OtherChildrenCase": "Logical Skip",
+            "InvestReq_PerpPriorCPSCases": "Required for some",
+            "NearFatalities_OtherSpecify": "Not applicable",
+            "ReportInfo_MaltreatmentDate": "Yes",
+            "ReporterPenalty_AfterSchool": "Logical Skip",
+            "ReporterPenalty_DAAttorneys": "Logical Skip",
+            "ReporterPenalty_SUDProvider": "Yes",
+            "ReporterTraining_OtherCourt": "No",
+            "RiskOnlyReport_OtherSpecify": "Not applicable",
+            "SENNotificationReport_Other": "No",
+            "ScreenInfo_VaryLocalSpecify": "Not applicable",
+            "ScreenProcess_IndividualReq": "Logical Skip",
+            "AltResp_Inelig_PhysicalAbuse": "No",
+            "AltResp_Process_OtherSpecify": "Not applicable",
+            "AltResp_ServiceReferralOther": "No",
+            "AltResp_ServiceReferral_Risk": "Yes",
+            "AntiDiscrim_Staff_Contractor": "No",
+            "CaseManagerQual_OtherSpecify": "Not applicable",
+            "CaseManagerQual_SW_OtherSpec": "Not applicable",
+            "CentralizedReporting_Specify": "Not applicable",
+            "CulturalBroker_Investigation": "Logical Skip",
+            "ExtFosterCare_Criteria_Other": "No",
+            "InvestQual_ExperienceSpecify": "Social Services Specialist 3: 3 years with a bachelor's degree; 2 years of paid social service experience with a master's degree; Social Services Specialist 2: 1 year as a Social Services Specialist 1 and completion of Social Service Specialist training program with bachelor's degree; 1 year of paid social service experience with master's degree; No experience required for Social Services Specialist 1",
+            "InvestReq_OtherCases_Specify": "These activities are generally case-specific as noted in the descriptions; however, conducting a universal domestic violence (DV) screening and completing the Investigative Assessment (IA) are required for all reports",
+            "InvestReq_PerpInterviewCases": "Required for all",
+            "ReportInfo_PriorMaltreatment": "Yes",
+            "ReporterPenalty_EMTEmergency": "Logical Skip",
+            "ReporterPenalty_FosterParent": "Yes",
+            "ReporterPenalty_OtherSpecify": "Licensed pathologists; Staff or volunteers in the Family and Children's Ombudsman Office; Any adult who resides with a child suspected to have suffered severe abuse",
+            "ReporterPenalty_ShelterStaff": "Yes",
+            "ReporterTraining_AfterSchool": "Logical Skip",
+            "ReporterTraining_DAAttorneys": "Logical Skip",
+            "ReporterTraining_SUDProvider": "No",
+            "SENNotificationReport_YesAll": "No",
+            "ScreenReq_OtherCases_Specify": "Not applicable",
+            "ScreenerQual_SW_OtherSpecify": "Not applicable",
+            "ScreenerQual_TrainingSpecify": "Unspecified trainings at start of employment and Next Steps for Staff training between 6-12 months of employment",
+            "AltResp_EligibilityRisk_Other": "No",
+            "AltResp_Process_AfterScreenIn": "No",
+            "AntiDiscrim_Apply_SomeSpecify": "Not applicable",
+            "AntiDiscrim_Apply_VarySpecify": "Not applicable",
+            "AntiDiscrim_SexualOrientation": "Yes",
+            "AntiDiscrim_Staff_VarySpecify": "Not applicable",
+            "DefMal_Harm_VaryByTypeSpecify": "Sexual abuse and sex trafficking definitions include inflicts harm only",
+            "Def_InstitutionalAbuseNeglect": "No",
+            "ExtFosterCare_Criteria_Exempt": "Yes",
+            "ExtFosterCare_Criteria_School": "Yes",
+            "ExtFosterCare_Reentry_Consent": "Yes",
+            "FatalitiesDefine_OtherSpecify": "Not applicable",
+            "FatalitiesReview_OtherSpecify": "Not applicable",
+            "InvestReq_MHEvalCases_Specify": "Not applicable",
+            "InvestReq_ParentCases_Specify": "Not applicable",
+            "InvestReq_VictimCases_Specify": "Not applicable",
+            "ReporterPenalty_MedicalDental": "Yes",
+            "ReporterPenalty_TeacherSchool": "Yes",
+            "ReporterTraining_EMTEmergency": "Logical Skip",
+            "ReporterTraining_FosterParent": "Yes",
+            "ReporterTraining_OtherSpecify": "Not applicable",
+            "ReporterTraining_ShelterStaff": "No",
+            "ScreenRiskAssess_OtherSpecify": "Not applicable",
+            "AntiDiscrim_Staff_OtherSpecify": "Not applicable",
+            "CaseManagerQual_ExperienceSpec": "Social Services Specialist 3: 3 years with a bachelor's degree; 2 years of paid social service experience with a master's degree; Social Services Specialist 2: 1 year as a Social Services Specialist 1 and completion of Social Service Specialist training program with bachelor's degree; 1 year of paid social service experience with master's degree; No experience required for Social Services Specialist 1",
+            "DecentralizedReporting_Specify": "Not applicable",
+            "EquityStaffRole_CulturalBroker": "No",
+            "InvestReq_MedEvalCases_Specify": "If indicators of serious child abuse or neglect exist; If a child is 3 or younger with a physical abuse allegation; If the alleged child abuse and neglect cannot be reasonably attributed to the explanation and a diagnostic finding would clarify the assessment of risk or determine the need for medical treatment; If the alleged neglect includes concerns that children are deprived of food, underweight, or are starved; Consultation with the Child Protection Medical Consultation Network (CP Med-Con) or with a Child Advocacy Center (CAC) physician is required to (1) determine if a child alleged to be sexually abused needs a medical examination, (2) when there is an allegation of sexual abuse that includes physical injury to the child or the potential for the child to have a sexually transmitted disease, (3) when the child is seriously injured, and (4) when there is a pattern of injury to a young child because of alleged child abuse or neglect",
+            "NearFatalitiesReview_OtherSpec": "Not applicable",
+            "NearFatalities_SpecificSpecify": "Not applicable",
+            "ReporterPenalty_ChildcareStaff": "Yes",
+            "ReporterTraining_MedicalDental": "No",
+            "ReporterTraining_TeacherSchool": "No",
+            "ScreenerQual_ExperienceSpecify": "Social Services Specialist 3: 3 years with a bachelor's degree; 2 years of paid social service experience with a master's degree; Social Services Specialist 2: 1 year as a Social Services Specialist 1 and completion of Social Service Specialist training program with bachelor's degree; 1 year pf paid social services experience with master's degree; No experience required for Social Services Specialist 1",
+            "AltResp_EligibilityMaltreatment": "Only certain types of maltreatment are eligible",
+            "AltResp_EligibilityRiskToolSpec": "Structured Decision Making (SDM) Screening Tool",
+            "AltResp_EligibilityRisk_Unknown": "No",
+            "AltResp_Eligibility_NoSafetyCon": "Yes",
+            "CaseManagerQual_TrainingSpecify": "Not applicable",
+            "ExtFosterCare_Criteria_Employed": "Yes",
+            "ExtFosterCare_Criteria_Services": "No",
+            "ExtFosterCare_Criteria_Training": "Yes",
+            "ExtFosterCare_Reentry_OtherSpec": "Meet extended foster care eligibility criteria",
+            "ExtFosterCare_Request_OtherSpec": "Not applicable",
+            "ExtendedFosterCare_OtherSpecify": "Not applicable",
+            "FalseReportPenalty_OtherSpecify": "Not applicable",
+            "FalseReportPenalty_Professional": "No",
+            "InvestReq_PerpCrimCases_Specify": "Not applicable",
+            "InvestReq_PriorCPSCases_Specify": "Not applicable",
+            "InvestReq_ReporterCases_Specify": "Not applicable",
+            "ReportInfo_ChildLocationContact": "Yes",
+            "ReporterPenalty_StateCntyAgency": "Yes",
+            "ReporterTraining_ChildcareStaff": "No",
+            "SENNotificationReport_OtherSpec": "Not applicable",
+            "ScreenReq_PriorCPSCases_Specify": "Not applicable",
+            "AltResp_EligibilityRiskOtherSpec": "Not applicable",
+            "AltResp_EligibilityRisk_Moderate": "Yes",
+            "AltResp_Eligibility_NoOtherCases": "No",
+            "AltResp_Eligibility_OtherSpecify": "Does not have previous shelter care or dependency in the home closed in the last 12 months; Is not alleged victim already in out-of-home care",
+            "AltResp_Eligibility_PriorReports": "Yes",
+            "AltResp_ServiceReferralOtherSpec": "Not applicable",
+            "AltResp_ServiceReferral_AllCases": "No",
+            "AltResp_ServiceReferral_Interest": "Yes",
+            "AlternativeResp_VaryLocalSpecify": "Not applicable",
+            "ExtFosterCare_Criteria_OtherSpec": "Not applicable",
+            "ExtendedFosterCare_Age_OtherSpec": "Not applicable",
+            "InvestReq_HomeStudyCases_Specify": "Issues that may pose a child safety threat or risk of imminent harm, e.g., housing inspector, health department or other local authority",
+            "InvestReq_HomeVisitCases_Specify": "Not applicable",
+            "InvestReq_OtherChildrenCase_Spec": "Not applicable",
+            "InvestReq_PerpInterviewCase_Spec": "Not applicable",
+            "InvestReq_PerpPriorCPSCases_Spec": "If applicable",
+            "InvestReq_RiskAssessCase_Specify": "Not applicable",
+            "ReligiousObjections_OtherSpecify": "Not applicable",
+            "ReporterTraining_StateCntyAgency": "No",
+            "ScreenReq_RiskAssessCase_Specify": "Not applicable"
+          }
+        }
+      ]
+    },
+    "legislators": {
+      "source": "database",
+      "success": true,
+      "error": null,
+      "timestamp": "2025-12-25T14:52:01.683878",
+      "data": {
+        "legislators": [
+          {
+            "full_name": "Suzan K. DelBene",
+            "party": "Democrat",
+            "chamber": "rep",
+            "district": "1",
+            "official_url": "https://delbene.house.gov"
+          },
+          {
+            "full_name": "Marilyn Strickland",
+            "party": "Democrat",
+            "chamber": "rep",
+            "district": "10",
+            "official_url": "https://strickland.house.gov"
+          },
+          {
+            "full_name": "Rick Larsen",
+            "party": "Democrat",
+            "chamber": "rep",
+            "district": "2",
+            "official_url": "https://larsen.house.gov"
+          },
+          {
+            "full_name": "Marie Gluesenkamp Perez",
+            "party": "Democrat",
+            "chamber": "rep",
+            "district": "3",
+            "official_url": "https://gluesenkampperez.house.gov"
+          },
+          {
+            "full_name": "Dan Newhouse",
+            "party": "Republican",
+            "chamber": "rep",
+            "district": "4",
+            "official_url": "https://newhouse.house.gov"
+          },
+          {
+            "full_name": "Michael Baumgartner",
+            "party": "Republican",
+            "chamber": "rep",
+            "district": "5",
+            "official_url": "https://baumgartner.house.gov"
+          },
+          {
+            "full_name": "Emily Randall",
+            "party": "Democrat",
+            "chamber": "rep",
+            "district": "6",
+            "official_url": "https://randall.house.gov"
+          },
+          {
+            "full_name": "Pramila Jayapal",
+            "party": "Democrat",
+            "chamber": "rep",
+            "district": "7",
+            "official_url": "https://jayapal.house.gov"
+          },
+          {
+            "full_name": "Kim Schrier",
+            "party": "Democrat",
+            "chamber": "rep",
+            "district": "8",
+            "official_url": "https://schrier.house.gov"
+          },
+          {
+            "full_name": "Adam Smith",
+            "party": "Democrat",
+            "chamber": "rep",
+            "district": "9",
+            "official_url": "https://adamsmith.house.gov"
+          },
+          {
+            "full_name": "Patty Murray",
+            "party": "Democrat",
+            "chamber": "sen",
+            "district": null,
+            "official_url": "https://www.murray.senate.gov"
+          },
+          {
+            "full_name": "Maria Cantwell",
+            "party": "Democrat",
+            "chamber": "sen",
+            "district": null,
+            "official_url": "https://www.cantwell.senate.gov"
+          }
+        ],
+        "child_welfare_committees": []
+      }
+    },
+    "case_law_general": {
+      "source": "courtlistener",
+      "success": true,
+      "error": null,
+      "timestamp": "2025-12-25T14:52:02.727510",
+      "data": [
+        {
+          "case_name": "In re Child of Radience K.",
+          "citation": [
+            "2019 ME 73",
+            "208 A.3d 380"
+          ],
+          "court": "Supreme Judicial Court of Maine",
+          "date_filed": "2019-05-21T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/4621574/in-re-child-of-radience-k/"
+        },
+        {
+          "case_name": "In the Matter of the Welfare of: M. A. B., Child",
+          "citation": null,
+          "court": "Court of Appeals of Minnesota",
+          "date_filed": "2024-01-22T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/9467968/in-the-matter-of-the-welfare-of-m-a-b-child/"
+        },
+        {
+          "case_name": "In re Welfare of the Child of R.K.",
+          "citation": [
+            "901 N.W.2d 156",
+            "2017 Minn. LEXIS 583",
+            "2017 WL 4018885"
+          ],
+          "court": "Supreme Court of Minnesota",
+          "date_filed": "2017-09-13T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/8282256/in-re-welfare-of-the-child-of-rk/"
+        },
+        {
+          "case_name": "In the Matter of the Welfare of: D.J.F.-D., Child",
+          "citation": null,
+          "court": "Supreme Court of Minnesota",
+          "date_filed": "2024-02-28T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/9479213/in-the-matter-of-the-welfare-of-djf-d-child/"
+        },
+        {
+          "case_name": "Kiniropoulos v. Northampton County Child Welfare Service",
+          "citation": [
+            "917 F. Supp. 2d 377",
+            "2013 WL 140109",
+            "2013 U.S. Dist. LEXIS 4934"
+          ],
+          "court": "District Court, E.D. Pennsylvania",
+          "date_filed": "2013-01-11T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/8721931/kiniropoulos-v-northampton-county-child-welfare-service/"
+        },
+        {
+          "case_name": "Santa Barbara County Child Welfare Services v. Jasmin R.",
+          "citation": [
+            "230 Cal. App. 4th 219",
+            "178 Cal. Rptr. 3d 451"
+          ],
+          "court": "California Court of Appeal",
+          "date_filed": "2014-10-01T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/2739048/santa-barbara-county-child-welfare-services-v-jasmin-r/"
+        },
+        {
+          "case_name": "Pike Cnty. Child Welfare Serv. v. State Civil Serv. Comm'n",
+          "citation": [
+            "143 A.3d 1030",
+            "2016 Pa. Commw. LEXIS 325",
+            "2016 WL 3755777"
+          ],
+          "court": "Commonwealth Court of Pennsylvania",
+          "date_filed": "2016-07-14T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/4238541/pike-cnty-child-welfare-serv-v-state-civil-serv-commn/"
+        },
+        {
+          "case_name": "In the Matter of the WELFARE OF: J.T.L., Child",
+          "citation": [
+            "875 N.W.2d 334",
+            "2015 Minn. App. LEXIS 95",
+            "2015 WL 9437753"
+          ],
+          "court": "Court of Appeals of Minnesota",
+          "date_filed": "2015-12-28T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/3165711/in-the-matter-of-the-welfare-of-jtl-child/"
+        },
+        {
+          "case_name": "In the Matter of the WELFARE OF C.J.H., Child",
+          "citation": [
+            "878 N.W.2d 15",
+            "2016 Minn. LEXIS 248",
+            "2016 WL 1660625"
+          ],
+          "court": "Supreme Court of Minnesota",
+          "date_filed": "2016-04-27T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/3210947/in-the-matter-of-the-welfare-of-cjh-child/"
+        },
+        {
+          "case_name": "In the Matter of the WELFARE OF C.J.H., Child",
+          "citation": [
+            "864 N.W.2d 194",
+            "2015 Minn. App. LEXIS 25",
+            "2015 WL 2341643"
+          ],
+          "court": "Court of Appeals of Minnesota",
+          "date_filed": "2015-05-18T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/2801446/in-the-matter-of-the-welfare-of-cjh-child/"
+        },
+        {
+          "case_name": "In re the Welfare of the Child of R.S.",
+          "citation": [
+            "793 N.W.2d 752",
+            "2011 Minn. App. LEXIS 7",
+            "2011 WL 206204"
+          ],
+          "court": "Court of Appeals of Minnesota",
+          "date_filed": "2011-01-25T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/8279986/in-re-the-welfare-of-the-child-of-rs/"
+        },
+        {
+          "case_name": "Ana Liza Garcia v. Wa State Dshs",
+          "citation": null,
+          "court": "Court of Appeals of Washington",
+          "date_filed": "2019-10-21T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/4671370/ana-liza-garcia-v-wa-state-dshs/"
+        },
+        {
+          "case_name": "Nancy Hadlock's Family Child Care Home v. Department of Public Welfare",
+          "citation": [
+            "103 A.3d 851",
+            "2014 Pa. Commw. LEXIS 548"
+          ],
+          "court": "Commonwealth Court of Pennsylvania",
+          "date_filed": "2014-09-23T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/5148308/nancy-hadlocks-family-child-care-home-v-department-of-public-welfare/"
+        },
+        {
+          "case_name": "Ana Liza Garcia v. Wa State Dshs",
+          "citation": null,
+          "court": "Court of Appeals of Washington",
+          "date_filed": "2019-09-03T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/4658364/ana-liza-garcia-v-wa-state-dshs/"
+        },
+        {
+          "case_name": "In the Matter of the WELFARE OF the CHILD OF A.H., Parent",
+          "citation": [
+            "879 N.W.2d 1",
+            "2016 Minn. App. LEXIS 26",
+            "2016 WL 1619494"
+          ],
+          "court": "Court of Appeals of Minnesota",
+          "date_filed": "2016-04-25T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/3211255/in-the-matter-of-the-welfare-of-the-child-of-ah-parent/"
+        },
+        {
+          "case_name": "In Re The Welfare Of: N.m., A Minor Child",
+          "citation": null,
+          "court": "Court of Appeals of Washington",
+          "date_filed": "2014-11-25T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/2755319/in-re-the-welfare-of-nm-a-minor-child/"
+        },
+        {
+          "case_name": "In the Matter of the Welfare of the Child of: T. M. A. and M. J. R., Parents",
+          "citation": null,
+          "court": "Court of Appeals of Minnesota",
+          "date_filed": "2024-01-08T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/9461315/in-the-matter-of-the-welfare-of-the-child-of-t-m-a-and-m-j-r/"
+        },
+        {
+          "case_name": "Farrell v. Child Welfare Administration",
+          "citation": [
+            "22 F. App'x 65"
+          ],
+          "court": "Court of Appeals for the Second Circuit",
+          "date_filed": "2001-11-20T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/7177229/farrell-v-child-welfare-administration/"
+        },
+        {
+          "case_name": "St. Elizabeth's Child Care Center v. Deparment of Public Welfare",
+          "citation": [
+            "963 A.2d 1274",
+            "600 Pa. 131",
+            "2009 Pa. LEXIS 256"
+          ],
+          "court": "Supreme Court of Pennsylvania",
+          "date_filed": "2009-02-19T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/2114013/st-elizabeths-child-care-center-v-deparment-of-public-welfare/"
+        },
+        {
+          "case_name": "In re the Welfare of the Child of E.A.C.",
+          "citation": [
+            "812 N.W.2d 165",
+            "2012 Minn. App. LEXIS 15",
+            "2012 WL 539269"
+          ],
+          "court": "Court of Appeals of Minnesota",
+          "date_filed": "2012-02-21T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/8280507/in-re-the-welfare-of-the-child-of-eac/"
+        }
+      ]
+    },
+    "case_law_tpr": {
+      "source": "courtlistener",
+      "success": true,
+      "error": null,
+      "timestamp": "2025-12-25T14:52:03.339714",
+      "data": [
+        {
+          "case_name": "Re: Termination of Parental Rights",
+          "citation": null,
+          "court": "Idaho Supreme Court",
+          "date_filed": "2016-11-03T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/4318072/re-termination-of-parental-rights/"
+        },
+        {
+          "case_name": "In Re Termination of Parental Rights as to M.P.",
+          "citation": null,
+          "court": "Court of Appeals of Arizona",
+          "date_filed": "2025-06-03T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10600305/in-re-termination-of-parental-rights-as-to-mp/"
+        },
+        {
+          "case_name": "In Re Termination of Parental Rights as to M.P.",
+          "citation": null,
+          "court": "Court of Appeals of Arizona",
+          "date_filed": "2025-06-03T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10597481/in-re-termination-of-parental-rights-as-to-mp/"
+        },
+        {
+          "case_name": "Re: Termination of Parental Rights (father)",
+          "citation": null,
+          "court": "Idaho Supreme Court",
+          "date_filed": "2016-11-01T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/4317198/re-termination-of-parental-rights-father/"
+        },
+        {
+          "case_name": "RE: Termination of Parental Rights",
+          "citation": null,
+          "court": "Idaho Supreme Court",
+          "date_filed": "2014-02-07T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/2652639/re-termination-of-parental-rights/"
+        },
+        {
+          "case_name": "Re: Termination of Parental Rights (father)",
+          "citation": null,
+          "court": "Idaho Supreme Court",
+          "date_filed": "2014-06-24T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/2680294/re-termination-of-parental-rights-father/"
+        },
+        {
+          "case_name": "In Re Termination of the Parental Rights of Doe",
+          "citation": [
+            "162 Idaho 280",
+            "396 P.3d 1162",
+            "2017 WL 2644700",
+            "2017 Ida. LEXIS 181"
+          ],
+          "court": "Idaho Supreme Court",
+          "date_filed": "2017-06-20T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/4402003/in-re-termination-of-the-parental-rights-of-doe/"
+        },
+        {
+          "case_name": "Re: Termination of Parental Rights",
+          "citation": null,
+          "court": "Idaho Supreme Court",
+          "date_filed": "2010-06-30T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/874241/re-termination-of-parental-rights/"
+        },
+        {
+          "case_name": "Re: Termination of parental rights",
+          "citation": null,
+          "court": "Idaho Supreme Court",
+          "date_filed": "2010-06-28T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/874245/re-termination-of-parental-rights/"
+        },
+        {
+          "case_name": "Re: Termination of Parental Rights",
+          "citation": null,
+          "court": "Idaho Supreme Court",
+          "date_filed": "2010-06-30T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/874242/re-termination-of-parental-rights/"
+        },
+        {
+          "case_name": "In Re the Termination of the Parental Rights of Doe",
+          "citation": [
+            "161 Idaho 393",
+            "386 P.3d 916",
+            "2016 Ida. LEXIS 424"
+          ],
+          "court": "Idaho Supreme Court",
+          "date_filed": "2016-12-22T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/4333068/in-re-the-termination-of-the-parental-rights-of-doe/"
+        },
+        {
+          "case_name": "Re Termination of Parental Rights (father)",
+          "citation": null,
+          "court": "Idaho Court of Appeals",
+          "date_filed": "2011-03-03T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/880772/re-termination-of-parental-rights-father/"
+        },
+        {
+          "case_name": "In re Termination of Parental Rights to M.A.S.C.",
+          "citation": [
+            "197 Wash. 2d 685",
+            "486 P.3d 886"
+          ],
+          "court": "Washington Supreme Court",
+          "date_filed": "2021-05-20T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/4884819/in-re-termination-of-parental-rights-to-masc/"
+        },
+        {
+          "case_name": "Termination of Parental Rights of John Doe (2014-25)",
+          "citation": [
+            "158 Idaho 614",
+            "349 P.3d 1205"
+          ],
+          "court": "Idaho Supreme Court",
+          "date_filed": "2015-05-28T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/3133235/termination-of-parental-rights-of-john-doe-2014-25/"
+        },
+        {
+          "case_name": "Re: Termination of Parental Rights",
+          "citation": null,
+          "court": "Idaho Supreme Court",
+          "date_filed": "2016-11-01T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10732979/re-termination-of-parental-rights/"
+        },
+        {
+          "case_name": "In re Termination Parental Rights to the Minor Child Baby A",
+          "citation": [
+            "241 So. 3d 1182"
+          ],
+          "court": "Louisiana Court of Appeal",
+          "date_filed": "2018-01-09T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/7676013/in-re-termination-parental-rights-to-the-minor-child-baby-a/"
+        },
+        {
+          "case_name": "In Re the Termination of the Parental Rights of Doe",
+          "citation": [
+            "158 Idaho 548",
+            "348 P.3d 163",
+            "2015 Ida. LEXIS 115"
+          ],
+          "court": "Idaho Supreme Court",
+          "date_filed": "2015-04-23T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/3133242/in-re-the-termination-of-the-parental-rights-of-doe/"
+        },
+        {
+          "case_name": "State v. R.H. (In re Termination Parental Rights to E.M.)",
+          "citation": [
+            "925 N.W.2d 792",
+            "2019 WI App 5",
+            "385 Wis. 2d 515"
+          ],
+          "court": "Court of Appeals of Wisconsin",
+          "date_filed": "2018-12-04T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/8287250/state-v-rh-in-re-termination-parental-rights-to-em/"
+        },
+        {
+          "case_name": "IN THE MATTER OF THE TERMINATION OF PARENTAL RIGHTS OF SCHULTZ",
+          "citation": [
+            "389 P.3d 322",
+            "2017 OK 5",
+            "2017 Okla. LEXIS 4"
+          ],
+          "court": "Supreme Court of Oklahoma",
+          "date_filed": "2017-01-18T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/4450305/in-the-matter-of-the-termination-of-parental-rights-of-schultz/"
+        },
+        {
+          "case_name": "In re the Termination of the Parental Rights of Doe",
+          "citation": [
+            "156 Idaho 682",
+            "330 P.3d 1040",
+            "2014 WL 3766005",
+            "2014 Ida. LEXIS 201"
+          ],
+          "court": "Idaho Supreme Court",
+          "date_filed": "2014-08-01T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/5342146/in-re-the-termination-of-the-parental-rights-of-doe/"
+        }
+      ]
+    },
+    "case_law_removal": {
+      "source": "courtlistener",
+      "success": true,
+      "error": null,
+      "timestamp": "2025-12-25T14:52:03.987141",
+      "data": [
+        {
+          "case_name": "In the Interest of J.C. a Child v. Department of Family and Protective Services",
+          "citation": null,
+          "court": "Court of Appeals of Texas",
+          "date_filed": "2025-07-29T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10647019/in-the-interest-of-jc-a-child-v-department-of-family-and-protective/"
+        },
+        {
+          "case_name": "In the Interest of B.I.C., a Child v. Department of Family and Protective Services",
+          "citation": null,
+          "court": "Court of Appeals of Texas",
+          "date_filed": "2024-04-09T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/9493402/in-the-interest-of-bic-a-child-v-department-of-family-and-protective/"
+        },
+        {
+          "case_name": "in the Interest of I. F. Child v. Department of Family and Protective Services",
+          "citation": null,
+          "court": "Court of Appeals of Texas",
+          "date_filed": "2022-11-03T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/8508986/in-the-interest-of-i-f-child-v-department-of-family-and-protective/"
+        },
+        {
+          "case_name": "In the Interest of E.F.K., a Child v. Department of Family and Protective Services",
+          "citation": null,
+          "court": "Court of Appeals of Texas",
+          "date_filed": "2024-07-16T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10010074/in-the-interest-of-efk-a-child-v-department-of-family-and-protective/"
+        },
+        {
+          "case_name": "In the Interest of B. S., Child v. Texas Department of Family and Protective Services",
+          "citation": null,
+          "court": "Court of Appeals of Texas",
+          "date_filed": "2023-04-27T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/9395714/in-the-interest-of-b-s-child-v-texas-department-of-family-and/"
+        },
+        {
+          "case_name": "In the Interest of J.A.R., a Child v. Department of Family and Protective Services",
+          "citation": null,
+          "court": "Court of Appeals of Texas",
+          "date_filed": "2024-07-22T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10017896/in-the-interest-of-jar-a-child-v-department-of-family-and-protective/"
+        },
+        {
+          "case_name": "In the Interest of A. B. G. a Child v. Department of Family and Protective Services",
+          "citation": null,
+          "court": "Court of Appeals of Texas",
+          "date_filed": "2025-02-21T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10337561/in-the-interest-of-a-b-g-a-child-v-department-of-family-and-protective/"
+        },
+        {
+          "case_name": "In the Interest of N. E. a Child v. Department of Family and Protective Services",
+          "citation": null,
+          "court": "Court of Appeals of Texas",
+          "date_filed": "2023-03-16T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/9385032/in-the-interest-of-n-e-a-child-v-department-of-family-and-protective/"
+        },
+        {
+          "case_name": "In the Interest of J.W., Jr., a Child v. Department of Family and Protective Services",
+          "citation": null,
+          "court": "Court of Appeals of Texas",
+          "date_filed": "2024-04-11T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/9493390/in-the-interest-of-jw-jr-a-child-v-department-of-family-and/"
+        },
+        {
+          "case_name": "In the Interest of E.J. a Child v. Texas Department of Family and Protective Services",
+          "citation": null,
+          "court": "Court of Appeals of Texas",
+          "date_filed": "2023-11-21T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/9448666/in-the-interest-of-ej-a-child-v-texas-department-of-family-and/"
+        },
+        {
+          "case_name": "R. M. v. Texas Department of Family and Protective Services",
+          "citation": null,
+          "court": "Court of Appeals of Texas",
+          "date_filed": "2025-08-07T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10651605/r-m-v-texas-department-of-family-and-protective-services/"
+        },
+        {
+          "case_name": "In the Interest of T.A.B., a Child v. Texas Department of Family and Protective Services",
+          "citation": null,
+          "court": "Court of Appeals of Texas",
+          "date_filed": "2023-09-14T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/9426734/in-the-interest-of-tab-a-child-v-texas-department-of-family-and/"
+        },
+        {
+          "case_name": "in the Interest of M.T. a Child v. Texas Department of Family and Protective Services",
+          "citation": null,
+          "court": "Court of Appeals of Texas",
+          "date_filed": "2022-08-09T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/7856607/in-the-interest-of-mt-a-child-v-texas-department-of-family-and/"
+        },
+        {
+          "case_name": "C. G. v. Texas Department of Family and Protective Services",
+          "citation": null,
+          "court": "Court of Appeals of Texas",
+          "date_filed": "2025-10-02T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10691578/c-g-v-texas-department-of-family-and-protective-services/"
+        },
+        {
+          "case_name": "in the Interest of M.M.M. Child v. Department of Family and Protective Services",
+          "citation": null,
+          "court": "Court of Appeals of Texas",
+          "date_filed": "2021-11-18T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/5299599/in-the-interest-of-mmm-child-v-department-of-family-and-protective/"
+        },
+        {
+          "case_name": "In the Interest of E. J. M. AKA E. J. M., a Child v. Department of Family and Protective Services",
+          "citation": null,
+          "court": "Court of Appeals of Texas",
+          "date_filed": "2025-07-22T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10642159/in-the-interest-of-e-j-m-aka-e-j-m-a-child-v-department-of-family/"
+        },
+        {
+          "case_name": "J.W. v. Indiana Department of Child Services",
+          "citation": null,
+          "court": "Indiana Court of Appeals",
+          "date_filed": "2025-02-28T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10649816/jw-v-indiana-department-of-child-services/"
+        },
+        {
+          "case_name": "K M v. Indiana Department of Child Services",
+          "citation": null,
+          "court": "Indiana Court of Appeals",
+          "date_filed": "2025-03-28T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10366611/k-m-v-indiana-department-of-child-services/"
+        },
+        {
+          "case_name": "in the Interest of A.S., Child v. Department of Family and Protective Services",
+          "citation": null,
+          "court": "Court of Appeals of Texas",
+          "date_filed": "2019-04-23T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/4612820/in-the-interest-of-as-child-v-department-of-family-and-protective/"
+        },
+        {
+          "case_name": "T. M. v. Texas Department of Family and Protective Services",
+          "citation": null,
+          "court": "Court of Appeals of Texas",
+          "date_filed": "2024-01-04T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/9458130/t-m-v-texas-department-of-family-and-protective-services/"
+        }
+      ]
+    },
+    "case_law_1983": {
+      "source": "courtlistener",
+      "success": true,
+      "error": null,
+      "timestamp": "2025-12-25T14:52:04.902021",
+      "data": [
+        {
+          "case_name": "Christopher H. Creel a/k/a Christopher Houston Creel v. State of Mississippi",
+          "citation": null,
+          "court": "Court of Appeals of Mississippi",
+          "date_filed": "2023-01-17T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10628454/christopher-h-creel-aka-christopher-houston-creel-v-state-of/"
+        },
+        {
+          "case_name": "Derric McDonald v. State of Mississippi",
+          "citation": null,
+          "court": "Court of Appeals of Mississippi",
+          "date_filed": "2022-11-22T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10629605/derric-mcdonald-v-state-of-mississippi/"
+        },
+        {
+          "case_name": "Joe Clyde Tubwell v. FV-1, Inc., In Trust for Morgan Stanley Mortgage Capital Holdings, LLC, Morgan Stanley Mortgage Capital Holdings, LLC and Specialized Loan Servicing, LLC",
+          "citation": null,
+          "court": "Court of Appeals of Mississippi",
+          "date_filed": "2023-08-08T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10629428/joe-clyde-tubwell-v-fv-1-inc-in-trust-for-morgan-stanley-mortgage/"
+        },
+        {
+          "case_name": "Michael T. Gerty v. Joesie R. Gerty",
+          "citation": null,
+          "court": "Mississippi Supreme Court",
+          "date_filed": "2020-06-04T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/4758678/michael-t-gerty-v-joesie-r-gerty/"
+        },
+        {
+          "case_name": "Alfred Williams v. State of Mississippi",
+          "citation": null,
+          "court": "Court of Appeals of Mississippi",
+          "date_filed": "2022-02-15T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10629406/alfred-williams-v-state-of-mississippi/"
+        },
+        {
+          "case_name": "Adam Lee Pinkton v. State of Mississippi",
+          "citation": null,
+          "court": "Court of Appeals of Mississippi",
+          "date_filed": "2025-04-15T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10628568/adam-lee-pinkton-v-state-of-mississippi/"
+        },
+        {
+          "case_name": "Timothy Gene Pryer v. Thomas Gardner, III",
+          "citation": [
+            "247 So. 3d 1245"
+          ],
+          "court": "Mississippi Supreme Court",
+          "date_filed": "2018-05-17T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/4498949/timothy-gene-pryer-v-thomas-gardner-iii/"
+        },
+        {
+          "case_name": "Carl Rufus Walters a/k/a Carl Walters v. Dain Gates and Evelyn Daniel",
+          "citation": null,
+          "court": "Court of Appeals of Mississippi",
+          "date_filed": "2023-05-16T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10628699/carl-rufus-walters-aka-carl-walters-v-dain-gates-and-evelyn-daniel/"
+        },
+        {
+          "case_name": "Elijah T. Hall a/k/a Elijah Hall v. State of Mississippi",
+          "citation": null,
+          "court": "Court of Appeals of Mississippi",
+          "date_filed": "2023-08-29T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10629154/elijah-t-hall-aka-elijah-hall-v-state-of-mississippi/"
+        },
+        {
+          "case_name": "Garet Urban v. Tina Urban",
+          "citation": null,
+          "court": "Court of Appeals of Mississippi",
+          "date_filed": "2023-09-05T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10629633/garet-urban-v-tina-urban/"
+        },
+        {
+          "case_name": "In The Matter of The Estate of Frederick Adams Biddle, Deceased: Richard Brian Biddle and Brian Baines Biddle v. Dianne Biddle",
+          "citation": null,
+          "court": "Mississippi Supreme Court",
+          "date_filed": "2023-06-29T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10627952/in-the-matter-of-the-estate-of-frederick-adams-biddle-deceased-richard/"
+        },
+        {
+          "case_name": "Juliet Lawson Jowett v. SMBD, Inc. and Richard F. Scruggs",
+          "citation": null,
+          "court": "Court of Appeals of Mississippi",
+          "date_filed": "2022-01-11T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10628929/juliet-lawson-jowett-v-smbd-inc-and-richard-f-scruggs/"
+        },
+        {
+          "case_name": "Louis Edward Chandler v. State of Mississippi",
+          "citation": null,
+          "court": "Court of Appeals of Mississippi",
+          "date_filed": "2022-08-23T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10629207/louis-edward-chandler-v-state-of-mississippi/"
+        },
+        {
+          "case_name": "David Carter v. Mary A. Carter",
+          "citation": null,
+          "court": "Court of Appeals of Mississippi",
+          "date_filed": "2021-02-02T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10628532/david-carter-v-mary-a-carter/"
+        },
+        {
+          "case_name": "Veto F. Roley v. Chinelo J. Roley",
+          "citation": null,
+          "court": "Court of Appeals of Mississippi",
+          "date_filed": "2021-05-18T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10628513/veto-f-roley-v-chinelo-j-roley/"
+        },
+        {
+          "case_name": "Little v. Norman",
+          "citation": [
+            "119 So. 3d 382",
+            "2013 WL 3802452",
+            "2013 Miss. App. LEXIS 457"
+          ],
+          "court": "Court of Appeals of Mississippi",
+          "date_filed": "2013-07-23T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/4993156/little-v-norman/"
+        },
+        {
+          "case_name": "Jimmy Powell a/k/a Jamel Hobson a/k/a Jimmy Hobson v. State of Mississipp",
+          "citation": null,
+          "court": "Court of Appeals of Mississippi",
+          "date_filed": "2019-11-26T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10005379/jimmy-powell-aka-jamel-hobson-aka-jimmy-hobson-v-state-of-mississipp/"
+        },
+        {
+          "case_name": "Clifton Davenport a/k/a Clifton D. Davenport a/k/a Cliff Davenport a/k/a Clifford Davenport v. State of Mississippi;",
+          "citation": null,
+          "court": "Court of Appeals of Mississippi",
+          "date_filed": "2019-10-29T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/9987866/clifton-davenport-aka-clifton-d-davenport-aka-cliff-davenport-aka/"
+        },
+        {
+          "case_name": "Herman Barnes v. State of Mississippi",
+          "citation": [
+            "226 So. 3d 130",
+            "2017 Miss. App. LEXIS 481",
+            "2017 WL 3600384"
+          ],
+          "court": "Court of Appeals of Mississippi",
+          "date_filed": "2017-08-22T00:00:00-07:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/4420799/herman-barnes-v-state-of-mississippi/"
+        },
+        {
+          "case_name": "Ransom Levi Matheny v. State of Mississippi",
+          "citation": null,
+          "court": "Court of Appeals of Mississippi",
+          "date_filed": "2020-01-14T00:00:00-08:00",
+          "courtlistener_url": "https://www.courtlistener.com/opinion/10020223/ransom-levi-matheny-v-state-of-mississippi/"
+        }
+      ]
+    },
+    "pending_bills": {
+      "source": "openstates",
+      "success": true,
+      "error": null,
+      "timestamp": "2025-12-25T14:52:05.755595",
+      "data": [
+        {
+          "bill_id": "SB 5940",
+          "title": "Creating a housing assistance pilot program for youth enrolled in extended foster care.",
+          "session": "2025-2026",
+          "status": "Prefiled for introduction.",
+          "url": "https://openstates.org/wa/bills/2025-2026/SB5940/"
+        },
+        {
+          "bill_id": "SB 5935",
+          "title": "Updating the office of homeless youth program provisions.",
+          "session": "2025-2026",
+          "status": "Prefiled for introduction.",
+          "url": "https://openstates.org/wa/bills/2025-2026/SB5935/"
+        },
+        {
+          "bill_id": "HB 2180",
+          "title": "Concerning coaches of youth sports organizations.",
+          "session": "2025-2026",
+          "status": "Prefiled for introduction.",
+          "url": "https://openstates.org/wa/bills/2025-2026/HB2180/"
+        },
+        {
+          "bill_id": "HB 2178",
+          "title": "Concerning court rules and procedures.",
+          "session": "2025-2026",
+          "status": "Prefiled for introduction.",
+          "url": "https://openstates.org/wa/bills/2025-2026/HB2178/"
+        },
+        {
+          "bill_id": "HB 2127",
+          "title": "Changing the legal title for physician assistants to physician associates.",
+          "session": "2025-2026",
+          "status": "Prefiled for introduction.",
+          "url": "https://openstates.org/wa/bills/2025-2026/HB2127/"
+        },
+        {
+          "bill_id": "HB 2099",
+          "title": "Expanding access to the early childhood education and assistance program for military families.",
+          "session": "2025-2026",
+          "status": "Prefiled for introduction.",
+          "url": "https://openstates.org/wa/bills/2025-2026/HB2099/"
+        },
+        {
+          "bill_id": "HB 2171",
+          "title": "Supporting foster youth.",
+          "session": "2025-2026",
+          "status": "Prefiled for introduction.",
+          "url": "https://openstates.org/wa/bills/2025-2026/HB2171/"
+        },
+        {
+          "bill_id": "SB 5907",
+          "title": "Expanding access to the early childhood education and assistance program for military families.",
+          "session": "2025-2026",
+          "status": "Prefiled for introduction.",
+          "url": "https://openstates.org/wa/bills/2025-2026/SB5907/"
+        },
+        {
+          "bill_id": "SB 5866",
+          "title": "Increasing frontline staffing within the department of children, youth, and families.",
+          "session": "2025-2026",
+          "status": "Prefiled for introduction.",
+          "url": "https://openstates.org/wa/bills/2025-2026/SB5866/"
+        },
+        {
+          "bill_id": "HB 2087",
+          "title": "Addressing travel insurance.",
+          "session": "2025-2026",
+          "status": "Prefiled for introduction.",
+          "url": "https://openstates.org/wa/bills/2025-2026/HB2087/"
+        },
+        {
+          "bill_id": "SB 5858",
+          "title": "Providing pupil transportation safety net funding for special passengers.",
+          "session": "2025-2026",
+          "status": "Prefiled for introduction.",
+          "url": "https://openstates.org/wa/bills/2025-2026/SB5858/"
+        },
+        {
+          "bill_id": "HB 2108",
+          "title": "Concerning the transfer of the juvenile justice functions.",
+          "session": "2025-2026",
+          "status": "Prefiled for introduction.",
+          "url": "https://openstates.org/wa/bills/2025-2026/HB2108/"
+        },
+        {
+          "bill_id": "SB 5837",
+          "title": "Concerning guardianship, conservatorship, and other protective arrangements.",
+          "session": "2025-2026",
+          "status": "Prefiled for introduction.",
+          "url": "https://openstates.org/wa/bills/2025-2026/SB5837/"
+        },
+        {
+          "bill_id": "HB 1429",
+          "title": "Creating a housing assistance program for youth enrolled in extended foster care.",
+          "session": "2025-2026",
+          "status": "Public hearing in the House Committee on Early Learning & Human Services at 1:30 PM.",
+          "url": "https://openstates.org/wa/bills/2025-2026/HB1429/"
+        },
+        {
+          "bill_id": "HB 1496",
+          "title": "Strengthening patients' rights regarding their health care information.",
+          "session": "2025-2026",
+          "status": "First reading, referred to Health Care & Wellness.",
+          "url": "https://openstates.org/wa/bills/2025-2026/HB1496/"
+        },
+        {
+          "bill_id": "SB 5752",
+          "title": "Modifying child care and early childhood development programs.",
+          "session": "2025-2026",
+          "status": "Effective date 7/1/2025*.",
+          "url": "https://openstates.org/wa/bills/2025-2026/SB5752/"
+        },
+        {
+          "bill_id": "HB 1346",
+          "title": "Removing cannabis industry barriers.",
+          "session": "2025-2026",
+          "status": "Public hearing in the House Committee on Consumer Protection & Business at 1:30 PM.",
+          "url": "https://openstates.org/wa/bills/2025-2026/HB1346/"
+        },
+        {
+          "bill_id": "SB 5494",
+          "title": "Protecting Washington communities from lead-based paint.",
+          "session": "2025-2026",
+          "status": "Effective date 7/27/2025.",
+          "url": "https://openstates.org/wa/bills/2025-2026/SB5494/"
+        },
+        {
+          "bill_id": "HB 1128",
+          "title": "Establishing a child care workforce standards board.",
+          "session": "2025-2026",
+          "status": "Referred to Appropriations.",
+          "url": "https://openstates.org/wa/bills/2025-2026/HB1128/"
+        },
+        {
+          "bill_id": "SB 5376",
+          "title": "Preventing cruelty to animals.",
+          "session": "2025-2026",
+          "status": "First reading, referred to Law & Justice.",
+          "url": "https://openstates.org/wa/bills/2025-2026/SB5376/"
+        }
+      ]
+    },
+    "statutes": {
+      "source": "childwelfare.gov",
+      "success": false,
+      "error": "Spider disabled",
+      "timestamp": "2025-12-25T14:52:05.755604",
+      "data": null
+    }
+  }
+}

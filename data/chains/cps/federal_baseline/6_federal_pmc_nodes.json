@@ -1,0 +1,182 @@
+{
+  "federal_pmc_nodes": [
+    {
+      "subnode": "PMC-01",
+      "state": "United States",
+      "node": "PMC",
+      "recommendation_name": "Federal Oversight & Child and Family Services Reviews (CFSR)",
+      "theme_color": "#1E90FF",
+      "icon": "🔍",
+      "summary_html": "Federal **Child and Family Services Reviews (CFSR)** monitor state performance on safety, permanency, and well-being. Project Milk Carton flags states that repeatedly fail or never publish CFSR improvement plans.",
+      "authority_html": "- **45 CFR Part 1355** — CFSR procedures and performance metrics  \n- **Social Security Act IV-E (42 U.S.C. §§ 670–679c)** — ties funding to CFSR compliance",
+      "urls": {
+        "CFSR_CFR": "https://www.law.cornell.edu/cfr/text/45/part-1355",
+        "ACF_CFSR": "https://www.acf.hhs.gov/cb/monitoring/child-family-services-reviews"
+      },
+      "statutory_authority": {
+        "federal": [
+          "45 CFR Part 1355 (CFSR)",
+          "42 U.S.C. §§ 670–679c (SSA Title IV-E)"
+        ],
+        "state": []
+      },
+      "linked_fail": "FAIL-03",
+      "pmc_function": "Monitor",
+      "recommendation_basis": "Audit state compliance reports; identify chronic non-performance; trigger citizen review panels to demand enforcement.",
+      "domain": "civil",
+      "procedural_weight": 0.6,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "CFSR oversight and IV-E compliance links"
+      ],
+      "trigger_name": "CFSR Monitoring"
+    },
+    {
+      "subnode": "PMC-02",
+      "state": "United States",
+      "node": "PMC",
+      "recommendation_name": "Office of Inspector General (OIG) & Single Audit Act Accountability",
+      "theme_color": "#708090",
+      "icon": "🧾",
+      "summary_html": "Federal **OIG** investigations and **Single Audit Act** reviews track misuse of child-welfare funds. Project Milk Carton aggregates audit findings and highlights unresolved repeat deficiencies.",
+      "authority_html": "- **Inspector General Act (5 U.S.C. App.)** — OIG oversight of HHS  \n- **Single Audit Act (31 U.S.C. §§ 7501–7507)** — audits of federally funded programs",
+      "urls": {
+        "IGA_Cornell": "https://www.law.cornell.edu/uscode/text/5a/appendix-3",
+        "SAA_Cornell": "https://www.law.cornell.edu/uscode/text/31/chapter-75"
+      },
+      "statutory_authority": {
+        "federal": [
+          "5 U.S.C. App. (Inspector General Act)",
+          "31 U.S.C. §§ 7501–7507 (Single Audit Act)"
+        ],
+        "state": []
+      },
+      "linked_fail": "FAIL-03",
+      "pmc_function": "Policy",
+      "recommendation_basis": "Compare OIG and audit findings to CFSR results to locate financial mismanagement and push for state public disclosure.",
+      "domain": "civil",
+      "procedural_weight": 0.7,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "OIG and Single Audit Act oversight refs"
+      ],
+      "trigger_name": "OIG / Financial Audit"
+    },
+    {
+      "subnode": "PMC-03",
+      "state": "United States",
+      "node": "PMC",
+      "recommendation_name": "CAPTA Citizen Review Panels",
+      "theme_color": "#32CD32",
+      "icon": "🗣️",
+      "summary_html": "**CAPTA §5106a(c)** requires every state to maintain **Citizen Review Panels** that evaluate CPS policies. Project Milk Carton checks whether panels are active, independent, and publicly reporting.",
+      "authority_html": "- **CAPTA (42 U.S.C. § 5106a(c))** — Citizen Review Panel mandate and reporting requirements",
+      "urls": {
+        "CAPTA_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-67"
+      },
+      "statutory_authority": {
+        "federal": [
+          "42 U.S.C. § 5106a(c) (CAPTA)"
+        ],
+        "state": []
+      },
+      "linked_fail": "FAIL-06",
+      "pmc_function": "Monitor",
+      "recommendation_basis": "Verify panel existence and publication of annual reports; mobilize community participation where panels are inactive.",
+      "domain": "civil",
+      "procedural_weight": 0.6,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "CAPTA citizen panel requirement"
+      ],
+      "trigger_name": "Citizen Review Panels"
+    },
+    {
+      "subnode": "PMC-04",
+      "state": "United States",
+      "node": "PMC",
+      "recommendation_name": "Protect Our Kids Act – Federal Commission Reports",
+      "theme_color": "#B22222",
+      "icon": "📊",
+      "summary_html": "The **Protect Our Kids Act (PL 112-275)** created a national commission to study child-fatality prevention. Project Milk Carton cross-references its findings with state fatality data to expose non-implementation.",
+      "authority_html": "- **Public Law 112-275 (Protect Our Kids Act)** — national commission and reporting framework",
+      "urls": {
+        "POKA_PLAW": "https://www.congress.gov/112/plaws/publ275/PLAW-112publ275.pdf"
+      },
+      "statutory_authority": {
+        "federal": [
+          "Public Law 112-275 (Protect Our Kids Act)"
+        ],
+        "state": []
+      },
+      "linked_fail": "FAIL-04",
+      "pmc_function": "Monitor",
+      "recommendation_basis": "Analyze federal commission recommendations versus state policy adoption; publicize gaps in implementation.",
+      "domain": "civil",
+      "procedural_weight": 0.5,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "Protect Our Kids Act citations"
+      ],
+      "trigger_name": "Fatality Review Commission"
+    },
+    {
+      "subnode": "PMC-05",
+      "state": "United States",
+      "node": "PMC",
+      "recommendation_name": "Freedom of Information and Transparency Enforcement",
+      "theme_color": "#FFD700",
+      "icon": "📂",
+      "summary_html": "Federal transparency statutes—**FOIA** and **Sunshine Act**—require disclosure of government data. Project Milk Carton promotes FOIA requests and public dashboards for child-welfare records.",
+      "authority_html": "- **Freedom of Information Act (5 U.S.C. § 552)** — public access to records  \n- **Government in the Sunshine Act (5 U.S.C. § 552b)** — open-meeting requirements",
+      "urls": {
+        "FOIA_Cornell": "https://www.law.cornell.edu/uscode/text/5/552",
+        "Sunshine_Cornell": "https://www.law.cornell.edu/uscode/text/5/552b"
+      },
+      "statutory_authority": {
+        "federal": [
+          "5 U.S.C. § 552 (FOIA)",
+          "5 U.S.C. § 552b (Sunshine Act)"
+        ],
+        "state": []
+      },
+      "linked_fail": "FAIL-06",
+      "pmc_function": "Correct",
+      "recommendation_basis": "Deploy AI tools to detect missing public disclosures and automate FOIA submissions for non-compliant agencies.",
+      "domain": "civil",
+      "procedural_weight": 0.65,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "FOIA and Sunshine Act transparency rules"
+      ],
+      "trigger_name": "FOIA / Transparency"
+    },
+    {
+      "subnode": "PMC-06",
+      "state": "United States",
+      "node": "PMC",
+      "recommendation_name": "Project Milk Carton AI Analytic Layer",
+      "theme_color": "#20B2AA",
+      "icon": "🤖",
+      "summary_html": "The **Project Milk Carton AI Layer** performs cross-analysis of federal and state chains to identify weak points, policy gaps, and non-compliance. This is the citizen feedback mechanism for accountability and reform.",
+      "authority_html": "No direct statutory authority — citizen innovation layer built on public data and federal transparency laws.",
+      "urls": {
+        "PMC_ProjectSite": "https://projectmilkcarton.org"
+      },
+      "statutory_authority": {
+        "federal": [],
+        "state": []
+      },
+      "linked_fail": "ALL",
+      "pmc_function": "Correct",
+      "recommendation_basis": "Use federal and state schemas to map decision failures, quantify due-process gaps, and generate recommendations for citizen-driven reform.",
+      "domain": "civil",
+      "procedural_weight": 0.9,
+      "federal_alignment_flag": "exceeds",
+      "source_reference": [
+        "Project Milk Carton AI initiative documentation."
+      ],
+      "trigger_name": "Project Milk Carton AI Analysis"
+    }
+  ]
+}

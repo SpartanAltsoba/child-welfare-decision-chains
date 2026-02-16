@@ -1,0 +1,374 @@
+{
+  "node_id": "OR_INP-07",
+  "state": "OR",
+  "state_name": "Oregon",
+  "node_family": "INP",
+  "subnode": "INP-07",
+  "trigger_name": "Medical Disclosure",
+  "summary_html": "**Healthcare encounters** that reveal suspected abuse or neglect trigger reporting obligations. Federal law governs mandatory reporting in federal facilities and coordination with state systems.",
+  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 state reporter systems and protections  \n- **Victims of Child Abuse Act (34 U.S.C. \u00a7\u00a7 20301\u201320307)** \u2014 mandates in federal settings, CAC coordination",
+  "icon": "\ud83c\udfe5",
+  "theme_color": "#FF69B4",
+  "domain": "civil",
+  "procedural_weight": 0.45,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "CAPTA_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-67",
+    "VICAA_Cornell": "https://www.law.cornell.edu/uscode/text/34/subtitle-II/chapter-203"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "34 U.S.C. \u00a7\u00a7 20301\u201320307 (Victims of Child Abuse Act)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Oregon - ORS Chapter\u00a0419B (Juvenile Code: Dependency and Abuse \u2013 includes mandatory reporting \u00a7\u00a7\u00a0419B.005\u2013419B.050)",
+          "source_url": "https://www.oregonlegislature.gov",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22"
+        },
+        {
+          "citation_text": "Title 109: Parent and Child",
+          "source_url": "https://law.justia.com/codes/oregon/title-109/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 418: Child Care",
+          "source_url": "https://law.justia.com/codes/oregon/title-418/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Chapter 407 - DEPARTMENT OF HUMAN SERVICES",
+          "url": "https://www.law.cornell.edu/regulations/oregon/chapter-407"
+        },
+        {
+          "title": "Chapter 411 - DEPARTMENT OF HUMAN SERVICES, AGING AND PEOPLE WITH DISABILITIES AND DEVELOPMENTAL DISABILITIES",
+          "url": "https://www.law.cornell.edu/regulations/oregon/chapter-411"
+        },
+        {
+          "title": "Chapter 413 - DEPARTMENT OF HUMAN SERVICES, CHILD WELFARE PROGRAMS",
+          "url": "https://www.law.cornell.edu/regulations/oregon/chapter-413"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/oregon.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_OR",
+      "plane_file": "legal_planes/state_constitutional/OR_constitution.json",
+      "provisions_triggered": []
+    },
+    "case_law": {
+      "search_keywords": [
+        "Oregon Department of Human Services",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal",
+        "exigent circumstances"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Oregon%22%20AND%20%28%22Oregon%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "mandatory reporting",
+        "failure to report",
+        "reporter immunity",
+        "hotline"
+      ],
+      "jurisdiction": "Oregon state courts",
+      "key_cases": [
+        {
+          "case_id": "s071019",
+          "title": "In re Gregory Mark Abel",
+          "url": "https://law.justia.com/cases/oregon/supreme-court/2025/s071019.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Oregon Supreme Court Case s071019 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "a184792",
+          "title": "In re Oregon State Hospital",
+          "url": "https://law.justia.com/cases/oregon/court-of-appeals/2025/a184792.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Oregon Court Of Appeals Case a184792 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "s071223",
+          "title": "In re Flint",
+          "url": "https://law.justia.com/cases/oregon/supreme-court/2024/s071223.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Oregon Supreme Court Case s071223 (2024)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "s070455",
+          "title": "In re Munn",
+          "url": "https://law.justia.com/cases/oregon/supreme-court/2024/s070455.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Oregon Supreme Court Case s070455 (2024)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "s068780",
+          "title": "In re: Sause and Schnitzer",
+          "url": "https://law.justia.com/cases/oregon/supreme-court/2023/s068780.html",
+          "year": 2023,
+          "court": "Supreme Court",
+          "citation": "Oregon Supreme Court Case s068780 (2023)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "s069006",
+          "title": "In re Duboff",
+          "url": "https://law.justia.com/cases/oregon/supreme-court/2023/s069006.html",
+          "year": 2023,
+          "court": "Supreme Court",
+          "citation": "Oregon Supreme Court Case s069006 (2023)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "a173412",
+          "title": "Doe v. First Christian Church of The Dalles",
+          "url": "https://law.justia.com/cases/oregon/court-of-appeals/2023/a173412.html",
+          "year": 2023,
+          "court": "Court Of Appeals",
+          "citation": "Oregon Court Of Appeals Case a173412 (2023)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Doe plaintiff"
+        },
+        {
+          "case_id": "s068805",
+          "title": "In re Keller",
+          "url": "https://law.justia.com/cases/oregon/supreme-court/2022/s068805.html",
+          "year": 2022,
+          "court": "Supreme Court",
+          "citation": "Oregon Supreme Court Case s068805 (2022)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "s068497",
+          "title": "In re Ard",
+          "url": "https://law.justia.com/cases/oregon/supreme-court/2021/s068497.html",
+          "year": 2021,
+          "court": "Supreme Court",
+          "citation": "Oregon Supreme Court Case s068497 (2021)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "s067932",
+          "title": "In re Kauffman",
+          "url": "https://law.justia.com/cases/oregon/supreme-court/2021/s067932.html",
+          "year": 2021,
+          "court": "Supreme Court",
+          "citation": "Oregon Supreme Court Case s067932 (2021)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Department of Human Services",
+    "acronym": "DHS",
+    "hotline": "1-855-503-7233",
+    "website": "https://www.oregonlegislature.gov"
+  },
+  "mandatory_reporters": [
+    "Teachers/School Personnel",
+    "Medical/Dental Professionals",
+    "Mental Health Professionals",
+    "Law Enforcement",
+    "Childcare Staff",
+    "Clergy",
+    "Foster Parents",
+    "Coaches",
+    "EMTs/Emergency Personnel",
+    "Judges",
+    "District Attorneys"
+  ],
+  "reporting_type": "centralized",
+  "reporting_details": "Not applicable",
+  "definitions": {
+    "abuse": [
+      "Physical abuse",
+      "Sexual abuse",
+      "Emotional abuse",
+      "Shaken baby syndrome",
+      "Human trafficking",
+      "Failure to protect",
+      "Female genital mutilation",
+      "Factitious disorder (Munchausen by proxy)",
+      "Institutional abuse/neglect"
+    ],
+    "neglect": [
+      "General neglect",
+      "Medical neglect",
+      "Abandonment",
+      "Inadequate supervision",
+      "Inadequate shelter/housing",
+      "Inadequate clothing",
+      "Malnourishment/failure to provide food",
+      "Failure to thrive",
+      "Injurious environment"
+    ],
+    "other": [
+      "Involuntary seclusion; Financial exploitation; Wrongful use of restraint; Third party abuse"
+    ],
+    "substance_related": [
+      "Drug lab exposure",
+      "Parental drug/alcohol misuse",
+      "Prenatal drug/alcohol exposure",
+      "Illicit substance involvement"
+    ]
+  },
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.811542",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.783957",
+    "schema_version": "3.0.0",
+    "leaves_linked": "2025-12-24T18:14:22.260335+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "reasonable_suspicion",
+    "who_bears_burden": "agency",
+    "common_failures": [
+      "Insufficient screening documentation",
+      "Failure to verify reporter allegations",
+      "Accepting anonymous reports without corroboration"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Initial response time",
+      "deadline": "24-72 hours",
+      "starts_from": "Report received",
+      "source": "state_statute",
+      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+    },
+    {
+      "requirement_name": "Investigation completion",
+      "deadline": "30-60 days",
+      "starts_from": "Investigation opened",
+      "source": "state_statute",
+      "consequence_of_miss": "Case dismissal risk"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian"
+      ],
+      "method": "any_reasonable",
+      "timing": "Before investigation interview",
+      "content_required": [
+        "Nature of allegation",
+        "Rights"
+      ],
+      "defective_notice_consequence": "May invalidate findings"
+    }
+  ],
+  "door_scenarios": [
+    {
+      "who_at_door": [
+        "caseworker"
+      ],
+      "trigger_reason": "Responding to abuse/neglect report",
+      "legal_authority_to_enter": "none_without_consent",
+      "parent_rights_at_moment": [
+        "Right to refuse entry without warrant",
+        "Right to remain silent",
+        "Right to attorney"
+      ],
+      "what_to_say": [
+        "I do not consent to entry without a warrant",
+        "Please provide your card and the allegations in writing",
+        "I will have my attorney contact you"
+      ],
+      "what_not_to_do": [
+        "Do not physically resist",
+        "Do not lie",
+        "Do not let them in 'just to look'"
+      ],
+      "next_possible_nodes": [
+        "DEC-01",
+        "DEC-04"
+      ]
+    }
+  ]
+}

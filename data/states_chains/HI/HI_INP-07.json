@@ -1,0 +1,404 @@
+{
+  "node_id": "HI_INP-07",
+  "state": "HI",
+  "state_name": "Hawaii",
+  "node_family": "INP",
+  "subnode": "INP-07",
+  "trigger_name": "Medical Disclosure",
+  "summary_html": "**Healthcare encounters** that reveal suspected abuse or neglect trigger reporting obligations. Federal law governs mandatory reporting in federal facilities and coordination with state systems.",
+  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 state reporter systems and protections  \n- **Victims of Child Abuse Act (34 U.S.C. \u00a7\u00a7 20301\u201320307)** \u2014 mandates in federal settings, CAC coordination",
+  "icon": "\ud83c\udfe5",
+  "theme_color": "#FF69B4",
+  "domain": "civil",
+  "procedural_weight": 0.45,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "CAPTA_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-67",
+    "VICAA_Cornell": "https://www.law.cornell.edu/uscode/text/34/subtitle-II/chapter-203"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "34 U.S.C. \u00a7\u00a7 20301\u201320307 (Victims of Child Abuse Act)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Hawaii - HRS Chapter 350 (Child Abuse) and Chapter 587A (Child Protective Act)",
+          "source_url": "https://data.capitol.hawaii.gov/sessions/session2017/HRS-Chapter-PDF's/HRS_0350.pdf",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Title 17 - DEPARTMENT OF HUMAN SERVICES",
+          "url": "https://www.law.cornell.edu/regulations/hawaii/title-17"
+        },
+        {
+          "title": "Hawaii Administrative Regulations",
+          "url": "https://regulations.justia.com/states/hawaii/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Hawaii Administrative Rule Title 1",
+          "url": "https://regulations.justia.com/states/hawaii/title-1/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Hawaii Administrative Rule Title 2",
+          "url": "https://regulations.justia.com/states/hawaii/title-2/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Hawaii Administrative Rule Title 3",
+          "url": "https://regulations.justia.com/states/hawaii/title-3/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Hawaii Administrative Rule Title 4",
+          "url": "https://regulations.justia.com/states/hawaii/title-4/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Hawaii Administrative Rule Title 5",
+          "url": "https://regulations.justia.com/states/hawaii/title-5/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Hawaii Administrative Rule Title 6",
+          "url": "https://regulations.justia.com/states/hawaii/title-6/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Hawaii Administrative Rule Title 7",
+          "url": "https://regulations.justia.com/states/hawaii/title-7/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Hawaii Administrative Rule Title 8",
+          "url": "https://regulations.justia.com/states/hawaii/title-8/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Hawaii Administrative Rule Title 9",
+          "url": "https://regulations.justia.com/states/hawaii/title-9/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/hawaii.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_HI",
+      "plane_file": "legal_planes/state_constitutional/HI_constitution.json",
+      "provisions_triggered": []
+    },
+    "case_law": {
+      "search_keywords": [
+        "Hawaii Department of Human Services",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal",
+        "exigent circumstances"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Hawaii%22%20AND%20%28%22Hawaii%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "mandatory reporting",
+        "failure to report",
+        "reporter immunity",
+        "hotline"
+      ],
+      "jurisdiction": "Hawaii state courts",
+      "key_cases": [
+        {
+          "case_id": "scpr-25-0000877",
+          "title": "In re: Hughes",
+          "url": "https://law.justia.com/cases/hawaii/supreme-court/2025/scpr-25-0000877.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Hawaii Supreme Court Case scpr-25-0000877 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "scpr-25-0000864",
+          "title": "In re: Watumull",
+          "url": "https://law.justia.com/cases/hawaii/supreme-court/2025/scpr-25-0000864.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Hawaii Supreme Court Case scpr-25-0000864 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "scpr-25-0000806",
+          "title": "In re: Hirata",
+          "url": "https://law.justia.com/cases/hawaii/supreme-court/2025/scpr-25-0000806.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Hawaii Supreme Court Case scpr-25-0000806 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "scwc-24-0000751",
+          "title": "In re: Tax Appeal of Rohlfing III and Rohlfing",
+          "url": "https://law.justia.com/cases/hawaii/supreme-court/2025/scwc-24-0000751.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Hawaii Supreme Court Case scwc-24-0000751 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "scpr-25-0000801",
+          "title": "In re: Chun",
+          "url": "https://law.justia.com/cases/hawaii/supreme-court/2025/scpr-25-0000801.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Hawaii Supreme Court Case scpr-25-0000801 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "scpr-25-0000742",
+          "title": "In re: Federle",
+          "url": "https://law.justia.com/cases/hawaii/supreme-court/2025/scpr-25-0000742.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Hawaii Supreme Court Case scpr-25-0000742 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "scpr-25-0000787",
+          "title": "In re: Miyake",
+          "url": "https://law.justia.com/cases/hawaii/supreme-court/2025/scpr-25-0000787.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Hawaii Supreme Court Case scpr-25-0000787 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "scpr-25-0000758",
+          "title": "In re: Kirschner",
+          "url": "https://law.justia.com/cases/hawaii/supreme-court/2025/scpr-25-0000758.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Hawaii Supreme Court Case scpr-25-0000758 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "scpr-25-0000775",
+          "title": "In re: Pritikin",
+          "url": "https://law.justia.com/cases/hawaii/supreme-court/2025/scpr-25-0000775.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Hawaii Supreme Court Case scpr-25-0000775 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "scpr-25-0000628",
+          "title": "In re: Brothers",
+          "url": "https://law.justia.com/cases/hawaii/supreme-court/2025/scpr-25-0000628.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Hawaii Supreme Court Case scpr-25-0000628 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Department of Human Services",
+    "acronym": "DHS",
+    "hotline": "808-832-5300",
+    "website": "https://www.capitol.hawaii.gov"
+  },
+  "mandatory_reporters": [
+    "Teachers/School Personnel",
+    "Medical/Dental Professionals",
+    "Mental Health Professionals",
+    "Law Enforcement",
+    "Shelter Staff",
+    "Childcare Staff",
+    "Clergy",
+    "Foster Parents",
+    "Coaches",
+    "Coroners",
+    "EMTs/Emergency Personnel",
+    "Judges",
+    "District Attorneys"
+  ],
+  "reporting_type": "centralized",
+  "reporting_details": "Not applicable",
+  "definitions": {
+    "abuse": [
+      "Physical abuse",
+      "Sexual abuse",
+      "Emotional abuse",
+      "Shaken baby syndrome",
+      "Human trafficking",
+      "Institutional abuse/neglect"
+    ],
+    "neglect": [
+      "General neglect",
+      "Medical neglect",
+      "Abandonment",
+      "Inadequate supervision",
+      "Inadequate shelter/housing",
+      "Inadequate clothing",
+      "Malnourishment/failure to provide food",
+      "Failure to thrive",
+      "Injurious environment"
+    ],
+    "other": [],
+    "substance_related": [
+      "Parental drug/alcohol misuse",
+      "Illicit substance involvement"
+    ]
+  },
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.737867",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.579015",
+    "schema_version": "3.0.0",
+    "leaves_linked": "2025-12-24T18:14:21.240028+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "reasonable_suspicion",
+    "who_bears_burden": "agency",
+    "common_failures": [
+      "Insufficient screening documentation",
+      "Failure to verify reporter allegations",
+      "Accepting anonymous reports without corroboration"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Initial response time",
+      "deadline": "24-72 hours",
+      "starts_from": "Report received",
+      "source": "state_statute",
+      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+    },
+    {
+      "requirement_name": "Investigation completion",
+      "deadline": "30-60 days",
+      "starts_from": "Investigation opened",
+      "source": "state_statute",
+      "consequence_of_miss": "Case dismissal risk"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian"
+      ],
+      "method": "any_reasonable",
+      "timing": "Before investigation interview",
+      "content_required": [
+        "Nature of allegation",
+        "Rights"
+      ],
+      "defective_notice_consequence": "May invalidate findings"
+    }
+  ],
+  "door_scenarios": [
+    {
+      "who_at_door": [
+        "caseworker"
+      ],
+      "trigger_reason": "Responding to abuse/neglect report",
+      "legal_authority_to_enter": "none_without_consent",
+      "parent_rights_at_moment": [
+        "Right to refuse entry without warrant",
+        "Right to remain silent",
+        "Right to attorney"
+      ],
+      "what_to_say": [
+        "I do not consent to entry without a warrant",
+        "Please provide your card and the allegations in writing",
+        "I will have my attorney contact you"
+      ],
+      "what_not_to_do": [
+        "Do not physically resist",
+        "Do not lie",
+        "Do not let them in 'just to look'"
+      ],
+      "next_possible_nodes": [
+        "DEC-01",
+        "DEC-04"
+      ]
+    }
+  ]
+}

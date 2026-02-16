@@ -1,0 +1,319 @@
+{
+  "node_id": "MN_OUT-01",
+  "state": "MN",
+  "state_name": "Minnesota",
+  "node_family": "OUT",
+  "subnode": "OUT-01",
+  "trigger_name": "Reunification",
+  "summary_html": "Child safely **reunified with parent or guardian**, case closed. Federal policy treats reunification as the preferred outcome once risk factors are mitigated.",
+  "authority_html": "- **Adoption and Safe Families Act (ASFA)** \u2014 establishes reunification timelines and permanency goals  \n- **SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 funds reunification services and tracks permanency outcomes",
+  "icon": "\ud83c\udfe0",
+  "theme_color": "#32CD32",
+  "domain": "civil",
+  "procedural_weight": 0.6,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "ASFA_PLAW": "https://www.congress.gov/105/plaws/publ89/PLAW-105publ89.pdf",
+    "ASFA_PDF": "https://www.govinfo.gov/content/pkg/PLAW-105publ89/pdf/PLAW-105publ89.pdf",
+    "SSA_IV_E_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-7/subchapter-IV/part-E"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "Public Law 105-89 (ASFA)",
+        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Minnesota - Minn. Stat. \u00a7\u00a0626.556 (Reporting of Maltreatment of Minors Act)",
+          "source_url": "https://www.revisor.mn.gov/statutes/cite/626",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Minnesota - Minn. Stat. Chapters\u00a0260C and 260E (Child protection and services)",
+          "source_url": "https://www.revisor.mn.gov/statutes/cite/260C",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Title 256: Human Services - DHS",
+          "source_url": "https://law.justia.com/codes/minnesota/title-256/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 260: Juvenile Court Act",
+          "source_url": "https://law.justia.com/codes/minnesota/title-260/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Agency 152 - Marriage and Family Therapy Board",
+          "url": "https://www.law.cornell.edu/regulations/minnesota/agency-152"
+        },
+        {
+          "title": "Agency 172 - Private Detective and Protective Agent Services Board",
+          "url": "https://www.law.cornell.edu/regulations/minnesota/agency-172"
+        },
+        {
+          "title": "Agency 196 - Human Services Department",
+          "url": "https://www.law.cornell.edu/regulations/minnesota/agency-196"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/minnesota.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_MN",
+      "plane_file": "legal_planes/state_constitutional/MN_constitution.json",
+      "provisions_triggered": []
+    },
+    "case_law": {
+      "search_keywords": [
+        "Minnesota Department of Human Services",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal",
+        "exigent circumstances"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Minnesota%22%20AND%20%28%22Minnesota%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "termination of parental rights",
+        "TPR",
+        "adoption",
+        "permanency",
+        "aging out"
+      ],
+      "jurisdiction": "Minnesota state courts",
+      "key_cases": [
+        {
+          "case_id": "a24-1562",
+          "title": "In the Matter of the Petition of Minnesota Association of Residential Services Homes (MARSH) under Minn. Stat. \u00c2\u00a7 14.381, subd. 1, for a Declaration that the Minnesota Department of Human Services Is Enforcing Unadopted Rules",
+          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2025/a24-1562.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Minnesota Court Of Appeals Case a24-1562 (2025)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "minnesota department of human services"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "a24-0147",
+          "title": "In re the Guardianship of Humberto Mazariegos Rodriguez",
+          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2024/a24-0147.html",
+          "year": 2024,
+          "court": "Court Of Appeals",
+          "citation": "Minnesota Court Of Appeals Case a24-0147 (2024)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "guardianship"
+          ],
+          "child_welfare_reason": "High: In re guardianship, In re"
+        },
+        {
+          "case_id": "a24-0126",
+          "title": "In re the Matter of: Western Prairie Human Services, Respondent, Commissioner of Minnesota Department of Human Services, Respondent, vs. County of Benton, Appellant",
+          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2024/a24-0126.html",
+          "year": 2024,
+          "court": "Court Of Appeals",
+          "citation": "Minnesota Court Of Appeals Case a24-0126 (2024)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "minnesota department of human services"
+          ],
+          "child_welfare_reason": "High: In re, Matter of"
+        },
+        {
+          "case_id": "a23-1742",
+          "title": "In re the Guardianship and/or Conservatorship of: Sherry Linn",
+          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2024/a23-1742.html",
+          "year": 2024,
+          "court": "Court Of Appeals",
+          "citation": "Minnesota Court Of Appeals Case a23-1742 (2024)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "guardianship"
+          ],
+          "child_welfare_reason": "High: In re guardianship, In re"
+        },
+        {
+          "case_id": "a23-0596",
+          "title": "In re: Guardianship of Jill Lee Osufsen",
+          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2023/a23-0596.html",
+          "year": 2023,
+          "court": "Court Of Appeals",
+          "citation": "Minnesota Court Of Appeals Case a23-0596 (2023)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "guardianship"
+          ],
+          "child_welfare_reason": "High: In re guardianship, In re"
+        },
+        {
+          "case_id": "a23-0252",
+          "title": "In re: Guardianship of Brianna Orwig, Person Subject to Guardianship",
+          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2023/a23-0252.html",
+          "year": 2023,
+          "court": "Court Of Appeals",
+          "citation": "Minnesota Court Of Appeals Case a23-0252 (2023)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "guardianship"
+          ],
+          "child_welfare_reason": "High: In re guardianship, In re"
+        },
+        {
+          "case_id": "a23-0344",
+          "title": "In re the Guardianship of Travis Trong Khuong Nguyen",
+          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2023/a23-0344.html",
+          "year": 2023,
+          "court": "Court Of Appeals",
+          "citation": "Minnesota Court Of Appeals Case a23-0344 (2023)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "guardianship"
+          ],
+          "child_welfare_reason": "High: In re guardianship, In re"
+        },
+        {
+          "case_id": "a22-0578",
+          "title": "In re the Guardianship and Conservatorship of Carolyn Neu",
+          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2022/a22-0578.html",
+          "year": 2022,
+          "court": "Court Of Appeals",
+          "citation": "Minnesota Court Of Appeals Case a22-0578 (2022)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "guardianship"
+          ],
+          "child_welfare_reason": "High: In re guardianship, In re"
+        },
+        {
+          "case_id": "a22-0186",
+          "title": "In re the Guardianship of Dale Carl Luepke, Jr",
+          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2022/a22-0186.html",
+          "year": 2022,
+          "court": "Court Of Appeals",
+          "citation": "Minnesota Court Of Appeals Case a22-0186 (2022)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "guardianship"
+          ],
+          "child_welfare_reason": "High: In re guardianship, In re"
+        },
+        {
+          "case_id": "a22-0367",
+          "title": "In the Matter of the Surveillance and Integrity Review Appeal by Smart Choice Health Care Corporation and Farah Jama Mohamed, Relators, vs. Minnesota Department of Human Services, Respondent",
+          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2022/a22-0367.html",
+          "year": 2022,
+          "court": "Court Of Appeals",
+          "citation": "Minnesota Court Of Appeals Case a22-0367 (2022)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "minnesota department of human services"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Department of Human Services",
+    "acronym": "DHS",
+    "hotline": "1-800-422-4453",
+    "website": "https://www.leg.state.mn.us"
+  },
+  "extended_foster_care": true,
+  "extended_foster_care_age": "Up to age 21 (until 21st birthday)",
+  "linked_action": "ACT-02",
+  "linked_decision": "DEC-03",
+  "linked_input": "INP-01",
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.772283",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.674007",
+    "schema_version": "3.0.0",
+    "trigger_name_fixed": "2025-12-22T22:53:02.358435",
+    "leaves_linked": "2025-12-24T18:14:21.767844+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "clear_and_convincing",
+    "who_bears_burden": "state",
+    "common_failures": [
+      "Insufficient evidence for TPR",
+      "Failure to prove unfitness by clear and convincing evidence",
+      "Santosky v. Kramer standard not met"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Permanency hearing",
+      "deadline": "12 months",
+      "starts_from": "Child enters care",
+      "source": "federal_statute",
+      "consequence_of_miss": "ASFA violation"
+    },
+    {
+      "requirement_name": "TPR filing",
+      "deadline": "15 of 22 months",
+      "starts_from": "Child enters care",
+      "source": "federal_statute",
+      "consequence_of_miss": "Must file TPR or document compelling reason"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian",
+        "putative_father",
+        "tribe",
+        "foster_parent"
+      ],
+      "method": "certified_mail",
+      "timing": "10-30 days before TPR hearing",
+      "content_required": [
+        "TPR grounds",
+        "Date/time/location",
+        "Right to counsel"
+      ],
+      "icwa_additional_notice": true,
+      "defective_notice_consequence": "TPR may be vacated"
+    }
+  ]
+}

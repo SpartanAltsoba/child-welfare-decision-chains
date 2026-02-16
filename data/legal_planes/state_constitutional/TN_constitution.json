@@ -1,0 +1,413 @@
+{
+  "plane_id": "state_constitutional_TN",
+  "plane_name": "Tennessee State Constitutional Plane",
+  "description": "Tennessee Constitution provisions relevant to child welfare and family rights.",
+  "authority_level": "state_supreme",
+  "state_code": "TN",
+  "state_name": "Tennessee",
+  "version": "1.0.0",
+  "created": "2025-12-22",
+  "updated": "2025-12-22",
+  "copyright": "Project Milk Carton 501(c)(3) - All Rights Reserved",
+  "constitution_source": {
+    "url": "https://www.capitol.tn.gov/about/docs/TN-Constitution.pdf",
+    "justia_url": "https://law.justia.com/constitution/tennessee/",
+    "official_name": "Tennessee Constitution",
+    "last_amended": "2022-11-08",
+    "last_verified": "2025-12-22"
+  },
+  "relationship_to_federal": {
+    "supremacy_clause_applies": true,
+    "can_provide_greater_protection": true,
+    "cannot_provide_less_protection": true
+  },
+  "relevant_provisions": [
+    {
+      "provision_id": "TN_CONST_SEARCH_SEIZURE",
+      "name": "Search and Seizure",
+      "article": "Article I",
+      "section": "Section 7",
+      "url": "https://law.justia.com/constitution/tennessee/#section-7",
+      "citation": "Tennessee Const. art. I, \u00a7 7",
+      "text": "That the people shall be secure in their persons, houses, papers and possessions, from unreasonable searches and seizures...",
+      "application_to_cps": "CPS removal of a child constitutes a seizure. Warrantless removals must meet exigent circumstances exception or be supported by court order.",
+      "federal_parallel": "U.S. Const. amend. IV",
+      "state_provides_greater_protection": false,
+      "key_cases": [],
+      "triggers_at_nodes": [
+        "INP-12",
+        "DEC-04",
+        "ACT-01",
+        "FAIL-01"
+      ]
+    },
+    {
+      "provision_id": "TN_CONST_DUE_PROCESS",
+      "name": "Due Process / Law of the Land",
+      "article": "Article I",
+      "section": "Section 8",
+      "url": "https://law.justia.com/constitution/tennessee/#section-8",
+      "citation": "Tennessee Const. art. I, \u00a7 8",
+      "text": "That no man shall be... deprived of his life, liberty or property, but by the judgment of his peers or the law of the land.",
+      "application_to_cps": "Parents have a fundamental liberty interest in the care and custody of their children. Termination of parental rights requires clear and convincing evidence and proper procedural protections.",
+      "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1",
+      "state_provides_greater_protection": false,
+      "key_cases": [
+        {
+          "case_id": "m2024-00283-coa-r3-cv",
+          "title": "Jane Doe v. John David Rosdeutscher, M.D., et al.",
+          "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2025/m2024-00283-coa-r3-cv.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Tennessee Court Of Appeals Case m2024-00283-coa-r3-cv (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Jane Doe, Doe plaintiff",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "m2023-01353-coa-r3-cv-0",
+          "title": "In Re Guardianship of Beatrice Rose Malone",
+          "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2024/m2023-01353-coa-r3-cv-0.html",
+          "year": 2024,
+          "court": "Court Of Appeals",
+          "citation": "Tennessee Court Of Appeals Case m2023-01353-coa-r3-cv-0 (2024)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re guardianship, In re",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "m2023-01353-coa-r3-cv",
+          "title": "In Re Guardianship of Beatrice Rose Malone (Dissenting)",
+          "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2024/m2023-01353-coa-r3-cv.html",
+          "year": 2024,
+          "court": "Court Of Appeals",
+          "citation": "Tennessee Court Of Appeals Case m2023-01353-coa-r3-cv (2024)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re guardianship, In re",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "w2023-01222-coa-r3-cv",
+          "title": "Janet Doe v. City of Memphis, Tennessee",
+          "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2024/w2023-01222-coa-r3-cv.html",
+          "year": 2024,
+          "court": "Court Of Appeals",
+          "citation": "Tennessee Court Of Appeals Case w2023-01222-coa-r3-cv (2024)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Doe plaintiff",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "w2023-01248-coa-r9-cv",
+          "title": "Janet Doe v. City of Memphis, Tennessee",
+          "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2024/w2023-01248-coa-r9-cv.html",
+          "year": 2024,
+          "court": "Court Of Appeals",
+          "citation": "Tennessee Court Of Appeals Case w2023-01248-coa-r9-cv (2024)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Doe plaintiff",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "m2023-00045-coa-r3-cv",
+          "title": "John Doe v. Jane Roe",
+          "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2024/m2023-00045-coa-r3-cv.html",
+          "year": 2024,
+          "court": "Court Of Appeals",
+          "citation": "Tennessee Court Of Appeals Case m2023-00045-coa-r3-cv (2024)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: John Doe, Doe plaintiff",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "e2023-00236-coa-r3-cv",
+          "title": "John Doe Corp. v. Kennerly, Montgomery & Finley, P.C.",
+          "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2024/e2023-00236-coa-r3-cv.html",
+          "year": 2024,
+          "court": "Court Of Appeals",
+          "citation": "Tennessee Court Of Appeals Case e2023-00236-coa-r3-cv (2024)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: John Doe",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "w2023-00084-coa-r3-cv",
+          "title": "Kerry Wright v. John Doe, et al.",
+          "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2024/w2023-00084-coa-r3-cv.html",
+          "year": 2024,
+          "court": "Court Of Appeals",
+          "citation": "Tennessee Court Of Appeals Case w2023-00084-coa-r3-cv (2024)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: John Doe",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "w2022-01709-coa-r3-jv",
+          "title": "In Re S.C., et al.",
+          "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2024/w2022-01709-coa-r3-jv.html",
+          "year": 2024,
+          "court": "Court Of Appeals",
+          "citation": "Tennessee Court Of Appeals Case w2022-01709-coa-r3-jv (2024)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "e2022-00897-coa-r3-cv",
+          "title": "In Re Estate of Martha Maxine Childress",
+          "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2023/e2022-00897-coa-r3-cv.html",
+          "year": 2023,
+          "court": "Court Of Appeals",
+          "citation": "Tennessee Court Of Appeals Case e2022-00897-coa-r3-cv (2023)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re",
+          "provision_match": "DUE_PROCESS"
+        }
+      ],
+      "triggers_at_nodes": [
+        "DEC-05",
+        "DEC-06",
+        "ACT-04",
+        "OUT-02",
+        "OUT-03"
+      ]
+    }
+  ],
+  "unique_state_protections": [],
+  "case_law_search_keywords": [
+    "Tennessee Department of Children's Services",
+    "DCS",
+    "CPS",
+    "due process",
+    "14th Amendment",
+    "42 U.S.C. 1983",
+    "reasonable efforts",
+    "reunification",
+    "emergency removal",
+    "wrongful removal",
+    "exigent circumstances",
+    "abuse",
+    "familial association"
+  ],
+  "state_supreme_court_cps_cases": [
+    {
+      "case_id": "m2024-00283-coa-r3-cv",
+      "title": "Jane Doe v. John David Rosdeutscher, M.D., et al.",
+      "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2025/m2024-00283-coa-r3-cv.html",
+      "year": 2025,
+      "court": "Court Of Appeals",
+      "citation": "Tennessee Court Of Appeals Case m2024-00283-coa-r3-cv (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Jane Doe, Doe plaintiff",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "m2023-01353-coa-r3-cv-0",
+      "title": "In Re Guardianship of Beatrice Rose Malone",
+      "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2024/m2023-01353-coa-r3-cv-0.html",
+      "year": 2024,
+      "court": "Court Of Appeals",
+      "citation": "Tennessee Court Of Appeals Case m2023-01353-coa-r3-cv-0 (2024)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re guardianship, In re",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "m2023-01353-coa-r3-cv",
+      "title": "In Re Guardianship of Beatrice Rose Malone (Dissenting)",
+      "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2024/m2023-01353-coa-r3-cv.html",
+      "year": 2024,
+      "court": "Court Of Appeals",
+      "citation": "Tennessee Court Of Appeals Case m2023-01353-coa-r3-cv (2024)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re guardianship, In re",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "w2023-01222-coa-r3-cv",
+      "title": "Janet Doe v. City of Memphis, Tennessee",
+      "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2024/w2023-01222-coa-r3-cv.html",
+      "year": 2024,
+      "court": "Court Of Appeals",
+      "citation": "Tennessee Court Of Appeals Case w2023-01222-coa-r3-cv (2024)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Doe plaintiff",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "w2023-01248-coa-r9-cv",
+      "title": "Janet Doe v. City of Memphis, Tennessee",
+      "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2024/w2023-01248-coa-r9-cv.html",
+      "year": 2024,
+      "court": "Court Of Appeals",
+      "citation": "Tennessee Court Of Appeals Case w2023-01248-coa-r9-cv (2024)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Doe plaintiff",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "m2023-00045-coa-r3-cv",
+      "title": "John Doe v. Jane Roe",
+      "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2024/m2023-00045-coa-r3-cv.html",
+      "year": 2024,
+      "court": "Court Of Appeals",
+      "citation": "Tennessee Court Of Appeals Case m2023-00045-coa-r3-cv (2024)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: John Doe, Doe plaintiff",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "e2023-00236-coa-r3-cv",
+      "title": "John Doe Corp. v. Kennerly, Montgomery & Finley, P.C.",
+      "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2024/e2023-00236-coa-r3-cv.html",
+      "year": 2024,
+      "court": "Court Of Appeals",
+      "citation": "Tennessee Court Of Appeals Case e2023-00236-coa-r3-cv (2024)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: John Doe",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "w2023-00084-coa-r3-cv",
+      "title": "Kerry Wright v. John Doe, et al.",
+      "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2024/w2023-00084-coa-r3-cv.html",
+      "year": 2024,
+      "court": "Court Of Appeals",
+      "citation": "Tennessee Court Of Appeals Case w2023-00084-coa-r3-cv (2024)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: John Doe",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "w2022-01709-coa-r3-jv",
+      "title": "In Re S.C., et al.",
+      "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2024/w2022-01709-coa-r3-jv.html",
+      "year": 2024,
+      "court": "Court Of Appeals",
+      "citation": "Tennessee Court Of Appeals Case w2022-01709-coa-r3-jv (2024)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "e2022-00897-coa-r3-cv",
+      "title": "In Re Estate of Martha Maxine Childress",
+      "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2023/e2022-00897-coa-r3-cv.html",
+      "year": 2023,
+      "court": "Court Of Appeals",
+      "citation": "Tennessee Court Of Appeals Case e2022-00897-coa-r3-cv (2023)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "w2022-01350-coa-r3-cv",
+      "title": "John Doe Et AL. v. Bellevue Baptist Church",
+      "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2023/w2022-01350-coa-r3-cv.html",
+      "year": 2023,
+      "court": "Court Of Appeals",
+      "citation": "Tennessee Court Of Appeals Case w2022-01350-coa-r3-cv (2023)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "church"
+      ],
+      "child_welfare_reason": "High: John Doe",
+      "provision_match": "RELIGION"
+    }
+  ],
+  "procedural_weight_modifiers": {
+    "explicit_privacy_right": 0,
+    "note": "Modifiers adjust procedural_weight for state nodes based on enhanced protections"
+  },
+  "_metadata": {
+    "created": "2025-12-22T20:38:16.838152",
+    "source": "state_constitution_etl",
+    "data_sources": [
+      "justia",
+      "state_legislature",
+      "courtlistener_keywords"
+    ],
+    "requires_case_law_enrichment": false,
+    "case_law_enriched": "2025-12-24T20:37:16.019265+00:00",
+    "enricher_version": "1.0.0",
+    "cases_analyzed": 729,
+    "cases_linked": 10
+  },
+  "case_law_search": {
+    "search_keywords": [
+      "Tennessee Department of Children's Services",
+      "DCS",
+      "CPS",
+      "due process",
+      "14th Amendment",
+      "42 U.S.C. 1983",
+      "reasonable efforts",
+      "reunification",
+      "emergency removal",
+      "wrongful removal"
+    ],
+    "courtlistener_url": "https://www.courtlistener.com/?q=%22Tennessee%22%20AND%20%28%22Tennessee%20Department%20of%20Children%27s%20Services%22%20OR%20%22DCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
+    "supreme_court_focus": true,
+    "_note": "Search for state supreme court cases on CPS constitutional issues"
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "plane_id": "state_constitutional_IL",
+  "plane_name": "Illinois State Constitutional Plane",
+  "description": "Illinois Constitution provisions relevant to child welfare and family rights.",
+  "authority_level": "state_supreme",
+  "state_code": "IL",
+  "state_name": "Illinois",
+  "version": "1.0.0",
+  "created": "2025-12-22",
+  "updated": "2025-12-22",
+  "copyright": "Project Milk Carton 501(c)(3) - All Rights Reserved",
+  "constitution_source": {
+    "url": "https://www.ilga.gov/commission/lrb/conent.htm",
+    "justia_url": "https://law.justia.com/constitution/illinois/",
+    "official_name": "Illinois Constitution",
+    "last_amended": "2022-11-08",
+    "last_verified": "2025-12-22"
+  },
+  "relationship_to_federal": {
+    "supremacy_clause_applies": true,
+    "can_provide_greater_protection": true,
+    "cannot_provide_less_protection": true
+  },
+  "relevant_provisions": [
+    {
+      "provision_id": "IL_CONST_SEARCH_SEIZURE",
+      "name": "Search and Seizure",
+      "article": "Article I",
+      "section": "Section 6",
+      "url": "https://law.justia.com/constitution/illinois/#section-6",
+      "citation": "Illinois Const. art. I, \u00a7 6",
+      "text": "The people shall have the right to be secure in their persons, houses, papers and other possessions against unreasonable searches, seizures, invasions of privacy or interceptions of communications...",
+      "application_to_cps": "CPS removal of a child constitutes a seizure. Warrantless removals must meet exigent circumstances exception or be supported by court order.",
+      "federal_parallel": "U.S. Const. amend. IV",
+      "state_provides_greater_protection": false,
+      "key_cases": [],
+      "triggers_at_nodes": [
+        "INP-12",
+        "DEC-04",
+        "ACT-01",
+        "FAIL-01"
+      ]
+    },
+    {
+      "provision_id": "IL_CONST_DUE_PROCESS",
+      "name": "Due Process / Law of the Land",
+      "article": "Article I",
+      "section": "Section 2",
+      "url": "https://law.justia.com/constitution/illinois/#section-2",
+      "citation": "Illinois Const. art. I, \u00a7 2",
+      "text": "No person shall be deprived of life, liberty or property without due process of law...",
+      "application_to_cps": "Parents have a fundamental liberty interest in the care and custody of their children. Termination of parental rights requires clear and convincing evidence and proper procedural protections.",
+      "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1",
+      "state_provides_greater_protection": false,
+      "key_cases": [
+        {
+          "case_id": "129755",
+          "title": "In re V.S.",
+          "url": "https://law.justia.com/cases/illinois/supreme-court/2025/129755.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Illinois Supreme Court Case 129755 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "129097",
+          "title": "Doe v. Burke Wise Morrissey & Kaveny, LLC",
+          "url": "https://law.justia.com/cases/illinois/supreme-court/2023/129097.html",
+          "year": 2023,
+          "court": "Supreme Court",
+          "citation": "Illinois Supreme Court Case 129097 (2023)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Doe plaintiff",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "126931",
+          "title": "In re Z.L.",
+          "url": "https://law.justia.com/cases/illinois/supreme-court/2021/126931.html",
+          "year": 2021,
+          "court": "Supreme Court",
+          "citation": "Illinois Supreme Court Case 126931 (2021)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "126577",
+          "title": "Doe v. Parrillo",
+          "url": "https://law.justia.com/cases/illinois/supreme-court/2021/126577.html",
+          "year": 2021,
+          "court": "Supreme Court",
+          "citation": "Illinois Supreme Court Case 126577 (2021)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Doe plaintiff",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "125680",
+          "title": "In re J.M.A.",
+          "url": "https://law.justia.com/cases/illinois/supreme-court/2021/125680.html",
+          "year": 2021,
+          "court": "Supreme Court",
+          "citation": "Illinois Supreme Court Case 125680 (2021)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re initials",
+          "provision_match": "DUE_PROCESS"
+        }
+      ],
+      "triggers_at_nodes": [
+        "DEC-05",
+        "DEC-06",
+        "ACT-04",
+        "OUT-02",
+        "OUT-03"
+      ]
+    }
+  ],
+  "unique_state_protections": [],
+  "case_law_search_keywords": [
+    "Illinois Department of Children and Family Services",
+    "DCFS",
+    "CPS",
+    "due process",
+    "14th Amendment",
+    "42 U.S.C. 1983",
+    "reasonable efforts",
+    "reunification",
+    "emergency removal",
+    "wrongful removal",
+    "exigent circumstances",
+    "abuse",
+    "familial association"
+  ],
+  "state_supreme_court_cps_cases": [
+    {
+      "case_id": "129755",
+      "title": "In re V.S.",
+      "url": "https://law.justia.com/cases/illinois/supreme-court/2025/129755.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Illinois Supreme Court Case 129755 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "129097",
+      "title": "Doe v. Burke Wise Morrissey & Kaveny, LLC",
+      "url": "https://law.justia.com/cases/illinois/supreme-court/2023/129097.html",
+      "year": 2023,
+      "court": "Supreme Court",
+      "citation": "Illinois Supreme Court Case 129097 (2023)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Doe plaintiff",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "126931",
+      "title": "In re Z.L.",
+      "url": "https://law.justia.com/cases/illinois/supreme-court/2021/126931.html",
+      "year": 2021,
+      "court": "Supreme Court",
+      "citation": "Illinois Supreme Court Case 126931 (2021)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "126577",
+      "title": "Doe v. Parrillo",
+      "url": "https://law.justia.com/cases/illinois/supreme-court/2021/126577.html",
+      "year": 2021,
+      "court": "Supreme Court",
+      "citation": "Illinois Supreme Court Case 126577 (2021)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Doe plaintiff",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "125680",
+      "title": "In re J.M.A.",
+      "url": "https://law.justia.com/cases/illinois/supreme-court/2021/125680.html",
+      "year": 2021,
+      "court": "Supreme Court",
+      "citation": "Illinois Supreme Court Case 125680 (2021)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re initials",
+      "provision_match": "DUE_PROCESS"
+    }
+  ],
+  "procedural_weight_modifiers": {
+    "explicit_privacy_right": 0,
+    "note": "Modifiers adjust procedural_weight for state nodes based on enhanced protections"
+  },
+  "_metadata": {
+    "created": "2025-12-22T20:38:16.836179",
+    "source": "state_constitution_etl",
+    "data_sources": [
+      "justia",
+      "state_legislature",
+      "courtlistener_keywords"
+    ],
+    "requires_case_law_enrichment": false,
+    "case_law_enriched": "2025-12-24T20:37:15.552228+00:00",
+    "enricher_version": "1.0.0",
+    "cases_analyzed": 21,
+    "cases_linked": 5
+  },
+  "case_law_search": {
+    "search_keywords": [
+      "Illinois Department of Children and Family Services",
+      "DCFS",
+      "CPS",
+      "due process",
+      "14th Amendment",
+      "42 U.S.C. 1983",
+      "reasonable efforts",
+      "reunification",
+      "emergency removal",
+      "wrongful removal"
+    ],
+    "courtlistener_url": "https://www.courtlistener.com/?q=%22Illinois%22%20AND%20%28%22Illinois%20Department%20of%20Children%20and%20Family%20Services%22%20OR%20%22DCFS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
+    "supreme_court_focus": true,
+    "_note": "Search for state supreme court cases on CPS constitutional issues"
+  }
+}

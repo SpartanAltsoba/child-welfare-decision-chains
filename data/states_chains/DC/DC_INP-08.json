@@ -1,0 +1,345 @@
+{
+  "node_id": "DC_INP-08",
+  "state": "DC",
+  "state_name": "District of Columbia",
+  "node_family": "INP",
+  "subnode": "INP-08",
+  "trigger_name": "Educational Disclosure",
+  "summary_html": "**Educators/school staff** observing indicators of abuse/neglect report to CPS under state mandatory-reporter lists built on the federal CAPTA floor.",
+  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 requires robust reporter regimes that include education sector professionals",
+  "icon": "\ud83c\udf93",
+  "theme_color": "#FFD700",
+  "domain": "civil",
+  "procedural_weight": 0.4,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "CAPTA_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-67",
+    "CAPTA_House": "https://uscode.house.gov/view.xhtml?path=/prelim@title42/chapter67&edition=prelim"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "District of Columbia - D.C. Code Title 4, Chapter 13 (Child Abuse and Neglect)",
+          "source_url": "https://code.dccouncil.gov/us/dc/council/code/titles/4/chapters/13",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "District of Columbia - D.C. Code \u00a7 4-1321.02 (Mandatory Reporting)",
+          "source_url": "https://code.dccouncil.gov/us/dc/council/code/titles/4/chapters/1321",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        }
+      ]
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_DC",
+      "plane_file": "legal_planes/state_constitutional/DC_constitution.json",
+      "provisions_triggered": []
+    },
+    "case_law": {
+      "search_keywords": [
+        "CPS",
+        "child protective services",
+        "due process",
+        "parental rights",
+        "mandatory reporting",
+        "failure to report",
+        "reporter immunity",
+        "hotline"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22District%20of%20Columbia%22%20AND%20%28%22CPS%22%20OR%20%22child%20protective%20services%22%20OR%20%22due%20process%22%20OR%20%22parental%20rights%22%20OR%20%22mandatory%20reporting%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "mandatory reporting",
+        "failure to report",
+        "reporter immunity",
+        "hotline"
+      ],
+      "jurisdiction": "District of Columbia state courts",
+      "key_cases": [
+        {
+          "case_id": "24-fs-0078",
+          "title": "In re L.C.",
+          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/24-fs-0078.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "District Of Columbia Court Of Appeals Case 24-fs-0078 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re initials"
+        },
+        {
+          "case_id": "25-bg-0469",
+          "title": "In re Gumbinner (Per Curiam)",
+          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/25-bg-0469.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "District Of Columbia Court Of Appeals Case 25-bg-0469 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "25-bg-0588-0",
+          "title": "In re Larson-Jackson (Per Curiam)",
+          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/25-bg-0588-0.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "District Of Columbia Court Of Appeals Case 25-bg-0588-0 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "25-bg-0704",
+          "title": "In re Pisner (Per Curiam)",
+          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/25-bg-0704.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "District Of Columbia Court Of Appeals Case 25-bg-0704 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "19-bg-0587",
+          "title": "In re Wallace",
+          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/19-bg-0587.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "District Of Columbia Court Of Appeals Case 19-bg-0587 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "25-bg-0685",
+          "title": "In re Lee (Per Curiam)",
+          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/25-bg-0685.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "District Of Columbia Court Of Appeals Case 25-bg-0685 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "25-bg-0729",
+          "title": "In re Banks (Per Curiam)",
+          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/25-bg-0729.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "District Of Columbia Court Of Appeals Case 25-bg-0729 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "25-bg-0588",
+          "title": "In re Larson-Jackson (Per Curiam)",
+          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/25-bg-0588.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "District Of Columbia Court Of Appeals Case 25-bg-0588 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "25-bg-0605",
+          "title": "In re Ross (Per Curiam)",
+          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/25-bg-0605.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "District Of Columbia Court Of Appeals Case 25-bg-0605 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "25-bg-0982",
+          "title": "In re Hill (Per Curiam)",
+          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/25-bg-0982.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "District Of Columbia Court Of Appeals Case 25-bg-0982 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    },
+    "administrative_rule": {
+      "regulations_applicable": []
+    }
+  },
+  "state_agency": {
+    "name": "Child and Family Services Agency",
+    "acronym": "CFSA",
+    "hotline": "202-671-7233",
+    "website": ""
+  },
+  "mandatory_reporters": [
+    "Teachers/School Personnel",
+    "Medical/Dental Professionals",
+    "Mental Health Professionals",
+    "Law Enforcement",
+    "Childcare Staff",
+    "Foster Parents",
+    "Coaches",
+    "Coroners"
+  ],
+  "reporting_type": "centralized",
+  "reporting_details": "Not applicable",
+  "definitions": {
+    "abuse": [
+      "Physical abuse",
+      "Sexual abuse",
+      "Emotional abuse",
+      "Excessive punishment",
+      "Shaken baby syndrome",
+      "Human trafficking",
+      "Domestic violence exposure",
+      "Failure to protect",
+      "Factitious disorder (Munchausen by proxy)",
+      "Institutional abuse/neglect"
+    ],
+    "neglect": [
+      "General neglect",
+      "Medical neglect",
+      "Educational neglect",
+      "Abandonment",
+      "Inadequate supervision",
+      "Inadequate shelter/housing",
+      "Inadequate clothing",
+      "Malnourishment/failure to provide food",
+      "Failure to thrive"
+    ],
+    "other": [
+      "Imminent danger of being abused and whose sibling has been abused"
+    ],
+    "substance_related": [
+      "Drug lab exposure",
+      "Parental drug/alcohol misuse",
+      "Prenatal drug/alcohol exposure",
+      "Illicit substance involvement"
+    ]
+  },
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.727482",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.547763",
+    "schema_version": "3.0.0",
+    "leaves_linked": "2025-12-24T20:18:20.325584+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "reasonable_suspicion",
+    "who_bears_burden": "agency",
+    "common_failures": [
+      "Insufficient screening documentation",
+      "Failure to verify reporter allegations",
+      "Accepting anonymous reports without corroboration"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Initial response time",
+      "deadline": "24-72 hours",
+      "starts_from": "Report received",
+      "source": "state_statute",
+      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+    },
+    {
+      "requirement_name": "Investigation completion",
+      "deadline": "30-60 days",
+      "starts_from": "Investigation opened",
+      "source": "state_statute",
+      "consequence_of_miss": "Case dismissal risk"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian"
+      ],
+      "method": "any_reasonable",
+      "timing": "Before investigation interview",
+      "content_required": [
+        "Nature of allegation",
+        "Rights"
+      ],
+      "defective_notice_consequence": "May invalidate findings"
+    }
+  ],
+  "door_scenarios": [
+    {
+      "who_at_door": [
+        "caseworker"
+      ],
+      "trigger_reason": "Responding to abuse/neglect report",
+      "legal_authority_to_enter": "none_without_consent",
+      "parent_rights_at_moment": [
+        "Right to refuse entry without warrant",
+        "Right to remain silent",
+        "Right to attorney"
+      ],
+      "what_to_say": [
+        "I do not consent to entry without a warrant",
+        "Please provide your card and the allegations in writing",
+        "I will have my attorney contact you"
+      ],
+      "what_not_to_do": [
+        "Do not physically resist",
+        "Do not lie",
+        "Do not let them in 'just to look'"
+      ],
+      "next_possible_nodes": [
+        "DEC-01",
+        "DEC-04"
+      ]
+    }
+  ]
+}

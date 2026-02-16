@@ -1,0 +1,378 @@
+{
+  "node_id": "KS_INP-08",
+  "state": "KS",
+  "state_name": "Kansas",
+  "node_family": "INP",
+  "subnode": "INP-08",
+  "trigger_name": "Educational Disclosure",
+  "summary_html": "**Educators/school staff** observing indicators of abuse/neglect report to CPS under state mandatory-reporter lists built on the federal CAPTA floor.",
+  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 requires robust reporter regimes that include education sector professionals",
+  "icon": "\ud83c\udf93",
+  "theme_color": "#FFD700",
+  "domain": "civil",
+  "procedural_weight": 0.4,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "CAPTA_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-67",
+    "CAPTA_House": "https://uscode.house.gov/view.xhtml?path=/prelim@title42/chapter67&edition=prelim"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Kansas - Chapter 38, Article 22 (Kansas Child in Need of Care Code \u2013 mandatory reporting \u00a7 38-2223)",
+          "source_url": "https://www.kslegislature.org",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22"
+        },
+        {
+          "citation_text": "Title 23: Marriage and Domestic Relations",
+          "source_url": "https://law.justia.com/codes/kansas/title-23/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 38: Minors - CHILD WELFARE PRIMARY",
+          "source_url": "https://law.justia.com/codes/kansas/title-38/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 65: Public Health - Child Abuse Reporting",
+          "source_url": "https://law.justia.com/codes/kansas/title-65/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Agency 30 - KANSAS DEPARTMENT FOR CHILDREN AND FAMILIES",
+          "url": "https://www.law.cornell.edu/regulations/kansas/agency-30"
+        },
+        {
+          "title": "Agency 123 - JUVENILE JUSTICE AUTHORITY",
+          "url": "https://www.law.cornell.edu/regulations/kansas/agency-123"
+        },
+        {
+          "title": "Agency 124 - CHILD DEATH REVIEW BOARD",
+          "url": "https://www.law.cornell.edu/regulations/kansas/agency-124"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/kansas.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_KS",
+      "plane_file": "legal_planes/state_constitutional/KS_constitution.json",
+      "provisions_triggered": []
+    },
+    "case_law": {
+      "search_keywords": [
+        "Kansas Department for Children and Families",
+        "DCF",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Kansas%22%20AND%20%28%22Kansas%20Department%20for%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "mandatory reporting",
+        "failure to report",
+        "reporter immunity",
+        "hotline"
+      ],
+      "jurisdiction": "Kansas state courts",
+      "key_cases": [
+        {
+          "case_id": "119012",
+          "title": "In re Mason",
+          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/119012.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kansas Supreme Court Case 119012 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "129013",
+          "title": "In re Wagle",
+          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/129013.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kansas Supreme Court Case 129013 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "20346",
+          "title": "In re Holmes",
+          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/20346.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kansas Supreme Court Case 20346 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "13805",
+          "title": "In re Peterson, II",
+          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/13805.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kansas Supreme Court Case 13805 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "118723",
+          "title": "In re Sullivan",
+          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/118723.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kansas Supreme Court Case 118723 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "125499",
+          "title": "In re McVey",
+          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/125499.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kansas Supreme Court Case 125499 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "127835",
+          "title": "In re Valdez",
+          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/127835.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kansas Supreme Court Case 127835 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "124395",
+          "title": "In re Martinez",
+          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/124395.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kansas Supreme Court Case 124395 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "125968",
+          "title": "In re Barnds",
+          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/125968.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kansas Supreme Court Case 125968 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "126718",
+          "title": "In re K.W.D.",
+          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/126718.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Kansas Supreme Court Case 126718 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re initials"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Department for Children and Families",
+    "acronym": "DCF",
+    "hotline": "1-800-922-5330",
+    "website": "https://www.kslegislature.org"
+  },
+  "mandatory_reporters": [
+    "Teachers/School Personnel",
+    "Medical/Dental Professionals",
+    "Mental Health Professionals",
+    "Law Enforcement",
+    "Childcare Staff",
+    "EMTs/Emergency Personnel"
+  ],
+  "reporting_type": "centralized",
+  "reporting_details": "Not applicable",
+  "definitions": {
+    "abuse": [
+      "Physical abuse",
+      "Sexual abuse",
+      "Emotional abuse",
+      "Excessive punishment",
+      "Shaken baby syndrome",
+      "Human trafficking",
+      "Domestic violence exposure",
+      "Failure to protect",
+      "Female genital mutilation",
+      "Factitious disorder (Munchausen by proxy)",
+      "Institutional abuse/neglect"
+    ],
+    "neglect": [
+      "General neglect",
+      "Medical neglect",
+      "Educational neglect",
+      "Abandonment",
+      "Inadequate supervision",
+      "Inadequate shelter/housing",
+      "Inadequate clothing",
+      "Malnourishment/failure to provide food",
+      "Failure to thrive",
+      "Injurious environment"
+    ],
+    "other": [
+      "Substance affected infant"
+    ],
+    "substance_related": [
+      "Drug lab exposure",
+      "Illicit substance involvement"
+    ]
+  },
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.751550",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.618494",
+    "schema_version": "3.0.0",
+    "leaves_linked": "2025-12-24T18:14:21.462493+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "reasonable_suspicion",
+    "who_bears_burden": "agency",
+    "common_failures": [
+      "Insufficient screening documentation",
+      "Failure to verify reporter allegations",
+      "Accepting anonymous reports without corroboration"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Initial response time",
+      "deadline": "24-72 hours",
+      "starts_from": "Report received",
+      "source": "state_statute",
+      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+    },
+    {
+      "requirement_name": "Investigation completion",
+      "deadline": "30-60 days",
+      "starts_from": "Investigation opened",
+      "source": "state_statute",
+      "consequence_of_miss": "Case dismissal risk"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian"
+      ],
+      "method": "any_reasonable",
+      "timing": "Before investigation interview",
+      "content_required": [
+        "Nature of allegation",
+        "Rights"
+      ],
+      "defective_notice_consequence": "May invalidate findings"
+    }
+  ],
+  "door_scenarios": [
+    {
+      "who_at_door": [
+        "caseworker"
+      ],
+      "trigger_reason": "Responding to abuse/neglect report",
+      "legal_authority_to_enter": "none_without_consent",
+      "parent_rights_at_moment": [
+        "Right to refuse entry without warrant",
+        "Right to remain silent",
+        "Right to attorney"
+      ],
+      "what_to_say": [
+        "I do not consent to entry without a warrant",
+        "Please provide your card and the allegations in writing",
+        "I will have my attorney contact you"
+      ],
+      "what_not_to_do": [
+        "Do not physically resist",
+        "Do not lie",
+        "Do not let them in 'just to look'"
+      ],
+      "next_possible_nodes": [
+        "DEC-01",
+        "DEC-04"
+      ]
+    }
+  ]
+}

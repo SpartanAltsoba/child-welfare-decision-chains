@@ -1,0 +1,313 @@
+{
+  "node_id": "MN_FAIL-02",
+  "state": "MN",
+  "state_name": "Minnesota",
+  "node_family": "FAIL",
+  "subnode": "FAIL-02",
+  "trigger_name": "Unlawful Removal",
+  "summary_html": "A **child is removed without exigency or warrant**, violating constitutional rights. Federal courts treat such removals as seizures under the Fourth and Fourteenth Amendments, actionable via \u00a71983.",
+  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 limits removals to lawful emergencies and requires judicial review  \n- **U.S. Constitution (4th & 14th Amendments)** \u2014 protects family integrity; requires due process",
+  "icon": "\ud83d\udea8",
+  "theme_color": "#B22222",
+  "domain": "civil",
+  "procedural_weight": 0.9,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "ASFA_PDF": "https://www.govinfo.gov/content/pkg/PLAW-105publ89/pdf/PLAW-105publ89.pdf",
+    "SSA_IV_E_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-7/subchapter-IV/part-E"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "Public Law 105-89 (ASFA)",
+        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)",
+        "U.S. Constitution, Amendments IV & XIV"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Minnesota - Minn. Stat. \u00a7\u00a0626.556 (Reporting of Maltreatment of Minors Act)",
+          "source_url": "https://www.revisor.mn.gov/statutes/cite/626",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Minnesota - Minn. Stat. Chapters\u00a0260C and 260E (Child protection and services)",
+          "source_url": "https://www.revisor.mn.gov/statutes/cite/260C",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Title 256: Human Services - DHS",
+          "source_url": "https://law.justia.com/codes/minnesota/title-256/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 260: Juvenile Court Act",
+          "source_url": "https://law.justia.com/codes/minnesota/title-260/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Agency 152 - Marriage and Family Therapy Board",
+          "url": "https://www.law.cornell.edu/regulations/minnesota/agency-152"
+        },
+        {
+          "title": "Agency 172 - Private Detective and Protective Agent Services Board",
+          "url": "https://www.law.cornell.edu/regulations/minnesota/agency-172"
+        },
+        {
+          "title": "Agency 196 - Human Services Department",
+          "url": "https://www.law.cornell.edu/regulations/minnesota/agency-196"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/minnesota.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_MN",
+      "plane_file": "legal_planes/state_constitutional/MN_constitution.json",
+      "provisions_triggered": []
+    },
+    "case_law": {
+      "search_keywords": [
+        "Minnesota Department of Human Services",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal",
+        "exigent circumstances"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Minnesota%22%20AND%20%28%22Minnesota%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "wrongful removal",
+        "1983 claim",
+        "civil rights",
+        "immunity",
+        "damages"
+      ],
+      "jurisdiction": "Minnesota state courts",
+      "key_cases": [
+        {
+          "case_id": "a24-1562",
+          "title": "In the Matter of the Petition of Minnesota Association of Residential Services Homes (MARSH) under Minn. Stat. \u00c2\u00a7 14.381, subd. 1, for a Declaration that the Minnesota Department of Human Services Is Enforcing Unadopted Rules",
+          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2025/a24-1562.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Minnesota Court Of Appeals Case a24-1562 (2025)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "minnesota department of human services"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "a24-0126",
+          "title": "In re the Matter of: Western Prairie Human Services, Respondent, Commissioner of Minnesota Department of Human Services, Respondent, vs. County of Benton, Appellant",
+          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2024/a24-0126.html",
+          "year": 2024,
+          "court": "Court Of Appeals",
+          "citation": "Minnesota Court Of Appeals Case a24-0126 (2024)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "minnesota department of human services"
+          ],
+          "child_welfare_reason": "High: In re, Matter of"
+        },
+        {
+          "case_id": "a22-0367",
+          "title": "In the Matter of the Surveillance and Integrity Review Appeal by Smart Choice Health Care Corporation and Farah Jama Mohamed, Relators, vs. Minnesota Department of Human Services, Respondent",
+          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2022/a22-0367.html",
+          "year": 2022,
+          "court": "Court Of Appeals",
+          "citation": "Minnesota Court Of Appeals Case a22-0367 (2022)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "minnesota department of human services"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "a20-1300",
+          "title": "In re the Matter of: Dorothy Geyen, Respondent, vs. Commissioner of Minnesota Department of Human Services, Appellant, Carver County Health and Human Services, Respondent below",
+          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2021/a20-1300.html",
+          "year": 2021,
+          "court": "Court Of Appeals",
+          "citation": "Minnesota Court Of Appeals Case a20-1300 (2021)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "minnesota department of human services"
+          ],
+          "child_welfare_reason": "High: In re, Matter of"
+        },
+        {
+          "case_id": "a22-1688",
+          "title": "In the Matter of the SIRS Appeal by Best Care, LLC",
+          "url": "https://law.justia.com/cases/minnesota/supreme-court/2025/a22-1688.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Minnesota Supreme Court Case a22-1688 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "a24-0509",
+          "title": "In re Petition for Disciplinary Action Against",
+          "url": "https://law.justia.com/cases/minnesota/supreme-court/2025/a24-0509.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Minnesota Supreme Court Case a24-0509 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "a24-0128",
+          "title": "In the Matter of the Civil Commitment of: Swope",
+          "url": "https://law.justia.com/cases/minnesota/supreme-court/2025/a24-0128.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Minnesota Supreme Court Case a24-0128 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "a24-1189",
+          "title": "In re Johnson Trust",
+          "url": "https://law.justia.com/cases/minnesota/supreme-court/2025/a24-1189.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Minnesota Supreme Court Case a24-1189 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "a24-1673",
+          "title": "In the Matter of the Welfare of the Child of: B.D.D. and D.A.A.",
+          "url": "https://law.justia.com/cases/minnesota/supreme-court/2025/a24-1673.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Minnesota Supreme Court Case a24-1673 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "a23-0459",
+          "title": "In the Matter of the Welfare of: C.T.B",
+          "url": "https://law.justia.com/cases/minnesota/supreme-court/2025/a23-0459.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Minnesota Supreme Court Case a23-0459 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Department of Human Services",
+    "acronym": "DHS",
+    "hotline": "1-800-422-4453",
+    "website": "https://www.leg.state.mn.us"
+  },
+  "linked_output": "OUT-05",
+  "linked_action": "ACT-03",
+  "linked_decision": "DEC-04",
+  "linked_input": "INP-01",
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.772710",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.670751",
+    "schema_version": "3.0.0",
+    "trigger_name_fixed": "2025-12-22T22:53:02.358688",
+    "leaves_linked": "2025-12-24T18:14:21.728394+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "preponderance",
+    "who_bears_burden": "parent",
+    "common_failures": [
+      "Failure to preserve evidence",
+      "Missing deadlines for legal challenges",
+      "Inadequate documentation of violations"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Appeal deadline",
+      "deadline": "30 days",
+      "starts_from": "Final order",
+      "source": "court_rule",
+      "consequence_of_miss": "Loss of appeal rights"
+    },
+    {
+      "requirement_name": "1983 statute of limitations",
+      "deadline": "2-3 years",
+      "starts_from": "Violation occurred",
+      "source": "federal_statute",
+      "consequence_of_miss": "Claim barred"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "attorney"
+      ],
+      "method": "personal_service",
+      "timing": "Upon violation discovery",
+      "content_required": [
+        "Nature of violation",
+        "Remedies available"
+      ],
+      "defective_notice_consequence": "May extend statute of limitations"
+    }
+  ]
+}

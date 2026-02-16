@@ -1,0 +1,373 @@
+{
+  "plane_id": "state_constitutional_AZ",
+  "plane_name": "Arizona State Constitutional Plane",
+  "description": "Arizona Constitution provisions relevant to child welfare and family rights.",
+  "authority_level": "state_supreme",
+  "state_code": "AZ",
+  "state_name": "Arizona",
+  "version": "1.0.0",
+  "created": "2025-12-22",
+  "updated": "2025-12-22",
+  "copyright": "Project Milk Carton 501(c)(3) - All Rights Reserved",
+  "constitution_source": {
+    "url": "https://www.azleg.gov/constitution/",
+    "justia_url": "https://law.justia.com/constitution/arizona/",
+    "official_name": "Arizona Constitution",
+    "last_amended": "2022-11-08",
+    "last_verified": "2025-12-22"
+  },
+  "relationship_to_federal": {
+    "supremacy_clause_applies": true,
+    "can_provide_greater_protection": true,
+    "cannot_provide_less_protection": true
+  },
+  "relevant_provisions": [
+    {
+      "provision_id": "AZ_CONST_SEARCH_SEIZURE",
+      "name": "Search and Seizure",
+      "article": "Article II",
+      "section": "Section 8",
+      "url": "https://law.justia.com/constitution/arizona/#section-8",
+      "citation": "Arizona Const. art. II, \u00a7 8",
+      "text": "No person shall be disturbed in his private affairs, or his home invaded, without authority of law.",
+      "application_to_cps": "CPS removal of a child constitutes a seizure. Warrantless removals must meet exigent circumstances exception or be supported by court order.",
+      "federal_parallel": "U.S. Const. amend. IV",
+      "state_provides_greater_protection": false,
+      "key_cases": [],
+      "triggers_at_nodes": [
+        "INP-12",
+        "DEC-04",
+        "ACT-01",
+        "FAIL-01"
+      ]
+    },
+    {
+      "provision_id": "AZ_CONST_DUE_PROCESS",
+      "name": "Due Process / Law of the Land",
+      "article": "Article II",
+      "section": "Section 4",
+      "url": "https://law.justia.com/constitution/arizona/#section-4",
+      "citation": "Arizona Const. art. II, \u00a7 4",
+      "text": "No person shall be deprived of life, liberty, or property without due process of law.",
+      "application_to_cps": "Parents have a fundamental liberty interest in the care and custody of their children. Termination of parental rights requires clear and convincing evidence and proper procedural protections.",
+      "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1",
+      "state_provides_greater_protection": false,
+      "key_cases": [
+        {
+          "case_id": "cv-24-0079-pr",
+          "title": "In re Termination Parental Rights as to B.W.",
+          "url": "https://law.justia.com/cases/arizona/supreme-court/2025/cv-24-0079-pr.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Arizona Supreme Court Case cv-24-0079-pr (2025)",
+          "relevance_score": 2,
+          "matched_keywords": [
+            "termination",
+            "tpr"
+          ],
+          "child_welfare_reason": "High: In re TPR, In re",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "cv-23-0263-pr",
+          "title": "In the matter of CHALMERS",
+          "url": "https://law.justia.com/cases/arizona/supreme-court/2025/cv-23-0263-pr.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Arizona Supreme Court Case cv-23-0263-pr (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Matter of",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "cv-24-0114-pr",
+          "title": "IN RE TERM OF PARENTAL RIGHTS AS TO M.N.",
+          "url": "https://law.justia.com/cases/arizona/supreme-court/2025/cv-24-0114-pr.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Arizona Supreme Court Case cv-24-0114-pr (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "sb-22-0056-ap",
+          "title": "In the Matter of WITT",
+          "url": "https://law.justia.com/cases/arizona/supreme-court/2024/sb-22-0056-ap.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Arizona Supreme Court Case sb-22-0056-ap (2024)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Matter of",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "sb-22-0062-ap",
+          "title": "In the Matter of TORI S. BRYANT",
+          "url": "https://law.justia.com/cases/arizona/supreme-court/2023/sb-22-0062-ap.html",
+          "year": 2023,
+          "court": "Supreme Court",
+          "citation": "Arizona Supreme Court Case sb-22-0062-ap (2023)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Matter of",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "cv-20-0030-pr",
+          "title": "AMERICAN CIVIL LIBERTIES UNION OF AZ v DCS",
+          "url": "https://law.justia.com/cases/arizona/supreme-court/2021/cv-20-0030-pr.html",
+          "year": 2021,
+          "court": "Supreme Court",
+          "citation": "Arizona Supreme Court Case cv-20-0030-pr (2021)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: DCS",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "sb-19-0053-ap-0",
+          "title": "In the Matter of DANIEL R RAYNAK (Decision Order)",
+          "url": "https://law.justia.com/cases/arizona/supreme-court/2020/sb-19-0053-ap-0.html",
+          "year": 2020,
+          "court": "Supreme Court",
+          "citation": "Arizona Supreme Court Case sb-19-0053-ap-0 (2020)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Matter of",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "sb-19-0064-ap-0",
+          "title": "In the Matter of DONALD H SMITH (Decision Order)",
+          "url": "https://law.justia.com/cases/arizona/supreme-court/2020/sb-19-0064-ap-0.html",
+          "year": 2020,
+          "court": "Supreme Court",
+          "citation": "Arizona Supreme Court Case sb-19-0064-ap-0 (2020)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Matter of",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "sb-17-0081-ap",
+          "title": "In the Matter of JUAN M MARTINEZ",
+          "url": "https://law.justia.com/cases/arizona/supreme-court/2020/sb-17-0081-ap.html",
+          "year": 2020,
+          "court": "Supreme Court",
+          "citation": "Arizona Supreme Court Case sb-17-0081-ap (2020)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Matter of",
+          "provision_match": "DUE_PROCESS"
+        }
+      ],
+      "triggers_at_nodes": [
+        "DEC-05",
+        "DEC-06",
+        "ACT-04",
+        "OUT-02",
+        "OUT-03"
+      ]
+    }
+  ],
+  "unique_state_protections": [],
+  "case_law_search_keywords": [
+    "Arizona Department of Child Safety",
+    "DCS",
+    "CPS",
+    "due process",
+    "14th Amendment",
+    "42 U.S.C. 1983",
+    "reasonable efforts",
+    "reunification",
+    "emergency removal",
+    "wrongful removal",
+    "exigent circumstances",
+    "abuse",
+    "familial association"
+  ],
+  "state_supreme_court_cps_cases": [
+    {
+      "case_id": "cv-24-0079-pr",
+      "title": "In re Termination Parental Rights as to B.W.",
+      "url": "https://law.justia.com/cases/arizona/supreme-court/2025/cv-24-0079-pr.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Arizona Supreme Court Case cv-24-0079-pr (2025)",
+      "relevance_score": 2,
+      "matched_keywords": [
+        "termination",
+        "tpr"
+      ],
+      "child_welfare_reason": "High: In re TPR, In re",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "cv-23-0263-pr",
+      "title": "In the matter of CHALMERS",
+      "url": "https://law.justia.com/cases/arizona/supreme-court/2025/cv-23-0263-pr.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Arizona Supreme Court Case cv-23-0263-pr (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Matter of",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "cv-24-0114-pr",
+      "title": "IN RE TERM OF PARENTAL RIGHTS AS TO M.N.",
+      "url": "https://law.justia.com/cases/arizona/supreme-court/2025/cv-24-0114-pr.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Arizona Supreme Court Case cv-24-0114-pr (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "sb-22-0056-ap",
+      "title": "In the Matter of WITT",
+      "url": "https://law.justia.com/cases/arizona/supreme-court/2024/sb-22-0056-ap.html",
+      "year": 2024,
+      "court": "Supreme Court",
+      "citation": "Arizona Supreme Court Case sb-22-0056-ap (2024)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Matter of",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "sb-22-0062-ap",
+      "title": "In the Matter of TORI S. BRYANT",
+      "url": "https://law.justia.com/cases/arizona/supreme-court/2023/sb-22-0062-ap.html",
+      "year": 2023,
+      "court": "Supreme Court",
+      "citation": "Arizona Supreme Court Case sb-22-0062-ap (2023)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Matter of",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "cv-20-0030-pr",
+      "title": "AMERICAN CIVIL LIBERTIES UNION OF AZ v DCS",
+      "url": "https://law.justia.com/cases/arizona/supreme-court/2021/cv-20-0030-pr.html",
+      "year": 2021,
+      "court": "Supreme Court",
+      "citation": "Arizona Supreme Court Case cv-20-0030-pr (2021)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: DCS",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "sb-19-0053-ap-0",
+      "title": "In the Matter of DANIEL R RAYNAK (Decision Order)",
+      "url": "https://law.justia.com/cases/arizona/supreme-court/2020/sb-19-0053-ap-0.html",
+      "year": 2020,
+      "court": "Supreme Court",
+      "citation": "Arizona Supreme Court Case sb-19-0053-ap-0 (2020)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Matter of",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "sb-19-0064-ap-0",
+      "title": "In the Matter of DONALD H SMITH (Decision Order)",
+      "url": "https://law.justia.com/cases/arizona/supreme-court/2020/sb-19-0064-ap-0.html",
+      "year": 2020,
+      "court": "Supreme Court",
+      "citation": "Arizona Supreme Court Case sb-19-0064-ap-0 (2020)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Matter of",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "sb-17-0081-ap",
+      "title": "In the Matter of JUAN M MARTINEZ",
+      "url": "https://law.justia.com/cases/arizona/supreme-court/2020/sb-17-0081-ap.html",
+      "year": 2020,
+      "court": "Supreme Court",
+      "citation": "Arizona Supreme Court Case sb-17-0081-ap (2020)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Matter of",
+      "provision_match": "DUE_PROCESS"
+    }
+  ],
+  "procedural_weight_modifiers": {
+    "explicit_privacy_right": 0,
+    "note": "Modifiers adjust procedural_weight for state nodes based on enhanced protections"
+  },
+  "_metadata": {
+    "created": "2025-12-22T20:38:16.835435",
+    "source": "state_constitution_etl",
+    "data_sources": [
+      "justia",
+      "state_legislature",
+      "courtlistener_keywords"
+    ],
+    "requires_case_law_enrichment": false,
+    "case_law_enriched": "2025-12-24T20:37:15.387578+00:00",
+    "enricher_version": "1.0.0",
+    "cases_analyzed": 15,
+    "cases_linked": 9
+  },
+  "case_law_search": {
+    "search_keywords": [
+      "Arizona Department of Child Safety",
+      "DCS",
+      "CPS",
+      "due process",
+      "14th Amendment",
+      "42 U.S.C. 1983",
+      "reasonable efforts",
+      "reunification",
+      "emergency removal",
+      "wrongful removal"
+    ],
+    "courtlistener_url": "https://www.courtlistener.com/?q=%22Arizona%22%20AND%20%28%22Arizona%20Department%20of%20Child%20Safety%22%20OR%20%22DCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
+    "supreme_court_focus": true,
+    "_note": "Search for state supreme court cases on CPS constitutional issues"
+  }
+}

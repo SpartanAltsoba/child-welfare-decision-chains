@@ -1,0 +1,243 @@
+{
+  "plane_id": "administrative_structure",
+  "plane_name": "Administrative Structure Reference Plane",
+  "description": "Structural map of how child welfare authority is administered (state vs county vs hybrid) and how civil dependency proceedings run in parallel with criminal investigations. This plane determines who has decision authority and which legal standards apply at each decision node.",
+  "authority_level": "structural",
+  "version": "1.1.0",
+  "created": "2025-12-22",
+  "updated": "2025-12-23",
+  "copyright": "Project Milk Carton 501(c)(3) - All Rights Reserved",
+  "sources": {
+    "administration_data": "SCAN Database 2023v1 (CWSystemAdmin variable)",
+    "legal_references": [
+      "[https://www.law.cornell.edu/](https://www.law.cornell.edu/)",
+      "[https://uscode.house.gov/](https://uscode.house.gov/)",
+      "[https://supreme.justia.com/](https://supreme.justia.com/)"
+    ]
+  },
+  "cw_system_administration": {
+    "description": "Administrative structure determines whether decision authority resides at the state or county level, directly affecting accountability, appeals, and policy uniformity.",
+    "categories": [
+      {
+        "type_id": 1,
+        "type_name": "State-Administered",
+        "description": "A single state agency operates child welfare statewide. Investigations, removals, and case management are conducted by state employees under centralized authority.",
+        "states": [
+          "AK",
+          "AL",
+          "AR",
+          "AZ",
+          "CT",
+          "DC",
+          "DE",
+          "FL",
+          "GA",
+          "HI",
+          "IA",
+          "ID",
+          "IL",
+          "IN",
+          "KS",
+          "KY",
+          "LA",
+          "MA",
+          "MD",
+          "ME",
+          "MI",
+          "MO",
+          "MS",
+          "MT",
+          "NE",
+          "NH",
+          "NJ",
+          "NM",
+          "OK",
+          "OR",
+          "PR",
+          "RI",
+          "SC",
+          "SD",
+          "TN",
+          "TX",
+          "UT",
+          "VT",
+          "WA",
+          "WV",
+          "WY"
+        ],
+        "count": 41,
+        "implications": {
+          "decision_authority": "State child welfare agency",
+          "policy_variation": "Low within state",
+          "appeals_path": "State administrative and judicial process",
+          "funding_structure": "Primarily state budget with federal reimbursement"
+        }
+      },
+      {
+        "type_id": 2,
+        "type_name": "County-Administered",
+        "description": "County agencies conduct investigations and case management under state supervision. Significant variation exists between counties.",
+        "states": [
+          "CA",
+          "CO",
+          "MN",
+          "NC",
+          "ND",
+          "NY",
+          "OH",
+          "PA",
+          "VA"
+        ],
+        "count": 9,
+        "implications": {
+          "decision_authority": "County child welfare agency",
+          "policy_variation": "High county-to-county variation",
+          "appeals_path": "County process followed by state-level review",
+          "funding_structure": "State and county cost sharing with federal reimbursement"
+        }
+      },
+      {
+        "type_id": 3,
+        "type_name": "Hybrid",
+        "description": "Responsibilities are split between state and county agencies depending on function (e.g., county investigations with state case management).",
+        "states": [
+          "NV",
+          "WI"
+        ],
+        "count": 2,
+        "implications": {
+          "decision_authority": "Function-specific (state or county)",
+          "policy_variation": "Moderate",
+          "appeals_path": "Depends on which entity made the decision",
+          "funding_structure": "Complex shared funding model"
+        }
+      }
+    ],
+    "training_note": "Accurate answers to 'who decides' require knowing whether the system is state- or county-administered. The term 'the agency' is jurisdiction-dependent."
+  },
+  "criminal_civil_parallel": {
+    "description": "Child welfare matters routinely involve parallel civil dependency proceedings and criminal investigations, each governed by different standards, rights, and outcomes.",
+    "tracks": [
+      {
+        "track_id": "civil",
+        "track_name": "Civil Dependency / Child Protection",
+        "court_type": "Juvenile or Family Court",
+        "purpose": "Protect the child and determine custody, placement, and services",
+        "legal_standards": {
+          "removal": "Preponderance of the evidence",
+          "dependency": "Preponderance of the evidence",
+          "termination_of_parental_rights": "Clear and convincing evidence (Santosky v. Kramer, 455 U.S. 745 (1982))"
+        },
+        "rights": {
+          "right_to_counsel": "Not constitutionally guaranteed; case-by-case determination (Lassiter v. DSS, 452 U.S. 18 (1981))",
+          "right_to_jury": "Generally no",
+          "fifth_amendment": "Limited; adverse inference from silence may be permitted in some jurisdictions",
+          "right_to_appeal": "Yes"
+        },
+        "applies_to_nodes": [
+          "INP-01",
+          "INP-02",
+          "INP-04",
+          "INP-05",
+          "DEC-01",
+          "DEC-02",
+          "DEC-03",
+          "DEC-04",
+          "DEC-05",
+          "ACT-01",
+          "ACT-02",
+          "ACT-03",
+          "ACT-04",
+          "OUT-01",
+          "OUT-02",
+          "OUT-03"
+        ],
+        "authoritative_links": {
+          "santosky": "[https://supreme.justia.com/cases/federal/us/455/745/](https://supreme.justia.com/cases/federal/us/455/745/)",
+          "lassiter": "[https://supreme.justia.com/cases/federal/us/452/18/](https://supreme.justia.com/cases/federal/us/452/18/)"
+        }
+      },
+      {
+        "track_id": "criminal",
+        "track_name": "Criminal Child Abuse / Neglect Prosecution",
+        "court_type": "Criminal Court",
+        "purpose": "Punish offenders and protect public safety",
+        "legal_standards": {
+          "charging": "Probable cause",
+          "conviction": "Beyond a reasonable doubt"
+        },
+        "rights": {
+          "right_to_counsel": "Guaranteed by Sixth Amendment",
+          "right_to_jury": "Guaranteed",
+          "fifth_amendment": "Full protection",
+          "miranda_required": "Yes, if custodial interrogation",
+          "right_to_appeal": "Yes"
+        },
+        "applies_to_nodes": [
+          "INP-03",
+          "INP-09",
+          "ACT-05"
+        ],
+        "federal_jurisdiction": {
+          "when_applies": [
+            "Abuse on federal lands or facilities",
+            "Interstate trafficking or exploitation",
+            "Child sexual exploitation material"
+          ],
+          "statutes": [
+            {
+              "citation": "18 U.S.C. § 2241",
+              "url": "[https://www.law.cornell.edu/uscode/text/18/2241](https://www.law.cornell.edu/uscode/text/18/2241)"
+            },
+            {
+              "citation": "18 U.S.C. § 2251",
+              "url": "[https://www.law.cornell.edu/uscode/text/18/2251](https://www.law.cornell.edu/uscode/text/18/2251)"
+            },
+            {
+              "citation": "18 U.S.C. § 2252",
+              "url": "[https://www.law.cornell.edu/uscode/text/18/2252](https://www.law.cornell.edu/uscode/text/18/2252)"
+            },
+            {
+              "citation": "34 U.S.C. § 20341",
+              "url": "[https://www.law.cornell.edu/uscode/text/34/20341](https://www.law.cornell.edu/uscode/text/34/20341)"
+            }
+          ]
+        }
+      }
+    ],
+    "interaction_points": [
+      {
+        "node": "INP-03",
+        "issue": "Forensic Interview",
+        "constitutional_risk": "Statements may be used criminally without Miranda warnings",
+        "best_practice": "Coordinate CPS and law enforcement interviews; provide clear warnings when prosecution is foreseeable"
+      },
+      {
+        "node": "ACT-02",
+        "issue": "Home Entry / Search",
+        "constitutional_risk": "Coerced consent invalid under Fourth Amendment",
+        "best_practice": "Obtain voluntary consent or judicial authorization"
+      }
+    ],
+    "fifth_amendment_key_cases": [
+      {
+        "name": "Lefkowitz v. Cunningham",
+        "citation": "431 U.S. 801 (1977)",
+        "holding": "State may not impose substantial penalties for exercising Fifth Amendment privilege",
+        "url": "https://supreme.justia.com/cases/federal/us/431/801/"
+      },
+      {
+        "name": "Baltimore City Dept. of Social Services v. Bouknight",
+        "citation": "493 U.S. 549 (1990)",
+        "holding": "Production of a child pursuant to a valid custody order is not testimonial, but Fifth Amendment protections against compelled testimony remain",
+        "url": "https://supreme.justia.com/cases/federal/us/493/549/"
+      }
+    ]
+  },
+  "implications_for_training": [
+    "Always identify administrative structure before answering authority questions",
+    "Distinguish civil dependency rights from criminal procedural rights",
+    "Warn parents of criminal exposure during CPS investigations",
+    "Do not generalize practices across county-administered states"
+  ]
+}

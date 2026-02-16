@@ -1,0 +1,442 @@
+{
+  "plane_id": "state_constitutional_GA",
+  "plane_name": "Georgia State Constitutional Plane",
+  "description": "Georgia Constitution provisions relevant to child welfare and family rights.",
+  "authority_level": "state_supreme",
+  "state_code": "GA",
+  "state_name": "Georgia",
+  "version": "1.0.0",
+  "created": "2025-12-22",
+  "updated": "2025-12-22",
+  "copyright": "Project Milk Carton 501(c)(3) - All Rights Reserved",
+  "constitution_source": {
+    "url": "https://www.legis.ga.gov/api/constitution/current",
+    "justia_url": "https://law.justia.com/constitution/georgia/",
+    "official_name": "Georgia Constitution",
+    "last_amended": "2022-11-08",
+    "last_verified": "2025-12-22"
+  },
+  "relationship_to_federal": {
+    "supremacy_clause_applies": true,
+    "can_provide_greater_protection": true,
+    "cannot_provide_less_protection": true
+  },
+  "relevant_provisions": [
+    {
+      "provision_id": "GA_CONST_SEARCH_SEIZURE",
+      "name": "Search and Seizure",
+      "article": "Article I",
+      "section": "Section I",
+      "url": "https://law.justia.com/constitution/georgia/#section-I",
+      "citation": "Georgia Const. art. I, \u00a7 I",
+      "text": "The right of the people to be secure in their persons, houses, papers, and effects against unreasonable searches and seizures shall not be violated...",
+      "application_to_cps": "CPS removal of a child constitutes a seizure. Warrantless removals must meet exigent circumstances exception or be supported by court order.",
+      "federal_parallel": "U.S. Const. amend. IV",
+      "state_provides_greater_protection": false,
+      "key_cases": [],
+      "triggers_at_nodes": [
+        "INP-12",
+        "DEC-04",
+        "ACT-01",
+        "FAIL-01"
+      ]
+    },
+    {
+      "provision_id": "GA_CONST_DUE_PROCESS",
+      "name": "Due Process / Law of the Land",
+      "article": "Article I",
+      "section": "Section I",
+      "url": "https://law.justia.com/constitution/georgia/#section-I",
+      "citation": "Georgia Const. art. I, \u00a7 I",
+      "text": "No person shall be deprived of life, liberty, or property except by due process of law.",
+      "application_to_cps": "Parents have a fundamental liberty interest in the care and custody of their children. Termination of parental rights requires clear and convincing evidence and proper procedural protections.",
+      "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1",
+      "state_provides_greater_protection": false,
+      "key_cases": [
+        {
+          "case_id": "s24y1247",
+          "title": "IN THE MATTER OF CHRISTOPHER CASEY TAYLOR (six cases)",
+          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s24y1247.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Georgia Supreme Court Case s24y1247 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Matter of",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "s26y0129",
+          "title": "IN THE MATTER OF JE\u2019NITA LANE",
+          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s26y0129.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Georgia Supreme Court Case s26y0129 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Matter of",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "s25y0795",
+          "title": "IN THE MATTER OF BRIAN JOEL APLIN (two cases)",
+          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y0795.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Georgia Supreme Court Case s25y0795 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Matter of",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "s25y1085",
+          "title": "IN THE MATTER OF HERALD J.A. ALEXANDER",
+          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y1085.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Georgia Supreme Court Case s25y1085 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Matter of",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "s25y1459",
+          "title": "IN THE MATTER OF DESTIN MICHELLE GILLUM",
+          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y1459.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Georgia Supreme Court Case s25y1459 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Matter of",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "s25y0965",
+          "title": "IN THE MATTER OF CRAIG S. BONNELL",
+          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y0965.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Georgia Supreme Court Case s25y0965 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Matter of",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "s25y1146",
+          "title": "IN THE MATTER OF MELVIN RAINES, II",
+          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y1146.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Georgia Supreme Court Case s25y1146 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Matter of",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "s25y1290",
+          "title": "IN THE MATTER OF PAUL GERARD WERSANT",
+          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y1290.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Georgia Supreme Court Case s25y1290 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Matter of",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "s25y0726",
+          "title": "IN THE MATTER OF ALLEN CHARLES JONES",
+          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y0726.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Georgia Supreme Court Case s25y0726 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Matter of",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "s25y1174",
+          "title": "IN THE MATTER OF VI BUI",
+          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y1174.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Georgia Supreme Court Case s25y1174 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Matter of",
+          "provision_match": "DUE_PROCESS"
+        }
+      ],
+      "triggers_at_nodes": [
+        "DEC-05",
+        "DEC-06",
+        "ACT-04",
+        "OUT-02",
+        "OUT-03"
+      ]
+    }
+  ],
+  "unique_state_protections": [],
+  "case_law_search_keywords": [
+    "Georgia Division of Family and Children Services",
+    "DFCS",
+    "CPS",
+    "due process",
+    "14th Amendment",
+    "42 U.S.C. 1983",
+    "reasonable efforts",
+    "reunification",
+    "emergency removal",
+    "wrongful removal",
+    "exigent circumstances",
+    "abuse",
+    "familial association",
+    "CHINS"
+  ],
+  "state_supreme_court_cps_cases": [
+    {
+      "case_id": "s24y1247",
+      "title": "IN THE MATTER OF CHRISTOPHER CASEY TAYLOR (six cases)",
+      "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s24y1247.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Georgia Supreme Court Case s24y1247 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Matter of",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "s26y0129",
+      "title": "IN THE MATTER OF JE\u2019NITA LANE",
+      "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s26y0129.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Georgia Supreme Court Case s26y0129 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Matter of",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "s25y0795",
+      "title": "IN THE MATTER OF BRIAN JOEL APLIN (two cases)",
+      "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y0795.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Georgia Supreme Court Case s25y0795 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Matter of",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "s25y1085",
+      "title": "IN THE MATTER OF HERALD J.A. ALEXANDER",
+      "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y1085.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Georgia Supreme Court Case s25y1085 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Matter of",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "s25y1459",
+      "title": "IN THE MATTER OF DESTIN MICHELLE GILLUM",
+      "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y1459.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Georgia Supreme Court Case s25y1459 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Matter of",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "s25y0965",
+      "title": "IN THE MATTER OF CRAIG S. BONNELL",
+      "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y0965.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Georgia Supreme Court Case s25y0965 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Matter of",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "s25y1146",
+      "title": "IN THE MATTER OF MELVIN RAINES, II",
+      "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y1146.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Georgia Supreme Court Case s25y1146 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Matter of",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "s25y1290",
+      "title": "IN THE MATTER OF PAUL GERARD WERSANT",
+      "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y1290.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Georgia Supreme Court Case s25y1290 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Matter of",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "s25y0726",
+      "title": "IN THE MATTER OF ALLEN CHARLES JONES",
+      "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y0726.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Georgia Supreme Court Case s25y0726 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Matter of",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "s25y1174",
+      "title": "IN THE MATTER OF VI BUI",
+      "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y1174.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Georgia Supreme Court Case s25y1174 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Matter of",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "s21g0549",
+      "title": "Doe v. St. Joseph's Catholic Church, et al.",
+      "url": "https://law.justia.com/cases/georgia/supreme-court/2022/s21g0549.html",
+      "year": 2022,
+      "court": "Supreme Court",
+      "citation": "Georgia Supreme Court Case s21g0549 (2022)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "church"
+      ],
+      "child_welfare_reason": "High: Doe plaintiff",
+      "provision_match": "RELIGION"
+    },
+    {
+      "case_id": "a20a0784",
+      "title": "PHILIP DOE v. SAINT JOSEPH'S CATHOLIC CHURCH ET AL.",
+      "url": "https://law.justia.com/cases/georgia/court-of-appeals/2022/a20a0784.html",
+      "year": 2022,
+      "court": "Court Of Appeals",
+      "citation": "Georgia Court Of Appeals Case a20a0784 (2022)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "church"
+      ],
+      "child_welfare_reason": "High: Doe plaintiff",
+      "provision_match": "RELIGION"
+    },
+    {
+      "case_id": "a20a1431",
+      "title": "JANE DOE v. TIMOTHY VAUGHN, IN HIS OFFICIAL CAPACITY AS PULASKI COUNTY DISTRICT ATTORNEY",
+      "url": "https://law.justia.com/cases/georgia/court-of-appeals/2020/a20a1431.html",
+      "year": 2020,
+      "court": "Court Of Appeals",
+      "citation": "Georgia Court Of Appeals Case a20a1431 (2020)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "attorney"
+      ],
+      "child_welfare_reason": "High: Jane Doe, Doe plaintiff",
+      "provision_match": "RIGHT_TO_COUNSEL"
+    }
+  ],
+  "procedural_weight_modifiers": {
+    "explicit_privacy_right": 0,
+    "note": "Modifiers adjust procedural_weight for state nodes based on enhanced protections"
+  },
+  "_metadata": {
+    "created": "2025-12-22T20:38:16.835965",
+    "source": "state_constitution_etl",
+    "data_sources": [
+      "justia",
+      "state_legislature",
+      "courtlistener_keywords"
+    ],
+    "requires_case_law_enrichment": false,
+    "case_law_enriched": "2025-12-24T20:37:15.451207+00:00",
+    "enricher_version": "1.0.0",
+    "cases_analyzed": 363,
+    "cases_linked": 10
+  },
+  "case_law_search": {
+    "search_keywords": [
+      "Georgia Division of Family and Children Services",
+      "DFCS",
+      "CPS",
+      "due process",
+      "14th Amendment",
+      "42 U.S.C. 1983",
+      "reasonable efforts",
+      "reunification",
+      "emergency removal",
+      "wrongful removal"
+    ],
+    "courtlistener_url": "https://www.courtlistener.com/?q=%22Georgia%22%20AND%20%28%22Georgia%20Division%20of%20Family%20and%20Children%20Services%22%20OR%20%22DFCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
+    "supreme_court_focus": true,
+    "_note": "Search for state supreme court cases on CPS constitutional issues"
+  }
+}

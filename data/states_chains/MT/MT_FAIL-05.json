@@ -1,0 +1,365 @@
+{
+  "node_id": "MT_FAIL-05",
+  "state": "MT",
+  "state_name": "Montana",
+  "node_family": "FAIL",
+  "subnode": "FAIL-05",
+  "trigger_name": "Discrimination / Retaliation",
+  "summary_html": "Agency or actor engages in **discriminatory or retaliatory action**, violating civil-rights or placement-equality provisions. Federal statutes prohibit race, religion, sex, or disability bias in placements or investigations.",
+  "authority_html": "- **Multiethnic Placement Act (MEPA) & Interethnic Adoption Provisions (IEP)** \u2014 prohibits race/ethnicity discrimination in placements  \n- **Civil Rights Act (42 U.S.C. \u00a7 2000d)** \u2014 Title VI discrimination prohibitions in federally funded programs",
+  "icon": "\ud83d\udeab",
+  "theme_color": "#800080",
+  "domain": "civil",
+  "procedural_weight": 0.75,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "MEPA_PLAW": "https://www.congress.gov/103/plaws/publ382/PLAW-103publ382.pdf",
+    "CivilRights_Cornell": "https://www.law.cornell.edu/uscode/text/42/2000d"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "Public Law 103-382 (MEPA/IEP)",
+        "42 U.S.C. \u00a7 2000d (Title VI Civil Rights Act)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Montana - Title 41, Chapter\u00a03 (Child Abuse and Neglect \u2013 mandatory reporting and protective services)",
+          "source_url": "https://leg.mt.gov",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22"
+        },
+        {
+          "citation_text": "Title 41: Minors - CHILD WELFARE PRIMARY",
+          "source_url": "https://law.justia.com/codes/montana/title-41/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 42: Adoption",
+          "source_url": "https://law.justia.com/codes/montana/title-42/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 52: Family Services - DPHHS",
+          "source_url": "https://law.justia.com/codes/montana/title-52/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Department 37 - PUBLIC HEALTH AND HUMAN SERVICES",
+          "url": "https://www.law.cornell.edu/regulations/montana/department-37"
+        },
+        {
+          "title": "Montana Administrative Rule Title 41",
+          "url": "https://regulations.justia.com/states/montana/title-41/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Montana Administrative Rule Title 42",
+          "url": "https://regulations.justia.com/states/montana/title-42/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Montana Administrative Regulations",
+          "url": "https://regulations.justia.com/states/montana/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Montana Administrative Rule Title 1",
+          "url": "https://regulations.justia.com/states/montana/title-1/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Montana Administrative Rule Title 2",
+          "url": "https://regulations.justia.com/states/montana/title-2/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Montana Administrative Rule Title 3",
+          "url": "https://regulations.justia.com/states/montana/title-3/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Montana Administrative Rule Title 4",
+          "url": "https://regulations.justia.com/states/montana/title-4/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Montana Administrative Rule Title 5",
+          "url": "https://regulations.justia.com/states/montana/title-5/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Montana Administrative Rule Title 6",
+          "url": "https://regulations.justia.com/states/montana/title-6/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Montana Administrative Rule Title 7",
+          "url": "https://regulations.justia.com/states/montana/title-7/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/montana.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_MT",
+      "plane_file": "legal_planes/state_constitutional/MT_constitution.json",
+      "provisions_triggered": []
+    },
+    "case_law": {
+      "search_keywords": [
+        "Montana Department of Public Health and Human Services",
+        "DPHHS",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Montana%22%20AND%20%28%22Montana%20Department%20of%20Public%20Health%20and%20Human%20Services%22%20OR%20%22DPHHS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "wrongful removal",
+        "1983 claim",
+        "civil rights",
+        "immunity",
+        "damages"
+      ],
+      "jurisdiction": "Montana state courts",
+      "key_cases": [
+        {
+          "case_id": "da-25-0077",
+          "title": "In re Marriage of Steinbeisser",
+          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0077.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Montana Supreme Court Case da-25-0077 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "da-25-0386",
+          "title": "Matter of K.H. & D.H., YINC",
+          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0386.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Montana Supreme Court Case da-25-0386 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of initials"
+        },
+        {
+          "case_id": "da-25-0073",
+          "title": "Matter of J.D.",
+          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0073.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Montana Supreme Court Case da-25-0073 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of initials"
+        },
+        {
+          "case_id": "da-25-0146",
+          "title": "In re C.M.B.",
+          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0146.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Montana Supreme Court Case da-25-0146 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re initials"
+        },
+        {
+          "case_id": "da-25-0273",
+          "title": "In re Parenting of A.M.B.",
+          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0273.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Montana Supreme Court Case da-25-0273 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "da-25-0341",
+          "title": "In re Estate of Damjanovich",
+          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0341.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Montana Supreme Court Case da-25-0341 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "da-24-0148",
+          "title": "In re J.L.O.",
+          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-24-0148.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Montana Supreme Court Case da-24-0148 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re initials"
+        },
+        {
+          "case_id": "da-24-0187",
+          "title": "In re P.G.J.",
+          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-24-0187.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Montana Supreme Court Case da-24-0187 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re initials"
+        },
+        {
+          "case_id": "da-24-0469",
+          "title": "In re Potter Exemption Trust",
+          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-24-0469.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Montana Supreme Court Case da-24-0469 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "da-22-0645",
+          "title": "In re T.W.",
+          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-22-0645.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Montana Supreme Court Case da-22-0645 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re initials"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Child & Family Services Division (DPHHS)",
+    "acronym": "DPHHS-CFSD",
+    "hotline": "1-866-820-5437",
+    "website": "https://leg.mt.gov"
+  },
+  "linked_output": "OUT-02",
+  "linked_action": "ACT-04",
+  "linked_decision": "DEC-04",
+  "linked_input": "INP-01",
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.781160",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.695287",
+    "schema_version": "3.0.0",
+    "trigger_name_fixed": "2025-12-22T22:53:02.369384",
+    "leaves_linked": "2025-12-24T18:14:21.888531+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "preponderance",
+    "who_bears_burden": "parent",
+    "common_failures": [
+      "Failure to preserve evidence",
+      "Missing deadlines for legal challenges",
+      "Inadequate documentation of violations"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Appeal deadline",
+      "deadline": "30 days",
+      "starts_from": "Final order",
+      "source": "court_rule",
+      "consequence_of_miss": "Loss of appeal rights"
+    },
+    {
+      "requirement_name": "1983 statute of limitations",
+      "deadline": "2-3 years",
+      "starts_from": "Violation occurred",
+      "source": "federal_statute",
+      "consequence_of_miss": "Claim barred"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "attorney"
+      ],
+      "method": "personal_service",
+      "timing": "Upon violation discovery",
+      "content_required": [
+        "Nature of violation",
+        "Remedies available"
+      ],
+      "defective_notice_consequence": "May extend statute of limitations"
+    }
+  ]
+}

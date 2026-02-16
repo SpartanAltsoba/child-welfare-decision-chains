@@ -1,0 +1,216 @@
+{
+  "plane_id": "constitutional",
+  "plane_name": "Constitutional Reference Plane",
+  "description": "Supreme constitutional constraints governing all child welfare actions. These constraints supersede federal, state, and administrative rules and serve as the highest-order legal authority.",
+  "authority_level": "supreme",
+  "version": "2.0.1",
+  "created": "2025-12-19",
+  "updated": "2025-12-23",
+  "copyright": "Project Milk Carton 501(c)(3) - All Rights Reserved",
+  "constitution_source": {
+    "url": "https://constitution.congress.gov/constitution/",
+    "backup_url": "https://www.law.cornell.edu/constitution",
+    "last_verified": "2025-12-23"
+  },
+  "constraints": [
+    {
+      "constraint_id": "CONST_4A_SEIZURE",
+      "name": "Fourth Amendment \u2013 Seizure of Persons",
+      "amendment": "4th",
+      "citation": "U.S. Const. amend. IV",
+      "citation_url": "https://constitution.congress.gov/constitution/amendment-4/",
+      "text": "The right of the people to be secure in their persons, houses, papers, and effects, against unreasonable searches and seizures, shall not be violated\u2026",
+      "application_to_cps": "Removal of a child from parental custody constitutes a seizure under the Fourth Amendment. Absent consent or exigent circumstances involving imminent danger of serious bodily harm, removal requires prior judicial authorization (warrant or court order).",
+      "key_cases": [
+        {
+          "name": "Tenenbaum v. Williams",
+          "citation": "193 F.3d 581 (2d Cir. 1999)",
+          "court": "U.S. Court of Appeals for the Second Circuit",
+          "year": 1999,
+          "holding": "Temporary removal of a child constitutes a Fourth Amendment seizure; emergency removal without prior court authorization is permissible only where officials have reasonable cause to believe the child faces imminent danger.",
+          "url": "https://www.courtlistener.com/opinion/2249585/tenenbaum-v-williams/"
+        },
+        {
+          "name": "Gates v. Texas Dept. of Protective & Regulatory Services",
+          "citation": "537 F.3d 404 (5th Cir. 2008)",
+          "court": "U.S. Court of Appeals for the Fifth Circuit",
+          "year": 2008,
+          "holding": "Fourth Amendment applies to child welfare investigations; warrantless home entry and child removal require consent or exigent circumstances. Defendants were granted qualified immunity due to lack of clearly established law on the specific facts.",
+          "url": "https://caselaw.findlaw.com/court/us-5th-circuit/1117189.html"
+        },
+        {
+          "name": "Roska v. Peterson",
+          "citation": "328 F.3d 1230 (10th Cir. 2003)",
+          "court": "U.S. Court of Appeals for the Tenth Circuit",
+          "year": 2003,
+          "holding": "Removal of children from their home without a warrant violates the Fourth Amendment unless exigent circumstances are present; exigency is narrowly construed.",
+          "url": "https://www.courtlistener.com/opinion/781963/connie-roska-on-behalf-of-minor-children-rusty-and-jessica-roska-and/"
+        }
+      ],
+      "requirements": {
+        "warrant_required": true,
+        "exceptions": [
+          "exigent_circumstances",
+          "consent",
+          "court_order"
+        ],
+        "exigency_standard": "Imminent danger of serious bodily harm"
+      },
+      "violation_remedy": "42 U.S.C. \u00a7 1983 civil rights action",
+      "remedy_statute_url": "https://www.law.cornell.edu/uscode/text/42/1983",
+      "weight": 1.0
+    },
+    {
+      "constraint_id": "CONST_4A_SEARCH",
+      "name": "Fourth Amendment \u2013 Search of the Home",
+      "amendment": "4th",
+      "citation": "U.S. Const. amend. IV",
+      "citation_url": "https://constitution.congress.gov/constitution/amendment-4/",
+      "text": "\u2026no Warrants shall issue, but upon probable cause, supported by Oath or affirmation\u2026",
+      "application_to_cps": "Home entry, inspection, or investigation by child welfare officials constitutes a search under the Fourth Amendment. Consent must be voluntary and uncoerced; refusal alone cannot justify entry.",
+      "key_cases": [
+        {
+          "name": "Calabretta v. Floyd",
+          "citation": "189 F.3d 808 (9th Cir. 1999)",
+          "court": "U.S. Court of Appeals for the Ninth Circuit",
+          "year": 1999,
+          "holding": "Warrantless CPS entry into a home absent consent or exigent circumstances violates the Fourth Amendment; social workers are not exempt from constitutional limits.",
+          "url": "https://www.courtlistener.com/opinion/765930/robert-calabretta-individually-and-as-parent-and-natural-guardian-of-tamar/"
+        },
+        {
+          "name": "Walsh v. Erie County Dept. of Job and Family Services",
+          "citation": "240 F. Supp. 2d 731 (N.D. Ohio 2003)",
+          "court": "U.S. District Court, N.D. Ohio",
+          "year": 2003,
+          "holding": "Threatening removal of children to obtain consent renders consent involuntary under the Fourth Amendment.",
+          "url": "https://casetext.com/case/walsh-v-erie-county-dept-of-job-family-servs"
+        }
+      ],
+      "requirements": {
+        "consent_must_be_voluntary": true,
+        "right_to_refuse_entry": true,
+        "no_retaliation_for_refusal": true
+      },
+      "violation_remedy": "42 U.S.C. \u00a7 1983; exclusion of unlawfully obtained evidence",
+      "remedy_statute_url": "https://www.law.cornell.edu/uscode/text/42/1983",
+      "weight": 1.0
+    },
+    {
+      "constraint_id": "CONST_14A_PROCEDURAL_DP",
+      "name": "Fourteenth Amendment \u2013 Procedural Due Process",
+      "amendment": "14th",
+      "citation": "U.S. Const. amend. XIV, \u00a7 1",
+      "citation_url": "https://constitution.congress.gov/constitution/amendment-14/",
+      "text": "\u2026nor shall any State deprive any person of life, liberty, or property, without due process of law\u2026",
+      "application_to_cps": "Parents possess a constitutionally protected liberty interest in the care, custody, and control of their children. Before deprivation, due process requires notice, a meaningful opportunity to be heard, and a neutral decision-maker. Emergency removals require a prompt post-deprivation hearing within a constitutionally reasonable time.",
+      "key_cases": [
+        {
+          "name": "Mathews v. Eldridge",
+          "citation": "424 U.S. 319 (1976)",
+          "court": "U.S. Supreme Court",
+          "year": 1976,
+          "holding": "Established a three-factor balancing test to determine what procedural due process requires in a given context.",
+          "url": "https://supreme.justia.com/cases/federal/us/424/319/"
+        },
+        {
+          "name": "Santosky v. Kramer",
+          "citation": "455 U.S. 745 (1982)",
+          "court": "U.S. Supreme Court",
+          "year": 1982,
+          "holding": "Termination of parental rights requires proof by clear and convincing evidence.",
+          "url": "https://supreme.justia.com/cases/federal/us/455/745/"
+        },
+        {
+          "name": "Stanley v. Illinois",
+          "citation": "405 U.S. 645 (1972)",
+          "court": "U.S. Supreme Court",
+          "year": 1972,
+          "holding": "Parents are entitled to a hearing on fitness before the state may remove children; unfitness cannot be presumed.",
+          "url": "https://supreme.justia.com/cases/federal/us/405/645/"
+        }
+      ],
+      "requirements": {
+        "notice": true,
+        "hearing": true,
+        "neutral_decision_maker": true,
+        "prompt_post_deprivation_review": true
+      },
+      "violation_remedy": "42 U.S.C. \u00a7 1983; reversal of orders entered without due process",
+      "remedy_statute_url": "https://www.law.cornell.edu/uscode/text/42/1983",
+      "weight": 1.0
+    },
+    {
+      "constraint_id": "CONST_14A_SUBSTANTIVE_DP",
+      "name": "Fourteenth Amendment \u2013 Substantive Due Process (Family Integrity)",
+      "amendment": "14th",
+      "citation": "U.S. Const. amend. XIV, \u00a7 1",
+      "citation_url": "https://constitution.congress.gov/constitution/amendment-14/",
+      "text": "\u2026nor shall any State deprive any person of life, liberty, or property, without due process of law\u2026",
+      "application_to_cps": "The right to family integrity is a fundamental liberty interest. State interference must be justified by a compelling interest in child safety and must be narrowly tailored to achieve that interest.",
+      "key_cases": [
+        {
+          "name": "Troxel v. Granville",
+          "citation": "530 U.S. 57 (2000)",
+          "court": "U.S. Supreme Court",
+          "year": 2000,
+          "holding": "Parents have a fundamental right to make decisions concerning the care, custody, and control of their children.",
+          "url": "https://supreme.justia.com/cases/federal/us/530/57/"
+        },
+        {
+          "name": "Meyer v. Nebraska",
+          "citation": "262 U.S. 390 (1923)",
+          "court": "U.S. Supreme Court",
+          "year": 1923,
+          "holding": "Liberty protected by the Fourteenth Amendment includes the right to establish a home and bring up children.",
+          "url": "https://supreme.justia.com/cases/federal/us/262/390/"
+        },
+        {
+          "name": "Pierce v. Society of Sisters",
+          "citation": "268 U.S. 510 (1925)",
+          "court": "U.S. Supreme Court",
+          "year": 1925,
+          "holding": "The state may not unreasonably interfere with parents\u2019 liberty to direct the upbringing and education of children.",
+          "url": "https://supreme.justia.com/cases/federal/us/268/510/"
+        }
+      ],
+      "requirements": {
+        "compelling_interest_required": true,
+        "narrow_tailoring": true,
+        "least_restrictive_means": true
+      },
+      "violation_remedy": "42 U.S.C. \u00a7 1983; damages for unconstitutional family separation",
+      "remedy_statute_url": "https://www.law.cornell.edu/uscode/text/42/1983",
+      "weight": 1.0
+    },
+    {
+      "constraint_id": "CONST_5A_SELF_INCRIMINATION",
+      "name": "Fifth Amendment \u2013 Self-Incrimination",
+      "amendment": "5th",
+      "citation": "U.S. Const. amend. V",
+      "citation_url": "https://constitution.congress.gov/constitution/amendment-5/",
+      "text": "\u2026nor shall be compelled in any criminal case to be a witness against himself\u2026",
+      "application_to_cps": "Parents may not be compelled to provide testimonial statements that could incriminate them in criminal proceedings. Invocation of the Fifth Amendment may not be penalized in dependency proceedings. Production of a child pursuant to a lawful custodial order does not waive testimonial protections.",
+      "key_cases": [
+        {
+          "name": "Lefkowitz v. Cunningham",
+          "citation": "431 U.S. 801 (1977)",
+          "court": "U.S. Supreme Court",
+          "year": 1977,
+          "holding": "The state may not impose substantial penalties for exercising the Fifth Amendment privilege against self-incrimination.",
+          "url": "https://supreme.justia.com/cases/federal/us/431/801/"
+        },
+        {
+          "name": "Baltimore City Dept. of Social Services v. Bouknight",
+          "citation": "493 U.S. 549 (1990)",
+          "court": "U.S. Supreme Court",
+          "year": 1990,
+          "holding": "A parent subject to a valid custodial order may be compelled to produce the child, but the Fifth Amendment continues to protect against compelled testimonial self-incrimination.",
+          "url": "https://supreme.justia.com/cases/federal/us/493/549/"
+        }
+      ],
+      "violation_remedy": "Suppression of compelled statements; 42 U.S.C. \u00a7 1983",
+      "remedy_statute_url": "https://www.law.cornell.edu/uscode/text/42/1983",
+      "weight": 0.9
+    }
+  ]
+}

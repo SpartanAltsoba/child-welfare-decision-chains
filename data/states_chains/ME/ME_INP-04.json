@@ -1,0 +1,417 @@
+{
+  "node_id": "ME_INP-04",
+  "state": "ME",
+  "state_name": "Maine",
+  "node_family": "INP",
+  "subnode": "INP-04",
+  "trigger_name": "Court-Ordered Referral",
+  "summary_html": "A **judge orders** CPS to investigate or assess during civil/criminal proceedings. Federal funding statutes (ASFA/IV-E) tether court findings to child-welfare actions, embedding judicial oversight into intake-to-case flow.",
+  "authority_html": "- **ASFA (42 U.S.C. \u00a7\u00a7 671\u2013675)** \u2014 court \u2018reasonable efforts\u2019 findings; permanency timelines  \n- **SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 funding structure linking court oversight to agency actions",
+  "icon": "\u2696\ufe0f",
+  "theme_color": "#8A2BE2",
+  "domain": "civil",
+  "procedural_weight": 0.55,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "ASFA_PLAW": "https://www.congress.gov/105/plaws/publ89/PLAW-105publ89.pdf",
+    "ASFA_PDF": "https://www.govinfo.gov/content/pkg/PLAW-105publ89/pdf/PLAW-105publ89.pdf",
+    "SSA_IV_E_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-7/subchapter-IV/part-E"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "42 U.S.C. \u00a7\u00a7 671\u2013675 (ASFA/IV-E)",
+        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E framework)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Maine - Title 22, Chapter 1071 (Child and Family Services and Child Protection Act \u2013 includes \u00a7\u00a04011-A reporting)",
+          "source_url": "https://legislature.maine.gov/statutes/22/title22ch1071sec0.html",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Title 22: Health and Welfare - DHHS - CHILD WELFARE PRIMARY",
+          "source_url": "https://law.justia.com/codes/maine/title-22/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "10 - DEPARTMENT OF HEALTH AND HUMAN SERVICES",
+          "url": "https://www.law.cornell.edu/regulations/maine/department-10"
+        },
+        {
+          "title": "14 - DEPARTMENT OF HEALTH AND HUMAN SERVICES",
+          "url": "https://www.law.cornell.edu/regulations/maine/department-14"
+        },
+        {
+          "title": "Maine Administrative Rule Title 22",
+          "url": "https://regulations.justia.com/states/maine/title-22/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Maine Administrative Regulations",
+          "url": "https://regulations.justia.com/states/maine/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Maine Administrative Rule Title 1",
+          "url": "https://regulations.justia.com/states/maine/title-1/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Maine Administrative Rule Title 2",
+          "url": "https://regulations.justia.com/states/maine/title-2/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Maine Administrative Rule Title 3",
+          "url": "https://regulations.justia.com/states/maine/title-3/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Maine Administrative Rule Title 4",
+          "url": "https://regulations.justia.com/states/maine/title-4/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Maine Administrative Rule Title 5",
+          "url": "https://regulations.justia.com/states/maine/title-5/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Maine Administrative Rule Title 6",
+          "url": "https://regulations.justia.com/states/maine/title-6/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Maine Administrative Rule Title 7",
+          "url": "https://regulations.justia.com/states/maine/title-7/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Maine Administrative Rule Title 8",
+          "url": "https://regulations.justia.com/states/maine/title-8/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/maine.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_ME",
+      "plane_file": "legal_planes/state_constitutional/ME_constitution.json",
+      "provisions_triggered": []
+    },
+    "case_law": {
+      "search_keywords": [
+        "Maine Department of Health and Human Services",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal",
+        "exigent circumstances"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Maine%22%20AND%20%28%22Maine%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "mandatory reporting",
+        "failure to report",
+        "reporter immunity",
+        "hotline"
+      ],
+      "jurisdiction": "Maine state courts",
+      "key_cases": [
+        {
+          "case_id": "2025-me-91",
+          "title": "In re Children of Krystal W.",
+          "url": "https://law.justia.com/cases/maine/supreme-court/2025/2025-me-91.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Maine Supreme Court Case 2025-me-91 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re child, In re"
+        },
+        {
+          "case_id": "2025-me-33",
+          "title": "Doe v. Burnham",
+          "url": "https://law.justia.com/cases/maine/supreme-court/2025/2025-me-33.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Maine Supreme Court Case 2025-me-33 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Doe plaintiff"
+        },
+        {
+          "case_id": "2025-me-23",
+          "title": "Doe v. Costin",
+          "url": "https://law.justia.com/cases/maine/supreme-court/2025/2025-me-23.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Maine Supreme Court Case 2025-me-23 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Doe plaintiff"
+        },
+        {
+          "case_id": "2025-me-16",
+          "title": "In re Child of Christian D.",
+          "url": "https://law.justia.com/cases/maine/supreme-court/2025/2025-me-16.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Maine Supreme Court Case 2025-me-16 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re child, In re"
+        },
+        {
+          "case_id": "2025-me-7",
+          "title": "In re Child of Taylor M.",
+          "url": "https://law.justia.com/cases/maine/supreme-court/2025/2025-me-7.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Maine Supreme Court Case 2025-me-7 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re child, In re"
+        },
+        {
+          "case_id": "2024-me-71",
+          "title": "In re William B. Blaisdell IV",
+          "url": "https://law.justia.com/cases/maine/supreme-court/2024/2024-me-71.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Maine Supreme Court Case 2024-me-71 (2024)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re name, In re"
+        },
+        {
+          "case_id": "2024-me-66",
+          "title": "In re Children of Destiny H.",
+          "url": "https://law.justia.com/cases/maine/supreme-court/2024/2024-me-66.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Maine Supreme Court Case 2024-me-66 (2024)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re child, In re"
+        },
+        {
+          "case_id": "2024-me-16",
+          "title": "In re Child of Barni A.",
+          "url": "https://law.justia.com/cases/maine/supreme-court/2024/2024-me-16.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Maine Supreme Court Case 2024-me-16 (2024)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re child, In re"
+        },
+        {
+          "case_id": "2024-me-1",
+          "title": "In re Children of Billie S.",
+          "url": "https://law.justia.com/cases/maine/supreme-court/2024/2024-me-1.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Maine Supreme Court Case 2024-me-1 (2024)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re child, In re"
+        },
+        {
+          "case_id": "2023-me-76",
+          "title": "In re Children of Shannevia Y.",
+          "url": "https://law.justia.com/cases/maine/supreme-court/2023/2023-me-76.html",
+          "year": 2023,
+          "court": "Supreme Court",
+          "citation": "Maine Supreme Court Case 2023-me-76 (2023)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re child, In re"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Department of Health and Human Services",
+    "acronym": "DHHS",
+    "hotline": "1-800-452-1999",
+    "website": "https://legislature.maine.gov"
+  },
+  "mandatory_reporters": [
+    "Teachers/School Personnel",
+    "Medical/Dental Professionals",
+    "Mental Health Professionals",
+    "Law Enforcement",
+    "Childcare Staff",
+    "Clergy",
+    "Foster Parents",
+    "Coroners",
+    "EMTs/Emergency Personnel"
+  ],
+  "reporting_type": "centralized",
+  "reporting_details": "Not applicable",
+  "definitions": {
+    "abuse": [
+      "Physical abuse",
+      "Sexual abuse",
+      "Emotional abuse",
+      "Shaken baby syndrome",
+      "Human trafficking",
+      "Domestic violence exposure",
+      "Failure to protect",
+      "Factitious disorder (Munchausen by proxy)",
+      "Institutional abuse/neglect"
+    ],
+    "neglect": [
+      "General neglect",
+      "Medical neglect",
+      "Educational neglect",
+      "Abandonment",
+      "Inadequate supervision",
+      "Inadequate shelter/housing",
+      "Inadequate clothing",
+      "Malnourishment/failure to provide food",
+      "Failure to thrive"
+    ],
+    "other": [],
+    "substance_related": [
+      "Drug lab exposure",
+      "Prenatal drug/alcohol exposure"
+    ]
+  },
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.765296",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.656624",
+    "schema_version": "3.0.0",
+    "leaves_linked": "2025-12-24T18:14:21.623787+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "reasonable_suspicion",
+    "who_bears_burden": "agency",
+    "common_failures": [
+      "Insufficient screening documentation",
+      "Failure to verify reporter allegations",
+      "Accepting anonymous reports without corroboration"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Initial response time",
+      "deadline": "24-72 hours",
+      "starts_from": "Report received",
+      "source": "state_statute",
+      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+    },
+    {
+      "requirement_name": "Investigation completion",
+      "deadline": "30-60 days",
+      "starts_from": "Investigation opened",
+      "source": "state_statute",
+      "consequence_of_miss": "Case dismissal risk"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian"
+      ],
+      "method": "any_reasonable",
+      "timing": "Before investigation interview",
+      "content_required": [
+        "Nature of allegation",
+        "Rights"
+      ],
+      "defective_notice_consequence": "May invalidate findings"
+    }
+  ],
+  "door_scenarios": [
+    {
+      "who_at_door": [
+        "caseworker"
+      ],
+      "trigger_reason": "Responding to abuse/neglect report",
+      "legal_authority_to_enter": "none_without_consent",
+      "parent_rights_at_moment": [
+        "Right to refuse entry without warrant",
+        "Right to remain silent",
+        "Right to attorney"
+      ],
+      "what_to_say": [
+        "I do not consent to entry without a warrant",
+        "Please provide your card and the allegations in writing",
+        "I will have my attorney contact you"
+      ],
+      "what_not_to_do": [
+        "Do not physically resist",
+        "Do not lie",
+        "Do not let them in 'just to look'"
+      ],
+      "next_possible_nodes": [
+        "DEC-01",
+        "DEC-04"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,390 @@
+{
+  "node_id": "MS_FAIL-01",
+  "state": "MS",
+  "state_name": "Mississippi",
+  "node_family": "FAIL",
+  "subnode": "FAIL-01",
+  "trigger_name": "Court Reversal of Agency Decision",
+  "summary_html": "A **court reverses or vacates** a CPS or agency decision due to procedural error, insufficient evidence, or constitutional violation. Federal review data (CFSR, ASFA) tracks judicial determinations on reasonable efforts and due process.",
+  "authority_html": "- **Adoption and Safe Families Act (ASFA)** \u2014 judicial findings of 'reasonable efforts' compliance  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal review of judicial/agency conformity  \n- **42 U.S.C. \u00a7 1983** \u2014 civil-rights remedy for unconstitutional removals (14th & 4th Amendments).",
+  "icon": "\u2696\ufe0f",
+  "theme_color": "#FF6347",
+  "domain": "civil",
+  "procedural_weight": 0.8,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "ASFA_PDF": "https://www.govinfo.gov/content/pkg/PLAW-105publ89/pdf/PLAW-105publ89.pdf",
+    "CFSR_CFR": "https://www.law.cornell.edu/cfr/text/45/part-1355"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [
+        "U.S. Const. amend. IV",
+        "U.S. Const. amend. XIV, \u00a7 1"
+      ],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "Public Law 105-89 (ASFA)",
+        "45 CFR Part 1355 (CFSR)",
+        "42 U.S.C. \u00a7 1983 (Civil Rights Act)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Mississippi - Miss. Code Title\u00a043, Chap.\u00a021 (Youth Court Act \u2013 \u00a7\u00a043-21-353 mandatory reporting)",
+          "source_url": "https://www.lexisnexis.com/hottopics/mscode/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Mississippi - Miss. Code \u00a7\u00a043-21-601 et seq. (Youth Court disposition and removal)",
+          "source_url": "https://law.justia.com/codes/mississippi/title-43/chapter-21/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Title 43: Public Welfare - DHS - CHILD WELFARE PRIMARY",
+          "source_url": "https://law.justia.com/codes/mississippi/title-43/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 93: Domestic Relations",
+          "source_url": "https://law.justia.com/codes/mississippi/title-93/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 97: Crimes - Child Abuse",
+          "source_url": "https://law.justia.com/codes/mississippi/title-97/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Title 18 - HUMAN SERVICES",
+          "url": "https://www.law.cornell.edu/regulations/mississippi/title-18"
+        },
+        {
+          "title": "Mississippi Administrative Rule Title 43",
+          "url": "https://regulations.justia.com/states/mississippi/title-43/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Mississippi Administrative Regulations",
+          "url": "https://regulations.justia.com/states/mississippi/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Mississippi Administrative Rule Title 1",
+          "url": "https://regulations.justia.com/states/mississippi/title-1/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Mississippi Administrative Rule Title 2",
+          "url": "https://regulations.justia.com/states/mississippi/title-2/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Mississippi Administrative Rule Title 3",
+          "url": "https://regulations.justia.com/states/mississippi/title-3/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Mississippi Administrative Rule Title 4",
+          "url": "https://regulations.justia.com/states/mississippi/title-4/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Mississippi Administrative Rule Title 5",
+          "url": "https://regulations.justia.com/states/mississippi/title-5/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Mississippi Administrative Rule Title 6",
+          "url": "https://regulations.justia.com/states/mississippi/title-6/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Mississippi Administrative Rule Title 7",
+          "url": "https://regulations.justia.com/states/mississippi/title-7/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        },
+        {
+          "title": "Mississippi Administrative Rule Title 8",
+          "url": "https://regulations.justia.com/states/mississippi/title-8/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2025-12-24"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/mississippi.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_MS",
+      "plane_file": "legal_planes/state_constitutional/MS_constitution.json",
+      "provisions_triggered": [
+        {
+          "provision_id": "MS_CONST_SEARCH_SEIZURE",
+          "name": "Search and Seizure",
+          "citation": "Mississippi Const. art. III, \u00a7 23",
+          "federal_parallel": "U.S. Const. amend. IV"
+        },
+        {
+          "provision_id": "MS_CONST_DUE_PROCESS",
+          "name": "Due Process / Law of the Land",
+          "citation": "Mississippi Const. art. III, \u00a7 14",
+          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+        }
+      ]
+    },
+    "case_law": {
+      "search_keywords": [
+        "Mississippi Department of Child Protection Services",
+        "MDCPS",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Mississippi%22%20AND%20%28%22Mississippi%20Department%20of%20Child%20Protection%20Services%22%20OR%20%22MDCPS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "wrongful removal",
+        "1983 claim",
+        "civil rights",
+        "immunity",
+        "damages"
+      ],
+      "jurisdiction": "Mississippi state courts",
+      "key_cases": [
+        {
+          "case_id": "2023-cp-00639-coa",
+          "title": "In the Interest of A.B., a Minor: Alisha T. v. Mississippi Department of Child Protection Services and Forrest County Youth Court",
+          "url": "https://law.justia.com/cases/mississippi/court-of-appeals/2024/2023-cp-00639-coa.html",
+          "year": 2024,
+          "court": "Court Of Appeals",
+          "citation": "Mississippi Court Of Appeals Case 2023-cp-00639-coa (2024)",
+          "relevance_score": 2.5,
+          "matched_keywords": [
+            "mississippi department of child protection services"
+          ],
+          "child_welfare_reason": "High: In re interest, Interest of initials"
+        },
+        {
+          "case_id": "2023-ca-00932-coa",
+          "title": "In the Interest of J.S., a Minor, and I.S., a Minor: P.S. v. Pearl River County Department of Child Protection Services and Mississippi Department of Child Protection Services",
+          "url": "https://law.justia.com/cases/mississippi/court-of-appeals/2025/2023-ca-00932-coa.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Mississippi Court Of Appeals Case 2023-ca-00932-coa (2025)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "mississippi department of child protection services"
+          ],
+          "child_welfare_reason": "High: In re interest, Interest of initials"
+        },
+        {
+          "case_id": "2020-ca-01194-coa",
+          "title": "In the Interest of Kevin, a Minor: Shayla Taylor v. Mississippi Department of Child Protection Services",
+          "url": "https://law.justia.com/cases/mississippi/court-of-appeals/2022/2020-ca-01194-coa.html",
+          "year": 2022,
+          "court": "Court Of Appeals",
+          "citation": "Mississippi Court Of Appeals Case 2020-ca-01194-coa (2022)",
+          "relevance_score": 2.0,
+          "matched_keywords": [
+            "mississippi department of child protection services"
+          ],
+          "child_welfare_reason": "High: In re interest, Interest of"
+        },
+        {
+          "case_id": "89-r-99024-sct",
+          "title": "In Re: Justice Court Rules",
+          "url": "https://law.justia.com/cases/mississippi/supreme-court/2025/89-r-99024-sct.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Mississippi Supreme Court Case 89-r-99024-sct (2025)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "89-r-99020-sct",
+          "title": "In Re: Rules and Regulations for Certification and Continuing Education for Court Administrators",
+          "url": "https://law.justia.com/cases/mississippi/supreme-court/2025/89-r-99020-sct.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Mississippi Supreme Court Case 89-r-99020-sct (2025)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "89-r-99006-sct",
+          "title": "In Re: Uniform Chancery Court Rules",
+          "url": "https://law.justia.com/cases/mississippi/supreme-court/2024/89-r-99006-sct.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Mississippi Supreme Court Case 89-r-99006-sct (2024)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "89-r-99020-sct",
+          "title": "In Re: Rules and Regulations for Certification and Continuing Education for Court Administrators",
+          "url": "https://law.justia.com/cases/mississippi/supreme-court/2024/89-r-99020-sct.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "Mississippi Supreme Court Case 89-r-99020-sct (2024)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "2022-ca-00614-coa",
+          "title": "In the Matter of L.C., Minor Child, A.L., Minor Child, and C.C., Minor Child: Jane Doe v. Bolivar County Youth Court",
+          "url": "https://law.justia.com/cases/mississippi/court-of-appeals/2024/2022-ca-00614-coa.html",
+          "year": 2024,
+          "court": "Court Of Appeals",
+          "citation": "Mississippi Court Of Appeals Case 2022-ca-00614-coa (2024)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of initials, Jane Doe, Doe plaintiff"
+        },
+        {
+          "case_id": "2019-cp-00451-coa",
+          "title": "In the Interest of D.K., a Minor, D.K., a Minor, L.K., a Minor, and D.K., a Minor: D.W.K. and L.K.K. v. Youth Court of Lincoln County, Mississippi",
+          "url": "https://law.justia.com/cases/mississippi/court-of-appeals/2023/2019-cp-00451-coa.html",
+          "year": 2023,
+          "court": "Court Of Appeals",
+          "citation": "Mississippi Court Of Appeals Case 2019-cp-00451-coa (2023)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re interest, Interest of initials"
+        },
+        {
+          "case_id": "2021-cp-00495-coa",
+          "title": "Jeffrey Courtjay Jackson v. Charles R. Mullins, Individually and in His Official Capacity as Chairman of the Mississippi Bar Committee on Professional Responsibility; Robert Glen Waddle, Individually and in His Official Capacity as Director and Counsel of the Mississippi Bar Consumer Assistance Program; Mark McClinton; James Andrew Yelton, Individually and in His Official Capacity as Family Master of Panola County, Mississippi; and Lyndsey (Panola County DHS)",
+          "url": "https://law.justia.com/cases/mississippi/court-of-appeals/2022/2021-cp-00495-coa.html",
+          "year": 2022,
+          "court": "Court Of Appeals",
+          "citation": "Mississippi Court Of Appeals Case 2021-cp-00495-coa (2022)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: DHS"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Department of Child Protection Services",
+    "acronym": "MDCPS",
+    "hotline": "1-800-222-8000",
+    "website": "https://www.legislature.ms.gov"
+  },
+  "linked_output": "OUT-02",
+  "linked_action": "ACT-03",
+  "linked_decision": "DEC-04",
+  "linked_input": "INP-01",
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.778334",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.686593",
+    "schema_version": "3.0.0",
+    "trigger_name_fixed": "2025-12-22T22:53:02.365532",
+    "leaves_linked": "2025-12-24T18:14:21.856279+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "preponderance",
+    "who_bears_burden": "parent",
+    "common_failures": [
+      "Failure to preserve evidence",
+      "Missing deadlines for legal challenges",
+      "Inadequate documentation of violations"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Appeal deadline",
+      "deadline": "30 days",
+      "starts_from": "Final order",
+      "source": "court_rule",
+      "consequence_of_miss": "Loss of appeal rights"
+    },
+    {
+      "requirement_name": "1983 statute of limitations",
+      "deadline": "2-3 years",
+      "starts_from": "Violation occurred",
+      "source": "federal_statute",
+      "consequence_of_miss": "Claim barred"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "attorney"
+      ],
+      "method": "personal_service",
+      "timing": "Upon violation discovery",
+      "content_required": [
+        "Nature of violation",
+        "Remedies available"
+      ],
+      "defective_notice_consequence": "May extend statute of limitations"
+    }
+  ]
+}

@@ -1,0 +1,383 @@
+{
+  "node_id": "GA_INP-11",
+  "state": "GA",
+  "state_name": "Georgia",
+  "node_family": "INP",
+  "subnode": "INP-11",
+  "trigger_name": "Federal / Tribal Jurisdiction Trigger",
+  "summary_html": "Cases arising on **federal lands/facilities** or involving **Indian children** invoke federal/tribal jurisdictional rules (VICAA for federal facilities; **ICWA** for Indian children and tribal preference/jurisdiction).",
+  "authority_html": "- **VICAA (34 U.S.C. \u00a7\u00a7 20301\u201320307)** \u2014 federal-facility reporting mandates  \n- **ICWA (25 U.S.C. \u00a7\u00a7 1901\u20131963)** \u2014 tribal jurisdiction, placement preferences, notice to tribes",
+  "icon": "\ud83c\udfdb\ufe0f",
+  "theme_color": "#4682B4",
+  "domain": "civil",
+  "procedural_weight": 0.55,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "VICAA_Cornell": "https://www.law.cornell.edu/uscode/text/34/subtitle-II/chapter-203",
+    "ICWA_Cornell": "https://www.law.cornell.edu/uscode/text/25/chapter-21",
+    "ICWA_PDF": "https://www.govinfo.gov/content/pkg/USCODE-2021-title25/pdf/USCODE-2021-title25-chap21.pdf"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "34 U.S.C. \u00a7\u00a7 20301\u201320307 (Victims of Child Abuse Act)",
+        "25 U.S.C. \u00a7\u00a7 1901\u20131963 (ICWA)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Georgia - Title 19, Chapter 7, Section 5 (Georgia child abuse reporting statute)",
+          "source_url": "https://www.lexisnexis.com/hottopics/gacode/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Georgia - Title 15, Chapter 11 (Juvenile Code \u2013 dependency proceedings)",
+          "source_url": "https://www.lexisnexis.com/hottopics/gacode/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Title 15: Courts - Juvenile Courts",
+          "source_url": "https://law.justia.com/codes/georgia/title-15/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 19: Domestic Relations - CHILD WELFARE PRIMARY",
+          "source_url": "https://law.justia.com/codes/georgia/title-19/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 49: Social Services - DFCS",
+          "source_url": "https://law.justia.com/codes/georgia/title-49/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Department 96 - GRANTS OF GOVERNOR'S OFFICE FOR CHILDREN AND FAMILIES",
+          "url": "https://www.law.cornell.edu/regulations/georgia/department-96"
+        },
+        {
+          "title": "Department 97 - DEPARTMENT OF JUVENILE JUSTICE",
+          "url": "https://www.law.cornell.edu/regulations/georgia/department-97"
+        },
+        {
+          "title": "Department 98 - GRANTS OF THE CHILDREN'S TRUST FUND COMMISSION",
+          "url": "https://www.law.cornell.edu/regulations/georgia/department-98"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/georgia.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_GA",
+      "plane_file": "legal_planes/state_constitutional/GA_constitution.json",
+      "provisions_triggered": []
+    },
+    "case_law": {
+      "search_keywords": [
+        "Georgia Division of Family and Children Services",
+        "DFCS",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Georgia%22%20AND%20%28%22Georgia%20Division%20of%20Family%20and%20Children%20Services%22%20OR%20%22DFCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "mandatory reporting",
+        "failure to report",
+        "reporter immunity",
+        "hotline"
+      ],
+      "jurisdiction": "Georgia state courts",
+      "key_cases": [
+        {
+          "case_id": "s24y1247",
+          "title": "IN THE MATTER OF CHRISTOPHER CASEY TAYLOR (six cases)",
+          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s24y1247.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Georgia Supreme Court Case s24y1247 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "s26y0129",
+          "title": "IN THE MATTER OF JE\u2019NITA LANE",
+          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s26y0129.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Georgia Supreme Court Case s26y0129 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "s25y0795",
+          "title": "IN THE MATTER OF BRIAN JOEL APLIN (two cases)",
+          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y0795.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Georgia Supreme Court Case s25y0795 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "s25y1085",
+          "title": "IN THE MATTER OF HERALD J.A. ALEXANDER",
+          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y1085.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Georgia Supreme Court Case s25y1085 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "s25y1459",
+          "title": "IN THE MATTER OF DESTIN MICHELLE GILLUM",
+          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y1459.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Georgia Supreme Court Case s25y1459 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "s25y0965",
+          "title": "IN THE MATTER OF CRAIG S. BONNELL",
+          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y0965.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Georgia Supreme Court Case s25y0965 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "s25y1146",
+          "title": "IN THE MATTER OF MELVIN RAINES, II",
+          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y1146.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Georgia Supreme Court Case s25y1146 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "s25y1290",
+          "title": "IN THE MATTER OF PAUL GERARD WERSANT",
+          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y1290.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Georgia Supreme Court Case s25y1290 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "s25y0726",
+          "title": "IN THE MATTER OF ALLEN CHARLES JONES",
+          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y0726.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Georgia Supreme Court Case s25y0726 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "s25y1174",
+          "title": "IN THE MATTER OF VI BUI",
+          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y1174.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Georgia Supreme Court Case s25y1174 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Division of Family and Children Services",
+    "acronym": "DFCS",
+    "hotline": "1-855-422-4453",
+    "website": "https://www.legis.ga.gov"
+  },
+  "mandatory_reporters": [
+    "Teachers/School Personnel",
+    "Medical/Dental Professionals",
+    "Mental Health Professionals",
+    "Law Enforcement",
+    "Shelter Staff",
+    "Childcare Staff",
+    "Clergy",
+    "Coaches",
+    "EMTs/Emergency Personnel"
+  ],
+  "reporting_type": "centralized",
+  "reporting_details": "Not applicable",
+  "definitions": {
+    "abuse": [
+      "Physical abuse",
+      "Sexual abuse",
+      "Emotional abuse",
+      "Human trafficking",
+      "Domestic violence exposure",
+      "Failure to protect",
+      "Factitious disorder (Munchausen by proxy)"
+    ],
+    "neglect": [
+      "General neglect",
+      "Medical neglect",
+      "Educational neglect",
+      "Abandonment",
+      "Inadequate supervision",
+      "Inadequate shelter/housing",
+      "Inadequate clothing",
+      "Malnourishment/failure to provide food",
+      "Injurious environment"
+    ],
+    "other": [],
+    "substance_related": [
+      "Prenatal drug/alcohol exposure"
+    ]
+  },
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.735430",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.571834",
+    "schema_version": "3.0.0",
+    "leaves_linked": "2025-12-24T18:14:21.196394+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "reasonable_suspicion",
+    "who_bears_burden": "agency",
+    "common_failures": [
+      "Insufficient screening documentation",
+      "Failure to verify reporter allegations",
+      "Accepting anonymous reports without corroboration"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Initial response time",
+      "deadline": "24-72 hours",
+      "starts_from": "Report received",
+      "source": "state_statute",
+      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+    },
+    {
+      "requirement_name": "Investigation completion",
+      "deadline": "30-60 days",
+      "starts_from": "Investigation opened",
+      "source": "state_statute",
+      "consequence_of_miss": "Case dismissal risk"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian"
+      ],
+      "method": "any_reasonable",
+      "timing": "Before investigation interview",
+      "content_required": [
+        "Nature of allegation",
+        "Rights"
+      ],
+      "defective_notice_consequence": "May invalidate findings"
+    }
+  ],
+  "door_scenarios": [
+    {
+      "who_at_door": [
+        "caseworker"
+      ],
+      "trigger_reason": "Responding to abuse/neglect report",
+      "legal_authority_to_enter": "none_without_consent",
+      "parent_rights_at_moment": [
+        "Right to refuse entry without warrant",
+        "Right to remain silent",
+        "Right to attorney"
+      ],
+      "what_to_say": [
+        "I do not consent to entry without a warrant",
+        "Please provide your card and the allegations in writing",
+        "I will have my attorney contact you"
+      ],
+      "what_not_to_do": [
+        "Do not physically resist",
+        "Do not lie",
+        "Do not let them in 'just to look'"
+      ],
+      "next_possible_nodes": [
+        "DEC-01",
+        "DEC-04"
+      ]
+    }
+  ]
+}

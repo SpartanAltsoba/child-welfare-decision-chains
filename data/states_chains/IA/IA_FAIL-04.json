@@ -1,0 +1,287 @@
+{
+  "node_id": "IA_FAIL-04",
+  "state": "IA",
+  "state_name": "Iowa",
+  "node_family": "FAIL",
+  "subnode": "FAIL-04",
+  "trigger_name": "Child Death Under Agency Supervision",
+  "summary_html": "A child dies or suffers serious harm while **under agency supervision**, constituting systemic failure. Federal law mandates disclosure and review to identify causes and reforms.",
+  "authority_html": "- **Protect Our Kids Act (PL 112-275)** \u2014 federal commission and review requirements  \n- **CAPTA \u00a75106a(b)(2)(A)(x)** \u2014 mandates public disclosure of child-fatality cases",
+  "icon": "\u26b0\ufe0f",
+  "theme_color": "#8B0000",
+  "domain": "civil",
+  "procedural_weight": 0.3,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "POKA_PLAW": "https://www.congress.gov/112/plaws/publ275/PLAW-112publ275.pdf",
+    "CAPTA_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-67"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "Public Law 112-275 (Protect Our Kids Act)",
+        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Iowa - Title VI, Chapter 232 (Juvenile Justice \u2013 includes mandatory reporting and child in need of assistance)",
+          "source_url": "https://www.legis.iowa.gov/law/iowaCode/sections?codeChapter=232",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Agency 249 - EARLY CHILDHOOD IOWA STATE BOARD",
+          "url": "https://www.law.cornell.edu/regulations/iowa/agency-249"
+        },
+        {
+          "title": "Agency 428 - Criminal And Juvenile Justice Planning Division",
+          "url": "https://www.law.cornell.edu/regulations/iowa/agency-428"
+        },
+        {
+          "title": "Agency 441 - HUMAN SERVICES DEPARTMENT",
+          "url": "https://www.law.cornell.edu/regulations/iowa/agency-441"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/iowa.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_IA",
+      "plane_file": "legal_planes/state_constitutional/IA_constitution.json",
+      "provisions_triggered": []
+    },
+    "case_law": {
+      "search_keywords": [
+        "Iowa Department of Human Services",
+        "DHS",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal",
+        "wrongful removal"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Iowa%22%20AND%20%28%22Iowa%20Department%20of%20Human%20Services%22%20OR%20%22DHS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "wrongful removal",
+        "1983 claim",
+        "civil rights",
+        "immunity",
+        "damages"
+      ],
+      "jurisdiction": "Iowa state courts",
+      "key_cases": [
+        {
+          "case_id": "25-1241",
+          "title": "In the Interest of O.H., Minor Child",
+          "url": "https://law.justia.com/cases/iowa/court-of-appeals/2025/25-1241.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Iowa Court Of Appeals Case 25-1241 (2025)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re interest, Interest of initials"
+        },
+        {
+          "case_id": "25-1246",
+          "title": "In the Interest of L.V.-G., Minor Child",
+          "url": "https://law.justia.com/cases/iowa/court-of-appeals/2025/25-1246.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Iowa Court Of Appeals Case 25-1246 (2025)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re interest, Interest of initials"
+        },
+        {
+          "case_id": "25-1404",
+          "title": "In re A.C., Minor Child",
+          "url": "https://law.justia.com/cases/iowa/court-of-appeals/2025/25-1404.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Iowa Court Of Appeals Case 25-1404 (2025)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re initials"
+        },
+        {
+          "case_id": "25-1410",
+          "title": "In the Interest of B.S., Minor Child",
+          "url": "https://law.justia.com/cases/iowa/court-of-appeals/2025/25-1410.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Iowa Court Of Appeals Case 25-1410 (2025)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re interest, Interest of initials"
+        },
+        {
+          "case_id": "25-1473",
+          "title": "In the Interest of D.M., Minor Child",
+          "url": "https://law.justia.com/cases/iowa/court-of-appeals/2025/25-1473.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Iowa Court Of Appeals Case 25-1473 (2025)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re interest, Interest of initials"
+        },
+        {
+          "case_id": "25-1491",
+          "title": "In the Interest of R.K., Minor Child",
+          "url": "https://law.justia.com/cases/iowa/court-of-appeals/2025/25-1491.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Iowa Court Of Appeals Case 25-1491 (2025)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re interest, Interest of initials"
+        },
+        {
+          "case_id": "25-1501",
+          "title": "In the Interest of H.W. and D.D., Minor Children",
+          "url": "https://law.justia.com/cases/iowa/court-of-appeals/2025/25-1501.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Iowa Court Of Appeals Case 25-1501 (2025)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re interest, Interest of initials"
+        },
+        {
+          "case_id": "25-1532",
+          "title": "In the Interest of A.H., B.H., B.H., B.H., E.H., and K.H., Minor Children",
+          "url": "https://law.justia.com/cases/iowa/court-of-appeals/2025/25-1532.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Iowa Court Of Appeals Case 25-1532 (2025)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re interest, Interest of initials"
+        },
+        {
+          "case_id": "25-1570",
+          "title": "In the Interest of J.M. and S.A., Minor Child",
+          "url": "https://law.justia.com/cases/iowa/court-of-appeals/2025/25-1570.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Iowa Court Of Appeals Case 25-1570 (2025)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re interest, Interest of initials"
+        },
+        {
+          "case_id": "25-1630",
+          "title": "In the Interest of E.M. and J.J., Minor Children",
+          "url": "https://law.justia.com/cases/iowa/court-of-appeals/2025/25-1630.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "Iowa Court Of Appeals Case 25-1630 (2025)",
+          "relevance_score": 1.5,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re interest, Interest of initials"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Department of Human Services",
+    "acronym": "DHS",
+    "hotline": "1-800-362-2178",
+    "website": "https://www.legis.iowa.gov"
+  },
+  "linked_output": "OUT-06",
+  "linked_action": "ACT-03",
+  "linked_decision": "DEC-04",
+  "linked_input": "INP-01",
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.742097",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.585455",
+    "schema_version": "3.0.0",
+    "trigger_name_fixed": "2025-12-22T22:53:02.312650",
+    "leaves_linked": "2025-12-24T18:14:21.305407+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "preponderance",
+    "who_bears_burden": "parent",
+    "common_failures": [
+      "Failure to preserve evidence",
+      "Missing deadlines for legal challenges",
+      "Inadequate documentation of violations"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Appeal deadline",
+      "deadline": "30 days",
+      "starts_from": "Final order",
+      "source": "court_rule",
+      "consequence_of_miss": "Loss of appeal rights"
+    },
+    {
+      "requirement_name": "1983 statute of limitations",
+      "deadline": "2-3 years",
+      "starts_from": "Violation occurred",
+      "source": "federal_statute",
+      "consequence_of_miss": "Claim barred"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "attorney"
+      ],
+      "method": "personal_service",
+      "timing": "Upon violation discovery",
+      "content_required": [
+        "Nature of violation",
+        "Remedies available"
+      ],
+      "defective_notice_consequence": "May extend statute of limitations"
+    }
+  ]
+}

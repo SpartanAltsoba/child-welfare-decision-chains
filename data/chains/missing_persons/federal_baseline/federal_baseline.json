@@ -1,0 +1,1133 @@
+{
+  "metadata": {
+    "chain_id": "MPDC-0",
+    "chain_name": "Missing Persons Decision Chain - Federal Baseline",
+    "version": "1.0",
+    "created": "2025-12-13",
+    "description": "Federal baseline for missing children case handling. Maps the decision chain from initial report through investigation, action, and feedback loops. Identifies failure points and parent advocacy leverage.",
+    "legal_framework": [
+      "National Child Search Assistance Act (1990)",
+      "PROTECT Act (2003)",
+      "Adam Walsh Child Protection and Safety Act (2006)",
+      "Suzanne's Law (2003)",
+      "Missing Children's Assistance Act",
+      "NCMEC Authorization Act",
+      "NCIC Missing Person File requirements"
+    ]
+  },
+  "nodes": {
+    "ACK-01": {
+      "node_id": "ACK-01",
+      "family": "ACK",
+      "name": "Initial Report Receipt",
+      "description": "First point of contact when a child is reported missing. Law enforcement must accept the report immediately without waiting period.",
+      "federal_requirement": "National Child Search Assistance Act requires immediate entry into NCIC - no waiting period for children under 21",
+      "timeline": "Immediate - within 2 hours of report",
+      "responsible_agencies": ["Local Law Enforcement", "State Police", "FBI (if federal jurisdiction)"],
+      "required_actions": [
+        "Accept missing child report immediately",
+        "Assign case number",
+        "Begin NCIC entry process",
+        "Notify parent/guardian of next steps"
+      ],
+      "failure_indicators": [
+        "Waiting period imposed before accepting report",
+        "Report not taken seriously",
+        "No case number assigned",
+        "Parent turned away or redirected"
+      ],
+      "parent_leverage": [
+        "Federal law prohibits waiting periods - cite National Child Search Assistance Act",
+        "Request case number in writing",
+        "Escalate to supervisor if report refused",
+        "Contact state attorney general if stonewalled"
+      ],
+      "links_to": ["ACK-02", "FAIL-01"],
+      "procedural_weight": 1.0
+    },
+    "ACK-02": {
+      "node_id": "ACK-02",
+      "family": "ACK",
+      "name": "NCIC Entry",
+      "description": "Entry of missing child into National Crime Information Center database within 2 hours of report.",
+      "federal_requirement": "National Child Search Assistance Act mandates NCIC entry within 2 hours for children under 18",
+      "timeline": "Within 2 hours of initial report",
+      "responsible_agencies": ["Local Law Enforcement", "State Police"],
+      "required_actions": [
+        "Enter child into NCIC Missing Person File",
+        "Include physical description, photos, circumstances",
+        "Flag as endangered if applicable",
+        "Cross-reference with state databases"
+      ],
+      "failure_indicators": [
+        "NCIC entry delayed beyond 2 hours",
+        "Incomplete information entered",
+        "Child not flagged as endangered when criteria met",
+        "No cross-reference with foster care/CPS systems"
+      ],
+      "parent_leverage": [
+        "Request NCIC entry confirmation number",
+        "Ask for written confirmation of entry time",
+        "If delayed, cite federal 2-hour mandate",
+        "Request supervisor review of entry completeness"
+      ],
+      "links_to": ["ACK-03", "FAIL-02"],
+      "procedural_weight": 0.95
+    },
+    "ACK-03": {
+      "node_id": "ACK-03",
+      "family": "ACK",
+      "name": "NCMEC Notification",
+      "description": "Notification to National Center for Missing & Exploited Children for case coordination and resources.",
+      "federal_requirement": "NCMEC must be notified for all missing children cases to enable poster distribution, tip line, and coordination",
+      "timeline": "Within 24 hours of NCIC entry",
+      "responsible_agencies": ["Local Law Enforcement", "NCMEC"],
+      "required_actions": [
+        "Submit case to NCMEC",
+        "Provide photos and case details",
+        "Request AMBER Alert evaluation if applicable",
+        "Enable tip line coordination"
+      ],
+      "failure_indicators": [
+        "NCMEC not notified within 24 hours",
+        "Incomplete case information provided",
+        "AMBER Alert criteria not evaluated",
+        "No coordination with NCMEC resources"
+      ],
+      "parent_leverage": [
+        "Parents can contact NCMEC directly at 1-800-THE-LOST",
+        "Request NCMEC case number",
+        "Ask about AMBER Alert eligibility",
+        "Request NCMEC poster creation"
+      ],
+      "links_to": ["ACK-04", "DUE-01"],
+      "procedural_weight": 0.9
+    },
+    "ACK-04": {
+      "node_id": "ACK-04",
+      "family": "ACK",
+      "name": "Investigator Assignment",
+      "description": "Assignment of dedicated investigator to the missing child case.",
+      "federal_requirement": "No federal mandate, but best practices require assignment within 24-48 hours",
+      "timeline": "Within 48 hours of report",
+      "responsible_agencies": ["Local Law Enforcement", "Detective Bureau"],
+      "required_actions": [
+        "Assign primary investigator",
+        "Provide investigator contact to family",
+        "Establish communication protocol",
+        "Begin active investigation"
+      ],
+      "failure_indicators": [
+        "No investigator assigned within 48 hours",
+        "Case sits in queue without action",
+        "Family cannot reach assigned investigator",
+        "Multiple handoffs without continuity"
+      ],
+      "parent_leverage": [
+        "Request investigator name and direct contact",
+        "Escalate to police chief if no assignment",
+        "Document all communication attempts",
+        "Contact state missing child coordinator"
+      ],
+      "links_to": ["DUE-01", "FAIL-03"],
+      "procedural_weight": 0.85
+    },
+    "ACK-05": {
+      "node_id": "ACK-05",
+      "family": "ACK",
+      "name": "CPS/Foster Care Cross-Reference",
+      "description": "For children in state custody or with CPS history, cross-reference with child welfare systems.",
+      "federal_requirement": "Fostering Connections Act requires states to report foster children missing within 24 hours",
+      "timeline": "Within 24 hours if child has CPS/foster history",
+      "responsible_agencies": ["CPS", "Foster Care Agency", "Law Enforcement"],
+      "required_actions": [
+        "Check if child is in foster care system",
+        "Review CPS case history",
+        "Notify child's caseworker",
+        "Cross-reference placement history"
+      ],
+      "failure_indicators": [
+        "Foster child not flagged in missing person system",
+        "CPS not notified of missing foster child",
+        "Placement history not reviewed",
+        "Caseworker unaware child is missing"
+      ],
+      "parent_leverage": [
+        "Biological parents can demand notification",
+        "Request CPS involvement confirmation",
+        "Contact child welfare ombudsman",
+        "File complaint if foster child not properly reported"
+      ],
+      "links_to": ["DUE-02", "FAIL-04"],
+      "procedural_weight": 0.9
+    },
+    "ACK-06": {
+      "node_id": "ACK-06",
+      "family": "ACK",
+      "name": "NamUs Entry",
+      "description": "Entry into National Missing and Unidentified Persons System for long-term case tracking.",
+      "federal_requirement": "Recommended for cases unresolved after 30 days; some states mandate earlier entry",
+      "timeline": "Within 30 days if unresolved, or immediately for high-risk cases",
+      "responsible_agencies": ["Law Enforcement", "Medical Examiner", "NamUs"],
+      "required_actions": [
+        "Create NamUs case profile",
+        "Upload photos and biometric data",
+        "Enable DNA family reference collection",
+        "Link to unidentified persons database"
+      ],
+      "failure_indicators": [
+        "Case not entered into NamUs",
+        "Incomplete biometric data",
+        "No DNA reference collected from family",
+        "Case goes cold without NamUs entry"
+      ],
+      "parent_leverage": [
+        "Families can create NamUs cases directly",
+        "Request DNA collection for database",
+        "Push for NamUs entry before 30 days",
+        "Use NamUs for independent tracking"
+      ],
+      "links_to": ["DUE-03", "FBK-01"],
+      "procedural_weight": 0.8
+    },
+    "DUE-01": {
+      "node_id": "DUE-01",
+      "family": "DUE",
+      "name": "Risk Assessment",
+      "description": "Evaluation of risk level to determine investigation priority and resources.",
+      "federal_requirement": "AMBER Alert criteria evaluation required; endangered runaway vs family abduction vs stranger abduction classification",
+      "timeline": "Within 4 hours of initial report",
+      "responsible_agencies": ["Law Enforcement", "NCMEC"],
+      "required_actions": [
+        "Evaluate AMBER Alert criteria",
+        "Classify case type (runaway, family abduction, non-family abduction)",
+        "Assess endangered status",
+        "Determine resource allocation"
+      ],
+      "classification_criteria": {
+        "endangered": "Child under 13, has disability, in life-threatening situation, or with dangerous person",
+        "family_abduction": "Taken by family member in custody dispute",
+        "non_family_abduction": "Taken by non-relative, highest priority",
+        "runaway": "Voluntarily left, still requires investigation"
+      },
+      "failure_indicators": [
+        "Risk assessment delayed or skipped",
+        "Endangered child classified as routine runaway",
+        "AMBER Alert criteria not evaluated",
+        "Resources not matched to risk level"
+      ],
+      "parent_leverage": [
+        "Insist on endangered classification if criteria met",
+        "Provide evidence of danger",
+        "Request AMBER Alert consideration in writing",
+        "Escalate if risk assessment seems inadequate"
+      ],
+      "links_to": ["DUE-02", "ACT-01", "FAIL-05"],
+      "procedural_weight": 0.95
+    },
+    "DUE-02": {
+      "node_id": "DUE-02",
+      "family": "DUE",
+      "name": "Jurisdiction Determination",
+      "description": "Determination of which agency has primary jurisdiction and when federal involvement is warranted.",
+      "federal_requirement": "FBI has jurisdiction when child crosses state lines (Federal Kidnapping Act) or after 24 hours presumption",
+      "timeline": "Within 24 hours; earlier if evidence of interstate flight",
+      "responsible_agencies": ["Local Law Enforcement", "State Police", "FBI"],
+      "required_actions": [
+        "Evaluate interstate indicators",
+        "Determine lead agency",
+        "Establish multi-agency coordination if needed",
+        "Notify FBI if federal criteria met"
+      ],
+      "federal_involvement_triggers": [
+        "Evidence child crossed state lines",
+        "24-hour presumption rule (child presumed taken across state lines)",
+        "International abduction suspected",
+        "Trafficking indicators present"
+      ],
+      "failure_indicators": [
+        "Jurisdictional disputes delay investigation",
+        "FBI not notified when criteria met",
+        "No lead agency established",
+        "Agencies fail to coordinate"
+      ],
+      "parent_leverage": [
+        "Request FBI involvement if interstate suspected",
+        "Document any jurisdictional delays",
+        "Contact FBI field office directly if local agency unresponsive",
+        "Use 24-hour presumption rule"
+      ],
+      "links_to": ["DUE-03", "ACT-02", "FAIL-06"],
+      "procedural_weight": 0.9
+    },
+    "DUE-03": {
+      "node_id": "DUE-03",
+      "family": "DUE",
+      "name": "Investigation Priority Assignment",
+      "description": "Assignment of investigation priority level based on risk assessment and case factors.",
+      "federal_requirement": "No federal mandate, but endangered missing children should receive highest priority",
+      "timeline": "Within 24 hours of risk assessment",
+      "responsible_agencies": ["Law Enforcement Command"],
+      "required_actions": [
+        "Assign priority level (critical, high, medium)",
+        "Allocate appropriate resources",
+        "Establish investigation timeline",
+        "Brief command on case status"
+      ],
+      "priority_levels": {
+        "critical": "Non-family abduction, endangered child, trafficking suspected - 24/7 resources",
+        "high": "Family abduction with danger indicators, young child runaway - dedicated team",
+        "medium": "Older teen runaway, custody dispute - assigned investigator"
+      },
+      "failure_indicators": [
+        "Endangered child assigned low priority",
+        "Resources not matched to priority",
+        "No clear investigation timeline",
+        "Case deprioritized prematurely"
+      ],
+      "parent_leverage": [
+        "Request case priority classification",
+        "Challenge priority if inadequate",
+        "Provide new evidence to elevate priority",
+        "Contact command if priority seems wrong"
+      ],
+      "links_to": ["ACT-01", "ACT-02"],
+      "procedural_weight": 0.85
+    },
+    "DUE-04": {
+      "node_id": "DUE-04",
+      "family": "DUE",
+      "name": "AMBER Alert Decision",
+      "description": "Decision on whether to issue AMBER Alert based on DOJ criteria.",
+      "federal_requirement": "DOJ AMBER Alert criteria: confirmed abduction, child under 18, serious danger, sufficient description",
+      "timeline": "Within 4 hours of qualifying circumstances",
+      "responsible_agencies": ["Law Enforcement", "State AMBER Alert Coordinator", "Broadcasters"],
+      "required_actions": [
+        "Evaluate DOJ AMBER criteria",
+        "Submit to state AMBER coordinator",
+        "Issue alert if approved",
+        "Coordinate with media"
+      ],
+      "amber_criteria": [
+        "Law enforcement confirms abduction",
+        "Child is 17 or younger",
+        "Child is in imminent danger of serious bodily injury or death",
+        "Sufficient descriptive information to issue alert",
+        "Child's name and other data entered in NCIC"
+      ],
+      "failure_indicators": [
+        "AMBER criteria not evaluated promptly",
+        "Qualifying case not submitted for AMBER",
+        "Delays in alert issuance",
+        "Alert issued with incomplete information"
+      ],
+      "parent_leverage": [
+        "Request AMBER evaluation in writing",
+        "Provide evidence meeting criteria",
+        "Contact state AMBER coordinator directly",
+        "Media outreach if AMBER denied but warranted"
+      ],
+      "links_to": ["ACT-03", "FAIL-07"],
+      "procedural_weight": 0.95
+    },
+    "DUE-05": {
+      "node_id": "DUE-05",
+      "family": "DUE",
+      "name": "Trafficking Assessment",
+      "description": "Evaluation of human trafficking indicators, especially for runaways and foster children.",
+      "federal_requirement": "Trafficking Victims Protection Act requires assessment; JVTA screening for foster youth",
+      "timeline": "Within 48 hours, or immediately if indicators present",
+      "responsible_agencies": ["Law Enforcement", "FBI", "CPS", "Anti-Trafficking Task Force"],
+      "required_actions": [
+        "Screen for trafficking indicators",
+        "Review prior runaway history",
+        "Check for known trafficker associations",
+        "Coordinate with anti-trafficking task force"
+      ],
+      "trafficking_indicators": [
+        "Multiple runaway episodes",
+        "Gang association",
+        "Signs of physical abuse or branding",
+        "Evidence of commercial sexual exploitation",
+        "Missing from foster care or group home"
+      ],
+      "failure_indicators": [
+        "Trafficking screening skipped",
+        "Runaway dismissed without trafficking assessment",
+        "Prior trafficking indicators ignored",
+        "No task force coordination"
+      ],
+      "parent_leverage": [
+        "Request trafficking assessment documentation",
+        "Provide information on concerning contacts",
+        "Contact anti-trafficking hotline (1-888-373-7888)",
+        "Request FBI involvement if trafficking suspected"
+      ],
+      "links_to": ["ACT-04", "FAIL-08"],
+      "procedural_weight": 0.9
+    },
+    "DUE-06": {
+      "node_id": "DUE-06",
+      "family": "DUE",
+      "name": "Family Abduction/Custody Evaluation",
+      "description": "For custody-related cases, determination of legal standing and international abduction risk.",
+      "federal_requirement": "Hague Convention on International Child Abduction; International Parental Kidnapping Crime Act",
+      "timeline": "Within 24 hours if custody dispute involved",
+      "responsible_agencies": ["Law Enforcement", "Family Court", "State Department (international)"],
+      "required_actions": [
+        "Review custody orders",
+        "Assess international flight risk",
+        "Coordinate with family court",
+        "Alert airports/border if flight risk"
+      ],
+      "failure_indicators": [
+        "Custody status not verified",
+        "International abduction risk missed",
+        "Border not alerted when warranted",
+        "Treated as civil matter without criminal investigation"
+      ],
+      "parent_leverage": [
+        "Provide custody documentation immediately",
+        "Request passport alert if international risk",
+        "Contact Office of Children's Issues (State Dept)",
+        "Push for criminal charges if warranted"
+      ],
+      "links_to": ["ACT-05", "ACT-06"],
+      "procedural_weight": 0.85
+    },
+    "ACT-01": {
+      "node_id": "ACT-01",
+      "family": "ACT",
+      "name": "Active Investigation",
+      "description": "Ongoing investigative activities to locate the missing child.",
+      "federal_requirement": "Investigation must continue until child is located or case resolved",
+      "timeline": "Continuous until resolution",
+      "responsible_agencies": ["Lead Law Enforcement Agency", "Supporting Agencies"],
+      "required_actions": [
+        "Interview witnesses and family",
+        "Canvass neighborhood",
+        "Review surveillance footage",
+        "Execute search warrants as needed",
+        "Coordinate tip investigation"
+      ],
+      "failure_indicators": [
+        "Investigation goes inactive prematurely",
+        "Leads not followed up",
+        "Family not updated on progress",
+        "Resources reduced without justification"
+      ],
+      "parent_leverage": [
+        "Request regular case updates (weekly minimum)",
+        "Provide additional leads and information",
+        "Request meeting with investigator and supervisor",
+        "Document all interactions"
+      ],
+      "links_to": ["ACT-02", "FBK-01", "FAIL-09"],
+      "procedural_weight": 0.9
+    },
+    "ACT-02": {
+      "node_id": "ACT-02",
+      "family": "ACT",
+      "name": "Multi-Agency Coordination",
+      "description": "Coordination between local, state, and federal agencies for complex cases.",
+      "federal_requirement": "FBI involvement after 24 hours or evidence of interstate flight",
+      "timeline": "Within 24-48 hours for complex cases",
+      "responsible_agencies": ["Local PD", "State Police", "FBI", "U.S. Marshals"],
+      "required_actions": [
+        "Establish joint operations center if warranted",
+        "Share intelligence across agencies",
+        "Coordinate media strategy",
+        "Assign agency roles and responsibilities"
+      ],
+      "failure_indicators": [
+        "Agencies work in silos",
+        "Intelligence not shared",
+        "Conflicting information released",
+        "Turf wars delay investigation"
+      ],
+      "parent_leverage": [
+        "Request multi-agency briefing",
+        "Contact each agency for status",
+        "Escalate coordination failures to supervisors",
+        "Use Congressional representative for federal coordination"
+      ],
+      "links_to": ["ACT-03", "FBK-02"],
+      "procedural_weight": 0.85
+    },
+    "ACT-03": {
+      "node_id": "ACT-03",
+      "family": "ACT",
+      "name": "Public Alert Issuance",
+      "description": "Issuance of public alerts including AMBER Alert, social media, and media coordination.",
+      "federal_requirement": "AMBER Alert if criteria met; no waiting period for public notification",
+      "timeline": "Within hours of determination that public help needed",
+      "responsible_agencies": ["Law Enforcement", "NCMEC", "Media"],
+      "required_actions": [
+        "Issue AMBER Alert if applicable",
+        "Coordinate with NCMEC for poster distribution",
+        "Hold press conference",
+        "Utilize social media channels",
+        "Engage community in search"
+      ],
+      "failure_indicators": [
+        "Delayed public notification",
+        "Inadequate media coordination",
+        "Social media not utilized",
+        "Community not engaged"
+      ],
+      "parent_leverage": [
+        "Request media conference",
+        "Create and share social media posts",
+        "Contact NCMEC for assistance",
+        "Engage community organizations"
+      ],
+      "links_to": ["ACT-04", "FBK-03"],
+      "procedural_weight": 0.9
+    },
+    "ACT-04": {
+      "node_id": "ACT-04",
+      "family": "ACT",
+      "name": "Search Operations",
+      "description": "Organized search efforts including ground searches, K-9 units, and aerial support.",
+      "federal_requirement": "No federal mandate, but resources should match case priority",
+      "timeline": "Within hours for endangered children",
+      "responsible_agencies": ["Law Enforcement", "Search and Rescue", "Volunteer Organizations"],
+      "required_actions": [
+        "Deploy search teams to relevant areas",
+        "Utilize K-9 units",
+        "Coordinate aerial search if warranted",
+        "Organize volunteer search parties",
+        "Search known locations and associates"
+      ],
+      "failure_indicators": [
+        "No organized search conducted",
+        "Search limited in scope without justification",
+        "Volunteer resources not utilized",
+        "Search called off prematurely"
+      ],
+      "parent_leverage": [
+        "Request information on search scope",
+        "Organize community volunteers",
+        "Provide locations to search",
+        "Engage private search organizations if needed"
+      ],
+      "links_to": ["FBK-01", "FAIL-10"],
+      "procedural_weight": 0.85
+    },
+    "ACT-05": {
+      "node_id": "ACT-05",
+      "family": "ACT",
+      "name": "Recovery and Reunification",
+      "description": "When child is located, safe recovery and return to appropriate guardian.",
+      "federal_requirement": "Child must be returned to legal guardian; welfare assessment required",
+      "timeline": "Immediate upon location",
+      "responsible_agencies": ["Law Enforcement", "CPS (if applicable)", "Medical"],
+      "required_actions": [
+        "Ensure child's immediate safety",
+        "Provide medical evaluation",
+        "Interview child appropriately",
+        "Coordinate safe return",
+        "Provide victim services referrals"
+      ],
+      "failure_indicators": [
+        "Child released to unsafe environment",
+        "No welfare assessment",
+        "Child not interviewed for evidence",
+        "No victim services provided"
+      ],
+      "parent_leverage": [
+        "Request medical evaluation",
+        "Ensure appropriate interview conditions",
+        "Request victim services information",
+        "Demand safety assessment of home before return"
+      ],
+      "links_to": ["FBK-04"],
+      "procedural_weight": 0.95
+    },
+    "ACT-06": {
+      "node_id": "ACT-06",
+      "family": "ACT",
+      "name": "Prosecution Support",
+      "description": "Building criminal case when abduction or trafficking confirmed.",
+      "federal_requirement": "Federal prosecution available for interstate kidnapping, international abduction, trafficking",
+      "timeline": "Concurrent with recovery",
+      "responsible_agencies": ["District Attorney", "U.S. Attorney", "FBI", "Law Enforcement"],
+      "required_actions": [
+        "Preserve evidence",
+        "Conduct forensic interviews",
+        "Coordinate with prosecutors",
+        "Pursue all applicable charges"
+      ],
+      "failure_indicators": [
+        "Evidence not preserved",
+        "Charges not filed when warranted",
+        "Family abduction treated as civil only",
+        "Trafficking charges not pursued"
+      ],
+      "parent_leverage": [
+        "Request meeting with prosecutor",
+        "Provide victim impact statement",
+        "Push for federal charges if applicable",
+        "Engage victim advocate"
+      ],
+      "links_to": ["FBK-04"],
+      "procedural_weight": 0.8
+    },
+    "FBK-01": {
+      "node_id": "FBK-01",
+      "family": "FBK",
+      "name": "Case Status Review",
+      "description": "Regular review of case status to ensure continued progress and resource allocation.",
+      "federal_requirement": "No federal mandate, but best practices require weekly reviews for active cases",
+      "timeline": "Weekly for active cases, monthly for cold cases",
+      "responsible_agencies": ["Law Enforcement Command", "Investigator"],
+      "required_actions": [
+        "Review all leads and actions taken",
+        "Assess resource needs",
+        "Update family on status",
+        "Determine if escalation needed"
+      ],
+      "failure_indicators": [
+        "No regular case reviews",
+        "Family left without updates",
+        "Case goes cold without review",
+        "No documentation of review decisions"
+      ],
+      "parent_leverage": [
+        "Request scheduled status updates",
+        "Attend case reviews when permitted",
+        "Document all communications",
+        "Escalate if reviews not happening"
+      ],
+      "links_to": ["ACT-01", "FBK-02"],
+      "procedural_weight": 0.8
+    },
+    "FBK-02": {
+      "node_id": "FBK-02",
+      "family": "FBK",
+      "name": "Cold Case Review",
+      "description": "Formal review process when case becomes inactive to determine next steps.",
+      "federal_requirement": "Case cannot be closed while child remains missing; periodic review required",
+      "timeline": "After 90 days of no active leads, then annually",
+      "responsible_agencies": ["Cold Case Unit", "Original Investigator", "Command"],
+      "required_actions": [
+        "Review all evidence with fresh eyes",
+        "Apply new investigative techniques",
+        "Resubmit DNA and biometrics",
+        "Contact family for new information"
+      ],
+      "failure_indicators": [
+        "Case closed while child missing",
+        "No cold case review process",
+        "Evidence lost or degraded",
+        "Family not contacted for cold case review"
+      ],
+      "parent_leverage": [
+        "Request cold case unit assignment",
+        "Provide any new information",
+        "Request DNA resubmission",
+        "Contact NCMEC for case review assistance"
+      ],
+      "links_to": ["ACT-01", "FBK-03"],
+      "procedural_weight": 0.75
+    },
+    "FBK-03": {
+      "node_id": "FBK-03",
+      "family": "FBK",
+      "name": "Agency Accountability Review",
+      "description": "Review of agency performance when failures identified in case handling.",
+      "federal_requirement": "No federal mandate, but states should have oversight mechanisms",
+      "timeline": "After case resolution or upon complaint",
+      "responsible_agencies": ["Internal Affairs", "State Oversight Body", "Child Welfare Ombudsman"],
+      "required_actions": [
+        "Investigate reported failures",
+        "Document lessons learned",
+        "Implement corrective actions",
+        "Report findings to oversight body"
+      ],
+      "failure_indicators": [
+        "No investigation of failures",
+        "Pattern of failures not addressed",
+        "No corrective action taken",
+        "Repeat failures occur"
+      ],
+      "parent_leverage": [
+        "File formal complaints",
+        "Contact state child welfare ombudsman",
+        "Request legislative inquiry",
+        "Pursue civil litigation if warranted"
+      ],
+      "links_to": ["ADV-01", "ADV-02"],
+      "procedural_weight": 0.7
+    },
+    "FBK-04": {
+      "node_id": "FBK-04",
+      "family": "FBK",
+      "name": "Case Closure/Resolution",
+      "description": "Proper closure of case when child is recovered or outcome determined.",
+      "federal_requirement": "NCIC and NCMEC entries must be updated; case cannot close while child missing",
+      "timeline": "Upon resolution",
+      "responsible_agencies": ["Lead Agency", "NCIC", "NCMEC", "NamUs"],
+      "required_actions": [
+        "Update all database entries",
+        "Close case with proper documentation",
+        "Notify all involved agencies",
+        "Provide family with case summary"
+      ],
+      "failure_indicators": [
+        "Databases not updated",
+        "Case closed without resolution",
+        "Family not notified of closure",
+        "Records not preserved"
+      ],
+      "parent_leverage": [
+        "Request case summary",
+        "Verify database updates",
+        "Challenge improper closure",
+        "Preserve right to reopen"
+      ],
+      "links_to": [],
+      "procedural_weight": 0.85
+    },
+    "FAIL-01": {
+      "node_id": "FAIL-01",
+      "family": "FAIL",
+      "name": "Report Refusal/Delay",
+      "description": "Law enforcement refuses to take missing child report or imposes waiting period.",
+      "legal_violation": "National Child Search Assistance Act - no waiting period for children under 21",
+      "impact": "Critical delay in investigation initiation; lost golden hours",
+      "frequency": "Decreasing but still occurs, especially for runaways and foster children",
+      "parent_advocacy": [
+        "Cite federal law prohibiting waiting periods",
+        "Request supervisor immediately",
+        "File written complaint",
+        "Contact state attorney general",
+        "Document date, time, officer who refused"
+      ],
+      "systemic_fix": "Mandatory training on federal requirements; disciplinary action for violations",
+      "links_from": ["ACK-01"],
+      "procedural_weight": 1.0
+    },
+    "FAIL-02": {
+      "node_id": "FAIL-02",
+      "family": "FAIL",
+      "name": "NCIC Entry Failure",
+      "description": "Child not entered into NCIC within required 2-hour window.",
+      "legal_violation": "National Child Search Assistance Act - 2-hour NCIC entry requirement",
+      "impact": "Child not visible to other agencies; recovery delayed",
+      "frequency": "Common in under-resourced departments",
+      "parent_advocacy": [
+        "Request NCIC confirmation number",
+        "Ask when entry was made",
+        "Escalate to command if delayed",
+        "File complaint with state",
+        "Contact NCMEC for assistance"
+      ],
+      "systemic_fix": "Automated NCIC entry systems; auditing of entry times",
+      "links_from": ["ACK-02"],
+      "procedural_weight": 0.95
+    },
+    "FAIL-03": {
+      "node_id": "FAIL-03",
+      "family": "FAIL",
+      "name": "No Investigator Assignment",
+      "description": "Case sits without assigned investigator; no active investigation occurring.",
+      "legal_violation": "No specific federal law, but violates duty to investigate",
+      "impact": "Case stagnates; leads go cold; family left in limbo",
+      "frequency": "Common in high-volume departments",
+      "parent_advocacy": [
+        "Request investigator assignment in writing",
+        "Escalate to police chief",
+        "Contact mayor's office",
+        "Engage media if pattern of neglect",
+        "Contact state missing child coordinator"
+      ],
+      "systemic_fix": "Mandatory assignment timelines; caseload limits",
+      "links_from": ["ACK-04"],
+      "procedural_weight": 0.85
+    },
+    "FAIL-04": {
+      "node_id": "FAIL-04",
+      "family": "FAIL",
+      "name": "Foster Care System Disconnect",
+      "description": "Missing foster child not properly reported or cross-referenced with CPS systems.",
+      "legal_violation": "Fostering Connections Act - 24-hour reporting requirement for missing foster children",
+      "impact": "Foster children especially vulnerable; trafficking risk increases",
+      "frequency": "Disturbingly common; foster children overrepresented in missing cases",
+      "parent_advocacy": [
+        "Biological parents can demand information",
+        "Contact child welfare ombudsman",
+        "File complaint with state licensing",
+        "Request audit of foster agency",
+        "Contact advocacy organizations"
+      ],
+      "systemic_fix": "Automated link between foster care and missing persons databases; mandatory trafficking screening",
+      "links_from": ["ACK-05"],
+      "procedural_weight": 0.9
+    },
+    "FAIL-05": {
+      "node_id": "FAIL-05",
+      "family": "FAIL",
+      "name": "Inadequate Risk Assessment",
+      "description": "Child's risk level underestimated; endangered child treated as routine runaway.",
+      "legal_violation": "Failure to apply AMBER Alert criteria; negligent investigation",
+      "impact": "Resources not allocated; child remains in danger longer",
+      "frequency": "Common for teens and repeat runaways",
+      "parent_advocacy": [
+        "Provide evidence of danger",
+        "Insist on endangered classification",
+        "Request supervisor review",
+        "Document prior concerning incidents",
+        "Contact NCMEC for advocacy"
+      ],
+      "systemic_fix": "Mandatory risk assessment protocols; training on trafficking indicators",
+      "links_from": ["DUE-01"],
+      "procedural_weight": 0.95
+    },
+    "FAIL-06": {
+      "node_id": "FAIL-06",
+      "family": "FAIL",
+      "name": "Jurisdictional Failure",
+      "description": "Agencies dispute jurisdiction; investigation falls through cracks.",
+      "legal_violation": "Failure to coordinate as required by law",
+      "impact": "Critical delays; investigation gaps",
+      "frequency": "Occurs at county/state/federal boundaries",
+      "parent_advocacy": [
+        "Contact both/all agencies simultaneously",
+        "Request FBI involvement directly",
+        "Use congressional representative",
+        "Document jurisdictional disputes",
+        "Contact media if agencies stonewalling"
+      ],
+      "systemic_fix": "Clear jurisdictional protocols; mandatory FBI notification triggers",
+      "links_from": ["DUE-02"],
+      "procedural_weight": 0.85
+    },
+    "FAIL-07": {
+      "node_id": "FAIL-07",
+      "family": "FAIL",
+      "name": "AMBER Alert Denial",
+      "description": "Qualifying case denied AMBER Alert without justification.",
+      "legal_violation": "Failure to apply DOJ AMBER Alert criteria fairly",
+      "impact": "Public not engaged; critical time lost",
+      "frequency": "Occurs when criteria misunderstood or gatekeeping",
+      "parent_advocacy": [
+        "Request denial in writing with reasons",
+        "Provide additional evidence meeting criteria",
+        "Contact state AMBER coordinator directly",
+        "Escalate to governor's office",
+        "Engage media to create public pressure"
+      ],
+      "systemic_fix": "Clear criteria application; appeal process",
+      "links_from": ["DUE-04"],
+      "procedural_weight": 0.9
+    },
+    "FAIL-08": {
+      "node_id": "FAIL-08",
+      "family": "FAIL",
+      "name": "Trafficking Screening Failure",
+      "description": "Trafficking indicators missed; victim returned to dangerous situation.",
+      "legal_violation": "TVPA and JVTA screening requirements",
+      "impact": "Child revictimized; trafficker escapes",
+      "frequency": "Common for runaways; disproportionately affects foster youth",
+      "parent_advocacy": [
+        "Request trafficking assessment documentation",
+        "Contact anti-trafficking hotline",
+        "Demand FBI involvement",
+        "Connect with trafficking survivor organizations",
+        "Request victim services regardless"
+      ],
+      "systemic_fix": "Mandatory trafficking screening protocols; specialized training",
+      "links_from": ["DUE-05"],
+      "procedural_weight": 0.95
+    },
+    "FAIL-09": {
+      "node_id": "FAIL-09",
+      "family": "FAIL",
+      "name": "Investigation Goes Cold",
+      "description": "Investigation becomes inactive without resolution; leads not followed.",
+      "legal_violation": "Case cannot be closed while child missing",
+      "impact": "Family abandoned; recovery less likely over time",
+      "frequency": "Common after initial 72 hours if no leads",
+      "parent_advocacy": [
+        "Request cold case unit assignment",
+        "Provide any new information immediately",
+        "Contact NCMEC for case review",
+        "Engage private investigators if affordable",
+        "Keep case in media periodically"
+      ],
+      "systemic_fix": "Mandatory case reviews; cold case unit resources",
+      "links_from": ["ACT-01"],
+      "procedural_weight": 0.8
+    },
+    "FAIL-10": {
+      "node_id": "FAIL-10",
+      "family": "FAIL",
+      "name": "Inadequate Search Efforts",
+      "description": "Search scope insufficient; areas not covered; resources not deployed.",
+      "legal_violation": "Failure to allocate resources matching case priority",
+      "impact": "Child may be in searchable area but not found",
+      "frequency": "Budget-driven; more common in rural areas",
+      "parent_advocacy": [
+        "Request search plan documentation",
+        "Organize community volunteers",
+        "Contact search and rescue organizations",
+        "Engage private resources if possible",
+        "Document search gaps"
+      ],
+      "systemic_fix": "Minimum search standards; mutual aid agreements",
+      "links_from": ["ACT-04"],
+      "procedural_weight": 0.85
+    },
+    "ADV-01": {
+      "node_id": "ADV-01",
+      "family": "ADV",
+      "name": "Immediate Parent Actions",
+      "description": "Critical actions parents should take in first 24-48 hours.",
+      "timing": "First 24-48 hours",
+      "action_checklist": [
+        "Call 911 immediately - do not wait",
+        "Get case number in writing",
+        "Confirm NCIC entry within 2 hours",
+        "Contact NCMEC (1-800-THE-LOST)",
+        "Provide recent photo and physical description",
+        "List all known associates and locations",
+        "Preserve child's room and belongings as evidence",
+        "Document everything in writing",
+        "Request investigator assignment"
+      ],
+      "common_mistakes": [
+        "Waiting to report",
+        "Not getting case number",
+        "Disturbing potential evidence",
+        "Not following up on NCIC entry"
+      ],
+      "resources": [
+        "NCMEC: 1-800-THE-LOST (1-800-843-5678)",
+        "FBI: Local field office",
+        "NamUs: namus.nij.ojp.gov",
+        "National Runaway Safeline: 1-800-786-2929"
+      ],
+      "links_to": ["ADV-02"],
+      "procedural_weight": 1.0
+    },
+    "ADV-02": {
+      "node_id": "ADV-02",
+      "family": "ADV",
+      "name": "Escalation Strategies",
+      "description": "How to escalate when agencies are unresponsive or making errors.",
+      "timing": "When failures identified",
+      "escalation_chain": [
+        "Supervisor of assigned officer/investigator",
+        "Police Chief or Sheriff",
+        "Mayor's office / County Commissioner",
+        "State Attorney General",
+        "FBI Field Office",
+        "U.S. Attorney's Office",
+        "Congressional representative",
+        "Media (last resort but effective)"
+      ],
+      "documentation_needed": [
+        "Timeline of all contacts with agencies",
+        "Names and badge numbers of personnel",
+        "Copies of all written communications",
+        "Evidence of delays or refusals",
+        "Case number and date reported"
+      ],
+      "links_to": ["ADV-03"],
+      "procedural_weight": 0.9
+    },
+    "ADV-03": {
+      "node_id": "ADV-03",
+      "family": "ADV",
+      "name": "Legal Actions Available",
+      "description": "Legal remedies available to families when system fails.",
+      "timing": "After exhausting agency remedies or in parallel",
+      "legal_options": [
+        "File complaint with state attorney general",
+        "Request investigation by child welfare ombudsman",
+        "Civil rights complaint (Section 1983) if constitutional violations",
+        "Mandamus action to compel agency action",
+        "Civil lawsuit for negligence",
+        "Legislative advocacy for policy changes"
+      ],
+      "when_to_involve_attorney": [
+        "Agency actively obstructing",
+        "Constitutional violations evident",
+        "Pattern of failures affecting multiple families",
+        "International abduction (Hague Convention)",
+        "Custody dispute complicating case"
+      ],
+      "links_to": ["ADV-04"],
+      "procedural_weight": 0.8
+    },
+    "ADV-04": {
+      "node_id": "ADV-04",
+      "family": "ADV",
+      "name": "Community and Media Engagement",
+      "description": "Strategies for engaging community and media to aid search.",
+      "timing": "Ongoing throughout case",
+      "community_actions": [
+        "Organize search parties",
+        "Distribute flyers in strategic locations",
+        "Create social media campaign",
+        "Engage local businesses to post flyers",
+        "Contact schools and youth organizations",
+        "Reach out to faith communities"
+      ],
+      "media_strategy": [
+        "Prepare press statement",
+        "Have single family spokesperson",
+        "Provide high-quality photos",
+        "Keep story alive with updates",
+        "Anniversary dates bring renewed coverage"
+      ],
+      "cautions": [
+        "Don't jeopardize investigation",
+        "Coordinate with law enforcement",
+        "Be wary of false tips and scams",
+        "Protect other children's privacy"
+      ],
+      "links_to": ["ADV-05"],
+      "procedural_weight": 0.75
+    },
+    "ADV-05": {
+      "node_id": "ADV-05",
+      "family": "ADV",
+      "name": "Long-Term Advocacy",
+      "description": "Advocacy for systemic change based on case experience.",
+      "timing": "Ongoing and after resolution",
+      "systemic_advocacy": [
+        "Document all system failures experienced",
+        "Connect with advocacy organizations",
+        "Testify at legislative hearings",
+        "Support policy reforms",
+        "Help other families navigate system"
+      ],
+      "policy_priorities": [
+        "Mandatory response timelines with accountability",
+        "Automatic database cross-referencing",
+        "Trafficking screening requirements",
+        "Cold case review mandates",
+        "Family notification requirements",
+        "Training requirements for law enforcement"
+      ],
+      "organizations_to_engage": [
+        "NCMEC",
+        "Polly Klaas Foundation",
+        "National Center for Victims of Crime",
+        "State missing children clearinghouse",
+        "Anti-trafficking coalitions"
+      ],
+      "links_to": ["ADV-06"],
+      "procedural_weight": 0.7
+    },
+    "ADV-06": {
+      "node_id": "ADV-06",
+      "family": "ADV",
+      "name": "State-Specific Resources",
+      "description": "State-level resources and contacts for missing children cases.",
+      "note": "This node is populated with state-specific data based on user's state",
+      "common_resources": {
+        "state_clearinghouse": "Each state has a missing children clearinghouse",
+        "state_coordinator": "Many states have a Missing Child Coordinator",
+        "state_police_unit": "State police often have specialized units",
+        "attorney_general": "AG office can intervene in problem cases",
+        "ombudsman": "Child welfare ombudsman (varies by state)"
+      },
+      "lookup_method": "Query with state abbreviation for specific contacts",
+      "links_to": [],
+      "procedural_weight": 0.8
+    }
+  },
+  "decision_chain_flow": {
+    "primary_path": ["ACK-01", "ACK-02", "ACK-03", "ACK-04", "DUE-01", "DUE-03", "ACT-01", "ACT-03", "FBK-01"],
+    "endangered_path": ["ACK-01", "ACK-02", "ACK-03", "DUE-01", "DUE-04", "ACT-03", "ACT-04", "ACT-01"],
+    "foster_care_path": ["ACK-01", "ACK-02", "ACK-05", "DUE-01", "DUE-05", "ACT-01"],
+    "family_abduction_path": ["ACK-01", "ACK-02", "DUE-06", "DUE-02", "ACT-05", "ACT-06"],
+    "failure_loop": "Any FAIL node -> FBK-03 -> ADV-01/02/03"
+  },
+  "key_timelines": {
+    "report_acceptance": "Immediate - no waiting period",
+    "ncic_entry": "Within 2 hours",
+    "ncmec_notification": "Within 24 hours",
+    "investigator_assignment": "Within 48 hours",
+    "amber_alert_decision": "Within 4 hours if criteria potentially met",
+    "risk_assessment": "Within 4 hours",
+    "fbi_involvement": "Within 24 hours or upon interstate evidence",
+    "case_review": "Weekly for active, monthly for inactive"
+  },
+  "federal_laws_cited": {
+    "national_child_search_assistance_act": {
+      "citation": "34 U.S.C. § 41307",
+      "year": "1990",
+      "key_provisions": [
+        "No waiting period for missing child reports under 21",
+        "NCIC entry within 2 hours",
+        "No removal from NCIC until child located"
+      ]
+    },
+    "protect_act": {
+      "citation": "18 U.S.C. § 2258 et seq.",
+      "year": "2003",
+      "key_provisions": [
+        "National AMBER Alert network",
+        "AMBER Alert coordinators in each state",
+        "DOJ criteria for AMBER Alerts"
+      ]
+    },
+    "adam_walsh_act": {
+      "citation": "34 U.S.C. § 20901 et seq.",
+      "year": "2006",
+      "key_provisions": [
+        "Sex offender registration",
+        "NCMEC authorization",
+        "Missing children assistance"
+      ]
+    },
+    "suzannes_law": {
+      "citation": "34 U.S.C. § 41308",
+      "year": "2003",
+      "key_provisions": [
+        "Extended missing person reporting age to 21",
+        "Immediate NCIC entry for 18-21 year olds"
+      ]
+    },
+    "fostering_connections_act": {
+      "citation": "42 U.S.C. § 671(a)(35)",
+      "year": "2008",
+      "key_provisions": [
+        "24-hour reporting for missing foster children",
+        "Cross-reference with NCIC",
+        "Trafficking screening for foster runaways"
+      ]
+    },
+    "trafficking_victims_protection_act": {
+      "citation": "22 U.S.C. § 7101 et seq.",
+      "year": "2000, reauthorized",
+      "key_provisions": [
+        "Trafficking victim identification",
+        "Victim services",
+        "Federal trafficking prosecution"
+      ]
+    },
+    "federal_kidnapping_act": {
+      "citation": "18 U.S.C. § 1201",
+      "year": "1932, Lindbergh Law",
+      "key_provisions": [
+        "FBI jurisdiction after 24 hours",
+        "Presumption of interstate transport",
+        "Federal prosecution authority"
+      ]
+    },
+    "hague_convention": {
+      "citation": "T.I.A.S. No. 11670",
+      "year": "1980 (US 1988)",
+      "key_provisions": [
+        "International child abduction remedies",
+        "Return of wrongfully removed children",
+        "Central authority coordination"
+      ]
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "plane_id": "administrative_rules_DC",
+  "plane_name": "District of Columbia Administrative Rules",
+  "description": "District of Columbia municipal regulations and agency rules relevant to child welfare.",
+  "authority_level": "administrative_rule",
+  "state_code": "DC",
+  "state_name": "District of Columbia",
+  "version": "1.0.0",
+  "created": "2025-12-24",
+  "updated": "2025-12-24",
+  "administrative_code_source": {
+    "dcmr_url": "https://www.dcregs.dc.gov/",
+    "cornell_url": "https://www.law.cornell.edu/regulations/dc",
+    "last_verified": "2025-12-24"
+  },
+  "relationship_to_statute": {
+    "implements_statutes": true,
+    "subordinate_to_statute": true,
+    "note": "DC Municipal Regulations implement DC Code statutory requirements"
+  },
+  "child_welfare_agency": {
+    "name": "Child and Family Services Agency",
+    "acronym": "CFSA",
+    "website": "https://cfsa.dc.gov/",
+    "hotline": "202-671-SAFE (7233)"
+  },
+  "child_welfare_regulations": [
+    {
+      "title": "Title 29 - Public Welfare (DCMR)",
+      "chapter": "Chapter 60 - Child and Family Services Agency",
+      "url": "https://www.dcregs.dc.gov/Common/DCMR/RuleList.aspx?ChapterNum=29-60",
+      "category": "child_welfare",
+      "relevance": "directly_relevant",
+      "description": "Primary CFSA regulations for child protective services"
+    },
+    {
+      "title": "Title 29 - Public Welfare (DCMR)",
+      "chapter": "Chapter 61 - Foster Care and Adoption",
+      "url": "https://www.dcregs.dc.gov/Common/DCMR/RuleList.aspx?ChapterNum=29-61",
+      "category": "child_welfare",
+      "relevance": "directly_relevant",
+      "description": "Foster care licensing and adoption procedures"
+    },
+    {
+      "title": "Title 29 - Public Welfare (DCMR)",
+      "chapter": "Chapter 62 - Child Abuse and Neglect",
+      "url": "https://www.dcregs.dc.gov/Common/DCMR/RuleList.aspx?ChapterNum=29-62",
+      "category": "child_welfare",
+      "relevance": "directly_relevant",
+      "description": "Child abuse and neglect reporting and investigation"
+    },
+    {
+      "title": "Title 5-A - Office of the State Superintendent of Education (DCMR)",
+      "chapter": "Chapter 1 - Early Childhood Programs",
+      "url": "https://www.dcregs.dc.gov/Common/DCMR/RuleList.aspx?ChapterNum=5-A01",
+      "category": "child_welfare",
+      "relevance": "related",
+      "description": "Child care facility licensing and early childhood programs"
+    }
+  ],
+  "dc_code_references": [
+    {
+      "citation": "D.C. Code § 4-1301.01 et seq.",
+      "title": "Prevention of Child Abuse and Neglect",
+      "url": "https://code.dccouncil.gov/us/dc/council/code/titles/4/chapters/13"
+    },
+    {
+      "citation": "D.C. Code § 16-2301 et seq.",
+      "title": "Family Court Proceedings",
+      "url": "https://code.dccouncil.gov/us/dc/council/code/titles/16/chapters/23"
+    }
+  ],
+  "_metadata": {
+    "created": "2025-12-24T15:00:00.000000",
+    "source": "manual_creation",
+    "note": "DC uses DCMR (DC Municipal Regulations) rather than state admin code"
+  }
+}

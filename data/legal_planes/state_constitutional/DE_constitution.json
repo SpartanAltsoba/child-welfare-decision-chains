@@ -1,0 +1,440 @@
+{
+  "plane_id": "state_constitutional_DE",
+  "plane_name": "Delaware State Constitutional Plane",
+  "description": "Delaware Constitution provisions relevant to child welfare and family rights.",
+  "authority_level": "state_supreme",
+  "state_code": "DE",
+  "state_name": "Delaware",
+  "version": "1.0.0",
+  "created": "2025-12-22",
+  "updated": "2025-12-22",
+  "copyright": "Project Milk Carton 501(c)(3) - All Rights Reserved",
+  "constitution_source": {
+    "url": "https://delcode.delaware.gov/constitution/",
+    "justia_url": "https://law.justia.com/constitution/delaware/",
+    "official_name": "Delaware Constitution",
+    "last_amended": "2022-11-08",
+    "last_verified": "2025-12-22"
+  },
+  "relationship_to_federal": {
+    "supremacy_clause_applies": true,
+    "can_provide_greater_protection": true,
+    "cannot_provide_less_protection": true
+  },
+  "relevant_provisions": [
+    {
+      "provision_id": "DE_CONST_SEARCH_SEIZURE",
+      "name": "Search and Seizure",
+      "article": "Article I",
+      "section": "Section 6",
+      "url": "https://law.justia.com/constitution/delaware/#section-6",
+      "citation": "Delaware Const. art. I, \u00a7 6",
+      "text": "The people shall be secure in their persons, houses, papers and possessions, from unreasonable searches and seizures...",
+      "application_to_cps": "CPS removal of a child constitutes a seizure. Warrantless removals must meet exigent circumstances exception or be supported by court order.",
+      "federal_parallel": "U.S. Const. amend. IV",
+      "state_provides_greater_protection": false,
+      "key_cases": [],
+      "triggers_at_nodes": [
+        "INP-12",
+        "DEC-04",
+        "ACT-01",
+        "FAIL-01"
+      ]
+    },
+    {
+      "provision_id": "DE_CONST_DUE_PROCESS",
+      "name": "Due Process / Law of the Land",
+      "article": "Article I",
+      "section": "Section 7",
+      "url": "https://law.justia.com/constitution/delaware/#section-7",
+      "citation": "Delaware Const. art. I, \u00a7 7",
+      "text": "...nor shall any person... be deprived of life, liberty or property without due process of law...",
+      "application_to_cps": "Parents have a fundamental liberty interest in the care and custody of their children. Termination of parental rights requires clear and convincing evidence and proper procedural protections.",
+      "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1",
+      "state_provides_greater_protection": false,
+      "key_cases": [
+        {
+          "case_id": "213-2025",
+          "title": "Roy Harris v. DSCYF TPR",
+          "url": "https://law.justia.com/cases/delaware/supreme-court/2025/213-2025.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Delaware Supreme Court Case 213-2025 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "tpr"
+          ],
+          "child_welfare_reason": "High: TPR",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "306-2025",
+          "title": "Martin Schnell v. DSCYF TPR",
+          "url": "https://law.justia.com/cases/delaware/supreme-court/2025/306-2025.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Delaware Supreme Court Case 306-2025 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "tpr"
+          ],
+          "child_welfare_reason": "High: TPR",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "307-2025",
+          "title": "Shelby Davis v. DSCYF TPR",
+          "url": "https://law.justia.com/cases/delaware/supreme-court/2025/307-2025.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Delaware Supreme Court Case 307-2025 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "tpr"
+          ],
+          "child_welfare_reason": "High: TPR",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "242-2025",
+          "title": "Storm v. DSCYF TPR",
+          "url": "https://law.justia.com/cases/delaware/supreme-court/2025/242-2025.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Delaware Supreme Court Case 242-2025 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "tpr"
+          ],
+          "child_welfare_reason": "High: TPR",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "189-2025",
+          "title": "Ross v. DSCYF/DFS",
+          "url": "https://law.justia.com/cases/delaware/supreme-court/2025/189-2025.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Delaware Supreme Court Case 189-2025 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: DFS",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "301-2025",
+          "title": "In the Matter of the Petition of Marvin L. Brown, Sr. for a Writ of Habeas Corpus",
+          "url": "https://law.justia.com/cases/delaware/supreme-court/2025/301-2025.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Delaware Supreme Court Case 301-2025 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Matter of",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "254-2025",
+          "title": "In the Matter of Rolf D. Brewster, a person with a disability",
+          "url": "https://law.justia.com/cases/delaware/supreme-court/2025/254-2025.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Delaware Supreme Court Case 254-2025 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Matter of",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "156-2025",
+          "title": "In the Matter of the Petition of Hillard M. Winn for a Writ of Prohibition",
+          "url": "https://law.justia.com/cases/delaware/supreme-court/2025/156-2025.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Delaware Supreme Court Case 156-2025 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Matter of",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "421-2024",
+          "title": "In the Matter of Clifford W. Sadler, a person with a disability",
+          "url": "https://law.justia.com/cases/delaware/supreme-court/2025/421-2024.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Delaware Supreme Court Case 421-2024 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Matter of",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "41-2025",
+          "title": "Richards v. Department of Services for Children, Youth and Their Families, Division of Family Services",
+          "url": "https://law.justia.com/cases/delaware/supreme-court/2025/41-2025.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Delaware Supreme Court Case 41-2025 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Family Services",
+          "provision_match": "DUE_PROCESS"
+        }
+      ],
+      "triggers_at_nodes": [
+        "DEC-05",
+        "DEC-06",
+        "ACT-04",
+        "OUT-02",
+        "OUT-03"
+      ]
+    }
+  ],
+  "unique_state_protections": [],
+  "case_law_search_keywords": [
+    "Delaware Division of Family Services",
+    "CPS",
+    "due process",
+    "14th Amendment",
+    "42 U.S.C. 1983",
+    "reasonable efforts",
+    "reunification",
+    "emergency removal",
+    "wrongful removal",
+    "exigent circumstances",
+    "abuse",
+    "familial association"
+  ],
+  "state_supreme_court_cps_cases": [
+    {
+      "case_id": "213-2025",
+      "title": "Roy Harris v. DSCYF TPR",
+      "url": "https://law.justia.com/cases/delaware/supreme-court/2025/213-2025.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Delaware Supreme Court Case 213-2025 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "tpr"
+      ],
+      "child_welfare_reason": "High: TPR",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "306-2025",
+      "title": "Martin Schnell v. DSCYF TPR",
+      "url": "https://law.justia.com/cases/delaware/supreme-court/2025/306-2025.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Delaware Supreme Court Case 306-2025 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "tpr"
+      ],
+      "child_welfare_reason": "High: TPR",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "307-2025",
+      "title": "Shelby Davis v. DSCYF TPR",
+      "url": "https://law.justia.com/cases/delaware/supreme-court/2025/307-2025.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Delaware Supreme Court Case 307-2025 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "tpr"
+      ],
+      "child_welfare_reason": "High: TPR",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "242-2025",
+      "title": "Storm v. DSCYF TPR",
+      "url": "https://law.justia.com/cases/delaware/supreme-court/2025/242-2025.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Delaware Supreme Court Case 242-2025 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "tpr"
+      ],
+      "child_welfare_reason": "High: TPR",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "189-2025",
+      "title": "Ross v. DSCYF/DFS",
+      "url": "https://law.justia.com/cases/delaware/supreme-court/2025/189-2025.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Delaware Supreme Court Case 189-2025 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: DFS",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "301-2025",
+      "title": "In the Matter of the Petition of Marvin L. Brown, Sr. for a Writ of Habeas Corpus",
+      "url": "https://law.justia.com/cases/delaware/supreme-court/2025/301-2025.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Delaware Supreme Court Case 301-2025 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Matter of",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "254-2025",
+      "title": "In the Matter of Rolf D. Brewster, a person with a disability",
+      "url": "https://law.justia.com/cases/delaware/supreme-court/2025/254-2025.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Delaware Supreme Court Case 254-2025 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Matter of",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "156-2025",
+      "title": "In the Matter of the Petition of Hillard M. Winn for a Writ of Prohibition",
+      "url": "https://law.justia.com/cases/delaware/supreme-court/2025/156-2025.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Delaware Supreme Court Case 156-2025 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Matter of",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "421-2024",
+      "title": "In the Matter of Clifford W. Sadler, a person with a disability",
+      "url": "https://law.justia.com/cases/delaware/supreme-court/2025/421-2024.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Delaware Supreme Court Case 421-2024 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Matter of",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "41-2025",
+      "title": "Richards v. Department of Services for Children, Youth and Their Families, Division of Family Services",
+      "url": "https://law.justia.com/cases/delaware/supreme-court/2025/41-2025.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Delaware Supreme Court Case 41-2025 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Family Services",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "512-2024",
+      "title": "Banks v. Division of Family Services and Office of Child Advocate",
+      "url": "https://law.justia.com/cases/delaware/supreme-court/2025/512-2024.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Delaware Supreme Court Case 512-2024 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "advocate"
+      ],
+      "child_welfare_reason": "High: Family Services",
+      "provision_match": "RIGHT_TO_COUNSEL"
+    },
+    {
+      "case_id": "191-2023",
+      "title": "Watson v. Division of Family Services and Office of Child Advocate",
+      "url": "https://law.justia.com/cases/delaware/supreme-court/2024/191-2023.html",
+      "year": 2024,
+      "court": "Supreme Court",
+      "citation": "Delaware Supreme Court Case 191-2023 (2024)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "advocate"
+      ],
+      "child_welfare_reason": "High: Family Services",
+      "provision_match": "RIGHT_TO_COUNSEL"
+    },
+    {
+      "case_id": "206-2023",
+      "title": "Anderson v. Division of Family Services and Office of Child Advocate",
+      "url": "https://law.justia.com/cases/delaware/supreme-court/2024/206-2023.html",
+      "year": 2024,
+      "court": "Supreme Court",
+      "citation": "Delaware Supreme Court Case 206-2023 (2024)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "advocate"
+      ],
+      "child_welfare_reason": "High: Family Services",
+      "provision_match": "RIGHT_TO_COUNSEL"
+    }
+  ],
+  "procedural_weight_modifiers": {
+    "explicit_privacy_right": 0,
+    "note": "Modifiers adjust procedural_weight for state nodes based on enhanced protections"
+  },
+  "_metadata": {
+    "created": "2025-12-22T20:38:16.835817",
+    "source": "state_constitution_etl",
+    "data_sources": [
+      "justia",
+      "state_legislature",
+      "courtlistener_keywords"
+    ],
+    "requires_case_law_enrichment": false,
+    "case_law_enriched": "2025-12-24T20:37:15.422436+00:00",
+    "enricher_version": "1.0.0",
+    "cases_analyzed": 146,
+    "cases_linked": 10
+  },
+  "case_law_search": {
+    "search_keywords": [
+      "Delaware Division of Family Services",
+      "CPS",
+      "due process",
+      "14th Amendment",
+      "42 U.S.C. 1983",
+      "reasonable efforts",
+      "reunification",
+      "emergency removal",
+      "wrongful removal",
+      "exigent circumstances"
+    ],
+    "courtlistener_url": "https://www.courtlistener.com/?q=%22Delaware%22%20AND%20%28%22Delaware%20Division%20of%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
+    "supreme_court_focus": true,
+    "_note": "Search for state supreme court cases on CPS constitutional issues"
+  }
+}

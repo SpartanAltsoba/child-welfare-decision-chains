@@ -1,0 +1,214 @@
+{
+  "federal_fail_nodes": [
+    {
+      "subnode": "FAIL-01",
+      "state": "United States",
+      "node": "FAIL",
+      "failure_name": "Judicial Reversal / Appeal of Agency Action",
+      "theme_color": "#FF6347",
+      "icon": "⚖️",
+      "summary_html": "A **court reverses or vacates** a CPS or agency decision due to procedural error, insufficient evidence, or constitutional violation. Federal review data (CFSR, ASFA) tracks judicial determinations on reasonable efforts and due process.",
+      "authority_html": "- **Adoption and Safe Families Act (ASFA)** — judicial findings of 'reasonable efforts' compliance  \n- **CFSR Regulations (45 CFR Part 1355)** — federal review of judicial/agency conformity  \n- **42 U.S.C. § 1983** — civil-rights remedy for unconstitutional removals (14th & 4th Amendments).",
+      "urls": {
+        "ASFA_PDF": "https://www.govinfo.gov/content/pkg/PLAW-105publ89/pdf/PLAW-105publ89.pdf",
+        "CFSR_CFR": "https://www.law.cornell.edu/cfr/text/45/part-1355"
+      },
+      "statutory_authority": {
+        "federal": [
+          "Public Law 105-89 (ASFA)",
+          "45 CFR Part 1355 (CFSR)",
+          "42 U.S.C. § 1983 (Civil Rights Act)"
+        ],
+        "state": []
+      },
+      "linked_output": "OUT-02",
+      "linked_action": "ACT-03",
+      "linked_decision": "DEC-04",
+      "linked_input": "INP-01",
+      "failure_basis": "Court finds state failed to meet evidentiary or procedural standards; order reversed or vacated.",
+      "corrective_hooks": "Remand for compliance; damages under §1983; policy revision via state DSS or court rule.",
+      "domain": "civil",
+      "procedural_weight": 0.8,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "ASFA and CFSR oversight; §1983 judicial remedy"
+      ],
+      "trigger_name": "Court Reversal of Agency Decision"
+    },
+    {
+      "subnode": "FAIL-02",
+      "state": "United States",
+      "node": "FAIL",
+      "failure_name": "Unlawful Removal / Due-Process Violation",
+      "theme_color": "#B22222",
+      "icon": "🚨",
+      "summary_html": "A **child is removed without exigency or warrant**, violating constitutional rights. Federal courts treat such removals as seizures under the Fourth and Fourteenth Amendments, actionable via §1983.",
+      "authority_html": "- **ASFA / SSA Title IV-E** — limits removals to lawful emergencies and requires judicial review  \n- **U.S. Constitution (4th & 14th Amendments)** — protects family integrity; requires due process",
+      "urls": {
+        "ASFA_PDF": "https://www.govinfo.gov/content/pkg/PLAW-105publ89/pdf/PLAW-105publ89.pdf",
+        "SSA_IV_E_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-7/subchapter-IV/part-E"
+      },
+      "statutory_authority": {
+        "federal": [
+          "Public Law 105-89 (ASFA)",
+          "42 U.S.C. §§ 670–679c (SSA Title IV-E)",
+          "U.S. Constitution, Amendments IV & XIV"
+        ],
+        "state": []
+      },
+      "linked_output": "OUT-05",
+      "linked_action": "ACT-03",
+      "linked_decision": "DEC-04",
+      "linked_input": "INP-01",
+      "failure_basis": "Child seized absent imminent danger or warrant; later found unconstitutional or unjustified.",
+      "corrective_hooks": "§1983 civil action; injunctive relief; damages; federal monitoring under CFSR safety indicators.",
+      "domain": "civil",
+      "procedural_weight": 0.9,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "ASFA and constitutional seizure limits"
+      ],
+      "trigger_name": "Unlawful Removal"
+    },
+    {
+      "subnode": "FAIL-03",
+      "state": "United States",
+      "node": "FAIL",
+      "failure_name": "Agency Noncompliance / Funding Sanction",
+      "theme_color": "#FF8C00",
+      "icon": "💸",
+      "summary_html": "A **state agency fails** to meet federal child-welfare performance standards, triggering **funding penalties** or corrective action under the CFSR or Single Audit Act.",
+      "authority_html": "- **Child & Family Services Reviews (45 CFR Part 1355)** — performance oversight and penalties  \n- **Single Audit Act (31 U.S.C. §§ 7501–7507)** — audit of federally funded programs  \n- **Inspector General Act (5 U.S.C. App.)** — oversight authority for HHS/OIG",
+      "urls": {
+        "CFSR_CFR": "https://www.law.cornell.edu/cfr/text/45/part-1355",
+        "SAA_Cornell": "https://www.law.cornell.edu/uscode/text/31/chapter-75",
+        "IGA_Cornell": "https://www.law.cornell.edu/uscode/text/5a/appendix-3"
+      },
+      "statutory_authority": {
+        "federal": [
+          "45 CFR Part 1355 (CFSR)",
+          "31 U.S.C. §§ 7501–7507 (Single Audit Act)",
+          "5 U.S.C. App. (Inspector General Act)"
+        ],
+        "state": []
+      },
+      "linked_output": "OUT-06",
+      "linked_action": "ACT-03",
+      "linked_decision": "DEC-04",
+      "linked_input": "INP-01",
+      "failure_basis": "Federal review finds systemic noncompliance with safety, permanency, or well-being metrics.",
+      "corrective_hooks": "Program Improvement Plan (PIP); loss of IV-E reimbursement; OIG monitoring.",
+      "domain": "civil",
+      "procedural_weight": 0.7,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "CFSR, Single Audit Act, and IG Act links"
+      ],
+      "trigger_name": "Federal Compliance Failure"
+    },
+    {
+      "subnode": "FAIL-04",
+      "state": "United States",
+      "node": "FAIL",
+      "failure_name": "Child Fatality / Serious Injury Under Supervision",
+      "theme_color": "#8B0000",
+      "icon": "⚰️",
+      "summary_html": "A child dies or suffers serious harm while **under agency supervision**, constituting systemic failure. Federal law mandates disclosure and review to identify causes and reforms.",
+      "authority_html": "- **Protect Our Kids Act (PL 112-275)** — federal commission and review requirements  \n- **CAPTA §5106a(b)(2)(A)(x)** — mandates public disclosure of child-fatality cases",
+      "urls": {
+        "POKA_PLAW": "https://www.congress.gov/112/plaws/publ275/PLAW-112publ275.pdf",
+        "CAPTA_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-67"
+      },
+      "statutory_authority": {
+        "federal": [
+          "Public Law 112-275 (Protect Our Kids Act)",
+          "42 U.S.C. §§ 5101–5116 (CAPTA)"
+        ],
+        "state": []
+      },
+      "linked_output": "OUT-06",
+      "linked_action": "ACT-03",
+      "linked_decision": "DEC-04",
+      "linked_input": "INP-01",
+      "failure_basis": "Fatality or serious injury occurs after agency involvement or placement; oversight failures identified.",
+      "corrective_hooks": "Mandatory CAPTA review; publication of findings; policy revisions; federal/state corrective plans.",
+      "domain": "civil",
+      "procedural_weight": 0.3,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "Protect Our Kids Act and CAPTA fatality review mandates"
+      ],
+      "trigger_name": "Child Death Under Agency Supervision"
+    },
+    {
+      "subnode": "FAIL-05",
+      "state": "United States",
+      "node": "FAIL",
+      "failure_name": "Discriminatory or Retaliatory Practice",
+      "theme_color": "#800080",
+      "icon": "🚫",
+      "summary_html": "Agency or actor engages in **discriminatory or retaliatory action**, violating civil-rights or placement-equality provisions. Federal statutes prohibit race, religion, sex, or disability bias in placements or investigations.",
+      "authority_html": "- **Multiethnic Placement Act (MEPA) & Interethnic Adoption Provisions (IEP)** — prohibits race/ethnicity discrimination in placements  \n- **Civil Rights Act (42 U.S.C. § 2000d)** — Title VI discrimination prohibitions in federally funded programs",
+      "urls": {
+        "MEPA_PLAW": "https://www.congress.gov/103/plaws/publ382/PLAW-103publ382.pdf",
+        "CivilRights_Cornell": "https://www.law.cornell.edu/uscode/text/42/2000d"
+      },
+      "statutory_authority": {
+        "federal": [
+          "Public Law 103-382 (MEPA/IEP)",
+          "42 U.S.C. § 2000d (Title VI Civil Rights Act)"
+        ],
+        "state": []
+      },
+      "linked_output": "OUT-02",
+      "linked_action": "ACT-04",
+      "linked_decision": "DEC-04",
+      "linked_input": "INP-01",
+      "failure_basis": "Placement, investigation, or service allocation influenced by impermissible bias or retaliation.",
+      "corrective_hooks": "OIG/DOJ civil-rights investigation; corrective action plans; possible funding suspension.",
+      "domain": "civil",
+      "procedural_weight": 0.75,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "MEPA/IEP and Title VI provisions"
+      ],
+      "trigger_name": "Discrimination / Retaliation"
+    },
+    {
+      "subnode": "FAIL-06",
+      "state": "United States",
+      "node": "FAIL",
+      "failure_name": "Data Suppression / Transparency Violation",
+      "theme_color": "#708090",
+      "icon": "🕳️",
+      "summary_html": "Agency fails to **disclose required data or reports**, obstructing transparency. Federal statutes require public reporting under CAPTA, FOIA, and Sunshine provisions.",
+      "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — mandates public availability of child-fatality information  \n- **Freedom of Information Act (5 U.S.C. § 552)** — public access to federal records  \n- **Government in the Sunshine Act (5 U.S.C. § 552b)** — open-meeting requirements",
+      "urls": {
+        "CAPTA_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-67",
+        "FOIA_Cornell": "https://www.law.cornell.edu/uscode/text/5/552",
+        "Sunshine_Cornell": "https://www.law.cornell.edu/uscode/text/5/552b"
+      },
+      "statutory_authority": {
+        "federal": [
+          "42 U.S.C. §§ 5101–5116 (CAPTA)",
+          "5 U.S.C. § 552 (FOIA)",
+          "5 U.S.C. § 552b (Sunshine Act)"
+        ],
+        "state": []
+      },
+      "linked_output": "OUT-06",
+      "linked_action": "ACT-03",
+      "linked_decision": "DEC-04",
+      "linked_input": "INP-01",
+      "failure_basis": "Agency or contractor conceals data or obstructs mandated transparency reporting.",
+      "corrective_hooks": "FOIA enforcement; federal audit; CAPTA compliance plan; possible funding sanctions.",
+      "domain": "civil",
+      "procedural_weight": 0.6,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "CAPTA, FOIA, and Sunshine Act transparency rules"
+      ],
+      "trigger_name": "Disclosure / Transparency Failure"
+    }
+  ]
+}

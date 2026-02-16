@@ -1,0 +1,251 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Evaluation Capsule Schema",
+  "description": "Schema for evaluating CPS decision chain nodes against constitutional and federal planes",
+  "version": "1.0.0",
+  "type": "object",
+  "required": ["node_id", "state", "evaluation_timestamp", "constitutional_alignment", "federal_alignment", "fairness", "structural_advantage"],
+  "properties": {
+    "node_id": {
+      "type": "string",
+      "description": "The decision chain node being evaluated (e.g., 'CA_INP-01', 'TX_DEC-04')",
+      "pattern": "^[A-Z]{2}_[A-Z]+-[0-9]{2}$"
+    },
+    "state": {
+      "type": "string",
+      "description": "State abbreviation",
+      "pattern": "^[A-Z]{2}$"
+    },
+    "node_family": {
+      "type": "string",
+      "enum": ["INP", "DEC", "ACT", "OUT", "FAIL", "PMC"],
+      "description": "The decision chain family this node belongs to"
+    },
+    "evaluation_timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When this evaluation was generated"
+    },
+    "constitutional_alignment": {
+      "type": "object",
+      "description": "Evaluation against constitutional plane constraints",
+      "properties": {
+        "overall_alignment": {
+          "type": "string",
+          "enum": ["aligned", "conditional", "tension", "violation"],
+          "description": "Overall constitutional alignment status"
+        },
+        "constraints_triggered": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "constraint_id": {"type": "string"},
+              "constraint_name": {"type": "string"},
+              "alignment": {"type": "string", "enum": ["aligned", "conditional", "tension", "violation"]},
+              "rationale": {"type": "string"},
+              "risk_factors": {"type": "array", "items": {"type": "string"}}
+            }
+          }
+        },
+        "procedural_weight": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Inherited from node - higher = more procedural protection"
+        },
+        "due_process_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Calculated due process adequacy score"
+        }
+      }
+    },
+    "federal_alignment": {
+      "type": "object",
+      "description": "Evaluation against federal statutory plane",
+      "properties": {
+        "overall_alignment": {
+          "type": "string",
+          "enum": ["baseline", "meets", "exceeds", "below"],
+          "description": "Overall federal alignment status"
+        },
+        "requirements_applicable": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "requirement_id": {"type": "string"},
+              "requirement_name": {"type": "string"},
+              "alignment": {"type": "string", "enum": ["baseline", "meets", "exceeds", "below"]},
+              "rationale": {"type": "string"},
+              "funding_risk": {"type": "boolean"}
+            }
+          }
+        }
+      }
+    },
+    "fairness": {
+      "type": "object",
+      "description": "Fairness-first evaluation of this decision point",
+      "properties": {
+        "score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Overall fairness score (0 = unfair, 1 = maximally fair)"
+        },
+        "components": {
+          "type": "object",
+          "properties": {
+            "notice_quality": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1,
+              "description": "Adequacy of notice to affected parties"
+            },
+            "hearing_adequacy": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1,
+              "description": "Meaningfulness of hearing opportunity"
+            },
+            "time_to_review": {
+              "type": "string",
+              "description": "Time between action and judicial review (e.g., '72 hours')"
+            },
+            "reversibility": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1,
+              "description": "How easily can harm be undone (0 = irreversible, 1 = fully reversible)"
+            },
+            "evidence_standard": {
+              "type": "string",
+              "description": "Standard of proof applied (preponderance, clear_and_convincing, beyond_reasonable_doubt)"
+            },
+            "representation_access": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1,
+              "description": "Access to legal representation at this stage"
+            }
+          }
+        },
+        "rationale": {
+          "type": "string",
+          "description": "Explanation of fairness assessment"
+        }
+      }
+    },
+    "structural_advantage": {
+      "type": "object",
+      "description": "Analysis of which actor benefits from the decision structure",
+      "properties": {
+        "beneficiary": {
+          "type": "string",
+          "enum": ["agency", "parent", "child", "neutral", "court"],
+          "description": "Which actor the current structure advantages"
+        },
+        "confidence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Confidence in the advantage assessment"
+        },
+        "drivers": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Factors creating the structural advantage"
+        },
+        "lock_in_risk": {
+          "type": "boolean",
+          "description": "Whether this decision point creates irreversible advantage"
+        },
+        "asymmetries": {
+          "type": "object",
+          "properties": {
+            "information": {"type": "string", "description": "Information asymmetry analysis"},
+            "resources": {"type": "string", "description": "Resource asymmetry analysis"},
+            "timing": {"type": "string", "description": "Timing/urgency asymmetry analysis"}
+          }
+        }
+      }
+    },
+    "obligations": {
+      "type": "object",
+      "description": "Obligations of each actor at this decision point",
+      "properties": {
+        "agency": {
+          "type": "object",
+          "properties": {
+            "obligations": {"type": "array", "items": {"type": "string"}},
+            "satisfaction_checkable": {"type": "boolean"},
+            "accountability_mechanism": {"type": "string"}
+          }
+        },
+        "parent": {
+          "type": "object",
+          "properties": {
+            "obligations": {"type": "array", "items": {"type": "string"}},
+            "rights_at_stake": {"type": "array", "items": {"type": "string"}}
+          }
+        },
+        "court": {
+          "type": "object",
+          "properties": {
+            "obligations": {"type": "array", "items": {"type": "string"}},
+            "findings_required": {"type": "array", "items": {"type": "string"}}
+          }
+        },
+        "reporter": {
+          "type": "object",
+          "properties": {
+            "obligations": {"type": "array", "items": {"type": "string"}},
+            "protections": {"type": "array", "items": {"type": "string"}}
+          }
+        }
+      }
+    },
+    "oversight": {
+      "type": "object",
+      "description": "Oversight triggers and activation status",
+      "properties": {
+        "expected_triggers": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Oversight mechanisms that should activate"
+        },
+        "activation_likelihood": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Likelihood these triggers actually fire"
+        },
+        "suppression_risk": {
+          "type": "boolean",
+          "description": "Whether oversight is commonly suppressed or delayed"
+        },
+        "suppression_factors": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Factors that may suppress oversight"
+        }
+      }
+    },
+    "advocacy_hooks": {
+      "type": "array",
+      "description": "Parent advocacy leverage points at this node",
+      "items": {
+        "type": "object",
+        "properties": {
+          "hook": {"type": "string", "description": "The advocacy action available"},
+          "legal_basis": {"type": "string", "description": "Legal authority for this action"},
+          "effectiveness": {"type": "string", "enum": ["high", "medium", "low"]},
+          "timing": {"type": "string", "description": "When this action should be taken"}
+        }
+      }
+    }
+  }
+}

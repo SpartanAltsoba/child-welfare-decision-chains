@@ -1,0 +1,331 @@
+{
+  "node_id": "PA_FAIL-02",
+  "state": "PA",
+  "state_name": "Pennsylvania",
+  "node_family": "FAIL",
+  "subnode": "FAIL-02",
+  "trigger_name": "Unlawful Removal",
+  "summary_html": "A **child is removed without exigency or warrant**, violating constitutional rights. Federal courts treat such removals as seizures under the Fourth and Fourteenth Amendments, actionable via \u00a71983.",
+  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 limits removals to lawful emergencies and requires judicial review  \n- **U.S. Constitution (4th & 14th Amendments)** \u2014 protects family integrity; requires due process",
+  "icon": "\ud83d\udea8",
+  "theme_color": "#B22222",
+  "domain": "civil",
+  "procedural_weight": 0.9,
+  "federal_alignment_flag": "baseline",
+  "urls": {
+    "ASFA_PDF": "https://www.govinfo.gov/content/pkg/PLAW-105publ89/pdf/PLAW-105publ89.pdf",
+    "SSA_IV_E_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-7/subchapter-IV/part-E"
+  },
+  "layers": {
+    "constitutional": {
+      "constraints_triggered": [],
+      "alignment": "aligned"
+    },
+    "federal": {
+      "requirements_applicable": [
+        "Public Law 105-89 (ASFA)",
+        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)",
+        "U.S. Constitution, Amendments IV & XIV"
+      ]
+    },
+    "state_statutory": {
+      "primary_citations": [
+        {
+          "citation_text": "Pennsylvania - Title 23 Pa.C.S. Chapter\u00a063 (Child Protective Services Law)",
+          "source_url": "https://law.onecle.com/pennsylvania/title-23/chapter-63/index.html",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Pennsylvania - 42 Pa.C.S. Chapter\u00a063 (Juvenile Act \u2013 dependency proceedings)",
+          "source_url": "https://www.legis.state.pa.us/cfdocs/legis/LI/consCheck.cfm?txtType=HTM&ttl=4&div=0&chpt=2",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-22",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Title 23: Domestic Relations - CHILD WELFARE PRIMARY",
+          "source_url": "https://law.justia.com/codes/pennsylvania/title-23/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 42: Judiciary - Juvenile Matters",
+          "source_url": "https://law.justia.com/codes/pennsylvania/title-42/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 55: Public Welfare",
+          "source_url": "https://law.justia.com/codes/pennsylvania/title-55/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Title 62: Human Services Code",
+          "source_url": "https://law.justia.com/codes/pennsylvania/title-62/",
+          "authority_type": "state_statute",
+          "last_verified": "2025-12-24",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        }
+      ]
+    },
+    "administrative_rule": {
+      "regulations_applicable": [
+        {
+          "title": "Title 55 - HUMAN SERVICES",
+          "url": "https://www.law.cornell.edu/regulations/pennsylvania/title-55"
+        },
+        {
+          "title": "Title 237 - JUVENILE RULES",
+          "url": "https://www.law.cornell.edu/regulations/pennsylvania/title-237"
+        },
+        {
+          "title": "Title 246 - MINOR COURT CIVIL RULES",
+          "url": "https://www.law.cornell.edu/regulations/pennsylvania/title-246"
+        }
+      ],
+      "source_url": "https://www.law.cornell.edu/regulations/pennsylvania.html"
+    },
+    "state_constitutional": {
+      "plane_reference": "state_constitutional_PA",
+      "plane_file": "legal_planes/state_constitutional/PA_constitution.json",
+      "provisions_triggered": []
+    },
+    "case_law": {
+      "search_keywords": [
+        "Pennsylvania Department of Human Services",
+        "Children and Youth Services",
+        "CYS",
+        "CPS",
+        "due process",
+        "14th Amendment",
+        "42 U.S.C. 1983",
+        "reasonable efforts",
+        "reunification",
+        "emergency removal"
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Pennsylvania%22%20AND%20%28%22Pennsylvania%20Department%20of%20Human%20Services%22%20OR%20%22Children%20and%20Youth%20Services%22%20OR%20%22CYS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%29&type=o&order_by=score+desc",
+      "relevant_case_types": [
+        "wrongful removal",
+        "1983 claim",
+        "civil rights",
+        "immunity",
+        "damages"
+      ],
+      "jurisdiction": "Pennsylvania state courts",
+      "key_cases": [
+        {
+          "case_id": "216-wal-2025",
+          "title": "In Re: Blythedale Park of: EQT Artemis - No. (Granted) (petitions for allowance of appeal)",
+          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/216-wal-2025.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Pennsylvania Supreme Court Case 216-wal-2025 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "1029-supreme-court-rules",
+          "title": "In Re: Appointments to the Orphans' Court Procedural Rules Committee (appointment)",
+          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/1029-supreme-court-rules.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Pennsylvania Supreme Court Case 1029-supreme-court-rules (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "3093-dd3",
+          "title": "In the Matter of: Paul T. Sosnowski (disciplinary order)",
+          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/3093-dd3.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Pennsylvania Supreme Court Case 3093-dd3 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "471-mal-2025",
+          "title": "In Re: Estate of Byerley, D. of: Byerley, D. (petitions for allowance of appeal)",
+          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/471-mal-2025.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Pennsylvania Supreme Court Case 471-mal-2025 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "398-judicial-classification",
+          "title": "In Re: Reassignment of Honorable Sierra Thomas Street to CCP First Judicial District Orphans' Division (appointment)",
+          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/398-judicial-classification.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Pennsylvania Supreme Court Case 398-judicial-classification (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "399-judicial-classification",
+          "title": "In Re: Reassignment of Honorable Daine A. Grey to CCP First Judicial District Trial Division (appointment)",
+          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/399-judicial-classification.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Pennsylvania Supreme Court Case 399-judicial-classification (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "65-rst-2025",
+          "title": "In the Matter of: James Richard Koban, II (disciplinary order)",
+          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/65-rst-2025.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Pennsylvania Supreme Court Case 65-rst-2025 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "66-rst-2025",
+          "title": "In the Matter of: Jarrod W. Harmon (disciplinary order)",
+          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/66-rst-2025.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Pennsylvania Supreme Court Case 66-rst-2025 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: Matter of"
+        },
+        {
+          "case_id": "648-judicial-administration-2025",
+          "title": "In RE: Duty Assignment Schedule for Emergency itions in the Year 2026 (rules)",
+          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/648-judicial-administration-2025.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Pennsylvania Supreme Court Case 648-judicial-administration-2025 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        },
+        {
+          "case_id": "593-mal-2025",
+          "title": "In Re: Adopt. of: J.E.M.-M., a Minor (petitions for allowance of appeal)",
+          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/593-mal-2025.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Pennsylvania Supreme Court Case 593-mal-2025 (2025)",
+          "relevance_score": 1.0,
+          "matched_keywords": [
+            "child welfare"
+          ],
+          "child_welfare_reason": "High: In re"
+        }
+      ],
+      "_note": "Use search URL to find relevant cases on CourtListener"
+    }
+  },
+  "state_agency": {
+    "name": "Children and Youth Services",
+    "acronym": "CYS",
+    "hotline": "1-800-932-0313",
+    "website": "https://www.legis.state.pa.us"
+  },
+  "linked_output": "OUT-05",
+  "linked_action": "ACT-03",
+  "linked_decision": "DEC-04",
+  "linked_input": "INP-01",
+  "_metadata": {
+    "created": "2025-12-22T19:33:40.815910",
+    "source": "real_data_etl",
+    "data_sources": [
+      "SCAN_2023",
+      "CSE_DomainMap",
+      "state_sources",
+      "federal_baseline"
+    ],
+    "federal_baseline": true,
+    "state_specific": true,
+    "schema_v3_updated": "2025-12-22T22:17:51.789816",
+    "schema_version": "3.0.0",
+    "trigger_name_fixed": "2025-12-22T22:53:02.416437",
+    "leaves_linked": "2025-12-24T18:14:22.304166+00:00",
+    "leaf_linker_version": "1.0.0"
+  },
+  "burden_of_proof": {
+    "standard": "preponderance",
+    "who_bears_burden": "parent",
+    "common_failures": [
+      "Failure to preserve evidence",
+      "Missing deadlines for legal challenges",
+      "Inadequate documentation of violations"
+    ]
+  },
+  "timeline_requirements": [
+    {
+      "requirement_name": "Appeal deadline",
+      "deadline": "30 days",
+      "starts_from": "Final order",
+      "source": "court_rule",
+      "consequence_of_miss": "Loss of appeal rights"
+    },
+    {
+      "requirement_name": "1983 statute of limitations",
+      "deadline": "2-3 years",
+      "starts_from": "Violation occurred",
+      "source": "federal_statute",
+      "consequence_of_miss": "Claim barred"
+    }
+  ],
+  "notice_requirements": [
+    {
+      "who_must_be_notified": [
+        "parent",
+        "attorney"
+      ],
+      "method": "personal_service",
+      "timing": "Upon violation discovery",
+      "content_required": [
+        "Nature of violation",
+        "Remedies available"
+      ],
+      "defective_notice_consequence": "May extend statute of limitations"
+    }
+  ]
+}

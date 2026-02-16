@@ -1,0 +1,393 @@
+{
+  "federal_inp_nodes": [
+    {
+      "subnode": "INP-01",
+      "trigger_name": "Mandatory Report",
+      "theme_color": "#1E90FF",
+      "icon": "📞",
+      "summary_html": "**Mandatory reporters** (designated professionals) must report suspected child abuse or neglect. Federal law sets the funding and policy floor (CAPTA) and mandates reporter frameworks on federal lands/facilities (VICAA).",
+      "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — federal floor for state reporting systems  \n- **Victims of Child Abuse Act (34 U.S.C. §§ 20301–20307)** — includes federal-facility reporter duties (recodified from former 42 U.S.C. §13031)",
+      "urls": {
+        "CAPTA_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-67",
+        "CAPTA_House": "https://uscode.house.gov/view.xhtml?path=/prelim@title42/chapter67&edition=prelim",
+        "CAPTA_PDF": "https://www.govinfo.gov/content/pkg/USCODE-2021-title42/pdf/USCODE-2021-title42-chap67.pdf",
+        "VICAA_Cornell": "https://www.law.cornell.edu/uscode/text/34/subtitle-II/chapter-203",
+        "VICAA_House": "https://uscode.house.gov/view.xhtml?path=/prelim@title34/subtitle2/chapter203&edition=prelim",
+        "VICAA_PDF": "https://www.govinfo.gov/content/pkg/USCODE-2021-title34/pdf/USCODE-2021-title34-subtitleII-chap203.pdf"
+      },
+      "statutory_authority": {
+        "federal": [
+          "42 U.S.C. §§ 5101–5116 (CAPTA)",
+          "34 U.S.C. §§ 20301–20307 (Victims of Child Abuse Act)"
+        ],
+        "state": []
+      },
+      "triggering_event": "A designated professional (e.g., health, education, law-enforcement, social work) has reasonable cause to suspect child abuse or neglect and files a report.",
+      "reporting_obligation": {
+        "when": "Immediately or as soon as practicable upon reasonable suspicion (state-defined timing; federal floor via CAPTA funding conditions).",
+        "to_whom": "Designated state CPS/child welfare agency or local law enforcement.",
+        "method": "Hotline, telephone, or other statutorily specified means with required content fields."
+      },
+      "domain": "civil",
+      "procedural_weight": 0.4,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "CAPTA refs and links",
+        "VICAA refs and links"
+      ]
+    },
+    {
+      "subnode": "INP-02",
+      "trigger_name": "Voluntary / Third-Party Report",
+      "theme_color": "#00CED1",
+      "icon": "🗣️",
+      "summary_html": "Any person (not just mandated reporters) may submit a **voluntary report** to child-protection authorities. CAPTA requires states to maintain mechanisms for intake, confidentiality, and immunity policies tied to federal funding.",
+      "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — requires states to operate intake/report systems that accept voluntary reports and protect good-faith reporters",
+      "urls": {
+        "CAPTA_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-67",
+        "CAPTA_House": "https://uscode.house.gov/view.xhtml?path=/prelim@title42/chapter67&edition=prelim",
+        "CAPTA_PDF": "https://www.govinfo.gov/content/pkg/USCODE-2021-title42/pdf/USCODE-2021-title42-chap67.pdf"
+      },
+      "statutory_authority": {
+        "federal": [
+          "42 U.S.C. §§ 5101–5116 (CAPTA)"
+        ],
+        "state": []
+      },
+      "triggering_event": "A private citizen or non-mandated individual reports suspected abuse/neglect.",
+      "reporting_obligation": {
+        "when": "As soon as practicable, upon knowledge or suspicion.",
+        "to_whom": "State CPS/child welfare intake or law enforcement.",
+        "method": "Hotline or other designated channels; confidentiality provisions apply."
+      },
+      "domain": "civil",
+      "procedural_weight": 0.4,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "CAPTA intake/reporting conditions"
+      ]
+    },
+    {
+      "subnode": "INP-03",
+      "trigger_name": "Law-Enforcement Referral",
+      "theme_color": "#DC143C",
+      "icon": "🚔",
+      "summary_html": "A **law-enforcement agency** encounters suspected maltreatment (e.g., during a domestic call or arrest) and **refers** to CPS. Federal child-abuse infrastructure promotes coordinated investigations via Children’s Advocacy Centers.",
+      "authority_html": "- **Victims of Child Abuse Act (34 U.S.C. §§ 20301–20307)** — support for multidisciplinary teams and CAC protocols; coordination with CPS  \n- **ASFA/SSA IV-E** — court findings and reasonable-efforts determinations later constrain downstream actions",
+      "urls": {
+        "VICAA_Cornell": "https://www.law.cornell.edu/uscode/text/34/subtitle-II/chapter-203",
+        "VICAA_House": "https://uscode.house.gov/view.xhtml?path=/prelim@title34/subtitle2/chapter203&edition=prelim",
+        "ASFA_PLAW": "https://www.congress.gov/105/plaws/publ89/PLAW-105publ89.pdf",
+        "ASFA_PDF": "https://www.govinfo.gov/content/pkg/PLAW-105publ89/pdf/PLAW-105publ89.pdf"
+      },
+      "statutory_authority": {
+        "federal": [
+          "34 U.S.C. §§ 20301–20307 (Victims of Child Abuse Act)",
+          "42 U.S.C. §§ 671–675 (ASFA-related IV-E conditions)"
+        ],
+        "state": []
+      },
+      "triggering_event": "Police encounter facts suggesting abuse/neglect and transmit a referral to CPS for screening/investigation.",
+      "reporting_obligation": {
+        "when": "Upon discovery or incident closure, per inter-agency protocols.",
+        "to_whom": "State CPS/child welfare intake unit.",
+        "method": "Direct referral, secure electronic exchange, or documented notice per MOU/policy."
+      },
+      "domain": "civil",
+      "procedural_weight": 0.45,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "VICAA multidisciplinary framework",
+        "ASFA IV-E court-finding context"
+      ]
+    },
+    {
+      "subnode": "INP-04",
+      "trigger_name": "Court-Ordered Referral",
+      "theme_color": "#8A2BE2",
+      "icon": "⚖️",
+      "summary_html": "A **judge orders** CPS to investigate or assess during civil/criminal proceedings. Federal funding statutes (ASFA/IV-E) tether court findings to child-welfare actions, embedding judicial oversight into intake-to-case flow.",
+      "authority_html": "- **ASFA (42 U.S.C. §§ 671–675)** — court ‘reasonable efforts’ findings; permanency timelines  \n- **SSA Title IV-E (42 U.S.C. §§ 670–679c)** — funding structure linking court oversight to agency actions",
+      "urls": {
+        "ASFA_PLAW": "https://www.congress.gov/105/plaws/publ89/PLAW-105publ89.pdf",
+        "ASFA_PDF": "https://www.govinfo.gov/content/pkg/PLAW-105publ89/pdf/PLAW-105publ89.pdf",
+        "SSA_IV_E_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-7/subchapter-IV/part-E"
+      },
+      "statutory_authority": {
+        "federal": [
+          "42 U.S.C. §§ 671–675 (ASFA/IV-E)",
+          "42 U.S.C. §§ 670–679c (Title IV-E framework)"
+        ],
+        "state": []
+      },
+      "triggering_event": "A court, in an existing proceeding, issues an order directing CPS to investigate or provide assessment/services.",
+      "reporting_obligation": {
+        "when": "As specified by court order or state rule.",
+        "to_whom": "Assigned CPS unit and the court.",
+        "method": "Filed report/assessment to the court and agency case system."
+      },
+      "domain": "civil",
+      "procedural_weight": 0.55,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "ASFA/IV-E court-finding nexus"
+      ]
+    },
+    {
+      "subnode": "INP-05",
+      "trigger_name": "Self-Report / Guardian Request",
+      "theme_color": "#32CD32",
+      "icon": "🧩",
+      "summary_html": "A **parent/guardian/child requests help** without a substantiated allegation. FFPSA created a federal pathway for **prevention services** to avert removal and stabilize families before a case escalates.",
+      "authority_html": "- **Family First Prevention Services Act (2018)** — prevention services, kinship support; shifts upstream from removal to support",
+      "urls": {
+        "FFPSA_PLAW": "https://www.congress.gov/115/plaws/publ123/PLAW-115publ123.pdf",
+        "FFPSA_PDF": "https://www.govinfo.gov/content/pkg/PLAW-115publ123/pdf/PLAW-115publ123.pdf",
+        "FFPSA_ChildWelfareGov": "https://www.childwelfare.gov/topics/systemwide/laws-policies/federal/family-first/"
+      },
+      "statutory_authority": {
+        "federal": [
+          "42 U.S.C. §§ 671–679b (FFPSA-related IV-E changes)"
+        ],
+        "state": []
+      },
+      "triggering_event": "A family voluntarily seeks assistance (e.g., mental health, parenting, housing navigation) to prevent crisis.",
+      "reporting_obligation": {
+        "when": "Upon intake request.",
+        "to_whom": "CPS prevention/IV-E prevention services unit or contracted provider.",
+        "method": "Documented prevention plan; informed consent; service referrals."
+      },
+      "domain": "civil",
+      "procedural_weight": 0.6,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "FFPSA authorities/links"
+      ]
+    },
+    {
+      "subnode": "INP-06",
+      "trigger_name": "Anonymous Tip / Hotline",
+      "theme_color": "#FF8C00",
+      "icon": "☎️",
+      "summary_html": "Reports via **state hotlines** (anonymous or confidential). CAPTA conditions funding on operating intake systems with confidentiality and good-faith protections.",
+      "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — intake, confidentiality, immunity, and data requirements tied to federal funding",
+      "urls": {
+        "CAPTA_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-67",
+        "CAPTA_House": "https://uscode.house.gov/view.xhtml?path=/prelim@title42/chapter67&edition=prelim",
+        "CAPTA_PDF": "https://www.govinfo.gov/content/pkg/USCODE-2021-title42/pdf/USCODE-2021-title42-chap67.pdf"
+      },
+      "statutory_authority": {
+        "federal": [
+          "42 U.S.C. §§ 5101–5116 (CAPTA)"
+        ],
+        "state": []
+      },
+      "triggering_event": "An anonymous/confidential reporter provides allegations to the hotline.",
+      "reporting_obligation": {
+        "when": "Immediate intake; screening timelines set by state policy within CAPTA conditions.",
+        "to_whom": "State CPS intake; law enforcement when indicated.",
+        "method": "Hotline call/electronic intake; confidentiality preserved; immunity for good-faith reporters."
+      },
+      "domain": "civil",
+      "procedural_weight": 0.4,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "CAPTA hotline/intake conditions"
+      ]
+    },
+    {
+      "subnode": "INP-07",
+      "trigger_name": "Medical Disclosure",
+      "theme_color": "#FF69B4",
+      "icon": "🏥",
+      "summary_html": "**Healthcare encounters** that reveal suspected abuse or neglect trigger reporting obligations. Federal law governs mandatory reporting in federal facilities and coordination with state systems.",
+      "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — state reporter systems and protections  \n- **Victims of Child Abuse Act (34 U.S.C. §§ 20301–20307)** — mandates in federal settings, CAC coordination",
+      "urls": {
+        "CAPTA_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-67",
+        "VICAA_Cornell": "https://www.law.cornell.edu/uscode/text/34/subtitle-II/chapter-203"
+      },
+      "statutory_authority": {
+        "federal": [
+          "42 U.S.C. §§ 5101–5116 (CAPTA)",
+          "34 U.S.C. §§ 20301–20307 (Victims of Child Abuse Act)"
+        ],
+        "state": []
+      },
+      "triggering_event": "A medical professional, during diagnosis or treatment, observes indicators consistent with abuse/neglect.",
+      "reporting_obligation": {
+        "when": "Immediately upon reasonable suspicion.",
+        "to_whom": "State CPS or law enforcement per state statute; federal-facility routes when applicable.",
+        "method": "Hotline or mandated facility protocol; documentation per statute/regulation."
+      },
+      "domain": "civil",
+      "procedural_weight": 0.45,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "CAPTA and VICAA medical reporter frameworks"
+      ]
+    },
+    {
+      "subnode": "INP-08",
+      "trigger_name": "Educational Disclosure",
+      "theme_color": "#FFD700",
+      "icon": "🎓",
+      "summary_html": "**Educators/school staff** observing indicators of abuse/neglect report to CPS under state mandatory-reporter lists built on the federal CAPTA floor.",
+      "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — requires robust reporter regimes that include education sector professionals",
+      "urls": {
+        "CAPTA_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-67",
+        "CAPTA_House": "https://uscode.house.gov/view.xhtml?path=/prelim@title42/chapter67&edition=prelim"
+      },
+      "statutory_authority": {
+        "federal": [
+          "42 U.S.C. §§ 5101–5116 (CAPTA)"
+        ],
+        "state": []
+      },
+      "triggering_event": "Teacher/school official identifies neglect/abuse indicators and files a mandatory report.",
+      "reporting_obligation": {
+        "when": "Immediately or per state-set time rule.",
+        "to_whom": "CPS intake or law enforcement.",
+        "method": "District protocols → hotline or law-enforcement notice; content as specified in statute."
+      },
+      "domain": "civil",
+      "procedural_weight": 0.4,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "CAPTA teacher/education inclusion under state reporter systems"
+      ]
+    },
+    {
+      "subnode": "INP-09",
+      "trigger_name": "Systemic Audit / Oversight Trigger",
+      "theme_color": "#708090",
+      "icon": "🧾",
+      "summary_html": "Findings by **federal/state oversight** (CFSR reviews, OIG audits, child-fatality commissions) can initiate investigations or corrective actions that open CPS involvement.",
+      "authority_html": "- **Protect Our Kids Act (PL 112-275)** — national commission on child abuse/neglect fatalities  \n- **Child & Family Services Reviews (45 CFR Part 1355)** — federal monitoring of state systems  \n- **Inspector General Act (5 U.S.C. App.)** — OIG oversight of HHS/ACF and grantees",
+      "urls": {
+        "POKA_PLAW": "https://www.congress.gov/112/plaws/publ275/PLAW-112publ275.pdf",
+        "POKA_PDF": "https://www.govinfo.gov/content/pkg/PLAW-112publ275/pdf/PLAW-112publ275.pdf",
+        "CFSR_CFR": "https://www.law.cornell.edu/cfr/text/45/part-1355",
+        "CFSR_eCFR": "https://www.ecfr.gov/current/title-45/subtitle-B/chapter-XIII/subchapter-G/part-1355",
+        "ACF_CFSR": "https://www.acf.hhs.gov/cb/monitoring/child-family-services-reviews",
+        "IGA_Cornell": "https://www.law.cornell.edu/uscode/text/5a/appendix-3"
+      },
+      "statutory_authority": {
+        "federal": [
+          "PL 112-275 (Protect Our Kids Act)",
+          "45 CFR Part 1355 (CFSR Regulations)",
+          "5 U.S.C. App. (Inspector General Act)"
+        ],
+        "state": []
+      },
+      "triggering_event": "An audit/review identifies risk, noncompliance, or fatalities patterns requiring CPS/agency action.",
+      "reporting_obligation": {
+        "when": "Per review timelines and corrective-action schedules.",
+        "to_whom": "Responsible CPS leadership; sometimes court-ordered compliance monitors.",
+        "method": "Formal findings → corrective action plans; referrals to investigative units as needed."
+      },
+      "domain": "civil",
+      "procedural_weight": 0.5,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "POKA, CFSR, IGA refs/links"
+      ]
+    },
+    {
+      "subnode": "INP-10",
+      "trigger_name": "Agency Escalation (Screening → Investigation)",
+      "theme_color": "#20B2AA",
+      "icon": "🔄",
+      "summary_html": "An intake **screen** is elevated to a formal **investigation/assessment** under state criteria. CAPTA and CFSR establish the federal expectations for screening, timelines, and investigative quality.",
+      "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — screening/investigation conditions for funding  \n- **CFSR (45 CFR Part 1355)** — federal performance/quality review framework",
+      "urls": {
+        "CAPTA_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-67",
+        "CFSR_CFR": "https://www.law.cornell.edu/cfr/text/45/part-1355"
+      },
+      "statutory_authority": {
+        "federal": [
+          "42 U.S.C. §§ 5101–5116 (CAPTA)",
+          "45 CFR Part 1355 (CFSR Regulations)"
+        ],
+        "state": []
+      },
+      "triggering_event": "CPS intake criteria are met; the screened report is escalated to investigation or differential response.",
+      "reporting_obligation": {
+        "when": "Within state-defined screening timelines consistent with federal guidance.",
+        "to_whom": "Assigned investigative/assessment unit.",
+        "method": "Case creation; notice to collateral agencies as required; documentation in SACWIS/CCWIS."
+      },
+      "domain": "civil",
+      "procedural_weight": 0.45,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "CAPTA/CFSR screening expectations"
+      ]
+    },
+    {
+      "subnode": "INP-11",
+      "trigger_name": "Federal / Tribal Jurisdiction Trigger",
+      "theme_color": "#4682B4",
+      "icon": "🏛️",
+      "summary_html": "Cases arising on **federal lands/facilities** or involving **Indian children** invoke federal/tribal jurisdictional rules (VICAA for federal facilities; **ICWA** for Indian children and tribal preference/jurisdiction).",
+      "authority_html": "- **VICAA (34 U.S.C. §§ 20301–20307)** — federal-facility reporting mandates  \n- **ICWA (25 U.S.C. §§ 1901–1963)** — tribal jurisdiction, placement preferences, notice to tribes",
+      "urls": {
+        "VICAA_Cornell": "https://www.law.cornell.edu/uscode/text/34/subtitle-II/chapter-203",
+        "ICWA_Cornell": "https://www.law.cornell.edu/uscode/text/25/chapter-21",
+        "ICWA_PDF": "https://www.govinfo.gov/content/pkg/USCODE-2021-title25/pdf/USCODE-2021-title25-chap21.pdf"
+      },
+      "statutory_authority": {
+        "federal": [
+          "34 U.S.C. §§ 20301–20307 (Victims of Child Abuse Act)",
+          "25 U.S.C. §§ 1901–1963 (ICWA)"
+        ],
+        "state": []
+      },
+      "triggering_event": "Abuse/neglect allegations on federal property or involving an Indian child as defined by ICWA.",
+      "reporting_obligation": {
+        "when": "Immediately upon suspicion; tribal/federal notice rules apply.",
+        "to_whom": "CPS intake; tribal authority and/or federal agency per ICWA/VICAA.",
+        "method": "Statutory notice to tribe; federal-facility protocols; parallel CPS intake record."
+      },
+      "domain": "civil",
+      "procedural_weight": 0.55,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "ICWA & VICAA jurisdictional anchors"
+      ]
+    },
+    {
+      "subnode": "INP-12",
+      "trigger_name": "Emergency / Protective Custody",
+      "theme_color": "#B22222",
+      "icon": "🚨",
+      "summary_html": "Immediate state action to **protect a child in imminent danger**. Federal law (ASFA/IV-E) ties funding to court findings on **reasonable efforts**, and constitutional limits (due process, 4th/14th Amendments) constrain warrantless removals.",
+      "authority_html": "- **ASFA / SSA Title IV-E** — reasonable-efforts findings; permanency timelines  \n- **CFSR (45 CFR Part 1355)** — federal oversight of removal decision quality  \n- **Constitutional constraints** — enforced via §1983 actions; due process & search/seizure jurisprudence (not listed in file but governs practice)",
+      "urls": {
+        "ASFA_PLAW": "https://www.congress.gov/105/plaws/publ89/PLAW-105publ89.pdf",
+        "ASFA_PDF": "https://www.govinfo.gov/content/pkg/PLAW-105publ89/pdf/PLAW-105publ89.pdf",
+        "SSA_IV_E_Cornell": "https://www.law.cornell.edu/uscode/text/42/chapter-7/subchapter-IV/part-E",
+        "CFSR_CFR": "https://www.law.cornell.edu/cfr/text/45/part-1355"
+      },
+      "statutory_authority": {
+        "federal": [
+          "42 U.S.C. §§ 670–679c (SSA Title IV-E)",
+          "ASFA (Public Law 105-89)",
+          "45 CFR Part 1355 (CFSR Regulations)"
+        ],
+        "state": []
+      },
+      "triggering_event": "Child faces imminent threat of serious harm; agency acts prior to court order.",
+      "reporting_obligation": {
+        "when": "Immediate removal followed by prompt judicial review (state-specific timeline; federally overseen).",
+        "to_whom": "Juvenile/dependency court; CPS leadership; law enforcement if criminal conduct present.",
+        "method": "Protective custody; emergency petition; notice to parties; court hearing within statutory window."
+      },
+      "domain": "civil",
+      "procedural_weight": 0.35,
+      "federal_alignment_flag": "baseline",
+      "source_reference": [
+        "ASFA/IV-E & CFSR anchors"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "plane_id": "state_constitutional_NM",
+  "plane_name": "New Mexico State Constitutional Plane",
+  "description": "New Mexico Constitution provisions relevant to child welfare and family rights.",
+  "authority_level": "state_supreme",
+  "state_code": "NM",
+  "state_name": "New Mexico",
+  "version": "1.0.0",
+  "created": "2025-12-22",
+  "updated": "2025-12-22",
+  "copyright": "Project Milk Carton 501(c)(3) - All Rights Reserved",
+  "constitution_source": {
+    "url": "https://laws.nmonesource.com/w/nmos/constitution",
+    "justia_url": "https://law.justia.com/constitution/new-mexico/",
+    "official_name": "New Mexico Constitution",
+    "last_amended": "2022-11-08",
+    "last_verified": "2025-12-22"
+  },
+  "relationship_to_federal": {
+    "supremacy_clause_applies": true,
+    "can_provide_greater_protection": true,
+    "cannot_provide_less_protection": true
+  },
+  "relevant_provisions": [
+    {
+      "provision_id": "NM_CONST_SEARCH_SEIZURE",
+      "name": "Search and Seizure",
+      "article": "Article II",
+      "section": "Section 10",
+      "url": "https://law.justia.com/constitution/new-mexico/#section-10",
+      "citation": "New Mexico Const. art. II, \u00a7 10",
+      "text": "The people shall be secure in their persons, papers, homes and effects, from unreasonable searches and seizures...",
+      "application_to_cps": "CPS removal of a child constitutes a seizure. Warrantless removals must meet exigent circumstances exception or be supported by court order.",
+      "federal_parallel": "U.S. Const. amend. IV",
+      "state_provides_greater_protection": false,
+      "key_cases": [],
+      "triggers_at_nodes": [
+        "INP-12",
+        "DEC-04",
+        "ACT-01",
+        "FAIL-01"
+      ]
+    },
+    {
+      "provision_id": "NM_CONST_DUE_PROCESS",
+      "name": "Due Process / Law of the Land",
+      "article": "Article II",
+      "section": "Section 18",
+      "url": "https://law.justia.com/constitution/new-mexico/#section-18",
+      "citation": "New Mexico Const. art. II, \u00a7 18",
+      "text": "No person shall be deprived of life, liberty or property without due process of law...",
+      "application_to_cps": "Parents have a fundamental liberty interest in the care and custody of their children. Termination of parental rights requires clear and convincing evidence and proper procedural protections.",
+      "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1",
+      "state_provides_greater_protection": false,
+      "key_cases": [
+        {
+          "case_id": "a-1-ca-41980",
+          "title": "In re Guardianship & Conservatorship of Linda D. (Unpublished Opinion)",
+          "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2025/a-1-ca-41980.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "New Mexico Court Of Appeals Case a-1-ca-41980 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re guardianship, In re",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "a-1-ca-42477",
+          "title": "In re Guardianship of Kenya A.C. (Unpublished Opinion)",
+          "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2025/a-1-ca-42477.html",
+          "year": 2025,
+          "court": "Court Of Appeals",
+          "citation": "New Mexico Court Of Appeals Case a-1-ca-42477 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re guardianship, In re",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "s-1-sc-40367",
+          "title": "In the Matter of Indahl",
+          "url": "https://law.justia.com/cases/new-mexico/supreme-court/2024/s-1-sc-40367.html",
+          "year": 2024,
+          "court": "Supreme Court",
+          "citation": "New Mexico Supreme Court Case s-1-sc-40367 (2024)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Matter of",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "a-1-ca-41410",
+          "title": "In re Guardianship of John F. J. (Unpublished Opinion)",
+          "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2024/a-1-ca-41410.html",
+          "year": 2024,
+          "court": "Court Of Appeals",
+          "citation": "New Mexico Court Of Appeals Case a-1-ca-41410 (2024)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re guardianship, In re",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "s-1-sc-39746",
+          "title": "In The Matter of Hon. J. Martin (Unpublished Opinion)",
+          "url": "https://law.justia.com/cases/new-mexico/supreme-court/2023/s-1-sc-39746.html",
+          "year": 2023,
+          "court": "Supreme Court",
+          "citation": "New Mexico Supreme Court Case s-1-sc-39746 (2023)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Matter of",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "a-1-ca-41078",
+          "title": "In re Kinship Guardianship Neneah L. v. Lara (Unpublished Opinion)",
+          "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2023/a-1-ca-41078.html",
+          "year": 2023,
+          "court": "Court Of Appeals",
+          "citation": "New Mexico Court Of Appeals Case a-1-ca-41078 (2023)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "a-1-ca-40051",
+          "title": "In the Matter of the Estate of Evelyn Chavez (Unpublished Opinion)",
+          "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2023/a-1-ca-40051.html",
+          "year": 2023,
+          "court": "Court Of Appeals",
+          "citation": "New Mexico Court Of Appeals Case a-1-ca-40051 (2023)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Matter of",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "a-1-ca-39174",
+          "title": "Doe v. WW Healthcare, LLC (Unpublished Opinion)",
+          "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2022/a-1-ca-39174.html",
+          "year": 2022,
+          "court": "Court Of Appeals",
+          "citation": "New Mexico Court Of Appeals Case a-1-ca-39174 (2022)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Doe plaintiff",
+          "provision_match": "DUE_PROCESS"
+        }
+      ],
+      "triggers_at_nodes": [
+        "DEC-05",
+        "DEC-06",
+        "ACT-04",
+        "OUT-02",
+        "OUT-03"
+      ]
+    }
+  ],
+  "unique_state_protections": [],
+  "case_law_search_keywords": [
+    "New Mexico Children Youth and Families Department",
+    "CYFD",
+    "CPS",
+    "due process",
+    "14th Amendment",
+    "42 U.S.C. 1983",
+    "reasonable efforts",
+    "reunification",
+    "emergency removal",
+    "wrongful removal",
+    "exigent circumstances",
+    "abuse",
+    "familial association"
+  ],
+  "state_supreme_court_cps_cases": [
+    {
+      "case_id": "a-1-ca-41980",
+      "title": "In re Guardianship & Conservatorship of Linda D. (Unpublished Opinion)",
+      "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2025/a-1-ca-41980.html",
+      "year": 2025,
+      "court": "Court Of Appeals",
+      "citation": "New Mexico Court Of Appeals Case a-1-ca-41980 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re guardianship, In re",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "a-1-ca-42477",
+      "title": "In re Guardianship of Kenya A.C. (Unpublished Opinion)",
+      "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2025/a-1-ca-42477.html",
+      "year": 2025,
+      "court": "Court Of Appeals",
+      "citation": "New Mexico Court Of Appeals Case a-1-ca-42477 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re guardianship, In re",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "s-1-sc-40367",
+      "title": "In the Matter of Indahl",
+      "url": "https://law.justia.com/cases/new-mexico/supreme-court/2024/s-1-sc-40367.html",
+      "year": 2024,
+      "court": "Supreme Court",
+      "citation": "New Mexico Supreme Court Case s-1-sc-40367 (2024)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Matter of",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "a-1-ca-41410",
+      "title": "In re Guardianship of John F. J. (Unpublished Opinion)",
+      "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2024/a-1-ca-41410.html",
+      "year": 2024,
+      "court": "Court Of Appeals",
+      "citation": "New Mexico Court Of Appeals Case a-1-ca-41410 (2024)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re guardianship, In re",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "s-1-sc-39746",
+      "title": "In The Matter of Hon. J. Martin (Unpublished Opinion)",
+      "url": "https://law.justia.com/cases/new-mexico/supreme-court/2023/s-1-sc-39746.html",
+      "year": 2023,
+      "court": "Supreme Court",
+      "citation": "New Mexico Supreme Court Case s-1-sc-39746 (2023)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Matter of",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "a-1-ca-41078",
+      "title": "In re Kinship Guardianship Neneah L. v. Lara (Unpublished Opinion)",
+      "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2023/a-1-ca-41078.html",
+      "year": 2023,
+      "court": "Court Of Appeals",
+      "citation": "New Mexico Court Of Appeals Case a-1-ca-41078 (2023)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "a-1-ca-40051",
+      "title": "In the Matter of the Estate of Evelyn Chavez (Unpublished Opinion)",
+      "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2023/a-1-ca-40051.html",
+      "year": 2023,
+      "court": "Court Of Appeals",
+      "citation": "New Mexico Court Of Appeals Case a-1-ca-40051 (2023)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Matter of",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "a-1-ca-39174",
+      "title": "Doe v. WW Healthcare, LLC (Unpublished Opinion)",
+      "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2022/a-1-ca-39174.html",
+      "year": 2022,
+      "court": "Court Of Appeals",
+      "citation": "New Mexico Court Of Appeals Case a-1-ca-39174 (2022)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Doe plaintiff",
+      "provision_match": "DUE_PROCESS"
+    }
+  ],
+  "procedural_weight_modifiers": {
+    "explicit_privacy_right": 0,
+    "note": "Modifiers adjust procedural_weight for state nodes based on enhanced protections"
+  },
+  "_metadata": {
+    "created": "2025-12-22T20:38:16.837422",
+    "source": "state_constitution_etl",
+    "data_sources": [
+      "justia",
+      "state_legislature",
+      "courtlistener_keywords"
+    ],
+    "requires_case_law_enrichment": false,
+    "case_law_enriched": "2025-12-24T20:37:15.826811+00:00",
+    "enricher_version": "1.0.0",
+    "cases_analyzed": 54,
+    "cases_linked": 8
+  },
+  "case_law_search": {
+    "search_keywords": [
+      "New Mexico Children Youth and Families Department",
+      "CYFD",
+      "CPS",
+      "due process",
+      "14th Amendment",
+      "42 U.S.C. 1983",
+      "reasonable efforts",
+      "reunification",
+      "emergency removal",
+      "wrongful removal"
+    ],
+    "courtlistener_url": "https://www.courtlistener.com/?q=%22New%20Mexico%22%20AND%20%28%22New%20Mexico%20Children%20Youth%20and%20Families%20Department%22%20OR%20%22CYFD%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
+    "supreme_court_focus": true,
+    "_note": "Search for state supreme court cases on CPS constitutional issues"
+  }
+}

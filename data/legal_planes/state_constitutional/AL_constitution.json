@@ -1,0 +1,525 @@
+{
+  "plane_id": "state_constitutional_AL",
+  "plane_name": "Alabama State Constitutional Plane",
+  "description": "Alabama Constitution provisions relevant to child welfare and family rights.",
+  "authority_level": "state_supreme",
+  "state_code": "AL",
+  "state_name": "Alabama",
+  "version": "1.0.0",
+  "created": "2025-12-22",
+  "updated": "2025-12-22",
+  "copyright": "Project Milk Carton 501(c)(3) - All Rights Reserved",
+  "constitution_source": {
+    "url": "https://alison.legislature.state.al.us/constitution",
+    "justia_url": "https://law.justia.com/constitution/alabama/",
+    "official_name": "Alabama Constitution",
+    "last_amended": "2022-11-08",
+    "last_verified": "2025-12-22"
+  },
+  "relationship_to_federal": {
+    "supremacy_clause_applies": true,
+    "can_provide_greater_protection": true,
+    "cannot_provide_less_protection": true
+  },
+  "relevant_provisions": [
+    {
+      "provision_id": "AL_CONST_SEARCH_SEIZURE",
+      "name": "Search and Seizure",
+      "article": "Article I",
+      "section": "Section 5",
+      "url": "https://alison.legislature.state.al.us/constitution?section=5",
+      "citation": "Alabama Const. art. I, \u00a7 5",
+      "text": "That the people shall be secure in their persons, houses, papers, and possessions from unreasonable seizure or searches...",
+      "application_to_cps": "CPS removal of a child constitutes a seizure. Warrantless removals must meet exigent circumstances exception or be supported by court order.",
+      "federal_parallel": "U.S. Const. amend. IV",
+      "state_provides_greater_protection": false,
+      "key_cases": [],
+      "triggers_at_nodes": [
+        "INP-12",
+        "DEC-04",
+        "ACT-01",
+        "FAIL-01"
+      ]
+    },
+    {
+      "provision_id": "AL_CONST_DUE_PROCESS",
+      "name": "Due Process / Law of the Land",
+      "article": "Article I",
+      "section": "Section 6",
+      "url": "https://alison.legislature.state.al.us/constitution?section=6",
+      "citation": "Alabama Const. art. I, \u00a7 6",
+      "text": "That in all criminal prosecutions, the accused has a right to be heard by himself and counsel, or either; to demand the nature and cause of the accusation; and to have a copy thereof; to be confronted by the witnesses against him; to have compulsory process for obtaining witnesses in his favor; to testify in all cases, in his own behalf, if he elects so to do; and, in all prosecutions by indictment, a speedy, public trial, by an impartial jury of the county or district in which the offense was committed; and he shall not be compelled to give evidence against himself, nor be deprived of life, liberty, or property, except by due process of law; but the legislature may, by a general law, provide for a change of venue at the instance of the defendant in all prosecutions by indictment, and such change of venue, on application of the defendant, may be heard and determined without the personal presence of the defendant so applying therefor; provided, that at the time of the application for the change of venue, the defendant is imprisoned in jail or some legal place of confinement.",
+      "application_to_cps": "Parents have a fundamental liberty interest in the care and custody of their children. Termination of parental rights requires clear and convincing evidence and proper procedural protections.",
+      "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1",
+      "state_provides_greater_protection": false,
+      "key_cases": [
+        {
+          "case_id": "sc-2025-0733",
+          "title": "Ex parte J.T.R. PETITION FOR WRIT OF CERTIORARI TO THE COURT OF CRIMINAL APPEALS (In re: J.T.R. v. State of Alabama) (DeKalb Circuit Court: CC-21-461, CC-21-462, and CC-21-463; Criminal Appeals: CR-2024-0475).",
+          "url": "https://law.justia.com/cases/alabama/supreme-court/2025/sc-2025-0733.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Alabama Supreme Court Case sc-2025-0733 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re initials, Ex parte initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "sc-2025-0809",
+          "title": "Ex parte M.O.E. PETITION FOR WRIT OF CERTIORARI TO THE COURT OF CIVIL APPEALS (In re: M.O.E. v. A.D.C.) (Mobile Juvenile Court: CS-23-900863; Civil Appeals: CL-2025-0008).",
+          "url": "https://law.justia.com/cases/alabama/supreme-court/2025/sc-2025-0809.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Alabama Supreme Court Case sc-2025-0809 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Juvenile Court, In re initials, Ex parte initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "sc-2025-0291",
+          "title": "Ex parte Michael Bryan Brasher PETITION FOR WRIT OF MANDAMUS (In re: B.A.S.S., LLC v. Michael Bryan Brasher) (Shelby Circuit Court: CV-25-900289).",
+          "url": "https://law.justia.com/cases/alabama/supreme-court/2025/sc-2025-0291.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Alabama Supreme Court Case sc-2025-0291 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "sc-2025-0681",
+          "title": "Ex parte J.R., Sr. PETITION FOR WRIT OF CERTIORARI TO THE COURT OF CIVIL APPEALS (In re: J.R., Sr. v. Tuscaloosa County Department of Human Resources) (Tuscaloosa Juvenile Court: JU-22-720.03; Civil Appeals: CL-2025-0165).",
+          "url": "https://law.justia.com/cases/alabama/supreme-court/2025/sc-2025-0681.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Alabama Supreme Court Case sc-2025-0681 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: DHR, Juvenile Court, JU case number, In re initials, Ex parte initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "sc-2025-0568",
+          "title": "Ex parte Keondre Vonterrius Foster PETITION FOR WRIT OF CERTIORARI TO THE COURT OF CRIMINAL APPEALS (In re: Keondre Vonterrius Foster v. State of Alabama) (Jefferson Circuit Court: CC-19-3909; Criminal Appeals: CR-2024-1020).",
+          "url": "https://law.justia.com/cases/alabama/supreme-court/2025/sc-2025-0568.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Alabama Supreme Court Case sc-2025-0568 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "sc-2025-0612",
+          "title": "Ex parte M.O.C. PETITION FOR WRIT OF CERTIORARI TO THE COURT OF CRIMINAL APPEALS (In re: M.O.C. v. State of Alabama) (Escambia Circuit Court: CC-21-286; Criminal Appeals: CR-2024-0305).",
+          "url": "https://law.justia.com/cases/alabama/supreme-court/2025/sc-2025-0612.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Alabama Supreme Court Case sc-2025-0612 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re initials, Ex parte initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "sc-2025-0536",
+          "title": "Ex parte A.A. PETITION FOR WRIT OF CERTIORARI TO THE COURT OF CIVIL APPEALS (In re: A.A. v A.M. and C.M.) (Lauderdale Juvenile Court: JU-24-462.01; Civil Appeals: CL-2024-0857).",
+          "url": "https://law.justia.com/cases/alabama/supreme-court/2025/sc-2025-0536.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Alabama Supreme Court Case sc-2025-0536 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Juvenile Court, JU case number, In re initials, Ex parte initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "sc-2024-0804",
+          "title": "Ex parte B.T. Roberts",
+          "url": "https://law.justia.com/cases/alabama/supreme-court/2025/sc-2024-0804.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Alabama Supreme Court Case sc-2024-0804 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: Ex parte initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "sc-2025-0195",
+          "title": "Ex parte S.D.S. PETITION FOR WRIT OF CERTIORARI TO THE COURT OF CIVIL APPEAL (In re: S.D.S v. Walker County Department of Human Resources) (Walker Juvenile Court: JU-23-12.04; Civil Appeals: CL-2024-0754).",
+          "url": "https://law.justia.com/cases/alabama/supreme-court/2025/sc-2025-0195.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Alabama Supreme Court Case sc-2025-0195 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: DHR, Juvenile Court, JU case number, In re initials, Ex parte initials",
+          "provision_match": "DUE_PROCESS"
+        },
+        {
+          "case_id": "sc-2025-0234",
+          "title": "Ex parte C.E. PETITION FOR WRIT OF CERTIORARI TO THE COURT OF CIVIL APPEALS (In re: C.E. v. D.H. and L.H.) (Cullman Probate Court: AD-2021-063; Civil Appeals: CL-2024-0650).",
+          "url": "https://law.justia.com/cases/alabama/supreme-court/2025/sc-2025-0234.html",
+          "year": 2025,
+          "court": "Supreme Court",
+          "citation": "Alabama Supreme Court Case sc-2025-0234 (2025)",
+          "relevance_score": 1,
+          "matched_keywords": [
+            "child welfare case"
+          ],
+          "child_welfare_reason": "High: In re initials, Ex parte initials",
+          "provision_match": "DUE_PROCESS"
+        }
+      ],
+      "triggers_at_nodes": [
+        "DEC-05",
+        "DEC-06",
+        "ACT-04",
+        "OUT-02",
+        "OUT-03"
+      ]
+    }
+  ],
+  "unique_state_protections": [],
+  "case_law_search_keywords": [
+    "Alabama Department of Human Resources",
+    "DHR",
+    "CPS",
+    "due process",
+    "14th Amendment",
+    "42 U.S.C. 1983",
+    "reasonable efforts",
+    "reunification",
+    "emergency removal",
+    "wrongful removal",
+    "exigent circumstances",
+    "abuse",
+    "familial association"
+  ],
+  "state_supreme_court_cps_cases": [
+    {
+      "case_id": "sc-2025-0733",
+      "title": "Ex parte J.T.R. PETITION FOR WRIT OF CERTIORARI TO THE COURT OF CRIMINAL APPEALS (In re: J.T.R. v. State of Alabama) (DeKalb Circuit Court: CC-21-461, CC-21-462, and CC-21-463; Criminal Appeals: CR-2024-0475).",
+      "url": "https://law.justia.com/cases/alabama/supreme-court/2025/sc-2025-0733.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Alabama Supreme Court Case sc-2025-0733 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re initials, Ex parte initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "sc-2025-0809",
+      "title": "Ex parte M.O.E. PETITION FOR WRIT OF CERTIORARI TO THE COURT OF CIVIL APPEALS (In re: M.O.E. v. A.D.C.) (Mobile Juvenile Court: CS-23-900863; Civil Appeals: CL-2025-0008).",
+      "url": "https://law.justia.com/cases/alabama/supreme-court/2025/sc-2025-0809.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Alabama Supreme Court Case sc-2025-0809 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Juvenile Court, In re initials, Ex parte initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "sc-2025-0291",
+      "title": "Ex parte Michael Bryan Brasher PETITION FOR WRIT OF MANDAMUS (In re: B.A.S.S., LLC v. Michael Bryan Brasher) (Shelby Circuit Court: CV-25-900289).",
+      "url": "https://law.justia.com/cases/alabama/supreme-court/2025/sc-2025-0291.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Alabama Supreme Court Case sc-2025-0291 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "sc-2025-0681",
+      "title": "Ex parte J.R., Sr. PETITION FOR WRIT OF CERTIORARI TO THE COURT OF CIVIL APPEALS (In re: J.R., Sr. v. Tuscaloosa County Department of Human Resources) (Tuscaloosa Juvenile Court: JU-22-720.03; Civil Appeals: CL-2025-0165).",
+      "url": "https://law.justia.com/cases/alabama/supreme-court/2025/sc-2025-0681.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Alabama Supreme Court Case sc-2025-0681 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: DHR, Juvenile Court, JU case number, In re initials, Ex parte initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "sc-2025-0568",
+      "title": "Ex parte Keondre Vonterrius Foster PETITION FOR WRIT OF CERTIORARI TO THE COURT OF CRIMINAL APPEALS (In re: Keondre Vonterrius Foster v. State of Alabama) (Jefferson Circuit Court: CC-19-3909; Criminal Appeals: CR-2024-1020).",
+      "url": "https://law.justia.com/cases/alabama/supreme-court/2025/sc-2025-0568.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Alabama Supreme Court Case sc-2025-0568 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "sc-2025-0612",
+      "title": "Ex parte M.O.C. PETITION FOR WRIT OF CERTIORARI TO THE COURT OF CRIMINAL APPEALS (In re: M.O.C. v. State of Alabama) (Escambia Circuit Court: CC-21-286; Criminal Appeals: CR-2024-0305).",
+      "url": "https://law.justia.com/cases/alabama/supreme-court/2025/sc-2025-0612.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Alabama Supreme Court Case sc-2025-0612 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re initials, Ex parte initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "sc-2025-0536",
+      "title": "Ex parte A.A. PETITION FOR WRIT OF CERTIORARI TO THE COURT OF CIVIL APPEALS (In re: A.A. v A.M. and C.M.) (Lauderdale Juvenile Court: JU-24-462.01; Civil Appeals: CL-2024-0857).",
+      "url": "https://law.justia.com/cases/alabama/supreme-court/2025/sc-2025-0536.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Alabama Supreme Court Case sc-2025-0536 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Juvenile Court, JU case number, In re initials, Ex parte initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "sc-2024-0804",
+      "title": "Ex parte B.T. Roberts",
+      "url": "https://law.justia.com/cases/alabama/supreme-court/2025/sc-2024-0804.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Alabama Supreme Court Case sc-2024-0804 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: Ex parte initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "sc-2025-0195",
+      "title": "Ex parte S.D.S. PETITION FOR WRIT OF CERTIORARI TO THE COURT OF CIVIL APPEAL (In re: S.D.S v. Walker County Department of Human Resources) (Walker Juvenile Court: JU-23-12.04; Civil Appeals: CL-2024-0754).",
+      "url": "https://law.justia.com/cases/alabama/supreme-court/2025/sc-2025-0195.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Alabama Supreme Court Case sc-2025-0195 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: DHR, Juvenile Court, JU case number, In re initials, Ex parte initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "sc-2025-0234",
+      "title": "Ex parte C.E. PETITION FOR WRIT OF CERTIORARI TO THE COURT OF CIVIL APPEALS (In re: C.E. v. D.H. and L.H.) (Cullman Probate Court: AD-2021-063; Civil Appeals: CL-2024-0650).",
+      "url": "https://law.justia.com/cases/alabama/supreme-court/2025/sc-2025-0234.html",
+      "year": 2025,
+      "court": "Supreme Court",
+      "citation": "Alabama Supreme Court Case sc-2025-0234 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "child welfare case"
+      ],
+      "child_welfare_reason": "High: In re initials, Ex parte initials",
+      "provision_match": "DUE_PROCESS"
+    },
+    {
+      "case_id": "cl-2024-0898",
+      "title": "J.L. v. Sharon Doviet, as guardian ad litem for Z.L., and Madison County Department of Human Resources (Appeal from Madison Juvenile Court: JU-21-696.03).",
+      "url": "https://law.justia.com/cases/alabama/court-of-appeals-civil/2025/cl-2024-0898.html",
+      "year": 2025,
+      "court": "Court Of Appeals Civil",
+      "citation": "Alabama Court Of Appeals Civil Case cl-2024-0898 (2025)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "guardian ad litem"
+      ],
+      "child_welfare_reason": "High: DHR, Juvenile Court, JU case number",
+      "provision_match": "RIGHT_TO_COUNSEL"
+    },
+    {
+      "case_id": "cl-2023-0831",
+      "title": "J.-M.S., as guardian ad Litem, for K.C.J., a minor child v. K.B.J. and R.G.J., Jr. (Appeal from Madison Juvenile Court: CS-12-900014.03).",
+      "url": "https://law.justia.com/cases/alabama/court-of-appeals-civil/2024/cl-2023-0831.html",
+      "year": 2024,
+      "court": "Court Of Appeals Civil",
+      "citation": "Alabama Court Of Appeals Civil Case cl-2023-0831 (2024)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "guardian ad litem"
+      ],
+      "child_welfare_reason": "High: Juvenile Court",
+      "provision_match": "RIGHT_TO_COUNSEL"
+    },
+    {
+      "case_id": "cl-2023-0454",
+      "title": "K.F., Sr. v. Shirley Ann Millwood, as guardian ad litem for A.F., T.F., and K.F., Jr., and Calhoun County Department of Human Resources (Appeal from Calhoun Juvenile Court: JU-20-513.03).",
+      "url": "https://law.justia.com/cases/alabama/court-of-appeals-civil/2024/cl-2023-0454.html",
+      "year": 2024,
+      "court": "Court Of Appeals Civil",
+      "citation": "Alabama Court Of Appeals Civil Case cl-2023-0454 (2024)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "guardian ad litem"
+      ],
+      "child_welfare_reason": "High: DHR, Juvenile Court, JU case number",
+      "provision_match": "RIGHT_TO_COUNSEL"
+    },
+    {
+      "case_id": "1210250",
+      "title": "Ex parte John Bodie, as guardian ad litem for D.P., a minor child",
+      "url": "https://law.justia.com/cases/alabama/supreme-court/2022/1210250.html",
+      "year": 2022,
+      "court": "Supreme Court",
+      "citation": "Alabama Supreme Court Case 1210250 (2022)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "guardian ad litem"
+      ],
+      "child_welfare_reason": "Medium: minor child",
+      "provision_match": "RIGHT_TO_COUNSEL"
+    },
+    {
+      "case_id": "1210018",
+      "title": "Ex parte Karen H. Jackson, as guardian ad litem for S.S.",
+      "url": "https://law.justia.com/cases/alabama/supreme-court/2021/1210018.html",
+      "year": 2021,
+      "court": "Supreme Court",
+      "citation": "Alabama Supreme Court Case 1210018 (2021)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "guardian ad litem"
+      ],
+      "child_welfare_reason": "High: Ex parte name",
+      "provision_match": "RIGHT_TO_COUNSEL"
+    },
+    {
+      "case_id": "1210022",
+      "title": "Ex parte Karen H. Jackson, as guardian ad litem for S.S.",
+      "url": "https://law.justia.com/cases/alabama/supreme-court/2021/1210022.html",
+      "year": 2021,
+      "court": "Supreme Court",
+      "citation": "Alabama Supreme Court Case 1210022 (2021)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "guardian ad litem"
+      ],
+      "child_welfare_reason": "High: Ex parte name",
+      "provision_match": "RIGHT_TO_COUNSEL"
+    },
+    {
+      "case_id": "1210023",
+      "title": "Ex parte Karen H. Jackson, as guardian ad litem for H.S.",
+      "url": "https://law.justia.com/cases/alabama/supreme-court/2021/1210023.html",
+      "year": 2021,
+      "court": "Supreme Court",
+      "citation": "Alabama Supreme Court Case 1210023 (2021)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "guardian ad litem"
+      ],
+      "child_welfare_reason": "High: Ex parte name",
+      "provision_match": "RIGHT_TO_COUNSEL"
+    },
+    {
+      "case_id": "1210024",
+      "title": "Ex parte Karen H. Jackson, as guardian ad litem for H.S.",
+      "url": "https://law.justia.com/cases/alabama/supreme-court/2021/1210024.html",
+      "year": 2021,
+      "court": "Supreme Court",
+      "citation": "Alabama Supreme Court Case 1210024 (2021)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "guardian ad litem"
+      ],
+      "child_welfare_reason": "High: Ex parte name",
+      "provision_match": "RIGHT_TO_COUNSEL"
+    },
+    {
+      "case_id": "1210025",
+      "title": "Ex parte Karen H. Jackson, as guardian ad litem for M.S.",
+      "url": "https://law.justia.com/cases/alabama/supreme-court/2021/1210025.html",
+      "year": 2021,
+      "court": "Supreme Court",
+      "citation": "Alabama Supreme Court Case 1210025 (2021)",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "guardian ad litem"
+      ],
+      "child_welfare_reason": "High: Ex parte name",
+      "provision_match": "RIGHT_TO_COUNSEL"
+    }
+  ],
+  "procedural_weight_modifiers": {
+    "explicit_privacy_right": 0,
+    "note": "Modifiers adjust procedural_weight for state nodes based on enhanced protections"
+  },
+  "_metadata": {
+    "created": "2025-12-22T20:08:31.668915",
+    "source": "state_constitution_etl",
+    "data_sources": [
+      "justia",
+      "state_legislature",
+      "courtlistener_keywords"
+    ],
+    "requires_case_law_enrichment": false,
+    "case_law_enriched": "2025-12-24T20:37:15.355091+00:00",
+    "enricher_version": "1.0.0",
+    "cases_analyzed": 1160,
+    "cases_linked": 10
+  },
+  "case_law_search": {
+    "search_keywords": [
+      "Alabama Department of Human Resources",
+      "DHR",
+      "CPS",
+      "due process",
+      "14th Amendment",
+      "42 U.S.C. 1983",
+      "reasonable efforts",
+      "reunification",
+      "emergency removal",
+      "wrongful removal"
+    ],
+    "courtlistener_url": "https://www.courtlistener.com/?q=%22Alabama%22%20AND%20%28%22Alabama%20Department%20of%20Human%20Resources%22%20OR%20%22DHR%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
+    "supreme_court_focus": true,
+    "_note": "Search for state supreme court cases on CPS constitutional issues"
+  }
+}
