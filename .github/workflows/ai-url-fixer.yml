@@ -399,27 +399,22 @@ jobs:
                           f"   Context: {ctx_str}"
                       )
 
-                  prompt = f"""You are a legal URL researcher for a child welfare dataset. The URLs below are DEAD (returning errors). For each one, suggest 1-3 replacement URLs.
-
-STRICT RULES — FOLLOW EXACTLY:
-1. ONLY suggest URLs from OFFICIAL sources:
-   - State .gov domains (e.g., legislature.state.xx.us, www.xx.gov)
-   - law.justia.com/codes/[state]/
-   - legiscan.com, courtlistener.com, law.cornell.edu
-2. Use the statute/section number from the context to construct the URL
-3. If a URL was on a state legislature site, the replacement MUST be on that same state's official site or justia.com
-4. If you are NOT CERTAIN a URL exists, return an EMPTY ARRAY for that entry
-5. DO NOT GUESS. DO NOT FABRICATE. If unsure, return []
-6. Common patterns:
-   - Many states: https://www.lawserver.com/law/state/[state]/codes/[state]_[title]_[section]
-   - Justia: https://law.justia.com/codes/[state]/[year or "title-XX"]/
-   - State legislatures often reorganize paths but keep the same domain
-
-{chr(10).join(url_items)}
-
-Return ONLY a valid JSON object. Keys = dead URLs, values = arrays of candidate URLs.
-If unsure about ANY URL, use an empty array: []
-NO markdown wrapping. NO explanation. ONLY JSON."""
+                  url_block = chr(10).join(url_items)
+                  prompt = (
+                      "You are a legal URL researcher for a child welfare dataset. "
+                      "The URLs below are DEAD (returning errors). For each one, suggest 1-3 replacement URLs.\n\n"
+                      "STRICT RULES:\n"
+                      "- ONLY suggest URLs from OFFICIAL sources (.gov domains, law.justia.com, legiscan.com, courtlistener.com, law.cornell.edu)\n"
+                      "- Use the statute/section number from the context to construct the URL\n"
+                      "- If a URL was on a state legislature site, the replacement MUST be on that same state's site or justia.com\n"
+                      "- If you are NOT CERTAIN a URL exists, return an EMPTY ARRAY []\n"
+                      "- DO NOT GUESS. DO NOT FABRICATE. When unsure, return []\n"
+                      "- Common patterns include justia.com/codes/STATE/ and legislature.STATE.gov paths\n\n"
+                      f"{url_block}\n\n"
+                      "Return ONLY a valid JSON object. Keys = dead URLs, values = arrays of candidate URLs. "
+                      "If unsure about ANY URL, use an empty array []. "
+                      "NO markdown wrapping. NO explanation. ONLY JSON."
+                  )
 
                   try:
                       response = client.messages.create(
