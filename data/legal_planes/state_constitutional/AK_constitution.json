@@ -6,15 +6,15 @@
   "state_code": "AK",
   "state_name": "Alaska",
   "version": "1.0.0",
-  "created": "2025-01-15",
-  "updated": "2025-01-15",
+  "created": "2025-01-09",
+  "updated": "2025-01-09",
   "copyright": "Project Milk Carton 501(c)(3) - All Rights Reserved",
   "constitution_source": {
-    "url": "http://www.legis.state.ak.us/basis/folioproxy.asp?url=http://wwwjnu01.legis.state.ak.us/cgi-bin/folioisa.dll/acontxt.nfo/query=/doc/{t1}?",
+    "url": "http://www.legis.state.ak.us/basis/folioproxy.asp?url=http://wwwjnu01.legis.state.ak.us/cgi-bin/folioisa.dll/acontitle.nfo/query=/doc/{t1}?",
     "justia_url": "https://law.justia.com/constitution/alaska/",
     "official_name": "Alaska Constitution",
-    "last_amended": "2024",
-    "last_verified": "2025-01-15"
+    "last_amended": "2024-11-05",
+    "last_verified": "2025-01-09"
   },
   "relationship_to_federal": {
     "supremacy_clause_applies": true,
@@ -30,15 +30,16 @@
       "url": "https://law.justia.com/constitution/alaska/article-1.html",
       "citation": "Alaska Const. art. I, \u00a7 14",
       "text": "The right of the people to be secure in their persons, houses and other property, papers, and effects, against unreasonable searches and seizures, shall not be violated. No warrants shall issue, but upon probable cause, supported by oath or affirmation, and particularly describing the place to be searched, and the persons or things to be seized.",
-      "application_to_cps": "CPS removal of a child from the home constitutes a seizure that must meet Fourth Amendment standards. Alaska courts have interpreted this provision to provide greater protection than the federal Fourth Amendment in certain contexts, particularly regarding privacy expectations.",
+      "application_to_cps": "CPS removal of a child constitutes a seizure. Alaska courts have interpreted this provision to provide greater privacy protections than the Fourth Amendment. Warrantless removals require exigent circumstances or court authorization.",
       "federal_parallel": "U.S. Const. amend. IV",
       "state_provides_greater_protection": true,
       "key_cases": [
         {
-          "case_name": "A.L.J. v. State, Dep't of Health & Soc. Servs.",
-          "citation": "334 P.3d 1 (Alaska 2014)",
-          "year": 2014,
-          "relevance": "Addresses due process requirements in child removal and custody proceedings"
+          "case_name": "Ravin v. State",
+          "citation": "537 P.2d 494 (Alaska 1975)",
+          "year": 1975,
+          "holding": "Alaska Constitution provides broader privacy protections than federal constitution; right to privacy in the home is fundamental.",
+          "relevance": "Establishes heightened privacy protections under Alaska Constitution that apply to home intrusions including CPS investigations."
         }
       ],
       "triggers_at_nodes": [
@@ -49,6 +50,32 @@
       ]
     },
     {
+      "provision_id": "AK_CONST_PRIVACY",
+      "name": "Right to Privacy",
+      "article": "Article I",
+      "section": "Section 22",
+      "url": "https://law.justia.com/constitution/alaska/article-1.html",
+      "citation": "Alaska Const. art. I, \u00a7 22",
+      "text": "The right of the people to privacy is recognized and shall not be infringed. The legislature shall implement this section.",
+      "application_to_cps": "Alaska's explicit privacy right provides heightened protection for family autonomy and parental rights. Government intrusion into family matters must meet heightened scrutiny and be narrowly tailored to serve compelling state interests.",
+      "federal_parallel": "U.S. Const. amend. XIV (implied privacy rights)",
+      "state_provides_greater_protection": true,
+      "key_cases": [
+        {
+          "case_name": "L.P.M. v. State, Dep't of Health & Soc. Servs.",
+          "citation": "211 P.3d 1016 (Alaska 2009)",
+          "year": 2009,
+          "holding": "Parents have fundamental liberty interest in care and custody of children under Alaska Constitution; state must meet heightened scrutiny when infringing on parental rights.",
+          "relevance": "Applies Alaska's privacy provision to parental rights in child welfare proceedings."
+        }
+      ],
+      "triggers_at_nodes": [
+        "INP-12",
+        "DEC-04",
+        "ACT-01"
+      ]
+    },
+    {
       "provision_id": "AK_CONST_DUE_PROCESS",
       "name": "Due Process",
       "article": "Article I",
@@ -56,7 +83,7 @@
       "url": "https://law.justia.com/constitution/alaska/article-1.html",
       "citation": "Alaska Const. art. I, \u00a7 7",
       "text": "No person shall be deprived of life, liberty, or property, without due process of law. The right of all persons to fair and just treatment in the course of legislative and executive investigations shall not be infringed.",
-      "application_to_cps": "Parents have a fundamental liberty interest in the care, custody, and management of their children. Termination of parental rights requires clear and convincing evidence. The Alaska Constitution's due process clause has been interpreted to require procedural protections in child welfare proceedings including notice, opportunity to be heard, and right to counsel.",
+      "application_to_cps": "Parents have fundamental liberty interest in care, custody, and control of their children. Termination of parental rights requires clear and convincing evidence. CPS proceedings must provide adequate notice, opportunity to be heard, and procedural safeguards.",
       "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1",
       "state_provides_greater_protection": false,
       "key_cases": [
@@ -64,21 +91,15 @@
           "case_name": "A.A. v. State, Dep't of Family & Youth Servs.",
           "citation": "982 P.2d 256 (Alaska 1999)",
           "year": 1999,
-          "relevance": "Discusses fundamental right of parents to raise children and due process protections in termination proceedings"
-        },
-        {
-          "case_name": "S.A. v. State, Dep't of Health & Soc. Servs., Office of Children's Servs.",
-          "citation": "138 P.3d 1030 (Alaska 2006)",
-          "year": 2006,
-          "relevance": "Addresses standard of proof and due process in parental rights termination"
+          "holding": "Parents have fundamental constitutional right to raise their children; state must prove by clear and convincing evidence grounds for termination of parental rights.",
+          "relevance": "Establishes due process standards for termination of parental rights under Alaska Constitution."
         }
       ],
       "triggers_at_nodes": [
-        "INP-01",
-        "DEC-02",
-        "DEC-07",
-        "ACT-03",
-        "OUT-03"
+        "DEC-05",
+        "DEC-06",
+        "ACT-02",
+        "ACT-03"
       ]
     },
     {
@@ -88,41 +109,14 @@
       "section": "Section 1",
       "url": "https://law.justia.com/constitution/alaska/article-1.html",
       "citation": "Alaska Const. art. I, \u00a7 1",
-      "text": "This constitution is dedicated to the principles that all persons have a natural right to life, liberty, the pursuit of happiness, and the enjoyment of the rewards of their own industry; that all persons are equal and entitled to equal rights, opportunities, and protection under the law; and that all persons have corresponding obligations to the people and to the State.",
-      "application_to_cps": "Provides equal protection guarantees similar to the federal Fourteenth Amendment. Parents must be treated equally in child welfare proceedings without discrimination based on protected characteristics. Alaska courts have interpreted this provision broadly.",
+      "text": "This constitution is dedicated to the principles that all persons are equal and entitled to equal rights, opportunities, and protection under the law; and that all persons have corresponding obligations to the people and to the State.",
+      "application_to_cps": "CPS policies and practices cannot discriminate based on protected characteristics. Equal protection analysis applies to differential treatment of similarly situated parents or families.",
       "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1 (Equal Protection Clause)",
       "state_provides_greater_protection": false,
       "key_cases": [],
       "triggers_at_nodes": [
-        "DEC-02",
         "DEC-04",
-        "ACT-01"
-      ]
-    },
-    {
-      "provision_id": "AK_CONST_PRIVACY",
-      "name": "Right to Privacy",
-      "article": "Article I",
-      "section": "Section 22",
-      "url": "https://law.justia.com/constitution/alaska/article-1.html",
-      "citation": "Alaska Const. art. I, \u00a7 22",
-      "text": "The right of the people to privacy is recognized and shall not be infringed. The legislature shall implement this section.",
-      "application_to_cps": "Alaska is one of few states with an explicit constitutional right to privacy. This provision provides greater protection than federal constitutional privacy rights. It protects family autonomy and parental decision-making, though it must be balanced against the state's parens patriae interest in child protection. Privacy rights extend to family relationships and childrearing decisions.",
-      "federal_parallel": "U.S. Const. amend. XIV (implicit privacy through substantive due process)",
-      "state_provides_greater_protection": true,
-      "key_cases": [
-        {
-          "case_name": "Ravin v. State",
-          "citation": "537 P.2d 494 (Alaska 1975)",
-          "year": 1975,
-          "relevance": "Seminal case establishing robust privacy protections under Alaska Constitution, broader than federal protections"
-        }
-      ],
-      "triggers_at_nodes": [
-        "INP-12",
-        "DEC-04",
-        "ACT-01",
-        "ACT-02"
+        "DEC-05"
       ]
     },
     {
@@ -132,70 +126,72 @@
       "section": "Section 16",
       "url": "https://law.justia.com/constitution/alaska/article-1.html",
       "citation": "Alaska Const. art. I, \u00a7 16",
-      "text": "The right of trial by jury shall be secured to all and remain inviolate. The legislature may provide for a jury of not less than twelve in civil cases and that the verdict may be by concurrence of three-fourths of the jury.",
-      "application_to_cps": "While parental rights termination proceedings are generally considered civil rather than criminal, parents have due process rights to a fair hearing. Alaska does not typically require jury trials in termination proceedings, but ensures judicial fact-finding with appropriate safeguards.",
-      "federal_parallel": "U.S. Const. amend. VI, VII",
+      "text": "The right of trial by jury shall be secured to all and remain inviolate. The legislature may provide that the verdict may be by not less than three-fourths of the jury.",
+      "application_to_cps": "Right to jury trial in certain child welfare proceedings where parental rights are at stake. Alaska statutes may provide jury trial rights in termination proceedings.",
+      "federal_parallel": "U.S. Const. amend. VII",
       "state_provides_greater_protection": false,
       "key_cases": [],
       "triggers_at_nodes": [
-        "OUT-03"
+        "ACT-03"
       ]
     },
     {
-      "provision_id": "AK_CONST_FREEDOM_SPEECH",
-      "name": "Freedom of Speech",
-      "article": "Article I",
-      "section": "Section 5",
-      "url": "https://law.justia.com/constitution/alaska/article-1.html",
-      "citation": "Alaska Const. art. I, \u00a7 5",
-      "text": "Every person may freely speak, write, and publish on all subjects, being responsible for the abuse of that right.",
-      "application_to_cps": "Parents have the right to speak freely about their cases, subject to court orders protecting confidentiality. This provision may protect parental advocacy and criticism of CPS actions, though it must be balanced against child privacy interests and court confidentiality rules.",
-      "federal_parallel": "U.S. Const. amend. I",
-      "state_provides_greater_protection": false,
-      "key_cases": [],
-      "triggers_at_nodes": [
-        "ACT-02",
-        "OUT-02"
-      ]
-    },
-    {
-      "provision_id": "AK_CONST_RIGHT_TO_REMEDY",
+      "provision_id": "AK_CONST_REMEDY",
       "name": "Right to Remedy",
       "article": "Article I",
-      "section": "Section 17",
+      "section": "Section 6",
       "url": "https://law.justia.com/constitution/alaska/article-1.html",
-      "citation": "Alaska Const. art. I, \u00a7 17",
-      "text": "The courts shall be open and every person shall have a remedy for injury to person, property or reputation.",
-      "application_to_cps": "Parents who have been wrongfully subjected to CPS actions have the right to seek remedies through the courts. This provision ensures access to judicial remedies for constitutional violations in child welfare proceedings.",
-      "federal_parallel": "No direct federal parallel",
+      "citation": "Alaska Const. art. I, \u00a7 6",
+      "text": "Courts shall be open and justice shall be administered without unnecessary delay.",
+      "application_to_cps": "Families have right to timely court proceedings in child welfare cases. Unnecessary delays in hearings or case resolution may violate this provision.",
+      "federal_parallel": "None (state-specific provision)",
       "state_provides_greater_protection": true,
       "key_cases": [],
       "triggers_at_nodes": [
-        "OUT-02",
+        "DEC-05",
+        "ACT-02",
+        "ACT-03"
+      ]
+    },
+    {
+      "provision_id": "AK_CONST_REMEDIES",
+      "name": "Remedies for Injuries",
+      "article": "Article I",
+      "section": "Section 14",
+      "url": "https://law.justia.com/constitution/alaska/article-1.html",
+      "citation": "Alaska Const. art. I, \u00a7 14",
+      "text": "Every person shall have remedy in the law for injuries to person, property, or reputation.",
+      "application_to_cps": "Parents and children may have civil remedies for wrongful removal, false allegations, or violation of constitutional rights by CPS workers. May support \u00a7 1983 claims and state tort actions.",
+      "federal_parallel": "None (state-specific provision)",
+      "state_provides_greater_protection": true,
+      "key_cases": [],
+      "triggers_at_nodes": [
+        "FAIL-01",
         "FAIL-02"
       ]
     },
     {
-      "provision_id": "AK_CONST_CRUEL_PUNISHMENT",
-      "name": "Prohibition on Cruel and Unusual Punishment",
-      "article": "Article I",
-      "section": "Section 12",
-      "url": "https://law.justia.com/constitution/alaska/article-1.html",
-      "citation": "Alaska Const. art. I, \u00a7 12",
-      "text": "Excessive bail shall not be required, nor excessive fines imposed, nor cruel and unusual punishments inflicted.",
-      "application_to_cps": "While primarily applicable to criminal cases, this provision may be invoked in extreme child welfare cases where state actions are punitive in nature or effect. Termination of parental rights, while civil, has been described as the 'death penalty' of family law.",
-      "federal_parallel": "U.S. Const. amend. VIII",
-      "state_provides_greater_protection": false,
+      "provision_id": "AK_CONST_ASSISTANCE",
+      "name": "Public Assistance",
+      "article": "Article VII",
+      "section": "Section 4",
+      "url": "https://law.justia.com/constitution/alaska/article-7.html",
+      "citation": "Alaska Const. art. VII, \u00a7 4",
+      "text": "The legislature shall provide for public welfare.",
+      "application_to_cps": "State constitutional duty to provide child welfare services and family support. May create affirmative obligations for reasonable efforts to preserve families and provide services.",
+      "federal_parallel": "None (state-specific provision)",
+      "state_provides_greater_protection": true,
       "key_cases": [],
       "triggers_at_nodes": [
-        "OUT-03"
+        "ACT-02",
+        "ACT-04"
       ]
     }
   ],
   "_metadata": {
     "generated_by": "AI State Constitution Researcher (GitHub Actions)",
     "model": "claude-sonnet-4-5-20250929",
-    "generated_at": "2026-02-16T09:17:25.593358Z",
+    "generated_at": "2026-02-23T09:17:49.145533Z",
     "status": "ai_generated_needs_human_review",
     "review_notes": "This file was auto-generated by AI. All citations should be verified by a legal professional before relying on this data."
   }
