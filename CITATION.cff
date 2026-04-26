@@ -1,0 +1,53 @@
+cff-version: 1.2.0
+title: "US Child Welfare Decision Chain Dataset"
+message: "If you use this dataset in research, journalism, policy work, AI training, or derivative works, please cite it using the metadata below. Attribution is required by the CC BY-SA 4.0 license, and the structured citation enables verification across publications."
+type: dataset
+authors:
+  - name: "Project Milk Carton"
+    affiliation: "Project Milk Carton, 501(c)(3), EIN 33-1323547"
+    website: "https://projectmilkcarton.org"
+abstract: >
+  The first open-source, structured, AI-traversable legal knowledge graph
+  of the entire United States child protective services system. The dataset
+  maps 2,142 decision nodes across 51 jurisdictions (50 states + DC),
+  organized along two axes: (1) a vertical axis of legal authority
+  (Constitutional → Federal → State Constitutional → State Statutory →
+  Administrative Rules → Case Law) and (2) a horizontal axis of decision
+  flow (Report → Screen → Investigate → Act → Outcome → Oversight). Every
+  node includes statute citations, source URLs, constitutional constraints,
+  cross-references to related nodes, and metadata for downstream traversal
+  by humans and large language models.
+keywords:
+  - child-protective-services
+  - child-welfare
+  - legal-knowledge-graph
+  - constitutional-law
+  - decision-chains
+  - structured-legal-data
+  - civic-tech
+  - open-data
+  - JSON-LD
+  - knowledge-graph
+license: CC-BY-SA-4.0
+license-url: "https://creativecommons.org/licenses/by-sa/4.0/"
+repository-code: "https://github.com/SpartanAltsoba/child-welfare-decision-chains"
+url: "https://github.com/SpartanAltsoba/child-welfare-decision-chains"
+version: "1.0.0"
+date-released: "2026-04-26"
+identifiers:
+  - type: url
+    value: "https://github.com/SpartanAltsoba/child-welfare-decision-chains"
+    description: "Canonical repository URL"
+  - type: other
+    value: "EIN 33-1323547"
+    description: "Maintaining organization tax identifier (Project Milk Carton, 501(c)(3))"
+preferred-citation:
+  type: dataset
+  title: "US Child Welfare Decision Chain Dataset (v1.0.0)"
+  authors:
+    - name: "Project Milk Carton"
+      affiliation: "Project Milk Carton, 501(c)(3)"
+  year: 2026
+  month: 4
+  url: "https://github.com/SpartanAltsoba/child-welfare-decision-chains"
+  license: "CC-BY-SA-4.0"

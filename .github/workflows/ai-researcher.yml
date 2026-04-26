@@ -1,9 +1,11 @@
 name: AI State Constitution Researcher
 
 on:
-  schedule:
-    # Every Monday at 9 AM UTC
-    - cron: '0 9 * * 1'
+  # Schedule disabled in v1.0.0 — workflow had 3 consecutive scheduled-run
+  # failures in April 2026. Held until the API key + research-prompt are
+  # re-validated. Manual dispatch remains enabled for vetted runs.
+  # schedule:
+  #   - cron: '0 9 * * 1'
   workflow_dispatch:  # Allow manual trigger
 
 permissions:

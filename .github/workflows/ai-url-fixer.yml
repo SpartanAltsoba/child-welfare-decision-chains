@@ -1,9 +1,15 @@
 name: AI URL Fixer
 
 on:
-  schedule:
-    # Every 15 minutes on the 3rd-5th of each month (runs after health check)
-    - cron: '*/15 * 3-5 * *'
+  # Schedule disabled in v1.0.0 — workflow's URL-replacement logic substitutes
+  # canonical citation URLs with search-results URLs (e.g., justia.com/cases/...
+  # becomes courtlistener.com/opinion/?q=...), which degrades dataset citation
+  # authority. 113 PRs opened by this workflow were closed in v1.0.0 release.
+  # Re-enable only after the replacement strategy is rewritten to resolve to
+  # canonical, HTTP-200 replacements (or commit directly to main rather than
+  # opening one PR per state).
+  # schedule:
+  #   - cron: '*/15 * 3-5 * *'
   workflow_dispatch:
     inputs:
       action:

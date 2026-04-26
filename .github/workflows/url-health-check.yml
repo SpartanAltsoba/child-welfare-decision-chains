@@ -1,9 +1,11 @@
 name: Dataset URL Health Check
 
 on:
-  schedule:
-    # Every 10 minutes on the 1st-2nd of each month (cycle window)
-    - cron: '*/10 * 1-2 * *'
+  # Schedule disabled in v1.0.0 — companion to ai-url-fixer. Re-enable when
+  # the URL Fixer's replacement strategy is rewritten. Manual dispatch remains
+  # enabled for ad-hoc audits.
+  # schedule:
+  #   - cron: '*/10 * 1-2 * *'
   workflow_dispatch:
     inputs:
       action:
