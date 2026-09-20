@@ -40,7 +40,7 @@
           "source_url": "https://gc.nh.gov/rsa/html/NHTOC/NHTOC-XII-169-C.htm",
           "authority_type": "state_statute",
           "last_verified": "2026-09-19",
-          "deep_link": true
+          "deep_link": false
         },
         {
           "citation_text": "New Hampshire - RSA 169-C:1 et seq. (Procedures for abuse/neglect cases)",
@@ -54,7 +54,7 @@
           "source_url": "https://gc.nh.gov/rsa/html/NHTOC/NHTOC-XII-170-G.htm",
           "authority_type": "state_statute",
           "last_verified": "2026-09-19",
-          "deep_link": true,
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         }
@@ -255,7 +255,7 @@
   "state_agency": {
     "name": "Division for Children, Youth and Families",
     "acronym": "DCYF",
-    "hotline": "1-800-894-5533",
+    "hotline": "1-800-894-5533 (in-state only) or 603-271-6562; DCYF Central Intake is staffed 24 hours a day, including weekends and holidays",
     "website": "https://www.dhhs.nh.gov/division-children-youth-and-families"
   },
   "investigation_requirements": [
@@ -302,6 +302,14 @@
       "starts_from": "Investigation opened",
       "source": "template_estimate",
       "consequence_of_miss": "Procedural violation"
+    },
+    {
+      "requirement_name": "Emergency removal hearing",
+      "deadline": "48 hours, Saturdays, Sundays and holidays excluded",
+      "starts_from": "Child taken into protective custody",
+      "source": "state_statute",
+      "consequence_of_miss": "Not specified in RSA 169-C:6, IV",
+      "source_url": "https://gc.nh.gov/rsa/html/XII/169-C/169-C-6.htm"
     }
   ],
   "notice_requirements": [

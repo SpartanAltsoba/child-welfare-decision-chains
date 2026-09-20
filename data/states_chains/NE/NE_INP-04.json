@@ -45,10 +45,10 @@
           "deep_link": true
         },
         {
-          "citation_text": "Title 28: Crimes - Child Abuse",
-          "source_url": "https://law.justia.com/codes/nebraska/title-28/",
+          "citation_text": "Nebraska - Neb. Rev. Stat. § 28-707 (Child abuse; privileges not available; penalties)",
+          "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=28-707",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -70,6 +70,13 @@
           "deep_link": true,
           "title_code": "",
           "chapter": ""
+        },
+        {
+          "citation_text": "Nebraska - Neb. Rev. Stat. §§ 43-1501 to 43-1524 (Nebraska Indian Child Welfare Act)",
+          "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=43-1501",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
@@ -384,17 +391,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
-      "starts_from": "Report received",
-      "source": "template_estimate",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "deadline": "10 days (maximum)",
+      "starts_from": "Receipt of an accepted report of child abuse or neglect referred for Department response (395 NAC 6-004.01(i); exception may be granted)",
+      "source": "admin_rule",
+      "source_url": "https://rules.nebraska.gov/api/fileStorage/GetAsByteArray/chapter-pdfs/395%20NAC%206%20%2806-27-2021%29.pdf",
+      "consequence_of_miss": "Not specified in 395 NAC 6-004.01(i)"
     },
     {
       "requirement_name": "Investigation completion",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
-      "source": "template_estimate",
-      "consequence_of_miss": "Case dismissal risk"
+      "deadline": "60 days (completion of the initial assessment)",
+      "starts_from": "Report referred to the Department for investigation or assessment (395 NAC 6-005.02; exception may be granted)",
+      "source": "admin_rule",
+      "source_url": "https://rules.nebraska.gov/api/fileStorage/GetAsByteArray/chapter-pdfs/395%20NAC%206%20%2806-27-2021%29.pdf",
+      "consequence_of_miss": "Not specified in 395 NAC 6-005.02"
     }
   ],
   "notice_requirements": [

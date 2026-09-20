@@ -34,14 +34,14 @@
           "source_url": "https://www.wyoleg.gov/statutes/compress/title14.pdf",
           "authority_type": "state_statute",
           "last_verified": "2026-09-19",
-          "deep_link": true
+          "deep_link": false
         },
         {
           "citation_text": "Wyoming - Wyo. Stat. § 14-3-401 et seq. (Child Protection Act – juvenile court process for abuse and neglect)",
           "source_url": "https://www.wyoleg.gov/statutes/compress/title14.pdf",
           "authority_type": "state_statute",
           "last_verified": "2026-09-19",
-          "deep_link": true
+          "deep_link": false
         },
         {
           "citation_text": "Title 14: Children - DFS - CHILD WELFARE PRIMARY",
@@ -336,10 +336,11 @@
     },
     {
       "requirement_name": "Disposition finding",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
-      "source": "template_estimate",
-      "consequence_of_miss": "Procedural violation"
+      "deadline": "Immediately after the decree, or at a postponed hearing within 60 days",
+      "starts_from": "Court or jury finds the child neglected after an adjudicatory hearing, a valid admission or a confession",
+      "source": "state_statute",
+      "consequence_of_miss": "Not specified in Wyo. Stat. § 14-3-426; subsection (e) lets the court continue a disposition hearing for a reasonable time not to exceed sixty (60) days",
+      "source_url": "https://www.wyoleg.gov/statutes/compress/title14.pdf"
     }
   ],
   "notice_requirements": [
@@ -369,7 +370,9 @@
       "parent_rights_at_moment": [
         "Right to see warrant",
         "Right to attorney",
-        "Right to remain silent"
+        "Right to remain silent",
+        "Right to be advised of the specific complaints or allegations against you at the initial time of contact (Wyo. Stat. § 14-3-204(a)(iii))",
+        "A DFS caseworker cannot take your child: only a law enforcement officer, a treating physician, physician's assistant or nurse practitioner, or a court order can (Wyo. Stat. § 14-3-405)"
       ],
       "what_to_say": [
         "Do you have a court order?",

@@ -48,6 +48,18 @@
     "administrative_rule": {
       "regulations_applicable": [
         {
+          "title": "22VAC40-705 - Child Protective Services (Virginia Administrative Code, Title 22, Agency 40)",
+          "url": "https://law.lis.virginia.gov/admincode/title22/agency40/chapter705/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
+        },
+        {
+          "title": "22VAC40-201 - Permanency Services: Prevention, Foster Care, Adoption and Independent Living",
+          "url": "https://law.lis.virginia.gov/admincode/title22/agency40/chapter201/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
+        },
+        {
           "title": "Title 22 - SOCIAL SERVICES",
           "url": "https://www.law.cornell.edu/regulations/virginia/title-22"
         },
@@ -112,7 +124,7 @@
           "last_verified": "2025-12-24"
         }
       ],
-      "source_url": "https://www.law.cornell.edu/regulations/virginia.html"
+      "source_url": "https://law.lis.virginia.gov/admincode/title22/agency40/"
     },
     "state_constitutional": {
       "plane_reference": "state_constitutional_VA",
@@ -238,10 +250,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Safety decision",
-      "deadline": "Immediate upon contact",
-      "starts_from": "First family contact",
-      "source": "template_estimate",
-      "consequence_of_miss": "Child safety risk"
+      "deadline": "No clock set by rule - initial safety assessment of the child's circumstances and threat of danger or harm, and a safety plan where appropriate, in both family assessments and investigations; the first face-to-face contact with the child is due within the response time set at intake, or within 24 hours when the victim child is younger than two (22VAC40-705-80(A)(1), (B)(1))",
+      "starts_from": "The worker's first contact in the family assessment or investigation",
+      "source": "admin_rule",
+      "source_url": "https://law.lis.virginia.gov/admincode/title22/agency40/chapter705/section110/",
+      "consequence_of_miss": "Not specified in 22VAC40-705-110(A)"
     },
     {
       "requirement_name": "Disposition finding",

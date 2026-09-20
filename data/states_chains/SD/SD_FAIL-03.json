@@ -136,6 +136,12 @@
           "url": "https://regulations.justia.com/states/south-dakota/title-6/",
           "authority_type": "administrative_rule",
           "last_verified": "2025-12-24"
+        },
+        {
+          "title": "ARSD Article 67:14 - Child Protection Services (Department of Social Services)",
+          "url": "https://sdlegislature.gov/Rules/Administrative/67:14",
+          "authority_type": "admin_rule",
+          "last_verified": "2026-09-19"
         }
       ],
       "source_url": "https://www.law.cornell.edu/regulations/south-dakota.html"
@@ -305,7 +311,7 @@
   "state_agency": {
     "name": "South Dakota Department of Social Services, Division of Child Protection Services",
     "acronym": "CPS",
-    "hotline": "1-877-244-0864",
+    "hotline": "1-877-244-0864 (intake specialists 8 a.m. to 5 p.m. Monday through Friday; before 8 a.m., after 5 p.m., weekends and holidays contact local law enforcement)",
     "website": "https://dss.sd.gov/childprotection/"
   },
   "linked_output": "OUT-06",
@@ -349,9 +355,10 @@
     },
     {
       "requirement_name": "1983 statute of limitations",
-      "deadline": "2-3 years",
+      "deadline": "3 years",
       "starts_from": "Violation occurred",
-      "source": "federal_statute",
+      "source": "state_statute",
+      "source_url": "https://sdlegislature.gov/Statutes/15-2-14",
       "consequence_of_miss": "Claim barred"
     }
   ],

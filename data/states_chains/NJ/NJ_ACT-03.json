@@ -353,11 +353,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "Within 2 court days",
-      "starts_from": "Child's emergency (“Dodd”) removal without a court order",
+      "deadline": "Hearing on the next court day (the Division must cause a complaint to be filed within two court days after the removal, N.J.S.A. 9:6-8.30(b))",
+      "starts_from": "Child's emergency (“Dodd”) removal from the home without a court order",
       "source": "state_statute",
-      "source_url": "https://policy.dcf.nj.gov/app/file/CPP-II-C-2-700.pdf",
-      "consequence_of_miss": "CP&P must file a complaint with the court unless the child is returned home within two court days (N.J.S.A. 9:6-8.30)."
+      "source_url": "https://law.justia.com/codes/new-jersey/title-9/section-9-6-8-31/",
+      "consequence_of_miss": "If there has been no hearing on the removal at which the parent or guardian was present or had an adequate opportunity to be present, the parent or guardian may apply for a hearing on returning the child, which must be held within three court days of the application except for good cause shown (N.J.S.A. 9:6-8.32)."
     },
     {
       "requirement_name": "Case plan development",
@@ -376,13 +376,19 @@
         "tribe"
       ],
       "method": "personal_service",
-      "timing": "Before court hearing",
+      "timing": "At least 24 hours before the court hearing (reasonable effort by the Division)",
       "content_required": [
         "Hearing date",
         "Allegations",
         "Right to counsel"
       ],
-      "defective_notice_consequence": "Hearing must be continued"
+      "defective_notice_consequence": "Hearing must be continued",
+      "statutory_basis": {
+        "citation_text": "N.J.S.A. 9:6-8.30(a) (the Division shall make a reasonable effort, at least 24 hours prior to the court hearing, to notify the parent or guardian of the time to appear in court and to inform the parent or guardian of the right to obtain counsel, and how to obtain counsel through the Office of the Public Defender if indigent)",
+        "source_url": "https://law.justia.com/codes/new-jersey/title-9/section-9-6-8-30/",
+        "authority_type": "state_statute",
+        "last_verified": "2026-09-19"
+      }
     }
   ],
   "door_scenarios": [

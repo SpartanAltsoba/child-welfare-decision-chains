@@ -300,7 +300,7 @@
   "state_agency": {
     "name": "Montana Department of Public Health and Human Services, Child and Family Services Division",
     "acronym": "CFSD",
-    "hotline": "1-866-820-5437",
+    "hotline": "1-866-820-5437 (toll free, 24 hours); TTY (hearing impaired) 1-866-341-8811",
     "website": "https://dphhs.mt.gov/cfsd/"
   },
   "icwa_compliant": true,
@@ -329,7 +329,13 @@
   },
   "burden_of_proof": {
     "standard": "preponderance",
-    "who_bears_burden": "agency",
+    "who_bears_burden": "petitioner",
+    "statutory_basis": {
+      "citation_text": "Mont. Code Ann. § 41-3-422(5)(a)(ii) — the person filing the abuse and neglect petition must establish \"a preponderance of the evidence for an order of adjudication or temporary legal custody\"; under § 41-3-422(2) that filer is the county attorney, attorney general, or an attorney hired by the county",
+      "source_url": "https://mca.legmt.gov/bills/mca/title_0410/chapter_0030/part_0040/section_0220/0410-0030-0040-0220.html",
+      "authority_type": "state_statute",
+      "last_verified": "2026-09-19"
+    },
     "common_failures": [
       "Inadequate safety planning",
       "Failure to consider less restrictive alternatives",
@@ -343,7 +349,7 @@
       "starts_from": "Child's removal from the home",
       "source": "state_statute",
       "source_url": "https://mca.legmt.gov/bills/mca/title_0410/chapter_0030/part_0030/section_0060/0410-0030-0030-0060.html",
-      "consequence_of_miss": "No judicial probable-cause finding authorizing removal to continue beyond 5 business days; if the court finds continued removal is not appropriate the child must be returned immediately (Mont. Code Ann. § 41-3-306(1)(a), (6))"
+      "consequence_of_miss": "No judicial probable-cause finding authorizing removal to continue beyond 5 business days; if the court finds continued removal is not appropriate the child must be returned immediately (Mont. Code Ann. § 41-3-306(1)(a), (6)). No hearing is required if the child is released prior to the time of the required hearing (§ 41-3-306(1)(c))"
     },
     {
       "requirement_name": "Case plan development",

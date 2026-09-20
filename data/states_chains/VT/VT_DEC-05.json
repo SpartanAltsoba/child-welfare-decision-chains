@@ -71,6 +71,12 @@
     "administrative_rule": {
       "regulations_applicable": [
         {
+          "title": "Vermont DCF Family Services Division rules and policy manual (Rule 2000 Response to Child Abuse and Neglect; Rule 3000 Administrative Review Process; Rule 7000 Transition Age Youth)",
+          "url": "https://dcf.vermont.gov/fsd/laws-rules",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
+        },
+        {
           "title": "Agency 13 - AGENCY OF HUMAN SERVICES",
           "url": "https://www.law.cornell.edu/regulations/vermont/agency-13"
         },
@@ -346,17 +352,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Safety decision",
-      "deadline": "Immediate upon contact",
-      "starts_from": "First family contact",
-      "source": "template_estimate",
-      "consequence_of_miss": "Child safety risk"
+      "deadline": "24 hours to document the safety determination and safety plan on the SDM Safety Assessment",
+      "starts_from": "First in-person interview with the family",
+      "source": "admin_rule",
+      "consequence_of_miss": "Not specified in Vermont DCF Family Services Policy 52 (effective 9/5/2024).",
+      "source_url": "https://outside.vermont.gov/dept/DCF/Shared%20Documents/FSD/Policies/Policy52.pdf"
     },
     {
       "requirement_name": "Disposition finding",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
-      "source": "template_estimate",
-      "consequence_of_miss": "Procedural violation"
+      "deadline": "60 days to conclude an investigation; 45 days to complete an assessment, or 60 days with written justification and supervisor approval",
+      "starts_from": "Opening of the child safety intervention (the investigation or assessment track)",
+      "source": "admin_rule",
+      "consequence_of_miss": "Not specified in Vermont DCF Family Services Policy 52 (effective 9/5/2024); the policy allows an investigation to stay open past 60 days while a law enforcement or criminal case is unresolved, and an assessment extension may not exceed 60 days total (33 V.S.A. § 4915a(b)). Vermont sets no completion deadline for the investigation track by statute (33 V.S.A. § 4915b).",
+      "source_url": "https://outside.vermont.gov/dept/DCF/Shared%20Documents/FSD/Policies/Policy52.pdf"
     }
   ],
   "notice_requirements": [

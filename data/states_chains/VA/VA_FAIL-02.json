@@ -49,6 +49,18 @@
     "administrative_rule": {
       "regulations_applicable": [
         {
+          "title": "22VAC40-705 - Child Protective Services (Virginia Administrative Code, Title 22, Agency 40)",
+          "url": "https://law.lis.virginia.gov/admincode/title22/agency40/chapter705/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
+        },
+        {
+          "title": "22VAC40-201 - Permanency Services: Prevention, Foster Care, Adoption and Independent Living",
+          "url": "https://law.lis.virginia.gov/admincode/title22/agency40/chapter201/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
+        },
+        {
           "title": "Title 22 - SOCIAL SERVICES",
           "url": "https://www.law.cornell.edu/regulations/virginia/title-22"
         },
@@ -113,7 +125,7 @@
           "last_verified": "2025-12-24"
         }
       ],
-      "source_url": "https://www.law.cornell.edu/regulations/virginia.html"
+      "source_url": "https://law.lis.virginia.gov/admincode/title22/agency40/"
     },
     "state_constitutional": {
       "plane_reference": "state_constitutional_VA",
@@ -238,10 +250,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Appeal deadline",
-      "deadline": "30 days",
-      "starts_from": "Final order",
-      "source": "template_estimate",
-      "consequence_of_miss": "Loss of appeal rights"
+      "deadline": "10 days to note an appeal to the circuit court, heard de novo",
+      "starts_from": "Entry of the juvenile and domestic relations district court's final judgment, order, or conviction",
+      "source": "state_statute",
+      "source_url": "https://law.lis.virginia.gov/vacode/title16.1/chapter11/section16.1-296/",
+      "consequence_of_miss": "Not specified in Va. Code § 16.1-296(A)"
     },
     {
       "requirement_name": "1983 statute of limitations",

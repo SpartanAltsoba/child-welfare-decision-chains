@@ -68,6 +68,12 @@
     "administrative_rule": {
       "regulations_applicable": [
         {
+          "title": "Vermont DCF Family Services Division rules and policy manual (Rule 2000 Response to Child Abuse and Neglect; Rule 3000 Administrative Review Process; Rule 7000 Transition Age Youth)",
+          "url": "https://dcf.vermont.gov/fsd/laws-rules",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
+        },
+        {
           "title": "Agency 13 - AGENCY OF HUMAN SERVICES",
           "url": "https://www.law.cornell.edu/regulations/vermont/agency-13"
         },
@@ -336,9 +342,10 @@
     {
       "requirement_name": "Appeal deadline",
       "deadline": "30 days",
-      "starts_from": "Final order",
-      "source": "template_estimate",
-      "consequence_of_miss": "Loss of appeal rights"
+      "starts_from": "Date the administrative reviewer sent notice of the decision on the substantiation review (33 V.S.A. § 4916a(i)); the review itself must be requested within 30 days after the Department sent notice of the right to review (33 V.S.A. § 4916a(c)(1))",
+      "source": "state_statute",
+      "consequence_of_miss": "If no review by the Human Services Board is requested, the Department's decision is final and the person has no further right of review under this section; the Board may grant a waiver upon good cause shown (33 V.S.A. § 4916b(d)).",
+      "source_url": "https://legislature.vermont.gov/statutes/section/33/049/04916b"
     },
     {
       "requirement_name": "1983 statute of limitations",

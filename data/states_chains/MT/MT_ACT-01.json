@@ -309,7 +309,7 @@
   "state_agency": {
     "name": "Montana Department of Public Health and Human Services, Child and Family Services Division",
     "acronym": "CFSD",
-    "hotline": "1-866-820-5437",
+    "hotline": "1-866-820-5437 (toll free, 24 hours); TTY (hearing impaired) 1-866-341-8811",
     "website": "https://dphhs.mt.gov/cfsd/"
   },
   "icwa_compliant": true,
@@ -337,8 +337,14 @@
     "leaf_linker_version": "1.0.0"
   },
   "burden_of_proof": {
-    "standard": "preponderance",
+    "standard": "reasonable_suspicion",
     "who_bears_burden": "agency",
+    "statutory_basis": {
+      "citation_text": "Mont. Code Ann. § 41-3-202(5)(a) — \"If from the safety and risk assessment the department has reasonable cause to suspect that the child is suffering abuse or neglect, the department may provide emergency protective services to the child, pursuant to 41-3-301, or enter into a written prevention plan, pursuant to 41-3-302\"",
+      "source_url": "https://mca.legmt.gov/bills/mca/title_0410/chapter_0030/part_0020/section_0020/0410-0030-0020-0020.html",
+      "authority_type": "state_statute",
+      "last_verified": "2026-09-19"
+    },
     "common_failures": [
       "Inadequate safety planning",
       "Failure to consider less restrictive alternatives",
@@ -352,7 +358,7 @@
       "starts_from": "Child's removal from the home",
       "source": "state_statute",
       "source_url": "https://mca.legmt.gov/bills/mca/title_0410/chapter_0030/part_0030/section_0060/0410-0030-0030-0060.html",
-      "consequence_of_miss": "No judicial probable-cause finding authorizing removal to continue beyond 5 business days; if the court finds continued removal is not appropriate the child must be returned immediately (Mont. Code Ann. § 41-3-306(1)(a), (6))"
+      "consequence_of_miss": "No judicial probable-cause finding authorizing removal to continue beyond 5 business days; if the court finds continued removal is not appropriate the child must be returned immediately (Mont. Code Ann. § 41-3-306(1)(a), (6)). No hearing is required if the child is released prior to the time of the required hearing (§ 41-3-306(1)(c))"
     },
     {
       "requirement_name": "Case plan development",

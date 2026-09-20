@@ -38,14 +38,14 @@
           "source_url": "https://www.wyoleg.gov/statutes/compress/title14.pdf",
           "authority_type": "state_statute",
           "last_verified": "2026-09-19",
-          "deep_link": true
+          "deep_link": false
         },
         {
           "citation_text": "Wyoming - Wyo. Stat. § 14-3-401 et seq. (Child Protection Act – juvenile court process for abuse and neglect)",
           "source_url": "https://www.wyoleg.gov/statutes/compress/title14.pdf",
           "authority_type": "state_statute",
           "last_verified": "2026-09-19",
-          "deep_link": true
+          "deep_link": false
         },
         {
           "citation_text": "Title 14: Children - DFS - CHILD WELFARE PRIMARY",
@@ -347,9 +347,10 @@
     {
       "requirement_name": "Appeal deadline",
       "deadline": "30 days",
-      "starts_from": "Final order",
-      "source": "template_estimate",
-      "consequence_of_miss": "Loss of appeal rights"
+      "starts_from": "Entry of the appealable juvenile court order, judgment or decree (Wyo. Stat. § 14-3-432(a) applies the Wyoming Rules of Appellate Procedure; W.R.A.P. 2.01(a) sets the 30 days)",
+      "source": "court_rule",
+      "consequence_of_miss": "Timely filing of a notice of appeal is jurisdictional (W.R.A.P. 1.03(a))",
+      "source_url": "https://www.wyocourts.gov/app/uploads/2025/01/WRAP-eff-Dec-1.pdf"
     },
     {
       "requirement_name": "1983 statute of limitations",

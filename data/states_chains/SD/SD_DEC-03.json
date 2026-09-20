@@ -134,6 +134,12 @@
           "url": "https://regulations.justia.com/states/south-dakota/title-6/",
           "authority_type": "administrative_rule",
           "last_verified": "2025-12-24"
+        },
+        {
+          "title": "ARSD Article 67:14 - Child Protection Services (Department of Social Services)",
+          "url": "https://sdlegislature.gov/Rules/Administrative/67:14",
+          "authority_type": "admin_rule",
+          "last_verified": "2026-09-19"
         }
       ],
       "source_url": "https://www.law.cornell.edu/regulations/south-dakota.html"
@@ -303,7 +309,7 @@
   "state_agency": {
     "name": "South Dakota Department of Social Services, Division of Child Protection Services",
     "acronym": "CPS",
-    "hotline": "1-877-244-0864",
+    "hotline": "1-877-244-0864 (intake specialists 8 a.m. to 5 p.m. Monday through Friday; before 8 a.m., after 5 p.m., weekends and holidays contact local law enforcement)",
     "website": "https://dss.sd.gov/childprotection/"
   },
   "investigation_requirements": [
@@ -351,6 +357,22 @@
       "starts_from": "Investigation opened",
       "source": "template_estimate",
       "consequence_of_miss": "Procedural violation"
+    },
+    {
+      "requirement_name": "Central registry administrative hearing request",
+      "deadline": "30 days",
+      "starts_from": "Department of Social Services notice that the person will be placed on the central registry based upon a substantiated investigation, running from the date the notice is received or the last day the post office attempts delivery; no right to an administrative hearing if there has been a court finding of child abuse or neglect",
+      "source": "state_statute",
+      "source_url": "https://sdlegislature.gov/Statutes/26-8A-11",
+      "consequence_of_miss": "The person's name is placed on the central registry"
+    },
+    {
+      "requirement_name": "Central registry hearing decision",
+      "deadline": "90 days",
+      "starts_from": "Date of receipt of the request for a hearing",
+      "source": "state_statute",
+      "source_url": "https://sdlegislature.gov/Statutes/26-8A-11",
+      "consequence_of_miss": "Not specified in SDCL 26-8A-11"
     }
   ],
   "notice_requirements": [

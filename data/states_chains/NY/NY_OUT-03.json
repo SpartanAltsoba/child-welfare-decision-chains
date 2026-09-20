@@ -325,10 +325,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Permanency hearing",
-      "deadline": "12 months",
-      "starts_from": "Child enters care",
-      "source": "federal_statute",
-      "consequence_of_miss": "ASFA violation"
+      "deadline": "Initial hearing commenced within 6 months; each later hearing no later than 6 months from completion of the previous one",
+      "starts_from": "Sixty days after the child was removed from the home (later hearings run from completion of the previous permanency hearing)",
+      "source": "state_statute",
+      "consequence_of_miss": "Not specified in N.Y. Fam. Ct. Act § 1089(a)",
+      "source_url": "https://www.nysenate.gov/legislation/laws/FCT/1089"
     },
     {
       "requirement_name": "TPR filing",
@@ -356,6 +357,27 @@
       ],
       "icwa_additional_notice": true,
       "defective_notice_consequence": "TPR may be vacated"
+    },
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian",
+        "foster_parent",
+        "attorney"
+      ],
+      "method": "regular_mail",
+      "timing": "No later than 14 days before the date certain for the permanency hearing",
+      "content_required": [
+        "Notice of the permanency hearing",
+        "Permanency hearing report"
+      ],
+      "defective_notice_consequence": "Not specified in N.Y. Fam. Ct. Act § 1089(b)",
+      "statutory_basis": {
+        "citation_text": "N.Y. Fam. Ct. Act § 1089(b) (the local social services district serves the notice of the permanency hearing and the permanency hearing report by regular mail on the child's parent, any other person legally responsible for the child's care, the foster parent in whose home the child currently resides, the attorneys, and, where the child is age ten or older, the child)",
+        "source_url": "https://www.nysenate.gov/legislation/laws/FCT/1089",
+        "authority_type": "state_statute",
+        "last_verified": "2026-09-19"
+      }
     }
   ]
 }

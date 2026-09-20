@@ -318,7 +318,7 @@
   "state_agency": {
     "name": "Montana Department of Public Health and Human Services, Child and Family Services Division",
     "acronym": "CFSD",
-    "hotline": "1-866-820-5437",
+    "hotline": "1-866-820-5437 (toll free, 24 hours); TTY (hearing impaired) 1-866-341-8811",
     "website": "https://dphhs.mt.gov/cfsd/"
   },
   "investigation_requirements": [
@@ -344,8 +344,14 @@
     "leaf_linker_version": "1.0.0"
   },
   "burden_of_proof": {
-    "standard": "preponderance",
+    "standard": "exigent_circumstances",
     "who_bears_burden": "agency",
+    "statutory_basis": {
+      "citation_text": "Mont. Code Ann. § 41-3-301(1)(a) — a child protection investigator, peace officer, or county attorney \"who has reason to believe any child is in immediate or apparent danger of harm may immediately remove the child\"; a district court must then find probable cause to continue the removal within 5 business days (§ 41-3-306(1)(a))",
+      "source_url": "https://mca.legmt.gov/bills/mca/title_0410/chapter_0030/part_0030/section_0010/0410-0030-0030-0010.html",
+      "authority_type": "state_statute",
+      "last_verified": "2026-09-19"
+    },
     "common_failures": [
       "Insufficient evidence for substantiation",
       "Failure to document findings",
