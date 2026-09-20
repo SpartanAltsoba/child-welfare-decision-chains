@@ -32,7 +32,64 @@
       "source_reference": [
         "ASFA reunification and permanency provisions"
       ],
-      "trigger_name": "Reunification"
+      "trigger_name": "Reunification",
+      "layers": {
+        "case_law": {
+          "jurisdiction": "US",
+          "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+          "verified_date": "2026-09-20",
+          "key_cases": [
+            {
+              "case_name": "Santosky v. Kramer",
+              "citation": "455 U.S. 745 (1982)",
+              "court": "Supreme Court of the United States",
+              "year": 1982,
+              "date_decided": "1982-02-22",
+              "holding": "The Court held that the Due Process Clause of the Fourteenth Amendment requires a State to support its allegations by at least clear and convincing evidence before it may terminate parental rights, and reversed New York's fair-preponderance standard.",
+              "relevance": "The presumption favoring reunification follows from Santosky's premise that parents retain a fundamental liberty interest until the State meets the heightened standard.",
+              "quote": "due process requires that the State support its allegations by at least clear and convincing evidence",
+              "url": "https://www.courtlistener.com/opinion/110676/santosky-v-kramer/",
+              "courtlistener_cluster_id": 110676
+            },
+            {
+              "case_name": "Suter v. Artist M.",
+              "citation": "503 U.S. 347 (1992)",
+              "court": "Supreme Court of the United States",
+              "year": 1992,
+              "date_decided": "1992-03-25",
+              "holding": "The Court held that the Adoption Assistance and Child Welfare Act's 'reasonable efforts' requirement, 42 U.S.C. § 671(a)(15), creates no right enforceable by beneficiaries through § 1983 or an implied right of action.",
+              "relevance": "Efforts to reunify are owed to the federal funder under the state plan; Suter bars beneficiaries from suing to compel them.",
+              "quote": "We hold that the Act does not create an enforceable right on behalf of respondents",
+              "url": "https://www.courtlistener.com/opinion/112712/suter-v-artist-m/",
+              "courtlistener_cluster_id": 112712
+            },
+            {
+              "case_name": "Stanley v. Illinois",
+              "citation": "405 U.S. 645 (1972)",
+              "court": "Supreme Court of the United States",
+              "year": 1972,
+              "date_decided": "1972-04-03",
+              "holding": "The Court held that an unwed father was entitled as a matter of due process to a hearing on his fitness before his children could be taken from him, and that presuming him unfit without such a hearing also denied equal protection.",
+              "relevance": "Stanley's refusal to presume unfitness supports the federal preference for returning children to parents who have not been individually adjudicated unfit.",
+              "quote": "as a matter of due process of law, Stanley was entitled to a hearing on his fitness as a parent before his children were taken from him",
+              "url": "https://www.courtlistener.com/opinion/108497/stanley-v-illinois/",
+              "courtlistener_cluster_id": 108497
+            },
+            {
+              "case_name": "Smith v. Organization of Foster Families for Equality & Reform",
+              "citation": "431 U.S. 816 (1977)",
+              "court": "Supreme Court of the United States",
+              "year": 1977,
+              "date_decided": "1977-06-13",
+              "holding": "The Court reversed, holding that whatever liberty interest foster families may possess arises from state law and contract and was adequately protected by New York's existing pre-removal procedures.",
+              "relevance": "Reunification may proceed over a foster family's objection because the foster relationship does not carry the constitutional weight of the natural family.",
+              "quote": "the procedures provided by New York State in § 392 and by New York City's SSC Procedure No. 5 are adequate to protect whatever liberty interests appellees may have",
+              "url": "https://www.courtlistener.com/opinion/109684/smith-v-organization-of-foster-families-for-equality-reform/",
+              "courtlistener_cluster_id": 109684
+            }
+          ]
+        }
+      }
     },
     {
       "subnode": "OUT-02",
@@ -65,7 +122,76 @@
       "source_reference": [
         "ASFA/IV-E adoption and TPR guidelines"
       ],
-      "trigger_name": "Termination of Parental Rights / Adoption"
+      "trigger_name": "Termination of Parental Rights / Adoption",
+      "layers": {
+        "case_law": {
+          "jurisdiction": "US",
+          "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+          "verified_date": "2026-09-20",
+          "key_cases": [
+            {
+              "case_name": "Santosky v. Kramer",
+              "citation": "455 U.S. 745 (1982)",
+              "court": "Supreme Court of the United States",
+              "year": 1982,
+              "date_decided": "1982-02-22",
+              "holding": "The Court held that the Due Process Clause of the Fourteenth Amendment requires a State to support its allegations by at least clear and convincing evidence before it may terminate parental rights, and reversed New York's fair-preponderance standard.",
+              "relevance": "This is the controlling federal standard of proof for termination of parental rights in every state and tribal-adjacent proceeding.",
+              "quote": "due process requires that the State support its allegations by at least clear and convincing evidence",
+              "url": "https://www.courtlistener.com/opinion/110676/santosky-v-kramer/",
+              "courtlistener_cluster_id": 110676
+            },
+            {
+              "case_name": "Lassiter v. Department of Social Services of Durham County, North Carolina",
+              "citation": "452 U.S. 18 (1981)",
+              "court": "Supreme Court of the United States",
+              "year": 1981,
+              "date_decided": "1981-08-28",
+              "holding": "The Court held that the Due Process Clause does not require appointed counsel for indigent parents in every parental-rights termination proceeding, leaving the appointment decision to the trial court in the first instance subject to appellate review.",
+              "relevance": "Lassiter is the federal floor for counsel in termination proceedings and explains why state statutes, not the Constitution, drive most appointment practice.",
+              "quote": "neither can we say that the Constitution requires the appointment of counsel in every parental termination proceeding",
+              "url": "https://www.courtlistener.com/opinion/110506/lassiter-v-department-of-social-servs-of-durham-cty/",
+              "courtlistener_cluster_id": 110506
+            },
+            {
+              "case_name": "M. L. B. v. S. L. J.",
+              "citation": "519 U.S. 102 (1996)",
+              "court": "Supreme Court of the United States",
+              "year": 1996,
+              "date_decided": "1996-12-16",
+              "holding": "The Court held that a State may not condition an indigent parent's appeal from a decree terminating parental rights on her ability to prepay record preparation fees.",
+              "relevance": "Indigency cannot be allowed to make a termination decree unreviewable; the State must furnish the record needed to appeal.",
+              "quote": "Mississippi may not deny M. L. B., because of her poverty, appellate review of the sufficiency of the evidence on which the trial court found her unfit to remain a parent",
+              "url": "https://www.courtlistener.com/opinion/9281247/m-l-b-v-s-l-j/",
+              "courtlistener_cluster_id": 9281247
+            },
+            {
+              "case_name": "Quilloin v. Walcott",
+              "citation": "434 U.S. 246 (1978)",
+              "court": "Supreme Court of the United States",
+              "year": 1978,
+              "date_decided": "1978-03-06",
+              "holding": "The Court affirmed, holding that where an unwed father had never exercised custody or legal responsibility, due process permitted a stepparent adoption to be decided on a best-interests standard without a finding of his unfitness.",
+              "relevance": "Termination incident to stepparent adoption may proceed on best interests where the objecting parent never had custody or responsibility.",
+              "quote": "under the circumstances of this case appellant's substantive rights were not violated by application of a \"best interests of the child\" standard",
+              "url": "https://www.courtlistener.com/opinion/109760/quilloin-v-walcott/",
+              "courtlistener_cluster_id": 109760
+            },
+            {
+              "case_name": "Adoptive Couple v. Baby Girl",
+              "citation": "570 U.S. 637 (2013)",
+              "court": "Supreme Court of the United States",
+              "year": 2013,
+              "date_decided": "2013-06-25",
+              "holding": "The Court held that ICWA § 1912(f) does not bar termination where the Indian parent never had custody, and that § 1912(d)'s remedial-efforts requirement applies only where termination would precipitate the breakup of an existing Indian family.",
+              "relevance": "Termination of an Indian parent's rights may proceed without § 1912(d) remedial efforts when no existing Indian family would be broken up.",
+              "quote": "we hold that §1912(d) applies only in cases where an Indian family's “breakup” would be precipitated by the termination of the parent's rights",
+              "url": "https://www.courtlistener.com/opinion/2959741/adoptive-couple-v-baby-girl/",
+              "courtlistener_cluster_id": 2959741
+            }
+          ]
+        }
+      }
     },
     {
       "subnode": "OUT-03",
@@ -98,7 +224,88 @@
       "source_reference": [
         "FCSIAA and IV-E Guardianship Assistance references"
       ],
-      "trigger_name": "Guardianship / Kinship Permanency"
+      "trigger_name": "Guardianship / Kinship Permanency",
+      "layers": {
+        "case_law": {
+          "jurisdiction": "US",
+          "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+          "verified_date": "2026-09-20",
+          "key_cases": [
+            {
+              "case_name": "Smith v. Organization of Foster Families for Equality & Reform",
+              "citation": "431 U.S. 816 (1977)",
+              "court": "Supreme Court of the United States",
+              "year": 1977,
+              "date_decided": "1977-06-13",
+              "holding": "The Court reversed, holding that whatever liberty interest foster families may possess arises from state law and contract and was adequately protected by New York's existing pre-removal procedures.",
+              "relevance": "Guardianship and kinship permanency rest on state-created entitlements whose procedural protections come from statute, not from substantive due process.",
+              "quote": "the procedures provided by New York State in § 392 and by New York City's SSC Procedure No. 5 are adequate to protect whatever liberty interests appellees may have",
+              "url": "https://www.courtlistener.com/opinion/109684/smith-v-organization-of-foster-families-for-equality-reform/",
+              "courtlistener_cluster_id": 109684
+            },
+            {
+              "case_name": "Quilloin v. Walcott",
+              "citation": "434 U.S. 246 (1978)",
+              "court": "Supreme Court of the United States",
+              "year": 1978,
+              "date_decided": "1978-03-06",
+              "holding": "The Court affirmed, holding that where an unwed father had never exercised custody or legal responsibility, due process permitted a stepparent adoption to be decided on a best-interests standard without a finding of his unfitness.",
+              "relevance": "Permanency through adoption by an existing caregiver is evaluated by best interests when the outside parent lacks a developed custodial relationship.",
+              "quote": "under the circumstances of this case appellant's substantive rights were not violated by application of a \"best interests of the child\" standard",
+              "url": "https://www.courtlistener.com/opinion/109760/quilloin-v-walcott/",
+              "courtlistener_cluster_id": 109760
+            },
+            {
+              "case_name": "Haaland v. Brackeen",
+              "citation": "599 U.S. 255 (2023)",
+              "court": "Supreme Court of the United States",
+              "year": 2023,
+              "date_decided": "2023-06-15",
+              "holding": "The Court rejected every challenge to ICWA, upholding it against Article I and anticommandeering attacks on the merits and dismissing the equal protection and nondelegation challenges for lack of standing.",
+              "relevance": "Guardianship and adoptive permanency for Indian children must still follow ICWA's preference hierarchy after Brackeen.",
+              "quote": "the bottom line is that we reject all of petitioners' challenges to the statute, some on the merits and others for lack of standing",
+              "url": "https://www.courtlistener.com/opinion/9406660/haaland-v-brackeen/",
+              "courtlistener_cluster_id": 9406660
+            },
+            {
+              "case_name": "Adoptive Couple v. Baby Girl",
+              "citation": "570 U.S. 637 (2013)",
+              "court": "Supreme Court of the United States",
+              "year": 2013,
+              "date_decided": "2013-06-25",
+              "holding": "The Court held that ICWA § 1912(f) does not bar termination where the Indian parent never had custody, and that § 1912(d)'s remedial-efforts requirement applies only where termination would precipitate the breakup of an existing Indian family.",
+              "relevance": "Placement preferences operate against the backdrop of Adoptive Couple's limits, which affect who may invoke ICWA in a permanency contest.",
+              "quote": "we hold that §1912(d) applies only in cases where an Indian family's “breakup” would be precipitated by the termination of the parent's rights",
+              "url": "https://www.courtlistener.com/opinion/2959741/adoptive-couple-v-baby-girl/",
+              "courtlistener_cluster_id": 2959741
+            },
+            {
+              "case_name": "Lehr v. Robertson",
+              "citation": "463 U.S. 248 (1983)",
+              "court": "Supreme Court of the United States",
+              "year": 1983,
+              "date_decided": "1983-06-27",
+              "holding": "The Court affirmed, holding that where an unwed father had never had a significant custodial, personal, or financial relationship with his child, New York's putative father registry adequately protected his opportunity to form one and due process did not entitle him to actual notice of the child's adoption.",
+              "relevance": "Permanency achieved through adoption by the child's existing household may be finalized without notice to a biological parent who never grasped the opportunity to develop a relationship, provided the State offers a workable registry mechanism.",
+              "quote": "The significance of the biological connection is that it offers the natural father an opportunity that no other male possesses to develop a relationship with his offspring",
+              "url": "https://www.courtlistener.com/opinion/110999/lehr-v-robertson/",
+              "courtlistener_cluster_id": 110999
+            },
+            {
+              "case_name": "Moore v. City of East Cleveland",
+              "citation": "431 U.S. 494 (1977)",
+              "court": "Supreme Court of the United States",
+              "year": 1977,
+              "date_decided": "1977-05-31",
+              "holding": "The opinion announcing the judgment reversed a grandmother's criminal conviction under a housing ordinance that barred her from living with two grandsons who were cousins, holding that substantive due process protects family living arrangements extending beyond the nuclear family.",
+              "relevance": "Kinship permanency rests on a living arrangement that Moore holds the State may not lightly disrupt, which is a stronger footing than the statutory entitlement analysis alone.",
+              "quote": "The tradition of uncles, aunts, cousins, and especially grandparents sharing a household along with parents and children has roots equally venerable and equally deserving of constitutional recognition",
+              "url": "https://www.courtlistener.com/opinion/109670/moore-v-city-of-east-cleveland/",
+              "courtlistener_cluster_id": 109670
+            }
+          ]
+        }
+      }
     },
     {
       "subnode": "OUT-04",
@@ -131,7 +338,64 @@
       "source_reference": [
         "CFCIA and FCSIAA transition provisions"
       ],
-      "trigger_name": "Extended Foster Care / Aging Out"
+      "trigger_name": "Extended Foster Care / Aging Out",
+      "layers": {
+        "case_law": {
+          "jurisdiction": "US",
+          "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+          "verified_date": "2026-09-20",
+          "key_cases": [
+            {
+              "case_name": "Suter v. Artist M.",
+              "citation": "503 U.S. 347 (1992)",
+              "court": "Supreme Court of the United States",
+              "year": 1992,
+              "date_decided": "1992-03-25",
+              "holding": "The Court held that the Adoption Assistance and Child Welfare Act's 'reasonable efforts' requirement, 42 U.S.C. § 671(a)(15), creates no right enforceable by beneficiaries through § 1983 or an implied right of action.",
+              "relevance": "Extended foster care benefits flow from Spending Clause conditions that Suter treats as administratively, not privately, enforced.",
+              "quote": "We hold that the Act does not create an enforceable right on behalf of respondents",
+              "url": "https://www.courtlistener.com/opinion/112712/suter-v-artist-m/",
+              "courtlistener_cluster_id": 112712
+            },
+            {
+              "case_name": "Gonzaga University v. Doe",
+              "citation": "536 U.S. 273 (2002)",
+              "court": "Supreme Court of the United States",
+              "year": 2002,
+              "date_decided": "2002-06-20",
+              "holding": "The Court held that FERPA's nondisclosure provisions create no personal rights enforceable under § 1983, and that nothing short of an unambiguously conferred right will support a § 1983 action to enforce a federal spending statute.",
+              "relevance": "Transition-age services funded under Spending Clause programs are enforceable only if Congress conferred the right unambiguously.",
+              "quote": "We now reject the notion that our cases permit anything short of an unambiguously conferred right to support a cause of action brought under § 1983",
+              "url": "https://www.courtlistener.com/opinion/121157/gonzaga-university-v-doe/",
+              "courtlistener_cluster_id": 121157
+            },
+            {
+              "case_name": "Armstrong v. Exceptional Child Center, Inc.",
+              "citation": "575 U.S. 320 (2015)",
+              "court": "Supreme Court of the United States",
+              "year": 2015,
+              "date_decided": "2015-03-31",
+              "holding": "The Court held that the Supremacy Clause creates no private cause of action and that Medicaid providers could not sue in equity to enforce a Spending Clause requirement whose sole remedy Congress vested in the Secretary.",
+              "relevance": "Extended foster care entitlements created by Spending Clause conditions are not enforceable in equity against the State under Armstrong.",
+              "quote": "To say that the Supremacy Clause does not confer a right of action is not to diminish the significant role that courts play in assuring the supremacy of federal law",
+              "url": "https://www.courtlistener.com/opinion/2790213/armstrong-v-exceptional-child-center-inc/",
+              "courtlistener_cluster_id": 2790213
+            },
+            {
+              "case_name": "Health and Hospital Corporation of Marion Cty. v. Talevski",
+              "citation": "599 U.S. 166 (2023)",
+              "court": "Supreme Court of the United States",
+              "year": 2023,
+              "date_decided": "2023-06-08",
+              "holding": "The Court affirmed, holding that the Federal Nursing Home Reform Act's chemical-restraint and pre-transfer-notice provisions unambiguously confer individual rights presumptively enforceable under § 1983, and that the Act's remedial scheme was not comprehensive enough to rebut that presumption; the Court declined to disturb the Spending Clause § 1983 line running from Suter and Gonzaga.",
+              "relevance": "Extended foster care and transition-service provisions are enforceable by the youth only if they clear Talevski's unambiguous-conferral bar and Congress has not impliedly precluded § 1983.",
+              "quote": "our precedent sets a demanding bar: Statutory provisions must unambiguously confer individual federal rights",
+              "url": "https://www.courtlistener.com/opinion/9404968/health-and-hospital-corporation-of-marion-cty-v-talevski/",
+              "courtlistener_cluster_id": 9404968
+            }
+          ]
+        }
+      }
     },
     {
       "subnode": "OUT-05",
@@ -164,7 +428,76 @@
       "source_reference": [
         "CAPTA and CFSR data tracking standards"
       ],
-      "trigger_name": "Case Dismissal"
+      "trigger_name": "Case Dismissal",
+      "layers": {
+        "case_law": {
+          "jurisdiction": "US",
+          "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+          "verified_date": "2026-09-20",
+          "key_cases": [
+            {
+              "case_name": "Croft v. Westmoreland County Children and Youth Services",
+              "citation": "103 F.3d 1123 (3d Cir. 1997)",
+              "court": "Court of Appeals for the Third Circuit",
+              "year": 1997,
+              "date_decided": "1997-01-06",
+              "holding": "The court reversed summary judgment for the agency, holding that a caseworker who forced a father from the home on the basis of an uncorroborated anonymous tip, while holding no opinion that abuse had occurred, lacked objectively reasonable grounds and committed an arbitrary abuse of government power.",
+              "relevance": "Where the investigation produces no affirmative evidence, the constitutional predicate for continued intervention disappears.",
+              "quote": "Even considered together, minor inconsistencies which provide no affirmative evidence of sexual abuse cannot alone establish the objectively reasonable grounds necessary to remove a family member from the family unit",
+              "url": "https://www.courtlistener.com/opinion/732428/croft-v-westmoreland-county-children-and-youth-services/",
+              "courtlistener_cluster_id": 732428
+            },
+            {
+              "case_name": "Rogers v. County of San Joaquin",
+              "citation": "487 F.3d 1288 (9th Cir. 2007)",
+              "court": "Court of Appeals for the Ninth Circuit",
+              "year": 2007,
+              "date_decided": "2007-05-29",
+              "holding": "The court reversed the grant of qualified immunity, holding that chronic medical neglect and unsanitary home conditions did not establish exigency and that the warrantless removal violated clearly established Fourth and Fourteenth Amendment rights.",
+              "relevance": "Where the record shows no imminent danger, the constitutional predicate for the case fails and dismissal is appropriate.",
+              "quote": "we hold that it was clearly established that warrantless removal of children is permissible only in cases of exigency",
+              "url": "https://www.courtlistener.com/opinion/797914/rogers-v-county-of-san-joaquin/",
+              "courtlistener_cluster_id": 797914
+            },
+            {
+              "case_name": "Doe v. Heck",
+              "citation": "327 F.3d 492 (7th Cir. 2003)",
+              "court": "Court of Appeals for the Seventh Circuit",
+              "year": 2003,
+              "date_decided": "2003-05-15",
+              "holding": "The court held that caseworkers violated the Fourth Amendment by entering a private school and seizing a student for a custodial interview without a warrant, consent, or probable cause, and violated the parents' right to familial relations, although qualified immunity shielded them from damages.",
+              "relevance": "Where no evidence of abuse exists, continued agency involvement is arbitrary and the case should close.",
+              "quote": "although child welfare caseworkers may investigate allegations of child abuse without violating parents' constitutional right to familial relations, they may not do so arbitrarily",
+              "url": "https://www.courtlistener.com/opinion/781752/doe-v-heck/",
+              "courtlistener_cluster_id": 781752
+            },
+            {
+              "case_name": "Stanley v. Illinois",
+              "citation": "405 U.S. 645 (1972)",
+              "court": "Supreme Court of the United States",
+              "year": 1972,
+              "date_decided": "1972-04-03",
+              "holding": "The Court held that an unwed father was entitled as a matter of due process to a hearing on his fitness before his children could be taken from him, and that presuming him unfit without such a hearing also denied equal protection.",
+              "relevance": "Where the State cannot prove unfitness at an individualized hearing, dismissal is the constitutionally required outcome.",
+              "quote": "as a matter of due process of law, Stanley was entitled to a hearing on his fitness as a parent before his children were taken from him",
+              "url": "https://www.courtlistener.com/opinion/108497/stanley-v-illinois/",
+              "courtlistener_cluster_id": 108497
+            },
+            {
+              "case_name": "Los Angeles County v. Humphries",
+              "citation": "562 U.S. 29 (2010)",
+              "court": "Supreme Court of the United States",
+              "year": 2010,
+              "date_decided": "2010-11-30",
+              "holding": "In a suit by parents exonerated of child abuse who remained listed on California's Child Abuse Central Index with no procedure to contest inclusion, the Court reversed the Ninth Circuit and held that Monell's policy-or-custom requirement applies to § 1983 claims against a municipality whether the relief sought is damages or prospective.",
+              "relevance": "Exoneration did not remove the Humphries from the index, so this case shows that closing or dismissing a case does not by itself undo the registry consequences of the earlier finding.",
+              "quote": "Nothing in the text of §1983 suggests that the causation requirement contained in the statute should change with the form of relief sought",
+              "url": "https://www.courtlistener.com/opinion/180037/los-angeles-county-v-humphries/",
+              "courtlistener_cluster_id": 180037
+            }
+          ]
+        }
+      }
     },
     {
       "subnode": "OUT-06",
@@ -197,7 +530,64 @@
       "source_reference": [
         "Protect Our Kids Act and CAPTA fatality disclosure rules"
       ],
-      "trigger_name": "Child Fatality / Serious Injury"
+      "trigger_name": "Child Fatality / Serious Injury",
+      "layers": {
+        "case_law": {
+          "jurisdiction": "US",
+          "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+          "verified_date": "2026-09-20",
+          "key_cases": [
+            {
+              "case_name": "DeShaney v. Winnebago County Department of Social Services",
+              "citation": "489 U.S. 189 (1989)",
+              "court": "Supreme Court of the United States",
+              "year": 1989,
+              "date_decided": "1989-02-22",
+              "holding": "The Court held that the Due Process Clause imposes no affirmative duty on a state child protection agency to protect a child from private violence, even where the agency knew of the danger, absent a custodial relationship created by the State.",
+              "relevance": "DeShaney is the controlling limit on constitutional claims arising from a child's death where the child remained in private custody.",
+              "quote": "As a general matter, then, we conclude that a State's failure to protect an individual against private violence simply does not constitute a violation of the Due Process Clause",
+              "url": "https://www.courtlistener.com/opinion/112202/deshaney-v-winnebago-county-department-of-social-services/",
+              "courtlistener_cluster_id": 112202
+            },
+            {
+              "case_name": "Wallis v. Spencer",
+              "citation": "202 F.3d 1126 (9th Cir. 2000)",
+              "court": "Court of Appeals for the Ninth Circuit",
+              "year": 2000,
+              "date_decided": "2000-02-07",
+              "holding": "The court held that officials may seize a child without prior judicial authorization only on reasonable cause to believe the child faces imminent danger of serious bodily injury, that reasonable investigative avenues must first be pursued, and that subjecting seized children to invasive medical examinations without parental notice implicated the family's constitutional rights.",
+              "relevance": "Wallis shows how unexamined claims of imminent danger can produce serious harm to children in the State's own custody.",
+              "quote": "the police cannot seize children suspected of being abused or neglected unless reasonable avenues of investigation are first pursued",
+              "url": "https://www.courtlistener.com/opinion/767557/no-97-55579/",
+              "courtlistener_cluster_id": 767557
+            },
+            {
+              "case_name": "Rogers v. County of San Joaquin",
+              "citation": "487 F.3d 1288 (9th Cir. 2007)",
+              "court": "Court of Appeals for the Ninth Circuit",
+              "year": 2007,
+              "date_decided": "2007-05-29",
+              "holding": "The court reversed the grant of qualified immunity, holding that chronic medical neglect and unsanitary home conditions did not establish exigency and that the warrantless removal violated clearly established Fourth and Fourteenth Amendment rights.",
+              "relevance": "Rogers distinguishes chronic health problems from the imminent serious injury that would justify emergency state action.",
+              "quote": "we hold that it was clearly established that warrantless removal of children is permissible only in cases of exigency",
+              "url": "https://www.courtlistener.com/opinion/797914/rogers-v-county-of-san-joaquin/",
+              "courtlistener_cluster_id": 797914
+            },
+            {
+              "case_name": "Youngberg v. Romeo",
+              "citation": "457 U.S. 307 (1982)",
+              "court": "Supreme Court of the United States",
+              "year": 1982,
+              "date_decided": "1982-06-18",
+              "holding": "The Court held that a person involuntarily committed to state custody retains substantive due process liberty interests in reasonably safe conditions, freedom from undue bodily restraint, and such minimally adequate training as is reasonable to secure those interests, and that a qualified professional's judgment on how to meet them is presumptively valid; it vacated and remanded for application of that standard.",
+              "relevance": "A fatality or serious injury occurring while the child is in state custody is measured against Youngberg's duty of reasonable safety and its substantial-departure-from-professional-judgment liability test.",
+              "quote": "The State also has the unquestioned duty to provide reasonable safety for all residents and personnel within the institution",
+              "url": "https://www.courtlistener.com/opinion/110746/youngberg-v-romeo-ex-rel-romeo/",
+              "courtlistener_cluster_id": 110746
+            }
+          ]
+        }
+      }
     }
   ]
 }

@@ -29,7 +29,88 @@
       "source_reference": [
         "CFSR oversight and IV-E compliance links"
       ],
-      "trigger_name": "CFSR Monitoring"
+      "trigger_name": "CFSR Monitoring",
+      "layers": {
+        "case_law": {
+          "jurisdiction": "US",
+          "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+          "verified_date": "2026-09-20",
+          "key_cases": [
+            {
+              "case_name": "Suter v. Artist M.",
+              "citation": "503 U.S. 347 (1992)",
+              "court": "Supreme Court of the United States",
+              "year": 1992,
+              "date_decided": "1992-03-25",
+              "holding": "The Court held that the Adoption Assistance and Child Welfare Act's 'reasonable efforts' requirement, 42 U.S.C. § 671(a)(15), creates no right enforceable by beneficiaries through § 1983 or an implied right of action.",
+              "relevance": "CFSR review is the enforcement mechanism that Suter's holding leaves as the operative check on IV-E plan compliance.",
+              "quote": "We hold that the Act does not create an enforceable right on behalf of respondents",
+              "url": "https://www.courtlistener.com/opinion/112712/suter-v-artist-m/",
+              "courtlistener_cluster_id": 112712
+            },
+            {
+              "case_name": "Armstrong v. Exceptional Child Center, Inc.",
+              "citation": "575 U.S. 320 (2015)",
+              "court": "Supreme Court of the United States",
+              "year": 2015,
+              "date_decided": "2015-03-31",
+              "holding": "The Court held that the Supremacy Clause creates no private cause of action and that Medicaid providers could not sue in equity to enforce a Spending Clause requirement whose sole remedy Congress vested in the Secretary.",
+              "relevance": "CFSR corrective action and penalty withholding are the enforcement mechanism Armstrong identifies as exclusive in this posture.",
+              "quote": "To say that the Supremacy Clause does not confer a right of action is not to diminish the significant role that courts play in assuring the supremacy of federal law",
+              "url": "https://www.courtlistener.com/opinion/2790213/armstrong-v-exceptional-child-center-inc/",
+              "courtlistener_cluster_id": 2790213
+            },
+            {
+              "case_name": "Gonzaga University v. Doe",
+              "citation": "536 U.S. 273 (2002)",
+              "court": "Supreme Court of the United States",
+              "year": 2002,
+              "date_decided": "2002-06-20",
+              "holding": "The Court held that FERPA's nondisclosure provisions create no personal rights enforceable under § 1983, and that nothing short of an unambiguously conferred right will support a § 1983 action to enforce a federal spending statute.",
+              "relevance": "CFSR performance requirements are administered conditions, not rights, under the Gonzaga test.",
+              "quote": "We now reject the notion that our cases permit anything short of an unambiguously conferred right to support a cause of action brought under § 1983",
+              "url": "https://www.courtlistener.com/opinion/121157/gonzaga-university-v-doe/",
+              "courtlistener_cluster_id": 121157
+            },
+            {
+              "case_name": "DeShaney v. Winnebago County Department of Social Services",
+              "citation": "489 U.S. 189 (1989)",
+              "court": "Supreme Court of the United States",
+              "year": 1989,
+              "date_decided": "1989-02-22",
+              "holding": "The Court held that the Due Process Clause imposes no affirmative duty on a state child protection agency to protect a child from private violence, even where the agency knew of the danger, absent a custodial relationship created by the State.",
+              "relevance": "CFSR safety findings document performance failures that DeShaney forecloses from being litigated as constitutional violations.",
+              "quote": "As a general matter, then, we conclude that a State's failure to protect an individual against private violence simply does not constitute a violation of the Due Process Clause",
+              "url": "https://www.courtlistener.com/opinion/112202/deshaney-v-winnebago-county-department-of-social-services/",
+              "courtlistener_cluster_id": 112202
+            },
+            {
+              "case_name": "Health and Hospital Corporation of Marion Cty. v. Talevski",
+              "citation": "599 U.S. 166 (2023)",
+              "court": "Supreme Court of the United States",
+              "year": 2023,
+              "date_decided": "2023-06-08",
+              "holding": "The Court affirmed, holding that the Federal Nursing Home Reform Act's chemical-restraint and pre-transfer-notice provisions unambiguously confer individual rights presumptively enforceable under § 1983, and that the Act's remedial scheme was not comprehensive enough to rebut that presumption; the Court declined to disturb the Spending Clause § 1983 line running from Suter and Gonzaga.",
+              "relevance": "CFSR performance measures are aggregate program standards of the kind Talevski distinguishes from the individual-rights language that supports a § 1983 claim.",
+              "quote": "our precedent sets a demanding bar: Statutory provisions must unambiguously confer individual federal rights",
+              "url": "https://www.courtlistener.com/opinion/9404968/health-and-hospital-corporation-of-marion-cty-v-talevski/",
+              "courtlistener_cluster_id": 9404968
+            },
+            {
+              "case_name": "Blessing v. Freestone",
+              "citation": "520 U.S. 329 (1997)",
+              "court": "Supreme Court of the United States",
+              "year": 1997,
+              "date_decided": "1997-04-21",
+              "holding": "A unanimous Court held that Title IV-D's requirement that a State's child support program be in 'substantial compliance' with federal law confers no individual right enforceable under § 1983, because it is a systemwide performance yardstick for the Secretary, and remanded for the lower courts to identify with particularity which specific statutory provisions, if any, create rights.",
+              "relevance": "CFSR-style aggregate performance measurement is precisely what Blessing held cannot support an individual § 1983 claim, because substantial compliance can coexist with unmet individual needs.",
+              "quote": "In order to seek redress through § 1983, however, a plaintiff must assert the violation of a federal right, not merely a violation of federal law",
+              "url": "https://www.courtlistener.com/opinion/118101/blessing-v-freestone/",
+              "courtlistener_cluster_id": 118101
+            }
+          ]
+        }
+      }
     },
     {
       "subnode": "PMC-02",
@@ -60,7 +141,76 @@
       "source_reference": [
         "OIG and Single Audit Act oversight refs"
       ],
-      "trigger_name": "OIG / Financial Audit"
+      "trigger_name": "OIG / Financial Audit",
+      "layers": {
+        "case_law": {
+          "jurisdiction": "US",
+          "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+          "verified_date": "2026-09-20",
+          "key_cases": [
+            {
+              "case_name": "Armstrong v. Exceptional Child Center, Inc.",
+              "citation": "575 U.S. 320 (2015)",
+              "court": "Supreme Court of the United States",
+              "year": 2015,
+              "date_decided": "2015-03-31",
+              "holding": "The Court held that the Supremacy Clause creates no private cause of action and that Medicaid providers could not sue in equity to enforce a Spending Clause requirement whose sole remedy Congress vested in the Secretary.",
+              "relevance": "Single Audit and OIG findings feed the administrative remedy Armstrong treats as Congress's chosen enforcement route.",
+              "quote": "To say that the Supremacy Clause does not confer a right of action is not to diminish the significant role that courts play in assuring the supremacy of federal law",
+              "url": "https://www.courtlistener.com/opinion/2790213/armstrong-v-exceptional-child-center-inc/",
+              "courtlistener_cluster_id": 2790213
+            },
+            {
+              "case_name": "Suter v. Artist M.",
+              "citation": "503 U.S. 347 (1992)",
+              "court": "Supreme Court of the United States",
+              "year": 1992,
+              "date_decided": "1992-03-25",
+              "holding": "The Court held that the Adoption Assistance and Child Welfare Act's 'reasonable efforts' requirement, 42 U.S.C. § 671(a)(15), creates no right enforceable by beneficiaries through § 1983 or an implied right of action.",
+              "relevance": "Audit and funding recovery are the federal levers available precisely because Suter closed the private-enforcement route.",
+              "quote": "We hold that the Act does not create an enforceable right on behalf of respondents",
+              "url": "https://www.courtlistener.com/opinion/112712/suter-v-artist-m/",
+              "courtlistener_cluster_id": 112712
+            },
+            {
+              "case_name": "Gonzaga University v. Doe",
+              "citation": "536 U.S. 273 (2002)",
+              "court": "Supreme Court of the United States",
+              "year": 2002,
+              "date_decided": "2002-06-20",
+              "holding": "The Court held that FERPA's nondisclosure provisions create no personal rights enforceable under § 1983, and that nothing short of an unambiguously conferred right will support a § 1983 action to enforce a federal spending statute.",
+              "relevance": "Audit findings of misuse do not create individual entitlements enforceable by affected families.",
+              "quote": "We now reject the notion that our cases permit anything short of an unambiguously conferred right to support a cause of action brought under § 1983",
+              "url": "https://www.courtlistener.com/opinion/121157/gonzaga-university-v-doe/",
+              "courtlistener_cluster_id": 121157
+            },
+            {
+              "case_name": "Health and Hospital Corporation of Marion Cty. v. Talevski",
+              "citation": "599 U.S. 166 (2023)",
+              "court": "Supreme Court of the United States",
+              "year": 2023,
+              "date_decided": "2023-06-08",
+              "holding": "The Court affirmed, holding that the Federal Nursing Home Reform Act's chemical-restraint and pre-transfer-notice provisions unambiguously confer individual rights presumptively enforceable under § 1983, and that the Act's remedial scheme was not comprehensive enough to rebut that presumption; the Court declined to disturb the Spending Clause § 1983 line running from Suter and Gonzaga.",
+              "relevance": "Audit and funding-recovery findings remain administrative, because the fiscal conditions they enforce do not speak in the individual rights-creating terms Talevski requires.",
+              "quote": "our precedent sets a demanding bar: Statutory provisions must unambiguously confer individual federal rights",
+              "url": "https://www.courtlistener.com/opinion/9404968/health-and-hospital-corporation-of-marion-cty-v-talevski/",
+              "courtlistener_cluster_id": 9404968
+            },
+            {
+              "case_name": "Blessing v. Freestone",
+              "citation": "520 U.S. 329 (1997)",
+              "court": "Supreme Court of the United States",
+              "year": 1997,
+              "date_decided": "1997-04-21",
+              "holding": "A unanimous Court held that Title IV-D's requirement that a State's child support program be in 'substantial compliance' with federal law confers no individual right enforceable under § 1983, because it is a systemwide performance yardstick for the Secretary, and remanded for the lower courts to identify with particularity which specific statutory provisions, if any, create rights.",
+              "relevance": "Blessing identifies reduction of the State's federal grant as the designed consequence of substantial noncompliance, which is the same lever that audit and funding-recovery findings pull.",
+              "quote": "In order to seek redress through § 1983, however, a plaintiff must assert the violation of a federal right, not merely a violation of federal law",
+              "url": "https://www.courtlistener.com/opinion/118101/blessing-v-freestone/",
+              "courtlistener_cluster_id": 118101
+            }
+          ]
+        }
+      }
     },
     {
       "subnode": "PMC-03",
@@ -89,7 +239,76 @@
       "source_reference": [
         "CAPTA citizen panel requirement"
       ],
-      "trigger_name": "Citizen Review Panels"
+      "trigger_name": "Citizen Review Panels",
+      "layers": {
+        "case_law": {
+          "jurisdiction": "US",
+          "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+          "verified_date": "2026-09-20",
+          "key_cases": [
+            {
+              "case_name": "Suter v. Artist M.",
+              "citation": "503 U.S. 347 (1992)",
+              "court": "Supreme Court of the United States",
+              "year": 1992,
+              "date_decided": "1992-03-25",
+              "holding": "The Court held that the Adoption Assistance and Child Welfare Act's 'reasonable efforts' requirement, 42 U.S.C. § 671(a)(15), creates no right enforceable by beneficiaries through § 1983 or an implied right of action.",
+              "relevance": "Citizen review panels operate as a CAPTA-conditioned oversight substitute in a field where Suter denies private enforcement.",
+              "quote": "We hold that the Act does not create an enforceable right on behalf of respondents",
+              "url": "https://www.courtlistener.com/opinion/112712/suter-v-artist-m/",
+              "courtlistener_cluster_id": 112712
+            },
+            {
+              "case_name": "Gonzaga University v. Doe",
+              "citation": "536 U.S. 273 (2002)",
+              "court": "Supreme Court of the United States",
+              "year": 2002,
+              "date_decided": "2002-06-20",
+              "holding": "The Court held that FERPA's nondisclosure provisions create no personal rights enforceable under § 1983, and that nothing short of an unambiguously conferred right will support a § 1983 action to enforce a federal spending statute.",
+              "relevance": "CAPTA's citizen review panel mandate is a state plan condition, lacking the rights-creating language Gonzaga requires.",
+              "quote": "We now reject the notion that our cases permit anything short of an unambiguously conferred right to support a cause of action brought under § 1983",
+              "url": "https://www.courtlistener.com/opinion/121157/gonzaga-university-v-doe/",
+              "courtlistener_cluster_id": 121157
+            },
+            {
+              "case_name": "Armstrong v. Exceptional Child Center, Inc.",
+              "citation": "575 U.S. 320 (2015)",
+              "court": "Supreme Court of the United States",
+              "year": 2015,
+              "date_decided": "2015-03-31",
+              "holding": "The Court held that the Supremacy Clause creates no private cause of action and that Medicaid providers could not sue in equity to enforce a Spending Clause requirement whose sole remedy Congress vested in the Secretary.",
+              "relevance": "Citizen review panels function as oversight precisely where Armstrong forecloses judicial enforcement of plan conditions.",
+              "quote": "To say that the Supremacy Clause does not confer a right of action is not to diminish the significant role that courts play in assuring the supremacy of federal law",
+              "url": "https://www.courtlistener.com/opinion/2790213/armstrong-v-exceptional-child-center-inc/",
+              "courtlistener_cluster_id": 2790213
+            },
+            {
+              "case_name": "Health and Hospital Corporation of Marion Cty. v. Talevski",
+              "citation": "599 U.S. 166 (2023)",
+              "court": "Supreme Court of the United States",
+              "year": 2023,
+              "date_decided": "2023-06-08",
+              "holding": "The Court affirmed, holding that the Federal Nursing Home Reform Act's chemical-restraint and pre-transfer-notice provisions unambiguously confer individual rights presumptively enforceable under § 1983, and that the Act's remedial scheme was not comprehensive enough to rebut that presumption; the Court declined to disturb the Spending Clause § 1983 line running from Suter and Gonzaga.",
+              "relevance": "CAPTA's citizen review panel mandate directs state program structure rather than conferring rights on any identified beneficiary under the Talevski test.",
+              "quote": "our precedent sets a demanding bar: Statutory provisions must unambiguously confer individual federal rights",
+              "url": "https://www.courtlistener.com/opinion/9404968/health-and-hospital-corporation-of-marion-cty-v-talevski/",
+              "courtlistener_cluster_id": 9404968
+            },
+            {
+              "case_name": "Blessing v. Freestone",
+              "citation": "520 U.S. 329 (1997)",
+              "court": "Supreme Court of the United States",
+              "year": 1997,
+              "date_decided": "1997-04-21",
+              "holding": "A unanimous Court held that Title IV-D's requirement that a State's child support program be in 'substantial compliance' with federal law confers no individual right enforceable under § 1983, because it is a systemwide performance yardstick for the Secretary, and remanded for the lower courts to identify with particularity which specific statutory provisions, if any, create rights.",
+              "relevance": "Citizen review panel mandates must be analyzed provision by provision under Blessing rather than treated as part of a general entitlement to an adequately run program.",
+              "quote": "In order to seek redress through § 1983, however, a plaintiff must assert the violation of a federal right, not merely a violation of federal law",
+              "url": "https://www.courtlistener.com/opinion/118101/blessing-v-freestone/",
+              "courtlistener_cluster_id": 118101
+            }
+          ]
+        }
+      }
     },
     {
       "subnode": "PMC-04",
@@ -118,7 +337,64 @@
       "source_reference": [
         "Protect Our Kids Act citations"
       ],
-      "trigger_name": "Fatality Review Commission"
+      "trigger_name": "Fatality Review Commission",
+      "layers": {
+        "case_law": {
+          "jurisdiction": "US",
+          "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+          "verified_date": "2026-09-20",
+          "key_cases": [
+            {
+              "case_name": "DeShaney v. Winnebago County Department of Social Services",
+              "citation": "489 U.S. 189 (1989)",
+              "court": "Supreme Court of the United States",
+              "year": 1989,
+              "date_decided": "1989-02-22",
+              "holding": "The Court held that the Due Process Clause imposes no affirmative duty on a state child protection agency to protect a child from private violence, even where the agency knew of the danger, absent a custodial relationship created by the State.",
+              "relevance": "Fatality review exists precisely because DeShaney leaves non-custodial fatalities without a federal judicial remedy.",
+              "quote": "As a general matter, then, we conclude that a State's failure to protect an individual against private violence simply does not constitute a violation of the Due Process Clause",
+              "url": "https://www.courtlistener.com/opinion/112202/deshaney-v-winnebago-county-department-of-social-services/",
+              "courtlistener_cluster_id": 112202
+            },
+            {
+              "case_name": "Suter v. Artist M.",
+              "citation": "503 U.S. 347 (1992)",
+              "court": "Supreme Court of the United States",
+              "year": 1992,
+              "date_decided": "1992-03-25",
+              "holding": "The Court held that the Adoption Assistance and Child Welfare Act's 'reasonable efforts' requirement, 42 U.S.C. § 671(a)(15), creates no right enforceable by beneficiaries through § 1983 or an implied right of action.",
+              "relevance": "Fatality commissions perform the systemic review function that Suter forecloses beneficiaries from pursuing in court.",
+              "quote": "We hold that the Act does not create an enforceable right on behalf of respondents",
+              "url": "https://www.courtlistener.com/opinion/112712/suter-v-artist-m/",
+              "courtlistener_cluster_id": 112712
+            },
+            {
+              "case_name": "Gonzaga University v. Doe",
+              "citation": "536 U.S. 273 (2002)",
+              "court": "Supreme Court of the United States",
+              "year": 2002,
+              "date_decided": "2002-06-20",
+              "holding": "The Court held that FERPA's nondisclosure provisions create no personal rights enforceable under § 1983, and that nothing short of an unambiguously conferred right will support a § 1983 action to enforce a federal spending statute.",
+              "relevance": "Federal fatality review mandates direct agency conduct without conferring individually enforceable rights.",
+              "quote": "We now reject the notion that our cases permit anything short of an unambiguously conferred right to support a cause of action brought under § 1983",
+              "url": "https://www.courtlistener.com/opinion/121157/gonzaga-university-v-doe/",
+              "courtlistener_cluster_id": 121157
+            },
+            {
+              "case_name": "Health and Hospital Corporation of Marion Cty. v. Talevski",
+              "citation": "599 U.S. 166 (2023)",
+              "court": "Supreme Court of the United States",
+              "year": 2023,
+              "date_decided": "2023-06-08",
+              "holding": "The Court affirmed, holding that the Federal Nursing Home Reform Act's chemical-restraint and pre-transfer-notice provisions unambiguously confer individual rights presumptively enforceable under § 1983, and that the Act's remedial scheme was not comprehensive enough to rebut that presumption; the Court declined to disturb the Spending Clause § 1983 line running from Suter and Gonzaga.",
+              "relevance": "Federal fatality review mandates are institution-directed commands that would have to be re-read under Talevski before any beneficiary enforcement claim could be made.",
+              "quote": "our precedent sets a demanding bar: Statutory provisions must unambiguously confer individual federal rights",
+              "url": "https://www.courtlistener.com/opinion/9404968/health-and-hospital-corporation-of-marion-cty-v-talevski/",
+              "courtlistener_cluster_id": 9404968
+            }
+          ]
+        }
+      }
     },
     {
       "subnode": "PMC-05",
@@ -149,7 +425,76 @@
       "source_reference": [
         "FOIA and Sunshine Act transparency rules"
       ],
-      "trigger_name": "FOIA / Transparency"
+      "trigger_name": "FOIA / Transparency",
+      "layers": {
+        "case_law": {
+          "jurisdiction": "US",
+          "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+          "verified_date": "2026-09-20",
+          "key_cases": [
+            {
+              "case_name": "Gonzaga University v. Doe",
+              "citation": "536 U.S. 273 (2002)",
+              "court": "Supreme Court of the United States",
+              "year": 2002,
+              "date_decided": "2002-06-20",
+              "holding": "The Court held that FERPA's nondisclosure provisions create no personal rights enforceable under § 1983, and that nothing short of an unambiguously conferred right will support a § 1983 action to enforce a federal spending statute.",
+              "relevance": "A public-transparency claim under a federal child welfare statute must satisfy Gonzaga's unambiguous rights-creating test to be actionable.",
+              "quote": "We now reject the notion that our cases permit anything short of an unambiguously conferred right to support a cause of action brought under § 1983",
+              "url": "https://www.courtlistener.com/opinion/121157/gonzaga-university-v-doe/",
+              "courtlistener_cluster_id": 121157
+            },
+            {
+              "case_name": "M. L. B. v. S. L. J.",
+              "citation": "519 U.S. 102 (1996)",
+              "court": "Supreme Court of the United States",
+              "year": 1996,
+              "date_decided": "1996-12-16",
+              "holding": "The Court held that a State may not condition an indigent parent's appeal from a decree terminating parental rights on her ability to prepay record preparation fees.",
+              "relevance": "M.L.B. is the closest constitutional analogue to a records-access right in child welfare, though it runs to the affected parent rather than the public.",
+              "quote": "Mississippi may not deny M. L. B., because of her poverty, appellate review of the sufficiency of the evidence on which the trial court found her unfit to remain a parent",
+              "url": "https://www.courtlistener.com/opinion/9281247/m-l-b-v-s-l-j/",
+              "courtlistener_cluster_id": 9281247
+            },
+            {
+              "case_name": "Armstrong v. Exceptional Child Center, Inc.",
+              "citation": "575 U.S. 320 (2015)",
+              "court": "Supreme Court of the United States",
+              "year": 2015,
+              "date_decided": "2015-03-31",
+              "holding": "The Court held that the Supremacy Clause creates no private cause of action and that Medicaid providers could not sue in equity to enforce a Spending Clause requirement whose sole remedy Congress vested in the Secretary.",
+              "relevance": "Public transparency efforts cannot be converted into a Supremacy Clause suit to compel state disclosure.",
+              "quote": "To say that the Supremacy Clause does not confer a right of action is not to diminish the significant role that courts play in assuring the supremacy of federal law",
+              "url": "https://www.courtlistener.com/opinion/2790213/armstrong-v-exceptional-child-center-inc/",
+              "courtlistener_cluster_id": 2790213
+            },
+            {
+              "case_name": "Pennsylvania v. Ritchie",
+              "citation": "480 U.S. 39 (1987)",
+              "court": "Supreme Court of the United States",
+              "year": 1987,
+              "date_decided": "1987-02-24",
+              "holding": "The Court held that a defendant charged with child abuse is entitled to have the confidential child-protective-services file reviewed in camera by the trial court for information material to his defense, but has no right to search the file himself or through counsel, and affirmed in part and reversed in part the Pennsylvania Supreme Court's broader disclosure order.",
+              "relevance": "Ritchie is the Supreme Court's principal decision on access to confidential CPS records, and it makes judicial in camera review, not open disclosure, the mechanism for testing what must be released.",
+              "quote": "Ritchie is entitled to have the CYS file reviewed by the trial court to determine whether it contains information that probably would have changed the outcome of his trial",
+              "url": "https://www.courtlistener.com/opinion/111822/pennsylvania-v-ritchie/",
+              "courtlistener_cluster_id": 111822
+            },
+            {
+              "case_name": "Health and Hospital Corporation of Marion Cty. v. Talevski",
+              "citation": "599 U.S. 166 (2023)",
+              "court": "Supreme Court of the United States",
+              "year": 2023,
+              "date_decided": "2023-06-08",
+              "holding": "The Court affirmed, holding that the Federal Nursing Home Reform Act's chemical-restraint and pre-transfer-notice provisions unambiguously confer individual rights presumptively enforceable under § 1983, and that the Act's remedial scheme was not comprehensive enough to rebut that presumption; the Court declined to disturb the Spending Clause § 1983 line running from Suter and Gonzaga.",
+              "relevance": "A transparency claim grounded in a federal child welfare statute must satisfy Talevski's unambiguous-conferral step and survive the implicit-preclusion rebuttal.",
+              "quote": "our precedent sets a demanding bar: Statutory provisions must unambiguously confer individual federal rights",
+              "url": "https://www.courtlistener.com/opinion/9404968/health-and-hospital-corporation-of-marion-cty-v-talevski/",
+              "courtlistener_cluster_id": 9404968
+            }
+          ]
+        }
+      }
     },
     {
       "subnode": "PMC-06",
@@ -176,7 +521,88 @@
       "source_reference": [
         "Project Milk Carton AI initiative documentation."
       ],
-      "trigger_name": "Project Milk Carton AI Analysis"
+      "trigger_name": "Project Milk Carton AI Analysis",
+      "layers": {
+        "case_law": {
+          "jurisdiction": "US",
+          "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+          "verified_date": "2026-09-20",
+          "key_cases": [
+            {
+              "case_name": "Suter v. Artist M.",
+              "citation": "503 U.S. 347 (1992)",
+              "court": "Supreme Court of the United States",
+              "year": 1992,
+              "date_decided": "1992-03-25",
+              "holding": "The Court held that the Adoption Assistance and Child Welfare Act's 'reasonable efforts' requirement, 42 U.S.C. § 671(a)(15), creates no right enforceable by beneficiaries through § 1983 or an implied right of action.",
+              "relevance": "Accountability analysis must start from Suter's rule that IV-E conditions bind states to the federal funder, not to families.",
+              "quote": "We hold that the Act does not create an enforceable right on behalf of respondents",
+              "url": "https://www.courtlistener.com/opinion/112712/suter-v-artist-m/",
+              "courtlistener_cluster_id": 112712
+            },
+            {
+              "case_name": "Gonzaga University v. Doe",
+              "citation": "536 U.S. 273 (2002)",
+              "court": "Supreme Court of the United States",
+              "year": 2002,
+              "date_decided": "2002-06-20",
+              "holding": "The Court held that FERPA's nondisclosure provisions create no personal rights enforceable under § 1983, and that nothing short of an unambiguously conferred right will support a § 1983 action to enforce a federal spending statute.",
+              "relevance": "Any accountability model must distinguish, as Gonzaga does, between federal conditions on funding and enforceable individual rights.",
+              "quote": "We now reject the notion that our cases permit anything short of an unambiguously conferred right to support a cause of action brought under § 1983",
+              "url": "https://www.courtlistener.com/opinion/121157/gonzaga-university-v-doe/",
+              "courtlistener_cluster_id": 121157
+            },
+            {
+              "case_name": "Armstrong v. Exceptional Child Center, Inc.",
+              "citation": "575 U.S. 320 (2015)",
+              "court": "Supreme Court of the United States",
+              "year": 2015,
+              "date_decided": "2015-03-31",
+              "holding": "The Court held that the Supremacy Clause creates no private cause of action and that Medicaid providers could not sue in equity to enforce a Spending Clause requirement whose sole remedy Congress vested in the Secretary.",
+              "relevance": "Accountability mapping must recognize Armstrong's rule that federalism limits, not courts, govern most child welfare funding conditions.",
+              "quote": "To say that the Supremacy Clause does not confer a right of action is not to diminish the significant role that courts play in assuring the supremacy of federal law",
+              "url": "https://www.courtlistener.com/opinion/2790213/armstrong-v-exceptional-child-center-inc/",
+              "courtlistener_cluster_id": 2790213
+            },
+            {
+              "case_name": "DeShaney v. Winnebago County Department of Social Services",
+              "citation": "489 U.S. 189 (1989)",
+              "court": "Supreme Court of the United States",
+              "year": 1989,
+              "date_decided": "1989-02-22",
+              "holding": "The Court held that the Due Process Clause imposes no affirmative duty on a state child protection agency to protect a child from private violence, even where the agency knew of the danger, absent a custodial relationship created by the State.",
+              "relevance": "Any accountability analysis must account for DeShaney's holding that systemic failure to protect is not, standing alone, federally actionable.",
+              "quote": "As a general matter, then, we conclude that a State's failure to protect an individual against private violence simply does not constitute a violation of the Due Process Clause",
+              "url": "https://www.courtlistener.com/opinion/112202/deshaney-v-winnebago-county-department-of-social-services/",
+              "courtlistener_cluster_id": 112202
+            },
+            {
+              "case_name": "Health and Hospital Corporation of Marion Cty. v. Talevski",
+              "citation": "599 U.S. 166 (2023)",
+              "court": "Supreme Court of the United States",
+              "year": 2023,
+              "date_decided": "2023-06-08",
+              "holding": "The Court affirmed, holding that the Federal Nursing Home Reform Act's chemical-restraint and pre-transfer-notice provisions unambiguously confer individual rights presumptively enforceable under § 1983, and that the Act's remedial scheme was not comprehensive enough to rebut that presumption; the Court declined to disturb the Spending Clause § 1983 line running from Suter and Gonzaga.",
+              "relevance": "Any accountability model must be built on Talevski as the current controlling statement of when Spending Clause child welfare conditions are judicially enforceable by families.",
+              "quote": "our precedent sets a demanding bar: Statutory provisions must unambiguously confer individual federal rights",
+              "url": "https://www.courtlistener.com/opinion/9404968/health-and-hospital-corporation-of-marion-cty-v-talevski/",
+              "courtlistener_cluster_id": 9404968
+            },
+            {
+              "case_name": "Blessing v. Freestone",
+              "citation": "520 U.S. 329 (1997)",
+              "court": "Supreme Court of the United States",
+              "year": 1997,
+              "date_decided": "1997-04-21",
+              "holding": "A unanimous Court held that Title IV-D's requirement that a State's child support program be in 'substantial compliance' with federal law confers no individual right enforceable under § 1983, because it is a systemwide performance yardstick for the Secretary, and remanded for the lower courts to identify with particularity which specific statutory provisions, if any, create rights.",
+              "relevance": "Blessing is the case that confined Suter to its facts and set the analytic method - identify the specific provision - that any accountability mapping of federal child welfare law must follow.",
+              "quote": "In order to seek redress through § 1983, however, a plaintiff must assert the violation of a federal right, not merely a violation of federal law",
+              "url": "https://www.courtlistener.com/opinion/118101/blessing-v-freestone/",
+              "courtlistener_cluster_id": 118101
+            }
+          ]
+        }
+      }
     }
   ]
 }
