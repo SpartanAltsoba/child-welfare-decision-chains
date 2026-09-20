@@ -35,25 +35,26 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "South Carolina - S.C. Code Title 63, Chapter 7 (Child Protection Act – includes § 63-7-310 reporting)",
-          "source_url": "https://www.scstatehouse.gov",
+          "citation_text": "S.C. Code Ann. Title 63, Chapter 7 — Child Protection and Permanency (includes § 63-7-310 mandatory reporting)",
+          "source_url": "https://www.scstatehouse.gov/code/t63c007.php",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 43: Social Services - DSS",
-          "source_url": "https://law.justia.com/codes/south-carolina/title-43/",
+          "source_url": "https://www.scstatehouse.gov/code/title43.php",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 63: South Carolina Children's Code - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/south-carolina/title-63/",
+          "source_url": "https://www.scstatehouse.gov/code/title63.php",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -289,10 +290,17 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
-      "source": "template_estimate",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "deadline": "72 hours (next working day if the third day falls on a Saturday, Sunday, or holiday)",
+      "starts_from": "Child taken into emergency protective custody",
+      "source": "state_statute",
+      "source_url": "https://www.scstatehouse.gov/code/t63c007.php",
+      "citation": {
+        "citation_text": "S.C. Code Ann. § 63-7-710(A)",
+        "source_url": "https://www.scstatehouse.gov/code/t63c007.php",
+        "authority_type": "state_statute",
+        "last_verified": "2026-09-19"
+      },
+      "consequence_of_miss": "Not specified in statute"
     },
     {
       "requirement_name": "Case plan development",

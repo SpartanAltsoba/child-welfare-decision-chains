@@ -35,10 +35,10 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Washington - RCW 13.34.062 (Reasonable Efforts)",
+          "citation_text": "Washington - RCW 13.34.062 (Shelter Care — Notice of Custody and Rights)",
           "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=13.34.062",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-23",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "node_specific": true
         },
@@ -46,14 +46,14 @@
           "citation_text": "Washington - RCW Chapter 26.44 (Abuse of Children – mandatory reporting and investigations)",
           "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=26.44",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Washington - RCW Title 13 (Juvenile Courts – includes dependency proceedings)",
+          "citation_text": "Washington - RCW Chapter 13.34 (Juvenile Court Act — Dependency and Termination of Parent-Child Relationship)",
           "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=13.34",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
@@ -334,10 +334,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
-      "source": "template_estimate",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "deadline": "72 hours, excluding Saturdays, Sundays, and holidays",
+      "starts_from": "Child removed, or petitioner seeks removal",
+      "source": "state_statute",
+      "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=13.34.065",
+      "consequence_of_miss": "Statute sets no penalty; at the hearing the court must release the child to the parent, guardian, or legal custodian unless it finds reasonable cause for continued shelter care (RCW 13.34.065(5)(a))"
     },
     {
       "requirement_name": "Case plan development",
@@ -377,7 +378,7 @@
         "Demand to see court order",
         "Right to know where child is going",
         "Right to attorney",
-        "Right to hearing within 24-72 hours"
+        "Right to a shelter care hearing within 72 hours, excluding Saturdays, Sundays and holidays (RCW 13.34.065(1)(a))"
       ],
       "what_to_say": [
         "Do you have a court order for removal?",

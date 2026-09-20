@@ -30,25 +30,26 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "South Carolina - S.C. Code Title 63, Chapter 7 (Child Protection Act – includes § 63-7-310 reporting)",
-          "source_url": "https://www.scstatehouse.gov",
+          "citation_text": "S.C. Code Ann. Title 63, Chapter 7 — Child Protection and Permanency (includes § 63-7-310 mandatory reporting)",
+          "source_url": "https://www.scstatehouse.gov/code/t63c007.php",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 43: Social Services - DSS",
-          "source_url": "https://law.justia.com/codes/south-carolina/title-43/",
+          "source_url": "https://www.scstatehouse.gov/code/title43.php",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 63: South Carolina Children's Code - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/south-carolina/title-63/",
+          "source_url": "https://www.scstatehouse.gov/code/title63.php",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -281,10 +282,19 @@
     },
     {
       "requirement_name": "Disposition finding",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
-      "source": "template_estimate",
-      "consequence_of_miss": "Procedural violation"
+      "deadline": "45 days",
+      "starts_from": "Receipt of the report by DSS",
+      "source": "state_statute",
+      "source_url": "https://www.scstatehouse.gov/code/t63c007.php",
+      "citation": {
+        "citation_text": "S.C. Code Ann. § 63-7-920(A)(3)",
+        "source_url": "https://www.scstatehouse.gov/code/t63c007.php",
+        "authority_type": "state_statute",
+        "last_verified": "2026-09-19"
+      },
+      "extension_allowed": true,
+      "extension_grounds": "A single extension of no more than 15 days may be granted by the DSS director or the director's designee for good cause shown",
+      "consequence_of_miss": "Not specified in statute"
     }
   ],
   "notice_requirements": [

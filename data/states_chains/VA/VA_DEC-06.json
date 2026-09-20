@@ -38,15 +38,16 @@
       "primary_citations": [
         {
           "citation_text": "Virginia - Va. Code Title 63.2, Chapter 15 (Child Abuse and Neglect – includes § 63.2-1509 reporting)",
-          "source_url": "https://virginiageneralassembly.gov",
+          "source_url": "https://law.lis.virginia.gov/vacode/title63.2/chapter15/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Virginia - Va. Code § 16.1-241(A) et seq. (Juvenile & Domestic Relations jurisdiction for abuse/neglect)",
-          "source_url": "https://law.lis.virginia.gov/vacode/title16.1/chapter241/",
+          "source_url": "https://law.lis.virginia.gov/vacode/title16.1/chapter11/section16.1-241/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -258,10 +259,11 @@
     },
     {
       "requirement_name": "Disposition finding",
-      "deadline": "30-60 days",
+      "deadline": "60 days (family assessment track; ends with no founded/unfounded finding)",
       "starts_from": "Investigation opened",
-      "source": "template_estimate",
-      "consequence_of_miss": "Procedural violation"
+      "source": "state_statute",
+      "source_url": "https://law.lis.virginia.gov/vacode/title63.2/chapter15/section63.2-1506/",
+      "consequence_of_miss": "No founded or unfounded disposition is made and the case is not entered in the central registry (Va. Code 63.2-1506(B)(7))"
     }
   ],
   "notice_requirements": [

@@ -35,15 +35,16 @@
       "primary_citations": [
         {
           "citation_text": "Virginia - Va. Code Title 63.2, Chapter 15 (Child Abuse and Neglect – includes § 63.2-1509 reporting)",
-          "source_url": "https://virginiageneralassembly.gov",
+          "source_url": "https://law.lis.virginia.gov/vacode/title63.2/chapter15/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Virginia - Va. Code § 16.1-241(A) et seq. (Juvenile & Domestic Relations jurisdiction for abuse/neglect)",
-          "source_url": "https://law.lis.virginia.gov/vacode/title16.1/chapter241/",
+          "source_url": "https://law.lis.virginia.gov/vacode/title16.1/chapter11/section16.1-241/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -207,15 +208,27 @@
     "website": "https://www.dss.virginia.gov/"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Childcare Staff",
-    "Clergy",
-    "Foster Parents",
-    "Coaches",
-    "EMTs/Emergency Personnel"
+    "Designated professionals only — Virginia is NOT a universal-reporter state (Va. Code § 63.2-1509(A))",
+    "Any person licensed to practice medicine or any of the healing arts",
+    "Any hospital resident or intern, and any person employed in the nursing profession",
+    "Any person employed as a social worker or family-services specialist",
+    "Any probation officer",
+    "Any teacher or other person employed in a public or private school, kindergarten, or child day program (§ 22.1-289.02)",
+    "Any person providing full-time or part-time child care for pay on a regularly planned basis",
+    "Any mental health professional",
+    "Any law-enforcement officer or animal control officer",
+    "Any mediator eligible to receive court referrals (§ 8.01-576.8)",
+    "Any professional staff person employed by a private or state-operated hospital, institution, or facility to which children have been committed or placed for care and treatment",
+    "Any person 18 or older associated with or employed by any public or private organization responsible for the care, custody, or control of children",
+    "Any court-appointed special advocate (CASA) designated under § 9.1-151 et seq.",
+    "Any person 18 or older who has received Department of Social Services-approved training in recognizing and reporting child abuse and neglect",
+    "Any local department employee who determines eligibility for public assistance",
+    "Any emergency medical services provider certified by the Board of Health (§ 32.1-111.5)",
+    "Any athletic coach, director, or other person 18 or older employed by or volunteering with a public or private sports organization or team, or a school athletics program",
+    "Administrators or employees 18 or older of public or private day camps, youth centers, and youth recreation programs",
+    "Any person employed by a public or private institution of higher education, other than an attorney providing legal representation to a client",
+    "Any minister, priest, rabbi, imam, or duly accredited practitioner of a religious organization, subject to the clergy-privilege exceptions in § 63.2-1509(A)(19)",
+    "Any person who engages in the practice of behavior analysis (§ 54.1-2900)"
   ],
   "reporting_type": "decentralized",
   "definitions": {
@@ -276,17 +289,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
+      "deadline": "Face-to-face contact within the response time set at intake; within 24 hours if the child is under 2",
       "starts_from": "Report received",
-      "source": "template_estimate",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "source": "admin_rule",
+      "source_url": "https://law.lis.virginia.gov/admincode/title22/agency40/chapter705/section80/",
+      "consequence_of_miss": "Worker must document in writing why the contact or observation was not made (22VAC40-705-80)"
     },
     {
       "requirement_name": "Investigation completion",
-      "deadline": "30-60 days",
+      "deadline": "45 days (extendable to a total of 60 days on written justification, or to 90 days in a joint law-enforcement investigation)",
       "starts_from": "Investigation opened",
-      "source": "template_estimate",
-      "consequence_of_miss": "Case dismissal risk"
+      "source": "state_statute",
+      "source_url": "https://law.lis.virginia.gov/vacode/title63.2/chapter15/section63.2-1505/",
+      "consequence_of_miss": "Statute sets no penalty; any extension requires written justification and the local department must notify the alleged abuser or neglector and the child's parents (Va. Code § 63.2-1505(B)(5); 22VAC40-705-120)"
     }
   ],
   "notice_requirements": [

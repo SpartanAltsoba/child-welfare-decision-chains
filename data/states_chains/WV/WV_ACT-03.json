@@ -36,31 +36,32 @@
       "primary_citations": [
         {
           "citation_text": "West Virginia - W. Va. Code Chapter 49, Article 2 (Child Welfare – includes § 49-2-803 mandatory reporting)",
-          "source_url": "https://www.wvlegislature.gov",
+          "source_url": "https://code.wvlegislature.gov/49-2/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
-        },
-        {
-          "citation_text": "West Virginia - W. Va. Code § 49-4-601 et seq. (Child abuse and neglect proceedings)",
-          "source_url": "https://www.wvlegislature.gov/WVCODE/ChapterEntire.cfm?chap=49&art=4",
-          "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 48: Domestic Relations",
-          "source_url": "https://law.justia.com/codes/west-virginia/title-48/",
+          "citation_text": "West Virginia - W. Va. Code § 49-4-601 et seq. (Child abuse and neglect proceedings)",
+          "source_url": "https://code.wvlegislature.gov/49-4-601/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "West Virginia - W. Va. Code Chapter 48 (Domestic Relations)",
+          "source_url": "https://code.wvlegislature.gov/48/",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 49: Child Welfare - DHHR - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/west-virginia/title-49/",
+          "citation_text": "West Virginia - W. Va. Code Chapter 49 (Child Welfare) - Department of Human Services (DoHS) - CHILD WELFARE PRIMARY",
+          "source_url": "https://code.wvlegislature.gov/49/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -297,10 +298,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
-      "source": "template_estimate",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "deadline": "Within 10 days (preliminary hearing); respondents get at least 5 days' actual notice",
+      "starts_from": "Order continuing or transferring temporary custody",
+      "source": "state_statute",
+      "source_url": "https://code.wvlegislature.gov/49-4-601/",
+      "consequence_of_miss": "Continuance allowed only for a reasonable time to a date certain for good cause shown (W. Va. Code § 49-4-601(c)); the initial custody order may not exceed 10 days (§ 49-4-602(a)(1))"
     },
     {
       "requirement_name": "Case plan development",

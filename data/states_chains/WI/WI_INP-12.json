@@ -36,16 +36,17 @@
       "primary_citations": [
         {
           "citation_text": "Wisconsin - Wis. Stat. § 48.981 (Abuse and Neglect Reporting law)",
-          "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/48",
+          "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/48/xxi/981",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Wisconsin - Wis. Stat. Chapter 48 (Children’s Code – includes CHIPS proceedings)",
-          "source_url": "https://legis.wisconsin.gov",
+          "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/48",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 48: Children's Code - DCF - CHILD WELFARE PRIMARY",
@@ -391,17 +392,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
+      "deadline": "Within 24 hours",
       "starts_from": "Report received",
-      "source": "template_estimate",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "source": "state_statute",
+      "consequence_of_miss": "Potential audit finding, CFSR deficiency",
+      "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/48/xxi/981"
     },
     {
       "requirement_name": "Investigation completion",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
-      "source": "template_estimate",
-      "consequence_of_miss": "Case dismissal risk"
+      "deadline": "60 days",
+      "starts_from": "Report received",
+      "source": "state_statute",
+      "consequence_of_miss": "Case dismissal risk",
+      "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/48/xxi/981"
     }
   ],
   "notice_requirements": [

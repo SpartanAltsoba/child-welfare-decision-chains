@@ -35,17 +35,17 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Texas - Texas Family Code Chapter 261 (Investigation of Report of Abuse or Neglect)",
+          "citation_text": "Texas - Texas Family Code Chapter 261 (Investigation of Report of Child Abuse or Neglect)",
           "source_url": "https://statutes.capitol.texas.gov/Docs/FA/htm/FA.261.htm",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Texas - Texas Family Code Chapter 262 (Removal of Child in an Emergency)",
+          "citation_text": "Texas - Texas Family Code Chapter 262 (Procedures in Suit by Governmental Entity to Protect Health and Safety of Child)",
           "source_url": "https://statutes.capitol.texas.gov/Docs/FA/htm/FA.262.htm",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -322,10 +322,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
-      "source": "template_estimate",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "deadline": "On or before the first business day after the child is taken into possession; if the court is unavailable, no later than the first business day after it becomes available and never later than the third business day — Tex. Fam. Code § 262.106(a)",
+      "starts_from": "Child taken into possession in an emergency without a court order",
+      "source": "state_statute",
+      "source_url": "https://tcss.legis.texas.gov/resources/FA/htm/FA.262.htm",
+      "consequence_of_miss": "The child shall be returned to the parent, managing conservator, possessory conservator, guardian, caretaker, or custodian presently entitled to possession (Tex. Fam. Code § 262.106(c))"
     },
     {
       "requirement_name": "Case plan development",
