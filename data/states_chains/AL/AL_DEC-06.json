@@ -5,7 +5,7 @@
   "node_family": "DEC",
   "subnode": "DEC-06",
   "trigger_name": "Differential Response / Alternative Response (No Petition)",
-  "summary_html": "Agency chooses **Differential Response (DR)**/**Alternative Response**: engage **services without court petition** when safety permits. FFPSA and IV-B/IV-E prevention funding support voluntary, front-end help to avert removals.",
+  "summary_html": "Agency chooses **Differential Response (DR)**/**Alternative Response**: engage **services without court petition** when safety permits. FFPSA and IV-B/IV-E prevention funding support voluntary, front-end help to avert removals. In Alabama the age of majority is 19 (Ala. Code § 26-1-1), and for child abuse and neglect reporting a \"child\" is a person under 18, or a person under 19 who is in need of protective services and does not qualify for adult protective services (Ala. Code § 26-14-1(3)). If a report is marked **indicated**, the full § 26-14-7.1 hearing (counsel, witnesses, cross-examination, subpoenas, an impartial hearing officer) is available only to a person connected with a facility, agency, or home that cares for and controls children; everyone else, including a parent investigated at home, receives the DHR administrative record review, which DHR describes as \"provided for those persons not entitled to a hearing\" and for which the DHR review page states no deadline (dhr.alabama.gov/child-protective-services/child-abuse-neglect-administrative-reviews).",
   "authority_html": "- **Family First Prevention Services Act (FFPSA)** — prevention services framework under IV-E  \n- **SSA Title IV-B & IV-E (42 U.S.C. §§ 620–629m; 670–679c)** — service funding & case-plan requirements  \n- **CFSR (45 CFR Part 1355)** — assesses safety/permanency outcomes in DR systems",
   "icon": "🔧",
   "theme_color": "#20B2AA",
@@ -37,7 +37,7 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Ala. Code § 26-14-3 (Title 26, Ch. 14) — Mandatory reporting of child abuse or neglect",
+          "citation_text": "Ala. Code § 26-14-3 (Title 26, Ch. 14) — Mandatory reporting of child abuse or neglect. Amended by Act 2026-375: the Legislature's code viewer carries one version effective until 10/1/2026 and one effective 10/1/2026. The reporter categories carry over into the 10/1/2026 version as subdivision (a)(2)a.–aa., which also requires the written report within 72 hours of the oral report",
           "source_url": "https://alison.legislature.state.al.us/code-of-alabama?section=26-14-3",
           "authority_type": "state_statute",
           "last_verified": "2026-09-19",
@@ -72,7 +72,7 @@
           "deep_link": true
         },
         {
-          "citation_text": "Ala. Code § 26-14-7.1 — Due process rights for persons under investigation by the department",
+          "citation_text": "Ala. Code § 26-14-7.1 — Due process rights for persons under investigation by the department. The hearing package (counsel, witnesses, cross-examination, subpoenas, exculpatory evidence, an impartial hearing officer, and 10 departmental working days to request the hearing in writing) runs only to a person who \"is employed by, serves as a volunteer for, holds a license or certificate for, or is connected with any facility, agency, or home which cares for and controls any children\" that is licensed, approved, certified, state-operated, or exempt from licensing; a parent investigated in their own home is not in that class",
           "source_url": "https://alison.legislature.state.al.us/code-of-alabama?section=26-14-7.1",
           "authority_type": "state_statute",
           "last_verified": "2026-09-19",
@@ -81,6 +81,28 @@
         {
           "citation_text": "Ala. Code § 38-7-3 (Title 38, Ch. 7 — Child Care) — License to operate a child-care facility; inspections and investigations",
           "source_url": "https://alison.legislature.state.al.us/code-of-alabama?section=38-7-3",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Ala. Code § 26-14-3 as amended by Act 2026-375, § 6 — mandatory reporting text effective 10/1/2026 (oral report to a law enforcement official or the Department of Human Resources, written report within 72 hours, reporter categories relisted as (a)(2)a.–aa.)",
+          "source_url": "https://alison.legislature.state.al.us/code-of-alabama?section=26-14-3&version=2026-10-01",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "effective_date": "2026-10-01",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Ala. Code § 26-14-1(3) — \"CHILD\" for child abuse and neglect reporting: a person under 18, or a person under 19 who is in need of protective services and does not qualify for adult protective services under Title 38, Chapter 9",
+          "source_url": "https://alison.legislature.state.al.us/code-of-alabama?section=26-14-1",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Ala. Code § 26-1-1 — Age of majority designated as 19 years",
+          "source_url": "https://alison.legislature.state.al.us/code-of-alabama?section=26-1-1",
           "authority_type": "state_statute",
           "last_verified": "2026-09-19",
           "deep_link": true
@@ -334,6 +356,14 @@
       "starts_from": "Investigation opened",
       "source": "template_estimate",
       "consequence_of_miss": "Procedural violation"
+    },
+    {
+      "requirement_name": "Request for a § 26-14-7.1 investigative hearing (person connected with a child care facility, agency, or home)",
+      "deadline": "10 departmental working days",
+      "starts_from": "Receipt of the notification of the investigator's conclusions",
+      "source": "state_statute",
+      "source_url": "https://alison.legislature.state.al.us/code-of-alabama?section=26-14-7.1",
+      "consequence_of_miss": "The opportunity for a hearing is considered waived by the department (Ala. Code § 26-14-7.1(4))"
     }
   ],
   "notice_requirements": [

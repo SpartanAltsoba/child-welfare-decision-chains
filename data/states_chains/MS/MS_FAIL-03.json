@@ -139,6 +139,12 @@
           "url": "https://regulations.justia.com/states/mississippi/title-8/",
           "authority_type": "administrative_rule",
           "last_verified": "2025-12-24"
+        },
+        {
+          "title": "MDCPS Policies and Procedures (Mississippi Department of Child Protection Services)",
+          "url": "https://www.mdcps.ms.gov/about/policies-procedures",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
         }
       ],
       "source_url": "https://www.law.cornell.edu/regulations/mississippi.html"
@@ -345,9 +351,10 @@
     {
       "requirement_name": "Appeal deadline",
       "deadline": "30 days",
-      "starts_from": "Final order",
-      "source": "template_estimate",
-      "consequence_of_miss": "Loss of appeal rights"
+      "starts_from": "Entry of the final youth court order or decree appealed from",
+      "source": "court_rule",
+      "consequence_of_miss": "Appeal shall be dismissed if the notice of appeal was not timely filed (M.R.A.P. 2(a)(1)); Miss. Code § 43-21-651(2) requires written notice of intention to appeal to be filed with the youth court clerk within the time otherwise required for appeals to the Supreme Court",
+      "source_url": "https://courts.ms.gov/research/rules/msrulesofcourt/Rules%20of%20Appellate%20Procedure%20Current.pdf"
     },
     {
       "requirement_name": "1983 statute of limitations",

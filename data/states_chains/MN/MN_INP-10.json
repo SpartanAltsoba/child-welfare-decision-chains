@@ -66,19 +66,19 @@
     "administrative_rule": {
       "regulations_applicable": [
         {
-          "title": "Agency 152 - Marriage and Family Therapy Board",
-          "url": "https://www.law.cornell.edu/regulations/minnesota/agency-152"
+          "title": "Minnesota Rules, Chapter 9560 - Social Services for Children",
+          "url": "https://www.revisor.mn.gov/rules/9560/"
         },
         {
-          "title": "Agency 172 - Private Detective and Protective Agent Services Board",
-          "url": "https://www.law.cornell.edu/regulations/minnesota/agency-172"
+          "title": "Minnesota Rules, parts 9560.0210 to 9560.0234 - Protective Services for Children",
+          "url": "https://www.revisor.mn.gov/rules/9560.0210/"
         },
         {
-          "title": "Agency 196 - Human Services Department",
-          "url": "https://www.law.cornell.edu/regulations/minnesota/agency-196"
+          "title": "Minnesota Rules, parts 9560.0410 to 9560.0485 - Children in Need of Protection or Services",
+          "url": "https://www.revisor.mn.gov/rules/9560.0410/"
         }
       ],
-      "source_url": "https://www.law.cornell.edu/regulations/minnesota.html"
+      "source_url": "https://www.revisor.mn.gov/rules/"
     },
     "state_constitutional": {
       "plane_reference": "state_constitutional_MN",
@@ -258,7 +258,7 @@
     "A professional or professional's delegate engaged in correctional supervision or probation and correctional services — Minn. Stat. § 260E.06, subd. 1(a)(1)",
     "A professional or professional's delegate engaged in law enforcement — Minn. Stat. § 260E.06, subd. 1(a)(1)",
     "A member of the clergy who received the information while engaged in ministerial duties, except information privileged under § 595.02, subd. 1(c) — Minn. Stat. § 260E.06, subd. 1(a)(2)",
-    "An employee or supervisor of a private or public youth recreation program (including coaching staff), as to abuse by another employee or supervisor or abuse a child discloses — Minn. Stat. § 260E.055, subd. 2",
+    "An employee or supervisor of a private or public youth recreation program (including coaching staff), as to abuse by another employee or supervisor or abuse a child discloses — Minn. Stat. § 260E.055, subd. 1(d) and subd. 2",
     "A parent, guardian, or caretaker relying on spiritual means or prayer in lieu of medical care, when the lack of medical care may cause serious danger to the child's health — Minn. Stat. § 260E.06, subd. 3"
   ],
   "reporting_type": "decentralized",
@@ -323,11 +323,13 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "Immediately if sexual abuse or substantial child endangerment is alleged; within 5 calendar days for all other screened in reports",
+      "deadline": "Except in a noncaregiver human trafficking assessment: immediately if sexual abuse or substantial child endangerment is alleged; within 5 calendar days for all other screened in reports",
       "starts_from": "Report screened in",
       "source": "state_statute",
       "source_url": "https://www.revisor.mn.gov/statutes/cite/260E.20",
-      "consequence_of_miss": "Not specified by statute; Minn. Stat. § 260E.20, subd. 2(b) sets the face-to-face contact deadline for the local welfare agency."
+      "consequence_of_miss": "Not specified by statute; Minn. Stat. § 260E.20, subd. 2(b) sets the face-to-face contact deadline for the local welfare agency.",
+      "extension_allowed": true,
+      "extension_grounds": "Face-to-face contact on a report alleging sexual abuse or substantial child endangerment may be postponed for no more than five calendar days if the child is residing in a location confirmed to restrict contact with the alleged offender, or if the local welfare agency is pursuing a court order for the caregiver to produce the child for questioning under Minn. Stat. § 260E.22, subd. 5 (§ 260E.20, subd. 2(b))."
     },
     {
       "requirement_name": "Investigation completion",

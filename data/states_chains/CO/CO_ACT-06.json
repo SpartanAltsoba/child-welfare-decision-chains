@@ -30,43 +30,43 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Colorado - Title 19, Article 3 (Colorado Children’s Code – abuse/neglect reporting and dependency)",
+          "citation_text": "Colorado - Title 19, Article 3 (Colorado Children’s Code – abuse/neglect reporting and dependency) — C.R.S. 2024 OLLS edition (uncertified printout)",
           "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf#page=260",
           "authority_type": "state_statute",
           "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Colorado - Title 19, Article 3, Part 3 (Child Abuse or Neglect — reporting, screening, and investigation)",
+          "citation_text": "Colorado - Title 19, Article 3, Part 3 (Child Abuse or Neglect — reporting, screening, and investigation) — C.R.S. 2024 OLLS edition (uncertified printout)",
           "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf#page=283",
           "authority_type": "state_statute",
           "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 14: Domestic Matters",
+          "citation_text": "Title 14: Domestic Matters — C.R.S. 2024 OLLS edition (uncertified printout)",
           "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-14.pdf",
           "authority_type": "state_statute",
           "last_verified": "2026-09-19",
-          "deep_link": true,
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 19: Children's Code - CHILD WELFARE PRIMARY",
+          "citation_text": "Title 19: Children's Code - CHILD WELFARE PRIMARY — C.R.S. 2024 OLLS edition (uncertified printout)",
           "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf",
           "authority_type": "state_statute",
           "last_verified": "2026-09-19",
-          "deep_link": true,
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 26: Human Services Code",
+          "citation_text": "Title 26: Human Services Code — C.R.S. 2024 OLLS edition (uncertified printout)",
           "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-26.pdf",
           "authority_type": "state_statute",
           "last_verified": "2026-09-19",
-          "deep_link": true,
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         }
@@ -297,14 +297,27 @@
       "starts_from": "Temporary custody placed with the county department, or an emergency protection order entered",
       "source": "state_statute",
       "consequence_of_miss": "Not specified in statute",
-      "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf#page=316"
+      "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf#page=316",
+      "citation": {
+        "citation_text": "Colo. Rev. Stat. § 19-3-403(3.5) (C.R.S. 2024) — when temporary custody is placed with the county department or an emergency protection order is entered, the court holds a hearing within seventy-two hours, excluding Saturdays, Sundays, and court holidays",
+        "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf#page=316",
+        "authority_type": "state_statute",
+        "last_verified": "2026-09-19"
+      }
     },
     {
       "requirement_name": "Case plan development",
-      "deadline": "30-60 days",
-      "starts_from": "Court jurisdiction",
-      "source": "federal_statute",
-      "consequence_of_miss": "IV-E funding penalty"
+      "deadline": "Within a reasonable period set by the title IV-E agency, and in no event later than 60 days",
+      "starts_from": "The child's removal from the home",
+      "source": "admin_rule",
+      "source_url": "https://www.ecfr.gov/current/title-45/subtitle-B/chapter-XIII/subchapter-G/part-1356/section-1356.21#p-1356.21(g)(2)",
+      "citation": {
+        "citation_text": "45 C.F.R. § 1356.21(g)(2) (federal title IV-E case plan requirements)",
+        "source_url": "https://www.ecfr.gov/current/title-45/subtitle-B/chapter-XIII/subchapter-G/part-1356/section-1356.21#p-1356.21(g)(2)",
+        "authority_type": "admin_rule",
+        "last_verified": "2026-09-19"
+      },
+      "consequence_of_miss": "Not specified in 45 C.F.R. § 1356.21(g)(2)"
     },
     {
       "requirement_name": "Shelter or temporary holding facility hearing",
@@ -312,7 +325,13 @@
       "starts_from": "Law enforcement places the child in a court-designated shelter or temporary holding facility",
       "source": "state_statute",
       "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf#page=316",
-      "consequence_of_miss": "Not specified in statute"
+      "consequence_of_miss": "Not specified in statute",
+      "citation": {
+        "citation_text": "Colo. Rev. Stat. § 19-3-403(2) (C.R.S. 2024) — when law enforcement places the child in a court-designated shelter or temporary holding facility, the court holds the hearing within forty-eight hours, excluding Saturdays, Sundays, and legal holidays",
+        "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf#page=316",
+        "authority_type": "state_statute",
+        "last_verified": "2026-09-19"
+      }
     }
   ],
   "notice_requirements": [
@@ -331,6 +350,22 @@
         "Right to counsel"
       ],
       "defective_notice_consequence": "Hearing must be continued"
+    },
+    {
+      "who_must_be_notified": [
+        "parent",
+        "tribe"
+      ],
+      "method": "certified_mail",
+      "timing": "Once the court knows or has reason to know the child is an Indian child, the petitioning or filing party sends notice by registered or certified mail, return receipt requested, to the parents, any Indian custodian, and the tribal agent designated in 25 CFR 23; the postal receipts must be attached to the complaint, petition, or other commencing pleading",
+      "icwa_additional_notice": true,
+      "statutory_basis": {
+        "citation_text": "Colo. Rev. Stat. § 19-1-126(1)(b) (C.R.S. 2024) — Compliance with the federal \"Indian Child Welfare Act of 1978\"",
+        "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf#page=52",
+        "authority_type": "state_statute",
+        "last_verified": "2026-09-19"
+      },
+      "defective_notice_consequence": "Not specified in C.R.S. § 19-1-126"
     }
   ],
   "door_scenarios": [

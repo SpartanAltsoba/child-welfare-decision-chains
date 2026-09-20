@@ -249,18 +249,36 @@
   },
   "timeline_requirements": [
     {
-      "requirement_name": "Safety decision",
-      "deadline": "Immediate upon contact",
-      "starts_from": "First family contact",
-      "source": "template_estimate",
-      "consequence_of_miss": "Child safety risk"
+      "requirement_name": "Oral notice to the court of an emergency removal without a court order",
+      "deadline": "Immediately",
+      "starts_from": "Emergency removal or keeping of the child without a court order",
+      "source": "state_statute",
+      "source_url": "https://www.legis.iowa.gov/docs/code/232.79.pdf",
+      "consequence_of_miss": "Not specified in Iowa Code § 232.79(2)(d)"
     },
     {
-      "requirement_name": "Disposition finding",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
-      "source": "template_estimate",
-      "consequence_of_miss": "Procedural violation"
+      "requirement_name": "Written notice to the court of an emergency removal without a court order",
+      "deadline": "24 hours",
+      "starts_from": "Orally informing the court of the emergency removal under Iowa Code § 232.79(2)(d)",
+      "source": "state_statute",
+      "source_url": "https://www.legis.iowa.gov/docs/code/232.79.pdf",
+      "consequence_of_miss": "Not specified in Iowa Code § 232.79(2)(e)"
+    },
+    {
+      "requirement_name": "Petition filed after an ex parte temporary removal order",
+      "deadline": "3 days",
+      "starts_from": "Issuance of the ex parte removal order (except for good cause shown, or unless the child is sooner returned)",
+      "source": "state_statute",
+      "source_url": "https://www.legis.iowa.gov/docs/code/232.78.pdf",
+      "consequence_of_miss": "Not specified in Iowa Code § 232.78(3)"
+    },
+    {
+      "requirement_name": "Court designee's written report on a temporary removal order",
+      "deadline": "5 days",
+      "starts_from": "Date of the removal order",
+      "source": "state_statute",
+      "source_url": "https://www.legis.iowa.gov/docs/code/232.78.pdf",
+      "consequence_of_miss": "If the court does not designate an appropriate person who performs the required duties, the child's parent is not responsible for paying the cost of care and services for the duration of the removal order (Iowa Code § 232.78(6))"
     }
   ],
   "notice_requirements": [

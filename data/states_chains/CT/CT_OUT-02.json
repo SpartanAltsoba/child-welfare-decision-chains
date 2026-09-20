@@ -44,6 +44,13 @@
           "authority_type": "state_statute",
           "last_verified": "2026-09-19",
           "deep_link": true
+        },
+        {
+          "citation_text": "Connecticut - Title 46b, Chapter 815q, Conn. Gen. Stat. §§ 46b-116 to 46b-116aa (Connecticut Indian Child Welfare Act; covers tribes recognized by the state of Connecticut as well as federally recognized tribes) (P.A. 23-113)",
+          "source_url": "https://www.cga.ct.gov/current/pub/chap_815q.htm#sec_46b-116",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
@@ -236,7 +243,7 @@
   "state_agency": {
     "name": "Connecticut Department of Children and Families",
     "acronym": "DCF",
-    "hotline": "1-800-842-2288",
+    "hotline": "1-800-842-2288 (DCF Careline, 24 hours a day, every day of the year); TDD 1-800-624-5518",
     "website": "https://portal.ct.gov/dcf"
   },
   "extended_foster_care": true,
@@ -304,6 +311,28 @@
       ],
       "icwa_additional_notice": true,
       "defective_notice_consequence": "TPR may be vacated"
+    },
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian",
+        "tribe"
+      ],
+      "method": "certified_mail",
+      "timing": "In any involuntary Superior Court proceeding for foster care placement of, or termination of parental rights to, an Indian child, once the court knows or has reason to know an Indian child is involved",
+      "content_required": [
+        "Notice of the pending proceeding",
+        "Notice of the right of intervention",
+        "If the parent, Indian custodian or tribe cannot be identified or located, like notice to the Bureau of Indian Affairs Regional Director or Secretary (federally recognized tribe) or to the Commissioner of Children and Families (tribe recognized by the state of Connecticut), who then has 15 days to give the required notice"
+      ],
+      "icwa_additional_notice": true,
+      "defective_notice_consequence": "The Indian child, parent, Indian custodian or tribe may petition to invalidate a foster care placement or termination of parental rights action that violated state or federal law (Conn. Gen. Stat. § 46b-116n)",
+      "statutory_basis": {
+        "citation_text": "Conn. Gen. Stat. § 46b-116d (required notice to Indian parent, Indian custodian and Indian tribe of state foster care and termination of parental rights proceedings), Connecticut Indian Child Welfare Act",
+        "source_url": "https://www.cga.ct.gov/current/pub/chap_815q.htm#sec_46b-116d",
+        "authority_type": "state_statute",
+        "last_verified": "2026-09-19"
+      }
     }
   ]
 }

@@ -65,6 +65,13 @@
           "authority_type": "state_statute",
           "last_verified": "2026-09-19",
           "deep_link": true
+        },
+        {
+          "citation_text": "Ark. Code Ann. § 12-18-616 — Child Maltreatment Act: investigative determination due within 45 days, with one 15-day extension",
+          "source_url": "https://codes.findlaw.com/ar/title-12-law-enforcement-emergency-management-and-military-affairs/ar-code-sect-12-18-616/",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
@@ -73,6 +80,10 @@
         {
           "title": "Agency 16 - DEPARTMENT OF HUMAN SERVICES",
           "url": "https://www.law.cornell.edu/regulations/arkansas/agency-016"
+        },
+        {
+          "title": "9 CAR § 40 — Division of Children and Family Services Policy and Procedure Manual (Arkansas Administrative Code, DHS Agency 016)",
+          "url": "https://humanservices.arkansas.gov/wp-content/uploads/Master_DCFS_Policy.pdf"
         }
       ],
       "source_url": "https://www.law.cornell.edu/regulations/arkansas.html"
@@ -279,7 +290,7 @@
     "Any person 18 or older who observes abuse, sexual abuse, or sexual exploitation of a child — Ark. Code Ann. § 12-18-402(b)(43)"
   ],
   "reporting_type": "centralized",
-  "reporting_details": "Arkansas is not a universal-reporting state: Ark. Code Ann. § 12-18-402(b) names 43 categories of mandated reporter — ending with any person 18 or older who observes abuse, sexual abuse, or sexual exploitation of a child — and § 12-18-402(a) requires each of them to notify the statewide Child Abuse Hotline immediately; mandated reporters may instead file through the secure portal at mandatedreporter.arkansas.gov, while everyone else calls the hotline.",
+  "reporting_details": "Arkansas is not a universal-reporting state: Ark. Code Ann. § 12-18-402(b) names 43 categories of mandated reporter — ending with any person 18 or older who observes abuse, sexual abuse, or sexual exploitation of a child — and § 12-18-402(a) requires each of them to notify the statewide Child Abuse Hotline immediately; mandated reporters may instead file through the secure portal at mandatedreporter.arkansas.gov, while everyone else calls the hotline. The hotline is answered by a civilian member of the Arkansas State Police Crimes Against Children Division (CACD), who decides whether a report is accepted; an accepted report is sent for investigation to either DCFS or CACD depending on the severity of the concerns reported, and Ark. Code Ann. § 12-18-602(a) places the investigation duty on both \"[t]he Department of Human Services and the Division of Arkansas State Police.\"",
   "definitions": {
     "abuse": [
       "Physical abuse",
@@ -348,10 +359,11 @@
     },
     {
       "requirement_name": "Investigation completion",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
-      "source": "template_estimate",
-      "consequence_of_miss": "Case dismissal risk"
+      "deadline": "45 days to make the investigative determination; one 15-day extension permitted (60 days maximum)",
+      "starts_from": "Receipt of the child maltreatment report from the Child Abuse Hotline (9 CAR § 40-324(a))",
+      "source": "state_statute",
+      "source_url": "https://codes.findlaw.com/ar/title-12-law-enforcement-emergency-management-and-military-affairs/ar-code-sect-12-18-616/",
+      "consequence_of_miss": "Ark. Code Ann. § 12-18-616(a)(2): the timing requirement \"shall not be considered as a factor to alter the investigative determination in any judicial or administrative proceeding\""
     }
   ],
   "notice_requirements": [

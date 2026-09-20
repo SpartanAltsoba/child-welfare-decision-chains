@@ -77,6 +77,12 @@
     "administrative_rule": {
       "regulations_applicable": [
         {
+          "title": "IDAPA 16.06.01 — Child and Family Services (Idaho Department of Health and Welfare)",
+          "url": "https://adminrules.idaho.gov/rules/current/16/160601.pdf",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
+        },
+        {
           "title": "Title IDAPA 05 - Juvenile Corrections, Department of",
           "url": "https://www.law.cornell.edu/regulations/idaho/title-IDAPA-05"
         },
@@ -311,7 +317,7 @@
   "state_agency": {
     "name": "Idaho Department of Health and Welfare, Child and Family Services",
     "acronym": "DHW",
-    "hotline": "1-855-552-5437",
+    "hotline": "1-855-552-5437 (855-552-KIDS) statewide; Treasure Valley 208-334-5437",
     "website": "https://healthandwelfare.idaho.gov/services-programs/children-families-older-adults/child-and-family-services-and-foster-care-7"
   },
   "mandatory_reporters": [
@@ -404,12 +410,21 @@
         "legal_guardian"
       ],
       "method": "any_reasonable",
-      "timing": "Before investigation interview",
+      "timing": "In writing, at the time of or within seventy-two (72) hours after the department makes first contact directly and in person with the parents, guardians, or other persons having legal custody of the child (Idaho Code § 16-1649(2)); the notification must be on a form prescribed by the department (§ 16-1649(4))",
       "content_required": [
-        "Nature of allegation",
-        "Rights"
+        "The right to refuse to answer questions",
+        "The right to obtain an attorney at their own expense, consult with that attorney, and have that attorney present during an investigation (the department is not authorized to appoint or obtain an attorney)",
+        "The right to refuse entry to their home or other real property",
+        "The right to refuse the questioning of any minor children in their home or on their property, unless a court of competent jurisdiction has issued an order authorizing a particular entry, questioning, or examination",
+        "A statement that if the safety of the child cannot be determined, the department may request assistance from a law enforcement agency or seek a court order"
       ],
-      "defective_notice_consequence": "May invalidate findings"
+      "defective_notice_consequence": "Failure by the department to provide the notification in a specific investigation shall not affect the department's ability to conduct that investigation or to carry out its duties under the Child Protective Act (Idaho Code § 16-1649(5))",
+      "statutory_basis": {
+        "citation_text": "Idaho Code § 16-1649 (Notification of rights)",
+        "source_url": "https://legislature.idaho.gov/statutesrules/idstat/Title16/T16CH16/SECT16-1649/",
+        "authority_type": "state_statute",
+        "last_verified": "2026-09-19"
+      }
     }
   ],
   "door_scenarios": [

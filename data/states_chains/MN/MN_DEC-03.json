@@ -66,19 +66,19 @@
     "administrative_rule": {
       "regulations_applicable": [
         {
-          "title": "Agency 152 - Marriage and Family Therapy Board",
-          "url": "https://www.law.cornell.edu/regulations/minnesota/agency-152"
+          "title": "Minnesota Rules, Chapter 9560 - Social Services for Children",
+          "url": "https://www.revisor.mn.gov/rules/9560/"
         },
         {
-          "title": "Agency 172 - Private Detective and Protective Agent Services Board",
-          "url": "https://www.law.cornell.edu/regulations/minnesota/agency-172"
+          "title": "Minnesota Rules, parts 9560.0210 to 9560.0234 - Protective Services for Children",
+          "url": "https://www.revisor.mn.gov/rules/9560.0210/"
         },
         {
-          "title": "Agency 196 - Human Services Department",
-          "url": "https://www.law.cornell.edu/regulations/minnesota/agency-196"
+          "title": "Minnesota Rules, parts 9560.0410 to 9560.0485 - Children in Need of Protection or Services",
+          "url": "https://www.revisor.mn.gov/rules/9560.0410/"
         }
       ],
-      "source_url": "https://www.law.cornell.edu/regulations/minnesota.html"
+      "source_url": "https://www.revisor.mn.gov/rules/"
     },
     "state_constitutional": {
       "plane_reference": "state_constitutional_MN",
@@ -281,10 +281,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Safety decision",
-      "deadline": "Immediate upon contact",
-      "starts_from": "First family contact",
-      "source": "template_estimate",
-      "consequence_of_miss": "Child safety risk"
+      "deadline": "Safety assessment completed at the face-to-face contact with the child and the child's primary caregiver, which must be sufficient to ensure the immediate safety of the child",
+      "starts_from": "Receipt of a screened in report",
+      "source": "state_statute",
+      "source_url": "https://www.revisor.mn.gov/statutes/cite/260E.20",
+      "consequence_of_miss": "Not specified in Minn. Stat. § 260E.20; subd. 2(a) requires the face-to-face contact to be sufficient to complete a safety assessment and ensure the immediate safety of the child."
     },
     {
       "requirement_name": "Disposition finding",
@@ -293,6 +294,14 @@
       "source": "state_statute",
       "source_url": "https://www.revisor.mn.gov/statutes/cite/260E.24",
       "consequence_of_miss": "Not specified by statute; Minn. Stat. § 260E.24, subd. 3 requires the two determinations at the conclusion of the investigation and subd. 5 requires written notice within ten working days of that conclusion."
+    },
+    {
+      "requirement_name": "Maltreatment determination reconsideration",
+      "deadline": "15 calendar days",
+      "starts_from": "Receipt of notice of the investigating agency's final determination regarding maltreatment",
+      "source": "state_statute",
+      "source_url": "https://www.revisor.mn.gov/statutes/cite/260E.33",
+      "consequence_of_miss": "Not specified in Minn. Stat. § 260E.33; subd. 2 requires the written request within 15 calendar days after receipt of notice of the final determination, subd. 3 allows a fair hearing only after the agency denies the reconsideration request or fails to act on it within 15 working days, and subd. 1 provides no reconsideration after a family assessment or noncaregiver human trafficking assessment because no maltreatment determination is made."
     }
   ],
   "notice_requirements": [

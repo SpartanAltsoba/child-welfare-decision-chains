@@ -44,7 +44,7 @@
           "deep_link": true
         },
         {
-          "citation_text": "Alaska Stat. § 18.85.100 — Right to representation; Public Defender Agency representation of a parent at an AS 47.10.142(d) temporary custody hearing",
+          "citation_text": "Alaska Stat. § 18.85.100 — Right to representation, services, and facilities; under (e) the Public Defender Agency may represent a parent at the AS 47.10.142(d) temporary custody hearing at public expense without a court order, and if the parent is not later found eligible for court-appointed counsel the court shall assess the cost of that representation against the parent",
           "source_url": "https://www.akleg.gov/basis/statutes.asp#18.85.100",
           "authority_type": "state_statute",
           "last_verified": "2026-09-19",
@@ -306,7 +306,7 @@
   "state_agency": {
     "name": "Alaska Office of Children's Services",
     "acronym": "OCS",
-    "hotline": "1-800-478-4444",
+    "hotline": "1-800-478-4444 or 907-269-6510 (24 hours a day, every day)",
     "website": "https://dfcs.alaska.gov/office-of-childrens-services/"
   },
   "linked_output": "OUT-06",
@@ -342,10 +342,17 @@
   "timeline_requirements": [
     {
       "requirement_name": "Appeal deadline",
-      "deadline": "30 days",
-      "starts_from": "Final order",
-      "source": "template_estimate",
-      "consequence_of_miss": "Loss of appeal rights"
+      "deadline": "15 days",
+      "starts_from": "Date shown in the clerk's certificate of distribution on the final judgment in the child in need of aid case",
+      "source": "court_rule",
+      "source_url": "https://courts.alaska.gov/rules/docs/app.pdf",
+      "citation": {
+        "citation_text": "Alaska R. App. P. 218(a)(3), (d) — Appeals in Cases Involving Children; the notice of appeal from a final judgment in a child in need of aid proceeding under AS 47.10 must be filed within 15 days",
+        "source_url": "https://courts.alaska.gov/rules/docs/app.pdf",
+        "authority_type": "admin_rule",
+        "last_verified": "2026-09-19"
+      },
+      "consequence_of_miss": "Not specified in Alaska R. App. P. 218"
     },
     {
       "requirement_name": "1983 statute of limitations",

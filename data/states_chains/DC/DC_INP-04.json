@@ -244,7 +244,7 @@
     "Any person 18 or older, for suspected sexual abuse of a child under 16 — D.C. Code § 22-3020.52(a)"
   ],
   "reporting_type": "centralized",
-  "reporting_details": "The District is not a universal-reporter jurisdiction: D.C. Code § 4-1321.02(a) names 19 categories of mandatory reporter who must report to CFSA or the Metropolitan Police Department, while D.C. Code § 22-3020.52(a) separately requires any person 18 or older to report suspected sexual abuse of a child under 16, a call to 911 or a report to CFSA counting as a report to the police.",
+  "reporting_details": "The District is not a universal-reporter jurisdiction: D.C. Code § 4-1321.02(a) names 19 categories of mandatory reporter, who report abuse, neglect, sexual abuse, or a non-accidental bullet, knife, or sharp-object injury to CFSA or the Metropolitan Police Department under § 4-1321.02(b)(1)(A), (C), and (D), but must report to CFSA alone when a child aged 5 through 13 has 10 or more days of unexcused absences within a school year — § 4-1321.02(b)(1)(B), the District's truancy trigger. D.C. Code § 22-3020.52(a) separately requires any person 18 or older to report suspected sexual abuse of a child under 16 (both terms defined in § 22-3020.51), a call to 911 or a report to CFSA counting as a report to the police.",
   "definitions": {
     "abuse": [
       "Physical abuse",
@@ -315,10 +315,11 @@
     },
     {
       "requirement_name": "Investigation completion",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
-      "source": "template_estimate",
-      "consequence_of_miss": "Case dismissal risk"
+      "deadline": "45 days for the full investigation (60 days in the listed cases); final report within 5 business days after completion",
+      "starts_from": "Receipt of the first notice of the suspected abuse or neglect",
+      "source": "state_statute",
+      "consequence_of_miss": "Not specified in § 4-1301.06",
+      "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/4-1301.06"
     }
   ],
   "notice_requirements": [

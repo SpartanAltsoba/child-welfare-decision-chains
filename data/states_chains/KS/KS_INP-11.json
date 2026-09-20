@@ -6,7 +6,7 @@
   "subnode": "INP-11",
   "trigger_name": "Federal / Tribal Jurisdiction Trigger",
   "summary_html": "Cases arising on **federal lands/facilities** or involving **Indian children** invoke federal/tribal jurisdictional rules (VICAA for federal facilities; **ICWA** for Indian children and tribal preference/jurisdiction).",
-  "authority_html": "- **VICAA (34 U.S.C. §§ 20301–20307)** — federal-facility reporting mandates  \n- **ICWA (25 U.S.C. §§ 1901–1963)** — tribal jurisdiction, placement preferences, notice to tribes",
+  "authority_html": "- **VICAA (34 U.S.C. §§ 20301–20307)** — federal-facility reporting mandates  \n- **ICWA (25 U.S.C. §§ 1901–1963)** — tribal jurisdiction, placement preferences, notice to tribes  \n- **Kan. Stat. Ann. § 38-2226(h) (Adrian's Law)** — the investigating agency shall visually observe the child who is the alleged victim; in a joint investigation DCF and law enforcement shall both observe the child, and DCF policy states that law enforcement's observation does not fulfill DCF's responsibility (DCF PPM 2010)  \n- **Kan. Stat. Ann. § 38-2226(b)** — a joint DCF / law enforcement investigation is mandatory when a report indicates serious physical harm to, serious deterioration of, or sexual abuse of the child and action may be required to protect the child (DCF PPM 1530)",
   "icon": "🏛️",
   "theme_color": "#4682B4",
   "domain": "civil",
@@ -42,7 +42,7 @@
           "source_url": "https://www.ksrevisor.gov/statutes/ksa_ch23.html",
           "authority_type": "state_statute",
           "last_verified": "2026-09-19",
-          "deep_link": true,
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
@@ -51,16 +51,7 @@
           "source_url": "https://www.ksrevisor.gov/statutes/ksa_ch38.html",
           "authority_type": "state_statute",
           "last_verified": "2026-09-19",
-          "deep_link": true,
-          "title_code": "",
-          "chapter": ""
-        },
-        {
-          "citation_text": "Chapter 65 — Public Health (child abuse reporting is not in this chapter; Kansas places it at Kan. Stat. Ann. § 38-2223, ch. 38, art. 22)",
-          "source_url": "https://www.ksrevisor.gov/statutes/ksa_ch65.html",
-          "authority_type": "state_statute",
-          "last_verified": "2026-09-19",
-          "deep_link": true,
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         }
@@ -323,17 +314,25 @@
     {
       "requirement_name": "Initial response time",
       "deadline": "Same day or 72 hours",
-      "starts_from": "Report accepted for assessment (the 72-hour clock excludes weekends and state holidays)",
+      "starts_from": "Assignment of the report as designated on the PPS 1002, Initial Assessment (DCF PPM 1500); the 72-hour rule is stated as running from acceptance of the report and excludes weekends and state holidays (DCF PPM 1521)",
       "source": "admin_rule",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency",
+      "consequence_of_miss": "Not specified in DCF PPM 1500 or 1521",
       "source_url": "https://www.dcf.ks.gov/services/PPS/Documents/PPM_Forms/PDF%20Manuals/Policy%20and%20Procedure%20Manual%20July%202026.pdf"
+    },
+    {
+      "requirement_name": "Law enforcement referral response",
+      "deadline": "24 hours to initiate an investigation and contact the persons who are the subject of the investigation, then 24 hours from that contact to report the status back to the referring law enforcement agency",
+      "starts_from": "Receipt of a law enforcement officer's electronic referral of a child who may be a victim of abuse or neglect",
+      "source": "state_statute",
+      "consequence_of_miss": "Not specified in Kan. Stat. Ann. § 38-2231(d)",
+      "source_url": "https://www.ksrevisor.gov/statutes/chapters/ch38/038_022_0031.html"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30 working days",
       "starts_from": "Report accepted for assessment",
       "source": "admin_rule",
-      "consequence_of_miss": "A later finding is allowed only if a delay is requested by law enforcement, a county or district attorney, the court, or health or mental health professionals, or exceptional circumstances are documented in the case file (DCF PPM 2511)",
+      "consequence_of_miss": "A later finding is allowed only if a delay is requested by law enforcement, a county or district attorney, the court, or health or mental health professionals, or exceptional circumstances are documented in the case file (DCF PPM 2511 C.). An allowable late finding requires the Child Protection Specialist to enter \"Allowable Delay\" on the PPS 2011 Case Findings Section IV on or before the case finding due date; if the finding is late for a reason not allowable under PPM 2511 C., the specialist shall document with the finding: \"The case finding is delayed due to a non-allowable reason per policy.\" (DCF PPM 2531 E.)",
       "source_url": "https://www.dcf.ks.gov/services/PPS/Documents/PPM_Forms/PDF%20Manuals/Policy%20and%20Procedure%20Manual%20July%202026.pdf"
     }
   ],

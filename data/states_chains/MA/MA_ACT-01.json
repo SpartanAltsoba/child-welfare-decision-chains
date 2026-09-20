@@ -259,7 +259,7 @@
   "state_agency": {
     "name": "Massachusetts Department of Children and Families",
     "acronym": "DCF",
-    "hotline": "1-800-792-5200",
+    "hotline": "1-800-792-5200 (Massachusetts Child Abuse Emergency Line, for nights, weekends and holidays; weekdays 8:45 a.m. to 5 p.m. call the DCF area office for the city or town where the child lives)",
     "website": "https://www.mass.gov/orgs/massachusetts-department-of-children-families"
   },
   "linked_decision": "DEC-06",
@@ -301,10 +301,19 @@
     },
     {
       "requirement_name": "Case plan development",
-      "deadline": "30-60 days",
-      "starts_from": "Court jurisdiction",
-      "source": "federal_statute",
-      "consequence_of_miss": "IV-E funding penalty"
+      "deadline": "45 days for the department or agency to provide a copy of the service or case plan to the parent, guardian or custodian and to the attorneys for all parties appearing in the proceeding",
+      "starts_from": "The department or agency filing an appearance in the proceeding (M.G.L. c. 119, § 29)",
+      "source": "state_statute",
+      "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVII/Chapter119/Section29",
+      "consequence_of_miss": "Not specified in M.G.L. c. 119, § 29"
+    },
+    {
+      "requirement_name": "Appointment of counsel for indigent parent",
+      "deadline": "14 days for the juvenile court and probate and family court departments, under procedures they must establish, to appoint counsel for an indigent parent, guardian or custodian",
+      "starts_from": "A licensed child placement agency filing or appearing as a party in the action (M.G.L. c. 119, § 29)",
+      "source": "state_statute",
+      "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVII/Chapter119/Section29",
+      "consequence_of_miss": "Not specified in M.G.L. c. 119, § 29"
     }
   ],
   "notice_requirements": [

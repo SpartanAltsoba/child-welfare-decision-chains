@@ -48,6 +48,13 @@
           "authority_type": "state_statute",
           "last_verified": "2026-09-19",
           "deep_link": true
+        },
+        {
+          "citation_text": "Connecticut - Title 17a, Chapter 319a, Conn. Gen. Stat. § 17a-101t (in-person home visit or evaluation pursuant to a safety plan; quarantine exception) (P.A. 24-92)",
+          "source_url": "https://www.cga.ct.gov/current/pub/chap_319a.htm#sec_17a-101t",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
@@ -246,13 +253,14 @@
   "state_agency": {
     "name": "Connecticut Department of Children and Families",
     "acronym": "DCF",
-    "hotline": "1-800-842-2288",
+    "hotline": "1-800-842-2288 (DCF Careline, 24 hours a day, every day of the year); TDD 1-800-624-5518",
     "website": "https://portal.ct.gov/dcf"
   },
   "investigation_requirements": [
     "Home visit required",
     "Victim interview required",
-    "Risk assessment required"
+    "Risk assessment required",
+    "Any visit to or evaluation of a home conducted pursuant to a safety plan must be conducted in person, unless a resident of the home is subject to an order of quarantine or isolation (Conn. Gen. Stat. § 17a-101t, P.A. 24-92, effective July 1, 2024)"
   ],
   "evidence_level": "Probable or reasonable cause",
   "_metadata": {
@@ -319,6 +327,29 @@
         "Rights to appeal"
       ],
       "defective_notice_consequence": "Disposition may be overturned"
+    },
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian"
+      ],
+      "method": "personal_service",
+      "timing": "With service of an ex parte order of temporary custody or order to appear; preliminary hearing held not later than 10 days after the order issues",
+      "content_required": [
+        "Conspicuous notice written in clear and simple language",
+        "That the order contains allegations that conditions in the home have endangered the safety and welfare of the child or youth",
+        "That a hearing will be held on the date on the form and is the parents' opportunity to present their position on the alleged facts",
+        "That an attorney will be appointed for parents who cannot afford one, and how and where to apply, as soon as possible so counsel can prepare",
+        "That the parents or a person responsible for the child may ask the Commissioner of Children and Families to investigate placing the child with a blood or marriage relative as licensed foster parent or temporary custodian",
+        "That parents with questions about the case or appointment of counsel should go to the court or call the clerk's office as soon as possible"
+      ],
+      "defective_notice_consequence": "Not specified in Conn. Gen. Stat. § 46b-129(b)",
+      "statutory_basis": {
+        "citation_text": "Conn. Gen. Stat. § 46b-129(b) (order of temporary custody or order to appear; required conspicuous notice to the respondent; preliminary hearing not later than ten days after issuance)",
+        "source_url": "https://www.cga.ct.gov/current/pub/chap_815t.htm#sec_46b-129",
+        "authority_type": "state_statute",
+        "last_verified": "2026-09-19"
+      }
     }
   ],
   "door_scenarios": [

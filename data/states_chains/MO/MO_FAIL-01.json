@@ -48,19 +48,19 @@
           "deep_link": false
         },
         {
-          "citation_text": "Title 210: Child Protection and Reformation - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/missouri/title-210/",
+          "citation_text": "Missouri Revised Statutes, Title XII - Public Health and Welfare, Chapter 210: Child Protection and Reformation - CHILD WELFARE PRIMARY",
+          "source_url": "https://law.justia.com/codes/missouri/title-xii/chapter-210/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 211: Juvenile Courts",
-          "source_url": "https://law.justia.com/codes/missouri/title-211/",
+          "citation_text": "Missouri Revised Statutes, Title XII - Public Health and Welfare, Chapter 211: Juvenile Courts",
+          "source_url": "https://law.justia.com/codes/missouri/title-xii/chapter-211/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -75,10 +75,10 @@
           "chapter": ""
         },
         {
-          "citation_text": "Title 453: Adoption",
-          "source_url": "https://law.justia.com/codes/missouri/title-453/",
+          "citation_text": "Missouri Revised Statutes, Title XXX - Domestic Relations, Chapter 453: Adoption and Foster Care",
+          "source_url": "https://law.justia.com/codes/missouri/title-xxx/chapter-453/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -90,6 +90,12 @@
         {
           "title": "Title 13 - DEPARTMENT OF SOCIAL SERVICES",
           "url": "https://www.law.cornell.edu/regulations/missouri/title-13"
+        },
+        {
+          "title": "13 CSR 35-31 - Department of Social Services, Division 35 Children's Division, Chapter 31: Child Abuse (includes 13 CSR 35-31.020 screening and track assignment and 13 CSR 35-31.025 Child Abuse and Neglect Review Process)",
+          "url": "https://www.sos.mo.gov/cmsimages/adrules/csr/current/13csr/13c35-31.pdf",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
         },
         {
           "title": "Title 21 - MISSOURI FAMILY TRUST",
@@ -372,10 +378,27 @@
   "timeline_requirements": [
     {
       "requirement_name": "Appeal deadline",
-      "deadline": "30 days",
-      "starts_from": "Final order",
-      "source": "template_estimate",
-      "consequence_of_miss": "Loss of appeal rights"
+      "deadline": "30 days to file a petition for direct judicial review with the circuit court as provided in Mo. Rev. Stat. § 536.100; choosing this route waives administrative review, and on service of the petition the division lists the alleged perpetrator's name in the central registry pending further orders or judgment of the circuit court",
+      "starts_from": "Receipt of the notification of the division's preliminary (preponderance of the evidence) finding of child abuse or neglect",
+      "source": "admin_rule",
+      "consequence_of_miss": "Not specified in 13 CSR 35-31.025(3)(A)",
+      "source_url": "https://www.sos.mo.gov/cmsimages/adrules/csr/current/13csr/13c35-31.pdf"
+    },
+    {
+      "requirement_name": "Administrative appeal deadline",
+      "deadline": "60 days to request administrative review by the Child Abuse and Neglect Review Board in writing; mutually exclusive with direct judicial review, and the alleged perpetrator is not listed in the central registry for that finding unless and until the board sustains it. Where criminal charges arising out of the facts of the investigation are pending, 60 days from the court's final disposition or dismissal of the charges",
+      "starts_from": "Notification of the division's determination",
+      "source": "state_statute",
+      "consequence_of_miss": "If the division does not receive a request for administrative review within 60 days of notification of the preliminary finding, it lists the alleged perpetrator as a perpetrator of child abuse or neglect in the central registry (13 CSR 35-31.025(3)(B)1.C)",
+      "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=210.152"
+    },
+    {
+      "requirement_name": "Judicial review of review board decision",
+      "deadline": "60 days to request de novo judicial review in the circuit court of the county in which the alleged perpetrator resides, or in Cole County",
+      "starts_from": "Notification of the decision of the Child Abuse and Neglect Review Board",
+      "source": "state_statute",
+      "consequence_of_miss": "Not specified in Mo. Rev. Stat. § 210.152.6",
+      "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=210.152"
     },
     {
       "requirement_name": "1983 statute of limitations",

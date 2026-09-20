@@ -68,6 +68,27 @@
           "authority_type": "state_statute",
           "last_verified": "2026-09-19",
           "deep_link": true
+        },
+        {
+          "citation_text": "Ark. Code Ann. § 12-18-616 — Child Maltreatment Act: investigative determination due within 45 days, with one 15-day extension",
+          "source_url": "https://codes.findlaw.com/ar/title-12-law-enforcement-emergency-management-and-military-affairs/ar-code-sect-12-18-616/",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Ark. Code Ann. § 12-18-702 — Child Maltreatment Act: investigative determination (unsubstantiated, true, true but exempted, inactive)",
+          "source_url": "https://codes.findlaw.com/ar/title-12-law-enforcement-emergency-management-and-military-affairs/ar-code-sect-12-18-702/",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Ark. Code Ann. § 12-18-706 — Child Maltreatment Act: notice to an alleged offender 18 or older and the 30-day request for an administrative hearing",
+          "source_url": "https://codes.findlaw.com/ar/title-12-law-enforcement-emergency-management-and-military-affairs/ar-code-sect-12-18-706/",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
@@ -76,6 +97,10 @@
         {
           "title": "Agency 16 - DEPARTMENT OF HUMAN SERVICES",
           "url": "https://www.law.cornell.edu/regulations/arkansas/agency-016"
+        },
+        {
+          "title": "9 CAR § 40 — Division of Children and Family Services Policy and Procedure Manual (Arkansas Administrative Code, DHS Agency 016)",
+          "url": "https://humanservices.arkansas.gov/wp-content/uploads/Master_DCFS_Policy.pdf"
         }
       ],
       "source_url": "https://www.law.cornell.edu/regulations/arkansas.html"
@@ -296,10 +321,11 @@
     },
     {
       "requirement_name": "Disposition finding",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
-      "source": "template_estimate",
-      "consequence_of_miss": "Procedural violation"
+      "deadline": "45 days to make the investigative determination; one 15-day extension permitted (60 days maximum)",
+      "starts_from": "Receipt of the child maltreatment report from the Child Abuse Hotline (9 CAR § 40-324(a))",
+      "source": "state_statute",
+      "source_url": "https://codes.findlaw.com/ar/title-12-law-enforcement-emergency-management-and-military-affairs/ar-code-sect-12-18-616/",
+      "consequence_of_miss": "Ark. Code Ann. § 12-18-616(a)(2): the timing requirement \"shall not be considered as a factor to alter the investigative determination in any judicial or administrative proceeding\""
     }
   ],
   "notice_requirements": [
@@ -313,7 +339,8 @@
       "timing": "Before disposition",
       "content_required": [
         "Findings",
-        "Rights to appeal"
+        "Rights to appeal",
+        "Where to send the hearing request if the determination is true: DHS Office of Appeals and Hearings, P.O. Box 1437, Slot S101, Little Rock, AR 72203-1437, or DHS.Appeals@dhs.arkansas.gov — not the DCFS address at Slot S560 — within 30 days (Ark. Code Ann. § 12-18-706; 9 CAR § 40-1003(b))"
       ],
       "defective_notice_consequence": "Disposition may be overturned"
     }

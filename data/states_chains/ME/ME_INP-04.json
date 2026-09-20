@@ -371,17 +371,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
-      "starts_from": "Report received",
-      "source": "template_estimate",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "deadline": "24 hours or 3 days, as assigned at intake using the SDM Intake Assessment Tool",
+      "starts_from": "Screen-in of the report for assignment",
+      "source": "admin_rule",
+      "source_url": "https://www.maine.gov/dhhs/sites/maine.gov.dhhs/files/inline-files/2.1%20Intake%20Screening%20and%20Assignment%20Policy.pdf",
+      "consequence_of_miss": "Not specified in OCFS Policy 2.1, Intake Screening and Assignment"
     },
     {
       "requirement_name": "Investigation completion",
-      "deadline": "30-60 days",
+      "deadline": "Within 45 days; if the investigation stays open beyond 60 days, monthly contacts are required until closure",
       "starts_from": "Investigation opened",
-      "source": "template_estimate",
-      "consequence_of_miss": "Case dismissal risk"
+      "source": "admin_rule",
+      "source_url": "https://www.maine.gov/dhhs/sites/maine.gov.dhhs/files/inline-files/2.2%20Child%20Protection%20Investigation_0.pdf",
+      "consequence_of_miss": "Not specified in OCFS Policy 2.2, Child Protection Investigation"
     }
   ],
   "notice_requirements": [

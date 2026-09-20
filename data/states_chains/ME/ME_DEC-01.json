@@ -325,17 +325,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Safety decision",
-      "deadline": "Immediate upon contact",
-      "starts_from": "First family contact",
-      "source": "template_estimate",
-      "consequence_of_miss": "Child safety risk"
+      "deadline": "Before the caseworker leaves the field, in consultation with a supervisor",
+      "starts_from": "Field contact during a child protection investigation",
+      "source": "admin_rule",
+      "source_url": "https://www.maine.gov/dhhs/sites/maine.gov.dhhs/files/inline-files/2.2%20Child%20Protection%20Investigation_0.pdf",
+      "consequence_of_miss": "Not specified in OCFS Policy 2.2, Child Protection Investigation"
     },
     {
       "requirement_name": "Disposition finding",
-      "deadline": "30-60 days",
+      "deadline": "Any time prior to, or at the end of, the 40-day investigation period; the investigation must be closed within 45 days",
       "starts_from": "Investigation opened",
-      "source": "template_estimate",
-      "consequence_of_miss": "Procedural violation"
+      "source": "admin_rule",
+      "source_url": "https://www.maine.gov/dhhs/sites/maine.gov.dhhs/files/inline-files/2.2%20Child%20Protection%20Investigation_0.pdf",
+      "consequence_of_miss": "Not specified in OCFS Policy 2.2, Child Protection Investigation"
     }
   ],
   "notice_requirements": [

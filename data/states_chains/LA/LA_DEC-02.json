@@ -35,6 +35,27 @@
           "authority_type": "state_statute",
           "last_verified": "2026-09-19",
           "deep_link": true
+        },
+        {
+          "citation_text": "Louisiana - Children’s Code Article 603 (Definitions; “caretaker”)",
+          "source_url": "https://www.legis.la.gov/legis/Law.aspx?d=73195",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Louisiana - Children’s Code Article 610 (Reporting procedure; which reports go to DCFS and which go to law enforcement)",
+          "source_url": "https://www.legis.la.gov/legis/Law.aspx?d=73202",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Louisiana - Children’s Code Article 612 (Assignment of reports for investigation and assessment)",
+          "source_url": "https://www.legis.la.gov/legis/Law.aspx?d=73204",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
@@ -278,7 +299,12 @@
   "investigation_requirements": [
     "Home visit required",
     "Victim interview required",
-    "Risk assessment required"
+    "Risk assessment required",
+    "DCFS investigates only where the suspected perpetrator is a parent or caretaker as defined in La. Ch.C. Art. 603 or falls within one of the additional categories in Art. 610(A)(1) (a person in an interpersonal dating or engagement relationship with the parent or caretaker, a person living in the same residence as the parent or caretaker or in any residence of the child, an early learning center or registered family child day care home operator or employee, another child residing in the same residence in a case of suspected sexual abuse, or an indeterminable perpetrator where the abuse is suspected to have occurred at the child’s residence); every other report is routed to a local or state law enforcement agency (La. Ch.C. Art. 610(A)(1)-(2))",
+    "On receiving a report DCFS must immediately assign a level of risk; high-risk reports are investigated immediately and intermediate-risk reports promptly, and the preliminary investigation must include an inquiry as to whether there is reason to know the child is an Indian child (La. Ch.C. Art. 612(A)(1)-(2))",
+    "In lieu of an investigation, reports of low levels of risk may be assessed through interviews with the family to identify needs and available matches to community resources; if the assessment shows the child is at immediate substantial risk of harm, the local child protection unit must immediately conduct an intensive investigation (La. Ch.C. Art. 612(A)(3))",
+    "Reports of sexual abuse in which the alleged perpetrator is a child may be assessed immediately through interviews with the family of the child victim and the alleged child perpetrator rather than investigated, with the same immediate-intensive-investigation trigger (La. Ch.C. Art. 612(A)(4); see also Art. 610(G)(5))",
+    "All interviews conducted in the course of a child protective investigation must be recorded (La. Ch.C. Art. 612(C))"
   ],
   "evidence_level": "Preponderance of evidence",
   "_metadata": {
@@ -320,6 +346,14 @@
       "starts_from": "Investigation opened",
       "source": "template_estimate",
       "consequence_of_miss": "Procedural violation"
+    },
+    {
+      "requirement_name": "Initial response time",
+      "deadline": "Immediately for high-risk reports; promptly for intermediate-risk reports (statute sets no hour count)",
+      "starts_from": "Department receives the report and assigns a level of risk",
+      "source": "state_statute",
+      "consequence_of_miss": "Violation of the duties imposed by Ch.C. Art. 612 subjects the offender to criminal prosecution authorized by La. R.S. 14:403(A)(2) (Art. 612(F))",
+      "source_url": "https://www.legis.la.gov/legis/Law.aspx?d=73204"
     }
   ],
   "notice_requirements": [

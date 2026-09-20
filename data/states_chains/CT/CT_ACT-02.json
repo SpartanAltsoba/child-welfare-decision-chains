@@ -43,6 +43,13 @@
           "authority_type": "state_statute",
           "last_verified": "2026-09-19",
           "deep_link": true
+        },
+        {
+          "citation_text": "Connecticut - Title 46b, Chapter 815q, Conn. Gen. Stat. §§ 46b-116 to 46b-116aa (Connecticut Indian Child Welfare Act; covers tribes recognized by the state of Connecticut as well as federally recognized tribes) (P.A. 23-113)",
+          "source_url": "https://www.cga.ct.gov/current/pub/chap_815q.htm#sec_46b-116",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
@@ -228,7 +235,7 @@
   "state_agency": {
     "name": "Connecticut Department of Children and Families",
     "acronym": "DCF",
-    "hotline": "1-800-842-2288",
+    "hotline": "1-800-842-2288 (DCF Careline, 24 hours a day, every day of the year); TDD 1-800-624-5518",
     "website": "https://portal.ct.gov/dcf"
   },
   "icwa_compliant": true,
@@ -297,6 +304,28 @@
         "Right to counsel"
       ],
       "defective_notice_consequence": "Hearing must be continued"
+    },
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian"
+      ],
+      "method": "any_reasonable",
+      "timing": "At the commencement of any proceeding on behalf of a neglected, uncared-for or abused child or youth, and again at the preliminary hearing on an order of temporary custody or order to appear",
+      "content_required": [
+        "The parent or guardian has the right to counsel and must be so informed by the judge",
+        "If the parent or guardian is unable to afford counsel, counsel will be provided",
+        "The parent or guardian has the rights of confrontation and cross-examination",
+        "The court may also appoint counsel for the parent or guardian without a request if it determines the interests of justice so require (Conn. Gen. Stat. § 46b-136(a)); in a proceeding in which the custody of a child is at issue the judge must provide an attorney for the child",
+        "Cost of appointed counsel in the civil juvenile session is shared as agreed by the Division of Public Defender Services and the Judicial Department, and the court may order a party found able to pay to reimburse that cost (Conn. Gen. Stat. § 46b-136(b)(1))"
+      ],
+      "defective_notice_consequence": "Not specified in Conn. Gen. Stat. §§ 46b-135 or 46b-136",
+      "statutory_basis": {
+        "citation_text": "Conn. Gen. Stat. § 46b-135(b) (right to counsel and cross-examination); see also § 46b-136 (appointment of attorney; payment) and § 46b-129(c)(1) (advisement at the preliminary hearing)",
+        "source_url": "https://www.cga.ct.gov/current/pub/chap_815t.htm#sec_46b-135",
+        "authority_type": "state_statute",
+        "last_verified": "2026-09-19"
+      }
     }
   ],
   "door_scenarios": [

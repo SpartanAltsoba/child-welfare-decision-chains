@@ -47,6 +47,13 @@
           "authority_type": "state_statute",
           "last_verified": "2026-09-19",
           "deep_link": true
+        },
+        {
+          "citation_text": "Haw. Rev. Stat. § 587A-26, Temporary foster custody hearing",
+          "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol12_Ch0501-0588/HRS0587A/HRS_0587A-0026.htm",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
@@ -291,7 +298,7 @@
   "state_agency": {
     "name": "Hawaii Department of Human Services, Child Welfare Services",
     "acronym": "CWS",
-    "hotline": "808-832-5300",
+    "hotline": "808-832-5300 (Oahu) or toll-free 1-888-380-3088 (Hawaii Island, Maui, Molokai, Lanai, Kauai), 24 hours a day, 7 days a week",
     "website": "https://humanservices.hawaii.gov/ssd/home/child-welfare-services/"
   },
   "investigation_requirements": [
@@ -339,6 +346,14 @@
       "starts_from": "Investigation opened",
       "source": "template_estimate",
       "consequence_of_miss": "Procedural violation"
+    },
+    {
+      "requirement_name": "Return hearing on the petition",
+      "deadline": "15 days",
+      "starts_from": "Temporary foster custody hearing",
+      "source": "state_statute",
+      "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol12_Ch0501-0588/HRS0587A/HRS_0587A-0026.htm",
+      "consequence_of_miss": "Not specified in HRS § 587A-26"
     }
   ],
   "notice_requirements": [

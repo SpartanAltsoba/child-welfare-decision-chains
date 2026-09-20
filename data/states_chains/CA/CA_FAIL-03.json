@@ -6,7 +6,7 @@
   "subnode": "FAIL-03",
   "trigger_name": "Federal Compliance Failure",
   "summary_html": "A **state agency fails** to meet federal child-welfare performance standards, triggering **funding penalties** or corrective action under the CFSR or Single Audit Act.",
-  "authority_html": "- **Child & Family Services Reviews (45 CFR Part 1355)** — performance oversight and penalties  \n- **Single Audit Act (31 U.S.C. §§ 7501–7507)** — audit of federally funded programs  \n- **Inspector General Act (5 U.S.C. App.)** — oversight authority for HHS/OIG",
+  "authority_html": "- **Child & Family Services Reviews (45 CFR Part 1355)** — performance oversight and penalties  \n- **Single Audit Act (31 U.S.C. §§ 7501–7507)** — audit of federally funded programs  \n- **Inspector General Act (5 U.S.C. §§ 401–424)** — oversight authority for HHS/OIG",
   "icon": "💸",
   "theme_color": "#FF8C00",
   "domain": "civil",
@@ -269,10 +269,11 @@
     },
     {
       "requirement_name": "1983 statute of limitations",
-      "deadline": "2-3 years",
+      "deadline": "2 years",
       "starts_from": "Violation occurred",
-      "source": "federal_statute",
-      "consequence_of_miss": "Claim barred"
+      "source": "state_statute",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=335.1&lawCode=CCP",
+      "consequence_of_miss": "Not specified in Cal. Code Civ. Proc. § 335.1"
     }
   ],
   "notice_requirements": [

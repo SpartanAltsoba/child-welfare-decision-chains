@@ -4,8 +4,8 @@
   "state_name": "Maine",
   "node_family": "DEC",
   "subnode": "DEC-03",
-  "trigger_name": "Substantiated / Founded Finding",
-  "summary_html": "Agency makes a **substantiated (founded)** finding of abuse/neglect. This decision often unlocks **court petitions**, **service mandates**, and **federal reporting** duties.",
+  "trigger_name": "Substantiated or Indicated Finding",
+  "summary_html": "Agency reaches a **finding** of abuse or neglect at the end of an assessment. Maine grades the result three ways, not two: **unsubstantiated**, **indicated** (low or moderate severity abuse or neglect, by a preponderance) and **substantiated** (high severity abuse or neglect, by a preponderance, leaving the child in danger). A substantiated finding is reported in child protective background checks and can cost a job, a license or a resource-parent approval; an indicated finding stays in the record but is not released in those checks. Either finding carries a right of appeal, and OCFS allows 30 days from the letter announcing it.",
   "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — definitions floor; data & record requirements  \n- **CFSR (45 CFR Part 1355)** — outcomes & safety performance reviews",
   "icon": "✅",
   "theme_color": "#8B008B",
@@ -293,7 +293,7 @@
     "Victim interview required",
     "Risk assessment required"
   ],
-  "evidence_level": "Preponderance of evidence",
+  "evidence_level": "Preponderance of evidence (more likely than not, at least 51%), with the finding graded by severity: indicated for low or moderate severity, substantiated for high severity",
   "_metadata": {
     "created": "2025-12-22T19:33:40.766083",
     "source": "real_data_etl",
@@ -314,25 +314,42 @@
     "standard": "preponderance",
     "who_bears_burden": "agency",
     "common_failures": [
-      "Insufficient evidence for substantiation",
+      "Insufficient evidence for a substantiated (high severity) or indicated (low or moderate severity) finding",
       "Failure to document findings",
       "Inconsistent application of evidence standards"
-    ]
+    ],
+    "statutory_basis": {
+      "citation_text": "Maine OCFS Policy 2.8, Child Abuse and Neglect Findings (preponderance of evidence; indicated = low or moderate severity, substantiated = high severity)",
+      "source_url": "https://www.maine.gov/dhhs/sites/maine.gov.dhhs/files/documents/ocfs/policies/2.8%20Child%20Abuse%20and%20Neglect%20Findings.pdf",
+      "authority_type": "policy",
+      "last_verified": "2026-09-19",
+      "effective_date": "2015-01-01"
+    }
   },
   "timeline_requirements": [
     {
       "requirement_name": "Safety decision",
-      "deadline": "Immediate upon contact",
-      "starts_from": "First family contact",
-      "source": "template_estimate",
-      "consequence_of_miss": "Child safety risk"
+      "deadline": "Before the caseworker leaves the field, in consultation with a supervisor",
+      "starts_from": "Field contact during a child protection investigation",
+      "source": "admin_rule",
+      "source_url": "https://www.maine.gov/dhhs/sites/maine.gov.dhhs/files/inline-files/2.2%20Child%20Protection%20Investigation_0.pdf",
+      "consequence_of_miss": "Not specified in OCFS Policy 2.2, Child Protection Investigation"
     },
     {
       "requirement_name": "Disposition finding",
-      "deadline": "30-60 days",
+      "deadline": "Any time prior to, or at the end of, the 40-day investigation period; the investigation must be closed within 45 days",
       "starts_from": "Investigation opened",
-      "source": "template_estimate",
-      "consequence_of_miss": "Procedural violation"
+      "source": "admin_rule",
+      "source_url": "https://www.maine.gov/dhhs/sites/maine.gov.dhhs/files/inline-files/2.2%20Child%20Protection%20Investigation_0.pdf",
+      "consequence_of_miss": "Not specified in OCFS Policy 2.2, Child Protection Investigation"
+    },
+    {
+      "requirement_name": "Appeal of a child abuse or neglect finding",
+      "deadline": "30 days",
+      "starts_from": "Receipt of the letter notifying the person of the finding",
+      "source": "admin_rule",
+      "source_url": "https://www.maine.gov/dhhs/ocfs/support-for-families/child-welfare/guide-to-child-welfare/findings-and-appeals",
+      "consequence_of_miss": "Not specified in Maine OCFS, Findings and Appeals"
     }
   ],
   "notice_requirements": [

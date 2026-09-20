@@ -41,9 +41,9 @@
         },
         {
           "citation_text": "Arizona - Title 8, Chapter 4 (Department of Child Safety, A.R.S. §§ 8-451 to 8-892)",
-          "source_url": "https://www.azleg.gov/arstitle/",
+          "source_url": "https://www.azleg.gov/arsDetail/?title=8#chapter4",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
@@ -51,7 +51,7 @@
           "source_url": "https://www.azleg.gov/arsDetail/?title=8",
           "authority_type": "state_statute",
           "last_verified": "2026-09-19",
-          "deep_link": false,
+          "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
@@ -90,6 +90,27 @@
           "deep_link": true,
           "title_code": "",
           "chapter": ""
+        },
+        {
+          "citation_text": "Arizona - Title 8, § 8-471 (Office of child welfare investigations; criminal conduct allegations)",
+          "source_url": "https://www.azleg.gov/ars/8/00471.htm",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Arizona - Title 8, § 8-525 (Open court proceedings; closure; records - dependency, permanent guardianship and termination proceedings are open to the public)",
+          "source_url": "https://www.azleg.gov/ars/8/00525.htm",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Arizona - Title 8, § 8-804.02 (Tiered system for placement on central registry; rules)",
+          "source_url": "https://www.azleg.gov/ars/8/00804-02.htm",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
@@ -97,7 +118,9 @@
       "regulations_applicable": [
         {
           "title": "Title 21 - CHILD SAFETY",
-          "url": "https://www.law.cornell.edu/regulations/arizona/title-21"
+          "url": "https://www.law.cornell.edu/regulations/arizona/title-21",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
         },
         {
           "title": "Arizona Administrative Rule Title 8",
@@ -368,10 +391,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
-      "source": "template_estimate",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "deadline": "Not fewer than 5 days nor more than 7 days, excluding Saturdays, Sundays and holidays",
+      "starts_from": "Child taken into temporary custody",
+      "source": "state_statute",
+      "source_url": "https://www.azleg.gov/ars/8/00824.htm",
+      "consequence_of_miss": "Not specified in A.R.S. § 8-824(A); for good cause the court may grant one continuance that does not exceed five days."
     },
     {
       "requirement_name": "Case plan development",
@@ -411,7 +435,8 @@
         "Demand to see court order",
         "Right to know where child is going",
         "Right to attorney",
-        "Right to hearing within 24-72 hours"
+        "Right to a preliminary protective hearing not fewer than 5 nor more than 7 days after the child is taken into temporary custody, excluding Saturdays, Sundays and holidays (A.R.S. § 8-824(A))",
+        "Child may not remain in temporary custody more than 72 hours, excluding Saturdays, Sundays and holidays, unless a dependency petition is filed (A.R.S. § 8-821(I))"
       ],
       "what_to_say": [
         "Do you have a court order for removal?",

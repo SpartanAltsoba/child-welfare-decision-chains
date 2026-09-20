@@ -83,6 +83,12 @@
     "administrative_rule": {
       "regulations_applicable": [
         {
+          "title": "IDAPA 16.06.01 — Child and Family Services (Idaho Department of Health and Welfare)",
+          "url": "https://adminrules.idaho.gov/rules/current/16/160601.pdf",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
+        },
+        {
           "title": "Title IDAPA 05 - Juvenile Corrections, Department of",
           "url": "https://www.law.cornell.edu/regulations/idaho/title-IDAPA-05"
         },
@@ -331,7 +337,7 @@
   "state_agency": {
     "name": "Idaho Department of Health and Welfare, Child and Family Services",
     "acronym": "DHW",
-    "hotline": "1-855-552-5437",
+    "hotline": "1-855-552-5437 (855-552-KIDS) statewide; Treasure Valley 208-334-5437",
     "website": "https://healthandwelfare.idaho.gov/services-programs/children-families-older-adults/child-and-family-services-and-foster-care-7"
   },
   "investigation_requirements": [
@@ -367,11 +373,12 @@
   },
   "timeline_requirements": [
     {
-      "requirement_name": "Safety decision",
-      "deadline": "Immediate upon contact",
-      "starts_from": "First family contact",
-      "source": "template_estimate",
-      "consequence_of_miss": "Child safety risk"
+      "requirement_name": "Shelter care order",
+      "deadline": "Within twenty-four (24) hours of the shelter care hearing",
+      "starts_from": "Completion of the shelter care hearing",
+      "source": "state_statute",
+      "consequence_of_miss": "Not specified in Idaho Code § 16-1615(5)",
+      "source_url": "https://legislature.idaho.gov/statutesrules/idstat/Title16/T16CH16/SECT16-1615/"
     },
     {
       "requirement_name": "Disposition finding",

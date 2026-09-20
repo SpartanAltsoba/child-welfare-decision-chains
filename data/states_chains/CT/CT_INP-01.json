@@ -230,7 +230,7 @@
   "state_agency": {
     "name": "Connecticut Department of Children and Families",
     "acronym": "DCF",
-    "hotline": "1-800-842-2288",
+    "hotline": "1-800-842-2288 (DCF Careline, 24 hours a day, every day of the year); TDD 1-800-624-5518",
     "website": "https://portal.ct.gov/dcf"
   },
   "mandatory_reporters": [
@@ -324,7 +324,7 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "2 hours (imminent risk of physical harm or other emergency); 72 hours (all other reports)",
+      "deadline": "2 hours, best efforts (imminent risk of physical harm to a child or other emergency); 72 hours (all other reports)",
       "starts_from": "Report received",
       "source": "state_statute",
       "consequence_of_miss": "Not specified in statute",
@@ -352,6 +352,33 @@
         "Rights"
       ],
       "defective_notice_consequence": "May invalidate findings"
+    },
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian"
+      ],
+      "method": "any_reasonable",
+      "timing": "At the time of any initial face-to-face contact with the child's parent or guardian after the department receives a complaint of abuse or neglect (contacts on or after October 1, 2021)",
+      "content_required": [
+        "Written notice, in plain language, of the rights listed in Conn. Gen. Stat. § 17a-103d(a)(1)",
+        "The parent or guardian is not required to permit the department representative to enter the residence",
+        "The parent or guardian is not required to speak with the department representative at that time",
+        "The parent or guardian may seek an attorney and have the attorney present when questioned by a department representative, including at any meeting conducted to determine whether the child should be removed from the home",
+        "Any statement made by the parent, guardian or other family member may be used against the parent or guardian in an administrative or court proceeding",
+        "The department representative is not an attorney and cannot provide legal advice",
+        "The parent or guardian is not required to sign any document presented by the representative, including a release of claims or a service agreement, and may have an attorney review it before signing",
+        "A failure to communicate with the department may have serious consequences, including the filing of a petition to remove the child, so the parent or guardian should either speak with the representative or immediately seek the advice of a qualified attorney",
+        "A list of providers of free and low-cost legal services"
+      ],
+      "language_requirements": "The department must make reasonable efforts to ensure the notice and the list of legal services are written in a manner, and in a language, the parent or guardian understands (Conn. Gen. Stat. § 17a-103d(b))",
+      "defective_notice_consequence": "Not specified in Conn. Gen. Stat. § 17a-103d; the representative must ask the parent or guardian to sign and date the notice, must record and witness any refusal to sign, and must leave a copy at the initial face-to-face contact (§ 17a-103d(c))",
+      "statutory_basis": {
+        "citation_text": "Conn. Gen. Stat. § 17a-103d (initial contact with parent or guardian; written notice re parent or guardian rights; list of legal services) (P.A. 11-112, S. 1; P.A. 21-46, S. 23)",
+        "source_url": "https://www.cga.ct.gov/current/pub/chap_319a.htm#sec_17a-103d",
+        "authority_type": "state_statute",
+        "last_verified": "2026-09-19"
+      }
     }
   ],
   "door_scenarios": [

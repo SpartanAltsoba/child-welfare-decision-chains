@@ -42,7 +42,7 @@
           "source_url": "https://www.ksrevisor.gov/statutes/ksa_ch23.html",
           "authority_type": "state_statute",
           "last_verified": "2026-09-19",
-          "deep_link": true,
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
@@ -51,16 +51,7 @@
           "source_url": "https://www.ksrevisor.gov/statutes/ksa_ch38.html",
           "authority_type": "state_statute",
           "last_verified": "2026-09-19",
-          "deep_link": true,
-          "title_code": "",
-          "chapter": ""
-        },
-        {
-          "citation_text": "Chapter 65 — Public Health (child abuse reporting is not in this chapter; Kansas places it at Kan. Stat. Ann. § 38-2223, ch. 38, art. 22)",
-          "source_url": "https://www.ksrevisor.gov/statutes/ksa_ch65.html",
-          "authority_type": "state_statute",
-          "last_verified": "2026-09-19",
-          "deep_link": true,
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         }
@@ -284,10 +275,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Appeal deadline",
-      "deadline": "30 days",
-      "starts_from": "Final order",
-      "source": "template_estimate",
-      "consequence_of_miss": "Loss of appeal rights"
+      "deadline": "30 days to request a fair hearing in writing under Kan. Admin. Regs. 30-7-68; 3 additional days are allowed if the notice was mailed",
+      "starts_from": "Date of the PPS 2012 Notice of Department Findings sent to a substantiated perpetrator",
+      "source": "admin_rule",
+      "consequence_of_miss": "Not specified in DCF PPM 2570",
+      "source_url": "https://www.dcf.ks.gov/services/PPS/Documents/PPM_Forms/PDF%20Manuals/Policy%20and%20Procedure%20Manual%20July%202026.pdf"
     },
     {
       "requirement_name": "1983 statute of limitations",

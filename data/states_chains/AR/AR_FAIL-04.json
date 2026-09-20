@@ -63,6 +63,13 @@
           "authority_type": "state_statute",
           "last_verified": "2026-09-19",
           "deep_link": true
+        },
+        {
+          "citation_text": "Ark. Code Ann. § 12-18-706 — Child Maltreatment Act: notice to an alleged offender 18 or older and the 30-day request for an administrative hearing",
+          "source_url": "https://codes.findlaw.com/ar/title-12-law-enforcement-emergency-management-and-military-affairs/ar-code-sect-12-18-706/",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
@@ -71,6 +78,10 @@
         {
           "title": "Agency 16 - DEPARTMENT OF HUMAN SERVICES",
           "url": "https://www.law.cornell.edu/regulations/arkansas/agency-016"
+        },
+        {
+          "title": "9 CAR § 40 — Division of Children and Family Services Policy and Procedure Manual (Arkansas Administrative Code, DHS Agency 016)",
+          "url": "https://humanservices.arkansas.gov/wp-content/uploads/Master_DCFS_Policy.pdf"
         }
       ],
       "source_url": "https://www.law.cornell.edu/regulations/arkansas.html"
@@ -276,10 +287,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Appeal deadline",
-      "deadline": "30 days",
-      "starts_from": "Final order",
-      "source": "template_estimate",
-      "consequence_of_miss": "Loss of appeal rights"
+      "deadline": "30 days to request an administrative hearing on a true child maltreatment determination",
+      "starts_from": "Receipt of service or certified mailing of the notice of the investigative determination",
+      "source": "state_statute",
+      "source_url": "https://codes.findlaw.com/ar/title-12-law-enforcement-emergency-management-and-military-affairs/ar-code-sect-12-18-706/",
+      "consequence_of_miss": "Not specified in Ark. Code Ann. § 12-18-706"
     },
     {
       "requirement_name": "1983 statute of limitations",

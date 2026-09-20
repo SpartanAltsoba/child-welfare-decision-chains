@@ -75,8 +75,16 @@
     "administrative_rule": {
       "regulations_applicable": [
         {
+          "title": "Delaware Administrative Code, Title 9 — Services for Children, Youth and Their Families (DSCYF)",
+          "url": "https://regulations.delaware.gov/AdminCode/title9",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
+        },
+        {
           "title": "Title 9 - Services for Children Youth and Their Families",
-          "url": "https://www.law.cornell.edu/regulations/delaware/title-9"
+          "url": "https://www.law.cornell.edu/regulations/delaware/title-9",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
         },
         {
           "title": "Delaware Administrative Rule Title 13",
@@ -354,6 +362,14 @@
       "starts_from": "Investigation opened",
       "source": "template_estimate",
       "consequence_of_miss": "Procedural violation"
+    },
+    {
+      "requirement_name": "Request a Family Court hearing on a Notice of Intent to Substantiate",
+      "deadline": "30 days",
+      "starts_from": "Date of mailing of the Department's notice of intent to substantiate",
+      "source": "state_statute",
+      "source_url": "https://delcode.delaware.gov/title16/c009/sc02/index.html#924",
+      "consequence_of_miss": "A person other than a child who fails to request a hearing must, at the expiration of 30 days from the date of mailing of the notice, be entered on the Child Protection Registry at the Child Protection Level designated in the notice (16 Del. C. § 924(b)); a child is not entered this way, because the Department must file a Petition for Substantiation before any child is entered, regardless of the child's written request (16 Del. C. § 924(c))."
     },
     {
       "requirement_name": "Division of Family Services files the petition for substantiation",

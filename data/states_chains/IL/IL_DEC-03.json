@@ -4,8 +4,8 @@
   "state_name": "Illinois",
   "node_family": "DEC",
   "subnode": "DEC-03",
-  "trigger_name": "Substantiated / Founded Finding",
-  "summary_html": "Agency makes a **substantiated (founded)** finding of abuse/neglect. This decision often unlocks **court petitions**, **service mandates**, and **federal reporting** duties. In Illinois the finding is called **indicated** or **unfounded** — Illinois does not use the word *substantiated* (325 ILCS 5/7.12).",
+  "trigger_name": "Indicated Finding",
+  "summary_html": "Agency makes an **indicated** finding of abuse/neglect — in Illinois an \"indicated report\" is one where \"an investigation determines that credible evidence of the alleged abuse or neglect exists\" (325 ILCS 5/3); Illinois does not use the words *substantiated* or *founded* (325 ILCS 5/7.12). This decision often unlocks **court petitions**, **service mandates**, and **federal reporting** duties.",
   "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — definitions floor; data & record requirements  \n- **CFSR (45 CFR Part 1355)** — outcomes & safety performance reviews",
   "icon": "✅",
   "theme_color": "#8B008B",
@@ -344,7 +344,7 @@
     "standard": "preponderance",
     "who_bears_burden": "agency",
     "common_failures": [
-      "Insufficient evidence for substantiation",
+      "Insufficient credible evidence for an indicated finding (325 ILCS 5/3)",
       "Failure to document findings",
       "Inconsistent application of evidence standards"
     ]

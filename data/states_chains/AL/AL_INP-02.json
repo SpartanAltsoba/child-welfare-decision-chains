@@ -5,7 +5,7 @@
   "node_family": "INP",
   "subnode": "INP-02",
   "trigger_name": "Voluntary / Third-Party Report",
-  "summary_html": "Any person (not just mandated reporters) may submit a **voluntary report** to child-protection authorities. CAPTA requires states to maintain mechanisms for intake, confidentiality, and immunity policies tied to federal funding.",
+  "summary_html": "Any person (not just mandated reporters) may submit a **voluntary report** to child-protection authorities. CAPTA requires states to maintain mechanisms for intake, confidentiality, and immunity policies tied to federal funding. In Alabama the age of majority is 19 (Ala. Code § 26-1-1), and for child abuse and neglect reporting a \"child\" is a person under 18, or a person under 19 who is in need of protective services and does not qualify for adult protective services (Ala. Code § 26-14-1(3)). Alabama is not a universal-reporter state: Ala. Code § 26-14-3 sets out who must report, and Ala. Code § 26-14-4 permits any other person to report if they have reasonable cause to suspect a child is being abused or neglected, without requiring it.",
   "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — requires states to operate intake/report systems that accept voluntary reports and protect good-faith reporters",
   "icon": "🗣️",
   "theme_color": "#00CED1",
@@ -30,7 +30,7 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Ala. Code § 26-14-3 (Title 26, Ch. 14) — Mandatory reporting of child abuse or neglect",
+          "citation_text": "Ala. Code § 26-14-3 (Title 26, Ch. 14) — Mandatory reporting of child abuse or neglect. Amended by Act 2026-375: the Legislature's code viewer carries one version effective until 10/1/2026 and one effective 10/1/2026. The reporter categories carry over into the 10/1/2026 version as subdivision (a)(2)a.–aa., which also requires the written report within 72 hours of the oral report",
           "source_url": "https://alison.legislature.state.al.us/code-of-alabama?section=26-14-3",
           "authority_type": "state_statute",
           "last_verified": "2026-09-19",
@@ -65,7 +65,7 @@
           "deep_link": true
         },
         {
-          "citation_text": "Ala. Code § 26-14-7.1 — Due process rights for persons under investigation by the department",
+          "citation_text": "Ala. Code § 26-14-7.1 — Due process rights for persons under investigation by the department. The hearing package (counsel, witnesses, cross-examination, subpoenas, exculpatory evidence, an impartial hearing officer, and 10 departmental working days to request the hearing in writing) runs only to a person who \"is employed by, serves as a volunteer for, holds a license or certificate for, or is connected with any facility, agency, or home which cares for and controls any children\" that is licensed, approved, certified, state-operated, or exempt from licensing; a parent investigated in their own home is not in that class",
           "source_url": "https://alison.legislature.state.al.us/code-of-alabama?section=26-14-7.1",
           "authority_type": "state_statute",
           "last_verified": "2026-09-19",
@@ -74,6 +74,35 @@
         {
           "citation_text": "Ala. Code § 38-7-3 (Title 38, Ch. 7 — Child Care) — License to operate a child-care facility; inspections and investigations",
           "source_url": "https://alison.legislature.state.al.us/code-of-alabama?section=38-7-3",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Ala. Code § 26-14-3 as amended by Act 2026-375, § 6 — mandatory reporting text effective 10/1/2026 (oral report to a law enforcement official or the Department of Human Resources, written report within 72 hours, reporter categories relisted as (a)(2)a.–aa.)",
+          "source_url": "https://alison.legislature.state.al.us/code-of-alabama?section=26-14-3&version=2026-10-01",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "effective_date": "2026-10-01",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Ala. Code § 26-14-1(3) — \"CHILD\" for child abuse and neglect reporting: a person under 18, or a person under 19 who is in need of protective services and does not qualify for adult protective services under Title 38, Chapter 9",
+          "source_url": "https://alison.legislature.state.al.us/code-of-alabama?section=26-14-1",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Ala. Code § 26-1-1 — Age of majority designated as 19 years",
+          "source_url": "https://alison.legislature.state.al.us/code-of-alabama?section=26-1-1",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Ala. Code § 26-14-4 — Permissive reporting: any person may report if he or she has reasonable cause to suspect that a child is being abused or neglected",
+          "source_url": "https://alison.legislature.state.al.us/code-of-alabama?section=26-14-4",
           "authority_type": "state_statute",
           "last_verified": "2026-09-19",
           "deep_link": true
@@ -275,7 +304,7 @@
     "website": "https://dhr.alabama.gov/"
   },
   "mandatory_reporters": [
-    "Hospitals, clinics, and sanitariums — Ala. Code § 26-14-3(a)",
+    "Hospitals, clinics, and sanitariums",
     "Doctors, physicians, surgeons, dentists, osteopaths, optometrists, chiropractors, podiatrists, physical therapists, and nurses",
     "Medical examiners and coroners",
     "Public and private K-12 school employees, school teachers, and school officials",
@@ -285,9 +314,8 @@
     "Social workers",
     "Day care workers or employees",
     "Mental health professionals",
-    "Members of the clergy as defined in Rule 505, Ala. R. Evid. (not required to report what was learned solely in a privileged confidential communication — § 26-14-3(f))",
-    "Any other person called upon to render aid or medical assistance to any child",
-    "Alabama is not a universal-reporter state: any other person may report but is not required to — Ala. Code § 26-14-4 (permissive reporting)"
+    "Members of the clergy as defined in Rule 505, Ala. R. Evid. (not required to report what was learned solely in a privileged confidential communication — § 26-14-3(f); renumbered § 26-14-3(e) in the version effective 10/1/2026)",
+    "Any other person called upon to render aid or medical assistance to any child"
   ],
   "reporting_type": "decentralized",
   "definitions": {
