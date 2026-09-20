@@ -157,6 +157,48 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Wyoming state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "In the Interest of LH",
+          "citation": "2025 WY 28, 565 P.3d 683",
+          "court": "Wyoming Supreme Court",
+          "year": 2025,
+          "date_decided": "2025-03-17",
+          "holding": "The Court affirmed the change of permanency plan to adoption, holding that the possible separation of siblings is a factor the juvenile court must weigh at every stage of placement and permanency, but that the court here had and considered ample evidence of the sibling relationship.",
+          "relevance": "The child was placed in relative foster care with a great-grandmother, and the opinion addresses how kin placement interacts with sibling ties.",
+          "quote": "the separation of siblings and the impact on the minor child in the Department's custody is a factor for the juvenile court to consider",
+          "url": "https://www.courtlistener.com/opinion/10357167/in-the-interest-of-lh-minor-child-th-v-the-state-of-wyoming/",
+          "courtlistener_cluster_id": 10357167
+        },
+        {
+          "case_name": "In the Interest of JW v. State",
+          "citation": "2010 WY 28, 226 P.3d 873",
+          "court": "Wyoming Supreme Court",
+          "year": 2010,
+          "date_decided": "2010-03-18",
+          "holding": "The Court reversed a permanency order placing children with non-relative foster parents and remanded with instructions to place them with their uncle and aunt, rejecting the argument that the federal and state kinship-placement preferences are merely precatory.",
+          "relevance": "This is the leading Wyoming authority that relative and kinship placement is a genuine preference the agency must actively pursue, not a box to check.",
+          "quote": "We are unable to accept these characterizations given the high stakes in play here",
+          "url": "https://www.courtlistener.com/opinion/2586510/in-the-interest-of-jw-v-state/",
+          "courtlistener_cluster_id": 2586510
+        },
+        {
+          "case_name": "RH v. State, Department of Family Services (In re DRS)",
+          "citation": "2011 WY 128, 261 P.3d 697",
+          "court": "Wyoming Supreme Court",
+          "year": 2011,
+          "date_decided": "2011-09-14",
+          "holding": "The Court affirmed orders placing the children with their grandparents and their father rather than returning them to the mother, holding that whether the Department made reasonable efforts is determined case by case and that the record supplied sufficient evidence of efforts to prevent removal and of the children's best interests.",
+          "relevance": "The disposition upheld here placed two of the children with their grandparents, illustrating relative placement as the alternative to returning children to the parent.",
+          "quote": "Reasonable efforts are determined on a case-by-case basis.",
+          "url": "https://www.courtlistener.com/opinion/2342771/in-re-drs/",
+          "courtlistener_cluster_id": 2342771
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Wyoming%22%20AND%20%28%22Wyoming%20Department%20of%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Wyoming Department of Family Services",
         "CPS",
@@ -168,136 +210,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Wyoming%22%20AND%20%28%22Wyoming%20Department%20of%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "removal",
-        "emergency custody",
-        "placement",
-        "reunification",
-        "services"
-      ],
-      "jurisdiction": "Wyoming state courts",
-      "key_cases": [
-        {
-          "case_id": "s-25-0035",
-          "title": "In the Interest of SP v. The State of Wyoming",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-25-0035.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-25-0035 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re interest, Interest of"
-        },
-        {
-          "case_id": "s-25-0032",
-          "title": "In the Interest of MC, Minor Child: CC v. The State of Wyoming",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-25-0032.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-25-0032 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re interest, Interest of"
-        },
-        {
-          "case_id": "s-24-0317",
-          "title": "In the Matter of the Sanction Fee of Christopher Goetz: Christopher Goetz, Defense Attorney for Jordan Ryan Borrego v. The State of Wyoming",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0317.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-24-0317 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "s-24-0297",
-          "title": "In the Interest Of: AB and JC",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0297.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-24-0297 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re interest, Interest of"
-        },
-        {
-          "case_id": "s-24-0228",
-          "title": "In the Matter of the Termination of Parental Rights To: Jdv, a Minor Child",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0228.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-24-0228 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: TPR, Matter of TPR, Matter of"
-        },
-        {
-          "case_id": "s-24-0206",
-          "title": "In re Termination of Parental Rights To SLD v. Hansen",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0206.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-24-0206 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: TPR, In re TPR, In re"
-        },
-        {
-          "case_id": "s-24-0214",
-          "title": "In re L.H. v. State",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0214.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-24-0214 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "s-24-0134",
-          "title": "In the Interest of: JF v. The State of Wyoming",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0134.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-24-0134 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re interest, Interest of"
-        },
-        {
-          "case_id": "s-24-0159",
-          "title": "In re PT v. State",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0159.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-24-0159 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

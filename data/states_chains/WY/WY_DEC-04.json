@@ -166,6 +166,84 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Wyoming state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "In the Interest of RTB",
+          "citation": "2024 WY 75, 552 P.3d 365",
+          "court": "Wyoming Supreme Court",
+          "year": 2024,
+          "date_decided": "2024-07-17",
+          "holding": "The Court affirmed the neglect adjudication, holding the State must prove neglect by a preponderance of the evidence, and cautioned that an officer taking warrantless protective custody under Wyo. Stat. Ann. § 14-3-405(a)(i) must actually find the child seriously endangered rather than apply a blanket positive-drug-test policy.",
+          "relevance": "Requires a nexus between the reported risk factor and actual endangerment before emergency removal, and reviews the 48-hour shelter-care determination.",
+          "quote": "During the adjudicatory hearing, the State had the burden to prove its allegations of neglect by a preponderance of the evidence",
+          "url": "https://www.courtlistener.com/opinion/10005456/in-the-interest-of-rtb-minor-child-blb-v-the-state-of-wyoming/",
+          "courtlistener_cluster_id": 10005456
+        },
+        {
+          "case_name": "In the Interest of AA",
+          "citation": "2021 WY 18, 479 P.3d 1252",
+          "court": "Wyoming Supreme Court",
+          "year": 2021,
+          "date_decided": "2021-02-01",
+          "holding": "The Court reversed, holding the juvenile court violated the father's due-process right to notice and an opportunity to be heard in the early stages of the case, and that 'other aggravating circumstances' relieving the Department of reasonable efforts under Wyo. Stat. Ann. § 14-2-309(c)(v) must be as severe as the enumerated grounds.",
+          "relevance": "A parent must be notified and heard on shelter care and placement even when removal was made on an emergency basis.",
+          "quote": "the legislature logically meant for “other aggravating circumstances” to meet the same level of severity as set out in the preceding provisions",
+          "url": "https://www.courtlistener.com/opinion/10012044/in-the-interest-of-aa-a-minor-child-ra-v-the-state-of-wyoming/",
+          "courtlistener_cluster_id": 10012044
+        },
+        {
+          "case_name": "FH v. State (In re Interest of ECH)",
+          "citation": "2018 WY 83, 423 P.3d 295",
+          "court": "Wyoming Supreme Court",
+          "year": 2018,
+          "date_decided": "2018-07-27",
+          "holding": "The Court held that Wyo. Stat. Ann. § 14-3-409(b) requires the juvenile court to advise parents of the right to counsel at the shelter-care hearing and to appoint counsel on request, that the right applies to a parent not accused of abuse or neglect, and that its denial before a permanency hearing ending reunification is plain error.",
+          "relevance": "A parent whose child is removed is entitled to be advised of counsel at the first hearing after removal.",
+          "quote": "§ 14-3-409(b) requires a juvenile court to advise the child's parents of their right to counsel at the shelter care hearing",
+          "url": "https://www.courtlistener.com/opinion/6656976/fh-v-state-in-re-interest-of-ech/",
+          "courtlistener_cluster_id": 6656976
+        },
+        {
+          "case_name": "Stanley v. Illinois",
+          "citation": "405 U.S. 645 (1972)",
+          "court": "Supreme Court of the United States",
+          "year": 1972,
+          "date_decided": "1972-04-03",
+          "holding": "The Court held Illinois could not presume an unwed father unfit and take his children in a dependency proceeding without a hearing on his individual fitness, because the interest of a parent in the children he has raised is protected by due process and equal protection.",
+          "relevance": "A removal decision must be based on an individualized fitness determination, not a blanket rule.",
+          "quote": "The rights to conceive and to raise one’s children have been deemed “essential,”",
+          "url": "https://www.courtlistener.com/opinion/108497/stanley-v-illinois/",
+          "courtlistener_cluster_id": 108497
+        },
+        {
+          "case_name": "Gomes v. Wood",
+          "citation": "451 F.3d 1122 (10th Cir. 2006)",
+          "court": "United States Court of Appeals for the Tenth Circuit",
+          "year": 2006,
+          "date_decided": "2006-06-27",
+          "holding": "The Tenth Circuit adopted the majority rule that state officials may remove a child without prior notice and a hearing only on a reasonable suspicion of an immediate threat to the child's safety, found fact questions on whether that standard was met, but granted qualified immunity because the law was not clearly established.",
+          "relevance": "Supplies the constitutional test an agency's emergency removal decision must satisfy and the prompt post-deprivation hearing that must follow.",
+          "quote": "officials may remove a child from the home without prior notice and a hearing when they have a reasonable suspicion of an immediate threat to the safety of the child",
+          "url": "https://www.courtlistener.com/opinion/167696/gomes-v-wood/",
+          "courtlistener_cluster_id": 167696
+        },
+        {
+          "case_name": "Roska v. Sneddon",
+          "citation": "437 F.3d 964 (10th Cir. 2006)",
+          "court": "United States Court of Appeals for the Tenth Circuit",
+          "year": 2006,
+          "date_decided": "2006-02-09",
+          "holding": "The Tenth Circuit affirmed the denial of qualified immunity to caseworkers who removed a chronically ill child from his home without a warrant or pre-deprivation hearing, holding their failure to offer reasonably available preventive services that would have eliminated the need for removal was objectively unreasonable.",
+          "relevance": "Emergency removal is unreasonable where reasonably available preventive services would have eliminated the need to remove the child.",
+          "quote": "In light of these circumstances, Defendants' failure to provide the Roskas with preventive services to eliminate the need for removal was not reasonable",
+          "url": "https://www.courtlistener.com/opinion/167080/roska-v-sneddon/",
+          "courtlistener_cluster_id": 167080
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Wyoming%22%20AND%20%28%22Wyoming%20Department%20of%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Wyoming Department of Family Services",
         "CPS",
@@ -177,136 +255,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Wyoming%22%20AND%20%28%22Wyoming%20Department%20of%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "investigation",
-        "substantiation",
-        "evidence standard",
-        "due process",
-        "reasonable efforts"
-      ],
-      "jurisdiction": "Wyoming state courts",
-      "key_cases": [
-        {
-          "case_id": "s-25-0035",
-          "title": "In the Interest of SP v. The State of Wyoming",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-25-0035.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-25-0035 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re interest, Interest of"
-        },
-        {
-          "case_id": "s-25-0032",
-          "title": "In the Interest of MC, Minor Child: CC v. The State of Wyoming",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-25-0032.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-25-0032 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re interest, Interest of"
-        },
-        {
-          "case_id": "s-24-0317",
-          "title": "In the Matter of the Sanction Fee of Christopher Goetz: Christopher Goetz, Defense Attorney for Jordan Ryan Borrego v. The State of Wyoming",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0317.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-24-0317 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "s-24-0297",
-          "title": "In the Interest Of: AB and JC",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0297.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-24-0297 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re interest, Interest of"
-        },
-        {
-          "case_id": "s-24-0228",
-          "title": "In the Matter of the Termination of Parental Rights To: Jdv, a Minor Child",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0228.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-24-0228 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: TPR, Matter of TPR, Matter of"
-        },
-        {
-          "case_id": "s-24-0206",
-          "title": "In re Termination of Parental Rights To SLD v. Hansen",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0206.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-24-0206 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: TPR, In re TPR, In re"
-        },
-        {
-          "case_id": "s-24-0214",
-          "title": "In re L.H. v. State",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0214.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-24-0214 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "s-24-0134",
-          "title": "In the Interest of: JF v. The State of Wyoming",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0134.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-24-0134 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re interest, Interest of"
-        },
-        {
-          "case_id": "s-24-0159",
-          "title": "In re PT v. State",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0159.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-24-0159 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {
