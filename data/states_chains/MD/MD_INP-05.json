@@ -6,8 +6,8 @@
   "subnode": "INP-05",
   "trigger_name": "Self-Report / Guardian Request",
   "summary_html": "A **parent/guardian/child requests help** without a substantiated allegation. FFPSA created a federal pathway for **prevention services** to avert removal and stabilize families before a case escalates.",
-  "authority_html": "- **Family First Prevention Services Act (2018)** \u2014 prevention services, kinship support; shifts upstream from removal to support",
-  "icon": "\ud83e\udde9",
+  "authority_html": "- **Family First Prevention Services Act (2018)** — prevention services, kinship support; shifts upstream from removal to support",
+  "icon": "🧩",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -24,22 +24,24 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 671\u2013679b (FFPSA-related IV-E changes)"
+        "42 U.S.C. §§ 671–679b (FFPSA-related IV-E changes)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Maryland - Family Law Article, Title 5, Subtitle 7 (Child Abuse and Neglect \u2013 mandatory reporting)",
-          "source_url": "https://mgaleg.maryland.gov",
+          "citation_text": "Maryland - Md. Code, Family Law Article §§ 5-701 et seq. (Child Abuse and Neglect; definitions at § 5-701, mandatory reporting at §§ 5-704 and 5-705, investigation at § 5-706, appeal of findings at § 5-706.1)",
+          "source_url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gfl&section=5-701&enactments=false",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Maryland - Courts & Judicial Proc. \u00a7\u00a03-801 et seq. (CINA\u2014Child in Need of Assistance proceedings)",
-          "source_url": "https://mgaleg.maryland.gov",
+          "citation_text": "Maryland - Courts & Judicial Proc. § 3-801 et seq. (CINA—Child in Need of Assistance proceedings)",
+          "source_url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcj&section=3-801&enactments=false",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
@@ -278,21 +280,20 @@
     }
   },
   "state_agency": {
-    "name": "Department of Social Services",
-    "acronym": "DSS",
-    "hotline": "1-800-332-6347",
-    "website": "https://mgaleg.maryland.gov"
+    "name": "Maryland Department of Human Services",
+    "acronym": "DHS",
+    "hotline": "1-800-917-7383",
+    "website": "https://dhs.maryland.gov/"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Childcare Staff",
-    "EMTs/Emergency Personnel"
+    "Any person (universal mandatory reporting) — Md. Code, Fam. Law § 5-705(a)(1)",
+    "Health practitioners — Md. Code, Fam. Law § 5-704(a)",
+    "Police officers — Md. Code, Fam. Law § 5-704(a)",
+    "Educators or human service workers, including teachers, counselors, social workers, caseworkers, and probation or parole officers — Md. Code, Fam. Law §§ 5-704(a), 5-701(g)",
+    "Narrow exceptions to the any-person duty: attorney-client privilege, the constitutional right to counsel, and certain clergy confidences — Md. Code, Fam. Law § 5-705(a)(2)-(3)"
   ],
-  "reporting_type": "centralized",
-  "reporting_details": "Not applicable",
+  "reporting_type": "decentralized",
+  "reporting_details": "Maryland is a universal-reporter state: any person who has reason to believe a child has been abused or neglected must notify the local department of social services or the appropriate law enforcement agency, and a health practitioner, police officer, educator, or human service worker must also file a written report with the local department not later than 48 hours after the contact, with a copy to the local State's Attorney (Md. Code, Fam. Law §§ 5-704, 5-705).",
   "definitions": {
     "abuse": [
       "Physical abuse",
@@ -349,17 +350,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
-      "starts_from": "Report received",
+      "deadline": "24 hours (suspected physical or sexual abuse); 5 days (suspected neglect or mental injury)",
+      "starts_from": "Report received by the local department or the appropriate law enforcement agency",
       "source": "state_statute",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "consequence_of_miss": "Not specified in Md. Code, Fam. Law § 5-706",
+      "source_url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gfl&section=5-706&enactments=false"
     },
     {
       "requirement_name": "Investigation completion",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
+      "deadline": "10 days to the extent possible; if not completed within 30 days, within 60 days",
+      "starts_from": "Receipt of the first notice of the suspected abuse or neglect",
       "source": "state_statute",
-      "consequence_of_miss": "Case dismissal risk"
+      "consequence_of_miss": "Not specified in Md. Code, Fam. Law § 5-706",
+      "source_url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gfl&section=5-706&enactments=false"
     }
   ],
   "notice_requirements": [

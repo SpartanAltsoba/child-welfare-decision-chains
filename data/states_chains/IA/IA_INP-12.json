@@ -6,8 +6,8 @@
   "subnode": "INP-12",
   "trigger_name": "Emergency / Protective Custody",
   "summary_html": "Immediate state action to **protect a child in imminent danger**. Federal law (ASFA/IV-E) ties funding to court findings on **reasonable efforts**, and constitutional limits (due process, 4th/14th Amendments) constrain warrantless removals.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 reasonable-efforts findings; permanency timelines  \n- **CFSR (45 CFR Part 1355)** \u2014 federal oversight of removal decision quality  \n- **Constitutional constraints** \u2014 enforced via \u00a71983 actions; due process & search/seizure jurisprudence (not listed in file but governs practice)",
-  "icon": "\ud83d\udea8",
+  "authority_html": "- **ASFA / SSA Title IV-E** — reasonable-efforts findings; permanency timelines  \n- **CFSR (45 CFR Part 1355)** — federal oversight of removal decision quality  \n- **Constitutional constraints** — enforced via §1983 actions; due process & search/seizure jurisprudence (not listed in file but governs practice)",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.35,
@@ -27,7 +27,7 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)",
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)",
         "ASFA (Public Law 105-89)",
         "45 CFR Part 1355 (CFSR Regulations)"
       ]
@@ -35,10 +35,10 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Iowa - Title VI, Chapter 232 (Juvenile Justice \u2013 includes mandatory reporting and child in need of assistance)",
+          "citation_text": "Iowa - Title VI, Chapter 232 (Juvenile Justice – includes mandatory reporting and child in need of assistance)",
           "source_url": "https://www.legis.iowa.gov/law/iowaCode/sections?codeChapter=232",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -67,7 +67,7 @@
         {
           "provision_id": "IA_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Iowa Const. art. I, \u00a7 8",
+          "citation": "Iowa Const. art. I, § 8",
           "federal_parallel": "U.S. Const. amend. IV"
         }
       ]
@@ -203,24 +203,31 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Services",
-    "acronym": "DHS",
+    "name": "Iowa Department of Health and Human Services, Child Protective Services",
+    "acronym": "Iowa HHS",
     "hotline": "1-800-362-2178",
-    "website": "https://www.legis.iowa.gov"
+    "website": "https://hhs.iowa.gov/programs/CPS"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Shelter Staff",
-    "Childcare Staff",
-    "Foster Parents",
-    "Coaches",
-    "EMTs/Emergency Personnel"
+    "Health practitioners who examine, attend, or treat a child — § 232.69(1)(a)",
+    "Social workers — § 232.69(1)(b)(1)",
+    "Employees/operators of public or private health care facilities — § 232.69(1)(b)(2)",
+    "Certified psychologists — § 232.69(1)(b)(3)",
+    "Licensed school employees, certified para-educators, coaching-authorization holders, school employees age 18 or older, and community college instructors — § 232.69(1)(b)(4)",
+    "Employees/operators of licensed child care centers, registered child development homes, head start programs, family development and self-sufficiency grant programs, and HOPES–Healthy Families Iowa programs — § 232.69(1)(b)(5)",
+    "Employees/operators of licensed substance use disorder programs or facilities — § 232.69(1)(b)(6)",
+    "Employees of department institutions listed in Iowa Code § 218.1 — § 232.69(1)(b)(7)",
+    "Employees/operators of juvenile detention or juvenile shelter care facilities — § 232.69(1)(b)(8)",
+    "Employees/operators of child foster care facilities — § 232.69(1)(b)(9)",
+    "Employees/operators of mental health centers — § 232.69(1)(b)(10)",
+    "Peace officers — § 232.69(1)(b)(11)",
+    "Counselors and mental health professionals — § 232.69(1)(b)(12)",
+    "Employees/operators of providers of services to children funded under a federally approved medical assistance home and community-based services waiver — § 232.69(1)(b)(13)",
+    "Employees, operators, owners, and others who perform duties for certified children's residential facilities — § 232.69(1)(b)(14)",
+    "Licensed massage therapists — § 232.69(1)(b)(15)"
   ],
   "reporting_type": "centralized",
-  "reporting_details": "Not applicable",
+  "reporting_details": "Iowa is a designated-professional reporting state: the classes of persons listed in Iowa Code § 232.69(1) must report suspected child abuse within 24 hours, while any other person may report but is not required to (Iowa Code § 232.69(2)).",
   "definitions": {
     "abuse": [
       "Physical abuse",
@@ -280,17 +287,35 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
-      "starts_from": "Report received",
+      "deadline": "24 hours (child abuse assessment) or 72 hours (family assessment)",
+      "starts_from": "Report received by the department",
       "source": "state_statute",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "source_url": "https://www.legis.iowa.gov/docs/code/232.71B.pdf",
+      "consequence_of_miss": "Not specified in Iowa Code § 232.71B"
     },
     {
       "requirement_name": "Investigation completion",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
+      "deadline": "20 business days (child abuse assessment); 10 business days (family assessment)",
+      "starts_from": "Receipt of the child abuse report",
       "source": "state_statute",
-      "consequence_of_miss": "Case dismissal risk"
+      "source_url": "https://www.legis.iowa.gov/docs/code/232.71B.pdf",
+      "consequence_of_miss": "Not specified in Iowa Code § 232.71B"
+    },
+    {
+      "requirement_name": "Oral notice to the court of an emergency removal without a court order",
+      "deadline": "Immediately",
+      "starts_from": "Emergency removal or keeping of the child without a court order",
+      "source": "state_statute",
+      "source_url": "https://www.legis.iowa.gov/docs/code/232.79.pdf",
+      "consequence_of_miss": "Not specified in Iowa Code § 232.79(2)(d)"
+    },
+    {
+      "requirement_name": "Written notice to the court of an emergency removal without a court order",
+      "deadline": "24 hours",
+      "starts_from": "Orally informing the court of the emergency removal under Iowa Code § 232.79(2)(d)",
+      "source": "state_statute",
+      "source_url": "https://www.legis.iowa.gov/docs/code/232.79.pdf",
+      "consequence_of_miss": "Not specified in Iowa Code § 232.79(2)(e)"
     }
   ],
   "notice_requirements": [
@@ -300,7 +325,7 @@
         "legal_guardian"
       ],
       "method": "any_reasonable",
-      "timing": "Before investigation interview",
+      "timing": "Within 5 working days of commencing the assessment (Iowa Code § 232.71B(2)); a court may direct the department to withhold notification if it would endanger the child or other persons",
       "content_required": [
         "Nature of allegation",
         "Rights"

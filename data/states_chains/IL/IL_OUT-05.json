@@ -5,9 +5,9 @@
   "node_family": "OUT",
   "subnode": "OUT-05",
   "trigger_name": "Case Dismissal",
-  "summary_html": "Case dismissed due to **unsubstantiated evidence** or court determination that allegations not proven. Federal oversight requires accurate recording of such closures for audit and funding compliance.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 defines data-collection standards for unfounded cases  \n- **CFSR (45 CFR Part 1355)** \u2014 requires tracking and reporting of unsubstantiated outcomes",
-  "icon": "\ud83d\uddc3\ufe0f",
+  "summary_html": "Case dismissed because the allegations were not proven. Illinois calls an investigation that finds \"no credible evidence of abuse or neglect\" **unfounded**, not 'unsubstantiated' (325 ILCS 5/3, 325 ILCS 5/7.12). Federal oversight requires accurate recording of such closures for audit and funding compliance.",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — defines data-collection standards for unfounded cases  \n- **CFSR / AFCARS (45 CFR Part 1355)** — federal review of case outcomes (45 CFR 1355.33) and case-level reporting on children in out-of-home care (45 CFR 1355.44)",
+  "icon": "🗃️",
   "theme_color": "#708090",
   "domain": "civil",
   "procedural_weight": 0.55,
@@ -23,7 +23,7 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
@@ -31,16 +31,16 @@
       "primary_citations": [
         {
           "citation_text": "Illinois - 325 ILCS 5 (Abused and Neglected Child Reporting Act)",
-          "source_url": "https://law.onecle.com/illinois/325ilcs5/",
+          "source_url": "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=1460&ChapterID=32",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Illinois - 705 ILCS 405/2 (Juvenile Court Act \u2013 abuse/neglect proceedings)",
-          "source_url": "https://law.onecle.com/illinois/705ilcs5/",
+          "citation_text": "Illinois - 705 ILCS 405/2 (Juvenile Court Act – abuse/neglect proceedings)",
+          "source_url": "https://www.ilga.gov/legislation/ILCS/details?ActID=1863&ChapterID=50&ChapAct=705%2BILCS%2B405%2F&SeqStart=2600000&SeqEnd=7600000",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
@@ -313,13 +313,13 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children and Family Services",
+    "name": "Illinois Department of Children and Family Services",
     "acronym": "DCFS",
     "hotline": "1-800-252-2873",
-    "website": "https://www.ilga.gov"
+    "website": "https://dcfs.illinois.gov/"
   },
   "extended_foster_care": true,
-  "extended_foster_care_age": "Up to age 21 (until 21st birthday)",
+  "extended_foster_care_age": "Up to age 21 (court wardship continues; all Article II proceedings end at 21 — 705 ILCS 405/2-31(1)); a young adult whose wardship was vacated may petition to reinstate it before the 21st birthday on the conditions in 705 ILCS 405/2-33(2)(a)-(c)",
   "linked_action": "ACT-02",
   "linked_decision": "DEC-01",
   "linked_input": "INP-01",

@@ -6,8 +6,8 @@
   "subnode": "INP-11",
   "trigger_name": "Federal / Tribal Jurisdiction Trigger",
   "summary_html": "Cases arising on **federal lands/facilities** or involving **Indian children** invoke federal/tribal jurisdictional rules (VICAA for federal facilities; **ICWA** for Indian children and tribal preference/jurisdiction).",
-  "authority_html": "- **VICAA (34 U.S.C. \u00a7\u00a7 20301\u201320307)** \u2014 federal-facility reporting mandates  \n- **ICWA (25 U.S.C. \u00a7\u00a7 1901\u20131963)** \u2014 tribal jurisdiction, placement preferences, notice to tribes",
-  "icon": "\ud83c\udfdb\ufe0f",
+  "authority_html": "- **VICAA (34 U.S.C. §§ 20301–20307)** — federal-facility reporting mandates  \n- **ICWA (25 U.S.C. §§ 1901–1963)** — tribal jurisdiction, placement preferences, notice to tribes",
+  "icon": "🏛️",
   "theme_color": "#4682B4",
   "domain": "civil",
   "procedural_weight": 0.55,
@@ -24,39 +24,39 @@
     },
     "federal": {
       "requirements_applicable": [
-        "34 U.S.C. \u00a7\u00a7 20301\u201320307 (Victims of Child Abuse Act)",
-        "25 U.S.C. \u00a7\u00a7 1901\u20131963 (ICWA)"
+        "34 U.S.C. §§ 20301–20307 (Victims of Child Abuse Act)",
+        "25 U.S.C. §§ 1901–1963 (ICWA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Washington - RCW 13.34.030 (Tribal Notification (ICWA))",
-          "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=13.34.030",
+          "citation_text": "Washington - RCW 13.38.070 (Washington State Indian Child Welfare Act — Notice to Parent, Indian Custodian and Tribe)",
+          "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=13.38.070",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-23",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "node_specific": true
         },
         {
-          "citation_text": "Washington - RCW Chapter\u00a026.44 (Abuse of Children \u2013 mandatory reporting and investigations)",
+          "citation_text": "Washington - RCW Chapter 26.44 (Abuse of Children – mandatory reporting and investigations)",
           "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=26.44",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Washington - RCW Title\u00a013 (Juvenile Courts \u2013 includes dependency proceedings)",
+          "citation_text": "Washington - RCW Chapter 13.34 (Juvenile Court Act — Dependency and Termination of Parent-Child Relationship)",
           "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=13.34",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Title 13: Juvenile Courts and Juvenile Offenders",
           "source_url": "https://law.justia.com/codes/washington/title-13/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -65,7 +65,7 @@
           "citation_text": "Title 26: Domestic Relations - CHILD WELFARE PRIMARY",
           "source_url": "https://law.justia.com/codes/washington/title-26/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -74,7 +74,7 @@
           "citation_text": "Title 43: State Government - Child Abuse Reporting",
           "source_url": "https://law.justia.com/codes/washington/title-43/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -83,7 +83,7 @@
           "citation_text": "Title 74: Public Assistance - DCYF",
           "source_url": "https://law.justia.com/codes/washington/title-74/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -99,6 +99,10 @@
         {
           "title": "Title 112 - Office of the Family and Children's Ombudsman",
           "url": "https://www.law.cornell.edu/regulations/washington/title-112"
+        },
+        {
+          "title": "WAC 110-30-0070 - CPS responses to reports of alleged abuse or neglect of children and youth",
+          "url": "https://app.leg.wa.gov/WAC/default.aspx?cite=110-30-0070"
         }
       ],
       "source_url": "https://www.law.cornell.edu/regulations/washington.html"
@@ -281,21 +285,33 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children, Youth, and Families",
+    "name": "Washington State Department of Children, Youth, and Families",
     "acronym": "DCYF",
     "hotline": "1-866-363-4276",
-    "website": "https://leg.wa.gov"
+    "website": "https://dcyf.wa.gov/"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Shelter Staff",
-    "Childcare Staff",
-    "Foster Parents",
-    "Coaches",
-    "Coroners"
+    "Members of the clergy — RCW 26.44.030(1)(a)",
+    "Practitioners of the healing arts (people licensed to practice medicine and surgery, osteopathic medicine and surgery, dentistry, chiropractic, optometry, podiatric medicine and surgery, nursing, or to provide other health services)",
+    "County coroners and medical examiners",
+    "Law enforcement officers",
+    "Professional school personnel",
+    "Registered or licensed nurses",
+    "Social service counselors",
+    "Psychologists",
+    "Pharmacists",
+    "Employees of the Department of Children, Youth, and Families (DCYF)",
+    "Licensed or certified child care providers and their employees",
+    "Employees of the Department of Social and Health Services (DSHS)",
+    "Juvenile probation officers, diversion unit staff, and placement and liaison specialists",
+    "Responsible living skills program staff and HOPE center staff",
+    "The state family and children's ombuds and any volunteer in that office",
+    "Host home program staff",
+    "Anyone in an official supervisory capacity at a nonprofit or for-profit organization, as to abuse or neglect by a person they supervise who coaches, trains, educates or counsels children or has unsupervised access to them — RCW 26.44.030(1)(b)",
+    "Department of Corrections personnel — RCW 26.44.030(1)(c)",
+    "Any adult who has reasonable cause to believe that a child who resides with them has suffered severe abuse — RCW 26.44.030(1)(d)",
+    "Guardians ad litem, including court-appointed special advocates (CASAs) — RCW 26.44.030(1)(e)",
+    "Administrative and academic or athletic department employees, including student employees, of public and private institutions of higher education — RCW 26.44.030(1)(f)"
   ],
   "reporting_type": "decentralized",
   "definitions": {
@@ -354,16 +370,17 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
-      "starts_from": "Report received",
-      "source": "state_statute",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "deadline": "24 hours for emergent reports; 72 hours for nonemergent reports",
+      "starts_from": "Date and time the report was received",
+      "source": "admin_rule",
+      "source_url": "https://app.leg.wa.gov/WAC/default.aspx?cite=110-30-0070",
+      "consequence_of_miss": "Not specified in rule"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

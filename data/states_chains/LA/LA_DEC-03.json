@@ -6,8 +6,8 @@
   "subnode": "DEC-03",
   "trigger_name": "Substantiated / Founded Finding",
   "summary_html": "Agency makes a **substantiated (founded)** finding of abuse/neglect. This decision often unlocks **court petitions**, **service mandates**, and **federal reporting** duties.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 definitions floor; data & record requirements  \n- **CFSR (45 CFR Part 1355)** \u2014 outcomes & safety performance reviews",
-  "icon": "\u2705",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — definitions floor; data & record requirements  \n- **CFSR (45 CFR Part 1355)** — outcomes & safety performance reviews",
+  "icon": "✅",
   "theme_color": "#8B008B",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -23,17 +23,17 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Louisiana - Children\u2019s Code Article 601 et seq. (Children\u2019s Code \u2013 Child in Need of Care, includes reporting duties)",
-          "source_url": "https://www.legis.la.gov/legis/Laws_Toc.aspx",
+          "citation_text": "Louisiana - Children’s Code Article 601 et seq. (Children’s Code – Child in Need of Care, includes reporting duties)",
+          "source_url": "https://www.legis.la.gov/legis/Law.aspx?d=73193",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -270,10 +270,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children and Family Services",
+    "name": "Louisiana Department of Children and Family Services",
     "acronym": "DCFS",
     "hotline": "1-855-452-5437",
-    "website": "https://www.legis.la.gov"
+    "website": "https://dcfs.louisiana.gov/"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -311,14 +311,14 @@
       "requirement_name": "Safety decision",
       "deadline": "Immediate upon contact",
       "starts_from": "First family contact",
-      "source": "admin_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Child safety risk"
     },
     {
       "requirement_name": "Disposition finding",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Procedural violation"
     }
   ],
@@ -336,6 +336,26 @@
         "Rights to appeal"
       ],
       "defective_notice_consequence": "Disposition may be overturned"
+    },
+    {
+      "who_must_be_notified": [
+        "parent"
+      ],
+      "method": "any_reasonable",
+      "timing": "DCFS sends the person named as the perpetrator a written notification letter of the substantiated finding; a request for an administrative appeal must reach the Division of Administrative Law within 20 days of the date of that letter, or within 10 days for an expedited appeal (findings made after August 1, 2018)",
+      "content_required": [
+        "The substantiated finding and that the person may be listed on the State Central Registry",
+        "A listing of all prior substantiated findings associated with the person’s case identification number",
+        "Whether appeal rights for those prior investigations remain or have been exhausted",
+        "How to request an administrative appeal from the Division of Administrative Law"
+      ],
+      "defective_notice_consequence": "Once 20 days have passed the person is no longer eligible for an administrative appeal; a request made after 10 days cannot be expedited",
+      "statutory_basis": {
+        "citation_text": "Louisiana DCFS, Administrative Appeals of Substantiated Findings in a CPS Investigation (departmental policy; hearings are held by the Division of Administrative Law, not DCFS)",
+        "source_url": "https://dcfs.louisiana.gov/child-welfare/administrative-appeals-of-substantiated-findings-in-a-cps-investigation/",
+        "authority_type": "policy",
+        "last_verified": "2026-09-19"
+      }
     }
   ],
   "door_scenarios": [

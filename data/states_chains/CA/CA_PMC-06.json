@@ -6,8 +6,8 @@
   "subnode": "PMC-06",
   "trigger_name": "Project Milk Carton AI Analysis",
   "summary_html": "The **Project Milk Carton AI Layer** performs cross-analysis of federal and state chains to identify weak points, policy gaps, and non-compliance. This is the citizen feedback mechanism for accountability and reform.",
-  "authority_html": "No direct statutory authority \u2014 citizen innovation layer built on public data and federal transparency laws.",
-  "icon": "\ud83e\udd16",
+  "authority_html": "No direct statutory authority — citizen innovation layer built on public data and federal transparency laws.",
+  "icon": "🤖",
   "theme_color": "#20B2AA",
   "domain": "civil",
   "procedural_weight": 0.9,
@@ -26,17 +26,17 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "California - Penal Code \u00a7\u00a7\u00a011164\u201311174 (CANRA \u2013 Child Abuse and Neglect Reporting Act)",
-          "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=11164&lawCode=PENAL",
+          "citation_text": "California - Penal Code §§ 11164–11174.3 (CANRA – Child Abuse and Neglect Reporting Act)",
+          "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=11164.&lawCode=PEN",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "California - Welfare & Institutions Code \u00a7\u00a0300 et seq. (Juvenile dependency proceedings)",
-          "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=300&lawCode=INSTITUTIONS",
+          "citation_text": "California - Welfare & Institutions Code § 300 et seq. (Juvenile dependency proceedings)",
+          "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=300.&lawCode=WIC",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -218,8 +218,8 @@
   "state_agency": {
     "name": "California Department of Social Services",
     "acronym": "CDSS",
-    "hotline": "1-800-540-4000",
-    "website": "https://leginfo.legislature.ca.gov"
+    "hotline": "No statewide number. Call your county's 24-hour hotline",
+    "website": "https://www.cdss.ca.gov/"
   },
   "linked_fail": "ALL",
   "_metadata": {
@@ -260,8 +260,16 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
+    },
+    {
+      "requirement_name": "Missing from foster care notification",
+      "deadline": "Immediately, but in no case later than 24 hours",
+      "starts_from": "Receipt of information that the child or nonminor dependent is missing from foster care",
+      "source": "state_statute",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=16501.35&lawCode=WIC",
+      "consequence_of_miss": "Not specified in Cal. Welf. & Inst. Code § 16501.35"
     }
   ],
   "notice_requirements": [

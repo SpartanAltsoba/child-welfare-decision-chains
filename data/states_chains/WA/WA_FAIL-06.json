@@ -6,8 +6,8 @@
   "subnode": "FAIL-06",
   "trigger_name": "Disclosure / Transparency Failure",
   "summary_html": "Agency fails to **disclose required data or reports**, obstructing transparency. Federal statutes require public reporting under CAPTA, FOIA, and Sunshine provisions.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 mandates public availability of child-fatality information  \n- **Freedom of Information Act (5 U.S.C. \u00a7 552)** \u2014 public access to federal records  \n- **Government in the Sunshine Act (5 U.S.C. \u00a7 552b)** \u2014 open-meeting requirements",
-  "icon": "\ud83d\udd73\ufe0f",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — mandates public availability of child-fatality information  \n- **Freedom of Information Act (5 U.S.C. § 552)** — public access to federal records  \n- **Government in the Sunshine Act (5 U.S.C. § 552b)** — open-meeting requirements",
+  "icon": "🕳️",
   "theme_color": "#708090",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -24,40 +24,40 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
-        "5 U.S.C. \u00a7 552 (FOIA)",
-        "5 U.S.C. \u00a7 552b (Sunshine Act)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
+        "5 U.S.C. § 552 (FOIA)",
+        "5 U.S.C. § 552b (Sunshine Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Washington - RCW 26.44.031 (Transparency Requirements)",
+          "citation_text": "Washington - RCW 26.44.031 (Records — Maintenance, Disclosure, and Destruction)",
           "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=26.44.031",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-23",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "node_specific": true
         },
         {
-          "citation_text": "Washington - RCW Chapter\u00a026.44 (Abuse of Children \u2013 mandatory reporting and investigations)",
+          "citation_text": "Washington - RCW Chapter 26.44 (Abuse of Children – mandatory reporting and investigations)",
           "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=26.44",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Washington - RCW Title\u00a013 (Juvenile Courts \u2013 includes dependency proceedings)",
+          "citation_text": "Washington - RCW Chapter 13.34 (Juvenile Court Act — Dependency and Termination of Parent-Child Relationship)",
           "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=13.34",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Title 13: Juvenile Courts and Juvenile Offenders",
           "source_url": "https://law.justia.com/codes/washington/title-13/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -66,7 +66,7 @@
           "citation_text": "Title 26: Domestic Relations - CHILD WELFARE PRIMARY",
           "source_url": "https://law.justia.com/codes/washington/title-26/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -75,7 +75,7 @@
           "citation_text": "Title 43: State Government - Child Abuse Reporting",
           "source_url": "https://law.justia.com/codes/washington/title-43/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -84,7 +84,7 @@
           "citation_text": "Title 74: Public Assistance - DCYF",
           "source_url": "https://law.justia.com/codes/washington/title-74/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -277,10 +277,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children, Youth, and Families",
+    "name": "Washington State Department of Children, Youth, and Families",
     "acronym": "DCYF",
     "hotline": "1-866-363-4276",
-    "website": "https://leg.wa.gov"
+    "website": "https://dcyf.wa.gov/"
   },
   "linked_output": "OUT-06",
   "linked_action": "ACT-03",
@@ -317,7 +317,7 @@
       "requirement_name": "Appeal deadline",
       "deadline": "30 days",
       "starts_from": "Final order",
-      "source": "court_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Loss of appeal rights"
     },
     {

@@ -6,8 +6,8 @@
   "subnode": "DEC-05",
   "trigger_name": "File Petition / Open Dependency Case",
   "summary_html": "Agency **files a court petition** to open a **dependency** (or similar) case. Federal funding frameworks (IV-E/ASFA) link court oversight, reasonable-efforts findings, and permanency timelines to downstream actions.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 court findings; timelines; permanency planning  \n- **CFSR (45 CFR Part 1355)** \u2014 federal review of court/agency performance measures",
-  "icon": "\ud83d\udcdc",
+  "authority_html": "- **ASFA / SSA Title IV-E** — court findings; timelines; permanency planning  \n- **CFSR (45 CFR Part 1355)** — federal review of court/agency performance measures",
+  "icon": "📜",
   "theme_color": "#6A5ACD",
   "domain": "civil",
   "procedural_weight": 0.45,
@@ -21,13 +21,13 @@
   "layers": {
     "constitutional": {
       "constraints_triggered": [
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E)",
+        "42 U.S.C. §§ 670–679c (Title IV-E)",
         "Public Law 105-89 (ASFA)",
         "45 CFR Part 1355 (CFSR)"
       ]
@@ -35,16 +35,17 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Michigan - Michigan Compiled Laws \u00a7\u00a0722.621 et seq. (Child Protection Law \u2013 mandatory reporting)",
-          "source_url": "https://www.legislature.mi.gov",
+          "citation_text": "Michigan - Michigan Compiled Laws § 722.621 et seq. (Child Protection Law – mandatory reporting)",
+          "source_url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-Act-238-of-1975",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Michigan - Michigan Court Rules, Juvenile (child protective proceedings rules)",
-          "source_url": "https://www.legislature.mi.gov",
+          "citation_text": "Michigan - Michigan Court Rules, Subchapter 3.900 (Proceedings Involving Juveniles – child protective proceedings)",
+          "source_url": "https://www.courts.michigan.gov/siteassets/rules-instructions-administrative-orders/michigan-court-rules/michigan-court-rules.pdf",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19"
         },
         {
           "citation_text": "Title 722: Children - DHHS",
@@ -142,8 +143,8 @@
         {
           "provision_id": "MI_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Michigan Const. art. I, \u00a7 17",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Michigan Const. art. I, § 17",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -292,10 +293,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Health and Human Services",
+    "name": "Michigan Department of Health and Human Services",
     "acronym": "MDHHS",
-    "hotline": "1-855-444-3911",
-    "website": "https://www.legislature.mi.gov"
+    "hotline": "855-444-3911",
+    "website": "https://www.michigan.gov/mdhhs"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -333,15 +334,16 @@
       "requirement_name": "Safety decision",
       "deadline": "Immediate upon contact",
       "starts_from": "First family contact",
-      "source": "admin_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Child safety risk"
     },
     {
       "requirement_name": "Disposition finding",
-      "deadline": "30-60 days",
+      "deadline": "30 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
-      "consequence_of_miss": "Procedural violation"
+      "source": "admin_rule",
+      "source_url": "https://www.michigan.gov/mdhhs/adult-child-serv/abuse-neglect/childrens/report-process/investigation-process-and-results/childrens-protective-services-investigation-process",
+      "consequence_of_miss": "Not specified; MDHHS states CPS has 30 days to complete an investigation and then classify the case in Category I through V, unless extenuating circumstances require an extension."
     }
   ],
   "notice_requirements": [

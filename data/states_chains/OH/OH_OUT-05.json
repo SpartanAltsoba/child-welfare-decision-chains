@@ -6,8 +6,8 @@
   "subnode": "OUT-05",
   "trigger_name": "Case Dismissal",
   "summary_html": "Case dismissed due to **unsubstantiated evidence** or court determination that allegations not proven. Federal oversight requires accurate recording of such closures for audit and funding compliance.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 defines data-collection standards for unfounded cases  \n- **CFSR (45 CFR Part 1355)** \u2014 requires tracking and reporting of unsubstantiated outcomes",
-  "icon": "\ud83d\uddc3\ufe0f",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — defines data-collection standards for unfounded cases  \n- **CFSR (45 CFR Part 1355)** — requires tracking and reporting of unsubstantiated outcomes",
+  "icon": "🗃️",
   "theme_color": "#708090",
   "domain": "civil",
   "procedural_weight": 0.55,
@@ -23,43 +23,51 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Ohio - Ohio Rev. Code \u00a7\u00a02151.421 (Mandatory reporting of child abuse)",
-          "source_url": "https://codes.ohio.gov/ohio-revised-code/chapter-2151",
+          "citation_text": "Ohio - Ohio Rev. Code § 2151.421 (Mandatory reporting of child abuse)",
+          "source_url": "https://codes.ohio.gov/ohio-revised-code/section-2151.421",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Ohio - Ohio Rev. Code Chapter\u00a02151 (Juvenile Court \u2013 abuse, neglect, dependency)",
-          "source_url": "https://www.legislature.ohio.gov",
+          "citation_text": "Ohio - Ohio Rev. Code Chapter 2151 (Juvenile Court – abuse, neglect, dependency)",
+          "source_url": "https://codes.ohio.gov/ohio-revised-code/chapter-2151",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Ohio - Ohio Rev. Code Chapter 5153 (County children services agencies)",
+          "source_url": "https://codes.ohio.gov/ohio-revised-code/chapter-5153",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
     "administrative_rule": {
       "regulations_applicable": [
         {
-          "title": "5101:2 - Division of Social Services (Child Protective Services)",
-          "url": "https://www.law.cornell.edu/regulations/ohio/title-5101-2"
+          "title": "5180:3 - Ohio Department of Children and Youth | Children Services and Supports",
+          "url": "https://codes.ohio.gov/ohio-administrative-code/5180:3"
         },
         {
-          "title": "5101:5 - Child Abuse and Neglect Prevention",
-          "url": "https://www.law.cornell.edu/regulations/ohio/title-5101-5"
+          "title": "5180:3-5 - Assessments (PCSA safety assessment, safety plan, and family assessment)",
+          "url": "https://codes.ohio.gov/ohio-administrative-code/chapter-5180:3-5"
         },
         {
-          "title": "5101 - Department of Job and Family Services",
-          "url": "https://www.law.cornell.edu/regulations/ohio/title-5101"
+          "title": "5180 - Ohio Department of Children and Youth",
+          "url": "https://codes.ohio.gov/ohio-administrative-code/5180"
         }
       ],
-      "source_url": "https://www.law.cornell.edu/regulations/ohio.html"
+      "source_url": "https://codes.ohio.gov/ohio-administrative-code"
     },
     "state_constitutional": {
       "plane_reference": "state_constitutional_OH",
@@ -224,11 +232,13 @@
     }
   },
   "state_agency": {
-    "name": "Department of Job and Family Services",
-    "acronym": "ODJFS",
+    "name": "Ohio Department of Children and Youth",
+    "acronym": "DCY",
     "hotline": "1-855-642-4453",
-    "website": "https://www.legislature.ohio.gov"
+    "website": "https://childrenandyouth.ohio.gov/"
   },
+  "extended_foster_care": true,
+  "extended_foster_care_age": "18 to 21 (Bridges; voluntary agreement, school/training/work participation required — Ohio Rev. Code § 5180.428; Ohio Admin. Code 5180:5-1-01)",
   "linked_action": "ACT-02",
   "linked_decision": "DEC-01",
   "linked_input": "INP-01",
@@ -261,17 +271,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Permanency hearing",
-      "deadline": "12 months",
-      "starts_from": "Child enters care",
-      "source": "federal_statute",
-      "consequence_of_miss": "ASFA violation"
+      "deadline": "12 months, then a review hearing at least every 12 months",
+      "starts_from": "Earlier of the date the complaint was filed or the child was first placed in shelter care",
+      "source": "state_statute",
+      "consequence_of_miss": "Not stated in the statute",
+      "source_url": "https://codes.ohio.gov/ohio-revised-code/section-2151.417"
     },
     {
       "requirement_name": "TPR filing",
-      "deadline": "15 of 22 months",
-      "starts_from": "Child enters care",
-      "source": "federal_statute",
-      "consequence_of_miss": "Must file TPR or document compelling reason"
+      "deadline": "12 of 22 months (Ohio trigger, earlier than the federal 15 of 22)",
+      "starts_from": "Child enters agency temporary custody — the earlier of adjudication under Ohio Rev. Code § 2151.28 or 60 days after removal from home",
+      "source": "state_statute",
+      "consequence_of_miss": "Not stated in the statute; the agency with custody must file the permanent custody motion unless an exception in Ohio Rev. Code § 2151.413(D)(3) applies",
+      "source_url": "https://codes.ohio.gov/ohio-revised-code/section-2151.413"
     }
   ],
   "notice_requirements": [

@@ -6,8 +6,8 @@
   "subnode": "ACT-04",
   "trigger_name": "Kinship Placement",
   "summary_html": "Agency places a child with **relatives or kin caregivers** instead of non-relative foster care. Federal law favors kinship care as least-restrictive, family-preserving placement.",
-  "authority_html": "- **Fostering Connections to Success and Increasing Adoptions Act (FCSIAA 2008)** \u2014 kinship-care incentives  \n- **SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 reimbursement for approved kin placements",
-  "icon": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67",
+  "authority_html": "- **Fostering Connections to Success and Increasing Adoptions Act (FCSIAA 2008)** — kinship-care incentives  \n- **SSA Title IV-E (42 U.S.C. §§ 670–679c)** — reimbursement for approved kin placements",
+  "icon": "👨‍👩‍👧",
   "theme_color": "#FFD700",
   "domain": "civil",
   "procedural_weight": 0.45,
@@ -20,29 +20,31 @@
   "layers": {
     "constitutional": {
       "constraints_triggered": [
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
         "Public Law 110-351 (FCSIAA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)"
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Maryland - Family Law Article, Title 5, Subtitle 7 (Child Abuse and Neglect \u2013 mandatory reporting)",
-          "source_url": "https://mgaleg.maryland.gov",
+          "citation_text": "Maryland - Md. Code, Family Law Article §§ 5-701 et seq. (Child Abuse and Neglect; definitions at § 5-701, mandatory reporting at §§ 5-704 and 5-705, investigation at § 5-706, appeal of findings at § 5-706.1)",
+          "source_url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gfl&section=5-701&enactments=false",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Maryland - Courts & Judicial Proc. \u00a7\u00a03-801 et seq. (CINA\u2014Child in Need of Assistance proceedings)",
-          "source_url": "https://mgaleg.maryland.gov",
+          "citation_text": "Maryland - Courts & Judicial Proc. § 3-801 et seq. (CINA—Child in Need of Assistance proceedings)",
+          "source_url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcj&section=3-801&enactments=false",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
@@ -126,8 +128,8 @@
         {
           "provision_id": "MD_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Maryland Const. art. 24, \u00a7 ",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Maryland Const. art. 24, § ",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -289,10 +291,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Social Services",
-    "acronym": "DSS",
-    "hotline": "1-800-332-6347",
-    "website": "https://mgaleg.maryland.gov"
+    "name": "Maryland Department of Human Services",
+    "acronym": "DHS",
+    "hotline": "1-800-917-7383",
+    "website": "https://dhs.maryland.gov/"
   },
   "linked_decision": "DEC-04",
   "linked_input": "INP-01",
@@ -325,10 +327,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
+      "deadline": "Not later than the next day on which the circuit court is in session, unless extended on good cause shown",
+      "starts_from": "Local department files the petition to authorize continued shelter care after the child is not returned to the parent, guardian, or custodian",
       "source": "state_statute",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "consequence_of_miss": "Not specified in Md. Code, Cts. & Jud. Proc. § 3-815",
+      "source_url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcj&section=3-815&enactments=false"
     },
     {
       "requirement_name": "Case plan development",

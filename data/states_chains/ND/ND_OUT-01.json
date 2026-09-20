@@ -6,8 +6,8 @@
   "subnode": "OUT-01",
   "trigger_name": "Reunification",
   "summary_html": "Child safely **reunified with parent or guardian**, case closed. Federal policy treats reunification as the preferred outcome once risk factors are mitigated.",
-  "authority_html": "- **Adoption and Safe Families Act (ASFA)** \u2014 establishes reunification timelines and permanency goals  \n- **SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 funds reunification services and tracks permanency outcomes",
-  "icon": "\ud83c\udfe0",
+  "authority_html": "- **Adoption and Safe Families Act (ASFA)** — establishes reunification timelines and permanency goals  \n- **SSA Title IV-E (42 U.S.C. §§ 670–679c)** — funds reunification services and tracks permanency outcomes",
+  "icon": "🏠",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -25,22 +25,31 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)"
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "North Dakota - N.D. Cent. Code Chapter\u00a050-25.1 (Child Abuse and Neglect \u2013 reporting and records)",
-          "source_url": "https://www.legis.nd.gov",
+          "citation_text": "North Dakota - N.D. Cent. Code Chapter 50-25.1 (Child Abuse and Neglect – reporting and records)",
+          "source_url": "https://ndlegis.gov/cencode/t50c25-1.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "North Dakota - N.D. Cent. Code \u00a7\u00a027-20.1-01 et seq. (Juvenile Court Act for deprivation cases)",
-          "source_url": "https://www.legis.nd.gov",
+          "citation_text": "North Dakota - N.D. Cent. Code ch. 27-20.3 (Child Welfare – protective custody, shelter care, child in need of protection)",
+          "source_url": "https://ndlegis.gov/cencode/t27c20-3.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "North Dakota - N.D. Cent. Code ch. 50-01.1 (Human Service Zones - the county-employed local agency that administers designated child welfare services under the direction and supervision of the department; §§ 50-01.1-01(4), (6), 50-01.1-03(1)(j), 50-01.1-05(7))",
+          "source_url": "https://ndlegis.gov/cencode/t50c01-1.html",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 14: Domestic Relations",
@@ -307,13 +316,13 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Services",
-    "acronym": "DHS",
-    "hotline": "1-833-958-3500",
-    "website": "https://www.legis.nd.gov"
+    "name": "North Dakota Department of Health and Human Services",
+    "acronym": "HHS",
+    "hotline": "1-833-958-3500 (8 a.m.-5 p.m. Central / 7 a.m.-4 p.m. Mountain, Mon-Fri; if a child is in immediate danger call 911)",
+    "website": "https://www.hhs.nd.gov/cfs"
   },
   "extended_foster_care": true,
-  "extended_foster_care_age": "Up to age 21 (until 21st birthday)",
+  "extended_foster_care_age": "18 to 21 (continued foster care agreement required; N.D. Cent. Code § 27-20.3-16)",
   "linked_action": "ACT-02",
   "linked_decision": "DEC-03",
   "linked_input": "INP-01",

@@ -6,8 +6,8 @@
   "subnode": "ACT-04",
   "trigger_name": "Kinship Placement",
   "summary_html": "Agency places a child with **relatives or kin caregivers** instead of non-relative foster care. Federal law favors kinship care as least-restrictive, family-preserving placement.",
-  "authority_html": "- **Fostering Connections to Success and Increasing Adoptions Act (FCSIAA 2008)** \u2014 kinship-care incentives  \n- **SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 reimbursement for approved kin placements",
-  "icon": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67",
+  "authority_html": "- **Fostering Connections to Success and Increasing Adoptions Act (FCSIAA 2008)** — kinship-care incentives  \n- **SSA Title IV-E (42 U.S.C. §§ 670–679c)** — reimbursement for approved kin placements",
+  "icon": "👨‍👩‍👧",
   "theme_color": "#FFD700",
   "domain": "civil",
   "procedural_weight": 0.45,
@@ -20,30 +20,31 @@
   "layers": {
     "constitutional": {
       "constraints_triggered": [
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
         "Public Law 110-351 (FCSIAA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)"
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "New York - N.Y. Soc. Serv. Law \u00a7\u00a0411 et seq. (Child Protective Services Act \u2013 reporting requirements)",
-          "source_url": "https://www.nysenate.gov/legislation/laws/SocServ/411",
+          "citation_text": "New York - N.Y. Soc. Serv. Law § 411 et seq. (Child Protective Services Act – reporting requirements)",
+          "source_url": "https://www.nysenate.gov/legislation/laws/SOS/411",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "New York - Family Court Act Article 10 (Abuse/Neglect juvenile proceedings)",
-          "source_url": "https://nyassembly.gov",
+          "source_url": "https://www.nysenate.gov/legislation/laws/FCT/A10",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
@@ -123,8 +124,8 @@
         {
           "provision_id": "NY_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "New York Const. art. I, \u00a7 6",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "New York Const. art. I, § 6",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -289,7 +290,7 @@
     "name": "Office of Children and Family Services",
     "acronym": "OCFS",
     "hotline": "1-800-342-3720",
-    "website": "https://nyassembly.gov"
+    "website": "https://ocfs.ny.gov/"
   },
   "icwa_compliant": true,
   "icwa_details": {
@@ -327,10 +328,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
+      "deadline": "No later than the next court day after the petition is filed",
+      "starts_from": "Petition filed after a removal without a court order",
       "source": "state_statute",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "consequence_of_miss": "Not specified in statute (the hearing continues on successive court days until the court decides)",
+      "source_url": "https://www.nysenate.gov/legislation/laws/FCT/1027"
     },
     {
       "requirement_name": "Case plan development",

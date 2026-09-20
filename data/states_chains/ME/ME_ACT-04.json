@@ -6,8 +6,8 @@
   "subnode": "ACT-04",
   "trigger_name": "Kinship Placement",
   "summary_html": "Agency places a child with **relatives or kin caregivers** instead of non-relative foster care. Federal law favors kinship care as least-restrictive, family-preserving placement.",
-  "authority_html": "- **Fostering Connections to Success and Increasing Adoptions Act (FCSIAA 2008)** \u2014 kinship-care incentives  \n- **SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 reimbursement for approved kin placements",
-  "icon": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67",
+  "authority_html": "- **Fostering Connections to Success and Increasing Adoptions Act (FCSIAA 2008)** — kinship-care incentives  \n- **SSA Title IV-E (42 U.S.C. §§ 670–679c)** — reimbursement for approved kin placements",
+  "icon": "👨‍👩‍👧",
   "theme_color": "#FFD700",
   "domain": "civil",
   "procedural_weight": 0.45,
@@ -20,33 +20,33 @@
   "layers": {
     "constitutional": {
       "constraints_triggered": [
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
         "Public Law 110-351 (FCSIAA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)"
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Maine - Title 22, Chapter 1071 (Child and Family Services and Child Protection Act \u2013 includes \u00a7\u00a04011-A reporting)",
+          "citation_text": "Maine - Title 22, Chapter 1071 (Child and Family Services and Child Protection Act – includes § 4011-A reporting)",
           "source_url": "https://legislature.maine.gov/statutes/22/title22ch1071sec0.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 22: Health and Welfare - DHHS - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/maine/title-22/",
+          "citation_text": "Maine — 22 M.R.S. § 4005-G (Department responsibilities regarding kinship and sibling placement)",
+          "source_url": "https://legislature.maine.gov/statutes/22/title22sec4005-G.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
-          "title_code": "",
-          "chapter": ""
+          "title_code": "22",
+          "chapter": "1071"
         }
       ]
     },
@@ -130,8 +130,8 @@
         {
           "provision_id": "ME_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Maine Const. art. I, \u00a7 6-A",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Maine Const. art. I, § 6-A",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -293,10 +293,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Health and Human Services",
-    "acronym": "DHHS",
+    "name": "Maine Department of Health and Human Services, Office of Child and Family Services",
+    "acronym": "OCFS",
     "hotline": "1-800-452-1999",
-    "website": "https://legislature.maine.gov"
+    "website": "https://www.maine.gov/dhhs/ocfs"
   },
   "icwa_compliant": true,
   "icwa_details": {
@@ -334,17 +334,35 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
+      "deadline": "Within 14 days, and not less than 7 days",
+      "starts_from": "Issuance of the preliminary protection order",
       "source": "state_statute",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "source_url": "https://legislature.maine.gov/statutes/22/title22sec4034.html",
+      "consequence_of_miss": "Not specified in 22 M.R.S. § 4034"
+    },
+    {
+      "requirement_name": "Jeopardy order",
+      "deadline": "Within 120 days, unless good cause is shown; a scheduling problem is not good cause",
+      "starts_from": "Filing of the child protection petition",
+      "source": "state_statute",
+      "source_url": "https://legislature.maine.gov/statutes/22/title22sec4035.html",
+      "consequence_of_miss": "Not specified in 22 M.R.S. § 4035"
+    },
+    {
+      "requirement_name": "Mandated judicial review",
+      "deadline": "At least once every 6 months, unless the child has been emancipated or adopted",
+      "starts_from": "Entry of the jeopardy order",
+      "source": "state_statute",
+      "source_url": "https://legislature.maine.gov/statutes/22/title22sec4038.html",
+      "consequence_of_miss": "Not specified in 22 M.R.S. § 4038"
     },
     {
       "requirement_name": "Case plan development",
-      "deadline": "30-60 days",
-      "starts_from": "Court jurisdiction",
+      "deadline": "Within a reasonable period set by the title IV-E agency, and in no event later than 60 days",
+      "starts_from": "The child's removal from the home",
       "source": "federal_statute",
-      "consequence_of_miss": "IV-E funding penalty"
+      "source_url": "https://www.ecfr.gov/current/title-45/section-1356.21",
+      "consequence_of_miss": "Not specified in 45 C.F.R. § 1356.21(g)"
     }
   ],
   "notice_requirements": [

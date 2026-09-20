@@ -6,8 +6,8 @@
   "subnode": "PMC-02",
   "trigger_name": "OIG / Financial Audit",
   "summary_html": "Federal **OIG** investigations and **Single Audit Act** reviews track misuse of child-welfare funds. Project Milk Carton aggregates audit findings and highlights unresolved repeat deficiencies.",
-  "authority_html": "- **Inspector General Act (5 U.S.C. App.)** \u2014 OIG oversight of HHS  \n- **Single Audit Act (31 U.S.C. \u00a7\u00a7 7501\u20137507)** \u2014 audits of federally funded programs",
-  "icon": "\ud83e\uddfe",
+  "authority_html": "- **Inspector General Act (5 U.S.C. App.)** — OIG oversight of HHS  \n- **Single Audit Act (31 U.S.C. §§ 7501–7507)** — audits of federally funded programs",
+  "icon": "🧾",
   "theme_color": "#708090",
   "domain": "civil",
   "procedural_weight": 0.7,
@@ -24,16 +24,16 @@
     "federal": {
       "requirements_applicable": [
         "5 U.S.C. App. (Inspector General Act)",
-        "31 U.S.C. \u00a7\u00a7 7501\u20137507 (Single Audit Act)"
+        "31 U.S.C. §§ 7501–7507 (Single Audit Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Louisiana - Children\u2019s Code Article 601 et seq. (Children\u2019s Code \u2013 Child in Need of Care, includes reporting duties)",
-          "source_url": "https://www.legis.la.gov/legis/Laws_Toc.aspx",
+          "citation_text": "Louisiana - Children’s Code Article 601 et seq. (Children’s Code – Child in Need of Care, includes reporting duties)",
+          "source_url": "https://www.legis.la.gov/legis/Law.aspx?d=73193",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -269,10 +269,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children and Family Services",
+    "name": "Louisiana Department of Children and Family Services",
     "acronym": "DCFS",
     "hotline": "1-855-452-5437",
-    "website": "https://www.legis.la.gov"
+    "website": "https://dcfs.louisiana.gov/"
   },
   "linked_fail": "FAIL-03",
   "_metadata": {
@@ -313,7 +313,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

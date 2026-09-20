@@ -6,8 +6,8 @@
   "subnode": "OUT-05",
   "trigger_name": "Case Dismissal",
   "summary_html": "Case dismissed due to **unsubstantiated evidence** or court determination that allegations not proven. Federal oversight requires accurate recording of such closures for audit and funding compliance.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 defines data-collection standards for unfounded cases  \n- **CFSR (45 CFR Part 1355)** \u2014 requires tracking and reporting of unsubstantiated outcomes",
-  "icon": "\ud83d\uddc3\ufe0f",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — defines data-collection standards for unfounded cases  \n- **CFSR (45 CFR Part 1355)** — requires tracking and reporting of unsubstantiated outcomes",
+  "icon": "🗃️",
   "theme_color": "#708090",
   "domain": "civil",
   "procedural_weight": 0.55,
@@ -23,51 +23,51 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Idaho - Title 16, Chapter 16 (Child Protective Act \u2013 reporting and removal)",
+          "citation_text": "Idaho - Title 16, Chapter 16 (Child Protective Act – reporting and removal)",
           "source_url": "https://legislature.idaho.gov/statutesrules/idstat/Title16/T16CH16/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 16: Child Protective Act - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/idaho/title-16/",
+          "citation_text": "Idaho Code Title 16 — Juvenile Proceedings (Child Protective Act is chapter 16) - CHILD WELFARE PRIMARY",
+          "source_url": "https://legislature.idaho.gov/statutesrules/idstat/Title16/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 32: Domestic Relations",
-          "source_url": "https://law.justia.com/codes/idaho/title-32/",
+          "citation_text": "Idaho Code Title 32 — Domestic Relations",
+          "source_url": "https://legislature.idaho.gov/statutesrules/idstat/Title32/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 39: Health and Safety",
-          "source_url": "https://law.justia.com/codes/idaho/title-39/",
+          "citation_text": "Idaho Code Title 39 — Health and Safety",
+          "source_url": "https://legislature.idaho.gov/statutesrules/idstat/Title39/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 56: Public Assistance",
-          "source_url": "https://law.justia.com/codes/idaho/title-56/",
+          "citation_text": "Idaho Code Title 56 — Public Assistance and Welfare",
+          "source_url": "https://legislature.idaho.gov/statutesrules/idstat/Title56/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -76,6 +76,12 @@
     },
     "administrative_rule": {
       "regulations_applicable": [
+        {
+          "title": "IDAPA 16.06.01 — Child and Family Services (Idaho Department of Health and Welfare)",
+          "url": "https://adminrules.idaho.gov/rules/current/16/160601.pdf",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
+        },
         {
           "title": "Title IDAPA 05 - Juvenile Corrections, Department of",
           "url": "https://www.law.cornell.edu/regulations/idaho/title-IDAPA-05"
@@ -310,13 +316,13 @@
     }
   },
   "state_agency": {
-    "name": "Department of Health and Welfare",
+    "name": "Idaho Department of Health and Welfare, Child and Family Services",
     "acronym": "DHW",
-    "hotline": "1-855-552-5437",
-    "website": "https://legislature.idaho.gov"
+    "hotline": "1-855-552-5437 (855-552-KIDS) statewide; Treasure Valley 208-334-5437",
+    "website": "https://healthandwelfare.idaho.gov/services-programs/children-families-older-adults/child-and-family-services-and-foster-care-7"
   },
   "extended_foster_care": true,
-  "extended_foster_care_age": "Up to age 21 (until 21st birthday)",
+  "extended_foster_care_age": "Up to age 23 (court-ordered; must have been in DHW custody until 18; Idaho Code § 16-1622(5))",
   "linked_action": "ACT-02",
   "linked_decision": "DEC-01",
   "linked_input": "INP-01",

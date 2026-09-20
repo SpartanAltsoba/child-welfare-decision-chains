@@ -5,9 +5,9 @@
   "node_family": "FAIL",
   "subnode": "FAIL-02",
   "trigger_name": "Unlawful Removal",
-  "summary_html": "A **child is removed without exigency or warrant**, violating constitutional rights. Federal courts treat such removals as seizures under the Fourth and Fourteenth Amendments, actionable via \u00a71983.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 limits removals to lawful emergencies and requires judicial review  \n- **U.S. Constitution (4th & 14th Amendments)** \u2014 protects family integrity; requires due process",
-  "icon": "\ud83d\udea8",
+  "summary_html": "A **child is removed without exigency or warrant**, violating constitutional rights. Federal courts treat such removals as seizures under the Fourth and Fourteenth Amendments, actionable via §1983.",
+  "authority_html": "- **ASFA / SSA Title IV-E** — limits removals to lawful emergencies and requires judicial review  \n- **U.S. Constitution (4th & 14th Amendments)** — protects family integrity; requires due process",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.9,
@@ -24,23 +24,24 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)",
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)",
         "U.S. Constitution, Amendments IV & XIV"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Michigan - Michigan Compiled Laws \u00a7\u00a0722.621 et seq. (Child Protection Law \u2013 mandatory reporting)",
-          "source_url": "https://www.legislature.mi.gov",
+          "citation_text": "Michigan - Michigan Compiled Laws § 722.621 et seq. (Child Protection Law – mandatory reporting)",
+          "source_url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-Act-238-of-1975",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Michigan - Michigan Court Rules, Juvenile (child protective proceedings rules)",
-          "source_url": "https://www.legislature.mi.gov",
+          "citation_text": "Michigan - Michigan Court Rules, Subchapter 3.900 (Proceedings Involving Juveniles – child protective proceedings)",
+          "source_url": "https://www.courts.michigan.gov/siteassets/rules-instructions-administrative-orders/michigan-court-rules/michigan-court-rules.pdf",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19"
         },
         {
           "citation_text": "Title 722: Children - DHHS",
@@ -281,10 +282,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Health and Human Services",
+    "name": "Michigan Department of Health and Human Services",
     "acronym": "MDHHS",
-    "hotline": "1-855-444-3911",
-    "website": "https://www.legislature.mi.gov"
+    "hotline": "855-444-3911",
+    "website": "https://www.michigan.gov/mdhhs"
   },
   "linked_output": "OUT-05",
   "linked_action": "ACT-03",
@@ -319,17 +320,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Appeal deadline",
-      "deadline": "30 days",
-      "starts_from": "Final order",
+      "deadline": "21 days",
+      "starts_from": "Entry of the order or judgment appealed from",
       "source": "court_rule",
-      "consequence_of_miss": "Loss of appeal rights"
+      "source_url": "https://www.courts.michigan.gov/siteassets/rules-instructions-administrative-orders/michigan-court-rules/michigan-court-rules.pdf",
+      "consequence_of_miss": "The time limit for an appeal of right is jurisdictional; the appeal of right is lost and review is only by application for leave to appeal (MCR 7.204(A)(1), MCR 3.993(B))."
     },
     {
       "requirement_name": "1983 statute of limitations",
-      "deadline": "2-3 years",
-      "starts_from": "Violation occurred",
-      "source": "federal_statute",
-      "consequence_of_miss": "Claim barred"
+      "deadline": "3 years",
+      "starts_from": "The time of the injury (Mich. Comp. Laws § 600.5805(2)); federal law fixes when a § 1983 claim accrues",
+      "source": "state_statute",
+      "source_url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-5805",
+      "consequence_of_miss": "Not specified as a penalty; Mich. Comp. Laws § 600.5805(1) provides that a person shall not bring or maintain an action to recover damages for injuries to persons or property unless the action is commenced within the period prescribed by that section, which is 3 years for injury to a person (§ 600.5805(2)). 42 U.S.C. § 1983 fixes no limitation period of its own; 42 U.S.C. § 1988(a) supplies state law where federal law is deficient."
     }
   ],
   "notice_requirements": [

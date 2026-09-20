@@ -5,9 +5,9 @@
   "node_family": "ACT",
   "subnode": "ACT-01",
   "trigger_name": "Voluntary Services",
-  "summary_html": "Family agrees to a **voluntary service plan**\u2014counseling, substance-use treatment, parenting classes\u2014designed to correct conditions without court compulsion. Federal law prioritizes family preservation through prevention and support services.",
-  "authority_html": "- **Family First Prevention Services Act (FFPSA)** \u2014 prevention services and kin support framework  \n- **SSA Title IV-B (42 U.S.C. \u00a7\u00a7 620\u2013629m)** \u2014 child-welfare services and family-preservation funding",
-  "icon": "\ud83e\udde9",
+  "summary_html": "Family agrees to a **voluntary service plan**—counseling, substance-use treatment, parenting classes—designed to correct conditions without court compulsion. Federal law prioritizes family preservation through prevention and support services.",
+  "authority_html": "- **Family First Prevention Services Act (FFPSA)** — prevention services and kin support framework  \n- **SSA Title IV-B (42 U.S.C. §§ 620–629m)** — child-welfare services and family-preservation funding",
+  "icon": "🧩",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -27,16 +27,16 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 115-123 (FFPSA)",
-        "42 U.S.C. \u00a7\u00a7 620\u2013629m (SSA Title IV-B)"
+        "42 U.S.C. §§ 620–629m (SSA Title IV-B)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Louisiana - Children\u2019s Code Article 601 et seq. (Children\u2019s Code \u2013 Child in Need of Care, includes reporting duties)",
-          "source_url": "https://www.legis.la.gov/legis/Laws_Toc.aspx",
+          "citation_text": "Louisiana - Children’s Code Article 601 et seq. (Children’s Code – Child in Need of Care, includes reporting duties)",
+          "source_url": "https://www.legis.la.gov/legis/Law.aspx?d=73193",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -117,7 +117,7 @@
         {
           "provision_id": "LA_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Louisiana Const. art. I, \u00a7 5",
+          "citation": "Louisiana Const. art. I, § 5",
           "federal_parallel": "U.S. Const. amend. IV"
         }
       ]
@@ -280,10 +280,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children and Family Services",
+    "name": "Louisiana Department of Children and Family Services",
     "acronym": "DCFS",
     "hotline": "1-855-452-5437",
-    "website": "https://www.legis.la.gov"
+    "website": "https://dcfs.louisiana.gov/"
   },
   "linked_decision": "DEC-06",
   "linked_input": "INP-05",
@@ -316,10 +316,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
+      "deadline": "Within 3 days after the instanter order (the court may continue the hearing up to 3 additional days for good cause)",
+      "starts_from": "Issuance of the instanter custody order or instanter safety plan order (La. Ch.C. Arts. 619, 620)",
       "source": "state_statute",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "consequence_of_miss": "Not specified in statute; at the hearing the state bears the burden of proving a ground for continued custody (La. Ch.C. Art. 624(E))",
+      "source_url": "https://www.legis.la.gov/legis/Law.aspx?d=73217"
     },
     {
       "requirement_name": "Case plan development",

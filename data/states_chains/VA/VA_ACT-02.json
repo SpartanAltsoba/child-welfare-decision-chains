@@ -6,8 +6,8 @@
   "subnode": "ACT-02",
   "trigger_name": "Court-Ordered Services",
   "summary_html": "Court orders a **service plan or supervision** period following a substantiated finding. The goal is rehabilitation and reunification consistent with federal 'reasonable-efforts' requirements.",
-  "authority_html": "- **Adoption and Safe Families Act (ASFA)** \u2014 reasonable-efforts and permanency mandates  \n- **SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 reimbursement framework for foster-care and service costs",
-  "icon": "\u2696\ufe0f",
+  "authority_html": "- **Adoption and Safe Families Act (ASFA)** — reasonable-efforts and permanency mandates  \n- **SSA Title IV-E (42 U.S.C. §§ 670–679c)** — reimbursement framework for foster-care and service costs",
+  "icon": "⚖️",
   "theme_color": "#1E90FF",
   "domain": "civil",
   "procedural_weight": 0.55,
@@ -25,28 +25,41 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)"
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Virginia - Va. Code Title\u00a063.2, Chapter\u00a015 (Child Abuse and Neglect \u2013 includes \u00a7\u00a063.2-1509 reporting)",
-          "source_url": "https://virginiageneralassembly.gov",
+          "citation_text": "Virginia - Va. Code Title 63.2, Chapter 15 (Child Abuse and Neglect – includes § 63.2-1509 reporting)",
+          "source_url": "https://law.lis.virginia.gov/vacode/title63.2/chapter15/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Virginia - Va. Code \u00a7\u00a016.1-241(A) et seq. (Juvenile & Domestic Relations jurisdiction for abuse/neglect)",
-          "source_url": "https://law.lis.virginia.gov/vacode/title16.1/chapter241/",
+          "citation_text": "Virginia - Va. Code § 16.1-241(A) et seq. (Juvenile & Domestic Relations jurisdiction for abuse/neglect)",
+          "source_url": "https://law.lis.virginia.gov/vacode/title16.1/chapter11/section16.1-241/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
     },
     "administrative_rule": {
       "regulations_applicable": [
+        {
+          "title": "22VAC40-705 - Child Protective Services (Virginia Administrative Code, Title 22, Agency 40)",
+          "url": "https://law.lis.virginia.gov/admincode/title22/agency40/chapter705/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
+        },
+        {
+          "title": "22VAC40-201 - Permanency Services: Prevention, Foster Care, Adoption and Independent Living",
+          "url": "https://law.lis.virginia.gov/admincode/title22/agency40/chapter201/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
+        },
         {
           "title": "Title 22 - SOCIAL SERVICES",
           "url": "https://www.law.cornell.edu/regulations/virginia/title-22"
@@ -112,7 +125,7 @@
           "last_verified": "2025-12-24"
         }
       ],
-      "source_url": "https://www.law.cornell.edu/regulations/virginia.html"
+      "source_url": "https://law.lis.virginia.gov/admincode/title22/agency40/"
     },
     "state_constitutional": {
       "plane_reference": "state_constitutional_VA",
@@ -199,10 +212,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Social Services",
-    "acronym": "DSS",
+    "name": "Virginia Department of Social Services",
+    "acronym": "VDSS",
     "hotline": "1-800-552-7096",
-    "website": "https://virginiageneralassembly.gov"
+    "website": "https://www.dss.virginia.gov/"
   },
   "linked_decision": "DEC-03",
   "linked_input": "INP-01",
@@ -235,10 +248,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
+      "deadline": "No later than 5 business days",
+      "starts_from": "Child removed under an emergency removal order",
       "source": "state_statute",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "source_url": "https://law.lis.virginia.gov/vacode/title16.1/chapter11/section16.1-251/",
+      "consequence_of_miss": "Statute sets no penalty; the 16.1-252 preliminary removal hearing remains mandatory"
     },
     {
       "requirement_name": "Case plan development",

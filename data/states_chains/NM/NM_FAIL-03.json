@@ -6,8 +6,8 @@
   "subnode": "FAIL-03",
   "trigger_name": "Federal Compliance Failure",
   "summary_html": "A **state agency fails** to meet federal child-welfare performance standards, triggering **funding penalties** or corrective action under the CFSR or Single Audit Act.",
-  "authority_html": "- **Child & Family Services Reviews (45 CFR Part 1355)** \u2014 performance oversight and penalties  \n- **Single Audit Act (31 U.S.C. \u00a7\u00a7 7501\u20137507)** \u2014 audit of federally funded programs  \n- **Inspector General Act (5 U.S.C. App.)** \u2014 oversight authority for HHS/OIG",
-  "icon": "\ud83d\udcb8",
+  "authority_html": "- **Child & Family Services Reviews (45 CFR Part 1355)** — performance oversight and penalties  \n- **Single Audit Act (31 U.S.C. §§ 7501–7507)** — audit of federally funded programs  \n- **Inspector General Act (5 U.S.C. App.)** — oversight authority for HHS/OIG",
+  "icon": "💸",
   "theme_color": "#FF8C00",
   "domain": "civil",
   "procedural_weight": 0.7,
@@ -15,7 +15,7 @@
   "urls": {
     "CFSR_CFR": "https://www.law.cornell.edu/cfr/text/45/part-1355",
     "SAA_Cornell": "https://www.law.cornell.edu/uscode/text/31/chapter-75",
-    "IGA_Cornell": "https://www.law.cornell.edu/uscode/text/5a/appendix-3"
+    "IGA_Cornell": "https://www.law.cornell.edu/uscode/text/5/part-I/chapter-4"
   },
   "layers": {
     "constitutional": {
@@ -25,20 +25,21 @@
     "federal": {
       "requirements_applicable": [
         "45 CFR Part 1355 (CFSR)",
-        "31 U.S.C. \u00a7\u00a7 7501\u20137507 (Single Audit Act)",
+        "31 U.S.C. §§ 7501–7507 (Single Audit Act)",
         "5 U.S.C. App. (Inspector General Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "New Mexico - Chapter 32A, Article 4 (Child Abuse and Neglect Act \u2013 mandatory reporting and custody)",
-          "source_url": "https://www.nmlegis.gov",
+          "citation_text": "New Mexico - NMSA 1978 Chapter 32A, Article 4 (Abuse and Neglect Act: 32A-4-3 duty to report, 32A-4-18 custody hearings, 32A-4-19 adjudicatory hearings), CYFD-published Children's Code compilation (2023 text; 32A-4-3 amended 2025 by SB 42)",
+          "source_url": "https://www.cyfd.nm.gov/wp-content/uploads/2024/06/chapter-32a-children-s-code-2023.pdf",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Title 27: Human Services Department - CYFD",
+          "citation_text": "New Mexico Statutes Chapter 27 - Public Assistance (public assistance and Medicaid programs; CYFD's child-welfare authority is not in this chapter — it is the Children, Youth and Families Department Act, NMSA 1978 § 9-2A-7(D), and the Children's Code, NMSA 1978 § 32A-1-1, per 8.10.3.3 NMAC)",
           "source_url": "https://law.justia.com/codes/new-mexico/title-27/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-24",
@@ -289,10 +290,10 @@
     }
   },
   "state_agency": {
-    "name": "Children, Youth and Families Department",
+    "name": "New Mexico Children, Youth and Families Department",
     "acronym": "CYFD",
     "hotline": "1-855-333-7233",
-    "website": "https://www.nmlegis.gov"
+    "website": "https://www.cyfd.nm.gov/"
   },
   "linked_output": "OUT-06",
   "linked_action": "ACT-03",
@@ -327,10 +328,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Appeal deadline",
-      "deadline": "30 days",
-      "starts_from": "Final order",
-      "source": "court_rule",
-      "consequence_of_miss": "Loss of appeal rights"
+      "deadline": "10 days to request Protective Services administrative review of a substantiated investigation that is not the subject of a pending children's court case, then 10 days to request a CYFD administrative hearing if the substantiation is upheld",
+      "starts_from": "The action or the notice of the proposed action (administrative review); the letter upholding the substantiation (administrative hearing)",
+      "source": "admin_rule",
+      "source_url": "https://www.srca.nm.gov/parts/title08/08.010.0003.html",
+      "consequence_of_miss": "Not specified in 8.10.3.22 NMAC"
     },
     {
       "requirement_name": "1983 statute of limitations",

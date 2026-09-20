@@ -6,8 +6,8 @@
   "subnode": "INP-05",
   "trigger_name": "Self-Report / Guardian Request",
   "summary_html": "A **parent/guardian/child requests help** without a substantiated allegation. FFPSA created a federal pathway for **prevention services** to avert removal and stabilize families before a case escalates.",
-  "authority_html": "- **Family First Prevention Services Act (2018)** \u2014 prevention services, kinship support; shifts upstream from removal to support",
-  "icon": "\ud83e\udde9",
+  "authority_html": "- **Family First Prevention Services Act (2018)** — prevention services, kinship support; shifts upstream from removal to support",
+  "icon": "🧩",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -24,22 +24,28 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 671\u2013679b (FFPSA-related IV-E changes)"
+        "42 U.S.C. §§ 671–679b (FFPSA-related IV-E changes)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Utah - Utah Code Title\u00a062A, Part\u00a04a (Child and Family Services \u2013 includes \u00a7\u00a0403 mandatory reporting)",
-          "source_url": "https://le.utah.gov",
+          "citation_text": "Utah - Utah Code Title 80, Chapter 2 (Child Welfare Services – includes § 80-2-602 mandatory reporting)",
+          "source_url": "https://le.utah.gov/xcode/Title80/Chapter2/80-2.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19"
         },
         {
-          "citation_text": "Utah - Utah Code Title\u00a078A, Chapter\u00a06 (Juvenile Court Act \u2013 abuse, neglect)",
-          "source_url": "https://le.utah.gov",
+          "citation_text": "Utah - Utah Code Title 80, Chapter 2a (Removal and Protective Custody of a Child – includes § 80-2a-202 removal of a child by a peace officer or child welfare caseworker)",
+          "source_url": "https://le.utah.gov/xcode/Title80/Chapter2a/80-2a.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19"
+        },
+        {
+          "citation_text": "Utah - Utah Code Title 80, Chapter 3 (Abuse, Neglect, and Dependency Proceedings)",
+          "source_url": "https://le.utah.gov/xcode/Title80/Chapter3/80-3.html",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19"
         }
       ]
     },
@@ -274,25 +280,15 @@
     }
   },
   "state_agency": {
-    "name": "Division of Child and Family Services",
+    "name": "Utah Division of Child and Family Services",
     "acronym": "DCFS",
     "hotline": "1-855-323-3237",
-    "website": "https://le.utah.gov"
+    "website": "https://dcfs.utah.gov/"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Shelter Staff",
-    "Childcare Staff",
-    "Clergy",
-    "Foster Parents",
-    "Coaches",
-    "Coroners",
-    "EMTs/Emergency Personnel",
-    "Judges",
-    "District Attorneys"
+    "Any person (universal mandatory reporting) — Utah Code § 80-2-602(1)",
+    "Exception: a member of the clergy, as to a confession made directly by the perpetrator while the clergy member is functioning in a ministerial capacity and without the confessor's consent, and only if canon law or church doctrine or practice binds the clergy member to maintain the confidentiality of the confession; the clergy member must still report abuse or neglect learned from any source other than that confession — Utah Code § 80-2-602(3)(a), (4)(a)",
+    "Exception: an attorney, or an individual employed by the attorney, where the knowledge arises from representing a client, unless the attorney is permitted to reveal it to prevent reasonably certain death or substantial bodily harm — Utah Code § 80-2-602(3)(b)"
   ],
   "reporting_type": "decentralized",
   "definitions": {
@@ -361,14 +357,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

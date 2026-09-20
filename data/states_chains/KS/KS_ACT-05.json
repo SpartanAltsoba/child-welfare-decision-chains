@@ -6,8 +6,8 @@
   "subnode": "ACT-05",
   "trigger_name": "Protective Order",
   "summary_html": "Court issues a **protective or restraining order** to prevent contact, remove abuser, or ensure safety without removing the child. Federal law leaves implementation to states but funds protection efforts through CAPTA and IV-B.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 authorizes protective interventions and state plan requirements  \n- **SSA Title IV-B** \u2014 permits funding for protective services and court interventions",
-  "icon": "\ud83e\uddfe",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — authorizes protective interventions and state plan requirements  \n- **SSA Title IV-B** — permits funding for protective services and court interventions",
+  "icon": "🧾",
   "theme_color": "#708090",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -23,42 +23,34 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
-        "42 U.S.C. \u00a7\u00a7 620\u2013629m (SSA Title IV-B)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
+        "42 U.S.C. §§ 620–629m (SSA Title IV-B)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Kansas - Chapter 38, Article 22 (Kansas Child in Need of Care Code \u2013 mandatory reporting \u00a7 38-2223)",
-          "source_url": "https://www.kslegislature.org",
+          "citation_text": "Kan. Stat. Ann. § 38-2223 — Reporting of certain abuse or neglect of children; persons required to report (Revised Kansas Code for Care of Children, ch. 38, art. 22)",
+          "source_url": "https://www.ksrevisor.gov/statutes/chapters/ch38/038_022_0023.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Title 23: Marriage and Domestic Relations",
-          "source_url": "https://law.justia.com/codes/kansas/title-23/",
+          "citation_text": "Chapter 23 — Kansas Family Law Code (revised)",
+          "source_url": "https://www.ksrevisor.gov/statutes/ksa_ch23.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 38: Minors - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/kansas/title-38/",
+          "citation_text": "Chapter 38 — Minors; Article 22, Revised Kansas Code for Care of Children (child welfare primary)",
+          "source_url": "https://www.ksrevisor.gov/statutes/ksa_ch38.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
-          "title_code": "",
-          "chapter": ""
-        },
-        {
-          "citation_text": "Title 65: Public Health - Child Abuse Reporting",
-          "source_url": "https://law.justia.com/codes/kansas/title-65/",
-          "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         }
@@ -244,10 +236,10 @@
     }
   },
   "state_agency": {
-    "name": "Department for Children and Families",
+    "name": "Kansas Department for Children and Families",
     "acronym": "DCF",
     "hotline": "1-800-922-5330",
-    "website": "https://www.kslegislature.org"
+    "website": "https://www.dcf.ks.gov/"
   },
   "linked_decision": "DEC-05",
   "linked_input": "INP-01",
@@ -280,10 +272,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
+      "deadline": "72 hours, excluding Saturdays, Sundays, legal holidays and days the clerk of the court's office is not accessible",
+      "starts_from": "Child taken into protective custody",
       "source": "state_statute",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "consequence_of_miss": "No child may be held in protective custody beyond the 72 hours unless a temporary custody determination is made within that period (Kan. Stat. Ann. § 38-2242(b)(2))",
+      "source_url": "https://www.ksrevisor.gov/statutes/chapters/ch38/038_022_0043.html"
     },
     {
       "requirement_name": "Case plan development",

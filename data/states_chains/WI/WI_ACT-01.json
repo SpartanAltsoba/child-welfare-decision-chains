@@ -5,9 +5,9 @@
   "node_family": "ACT",
   "subnode": "ACT-01",
   "trigger_name": "Voluntary Services",
-  "summary_html": "Family agrees to a **voluntary service plan**\u2014counseling, substance-use treatment, parenting classes\u2014designed to correct conditions without court compulsion. Federal law prioritizes family preservation through prevention and support services.",
-  "authority_html": "- **Family First Prevention Services Act (FFPSA)** \u2014 prevention services and kin support framework  \n- **SSA Title IV-B (42 U.S.C. \u00a7\u00a7 620\u2013629m)** \u2014 child-welfare services and family-preservation funding",
-  "icon": "\ud83e\udde9",
+  "summary_html": "Family agrees to a **voluntary service plan**—counseling, substance-use treatment, parenting classes—designed to correct conditions without court compulsion. Federal law prioritizes family preservation through prevention and support services.",
+  "authority_html": "- **Family First Prevention Services Act (FFPSA)** — prevention services and kin support framework  \n- **SSA Title IV-B (42 U.S.C. §§ 620–629m)** — child-welfare services and family-preservation funding",
+  "icon": "🧩",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -27,23 +27,24 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 115-123 (FFPSA)",
-        "42 U.S.C. \u00a7\u00a7 620\u2013629m (SSA Title IV-B)"
+        "42 U.S.C. §§ 620–629m (SSA Title IV-B)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Wisconsin - Wis. Stat. \u00a7\u00a048.981 (Abuse and Neglect Reporting law)",
-          "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/48",
+          "citation_text": "Wisconsin - Wis. Stat. § 48.981 (Abuse and Neglect Reporting law)",
+          "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/48/xxi/981",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Wisconsin - Wis. Stat. Chapter\u00a048 (Children\u2019s Code \u2013 includes CHIPS proceedings)",
-          "source_url": "https://legis.wisconsin.gov",
+          "citation_text": "Wisconsin - Wis. Stat. Chapter 48 (Children’s Code – includes CHIPS proceedings)",
+          "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/48",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 48: Children's Code - DCF - CHILD WELFARE PRIMARY",
@@ -154,7 +155,7 @@
         {
           "provision_id": "WI_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Wisconsin Const. art. I, \u00a7 11",
+          "citation": "Wisconsin Const. art. I, § 11",
           "federal_parallel": "U.S. Const. amend. IV"
         }
       ]
@@ -318,10 +319,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children and Families",
+    "name": "Wisconsin Department of Children and Families",
     "acronym": "DCF",
-    "hotline": "1-800-422-4453",
-    "website": "https://legis.wisconsin.gov"
+    "hotline": "No statewide hotline. Call the county or tribal agency where the child lives — the list is at dcf.wisconsin.gov/reportabuse",
+    "website": "https://dcf.wisconsin.gov/"
   },
   "icwa_compliant": true,
   "icwa_details": {
@@ -359,10 +360,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
+      "deadline": "48 hours, excluding Saturdays, Sundays, and legal holidays",
+      "starts_from": "Decision to hold the child in custody",
       "source": "state_statute",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "consequence_of_miss": "Child shall be released (Wis. Stat. § 48.21(1)(a))",
+      "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/48/iv/21"
     },
     {
       "requirement_name": "Case plan development",

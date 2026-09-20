@@ -6,8 +6,8 @@
   "subnode": "PMC-04",
   "trigger_name": "Fatality Review Commission",
   "summary_html": "The **Protect Our Kids Act (PL 112-275)** created a national commission to study child-fatality prevention. Project Milk Carton cross-references its findings with state fatality data to expose non-implementation.",
-  "authority_html": "- **Public Law 112-275 (Protect Our Kids Act)** \u2014 national commission and reporting framework",
-  "icon": "\ud83d\udcca",
+  "authority_html": "- **Public Law 112-275 (Protect Our Kids Act)** — national commission and reporting framework",
+  "icon": "📊",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -28,16 +28,18 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "North Carolina - N.C. Gen. Stat. \u00a7\u00a07B-301 (Duty to report abuse, neglect, dependency)",
-          "source_url": "https://www.ncleg.gov",
+          "citation_text": "North Carolina - N.C. Gen. Stat. § 7B-301 (Duty to report abuse, neglect, dependency)",
+          "source_url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_7B/GS_7B-301.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "North Carolina - Chapter 7B, Article 3 (Juvenile Code \u2013 abuse, neglect, dependency procedures)",
-          "source_url": "https://www.ncleg.gov",
+          "citation_text": "North Carolina - Chapter 7B, Article 3 (Juvenile Code – abuse, neglect, dependency procedures)",
+          "source_url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_7B/Article_3.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 48: Adoption",
@@ -303,10 +305,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Social Services",
-    "acronym": "DSS",
-    "hotline": "1-919-527-6500",
-    "website": "https://www.ncleg.gov"
+    "name": "North Carolina Division of Social Services",
+    "acronym": "NC DSS",
+    "hotline": "No statewide hotline. Call the county department of social services where the child lives — the county list is at ncdhhs.gov/divisions/social-services/local-dss-directory",
+    "website": "https://www.ncdhhs.gov/divisions/social-services"
   },
   "linked_fail": "FAIL-04",
   "_metadata": {
@@ -347,7 +349,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

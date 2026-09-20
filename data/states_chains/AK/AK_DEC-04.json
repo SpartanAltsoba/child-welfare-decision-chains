@@ -6,8 +6,8 @@
   "subnode": "DEC-04",
   "trigger_name": "Emergency Removal Decision",
   "summary_html": "Agency decides to **remove a child immediately** due to **imminent danger** prior to a court order. Federal law (ASFA/IV-E) requires later **court findings** on reasonable efforts; constitutional limits (due process; search/seizure) apply.",
-  "authority_html": "- **ASFA / SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 reasonable-efforts findings; permanency timelines  \n- **CFSR (45 CFR Part 1355)** \u2014 monitors safety & removal decision quality",
-  "icon": "\ud83d\udea8",
+  "authority_html": "- **ASFA / SSA Title IV-E (42 U.S.C. §§ 670–679c)** — reasonable-efforts findings; permanency timelines  \n- **CFSR (45 CFR Part 1355)** — monitors safety & removal decision quality",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.35,
@@ -22,13 +22,13 @@
     "constitutional": {
       "constraints_triggered": [
         "U.S. Const. amend. IV",
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E)",
+        "42 U.S.C. §§ 670–679c (Title IV-E)",
         "Public Law 105-89 (ASFA)",
         "45 CFR Part 1355 (CFSR)"
       ]
@@ -39,39 +39,39 @@
           "citation_text": "Alaska - Title 47, Chapter 17 (Child Protection, including mandatory reporting)",
           "source_url": "https://www.akleg.gov/basis/statutes.asp#47.17",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Alaska - Title 47, Chapter 10 (Child in Need of Aid proceedings)",
           "source_url": "https://www.akleg.gov/basis/statutes.asp#47.10",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 18: Health, Safety, Housing - Child Abuse Reporting",
-          "source_url": "http://www.legis.state.ak.us/basis/folioproxy.asp?url=http://wwwjnu01.legis.state.ak.us/cgi-bin/folioisa.dll/stattx22/query=*/doc/{t10430}",
+          "citation_text": "Alaska Stat. § 18.85.100 — Right to representation, services, and facilities; under (e) the Public Defender Agency may represent a parent at the AS 47.10.142(d) temporary custody hearing at public expense without a court order, and if the parent is not later found eligible for court-appointed counsel the court shall assess the cost of that representation against the parent",
+          "source_url": "https://www.akleg.gov/basis/statutes.asp#18.85.100",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 25: Marital and Domestic Relations",
-          "source_url": "http://www.legis.state.ak.us/basis/folioproxy.asp?url=http://wwwjnu01.legis.state.ak.us/cgi-bin/folioisa.dll/stattx22/query=*/doc/{t10437}",
+          "citation_text": "Alaska Stat. Title 25 (Marital and Domestic Relations), Chapter 23 — Adoption",
+          "source_url": "https://www.akleg.gov/basis/statutes.asp#25.23",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 47: Welfare, Social Services and Institutions - CHILD WELFARE PRIMARY",
-          "source_url": "http://www.legis.state.ak.us/basis/folioproxy.asp?url=http://wwwjnu01.legis.state.ak.us/cgi-bin/folioisa.dll/stattx22/query=*/doc/{t10459}",
+          "citation_text": "Alaska Stat. Title 47 — Welfare, Social Services and Institutions (child welfare: ch. 10, Children in Need of Aid; ch. 17, Child Protection)",
+          "source_url": "https://www.akleg.gov/basis/statutes.asp#47",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -154,14 +154,14 @@
         {
           "provision_id": "AK_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Alaska Const. art. I, \u00a7 14",
+          "citation": "Alaska Const. art. I, § 14",
           "federal_parallel": "U.S. Const. amend. IV"
         },
         {
           "provision_id": "AK_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Alaska Const. art. I, \u00a7 7",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Alaska Const. art. I, § 7",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -323,10 +323,10 @@
     }
   },
   "state_agency": {
-    "name": "Office of Children's Services",
+    "name": "Alaska Office of Children's Services",
     "acronym": "OCS",
-    "hotline": "1-800-478-4444",
-    "website": "https://akleg.gov"
+    "hotline": "1-800-478-4444 or 907-269-6510 (24 hours a day, every day)",
+    "website": "https://dfcs.alaska.gov/office-of-childrens-services/"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -364,15 +364,31 @@
       "requirement_name": "Safety decision",
       "deadline": "Immediate upon contact",
       "starts_from": "First family contact",
-      "source": "admin_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Child safety risk"
     },
     {
       "requirement_name": "Disposition finding",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Procedural violation"
+    },
+    {
+      "requirement_name": "Notice to parents of emergency custody",
+      "deadline": "Immediately, and in no event more than 24 hours",
+      "starts_from": "Department takes emergency custody of the child",
+      "source": "state_statute",
+      "source_url": "https://www.akleg.gov/basis/statutes.asp#47.10.142",
+      "consequence_of_miss": "Statute sets no penalty; the only excuse it allows is lack of communication facilities (AS 47.10.142(c))"
+    },
+    {
+      "requirement_name": "Child in need of aid petition filed after emergency custody",
+      "deadline": "24 hours",
+      "starts_from": "Department assumes emergency custody",
+      "source": "state_statute",
+      "source_url": "https://www.akleg.gov/basis/statutes.asp#47.10.142",
+      "consequence_of_miss": "If the child is released instead, the department must file a report with the court within 24 hours of the release (AS 47.10.142(c))"
     }
   ],
   "notice_requirements": [

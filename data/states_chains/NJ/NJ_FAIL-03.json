@@ -6,8 +6,8 @@
   "subnode": "FAIL-03",
   "trigger_name": "Federal Compliance Failure",
   "summary_html": "A **state agency fails** to meet federal child-welfare performance standards, triggering **funding penalties** or corrective action under the CFSR or Single Audit Act.",
-  "authority_html": "- **Child & Family Services Reviews (45 CFR Part 1355)** \u2014 performance oversight and penalties  \n- **Single Audit Act (31 U.S.C. \u00a7\u00a7 7501\u20137507)** \u2014 audit of federally funded programs  \n- **Inspector General Act (5 U.S.C. App.)** \u2014 oversight authority for HHS/OIG",
-  "icon": "\ud83d\udcb8",
+  "authority_html": "- **Child & Family Services Reviews (45 CFR Part 1355)** — performance oversight and penalties  \n- **Single Audit Act (31 U.S.C. §§ 7501–7507)** — audit of federally funded programs  \n- **Inspector General Act (5 U.S.C. App.)** — oversight authority for HHS/OIG",
+  "icon": "💸",
   "theme_color": "#FF8C00",
   "domain": "civil",
   "procedural_weight": 0.7,
@@ -25,23 +25,25 @@
     "federal": {
       "requirements_applicable": [
         "45 CFR Part 1355 (CFSR)",
-        "31 U.S.C. \u00a7\u00a7 7501\u20137507 (Single Audit Act)",
+        "31 U.S.C. §§ 7501–7507 (Single Audit Act)",
         "5 U.S.C. App. (Inspector General Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "New Jersey - Title 9, Chapter 6 (Abuse of Children Act \u2013 all persons must report, e.g. \u00a7\u00a09:6-8.10)",
-          "source_url": "https://www.njleg.state.nj.us",
+          "citation_text": "New Jersey - Title 9, Chapter 6 (Abuse of Children Act – all persons must report, e.g. § 9:6-8.10)",
+          "source_url": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1?f=templates&fn=default.htm&vid=Publish:10.1048/Enu",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": false
         },
         {
           "citation_text": "New Jersey - Title 30, Chapter 4C (Child Placement Review Act, etc.)",
-          "source_url": "https://www.njleg.state.nj.us",
+          "source_url": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1?f=templates&fn=default.htm&vid=Publish:10.1048/Enu",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": false
         },
         {
           "citation_text": "Title 9: Children - Juvenile Code - CHILD WELFARE PRIMARY",
@@ -299,10 +301,10 @@
     }
   },
   "state_agency": {
-    "name": "Division of Child Protection and Permanency (DCF)",
-    "acronym": "DCPP",
+    "name": "New Jersey Division of Child Protection and Permanency",
+    "acronym": "CP&P",
     "hotline": "1-877-652-2873",
-    "website": "https://www.njleg.state.nj.us"
+    "website": "https://www.nj.gov/dcf/"
   },
   "linked_output": "OUT-06",
   "linked_action": "ACT-03",
@@ -337,9 +339,10 @@
   "timeline_requirements": [
     {
       "requirement_name": "Appeal deadline",
-      "deadline": "30 days",
-      "starts_from": "Final order",
+      "deadline": "45 days (21 days from a termination of parental rights order)",
+      "starts_from": "Filing of the signed final judgment or order of the Superior Court",
       "source": "court_rule",
+      "source_url": "https://www.njcourts.gov/self-help/appeals/guide",
       "consequence_of_miss": "Loss of appeal rights"
     },
     {

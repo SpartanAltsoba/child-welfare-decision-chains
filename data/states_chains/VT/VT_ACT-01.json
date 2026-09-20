@@ -5,9 +5,9 @@
   "node_family": "ACT",
   "subnode": "ACT-01",
   "trigger_name": "Voluntary Services",
-  "summary_html": "Family agrees to a **voluntary service plan**\u2014counseling, substance-use treatment, parenting classes\u2014designed to correct conditions without court compulsion. Federal law prioritizes family preservation through prevention and support services.",
-  "authority_html": "- **Family First Prevention Services Act (FFPSA)** \u2014 prevention services and kin support framework  \n- **SSA Title IV-B (42 U.S.C. \u00a7\u00a7 620\u2013629m)** \u2014 child-welfare services and family-preservation funding",
-  "icon": "\ud83e\udde9",
+  "summary_html": "Family agrees to a **voluntary service plan**—counseling, substance-use treatment, parenting classes—designed to correct conditions without court compulsion. Federal law prioritizes family preservation through prevention and support services.",
+  "authority_html": "- **Family First Prevention Services Act (FFPSA)** — prevention services and kin support framework  \n- **SSA Title IV-B (42 U.S.C. §§ 620–629m)** — child-welfare services and family-preservation funding",
+  "icon": "🧩",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -27,37 +27,39 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 115-123 (FFPSA)",
-        "42 U.S.C. \u00a7\u00a7 620\u2013629m (SSA Title IV-B)"
+        "42 U.S.C. §§ 620–629m (SSA Title IV-B)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Vermont - 33 V.S.A. Chapter\u00a049 (Child Welfare Services \u2013 \u00a7\u00a04913 mandatory reporting)",
-          "source_url": "https://legislature.vermont.gov",
+          "citation_text": "Vermont - 33 V.S.A. Chapter 49 (Child Welfare Services – § 4913 mandatory reporting)",
+          "source_url": "https://legislature.vermont.gov/statutes/chapter/33/049",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Vermont - 33 V.S.A. Chapter\u00a053 (Proceedings in Family Court for abuse/neglect)",
-          "source_url": "https://legislature.vermont.gov",
+          "citation_text": "Vermont - 33 V.S.A. Chapter 53 (Children in Need of Care or Supervision — CHINS proceedings in the Family Division of the Superior Court)",
+          "source_url": "https://legislature.vermont.gov/statutes/chapter/33/053",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 15: Domestic Relations",
-          "source_url": "https://law.justia.com/codes/vermont/title-15/",
+          "source_url": "https://legislature.vermont.gov/statutes/title/15",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 33: Human Services - DCF - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/vermont/title-33/",
+          "source_url": "https://legislature.vermont.gov/statutes/title/33",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -66,6 +68,12 @@
     },
     "administrative_rule": {
       "regulations_applicable": [
+        {
+          "title": "Vermont DCF Family Services Division rules and policy manual (Rule 2000 Response to Child Abuse and Neglect; Rule 3000 Administrative Review Process; Rule 7000 Transition Age Youth)",
+          "url": "https://dcf.vermont.gov/fsd/laws-rules",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
+        },
         {
           "title": "Agency 13 - AGENCY OF HUMAN SERVICES",
           "url": "https://www.law.cornell.edu/regulations/vermont/agency-13"
@@ -140,7 +148,7 @@
         {
           "provision_id": "VT_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Vermont Const. art. chapter_I, \u00a7 11",
+          "citation": "Vermont Const. art. chapter_I, § 11",
           "federal_parallel": "U.S. Const. amend. IV"
         }
       ]
@@ -303,10 +311,10 @@
     }
   },
   "state_agency": {
-    "name": "Department for Children and Families",
-    "acronym": "DCF",
+    "name": "Vermont Department for Children and Families, Family Services Division",
+    "acronym": "FSD",
     "hotline": "1-800-649-5285",
-    "website": "https://legislature.vermont.gov"
+    "website": "https://dcf.vermont.gov/fsd"
   },
   "linked_decision": "DEC-06",
   "linked_input": "INP-05",
@@ -339,10 +347,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
+      "deadline": "72 hours (State holidays excluded)",
+      "starts_from": "Issuance of an emergency care order or conditional custody order under 33 V.S.A. § 5305",
       "source": "state_statute",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "consequence_of_miss": "If the custodial parent, guardian, or custodian was not notified under 33 V.S.A. § 5306 and did not appear or waive appearance, the court must hold another temporary care hearing within one business day of the affidavit showing that (33 V.S.A. § 5307(a)).",
+      "source_url": "https://legislature.vermont.gov/statutes/section/33/053/05307"
     },
     {
       "requirement_name": "Case plan development",

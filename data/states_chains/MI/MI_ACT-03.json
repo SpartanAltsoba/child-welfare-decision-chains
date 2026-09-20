@@ -6,8 +6,8 @@
   "subnode": "ACT-03",
   "trigger_name": "Foster Care Placement",
   "summary_html": "The child is **removed from the home** and placed in foster care under court order or emergency authority. Federal statutes tie funding to safety findings, judicial oversight, and permanency planning.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal monitoring of placement decisions",
-  "icon": "\ud83d\udea8",
+  "authority_html": "- **ASFA / SSA Title IV-E** — removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** — federal monitoring of placement decisions",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.35,
@@ -21,30 +21,31 @@
     "constitutional": {
       "constraints_triggered": [
         "U.S. Const. amend. IV",
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)",
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Michigan - Michigan Compiled Laws \u00a7\u00a0722.621 et seq. (Child Protection Law \u2013 mandatory reporting)",
-          "source_url": "https://www.legislature.mi.gov",
+          "citation_text": "Michigan - Michigan Compiled Laws § 722.621 et seq. (Child Protection Law – mandatory reporting)",
+          "source_url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-Act-238-of-1975",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Michigan - Michigan Court Rules, Juvenile (child protective proceedings rules)",
-          "source_url": "https://www.legislature.mi.gov",
+          "citation_text": "Michigan - Michigan Court Rules, Subchapter 3.900 (Proceedings Involving Juveniles – child protective proceedings)",
+          "source_url": "https://www.courts.michigan.gov/siteassets/rules-instructions-administrative-orders/michigan-court-rules/michigan-court-rules.pdf",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19"
         },
         {
           "citation_text": "Title 722: Children - DHHS",
@@ -142,14 +143,14 @@
         {
           "provision_id": "MI_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Michigan Const. art. I, \u00a7 11",
+          "citation": "Michigan Const. art. I, § 11",
           "federal_parallel": "U.S. Const. amend. IV"
         },
         {
           "provision_id": "MI_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Michigan Const. art. I, \u00a7 17",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Michigan Const. art. I, § 17",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -298,10 +299,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Health and Human Services",
+    "name": "Michigan Department of Health and Human Services",
     "acronym": "MDHHS",
-    "hotline": "1-855-444-3911",
-    "website": "https://www.legislature.mi.gov"
+    "hotline": "855-444-3911",
+    "website": "https://www.michigan.gov/mdhhs"
   },
   "icwa_compliant": true,
   "icwa_details": {
@@ -339,10 +340,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
-      "source": "state_statute",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "deadline": "24 hours, excluding Sundays and holidays",
+      "starts_from": "Child taken into protective custody",
+      "source": "court_rule",
+      "source_url": "https://www.courts.michigan.gov/siteassets/rules-instructions-administrative-orders/michigan-court-rules/michigan-court-rules.pdf",
+      "consequence_of_miss": "The child must be released unless the preliminary hearing is adjourned for good cause shown (MCR 3.965(A)(1))."
     },
     {
       "requirement_name": "Case plan development",

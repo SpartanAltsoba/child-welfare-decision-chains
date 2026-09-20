@@ -6,8 +6,8 @@
   "subnode": "ACT-02",
   "trigger_name": "Court-Ordered Services",
   "summary_html": "Court orders a **service plan or supervision** period following a substantiated finding. The goal is rehabilitation and reunification consistent with federal 'reasonable-efforts' requirements.",
-  "authority_html": "- **Adoption and Safe Families Act (ASFA)** \u2014 reasonable-efforts and permanency mandates  \n- **SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 reimbursement framework for foster-care and service costs",
-  "icon": "\u2696\ufe0f",
+  "authority_html": "- **Adoption and Safe Families Act (ASFA)** — reasonable-efforts and permanency mandates  \n- **SSA Title IV-E (42 U.S.C. §§ 670–679c)** — reimbursement framework for foster-care and service costs",
+  "icon": "⚖️",
   "theme_color": "#1E90FF",
   "domain": "civil",
   "procedural_weight": 0.55,
@@ -25,16 +25,16 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)"
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Oklahoma - Title 10A (Children and Juvenile Code), \u00a7\u00a01-2-101 (Duty to report) and Article 1, Part 4 (deprived child proceedings)",
-          "source_url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=10000",
+          "citation_text": "Oklahoma - Title 10A (Children and Juvenile Code), § 1-2-101 (Duty to report) and Article 1, Part 4 (deprived child proceedings)",
+          "source_url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=455989",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
@@ -57,9 +57,9 @@
         },
         {
           "citation_text": "Title 10a: Children and Juvenile Code - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/oklahoma/title-10a/",
+          "source_url": "https://www.oscn.net/applications/oscn/Index.asp?ftdb=STOKSTA1&level=1",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -246,10 +246,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Services",
+    "name": "Oklahoma Human Services",
     "acronym": "OKDHS",
     "hotline": "1-800-522-3511",
-    "website": "https://www.oklegislature.gov"
+    "website": "https://oklahoma.gov/okdhs.html"
   },
   "icwa_compliant": true,
   "icwa_details": {
@@ -287,10 +287,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
+      "deadline": "2 judicial days",
+      "starts_from": "Child taken into protective or emergency custody",
       "source": "state_statute",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "source_url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=455998",
+      "consequence_of_miss": "Not specified in 10A O.S. § 1-4-203"
     },
     {
       "requirement_name": "Case plan development",

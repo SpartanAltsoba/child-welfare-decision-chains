@@ -4,10 +4,10 @@
   "state_name": "Idaho",
   "node_family": "INP",
   "subnode": "INP-10",
-  "trigger_name": "Agency Escalation (Screening \u2192 Investigation)",
+  "trigger_name": "Agency Escalation (Screening → Investigation)",
   "summary_html": "An intake **screen** is elevated to a formal **investigation/assessment** under state criteria. CAPTA and CFSR establish the federal expectations for screening, timelines, and investigative quality.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 screening/investigation conditions for funding  \n- **CFSR (45 CFR Part 1355)** \u2014 federal performance/quality review framework",
-  "icon": "\ud83d\udd04",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — screening/investigation conditions for funding  \n- **CFSR (45 CFR Part 1355)** — federal performance/quality review framework",
+  "icon": "🔄",
   "theme_color": "#20B2AA",
   "domain": "civil",
   "procedural_weight": 0.45,
@@ -23,51 +23,51 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
         "45 CFR Part 1355 (CFSR Regulations)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Idaho - Title 16, Chapter 16 (Child Protective Act \u2013 reporting and removal)",
+          "citation_text": "Idaho - Title 16, Chapter 16 (Child Protective Act – reporting and removal)",
           "source_url": "https://legislature.idaho.gov/statutesrules/idstat/Title16/T16CH16/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 16: Child Protective Act - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/idaho/title-16/",
+          "citation_text": "Idaho Code Title 16 — Juvenile Proceedings (Child Protective Act is chapter 16) - CHILD WELFARE PRIMARY",
+          "source_url": "https://legislature.idaho.gov/statutesrules/idstat/Title16/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 32: Domestic Relations",
-          "source_url": "https://law.justia.com/codes/idaho/title-32/",
+          "citation_text": "Idaho Code Title 32 — Domestic Relations",
+          "source_url": "https://legislature.idaho.gov/statutesrules/idstat/Title32/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 39: Health and Safety",
-          "source_url": "https://law.justia.com/codes/idaho/title-39/",
+          "citation_text": "Idaho Code Title 39 — Health and Safety",
+          "source_url": "https://legislature.idaho.gov/statutesrules/idstat/Title39/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 56: Public Assistance",
-          "source_url": "https://law.justia.com/codes/idaho/title-56/",
+          "citation_text": "Idaho Code Title 56 — Public Assistance and Welfare",
+          "source_url": "https://legislature.idaho.gov/statutesrules/idstat/Title56/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -76,6 +76,12 @@
     },
     "administrative_rule": {
       "regulations_applicable": [
+        {
+          "title": "IDAPA 16.06.01 — Child and Family Services (Idaho Department of Health and Welfare)",
+          "url": "https://adminrules.idaho.gov/rules/current/16/160601.pdf",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
+        },
         {
           "title": "Title IDAPA 05 - Juvenile Corrections, Department of",
           "url": "https://www.law.cornell.edu/regulations/idaho/title-IDAPA-05"
@@ -309,28 +315,20 @@
     }
   },
   "state_agency": {
-    "name": "Department of Health and Welfare",
+    "name": "Idaho Department of Health and Welfare, Child and Family Services",
     "acronym": "DHW",
-    "hotline": "1-855-552-5437",
-    "website": "https://legislature.idaho.gov"
+    "hotline": "1-855-552-5437 (855-552-KIDS) statewide; Treasure Valley 208-334-5437",
+    "website": "https://healthandwelfare.idaho.gov/services-programs/children-families-older-adults/child-and-family-services-and-foster-care-7"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Shelter Staff",
-    "Childcare Staff",
-    "Clergy",
-    "Foster Parents",
-    "Coaches",
-    "Coroners",
-    "EMTs/Emergency Personnel",
-    "Judges",
-    "District Attorneys"
+    "Any person (universal mandatory reporting) — Idaho Code § 16-1605(1)",
+    "Physicians, hospital residents, interns, nurses, coroners (named in Idaho Code § 16-1605(1))",
+    "School teachers, day care personnel, social workers (named in Idaho Code § 16-1605(1))",
+    "Hospital or similar institution staff report through the person in charge of the institution, who makes the necessary reports — Idaho Code § 16-1605(1)",
+    "Only exception: a duly ordained minister of religion, as to a confession or confidential communication received in his ecclesiastical capacity — Idaho Code § 16-1605(3)"
   ],
   "reporting_type": "centralized",
-  "reporting_details": "Not applicable",
+  "reporting_details": "Idaho is a universal mandatory reporting state: any person who has reason to believe a child under 18 has been abused, abandoned, or neglected must report it to law enforcement or the Department of Health and Welfare within 24 hours, failure to report is a misdemeanor, and the only exception is a duly ordained minister of religion as to a confession made in his ecclesiastical capacity (Idaho Code § 16-1605(1), (3), (4)).",
   "definitions": {
     "abuse": [
       "Physical abuse",
@@ -391,16 +389,17 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
-      "starts_from": "Report received",
-      "source": "state_statute",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "deadline": "Immediately (Priority I); child seen within 48 hours (Priority II); worker responds within 3 calendar days and child seen within 5 calendar days (Priority III)",
+      "starts_from": "Department receipt of the referral",
+      "source": "admin_rule",
+      "consequence_of_miss": "Any variance from the response priorities must be documented in the family's case file with the action taken and reviewed and signed by the Child and Family Services Supervisor (IDAPA 16.06.01.554)",
+      "source_url": "https://adminrules.idaho.gov/rules/current/16/160601.pdf"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],
@@ -411,12 +410,21 @@
         "legal_guardian"
       ],
       "method": "any_reasonable",
-      "timing": "Before investigation interview",
+      "timing": "In writing, at the time of or within seventy-two (72) hours after the department makes first contact directly and in person with the parents, guardians, or other persons having legal custody of the child (Idaho Code § 16-1649(2)); the notification must be on a form prescribed by the department (§ 16-1649(4))",
       "content_required": [
-        "Nature of allegation",
-        "Rights"
+        "The right to refuse to answer questions",
+        "The right to obtain an attorney at their own expense, consult with that attorney, and have that attorney present during an investigation (the department is not authorized to appoint or obtain an attorney)",
+        "The right to refuse entry to their home or other real property",
+        "The right to refuse the questioning of any minor children in their home or on their property, unless a court of competent jurisdiction has issued an order authorizing a particular entry, questioning, or examination",
+        "A statement that if the safety of the child cannot be determined, the department may request assistance from a law enforcement agency or seek a court order"
       ],
-      "defective_notice_consequence": "May invalidate findings"
+      "defective_notice_consequence": "Failure by the department to provide the notification in a specific investigation shall not affect the department's ability to conduct that investigation or to carry out its duties under the Child Protective Act (Idaho Code § 16-1649(5))",
+      "statutory_basis": {
+        "citation_text": "Idaho Code § 16-1649 (Notification of rights)",
+        "source_url": "https://legislature.idaho.gov/statutesrules/idstat/Title16/T16CH16/SECT16-1649/",
+        "authority_type": "state_statute",
+        "last_verified": "2026-09-19"
+      }
     }
   ],
   "door_scenarios": [

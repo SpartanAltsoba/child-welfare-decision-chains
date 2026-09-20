@@ -6,8 +6,8 @@
   "subnode": "OUT-05",
   "trigger_name": "Case Dismissal",
   "summary_html": "Case dismissed due to **unsubstantiated evidence** or court determination that allegations not proven. Federal oversight requires accurate recording of such closures for audit and funding compliance.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 defines data-collection standards for unfounded cases  \n- **CFSR (45 CFR Part 1355)** \u2014 requires tracking and reporting of unsubstantiated outcomes",
-  "icon": "\ud83d\uddc3\ufe0f",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — defines data-collection standards for unfounded cases  \n- **CFSR (45 CFR Part 1355)** — requires tracking and reporting of unsubstantiated outcomes",
+  "icon": "🗃️",
   "theme_color": "#708090",
   "domain": "civil",
   "procedural_weight": 0.55,
@@ -23,23 +23,25 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Maryland - Family Law Article, Title 5, Subtitle 7 (Child Abuse and Neglect \u2013 mandatory reporting)",
-          "source_url": "https://mgaleg.maryland.gov",
+          "citation_text": "Maryland - Md. Code, Family Law Article §§ 5-701 et seq. (Child Abuse and Neglect; definitions at § 5-701, mandatory reporting at §§ 5-704 and 5-705, investigation at § 5-706, appeal of findings at § 5-706.1)",
+          "source_url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gfl&section=5-701&enactments=false",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Maryland - Courts & Judicial Proc. \u00a7\u00a03-801 et seq. (CINA\u2014Child in Need of Assistance proceedings)",
-          "source_url": "https://mgaleg.maryland.gov",
+          "citation_text": "Maryland - Courts & Judicial Proc. § 3-801 et seq. (CINA—Child in Need of Assistance proceedings)",
+          "source_url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcj&section=3-801&enactments=false",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
@@ -279,13 +281,13 @@
     }
   },
   "state_agency": {
-    "name": "Department of Social Services",
-    "acronym": "DSS",
-    "hotline": "1-800-332-6347",
-    "website": "https://mgaleg.maryland.gov"
+    "name": "Maryland Department of Human Services",
+    "acronym": "DHS",
+    "hotline": "1-800-917-7383",
+    "website": "https://dhs.maryland.gov/"
   },
   "extended_foster_care": true,
-  "extended_foster_care_age": "Up to age 21 (until 21st birthday)",
+  "extended_foster_care_age": "Up to the 21st birthday, and only while the young person meets one of five conditions: completing secondary education or a program leading to an equivalent credential; enrolled in an institution providing post-secondary or vocational education; participating in a program or activity designed to promote or remove barriers to employment; employed at least 80 hours per month; or incapable of any of those due to a medical condition documented in the case plan (COMAR 07.02.11.04B). Not eligible for out-of-home placement if married, in the military, or not complying with those conditions (COMAR 07.02.11.04C). Re-entry: the juvenile court has jurisdiction over a former CINA whose commitment to the local department was rescinded after age 18 but before age 20 years 6 months and who did not exit foster care due to reunification, adoption, guardianship, marriage, or uniformed services duty, and that jurisdiction continues until age 21 (Md. Code, Cts. & Jud. Proc. § 3-804(b)(2) and (c)).",
   "linked_action": "ACT-02",
   "linked_decision": "DEC-01",
   "linked_input": "INP-01",

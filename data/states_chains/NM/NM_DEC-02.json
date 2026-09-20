@@ -6,8 +6,8 @@
   "subnode": "DEC-02",
   "trigger_name": "Accept for Investigation / Assessment",
   "summary_html": "CPS **accepts** a report for **investigation/assessment**. CAPTA sets the floor for investigation procedures; CFSR evaluates timeliness, safety, and decision quality.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 investigation standards tied to funding  \n- **CFSR (45 CFR Part 1355)** \u2014 timeliness & response conformity indicators",
-  "icon": "\ud83d\uddc2\ufe0f",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — investigation standards tied to funding  \n- **CFSR (45 CFR Part 1355)** — timeliness & response conformity indicators",
+  "icon": "🗂️",
   "theme_color": "#2E8B57",
   "domain": "civil",
   "procedural_weight": 0.55,
@@ -23,20 +23,21 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "New Mexico - Chapter 32A, Article 4 (Child Abuse and Neglect Act \u2013 mandatory reporting and custody)",
-          "source_url": "https://www.nmlegis.gov",
+          "citation_text": "New Mexico - NMSA 1978 Chapter 32A, Article 4 (Abuse and Neglect Act: 32A-4-3 duty to report, 32A-4-18 custody hearings, 32A-4-19 adjudicatory hearings), CYFD-published Children's Code compilation (2023 text; 32A-4-3 amended 2025 by SB 42)",
+          "source_url": "https://www.cyfd.nm.gov/wp-content/uploads/2024/06/chapter-32a-children-s-code-2023.pdf",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Title 27: Human Services Department - CYFD",
+          "citation_text": "New Mexico Statutes Chapter 27 - Public Assistance (public assistance and Medicaid programs; CYFD's child-welfare authority is not in this chapter — it is the Children, Youth and Families Department Act, NMSA 1978 § 9-2A-7(D), and the Children's Code, NMSA 1978 § 32A-1-1, per 8.10.3.3 NMAC)",
           "source_url": "https://law.justia.com/codes/new-mexico/title-27/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-24",
@@ -287,15 +288,17 @@
     }
   },
   "state_agency": {
-    "name": "Children, Youth and Families Department",
+    "name": "New Mexico Children, Youth and Families Department",
     "acronym": "CYFD",
     "hotline": "1-855-333-7233",
-    "website": "https://www.nmlegis.gov"
+    "website": "https://www.cyfd.nm.gov/"
   },
   "investigation_requirements": [
     "Home visit required",
     "Victim interview required",
-    "Risk assessment required"
+    "Risk assessment required",
+    "A local law enforcement officer trained in the investigation of child abuse and neglect is responsible for investigating reports of alleged child abuse or neglect at schools, daycare facilities or child care facilities (NMSA 1978 § 32A-4-3(C))",
+    "If the child alleged to be abused or neglected is in the care or control of CYFD, or in a facility administratively connected to CYFD, the report must be investigated by a local law enforcement officer trained in the investigation of child abuse and neglect (NMSA 1978 § 32A-4-3(D))"
   ],
   "evidence_level": "Credible or substantial evidence",
   "_metadata": {
@@ -328,15 +331,16 @@
       "requirement_name": "Safety decision",
       "deadline": "Immediate upon contact",
       "starts_from": "First family contact",
-      "source": "admin_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Child safety risk"
     },
     {
       "requirement_name": "Disposition finding",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
-      "source": "state_statute",
-      "consequence_of_miss": "Procedural violation"
+      "deadline": "45 days (one supervisor-approved extension of up to 30 additional days)",
+      "starts_from": "Statewide Central Intake accepts the report",
+      "source": "admin_rule",
+      "source_url": "https://www.srca.nm.gov/parts/title08/08.010.0003.html",
+      "consequence_of_miss": "Not specified in 8.10.3.19 NMAC"
     }
   ],
   "notice_requirements": [

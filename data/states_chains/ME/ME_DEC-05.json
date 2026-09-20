@@ -6,8 +6,8 @@
   "subnode": "DEC-05",
   "trigger_name": "File Petition / Open Dependency Case",
   "summary_html": "Agency **files a court petition** to open a **dependency** (or similar) case. Federal funding frameworks (IV-E/ASFA) link court oversight, reasonable-efforts findings, and permanency timelines to downstream actions.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 court findings; timelines; permanency planning  \n- **CFSR (45 CFR Part 1355)** \u2014 federal review of court/agency performance measures",
-  "icon": "\ud83d\udcdc",
+  "authority_html": "- **ASFA / SSA Title IV-E** — court findings; timelines; permanency planning  \n- **CFSR (45 CFR Part 1355)** — federal review of court/agency performance measures",
+  "icon": "📜",
   "theme_color": "#6A5ACD",
   "domain": "civil",
   "procedural_weight": 0.45,
@@ -21,13 +21,13 @@
   "layers": {
     "constitutional": {
       "constraints_triggered": [
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E)",
+        "42 U.S.C. §§ 670–679c (Title IV-E)",
         "Public Law 105-89 (ASFA)",
         "45 CFR Part 1355 (CFSR)"
       ]
@@ -35,20 +35,20 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Maine - Title 22, Chapter 1071 (Child and Family Services and Child Protection Act \u2013 includes \u00a7\u00a04011-A reporting)",
+          "citation_text": "Maine - Title 22, Chapter 1071 (Child and Family Services and Child Protection Act – includes § 4011-A reporting)",
           "source_url": "https://legislature.maine.gov/statutes/22/title22ch1071sec0.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 22: Health and Welfare - DHHS - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/maine/title-22/",
+          "citation_text": "Maine — 22 M.R.S. § 4032 (Child protection petition; petitioners; content; filing)",
+          "source_url": "https://legislature.maine.gov/statutes/22/title22sec4032.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
-          "title_code": "",
-          "chapter": ""
+          "title_code": "22",
+          "chapter": "1071"
         }
       ]
     },
@@ -132,8 +132,8 @@
         {
           "provision_id": "ME_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Maine Const. art. I, \u00a7 6-A",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Maine Const. art. I, § 6-A",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -295,10 +295,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Health and Human Services",
-    "acronym": "DHHS",
+    "name": "Maine Department of Health and Human Services, Office of Child and Family Services",
+    "acronym": "OCFS",
     "hotline": "1-800-452-1999",
-    "website": "https://legislature.maine.gov"
+    "website": "https://www.maine.gov/dhhs/ocfs"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -334,17 +334,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Safety decision",
-      "deadline": "Immediate upon contact",
-      "starts_from": "First family contact",
+      "deadline": "Before the caseworker leaves the field, in consultation with a supervisor",
+      "starts_from": "Field contact during a child protection investigation",
       "source": "admin_rule",
-      "consequence_of_miss": "Child safety risk"
+      "source_url": "https://www.maine.gov/dhhs/sites/maine.gov.dhhs/files/inline-files/2.2%20Child%20Protection%20Investigation_0.pdf",
+      "consequence_of_miss": "Not specified in OCFS Policy 2.2, Child Protection Investigation"
     },
     {
       "requirement_name": "Disposition finding",
-      "deadline": "30-60 days",
+      "deadline": "Any time prior to, or at the end of, the 40-day investigation period; the investigation must be closed within 45 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
-      "consequence_of_miss": "Procedural violation"
+      "source": "admin_rule",
+      "source_url": "https://www.maine.gov/dhhs/sites/maine.gov.dhhs/files/inline-files/2.2%20Child%20Protection%20Investigation_0.pdf",
+      "consequence_of_miss": "Not specified in OCFS Policy 2.2, Child Protection Investigation"
     }
   ],
   "notice_requirements": [

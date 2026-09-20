@@ -5,9 +5,9 @@
   "node_family": "PMC",
   "subnode": "PMC-03",
   "trigger_name": "Citizen Review Panels",
-  "summary_html": "**CAPTA \u00a75106a(c)** requires every state to maintain **Citizen Review Panels** that evaluate CPS policies. Project Milk Carton checks whether panels are active, independent, and publicly reporting.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7 5106a(c))** \u2014 Citizen Review Panel mandate and reporting requirements",
-  "icon": "\ud83d\udde3\ufe0f",
+  "summary_html": "**CAPTA §5106a(c)** requires every state to maintain **Citizen Review Panels** that evaluate CPS policies. Project Milk Carton checks whether panels are active, independent, and publicly reporting.",
+  "authority_html": "- **CAPTA (42 U.S.C. § 5106a(c))** — Citizen Review Panel mandate and reporting requirements",
+  "icon": "🗣️",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -22,23 +22,23 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7 5106a(c) (CAPTA)"
+        "42 U.S.C. § 5106a(c) (CAPTA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
           "citation_text": "Illinois - 325 ILCS 5 (Abused and Neglected Child Reporting Act)",
-          "source_url": "https://law.onecle.com/illinois/325ilcs5/",
+          "source_url": "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=1460&ChapterID=32",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Illinois - 705 ILCS 405/2 (Juvenile Court Act \u2013 abuse/neglect proceedings)",
-          "source_url": "https://law.onecle.com/illinois/705ilcs5/",
+          "citation_text": "Illinois - 705 ILCS 405/2 (Juvenile Court Act – abuse/neglect proceedings)",
+          "source_url": "https://www.ilga.gov/legislation/ILCS/details?ActID=1863&ChapterID=50&ChapAct=705%2BILCS%2B405%2F&SeqStart=2600000&SeqEnd=7600000",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
@@ -310,10 +310,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children and Family Services",
+    "name": "Illinois Department of Children and Family Services",
     "acronym": "DCFS",
     "hotline": "1-800-252-2873",
-    "website": "https://www.ilga.gov"
+    "website": "https://dcfs.illinois.gov/"
   },
   "linked_fail": "FAIL-06",
   "_metadata": {
@@ -354,7 +354,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

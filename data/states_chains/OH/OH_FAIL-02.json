@@ -5,9 +5,9 @@
   "node_family": "FAIL",
   "subnode": "FAIL-02",
   "trigger_name": "Unlawful Removal",
-  "summary_html": "A **child is removed without exigency or warrant**, violating constitutional rights. Federal courts treat such removals as seizures under the Fourth and Fourteenth Amendments, actionable via \u00a71983.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 limits removals to lawful emergencies and requires judicial review  \n- **U.S. Constitution (4th & 14th Amendments)** \u2014 protects family integrity; requires due process",
-  "icon": "\ud83d\udea8",
+  "summary_html": "A **child is removed without exigency or warrant**, violating constitutional rights. Federal courts treat such removals as seizures under the Fourth and Fourteenth Amendments, actionable via §1983.",
+  "authority_html": "- **ASFA / SSA Title IV-E** — limits removals to lawful emergencies and requires judicial review  \n- **U.S. Constitution (4th & 14th Amendments)** — protects family integrity; requires due process",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.9,
@@ -24,43 +24,51 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)",
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)",
         "U.S. Constitution, Amendments IV & XIV"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Ohio - Ohio Rev. Code \u00a7\u00a02151.421 (Mandatory reporting of child abuse)",
-          "source_url": "https://codes.ohio.gov/ohio-revised-code/chapter-2151",
+          "citation_text": "Ohio - Ohio Rev. Code § 2151.421 (Mandatory reporting of child abuse)",
+          "source_url": "https://codes.ohio.gov/ohio-revised-code/section-2151.421",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Ohio - Ohio Rev. Code Chapter\u00a02151 (Juvenile Court \u2013 abuse, neglect, dependency)",
-          "source_url": "https://www.legislature.ohio.gov",
+          "citation_text": "Ohio - Ohio Rev. Code Chapter 2151 (Juvenile Court – abuse, neglect, dependency)",
+          "source_url": "https://codes.ohio.gov/ohio-revised-code/chapter-2151",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Ohio - Ohio Rev. Code Chapter 5153 (County children services agencies)",
+          "source_url": "https://codes.ohio.gov/ohio-revised-code/chapter-5153",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
     "administrative_rule": {
       "regulations_applicable": [
         {
-          "title": "5101:2 - Division of Social Services (Child Protective Services)",
-          "url": "https://www.law.cornell.edu/regulations/ohio/title-5101-2"
+          "title": "5180:3 - Ohio Department of Children and Youth | Children Services and Supports",
+          "url": "https://codes.ohio.gov/ohio-administrative-code/5180:3"
         },
         {
-          "title": "5101:5 - Child Abuse and Neglect Prevention",
-          "url": "https://www.law.cornell.edu/regulations/ohio/title-5101-5"
+          "title": "5180:3-5 - Assessments (PCSA safety assessment, safety plan, and family assessment)",
+          "url": "https://codes.ohio.gov/ohio-administrative-code/chapter-5180:3-5"
         },
         {
-          "title": "5101 - Department of Job and Family Services",
-          "url": "https://www.law.cornell.edu/regulations/ohio/title-5101"
+          "title": "5180 - Ohio Department of Children and Youth",
+          "url": "https://codes.ohio.gov/ohio-administrative-code/5180"
         }
       ],
-      "source_url": "https://www.law.cornell.edu/regulations/ohio.html"
+      "source_url": "https://codes.ohio.gov/ohio-administrative-code"
     },
     "state_constitutional": {
       "plane_reference": "state_constitutional_OH",
@@ -225,10 +233,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Job and Family Services",
-    "acronym": "ODJFS",
+    "name": "Ohio Department of Children and Youth",
+    "acronym": "DCY",
     "hotline": "1-855-642-4453",
-    "website": "https://www.legislature.ohio.gov"
+    "website": "https://childrenandyouth.ohio.gov/"
   },
   "linked_output": "OUT-05",
   "linked_action": "ACT-03",
@@ -265,7 +273,7 @@
       "requirement_name": "Appeal deadline",
       "deadline": "30 days",
       "starts_from": "Final order",
-      "source": "court_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Loss of appeal rights"
     },
     {

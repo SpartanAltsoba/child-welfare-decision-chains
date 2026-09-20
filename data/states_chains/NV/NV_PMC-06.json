@@ -6,8 +6,8 @@
   "subnode": "PMC-06",
   "trigger_name": "Project Milk Carton AI Analysis",
   "summary_html": "The **Project Milk Carton AI Layer** performs cross-analysis of federal and state chains to identify weak points, policy gaps, and non-compliance. This is the citizen feedback mechanism for accountability and reform.",
-  "authority_html": "No direct statutory authority \u2014 citizen innovation layer built on public data and federal transparency laws.",
-  "icon": "\ud83e\udd16",
+  "authority_html": "No direct statutory authority — citizen innovation layer built on public data and federal transparency laws.",
+  "icon": "🤖",
   "theme_color": "#20B2AA",
   "domain": "civil",
   "procedural_weight": 0.9,
@@ -26,35 +26,35 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Nevada - NRS Chapter\u00a0432B (Protection of Children from Abuse and Neglect)",
+          "citation_text": "Nevada - NRS Chapter 432B (Protection of Children from Abuse and Neglect)",
           "source_url": "https://www.leg.state.nv.us/NRS/NRS-432B.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 127: Adoption",
-          "source_url": "https://law.justia.com/codes/nevada/title-127/",
+          "citation_text": "Nevada - NRS Chapter 127 (Adoption of Children and Adults)",
+          "source_url": "https://www.leg.state.nv.us/NRS/NRS-127.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 128: Termination of Parental Rights",
-          "source_url": "https://law.justia.com/codes/nevada/title-128/",
+          "citation_text": "Nevada - NRS Chapter 128 (Termination of Parental Rights)",
+          "source_url": "https://www.leg.state.nv.us/NRS/NRS-128.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 432: Services for Children - DCFS",
-          "source_url": "https://law.justia.com/codes/nevada/title-432/",
+          "citation_text": "Nevada - NRS Chapter 432 (Public Services for Children)",
+          "source_url": "https://www.leg.state.nv.us/NRS/NRS-432.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -240,10 +240,10 @@
     }
   },
   "state_agency": {
-    "name": "Division of Child and Family Services",
+    "name": "Nevada Division of Child and Family Services",
     "acronym": "DCFS",
-    "hotline": "1-833-803-1183",
-    "website": "https://www.leg.state.nv.us"
+    "hotline": "Clark County 702-399-0081; Washoe County 833-900-7233; all other counties 833-571-1041 (after hours: local law enforcement)",
+    "website": "https://dcfs.nv.gov/"
   },
   "linked_fail": "ALL",
   "_metadata": {
@@ -284,7 +284,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

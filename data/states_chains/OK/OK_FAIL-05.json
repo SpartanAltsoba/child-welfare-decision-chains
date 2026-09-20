@@ -6,8 +6,8 @@
   "subnode": "FAIL-05",
   "trigger_name": "Discrimination / Retaliation",
   "summary_html": "Agency or actor engages in **discriminatory or retaliatory action**, violating civil-rights or placement-equality provisions. Federal statutes prohibit race, religion, sex, or disability bias in placements or investigations.",
-  "authority_html": "- **Multiethnic Placement Act (MEPA) & Interethnic Adoption Provisions (IEP)** \u2014 prohibits race/ethnicity discrimination in placements  \n- **Civil Rights Act (42 U.S.C. \u00a7 2000d)** \u2014 Title VI discrimination prohibitions in federally funded programs",
-  "icon": "\ud83d\udeab",
+  "authority_html": "- **Multiethnic Placement Act (MEPA) & Interethnic Adoption Provisions (IEP)** — prohibits race/ethnicity discrimination in placements  \n- **Civil Rights Act (42 U.S.C. § 2000d)** — Title VI discrimination prohibitions in federally funded programs",
+  "icon": "🚫",
   "theme_color": "#800080",
   "domain": "civil",
   "procedural_weight": 0.75,
@@ -24,16 +24,16 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 103-382 (MEPA/IEP)",
-        "42 U.S.C. \u00a7 2000d (Title VI Civil Rights Act)"
+        "42 U.S.C. § 2000d (Title VI Civil Rights Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Oklahoma - Title 10A (Children and Juvenile Code), \u00a7\u00a01-2-101 (Duty to report) and Article 1, Part 4 (deprived child proceedings)",
-          "source_url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=10000",
+          "citation_text": "Oklahoma - Title 10A (Children and Juvenile Code), § 1-2-101 (Duty to report) and Article 1, Part 4 (deprived child proceedings)",
+          "source_url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=455989",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
@@ -56,9 +56,9 @@
         },
         {
           "citation_text": "Title 10a: Children and Juvenile Code - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/oklahoma/title-10a/",
+          "source_url": "https://www.oscn.net/applications/oscn/Index.asp?ftdb=STOKSTA1&level=1",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -245,10 +245,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Services",
+    "name": "Oklahoma Human Services",
     "acronym": "OKDHS",
     "hotline": "1-800-522-3511",
-    "website": "https://www.oklegislature.gov"
+    "website": "https://oklahoma.gov/okdhs.html"
   },
   "linked_output": "OUT-02",
   "linked_action": "ACT-04",
@@ -284,9 +284,10 @@
     {
       "requirement_name": "Appeal deadline",
       "deadline": "30 days",
-      "starts_from": "Final order",
-      "source": "court_rule",
-      "consequence_of_miss": "Loss of appeal rights"
+      "starts_from": "Order appealed from (deprived-child or termination-of-parental-rights order)",
+      "source": "state_statute",
+      "source_url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=455523",
+      "consequence_of_miss": "Not specified in 10A O.S. § 1-5-103"
     },
     {
       "requirement_name": "1983 statute of limitations",

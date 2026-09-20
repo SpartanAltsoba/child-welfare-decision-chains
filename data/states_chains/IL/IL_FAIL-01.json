@@ -6,8 +6,8 @@
   "subnode": "FAIL-01",
   "trigger_name": "Court Reversal of Agency Decision",
   "summary_html": "A **court reverses or vacates** a CPS or agency decision due to procedural error, insufficient evidence, or constitutional violation. Federal review data (CFSR, ASFA) tracks judicial determinations on reasonable efforts and due process.",
-  "authority_html": "- **Adoption and Safe Families Act (ASFA)** \u2014 judicial findings of 'reasonable efforts' compliance  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal review of judicial/agency conformity  \n- **42 U.S.C. \u00a7 1983** \u2014 civil-rights remedy for unconstitutional removals (14th & 4th Amendments).",
-  "icon": "\u2696\ufe0f",
+  "authority_html": "- **Adoption and Safe Families Act (ASFA)** — judicial findings of 'reasonable efforts' compliance  \n- **CFSR Regulations (45 CFR Part 1355)** — federal review of judicial/agency conformity  \n- **42 U.S.C. § 1983** — civil-rights remedy for unconstitutional removals (14th & 4th Amendments).",
+  "icon": "⚖️",
   "theme_color": "#FF6347",
   "domain": "civil",
   "procedural_weight": 0.8,
@@ -20,7 +20,7 @@
     "constitutional": {
       "constraints_triggered": [
         "U.S. Const. amend. IV",
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
@@ -28,23 +28,23 @@
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
         "45 CFR Part 1355 (CFSR)",
-        "42 U.S.C. \u00a7 1983 (Civil Rights Act)"
+        "42 U.S.C. § 1983 (Civil Rights Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
           "citation_text": "Illinois - 325 ILCS 5 (Abused and Neglected Child Reporting Act)",
-          "source_url": "https://law.onecle.com/illinois/325ilcs5/",
+          "source_url": "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=1460&ChapterID=32",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Illinois - 705 ILCS 405/2 (Juvenile Court Act \u2013 abuse/neglect proceedings)",
-          "source_url": "https://law.onecle.com/illinois/705ilcs5/",
+          "citation_text": "Illinois - 705 ILCS 405/2 (Juvenile Court Act – abuse/neglect proceedings)",
+          "source_url": "https://www.ilga.gov/legislation/ILCS/details?ActID=1863&ChapterID=50&ChapAct=705%2BILCS%2B405%2F&SeqStart=2600000&SeqEnd=7600000",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
@@ -161,14 +161,14 @@
         {
           "provision_id": "IL_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Illinois Const. art. I, \u00a7 6",
+          "citation": "Illinois Const. art. I, § 6",
           "federal_parallel": "U.S. Const. amend. IV"
         },
         {
           "provision_id": "IL_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Illinois Const. art. I, \u00a7 2",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Illinois Const. art. I, § 2",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -330,10 +330,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children and Family Services",
+    "name": "Illinois Department of Children and Family Services",
     "acronym": "DCFS",
     "hotline": "1-800-252-2873",
-    "website": "https://www.ilga.gov"
+    "website": "https://dcfs.illinois.gov/"
   },
   "linked_output": "OUT-02",
   "linked_action": "ACT-03",
@@ -370,7 +370,7 @@
       "requirement_name": "Appeal deadline",
       "deadline": "30 days",
       "starts_from": "Final order",
-      "source": "court_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Loss of appeal rights"
     },
     {
@@ -379,6 +379,14 @@
       "starts_from": "Violation occurred",
       "source": "federal_statute",
       "consequence_of_miss": "Claim barred"
+    },
+    {
+      "requirement_name": "Request to amend or expunge an indicated report",
+      "deadline": "60 days, tolled until any related criminal or juvenile court action concludes (325 ILCS 5/7.16)",
+      "starts_from": "Date of the Department's notice that the investigation is complete",
+      "source": "state_statute",
+      "source_url": "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=1460&ChapterID=32",
+      "consequence_of_miss": "Loss of the departmental hearing to amend or remove the report from the State Central Register (325 ILCS 5/7.16)"
     }
   ],
   "notice_requirements": [

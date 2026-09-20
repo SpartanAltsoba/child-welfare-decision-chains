@@ -5,9 +5,9 @@
   "node_family": "OUT",
   "subnode": "OUT-03",
   "trigger_name": "Guardianship / Kinship Permanency",
-  "summary_html": "Child achieves **permanency through legal guardianship** or kinship care. Federal programs provide funding parity with adoption for approved relatives.",
-  "authority_html": "- **Fostering Connections to Success and Increasing Adoptions Act (FCSIAA)** \u2014 kinship-guardianship assistance  \n- **SSA Title IV-E (42 U.S.C. \u00a7 673(d))** \u2014 authorizes Guardianship Assistance Program (GAP)",
-  "icon": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67",
+  "summary_html": "Child achieves **permanency through legal guardianship** or kinship care. Federal programs provide funding parity with adoption for approved relatives. In Alabama the age of majority is 19 (Ala. Code § 26-1-1), and for child abuse and neglect reporting a \"child\" is a person under 18, or a person under 19 who is in need of protective services and does not qualify for adult protective services (Ala. Code § 26-14-1(3)).",
+  "authority_html": "- **Fostering Connections to Success and Increasing Adoptions Act (FCSIAA)** — kinship-guardianship assistance  \n- **SSA Title IV-E (42 U.S.C. § 673(d))** — authorizes Guardianship Assistance Program (GAP)",
+  "icon": "👨‍👩‍👧",
   "theme_color": "#FFD700",
   "domain": "civil",
   "procedural_weight": 0.55,
@@ -19,81 +19,118 @@
   "layers": {
     "constitutional": {
       "constraints_triggered": [
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
         "Public Law 110-351 (FCSIAA)",
-        "42 U.S.C. \u00a7 673(d) (IV-E Guardianship Assistance)"
+        "42 U.S.C. § 673(d) (IV-E Guardianship Assistance)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Alabama - Title 26, Chapter 14 (Mandatory reporting of child abuse)",
-          "source_url": "https://alison.legislature.state.al.us/CodeOfAlabama/1975/26-14.htm",
+          "citation_text": "Ala. Code § 26-14-3 (Title 26, Ch. 14) — Mandatory reporting of child abuse or neglect. Amended by Act 2026-375: the Legislature's code viewer carries one version effective until 10/1/2026 and one effective 10/1/2026. The reporter categories carry over into the 10/1/2026 version as subdivision (a)(2)a.–aa., which also requires the written report within 72 hours of the oral report",
+          "source_url": "https://alison.legislature.state.al.us/code-of-alabama?section=26-14-3",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Alabama - Title 12, Chapter 15 (Juvenile proceedings for dependency/removal)",
-          "source_url": "https://alison.legislature.state.al.us/CodeOfAlabama/1975/12-15.htm",
+          "citation_text": "Ala. Code § 12-15-308 (Title 12, Ch. 15) — 72-hour shelter care hearing after a child is removed",
+          "source_url": "https://alison.legislature.state.al.us/code-of-alabama?section=12-15-308",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 12: Courts - Juvenile Proceedings",
-          "source_url": "https://law.justia.com/codes/alabama/title-12/",
+          "citation_text": "Ala. Code § 12-15-306 — Removing a child from the custody of a parent, legal guardian, or legal custodian",
+          "source_url": "https://alison.legislature.state.al.us/code-of-alabama?section=12-15-306",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
-          "title_code": "",
-          "chapter": ""
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Title 26: Infants and Incompetents - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/alabama/title-26/",
+          "citation_text": "Ala. Code § 26-14-6 — Temporary protective custody; custody shall not exceed 72 hours",
+          "source_url": "https://alison.legislature.state.al.us/code-of-alabama?section=26-14-6",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
-          "title_code": "",
-          "chapter": ""
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Title 38: Public Welfare - DHR",
-          "source_url": "https://law.justia.com/codes/alabama/title-38/",
+          "citation_text": "Ala. Code § 38-2-6 — Duties, powers, and responsibilities of the State Department of Human Resources",
+          "source_url": "https://alison.legislature.state.al.us/code-of-alabama?section=38-2-6",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
-          "title_code": "",
-          "chapter": ""
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Title 26a: Child Abuse Reporting",
-          "source_url": "https://law.justia.com/codes/alabama/title-26a/",
+          "citation_text": "Ala. Code § 26-14-7.1 — Due process rights for persons under investigation by the department. The hearing package (counsel, witnesses, cross-examination, subpoenas, exculpatory evidence, an impartial hearing officer, and 10 departmental working days to request the hearing in writing) runs only to a person who \"is employed by, serves as a volunteer for, holds a license or certificate for, or is connected with any facility, agency, or home which cares for and controls any children\" that is licensed, approved, certified, state-operated, or exempt from licensing; a parent investigated in their own home is not in that class",
+          "source_url": "https://alison.legislature.state.al.us/code-of-alabama?section=26-14-7.1",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
-          "title_code": "",
-          "chapter": ""
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Title 38a: Child Care Facilities",
-          "source_url": "https://law.justia.com/codes/alabama/title-38a/",
+          "citation_text": "Ala. Code § 38-7-3 (Title 38, Ch. 7 — Child Care) — License to operate a child-care facility; inspections and investigations",
+          "source_url": "https://alison.legislature.state.al.us/code-of-alabama?section=38-7-3",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
-          "title_code": "",
-          "chapter": ""
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Ala. Code § 12-15-315 — Permanency hearing (Department of Human Resources cases)",
+          "source_url": "https://alison.legislature.state.al.us/code-of-alabama?section=12-15-315",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Ala. Code § 12-15-319 — Grounds for termination of parental rights",
+          "source_url": "https://alison.legislature.state.al.us/code-of-alabama?section=12-15-319",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Ala. Code § 12-15-117 — Juvenile court jurisdiction continues until the child turns 21",
+          "source_url": "https://alison.legislature.state.al.us/code-of-alabama?section=12-15-117",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Ala. Code § 26-14-3 as amended by Act 2026-375, § 6 — mandatory reporting text effective 10/1/2026 (oral report to a law enforcement official or the Department of Human Resources, written report within 72 hours, reporter categories relisted as (a)(2)a.–aa.)",
+          "source_url": "https://alison.legislature.state.al.us/code-of-alabama?section=26-14-3&version=2026-10-01",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "effective_date": "2026-10-01",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Ala. Code § 26-14-1(3) — \"CHILD\" for child abuse and neglect reporting: a person under 18, or a person under 19 who is in need of protective services and does not qualify for adult protective services under Title 38, Chapter 9",
+          "source_url": "https://alison.legislature.state.al.us/code-of-alabama?section=26-14-1",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Ala. Code § 26-1-1 — Age of majority designated as 19 years",
+          "source_url": "https://alison.legislature.state.al.us/code-of-alabama?section=26-1-1",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
     "administrative_rule": {
       "regulations_applicable": [
+        {
+          "title": "660 - ALABAMA DEPARTMENT OF HUMAN RESOURCES",
+          "url": "https://www.law.cornell.edu/regulations/alabama/title-660"
+        },
         {
           "title": "185 - ALABAMA CHILD ABUSE AND NEGLECT PREVENTION BOARD",
           "url": "https://www.law.cornell.edu/regulations/alabama/title-185"
@@ -116,8 +153,8 @@
         {
           "provision_id": "AL_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Alabama Const. art. I, \u00a7 6",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Alabama Const. art. I, § 6",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -285,13 +322,13 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Resources",
+    "name": "Alabama Department of Human Resources",
     "acronym": "DHR",
-    "hotline": "1-800-228-7688",
-    "website": "https://www.legislature.state.al.us"
+    "hotline": "No statewide hotline. Call your county DHR office, listed at dhr.alabama.gov/county-office-contact, or local law enforcement",
+    "website": "https://dhr.alabama.gov/"
   },
   "extended_foster_care": true,
-  "extended_foster_care_age": "Up to age 21 (until 21st birthday)",
+  "extended_foster_care_age": "Up to age 21 (Ala. DHR Child and Family Services Plan 2025-2029: youth 17 and older plan \"steps to leave foster care at age 21\"; a youth who leaves the department's custody after 18 is eligible to return to care before 21)",
   "linked_action": "ACT-04",
   "linked_decision": "DEC-04",
   "linked_input": "INP-01",

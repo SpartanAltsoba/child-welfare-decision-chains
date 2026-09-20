@@ -6,8 +6,8 @@
   "subnode": "OUT-02",
   "trigger_name": "Termination of Parental Rights / Adoption",
   "summary_html": "**Parental rights terminated** and **child adopted**. Federal law prioritizes timely permanency for children when reunification is not viable.",
-  "authority_html": "- **ASFA (42 U.S.C. \u00a7\u00a7 671\u2013675)** \u2014 establishes 15/22-month TPR guideline  \n- **SSA Title IV-E** \u2014 adoption assistance and subsidy framework",
-  "icon": "\ud83d\udc76",
+  "authority_html": "- **ASFA (42 U.S.C. §§ 671–675)** — establishes 15/22-month TPR guideline  \n- **SSA Title IV-E** — adoption assistance and subsidy framework",
+  "icon": "👶",
   "theme_color": "#8A2BE2",
   "domain": "civil",
   "procedural_weight": 0.45,
@@ -19,48 +19,48 @@
   "layers": {
     "constitutional": {
       "constraints_triggered": [
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 671\u2013675 (ASFA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)"
+        "42 U.S.C. §§ 671–675 (ASFA)",
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Nevada - NRS Chapter\u00a0432B (Protection of Children from Abuse and Neglect)",
+          "citation_text": "Nevada - NRS Chapter 432B (Protection of Children from Abuse and Neglect)",
           "source_url": "https://www.leg.state.nv.us/NRS/NRS-432B.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 127: Adoption",
-          "source_url": "https://law.justia.com/codes/nevada/title-127/",
+          "citation_text": "Nevada - NRS Chapter 127 (Adoption of Children and Adults)",
+          "source_url": "https://www.leg.state.nv.us/NRS/NRS-127.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 128: Termination of Parental Rights",
-          "source_url": "https://law.justia.com/codes/nevada/title-128/",
+          "citation_text": "Nevada - NRS Chapter 128 (Termination of Parental Rights)",
+          "source_url": "https://www.leg.state.nv.us/NRS/NRS-128.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 432: Services for Children - DCFS",
-          "source_url": "https://law.justia.com/codes/nevada/title-432/",
+          "citation_text": "Nevada - NRS Chapter 432 (Public Services for Children)",
+          "source_url": "https://www.leg.state.nv.us/NRS/NRS-432.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -91,8 +91,8 @@
         {
           "provision_id": "NV_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Nevada Const. art. I, \u00a7 8",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Nevada Const. art. I, § 8",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -254,13 +254,13 @@
     }
   },
   "state_agency": {
-    "name": "Division of Child and Family Services",
+    "name": "Nevada Division of Child and Family Services",
     "acronym": "DCFS",
-    "hotline": "1-833-803-1183",
-    "website": "https://www.leg.state.nv.us"
+    "hotline": "Clark County 702-399-0081; Washoe County 833-900-7233; all other counties 833-571-1041 (after hours: local law enforcement)",
+    "website": "https://dcfs.nv.gov/"
   },
   "extended_foster_care": true,
-  "extended_foster_care_age": "Up to age 21 (until 21st birthday)",
+  "extended_foster_care_age": "To age 21 (voluntary Extended Young Adult Support Services Program). A “young adult” is a person at least 18 but less than 21 years of age who either (1) on his or her 18th birthday was subject to a court order for placement in foster care or was the subject of proceedings held pursuant to NRS 432B.410 to 432B.590, inclusive, of which placement in foster care is a potential outcome, or (2) exited the Kinship Guardianship Assistance Program established pursuant to NRS 432B.622 or an adoption assistance program after attaining 16 years of age and is not currently receiving care from his or her guardian or adoptive parent (NRS 432B.5915). To be eligible to participate the young adult must enter into a written agreement with the agency which provides child welfare services, must be enrolled in a program of secondary education or a GED-equivalent program, enrolled in a program of postsecondary or vocational education, enrolled or participating in a program or activity designed to promote employment or remove obstacles to employment, employed at least 80 hours per month, or incapable of satisfying any of those requirements due to a documented medical or cognitive condition, and must make a good faith effort to achieve the goals set forth in the plan developed pursuant to NRS 432B.595 (NRS 432B.594(1))",
   "linked_action": "ACT-03",
   "linked_decision": "DEC-04",
   "linked_input": "INP-01",

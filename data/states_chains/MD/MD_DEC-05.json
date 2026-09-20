@@ -6,8 +6,8 @@
   "subnode": "DEC-05",
   "trigger_name": "File Petition / Open Dependency Case",
   "summary_html": "Agency **files a court petition** to open a **dependency** (or similar) case. Federal funding frameworks (IV-E/ASFA) link court oversight, reasonable-efforts findings, and permanency timelines to downstream actions.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 court findings; timelines; permanency planning  \n- **CFSR (45 CFR Part 1355)** \u2014 federal review of court/agency performance measures",
-  "icon": "\ud83d\udcdc",
+  "authority_html": "- **ASFA / SSA Title IV-E** — court findings; timelines; permanency planning  \n- **CFSR (45 CFR Part 1355)** — federal review of court/agency performance measures",
+  "icon": "📜",
   "theme_color": "#6A5ACD",
   "domain": "civil",
   "procedural_weight": 0.45,
@@ -21,13 +21,13 @@
   "layers": {
     "constitutional": {
       "constraints_triggered": [
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E)",
+        "42 U.S.C. §§ 670–679c (Title IV-E)",
         "Public Law 105-89 (ASFA)",
         "45 CFR Part 1355 (CFSR)"
       ]
@@ -35,16 +35,18 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Maryland - Family Law Article, Title 5, Subtitle 7 (Child Abuse and Neglect \u2013 mandatory reporting)",
-          "source_url": "https://mgaleg.maryland.gov",
+          "citation_text": "Maryland - Md. Code, Family Law Article §§ 5-701 et seq. (Child Abuse and Neglect; definitions at § 5-701, mandatory reporting at §§ 5-704 and 5-705, investigation at § 5-706, appeal of findings at § 5-706.1)",
+          "source_url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gfl&section=5-701&enactments=false",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Maryland - Courts & Judicial Proc. \u00a7\u00a03-801 et seq. (CINA\u2014Child in Need of Assistance proceedings)",
-          "source_url": "https://mgaleg.maryland.gov",
+          "citation_text": "Maryland - Courts & Judicial Proc. § 3-801 et seq. (CINA—Child in Need of Assistance proceedings)",
+          "source_url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcj&section=3-801&enactments=false",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
@@ -128,8 +130,8 @@
         {
           "provision_id": "MD_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Maryland Const. art. 24, \u00a7 ",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Maryland Const. art. 24, § ",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -291,17 +293,17 @@
     }
   },
   "state_agency": {
-    "name": "Department of Social Services",
-    "acronym": "DSS",
-    "hotline": "1-800-332-6347",
-    "website": "https://mgaleg.maryland.gov"
+    "name": "Maryland Department of Human Services",
+    "acronym": "DHS",
+    "hotline": "1-800-917-7383",
+    "website": "https://dhs.maryland.gov/"
   },
   "investigation_requirements": [
     "Home visit required",
     "Victim interview required",
     "Risk assessment required"
   ],
-  "evidence_level": "Preponderance of evidence",
+  "evidence_level": "Credible or substantial evidence",
   "_metadata": {
     "created": "2025-12-22T19:33:40.763394",
     "source": "real_data_etl",
@@ -332,15 +334,16 @@
       "requirement_name": "Safety decision",
       "deadline": "Immediate upon contact",
       "starts_from": "First family contact",
-      "source": "admin_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Child safety risk"
     },
     {
       "requirement_name": "Disposition finding",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
+      "deadline": "10 days to the extent possible; if not completed within 30 days, within 60 days",
+      "starts_from": "Receipt of the first notice of the suspected abuse or neglect",
       "source": "state_statute",
-      "consequence_of_miss": "Procedural violation"
+      "consequence_of_miss": "Not specified in Md. Code, Fam. Law § 5-706",
+      "source_url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gfl&section=5-706&enactments=false"
     }
   ],
   "notice_requirements": [

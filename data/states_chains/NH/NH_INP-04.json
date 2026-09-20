@@ -6,8 +6,8 @@
   "subnode": "INP-04",
   "trigger_name": "Court-Ordered Referral",
   "summary_html": "A **judge orders** CPS to investigate or assess during civil/criminal proceedings. Federal funding statutes (ASFA/IV-E) tether court findings to child-welfare actions, embedding judicial oversight into intake-to-case flow.",
-  "authority_html": "- **ASFA (42 U.S.C. \u00a7\u00a7 671\u2013675)** \u2014 court \u2018reasonable efforts\u2019 findings; permanency timelines  \n- **SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 funding structure linking court oversight to agency actions",
-  "icon": "\u2696\ufe0f",
+  "authority_html": "- **ASFA (42 U.S.C. §§ 671–675)** — court ‘reasonable efforts’ findings; permanency timelines  \n- **SSA Title IV-E (42 U.S.C. §§ 670–679c)** — funding structure linking court oversight to agency actions",
+  "icon": "⚖️",
   "theme_color": "#8A2BE2",
   "domain": "civil",
   "procedural_weight": 0.55,
@@ -24,32 +24,32 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 671\u2013675 (ASFA/IV-E)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E framework)"
+        "42 U.S.C. §§ 671–675 (ASFA/IV-E)",
+        "42 U.S.C. §§ 670–679c (Title IV-E framework)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "New Hampshire - RSA 169-C (Child Protection Act \u2013 includes reporting \u00a7\u00a0169-C:29)",
-          "source_url": "https://www.gencourt.state.nh.us/rsa/html/",
+          "citation_text": "New Hampshire - RSA 169-C (Child Protection Act – includes reporting § 169-C:29)",
+          "source_url": "https://gc.nh.gov/rsa/html/NHTOC/NHTOC-XII-169-C.htm",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
-          "deep_link": true
+          "last_verified": "2026-09-19",
+          "deep_link": false
         },
         {
           "citation_text": "New Hampshire - RSA 169-C:1 et seq. (Procedures for abuse/neglect cases)",
-          "source_url": "https://www.gencourt.state.nh.us/rsa/html/",
+          "source_url": "https://gc.nh.gov/rsa/html/XII/169-C/169-C-1.htm",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 161: Human Services - DCYF",
-          "source_url": "https://law.justia.com/codes/new-hampshire/title-161/",
+          "citation_text": "New Hampshire - RSA 170-G (Services for Children, Youth and Families – DCYF program authority)",
+          "source_url": "https://gc.nh.gov/rsa/html/NHTOC/NHTOC-XII-170-G.htm",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         }
@@ -236,26 +236,23 @@
   "state_agency": {
     "name": "Division for Children, Youth and Families",
     "acronym": "DCYF",
-    "hotline": "1-800-894-5533",
-    "website": "https://www.gencourt.state.nh.us"
+    "hotline": "1-800-894-5533 (in-state only) or 603-271-6562; DCYF Central Intake is staffed 24 hours a day, including weekends and holidays",
+    "website": "https://www.dhhs.nh.gov/division-children-youth-and-families"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Shelter Staff",
-    "Childcare Staff",
-    "Clergy",
-    "Foster Parents",
-    "Coaches",
-    "Coroners",
-    "EMTs/Emergency Personnel",
-    "Judges",
-    "District Attorneys"
+    "Any person (universal mandatory reporting) — N.H. Rev. Stat. Ann. § 169-C:29",
+    "Physicians, surgeons, county medical examiners, psychiatrists, residents, interns",
+    "Dentists, osteopaths, optometrists, chiropractors",
+    "Psychologists and therapists",
+    "Registered nurses and hospital personnel (admission, examination, care and treatment)",
+    "Christian Science practitioners",
+    "Teachers, school officials, school nurses, school counselors",
+    "Social workers, day care workers, and any other child or foster care workers",
+    "Law enforcement officials",
+    "Priests, ministers, and rabbis"
   ],
   "reporting_type": "centralized",
-  "reporting_details": "Not applicable",
+  "reporting_details": "New Hampshire is a universal-reporter state: RSA 169-C:29 lists physicians, dentists, psychologists, registered nurses and hospital personnel, teachers, school officials and school nurses, social workers, day care and other child or foster care workers, law enforcement officials and clergy, and closes with “any other person having reason to suspect that a child has been abused or neglected,” all of whom “shall report the same in accordance with this chapter.” RSA 169-C:30 sets the route and the form: an oral report “shall be made immediately by telephone or otherwise, and followed within 48 hours by a report in writing, if so requested, to the department” — the Department of Health and Human Services, which takes reports through the DCYF Central Intake Unit at 603-271-6562 or 1-800-894-5533 (in-state only), staffed 24 hours a day including weekends and holidays.",
   "definitions": {
     "abuse": [
       "Physical abuse",
@@ -320,16 +317,17 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
-      "starts_from": "Report received",
+      "deadline": "Immediately if the child’s immediate safety or well-being is endangered, the family may flee, or the child may disappear; otherwise within 72 hours",
+      "starts_from": "Receipt of the report by the department",
       "source": "state_statute",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "consequence_of_miss": "Not specified in RSA 169-C:34",
+      "source_url": "https://gc.nh.gov/rsa/html/XII/169-C/169-C-34.htm"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

@@ -6,8 +6,8 @@
   "subnode": "ACT-05",
   "trigger_name": "Protective Order",
   "summary_html": "Court issues a **protective or restraining order** to prevent contact, remove abuser, or ensure safety without removing the child. Federal law leaves implementation to states but funds protection efforts through CAPTA and IV-B.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 authorizes protective interventions and state plan requirements  \n- **SSA Title IV-B** \u2014 permits funding for protective services and court interventions",
-  "icon": "\ud83e\uddfe",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — authorizes protective interventions and state plan requirements  \n- **SSA Title IV-B** — permits funding for protective services and court interventions",
+  "icon": "🧾",
   "theme_color": "#708090",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -23,24 +23,24 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
-        "42 U.S.C. \u00a7\u00a7 620\u2013629m (SSA Title IV-B)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
+        "42 U.S.C. §§ 620–629m (SSA Title IV-B)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "California - Penal Code \u00a7\u00a7\u00a011164\u201311174 (CANRA \u2013 Child Abuse and Neglect Reporting Act)",
-          "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=11164&lawCode=PENAL",
+          "citation_text": "California - Penal Code §§ 11164–11174.3 (CANRA – Child Abuse and Neglect Reporting Act)",
+          "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=11164.&lawCode=PEN",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "California - Welfare & Institutions Code \u00a7\u00a0300 et seq. (Juvenile dependency proceedings)",
-          "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=300&lawCode=INSTITUTIONS",
+          "citation_text": "California - Welfare & Institutions Code § 300 et seq. (Juvenile dependency proceedings)",
+          "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=300.&lawCode=WIC",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -223,8 +223,8 @@
   "state_agency": {
     "name": "California Department of Social Services",
     "acronym": "CDSS",
-    "hotline": "1-800-540-4000",
-    "website": "https://leginfo.legislature.ca.gov"
+    "hotline": "No statewide number. Call your county's 24-hour hotline",
+    "website": "https://www.cdss.ca.gov/"
   },
   "icwa_compliant": true,
   "icwa_details": {
@@ -262,10 +262,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
+      "deadline": "Detention hearing no later than the next judicial day after the dependency petition is filed; petition due within 48 hours of custody, excluding nonjudicial days",
+      "starts_from": "Child taken into protective custody",
       "source": "state_statute",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=315.&lawCode=WIC",
+      "consequence_of_miss": "Child must be released from custody (Cal. Welf. & Inst. Code §§ 313, 315)"
     },
     {
       "requirement_name": "Case plan development",

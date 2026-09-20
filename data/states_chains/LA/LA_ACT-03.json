@@ -6,8 +6,8 @@
   "subnode": "ACT-03",
   "trigger_name": "Foster Care Placement",
   "summary_html": "The child is **removed from the home** and placed in foster care under court order or emergency authority. Federal statutes tie funding to safety findings, judicial oversight, and permanency planning.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal monitoring of placement decisions",
-  "icon": "\ud83d\udea8",
+  "authority_html": "- **ASFA / SSA Title IV-E** — removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** — federal monitoring of placement decisions",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.35,
@@ -21,24 +21,24 @@
     "constitutional": {
       "constraints_triggered": [
         "U.S. Const. amend. IV",
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)",
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Louisiana - Children\u2019s Code Article 601 et seq. (Children\u2019s Code \u2013 Child in Need of Care, includes reporting duties)",
-          "source_url": "https://www.legis.la.gov/legis/Laws_Toc.aspx",
+          "citation_text": "Louisiana - Children’s Code Article 601 et seq. (Children’s Code – Child in Need of Care, includes reporting duties)",
+          "source_url": "https://www.legis.la.gov/legis/Law.aspx?d=73193",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -119,14 +119,14 @@
         {
           "provision_id": "LA_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Louisiana Const. art. I, \u00a7 5",
+          "citation": "Louisiana Const. art. I, § 5",
           "federal_parallel": "U.S. Const. amend. IV"
         },
         {
           "provision_id": "LA_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Louisiana Const. art. I, \u00a7 2",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Louisiana Const. art. I, § 2",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -288,10 +288,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children and Family Services",
+    "name": "Louisiana Department of Children and Family Services",
     "acronym": "DCFS",
     "hotline": "1-855-452-5437",
-    "website": "https://www.legis.la.gov"
+    "website": "https://dcfs.louisiana.gov/"
   },
   "linked_decision": "DEC-04",
   "linked_input": "INP-01",
@@ -324,10 +324,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
+      "deadline": "Within 3 days after the instanter order (the court may continue the hearing up to 3 additional days for good cause)",
+      "starts_from": "Issuance of the instanter custody order or instanter safety plan order (La. Ch.C. Arts. 619, 620)",
       "source": "state_statute",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "consequence_of_miss": "Not specified in statute; at the hearing the state bears the burden of proving a ground for continued custody (La. Ch.C. Art. 624(E))",
+      "source_url": "https://www.legis.la.gov/legis/Law.aspx?d=73217"
     },
     {
       "requirement_name": "Case plan development",

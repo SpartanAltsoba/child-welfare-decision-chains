@@ -5,9 +5,9 @@
   "node_family": "ACT",
   "subnode": "ACT-01",
   "trigger_name": "Voluntary Services",
-  "summary_html": "Family agrees to a **voluntary service plan**\u2014counseling, substance-use treatment, parenting classes\u2014designed to correct conditions without court compulsion. Federal law prioritizes family preservation through prevention and support services.",
-  "authority_html": "- **Family First Prevention Services Act (FFPSA)** \u2014 prevention services and kin support framework  \n- **SSA Title IV-B (42 U.S.C. \u00a7\u00a7 620\u2013629m)** \u2014 child-welfare services and family-preservation funding",
-  "icon": "\ud83e\udde9",
+  "summary_html": "Family agrees to a **voluntary service plan**—counseling, substance-use treatment, parenting classes—designed to correct conditions without court compulsion. Federal law prioritizes family preservation through prevention and support services.",
+  "authority_html": "- **Family First Prevention Services Act (FFPSA)** — prevention services and kin support framework  \n- **SSA Title IV-B (42 U.S.C. §§ 620–629m)** — child-welfare services and family-preservation funding",
+  "icon": "🧩",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -27,31 +27,31 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 115-123 (FFPSA)",
-        "42 U.S.C. \u00a7\u00a7 620\u2013629m (SSA Title IV-B)"
+        "42 U.S.C. §§ 620–629m (SSA Title IV-B)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "New Hampshire - RSA 169-C (Child Protection Act \u2013 includes reporting \u00a7\u00a0169-C:29)",
-          "source_url": "https://www.gencourt.state.nh.us/rsa/html/",
+          "citation_text": "New Hampshire - RSA 169-C (Child Protection Act – includes reporting § 169-C:29)",
+          "source_url": "https://gc.nh.gov/rsa/html/NHTOC/NHTOC-XII-169-C.htm",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
-          "deep_link": true
+          "last_verified": "2026-09-19",
+          "deep_link": false
         },
         {
           "citation_text": "New Hampshire - RSA 169-C:1 et seq. (Procedures for abuse/neglect cases)",
-          "source_url": "https://www.gencourt.state.nh.us/rsa/html/",
+          "source_url": "https://gc.nh.gov/rsa/html/XII/169-C/169-C-1.htm",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 161: Human Services - DCYF",
-          "source_url": "https://law.justia.com/codes/new-hampshire/title-161/",
+          "citation_text": "New Hampshire - RSA 170-G (Services for Children, Youth and Families – DCYF program authority)",
+          "source_url": "https://gc.nh.gov/rsa/html/NHTOC/NHTOC-XII-170-G.htm",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         }
@@ -81,7 +81,7 @@
         {
           "provision_id": "NH_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "New Hampshire Const. art. I, \u00a7 19",
+          "citation": "New Hampshire Const. art. I, § 19",
           "federal_parallel": "U.S. Const. amend. IV"
         }
       ]
@@ -246,8 +246,8 @@
   "state_agency": {
     "name": "Division for Children, Youth and Families",
     "acronym": "DCYF",
-    "hotline": "1-800-894-5533",
-    "website": "https://www.gencourt.state.nh.us"
+    "hotline": "1-800-894-5533 (in-state only) or 603-271-6562; DCYF Central Intake is staffed 24 hours a day, including weekends and holidays",
+    "website": "https://www.dhhs.nh.gov/division-children-youth-and-families"
   },
   "linked_decision": "DEC-06",
   "linked_input": "INP-05",
@@ -280,10 +280,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
+      "deadline": "48 hours, Saturdays, Sundays and holidays excluded",
+      "starts_from": "Child taken into protective custody",
       "source": "state_statute",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "consequence_of_miss": "Not specified in RSA 169-C:6, IV",
+      "source_url": "https://gc.nh.gov/rsa/html/XII/169-C/169-C-6.htm"
     },
     {
       "requirement_name": "Case plan development",

@@ -6,8 +6,8 @@
   "subnode": "INP-12",
   "trigger_name": "Emergency / Protective Custody",
   "summary_html": "Immediate state action to **protect a child in imminent danger**. Federal law (ASFA/IV-E) ties funding to court findings on **reasonable efforts**, and constitutional limits (due process, 4th/14th Amendments) constrain warrantless removals.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 reasonable-efforts findings; permanency timelines  \n- **CFSR (45 CFR Part 1355)** \u2014 federal oversight of removal decision quality  \n- **Constitutional constraints** \u2014 enforced via \u00a71983 actions; due process & search/seizure jurisprudence (not listed in file but governs practice)",
-  "icon": "\ud83d\udea8",
+  "authority_html": "- **ASFA / SSA Title IV-E** — reasonable-efforts findings; permanency timelines  \n- **CFSR (45 CFR Part 1355)** — federal oversight of removal decision quality  \n- **Constitutional constraints** — enforced via §1983 actions; due process & search/seizure jurisprudence (not listed in file but governs practice)",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.35,
@@ -27,7 +27,7 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)",
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)",
         "ASFA (Public Law 105-89)",
         "45 CFR Part 1355 (CFSR Regulations)"
       ]
@@ -36,15 +36,17 @@
       "primary_citations": [
         {
           "citation_text": "Indiana - Title 31, Article 33 (Reporting and investigation of child abuse)",
-          "source_url": "https://iga.in.gov",
+          "source_url": "https://iga.in.gov/laws/current/ic/titles/31#31-33",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Indiana - Title 31, Article 34 (Juvenile Law \u2013 Children in Need of Services)",
-          "source_url": "https://iga.in.gov",
+          "citation_text": "Indiana - Title 31, Article 34 (Juvenile Law – Children in Need of Services)",
+          "source_url": "https://iga.in.gov/laws/current/ic/titles/31#31-34",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 12: Human Services - DCS",
@@ -99,7 +101,7 @@
         {
           "provision_id": "IN_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Indiana Const. art. I, \u00a7 11",
+          "citation": "Indiana Const. art. I, § 11",
           "federal_parallel": "U.S. Const. amend. IV"
         }
       ]
@@ -261,28 +263,17 @@
     }
   },
   "state_agency": {
-    "name": "Department of Child Services",
+    "name": "Indiana Department of Child Services",
     "acronym": "DCS",
     "hotline": "1-800-800-5556",
-    "website": "https://iga.in.gov"
+    "website": "https://www.in.gov/dcs/"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Shelter Staff",
-    "Childcare Staff",
-    "Clergy",
-    "Foster Parents",
-    "Coaches",
-    "Coroners",
-    "EMTs/Emergency Personnel",
-    "Judges",
-    "District Attorneys"
+    "Any person (universal mandatory reporting) — Ind. Code § 31-33-5-1",
+    "Staff of a public or private institution, school, facility, organization, or agency must report immediately to the Department of Child Services or the appropriate law enforcement agency and may not decline to report; the duty may be delegated only to a member of the child's care team under the conditions in § 31-33-5-2(b) — Ind. Code § 31-33-5-2"
   ],
   "reporting_type": "centralized",
-  "reporting_details": "Not applicable",
+  "reporting_details": "Indiana is a universal-reporting state: any individual who has reason to believe that a child is a victim of child abuse or neglect must make a report (Ind. Code § 31-33-5-1), immediately and orally or in writing, to the Department of Child Services or the appropriate law enforcement agency (Ind. Code § 31-33-5-4).",
   "definitions": {
     "abuse": [
       "Physical abuse",
@@ -345,16 +336,17 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
-      "starts_from": "Report received",
+      "deadline": "2 hours (child in imminent danger of serious bodily harm); 24 hours (alleged abuse); 5 days (alleged neglect)",
+      "starts_from": "DCS receives the report",
       "source": "state_statute",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "source_url": "https://iga.in.gov/ic/2026/Title_31/Article_33/Chapter_8.pdf",
+      "consequence_of_miss": "Not specified in Ind. Code § 31-33-8-1"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

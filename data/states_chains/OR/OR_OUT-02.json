@@ -6,8 +6,8 @@
   "subnode": "OUT-02",
   "trigger_name": "Termination of Parental Rights / Adoption",
   "summary_html": "**Parental rights terminated** and **child adopted**. Federal law prioritizes timely permanency for children when reunification is not viable.",
-  "authority_html": "- **ASFA (42 U.S.C. \u00a7\u00a7 671\u2013675)** \u2014 establishes 15/22-month TPR guideline  \n- **SSA Title IV-E** \u2014 adoption assistance and subsidy framework",
-  "icon": "\ud83d\udc76",
+  "authority_html": "- **ASFA (42 U.S.C. §§ 671–675)** — establishes 15/22-month TPR guideline  \n- **SSA Title IV-E** — adoption assistance and subsidy framework",
+  "icon": "👶",
   "theme_color": "#8A2BE2",
   "domain": "civil",
   "procedural_weight": 0.45,
@@ -19,38 +19,48 @@
   "layers": {
     "constitutional": {
       "constraints_triggered": [
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 671\u2013675 (ASFA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)"
+        "42 U.S.C. §§ 671–675 (ASFA)",
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Oregon - ORS Chapter\u00a0419B (Juvenile Code: Dependency and Abuse \u2013 includes mandatory reporting \u00a7\u00a7\u00a0419B.005\u2013419B.050)",
-          "source_url": "https://www.oregonlegislature.gov",
+          "citation_text": "Oregon - ORS Chapter 419B (Juvenile Code: Dependency – includes reporting and investigation of child abuse, ORS 419B.005 to 419B.050)",
+          "source_url": "https://www.oregonlegislature.gov/bills_laws/ors/ors419B.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Title 109: Parent and Child",
-          "source_url": "https://law.justia.com/codes/oregon/title-109/",
+          "citation_text": "Oregon - ORS Chapter 109 (Parent and Child Rights and Relationships)",
+          "source_url": "https://www.oregonlegislature.gov/bills_laws/ors/ors109.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 418: Child Care",
-          "source_url": "https://law.justia.com/codes/oregon/title-418/",
+          "citation_text": "Oregon - ORS Chapter 418 (Child Welfare Services)",
+          "source_url": "https://www.oregonlegislature.gov/bills_laws/ors/ors418.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Oregon - ORS 419B.600 to 419B.665 (Oregon Indian Child Welfare Act (ORICWA): ORS 419B.600 Policy on Indian child welfare through ORS 419B.665 Rules)",
+          "source_url": "https://www.oregonlegislature.gov/bills_laws/ors/ors419B.html",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -81,8 +91,8 @@
         {
           "provision_id": "OR_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Oregon Const. art. I, \u00a7 10",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Oregon Const. art. I, § 10",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -244,13 +254,13 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Services",
-    "acronym": "DHS",
+    "name": "Oregon Department of Human Services, Child Welfare Division",
+    "acronym": "ODHS",
     "hotline": "1-855-503-7233",
-    "website": "https://www.oregonlegislature.gov"
+    "website": "https://www.oregon.gov/odhs/child-safety/pages/default.aspx"
   },
   "extended_foster_care": true,
-  "extended_foster_care_age": "Up to age 21 (until 21st birthday)",
+  "extended_foster_care_age": "Up to age 21 (conditions apply; OAR 413-030-0220)",
   "linked_action": "ACT-03",
   "linked_decision": "DEC-04",
   "linked_input": "INP-01",

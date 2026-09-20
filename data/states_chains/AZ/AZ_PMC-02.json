@@ -6,15 +6,15 @@
   "subnode": "PMC-02",
   "trigger_name": "OIG / Financial Audit",
   "summary_html": "Federal **OIG** investigations and **Single Audit Act** reviews track misuse of child-welfare funds. Project Milk Carton aggregates audit findings and highlights unresolved repeat deficiencies.",
-  "authority_html": "- **Inspector General Act (5 U.S.C. App.)** \u2014 OIG oversight of HHS  \n- **Single Audit Act (31 U.S.C. \u00a7\u00a7 7501\u20137507)** \u2014 audits of federally funded programs",
-  "icon": "\ud83e\uddfe",
+  "authority_html": "- **Inspector General Act (5 U.S.C. App.)** — OIG oversight of HHS  \n- **Single Audit Act (31 U.S.C. §§ 7501–7507)** — audits of federally funded programs",
+  "icon": "🧾",
   "theme_color": "#708090",
   "domain": "civil",
   "procedural_weight": 0.7,
   "federal_alignment_flag": "baseline",
   "urls": {
     "IGA_Cornell": "https://www.law.cornell.edu/uscode/text/5a/appendix-3",
-    "SAA_Cornell": "https://www.law.cornell.edu/uscode/text/31/chapter-75"
+    "SAA_Cornell": "https://www.law.cornell.edu/uscode/text/31/subtitle-V/chapter-75"
   },
   "layers": {
     "constitutional": {
@@ -24,69 +24,90 @@
     "federal": {
       "requirements_applicable": [
         "5 U.S.C. App. (Inspector General Act)",
-        "31 U.S.C. \u00a7\u00a7 7501\u20137507 (Single Audit Act)"
+        "31 U.S.C. §§ 7501–7507 (Single Audit Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Arizona - Title 13, \u00a7 3620 (Criminal code \u2013 duty to report child abuse)",
-          "source_url": "https://www.azleg.gov/arstitle/",
+          "citation_text": "Arizona - Title 13, § 3620 (Criminal code – duty to report child abuse)",
+          "source_url": "https://www.azleg.gov/ars/13/03620.htm",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Arizona - Title 8, Chapter 4 (Arizona Juvenile Code \u2013 Dependent children)",
-          "source_url": "https://www.azleg.gov/arstitle/",
+          "citation_text": "Arizona - Title 8, Chapter 4 (Department of Child Safety, A.R.S. §§ 8-451 to 8-892)",
+          "source_url": "https://www.azleg.gov/arsDetail/?title=8#chapter4",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Title 8: Child Safety - DCS - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/arizona/title-8/",
+          "source_url": "https://www.azleg.gov/arsDetail/?title=8",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 13: Criminal Code - Child Abuse Crimes",
-          "source_url": "https://law.justia.com/codes/arizona/title-13/",
+          "source_url": "https://www.azleg.gov/arsDetail/?title=13",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 25: Marital and Domestic Relations",
-          "source_url": "https://law.justia.com/codes/arizona/title-25/",
+          "source_url": "https://www.azleg.gov/arsDetail/?title=25",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 36: Public Health and Safety",
-          "source_url": "https://law.justia.com/codes/arizona/title-36/",
+          "source_url": "https://www.azleg.gov/arsDetail/?title=36",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 46: Welfare",
-          "source_url": "https://law.justia.com/codes/arizona/title-46/",
+          "source_url": "https://www.azleg.gov/arsDetail/?title=46",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
+        },
+        {
+          "citation_text": "Arizona - Title 8, § 8-471 (Office of child welfare investigations; criminal conduct allegations)",
+          "source_url": "https://www.azleg.gov/ars/8/00471.htm",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Arizona - Title 8, § 8-525 (Open court proceedings; closure; records - dependency, permanent guardianship and termination proceedings are open to the public)",
+          "source_url": "https://www.azleg.gov/ars/8/00525.htm",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Arizona - Title 8, § 8-804.02 (Tiered system for placement on central registry; rules)",
+          "source_url": "https://www.azleg.gov/ars/8/00804-02.htm",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
@@ -94,7 +115,9 @@
       "regulations_applicable": [
         {
           "title": "Title 21 - CHILD SAFETY",
-          "url": "https://www.law.cornell.edu/regulations/arizona/title-21"
+          "url": "https://www.law.cornell.edu/regulations/arizona/title-21",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
         },
         {
           "title": "Arizona Administrative Rule Title 8",
@@ -321,10 +344,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Child Safety",
+    "name": "Arizona Department of Child Safety",
     "acronym": "DCS",
     "hotline": "1-888-767-2445",
-    "website": "https://www.azleg.gov"
+    "website": "https://dcs.az.gov/"
   },
   "linked_fail": "FAIL-03",
   "_metadata": {
@@ -365,7 +388,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

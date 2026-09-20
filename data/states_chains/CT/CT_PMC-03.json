@@ -5,9 +5,9 @@
   "node_family": "PMC",
   "subnode": "PMC-03",
   "trigger_name": "Citizen Review Panels",
-  "summary_html": "**CAPTA \u00a75106a(c)** requires every state to maintain **Citizen Review Panels** that evaluate CPS policies. Project Milk Carton checks whether panels are active, independent, and publicly reporting.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7 5106a(c))** \u2014 Citizen Review Panel mandate and reporting requirements",
-  "icon": "\ud83d\udde3\ufe0f",
+  "summary_html": "**CAPTA §5106a(c)** requires every state to maintain **Citizen Review Panels** that evaluate CPS policies. Project Milk Carton checks whether panels are active, independent, and publicly reporting.",
+  "authority_html": "- **CAPTA (42 U.S.C. § 5106a(c))** — Citizen Review Panel mandate and reporting requirements",
+  "icon": "🗣️",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -22,23 +22,23 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7 5106a(c) (CAPTA)"
+        "42 U.S.C. § 5106a(c) (CAPTA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Connecticut - Title 17a, Chapter 319 (Abuse of Children \u2013 mandatory reporters)",
-          "source_url": "https://www.cga.ct.gov/current/pub/chap_319.htm",
+          "citation_text": "Connecticut - Title 17a, Chapter 319a, Conn. Gen. Stat. § 17a-101 (Child Welfare – mandated reporters)",
+          "source_url": "https://www.cga.ct.gov/current/pub/chap_319a.htm#sec_17a-101",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Connecticut - Title 46b, Chapter 815t (Juvenile Matters including neglect/termination)",
-          "source_url": "https://www.cga.ct.gov/current/pub/chap_815t.htm",
+          "source_url": "https://www.cga.ct.gov/current/pub/chap_815t.htm#sec_46b-129",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -222,10 +222,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children and Families",
+    "name": "Connecticut Department of Children and Families",
     "acronym": "DCF",
-    "hotline": "1-800-842-2288",
-    "website": "https://www.cga.ct.gov"
+    "hotline": "1-800-842-2288 (DCF Careline, 24 hours a day, every day of the year); TDD 1-800-624-5518",
+    "website": "https://portal.ct.gov/dcf"
   },
   "linked_fail": "FAIL-06",
   "_metadata": {
@@ -266,7 +266,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

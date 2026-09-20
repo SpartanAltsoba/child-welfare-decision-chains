@@ -6,8 +6,8 @@
   "subnode": "ACT-05",
   "trigger_name": "Protective Order",
   "summary_html": "Court issues a **protective or restraining order** to prevent contact, remove abuser, or ensure safety without removing the child. Federal law leaves implementation to states but funds protection efforts through CAPTA and IV-B.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 authorizes protective interventions and state plan requirements  \n- **SSA Title IV-B** \u2014 permits funding for protective services and court interventions",
-  "icon": "\ud83e\uddfe",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — authorizes protective interventions and state plan requirements  \n- **SSA Title IV-B** — permits funding for protective services and court interventions",
+  "icon": "🧾",
   "theme_color": "#708090",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -23,32 +23,42 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
-        "42 U.S.C. \u00a7\u00a7 620\u2013629m (SSA Title IV-B)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
+        "42 U.S.C. §§ 620–629m (SSA Title IV-B)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Oregon - ORS Chapter\u00a0419B (Juvenile Code: Dependency and Abuse \u2013 includes mandatory reporting \u00a7\u00a7\u00a0419B.005\u2013419B.050)",
-          "source_url": "https://www.oregonlegislature.gov",
+          "citation_text": "Oregon - ORS Chapter 419B (Juvenile Code: Dependency – includes reporting and investigation of child abuse, ORS 419B.005 to 419B.050)",
+          "source_url": "https://www.oregonlegislature.gov/bills_laws/ors/ors419B.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Title 109: Parent and Child",
-          "source_url": "https://law.justia.com/codes/oregon/title-109/",
+          "citation_text": "Oregon - ORS Chapter 109 (Parent and Child Rights and Relationships)",
+          "source_url": "https://www.oregonlegislature.gov/bills_laws/ors/ors109.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 418: Child Care",
-          "source_url": "https://law.justia.com/codes/oregon/title-418/",
+          "citation_text": "Oregon - ORS Chapter 418 (Child Welfare Services)",
+          "source_url": "https://www.oregonlegislature.gov/bills_laws/ors/ors418.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Oregon - ORS 419B.600 to 419B.665 (Oregon Indian Child Welfare Act (ORICWA): ORS 419B.600 Policy on Indian child welfare through ORS 419B.665 Rules)",
+          "source_url": "https://www.oregonlegislature.gov/bills_laws/ors/ors419B.html",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -235,10 +245,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Services",
-    "acronym": "DHS",
+    "name": "Oregon Department of Human Services, Child Welfare Division",
+    "acronym": "ODHS",
     "hotline": "1-855-503-7233",
-    "website": "https://www.oregonlegislature.gov"
+    "website": "https://www.oregon.gov/odhs/child-safety/pages/default.aspx"
   },
   "icwa_compliant": true,
   "icwa_details": {
@@ -276,10 +286,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
+      "deadline": "24 hours, excluding Saturdays, Sundays and judicial holidays",
+      "starts_from": "Child or ward placed in shelter care",
       "source": "state_statute",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "source_url": "https://www.oregonlegislature.gov/bills_laws/ors/ors419B.html",
+      "consequence_of_miss": "A child or ward may not be held in shelter care beyond 24 hours except on order of the court made pursuant to a hearing (Or. Rev. Stat. § 419B.183)."
     },
     {
       "requirement_name": "Case plan development",

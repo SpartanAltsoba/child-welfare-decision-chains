@@ -6,8 +6,8 @@
   "subnode": "ACT-03",
   "trigger_name": "Foster Care Placement",
   "summary_html": "The child is **removed from the home** and placed in foster care under court order or emergency authority. Federal statutes tie funding to safety findings, judicial oversight, and permanency planning.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal monitoring of placement decisions",
-  "icon": "\ud83d\udea8",
+  "authority_html": "- **ASFA / SSA Title IV-E** — removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** — federal monitoring of placement decisions",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.35,
@@ -21,27 +21,28 @@
     "constitutional": {
       "constraints_triggered": [
         "U.S. Const. amend. IV",
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)",
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "New Mexico - Chapter 32A, Article 4 (Child Abuse and Neglect Act \u2013 mandatory reporting and custody)",
-          "source_url": "https://www.nmlegis.gov",
+          "citation_text": "New Mexico - NMSA 1978 Chapter 32A, Article 4 (Abuse and Neglect Act: 32A-4-3 duty to report, 32A-4-18 custody hearings, 32A-4-19 adjudicatory hearings), CYFD-published Children's Code compilation (2023 text; 32A-4-3 amended 2025 by SB 42)",
+          "source_url": "https://www.cyfd.nm.gov/wp-content/uploads/2024/06/chapter-32a-children-s-code-2023.pdf",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Title 27: Human Services Department - CYFD",
+          "citation_text": "New Mexico Statutes Chapter 27 - Public Assistance (public assistance and Medicaid programs; CYFD's child-welfare authority is not in this chapter — it is the Children, Youth and Families Department Act, NMSA 1978 § 9-2A-7(D), and the Children's Code, NMSA 1978 § 32A-1-1, per 8.10.3.3 NMAC)",
           "source_url": "https://law.justia.com/codes/new-mexico/title-27/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-24",
@@ -136,14 +137,14 @@
         {
           "provision_id": "NM_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "New Mexico Const. art. II, \u00a7 10",
+          "citation": "New Mexico Const. art. II, § 10",
           "federal_parallel": "U.S. Const. amend. IV"
         },
         {
           "provision_id": "NM_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "New Mexico Const. art. II, \u00a7 18",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "New Mexico Const. art. II, § 18",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -305,10 +306,10 @@
     }
   },
   "state_agency": {
-    "name": "Children, Youth and Families Department",
+    "name": "New Mexico Children, Youth and Families Department",
     "acronym": "CYFD",
     "hotline": "1-855-333-7233",
-    "website": "https://www.nmlegis.gov"
+    "website": "https://www.cyfd.nm.gov/"
   },
   "icwa_compliant": true,
   "icwa_details": {
@@ -346,10 +347,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
+      "deadline": "10 days (may be held earlier on the respondent's written request, but no sooner than 2 days after filing)",
+      "starts_from": "Abuse/neglect petition filed",
       "source": "state_statute",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "source_url": "https://www.cyfd.nm.gov/wp-content/uploads/2024/06/chapter-32a-children-s-code-2023.pdf",
+      "consequence_of_miss": "Not specified in NMSA 1978 § 32A-4-18"
     },
     {
       "requirement_name": "Case plan development",

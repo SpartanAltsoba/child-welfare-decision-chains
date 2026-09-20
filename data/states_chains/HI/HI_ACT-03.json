@@ -6,8 +6,8 @@
   "subnode": "ACT-03",
   "trigger_name": "Foster Care Placement",
   "summary_html": "The child is **removed from the home** and placed in foster care under court order or emergency authority. Federal statutes tie funding to safety findings, judicial oversight, and permanency planning.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal monitoring of placement decisions",
-  "icon": "\ud83d\udea8",
+  "authority_html": "- **ASFA / SSA Title IV-E** — removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** — federal monitoring of placement decisions",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.35,
@@ -21,24 +21,38 @@
     "constitutional": {
       "constraints_triggered": [
         "U.S. Const. amend. IV",
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)",
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Hawaii - HRS Chapter 350 (Child Abuse) and Chapter 587A (Child Protective Act)",
-          "source_url": "https://data.capitol.hawaii.gov/sessions/session2017/HRS-Chapter-PDF's/HRS_0350.pdf",
+          "citation_text": "Hawaii — HRS Chapter 350, Child Abuse",
+          "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol07_Ch0346-0398/HRS0350/HRS_0350-.htm",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Hawaii — HRS Chapter 587A, Child Protective Act",
+          "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol12_Ch0501-0588/HRS0587A/HRS_0587A-.htm",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Haw. Rev. Stat. § 587A-26, Temporary foster custody hearing",
+          "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol12_Ch0501-0588/HRS0587A/HRS_0587A-0026.htm",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -119,14 +133,14 @@
         {
           "provision_id": "HI_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Hawaii Const. art. I, \u00a7 7",
+          "citation": "Hawaii Const. art. I, § 7",
           "federal_parallel": "U.S. Const. amend. IV"
         },
         {
           "provision_id": "HI_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Hawaii Const. art. I, \u00a7 5",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Hawaii Const. art. I, § 5",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -288,10 +302,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Services",
-    "acronym": "DHS",
-    "hotline": "808-832-5300",
-    "website": "https://www.capitol.hawaii.gov"
+    "name": "Hawaii Department of Human Services, Child Welfare Services",
+    "acronym": "CWS",
+    "hotline": "808-832-5300 (Oahu) or toll-free 1-888-380-3088 (Hawaii Island, Maui, Molokai, Lanai, Kauai), 24 hours a day, 7 days a week",
+    "website": "https://humanservices.hawaii.gov/ssd/home/child-welfare-services/"
   },
   "linked_decision": "DEC-04",
   "linked_input": "INP-01",
@@ -324,10 +338,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
+      "deadline": "2 days after the temporary foster custody petition is filed, excluding Saturdays, Sundays, and holidays",
+      "starts_from": "Temporary foster custody petition filed",
       "source": "state_statute",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol12_Ch0501-0588/HRS0587A/HRS_0587A-0026.htm",
+      "consequence_of_miss": "Not specified in statute"
     },
     {
       "requirement_name": "Case plan development",

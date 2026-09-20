@@ -5,9 +5,9 @@
   "node_family": "PMC",
   "subnode": "PMC-03",
   "trigger_name": "Citizen Review Panels",
-  "summary_html": "**CAPTA \u00a75106a(c)** requires every state to maintain **Citizen Review Panels** that evaluate CPS policies. Project Milk Carton checks whether panels are active, independent, and publicly reporting.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7 5106a(c))** \u2014 Citizen Review Panel mandate and reporting requirements",
-  "icon": "\ud83d\udde3\ufe0f",
+  "summary_html": "**CAPTA §5106a(c)** requires every state to maintain **Citizen Review Panels** that evaluate CPS policies. Project Milk Carton checks whether panels are active, independent, and publicly reporting.",
+  "authority_html": "- **CAPTA (42 U.S.C. § 5106a(c))** — Citizen Review Panel mandate and reporting requirements",
+  "icon": "🗣️",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -22,31 +22,31 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7 5106a(c) (CAPTA)"
+        "42 U.S.C. § 5106a(c) (CAPTA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "New Hampshire - RSA 169-C (Child Protection Act \u2013 includes reporting \u00a7\u00a0169-C:29)",
-          "source_url": "https://www.gencourt.state.nh.us/rsa/html/",
+          "citation_text": "New Hampshire - RSA 169-C (Child Protection Act – includes reporting § 169-C:29)",
+          "source_url": "https://gc.nh.gov/rsa/html/NHTOC/NHTOC-XII-169-C.htm",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
-          "deep_link": true
+          "last_verified": "2026-09-19",
+          "deep_link": false
         },
         {
           "citation_text": "New Hampshire - RSA 169-C:1 et seq. (Procedures for abuse/neglect cases)",
-          "source_url": "https://www.gencourt.state.nh.us/rsa/html/",
+          "source_url": "https://gc.nh.gov/rsa/html/XII/169-C/169-C-1.htm",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 161: Human Services - DCYF",
-          "source_url": "https://law.justia.com/codes/new-hampshire/title-161/",
+          "citation_text": "New Hampshire - RSA 170-G (Services for Children, Youth and Families – DCYF program authority)",
+          "source_url": "https://gc.nh.gov/rsa/html/NHTOC/NHTOC-XII-170-G.htm",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         }
@@ -233,8 +233,8 @@
   "state_agency": {
     "name": "Division for Children, Youth and Families",
     "acronym": "DCYF",
-    "hotline": "1-800-894-5533",
-    "website": "https://www.gencourt.state.nh.us"
+    "hotline": "1-800-894-5533 (in-state only) or 603-271-6562; DCYF Central Intake is staffed 24 hours a day, including weekends and holidays",
+    "website": "https://www.dhhs.nh.gov/division-children-youth-and-families"
   },
   "linked_fail": "FAIL-06",
   "_metadata": {
@@ -275,7 +275,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

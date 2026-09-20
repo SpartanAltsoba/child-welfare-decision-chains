@@ -5,9 +5,9 @@
   "node_family": "PMC",
   "subnode": "PMC-03",
   "trigger_name": "Citizen Review Panels",
-  "summary_html": "**CAPTA \u00a75106a(c)** requires every state to maintain **Citizen Review Panels** that evaluate CPS policies. Project Milk Carton checks whether panels are active, independent, and publicly reporting.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7 5106a(c))** \u2014 Citizen Review Panel mandate and reporting requirements",
-  "icon": "\ud83d\udde3\ufe0f",
+  "summary_html": "**CAPTA §5106a(c)** requires every state to maintain **Citizen Review Panels** that evaluate CPS policies. Project Milk Carton checks whether panels are active, independent, and publicly reporting.",
+  "authority_html": "- **CAPTA (42 U.S.C. § 5106a(c))** — Citizen Review Panel mandate and reporting requirements",
+  "icon": "🗣️",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -22,19 +22,20 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7 5106a(c) (CAPTA)"
+        "42 U.S.C. § 5106a(c) (CAPTA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "New Mexico - Chapter 32A, Article 4 (Child Abuse and Neglect Act \u2013 mandatory reporting and custody)",
-          "source_url": "https://www.nmlegis.gov",
+          "citation_text": "New Mexico - NMSA 1978 Chapter 32A, Article 4 (Abuse and Neglect Act: 32A-4-3 duty to report, 32A-4-18 custody hearings, 32A-4-19 adjudicatory hearings), CYFD-published Children's Code compilation (2023 text; 32A-4-3 amended 2025 by SB 42)",
+          "source_url": "https://www.cyfd.nm.gov/wp-content/uploads/2024/06/chapter-32a-children-s-code-2023.pdf",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Title 27: Human Services Department - CYFD",
+          "citation_text": "New Mexico Statutes Chapter 27 - Public Assistance (public assistance and Medicaid programs; CYFD's child-welfare authority is not in this chapter — it is the Children, Youth and Families Department Act, NMSA 1978 § 9-2A-7(D), and the Children's Code, NMSA 1978 § 32A-1-1, per 8.10.3.3 NMAC)",
           "source_url": "https://law.justia.com/codes/new-mexico/title-27/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-24",
@@ -284,10 +285,10 @@
     }
   },
   "state_agency": {
-    "name": "Children, Youth and Families Department",
+    "name": "New Mexico Children, Youth and Families Department",
     "acronym": "CYFD",
     "hotline": "1-855-333-7233",
-    "website": "https://www.nmlegis.gov"
+    "website": "https://www.cyfd.nm.gov/"
   },
   "linked_fail": "FAIL-06",
   "_metadata": {
@@ -328,7 +329,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

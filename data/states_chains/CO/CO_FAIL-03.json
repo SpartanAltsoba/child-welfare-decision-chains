@@ -6,16 +6,16 @@
   "subnode": "FAIL-03",
   "trigger_name": "Federal Compliance Failure",
   "summary_html": "A **state agency fails** to meet federal child-welfare performance standards, triggering **funding penalties** or corrective action under the CFSR or Single Audit Act.",
-  "authority_html": "- **Child & Family Services Reviews (45 CFR Part 1355)** \u2014 performance oversight and penalties  \n- **Single Audit Act (31 U.S.C. \u00a7\u00a7 7501\u20137507)** \u2014 audit of federally funded programs  \n- **Inspector General Act (5 U.S.C. App.)** \u2014 oversight authority for HHS/OIG",
-  "icon": "\ud83d\udcb8",
+  "authority_html": "- **Child & Family Services Reviews (45 CFR Part 1355)** — performance oversight and penalties  \n- **Single Audit Act (31 U.S.C. §§ 7501–7507)** — audit of federally funded programs  \n- **Inspector General Act (5 U.S.C. App.)** — oversight authority for HHS/OIG",
+  "icon": "💸",
   "theme_color": "#FF8C00",
   "domain": "civil",
   "procedural_weight": 0.7,
   "federal_alignment_flag": "baseline",
   "urls": {
     "CFSR_CFR": "https://www.law.cornell.edu/cfr/text/45/part-1355",
-    "SAA_Cornell": "https://www.law.cornell.edu/uscode/text/31/chapter-75",
-    "IGA_Cornell": "https://www.law.cornell.edu/uscode/text/5a/appendix-3"
+    "SAA_Cornell": "https://www.law.cornell.edu/uscode/text/31/subtitle-V/chapter-75",
+    "IGA_Cornell": "https://www.law.cornell.edu/uscode/text/5/part-I/chapter-4"
   },
   "layers": {
     "constitutional": {
@@ -25,50 +25,50 @@
     "federal": {
       "requirements_applicable": [
         "45 CFR Part 1355 (CFSR)",
-        "31 U.S.C. \u00a7\u00a7 7501\u20137507 (Single Audit Act)",
+        "31 U.S.C. §§ 7501–7507 (Single Audit Act)",
         "5 U.S.C. App. (Inspector General Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Colorado - Title 19, Article 3 (Colorado Children\u2019s Code \u2013 abuse/neglect reporting and dependency)",
-          "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf",
+          "citation_text": "Colorado - Title 19, Article 3 (Colorado Children’s Code – abuse/neglect reporting and dependency) — C.R.S. 2024 OLLS edition (uncertified printout)",
+          "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf#page=260",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Colorado - Title 19, Article 3, Part 3 (Dependency and neglect procedures)",
-          "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf",
+          "citation_text": "Colorado - Title 19, Article 3, Part 3 (Child Abuse or Neglect — reporting, screening, and investigation) — C.R.S. 2024 OLLS edition (uncertified printout)",
+          "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf#page=283",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 14: Domestic Matters",
-          "source_url": "https://law.justia.com/codes/colorado/title-14/",
+          "citation_text": "Title 14: Domestic Matters — C.R.S. 2024 OLLS edition (uncertified printout)",
+          "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-14.pdf",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 19: Children's Code - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/colorado/title-19/",
+          "citation_text": "Title 19: Children's Code - CHILD WELFARE PRIMARY — C.R.S. 2024 OLLS edition (uncertified printout)",
+          "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 26: Human Services Code",
-          "source_url": "https://law.justia.com/codes/colorado/title-26/",
+          "citation_text": "Title 26: Human Services Code — C.R.S. 2024 OLLS edition (uncertified printout)",
+          "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-26.pdf",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         }
@@ -257,7 +257,7 @@
     "name": "Colorado Department of Human Services",
     "acronym": "CDHS",
     "hotline": "1-844-264-5437",
-    "website": "https://leg.colorado.gov"
+    "website": "https://cdhs.colorado.gov/"
   },
   "linked_output": "OUT-06",
   "linked_action": "ACT-03",
@@ -294,7 +294,7 @@
       "requirement_name": "Appeal deadline",
       "deadline": "30 days",
       "starts_from": "Final order",
-      "source": "court_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Loss of appeal rights"
     },
     {

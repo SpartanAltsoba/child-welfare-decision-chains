@@ -6,8 +6,8 @@
   "subnode": "ACT-03",
   "trigger_name": "Foster Care Placement",
   "summary_html": "The child is **removed from the home** and placed in foster care under court order or emergency authority. Federal statutes tie funding to safety findings, judicial oversight, and permanency planning.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal monitoring of placement decisions",
-  "icon": "\ud83d\udea8",
+  "authority_html": "- **ASFA / SSA Title IV-E** — removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** — federal monitoring of placement decisions",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.35,
@@ -21,39 +21,40 @@
     "constitutional": {
       "constraints_triggered": [
         "U.S. Const. amend. IV",
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)",
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "South Carolina - S.C. Code Title\u00a063, Chapter\u00a07 (Child Protection Act \u2013 includes \u00a7\u00a063-7-310 reporting)",
-          "source_url": "https://www.scstatehouse.gov",
+          "citation_text": "S.C. Code Ann. Title 63, Chapter 7 — Child Protection and Permanency (includes § 63-7-310 mandatory reporting)",
+          "source_url": "https://www.scstatehouse.gov/code/t63c007.php",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 43: Social Services - DSS",
-          "source_url": "https://law.justia.com/codes/south-carolina/title-43/",
+          "source_url": "https://www.scstatehouse.gov/code/title43.php",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 63: South Carolina Children's Code - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/south-carolina/title-63/",
+          "source_url": "https://www.scstatehouse.gov/code/title63.php",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -63,19 +64,19 @@
     "administrative_rule": {
       "regulations_applicable": [
         {
-          "title": "Chapter 24 - OFFICE OF THE GOVERNOR- DIVISION FOR REVIEW OF THE FOSTER CARE OF CHILDREN",
-          "url": "https://www.law.cornell.edu/regulations/south-carolina/chapter-24"
+          "title": "Chapter 24 - OFFICE OF THE GOVERNOR-- DIVISION FOR REVIEW OF THE FOSTER CARE OF CHILDREN",
+          "url": "https://www.scstatehouse.gov/coderegs/Chapter%2024.pdf"
         },
         {
-          "title": "Chapter 31 - OFFICE OF THE GOVERNOR- CONTINUUM OF CARE FOR EMOTIONALLY DISTURBED CHILDREN DIVISION",
-          "url": "https://www.law.cornell.edu/regulations/south-carolina/chapter-31"
+          "title": "Chapter 31 - OFFICE OF THE GOVERNOR-- CONTINUUM OF CARE FOR EMOTIONALLY DISTURBED CHILDREN DIVISION",
+          "url": "https://www.scstatehouse.gov/coderegs/Chapter%2031.pdf"
         },
         {
-          "title": "Chapter 36 - DEPARTMENT OF LABOR, LICENSING AND REGULATION BOARD OF EXAMINERS FOR LICENSURE OF PROFESSIONAL COUNSELORS, MARRIAGE AND FAMILY THERAPISTS, ADDICTION COUNSELORS, AND PSYCHO-EDUCATIONAL SPECIALISTS",
-          "url": "https://www.law.cornell.edu/regulations/south-carolina/chapter-36"
+          "title": "Chapter 36 - DEPARTMENT OF LABOR, LICENSING AND REGULATION-- BOARD OF EXAMINERS FOR LICENSURE OF PROFESSIONAL COUNSELORS, MARRIAGE AND FAMILY THERAPISTS, ADDICTION COUNSELORS AND PSYCHO-EDUCATIONAL SPECIALISTS",
+          "url": "https://www.scstatehouse.gov/coderegs/Chapter%2036.pdf"
         }
       ],
-      "source_url": "https://www.law.cornell.edu/regulations/south-carolina.html"
+      "source_url": "https://www.scstatehouse.gov/coderegs/statmast.php"
     },
     "state_constitutional": {
       "plane_reference": "state_constitutional_SC",
@@ -84,14 +85,14 @@
         {
           "provision_id": "SC_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "South Carolina Const. art. I, \u00a7 10",
+          "citation": "South Carolina Const. art. I, § 10",
           "federal_parallel": "U.S. Const. amend. IV"
         },
         {
           "provision_id": "SC_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "South Carolina Const. art. I, \u00a7 3",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "South Carolina Const. art. I, § 3",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -253,10 +254,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Social Services",
+    "name": "South Carolina Department of Social Services",
     "acronym": "DSS",
     "hotline": "1-888-227-3487",
-    "website": "https://www.scstatehouse.gov"
+    "website": "https://dss.sc.gov/"
   },
   "linked_decision": "DEC-04",
   "linked_input": "INP-01",
@@ -289,10 +290,17 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
+      "deadline": "72 hours (next working day if the third day falls on a Saturday, Sunday, or holiday)",
+      "starts_from": "Child taken into emergency protective custody",
       "source": "state_statute",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "source_url": "https://www.scstatehouse.gov/code/t63c007.php",
+      "citation": {
+        "citation_text": "S.C. Code Ann. § 63-7-710(A)",
+        "source_url": "https://www.scstatehouse.gov/code/t63c007.php",
+        "authority_type": "state_statute",
+        "last_verified": "2026-09-19"
+      },
+      "consequence_of_miss": "Not specified in statute"
     },
     {
       "requirement_name": "Case plan development",

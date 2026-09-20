@@ -6,8 +6,8 @@
   "subnode": "PMC-02",
   "trigger_name": "OIG / Financial Audit",
   "summary_html": "Federal **OIG** investigations and **Single Audit Act** reviews track misuse of child-welfare funds. Project Milk Carton aggregates audit findings and highlights unresolved repeat deficiencies.",
-  "authority_html": "- **Inspector General Act (5 U.S.C. App.)** \u2014 OIG oversight of HHS  \n- **Single Audit Act (31 U.S.C. \u00a7\u00a7 7501\u20137507)** \u2014 audits of federally funded programs",
-  "icon": "\ud83e\uddfe",
+  "authority_html": "- **Inspector General Act (5 U.S.C. App.)** — OIG oversight of HHS  \n- **Single Audit Act (31 U.S.C. §§ 7501–7507)** — audits of federally funded programs",
+  "icon": "🧾",
   "theme_color": "#708090",
   "domain": "civil",
   "procedural_weight": 0.7,
@@ -24,38 +24,38 @@
     "federal": {
       "requirements_applicable": [
         "5 U.S.C. App. (Inspector General Act)",
-        "31 U.S.C. \u00a7\u00a7 7501\u20137507 (Single Audit Act)"
+        "31 U.S.C. §§ 7501–7507 (Single Audit Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Washington - RCW 74.13.500 (CFSR Monitoring)",
+          "citation_text": "Washington - RCW 74.13.500 (Disclosure of Child Welfare Records)",
           "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=74.13.500",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-23",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "node_specific": true
         },
         {
-          "citation_text": "Washington - RCW Chapter\u00a026.44 (Abuse of Children \u2013 mandatory reporting and investigations)",
+          "citation_text": "Washington - RCW Chapter 26.44 (Abuse of Children – mandatory reporting and investigations)",
           "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=26.44",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Washington - RCW Title\u00a013 (Juvenile Courts \u2013 includes dependency proceedings)",
+          "citation_text": "Washington - RCW Chapter 13.34 (Juvenile Court Act — Dependency and Termination of Parent-Child Relationship)",
           "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=13.34",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Title 13: Juvenile Courts and Juvenile Offenders",
           "source_url": "https://law.justia.com/codes/washington/title-13/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -64,7 +64,7 @@
           "citation_text": "Title 26: Domestic Relations - CHILD WELFARE PRIMARY",
           "source_url": "https://law.justia.com/codes/washington/title-26/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -73,7 +73,7 @@
           "citation_text": "Title 43: State Government - Child Abuse Reporting",
           "source_url": "https://law.justia.com/codes/washington/title-43/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -82,7 +82,7 @@
           "citation_text": "Title 74: Public Assistance - DCYF",
           "source_url": "https://law.justia.com/codes/washington/title-74/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -264,10 +264,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children, Youth, and Families",
+    "name": "Washington State Department of Children, Youth, and Families",
     "acronym": "DCYF",
     "hotline": "1-866-363-4276",
-    "website": "https://leg.wa.gov"
+    "website": "https://dcyf.wa.gov/"
   },
   "linked_fail": "FAIL-03",
   "_metadata": {
@@ -308,7 +308,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

@@ -6,8 +6,8 @@
   "subnode": "DEC-06",
   "trigger_name": "Differential Response / Alternative Response (No Petition)",
   "summary_html": "Agency chooses **Differential Response (DR)**/**Alternative Response**: engage **services without court petition** when safety permits. FFPSA and IV-B/IV-E prevention funding support voluntary, front-end help to avert removals.",
-  "authority_html": "- **Family First Prevention Services Act (FFPSA)** \u2014 prevention services framework under IV-E  \n- **SSA Title IV-B & IV-E (42 U.S.C. \u00a7\u00a7 620\u2013629m; 670\u2013679c)** \u2014 service funding & case-plan requirements  \n- **CFSR (45 CFR Part 1355)** \u2014 assesses safety/permanency outcomes in DR systems",
-  "icon": "\ud83d\udd27",
+  "authority_html": "- **Family First Prevention Services Act (FFPSA)** — prevention services framework under IV-E  \n- **SSA Title IV-B & IV-E (42 U.S.C. §§ 620–629m; 670–679c)** — service funding & case-plan requirements  \n- **CFSR (45 CFR Part 1355)** — assesses safety/permanency outcomes in DR systems",
+  "icon": "🔧",
   "theme_color": "#20B2AA",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -22,40 +22,50 @@
   "layers": {
     "constitutional": {
       "constraints_triggered": [
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 671\u2013679b (FFPSA-related IV-E)",
-        "42 U.S.C. \u00a7\u00a7 620\u2013629m (Title IV-B)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E)",
+        "42 U.S.C. §§ 671–679b (FFPSA-related IV-E)",
+        "42 U.S.C. §§ 620–629m (Title IV-B)",
+        "42 U.S.C. §§ 670–679c (Title IV-E)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Oregon - ORS Chapter\u00a0419B (Juvenile Code: Dependency and Abuse \u2013 includes mandatory reporting \u00a7\u00a7\u00a0419B.005\u2013419B.050)",
-          "source_url": "https://www.oregonlegislature.gov",
+          "citation_text": "Oregon - ORS Chapter 419B (Juvenile Code: Dependency – includes reporting and investigation of child abuse, ORS 419B.005 to 419B.050)",
+          "source_url": "https://www.oregonlegislature.gov/bills_laws/ors/ors419B.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Title 109: Parent and Child",
-          "source_url": "https://law.justia.com/codes/oregon/title-109/",
+          "citation_text": "Oregon - ORS Chapter 109 (Parent and Child Rights and Relationships)",
+          "source_url": "https://www.oregonlegislature.gov/bills_laws/ors/ors109.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 418: Child Care",
-          "source_url": "https://law.justia.com/codes/oregon/title-418/",
+          "citation_text": "Oregon - ORS Chapter 418 (Child Welfare Services)",
+          "source_url": "https://www.oregonlegislature.gov/bills_laws/ors/ors418.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Oregon - ORS 419B.600 to 419B.665 (Oregon Indian Child Welfare Act (ORICWA): ORS 419B.600 Policy on Indian child welfare through ORS 419B.665 Rules)",
+          "source_url": "https://www.oregonlegislature.gov/bills_laws/ors/ors419B.html",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -86,8 +96,8 @@
         {
           "provision_id": "OR_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Oregon Const. art. I, \u00a7 10",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Oregon Const. art. I, § 10",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -249,10 +259,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Services",
-    "acronym": "DHS",
+    "name": "Oregon Department of Human Services, Child Welfare Division",
+    "acronym": "ODHS",
     "hotline": "1-855-503-7233",
-    "website": "https://www.oregonlegislature.gov"
+    "website": "https://www.oregon.gov/odhs/child-safety/pages/default.aspx"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -288,16 +298,17 @@
   "timeline_requirements": [
     {
       "requirement_name": "Safety decision",
-      "deadline": "Immediate upon contact",
-      "starts_from": "First family contact",
+      "deadline": "Immediate — the CPS worker must determine whether a present danger safety threat is occurring at initial contact and at any time during the CPS assessment",
+      "starts_from": "Initial contact",
       "source": "admin_rule",
-      "consequence_of_miss": "Child safety risk"
+      "source_url": "https://www.oregon.gov/odhs/rules-policy/cwrules/413-015-en.pdf",
+      "consequence_of_miss": "Not specified in OAR 413-015-0425."
     },
     {
       "requirement_name": "Disposition finding",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Procedural violation"
     }
   ],

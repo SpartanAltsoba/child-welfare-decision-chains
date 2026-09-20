@@ -6,8 +6,8 @@
   "subnode": "DEC-05",
   "trigger_name": "File Petition / Open Dependency Case",
   "summary_html": "Agency **files a court petition** to open a **dependency** (or similar) case. Federal funding frameworks (IV-E/ASFA) link court oversight, reasonable-efforts findings, and permanency timelines to downstream actions.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 court findings; timelines; permanency planning  \n- **CFSR (45 CFR Part 1355)** \u2014 federal review of court/agency performance measures",
-  "icon": "\ud83d\udcdc",
+  "authority_html": "- **ASFA / SSA Title IV-E** — court findings; timelines; permanency planning  \n- **CFSR (45 CFR Part 1355)** — federal review of court/agency performance measures",
+  "icon": "📜",
   "theme_color": "#6A5ACD",
   "domain": "civil",
   "procedural_weight": 0.45,
@@ -21,13 +21,13 @@
   "layers": {
     "constitutional": {
       "constraints_triggered": [
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E)",
+        "42 U.S.C. §§ 670–679c (Title IV-E)",
         "Public Law 105-89 (ASFA)",
         "45 CFR Part 1355 (CFSR)"
       ]
@@ -35,17 +35,17 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Massachusetts - MGL Chapter\u00a0119 (Protection of Children, incl. \u00a7\u00a051A mandated reporting)",
-          "source_url": "https://malegislature.gov/Laws/GeneralLaws/",
+          "citation_text": "Massachusetts - M.G.L. c. 119, § 51A (Reporting of suspected abuse or neglect; mandated reporters; penalties)",
+          "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVII/Chapter119/Section51A",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Massachusetts - MGL Chapter\u00a0119, \u00a7\u00a7\u00a024\u201329 (Care and protection proceedings)",
-          "source_url": "https://malegislature.gov/Laws/GeneralLaws/",
+          "citation_text": "Massachusetts - M.G.L. c. 119, §§ 24–29 (Care and protection proceedings: emergency custody, hearings, appeals, right to counsel)",
+          "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVII/Chapter119",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
@@ -71,6 +71,10 @@
     "administrative_rule": {
       "regulations_applicable": [
         {
+          "title": "110 CMR - DEPARTMENT OF CHILDREN AND FAMILIES",
+          "url": "https://www.law.cornell.edu/regulations/massachusetts/department-110-CMR"
+        },
+        {
           "title": "101 CMR - EXECUTIVE OFFICE FOR HEALTH AND HUMAN SERVICES",
           "url": "https://www.law.cornell.edu/regulations/massachusetts/department-101-CMR"
         },
@@ -92,8 +96,8 @@
         {
           "provision_id": "MA_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Massachusetts Const. art. 12, \u00a7 ",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Massachusetts Const. art. 12, § ",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -255,10 +259,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children and Families",
+    "name": "Massachusetts Department of Children and Families",
     "acronym": "DCF",
-    "hotline": "1-800-792-5200",
-    "website": "https://malegislature.gov"
+    "hotline": "1-800-792-5200 (Massachusetts Child Abuse Emergency Line, for nights, weekends and holidays; weekdays 8:45 a.m. to 5 p.m. call the DCF area office for the city or town where the child lives)",
+    "website": "https://www.mass.gov/orgs/massachusetts-department-of-children-families"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -294,17 +298,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Safety decision",
-      "deadline": "Immediate upon contact",
-      "starts_from": "First family contact",
-      "source": "admin_rule",
-      "consequence_of_miss": "Child safety risk"
+      "deadline": "24 hours for the interim report and initial determination on the child's safety and custody (emergency response)",
+      "starts_from": "Initial contact on a screened-in 51A report",
+      "source": "state_statute",
+      "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVII/Chapter119/Section51B",
+      "consequence_of_miss": "No penalty stated in M.G.L. c. 119, § 51B(c)"
     },
     {
       "requirement_name": "Disposition finding",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
+      "deadline": "5 business days (emergency response) or 15 business days (non-emergency response) for the written determination whether the abuse or neglect is substantiated",
+      "starts_from": "Initial contact on a screened-in 51A report",
       "source": "state_statute",
-      "consequence_of_miss": "Procedural violation"
+      "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVII/Chapter119/Section51B",
+      "consequence_of_miss": "No penalty stated in M.G.L. c. 119, § 51B; the 15-business-day determination may be extended only by a waiver approved by the DCF area director or requested by law enforcement (§ 51B(d))"
     }
   ],
   "notice_requirements": [

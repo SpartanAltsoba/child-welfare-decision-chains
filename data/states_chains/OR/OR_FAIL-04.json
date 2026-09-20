@@ -6,8 +6,8 @@
   "subnode": "FAIL-04",
   "trigger_name": "Child Death Under Agency Supervision",
   "summary_html": "A child dies or suffers serious harm while **under agency supervision**, constituting systemic failure. Federal law mandates disclosure and review to identify causes and reforms.",
-  "authority_html": "- **Protect Our Kids Act (PL 112-275)** \u2014 federal commission and review requirements  \n- **CAPTA \u00a75106a(b)(2)(A)(x)** \u2014 mandates public disclosure of child-fatality cases",
-  "icon": "\u26b0\ufe0f",
+  "authority_html": "- **Protect Our Kids Act (PL 112-275)** — federal commission and review requirements  \n- **CAPTA §5106a(b)(2)(A)(x)** — mandates public disclosure of child-fatality cases",
+  "icon": "⚰️",
   "theme_color": "#8B0000",
   "domain": "civil",
   "procedural_weight": 0.3,
@@ -24,31 +24,41 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 112-275 (Protect Our Kids Act)",
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Oregon - ORS Chapter\u00a0419B (Juvenile Code: Dependency and Abuse \u2013 includes mandatory reporting \u00a7\u00a7\u00a0419B.005\u2013419B.050)",
-          "source_url": "https://www.oregonlegislature.gov",
+          "citation_text": "Oregon - ORS Chapter 419B (Juvenile Code: Dependency – includes reporting and investigation of child abuse, ORS 419B.005 to 419B.050)",
+          "source_url": "https://www.oregonlegislature.gov/bills_laws/ors/ors419B.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Title 109: Parent and Child",
-          "source_url": "https://law.justia.com/codes/oregon/title-109/",
+          "citation_text": "Oregon - ORS Chapter 109 (Parent and Child Rights and Relationships)",
+          "source_url": "https://www.oregonlegislature.gov/bills_laws/ors/ors109.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 418: Child Care",
-          "source_url": "https://law.justia.com/codes/oregon/title-418/",
+          "citation_text": "Oregon - ORS Chapter 418 (Child Welfare Services)",
+          "source_url": "https://www.oregonlegislature.gov/bills_laws/ors/ors418.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Oregon - ORS 419B.600 to 419B.665 (Oregon Indian Child Welfare Act (ORICWA): ORS 419B.600 Policy on Indian child welfare through ORS 419B.665 Rules)",
+          "source_url": "https://www.oregonlegislature.gov/bills_laws/ors/ors419B.html",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -235,10 +245,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Services",
-    "acronym": "DHS",
+    "name": "Oregon Department of Human Services, Child Welfare Division",
+    "acronym": "ODHS",
     "hotline": "1-855-503-7233",
-    "website": "https://www.oregonlegislature.gov"
+    "website": "https://www.oregon.gov/odhs/child-safety/pages/default.aspx"
   },
   "linked_output": "OUT-06",
   "linked_action": "ACT-03",
@@ -274,9 +284,10 @@
     {
       "requirement_name": "Appeal deadline",
       "deadline": "30 days",
-      "starts_from": "Final order",
-      "source": "court_rule",
-      "consequence_of_miss": "Loss of appeal rights"
+      "starts_from": "Entry of the juvenile court's judgment",
+      "source": "state_statute",
+      "source_url": "https://www.oregonlegislature.gov/bills_laws/ors/ors419A.html",
+      "consequence_of_miss": "The notice of appeal is untimely, but ORS 419A.200(5)(a) provides that on motion of a person other than the state the appellate court shall grant leave to file a notice of appeal after the time limit if the person shows a colorable claim of error and that the failure to file timely is not personally attributable to the person; that request must be filed no later than 90 days after entry of the judgment (ORS 419A.200(5)(c)). Where the circuit court grants a rehearing on a motion made not later than 15 days after entry of judgment, the time for taking an appeal runs from entry of the judgment after the rehearing (ORS 419A.200(2))."
     },
     {
       "requirement_name": "1983 statute of limitations",

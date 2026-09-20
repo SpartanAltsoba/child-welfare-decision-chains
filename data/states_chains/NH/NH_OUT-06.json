@@ -6,8 +6,8 @@
   "subnode": "OUT-06",
   "trigger_name": "Child Fatality / Serious Injury",
   "summary_html": "Case results in **child fatality or serious injury**, triggering mandatory federal and state review. Data and lessons inform systemic reform.",
-  "authority_html": "- **Protect Our Kids Act (PL 112-275)** \u2014 establishes national commission and reporting requirements  \n- **CAPTA \u00a75106a(b)(2)(A)(x)** \u2014 mandates public disclosure and case review of fatalities",
-  "icon": "\u26b0\ufe0f",
+  "authority_html": "- **Protect Our Kids Act (PL 112-275)** — establishes national commission and reporting requirements  \n- **CAPTA §5106a(b)(2)(A)(x)** — mandates public disclosure and case review of fatalities",
+  "icon": "⚰️",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.3,
@@ -24,31 +24,31 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 112-275 (Protect Our Kids Act)",
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "New Hampshire - RSA 169-C (Child Protection Act \u2013 includes reporting \u00a7\u00a0169-C:29)",
-          "source_url": "https://www.gencourt.state.nh.us/rsa/html/",
+          "citation_text": "New Hampshire - RSA 169-C (Child Protection Act – includes reporting § 169-C:29)",
+          "source_url": "https://gc.nh.gov/rsa/html/NHTOC/NHTOC-XII-169-C.htm",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
-          "deep_link": true
+          "last_verified": "2026-09-19",
+          "deep_link": false
         },
         {
           "citation_text": "New Hampshire - RSA 169-C:1 et seq. (Procedures for abuse/neglect cases)",
-          "source_url": "https://www.gencourt.state.nh.us/rsa/html/",
+          "source_url": "https://gc.nh.gov/rsa/html/XII/169-C/169-C-1.htm",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 161: Human Services - DCYF",
-          "source_url": "https://law.justia.com/codes/new-hampshire/title-161/",
+          "citation_text": "New Hampshire - RSA 170-G (Services for Children, Youth and Families – DCYF program authority)",
+          "source_url": "https://gc.nh.gov/rsa/html/NHTOC/NHTOC-XII-170-G.htm",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         }
@@ -236,11 +236,11 @@
   "state_agency": {
     "name": "Division for Children, Youth and Families",
     "acronym": "DCYF",
-    "hotline": "1-800-894-5533",
-    "website": "https://www.gencourt.state.nh.us"
+    "hotline": "1-800-894-5533 (in-state only) or 603-271-6562; DCYF Central Intake is staffed 24 hours a day, including weekends and holidays",
+    "website": "https://www.dhhs.nh.gov/division-children-youth-and-families"
   },
   "extended_foster_care": true,
-  "extended_foster_care_age": "Up to age 21 (until 21st birthday)",
+  "extended_foster_care_age": "Up to age 21 (HOPE program; voluntary; only if in NH DHHS legal custody at 18; RSA 169-C:34, V-a)",
   "linked_action": "ACT-03",
   "linked_decision": "DEC-04",
   "linked_input": "INP-01",

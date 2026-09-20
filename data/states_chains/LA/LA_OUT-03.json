@@ -6,8 +6,8 @@
   "subnode": "OUT-03",
   "trigger_name": "Guardianship / Kinship Permanency",
   "summary_html": "Child achieves **permanency through legal guardianship** or kinship care. Federal programs provide funding parity with adoption for approved relatives.",
-  "authority_html": "- **Fostering Connections to Success and Increasing Adoptions Act (FCSIAA)** \u2014 kinship-guardianship assistance  \n- **SSA Title IV-E (42 U.S.C. \u00a7 673(d))** \u2014 authorizes Guardianship Assistance Program (GAP)",
-  "icon": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67",
+  "authority_html": "- **Fostering Connections to Success and Increasing Adoptions Act (FCSIAA)** — kinship-guardianship assistance  \n- **SSA Title IV-E (42 U.S.C. § 673(d))** — authorizes Guardianship Assistance Program (GAP)",
+  "icon": "👨‍👩‍👧",
   "theme_color": "#FFD700",
   "domain": "civil",
   "procedural_weight": 0.55,
@@ -19,23 +19,30 @@
   "layers": {
     "constitutional": {
       "constraints_triggered": [
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
         "Public Law 110-351 (FCSIAA)",
-        "42 U.S.C. \u00a7 673(d) (IV-E Guardianship Assistance)"
+        "42 U.S.C. § 673(d) (IV-E Guardianship Assistance)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Louisiana - Children\u2019s Code Article 601 et seq. (Children\u2019s Code \u2013 Child in Need of Care, includes reporting duties)",
-          "source_url": "https://www.legis.la.gov/legis/Laws_Toc.aspx",
+          "citation_text": "Louisiana - Children’s Code Article 601 et seq. (Children’s Code – Child in Need of Care, includes reporting duties)",
+          "source_url": "https://www.legis.la.gov/legis/Law.aspx?d=73193",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Louisiana - La. R.S. 46:288.1 et seq. (Extended Foster Care Program Act)",
+          "source_url": "https://www.legis.la.gov/legis/Law.aspx?d=1148390",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -116,8 +123,8 @@
         {
           "provision_id": "LA_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Louisiana Const. art. I, \u00a7 2",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Louisiana Const. art. I, § 2",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -279,13 +286,13 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children and Family Services",
+    "name": "Louisiana Department of Children and Family Services",
     "acronym": "DCFS",
     "hotline": "1-855-452-5437",
-    "website": "https://www.legis.la.gov"
+    "website": "https://dcfs.louisiana.gov/"
   },
   "extended_foster_care": true,
-  "extended_foster_care_age": "Up to age 21 (until 21st birthday)",
+  "extended_foster_care_age": "18 to 21 (voluntary Extended Foster Care Program; must have been adjudicated a child in need of care and in DCFS custody the day before turning 18, plus a school, work, or medical condition; La. R.S. 46:288.2(3), 288.3)",
   "linked_action": "ACT-04",
   "linked_decision": "DEC-04",
   "linked_input": "INP-01",

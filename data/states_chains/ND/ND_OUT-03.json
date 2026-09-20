@@ -6,8 +6,8 @@
   "subnode": "OUT-03",
   "trigger_name": "Guardianship / Kinship Permanency",
   "summary_html": "Child achieves **permanency through legal guardianship** or kinship care. Federal programs provide funding parity with adoption for approved relatives.",
-  "authority_html": "- **Fostering Connections to Success and Increasing Adoptions Act (FCSIAA)** \u2014 kinship-guardianship assistance  \n- **SSA Title IV-E (42 U.S.C. \u00a7 673(d))** \u2014 authorizes Guardianship Assistance Program (GAP)",
-  "icon": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67",
+  "authority_html": "- **Fostering Connections to Success and Increasing Adoptions Act (FCSIAA)** — kinship-guardianship assistance  \n- **SSA Title IV-E (42 U.S.C. § 673(d))** — authorizes Guardianship Assistance Program (GAP)",
+  "icon": "👨‍👩‍👧",
   "theme_color": "#FFD700",
   "domain": "civil",
   "procedural_weight": 0.55,
@@ -19,29 +19,38 @@
   "layers": {
     "constitutional": {
       "constraints_triggered": [
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
         "Public Law 110-351 (FCSIAA)",
-        "42 U.S.C. \u00a7 673(d) (IV-E Guardianship Assistance)"
+        "42 U.S.C. § 673(d) (IV-E Guardianship Assistance)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "North Dakota - N.D. Cent. Code Chapter\u00a050-25.1 (Child Abuse and Neglect \u2013 reporting and records)",
-          "source_url": "https://www.legis.nd.gov",
+          "citation_text": "North Dakota - N.D. Cent. Code Chapter 50-25.1 (Child Abuse and Neglect – reporting and records)",
+          "source_url": "https://ndlegis.gov/cencode/t50c25-1.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "North Dakota - N.D. Cent. Code \u00a7\u00a027-20.1-01 et seq. (Juvenile Court Act for deprivation cases)",
-          "source_url": "https://www.legis.nd.gov",
+          "citation_text": "North Dakota - N.D. Cent. Code ch. 27-20.3 (Child Welfare – protective custody, shelter care, child in need of protection)",
+          "source_url": "https://ndlegis.gov/cencode/t27c20-3.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "North Dakota - N.D. Cent. Code ch. 50-01.1 (Human Service Zones - the county-employed local agency that administers designated child welfare services under the direction and supervision of the department; §§ 50-01.1-01(4), (6), 50-01.1-03(1)(j), 50-01.1-05(7))",
+          "source_url": "https://ndlegis.gov/cencode/t50c01-1.html",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 14: Domestic Relations",
@@ -152,8 +161,8 @@
         {
           "provision_id": "ND_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "North Dakota Const. art. I, \u00a7 12",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "North Dakota Const. art. I, § 12",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -315,13 +324,13 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Services",
-    "acronym": "DHS",
-    "hotline": "1-833-958-3500",
-    "website": "https://www.legis.nd.gov"
+    "name": "North Dakota Department of Health and Human Services",
+    "acronym": "HHS",
+    "hotline": "1-833-958-3500 (8 a.m.-5 p.m. Central / 7 a.m.-4 p.m. Mountain, Mon-Fri; if a child is in immediate danger call 911)",
+    "website": "https://www.hhs.nd.gov/cfs"
   },
   "extended_foster_care": true,
-  "extended_foster_care_age": "Up to age 21 (until 21st birthday)",
+  "extended_foster_care_age": "18 to 21 (continued foster care agreement required; N.D. Cent. Code § 27-20.3-16)",
   "linked_action": "ACT-04",
   "linked_decision": "DEC-04",
   "linked_input": "INP-01",

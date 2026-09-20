@@ -6,8 +6,8 @@
   "subnode": "ACT-02",
   "trigger_name": "Court-Ordered Services",
   "summary_html": "Court orders a **service plan or supervision** period following a substantiated finding. The goal is rehabilitation and reunification consistent with federal 'reasonable-efforts' requirements.",
-  "authority_html": "- **Adoption and Safe Families Act (ASFA)** \u2014 reasonable-efforts and permanency mandates  \n- **SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 reimbursement framework for foster-care and service costs",
-  "icon": "\u2696\ufe0f",
+  "authority_html": "- **Adoption and Safe Families Act (ASFA)** — reasonable-efforts and permanency mandates  \n- **SSA Title IV-E (42 U.S.C. §§ 670–679c)** — reimbursement framework for foster-care and service costs",
+  "icon": "⚖️",
   "theme_color": "#1E90FF",
   "domain": "civil",
   "procedural_weight": 0.55,
@@ -25,23 +25,23 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)"
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "District of Columbia - D.C. Code \u00a7 16-2301 et seq. (Family Division Definitions)",
-          "source_url": "https://code.dccouncil.gov/us/dc/council/code/titles/16/chapters/2301",
+          "citation_text": "District of Columbia - D.C. Code § 16-2301 (Definitions)",
+          "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/16-2301",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "District of Columbia - D.C. Code Title 4, Chapter 13, Subchapter III (Services)",
-          "source_url": "https://code.dccouncil.gov/us/dc/council/code/titles/4/chapters/13/subchapters/III",
+          "citation_text": "District of Columbia - D.C. Code Title 4, Chapter 13, Subchapter I, Part C (Child and Family Services Agency) — § 4-1303.04 services authorized; custodial placement; removal of child",
+          "source_url": "https://code.dccouncil.gov/us/dc/council/code/titles/4/chapters/13/subchapters/I/parts/C",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -214,7 +214,7 @@
     "name": "Child and Family Services Agency",
     "acronym": "CFSA",
     "hotline": "202-671-7233",
-    "website": ""
+    "website": "https://cfsa.dc.gov/"
   },
   "linked_decision": "DEC-03",
   "linked_input": "INP-01",
@@ -247,10 +247,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
+      "deadline": "Not later than 72 hours, excluding Sundays",
+      "starts_from": "Child taken into custody",
       "source": "state_statute",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "consequence_of_miss": "Not specified in statute",
+      "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/16-2312"
     },
     {
       "requirement_name": "Case plan development",

@@ -6,8 +6,8 @@
   "subnode": "INP-07",
   "trigger_name": "Medical Disclosure",
   "summary_html": "**Healthcare encounters** that reveal suspected abuse or neglect trigger reporting obligations. Federal law governs mandatory reporting in federal facilities and coordination with state systems.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 state reporter systems and protections  \n- **Victims of Child Abuse Act (34 U.S.C. \u00a7\u00a7 20301\u201320307)** \u2014 mandates in federal settings, CAC coordination",
-  "icon": "\ud83c\udfe5",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — state reporter systems and protections  \n- **Victims of Child Abuse Act (34 U.S.C. §§ 20301–20307)** — mandates in federal settings, CAC coordination",
+  "icon": "🏥",
   "theme_color": "#FF69B4",
   "domain": "civil",
   "procedural_weight": 0.45,
@@ -23,50 +23,50 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
-        "34 U.S.C. \u00a7\u00a7 20301\u201320307 (Victims of Child Abuse Act)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
+        "34 U.S.C. §§ 20301–20307 (Victims of Child Abuse Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Delaware - Title 16, Chapter 9 (Abuse of Children \u2013 reporting requirements)",
+          "citation_text": "Delaware - Title 16, Chapter 9 (Abuse of Children – reporting requirements)",
           "source_url": "https://delcode.delaware.gov/title16/c009/index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Delaware - Title 13, Chapter 25 (Dependent children proceedings)",
+          "citation_text": "Delaware - Title 13, Chapter 25 (DSCYF Custody)",
           "source_url": "https://delcode.delaware.gov/title13/c025/index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Title 13: Domestic Relations - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/delaware/title-13/",
+          "source_url": "https://delcode.delaware.gov/title13/index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 16: Health and Safety - Child Abuse",
-          "source_url": "https://law.justia.com/codes/delaware/title-16/",
+          "source_url": "https://delcode.delaware.gov/title16/index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 31: Welfare",
-          "source_url": "https://law.justia.com/codes/delaware/title-31/",
+          "source_url": "https://delcode.delaware.gov/title31/index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         }
@@ -75,8 +75,16 @@
     "administrative_rule": {
       "regulations_applicable": [
         {
+          "title": "Delaware Administrative Code, Title 9 — Services for Children, Youth and Their Families (DSCYF)",
+          "url": "https://regulations.delaware.gov/AdminCode/title9",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
+        },
+        {
           "title": "Title 9 - Services for Children Youth and Their Families",
-          "url": "https://www.law.cornell.edu/regulations/delaware/title-9"
+          "url": "https://www.law.cornell.edu/regulations/delaware/title-9",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
         },
         {
           "title": "Delaware Administrative Rule Title 13",
@@ -303,28 +311,18 @@
     }
   },
   "state_agency": {
-    "name": "Division of Family Services",
+    "name": "Delaware Division of Family Services",
     "acronym": "DFS",
     "hotline": "1-800-292-9582",
-    "website": "https://legis.delaware.gov"
+    "website": "https://kids.delaware.gov/family-services/"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Shelter Staff",
-    "Childcare Staff",
-    "Clergy",
-    "Foster Parents",
-    "Coaches",
-    "Coroners",
-    "EMTs/Emergency Personnel",
-    "Judges",
-    "District Attorneys"
+    "Any person (universal mandatory reporting) — 16 Del. C. § 903(a)",
+    "Any agency, organization, or entity — 16 Del. C. § 903(a)",
+    "Persons licensed through the Delaware Division of Professional Regulation and the Department of Education (must give name and address when reporting; other reporters may remain anonymous) — 16 Del. C. § 905(e)"
   ],
   "reporting_type": "centralized",
-  "reporting_details": "Not applicable",
+  "reporting_details": "Delaware is a universal-reporter state: any person, agency, organization, or entity who knows or in good faith suspects child abuse, neglect, or human trafficking must report it to the Department's 24-hour statewide Child Abuse and Neglect Report Line, 1-800-292-9582, and may use DSCYF's online reporting portal only for reports outside the circumstances listed in 16 Del. C. § 904(a) (16 Del. C. §§ 903(a), 904, 905(a)).",
   "definitions": {
     "abuse": [
       "Physical abuse",
@@ -388,14 +386,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

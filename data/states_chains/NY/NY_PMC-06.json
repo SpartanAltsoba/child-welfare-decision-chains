@@ -6,8 +6,8 @@
   "subnode": "PMC-06",
   "trigger_name": "Project Milk Carton AI Analysis",
   "summary_html": "The **Project Milk Carton AI Layer** performs cross-analysis of federal and state chains to identify weak points, policy gaps, and non-compliance. This is the citizen feedback mechanism for accountability and reform.",
-  "authority_html": "No direct statutory authority \u2014 citizen innovation layer built on public data and federal transparency laws.",
-  "icon": "\ud83e\udd16",
+  "authority_html": "No direct statutory authority — citizen innovation layer built on public data and federal transparency laws.",
+  "icon": "🤖",
   "theme_color": "#20B2AA",
   "domain": "civil",
   "procedural_weight": 0.9,
@@ -26,17 +26,18 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "New York - N.Y. Soc. Serv. Law \u00a7\u00a0411 et seq. (Child Protective Services Act \u2013 reporting requirements)",
-          "source_url": "https://www.nysenate.gov/legislation/laws/SocServ/411",
+          "citation_text": "New York - N.Y. Soc. Serv. Law § 411 et seq. (Child Protective Services Act – reporting requirements)",
+          "source_url": "https://www.nysenate.gov/legislation/laws/SOS/411",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "New York - Family Court Act Article 10 (Abuse/Neglect juvenile proceedings)",
-          "source_url": "https://nyassembly.gov",
+          "source_url": "https://www.nysenate.gov/legislation/laws/FCT/A10",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
@@ -274,7 +275,7 @@
     "name": "Office of Children and Family Services",
     "acronym": "OCFS",
     "hotline": "1-800-342-3720",
-    "website": "https://nyassembly.gov"
+    "website": "https://ocfs.ny.gov/"
   },
   "linked_fail": "ALL",
   "_metadata": {
@@ -315,7 +316,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

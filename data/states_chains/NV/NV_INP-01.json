@@ -6,8 +6,8 @@
   "subnode": "INP-01",
   "trigger_name": "Mandatory Report",
   "summary_html": "**Mandatory reporters** (designated professionals) must report suspected child abuse or neglect. Federal law sets the funding and policy floor (CAPTA) and mandates reporter frameworks on federal lands/facilities (VICAA).",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 federal floor for state reporting systems  \n- **Victims of Child Abuse Act (34 U.S.C. \u00a7\u00a7 20301\u201320307)** \u2014 includes federal-facility reporter duties (recodified from former 42 U.S.C. \u00a713031)",
-  "icon": "\ud83d\udcde",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — federal floor for state reporting systems  \n- **Victims of Child Abuse Act (34 U.S.C. §§ 20301–20307)** — includes federal-facility reporter duties (recodified from former 42 U.S.C. §13031)",
+  "icon": "📞",
   "theme_color": "#1E90FF",
   "domain": "civil",
   "procedural_weight": 0.4,
@@ -27,42 +27,42 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
-        "34 U.S.C. \u00a7\u00a7 20301\u201320307 (Victims of Child Abuse Act)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
+        "34 U.S.C. §§ 20301–20307 (Victims of Child Abuse Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Nevada - NRS Chapter\u00a0432B (Protection of Children from Abuse and Neglect)",
+          "citation_text": "Nevada - NRS Chapter 432B (Protection of Children from Abuse and Neglect)",
           "source_url": "https://www.leg.state.nv.us/NRS/NRS-432B.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 127: Adoption",
-          "source_url": "https://law.justia.com/codes/nevada/title-127/",
+          "citation_text": "Nevada - NRS Chapter 127 (Adoption of Children and Adults)",
+          "source_url": "https://www.leg.state.nv.us/NRS/NRS-127.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 128: Termination of Parental Rights",
-          "source_url": "https://law.justia.com/codes/nevada/title-128/",
+          "citation_text": "Nevada - NRS Chapter 128 (Termination of Parental Rights)",
+          "source_url": "https://www.leg.state.nv.us/NRS/NRS-128.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 432: Services for Children - DCFS",
-          "source_url": "https://law.justia.com/codes/nevada/title-432/",
+          "citation_text": "Nevada - NRS Chapter 432 (Public Services for Children)",
+          "source_url": "https://www.leg.state.nv.us/NRS/NRS-432.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -248,24 +248,28 @@
     }
   },
   "state_agency": {
-    "name": "Division of Child and Family Services",
+    "name": "Nevada Division of Child and Family Services",
     "acronym": "DCFS",
-    "hotline": "1-833-803-1183",
-    "website": "https://www.leg.state.nv.us"
+    "hotline": "Clark County 702-399-0081; Washoe County 833-900-7233; all other counties 833-571-1041 (after hours: local law enforcement)",
+    "website": "https://dcfs.nv.gov/"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Shelter Staff",
-    "Childcare Staff",
-    "Clergy",
-    "Foster Parents",
-    "Coaches",
-    "Coroners",
-    "EMTs/Emergency Personnel",
-    "District Attorneys"
+    "Designated professionals only (not universal) — NRS 432B.220(1) and (4); any other person may make a report but is not required to (NRS 432B.220(5))",
+    "A person providing services licensed or certified in this State pursuant to, without limitation, NRS chapters 450B, 630, 630A, 631, 632, 633, 634, 634A, 634B, 635, 636, 637, 637B, 639, 640, 640A, 640B, 640C, 640D, 640E, 641, 641A, 641B, 641C, 641D or 653, or practicing as an emergency medical technician, advanced emergency medical technician or paramedic in this State under the Recognition of Emergency Medical Services Personnel Licensure Interstate Compact ratified by NRS 450B.145 — NRS 432B.220(4)(a)",
+    "Any personnel of a medical facility licensed pursuant to NRS chapter 449 who are engaged in the admission, examination, care or treatment of persons, or an administrator, manager or other person in charge of such a medical facility upon notification of suspected abuse or neglect of a child by a member of the staff of the medical facility — NRS 432B.220(4)(b)",
+    "Coroners — NRS 432B.220(4)(c)",
+    "Members of the clergy, practitioners of Christian Science and religious healers, unless the knowledge was acquired from the offender during a confession — NRS 432B.220(4)(d)",
+    "Persons employed by a public or private school and persons who serve as volunteers at such a school — NRS 432B.220(4)(e)",
+    "Any person who maintains or is employed by a facility or establishment that provides care for children, a children's camp or any other public or private facility, institution or agency furnishing care to a child — NRS 432B.220(4)(f)",
+    "Persons licensed under NRS chapter 424 to conduct a foster home — NRS 432B.220(4)(g)",
+    "Officers and employees of a law enforcement agency and adult or juvenile probation officers — NRS 432B.220(4)(h)",
+    "Attorneys, except as otherwise provided in NRS 432B.225 — NRS 432B.220(4)(i)",
+    "Any person who maintains, is employed by or serves as a volunteer for an agency or service which advises persons regarding the abuse or neglect of a child and refers them for help — NRS 432B.220(4)(j)",
+    "Persons employed by or serving as volunteers for a youth shelter — NRS 432B.220(4)(k)",
+    "Any adult employed by an entity that provides organized activities for children, including a school district or public school — NRS 432B.220(4)(l)",
+    "Persons enrolled with Medicaid to provide doula services — NRS 432B.220(4)(m)",
+    "Certified prevention specialists, peer recovery support specialists and peer recovery support specialist supervisors — NRS 432B.220(4)(n)",
+    "Reports must be made to an agency which provides child welfare services or to a law enforcement agency as soon as reasonably practicable and not later than 24 hours after the reporter knows or has reasonable cause to believe a child has been abused or neglected — NRS 432B.220(1)"
   ],
   "reporting_type": "decentralized",
   "definitions": {
@@ -324,16 +328,17 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
-      "starts_from": "Report received",
+      "deadline": "An investigation must be initiated immediately if the report indicates that there is a high risk of serious harm to the child, that the child has suffered a fatality, or that the child is living in a household in which another child has died, or the child is seriously injured or has visible signs of physical abuse (NRS 432B.260(2)); otherwise the agency which provides child welfare services must conduct an evaluation not later than 3 days after the report or notification was received to determine whether an investigation is warranted (NRS 432B.260(3)) and, if it is, must initiate the investigation not later than 3 days after the evaluation is completed (NRS 432B.260(4))",
+      "starts_from": "A report concerning the possible abuse or neglect of a child is received by an agency which provides child welfare services or by a law enforcement agency, or the child welfare agency is notified by a law enforcement agency that it has received such a report (NRS 432B.260(2) and (3))",
       "source": "state_statute",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "source_url": "https://www.leg.state.nv.us/NRS/NRS-432B.html#NRS432BSec260",
+      "consequence_of_miss": "Not specified in NRS 432B.260"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

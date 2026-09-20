@@ -6,8 +6,8 @@
   "subnode": "ACT-04",
   "trigger_name": "Kinship Placement",
   "summary_html": "Agency places a child with **relatives or kin caregivers** instead of non-relative foster care. Federal law favors kinship care as least-restrictive, family-preserving placement.",
-  "authority_html": "- **Fostering Connections to Success and Increasing Adoptions Act (FCSIAA 2008)** \u2014 kinship-care incentives  \n- **SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 reimbursement for approved kin placements",
-  "icon": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67",
+  "authority_html": "- **Fostering Connections to Success and Increasing Adoptions Act (FCSIAA 2008)** — kinship-care incentives  \n- **SSA Title IV-E (42 U.S.C. §§ 670–679c)** — reimbursement for approved kin placements",
+  "icon": "👨‍👩‍👧",
   "theme_color": "#FFD700",
   "domain": "civil",
   "procedural_weight": 0.45,
@@ -20,14 +20,14 @@
   "layers": {
     "constitutional": {
       "constraints_triggered": [
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
         "Public Law 110-351 (FCSIAA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)"
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)"
       ]
     },
     "state_statutory": {
@@ -36,39 +36,39 @@
           "citation_text": "Alaska - Title 47, Chapter 17 (Child Protection, including mandatory reporting)",
           "source_url": "https://www.akleg.gov/basis/statutes.asp#47.17",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Alaska - Title 47, Chapter 10 (Child in Need of Aid proceedings)",
           "source_url": "https://www.akleg.gov/basis/statutes.asp#47.10",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 18: Health, Safety, Housing - Child Abuse Reporting",
-          "source_url": "http://www.legis.state.ak.us/basis/folioproxy.asp?url=http://wwwjnu01.legis.state.ak.us/cgi-bin/folioisa.dll/stattx22/query=*/doc/{t10430}",
+          "citation_text": "Alaska Stat. § 18.85.100 — Right to representation, services, and facilities; under (e) the Public Defender Agency may represent a parent at the AS 47.10.142(d) temporary custody hearing at public expense without a court order, and if the parent is not later found eligible for court-appointed counsel the court shall assess the cost of that representation against the parent",
+          "source_url": "https://www.akleg.gov/basis/statutes.asp#18.85.100",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 25: Marital and Domestic Relations",
-          "source_url": "http://www.legis.state.ak.us/basis/folioproxy.asp?url=http://wwwjnu01.legis.state.ak.us/cgi-bin/folioisa.dll/stattx22/query=*/doc/{t10437}",
+          "citation_text": "Alaska Stat. Title 25 (Marital and Domestic Relations), Chapter 23 — Adoption",
+          "source_url": "https://www.akleg.gov/basis/statutes.asp#25.23",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 47: Welfare, Social Services and Institutions - CHILD WELFARE PRIMARY",
-          "source_url": "http://www.legis.state.ak.us/basis/folioproxy.asp?url=http://wwwjnu01.legis.state.ak.us/cgi-bin/folioisa.dll/stattx22/query=*/doc/{t10459}",
+          "citation_text": "Alaska Stat. Title 47 — Welfare, Social Services and Institutions (child welfare: ch. 10, Children in Need of Aid; ch. 17, Child Protection)",
+          "source_url": "https://www.akleg.gov/basis/statutes.asp#47",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -151,8 +151,8 @@
         {
           "provision_id": "AK_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Alaska Const. art. I, \u00a7 7",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Alaska Const. art. I, § 7",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -314,10 +314,10 @@
     }
   },
   "state_agency": {
-    "name": "Office of Children's Services",
+    "name": "Alaska Office of Children's Services",
     "acronym": "OCS",
-    "hotline": "1-800-478-4444",
-    "website": "https://akleg.gov"
+    "hotline": "1-800-478-4444 or 907-269-6510 (24 hours a day, every day)",
+    "website": "https://dfcs.alaska.gov/office-of-childrens-services/"
   },
   "linked_decision": "DEC-04",
   "linked_input": "INP-01",
@@ -350,10 +350,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
+      "deadline": "48 hours",
+      "starts_from": "Court notified of the department's emergency custody",
       "source": "state_statute",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "source_url": "https://www.akleg.gov/basis/statutes.asp#47.10.142",
+      "consequence_of_miss": "Statute sets no penalty; the only excuse it allows is lack of transportation (AS 47.10.142(d))"
     },
     {
       "requirement_name": "Case plan development",

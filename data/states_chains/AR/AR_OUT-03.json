@@ -6,8 +6,8 @@
   "subnode": "OUT-03",
   "trigger_name": "Guardianship / Kinship Permanency",
   "summary_html": "Child achieves **permanency through legal guardianship** or kinship care. Federal programs provide funding parity with adoption for approved relatives.",
-  "authority_html": "- **Fostering Connections to Success and Increasing Adoptions Act (FCSIAA)** \u2014 kinship-guardianship assistance  \n- **SSA Title IV-E (42 U.S.C. \u00a7 673(d))** \u2014 authorizes Guardianship Assistance Program (GAP)",
-  "icon": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67",
+  "authority_html": "- **Fostering Connections to Success and Increasing Adoptions Act (FCSIAA)** — kinship-guardianship assistance  \n- **SSA Title IV-E (42 U.S.C. § 673(d))** — authorizes Guardianship Assistance Program (GAP)",
+  "icon": "👨‍👩‍👧",
   "theme_color": "#FFD700",
   "domain": "civil",
   "procedural_weight": 0.55,
@@ -19,56 +19,59 @@
   "layers": {
     "constitutional": {
       "constraints_triggered": [
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
         "Public Law 110-351 (FCSIAA)",
-        "42 U.S.C. \u00a7 673(d) (IV-E Guardianship Assistance)"
+        "42 U.S.C. § 673(d) (IV-E Guardianship Assistance)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Arkansas - Title 12, Chapter 18 (Child Maltreatment Act \u2013 reporting and investigation)",
-          "source_url": "https://www.arkleg.state.ar.us",
+          "citation_text": "Ark. Code Ann. § 12-18-103 — Child Maltreatment Act: definitions of abuse, neglect, and child maltreatment",
+          "source_url": "https://codes.findlaw.com/ar/title-12-law-enforcement-emergency-management-and-military-affairs/ar-code-sect-12-18-103/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Arkansas - Title 9, Chapter 27 (Juvenile Code \u2013 dependency-neglect cases)",
-          "source_url": "https://www.arkleg.state.ar.us",
+          "citation_text": "Ark. Code Ann. § 12-18-402 — Child Maltreatment Act: mandated reporters",
+          "source_url": "https://codes.findlaw.com/ar/title-12-law-enforcement-emergency-management-and-military-affairs/ar-code-sect-12-18-402/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Title 9: Family Law - Juveniles - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/arkansas/title-9/",
+          "citation_text": "Ark. Code Ann. § 12-18-602 — Child Maltreatment Act: initiation of the investigation (24-hour / 72-hour deadlines)",
+          "source_url": "https://codes.findlaw.com/ar/title-12-law-enforcement-emergency-management-and-military-affairs/ar-code-sect-12-18-602/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
-          "title_code": "",
-          "chapter": ""
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Title 12: Courts - Juvenile Division",
-          "source_url": "https://law.justia.com/codes/arkansas/title-12/",
+          "citation_text": "Ark. Code Ann. § 9-27-306 — Juvenile Code: jurisdiction, including continued jurisdiction to age 21",
+          "source_url": "https://codes.findlaw.com/ar/title-9-family-law/ar-code-sect-9-27-306/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
-          "title_code": "",
-          "chapter": ""
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Title 20: Public Health and Welfare",
-          "source_url": "https://law.justia.com/codes/arkansas/title-20/",
+          "citation_text": "Ark. Code Ann. § 9-27-316 — Juvenile Code: right to counsel and appointment of an attorney ad litem in dependency-neglect proceedings",
+          "source_url": "https://codes.findlaw.com/ar/title-9-family-law/ar-code-sect-9-27-316/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
-          "title_code": "",
-          "chapter": ""
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Ark. Code Ann. § 9-28-114 — Foster youth transition and the extended foster care program (ages 18–21)",
+          "source_url": "https://codes.findlaw.com/ar/title-9-family-law/ar-code-sect-9-28-114/",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
@@ -77,6 +80,10 @@
         {
           "title": "Agency 16 - DEPARTMENT OF HUMAN SERVICES",
           "url": "https://www.law.cornell.edu/regulations/arkansas/agency-016"
+        },
+        {
+          "title": "9 CAR § 40 — Division of Children and Family Services Policy and Procedure Manual (Arkansas Administrative Code, DHS Agency 016)",
+          "url": "https://humanservices.arkansas.gov/wp-content/uploads/Master_DCFS_Policy.pdf"
         }
       ],
       "source_url": "https://www.law.cornell.edu/regulations/arkansas.html"
@@ -88,8 +95,8 @@
         {
           "provision_id": "AR_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Arkansas Const. art. II, \u00a7 8",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Arkansas Const. art. II, § 8",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -251,13 +258,13 @@
     }
   },
   "state_agency": {
-    "name": "Division of Children and Family Services",
+    "name": "Arkansas Department of Human Services, Division of Children and Family Services",
     "acronym": "DCFS",
     "hotline": "1-800-482-5964",
-    "website": "https://www.arkleg.state.ar.us"
+    "website": "https://humanservices.arkansas.gov/divisions-shared-services/children-family-services/"
   },
   "extended_foster_care": true,
-  "extended_foster_care_age": "Up to age 21 (until 21st birthday)",
+  "extended_foster_care_age": "Up to age 21 (voluntary; conditions apply — school, job training, 80+ work hours a month, or a documented medical condition; Ark. Code Ann. § 9-27-306)",
   "linked_action": "ACT-04",
   "linked_decision": "DEC-04",
   "linked_input": "INP-01",

@@ -5,9 +5,9 @@
   "node_family": "ACT",
   "subnode": "ACT-01",
   "trigger_name": "Voluntary Services",
-  "summary_html": "Family agrees to a **voluntary service plan**\u2014counseling, substance-use treatment, parenting classes\u2014designed to correct conditions without court compulsion. Federal law prioritizes family preservation through prevention and support services.",
-  "authority_html": "- **Family First Prevention Services Act (FFPSA)** \u2014 prevention services and kin support framework  \n- **SSA Title IV-B (42 U.S.C. \u00a7\u00a7 620\u2013629m)** \u2014 child-welfare services and family-preservation funding",
-  "icon": "\ud83e\udde9",
+  "summary_html": "Family agrees to a **voluntary service plan**—counseling, substance-use treatment, parenting classes—designed to correct conditions without court compulsion. Federal law prioritizes family preservation through prevention and support services.",
+  "authority_html": "- **Family First Prevention Services Act (FFPSA)** — prevention services and kin support framework  \n- **SSA Title IV-B (42 U.S.C. §§ 620–629m)** — child-welfare services and family-preservation funding",
+  "icon": "🧩",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -27,40 +27,41 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 115-123 (FFPSA)",
-        "42 U.S.C. \u00a7\u00a7 620\u2013629m (SSA Title IV-B)"
+        "42 U.S.C. §§ 620–629m (SSA Title IV-B)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Montana - Title 41, Chapter\u00a03 (Child Abuse and Neglect \u2013 mandatory reporting and protective services)",
-          "source_url": "https://leg.mt.gov",
+          "citation_text": "Montana - Title 41, Chapter 3 (Child Abuse and Neglect – mandatory reporting and protective services)",
+          "source_url": "https://mca.legmt.gov/bills/mca/title_0410/chapter_0030/parts_index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 41: Minors - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/montana/title-41/",
+          "source_url": "https://mca.legmt.gov/bills/mca/title_0410/chapters_index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 42: Adoption",
-          "source_url": "https://law.justia.com/codes/montana/title-42/",
+          "source_url": "https://mca.legmt.gov/bills/mca/title_0420/chapters_index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 52: Family Services - DPHHS",
-          "source_url": "https://law.justia.com/codes/montana/title-52/",
+          "source_url": "https://mca.legmt.gov/bills/mca/title_0520/chapters_index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -143,7 +144,7 @@
         {
           "provision_id": "MT_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Montana Const. art. II, \u00a7 11",
+          "citation": "Montana Const. art. II, § 11",
           "federal_parallel": "U.S. Const. amend. IV"
         }
       ]
@@ -306,10 +307,10 @@
     }
   },
   "state_agency": {
-    "name": "Child & Family Services Division (DPHHS)",
-    "acronym": "DPHHS-CFSD",
-    "hotline": "1-866-820-5437",
-    "website": "https://leg.mt.gov"
+    "name": "Montana Department of Public Health and Human Services, Child and Family Services Division",
+    "acronym": "CFSD",
+    "hotline": "1-866-820-5437 (toll free, 24 hours); TTY (hearing impaired) 1-866-341-8811",
+    "website": "https://dphhs.mt.gov/cfsd/"
   },
   "icwa_compliant": true,
   "icwa_details": {
@@ -336,8 +337,14 @@
     "leaf_linker_version": "1.0.0"
   },
   "burden_of_proof": {
-    "standard": "preponderance",
+    "standard": "reasonable_suspicion",
     "who_bears_burden": "agency",
+    "statutory_basis": {
+      "citation_text": "Mont. Code Ann. § 41-3-202(5)(a) — \"If from the safety and risk assessment the department has reasonable cause to suspect that the child is suffering abuse or neglect, the department may provide emergency protective services to the child, pursuant to 41-3-301, or enter into a written prevention plan, pursuant to 41-3-302\"",
+      "source_url": "https://mca.legmt.gov/bills/mca/title_0410/chapter_0030/part_0020/section_0020/0410-0030-0020-0020.html",
+      "authority_type": "state_statute",
+      "last_verified": "2026-09-19"
+    },
     "common_failures": [
       "Inadequate safety planning",
       "Failure to consider less restrictive alternatives",
@@ -347,10 +354,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
+      "deadline": "5 business days",
+      "starts_from": "Child's removal from the home",
       "source": "state_statute",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "source_url": "https://mca.legmt.gov/bills/mca/title_0410/chapter_0030/part_0030/section_0060/0410-0030-0030-0060.html",
+      "consequence_of_miss": "No judicial probable-cause finding authorizing removal to continue beyond 5 business days; if the court finds continued removal is not appropriate the child must be returned immediately (Mont. Code Ann. § 41-3-306(1)(a), (6)). No hearing is required if the child is released prior to the time of the required hearing (§ 41-3-306(1)(c))"
     },
     {
       "requirement_name": "Case plan development",

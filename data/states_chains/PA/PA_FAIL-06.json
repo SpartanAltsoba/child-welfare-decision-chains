@@ -6,8 +6,8 @@
   "subnode": "FAIL-06",
   "trigger_name": "Disclosure / Transparency Failure",
   "summary_html": "Agency fails to **disclose required data or reports**, obstructing transparency. Federal statutes require public reporting under CAPTA, FOIA, and Sunshine provisions.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 mandates public availability of child-fatality information  \n- **Freedom of Information Act (5 U.S.C. \u00a7 552)** \u2014 public access to federal records  \n- **Government in the Sunshine Act (5 U.S.C. \u00a7 552b)** \u2014 open-meeting requirements",
-  "icon": "\ud83d\udd73\ufe0f",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — mandates public availability of child-fatality information  \n- **Freedom of Information Act (5 U.S.C. § 552)** — public access to federal records  \n- **Government in the Sunshine Act (5 U.S.C. § 552b)** — open-meeting requirements",
+  "icon": "🕳️",
   "theme_color": "#708090",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -24,25 +24,25 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
-        "5 U.S.C. \u00a7 552 (FOIA)",
-        "5 U.S.C. \u00a7 552b (Sunshine Act)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
+        "5 U.S.C. § 552 (FOIA)",
+        "5 U.S.C. § 552b (Sunshine Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Pennsylvania - Title 23 Pa.C.S. Chapter\u00a063 (Child Protective Services Law)",
-          "source_url": "https://law.onecle.com/pennsylvania/title-23/chapter-63/index.html",
+          "citation_text": "Pennsylvania - Title 23 Pa.C.S. Chapter 63 (Child Protective Services Law)",
+          "source_url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=PDF&ttl=23&div=00.&chpt=63",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Pennsylvania - 42 Pa.C.S. Chapter\u00a063 (Juvenile Act \u2013 dependency proceedings)",
-          "source_url": "https://www.legis.state.pa.us/cfdocs/legis/LI/consCheck.cfm?txtType=HTM&ttl=4&div=0&chpt=2",
+          "citation_text": "Pennsylvania - 42 Pa.C.S. Chapter 63 (Juvenile Act – dependency proceedings)",
+          "source_url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=PDF&ttl=42&div=00.&chpt=63",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
@@ -50,7 +50,7 @@
           "source_url": "https://law.justia.com/codes/pennsylvania/title-23/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-24",
-          "deep_link": true,
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
@@ -59,7 +59,7 @@
           "source_url": "https://law.justia.com/codes/pennsylvania/title-42/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-24",
-          "deep_link": true,
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
@@ -68,7 +68,7 @@
           "source_url": "https://law.justia.com/codes/pennsylvania/title-55/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-24",
-          "deep_link": true,
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
@@ -77,7 +77,7 @@
           "source_url": "https://law.justia.com/codes/pennsylvania/title-62/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-24",
-          "deep_link": true,
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         }
@@ -263,10 +263,10 @@
     }
   },
   "state_agency": {
-    "name": "Children and Youth Services",
-    "acronym": "CYS",
+    "name": "Pennsylvania Department of Human Services, Office of Children, Youth, and Families",
+    "acronym": "OCYF",
     "hotline": "1-800-932-0313",
-    "website": "https://www.legis.state.pa.us"
+    "website": "https://www.pa.gov/agencies/dhs/departments-offices/ocyf-info"
   },
   "linked_output": "OUT-06",
   "linked_action": "ACT-03",
@@ -303,7 +303,7 @@
       "requirement_name": "Appeal deadline",
       "deadline": "30 days",
       "starts_from": "Final order",
-      "source": "court_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Loss of appeal rights"
     },
     {
@@ -312,6 +312,14 @@
       "starts_from": "Violation occurred",
       "source": "federal_statute",
       "consequence_of_miss": "Claim barred"
+    },
+    {
+      "requirement_name": "ChildLine registry appeal",
+      "deadline": "90 days to request an administrative review by, or appeal and request a hearing before, the secretary to amend or expunge an indicated report; the department sends notice of the secretary's decision within 60 days of a request for administrative review",
+      "starts_from": "Notice to a person named as perpetrator, or to a school employee named, of the status of the indicated report",
+      "source": "state_statute",
+      "source_url": "https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/23/00.063.041.000..HTM",
+      "consequence_of_miss": "Not specified in 23 Pa.C.S. § 6341(a)(2)-(3)"
     }
   ],
   "notice_requirements": [

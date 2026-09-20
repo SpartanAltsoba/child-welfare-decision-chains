@@ -6,8 +6,8 @@
   "subnode": "INP-12",
   "trigger_name": "Emergency / Protective Custody",
   "summary_html": "Immediate state action to **protect a child in imminent danger**. Federal law (ASFA/IV-E) ties funding to court findings on **reasonable efforts**, and constitutional limits (due process, 4th/14th Amendments) constrain warrantless removals.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 reasonable-efforts findings; permanency timelines  \n- **CFSR (45 CFR Part 1355)** \u2014 federal oversight of removal decision quality  \n- **Constitutional constraints** \u2014 enforced via \u00a71983 actions; due process & search/seizure jurisprudence (not listed in file but governs practice)",
-  "icon": "\ud83d\udea8",
+  "authority_html": "- **ASFA / SSA Title IV-E** — reasonable-efforts findings; permanency timelines  \n- **CFSR (45 CFR Part 1355)** — federal oversight of removal decision quality  \n- **Constitutional constraints** — enforced via §1983 actions; due process & search/seizure jurisprudence (not listed in file but governs practice)",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.35,
@@ -27,7 +27,7 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)",
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)",
         "ASFA (Public Law 105-89)",
         "45 CFR Part 1355 (CFSR Regulations)"
       ]
@@ -35,35 +35,35 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Rhode Island - R.I. Gen. Laws Title\u00a040, Chapter\u00a011 (Abused and Neglected Children \u2013 \u00a7\u00a040-11-6 reporting duty)",
-          "source_url": "https://webserver.rilin.state.ri.us/Statutes/TITLE40/40-11/INDEX.HTM",
+          "citation_text": "Rhode Island - R.I. Gen. Laws Title 40, Chapter 11 (Abused and Neglected Children – § 40-11-3 duty to report (any person))",
+          "source_url": "https://webserver.rilegislature.gov/Statutes/TITLE40/40-11/40-11-3.HTM",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 14: Domestic Relations",
-          "source_url": "https://law.justia.com/codes/rhode-island/title-14/",
+          "citation_text": "Title 14: Delinquent and Dependent Children (Chapter 14-1, Proceedings in Family Court)",
+          "source_url": "https://webserver.rilegislature.gov/Statutes/TITLE14/14-1/INDEX.HTM",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 15: Adoption",
-          "source_url": "https://law.justia.com/codes/rhode-island/title-15/",
+          "citation_text": "Title 15: Domestic Relations (Chapter 15-7, Adoption of Children)",
+          "source_url": "https://webserver.rilegislature.gov/Statutes/TITLE15/15-7/INDEX.HTM",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 40: Human Services - DCYF - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/rhode-island/title-40/",
+          "source_url": "https://webserver.rilegislature.gov/Statutes/TITLE40/INDEX.HTM",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -94,7 +94,7 @@
         {
           "provision_id": "RI_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Rhode Island Const. art. I, \u00a7 6",
+          "citation": "Rhode Island Const. art. I, § 6",
           "federal_parallel": "U.S. Const. amend. IV"
         }
       ]
@@ -256,28 +256,17 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children, Youth and Families",
+    "name": "Rhode Island Department of Children, Youth and Families",
     "acronym": "DCYF",
-    "hotline": "1-800-742-4453",
-    "website": "https://www.rilin.state.ri.us"
+    "hotline": "1-800-742-4453 (1-800-RI-CHILD), 24 hours a day, 7 days a week",
+    "website": "https://dcyf.ri.gov/"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Shelter Staff",
-    "Childcare Staff",
-    "Clergy",
-    "Foster Parents",
-    "Coaches",
-    "Coroners",
-    "EMTs/Emergency Personnel",
-    "Judges",
-    "District Attorneys"
+    "Any person (universal mandatory reporting) — R.I. Gen. Laws § 40-11-3(a)",
+    "Physicians, certified registered nurse practitioners, and other healthcare providers — additional immediate oral and written report duty, R.I. Gen. Laws § 40-11-6"
   ],
   "reporting_type": "centralized",
-  "reporting_details": "Not applicable",
+  "reporting_details": "In Rhode Island any person who has reasonable cause to know or suspect that a child has been abused or neglected must transfer that information to DCYF within 24 hours (R.I. Gen. Laws § 40-11-3(a)).",
   "definitions": {
     "abuse": [
       "Physical abuse",
@@ -338,17 +327,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
+      "deadline": "Immediately upon receipt of the report",
       "starts_from": "Report received",
       "source": "state_statute",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "consequence_of_miss": "Not specified in R.I. Gen. Laws § 40-11-3",
+      "source_url": "https://webserver.rilegislature.gov/Statutes/TITLE40/40-11/40-11-3.HTM"
     },
     {
       "requirement_name": "Investigation completion",
-      "deadline": "30-60 days",
+      "deadline": "30 days, with an extension of up to 15 additional days on supervisor or administrator approval",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
-      "consequence_of_miss": "Case dismissal risk"
+      "source": "admin_rule",
+      "consequence_of_miss": "Not specified in 214-RICR-20-00-1 § 1.9(F), which states that \"all efforts are made\" to complete each investigation within 30 days",
+      "source_url": "https://rules.sos.ri.gov/regulations/part/214-20-00-1"
     }
   ],
   "notice_requirements": [

@@ -6,8 +6,8 @@
   "subnode": "PMC-04",
   "trigger_name": "Fatality Review Commission",
   "summary_html": "The **Protect Our Kids Act (PL 112-275)** created a national commission to study child-fatality prevention. Project Milk Carton cross-references its findings with state fatality data to expose non-implementation.",
-  "authority_html": "- **Public Law 112-275 (Protect Our Kids Act)** \u2014 national commission and reporting framework",
-  "icon": "\ud83d\udcca",
+  "authority_html": "- **Public Law 112-275 (Protect Our Kids Act)** — national commission and reporting framework",
+  "icon": "📊",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -29,23 +29,23 @@
       "primary_citations": [
         {
           "citation_text": "Georgia - Title 19, Chapter 7, Section 5 (Georgia child abuse reporting statute)",
-          "source_url": "https://www.lexisnexis.com/hottopics/gacode/",
+          "source_url": "https://law.justia.com/codes/georgia/title-19/chapter-7/article-1/section-19-7-5/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Georgia - Title 15, Chapter 11 (Juvenile Code \u2013 dependency proceedings)",
-          "source_url": "https://www.lexisnexis.com/hottopics/gacode/",
+          "citation_text": "Georgia - Title 15, Chapter 11 (Juvenile Code – dependency proceedings)",
+          "source_url": "https://law.justia.com/codes/georgia/title-15/chapter-11/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Title 15: Courts - Juvenile Courts",
           "source_url": "https://law.justia.com/codes/georgia/title-15/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -54,7 +54,7 @@
           "citation_text": "Title 19: Domestic Relations - CHILD WELFARE PRIMARY",
           "source_url": "https://law.justia.com/codes/georgia/title-19/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -63,26 +63,37 @@
           "citation_text": "Title 49: Social Services - DFCS",
           "source_url": "https://law.justia.com/codes/georgia/title-49/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
+        },
+        {
+          "citation_text": "Georgia - O.C.G.A. 49-5-180 through 49-5-187 [Reserved] (Title 49, Chapter 5, Article 8, Central Child Abuse Registry; repealed and reserved by Ga. L. 2020, p. 181, Sec. 7/HB 993, effective July 1, 2020)",
+          "source_url": "https://law.justia.com/codes/georgia/title-49/chapter-5/article-8/section-49-5-180/",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
     "administrative_rule": {
       "regulations_applicable": [
         {
-          "title": "Department 96 - GRANTS OF GOVERNOR'S OFFICE FOR CHILDREN AND FAMILIES",
-          "url": "https://www.law.cornell.edu/regulations/georgia/department-96"
+          "title": "Department 290 - RULES OF DEPARTMENT OF HUMAN SERVICES",
+          "url": "https://www.law.cornell.edu/regulations/georgia/department-290"
         },
         {
-          "title": "Department 97 - DEPARTMENT OF JUVENILE JUSTICE",
-          "url": "https://www.law.cornell.edu/regulations/georgia/department-97"
+          "title": "Chapter 290-2 - FAMILY AND CHILDREN SERVICES",
+          "url": "https://www.law.cornell.edu/regulations/georgia/department-290/chapter-290-2"
         },
         {
-          "title": "Department 98 - GRANTS OF THE CHILDREN'S TRUST FUND COMMISSION",
-          "url": "https://www.law.cornell.edu/regulations/georgia/department-98"
+          "title": "Subject 290-9-2 - RULES AND REGULATIONS FOR CHILD-PLACING AGENCIES",
+          "url": "https://www.law.cornell.edu/regulations/georgia/department-290/chapter-290-9/subject-290-9-2"
+        },
+        {
+          "title": "Georgia Division of Family and Children Services Child Welfare Policy Manual (DFCS policy; not part of the Official Compilation of Rules and Regulations of the State of Georgia)",
+          "url": "https://pamms.dhs.ga.gov/dfcs/cws/"
         }
       ],
       "source_url": "https://www.law.cornell.edu/regulations/georgia.html"
@@ -129,7 +140,7 @@
         },
         {
           "case_id": "s26y0129",
-          "title": "IN THE MATTER OF JE\u2019NITA LANE",
+          "title": "IN THE MATTER OF JE’NITA LANE",
           "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s26y0129.html",
           "year": 2025,
           "court": "Supreme Court",
@@ -249,10 +260,10 @@
     }
   },
   "state_agency": {
-    "name": "Division of Family and Children Services",
+    "name": "Georgia Division of Family and Children Services",
     "acronym": "DFCS",
     "hotline": "1-855-422-4453",
-    "website": "https://www.legis.ga.gov"
+    "website": "https://dfcs.georgia.gov/"
   },
   "linked_fail": "FAIL-04",
   "_metadata": {
@@ -293,7 +304,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

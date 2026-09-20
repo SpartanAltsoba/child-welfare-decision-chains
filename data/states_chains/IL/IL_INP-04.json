@@ -6,8 +6,8 @@
   "subnode": "INP-04",
   "trigger_name": "Court-Ordered Referral",
   "summary_html": "A **judge orders** CPS to investigate or assess during civil/criminal proceedings. Federal funding statutes (ASFA/IV-E) tether court findings to child-welfare actions, embedding judicial oversight into intake-to-case flow.",
-  "authority_html": "- **ASFA (42 U.S.C. \u00a7\u00a7 671\u2013675)** \u2014 court \u2018reasonable efforts\u2019 findings; permanency timelines  \n- **SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 funding structure linking court oversight to agency actions",
-  "icon": "\u2696\ufe0f",
+  "authority_html": "- **ASFA (42 U.S.C. §§ 671–675)** — court ‘reasonable efforts’ findings; permanency timelines  \n- **SSA Title IV-E (42 U.S.C. §§ 670–679c)** — funding structure linking court oversight to agency actions",
+  "icon": "⚖️",
   "theme_color": "#8A2BE2",
   "domain": "civil",
   "procedural_weight": 0.55,
@@ -24,24 +24,24 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 671\u2013675 (ASFA/IV-E)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E framework)"
+        "42 U.S.C. §§ 671–675 (ASFA/IV-E)",
+        "42 U.S.C. §§ 670–679c (Title IV-E framework)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
           "citation_text": "Illinois - 325 ILCS 5 (Abused and Neglected Child Reporting Act)",
-          "source_url": "https://law.onecle.com/illinois/325ilcs5/",
+          "source_url": "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=1460&ChapterID=32",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Illinois - 705 ILCS 405/2 (Juvenile Court Act \u2013 abuse/neglect proceedings)",
-          "source_url": "https://law.onecle.com/illinois/705ilcs5/",
+          "citation_text": "Illinois - 705 ILCS 405/2 (Juvenile Court Act – abuse/neglect proceedings)",
+          "source_url": "https://www.ilga.gov/legislation/ILCS/details?ActID=1863&ChapterID=50&ChapAct=705%2BILCS%2B405%2F&SeqStart=2600000&SeqEnd=7600000",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
@@ -313,25 +313,25 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children and Family Services",
+    "name": "Illinois Department of Children and Family Services",
     "acronym": "DCFS",
     "hotline": "1-800-252-2873",
-    "website": "https://www.ilga.gov"
+    "website": "https://dcfs.illinois.gov/"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Childcare Staff",
-    "Clergy",
-    "Foster Parents",
-    "Coaches",
-    "Coroners",
-    "EMTs/Emergency Personnel"
+    "Medical personnel — physicians, residents, interns, psychiatrists, surgeons, dentists, dental hygienists, chiropractic and podiatric physicians, physician assistants, emergency medical technicians, physical and occupational therapists, acupuncturists, registered/licensed practical/advanced practice nurses, genetic counselors, respiratory care practitioners, home health aides, certified nursing assistants — 325 ILCS 5/4(a)(1)",
+    "Social services and mental health personnel — licensed counselors, social workers, psychologists, marriage and family therapists, field personnel of Healthcare and Family Services, Public Health, Human Services, Human Rights and DCFS, General Assistance supervisors/administrators, social services administrators, substance abuse treatment personnel — 325 ILCS 5/4(a)(2)",
+    "Crisis intervention personnel — crisis line or hotline personnel, domestic violence program personnel — 325 ILCS 5/4(a)(3)",
+    "Education personnel — school personnel (administrators, certified and non-certified employees), personnel of institutions of higher education, educational advocates, school board members (to the extent required by subsection (d)), truant officers — 325 ILCS 5/4(a)(4)",
+    "Recreation or athletic program or facility personnel; athletic trainers — 325 ILCS 5/4(a)(5)",
+    "Child care personnel — early intervention providers, nursery school and early care and education center directors and staff, foster parents, homemakers, child care workers — 325 ILCS 5/4(a)(6)",
+    "Law enforcement personnel — law enforcement officers, Department of Juvenile Justice and Department of Corrections field personnel, probation officers, animal control officers and Department of Agriculture field investigators — 325 ILCS 5/4(a)(7)",
+    "Funeral home directors and employees; coroners; medical examiners — 325 ILCS 5/4(a)(8)",
+    "Any member of the clergy — 325 ILCS 5/4(a)(9)",
+    "Medical, nursing, social work and counseling personnel of any office or clinic that provides abortions, abortion referrals, or contraceptives — 325 ILCS 5/4(a)(10)"
   ],
   "reporting_type": "centralized",
-  "reporting_details": "Not applicable",
+  "reporting_details": "Illinois is not a universal-reporting state: only the professionals listed in 325 ILCS 5/4(a) must report, any other person may report voluntarily under 325 ILCS 5/4(f), and every report goes to the single statewide DCFS hotline required by 325 ILCS 5/7.6 (1-800-25-ABUSE / 1-800-252-2873).",
   "definitions": {
     "abuse": [
       "Physical abuse",
@@ -394,17 +394,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
+      "deadline": "24 hours; immediately, regardless of the time of day or night, if the child's immediate safety or well-being is endangered or the family may flee (325 ILCS 5/7.4(b)(2))",
       "starts_from": "Report received",
       "source": "state_statute",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "source_url": "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=1460&ChapterID=32",
+      "consequence_of_miss": "Not specified in 325 ILCS 5/7.4"
     },
     {
       "requirement_name": "Investigation completion",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
+      "deadline": "60 days to determine \"indicated\" or \"unfounded\"; extendable in additional periods of up to 30 days for good cause (325 ILCS 5/7.12)",
+      "starts_from": "Report received",
       "source": "state_statute",
-      "consequence_of_miss": "Case dismissal risk"
+      "source_url": "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=1460&ChapterID=32",
+      "consequence_of_miss": "Report may be deemed \"undetermined\" where a complete investigation was not possible (325 ILCS 5/7.12)"
     }
   ],
   "notice_requirements": [

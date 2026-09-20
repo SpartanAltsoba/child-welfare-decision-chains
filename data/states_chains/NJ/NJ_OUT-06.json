@@ -6,8 +6,8 @@
   "subnode": "OUT-06",
   "trigger_name": "Child Fatality / Serious Injury",
   "summary_html": "Case results in **child fatality or serious injury**, triggering mandatory federal and state review. Data and lessons inform systemic reform.",
-  "authority_html": "- **Protect Our Kids Act (PL 112-275)** \u2014 establishes national commission and reporting requirements  \n- **CAPTA \u00a75106a(b)(2)(A)(x)** \u2014 mandates public disclosure and case review of fatalities",
-  "icon": "\u26b0\ufe0f",
+  "authority_html": "- **Protect Our Kids Act (PL 112-275)** — establishes national commission and reporting requirements  \n- **CAPTA §5106a(b)(2)(A)(x)** — mandates public disclosure and case review of fatalities",
+  "icon": "⚰️",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.3,
@@ -24,22 +24,24 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 112-275 (Protect Our Kids Act)",
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "New Jersey - Title 9, Chapter 6 (Abuse of Children Act \u2013 all persons must report, e.g. \u00a7\u00a09:6-8.10)",
-          "source_url": "https://www.njleg.state.nj.us",
+          "citation_text": "New Jersey - Title 9, Chapter 6 (Abuse of Children Act – all persons must report, e.g. § 9:6-8.10)",
+          "source_url": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1?f=templates&fn=default.htm&vid=Publish:10.1048/Enu",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": false
         },
         {
           "citation_text": "New Jersey - Title 30, Chapter 4C (Child Placement Review Act, etc.)",
-          "source_url": "https://www.njleg.state.nj.us",
+          "source_url": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1?f=templates&fn=default.htm&vid=Publish:10.1048/Enu",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": false
         },
         {
           "citation_text": "Title 9: Children - Juvenile Code - CHILD WELFARE PRIMARY",
@@ -297,13 +299,13 @@
     }
   },
   "state_agency": {
-    "name": "Division of Child Protection and Permanency (DCF)",
-    "acronym": "DCPP",
+    "name": "New Jersey Division of Child Protection and Permanency",
+    "acronym": "CP&P",
     "hotline": "1-877-652-2873",
-    "website": "https://www.njleg.state.nj.us"
+    "website": "https://www.nj.gov/dcf/"
   },
   "extended_foster_care": true,
-  "extended_foster_care_age": "Up to age 21 (until 21st birthday)",
+  "extended_foster_care_age": "Up to age 21, and only on conditions: the Department of Children and Families provides services to an individual between 18 and 21 years of age who meets all three conditions of N.J.S.A. 30:4C-2.3 together — (a) the individual was receiving services from the department on or after the individual's 16th birthday; (b) the individual has not, on or after the individual's 18th birthday, refused or requested that these services be terminated; and (c) the commissioner determines that a continuation of services would be in the individual's best interest and would assist the individual to become an independent and productive adult (law.justia.com/codes/new-jersey/title-30/section-30-4c-2-3/)",
   "linked_action": "ACT-03",
   "linked_decision": "DEC-04",
   "linked_input": "INP-01",

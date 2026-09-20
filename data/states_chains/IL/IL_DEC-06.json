@@ -6,8 +6,8 @@
   "subnode": "DEC-06",
   "trigger_name": "Differential Response / Alternative Response (No Petition)",
   "summary_html": "Agency chooses **Differential Response (DR)**/**Alternative Response**: engage **services without court petition** when safety permits. FFPSA and IV-B/IV-E prevention funding support voluntary, front-end help to avert removals.",
-  "authority_html": "- **Family First Prevention Services Act (FFPSA)** \u2014 prevention services framework under IV-E  \n- **SSA Title IV-B & IV-E (42 U.S.C. \u00a7\u00a7 620\u2013629m; 670\u2013679c)** \u2014 service funding & case-plan requirements  \n- **CFSR (45 CFR Part 1355)** \u2014 assesses safety/permanency outcomes in DR systems",
-  "icon": "\ud83d\udd27",
+  "authority_html": "- **Family First Prevention Services Act (FFPSA)** — prevention services framework under IV-E  \n- **SSA Title IV-B & IV-E (42 U.S.C. §§ 620–629m; 670–679c)** — service funding & case-plan requirements  \n- **CFSR (45 CFR Part 1355)** — assesses safety/permanency outcomes in DR systems",
+  "icon": "🔧",
   "theme_color": "#20B2AA",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -22,15 +22,15 @@
   "layers": {
     "constitutional": {
       "constraints_triggered": [
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 671\u2013679b (FFPSA-related IV-E)",
-        "42 U.S.C. \u00a7\u00a7 620\u2013629m (Title IV-B)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E)",
+        "42 U.S.C. §§ 671–679b (FFPSA-related IV-E)",
+        "42 U.S.C. §§ 620–629m (Title IV-B)",
+        "42 U.S.C. §§ 670–679c (Title IV-E)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
@@ -38,16 +38,16 @@
       "primary_citations": [
         {
           "citation_text": "Illinois - 325 ILCS 5 (Abused and Neglected Child Reporting Act)",
-          "source_url": "https://law.onecle.com/illinois/325ilcs5/",
+          "source_url": "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=1460&ChapterID=32",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Illinois - 705 ILCS 405/2 (Juvenile Court Act \u2013 abuse/neglect proceedings)",
-          "source_url": "https://law.onecle.com/illinois/705ilcs5/",
+          "citation_text": "Illinois - 705 ILCS 405/2 (Juvenile Court Act – abuse/neglect proceedings)",
+          "source_url": "https://www.ilga.gov/legislation/ILCS/details?ActID=1863&ChapterID=50&ChapAct=705%2BILCS%2B405%2F&SeqStart=2600000&SeqEnd=7600000",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
@@ -164,8 +164,8 @@
         {
           "provision_id": "IL_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Illinois Const. art. I, \u00a7 2",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Illinois Const. art. I, § 2",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -327,10 +327,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children and Family Services",
+    "name": "Illinois Department of Children and Family Services",
     "acronym": "DCFS",
     "hotline": "1-800-252-2873",
-    "website": "https://www.ilga.gov"
+    "website": "https://dcfs.illinois.gov/"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -358,7 +358,7 @@
     "standard": "preponderance",
     "who_bears_burden": "agency",
     "common_failures": [
-      "Insufficient evidence for substantiation",
+      "Insufficient credible evidence for an indicated finding (325 ILCS 5/3)",
       "Failure to document findings",
       "Inconsistent application of evidence standards"
     ]
@@ -368,15 +368,16 @@
       "requirement_name": "Safety decision",
       "deadline": "Immediate upon contact",
       "starts_from": "First family contact",
-      "source": "admin_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Child safety risk"
     },
     {
       "requirement_name": "Disposition finding",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
+      "deadline": "60 days to determine \"indicated\" or \"unfounded\"; extendable in additional periods of up to 30 days for good cause (325 ILCS 5/7.12)",
+      "starts_from": "Report received",
       "source": "state_statute",
-      "consequence_of_miss": "Procedural violation"
+      "source_url": "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=1460&ChapterID=32",
+      "consequence_of_miss": "Report may be deemed \"undetermined\" where a complete investigation was not possible (325 ILCS 5/7.12)"
     }
   ],
   "notice_requirements": [

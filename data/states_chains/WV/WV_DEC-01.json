@@ -6,8 +6,8 @@
   "subnode": "DEC-01",
   "trigger_name": "Screen-Out / Unfounded at Intake",
   "summary_html": "CPS **screens out** a report (no investigation) or closes as **unfounded** after minimal review. Federal law (CAPTA) conditions funding on operating screening criteria and recordkeeping; federal reviews (CFSR) assess decision quality.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 screening & intake system requirements  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal performance/quality review of state screening and responses",
-  "icon": "\ud83d\udeab",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — screening & intake system requirements  \n- **CFSR Regulations (45 CFR Part 1355)** — federal performance/quality review of state screening and responses",
+  "icon": "🚫",
   "theme_color": "#4B9CD3",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -26,39 +26,40 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "West Virginia - W. Va. Code Chapter\u00a049, Article\u00a02 (Child Welfare \u2013 includes \u00a7\u00a049-2-803 mandatory reporting)",
-          "source_url": "https://www.wvlegislature.gov",
+          "citation_text": "West Virginia - W. Va. Code Chapter 49, Article 2 (Child Welfare – includes § 49-2-803 mandatory reporting)",
+          "source_url": "https://code.wvlegislature.gov/49-2/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
-        },
-        {
-          "citation_text": "West Virginia - W. Va. Code \u00a7\u00a049-4-601 et seq. (Child abuse and neglect proceedings)",
-          "source_url": "https://www.wvlegislature.gov/WVCODE/ChapterEntire.cfm?chap=49&art=4",
-          "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 48: Domestic Relations",
-          "source_url": "https://law.justia.com/codes/west-virginia/title-48/",
+          "citation_text": "West Virginia - W. Va. Code § 49-4-601 et seq. (Child abuse and neglect proceedings)",
+          "source_url": "https://code.wvlegislature.gov/49-4-601/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "West Virginia - W. Va. Code Chapter 48 (Domestic Relations)",
+          "source_url": "https://code.wvlegislature.gov/48/",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 49: Child Welfare - DHHR - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/west-virginia/title-49/",
+          "citation_text": "West Virginia - W. Va. Code Chapter 49 (Child Welfare) - Department of Human Services (DoHS) - CHILD WELFARE PRIMARY",
+          "source_url": "https://code.wvlegislature.gov/49/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -245,10 +246,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Health and Human Resources",
-    "acronym": "DHHR",
-    "hotline": "1-800-352-6513",
-    "website": "https://www.wvlegislature.gov"
+    "name": "West Virginia Bureau for Social Services, Department of Human Services",
+    "acronym": "BSS",
+    "hotline": "1-800-352-6513, option 2",
+    "website": "https://bss.wv.gov/"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -286,14 +287,14 @@
       "requirement_name": "Safety decision",
       "deadline": "Immediate upon contact",
       "starts_from": "First family contact",
-      "source": "admin_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Child safety risk"
     },
     {
       "requirement_name": "Disposition finding",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Procedural violation"
     }
   ],

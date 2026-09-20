@@ -6,8 +6,8 @@
   "subnode": "FAIL-05",
   "trigger_name": "Discrimination / Retaliation",
   "summary_html": "Agency or actor engages in **discriminatory or retaliatory action**, violating civil-rights or placement-equality provisions. Federal statutes prohibit race, religion, sex, or disability bias in placements or investigations.",
-  "authority_html": "- **Multiethnic Placement Act (MEPA) & Interethnic Adoption Provisions (IEP)** \u2014 prohibits race/ethnicity discrimination in placements  \n- **Civil Rights Act (42 U.S.C. \u00a7 2000d)** \u2014 Title VI discrimination prohibitions in federally funded programs",
-  "icon": "\ud83d\udeab",
+  "authority_html": "- **Multiethnic Placement Act (MEPA) & Interethnic Adoption Provisions (IEP)** — prohibits race/ethnicity discrimination in placements  \n- **Civil Rights Act (42 U.S.C. § 2000d)** — Title VI discrimination prohibitions in federally funded programs",
+  "icon": "🚫",
   "theme_color": "#800080",
   "domain": "civil",
   "procedural_weight": 0.75,
@@ -24,22 +24,24 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 103-382 (MEPA/IEP)",
-        "42 U.S.C. \u00a7 2000d (Title VI Civil Rights Act)"
+        "42 U.S.C. § 2000d (Title VI Civil Rights Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "North Carolina - N.C. Gen. Stat. \u00a7\u00a07B-301 (Duty to report abuse, neglect, dependency)",
-          "source_url": "https://www.ncleg.gov",
+          "citation_text": "North Carolina - N.C. Gen. Stat. § 7B-301 (Duty to report abuse, neglect, dependency)",
+          "source_url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_7B/GS_7B-301.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "North Carolina - Chapter 7B, Article 3 (Juvenile Code \u2013 abuse, neglect, dependency procedures)",
-          "source_url": "https://www.ncleg.gov",
+          "citation_text": "North Carolina - Chapter 7B, Article 3 (Juvenile Code – abuse, neglect, dependency procedures)",
+          "source_url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_7B/Article_3.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 48: Adoption",
@@ -306,10 +308,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Social Services",
-    "acronym": "DSS",
-    "hotline": "1-919-527-6500",
-    "website": "https://www.ncleg.gov"
+    "name": "North Carolina Division of Social Services",
+    "acronym": "NC DSS",
+    "hotline": "No statewide hotline. Call the county department of social services where the child lives — the county list is at ncdhhs.gov/divisions/social-services/local-dss-directory",
+    "website": "https://www.ncdhhs.gov/divisions/social-services"
   },
   "linked_output": "OUT-02",
   "linked_action": "ACT-04",
@@ -344,9 +346,10 @@
   "timeline_requirements": [
     {
       "requirement_name": "Appeal deadline",
-      "deadline": "30 days",
-      "starts_from": "Final order",
-      "source": "court_rule",
+      "deadline": "30 days after entry and service of the order",
+      "starts_from": "Entry and service of the order (G.S. 1A-1, Rule 58)",
+      "source": "state_statute",
+      "source_url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_7B/GS_7B-1001.html",
       "consequence_of_miss": "Loss of appeal rights"
     },
     {

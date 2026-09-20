@@ -5,9 +5,9 @@
   "node_family": "FAIL",
   "subnode": "FAIL-02",
   "trigger_name": "Unlawful Removal",
-  "summary_html": "A **child is removed without exigency or warrant**, violating constitutional rights. Federal courts treat such removals as seizures under the Fourth and Fourteenth Amendments, actionable via \u00a71983.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 limits removals to lawful emergencies and requires judicial review  \n- **U.S. Constitution (4th & 14th Amendments)** \u2014 protects family integrity; requires due process",
-  "icon": "\ud83d\udea8",
+  "summary_html": "A **child is removed without exigency or warrant**, violating constitutional rights. Federal courts treat such removals as seizures under the Fourth and Fourteenth Amendments, actionable via §1983.",
+  "authority_html": "- **ASFA / SSA Title IV-E** — limits removals to lawful emergencies and requires judicial review  \n- **U.S. Constitution (4th & 14th Amendments)** — protects family integrity; requires due process",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.9,
@@ -24,32 +24,33 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)",
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)",
         "U.S. Constitution, Amendments IV & XIV"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "South Carolina - S.C. Code Title\u00a063, Chapter\u00a07 (Child Protection Act \u2013 includes \u00a7\u00a063-7-310 reporting)",
-          "source_url": "https://www.scstatehouse.gov",
+          "citation_text": "S.C. Code Ann. Title 63, Chapter 7 — Child Protection and Permanency (includes § 63-7-310 mandatory reporting)",
+          "source_url": "https://www.scstatehouse.gov/code/t63c007.php",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 43: Social Services - DSS",
-          "source_url": "https://law.justia.com/codes/south-carolina/title-43/",
+          "source_url": "https://www.scstatehouse.gov/code/title43.php",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 63: South Carolina Children's Code - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/south-carolina/title-63/",
+          "source_url": "https://www.scstatehouse.gov/code/title63.php",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -59,19 +60,19 @@
     "administrative_rule": {
       "regulations_applicable": [
         {
-          "title": "Chapter 24 - OFFICE OF THE GOVERNOR- DIVISION FOR REVIEW OF THE FOSTER CARE OF CHILDREN",
-          "url": "https://www.law.cornell.edu/regulations/south-carolina/chapter-24"
+          "title": "Chapter 24 - OFFICE OF THE GOVERNOR-- DIVISION FOR REVIEW OF THE FOSTER CARE OF CHILDREN",
+          "url": "https://www.scstatehouse.gov/coderegs/Chapter%2024.pdf"
         },
         {
-          "title": "Chapter 31 - OFFICE OF THE GOVERNOR- CONTINUUM OF CARE FOR EMOTIONALLY DISTURBED CHILDREN DIVISION",
-          "url": "https://www.law.cornell.edu/regulations/south-carolina/chapter-31"
+          "title": "Chapter 31 - OFFICE OF THE GOVERNOR-- CONTINUUM OF CARE FOR EMOTIONALLY DISTURBED CHILDREN DIVISION",
+          "url": "https://www.scstatehouse.gov/coderegs/Chapter%2031.pdf"
         },
         {
-          "title": "Chapter 36 - DEPARTMENT OF LABOR, LICENSING AND REGULATION BOARD OF EXAMINERS FOR LICENSURE OF PROFESSIONAL COUNSELORS, MARRIAGE AND FAMILY THERAPISTS, ADDICTION COUNSELORS, AND PSYCHO-EDUCATIONAL SPECIALISTS",
-          "url": "https://www.law.cornell.edu/regulations/south-carolina/chapter-36"
+          "title": "Chapter 36 - DEPARTMENT OF LABOR, LICENSING AND REGULATION-- BOARD OF EXAMINERS FOR LICENSURE OF PROFESSIONAL COUNSELORS, MARRIAGE AND FAMILY THERAPISTS, ADDICTION COUNSELORS AND PSYCHO-EDUCATIONAL SPECIALISTS",
+          "url": "https://www.scstatehouse.gov/coderegs/Chapter%2036.pdf"
         }
       ],
-      "source_url": "https://www.law.cornell.edu/regulations/south-carolina.html"
+      "source_url": "https://www.scstatehouse.gov/coderegs/statmast.php"
     },
     "state_constitutional": {
       "plane_reference": "state_constitutional_SC",
@@ -236,10 +237,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Social Services",
+    "name": "South Carolina Department of Social Services",
     "acronym": "DSS",
     "hotline": "1-888-227-3487",
-    "website": "https://www.scstatehouse.gov"
+    "website": "https://dss.sc.gov/"
   },
   "linked_output": "OUT-05",
   "linked_action": "ACT-03",
@@ -276,7 +277,7 @@
       "requirement_name": "Appeal deadline",
       "deadline": "30 days",
       "starts_from": "Final order",
-      "source": "court_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Loss of appeal rights"
     },
     {

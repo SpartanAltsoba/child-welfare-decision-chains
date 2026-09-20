@@ -6,8 +6,8 @@
   "subnode": "FAIL-03",
   "trigger_name": "Federal Compliance Failure",
   "summary_html": "A **state agency fails** to meet federal child-welfare performance standards, triggering **funding penalties** or corrective action under the CFSR or Single Audit Act.",
-  "authority_html": "- **Child & Family Services Reviews (45 CFR Part 1355)** \u2014 performance oversight and penalties  \n- **Single Audit Act (31 U.S.C. \u00a7\u00a7 7501\u20137507)** \u2014 audit of federally funded programs  \n- **Inspector General Act (5 U.S.C. App.)** \u2014 oversight authority for HHS/OIG",
-  "icon": "\ud83d\udcb8",
+  "authority_html": "- **Child & Family Services Reviews (45 CFR Part 1355)** — performance oversight and penalties  \n- **Single Audit Act (31 U.S.C. §§ 7501–7507)** — audit of federally funded programs  \n- **Inspector General Act (5 U.S.C. App.)** — oversight authority for HHS/OIG",
+  "icon": "💸",
   "theme_color": "#FF8C00",
   "domain": "civil",
   "procedural_weight": 0.7,
@@ -25,32 +25,32 @@
     "federal": {
       "requirements_applicable": [
         "45 CFR Part 1355 (CFSR)",
-        "31 U.S.C. \u00a7\u00a7 7501\u20137507 (Single Audit Act)",
+        "31 U.S.C. §§ 7501–7507 (Single Audit Act)",
         "5 U.S.C. App. (Inspector General Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Mississippi - Miss. Code Title\u00a043, Chap.\u00a021 (Youth Court Act \u2013 \u00a7\u00a043-21-353 mandatory reporting)",
-          "source_url": "https://www.lexisnexis.com/hottopics/mscode/",
+          "citation_text": "Mississippi - Miss. Code Title 43, Chap. 21 (Youth Court Act – § 43-21-353 mandatory reporting)",
+          "source_url": "https://law.justia.com/codes/mississippi/title-43/chapter-21/intake/section-43-21-353/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Mississippi - Miss. Code \u00a7\u00a043-21-601 et seq. (Youth Court disposition and removal)",
-          "source_url": "https://law.justia.com/codes/mississippi/title-43/chapter-21/",
+          "citation_text": "Mississippi - Miss. Code § 43-21-601 et seq. (Youth Court disposition and removal)",
+          "source_url": "https://law.justia.com/codes/mississippi/title-43/chapter-21/disposition/section-43-21-601/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 43: Public Welfare - DHS - CHILD WELFARE PRIMARY",
+          "citation_text": "Title 43: Public Welfare - MDCPS - CHILD WELFARE PRIMARY",
           "source_url": "https://law.justia.com/codes/mississippi/title-43/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
@@ -58,8 +58,8 @@
           "citation_text": "Title 93: Domestic Relations",
           "source_url": "https://law.justia.com/codes/mississippi/title-93/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
@@ -67,8 +67,8 @@
           "citation_text": "Title 97: Crimes - Child Abuse",
           "source_url": "https://law.justia.com/codes/mississippi/title-97/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         }
@@ -139,6 +139,12 @@
           "url": "https://regulations.justia.com/states/mississippi/title-8/",
           "authority_type": "administrative_rule",
           "last_verified": "2025-12-24"
+        },
+        {
+          "title": "MDCPS Policies and Procedures (Mississippi Department of Child Protection Services)",
+          "url": "https://www.mdcps.ms.gov/about/policies-procedures",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
         }
       ],
       "source_url": "https://www.law.cornell.edu/regulations/mississippi.html"
@@ -306,10 +312,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Child Protection Services",
+    "name": "Mississippi Department of Child Protection Services",
     "acronym": "MDCPS",
     "hotline": "1-800-222-8000",
-    "website": "https://www.legislature.ms.gov"
+    "website": "https://www.mdcps.ms.gov/"
   },
   "linked_output": "OUT-06",
   "linked_action": "ACT-03",
@@ -345,9 +351,10 @@
     {
       "requirement_name": "Appeal deadline",
       "deadline": "30 days",
-      "starts_from": "Final order",
+      "starts_from": "Entry of the final youth court order or decree appealed from",
       "source": "court_rule",
-      "consequence_of_miss": "Loss of appeal rights"
+      "consequence_of_miss": "Appeal shall be dismissed if the notice of appeal was not timely filed (M.R.A.P. 2(a)(1)); Miss. Code § 43-21-651(2) requires written notice of intention to appeal to be filed with the youth court clerk within the time otherwise required for appeals to the Supreme Court",
+      "source_url": "https://courts.ms.gov/research/rules/msrulesofcourt/Rules%20of%20Appellate%20Procedure%20Current.pdf"
     },
     {
       "requirement_name": "1983 statute of limitations",

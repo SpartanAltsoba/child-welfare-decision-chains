@@ -5,9 +5,9 @@
   "node_family": "PMC",
   "subnode": "PMC-05",
   "trigger_name": "FOIA / Transparency",
-  "summary_html": "Federal transparency statutes\u2014**FOIA** and **Sunshine Act**\u2014require disclosure of government data. Project Milk Carton promotes FOIA requests and public dashboards for child-welfare records.",
-  "authority_html": "- **Freedom of Information Act (5 U.S.C. \u00a7 552)** \u2014 public access to records  \n- **Government in the Sunshine Act (5 U.S.C. \u00a7 552b)** \u2014 open-meeting requirements",
-  "icon": "\ud83d\udcc2",
+  "summary_html": "Federal transparency statutes—**FOIA** and **Sunshine Act**—require disclosure of government data. Project Milk Carton promotes FOIA requests and public dashboards for child-welfare records.",
+  "authority_html": "- **Freedom of Information Act (5 U.S.C. § 552)** — public access to records  \n- **Government in the Sunshine Act (5 U.S.C. § 552b)** — open-meeting requirements",
+  "icon": "📂",
   "theme_color": "#FFD700",
   "domain": "civil",
   "procedural_weight": 0.65,
@@ -23,8 +23,8 @@
     },
     "federal": {
       "requirements_applicable": [
-        "5 U.S.C. \u00a7 552 (FOIA)",
-        "5 U.S.C. \u00a7 552b (Sunshine Act)"
+        "5 U.S.C. § 552 (FOIA)",
+        "5 U.S.C. § 552b (Sunshine Act)"
       ]
     },
     "state_statutory": {
@@ -33,7 +33,14 @@
           "citation_text": "District of Columbia - D.C. Code Title 4, Chapter 13 (Child Abuse and Neglect)",
           "source_url": "https://code.dccouncil.gov/us/dc/council/code/titles/4/chapters/13",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "District of Columbia - D.C. Code Title 4, Chapter 13, Subchapter I, Part C-i (Public Disclosure of Findings and Information in Cases of Child Fatality or Near Fatality) — §§ 4-1303.31 to 4-1303.36, including § 4-1303.35 (Freedom of Information Act requests)",
+          "source_url": "https://code.dccouncil.gov/us/dc/council/code/titles/4/chapters/13/subchapters/I/parts/C-i",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -204,7 +211,7 @@
     "name": "Child and Family Services Agency",
     "acronym": "CFSA",
     "hotline": "202-671-7233",
-    "website": ""
+    "website": "https://cfsa.dc.gov/"
   },
   "linked_fail": "FAIL-06",
   "_metadata": {
@@ -243,10 +250,11 @@
     },
     {
       "requirement_name": "NCMEC notification",
-      "deadline": "24 hours",
-      "starts_from": "Child reported missing",
+      "deadline": "Immediately if MPD deems the child critical missing; otherwise once the child has been missing more than 30 days (MPD makes the NCMEC report)",
+      "starts_from": "CFSA files a missing person report with MPD immediately after discovering the child is missing (D.C. Code § 4-1323.01(a))",
       "source": "state_statute",
-      "consequence_of_miss": "Audit finding, delayed recovery"
+      "consequence_of_miss": "Not specified in § 4-1323.01",
+      "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/4-1323.01"
     }
   ],
   "notice_requirements": [

@@ -5,9 +5,9 @@
   "node_family": "ACT",
   "subnode": "ACT-01",
   "trigger_name": "Voluntary Services",
-  "summary_html": "Family agrees to a **voluntary service plan**\u2014counseling, substance-use treatment, parenting classes\u2014designed to correct conditions without court compulsion. Federal law prioritizes family preservation through prevention and support services.",
-  "authority_html": "- **Family First Prevention Services Act (FFPSA)** \u2014 prevention services and kin support framework  \n- **SSA Title IV-B (42 U.S.C. \u00a7\u00a7 620\u2013629m)** \u2014 child-welfare services and family-preservation funding",
-  "icon": "\ud83e\udde9",
+  "summary_html": "Family agrees to a **voluntary service plan**—counseling, substance-use treatment, parenting classes—designed to correct conditions without court compulsion. Federal law prioritizes family preservation through prevention and support services.",
+  "authority_html": "- **Family First Prevention Services Act (FFPSA)** — prevention services and kin support framework  \n- **SSA Title IV-B (42 U.S.C. §§ 620–629m)** — child-welfare services and family-preservation funding",
+  "icon": "🧩",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -27,22 +27,24 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 115-123 (FFPSA)",
-        "42 U.S.C. \u00a7\u00a7 620\u2013629m (SSA Title IV-B)"
+        "42 U.S.C. §§ 620–629m (SSA Title IV-B)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
           "citation_text": "Indiana - Title 31, Article 33 (Reporting and investigation of child abuse)",
-          "source_url": "https://iga.in.gov",
+          "source_url": "https://iga.in.gov/laws/current/ic/titles/31#31-33",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Indiana - Title 31, Article 34 (Juvenile Law \u2013 Children in Need of Services)",
-          "source_url": "https://iga.in.gov",
+          "citation_text": "Indiana - Title 31, Article 34 (Juvenile Law – Children in Need of Services)",
+          "source_url": "https://iga.in.gov/laws/current/ic/titles/31#31-34",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 12: Human Services - DCS",
@@ -70,6 +72,13 @@
           "deep_link": true,
           "title_code": "",
           "chapter": ""
+        },
+        {
+          "citation_text": "Indiana - Title 31, Article 32, Chapter 4 (Right to Counsel: the juvenile court shall appoint counsel for a parent in proceedings to terminate the parent-child relationship, and may appoint counsel for a parent in any other proceeding - Ind. Code §§ 31-32-4-1, 31-32-4-3)",
+          "source_url": "https://iga.in.gov/ic/2026/Title_31/Article_32/Chapter_4.pdf",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
@@ -97,7 +106,7 @@
         {
           "provision_id": "IN_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Indiana Const. art. I, \u00a7 11",
+          "citation": "Indiana Const. art. I, § 11",
           "federal_parallel": "U.S. Const. amend. IV"
         }
       ]
@@ -260,10 +269,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Child Services",
+    "name": "Indiana Department of Child Services",
     "acronym": "DCS",
     "hotline": "1-800-800-5556",
-    "website": "https://iga.in.gov"
+    "website": "https://www.in.gov/dcs/"
   },
   "linked_decision": "DEC-06",
   "linked_input": "INP-05",
@@ -296,10 +305,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
+      "deadline": "48 hours, excluding Saturdays, Sundays, and legal holidays observed for state employees",
+      "starts_from": "Child taken into custody under Ind. Code 31-34-2",
       "source": "state_statute",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "source_url": "https://iga.in.gov/ic/2026/Title_31/Article_34/Chapter_5.pdf",
+      "consequence_of_miss": "If the detention hearing is not held, the child shall be released (Ind. Code § 31-34-5-1(a))"
     },
     {
       "requirement_name": "Case plan development",

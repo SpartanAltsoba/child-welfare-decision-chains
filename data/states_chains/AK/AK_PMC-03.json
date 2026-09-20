@@ -5,9 +5,9 @@
   "node_family": "PMC",
   "subnode": "PMC-03",
   "trigger_name": "Citizen Review Panels",
-  "summary_html": "**CAPTA \u00a75106a(c)** requires every state to maintain **Citizen Review Panels** that evaluate CPS policies. Project Milk Carton checks whether panels are active, independent, and publicly reporting.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7 5106a(c))** \u2014 Citizen Review Panel mandate and reporting requirements",
-  "icon": "\ud83d\udde3\ufe0f",
+  "summary_html": "**CAPTA §5106a(c)** requires every state to maintain **Citizen Review Panels** that evaluate CPS policies. Project Milk Carton checks whether panels are active, independent, and publicly reporting.",
+  "authority_html": "- **CAPTA (42 U.S.C. § 5106a(c))** — Citizen Review Panel mandate and reporting requirements",
+  "icon": "🗣️",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -22,7 +22,7 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7 5106a(c) (CAPTA)"
+        "42 U.S.C. § 5106a(c) (CAPTA)"
       ]
     },
     "state_statutory": {
@@ -31,39 +31,39 @@
           "citation_text": "Alaska - Title 47, Chapter 17 (Child Protection, including mandatory reporting)",
           "source_url": "https://www.akleg.gov/basis/statutes.asp#47.17",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Alaska - Title 47, Chapter 10 (Child in Need of Aid proceedings)",
           "source_url": "https://www.akleg.gov/basis/statutes.asp#47.10",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 18: Health, Safety, Housing - Child Abuse Reporting",
-          "source_url": "http://www.legis.state.ak.us/basis/folioproxy.asp?url=http://wwwjnu01.legis.state.ak.us/cgi-bin/folioisa.dll/stattx22/query=*/doc/{t10430}",
+          "citation_text": "Alaska Stat. § 18.85.100 — Right to representation, services, and facilities; under (e) the Public Defender Agency may represent a parent at the AS 47.10.142(d) temporary custody hearing at public expense without a court order, and if the parent is not later found eligible for court-appointed counsel the court shall assess the cost of that representation against the parent",
+          "source_url": "https://www.akleg.gov/basis/statutes.asp#18.85.100",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 25: Marital and Domestic Relations",
-          "source_url": "http://www.legis.state.ak.us/basis/folioproxy.asp?url=http://wwwjnu01.legis.state.ak.us/cgi-bin/folioisa.dll/stattx22/query=*/doc/{t10437}",
+          "citation_text": "Alaska Stat. Title 25 (Marital and Domestic Relations), Chapter 23 — Adoption",
+          "source_url": "https://www.akleg.gov/basis/statutes.asp#25.23",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 47: Welfare, Social Services and Institutions - CHILD WELFARE PRIMARY",
-          "source_url": "http://www.legis.state.ak.us/basis/folioproxy.asp?url=http://wwwjnu01.legis.state.ak.us/cgi-bin/folioisa.dll/stattx22/query=*/doc/{t10459}",
+          "citation_text": "Alaska Stat. Title 47 — Welfare, Social Services and Institutions (child welfare: ch. 10, Children in Need of Aid; ch. 17, Child Protection)",
+          "source_url": "https://www.akleg.gov/basis/statutes.asp#47",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -301,10 +301,10 @@
     }
   },
   "state_agency": {
-    "name": "Office of Children's Services",
+    "name": "Alaska Office of Children's Services",
     "acronym": "OCS",
-    "hotline": "1-800-478-4444",
-    "website": "https://akleg.gov"
+    "hotline": "1-800-478-4444 or 907-269-6510 (24 hours a day, every day)",
+    "website": "https://dfcs.alaska.gov/office-of-childrens-services/"
   },
   "linked_fail": "FAIL-06",
   "_metadata": {
@@ -345,7 +345,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

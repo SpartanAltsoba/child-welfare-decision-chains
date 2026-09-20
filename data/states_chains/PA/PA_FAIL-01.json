@@ -6,8 +6,8 @@
   "subnode": "FAIL-01",
   "trigger_name": "Court Reversal of Agency Decision",
   "summary_html": "A **court reverses or vacates** a CPS or agency decision due to procedural error, insufficient evidence, or constitutional violation. Federal review data (CFSR, ASFA) tracks judicial determinations on reasonable efforts and due process.",
-  "authority_html": "- **Adoption and Safe Families Act (ASFA)** \u2014 judicial findings of 'reasonable efforts' compliance  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal review of judicial/agency conformity  \n- **42 U.S.C. \u00a7 1983** \u2014 civil-rights remedy for unconstitutional removals (14th & 4th Amendments).",
-  "icon": "\u2696\ufe0f",
+  "authority_html": "- **Adoption and Safe Families Act (ASFA)** — judicial findings of 'reasonable efforts' compliance  \n- **CFSR Regulations (45 CFR Part 1355)** — federal review of judicial/agency conformity  \n- **42 U.S.C. § 1983** — civil-rights remedy for unconstitutional removals (14th & 4th Amendments).",
+  "icon": "⚖️",
   "theme_color": "#FF6347",
   "domain": "civil",
   "procedural_weight": 0.8,
@@ -20,7 +20,7 @@
     "constitutional": {
       "constraints_triggered": [
         "U.S. Const. amend. IV",
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
@@ -28,23 +28,23 @@
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
         "45 CFR Part 1355 (CFSR)",
-        "42 U.S.C. \u00a7 1983 (Civil Rights Act)"
+        "42 U.S.C. § 1983 (Civil Rights Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Pennsylvania - Title 23 Pa.C.S. Chapter\u00a063 (Child Protective Services Law)",
-          "source_url": "https://law.onecle.com/pennsylvania/title-23/chapter-63/index.html",
+          "citation_text": "Pennsylvania - Title 23 Pa.C.S. Chapter 63 (Child Protective Services Law)",
+          "source_url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=PDF&ttl=23&div=00.&chpt=63",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Pennsylvania - 42 Pa.C.S. Chapter\u00a063 (Juvenile Act \u2013 dependency proceedings)",
-          "source_url": "https://www.legis.state.pa.us/cfdocs/legis/LI/consCheck.cfm?txtType=HTM&ttl=4&div=0&chpt=2",
+          "citation_text": "Pennsylvania - 42 Pa.C.S. Chapter 63 (Juvenile Act – dependency proceedings)",
+          "source_url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=PDF&ttl=42&div=00.&chpt=63",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
@@ -52,7 +52,7 @@
           "source_url": "https://law.justia.com/codes/pennsylvania/title-23/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-24",
-          "deep_link": true,
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
@@ -61,7 +61,7 @@
           "source_url": "https://law.justia.com/codes/pennsylvania/title-42/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-24",
-          "deep_link": true,
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
@@ -70,7 +70,7 @@
           "source_url": "https://law.justia.com/codes/pennsylvania/title-55/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-24",
-          "deep_link": true,
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
@@ -79,7 +79,7 @@
           "source_url": "https://law.justia.com/codes/pennsylvania/title-62/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-24",
-          "deep_link": true,
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         }
@@ -109,14 +109,14 @@
         {
           "provision_id": "PA_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Pennsylvania Const. art. I, \u00a7 8",
+          "citation": "Pennsylvania Const. art. I, § 8",
           "federal_parallel": "U.S. Const. amend. IV"
         },
         {
           "provision_id": "PA_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Pennsylvania Const. art. I, \u00a7 9",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Pennsylvania Const. art. I, § 9",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -278,10 +278,10 @@
     }
   },
   "state_agency": {
-    "name": "Children and Youth Services",
-    "acronym": "CYS",
+    "name": "Pennsylvania Department of Human Services, Office of Children, Youth, and Families",
+    "acronym": "OCYF",
     "hotline": "1-800-932-0313",
-    "website": "https://www.legis.state.pa.us"
+    "website": "https://www.pa.gov/agencies/dhs/departments-offices/ocyf-info"
   },
   "linked_output": "OUT-02",
   "linked_action": "ACT-03",
@@ -318,7 +318,7 @@
       "requirement_name": "Appeal deadline",
       "deadline": "30 days",
       "starts_from": "Final order",
-      "source": "court_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Loss of appeal rights"
     },
     {
@@ -327,6 +327,14 @@
       "starts_from": "Violation occurred",
       "source": "federal_statute",
       "consequence_of_miss": "Claim barred"
+    },
+    {
+      "requirement_name": "ChildLine registry appeal",
+      "deadline": "90 days to request an administrative review by, or appeal and request a hearing before, the secretary to amend or expunge an indicated report; the department sends notice of the secretary's decision within 60 days of a request for administrative review",
+      "starts_from": "Notice to a person named as perpetrator, or to a school employee named, of the status of the indicated report",
+      "source": "state_statute",
+      "source_url": "https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/23/00.063.041.000..HTM",
+      "consequence_of_miss": "Not specified in 23 Pa.C.S. § 6341(a)(2)-(3)"
     }
   ],
   "notice_requirements": [

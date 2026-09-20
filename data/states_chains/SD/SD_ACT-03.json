@@ -6,8 +6,8 @@
   "subnode": "ACT-03",
   "trigger_name": "Foster Care Placement",
   "summary_html": "The child is **removed from the home** and placed in foster care under court order or emergency authority. Federal statutes tie funding to safety findings, judicial oversight, and permanency planning.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal monitoring of placement decisions",
-  "icon": "\ud83d\udea8",
+  "authority_html": "- **ASFA / SSA Title IV-E** — removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** — federal monitoring of placement decisions",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.35,
@@ -21,48 +21,49 @@
     "constitutional": {
       "constraints_triggered": [
         "U.S. Const. amend. IV",
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)",
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "South Dakota - S.D. Codified Laws Chapter\u00a026-8A (Protection of Children \u2013 mandatory reporting and CPS)",
-          "source_url": "https://sdlegislature.gov",
+          "citation_text": "South Dakota - S.D. Codified Laws Chapter 26-8A (Protection of Children from Abuse or Neglect – mandatory reporting, CPS investigation, central registry)",
+          "source_url": "https://sdlegislature.gov/Statutes/26-8A",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 25: Domestic Relations",
-          "source_url": "https://law.justia.com/codes/south-dakota/title-25/",
+          "source_url": "https://sdlegislature.gov/Statutes/25",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 26: Courts - Juvenile Proceedings - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/south-dakota/title-26/",
+          "citation_text": "Title 26: Minors - CHILD WELFARE PRIMARY",
+          "source_url": "https://sdlegislature.gov/Statutes/26",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 28: Public Health - Child Abuse Reporting",
-          "source_url": "https://law.justia.com/codes/south-dakota/title-28/",
+          "citation_text": "S.D. Codified Laws Chapter 26-7A (Juvenile Court – temporary custody hearings, adjudication, disposition)",
+          "source_url": "https://sdlegislature.gov/Statutes/26-7A",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -138,6 +139,12 @@
           "url": "https://regulations.justia.com/states/south-dakota/title-6/",
           "authority_type": "administrative_rule",
           "last_verified": "2025-12-24"
+        },
+        {
+          "title": "ARSD Article 67:14 - Child Protection Services (Department of Social Services)",
+          "url": "https://sdlegislature.gov/Rules/Administrative/67:14",
+          "authority_type": "admin_rule",
+          "last_verified": "2026-09-19"
         }
       ],
       "source_url": "https://www.law.cornell.edu/regulations/south-dakota.html"
@@ -149,14 +156,14 @@
         {
           "provision_id": "SD_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "South Dakota Const. art. VI, \u00a7 11",
+          "citation": "South Dakota Const. art. VI, § 11",
           "federal_parallel": "U.S. Const. amend. IV"
         },
         {
           "provision_id": "SD_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "South Dakota Const. art. VI, \u00a7 2",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "South Dakota Const. art. VI, § 2",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -263,7 +270,7 @@
         },
         {
           "case_id": "30488",
-          "title": "In The Matter Of The Interpretation Of South Dakota Constitution And State Law Re: State Legislator\u2019s Interest In State Or County Contracts",
+          "title": "In The Matter Of The Interpretation Of South Dakota Constitution And State Law Re: State Legislator’s Interest In State Or County Contracts",
           "url": "https://law.justia.com/cases/south-dakota/supreme-court/2024/30488.html",
           "year": 2024,
           "court": "Supreme Court",
@@ -318,10 +325,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Social Services",
-    "acronym": "DSS",
-    "hotline": "1-877-244-0864",
-    "website": "https://sdlegislature.gov"
+    "name": "South Dakota Department of Social Services, Division of Child Protection Services",
+    "acronym": "CPS",
+    "hotline": "1-877-244-0864 (intake specialists 8 a.m. to 5 p.m. Monday through Friday; before 8 a.m., after 5 p.m., weekends and holidays contact local law enforcement)",
+    "website": "https://dss.sd.gov/childprotection/"
   },
   "linked_decision": "DEC-04",
   "linked_input": "INP-01",
@@ -354,10 +361,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
+      "deadline": "48 hours, excluding Saturdays, Sundays, and court holidays",
+      "starts_from": "Child taken into temporary custody",
       "source": "state_statute",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "source_url": "https://sdlegislature.gov/Statutes/26-7A-15",
+      "consequence_of_miss": "Child may not be held in temporary custody past 48 hours unless a temporary custody petition has been filed and the court orders longer custody (SDCL 26-7A-14)"
     },
     {
       "requirement_name": "Case plan development",

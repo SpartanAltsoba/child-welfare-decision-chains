@@ -6,8 +6,8 @@
   "subnode": "INP-01",
   "trigger_name": "Mandatory Report",
   "summary_html": "**Mandatory reporters** (designated professionals) must report suspected child abuse or neglect. Federal law sets the funding and policy floor (CAPTA) and mandates reporter frameworks on federal lands/facilities (VICAA).",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 federal floor for state reporting systems  \n- **Victims of Child Abuse Act (34 U.S.C. \u00a7\u00a7 20301\u201320307)** \u2014 includes federal-facility reporter duties (recodified from former 42 U.S.C. \u00a713031)",
-  "icon": "\ud83d\udcde",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — federal floor for state reporting systems  \n- **Victims of Child Abuse Act (34 U.S.C. §§ 20301–20307)** — includes federal-facility reporter duties (recodified from former 42 U.S.C. §13031)",
+  "icon": "📞",
   "theme_color": "#1E90FF",
   "domain": "civil",
   "procedural_weight": 0.4,
@@ -27,24 +27,24 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
-        "34 U.S.C. \u00a7\u00a7 20301\u201320307 (Victims of Child Abuse Act)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
+        "34 U.S.C. §§ 20301–20307 (Victims of Child Abuse Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Pennsylvania - Title 23 Pa.C.S. Chapter\u00a063 (Child Protective Services Law)",
-          "source_url": "https://law.onecle.com/pennsylvania/title-23/chapter-63/index.html",
+          "citation_text": "Pennsylvania - Title 23 Pa.C.S. Chapter 63 (Child Protective Services Law)",
+          "source_url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=PDF&ttl=23&div=00.&chpt=63",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Pennsylvania - 42 Pa.C.S. Chapter\u00a063 (Juvenile Act \u2013 dependency proceedings)",
-          "source_url": "https://www.legis.state.pa.us/cfdocs/legis/LI/consCheck.cfm?txtType=HTM&ttl=4&div=0&chpt=2",
+          "citation_text": "Pennsylvania - 42 Pa.C.S. Chapter 63 (Juvenile Act – dependency proceedings)",
+          "source_url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=PDF&ttl=42&div=00.&chpt=63",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
@@ -52,7 +52,7 @@
           "source_url": "https://law.justia.com/codes/pennsylvania/title-23/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-24",
-          "deep_link": true,
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
@@ -61,7 +61,7 @@
           "source_url": "https://law.justia.com/codes/pennsylvania/title-42/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-24",
-          "deep_link": true,
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
@@ -70,7 +70,7 @@
           "source_url": "https://law.justia.com/codes/pennsylvania/title-55/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-24",
-          "deep_link": true,
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
@@ -79,7 +79,7 @@
           "source_url": "https://law.justia.com/codes/pennsylvania/title-62/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-24",
-          "deep_link": true,
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         }
@@ -264,27 +264,31 @@
     }
   },
   "state_agency": {
-    "name": "Children and Youth Services",
-    "acronym": "CYS",
+    "name": "Pennsylvania Department of Human Services, Office of Children, Youth, and Families",
+    "acronym": "OCYF",
     "hotline": "1-800-932-0313",
-    "website": "https://www.legis.state.pa.us"
+    "website": "https://www.pa.gov/agencies/dhs/departments-offices/ocyf-info"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Shelter Staff",
-    "Childcare Staff",
-    "Clergy",
-    "Foster Parents",
-    "Coaches",
-    "Coroners",
-    "EMTs/Emergency Personnel",
-    "District Attorneys"
+    "Persons licensed or certified to practice in any health-related field under the jurisdiction of the Department of State (23 Pa.C.S. § 6311(a)(1))",
+    "Medical examiners, coroners and funeral directors (23 Pa.C.S. § 6311(a)(2))",
+    "Employees of a health care facility or provider licensed by the Department of Health who are engaged in the admission, examination, care or treatment of individuals (23 Pa.C.S. § 6311(a)(3))",
+    "School employees (23 Pa.C.S. § 6311(a)(4))",
+    "Employees of a child-care service who have direct contact with children in the course of employment (23 Pa.C.S. § 6311(a)(5))",
+    "Clergymen, priests, rabbis, ministers, Christian Science practitioners, religious healers or spiritual leaders of any regularly established church or other religious organization (23 Pa.C.S. § 6311(a)(6))",
+    "Individuals, paid or unpaid, who on the basis of their role as an integral part of a regularly scheduled program, activity or service are responsible for the child's welfare or have direct contact with children (23 Pa.C.S. § 6311(a)(7))",
+    "Employees of a social services agency who have direct contact with children in the course of employment (23 Pa.C.S. § 6311(a)(8))",
+    "Peace officers and law enforcement officials (23 Pa.C.S. § 6311(a)(9))",
+    "Emergency medical services providers certified by the Department of Health (23 Pa.C.S. § 6311(a)(10))",
+    "Employees of a public library who have direct contact with children in the course of employment (23 Pa.C.S. § 6311(a)(11))",
+    "Individuals supervised or managed by a person listed under 23 Pa.C.S. § 6311(a)(1) through (11) or (13) who have direct contact with children in the course of employment (23 Pa.C.S. § 6311(a)(12))",
+    "Independent contractors (23 Pa.C.S. § 6311(a)(13))",
+    "Attorneys affiliated with an agency, institution, organization or other entity, including a school or regularly established religious organization, that is responsible for the care, supervision, guidance or control of children (23 Pa.C.S. § 6311(a)(14))",
+    "Foster parents (23 Pa.C.S. § 6311(a)(15))",
+    "Adult family members who are responsible for the child's welfare and provide services to a child in a family living home, community home for individuals with an intellectual disability or host home for children which are subject to supervision or licensure by the department under Articles IX and X of the Public Welfare Code (23 Pa.C.S. § 6311(a)(16))"
   ],
   "reporting_type": "centralized",
-  "reporting_details": "Not applicable",
+  "reporting_details": "Pennsylvania is not a universal-reporting state: only the categories of mandated reporters listed in 23 Pa.C.S. § 6311(a) are required to report, and they must report immediately to ChildLine (1-800-932-0313) or electronically under 23 Pa.C.S. § 6313(a)(1) with a written report within 48 hours, while any other person may report to the department, the county agency or law enforcement under 23 Pa.C.S. § 6312.",
   "definitions": {
     "abuse": [
       "Physical abuse",
@@ -339,17 +343,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
-      "starts_from": "Report received",
+      "deadline": "Immediately if emergency protective custody is or may be required; otherwise see the child within 24 hours",
+      "starts_from": "County agency receives the report from the Department of Human Services (ChildLine)",
       "source": "state_statute",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "source_url": "https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/23/00.063.068.000..HTM",
+      "consequence_of_miss": "No consequence stated in 23 Pa.C.S. § 6368(b); county agency performance is reviewable by the department under 23 Pa.C.S. § 6343"
     },
     {
       "requirement_name": "Investigation completion",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
+      "deadline": "60 days in all cases; reasons for delay must be recorded if not completed within 30 days",
+      "starts_from": "Investigation commenced by the county agency",
       "source": "state_statute",
-      "consequence_of_miss": "Case dismissal risk"
+      "source_url": "https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/23/00.063.068.000..HTM",
+      "consequence_of_miss": "The particular reasons for delay past 30 days must be described in the child protective service record and made available to the department to determine whether the county agency strictly followed 23 Pa.C.S. Ch. 63 and whether it is subject to action under 23 Pa.C.S. § 6343"
     }
   ],
   "notice_requirements": [

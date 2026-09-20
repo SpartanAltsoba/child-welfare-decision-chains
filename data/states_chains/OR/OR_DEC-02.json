@@ -6,8 +6,8 @@
   "subnode": "DEC-02",
   "trigger_name": "Accept for Investigation / Assessment",
   "summary_html": "CPS **accepts** a report for **investigation/assessment**. CAPTA sets the floor for investigation procedures; CFSR evaluates timeliness, safety, and decision quality.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 investigation standards tied to funding  \n- **CFSR (45 CFR Part 1355)** \u2014 timeliness & response conformity indicators",
-  "icon": "\ud83d\uddc2\ufe0f",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — investigation standards tied to funding  \n- **CFSR (45 CFR Part 1355)** — timeliness & response conformity indicators",
+  "icon": "🗂️",
   "theme_color": "#2E8B57",
   "domain": "civil",
   "procedural_weight": 0.55,
@@ -23,32 +23,42 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Oregon - ORS Chapter\u00a0419B (Juvenile Code: Dependency and Abuse \u2013 includes mandatory reporting \u00a7\u00a7\u00a0419B.005\u2013419B.050)",
-          "source_url": "https://www.oregonlegislature.gov",
+          "citation_text": "Oregon - ORS Chapter 419B (Juvenile Code: Dependency – includes reporting and investigation of child abuse, ORS 419B.005 to 419B.050)",
+          "source_url": "https://www.oregonlegislature.gov/bills_laws/ors/ors419B.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Title 109: Parent and Child",
-          "source_url": "https://law.justia.com/codes/oregon/title-109/",
+          "citation_text": "Oregon - ORS Chapter 109 (Parent and Child Rights and Relationships)",
+          "source_url": "https://www.oregonlegislature.gov/bills_laws/ors/ors109.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 418: Child Care",
-          "source_url": "https://law.justia.com/codes/oregon/title-418/",
+          "citation_text": "Oregon - ORS Chapter 418 (Child Welfare Services)",
+          "source_url": "https://www.oregonlegislature.gov/bills_laws/ors/ors418.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
+          "deep_link": true,
+          "title_code": "",
+          "chapter": ""
+        },
+        {
+          "citation_text": "Oregon - ORS 419B.600 to 419B.665 (Oregon Indian Child Welfare Act (ORICWA): ORS 419B.600 Policy on Indian child welfare through ORS 419B.665 Rules)",
+          "source_url": "https://www.oregonlegislature.gov/bills_laws/ors/ors419B.html",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -235,10 +245,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Services",
-    "acronym": "DHS",
+    "name": "Oregon Department of Human Services, Child Welfare Division",
+    "acronym": "ODHS",
     "hotline": "1-855-503-7233",
-    "website": "https://www.oregonlegislature.gov"
+    "website": "https://www.oregon.gov/odhs/child-safety/pages/default.aspx"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -274,16 +284,17 @@
   "timeline_requirements": [
     {
       "requirement_name": "Safety decision",
-      "deadline": "Immediate upon contact",
-      "starts_from": "First family contact",
+      "deadline": "Immediate — the CPS worker must determine whether a present danger safety threat is occurring at initial contact and at any time during the CPS assessment",
+      "starts_from": "Initial contact",
       "source": "admin_rule",
-      "consequence_of_miss": "Child safety risk"
+      "source_url": "https://www.oregon.gov/odhs/rules-policy/cwrules/413-015-en.pdf",
+      "consequence_of_miss": "Not specified in OAR 413-015-0425."
     },
     {
       "requirement_name": "Disposition finding",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Procedural violation"
     }
   ],

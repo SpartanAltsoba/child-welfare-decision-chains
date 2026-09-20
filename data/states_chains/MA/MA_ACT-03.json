@@ -6,8 +6,8 @@
   "subnode": "ACT-03",
   "trigger_name": "Foster Care Placement",
   "summary_html": "The child is **removed from the home** and placed in foster care under court order or emergency authority. Federal statutes tie funding to safety findings, judicial oversight, and permanency planning.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal monitoring of placement decisions",
-  "icon": "\ud83d\udea8",
+  "authority_html": "- **ASFA / SSA Title IV-E** — removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** — federal monitoring of placement decisions",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.35,
@@ -21,31 +21,31 @@
     "constitutional": {
       "constraints_triggered": [
         "U.S. Const. amend. IV",
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)",
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Massachusetts - MGL Chapter\u00a0119 (Protection of Children, incl. \u00a7\u00a051A mandated reporting)",
-          "source_url": "https://malegislature.gov/Laws/GeneralLaws/",
+          "citation_text": "Massachusetts - M.G.L. c. 119, § 51A (Reporting of suspected abuse or neglect; mandated reporters; penalties)",
+          "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVII/Chapter119/Section51A",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Massachusetts - MGL Chapter\u00a0119, \u00a7\u00a7\u00a024\u201329 (Care and protection proceedings)",
-          "source_url": "https://malegislature.gov/Laws/GeneralLaws/",
+          "citation_text": "Massachusetts - M.G.L. c. 119, §§ 24–29 (Care and protection proceedings: emergency custody, hearings, appeals, right to counsel)",
+          "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVII/Chapter119",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
@@ -71,6 +71,10 @@
     "administrative_rule": {
       "regulations_applicable": [
         {
+          "title": "110 CMR - DEPARTMENT OF CHILDREN AND FAMILIES",
+          "url": "https://www.law.cornell.edu/regulations/massachusetts/department-110-CMR"
+        },
+        {
           "title": "101 CMR - EXECUTIVE OFFICE FOR HEALTH AND HUMAN SERVICES",
           "url": "https://www.law.cornell.edu/regulations/massachusetts/department-101-CMR"
         },
@@ -92,14 +96,14 @@
         {
           "provision_id": "MA_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Massachusetts Const. art. 14, \u00a7 ",
+          "citation": "Massachusetts Const. art. 14, § ",
           "federal_parallel": "U.S. Const. amend. IV"
         },
         {
           "provision_id": "MA_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Massachusetts Const. art. 12, \u00a7 ",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Massachusetts Const. art. 12, § ",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -261,10 +265,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children and Families",
+    "name": "Massachusetts Department of Children and Families",
     "acronym": "DCF",
-    "hotline": "1-800-792-5200",
-    "website": "https://malegislature.gov"
+    "hotline": "1-800-792-5200 (Massachusetts Child Abuse Emergency Line, for nights, weekends and holidays; weekdays 8:45 a.m. to 5 p.m. call the DCF area office for the city or town where the child lives)",
+    "website": "https://www.mass.gov/orgs/massachusetts-department-of-children-families"
   },
   "linked_decision": "DEC-04",
   "linked_input": "INP-01",
@@ -297,17 +301,27 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
+      "deadline": "72 hours",
+      "starts_from": "Emergency order transferring custody (DCF must file the care and protection petition on the next court day after taking emergency custody, M.G.L. c. 119, § 51B(c))",
       "source": "state_statute",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVII/Chapter119/Section24",
+      "consequence_of_miss": "An emergency order transfers custody for up to 72 hours only; custody continues past 72 hours solely if the court so determines after notice to the parents, guardian or custodian (M.G.L. c. 119, § 24)"
     },
     {
       "requirement_name": "Case plan development",
-      "deadline": "30-60 days",
-      "starts_from": "Court jurisdiction",
-      "source": "federal_statute",
-      "consequence_of_miss": "IV-E funding penalty"
+      "deadline": "45 days for the department or agency to provide a copy of the service or case plan to the parent, guardian or custodian and to the attorneys for all parties appearing in the proceeding",
+      "starts_from": "The department or agency filing an appearance in the proceeding (M.G.L. c. 119, § 29)",
+      "source": "state_statute",
+      "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVII/Chapter119/Section29",
+      "consequence_of_miss": "Not specified in M.G.L. c. 119, § 29"
+    },
+    {
+      "requirement_name": "Appointment of counsel for indigent parent",
+      "deadline": "14 days for the juvenile court and probate and family court departments, under procedures they must establish, to appoint counsel for an indigent parent, guardian or custodian",
+      "starts_from": "A licensed child placement agency filing or appearing as a party in the action (M.G.L. c. 119, § 29)",
+      "source": "state_statute",
+      "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVII/Chapter119/Section29",
+      "consequence_of_miss": "Not specified in M.G.L. c. 119, § 29"
     }
   ],
   "notice_requirements": [

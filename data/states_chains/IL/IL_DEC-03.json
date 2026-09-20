@@ -4,10 +4,10 @@
   "state_name": "Illinois",
   "node_family": "DEC",
   "subnode": "DEC-03",
-  "trigger_name": "Substantiated / Founded Finding",
-  "summary_html": "Agency makes a **substantiated (founded)** finding of abuse/neglect. This decision often unlocks **court petitions**, **service mandates**, and **federal reporting** duties.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 definitions floor; data & record requirements  \n- **CFSR (45 CFR Part 1355)** \u2014 outcomes & safety performance reviews",
-  "icon": "\u2705",
+  "trigger_name": "Indicated Finding",
+  "summary_html": "Agency makes an **indicated** finding of abuse/neglect — in Illinois an \"indicated report\" is one where \"an investigation determines that credible evidence of the alleged abuse or neglect exists\" (325 ILCS 5/3); Illinois does not use the words *substantiated* or *founded* (325 ILCS 5/7.12). This decision often unlocks **court petitions**, **service mandates**, and **federal reporting** duties.",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — definitions floor; data & record requirements  \n- **CFSR (45 CFR Part 1355)** — outcomes & safety performance reviews",
+  "icon": "✅",
   "theme_color": "#8B008B",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -23,7 +23,7 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
@@ -31,16 +31,16 @@
       "primary_citations": [
         {
           "citation_text": "Illinois - 325 ILCS 5 (Abused and Neglected Child Reporting Act)",
-          "source_url": "https://law.onecle.com/illinois/325ilcs5/",
+          "source_url": "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=1460&ChapterID=32",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Illinois - 705 ILCS 405/2 (Juvenile Court Act \u2013 abuse/neglect proceedings)",
-          "source_url": "https://law.onecle.com/illinois/705ilcs5/",
+          "citation_text": "Illinois - 705 ILCS 405/2 (Juvenile Court Act – abuse/neglect proceedings)",
+          "source_url": "https://www.ilga.gov/legislation/ILCS/details?ActID=1863&ChapterID=50&ChapAct=705%2BILCS%2B405%2F&SeqStart=2600000&SeqEnd=7600000",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
@@ -313,10 +313,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children and Family Services",
+    "name": "Illinois Department of Children and Family Services",
     "acronym": "DCFS",
     "hotline": "1-800-252-2873",
-    "website": "https://www.ilga.gov"
+    "website": "https://dcfs.illinois.gov/"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -344,7 +344,7 @@
     "standard": "preponderance",
     "who_bears_burden": "agency",
     "common_failures": [
-      "Insufficient evidence for substantiation",
+      "Insufficient credible evidence for an indicated finding (325 ILCS 5/3)",
       "Failure to document findings",
       "Inconsistent application of evidence standards"
     ]
@@ -354,15 +354,24 @@
       "requirement_name": "Safety decision",
       "deadline": "Immediate upon contact",
       "starts_from": "First family contact",
-      "source": "admin_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Child safety risk"
     },
     {
       "requirement_name": "Disposition finding",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
+      "deadline": "60 days to determine \"indicated\" or \"unfounded\"; extendable in additional periods of up to 30 days for good cause (325 ILCS 5/7.12)",
+      "starts_from": "Report received",
       "source": "state_statute",
-      "consequence_of_miss": "Procedural violation"
+      "source_url": "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=1460&ChapterID=32",
+      "consequence_of_miss": "Report may be deemed \"undetermined\" where a complete investigation was not possible (325 ILCS 5/7.12)"
+    },
+    {
+      "requirement_name": "Request to amend or expunge an indicated report",
+      "deadline": "60 days, tolled until any related criminal or juvenile court action concludes (325 ILCS 5/7.16)",
+      "starts_from": "Date of the Department's notice that the investigation is complete",
+      "source": "state_statute",
+      "source_url": "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=1460&ChapterID=32",
+      "consequence_of_miss": "Loss of the departmental hearing to amend or remove the report from the State Central Register (325 ILCS 5/7.16)"
     }
   ],
   "notice_requirements": [

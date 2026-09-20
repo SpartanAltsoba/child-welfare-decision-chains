@@ -6,8 +6,8 @@
   "subnode": "OUT-05",
   "trigger_name": "Case Dismissal",
   "summary_html": "Case dismissed due to **unsubstantiated evidence** or court determination that allegations not proven. Federal oversight requires accurate recording of such closures for audit and funding compliance.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 defines data-collection standards for unfounded cases  \n- **CFSR (45 CFR Part 1355)** \u2014 requires tracking and reporting of unsubstantiated outcomes",
-  "icon": "\ud83d\uddc3\ufe0f",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — defines data-collection standards for unfounded cases  \n- **CFSR (45 CFR Part 1355)** — requires tracking and reporting of unsubstantiated outcomes",
+  "icon": "🗃️",
   "theme_color": "#708090",
   "domain": "civil",
   "procedural_weight": 0.55,
@@ -23,27 +23,27 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Maine - Title 22, Chapter 1071 (Child and Family Services and Child Protection Act \u2013 includes \u00a7\u00a04011-A reporting)",
+          "citation_text": "Maine - Title 22, Chapter 1071 (Child and Family Services and Child Protection Act – includes § 4011-A reporting)",
           "source_url": "https://legislature.maine.gov/statutes/22/title22ch1071sec0.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 22: Health and Welfare - DHHS - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/maine/title-22/",
+          "citation_text": "Maine — 22 M.R.S. § 4036 (Disposition and principles; includes dismissal of the child protection action)",
+          "source_url": "https://legislature.maine.gov/statutes/22/title22sec4036.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
-          "title_code": "",
-          "chapter": ""
+          "title_code": "22",
+          "chapter": "1071"
         }
       ]
     },
@@ -283,13 +283,13 @@
     }
   },
   "state_agency": {
-    "name": "Department of Health and Human Services",
-    "acronym": "DHHS",
+    "name": "Maine Department of Health and Human Services, Office of Child and Family Services",
+    "acronym": "OCFS",
     "hotline": "1-800-452-1999",
-    "website": "https://legislature.maine.gov"
+    "website": "https://www.maine.gov/dhhs/ocfs"
   },
   "extended_foster_care": true,
-  "extended_foster_care_age": "Other",
+  "extended_foster_care_age": "Up to age 23 (voluntary; in DHHS custody at 18; conditions apply; 22 M.R.S. § 4037-A)",
   "linked_action": "ACT-02",
   "linked_decision": "DEC-01",
   "linked_input": "INP-01",

@@ -6,8 +6,8 @@
   "subnode": "OUT-04",
   "trigger_name": "Extended Foster Care / Aging Out",
   "summary_html": "Youth remains in **extended foster care** or receives **transitional services** after age 18 under federal programs promoting independence.",
-  "authority_html": "- **Chafee Foster Care Independence Act (CFCIA)** \u2014 independent-living and transition funding  \n- **FCSIAA** \u2014 extends care to age 21 with education and housing supports",
-  "icon": "\ud83e\udded",
+  "authority_html": "- **Chafee Foster Care Independence Act (CFCIA)** — independent-living and transition funding  \n- **FCSIAA** — extends care to age 21 with education and housing supports",
+  "icon": "🧭",
   "theme_color": "#4682B4",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -30,33 +30,33 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Minnesota - Minn. Stat. \u00a7\u00a0626.556 (Reporting of Maltreatment of Minors Act)",
-          "source_url": "https://www.revisor.mn.gov/statutes/cite/626",
+          "citation_text": "Minnesota - Minn. Stat. ch. 260E (Reporting of Maltreatment of Minors)",
+          "source_url": "https://www.revisor.mn.gov/statutes/cite/260E",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Minnesota - Minn. Stat. Chapters\u00a0260C and 260E (Child protection and services)",
+          "citation_text": "Minnesota - Minn. Stat. ch. 260C (Juvenile Safety and Placement)",
           "source_url": "https://www.revisor.mn.gov/statutes/cite/260C",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 256: Human Services - DHS",
-          "source_url": "https://law.justia.com/codes/minnesota/title-256/",
+          "citation_text": "Minnesota - Minn. Stat. ch. 142A (Department of Children, Youth, and Families)",
+          "source_url": "https://www.revisor.mn.gov/statutes/cite/142A",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 260: Juvenile Court Act",
-          "source_url": "https://law.justia.com/codes/minnesota/title-260/",
+          "citation_text": "Minnesota - Minn. Stat. ch. 260 (Juvenile Court; Child Placement; Compacts — includes the Minnesota Indian Family Preservation Act, §§ 260.751–260.835)",
+          "source_url": "https://www.revisor.mn.gov/statutes/cite/260",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -66,19 +66,19 @@
     "administrative_rule": {
       "regulations_applicable": [
         {
-          "title": "Agency 152 - Marriage and Family Therapy Board",
-          "url": "https://www.law.cornell.edu/regulations/minnesota/agency-152"
+          "title": "Minnesota Rules, Chapter 9560 - Social Services for Children",
+          "url": "https://www.revisor.mn.gov/rules/9560/"
         },
         {
-          "title": "Agency 172 - Private Detective and Protective Agent Services Board",
-          "url": "https://www.law.cornell.edu/regulations/minnesota/agency-172"
+          "title": "Minnesota Rules, parts 9560.0210 to 9560.0234 - Protective Services for Children",
+          "url": "https://www.revisor.mn.gov/rules/9560.0210/"
         },
         {
-          "title": "Agency 196 - Human Services Department",
-          "url": "https://www.law.cornell.edu/regulations/minnesota/agency-196"
+          "title": "Minnesota Rules, parts 9560.0410 to 9560.0485 - Children in Need of Protection or Services",
+          "url": "https://www.revisor.mn.gov/rules/9560.0410/"
         }
       ],
-      "source_url": "https://www.law.cornell.edu/regulations/minnesota.html"
+      "source_url": "https://www.revisor.mn.gov/rules/"
     },
     "state_constitutional": {
       "plane_reference": "state_constitutional_MN",
@@ -123,7 +123,7 @@
         },
         {
           "case_id": "a24-1562",
-          "title": "In the Matter of the Petition of Minnesota Association of Residential Services Homes (MARSH) under Minn. Stat. \u00c2\u00a7 14.381, subd. 1, for a Declaration that the Minnesota Department of Human Services Is Enforcing Unadopted Rules",
+          "title": "In the Matter of the Petition of Minnesota Association of Residential Services Homes (MARSH) under Minn. Stat. Â§ 14.381, subd. 1, for a Declaration that the Minnesota Department of Human Services Is Enforcing Unadopted Rules",
           "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2025/a24-1562.html",
           "year": 2025,
           "court": "Court Of Appeals",
@@ -243,13 +243,13 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Services",
-    "acronym": "DHS",
-    "hotline": "1-800-422-4453",
-    "website": "https://www.leg.state.mn.us"
+    "name": "Minnesota Department of Children, Youth, and Families",
+    "acronym": "DCYF",
+    "hotline": "No statewide hotline. Call the county or Tribal child protection agency where the child lives — the directory link is on dcyf.mn.gov/individuals-and-families/report-abuse",
+    "website": "https://dcyf.mn.gov/"
   },
   "extended_foster_care": true,
-  "extended_foster_care_age": "Up to age 21 (until 21st birthday)",
+  "extended_foster_care_age": "To age 21 (voluntary; youth must meet one of five eligibility conditions; re-entry to 21 allowed; Minn. Stat. § 260C.451)",
   "linked_action": "ACT-03",
   "linked_decision": "DEC-05",
   "linked_input": "INP-01",
@@ -293,6 +293,14 @@
       "starts_from": "Child enters care",
       "source": "federal_statute",
       "consequence_of_miss": "Must file TPR or document compelling reason"
+    },
+    {
+      "requirement_name": "Permanency progress review",
+      "deadline": "6 months",
+      "starts_from": "The child's placement out of the home of the parent or guardian from whom the child was removed",
+      "source": "state_statute",
+      "source_url": "https://www.revisor.mn.gov/statutes/cite/260C.204",
+      "consequence_of_miss": "Not specified in Minn. Stat. § 260C.204; subd. 1 requires the court to hold the permanency progress hearing no later than six months after the child's placement, and subd. 4(a)(2) lets the court continue the matter no more than six additional months before a hearing under §§ 260C.503 to 260C.521."
     }
   ],
   "notice_requirements": [

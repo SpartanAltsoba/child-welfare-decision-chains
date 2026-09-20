@@ -6,8 +6,8 @@
   "subnode": "INP-11",
   "trigger_name": "Federal / Tribal Jurisdiction Trigger",
   "summary_html": "Cases arising on **federal lands/facilities** or involving **Indian children** invoke federal/tribal jurisdictional rules (VICAA for federal facilities; **ICWA** for Indian children and tribal preference/jurisdiction).",
-  "authority_html": "- **VICAA (34 U.S.C. \u00a7\u00a7 20301\u201320307)** \u2014 federal-facility reporting mandates  \n- **ICWA (25 U.S.C. \u00a7\u00a7 1901\u20131963)** \u2014 tribal jurisdiction, placement preferences, notice to tribes",
-  "icon": "\ud83c\udfdb\ufe0f",
+  "authority_html": "- **VICAA (34 U.S.C. §§ 20301–20307)** — federal-facility reporting mandates  \n- **ICWA (25 U.S.C. §§ 1901–1963)** — tribal jurisdiction, placement preferences, notice to tribes",
+  "icon": "🏛️",
   "theme_color": "#4682B4",
   "domain": "civil",
   "procedural_weight": 0.55,
@@ -24,17 +24,17 @@
     },
     "federal": {
       "requirements_applicable": [
-        "34 U.S.C. \u00a7\u00a7 20301\u201320307 (Victims of Child Abuse Act)",
-        "25 U.S.C. \u00a7\u00a7 1901\u20131963 (ICWA)"
+        "34 U.S.C. §§ 20301–20307 (Victims of Child Abuse Act)",
+        "25 U.S.C. §§ 1901–1963 (ICWA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Oklahoma - Title 10A (Children and Juvenile Code), \u00a7\u00a01-2-101 (Duty to report) and Article 1, Part 4 (deprived child proceedings)",
-          "source_url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=10000",
+          "citation_text": "Oklahoma - Title 10A (Children and Juvenile Code), § 1-2-101 (Duty to report) and Article 1, Part 4 (deprived child proceedings)",
+          "source_url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=455989",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
@@ -57,9 +57,9 @@
         },
         {
           "citation_text": "Title 10a: Children and Juvenile Code - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/oklahoma/title-10a/",
+          "source_url": "https://www.oscn.net/applications/oscn/Index.asp?ftdb=STOKSTA1&level=1",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -245,28 +245,18 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Services",
+    "name": "Oklahoma Human Services",
     "acronym": "OKDHS",
     "hotline": "1-800-522-3511",
-    "website": "https://www.oklegislature.gov"
+    "website": "https://oklahoma.gov/okdhs.html"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Shelter Staff",
-    "Childcare Staff",
-    "Clergy",
-    "Foster Parents",
-    "Coaches",
-    "Coroners",
-    "EMTs/Emergency Personnel",
-    "Judges",
-    "District Attorneys"
+    "Any person (universal mandatory reporting) — 10A O.S. § 1-2-101(B)(1)",
+    "Every school employee — must report a student under 18 to the statewide hotline and to local law enforcement (10A O.S. § 1-2-101(B)(2))",
+    "Physicians, surgeons, other health care professionals and midwives — must report an infant who tests positive for alcohol or a controlled dangerous substance, including Neonatal Abstinence Syndrome or Fetal Alcohol Spectrum Disorder (10A O.S. § 1-2-101(B)(3))"
   ],
   "reporting_type": "centralized",
-  "reporting_details": "Not applicable",
+  "reporting_details": "In Oklahoma every person who has reason to believe a child under 18 is a victim of abuse or neglect must report it immediately to the statewide hotline at 1-800-522-3511 (10A O.S. § 1-2-101(B)(1)).",
   "definitions": {
     "abuse": [
       "Physical abuse",
@@ -329,14 +319,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

@@ -6,8 +6,8 @@
   "subnode": "ACT-03",
   "trigger_name": "Foster Care Placement",
   "summary_html": "The child is **removed from the home** and placed in foster care under court order or emergency authority. Federal statutes tie funding to safety findings, judicial oversight, and permanency planning.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal monitoring of placement decisions",
-  "icon": "\ud83d\udea8",
+  "authority_html": "- **ASFA / SSA Title IV-E** — removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** — federal monitoring of placement decisions",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.35,
@@ -21,48 +21,49 @@
     "constitutional": {
       "constraints_triggered": [
         "U.S. Const. amend. IV",
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)",
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Montana - Title 41, Chapter\u00a03 (Child Abuse and Neglect \u2013 mandatory reporting and protective services)",
-          "source_url": "https://leg.mt.gov",
+          "citation_text": "Montana - Title 41, Chapter 3 (Child Abuse and Neglect – mandatory reporting and protective services)",
+          "source_url": "https://mca.legmt.gov/bills/mca/title_0410/chapter_0030/parts_index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 41: Minors - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/montana/title-41/",
+          "source_url": "https://mca.legmt.gov/bills/mca/title_0410/chapters_index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 42: Adoption",
-          "source_url": "https://law.justia.com/codes/montana/title-42/",
+          "source_url": "https://mca.legmt.gov/bills/mca/title_0420/chapters_index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 52: Family Services - DPHHS",
-          "source_url": "https://law.justia.com/codes/montana/title-52/",
+          "source_url": "https://mca.legmt.gov/bills/mca/title_0520/chapters_index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -145,14 +146,14 @@
         {
           "provision_id": "MT_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Montana Const. art. II, \u00a7 11",
+          "citation": "Montana Const. art. II, § 11",
           "federal_parallel": "U.S. Const. amend. IV"
         },
         {
           "provision_id": "MT_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Montana Const. art. II, \u00a7 17",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Montana Const. art. II, § 17",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -314,10 +315,10 @@
     }
   },
   "state_agency": {
-    "name": "Child & Family Services Division (DPHHS)",
-    "acronym": "DPHHS-CFSD",
-    "hotline": "1-866-820-5437",
-    "website": "https://leg.mt.gov"
+    "name": "Montana Department of Public Health and Human Services, Child and Family Services Division",
+    "acronym": "CFSD",
+    "hotline": "1-866-820-5437 (toll free, 24 hours); TTY (hearing impaired) 1-866-341-8811",
+    "website": "https://dphhs.mt.gov/cfsd/"
   },
   "icwa_compliant": true,
   "icwa_details": {
@@ -344,8 +345,14 @@
     "leaf_linker_version": "1.0.0"
   },
   "burden_of_proof": {
-    "standard": "preponderance",
-    "who_bears_burden": "agency",
+    "standard": "probable_cause",
+    "who_bears_burden": "petitioner",
+    "statutory_basis": {
+      "citation_text": "Mont. Code Ann. § 41-3-427(1)(d), (2) — the court grants an order for immediate protection and emergency protective services, including temporary medical or out-of-home care, on probable cause, or on clear and convincing evidence if the case is subject to the federal Indian Child Welfare Act or the Montana Indian Child Welfare Act; same standard as § 41-3-422(5)(a)(i)",
+      "source_url": "https://mca.legmt.gov/bills/mca/title_0410/chapter_0030/part_0040/section_0270/0410-0030-0040-0270.html",
+      "authority_type": "state_statute",
+      "last_verified": "2026-09-19"
+    },
     "common_failures": [
       "Inadequate safety planning",
       "Failure to consider less restrictive alternatives",
@@ -355,10 +362,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
+      "deadline": "5 business days",
+      "starts_from": "Child's removal from the home",
       "source": "state_statute",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "source_url": "https://mca.legmt.gov/bills/mca/title_0410/chapter_0030/part_0030/section_0060/0410-0030-0030-0060.html",
+      "consequence_of_miss": "No judicial probable-cause finding authorizing removal to continue beyond 5 business days; if the court finds continued removal is not appropriate the child must be returned immediately (Mont. Code Ann. § 41-3-306(1)(a), (6)). No hearing is required if the child is released prior to the time of the required hearing (§ 41-3-306(1)(c))"
     },
     {
       "requirement_name": "Case plan development",

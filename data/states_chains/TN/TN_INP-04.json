@@ -6,8 +6,8 @@
   "subnode": "INP-04",
   "trigger_name": "Court-Ordered Referral",
   "summary_html": "A **judge orders** CPS to investigate or assess during civil/criminal proceedings. Federal funding statutes (ASFA/IV-E) tether court findings to child-welfare actions, embedding judicial oversight into intake-to-case flow.",
-  "authority_html": "- **ASFA (42 U.S.C. \u00a7\u00a7 671\u2013675)** \u2014 court \u2018reasonable efforts\u2019 findings; permanency timelines  \n- **SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 funding structure linking court oversight to agency actions",
-  "icon": "\u2696\ufe0f",
+  "authority_html": "- **ASFA (42 U.S.C. §§ 671–675)** — court ‘reasonable efforts’ findings; permanency timelines  \n- **SSA Title IV-E (42 U.S.C. §§ 670–679c)** — funding structure linking court oversight to agency actions",
+  "icon": "⚖️",
   "theme_color": "#8A2BE2",
   "domain": "civil",
   "procedural_weight": 0.55,
@@ -24,32 +24,32 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 671\u2013675 (ASFA/IV-E)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E framework)"
+        "42 U.S.C. §§ 671–675 (ASFA/IV-E)",
+        "42 U.S.C. §§ 670–679c (Title IV-E framework)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Tennessee - Tenn. Code Title\u00a037, Chapter\u00a01, Part\u00a04 (Mandatory child abuse reporting)",
-          "source_url": "https://www.lexisnexis.com/hottopics/tncode/",
+          "citation_text": "Tennessee - Tenn. Code Title 37, Chapter 1, Part 4 (Mandatory child abuse reporting)",
+          "source_url": "https://law.justia.com/codes/tennessee/title-37/chapter-1/part-4/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Tennessee - Tenn. Code Title\u00a037, Chapter\u00a01, Part\u00a06 (Juvenile removal/placement procedures)",
-          "source_url": "https://www.lexisnexis.com/hottopics/tncode/",
+          "citation_text": "Tennessee - Tenn. Code Title 37, Chapter 1, Part 1 (Juvenile court general provisions: taking a child into custody, shelter care, dependent and neglected disposition)",
+          "source_url": "https://law.justia.com/codes/tennessee/title-37/chapter-1/part-1/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Title 36: Domestic Relations",
           "source_url": "https://law.justia.com/codes/tennessee/title-36/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
@@ -57,8 +57,8 @@
           "citation_text": "Title 37: Juveniles - DCS - CHILD WELFARE PRIMARY",
           "source_url": "https://law.justia.com/codes/tennessee/title-37/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
@@ -66,8 +66,8 @@
           "citation_text": "Title 71: Welfare",
           "source_url": "https://law.justia.com/codes/tennessee/title-71/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         }
@@ -252,28 +252,16 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children's Services",
+    "name": "Tennessee Department of Children's Services",
     "acronym": "DCS",
     "hotline": "1-877-237-0004",
-    "website": "https://www.legislature.state.tn.us"
+    "website": "https://www.tn.gov/dcs.html"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Shelter Staff",
-    "Childcare Staff",
-    "Clergy",
-    "Foster Parents",
-    "Coaches",
-    "Coroners",
-    "EMTs/Emergency Personnel",
-    "Judges",
-    "District Attorneys"
+    "Any person (universal mandatory reporting) — Tenn. Code Ann. § 37-1-403(a)(1)"
   ],
   "reporting_type": "centralized",
-  "reporting_details": "Not applicable",
+  "reporting_details": "Tennessee is a universal mandatory reporting state: any person who knows of, or is called upon to render aid to, a child harmed by brutality, abuse or neglect must report it immediately, either to the Department of Children's Services, the judge having juvenile jurisdiction over the child, the sheriff of the county where the child resides, or the chief law enforcement official of the municipality where the child resides (Tenn. Code Ann. § 37-1-403(a)(1)-(2)).",
   "definitions": {
     "abuse": [
       "Physical abuse",
@@ -335,16 +323,18 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
-      "starts_from": "Report received",
+      "deadline": "Promptly after the report of harm; immediately, day or night, if the child's immediate safety or well-being is endangered",
+      "starts_from": "Report of harm received",
       "source": "state_statute",
+      "source_url": "https://law.justia.com/codes/tennessee/title-37/chapter-1/part-4/section-37-1-406/",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
+      "deadline": "60 days",
+      "starts_from": "Initial report received",
       "source": "state_statute",
+      "source_url": "https://law.justia.com/codes/tennessee/title-37/chapter-1/part-4/section-37-1-406/",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

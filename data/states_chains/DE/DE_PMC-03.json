@@ -5,9 +5,9 @@
   "node_family": "PMC",
   "subnode": "PMC-03",
   "trigger_name": "Citizen Review Panels",
-  "summary_html": "**CAPTA \u00a75106a(c)** requires every state to maintain **Citizen Review Panels** that evaluate CPS policies. Project Milk Carton checks whether panels are active, independent, and publicly reporting.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7 5106a(c))** \u2014 Citizen Review Panel mandate and reporting requirements",
-  "icon": "\ud83d\udde3\ufe0f",
+  "summary_html": "**CAPTA §5106a(c)** requires every state to maintain **Citizen Review Panels** that evaluate CPS policies. Project Milk Carton checks whether panels are active, independent, and publicly reporting.",
+  "authority_html": "- **CAPTA (42 U.S.C. § 5106a(c))** — Citizen Review Panel mandate and reporting requirements",
+  "icon": "🗣️",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -22,49 +22,49 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7 5106a(c) (CAPTA)"
+        "42 U.S.C. § 5106a(c) (CAPTA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Delaware - Title 16, Chapter 9 (Abuse of Children \u2013 reporting requirements)",
+          "citation_text": "Delaware - Title 16, Chapter 9 (Abuse of Children – reporting requirements)",
           "source_url": "https://delcode.delaware.gov/title16/c009/index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Delaware - Title 13, Chapter 25 (Dependent children proceedings)",
+          "citation_text": "Delaware - Title 13, Chapter 25 (DSCYF Custody)",
           "source_url": "https://delcode.delaware.gov/title13/c025/index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Title 13: Domestic Relations - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/delaware/title-13/",
+          "source_url": "https://delcode.delaware.gov/title13/index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 16: Health and Safety - Child Abuse",
-          "source_url": "https://law.justia.com/codes/delaware/title-16/",
+          "source_url": "https://delcode.delaware.gov/title16/index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 31: Welfare",
-          "source_url": "https://law.justia.com/codes/delaware/title-31/",
+          "source_url": "https://delcode.delaware.gov/title31/index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         }
@@ -73,8 +73,16 @@
     "administrative_rule": {
       "regulations_applicable": [
         {
+          "title": "Delaware Administrative Code, Title 9 — Services for Children, Youth and Their Families (DSCYF)",
+          "url": "https://regulations.delaware.gov/AdminCode/title9",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
+        },
+        {
           "title": "Title 9 - Services for Children Youth and Their Families",
-          "url": "https://www.law.cornell.edu/regulations/delaware/title-9"
+          "url": "https://www.law.cornell.edu/regulations/delaware/title-9",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
         },
         {
           "title": "Delaware Administrative Rule Title 13",
@@ -301,10 +309,10 @@
     }
   },
   "state_agency": {
-    "name": "Division of Family Services",
+    "name": "Delaware Division of Family Services",
     "acronym": "DFS",
     "hotline": "1-800-292-9582",
-    "website": "https://legis.delaware.gov"
+    "website": "https://kids.delaware.gov/family-services/"
   },
   "linked_fail": "FAIL-06",
   "_metadata": {
@@ -345,7 +353,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

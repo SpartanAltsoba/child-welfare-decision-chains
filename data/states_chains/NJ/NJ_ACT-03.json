@@ -6,8 +6,8 @@
   "subnode": "ACT-03",
   "trigger_name": "Foster Care Placement",
   "summary_html": "The child is **removed from the home** and placed in foster care under court order or emergency authority. Federal statutes tie funding to safety findings, judicial oversight, and permanency planning.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal monitoring of placement decisions",
-  "icon": "\ud83d\udea8",
+  "authority_html": "- **ASFA / SSA Title IV-E** — removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** — federal monitoring of placement decisions",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.35,
@@ -21,30 +21,32 @@
     "constitutional": {
       "constraints_triggered": [
         "U.S. Const. amend. IV",
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)",
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "New Jersey - Title 9, Chapter 6 (Abuse of Children Act \u2013 all persons must report, e.g. \u00a7\u00a09:6-8.10)",
-          "source_url": "https://www.njleg.state.nj.us",
+          "citation_text": "New Jersey - Title 9, Chapter 6 (Abuse of Children Act – all persons must report, e.g. § 9:6-8.10)",
+          "source_url": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1?f=templates&fn=default.htm&vid=Publish:10.1048/Enu",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": false
         },
         {
           "citation_text": "New Jersey - Title 30, Chapter 4C (Child Placement Review Act, etc.)",
-          "source_url": "https://www.njleg.state.nj.us",
+          "source_url": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1?f=templates&fn=default.htm&vid=Publish:10.1048/Enu",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": false
         },
         {
           "citation_text": "Title 9: Children - Juvenile Code - CHILD WELFARE PRIMARY",
@@ -146,14 +148,14 @@
         {
           "provision_id": "NJ_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "New Jersey Const. art. I, \u00a7 7",
+          "citation": "New Jersey Const. art. I, § 7",
           "federal_parallel": "U.S. Const. amend. IV"
         },
         {
           "provision_id": "NJ_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "New Jersey Const. art. I, \u00a7 1",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "New Jersey Const. art. I, § 1",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -315,10 +317,10 @@
     }
   },
   "state_agency": {
-    "name": "Division of Child Protection and Permanency (DCF)",
-    "acronym": "DCPP",
+    "name": "New Jersey Division of Child Protection and Permanency",
+    "acronym": "CP&P",
     "hotline": "1-877-652-2873",
-    "website": "https://www.njleg.state.nj.us"
+    "website": "https://www.nj.gov/dcf/"
   },
   "linked_decision": "DEC-04",
   "linked_input": "INP-01",
@@ -351,10 +353,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
+      "deadline": "Hearing on the next court day (the Division must cause a complaint to be filed within two court days after the removal, N.J.S.A. 9:6-8.30(b))",
+      "starts_from": "Child's emergency (“Dodd”) removal from the home without a court order",
       "source": "state_statute",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "source_url": "https://law.justia.com/codes/new-jersey/title-9/section-9-6-8-31/",
+      "consequence_of_miss": "If there has been no hearing on the removal at which the parent or guardian was present or had an adequate opportunity to be present, the parent or guardian may apply for a hearing on returning the child, which must be held within three court days of the application except for good cause shown (N.J.S.A. 9:6-8.32)."
     },
     {
       "requirement_name": "Case plan development",
@@ -373,13 +376,19 @@
         "tribe"
       ],
       "method": "personal_service",
-      "timing": "Before court hearing",
+      "timing": "At least 24 hours before the court hearing (reasonable effort by the Division)",
       "content_required": [
         "Hearing date",
         "Allegations",
         "Right to counsel"
       ],
-      "defective_notice_consequence": "Hearing must be continued"
+      "defective_notice_consequence": "Hearing must be continued",
+      "statutory_basis": {
+        "citation_text": "N.J.S.A. 9:6-8.30(a) (the Division shall make a reasonable effort, at least 24 hours prior to the court hearing, to notify the parent or guardian of the time to appear in court and to inform the parent or guardian of the right to obtain counsel, and how to obtain counsel through the Office of the Public Defender if indigent)",
+        "source_url": "https://law.justia.com/codes/new-jersey/title-9/section-9-6-8-30/",
+        "authority_type": "state_statute",
+        "last_verified": "2026-09-19"
+      }
     }
   ],
   "door_scenarios": [

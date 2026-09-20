@@ -6,8 +6,8 @@
   "subnode": "DEC-06",
   "trigger_name": "Differential Response / Alternative Response (No Petition)",
   "summary_html": "Agency chooses **Differential Response (DR)**/**Alternative Response**: engage **services without court petition** when safety permits. FFPSA and IV-B/IV-E prevention funding support voluntary, front-end help to avert removals.",
-  "authority_html": "- **Family First Prevention Services Act (FFPSA)** \u2014 prevention services framework under IV-E  \n- **SSA Title IV-B & IV-E (42 U.S.C. \u00a7\u00a7 620\u2013629m; 670\u2013679c)** \u2014 service funding & case-plan requirements  \n- **CFSR (45 CFR Part 1355)** \u2014 assesses safety/permanency outcomes in DR systems",
-  "icon": "\ud83d\udd27",
+  "authority_html": "- **Family First Prevention Services Act (FFPSA)** — prevention services framework under IV-E  \n- **SSA Title IV-B & IV-E (42 U.S.C. §§ 620–629m; 670–679c)** — service funding & case-plan requirements  \n- **CFSR (45 CFR Part 1355)** — assesses safety/permanency outcomes in DR systems",
+  "icon": "🔧",
   "theme_color": "#20B2AA",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -22,32 +22,40 @@
   "layers": {
     "constitutional": {
       "constraints_triggered": [
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 671\u2013679b (FFPSA-related IV-E)",
-        "42 U.S.C. \u00a7\u00a7 620\u2013629m (Title IV-B)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E)",
+        "42 U.S.C. §§ 671–679b (FFPSA-related IV-E)",
+        "42 U.S.C. §§ 620–629m (Title IV-B)",
+        "42 U.S.C. §§ 670–679c (Title IV-E)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "New York - N.Y. Soc. Serv. Law \u00a7\u00a0411 et seq. (Child Protective Services Act \u2013 reporting requirements)",
-          "source_url": "https://www.nysenate.gov/legislation/laws/SocServ/411",
+          "citation_text": "New York - N.Y. Soc. Serv. Law § 411 et seq. (Child Protective Services Act – reporting requirements)",
+          "source_url": "https://www.nysenate.gov/legislation/laws/SOS/411",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "New York - Family Court Act Article 10 (Abuse/Neglect juvenile proceedings)",
-          "source_url": "https://nyassembly.gov",
+          "source_url": "https://www.nysenate.gov/legislation/laws/FCT/A10",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "New York - N.Y. Soc. Serv. Law § 422 (Statewide Central Register; for investigations commenced on or after January 1, 2022 a report is indicated only where there is a fair preponderance of the evidence that the alleged abuse or maltreatment occurred, and the burden of proof at the subject's fair hearing is on the child protective service which investigated the report)",
+          "source_url": "https://www.nysenate.gov/legislation/laws/SOS/422",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
@@ -127,8 +135,8 @@
         {
           "provision_id": "NY_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "New York Const. art. I, \u00a7 6",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "New York Const. art. I, § 6",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -293,7 +301,7 @@
     "name": "Office of Children and Family Services",
     "acronym": "OCFS",
     "hotline": "1-800-342-3720",
-    "website": "https://nyassembly.gov"
+    "website": "https://ocfs.ny.gov/"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -320,6 +328,12 @@
   "burden_of_proof": {
     "standard": "preponderance",
     "who_bears_burden": "agency",
+    "statutory_basis": {
+      "citation_text": "N.Y. Soc. Serv. Law § 422(5)(a), (8)(b)(ii) (fair preponderance of the evidence standard for investigations commenced on or after January 1, 2022; the burden of proof in the subject's fair hearing is on the child protective service which investigated the report)",
+      "source_url": "https://www.nysenate.gov/legislation/laws/SOS/422",
+      "authority_type": "state_statute",
+      "last_verified": "2026-09-19"
+    },
     "common_failures": [
       "Insufficient evidence for substantiation",
       "Failure to document findings",
@@ -329,17 +343,35 @@
   "timeline_requirements": [
     {
       "requirement_name": "Safety decision",
-      "deadline": "Immediate upon contact",
-      "starts_from": "First family contact",
+      "deadline": "7 days",
+      "starts_from": "Receipt of the report (the investigation or family assessment response itself must commence within 24 hours)",
       "source": "admin_rule",
-      "consequence_of_miss": "Child safety risk"
+      "consequence_of_miss": "Not specified in 18 NYCRR 432.2",
+      "source_url": "https://regulations.justia.com/states/new-york/title-18/chapter-ii/subchapter-c/article-2/part-432/section-432-2/"
     },
     {
       "requirement_name": "Disposition finding",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
+      "deadline": "60 days",
+      "starts_from": "Report received",
       "source": "state_statute",
-      "consequence_of_miss": "Procedural violation"
+      "consequence_of_miss": "Not specified in statute",
+      "source_url": "https://www.nysenate.gov/legislation/laws/SOS/424"
+    },
+    {
+      "requirement_name": "Sealing of an unfounded report",
+      "deadline": "Forthwith",
+      "starts_from": "A determination that the investigation did not find a fair preponderance of the evidence that the alleged abuse or maltreatment occurred (investigations commenced on or after January 1, 2022)",
+      "source": "state_statute",
+      "consequence_of_miss": "Not specified in N.Y. Soc. Serv. Law § 422(5)",
+      "source_url": "https://www.nysenate.gov/legislation/laws/SOS/422"
+    },
+    {
+      "requirement_name": "Request to amend an indicated report",
+      "deadline": "90 days",
+      "starts_from": "Notice to the subject of the report that the report is indicated",
+      "source": "state_statute",
+      "consequence_of_miss": "Not specified in N.Y. Soc. Serv. Law § 422(8)(a)",
+      "source_url": "https://www.nysenate.gov/legislation/laws/SOS/422"
     }
   ],
   "notice_requirements": [
@@ -356,6 +388,25 @@
         "Rights to appeal"
       ],
       "defective_notice_consequence": "Disposition may be overturned"
+    },
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian"
+      ],
+      "method": "any_reasonable",
+      "timing": "In writing, no later than 7 days after receipt of the oral report",
+      "content_required": [
+        "Existence of the report",
+        "Rights of the subject of the report"
+      ],
+      "defective_notice_consequence": "Not specified in 18 NYCRR 432.2",
+      "statutory_basis": {
+        "citation_text": "18 NYCRR 432.2(b)(3)(ii)(f) (after seeing that the children named in the report are safe, the child protective service must notify the subjects and other persons named in the report, in writing, no later than seven days after receipt of the oral report, of the existence of the report and the subject's rights)",
+        "source_url": "https://regulations.justia.com/states/new-york/title-18/chapter-ii/subchapter-c/article-2/part-432/section-432-2/",
+        "authority_type": "admin_rule",
+        "last_verified": "2026-09-19"
+      }
     }
   ],
   "door_scenarios": [

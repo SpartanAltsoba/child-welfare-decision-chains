@@ -6,8 +6,8 @@
   "subnode": "FAIL-04",
   "trigger_name": "Child Death Under Agency Supervision",
   "summary_html": "A child dies or suffers serious harm while **under agency supervision**, constituting systemic failure. Federal law mandates disclosure and review to identify causes and reforms.",
-  "authority_html": "- **Protect Our Kids Act (PL 112-275)** \u2014 federal commission and review requirements  \n- **CAPTA \u00a75106a(b)(2)(A)(x)** \u2014 mandates public disclosure of child-fatality cases",
-  "icon": "\u26b0\ufe0f",
+  "authority_html": "- **Protect Our Kids Act (PL 112-275)** — federal commission and review requirements  \n- **CAPTA §5106a(b)(2)(A)(x)** — mandates public disclosure of child-fatality cases",
+  "icon": "⚰️",
   "theme_color": "#8B0000",
   "domain": "civil",
   "procedural_weight": 0.3,
@@ -24,23 +24,23 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 112-275 (Protect Our Kids Act)",
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "District of Columbia - D.C. Code \u00a7 4-1321.02 (Failure to Report Penalties)",
-          "source_url": "https://code.dccouncil.gov/us/dc/council/code/titles/4/chapters/1321",
+          "citation_text": "District of Columbia - D.C. Code § 4-1321.07 (Failure to make report)",
+          "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/4-1321.07",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "District of Columbia - D.C. Code Title 16, Chapter 23 (Due Process Rights)",
-          "source_url": "https://code.dccouncil.gov/us/dc/council/code/titles/16/chapters/23",
+          "citation_text": "District of Columbia - D.C. Code § 16-2304 (Right to counsel; party status)",
+          "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/16-2304",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -213,7 +213,7 @@
     "name": "Child and Family Services Agency",
     "acronym": "CFSA",
     "hotline": "202-671-7233",
-    "website": ""
+    "website": "https://cfsa.dc.gov/"
   },
   "linked_output": "OUT-06",
   "linked_action": "ACT-03",
@@ -250,7 +250,7 @@
       "requirement_name": "Appeal deadline",
       "deadline": "30 days",
       "starts_from": "Final order",
-      "source": "court_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Loss of appeal rights"
     },
     {

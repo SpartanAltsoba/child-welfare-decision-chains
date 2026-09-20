@@ -5,9 +5,9 @@
   "node_family": "PMC",
   "subnode": "PMC-03",
   "trigger_name": "Citizen Review Panels",
-  "summary_html": "**CAPTA \u00a75106a(c)** requires every state to maintain **Citizen Review Panels** that evaluate CPS policies. Project Milk Carton checks whether panels are active, independent, and publicly reporting.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7 5106a(c))** \u2014 Citizen Review Panel mandate and reporting requirements",
-  "icon": "\ud83d\udde3\ufe0f",
+  "summary_html": "**CAPTA §5106a(c)** requires every state to maintain **Citizen Review Panels** that evaluate CPS policies. Project Milk Carton checks whether panels are active, independent, and publicly reporting.",
+  "authority_html": "- **CAPTA (42 U.S.C. § 5106a(c))** — Citizen Review Panel mandate and reporting requirements",
+  "icon": "🗣️",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -22,7 +22,7 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7 5106a(c) (CAPTA)"
+        "42 U.S.C. § 5106a(c) (CAPTA)"
       ]
     },
     "state_statutory": {
@@ -31,7 +31,14 @@
           "citation_text": "District of Columbia - D.C. Code Title 4, Chapter 13 (Child Abuse and Neglect)",
           "source_url": "https://code.dccouncil.gov/us/dc/council/code/titles/4/chapters/13",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "District of Columbia - D.C. Code Title 4, Chapter 13, Subchapter I, Part C-ii (Citizen Review Panel) — §§ 4-1303.51 to 4-1303.55",
+          "source_url": "https://code.dccouncil.gov/us/dc/council/code/titles/4/chapters/13/subchapters/I/parts/C-ii",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -202,7 +209,7 @@
     "name": "Child and Family Services Agency",
     "acronym": "CFSA",
     "hotline": "202-671-7233",
-    "website": ""
+    "website": "https://cfsa.dc.gov/"
   },
   "linked_fail": "FAIL-06",
   "_metadata": {
@@ -241,10 +248,11 @@
     },
     {
       "requirement_name": "NCMEC notification",
-      "deadline": "24 hours",
-      "starts_from": "Child reported missing",
+      "deadline": "Immediately if MPD deems the child critical missing; otherwise once the child has been missing more than 30 days (MPD makes the NCMEC report)",
+      "starts_from": "CFSA files a missing person report with MPD immediately after discovering the child is missing (D.C. Code § 4-1323.01(a))",
       "source": "state_statute",
-      "consequence_of_miss": "Audit finding, delayed recovery"
+      "consequence_of_miss": "Not specified in § 4-1323.01",
+      "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/4-1323.01"
     }
   ],
   "notice_requirements": [

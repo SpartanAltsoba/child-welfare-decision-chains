@@ -6,8 +6,8 @@
   "subnode": "DEC-04",
   "trigger_name": "Emergency Removal Decision",
   "summary_html": "Agency decides to **remove a child immediately** due to **imminent danger** prior to a court order. Federal law (ASFA/IV-E) requires later **court findings** on reasonable efforts; constitutional limits (due process; search/seizure) apply.",
-  "authority_html": "- **ASFA / SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 reasonable-efforts findings; permanency timelines  \n- **CFSR (45 CFR Part 1355)** \u2014 monitors safety & removal decision quality",
-  "icon": "\ud83d\udea8",
+  "authority_html": "- **ASFA / SSA Title IV-E (42 U.S.C. §§ 670–679c)** — reasonable-efforts findings; permanency timelines  \n- **CFSR (45 CFR Part 1355)** — monitors safety & removal decision quality",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.35,
@@ -22,13 +22,13 @@
     "constitutional": {
       "constraints_triggered": [
         "U.S. Const. amend. IV",
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E)",
+        "42 U.S.C. §§ 670–679c (Title IV-E)",
         "Public Law 105-89 (ASFA)",
         "45 CFR Part 1355 (CFSR)"
       ]
@@ -36,43 +36,60 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Arkansas - Title 12, Chapter 18 (Child Maltreatment Act \u2013 reporting and investigation)",
-          "source_url": "https://www.arkleg.state.ar.us",
+          "citation_text": "Ark. Code Ann. § 12-18-103 — Child Maltreatment Act: definitions of abuse, neglect, and child maltreatment",
+          "source_url": "https://codes.findlaw.com/ar/title-12-law-enforcement-emergency-management-and-military-affairs/ar-code-sect-12-18-103/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Arkansas - Title 9, Chapter 27 (Juvenile Code \u2013 dependency-neglect cases)",
-          "source_url": "https://www.arkleg.state.ar.us",
+          "citation_text": "Ark. Code Ann. § 12-18-402 — Child Maltreatment Act: mandated reporters",
+          "source_url": "https://codes.findlaw.com/ar/title-12-law-enforcement-emergency-management-and-military-affairs/ar-code-sect-12-18-402/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Title 9: Family Law - Juveniles - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/arkansas/title-9/",
+          "citation_text": "Ark. Code Ann. § 12-18-602 — Child Maltreatment Act: initiation of the investigation (24-hour / 72-hour deadlines)",
+          "source_url": "https://codes.findlaw.com/ar/title-12-law-enforcement-emergency-management-and-military-affairs/ar-code-sect-12-18-602/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
-          "title_code": "",
-          "chapter": ""
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Title 12: Courts - Juvenile Division",
-          "source_url": "https://law.justia.com/codes/arkansas/title-12/",
+          "citation_text": "Ark. Code Ann. § 9-27-306 — Juvenile Code: jurisdiction, including continued jurisdiction to age 21",
+          "source_url": "https://codes.findlaw.com/ar/title-9-family-law/ar-code-sect-9-27-306/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
-          "title_code": "",
-          "chapter": ""
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Title 20: Public Health and Welfare",
-          "source_url": "https://law.justia.com/codes/arkansas/title-20/",
+          "citation_text": "Ark. Code Ann. § 9-27-316 — Juvenile Code: right to counsel and appointment of an attorney ad litem in dependency-neglect proceedings",
+          "source_url": "https://codes.findlaw.com/ar/title-9-family-law/ar-code-sect-9-27-316/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
-          "title_code": "",
-          "chapter": ""
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Ark. Code Ann. § 12-18-616 — Child Maltreatment Act: investigative determination due within 45 days, with one 15-day extension",
+          "source_url": "https://codes.findlaw.com/ar/title-12-law-enforcement-emergency-management-and-military-affairs/ar-code-sect-12-18-616/",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Ark. Code Ann. § 12-18-702 — Child Maltreatment Act: investigative determination (unsubstantiated, true, true but exempted, inactive)",
+          "source_url": "https://codes.findlaw.com/ar/title-12-law-enforcement-emergency-management-and-military-affairs/ar-code-sect-12-18-702/",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Ark. Code Ann. § 12-18-706 — Child Maltreatment Act: notice to an alleged offender 18 or older and the 30-day request for an administrative hearing",
+          "source_url": "https://codes.findlaw.com/ar/title-12-law-enforcement-emergency-management-and-military-affairs/ar-code-sect-12-18-706/",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
@@ -81,6 +98,10 @@
         {
           "title": "Agency 16 - DEPARTMENT OF HUMAN SERVICES",
           "url": "https://www.law.cornell.edu/regulations/arkansas/agency-016"
+        },
+        {
+          "title": "9 CAR § 40 — Division of Children and Family Services Policy and Procedure Manual (Arkansas Administrative Code, DHS Agency 016)",
+          "url": "https://humanservices.arkansas.gov/wp-content/uploads/Master_DCFS_Policy.pdf"
         }
       ],
       "source_url": "https://www.law.cornell.edu/regulations/arkansas.html"
@@ -92,14 +113,14 @@
         {
           "provision_id": "AR_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Arkansas Const. art. II, \u00a7 15",
+          "citation": "Arkansas Const. art. II, § 15",
           "federal_parallel": "U.S. Const. amend. IV"
         },
         {
           "provision_id": "AR_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Arkansas Const. art. II, \u00a7 8",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Arkansas Const. art. II, § 8",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -261,10 +282,10 @@
     }
   },
   "state_agency": {
-    "name": "Division of Children and Family Services",
+    "name": "Arkansas Department of Human Services, Division of Children and Family Services",
     "acronym": "DCFS",
     "hotline": "1-800-482-5964",
-    "website": "https://www.arkleg.state.ar.us"
+    "website": "https://humanservices.arkansas.gov/divisions-shared-services/children-family-services/"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -302,15 +323,16 @@
       "requirement_name": "Safety decision",
       "deadline": "Immediate upon contact",
       "starts_from": "First family contact",
-      "source": "admin_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Child safety risk"
     },
     {
       "requirement_name": "Disposition finding",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
+      "deadline": "45 days to make the investigative determination; one 15-day extension permitted (60 days maximum)",
+      "starts_from": "Receipt of the child maltreatment report from the Child Abuse Hotline (9 CAR § 40-324(a))",
       "source": "state_statute",
-      "consequence_of_miss": "Procedural violation"
+      "source_url": "https://codes.findlaw.com/ar/title-12-law-enforcement-emergency-management-and-military-affairs/ar-code-sect-12-18-616/",
+      "consequence_of_miss": "Ark. Code Ann. § 12-18-616(a)(2): the timing requirement \"shall not be considered as a factor to alter the investigative determination in any judicial or administrative proceeding\""
     }
   ],
   "notice_requirements": [
@@ -324,7 +346,8 @@
       "timing": "Before disposition",
       "content_required": [
         "Findings",
-        "Rights to appeal"
+        "Rights to appeal",
+        "Where to send the hearing request if the determination is true: DHS Office of Appeals and Hearings, P.O. Box 1437, Slot S101, Little Rock, AR 72203-1437, or DHS.Appeals@dhs.arkansas.gov — not the DCFS address at Slot S560 — within 30 days (Ark. Code Ann. § 12-18-706; 9 CAR § 40-1003(b))"
       ],
       "defective_notice_consequence": "Disposition may be overturned"
     }

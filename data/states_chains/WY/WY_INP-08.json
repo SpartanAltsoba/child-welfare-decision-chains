@@ -6,8 +6,8 @@
   "subnode": "INP-08",
   "trigger_name": "Educational Disclosure",
   "summary_html": "**Educators/school staff** observing indicators of abuse/neglect report to CPS under state mandatory-reporter lists built on the federal CAPTA floor.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 requires robust reporter regimes that include education sector professionals",
-  "icon": "\ud83c\udf93",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — requires robust reporter regimes that include education sector professionals",
+  "icon": "🎓",
   "theme_color": "#FFD700",
   "domain": "civil",
   "procedural_weight": 0.4,
@@ -23,24 +23,24 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Wyoming - Wyo. Stat. \u00a7\u00a014-3-201 et seq. (Child Protective Services Act \u2013 \u00a7\u00a014-3-205 duty to report)",
+          "citation_text": "Wyoming - Wyo. Stat. §§ 14-3-201 through 14-3-216 (Article 2, Child Protective Services – § 14-3-205(a) duty to report, which applies to any person)",
           "source_url": "https://www.wyoleg.gov/statutes/compress/title14.pdf",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
-          "deep_link": true
+          "last_verified": "2026-09-19",
+          "deep_link": false
         },
         {
-          "citation_text": "Wyoming - Wyo. Stat. \u00a7\u00a014-3-401 et seq. (Child Protection legal proceedings)",
+          "citation_text": "Wyoming - Wyo. Stat. § 14-3-401 et seq. (Child Protection Act – juvenile court process for abuse and neglect)",
           "source_url": "https://www.wyoleg.gov/statutes/compress/title14.pdf",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
-          "deep_link": true
+          "last_verified": "2026-09-19",
+          "deep_link": false
         },
         {
           "citation_text": "Title 14: Children - DFS - CHILD WELFARE PRIMARY",
@@ -289,25 +289,14 @@
     }
   },
   "state_agency": {
-    "name": "Department of Family Services",
+    "name": "Wyoming Department of Family Services",
     "acronym": "DFS",
-    "hotline": "1-800-457-3659",
-    "website": "https://www.wyoleg.gov"
+    "hotline": "No statewide hotline. Call the DFS field office in the county where the child lives — the list is at dfs.wyo.gov/about/contact-us",
+    "website": "https://dfs.wyo.gov/"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Shelter Staff",
-    "Childcare Staff",
-    "Clergy",
-    "Foster Parents",
-    "Coaches",
-    "Coroners",
-    "EMTs/Emergency Personnel",
-    "Judges",
-    "District Attorneys"
+    "Any person (universal mandatory reporting) — Wyo. Stat. § 14-3-205(a)",
+    "Staff of a medical or other public or private institution, school, facility or agency must also notify the person in charge, who is then also responsible for making the report — Wyo. Stat. § 14-3-205(b)"
   ],
   "reporting_type": "decentralized",
   "definitions": {
@@ -369,16 +358,17 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
-      "starts_from": "Report received",
+      "deadline": "24 hours",
+      "starts_from": "Notification of a suspected case of child abuse or neglect",
       "source": "state_statute",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "consequence_of_miss": "Not specified in statute; Wyo. Stat. § 14-3-204(a)(iii) states the duty without a penalty, and the agency must seek a court order if denied reasonable access to the child",
+      "source_url": "https://www.wyoleg.gov/statutes/compress/title14.pdf"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],
@@ -407,7 +397,9 @@
       "parent_rights_at_moment": [
         "Right to refuse entry without warrant",
         "Right to remain silent",
-        "Right to attorney"
+        "Right to attorney",
+        "Right to be advised of the specific complaints or allegations against you at the initial time of contact (Wyo. Stat. § 14-3-204(a)(iii))",
+        "A DFS caseworker cannot take your child: only a law enforcement officer, a treating physician, physician's assistant or nurse practitioner, or a court order can (Wyo. Stat. § 14-3-405)"
       ],
       "what_to_say": [
         "I do not consent to entry without a warrant",

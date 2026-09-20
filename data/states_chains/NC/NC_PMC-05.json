@@ -5,9 +5,9 @@
   "node_family": "PMC",
   "subnode": "PMC-05",
   "trigger_name": "FOIA / Transparency",
-  "summary_html": "Federal transparency statutes\u2014**FOIA** and **Sunshine Act**\u2014require disclosure of government data. Project Milk Carton promotes FOIA requests and public dashboards for child-welfare records.",
-  "authority_html": "- **Freedom of Information Act (5 U.S.C. \u00a7 552)** \u2014 public access to records  \n- **Government in the Sunshine Act (5 U.S.C. \u00a7 552b)** \u2014 open-meeting requirements",
-  "icon": "\ud83d\udcc2",
+  "summary_html": "Federal transparency statutes—**FOIA** and **Sunshine Act**—require disclosure of government data. Project Milk Carton promotes FOIA requests and public dashboards for child-welfare records.",
+  "authority_html": "- **Freedom of Information Act (5 U.S.C. § 552)** — public access to records  \n- **Government in the Sunshine Act (5 U.S.C. § 552b)** — open-meeting requirements",
+  "icon": "📂",
   "theme_color": "#FFD700",
   "domain": "civil",
   "procedural_weight": 0.65,
@@ -23,23 +23,25 @@
     },
     "federal": {
       "requirements_applicable": [
-        "5 U.S.C. \u00a7 552 (FOIA)",
-        "5 U.S.C. \u00a7 552b (Sunshine Act)"
+        "5 U.S.C. § 552 (FOIA)",
+        "5 U.S.C. § 552b (Sunshine Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "North Carolina - N.C. Gen. Stat. \u00a7\u00a07B-301 (Duty to report abuse, neglect, dependency)",
-          "source_url": "https://www.ncleg.gov",
+          "citation_text": "North Carolina - N.C. Gen. Stat. § 7B-301 (Duty to report abuse, neglect, dependency)",
+          "source_url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_7B/GS_7B-301.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "North Carolina - Chapter 7B, Article 3 (Juvenile Code \u2013 abuse, neglect, dependency procedures)",
-          "source_url": "https://www.ncleg.gov",
+          "citation_text": "North Carolina - Chapter 7B, Article 3 (Juvenile Code – abuse, neglect, dependency procedures)",
+          "source_url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_7B/Article_3.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 48: Adoption",
@@ -305,10 +307,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Social Services",
-    "acronym": "DSS",
-    "hotline": "1-919-527-6500",
-    "website": "https://www.ncleg.gov"
+    "name": "North Carolina Division of Social Services",
+    "acronym": "NC DSS",
+    "hotline": "No statewide hotline. Call the county department of social services where the child lives — the county list is at ncdhhs.gov/divisions/social-services/local-dss-directory",
+    "website": "https://www.ncdhhs.gov/divisions/social-services"
   },
   "linked_fail": "FAIL-06",
   "_metadata": {
@@ -349,7 +351,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

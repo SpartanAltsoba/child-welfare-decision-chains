@@ -6,8 +6,8 @@
   "subnode": "INP-04",
   "trigger_name": "Court-Ordered Referral",
   "summary_html": "A **judge orders** CPS to investigate or assess during civil/criminal proceedings. Federal funding statutes (ASFA/IV-E) tether court findings to child-welfare actions, embedding judicial oversight into intake-to-case flow.",
-  "authority_html": "- **ASFA (42 U.S.C. \u00a7\u00a7 671\u2013675)** \u2014 court \u2018reasonable efforts\u2019 findings; permanency timelines  \n- **SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 funding structure linking court oversight to agency actions",
-  "icon": "\u2696\ufe0f",
+  "authority_html": "- **ASFA (42 U.S.C. §§ 671–675)** — court ‘reasonable efforts’ findings; permanency timelines  \n- **SSA Title IV-E (42 U.S.C. §§ 670–679c)** — funding structure linking court oversight to agency actions",
+  "icon": "⚖️",
   "theme_color": "#8A2BE2",
   "domain": "civil",
   "procedural_weight": 0.55,
@@ -24,52 +24,59 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 671\u2013675 (ASFA/IV-E)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E framework)"
+        "42 U.S.C. §§ 671–675 (ASFA/IV-E)",
+        "42 U.S.C. §§ 670–679c (Title IV-E framework)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Nebraska - Neb. Rev. Stat. \u00a7\u00a028-710 et seq. (Child Protection Act \u2013 reporting requirements)",
-          "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=28",
+          "citation_text": "Nebraska - Neb. Rev. Stat. §§ 28-710 to 28-727 (Child Protection and Family Safety Act – reporting requirements)",
+          "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=28-710",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Nebraska - Neb. Rev. Stat. \u00a7\u00a043-247 et seq. (Juvenile Code for abuse/neglect cases)",
-          "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=43",
+          "citation_text": "Nebraska - Neb. Rev. Stat. § 43-247 et seq. (Juvenile Code for abuse/neglect cases)",
+          "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=43-247",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 28: Crimes - Child Abuse",
-          "source_url": "https://law.justia.com/codes/nebraska/title-28/",
+          "citation_text": "Nebraska - Neb. Rev. Stat. § 28-707 (Child abuse; privileges not available; penalties)",
+          "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=28-707",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 43: Infants and Juveniles - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/nebraska/title-43/",
+          "citation_text": "Nebraska - Neb. Rev. Stat. Chapter 43 (Infants and Juveniles) – child welfare primary",
+          "source_url": "https://nebraskalegislature.gov/laws/browse-chapters.php?chapter=43",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 68: Public Assistance - DHHS",
-          "source_url": "https://law.justia.com/codes/nebraska/title-68/",
+          "citation_text": "Nebraska - Neb. Rev. Stat. Chapter 68 (Public Assistance) – DHHS assistance programs",
+          "source_url": "https://nebraskalegislature.gov/laws/browse-chapters.php?chapter=68",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
+        },
+        {
+          "citation_text": "Nebraska - Neb. Rev. Stat. §§ 43-1501 to 43-1524 (Nebraska Indian Child Welfare Act)",
+          "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=43-1501",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
@@ -308,28 +315,22 @@
     }
   },
   "state_agency": {
-    "name": "Department of Health and Human Services",
-    "acronym": "DHHS",
+    "name": "Nebraska Department of Health and Human Services, Division of Children and Family Services",
+    "acronym": "CFS",
     "hotline": "1-800-652-1999",
-    "website": "https://nebraskalegislature.gov"
+    "website": "https://dhhs.ne.gov/Pages/Children-and-Family-Services.aspx"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Shelter Staff",
-    "Childcare Staff",
-    "Clergy",
-    "Foster Parents",
-    "Coaches",
-    "Coroners",
-    "EMTs/Emergency Personnel",
-    "Judges",
-    "District Attorneys"
+    "Any person (universal mandatory reporting) — Neb. Rev. Stat. § 28-711(1)",
+    "Physicians",
+    "Medical institutions",
+    "Nurses",
+    "School employees",
+    "Social workers",
+    "Inspector General of Nebraska Child Welfare (Neb. Rev. Stat. § 50-1805)"
   ],
   "reporting_type": "centralized",
-  "reporting_details": "Not applicable",
+  "reporting_details": "Nebraska is a universal mandatory reporting state: any person who has reasonable cause to believe a child has been subjected to child abuse or neglect must report it to law enforcement or to the department on the statewide toll-free hotline (Neb. Rev. Stat. § 28-711(1)).",
   "definitions": {
     "abuse": [
       "Physical abuse",
@@ -390,17 +391,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
-      "starts_from": "Report received",
-      "source": "state_statute",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "deadline": "10 days (maximum)",
+      "starts_from": "Receipt of an accepted report of child abuse or neglect referred for Department response (395 NAC 6-004.01(i); exception may be granted)",
+      "source": "admin_rule",
+      "source_url": "https://rules.nebraska.gov/api/fileStorage/GetAsByteArray/chapter-pdfs/395%20NAC%206%20%2806-27-2021%29.pdf",
+      "consequence_of_miss": "Not specified in 395 NAC 6-004.01(i)"
     },
     {
       "requirement_name": "Investigation completion",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
-      "source": "state_statute",
-      "consequence_of_miss": "Case dismissal risk"
+      "deadline": "60 days (completion of the initial assessment)",
+      "starts_from": "Report referred to the Department for investigation or assessment (395 NAC 6-005.02; exception may be granted)",
+      "source": "admin_rule",
+      "source_url": "https://rules.nebraska.gov/api/fileStorage/GetAsByteArray/chapter-pdfs/395%20NAC%206%20%2806-27-2021%29.pdf",
+      "consequence_of_miss": "Not specified in 395 NAC 6-005.02"
     }
   ],
   "notice_requirements": [

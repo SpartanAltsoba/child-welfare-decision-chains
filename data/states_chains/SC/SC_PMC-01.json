@@ -6,8 +6,8 @@
   "subnode": "PMC-01",
   "trigger_name": "CFSR Monitoring",
   "summary_html": "Federal **Child and Family Services Reviews (CFSR)** monitor state performance on safety, permanency, and well-being. Project Milk Carton flags states that repeatedly fail or never publish CFSR improvement plans.",
-  "authority_html": "- **45 CFR Part 1355** \u2014 CFSR procedures and performance metrics  \n- **Social Security Act IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 ties funding to CFSR compliance",
-  "icon": "\ud83d\udd0d",
+  "authority_html": "- **45 CFR Part 1355** — CFSR procedures and performance metrics  \n- **Social Security Act IV-E (42 U.S.C. §§ 670–679c)** — ties funding to CFSR compliance",
+  "icon": "🔍",
   "theme_color": "#1E90FF",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -24,31 +24,32 @@
     "federal": {
       "requirements_applicable": [
         "45 CFR Part 1355 (CFSR)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)"
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "South Carolina - S.C. Code Title\u00a063, Chapter\u00a07 (Child Protection Act \u2013 includes \u00a7\u00a063-7-310 reporting)",
-          "source_url": "https://www.scstatehouse.gov",
+          "citation_text": "S.C. Code Ann. Title 63, Chapter 7 — Child Protection and Permanency (includes § 63-7-310 mandatory reporting)",
+          "source_url": "https://www.scstatehouse.gov/code/t63c007.php",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 43: Social Services - DSS",
-          "source_url": "https://law.justia.com/codes/south-carolina/title-43/",
+          "source_url": "https://www.scstatehouse.gov/code/title43.php",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 63: South Carolina Children's Code - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/south-carolina/title-63/",
+          "source_url": "https://www.scstatehouse.gov/code/title63.php",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -58,19 +59,19 @@
     "administrative_rule": {
       "regulations_applicable": [
         {
-          "title": "Chapter 24 - OFFICE OF THE GOVERNOR- DIVISION FOR REVIEW OF THE FOSTER CARE OF CHILDREN",
-          "url": "https://www.law.cornell.edu/regulations/south-carolina/chapter-24"
+          "title": "Chapter 24 - OFFICE OF THE GOVERNOR-- DIVISION FOR REVIEW OF THE FOSTER CARE OF CHILDREN",
+          "url": "https://www.scstatehouse.gov/coderegs/Chapter%2024.pdf"
         },
         {
-          "title": "Chapter 31 - OFFICE OF THE GOVERNOR- CONTINUUM OF CARE FOR EMOTIONALLY DISTURBED CHILDREN DIVISION",
-          "url": "https://www.law.cornell.edu/regulations/south-carolina/chapter-31"
+          "title": "Chapter 31 - OFFICE OF THE GOVERNOR-- CONTINUUM OF CARE FOR EMOTIONALLY DISTURBED CHILDREN DIVISION",
+          "url": "https://www.scstatehouse.gov/coderegs/Chapter%2031.pdf"
         },
         {
-          "title": "Chapter 36 - DEPARTMENT OF LABOR, LICENSING AND REGULATION BOARD OF EXAMINERS FOR LICENSURE OF PROFESSIONAL COUNSELORS, MARRIAGE AND FAMILY THERAPISTS, ADDICTION COUNSELORS, AND PSYCHO-EDUCATIONAL SPECIALISTS",
-          "url": "https://www.law.cornell.edu/regulations/south-carolina/chapter-36"
+          "title": "Chapter 36 - DEPARTMENT OF LABOR, LICENSING AND REGULATION-- BOARD OF EXAMINERS FOR LICENSURE OF PROFESSIONAL COUNSELORS, MARRIAGE AND FAMILY THERAPISTS, ADDICTION COUNSELORS AND PSYCHO-EDUCATIONAL SPECIALISTS",
+          "url": "https://www.scstatehouse.gov/coderegs/Chapter%2036.pdf"
         }
       ],
-      "source_url": "https://www.law.cornell.edu/regulations/south-carolina.html"
+      "source_url": "https://www.scstatehouse.gov/coderegs/statmast.php"
     },
     "state_constitutional": {
       "plane_reference": "state_constitutional_SC",
@@ -234,10 +235,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Social Services",
+    "name": "South Carolina Department of Social Services",
     "acronym": "DSS",
     "hotline": "1-888-227-3487",
-    "website": "https://www.scstatehouse.gov"
+    "website": "https://dss.sc.gov/"
   },
   "linked_fail": "FAIL-03",
   "_metadata": {
@@ -278,7 +279,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

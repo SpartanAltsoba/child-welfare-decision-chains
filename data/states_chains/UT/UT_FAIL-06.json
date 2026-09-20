@@ -6,8 +6,8 @@
   "subnode": "FAIL-06",
   "trigger_name": "Disclosure / Transparency Failure",
   "summary_html": "Agency fails to **disclose required data or reports**, obstructing transparency. Federal statutes require public reporting under CAPTA, FOIA, and Sunshine provisions.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 mandates public availability of child-fatality information  \n- **Freedom of Information Act (5 U.S.C. \u00a7 552)** \u2014 public access to federal records  \n- **Government in the Sunshine Act (5 U.S.C. \u00a7 552b)** \u2014 open-meeting requirements",
-  "icon": "\ud83d\udd73\ufe0f",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — mandates public availability of child-fatality information  \n- **Freedom of Information Act (5 U.S.C. § 552)** — public access to federal records  \n- **Government in the Sunshine Act (5 U.S.C. § 552b)** — open-meeting requirements",
+  "icon": "🕳️",
   "theme_color": "#708090",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -24,24 +24,30 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
-        "5 U.S.C. \u00a7 552 (FOIA)",
-        "5 U.S.C. \u00a7 552b (Sunshine Act)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
+        "5 U.S.C. § 552 (FOIA)",
+        "5 U.S.C. § 552b (Sunshine Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Utah - Utah Code Title\u00a062A, Part\u00a04a (Child and Family Services \u2013 includes \u00a7\u00a0403 mandatory reporting)",
-          "source_url": "https://le.utah.gov",
+          "citation_text": "Utah - Utah Code Title 80, Chapter 2 (Child Welfare Services – includes § 80-2-602 mandatory reporting)",
+          "source_url": "https://le.utah.gov/xcode/Title80/Chapter2/80-2.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19"
         },
         {
-          "citation_text": "Utah - Utah Code Title\u00a078A, Chapter\u00a06 (Juvenile Court Act \u2013 abuse, neglect)",
-          "source_url": "https://le.utah.gov",
+          "citation_text": "Utah - Utah Code Title 80, Chapter 2a (Removal and Protective Custody of a Child – includes § 80-2a-202 removal of a child by a peace officer or child welfare caseworker)",
+          "source_url": "https://le.utah.gov/xcode/Title80/Chapter2a/80-2a.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19"
+        },
+        {
+          "citation_text": "Utah - Utah Code Title 80, Chapter 3 (Abuse, Neglect, and Dependency Proceedings)",
+          "source_url": "https://le.utah.gov/xcode/Title80/Chapter3/80-3.html",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19"
         }
       ]
     },
@@ -277,10 +283,10 @@
     }
   },
   "state_agency": {
-    "name": "Division of Child and Family Services",
+    "name": "Utah Division of Child and Family Services",
     "acronym": "DCFS",
     "hotline": "1-855-323-3237",
-    "website": "https://le.utah.gov"
+    "website": "https://dcfs.utah.gov/"
   },
   "linked_output": "OUT-06",
   "linked_action": "ACT-03",
@@ -317,7 +323,7 @@
       "requirement_name": "Appeal deadline",
       "deadline": "30 days",
       "starts_from": "Final order",
-      "source": "court_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Loss of appeal rights"
     },
     {

@@ -6,8 +6,8 @@
   "subnode": "OUT-02",
   "trigger_name": "Termination of Parental Rights / Adoption",
   "summary_html": "**Parental rights terminated** and **child adopted**. Federal law prioritizes timely permanency for children when reunification is not viable.",
-  "authority_html": "- **ASFA (42 U.S.C. \u00a7\u00a7 671\u2013675)** \u2014 establishes 15/22-month TPR guideline  \n- **SSA Title IV-E** \u2014 adoption assistance and subsidy framework",
-  "icon": "\ud83d\udc76",
+  "authority_html": "- **ASFA (42 U.S.C. §§ 671–675)** — establishes 15/22-month TPR guideline  \n- **SSA Title IV-E** — adoption assistance and subsidy framework",
+  "icon": "👶",
   "theme_color": "#8A2BE2",
   "domain": "civil",
   "procedural_weight": 0.45,
@@ -19,23 +19,44 @@
   "layers": {
     "constitutional": {
       "constraints_triggered": [
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 671\u2013675 (ASFA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)"
+        "42 U.S.C. §§ 671–675 (ASFA)",
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Hawaii - HRS Chapter 350 (Child Abuse) and Chapter 587A (Child Protective Act)",
-          "source_url": "https://data.capitol.hawaii.gov/sessions/session2017/HRS-Chapter-PDF's/HRS_0350.pdf",
+          "citation_text": "Hawaii — HRS Chapter 350, Child Abuse",
+          "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol07_Ch0346-0398/HRS0350/HRS_0350-.htm",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Hawaii — HRS Chapter 587A, Child Protective Act",
+          "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol12_Ch0501-0588/HRS0587A/HRS_0587A-.htm",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Haw. Rev. Stat. §§ 346-391 and 346-395, Young Adult Voluntary Foster Care Program (purpose and age-twenty-one limit; eligibility)",
+          "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol07_Ch0346-0398/HRS0346/HRS_0346-0391.htm",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Haw. Rev. Stat. § 587A-3.1, Rights of children in foster care (enumerated rights; withholding visitation shall not be used as punishment; subsection (c) allows the family court to issue necessary orders sua sponte or upon appropriate motion; subsection (d) establishes no private cause of action)",
+          "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol12_Ch0501-0588/HRS0587A/HRS_0587A-0003_0001.htm",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -116,8 +137,8 @@
         {
           "provision_id": "HI_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Hawaii Const. art. I, \u00a7 5",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Hawaii Const. art. I, § 5",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -279,11 +300,13 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Services",
-    "acronym": "DHS",
-    "hotline": "808-832-5300",
-    "website": "https://www.capitol.hawaii.gov"
+    "name": "Hawaii Department of Human Services, Child Welfare Services",
+    "acronym": "CWS",
+    "hotline": "808-832-5300 (Oahu) or toll-free 1-888-380-3088 (Hawaii Island, Maui, Molokai, Lanai, Kauai), 24 hours a day, 7 days a week",
+    "website": "https://humanservices.hawaii.gov/ssd/home/child-welfare-services/"
   },
+  "extended_foster_care": true,
+  "extended_foster_care_age": "18 to 21 (voluntary Young Adult Voluntary Foster Care Program, \"Imua Kakou\"; qualifying path is department permanent, foster, voluntary foster, or court-ordered temporary foster custody at age eighteen, OR a guardianship entered after age sixteen whose legal guardians are no longer willing to provide emotional and financial support, OR an adoption after age sixteen whose adoptive parents are no longer willing to provide that support; plus consent, a court best-interest finding, and a school, work, or medical-condition criterion; HRS §§ 346-391, 346-395)",
   "linked_action": "ACT-03",
   "linked_decision": "DEC-04",
   "linked_input": "INP-01",

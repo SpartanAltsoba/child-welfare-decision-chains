@@ -6,8 +6,8 @@
   "subnode": "DEC-02",
   "trigger_name": "Accept for Investigation / Assessment",
   "summary_html": "CPS **accepts** a report for **investigation/assessment**. CAPTA sets the floor for investigation procedures; CFSR evaluates timeliness, safety, and decision quality.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 investigation standards tied to funding  \n- **CFSR (45 CFR Part 1355)** \u2014 timeliness & response conformity indicators",
-  "icon": "\ud83d\uddc2\ufe0f",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — investigation standards tied to funding  \n- **CFSR (45 CFR Part 1355)** — timeliness & response conformity indicators",
+  "icon": "🗂️",
   "theme_color": "#2E8B57",
   "domain": "civil",
   "procedural_weight": 0.55,
@@ -23,27 +23,27 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Kentucky - KRS Chapter 620 (Child Abuse \u2013 dependency proceedings and reporting)",
-          "source_url": "https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=620",
+          "citation_text": "Kentucky - KRS Chapter 620 (Dependency, Neglect, and Abuse)",
+          "source_url": "https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=39420",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 199: Adoption - CHFS",
-          "source_url": "https://law.justia.com/codes/kentucky/title-199/",
+          "citation_text": "Kentucky - KRS Chapter 199 (Protective Services for Children -- Adoption -- Child Care)",
+          "source_url": "https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=38096",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
-          "title_code": "",
-          "chapter": ""
+          "title_code": "XVII",
+          "chapter": "199"
         }
       ]
     },
@@ -214,10 +214,10 @@
     }
   },
   "state_agency": {
-    "name": "Department for Community Based Services",
+    "name": "Kentucky Department for Community Based Services",
     "acronym": "DCBS",
-    "hotline": "1-877-597-2331",
-    "website": "https://legislature.ky.gov"
+    "hotline": "1-877-597-2331 (1-877-KYSAFE1) or 1-800-752-6200; call the phone line nights, weekends and holidays - the online report form is monitored 8 a.m. to 4:30 p.m. ET, Monday through Friday",
+    "website": "https://www.chfs.ky.gov/agencies/dcbs/Pages/default.aspx"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -255,14 +255,14 @@
       "requirement_name": "Safety decision",
       "deadline": "Immediate upon contact",
       "starts_from": "First family contact",
-      "source": "admin_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Child safety risk"
     },
     {
       "requirement_name": "Disposition finding",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Procedural violation"
     }
   ],

@@ -6,8 +6,8 @@
   "subnode": "DEC-06",
   "trigger_name": "Differential Response / Alternative Response (No Petition)",
   "summary_html": "Agency chooses **Differential Response (DR)**/**Alternative Response**: engage **services without court petition** when safety permits. FFPSA and IV-B/IV-E prevention funding support voluntary, front-end help to avert removals.",
-  "authority_html": "- **Family First Prevention Services Act (FFPSA)** \u2014 prevention services framework under IV-E  \n- **SSA Title IV-B & IV-E (42 U.S.C. \u00a7\u00a7 620\u2013629m; 670\u2013679c)** \u2014 service funding & case-plan requirements  \n- **CFSR (45 CFR Part 1355)** \u2014 assesses safety/permanency outcomes in DR systems",
-  "icon": "\ud83d\udd27",
+  "authority_html": "- **Family First Prevention Services Act (FFPSA)** — prevention services framework under IV-E  \n- **SSA Title IV-B & IV-E (42 U.S.C. §§ 620–629m; 670–679c)** — service funding & case-plan requirements  \n- **CFSR (45 CFR Part 1355)** — assesses safety/permanency outcomes in DR systems",
+  "icon": "🔧",
   "theme_color": "#20B2AA",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -22,37 +22,50 @@
   "layers": {
     "constitutional": {
       "constraints_triggered": [
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 671\u2013679b (FFPSA-related IV-E)",
-        "42 U.S.C. \u00a7\u00a7 620\u2013629m (Title IV-B)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E)",
+        "42 U.S.C. §§ 671–679b (FFPSA-related IV-E)",
+        "42 U.S.C. §§ 620–629m (Title IV-B)",
+        "42 U.S.C. §§ 670–679c (Title IV-E)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Virginia - Va. Code Title\u00a063.2, Chapter\u00a015 (Child Abuse and Neglect \u2013 includes \u00a7\u00a063.2-1509 reporting)",
-          "source_url": "https://virginiageneralassembly.gov",
+          "citation_text": "Virginia - Va. Code Title 63.2, Chapter 15 (Child Abuse and Neglect – includes § 63.2-1509 reporting)",
+          "source_url": "https://law.lis.virginia.gov/vacode/title63.2/chapter15/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Virginia - Va. Code \u00a7\u00a016.1-241(A) et seq. (Juvenile & Domestic Relations jurisdiction for abuse/neglect)",
-          "source_url": "https://law.lis.virginia.gov/vacode/title16.1/chapter241/",
+          "citation_text": "Virginia - Va. Code § 16.1-241(A) et seq. (Juvenile & Domestic Relations jurisdiction for abuse/neglect)",
+          "source_url": "https://law.lis.virginia.gov/vacode/title16.1/chapter11/section16.1-241/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
     },
     "administrative_rule": {
       "regulations_applicable": [
+        {
+          "title": "22VAC40-705 - Child Protective Services (Virginia Administrative Code, Title 22, Agency 40)",
+          "url": "https://law.lis.virginia.gov/admincode/title22/agency40/chapter705/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
+        },
+        {
+          "title": "22VAC40-201 - Permanency Services: Prevention, Foster Care, Adoption and Independent Living",
+          "url": "https://law.lis.virginia.gov/admincode/title22/agency40/chapter201/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
+        },
         {
           "title": "Title 22 - SOCIAL SERVICES",
           "url": "https://www.law.cornell.edu/regulations/virginia/title-22"
@@ -118,7 +131,7 @@
           "last_verified": "2025-12-24"
         }
       ],
-      "source_url": "https://www.law.cornell.edu/regulations/virginia.html"
+      "source_url": "https://law.lis.virginia.gov/admincode/title22/agency40/"
     },
     "state_constitutional": {
       "plane_reference": "state_constitutional_VA",
@@ -127,8 +140,8 @@
         {
           "provision_id": "VA_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Virginia Const. art. I, \u00a7 11",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Virginia Const. art. I, § 11",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -212,10 +225,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Social Services",
-    "acronym": "DSS",
+    "name": "Virginia Department of Social Services",
+    "acronym": "VDSS",
     "hotline": "1-800-552-7096",
-    "website": "https://virginiageneralassembly.gov"
+    "website": "https://www.dss.virginia.gov/"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -251,17 +264,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Safety decision",
-      "deadline": "Immediate upon contact",
-      "starts_from": "First family contact",
+      "deadline": "No clock set by rule - initial safety assessment of the child's circumstances and threat of danger or harm, and a safety plan where appropriate, in both family assessments and investigations; the first face-to-face contact with the child is due within the response time set at intake, or within 24 hours when the victim child is younger than two (22VAC40-705-80(A)(1), (B)(1))",
+      "starts_from": "The worker's first contact in the family assessment or investigation",
       "source": "admin_rule",
-      "consequence_of_miss": "Child safety risk"
+      "source_url": "https://law.lis.virginia.gov/admincode/title22/agency40/chapter705/section110/",
+      "consequence_of_miss": "Not specified in 22VAC40-705-110(A)"
     },
     {
       "requirement_name": "Disposition finding",
-      "deadline": "30-60 days",
+      "deadline": "60 days (family assessment track; ends with no founded/unfounded finding)",
       "starts_from": "Investigation opened",
       "source": "state_statute",
-      "consequence_of_miss": "Procedural violation"
+      "source_url": "https://law.lis.virginia.gov/vacode/title63.2/chapter15/section63.2-1506/",
+      "consequence_of_miss": "No founded or unfounded disposition is made and the case is not entered in the central registry (Va. Code 63.2-1506(B)(7))"
     }
   ],
   "notice_requirements": [

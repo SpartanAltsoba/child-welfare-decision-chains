@@ -5,9 +5,9 @@
   "node_family": "PMC",
   "subnode": "PMC-03",
   "trigger_name": "Citizen Review Panels",
-  "summary_html": "**CAPTA \u00a75106a(c)** requires every state to maintain **Citizen Review Panels** that evaluate CPS policies. Project Milk Carton checks whether panels are active, independent, and publicly reporting.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7 5106a(c))** \u2014 Citizen Review Panel mandate and reporting requirements",
-  "icon": "\ud83d\udde3\ufe0f",
+  "summary_html": "**CAPTA §5106a(c)** requires every state to maintain **Citizen Review Panels** that evaluate CPS policies. Project Milk Carton checks whether panels are active, independent, and publicly reporting. Separately from the CAPTA panels, Michigan’s Office of the Child Advocate (OCA) — an independent state agency, renamed from the Office of Children’s Ombudsman by 2023 Public Act 303 on 12 December 2023 — reviews complaints about how Children’s Protective Services, foster care, adoption services, child placing agencies, group homes and facilities handled a case: michigan.gov/oca, 1-800-642-4326 (517-241-0400 in the Lansing area).",
+  "authority_html": "- **CAPTA (42 U.S.C. § 5106a(c))** — Citizen Review Panel mandate and reporting requirements",
+  "icon": "🗣️",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -22,22 +22,23 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7 5106a(c) (CAPTA)"
+        "42 U.S.C. § 5106a(c) (CAPTA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Michigan - Michigan Compiled Laws \u00a7\u00a0722.621 et seq. (Child Protection Law \u2013 mandatory reporting)",
-          "source_url": "https://www.legislature.mi.gov",
+          "citation_text": "Michigan - Michigan Compiled Laws § 722.621 et seq. (Child Protection Law – mandatory reporting)",
+          "source_url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-Act-238-of-1975",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Michigan - Michigan Court Rules, Juvenile (child protective proceedings rules)",
-          "source_url": "https://www.legislature.mi.gov",
+          "citation_text": "Michigan - Michigan Court Rules, Subchapter 3.900 (Proceedings Involving Juveniles – child protective proceedings)",
+          "source_url": "https://www.courts.michigan.gov/siteassets/rules-instructions-administrative-orders/michigan-court-rules/michigan-court-rules.pdf",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19"
         },
         {
           "citation_text": "Title 722: Children - DHHS",
@@ -277,10 +278,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Health and Human Services",
+    "name": "Michigan Department of Health and Human Services",
     "acronym": "MDHHS",
-    "hotline": "1-855-444-3911",
-    "website": "https://www.legislature.mi.gov"
+    "hotline": "855-444-3911",
+    "website": "https://www.michigan.gov/mdhhs"
   },
   "linked_fail": "FAIL-06",
   "_metadata": {
@@ -321,7 +322,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

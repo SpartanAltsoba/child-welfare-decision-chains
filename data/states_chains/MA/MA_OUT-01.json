@@ -6,8 +6,8 @@
   "subnode": "OUT-01",
   "trigger_name": "Reunification",
   "summary_html": "Child safely **reunified with parent or guardian**, case closed. Federal policy treats reunification as the preferred outcome once risk factors are mitigated.",
-  "authority_html": "- **Adoption and Safe Families Act (ASFA)** \u2014 establishes reunification timelines and permanency goals  \n- **SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 funds reunification services and tracks permanency outcomes",
-  "icon": "\ud83c\udfe0",
+  "authority_html": "- **Adoption and Safe Families Act (ASFA)** — establishes reunification timelines and permanency goals  \n- **SSA Title IV-E (42 U.S.C. §§ 670–679c)** — funds reunification services and tracks permanency outcomes",
+  "icon": "🏠",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -25,23 +25,23 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)"
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Massachusetts - MGL Chapter\u00a0119 (Protection of Children, incl. \u00a7\u00a051A mandated reporting)",
-          "source_url": "https://malegislature.gov/Laws/GeneralLaws/",
+          "citation_text": "Massachusetts - M.G.L. c. 119, § 51A (Reporting of suspected abuse or neglect; mandated reporters; penalties)",
+          "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVII/Chapter119/Section51A",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Massachusetts - MGL Chapter\u00a0119, \u00a7\u00a7\u00a024\u201329 (Care and protection proceedings)",
-          "source_url": "https://malegislature.gov/Laws/GeneralLaws/",
+          "citation_text": "Massachusetts - M.G.L. c. 119, §§ 24–29 (Care and protection proceedings: emergency custody, hearings, appeals, right to counsel)",
+          "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVII/Chapter119",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
@@ -66,6 +66,10 @@
     },
     "administrative_rule": {
       "regulations_applicable": [
+        {
+          "title": "110 CMR - DEPARTMENT OF CHILDREN AND FAMILIES",
+          "url": "https://www.law.cornell.edu/regulations/massachusetts/department-110-CMR"
+        },
         {
           "title": "101 CMR - EXECUTIVE OFFICE FOR HEALTH AND HUMAN SERVICES",
           "url": "https://www.law.cornell.edu/regulations/massachusetts/department-101-CMR"
@@ -244,13 +248,13 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children and Families",
+    "name": "Massachusetts Department of Children and Families",
     "acronym": "DCF",
-    "hotline": "1-800-792-5200",
-    "website": "https://malegislature.gov"
+    "hotline": "1-800-792-5200 (Massachusetts Child Abuse Emergency Line, for nights, weekends and holidays; weekdays 8:45 a.m. to 5 p.m. call the DCF area office for the city or town where the child lives)",
+    "website": "https://www.mass.gov/orgs/massachusetts-department-of-children-families"
   },
   "extended_foster_care": true,
-  "extended_foster_care_age": "Other",
+  "extended_foster_care_age": "Up to age 22; to 23 only to finish an associate's or higher degree (voluntary, written consent; M.G.L. c. 119, § 23(f); 110 CMR 23.02)",
   "linked_action": "ACT-02",
   "linked_decision": "DEC-03",
   "linked_input": "INP-01",

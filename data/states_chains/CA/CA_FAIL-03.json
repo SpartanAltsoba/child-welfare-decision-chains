@@ -6,8 +6,8 @@
   "subnode": "FAIL-03",
   "trigger_name": "Federal Compliance Failure",
   "summary_html": "A **state agency fails** to meet federal child-welfare performance standards, triggering **funding penalties** or corrective action under the CFSR or Single Audit Act.",
-  "authority_html": "- **Child & Family Services Reviews (45 CFR Part 1355)** \u2014 performance oversight and penalties  \n- **Single Audit Act (31 U.S.C. \u00a7\u00a7 7501\u20137507)** \u2014 audit of federally funded programs  \n- **Inspector General Act (5 U.S.C. App.)** \u2014 oversight authority for HHS/OIG",
-  "icon": "\ud83d\udcb8",
+  "authority_html": "- **Child & Family Services Reviews (45 CFR Part 1355)** — performance oversight and penalties  \n- **Single Audit Act (31 U.S.C. §§ 7501–7507)** — audit of federally funded programs  \n- **Inspector General Act (5 U.S.C. §§ 401–424)** — oversight authority for HHS/OIG",
+  "icon": "💸",
   "theme_color": "#FF8C00",
   "domain": "civil",
   "procedural_weight": 0.7,
@@ -15,7 +15,7 @@
   "urls": {
     "CFSR_CFR": "https://www.law.cornell.edu/cfr/text/45/part-1355",
     "SAA_Cornell": "https://www.law.cornell.edu/uscode/text/31/chapter-75",
-    "IGA_Cornell": "https://www.law.cornell.edu/uscode/text/5a/appendix-3"
+    "IGA_Cornell": "https://www.law.cornell.edu/uscode/text/5/part-I/chapter-4"
   },
   "layers": {
     "constitutional": {
@@ -25,24 +25,24 @@
     "federal": {
       "requirements_applicable": [
         "45 CFR Part 1355 (CFSR)",
-        "31 U.S.C. \u00a7\u00a7 7501\u20137507 (Single Audit Act)",
-        "5 U.S.C. App. (Inspector General Act)"
+        "31 U.S.C. §§ 7501–7507 (Single Audit Act)",
+        "5 U.S.C. §§ 401–424 (Inspector General Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "California - Penal Code \u00a7\u00a7\u00a011164\u201311174 (CANRA \u2013 Child Abuse and Neglect Reporting Act)",
-          "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=11164&lawCode=PENAL",
+          "citation_text": "California - Penal Code §§ 11164–11174.3 (CANRA – Child Abuse and Neglect Reporting Act)",
+          "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=11164.&lawCode=PEN",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "California - Welfare & Institutions Code \u00a7\u00a0300 et seq. (Juvenile dependency proceedings)",
-          "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=300&lawCode=INSTITUTIONS",
+          "citation_text": "California - Welfare & Institutions Code § 300 et seq. (Juvenile dependency proceedings)",
+          "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=300.&lawCode=WIC",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -225,8 +225,8 @@
   "state_agency": {
     "name": "California Department of Social Services",
     "acronym": "CDSS",
-    "hotline": "1-800-540-4000",
-    "website": "https://leginfo.legislature.ca.gov"
+    "hotline": "No statewide number. Call your county's 24-hour hotline",
+    "website": "https://www.cdss.ca.gov/"
   },
   "linked_output": "OUT-06",
   "linked_action": "ACT-03",
@@ -261,17 +261,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Appeal deadline",
-      "deadline": "30 days",
-      "starts_from": "Final order",
-      "source": "court_rule",
+      "deadline": "60 days",
+      "starts_from": "Rendition of the judgment or making of the appealable order",
+      "source": "admin_rule",
+      "source_url": "https://courts.ca.gov/cms/rules/index/eight/rule8_406",
       "consequence_of_miss": "Loss of appeal rights"
     },
     {
       "requirement_name": "1983 statute of limitations",
-      "deadline": "2-3 years",
+      "deadline": "2 years",
       "starts_from": "Violation occurred",
-      "source": "federal_statute",
-      "consequence_of_miss": "Claim barred"
+      "source": "state_statute",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=335.1&lawCode=CCP",
+      "consequence_of_miss": "Not specified in Cal. Code Civ. Proc. § 335.1"
     }
   ],
   "notice_requirements": [

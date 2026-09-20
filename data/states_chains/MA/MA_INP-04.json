@@ -6,8 +6,8 @@
   "subnode": "INP-04",
   "trigger_name": "Court-Ordered Referral",
   "summary_html": "A **judge orders** CPS to investigate or assess during civil/criminal proceedings. Federal funding statutes (ASFA/IV-E) tether court findings to child-welfare actions, embedding judicial oversight into intake-to-case flow.",
-  "authority_html": "- **ASFA (42 U.S.C. \u00a7\u00a7 671\u2013675)** \u2014 court \u2018reasonable efforts\u2019 findings; permanency timelines  \n- **SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 funding structure linking court oversight to agency actions",
-  "icon": "\u2696\ufe0f",
+  "authority_html": "- **ASFA (42 U.S.C. §§ 671–675)** — court ‘reasonable efforts’ findings; permanency timelines  \n- **SSA Title IV-E (42 U.S.C. §§ 670–679c)** — funding structure linking court oversight to agency actions",
+  "icon": "⚖️",
   "theme_color": "#8A2BE2",
   "domain": "civil",
   "procedural_weight": 0.55,
@@ -24,24 +24,24 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 671\u2013675 (ASFA/IV-E)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E framework)"
+        "42 U.S.C. §§ 671–675 (ASFA/IV-E)",
+        "42 U.S.C. §§ 670–679c (Title IV-E framework)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Massachusetts - MGL Chapter\u00a0119 (Protection of Children, incl. \u00a7\u00a051A mandated reporting)",
-          "source_url": "https://malegislature.gov/Laws/GeneralLaws/",
+          "citation_text": "Massachusetts - M.G.L. c. 119, § 51A (Reporting of suspected abuse or neglect; mandated reporters; penalties)",
+          "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVII/Chapter119/Section51A",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Massachusetts - MGL Chapter\u00a0119, \u00a7\u00a7\u00a024\u201329 (Care and protection proceedings)",
-          "source_url": "https://malegislature.gov/Laws/GeneralLaws/",
+          "citation_text": "Massachusetts - M.G.L. c. 119, §§ 24–29 (Care and protection proceedings: emergency custody, hearings, appeals, right to counsel)",
+          "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVII/Chapter119",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
@@ -66,6 +66,10 @@
     },
     "administrative_rule": {
       "regulations_applicable": [
+        {
+          "title": "110 CMR - DEPARTMENT OF CHILDREN AND FAMILIES",
+          "url": "https://www.law.cornell.edu/regulations/massachusetts/department-110-CMR"
+        },
         {
           "title": "101 CMR - EXECUTIVE OFFICE FOR HEALTH AND HUMAN SERVICES",
           "url": "https://www.law.cornell.edu/regulations/massachusetts/department-101-CMR"
@@ -243,22 +247,19 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children and Families",
+    "name": "Massachusetts Department of Children and Families",
     "acronym": "DCF",
-    "hotline": "1-800-792-5200",
-    "website": "https://malegislature.gov"
+    "hotline": "1-800-792-5200 (Massachusetts Child Abuse Emergency Line, for nights, weekends and holidays; weekdays 8:45 a.m. to 5 p.m. call the DCF area office for the city or town where the child lives)",
+    "website": "https://www.mass.gov/orgs/massachusetts-department-of-children-families"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Childcare Staff",
-    "Clergy",
-    "Foster Parents",
-    "EMTs/Emergency Personnel",
-    "Judges",
-    "District Attorneys"
+    "Medical and mental health professionals — physician, medical intern, hospital personnel engaged in the examination, care or treatment of persons, medical examiner, psychologist, emergency medical technician, dentist, nurse, chiropractor, podiatrist, optometrist, osteopath, allied mental health and human services professional licensed under M.G.L. c. 112, § 165, drug and alcoholism counselor, psychiatrist, clinical social worker — M.G.L. c. 119, § 21 (definition of \"mandated reporter\"), cl. (i)",
+    "School and child care personnel — public or private school teacher, educational administrator, guidance or family counselor, child care worker, person paid to care for or work with a child in any public or private facility, home or program funded by the Commonwealth or licensed under M.G.L. c. 15D, licensor of the Department of Early Education and Care, school attendance officer — M.G.L. c. 119, § 21, cl. (ii)",
+    "Justice-system, public-safety and placement personnel — probation officer, clerk-magistrate of a district court, parole officer, social worker, foster parent, firefighter, police officer, animal control officer — M.G.L. c. 119, § 21, cl. (iii)",
+    "Clergy and religious personnel — priest, rabbi, clergy member, ordained or licensed minister, leader of any church or religious body, accredited Christian Science practitioner, person performing official duties on behalf of a church or religious body, or person employed by a church or religious body to supervise, educate, coach, train or counsel a child on a regular basis; information gained solely in a confession or similarly confidential religious communication need not be reported (M.G.L. c. 119, § 51A(j)) — M.G.L. c. 119, § 21, cl. (iv)",
+    "Any person in charge of a medical or other public or private institution, school or facility, or that person's designated agent — M.G.L. c. 119, § 21, cl. (v)",
+    "The Child Advocate — M.G.L. c. 119, § 21, cl. (vi)",
+    "Massachusetts is not a universal-reporting state: any person MAY file a report, but only mandated reporters must — M.G.L. c. 119, § 51A(a) and (f)"
   ],
   "reporting_type": "decentralized",
   "definitions": {
@@ -315,17 +316,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
-      "starts_from": "Report received",
+      "deadline": "2 hours to begin an emergency response; 2 business days to begin a non-emergency response",
+      "starts_from": "Initial contact on a screened-in 51A report",
       "source": "state_statute",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVII/Chapter119/Section51B",
+      "consequence_of_miss": "No penalty stated in M.G.L. c. 119, § 51B; the non-emergency timeframe may be extended only by a waiver approved by the DCF area director or requested by law enforcement (§ 51B(d))"
     },
     {
       "requirement_name": "Investigation completion",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
+      "deadline": "5 business days for the final report on an emergency response; 15 business days for the determination on a non-emergency response",
+      "starts_from": "Initial contact on a screened-in 51A report",
       "source": "state_statute",
-      "consequence_of_miss": "Case dismissal risk"
+      "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVII/Chapter119/Section51B",
+      "consequence_of_miss": "No penalty stated in M.G.L. c. 119, § 51B; the 15-business-day determination may be extended only by a waiver approved by the DCF area director or requested by law enforcement (§ 51B(d))"
     }
   ],
   "notice_requirements": [

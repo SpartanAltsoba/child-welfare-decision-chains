@@ -6,8 +6,8 @@
   "subnode": "ACT-06",
   "trigger_name": "Emergency Medical/Psychological Care",
   "summary_html": "Agency or court authorizes **immediate medical or psychological care** when delay endangers life or safety. Federal statutes support medical access and confidentiality exceptions for child protection.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 permits emergency medical actions for abused/neglected children  \n- **Victims of Child Abuse Act (34 U.S.C. \u00a7\u00a7 20301\u201320307)** \u2014 multidisciplinary response and medical-exam standards",
-  "icon": "\ud83c\udfe5",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — permits emergency medical actions for abused/neglected children  \n- **Victims of Child Abuse Act (34 U.S.C. §§ 20301–20307)** — multidisciplinary response and medical-exam standards",
+  "icon": "🏥",
   "theme_color": "#FF69B4",
   "domain": "civil",
   "procedural_weight": 0.4,
@@ -23,23 +23,25 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
-        "34 U.S.C. \u00a7\u00a7 20301\u201320307 (VICAA)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
+        "34 U.S.C. §§ 20301–20307 (VICAA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "New Jersey - Title 9, Chapter 6 (Abuse of Children Act \u2013 all persons must report, e.g. \u00a7\u00a09:6-8.10)",
-          "source_url": "https://www.njleg.state.nj.us",
+          "citation_text": "New Jersey - Title 9, Chapter 6 (Abuse of Children Act – all persons must report, e.g. § 9:6-8.10)",
+          "source_url": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1?f=templates&fn=default.htm&vid=Publish:10.1048/Enu",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": false
         },
         {
           "citation_text": "New Jersey - Title 30, Chapter 4C (Child Placement Review Act, etc.)",
-          "source_url": "https://www.njleg.state.nj.us",
+          "source_url": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1?f=templates&fn=default.htm&vid=Publish:10.1048/Enu",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": false
         },
         {
           "citation_text": "Title 9: Children - Juvenile Code - CHILD WELFARE PRIMARY",
@@ -297,10 +299,10 @@
     }
   },
   "state_agency": {
-    "name": "Division of Child Protection and Permanency (DCF)",
-    "acronym": "DCPP",
+    "name": "New Jersey Division of Child Protection and Permanency",
+    "acronym": "CP&P",
     "hotline": "1-877-652-2873",
-    "website": "https://www.njleg.state.nj.us"
+    "website": "https://www.nj.gov/dcf/"
   },
   "linked_decision": "DEC-04",
   "linked_input": "INP-07",
@@ -333,10 +335,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
+      "deadline": "Hearing on the next court day (the Division must cause a complaint to be filed within two court days after the removal, N.J.S.A. 9:6-8.30(b))",
+      "starts_from": "Child's emergency (“Dodd”) removal from the home without a court order",
       "source": "state_statute",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "source_url": "https://law.justia.com/codes/new-jersey/title-9/section-9-6-8-31/",
+      "consequence_of_miss": "If there has been no hearing on the removal at which the parent or guardian was present or had an adequate opportunity to be present, the parent or guardian may apply for a hearing on returning the child, which must be held within three court days of the application except for good cause shown (N.J.S.A. 9:6-8.32)."
     },
     {
       "requirement_name": "Case plan development",
@@ -355,13 +358,19 @@
         "tribe"
       ],
       "method": "personal_service",
-      "timing": "Before court hearing",
+      "timing": "At least 24 hours before the court hearing (reasonable effort by the Division)",
       "content_required": [
         "Hearing date",
         "Allegations",
         "Right to counsel"
       ],
-      "defective_notice_consequence": "Hearing must be continued"
+      "defective_notice_consequence": "Hearing must be continued",
+      "statutory_basis": {
+        "citation_text": "N.J.S.A. 9:6-8.30(a) (the Division shall make a reasonable effort, at least 24 hours prior to the court hearing, to notify the parent or guardian of the time to appear in court and to inform the parent or guardian of the right to obtain counsel, and how to obtain counsel through the Office of the Public Defender if indigent)",
+        "source_url": "https://law.justia.com/codes/new-jersey/title-9/section-9-6-8-30/",
+        "authority_type": "state_statute",
+        "last_verified": "2026-09-19"
+      }
     }
   ],
   "door_scenarios": [

@@ -6,8 +6,8 @@
   "subnode": "FAIL-04",
   "trigger_name": "Child Death Under Agency Supervision",
   "summary_html": "A child dies or suffers serious harm while **under agency supervision**, constituting systemic failure. Federal law mandates disclosure and review to identify causes and reforms.",
-  "authority_html": "- **Protect Our Kids Act (PL 112-275)** \u2014 federal commission and review requirements  \n- **CAPTA \u00a75106a(b)(2)(A)(x)** \u2014 mandates public disclosure of child-fatality cases",
-  "icon": "\u26b0\ufe0f",
+  "authority_html": "- **Protect Our Kids Act (PL 112-275)** — federal commission and review requirements  \n- **CAPTA §5106a(b)(2)(A)(x)** — mandates public disclosure of child-fatality cases",
+  "icon": "⚰️",
   "theme_color": "#8B0000",
   "domain": "civil",
   "procedural_weight": 0.3,
@@ -24,28 +24,41 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 112-275 (Protect Our Kids Act)",
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Virginia - Va. Code Title\u00a063.2, Chapter\u00a015 (Child Abuse and Neglect \u2013 includes \u00a7\u00a063.2-1509 reporting)",
-          "source_url": "https://virginiageneralassembly.gov",
+          "citation_text": "Virginia - Va. Code Title 63.2, Chapter 15 (Child Abuse and Neglect – includes § 63.2-1509 reporting)",
+          "source_url": "https://law.lis.virginia.gov/vacode/title63.2/chapter15/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Virginia - Va. Code \u00a7\u00a016.1-241(A) et seq. (Juvenile & Domestic Relations jurisdiction for abuse/neglect)",
-          "source_url": "https://law.lis.virginia.gov/vacode/title16.1/chapter241/",
+          "citation_text": "Virginia - Va. Code § 16.1-241(A) et seq. (Juvenile & Domestic Relations jurisdiction for abuse/neglect)",
+          "source_url": "https://law.lis.virginia.gov/vacode/title16.1/chapter11/section16.1-241/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
     },
     "administrative_rule": {
       "regulations_applicable": [
+        {
+          "title": "22VAC40-705 - Child Protective Services (Virginia Administrative Code, Title 22, Agency 40)",
+          "url": "https://law.lis.virginia.gov/admincode/title22/agency40/chapter705/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
+        },
+        {
+          "title": "22VAC40-201 - Permanency Services: Prevention, Foster Care, Adoption and Independent Living",
+          "url": "https://law.lis.virginia.gov/admincode/title22/agency40/chapter201/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
+        },
         {
           "title": "Title 22 - SOCIAL SERVICES",
           "url": "https://www.law.cornell.edu/regulations/virginia/title-22"
@@ -111,7 +124,7 @@
           "last_verified": "2025-12-24"
         }
       ],
-      "source_url": "https://www.law.cornell.edu/regulations/virginia.html"
+      "source_url": "https://law.lis.virginia.gov/admincode/title22/agency40/"
     },
     "state_constitutional": {
       "plane_reference": "state_constitutional_VA",
@@ -198,10 +211,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Social Services",
-    "acronym": "DSS",
+    "name": "Virginia Department of Social Services",
+    "acronym": "VDSS",
     "hotline": "1-800-552-7096",
-    "website": "https://virginiageneralassembly.gov"
+    "website": "https://www.dss.virginia.gov/"
   },
   "linked_output": "OUT-06",
   "linked_action": "ACT-03",
@@ -238,7 +251,7 @@
       "requirement_name": "Appeal deadline",
       "deadline": "30 days",
       "starts_from": "Final order",
-      "source": "court_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Loss of appeal rights"
     },
     {

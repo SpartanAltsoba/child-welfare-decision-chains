@@ -6,8 +6,8 @@
   "subnode": "OUT-03",
   "trigger_name": "Guardianship / Kinship Permanency",
   "summary_html": "Child achieves **permanency through legal guardianship** or kinship care. Federal programs provide funding parity with adoption for approved relatives.",
-  "authority_html": "- **Fostering Connections to Success and Increasing Adoptions Act (FCSIAA)** \u2014 kinship-guardianship assistance  \n- **SSA Title IV-E (42 U.S.C. \u00a7 673(d))** \u2014 authorizes Guardianship Assistance Program (GAP)",
-  "icon": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67",
+  "authority_html": "- **Fostering Connections to Success and Increasing Adoptions Act (FCSIAA)** — kinship-guardianship assistance  \n- **SSA Title IV-E (42 U.S.C. § 673(d))** — authorizes Guardianship Assistance Program (GAP)",
+  "icon": "👨‍👩‍👧",
   "theme_color": "#FFD700",
   "domain": "civil",
   "procedural_weight": 0.55,
@@ -19,29 +19,31 @@
   "layers": {
     "constitutional": {
       "constraints_triggered": [
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
         "Public Law 110-351 (FCSIAA)",
-        "42 U.S.C. \u00a7 673(d) (IV-E Guardianship Assistance)"
+        "42 U.S.C. § 673(d) (IV-E Guardianship Assistance)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "North Carolina - N.C. Gen. Stat. \u00a7\u00a07B-301 (Duty to report abuse, neglect, dependency)",
-          "source_url": "https://www.ncleg.gov",
+          "citation_text": "North Carolina - N.C. Gen. Stat. § 7B-301 (Duty to report abuse, neglect, dependency)",
+          "source_url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_7B/GS_7B-301.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "North Carolina - Chapter 7B, Article 3 (Juvenile Code \u2013 abuse, neglect, dependency procedures)",
-          "source_url": "https://www.ncleg.gov",
+          "citation_text": "North Carolina - Chapter 7B, Article 3 (Juvenile Code – abuse, neglect, dependency procedures)",
+          "source_url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_7B/Article_3.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 48: Adoption",
@@ -152,8 +154,8 @@
         {
           "provision_id": "NC_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "North Carolina Const. art. I, \u00a7 19",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "North Carolina Const. art. I, § 19",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -315,13 +317,13 @@
     }
   },
   "state_agency": {
-    "name": "Department of Social Services",
-    "acronym": "DSS",
-    "hotline": "1-919-527-6500",
-    "website": "https://www.ncleg.gov"
+    "name": "North Carolina Division of Social Services",
+    "acronym": "NC DSS",
+    "hotline": "No statewide hotline. Call the county department of social services where the child lives — the county list is at ncdhhs.gov/divisions/social-services/local-dss-directory",
+    "website": "https://www.ncdhhs.gov/divisions/social-services"
   },
   "extended_foster_care": true,
-  "extended_foster_care_age": "Up to age 21 (until 21st birthday)",
+  "extended_foster_care_age": "Up to age 21 (voluntary agreement; must meet education, employment, or disability conditions; N.C. Gen. Stat. § 108A-48(c))",
   "linked_action": "ACT-04",
   "linked_decision": "DEC-04",
   "linked_input": "INP-01",

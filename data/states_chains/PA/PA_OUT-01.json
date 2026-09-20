@@ -6,8 +6,8 @@
   "subnode": "OUT-01",
   "trigger_name": "Reunification",
   "summary_html": "Child safely **reunified with parent or guardian**, case closed. Federal policy treats reunification as the preferred outcome once risk factors are mitigated.",
-  "authority_html": "- **Adoption and Safe Families Act (ASFA)** \u2014 establishes reunification timelines and permanency goals  \n- **SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 funds reunification services and tracks permanency outcomes",
-  "icon": "\ud83c\udfe0",
+  "authority_html": "- **Adoption and Safe Families Act (ASFA)** — establishes reunification timelines and permanency goals  \n- **SSA Title IV-E (42 U.S.C. §§ 670–679c)** — funds reunification services and tracks permanency outcomes",
+  "icon": "🏠",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -25,23 +25,23 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)"
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Pennsylvania - Title 23 Pa.C.S. Chapter\u00a063 (Child Protective Services Law)",
-          "source_url": "https://law.onecle.com/pennsylvania/title-23/chapter-63/index.html",
+          "citation_text": "Pennsylvania - Title 23 Pa.C.S. Chapter 63 (Child Protective Services Law)",
+          "source_url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=PDF&ttl=23&div=00.&chpt=63",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Pennsylvania - 42 Pa.C.S. Chapter\u00a063 (Juvenile Act \u2013 dependency proceedings)",
-          "source_url": "https://www.legis.state.pa.us/cfdocs/legis/LI/consCheck.cfm?txtType=HTM&ttl=4&div=0&chpt=2",
+          "citation_text": "Pennsylvania - 42 Pa.C.S. Chapter 63 (Juvenile Act – dependency proceedings)",
+          "source_url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=PDF&ttl=42&div=00.&chpt=63",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
@@ -49,7 +49,7 @@
           "source_url": "https://law.justia.com/codes/pennsylvania/title-23/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-24",
-          "deep_link": true,
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
@@ -58,7 +58,7 @@
           "source_url": "https://law.justia.com/codes/pennsylvania/title-42/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-24",
-          "deep_link": true,
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
@@ -67,7 +67,7 @@
           "source_url": "https://law.justia.com/codes/pennsylvania/title-55/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-24",
-          "deep_link": true,
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
@@ -76,7 +76,7 @@
           "source_url": "https://law.justia.com/codes/pennsylvania/title-62/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-24",
-          "deep_link": true,
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         }
@@ -262,13 +262,13 @@
     }
   },
   "state_agency": {
-    "name": "Children and Youth Services",
-    "acronym": "CYS",
+    "name": "Pennsylvania Department of Human Services, Office of Children, Youth, and Families",
+    "acronym": "OCYF",
     "hotline": "1-800-932-0313",
-    "website": "https://www.legis.state.pa.us"
+    "website": "https://www.pa.gov/agencies/dhs/departments-offices/ocyf-info"
   },
   "extended_foster_care": true,
-  "extended_foster_care_age": "Up to age 21 (until 21st birthday)",
+  "extended_foster_care_age": "Up to age 21, conditional: adjudicated dependent before 18, youth requests the court to retain jurisdiction, and meets one of five activity conditions; re-entry may be requested before 21 (42 Pa.C.S. §§ 6302, 6351(j))",
   "linked_action": "ACT-02",
   "linked_decision": "DEC-03",
   "linked_input": "INP-01",

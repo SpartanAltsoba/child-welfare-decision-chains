@@ -6,8 +6,8 @@
   "subnode": "DEC-02",
   "trigger_name": "Accept for Investigation / Assessment",
   "summary_html": "CPS **accepts** a report for **investigation/assessment**. CAPTA sets the floor for investigation procedures; CFSR evaluates timeliness, safety, and decision quality.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 investigation standards tied to funding  \n- **CFSR (45 CFR Part 1355)** \u2014 timeliness & response conformity indicators",
-  "icon": "\ud83d\uddc2\ufe0f",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — investigation standards tied to funding  \n- **CFSR (45 CFR Part 1355)** — timeliness & response conformity indicators",
+  "icon": "🗂️",
   "theme_color": "#2E8B57",
   "domain": "civil",
   "procedural_weight": 0.55,
@@ -23,29 +23,42 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Virginia - Va. Code Title\u00a063.2, Chapter\u00a015 (Child Abuse and Neglect \u2013 includes \u00a7\u00a063.2-1509 reporting)",
-          "source_url": "https://virginiageneralassembly.gov",
+          "citation_text": "Virginia - Va. Code Title 63.2, Chapter 15 (Child Abuse and Neglect – includes § 63.2-1509 reporting)",
+          "source_url": "https://law.lis.virginia.gov/vacode/title63.2/chapter15/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Virginia - Va. Code \u00a7\u00a016.1-241(A) et seq. (Juvenile & Domestic Relations jurisdiction for abuse/neglect)",
-          "source_url": "https://law.lis.virginia.gov/vacode/title16.1/chapter241/",
+          "citation_text": "Virginia - Va. Code § 16.1-241(A) et seq. (Juvenile & Domestic Relations jurisdiction for abuse/neglect)",
+          "source_url": "https://law.lis.virginia.gov/vacode/title16.1/chapter11/section16.1-241/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
     },
     "administrative_rule": {
       "regulations_applicable": [
+        {
+          "title": "22VAC40-705 - Child Protective Services (Virginia Administrative Code, Title 22, Agency 40)",
+          "url": "https://law.lis.virginia.gov/admincode/title22/agency40/chapter705/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
+        },
+        {
+          "title": "22VAC40-201 - Permanency Services: Prevention, Foster Care, Adoption and Independent Living",
+          "url": "https://law.lis.virginia.gov/admincode/title22/agency40/chapter201/",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
+        },
         {
           "title": "Title 22 - SOCIAL SERVICES",
           "url": "https://www.law.cornell.edu/regulations/virginia/title-22"
@@ -111,7 +124,7 @@
           "last_verified": "2025-12-24"
         }
       ],
-      "source_url": "https://www.law.cornell.edu/regulations/virginia.html"
+      "source_url": "https://law.lis.virginia.gov/admincode/title22/agency40/"
     },
     "state_constitutional": {
       "plane_reference": "state_constitutional_VA",
@@ -198,10 +211,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Social Services",
-    "acronym": "DSS",
+    "name": "Virginia Department of Social Services",
+    "acronym": "VDSS",
     "hotline": "1-800-552-7096",
-    "website": "https://virginiageneralassembly.gov"
+    "website": "https://www.dss.virginia.gov/"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -237,17 +250,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Safety decision",
-      "deadline": "Immediate upon contact",
-      "starts_from": "First family contact",
+      "deadline": "No clock set by rule - initial safety assessment of the child's circumstances and threat of danger or harm, and a safety plan where appropriate, in both family assessments and investigations; the first face-to-face contact with the child is due within the response time set at intake, or within 24 hours when the victim child is younger than two (22VAC40-705-80(A)(1), (B)(1))",
+      "starts_from": "The worker's first contact in the family assessment or investigation",
       "source": "admin_rule",
-      "consequence_of_miss": "Child safety risk"
+      "source_url": "https://law.lis.virginia.gov/admincode/title22/agency40/chapter705/section110/",
+      "consequence_of_miss": "Not specified in 22VAC40-705-110(A)"
     },
     {
       "requirement_name": "Disposition finding",
-      "deadline": "30-60 days",
+      "deadline": "45 days (extendable to a total of 60 days on written justification, or to 90 days in a joint law-enforcement investigation)",
       "starts_from": "Investigation opened",
       "source": "state_statute",
-      "consequence_of_miss": "Procedural violation"
+      "source_url": "https://law.lis.virginia.gov/vacode/title63.2/chapter15/section63.2-1505/",
+      "consequence_of_miss": "Statute sets no penalty; any extension requires written justification and the local department must notify the alleged abuser or neglector and the child's parents (Va. Code § 63.2-1505(B)(5); 22VAC40-705-120)"
     }
   ],
   "notice_requirements": [

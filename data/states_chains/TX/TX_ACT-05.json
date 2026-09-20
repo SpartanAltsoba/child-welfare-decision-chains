@@ -6,8 +6,8 @@
   "subnode": "ACT-05",
   "trigger_name": "Protective Order",
   "summary_html": "Court issues a **protective or restraining order** to prevent contact, remove abuser, or ensure safety without removing the child. Federal law leaves implementation to states but funds protection efforts through CAPTA and IV-B.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 authorizes protective interventions and state plan requirements  \n- **SSA Title IV-B** \u2014 permits funding for protective services and court interventions",
-  "icon": "\ud83e\uddfe",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — authorizes protective interventions and state plan requirements  \n- **SSA Title IV-B** — permits funding for protective services and court interventions",
+  "icon": "🧾",
   "theme_color": "#708090",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -23,24 +23,24 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
-        "42 U.S.C. \u00a7\u00a7 620\u2013629m (SSA Title IV-B)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
+        "42 U.S.C. §§ 620–629m (SSA Title IV-B)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Texas - Texas Family Code Chapter\u00a0261 (Investigation of Report of Abuse or Neglect)",
+          "citation_text": "Texas - Texas Family Code Chapter 261 (Investigation of Report of Child Abuse or Neglect)",
           "source_url": "https://statutes.capitol.texas.gov/Docs/FA/htm/FA.261.htm",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Texas - Texas Family Code Chapter\u00a0262 (Removal of Child in an Emergency)",
+          "citation_text": "Texas - Texas Family Code Chapter 262 (Procedures in Suit by Governmental Entity to Protect Health and Safety of Child)",
           "source_url": "https://statutes.capitol.texas.gov/Docs/FA/htm/FA.262.htm",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -268,10 +268,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Family and Protective Services",
+    "name": "Texas Department of Family and Protective Services",
     "acronym": "DFPS",
     "hotline": "1-800-252-5400",
-    "website": "https://capitol.texas.gov"
+    "website": "https://www.dfps.texas.gov/"
   },
   "linked_decision": "DEC-05",
   "linked_input": "INP-01",
@@ -304,10 +304,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
+      "deadline": "On or before the first business day after the child is taken into possession; if the court is unavailable, no later than the first business day after it becomes available and never later than the third business day — Tex. Fam. Code § 262.106(a)",
+      "starts_from": "Child taken into possession in an emergency without a court order",
       "source": "state_statute",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "source_url": "https://tcss.legis.texas.gov/resources/FA/htm/FA.262.htm",
+      "consequence_of_miss": "The child shall be returned to the parent, managing conservator, possessory conservator, guardian, caretaker, or custodian presently entitled to possession (Tex. Fam. Code § 262.106(c))"
     },
     {
       "requirement_name": "Case plan development",
@@ -325,14 +326,21 @@
         "child_over_12",
         "tribe"
       ],
-      "method": "personal_service",
-      "timing": "Before court hearing",
+      "method": "any_reasonable",
+      "timing": "Written notice to each parent of the child, or to the child's conservator or legal guardian, when a representative of the department or other agency takes possession of a child under Chapter 262: as soon as practicable, but in any event not later than the first business day after the date the child is taken into possession (Tex. Fam. Code § 262.109(a)-(b))",
       "content_required": [
-        "Hearing date",
-        "Allegations",
-        "Right to counsel"
+        "The reasons why the department or agency is taking possession of the child and the facts that led the department to believe the child should be taken into custody (Tex. Fam. Code § 262.109(c)(1))",
+        "The name of the person at the department or agency whom the parent, conservator, or other custodian may contact for information relating to the child or a legal proceeding relating to the child (Tex. Fam. Code § 262.109(c)(2))",
+        "A summary of the legal rights of a parent, conservator, guardian, or other custodian under Chapter 262 and an explanation of the probable legal procedures relating to the child (Tex. Fam. Code § 262.109(c)(3))",
+        "A statement that the parent, conservator, or other custodian has the right to hire an attorney (Tex. Fam. Code § 262.109(c)(4))"
       ],
-      "defective_notice_consequence": "Hearing must be continued"
+      "defective_notice_consequence": "Not specified in Tex. Fam. Code § 262.109. The written notice may be waived by the court at the initial hearing on a showing that the parents, conservators, or other custodians could not be located or that the department took possession of the child under Subchapter D, or for other good cause (Tex. Fam. Code § 262.109(d))",
+      "statutory_basis": {
+        "citation_text": "Tex. Fam. Code § 262.109",
+        "source_url": "https://tcss.legis.texas.gov/resources/FA/htm/FA.262.htm",
+        "authority_type": "state_statute",
+        "last_verified": "2026-09-19"
+      }
     }
   ],
   "door_scenarios": [

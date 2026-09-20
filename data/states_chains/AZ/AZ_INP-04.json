@@ -6,8 +6,8 @@
   "subnode": "INP-04",
   "trigger_name": "Court-Ordered Referral",
   "summary_html": "A **judge orders** CPS to investigate or assess during civil/criminal proceedings. Federal funding statutes (ASFA/IV-E) tether court findings to child-welfare actions, embedding judicial oversight into intake-to-case flow.",
-  "authority_html": "- **ASFA (42 U.S.C. \u00a7\u00a7 671\u2013675)** \u2014 court \u2018reasonable efforts\u2019 findings; permanency timelines  \n- **SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 funding structure linking court oversight to agency actions",
-  "icon": "\u2696\ufe0f",
+  "authority_html": "- **ASFA (42 U.S.C. §§ 671–675)** — court ‘reasonable efforts’ findings; permanency timelines  \n- **SSA Title IV-E (42 U.S.C. §§ 670–679c)** — funding structure linking court oversight to agency actions",
+  "icon": "⚖️",
   "theme_color": "#8A2BE2",
   "domain": "civil",
   "procedural_weight": 0.55,
@@ -24,70 +24,91 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 671\u2013675 (ASFA/IV-E)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E framework)"
+        "42 U.S.C. §§ 671–675 (ASFA/IV-E)",
+        "42 U.S.C. §§ 670–679c (Title IV-E framework)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Arizona - Title 13, \u00a7 3620 (Criminal code \u2013 duty to report child abuse)",
-          "source_url": "https://www.azleg.gov/arstitle/",
+          "citation_text": "Arizona - Title 13, § 3620 (Criminal code – duty to report child abuse)",
+          "source_url": "https://www.azleg.gov/ars/13/03620.htm",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Arizona - Title 8, Chapter 4 (Arizona Juvenile Code \u2013 Dependent children)",
-          "source_url": "https://www.azleg.gov/arstitle/",
+          "citation_text": "Arizona - Title 8, Chapter 4 (Department of Child Safety, A.R.S. §§ 8-451 to 8-892)",
+          "source_url": "https://www.azleg.gov/arsDetail/?title=8#chapter4",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Title 8: Child Safety - DCS - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/arizona/title-8/",
+          "source_url": "https://www.azleg.gov/arsDetail/?title=8",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 13: Criminal Code - Child Abuse Crimes",
-          "source_url": "https://law.justia.com/codes/arizona/title-13/",
+          "source_url": "https://www.azleg.gov/arsDetail/?title=13",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 25: Marital and Domestic Relations",
-          "source_url": "https://law.justia.com/codes/arizona/title-25/",
+          "source_url": "https://www.azleg.gov/arsDetail/?title=25",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 36: Public Health and Safety",
-          "source_url": "https://law.justia.com/codes/arizona/title-36/",
+          "source_url": "https://www.azleg.gov/arsDetail/?title=36",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 46: Welfare",
-          "source_url": "https://law.justia.com/codes/arizona/title-46/",
+          "source_url": "https://www.azleg.gov/arsDetail/?title=46",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
+        },
+        {
+          "citation_text": "Arizona - Title 8, § 8-471 (Office of child welfare investigations; criminal conduct allegations)",
+          "source_url": "https://www.azleg.gov/ars/8/00471.htm",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Arizona - Title 8, § 8-525 (Open court proceedings; closure; records - dependency, permanent guardianship and termination proceedings are open to the public)",
+          "source_url": "https://www.azleg.gov/ars/8/00525.htm",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Arizona - Title 8, § 8-804.02 (Tiered system for placement on central registry; rules)",
+          "source_url": "https://www.azleg.gov/ars/8/00804-02.htm",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
@@ -95,7 +116,9 @@
       "regulations_applicable": [
         {
           "title": "Title 21 - CHILD SAFETY",
-          "url": "https://www.law.cornell.edu/regulations/arizona/title-21"
+          "url": "https://www.law.cornell.edu/regulations/arizona/title-21",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
         },
         {
           "title": "Arizona Administrative Rule Title 8",
@@ -322,21 +345,22 @@
     }
   },
   "state_agency": {
-    "name": "Department of Child Safety",
+    "name": "Arizona Department of Child Safety",
     "acronym": "DCS",
     "hotline": "1-888-767-2445",
-    "website": "https://www.azleg.gov"
+    "website": "https://dcs.az.gov/"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Clergy",
-    "Foster Parents"
+    "Physicians, physician assistants, optometrists, dentists, osteopathic physicians, chiropractors, podiatrists, behavioral health professionals, nurses, psychologists, counselors and social workers who form the belief while treating a patient — A.R.S. § 13-3620(A)(1)",
+    "Peace officers, child welfare investigators, child safety workers, members of the clergy, priests and Christian Science practitioners — A.R.S. § 13-3620(A)(2)",
+    "The parent, stepparent or guardian of the minor — A.R.S. § 13-3620(A)(3)",
+    "School personnel, including substitute teachers, and domestic violence or sexual assault victim advocates who form the belief in the course of their employment — A.R.S. § 13-3620(A)(4)",
+    "Any other person who has responsibility for the care or treatment of the minor — A.R.S. § 13-3620(A)(5)",
+    "Immediate or next-higher-level supervisors and administrators of a person listed in (A)(1), (2), (4) or (5) — A.R.S. § 13-3620(A)(6)",
+    "Members of a school district governing board or charter school governing body — A.R.S. § 13-3620(A)(7)"
   ],
   "reporting_type": "centralized",
-  "reporting_details": "Not applicable",
+  "reporting_details": "In Arizona a person listed in A.R.S. § 13-3620(A) must report immediately, electronically or by telephone, to a peace officer, to the Department of Child Safety, or — for an Indian minor who resides on an Indian reservation — to a tribal law enforcement or social services agency (A.R.S. § 13-3620(A), (D)).",
   "definitions": {
     "abuse": [
       "Physical abuse",
@@ -398,15 +422,16 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
+      "deadline": "45 days",
+      "starts_from": "Receipt of the DCS report",
       "source": "state_statute",
-      "consequence_of_miss": "Case dismissal risk"
+      "source_url": "https://www.azleg.gov/ars/8/00456.htm",
+      "consequence_of_miss": "A.R.S. § 8-456 states no penalty; the report must still reach the court 48 hours before a dependency hearing or within 21 days after a dependency petition is filed (A.R.S. § 8-456(F)(3)(b))."
     }
   ],
   "notice_requirements": [

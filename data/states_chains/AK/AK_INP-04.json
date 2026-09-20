@@ -6,8 +6,8 @@
   "subnode": "INP-04",
   "trigger_name": "Court-Ordered Referral",
   "summary_html": "A **judge orders** CPS to investigate or assess during civil/criminal proceedings. Federal funding statutes (ASFA/IV-E) tether court findings to child-welfare actions, embedding judicial oversight into intake-to-case flow.",
-  "authority_html": "- **ASFA (42 U.S.C. \u00a7\u00a7 671\u2013675)** \u2014 court \u2018reasonable efforts\u2019 findings; permanency timelines  \n- **SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 funding structure linking court oversight to agency actions",
-  "icon": "\u2696\ufe0f",
+  "authority_html": "- **ASFA (42 U.S.C. §§ 671–675)** — court ‘reasonable efforts’ findings; permanency timelines  \n- **SSA Title IV-E (42 U.S.C. §§ 670–679c)** — funding structure linking court oversight to agency actions",
+  "icon": "⚖️",
   "theme_color": "#8A2BE2",
   "domain": "civil",
   "procedural_weight": 0.55,
@@ -24,8 +24,8 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 671\u2013675 (ASFA/IV-E)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E framework)"
+        "42 U.S.C. §§ 671–675 (ASFA/IV-E)",
+        "42 U.S.C. §§ 670–679c (Title IV-E framework)"
       ]
     },
     "state_statutory": {
@@ -34,39 +34,39 @@
           "citation_text": "Alaska - Title 47, Chapter 17 (Child Protection, including mandatory reporting)",
           "source_url": "https://www.akleg.gov/basis/statutes.asp#47.17",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Alaska - Title 47, Chapter 10 (Child in Need of Aid proceedings)",
           "source_url": "https://www.akleg.gov/basis/statutes.asp#47.10",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 18: Health, Safety, Housing - Child Abuse Reporting",
-          "source_url": "http://www.legis.state.ak.us/basis/folioproxy.asp?url=http://wwwjnu01.legis.state.ak.us/cgi-bin/folioisa.dll/stattx22/query=*/doc/{t10430}",
+          "citation_text": "Alaska Stat. § 18.85.100 — Right to representation, services, and facilities; under (e) the Public Defender Agency may represent a parent at the AS 47.10.142(d) temporary custody hearing at public expense without a court order, and if the parent is not later found eligible for court-appointed counsel the court shall assess the cost of that representation against the parent",
+          "source_url": "https://www.akleg.gov/basis/statutes.asp#18.85.100",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 25: Marital and Domestic Relations",
-          "source_url": "http://www.legis.state.ak.us/basis/folioproxy.asp?url=http://wwwjnu01.legis.state.ak.us/cgi-bin/folioisa.dll/stattx22/query=*/doc/{t10437}",
+          "citation_text": "Alaska Stat. Title 25 (Marital and Domestic Relations), Chapter 23 — Adoption",
+          "source_url": "https://www.akleg.gov/basis/statutes.asp#25.23",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 47: Welfare, Social Services and Institutions - CHILD WELFARE PRIMARY",
-          "source_url": "http://www.legis.state.ak.us/basis/folioproxy.asp?url=http://wwwjnu01.legis.state.ak.us/cgi-bin/folioisa.dll/stattx22/query=*/doc/{t10459}",
+          "citation_text": "Alaska Stat. Title 47 — Welfare, Social Services and Institutions (child welfare: ch. 10, Children in Need of Aid; ch. 17, Child Protection)",
+          "source_url": "https://www.akleg.gov/basis/statutes.asp#47",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -304,22 +304,25 @@
     }
   },
   "state_agency": {
-    "name": "Office of Children's Services",
+    "name": "Alaska Office of Children's Services",
     "acronym": "OCS",
-    "hotline": "1-800-478-4444",
-    "website": "https://akleg.gov"
+    "hotline": "1-800-478-4444 or 907-269-6510 (24 hours a day, every day)",
+    "website": "https://dfcs.alaska.gov/office-of-childrens-services/"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Childcare Staff",
-    "Foster Parents",
-    "Coaches"
+    "Practitioners of the healing arts — Alaska Stat. § 47.17.020(a)(1)",
+    "School teachers and school administrative staff of public and private schools, including athletic coaches — Alaska Stat. § 47.17.020(a)(2); an unpaid volunteer athletic coach is not required to report unless the coach volunteers more than four hours a week for four consecutive weeks or more than 20 hours a week in a one-month period, has received the training required under Alaska Stat. § 47.17.022, and has signed a form acknowledging the duty to report — Alaska Stat. § 47.17.020(j)",
+    "Peace officers and officers of the Department of Corrections — Alaska Stat. § 47.17.020(a)(3)",
+    "Administrative officers of institutions — Alaska Stat. § 47.17.020(a)(4)",
+    "Child care providers — Alaska Stat. § 47.17.020(a)(5)",
+    "Paid employees of domestic violence and sexual assault programs and of crisis intervention and prevention programs — Alaska Stat. § 47.17.020(a)(6)",
+    "Paid employees of an organization that provides counseling or treatment to people seeking to control their use of drugs or alcohol — Alaska Stat. § 47.17.020(a)(7)",
+    "Members of a child fatality review team or of the multidisciplinary child protection team — Alaska Stat. § 47.17.020(a)(8)",
+    "Volunteers who interact with children in a public or private school for more than four hours a week — Alaska Stat. § 47.17.020(a)(9)",
+    "Juvenile probation officers and juvenile probation office staff, and staff of juvenile detention and juvenile treatment facilities — Alaska Stat. § 47.17.020(a)(10)"
   ],
   "reporting_type": "centralized",
-  "reporting_details": "Not applicable",
+  "reporting_details": "Alaska is not a universal-reporting state: only the occupational categories listed in Alaska Stat. § 47.17.020(a) are required to report, and they must report immediately — defined as no later than 24 hours (Alaska Stat. § 47.17.290(7)) — to the nearest office of the Department of Family and Community Services, the department in which the Office of Children's Services sits (Alaska Stat. § 47.17.290(6)); if the harm appears to result from a suspected sex offense they must also report immediately to the nearest law enforcement agency. A reporter who cannot reasonably contact the nearest office of the department when immediate action is necessary for the child's well-being must instead report to a peace officer (Alaska Stat. § 47.17.020(c)). Any other person may report but is not required to (Alaska Stat. § 47.17.020(b)). OCS takes reports at 1-800-478-4444 or 907-269-6510, 24 hours a day, every day, and takes a written report by email at ReportChildAbuse@alaska.gov or by fax at 907-269-3939.",
   "definitions": {
     "abuse": [
       "Physical abuse",
@@ -381,14 +384,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

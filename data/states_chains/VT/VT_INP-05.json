@@ -6,8 +6,8 @@
   "subnode": "INP-05",
   "trigger_name": "Self-Report / Guardian Request",
   "summary_html": "A **parent/guardian/child requests help** without a substantiated allegation. FFPSA created a federal pathway for **prevention services** to avert removal and stabilize families before a case escalates.",
-  "authority_html": "- **Family First Prevention Services Act (2018)** \u2014 prevention services, kinship support; shifts upstream from removal to support",
-  "icon": "\ud83e\udde9",
+  "authority_html": "- **Family First Prevention Services Act (2018)** — prevention services, kinship support; shifts upstream from removal to support",
+  "icon": "🧩",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -24,37 +24,39 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 671\u2013679b (FFPSA-related IV-E changes)"
+        "42 U.S.C. §§ 671–679b (FFPSA-related IV-E changes)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Vermont - 33 V.S.A. Chapter\u00a049 (Child Welfare Services \u2013 \u00a7\u00a04913 mandatory reporting)",
-          "source_url": "https://legislature.vermont.gov",
+          "citation_text": "Vermont - 33 V.S.A. Chapter 49 (Child Welfare Services – § 4913 mandatory reporting)",
+          "source_url": "https://legislature.vermont.gov/statutes/chapter/33/049",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Vermont - 33 V.S.A. Chapter\u00a053 (Proceedings in Family Court for abuse/neglect)",
-          "source_url": "https://legislature.vermont.gov",
+          "citation_text": "Vermont - 33 V.S.A. Chapter 53 (Children in Need of Care or Supervision — CHINS proceedings in the Family Division of the Superior Court)",
+          "source_url": "https://legislature.vermont.gov/statutes/chapter/33/053",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 15: Domestic Relations",
-          "source_url": "https://law.justia.com/codes/vermont/title-15/",
+          "source_url": "https://legislature.vermont.gov/statutes/title/15",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 33: Human Services - DCF - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/vermont/title-33/",
+          "source_url": "https://legislature.vermont.gov/statutes/title/33",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -63,6 +65,12 @@
     },
     "administrative_rule": {
       "regulations_applicable": [
+        {
+          "title": "Vermont DCF Family Services Division rules and policy manual (Rule 2000 Response to Child Abuse and Neglect; Rule 3000 Administrative Review Process; Rule 7000 Transition Age Youth)",
+          "url": "https://dcf.vermont.gov/fsd/laws-rules",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
+        },
         {
           "title": "Agency 13 - AGENCY OF HUMAN SERVICES",
           "url": "https://www.law.cornell.edu/regulations/vermont/agency-13"
@@ -292,24 +300,28 @@
     }
   },
   "state_agency": {
-    "name": "Department for Children and Families",
-    "acronym": "DCF",
+    "name": "Vermont Department for Children and Families, Family Services Division",
+    "acronym": "FSD",
     "hotline": "1-800-649-5285",
-    "website": "https://legislature.vermont.gov"
+    "website": "https://dcf.vermont.gov/fsd"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Childcare Staff",
-    "Clergy",
-    "Foster Parents",
-    "Coaches",
-    "EMTs/Emergency Personnel"
+    "Health care providers, including physicians, surgeons, osteopaths, chiropractors, physician assistants, resident physicians, interns, hospital administrators, registered nurses, licensed practical nurses, medical examiners, emergency medical personnel, dentists, psychologists, and pharmacists — 33 V.S.A. § 4913(a)(1)",
+    "School district and approved or recognized independent school employees, and contracted student-services providers, including superintendents, headmasters, teachers, student teachers, school librarians, principals, and guidance counselors — 33 V.S.A. § 4913(a)(2)",
+    "Child care workers — 33 V.S.A. § 4913(a)(3)",
+    "Mental health professionals — 33 V.S.A. § 4913(a)(4)",
+    "Social workers — 33 V.S.A. § 4913(a)(5)",
+    "Probation officers — 33 V.S.A. § 4913(a)(6)",
+    "Agency of Human Services employees, contractors, and grantees who have contact with clients — 33 V.S.A. § 4913(a)(7)",
+    "Police officers — 33 V.S.A. § 4913(a)(8)",
+    "Camp owners (“camp” includes any residential or nonresidential recreational program, 33 V.S.A. § 4913(b)) — 33 V.S.A. § 4913(a)(9)",
+    "Camp administrators — 33 V.S.A. § 4913(a)(10)",
+    "Camp counselors — 33 V.S.A. § 4913(a)(11)",
+    "Members of the clergy, except information received while acting as a spiritual advisor in a confidential communication (33 V.S.A. § 4913(j)) — 33 V.S.A. § 4913(a)(12)",
+    "Employees of the Office of the Child, Youth, and Family Advocate — 33 V.S.A. § 4913(a)(13)"
   ],
   "reporting_type": "centralized",
-  "reporting_details": "Not applicable",
+  "reporting_details": "Vermont is not a universal-reporting state: the 13 categories of mandated reporters listed in 33 V.S.A. § 4913(a) must report to DCF within 24 hours of the time the information was first received or observed, and any other concerned person may report voluntarily (33 V.S.A. § 4913(c), (e)).",
   "definitions": {
     "abuse": [
       "Physical abuse",
@@ -370,17 +382,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
-      "starts_from": "Report received",
+      "deadline": "72 hours to begin an assessment or investigation",
+      "starts_from": "Receipt of the report, once accepted as a valid allegation and there is sufficient information to proceed",
       "source": "state_statute",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "consequence_of_miss": "The Commissioner may waive the 72-hour requirement only when necessary to locate the child or to ensure the safety of the child or social worker (33 V.S.A. § 4915(b)).",
+      "source_url": "https://legislature.vermont.gov/statutes/section/33/049/04915"
     },
     {
       "requirement_name": "Investigation completion",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
+      "deadline": "45 days (assessment track); no statutory deadline (investigation track)",
+      "starts_from": "Assessment begun",
       "source": "state_statute",
-      "consequence_of_miss": "Case dismissal risk"
+      "consequence_of_miss": "An assessment may be extended only upon written justification by the Department and not beyond 60 days total (33 V.S.A. § 4915a(b)); Vermont sets no completion deadline for the investigation track (33 V.S.A. § 4915b).",
+      "source_url": "https://legislature.vermont.gov/statutes/section/33/049/04915a"
     }
   ],
   "notice_requirements": [

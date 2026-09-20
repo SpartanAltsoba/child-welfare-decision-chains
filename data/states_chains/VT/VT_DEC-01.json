@@ -6,8 +6,8 @@
   "subnode": "DEC-01",
   "trigger_name": "Screen-Out / Unfounded at Intake",
   "summary_html": "CPS **screens out** a report (no investigation) or closes as **unfounded** after minimal review. Federal law (CAPTA) conditions funding on operating screening criteria and recordkeeping; federal reviews (CFSR) assess decision quality.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 screening & intake system requirements  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal performance/quality review of state screening and responses",
-  "icon": "\ud83d\udeab",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — screening & intake system requirements  \n- **CFSR Regulations (45 CFR Part 1355)** — federal performance/quality review of state screening and responses",
+  "icon": "🚫",
   "theme_color": "#4B9CD3",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -26,38 +26,40 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Vermont - 33 V.S.A. Chapter\u00a049 (Child Welfare Services \u2013 \u00a7\u00a04913 mandatory reporting)",
-          "source_url": "https://legislature.vermont.gov",
+          "citation_text": "Vermont - 33 V.S.A. Chapter 49 (Child Welfare Services – § 4913 mandatory reporting)",
+          "source_url": "https://legislature.vermont.gov/statutes/chapter/33/049",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Vermont - 33 V.S.A. Chapter\u00a053 (Proceedings in Family Court for abuse/neglect)",
-          "source_url": "https://legislature.vermont.gov",
+          "citation_text": "Vermont - 33 V.S.A. Chapter 53 (Children in Need of Care or Supervision — CHINS proceedings in the Family Division of the Superior Court)",
+          "source_url": "https://legislature.vermont.gov/statutes/chapter/33/053",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 15: Domestic Relations",
-          "source_url": "https://law.justia.com/codes/vermont/title-15/",
+          "source_url": "https://legislature.vermont.gov/statutes/title/15",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 33: Human Services - DCF - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/vermont/title-33/",
+          "source_url": "https://legislature.vermont.gov/statutes/title/33",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -66,6 +68,12 @@
     },
     "administrative_rule": {
       "regulations_applicable": [
+        {
+          "title": "Vermont DCF Family Services Division rules and policy manual (Rule 2000 Response to Child Abuse and Neglect; Rule 3000 Administrative Review Process; Rule 7000 Transition Age Youth)",
+          "url": "https://dcf.vermont.gov/fsd/laws-rules",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
+        },
         {
           "title": "Agency 13 - AGENCY OF HUMAN SERVICES",
           "url": "https://www.law.cornell.edu/regulations/vermont/agency-13"
@@ -189,7 +197,7 @@
         },
         {
           "case_id": "2020-242",
-          "title": "In re Investigation Pursuant to 30 V.S.A. \u00c2\u00a7\u00c2\u00a7 30 and 209 into whether the Petitioner Initiated Site Preparation at Apple Hill in Bennington, VT (Allco Renewable Energy Limited et al.*)",
+          "title": "In re Investigation Pursuant to 30 V.S.A. Â§Â§ 30 and 209 into whether the Petitioner Initiated Site Preparation at Apple Hill in Bennington, VT (Allco Renewable Energy Limited et al.*)",
           "url": "https://law.justia.com/cases/vermont/supreme-court/2020/2020-242.html",
           "year": 2020,
           "court": "Supreme Court",
@@ -296,10 +304,10 @@
     }
   },
   "state_agency": {
-    "name": "Department for Children and Families",
-    "acronym": "DCF",
+    "name": "Vermont Department for Children and Families, Family Services Division",
+    "acronym": "FSD",
     "hotline": "1-800-649-5285",
-    "website": "https://legislature.vermont.gov"
+    "website": "https://dcf.vermont.gov/fsd"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -335,17 +343,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Safety decision",
-      "deadline": "Immediate upon contact",
-      "starts_from": "First family contact",
+      "deadline": "24 hours to document the safety determination and safety plan on the SDM Safety Assessment",
+      "starts_from": "First in-person interview with the family",
       "source": "admin_rule",
-      "consequence_of_miss": "Child safety risk"
+      "consequence_of_miss": "Not specified in Vermont DCF Family Services Policy 52 (effective 9/5/2024).",
+      "source_url": "https://outside.vermont.gov/dept/DCF/Shared%20Documents/FSD/Policies/Policy52.pdf"
     },
     {
       "requirement_name": "Disposition finding",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
-      "source": "state_statute",
-      "consequence_of_miss": "Procedural violation"
+      "deadline": "60 days to conclude an investigation; 45 days to complete an assessment, or 60 days with written justification and supervisor approval",
+      "starts_from": "Opening of the child safety intervention (the investigation or assessment track)",
+      "source": "admin_rule",
+      "consequence_of_miss": "Not specified in Vermont DCF Family Services Policy 52 (effective 9/5/2024); the policy allows an investigation to stay open past 60 days while a law enforcement or criminal case is unresolved, and an assessment extension may not exceed 60 days total (33 V.S.A. § 4915a(b)). Vermont sets no completion deadline for the investigation track by statute (33 V.S.A. § 4915b).",
+      "source_url": "https://outside.vermont.gov/dept/DCF/Shared%20Documents/FSD/Policies/Policy52.pdf"
     }
   ],
   "notice_requirements": [

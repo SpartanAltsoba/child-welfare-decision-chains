@@ -6,8 +6,8 @@
   "subnode": "INP-07",
   "trigger_name": "Medical Disclosure",
   "summary_html": "**Healthcare encounters** that reveal suspected abuse or neglect trigger reporting obligations. Federal law governs mandatory reporting in federal facilities and coordination with state systems.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 state reporter systems and protections  \n- **Victims of Child Abuse Act (34 U.S.C. \u00a7\u00a7 20301\u201320307)** \u2014 mandates in federal settings, CAC coordination",
-  "icon": "\ud83c\udfe5",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — state reporter systems and protections  \n- **Victims of Child Abuse Act (34 U.S.C. §§ 20301–20307)** — mandates in federal settings, CAC coordination",
+  "icon": "🏥",
   "theme_color": "#FF69B4",
   "domain": "civil",
   "procedural_weight": 0.45,
@@ -23,17 +23,31 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
-        "34 U.S.C. \u00a7\u00a7 20301\u201320307 (Victims of Child Abuse Act)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
+        "34 U.S.C. §§ 20301–20307 (Victims of Child Abuse Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Hawaii - HRS Chapter 350 (Child Abuse) and Chapter 587A (Child Protective Act)",
-          "source_url": "https://data.capitol.hawaii.gov/sessions/session2017/HRS-Chapter-PDF's/HRS_0350.pdf",
+          "citation_text": "Hawaii — HRS Chapter 350, Child Abuse",
+          "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol07_Ch0346-0398/HRS0350/HRS_0350-.htm",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Hawaii — HRS Chapter 587A, Child Protective Act",
+          "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol12_Ch0501-0588/HRS0587A/HRS_0587A-.htm",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Haw. Rev. Stat. § 350-1.1, Reports (persons required to report child abuse or neglect)",
+          "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol07_Ch0346-0398/HRS0350/HRS_0350-0001_0001.htm",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -269,28 +283,25 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Services",
-    "acronym": "DHS",
-    "hotline": "808-832-5300",
-    "website": "https://www.capitol.hawaii.gov"
+    "name": "Hawaii Department of Human Services, Child Welfare Services",
+    "acronym": "CWS",
+    "hotline": "808-832-5300 (Oahu) or toll-free 1-888-380-3088 (Hawaii Island, Maui, Molokai, Lanai, Kauai), 24 hours a day, 7 days a week",
+    "website": "https://humanservices.hawaii.gov/ssd/home/child-welfare-services/"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Shelter Staff",
-    "Childcare Staff",
-    "Clergy",
-    "Foster Parents",
-    "Coaches",
-    "Coroners",
-    "EMTs/Emergency Personnel",
-    "Judges",
-    "District Attorneys"
+    "Licensed or registered professionals of the healing arts or any health-related occupation who examine, attend, treat, or provide other professional or specialized services, including but not limited to physicians (including physicians in training), psychologists, dentists, nurses, osteopathic physicians and surgeons, optometrists, chiropractors, podiatrists, pharmacists, and other health-related professionals",
+    "Employees or officers of any public or private school",
+    "Employees or officers of any public or private agency or institution, or other individuals, providing social, medical, hospital, or mental health services, including financial assistance",
+    "Employees or officers of any law enforcement agency, including but not limited to the courts, police departments, department of law enforcement, correctional institutions, and parole or probation offices",
+    "Individual providers of child care, or employees or officers of any licensed or registered child care facility, foster home, or similar institution",
+    "Medical examiners or coroners",
+    "Employees of any public or private agency providing recreational or sports activities",
+    "Commercial film and photographic print or image processors",
+    "Commercial computer technicians",
+    "Members of the clergy or custodians of records therefor; a member of the clergy is not required to report information gained solely during a penitential communication, except when the clergy member believes that there exists a substantial risk that child abuse or neglect that is especially heinous, atrocious, or cruel, manifesting exceptional depravity, may occur in the reasonably foreseeable future, and a clergy member who receives reportable information from any source other than a penitential communication must report it regardless of whether the same information was also received during a penitential communication"
   ],
   "reporting_type": "centralized",
-  "reporting_details": "Not applicable",
+  "reporting_details": "Hawaii is not a universal-reporting state: only the ten categories of persons listed in Haw. Rev. Stat. § 350-1.1(a) must report, and they must report the matter immediately and orally to the Department of Human Services or the police, with a written report to follow (§ 350-1.1(c)); anyone else may report voluntarily under § 350-1.3.",
   "definitions": {
     "abuse": [
       "Physical abuse",
@@ -347,14 +358,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

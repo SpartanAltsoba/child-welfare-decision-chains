@@ -6,8 +6,8 @@
   "subnode": "PMC-06",
   "trigger_name": "Project Milk Carton AI Analysis",
   "summary_html": "The **Project Milk Carton AI Layer** performs cross-analysis of federal and state chains to identify weak points, policy gaps, and non-compliance. This is the citizen feedback mechanism for accountability and reform.",
-  "authority_html": "No direct statutory authority \u2014 citizen innovation layer built on public data and federal transparency laws.",
-  "icon": "\ud83e\udd16",
+  "authority_html": "No direct statutory authority — citizen innovation layer built on public data and federal transparency laws.",
+  "icon": "🤖",
   "theme_color": "#20B2AA",
   "domain": "civil",
   "procedural_weight": 0.9,
@@ -29,7 +29,7 @@
           "citation_text": "District of Columbia - D.C. Code Title 4, Chapter 13 (Child Abuse and Neglect)",
           "source_url": "https://code.dccouncil.gov/us/dc/council/code/titles/4/chapters/13",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -200,7 +200,7 @@
     "name": "Child and Family Services Agency",
     "acronym": "CFSA",
     "hotline": "202-671-7233",
-    "website": ""
+    "website": "https://cfsa.dc.gov/"
   },
   "linked_fail": "ALL",
   "_metadata": {
@@ -239,10 +239,11 @@
     },
     {
       "requirement_name": "NCMEC notification",
-      "deadline": "24 hours",
-      "starts_from": "Child reported missing",
+      "deadline": "Immediately if MPD deems the child critical missing; otherwise once the child has been missing more than 30 days (MPD makes the NCMEC report)",
+      "starts_from": "CFSA files a missing person report with MPD immediately after discovering the child is missing (D.C. Code § 4-1323.01(a))",
       "source": "state_statute",
-      "consequence_of_miss": "Audit finding, delayed recovery"
+      "consequence_of_miss": "Not specified in § 4-1323.01",
+      "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/4-1323.01"
     }
   ],
   "notice_requirements": [

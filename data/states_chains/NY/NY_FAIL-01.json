@@ -6,8 +6,8 @@
   "subnode": "FAIL-01",
   "trigger_name": "Court Reversal of Agency Decision",
   "summary_html": "A **court reverses or vacates** a CPS or agency decision due to procedural error, insufficient evidence, or constitutional violation. Federal review data (CFSR, ASFA) tracks judicial determinations on reasonable efforts and due process.",
-  "authority_html": "- **Adoption and Safe Families Act (ASFA)** \u2014 judicial findings of 'reasonable efforts' compliance  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal review of judicial/agency conformity  \n- **42 U.S.C. \u00a7 1983** \u2014 civil-rights remedy for unconstitutional removals (14th & 4th Amendments).",
-  "icon": "\u2696\ufe0f",
+  "authority_html": "- **Adoption and Safe Families Act (ASFA)** — judicial findings of 'reasonable efforts' compliance  \n- **CFSR Regulations (45 CFR Part 1355)** — federal review of judicial/agency conformity  \n- **42 U.S.C. § 1983** — civil-rights remedy for unconstitutional removals (14th & 4th Amendments).",
+  "icon": "⚖️",
   "theme_color": "#FF6347",
   "domain": "civil",
   "procedural_weight": 0.8,
@@ -20,7 +20,7 @@
     "constitutional": {
       "constraints_triggered": [
         "U.S. Const. amend. IV",
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
@@ -28,23 +28,24 @@
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
         "45 CFR Part 1355 (CFSR)",
-        "42 U.S.C. \u00a7 1983 (Civil Rights Act)"
+        "42 U.S.C. § 1983 (Civil Rights Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "New York - N.Y. Soc. Serv. Law \u00a7\u00a0411 et seq. (Child Protective Services Act \u2013 reporting requirements)",
-          "source_url": "https://www.nysenate.gov/legislation/laws/SocServ/411",
+          "citation_text": "New York - N.Y. Soc. Serv. Law § 411 et seq. (Child Protective Services Act – reporting requirements)",
+          "source_url": "https://www.nysenate.gov/legislation/laws/SOS/411",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "New York - Family Court Act Article 10 (Abuse/Neglect juvenile proceedings)",
-          "source_url": "https://nyassembly.gov",
+          "source_url": "https://www.nysenate.gov/legislation/laws/FCT/A10",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
@@ -124,14 +125,14 @@
         {
           "provision_id": "NY_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "New York Const. art. I, \u00a7 12",
+          "citation": "New York Const. art. I, § 12",
           "federal_parallel": "U.S. Const. amend. IV"
         },
         {
           "provision_id": "NY_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "New York Const. art. I, \u00a7 6",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "New York Const. art. I, § 6",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -296,7 +297,7 @@
     "name": "Office of Children and Family Services",
     "acronym": "OCFS",
     "hotline": "1-800-342-3720",
-    "website": "https://nyassembly.gov"
+    "website": "https://ocfs.ny.gov/"
   },
   "linked_output": "OUT-02",
   "linked_action": "ACT-03",
@@ -331,10 +332,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Appeal deadline",
-      "deadline": "30 days",
-      "starts_from": "Final order",
-      "source": "court_rule",
-      "consequence_of_miss": "Loss of appeal rights"
+      "deadline": "30 days (35 days if the clerk mailed the order)",
+      "starts_from": "Service or receipt of the Family Court order, whichever comes first",
+      "source": "state_statute",
+      "consequence_of_miss": "Loss of appeal rights",
+      "source_url": "https://www.nysenate.gov/legislation/laws/FCT/1113"
     },
     {
       "requirement_name": "1983 statute of limitations",

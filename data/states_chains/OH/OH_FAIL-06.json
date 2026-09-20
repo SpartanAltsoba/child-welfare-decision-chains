@@ -6,8 +6,8 @@
   "subnode": "FAIL-06",
   "trigger_name": "Disclosure / Transparency Failure",
   "summary_html": "Agency fails to **disclose required data or reports**, obstructing transparency. Federal statutes require public reporting under CAPTA, FOIA, and Sunshine provisions.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 mandates public availability of child-fatality information  \n- **Freedom of Information Act (5 U.S.C. \u00a7 552)** \u2014 public access to federal records  \n- **Government in the Sunshine Act (5 U.S.C. \u00a7 552b)** \u2014 open-meeting requirements",
-  "icon": "\ud83d\udd73\ufe0f",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — mandates public availability of child-fatality information  \n- **Freedom of Information Act (5 U.S.C. § 552)** — public access to federal records  \n- **Government in the Sunshine Act (5 U.S.C. § 552b)** — open-meeting requirements",
+  "icon": "🕳️",
   "theme_color": "#708090",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -24,44 +24,52 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
-        "5 U.S.C. \u00a7 552 (FOIA)",
-        "5 U.S.C. \u00a7 552b (Sunshine Act)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
+        "5 U.S.C. § 552 (FOIA)",
+        "5 U.S.C. § 552b (Sunshine Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Ohio - Ohio Rev. Code \u00a7\u00a02151.421 (Mandatory reporting of child abuse)",
-          "source_url": "https://codes.ohio.gov/ohio-revised-code/chapter-2151",
+          "citation_text": "Ohio - Ohio Rev. Code § 2151.421 (Mandatory reporting of child abuse)",
+          "source_url": "https://codes.ohio.gov/ohio-revised-code/section-2151.421",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Ohio - Ohio Rev. Code Chapter\u00a02151 (Juvenile Court \u2013 abuse, neglect, dependency)",
-          "source_url": "https://www.legislature.ohio.gov",
+          "citation_text": "Ohio - Ohio Rev. Code Chapter 2151 (Juvenile Court – abuse, neglect, dependency)",
+          "source_url": "https://codes.ohio.gov/ohio-revised-code/chapter-2151",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Ohio - Ohio Rev. Code Chapter 5153 (County children services agencies)",
+          "source_url": "https://codes.ohio.gov/ohio-revised-code/chapter-5153",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
     "administrative_rule": {
       "regulations_applicable": [
         {
-          "title": "5101:2 - Division of Social Services (Child Protective Services)",
-          "url": "https://www.law.cornell.edu/regulations/ohio/title-5101-2"
+          "title": "5180:3 - Ohio Department of Children and Youth | Children Services and Supports",
+          "url": "https://codes.ohio.gov/ohio-administrative-code/5180:3"
         },
         {
-          "title": "5101:5 - Child Abuse and Neglect Prevention",
-          "url": "https://www.law.cornell.edu/regulations/ohio/title-5101-5"
+          "title": "5180:3-5 - Assessments (PCSA safety assessment, safety plan, and family assessment)",
+          "url": "https://codes.ohio.gov/ohio-administrative-code/chapter-5180:3-5"
         },
         {
-          "title": "5101 - Department of Job and Family Services",
-          "url": "https://www.law.cornell.edu/regulations/ohio/title-5101"
+          "title": "5180 - Ohio Department of Children and Youth",
+          "url": "https://codes.ohio.gov/ohio-administrative-code/5180"
         }
       ],
-      "source_url": "https://www.law.cornell.edu/regulations/ohio.html"
+      "source_url": "https://codes.ohio.gov/ohio-administrative-code"
     },
     "state_constitutional": {
       "plane_reference": "state_constitutional_OH",
@@ -226,10 +234,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Job and Family Services",
-    "acronym": "ODJFS",
+    "name": "Ohio Department of Children and Youth",
+    "acronym": "DCY",
     "hotline": "1-855-642-4453",
-    "website": "https://www.legislature.ohio.gov"
+    "website": "https://childrenandyouth.ohio.gov/"
   },
   "linked_output": "OUT-06",
   "linked_action": "ACT-03",
@@ -266,7 +274,7 @@
       "requirement_name": "Appeal deadline",
       "deadline": "30 days",
       "starts_from": "Final order",
-      "source": "court_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Loss of appeal rights"
     },
     {

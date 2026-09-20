@@ -6,8 +6,8 @@
   "subnode": "FAIL-01",
   "trigger_name": "Court Reversal of Agency Decision",
   "summary_html": "A **court reverses or vacates** a CPS or agency decision due to procedural error, insufficient evidence, or constitutional violation. Federal review data (CFSR, ASFA) tracks judicial determinations on reasonable efforts and due process.",
-  "authority_html": "- **Adoption and Safe Families Act (ASFA)** \u2014 judicial findings of 'reasonable efforts' compliance  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal review of judicial/agency conformity  \n- **42 U.S.C. \u00a7 1983** \u2014 civil-rights remedy for unconstitutional removals (14th & 4th Amendments).",
-  "icon": "\u2696\ufe0f",
+  "authority_html": "- **Adoption and Safe Families Act (ASFA)** — judicial findings of 'reasonable efforts' compliance  \n- **CFSR Regulations (45 CFR Part 1355)** — federal review of judicial/agency conformity  \n- **42 U.S.C. § 1983** — civil-rights remedy for unconstitutional removals (14th & 4th Amendments).",
+  "icon": "⚖️",
   "theme_color": "#FF6347",
   "domain": "civil",
   "procedural_weight": 0.8,
@@ -20,7 +20,7 @@
     "constitutional": {
       "constraints_triggered": [
         "U.S. Const. amend. IV",
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
@@ -28,37 +28,39 @@
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
         "45 CFR Part 1355 (CFSR)",
-        "42 U.S.C. \u00a7 1983 (Civil Rights Act)"
+        "42 U.S.C. § 1983 (Civil Rights Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Vermont - 33 V.S.A. Chapter\u00a049 (Child Welfare Services \u2013 \u00a7\u00a04913 mandatory reporting)",
-          "source_url": "https://legislature.vermont.gov",
+          "citation_text": "Vermont - 33 V.S.A. Chapter 49 (Child Welfare Services – § 4913 mandatory reporting)",
+          "source_url": "https://legislature.vermont.gov/statutes/chapter/33/049",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Vermont - 33 V.S.A. Chapter\u00a053 (Proceedings in Family Court for abuse/neglect)",
-          "source_url": "https://legislature.vermont.gov",
+          "citation_text": "Vermont - 33 V.S.A. Chapter 53 (Children in Need of Care or Supervision — CHINS proceedings in the Family Division of the Superior Court)",
+          "source_url": "https://legislature.vermont.gov/statutes/chapter/33/053",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 15: Domestic Relations",
-          "source_url": "https://law.justia.com/codes/vermont/title-15/",
+          "source_url": "https://legislature.vermont.gov/statutes/title/15",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 33: Human Services - DCF - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/vermont/title-33/",
+          "source_url": "https://legislature.vermont.gov/statutes/title/33",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -67,6 +69,12 @@
     },
     "administrative_rule": {
       "regulations_applicable": [
+        {
+          "title": "Vermont DCF Family Services Division rules and policy manual (Rule 2000 Response to Child Abuse and Neglect; Rule 3000 Administrative Review Process; Rule 7000 Transition Age Youth)",
+          "url": "https://dcf.vermont.gov/fsd/laws-rules",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
+        },
         {
           "title": "Agency 13 - AGENCY OF HUMAN SERVICES",
           "url": "https://www.law.cornell.edu/regulations/vermont/agency-13"
@@ -141,14 +149,14 @@
         {
           "provision_id": "VT_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Vermont Const. art. chapter_I, \u00a7 11",
+          "citation": "Vermont Const. art. chapter_I, § 11",
           "federal_parallel": "U.S. Const. amend. IV"
         },
         {
           "provision_id": "VT_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Vermont Const. art. chapter_I, \u00a7 4",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Vermont Const. art. chapter_I, § 4",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -310,10 +318,10 @@
     }
   },
   "state_agency": {
-    "name": "Department for Children and Families",
-    "acronym": "DCF",
+    "name": "Vermont Department for Children and Families, Family Services Division",
+    "acronym": "FSD",
     "hotline": "1-800-649-5285",
-    "website": "https://legislature.vermont.gov"
+    "website": "https://dcf.vermont.gov/fsd"
   },
   "linked_output": "OUT-02",
   "linked_action": "ACT-03",
@@ -349,9 +357,10 @@
     {
       "requirement_name": "Appeal deadline",
       "deadline": "30 days",
-      "starts_from": "Final order",
-      "source": "court_rule",
-      "consequence_of_miss": "Loss of appeal rights"
+      "starts_from": "Date the administrative reviewer sent notice of the decision on the substantiation review (33 V.S.A. § 4916a(i)); the review itself must be requested within 30 days after the Department sent notice of the right to review (33 V.S.A. § 4916a(c)(1))",
+      "source": "state_statute",
+      "consequence_of_miss": "If no review by the Human Services Board is requested, the Department's decision is final and the person has no further right of review under this section; the Board may grant a waiver upon good cause shown (33 V.S.A. § 4916b(d)).",
+      "source_url": "https://legislature.vermont.gov/statutes/section/33/049/04916b"
     },
     {
       "requirement_name": "1983 statute of limitations",

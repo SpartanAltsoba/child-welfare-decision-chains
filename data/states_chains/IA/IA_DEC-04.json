@@ -6,8 +6,8 @@
   "subnode": "DEC-04",
   "trigger_name": "Emergency Removal Decision",
   "summary_html": "Agency decides to **remove a child immediately** due to **imminent danger** prior to a court order. Federal law (ASFA/IV-E) requires later **court findings** on reasonable efforts; constitutional limits (due process; search/seizure) apply.",
-  "authority_html": "- **ASFA / SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 reasonable-efforts findings; permanency timelines  \n- **CFSR (45 CFR Part 1355)** \u2014 monitors safety & removal decision quality",
-  "icon": "\ud83d\udea8",
+  "authority_html": "- **ASFA / SSA Title IV-E (42 U.S.C. §§ 670–679c)** — reasonable-efforts findings; permanency timelines  \n- **CFSR (45 CFR Part 1355)** — monitors safety & removal decision quality",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.35,
@@ -22,13 +22,13 @@
     "constitutional": {
       "constraints_triggered": [
         "U.S. Const. amend. IV",
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E)",
+        "42 U.S.C. §§ 670–679c (Title IV-E)",
         "Public Law 105-89 (ASFA)",
         "45 CFR Part 1355 (CFSR)"
       ]
@@ -36,10 +36,10 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Iowa - Title VI, Chapter 232 (Juvenile Justice \u2013 includes mandatory reporting and child in need of assistance)",
+          "citation_text": "Iowa - Title VI, Chapter 232 (Juvenile Justice – includes mandatory reporting and child in need of assistance)",
           "source_url": "https://www.legis.iowa.gov/law/iowaCode/sections?codeChapter=232",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -68,14 +68,14 @@
         {
           "provision_id": "IA_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Iowa Const. art. I, \u00a7 8",
+          "citation": "Iowa Const. art. I, § 8",
           "federal_parallel": "U.S. Const. amend. IV"
         },
         {
           "provision_id": "IA_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Iowa Const. art. I, \u00a7 9",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Iowa Const. art. I, § 9",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -211,10 +211,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Services",
-    "acronym": "DHS",
+    "name": "Iowa Department of Health and Human Services, Child Protective Services",
+    "acronym": "Iowa HHS",
     "hotline": "1-800-362-2178",
-    "website": "https://www.legis.iowa.gov"
+    "website": "https://hhs.iowa.gov/programs/CPS"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -249,18 +249,36 @@
   },
   "timeline_requirements": [
     {
-      "requirement_name": "Safety decision",
-      "deadline": "Immediate upon contact",
-      "starts_from": "First family contact",
-      "source": "admin_rule",
-      "consequence_of_miss": "Child safety risk"
+      "requirement_name": "Oral notice to the court of an emergency removal without a court order",
+      "deadline": "Immediately",
+      "starts_from": "Emergency removal or keeping of the child without a court order",
+      "source": "state_statute",
+      "source_url": "https://www.legis.iowa.gov/docs/code/232.79.pdf",
+      "consequence_of_miss": "Not specified in Iowa Code § 232.79(2)(d)"
     },
     {
-      "requirement_name": "Disposition finding",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
+      "requirement_name": "Written notice to the court of an emergency removal without a court order",
+      "deadline": "24 hours",
+      "starts_from": "Orally informing the court of the emergency removal under Iowa Code § 232.79(2)(d)",
       "source": "state_statute",
-      "consequence_of_miss": "Procedural violation"
+      "source_url": "https://www.legis.iowa.gov/docs/code/232.79.pdf",
+      "consequence_of_miss": "Not specified in Iowa Code § 232.79(2)(e)"
+    },
+    {
+      "requirement_name": "Petition filed after an ex parte temporary removal order",
+      "deadline": "3 days",
+      "starts_from": "Issuance of the ex parte removal order (except for good cause shown, or unless the child is sooner returned)",
+      "source": "state_statute",
+      "source_url": "https://www.legis.iowa.gov/docs/code/232.78.pdf",
+      "consequence_of_miss": "Not specified in Iowa Code § 232.78(3)"
+    },
+    {
+      "requirement_name": "Court designee's written report on a temporary removal order",
+      "deadline": "5 days",
+      "starts_from": "Date of the removal order",
+      "source": "state_statute",
+      "source_url": "https://www.legis.iowa.gov/docs/code/232.78.pdf",
+      "consequence_of_miss": "If the court does not designate an appropriate person who performs the required duties, the child's parent is not responsible for paying the cost of care and services for the duration of the removal order (Iowa Code § 232.78(6))"
     }
   ],
   "notice_requirements": [

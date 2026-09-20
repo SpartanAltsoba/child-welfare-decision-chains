@@ -6,8 +6,8 @@
   "subnode": "INP-02",
   "trigger_name": "Voluntary / Third-Party Report",
   "summary_html": "Any person (not just mandated reporters) may submit a **voluntary report** to child-protection authorities. CAPTA requires states to maintain mechanisms for intake, confidentiality, and immunity policies tied to federal funding.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 requires states to operate intake/report systems that accept voluntary reports and protect good-faith reporters",
-  "icon": "\ud83d\udde3\ufe0f",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — requires states to operate intake/report systems that accept voluntary reports and protect good-faith reporters",
+  "icon": "🗣️",
   "theme_color": "#00CED1",
   "domain": "civil",
   "procedural_weight": 0.4,
@@ -24,23 +24,24 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "New York - N.Y. Soc. Serv. Law \u00a7\u00a0411 et seq. (Child Protective Services Act \u2013 reporting requirements)",
-          "source_url": "https://www.nysenate.gov/legislation/laws/SocServ/411",
+          "citation_text": "New York - N.Y. Soc. Serv. Law § 411 et seq. (Child Protective Services Act – reporting requirements)",
+          "source_url": "https://www.nysenate.gov/legislation/laws/SOS/411",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "New York - Family Court Act Article 10 (Abuse/Neglect juvenile proceedings)",
-          "source_url": "https://nyassembly.gov",
+          "source_url": "https://www.nysenate.gov/legislation/laws/FCT/A10",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
@@ -278,7 +279,7 @@
     "name": "Office of Children and Family Services",
     "acronym": "OCFS",
     "hotline": "1-800-342-3720",
-    "website": "https://nyassembly.gov"
+    "website": "https://ocfs.ny.gov/"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -355,17 +356,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
+      "deadline": "24 hours",
       "starts_from": "Report received",
       "source": "state_statute",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "consequence_of_miss": "Not specified in statute",
+      "source_url": "https://www.nysenate.gov/legislation/laws/SOS/424"
     },
     {
       "requirement_name": "Investigation completion",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
+      "deadline": "60 days",
+      "starts_from": "Report received",
       "source": "state_statute",
-      "consequence_of_miss": "Case dismissal risk"
+      "consequence_of_miss": "Not specified in statute",
+      "source_url": "https://www.nysenate.gov/legislation/laws/SOS/424"
     }
   ],
   "notice_requirements": [

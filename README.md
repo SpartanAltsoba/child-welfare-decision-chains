@@ -3,18 +3,18 @@
 **The first open-source, structured, AI-traversable legal knowledge graph of the entire United States child protective services system.**
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/SpartanAltsoba/child-welfare-decision-chains/releases/tag/v1.0.0)
+[![Version](https://img.shields.io/badge/version-1.0.1-blue.svg)](https://github.com/SpartanAltsoba/child-welfare-decision-chains/releases/tag/v1.0.1)
 [![Citation](https://img.shields.io/badge/cite-CITATION.cff-green.svg)](./CITATION.cff)
 [![Provenance](https://img.shields.io/badge/provenance-MANIFEST.json-orange.svg)](./MANIFEST.json)
 [![Schema](https://img.shields.io/badge/schema-JSON-yellow.svg)](./data/schemas/extended_decision_chain.schema.json)
 
-**v1.0.0 release:** 2,142 decision nodes · 51 jurisdictions · 2,522 files · SHA-256 verified
+**v1.0.1 release:** 2,142 decision nodes · 51 jurisdictions · 2,526 files · SHA-256 verified
 
 ---
 
 ## Cite This Dataset
 
-> Project Milk Carton (2026). *US Child Welfare Decision Chain Dataset* (Version 1.0.0). https://github.com/SpartanAltsoba/child-welfare-decision-chains
+> Project Milk Carton (2026). *US Child Welfare Decision Chain Dataset* (Version 1.0.1). https://github.com/SpartanAltsoba/child-welfare-decision-chains
 
 Full citation metadata: [`CITATION.cff`](./CITATION.cff) (parsed natively by GitHub, Zenodo, Zotero, and most academic tools).
 
@@ -212,7 +212,7 @@ This dataset is designed for AI traversal. If you train or fine-tune a model on 
 - **MINOR** — new jurisdictions, new node types, new fields (additive).
 - **PATCH** — corrections, URL updates, source revisions.
 
-The current release is **v1.0.0**.
+The current release is **v1.0.1** (see [CHANGELOG.md](./CHANGELOG.md)).
 
 ---
 

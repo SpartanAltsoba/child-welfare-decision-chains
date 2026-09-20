@@ -6,8 +6,8 @@
   "subnode": "ACT-04",
   "trigger_name": "Kinship Placement",
   "summary_html": "Agency places a child with **relatives or kin caregivers** instead of non-relative foster care. Federal law favors kinship care as least-restrictive, family-preserving placement.",
-  "authority_html": "- **Fostering Connections to Success and Increasing Adoptions Act (FCSIAA 2008)** \u2014 kinship-care incentives  \n- **SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 reimbursement for approved kin placements",
-  "icon": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67",
+  "authority_html": "- **Fostering Connections to Success and Increasing Adoptions Act (FCSIAA 2008)** — kinship-care incentives  \n- **SSA Title IV-E (42 U.S.C. §§ 670–679c)** — reimbursement for approved kin placements",
+  "icon": "👨‍👩‍👧",
   "theme_color": "#FFD700",
   "domain": "civil",
   "procedural_weight": 0.45,
@@ -20,57 +20,57 @@
   "layers": {
     "constitutional": {
       "constraints_triggered": [
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
         "Public Law 110-351 (FCSIAA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)"
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Idaho - Title 16, Chapter 16 (Child Protective Act \u2013 reporting and removal)",
+          "citation_text": "Idaho - Title 16, Chapter 16 (Child Protective Act – reporting and removal)",
           "source_url": "https://legislature.idaho.gov/statutesrules/idstat/Title16/T16CH16/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 16: Child Protective Act - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/idaho/title-16/",
+          "citation_text": "Idaho Code Title 16 — Juvenile Proceedings (Child Protective Act is chapter 16) - CHILD WELFARE PRIMARY",
+          "source_url": "https://legislature.idaho.gov/statutesrules/idstat/Title16/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 32: Domestic Relations",
-          "source_url": "https://law.justia.com/codes/idaho/title-32/",
+          "citation_text": "Idaho Code Title 32 — Domestic Relations",
+          "source_url": "https://legislature.idaho.gov/statutesrules/idstat/Title32/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 39: Health and Safety",
-          "source_url": "https://law.justia.com/codes/idaho/title-39/",
+          "citation_text": "Idaho Code Title 39 — Health and Safety",
+          "source_url": "https://legislature.idaho.gov/statutesrules/idstat/Title39/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 56: Public Assistance",
-          "source_url": "https://law.justia.com/codes/idaho/title-56/",
+          "citation_text": "Idaho Code Title 56 — Public Assistance and Welfare",
+          "source_url": "https://legislature.idaho.gov/statutesrules/idstat/Title56/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -79,6 +79,12 @@
     },
     "administrative_rule": {
       "regulations_applicable": [
+        {
+          "title": "IDAPA 16.06.01 — Child and Family Services (Idaho Department of Health and Welfare)",
+          "url": "https://adminrules.idaho.gov/rules/current/16/160601.pdf",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
+        },
         {
           "title": "Title IDAPA 05 - Juvenile Corrections, Department of",
           "url": "https://www.law.cornell.edu/regulations/idaho/title-IDAPA-05"
@@ -157,8 +163,8 @@
         {
           "provision_id": "ID_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Idaho Const. art. I, \u00a7 13",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Idaho Const. art. I, § 13",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -320,10 +326,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Health and Welfare",
+    "name": "Idaho Department of Health and Welfare, Child and Family Services",
     "acronym": "DHW",
-    "hotline": "1-855-552-5437",
-    "website": "https://legislature.idaho.gov"
+    "hotline": "1-855-552-5437 (855-552-KIDS) statewide; Treasure Valley 208-334-5437",
+    "website": "https://healthandwelfare.idaho.gov/services-programs/children-families-older-adults/child-and-family-services-and-foster-care-7"
   },
   "linked_decision": "DEC-04",
   "linked_input": "INP-01",
@@ -356,10 +362,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
+      "deadline": "48 hours, excluding Saturdays, Sundays and holidays",
+      "starts_from": "Child taken into shelter care by a peace officer",
       "source": "state_statute",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "consequence_of_miss": "Child may be held no longer; release is required unless a shelter care hearing has been held and the court has ordered an adjudicatory hearing (Idaho Code § 16-1608(2))",
+      "source_url": "https://legislature.idaho.gov/statutesrules/idstat/Title16/T16CH16/SECT16-1608/"
     },
     {
       "requirement_name": "Case plan development",
@@ -378,13 +385,20 @@
         "tribe"
       ],
       "method": "personal_service",
-      "timing": "Before court hearing",
+      "timing": "At least twenty-four (24) hours before the shelter care hearing (Idaho Code § 16-1615(2))",
       "content_required": [
-        "Hearing date",
-        "Allegations",
-        "Right to counsel"
+        "The time of the hearing",
+        "The place of the hearing",
+        "The purpose of the hearing",
+        "That the person is entitled to be represented by legal counsel"
       ],
-      "defective_notice_consequence": "Hearing must be continued"
+      "defective_notice_consequence": "Notice must be given by personal service and the return of service filed with the court, except where the undelivered notice is returned to the court with an affidavit stating the parents or custodian could not be located or were out of the state (Idaho Code § 16-1615(3)); the shelter care hearing may be continued for a reasonable time upon request by the parent, custodian, or counsel for the child (§ 16-1615(4)). No other consequence is specified in Idaho Code § 16-1615",
+      "statutory_basis": {
+        "citation_text": "Idaho Code § 16-1615 (Shelter care hearing)",
+        "source_url": "https://legislature.idaho.gov/statutesrules/idstat/Title16/T16CH16/SECT16-1615/",
+        "authority_type": "state_statute",
+        "last_verified": "2026-09-19"
+      }
     }
   ],
   "door_scenarios": [

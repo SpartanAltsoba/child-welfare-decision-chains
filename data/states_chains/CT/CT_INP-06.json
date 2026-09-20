@@ -6,8 +6,8 @@
   "subnode": "INP-06",
   "trigger_name": "Anonymous Tip / Hotline",
   "summary_html": "Reports via **state hotlines** (anonymous or confidential). CAPTA conditions funding on operating intake systems with confidentiality and good-faith protections.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 intake, confidentiality, immunity, and data requirements tied to federal funding",
-  "icon": "\u260e\ufe0f",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — intake, confidentiality, immunity, and data requirements tied to federal funding",
+  "icon": "☎️",
   "theme_color": "#FF8C00",
   "domain": "civil",
   "procedural_weight": 0.4,
@@ -24,23 +24,23 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Connecticut - Title 17a, Chapter 319 (Abuse of Children \u2013 mandatory reporters)",
-          "source_url": "https://www.cga.ct.gov/current/pub/chap_319.htm",
+          "citation_text": "Connecticut - Title 17a, Chapter 319a, Conn. Gen. Stat. § 17a-101 (Child Welfare – mandated reporters)",
+          "source_url": "https://www.cga.ct.gov/current/pub/chap_319a.htm#sec_17a-101",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Connecticut - Title 46b, Chapter 815t (Juvenile Matters including neglect/termination)",
-          "source_url": "https://www.cga.ct.gov/current/pub/chap_815t.htm",
+          "source_url": "https://www.cga.ct.gov/current/pub/chap_815t.htm#sec_46b-129",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -224,26 +224,45 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children and Families",
+    "name": "Connecticut Department of Children and Families",
     "acronym": "DCF",
-    "hotline": "1-800-842-2288",
-    "website": "https://www.cga.ct.gov"
+    "hotline": "1-800-842-2288 (DCF Careline, 24 hours a day, every day of the year); TDD 1-800-624-5518",
+    "website": "https://portal.ct.gov/dcf"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Shelter Staff",
-    "Childcare Staff",
-    "Clergy",
-    "Foster Parents",
-    "Coaches",
-    "Coroners",
-    "EMTs/Emergency Personnel"
+    "Enumerated professions only — Connecticut has no universal duty to report (Conn. Gen. Stat. § 17a-101(b))",
+    "Physicians, surgeons, resident physicians and interns",
+    "Registered nurses and licensed practical nurses",
+    "Medical examiners",
+    "Dentists and dental hygienists",
+    "Psychologists and mental health professionals",
+    "School employees, as defined in Conn. Gen. Stat. § 53a-65",
+    "Social workers",
+    "Coaches and directors of youth athletics, including private youth sports organizations, age 18 or older, and holders of a State Board of Education coaching permit",
+    "Paid administrators, faculty, staff, athletic directors, athletic coaches and athletic trainers at public or private institutions of higher education, age 18 or older (student employees excluded)",
+    "Police officers",
+    "Juvenile and adult probation officers; juvenile and adult parole officers",
+    "Members of the clergy",
+    "Pharmacists, physical therapists, optometrists, chiropractors and podiatrists",
+    "Physician assistants",
+    "Licensed or certified emergency medical services providers",
+    "Licensed or certified alcohol and drug counselors",
+    "Licensed marital and family therapists and licensed professional counselors",
+    "Sexual assault counselors and domestic violence counselors, as defined in Conn. Gen. Stat. § 52-146k",
+    "Licensed behavior analysts",
+    "Licensed foster parents",
+    "Any person paid to care for a child in a public or private facility, child care center, group child care home or family child care home licensed by the state",
+    "Employees of the Department of Children and Families, and persons who provide services to or on behalf of children under a DCF contract or credential",
+    "Office of Early Childhood employees responsible for licensing child care centers, group or family child care homes, or youth camps",
+    "Paid youth camp directors, assistant directors and staff members age 21 or older",
+    "The Child Advocate and employees of the Office of the Child Advocate",
+    "Judicial Department family relations counselors, family relations counselor trainees and family services supervisors",
+    "Victim services advocates in the Office of Victim Services",
+    "Employees of juvenile justice programs operated by or under contract with the Court Support Services Division",
+    "Persons employed to work at a juvenile detention facility or other facility where children under 18 are detained who have direct contact with children, including independent ombudspersons"
   ],
   "reporting_type": "centralized",
-  "reporting_details": "Not applicable",
+  "reporting_details": "Connecticut names its mandated reporters by profession rather than requiring a report from everyone, and a mandated reporter must report to the DCF Careline or a law enforcement agency as soon as practicable but not later than 12 hours after having reasonable cause to suspect abuse, neglect or imminent risk of serious harm, while any other person may report voluntarily (Conn. Gen. Stat. §§ 17a-101(b), 17a-101b(a), 17a-103(a)).",
   "definitions": {
     "abuse": [
       "Physical abuse",
@@ -301,17 +320,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
+      "deadline": "2 hours, best efforts (imminent risk of physical harm to a child or other emergency); 72 hours (all other reports)",
       "starts_from": "Report received",
       "source": "state_statute",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "consequence_of_miss": "Not specified in statute",
+      "source_url": "https://www.cga.ct.gov/current/pub/chap_319a.htm#sec_17a-101g"
     },
     {
       "requirement_name": "Investigation completion",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
+      "deadline": "33 business days",
+      "starts_from": "Report received",
       "source": "state_statute",
-      "consequence_of_miss": "Case dismissal risk"
+      "consequence_of_miss": "Not specified in statute",
+      "source_url": "https://www.cga.ct.gov/current/pub/chap_319a.htm#sec_17a-101g"
     }
   ],
   "notice_requirements": [
@@ -327,6 +348,33 @@
         "Rights"
       ],
       "defective_notice_consequence": "May invalidate findings"
+    },
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian"
+      ],
+      "method": "any_reasonable",
+      "timing": "At the time of any initial face-to-face contact with the child's parent or guardian after the department receives a complaint of abuse or neglect (contacts on or after October 1, 2021)",
+      "content_required": [
+        "Written notice, in plain language, of the rights listed in Conn. Gen. Stat. § 17a-103d(a)(1)",
+        "The parent or guardian is not required to permit the department representative to enter the residence",
+        "The parent or guardian is not required to speak with the department representative at that time",
+        "The parent or guardian may seek an attorney and have the attorney present when questioned by a department representative, including at any meeting conducted to determine whether the child should be removed from the home",
+        "Any statement made by the parent, guardian or other family member may be used against the parent or guardian in an administrative or court proceeding",
+        "The department representative is not an attorney and cannot provide legal advice",
+        "The parent or guardian is not required to sign any document presented by the representative, including a release of claims or a service agreement, and may have an attorney review it before signing",
+        "A failure to communicate with the department may have serious consequences, including the filing of a petition to remove the child, so the parent or guardian should either speak with the representative or immediately seek the advice of a qualified attorney",
+        "A list of providers of free and low-cost legal services"
+      ],
+      "language_requirements": "The department must make reasonable efforts to ensure the notice and the list of legal services are written in a manner, and in a language, the parent or guardian understands (Conn. Gen. Stat. § 17a-103d(b))",
+      "defective_notice_consequence": "Not specified in Conn. Gen. Stat. § 17a-103d; the representative must ask the parent or guardian to sign and date the notice, must record and witness any refusal to sign, and must leave a copy at the initial face-to-face contact (§ 17a-103d(c))",
+      "statutory_basis": {
+        "citation_text": "Conn. Gen. Stat. § 17a-103d (initial contact with parent or guardian; written notice re parent or guardian rights; list of legal services) (P.A. 11-112, S. 1; P.A. 21-46, S. 23)",
+        "source_url": "https://www.cga.ct.gov/current/pub/chap_319a.htm#sec_17a-103d",
+        "authority_type": "state_statute",
+        "last_verified": "2026-09-19"
+      }
     }
   ],
   "door_scenarios": [

@@ -6,14 +6,14 @@
   "subnode": "PMC-02",
   "trigger_name": "OIG / Financial Audit",
   "summary_html": "Federal **OIG** investigations and **Single Audit Act** reviews track misuse of child-welfare funds. Project Milk Carton aggregates audit findings and highlights unresolved repeat deficiencies.",
-  "authority_html": "- **Inspector General Act (5 U.S.C. App.)** \u2014 OIG oversight of HHS  \n- **Single Audit Act (31 U.S.C. \u00a7\u00a7 7501\u20137507)** \u2014 audits of federally funded programs",
-  "icon": "\ud83e\uddfe",
+  "authority_html": "- **Inspector General Act (5 U.S.C. §§ 401–424)** — OIG oversight of HHS  \n- **Single Audit Act (31 U.S.C. §§ 7501–7507)** — audits of federally funded programs",
+  "icon": "🧾",
   "theme_color": "#708090",
   "domain": "civil",
   "procedural_weight": 0.7,
   "federal_alignment_flag": "baseline",
   "urls": {
-    "IGA_Cornell": "https://www.law.cornell.edu/uscode/text/5a/appendix-3",
+    "IGA_Cornell": "https://www.law.cornell.edu/uscode/text/5/part-I/chapter-4",
     "SAA_Cornell": "https://www.law.cornell.edu/uscode/text/31/chapter-75"
   },
   "layers": {
@@ -23,24 +23,24 @@
     },
     "federal": {
       "requirements_applicable": [
-        "5 U.S.C. App. (Inspector General Act)",
-        "31 U.S.C. \u00a7\u00a7 7501\u20137507 (Single Audit Act)"
+        "5 U.S.C. §§ 401–424 (Inspector General Act)",
+        "31 U.S.C. §§ 7501–7507 (Single Audit Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "California - Penal Code \u00a7\u00a7\u00a011164\u201311174 (CANRA \u2013 Child Abuse and Neglect Reporting Act)",
-          "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=11164&lawCode=PENAL",
+          "citation_text": "California - Penal Code §§ 11164–11174.3 (CANRA – Child Abuse and Neglect Reporting Act)",
+          "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=11164.&lawCode=PEN",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "California - Welfare & Institutions Code \u00a7\u00a0300 et seq. (Juvenile dependency proceedings)",
-          "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=300&lawCode=INSTITUTIONS",
+          "citation_text": "California - Welfare & Institutions Code § 300 et seq. (Juvenile dependency proceedings)",
+          "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=300.&lawCode=WIC",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -222,8 +222,8 @@
   "state_agency": {
     "name": "California Department of Social Services",
     "acronym": "CDSS",
-    "hotline": "1-800-540-4000",
-    "website": "https://leginfo.legislature.ca.gov"
+    "hotline": "No statewide number. Call your county's 24-hour hotline",
+    "website": "https://www.cdss.ca.gov/"
   },
   "linked_fail": "FAIL-03",
   "_metadata": {
@@ -264,8 +264,16 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
+    },
+    {
+      "requirement_name": "Missing from foster care notification",
+      "deadline": "Immediately, but in no case later than 24 hours",
+      "starts_from": "Receipt of information that the child or nonminor dependent is missing from foster care",
+      "source": "state_statute",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=16501.35&lawCode=WIC",
+      "consequence_of_miss": "Not specified in Cal. Welf. & Inst. Code § 16501.35"
     }
   ],
   "notice_requirements": [

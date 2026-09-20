@@ -6,8 +6,8 @@
   "subnode": "FAIL-01",
   "trigger_name": "Court Reversal of Agency Decision",
   "summary_html": "A **court reverses or vacates** a CPS or agency decision due to procedural error, insufficient evidence, or constitutional violation. Federal review data (CFSR, ASFA) tracks judicial determinations on reasonable efforts and due process.",
-  "authority_html": "- **Adoption and Safe Families Act (ASFA)** \u2014 judicial findings of 'reasonable efforts' compliance  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal review of judicial/agency conformity  \n- **42 U.S.C. \u00a7 1983** \u2014 civil-rights remedy for unconstitutional removals (14th & 4th Amendments).",
-  "icon": "\u2696\ufe0f",
+  "authority_html": "- **Adoption and Safe Families Act (ASFA)** — judicial findings of 'reasonable efforts' compliance  \n- **CFSR Regulations (45 CFR Part 1355)** — federal review of judicial/agency conformity  \n- **42 U.S.C. § 1983** — civil-rights remedy for unconstitutional removals (14th & 4th Amendments).",
+  "icon": "⚖️",
   "theme_color": "#FF6347",
   "domain": "civil",
   "procedural_weight": 0.8,
@@ -20,7 +20,7 @@
     "constitutional": {
       "constraints_triggered": [
         "U.S. Const. amend. IV",
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
@@ -28,23 +28,23 @@
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
         "45 CFR Part 1355 (CFSR)",
-        "42 U.S.C. \u00a7 1983 (Civil Rights Act)"
+        "42 U.S.C. § 1983 (Civil Rights Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Massachusetts - MGL Chapter\u00a0119 (Protection of Children, incl. \u00a7\u00a051A mandated reporting)",
-          "source_url": "https://malegislature.gov/Laws/GeneralLaws/",
+          "citation_text": "Massachusetts - M.G.L. c. 119, § 51A (Reporting of suspected abuse or neglect; mandated reporters; penalties)",
+          "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVII/Chapter119/Section51A",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Massachusetts - MGL Chapter\u00a0119, \u00a7\u00a7\u00a024\u201329 (Care and protection proceedings)",
-          "source_url": "https://malegislature.gov/Laws/GeneralLaws/",
+          "citation_text": "Massachusetts - M.G.L. c. 119, §§ 24–29 (Care and protection proceedings: emergency custody, hearings, appeals, right to counsel)",
+          "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVII/Chapter119",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
@@ -70,6 +70,10 @@
     "administrative_rule": {
       "regulations_applicable": [
         {
+          "title": "110 CMR - DEPARTMENT OF CHILDREN AND FAMILIES",
+          "url": "https://www.law.cornell.edu/regulations/massachusetts/department-110-CMR"
+        },
+        {
           "title": "101 CMR - EXECUTIVE OFFICE FOR HEALTH AND HUMAN SERVICES",
           "url": "https://www.law.cornell.edu/regulations/massachusetts/department-101-CMR"
         },
@@ -91,14 +95,14 @@
         {
           "provision_id": "MA_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Massachusetts Const. art. 14, \u00a7 ",
+          "citation": "Massachusetts Const. art. 14, § ",
           "federal_parallel": "U.S. Const. amend. IV"
         },
         {
           "provision_id": "MA_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Massachusetts Const. art. 12, \u00a7 ",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Massachusetts Const. art. 12, § ",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -260,10 +264,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children and Families",
+    "name": "Massachusetts Department of Children and Families",
     "acronym": "DCF",
-    "hotline": "1-800-792-5200",
-    "website": "https://malegislature.gov"
+    "hotline": "1-800-792-5200 (Massachusetts Child Abuse Emergency Line, for nights, weekends and holidays; weekdays 8:45 a.m. to 5 p.m. call the DCF area office for the city or town where the child lives)",
+    "website": "https://www.mass.gov/orgs/massachusetts-department-of-children-families"
   },
   "linked_output": "OUT-02",
   "linked_action": "ACT-03",
@@ -298,10 +302,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Appeal deadline",
-      "deadline": "30 days",
-      "starts_from": "Final order",
-      "source": "court_rule",
-      "consequence_of_miss": "Loss of appeal rights"
+      "deadline": "30 calendar days to request a DCF Fair Hearing",
+      "starts_from": "The decision complained of, or receipt of the written notice of that decision",
+      "source": "admin_rule",
+      "source_url": "https://www.mass.gov/doc/110-cmr-10-fair-hearings-and-grievances/download",
+      "consequence_of_miss": "A time limit in 110 CMR 10.00 is extended only for good cause, on a written request filed before the deadline expires (110 CMR 10.34(4))"
     },
     {
       "requirement_name": "1983 statute of limitations",

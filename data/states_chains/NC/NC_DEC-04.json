@@ -6,8 +6,8 @@
   "subnode": "DEC-04",
   "trigger_name": "Emergency Removal Decision",
   "summary_html": "Agency decides to **remove a child immediately** due to **imminent danger** prior to a court order. Federal law (ASFA/IV-E) requires later **court findings** on reasonable efforts; constitutional limits (due process; search/seizure) apply.",
-  "authority_html": "- **ASFA / SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 reasonable-efforts findings; permanency timelines  \n- **CFSR (45 CFR Part 1355)** \u2014 monitors safety & removal decision quality",
-  "icon": "\ud83d\udea8",
+  "authority_html": "- **ASFA / SSA Title IV-E (42 U.S.C. §§ 670–679c)** — reasonable-efforts findings; permanency timelines  \n- **CFSR (45 CFR Part 1355)** — monitors safety & removal decision quality",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.35,
@@ -22,13 +22,13 @@
     "constitutional": {
       "constraints_triggered": [
         "U.S. Const. amend. IV",
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E)",
+        "42 U.S.C. §§ 670–679c (Title IV-E)",
         "Public Law 105-89 (ASFA)",
         "45 CFR Part 1355 (CFSR)"
       ]
@@ -36,16 +36,18 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "North Carolina - N.C. Gen. Stat. \u00a7\u00a07B-301 (Duty to report abuse, neglect, dependency)",
-          "source_url": "https://www.ncleg.gov",
+          "citation_text": "North Carolina - N.C. Gen. Stat. § 7B-301 (Duty to report abuse, neglect, dependency)",
+          "source_url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_7B/GS_7B-301.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "North Carolina - Chapter 7B, Article 3 (Juvenile Code \u2013 abuse, neglect, dependency procedures)",
-          "source_url": "https://www.ncleg.gov",
+          "citation_text": "North Carolina - Chapter 7B, Article 3 (Juvenile Code – abuse, neglect, dependency procedures)",
+          "source_url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_7B/Article_3.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 48: Adoption",
@@ -156,14 +158,14 @@
         {
           "provision_id": "NC_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "North Carolina Const. art. I, \u00a7 20",
+          "citation": "North Carolina Const. art. I, § 20",
           "federal_parallel": "U.S. Const. amend. IV"
         },
         {
           "provision_id": "NC_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "North Carolina Const. art. I, \u00a7 19",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "North Carolina Const. art. I, § 19",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -325,10 +327,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Social Services",
-    "acronym": "DSS",
-    "hotline": "1-919-527-6500",
-    "website": "https://www.ncleg.gov"
+    "name": "North Carolina Division of Social Services",
+    "acronym": "NC DSS",
+    "hotline": "No statewide hotline. Call the county department of social services where the child lives — the county list is at ncdhhs.gov/divisions/social-services/local-dss-directory",
+    "website": "https://www.ncdhhs.gov/divisions/social-services"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -366,14 +368,14 @@
       "requirement_name": "Safety decision",
       "deadline": "Immediate upon contact",
       "starts_from": "First family contact",
-      "source": "admin_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Child safety risk"
     },
     {
       "requirement_name": "Disposition finding",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Procedural violation"
     }
   ],

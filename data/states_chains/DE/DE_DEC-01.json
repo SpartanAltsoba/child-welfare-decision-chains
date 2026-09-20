@@ -6,8 +6,8 @@
   "subnode": "DEC-01",
   "trigger_name": "Screen-Out / Unfounded at Intake",
   "summary_html": "CPS **screens out** a report (no investigation) or closes as **unfounded** after minimal review. Federal law (CAPTA) conditions funding on operating screening criteria and recordkeeping; federal reviews (CFSR) assess decision quality.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 screening & intake system requirements  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal performance/quality review of state screening and responses",
-  "icon": "\ud83d\udeab",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — screening & intake system requirements  \n- **CFSR Regulations (45 CFR Part 1355)** — federal performance/quality review of state screening and responses",
+  "icon": "🚫",
   "theme_color": "#4B9CD3",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -26,50 +26,50 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Delaware - Title 16, Chapter 9 (Abuse of Children \u2013 reporting requirements)",
+          "citation_text": "Delaware - Title 16, Chapter 9 (Abuse of Children – reporting requirements)",
           "source_url": "https://delcode.delaware.gov/title16/c009/index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Delaware - Title 13, Chapter 25 (Dependent children proceedings)",
+          "citation_text": "Delaware - Title 13, Chapter 25 (DSCYF Custody)",
           "source_url": "https://delcode.delaware.gov/title13/c025/index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Title 13: Domestic Relations - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/delaware/title-13/",
+          "source_url": "https://delcode.delaware.gov/title13/index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 16: Health and Safety - Child Abuse",
-          "source_url": "https://law.justia.com/codes/delaware/title-16/",
+          "source_url": "https://delcode.delaware.gov/title16/index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 31: Welfare",
-          "source_url": "https://law.justia.com/codes/delaware/title-31/",
+          "source_url": "https://delcode.delaware.gov/title31/index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         }
@@ -78,8 +78,16 @@
     "administrative_rule": {
       "regulations_applicable": [
         {
+          "title": "Delaware Administrative Code, Title 9 — Services for Children, Youth and Their Families (DSCYF)",
+          "url": "https://regulations.delaware.gov/AdminCode/title9",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
+        },
+        {
           "title": "Title 9 - Services for Children Youth and Their Families",
-          "url": "https://www.law.cornell.edu/regulations/delaware/title-9"
+          "url": "https://www.law.cornell.edu/regulations/delaware/title-9",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
         },
         {
           "title": "Delaware Administrative Rule Title 13",
@@ -307,10 +315,10 @@
     }
   },
   "state_agency": {
-    "name": "Division of Family Services",
+    "name": "Delaware Division of Family Services",
     "acronym": "DFS",
     "hotline": "1-800-292-9582",
-    "website": "https://legis.delaware.gov"
+    "website": "https://kids.delaware.gov/family-services/"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -348,14 +356,14 @@
       "requirement_name": "Safety decision",
       "deadline": "Immediate upon contact",
       "starts_from": "First family contact",
-      "source": "admin_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Child safety risk"
     },
     {
       "requirement_name": "Disposition finding",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Procedural violation"
     }
   ],

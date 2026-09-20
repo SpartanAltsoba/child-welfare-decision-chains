@@ -6,8 +6,8 @@
   "subnode": "DEC-02",
   "trigger_name": "Accept for Investigation / Assessment",
   "summary_html": "CPS **accepts** a report for **investigation/assessment**. CAPTA sets the floor for investigation procedures; CFSR evaluates timeliness, safety, and decision quality.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 investigation standards tied to funding  \n- **CFSR (45 CFR Part 1355)** \u2014 timeliness & response conformity indicators",
-  "icon": "\ud83d\uddc2\ufe0f",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — investigation standards tied to funding  \n- **CFSR (45 CFR Part 1355)** — timeliness & response conformity indicators",
+  "icon": "🗂️",
   "theme_color": "#2E8B57",
   "domain": "civil",
   "procedural_weight": 0.55,
@@ -23,24 +23,25 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Wisconsin - Wis. Stat. \u00a7\u00a048.981 (Abuse and Neglect Reporting law)",
-          "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/48",
+          "citation_text": "Wisconsin - Wis. Stat. § 48.981 (Abuse and Neglect Reporting law)",
+          "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/48/xxi/981",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Wisconsin - Wis. Stat. Chapter\u00a048 (Children\u2019s Code \u2013 includes CHIPS proceedings)",
-          "source_url": "https://legis.wisconsin.gov",
+          "citation_text": "Wisconsin - Wis. Stat. Chapter 48 (Children’s Code – includes CHIPS proceedings)",
+          "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/48",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 48: Children's Code - DCF - CHILD WELFARE PRIMARY",
@@ -308,10 +309,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children and Families",
+    "name": "Wisconsin Department of Children and Families",
     "acronym": "DCF",
-    "hotline": "1-800-422-4453",
-    "website": "https://legis.wisconsin.gov"
+    "hotline": "No statewide hotline. Call the county or tribal agency where the child lives — the list is at dcf.wisconsin.gov/reportabuse",
+    "website": "https://dcf.wisconsin.gov/"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -347,17 +348,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Safety decision",
-      "deadline": "Immediate upon contact",
-      "starts_from": "First family contact",
+      "deadline": "Same day (reports suggesting immediate danger)",
+      "starts_from": "Report received",
       "source": "admin_rule",
-      "consequence_of_miss": "Child safety risk"
+      "consequence_of_miss": "Child safety risk",
+      "source_url": "https://dcf.wisconsin.gov/cps/process"
     },
     {
       "requirement_name": "Disposition finding",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
+      "deadline": "60 days",
+      "starts_from": "Report received",
       "source": "state_statute",
-      "consequence_of_miss": "Procedural violation"
+      "consequence_of_miss": "Procedural violation",
+      "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/48/xxi/981"
     }
   ],
   "notice_requirements": [

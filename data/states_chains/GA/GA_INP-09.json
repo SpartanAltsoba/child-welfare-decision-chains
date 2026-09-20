@@ -6,8 +6,8 @@
   "subnode": "INP-09",
   "trigger_name": "Systemic Audit / Oversight Trigger",
   "summary_html": "Findings by **federal/state oversight** (CFSR reviews, OIG audits, child-fatality commissions) can initiate investigations or corrective actions that open CPS involvement.",
-  "authority_html": "- **Protect Our Kids Act (PL 112-275)** \u2014 national commission on child abuse/neglect fatalities  \n- **Child & Family Services Reviews (45 CFR Part 1355)** \u2014 federal monitoring of state systems  \n- **Inspector General Act (5 U.S.C. App.)** \u2014 OIG oversight of HHS/ACF and grantees",
-  "icon": "\ud83e\uddfe",
+  "authority_html": "- **Protect Our Kids Act (PL 112-275)** — national commission on child abuse/neglect fatalities  \n- **Child & Family Services Reviews (45 CFR Part 1355)** — federal monitoring of state systems  \n- **Inspector General Act (5 U.S.C. App.)** — OIG oversight of HHS/ACF and grantees",
+  "icon": "🧾",
   "theme_color": "#708090",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -36,23 +36,23 @@
       "primary_citations": [
         {
           "citation_text": "Georgia - Title 19, Chapter 7, Section 5 (Georgia child abuse reporting statute)",
-          "source_url": "https://www.lexisnexis.com/hottopics/gacode/",
+          "source_url": "https://law.justia.com/codes/georgia/title-19/chapter-7/article-1/section-19-7-5/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Georgia - Title 15, Chapter 11 (Juvenile Code \u2013 dependency proceedings)",
-          "source_url": "https://www.lexisnexis.com/hottopics/gacode/",
+          "citation_text": "Georgia - Title 15, Chapter 11 (Juvenile Code – dependency proceedings)",
+          "source_url": "https://law.justia.com/codes/georgia/title-15/chapter-11/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Title 15: Courts - Juvenile Courts",
           "source_url": "https://law.justia.com/codes/georgia/title-15/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -61,7 +61,7 @@
           "citation_text": "Title 19: Domestic Relations - CHILD WELFARE PRIMARY",
           "source_url": "https://law.justia.com/codes/georgia/title-19/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -70,26 +70,37 @@
           "citation_text": "Title 49: Social Services - DFCS",
           "source_url": "https://law.justia.com/codes/georgia/title-49/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
+        },
+        {
+          "citation_text": "Georgia - O.C.G.A. 49-5-180 through 49-5-187 [Reserved] (Title 49, Chapter 5, Article 8, Central Child Abuse Registry; repealed and reserved by Ga. L. 2020, p. 181, Sec. 7/HB 993, effective July 1, 2020)",
+          "source_url": "https://law.justia.com/codes/georgia/title-49/chapter-5/article-8/section-49-5-180/",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
     "administrative_rule": {
       "regulations_applicable": [
         {
-          "title": "Department 96 - GRANTS OF GOVERNOR'S OFFICE FOR CHILDREN AND FAMILIES",
-          "url": "https://www.law.cornell.edu/regulations/georgia/department-96"
+          "title": "Department 290 - RULES OF DEPARTMENT OF HUMAN SERVICES",
+          "url": "https://www.law.cornell.edu/regulations/georgia/department-290"
         },
         {
-          "title": "Department 97 - DEPARTMENT OF JUVENILE JUSTICE",
-          "url": "https://www.law.cornell.edu/regulations/georgia/department-97"
+          "title": "Chapter 290-2 - FAMILY AND CHILDREN SERVICES",
+          "url": "https://www.law.cornell.edu/regulations/georgia/department-290/chapter-290-2"
         },
         {
-          "title": "Department 98 - GRANTS OF THE CHILDREN'S TRUST FUND COMMISSION",
-          "url": "https://www.law.cornell.edu/regulations/georgia/department-98"
+          "title": "Subject 290-9-2 - RULES AND REGULATIONS FOR CHILD-PLACING AGENCIES",
+          "url": "https://www.law.cornell.edu/regulations/georgia/department-290/chapter-290-9/subject-290-9-2"
+        },
+        {
+          "title": "Georgia Division of Family and Children Services Child Welfare Policy Manual (DFCS policy; not part of the Official Compilation of Rules and Regulations of the State of Georgia)",
+          "url": "https://pamms.dhs.ga.gov/dfcs/cws/"
         }
       ],
       "source_url": "https://www.law.cornell.edu/regulations/georgia.html"
@@ -136,7 +147,7 @@
         },
         {
           "case_id": "s26y0129",
-          "title": "IN THE MATTER OF JE\u2019NITA LANE",
+          "title": "IN THE MATTER OF JE’NITA LANE",
           "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s26y0129.html",
           "year": 2025,
           "court": "Supreme Court",
@@ -256,48 +267,54 @@
     }
   },
   "state_agency": {
-    "name": "Division of Family and Children Services",
+    "name": "Georgia Division of Family and Children Services",
     "acronym": "DFCS",
     "hotline": "1-855-422-4453",
-    "website": "https://www.legis.ga.gov"
+    "website": "https://dfcs.georgia.gov/"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Shelter Staff",
-    "Childcare Staff",
-    "Clergy",
-    "Coaches",
-    "EMTs/Emergency Personnel"
+    "Physicians licensed to practice medicine, physician assistants, interns, or residents — O.C.G.A. § 19-7-5(c)(1)",
+    "Hospital or medical personnel",
+    "Dentists",
+    "Licensed psychologists and persons in internships to obtain licensure (O.C.G.A. Title 43, Ch. 39)",
+    "Podiatrists",
+    "Registered professional nurses, licensed practical nurses (O.C.G.A. Title 43, Ch. 26), or nurse's aides",
+    "Professional counselors, social workers, or marriage and family therapists (O.C.G.A. Title 43, Ch. 10A)",
+    "School teachers",
+    "School administrators",
+    "School counselors, visiting teachers, school social workers, or school psychologists (O.C.G.A. Title 20, Ch. 2)",
+    "Child welfare agency personnel (as defined in O.C.G.A. § 49-5-12)",
+    "Child-counseling personnel",
+    "Child service organization personnel — anyone employed by or volunteering at an organization that provides care, treatment, education, training, supervision, coaching, counseling, recreational programs, or shelter to children (O.C.G.A. § 19-7-5(b)(6))",
+    "Law enforcement personnel",
+    "Reproductive health care facility or pregnancy resource center personnel and volunteers",
+    "Clergy — must report unless the information was received solely within confession or a similar communication required to be kept confidential under church doctrine (O.C.G.A. § 19-7-5(g))"
   ],
   "reporting_type": "centralized",
-  "reporting_details": "Not applicable",
+  "reporting_details": "Georgia is not a universal-reporting state: only the professionals listed in O.C.G.A. § 19-7-5(c)(1) — plus clergy outside the confessional under § 19-7-5(g) — must report suspected child abuse, orally or in writing, immediately and in no case later than 24 hours (§ 19-7-5(e)(2)), while any other person may report but is not required to (§ 19-7-5(d)).",
   "definitions": {
     "abuse": [
-      "Physical abuse",
-      "Sexual abuse",
-      "Emotional abuse",
-      "Human trafficking",
-      "Domestic violence exposure",
-      "Failure to protect",
-      "Factitious disorder (Munchausen by proxy)"
+      "Physical injury or death inflicted upon a child by a parent, guardian, legal custodian, or other person responsible for the care of such child by other than accidental means; provided, however, that physical forms of discipline may be used as long as there is no physical injury to the child (O.C.G.A. 19-7-5(b)(5)(A))",
+      "Neglect of a child by a parent, guardian, legal custodian, or other person responsible for the care of such child (O.C.G.A. 19-7-5(b)(5)(B))",
+      "Emotional abuse of a child (O.C.G.A. 19-7-5(b)(5)(C))",
+      "Sexual abuse or sexual exploitation of a child (O.C.G.A. 19-7-5(b)(5)(D))",
+      "Prenatal abuse of a child by a parent (O.C.G.A. 19-7-5(b)(5)(E))",
+      "An act or failure to act that presents an imminent risk of serious harm to the child's physical, mental, or emotional health (O.C.G.A. 19-7-5(b)(5)(F))",
+      "Trafficking a child for labor servitude (O.C.G.A. 19-7-5(b)(5)(G))"
     ],
     "neglect": [
-      "General neglect",
-      "Medical neglect",
-      "Educational neglect",
-      "Abandonment",
-      "Inadequate supervision",
-      "Inadequate shelter/housing",
-      "Inadequate clothing",
-      "Malnourishment/failure to provide food",
-      "Injurious environment"
+      "The failure to provide proper parental care or control, subsistence, education as required by law, or other care or control necessary for a child's physical, mental, or emotional health or morals (O.C.G.A. 19-7-5(b)(11)(A))",
+      "The failure to provide a child with adequate supervision necessary for such child's well-being (O.C.G.A. 19-7-5(b)(11)(B))",
+      "The abandonment of a child by his or her parent, guardian, or legal custodian (O.C.G.A. 19-7-5(b)(11)(C))"
     ],
-    "other": [],
+    "other": [
+      "\"Child\" means any person under 18 years of age (O.C.G.A. 19-7-5(b)(4))",
+      "\"Emotional abuse\" means acts or omissions by a parent, guardian, legal custodian, or other person responsible for the care of a child that cause any mental injury to such child's intellectual or psychological capacity as evidenced by an observable and significant impairment in such child's ability to function within a child's normal range of performance and behavior or that create a substantial risk of impairment (O.C.G.A. 19-7-5(b)(8))",
+      "\"Person responsible for the care of a child\" means an adult member of a child's household; a person exercising supervision over a child for any part of the 24 hour day; or any adult who, based on his or her relationship to the parent, guardian, or legal custodian or a member of a child's household, has access to such child (O.C.G.A. 19-7-5(b)(12))"
+    ],
     "substance_related": [
-      "Prenatal drug/alcohol exposure"
+      "Prenatal abuse: exposure to chronic or severe use of alcohol or the unlawful use of any controlled substance (as defined in O.C.G.A. 16-13-21) which results in symptoms of withdrawal in a newborn or the presence of a controlled substance or a metabolite thereof in a newborn's body, blood, urine, or meconium that is not the result of medical treatment (O.C.G.A. 19-7-5(b)(14)(A))",
+      "Prenatal abuse: exposure to chronic or severe use of alcohol or the unlawful use of any controlled substance (as defined in O.C.G.A. 16-13-21) which results in medically diagnosed and harmful effects in a newborn's physical appearance or functioning (O.C.G.A. 19-7-5(b)(14)(B))"
     ]
   },
   "_metadata": {
@@ -328,17 +345,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
-      "starts_from": "Report received",
-      "source": "state_statute",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "deadline": "Immediate (present danger); 24 hours (impending danger); 5 weekdays (abuse indicated, no safety threat)",
+      "starts_from": "Receipt of the intake report",
+      "source": "admin_rule",
+      "source_url": "https://pamms.dhs.ga.gov/dfcs/cws/03-32/",
+      "consequence_of_miss": "Not specified in policy; the assigned window is the maximum time allowed to make face-to-face purposeful contact with the alleged victim child"
     },
     {
       "requirement_name": "Investigation completion",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
-      "source": "state_statute",
-      "consequence_of_miss": "Case dismissal risk"
+      "deadline": "45 calendar days",
+      "starts_from": "Receipt of the intake report",
+      "source": "admin_rule",
+      "source_url": "https://pamms.dhs.ga.gov/dfcs/cws/05-01/",
+      "consequence_of_miss": "Not specified in policy; the investigation must also be submitted to and approved by the Social Services Supervisor within the same 45 calendar days"
     }
   ],
   "notice_requirements": [

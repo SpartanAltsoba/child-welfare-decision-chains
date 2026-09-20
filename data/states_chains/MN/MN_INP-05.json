@@ -6,8 +6,8 @@
   "subnode": "INP-05",
   "trigger_name": "Self-Report / Guardian Request",
   "summary_html": "A **parent/guardian/child requests help** without a substantiated allegation. FFPSA created a federal pathway for **prevention services** to avert removal and stabilize families before a case escalates.",
-  "authority_html": "- **Family First Prevention Services Act (2018)** \u2014 prevention services, kinship support; shifts upstream from removal to support",
-  "icon": "\ud83e\udde9",
+  "authority_html": "- **Family First Prevention Services Act (2018)** — prevention services, kinship support; shifts upstream from removal to support",
+  "icon": "🧩",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -24,39 +24,39 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 671\u2013679b (FFPSA-related IV-E changes)"
+        "42 U.S.C. §§ 671–679b (FFPSA-related IV-E changes)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Minnesota - Minn. Stat. \u00a7\u00a0626.556 (Reporting of Maltreatment of Minors Act)",
-          "source_url": "https://www.revisor.mn.gov/statutes/cite/626",
+          "citation_text": "Minnesota - Minn. Stat. ch. 260E (Reporting of Maltreatment of Minors)",
+          "source_url": "https://www.revisor.mn.gov/statutes/cite/260E",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Minnesota - Minn. Stat. Chapters\u00a0260C and 260E (Child protection and services)",
+          "citation_text": "Minnesota - Minn. Stat. ch. 260C (Juvenile Safety and Placement)",
           "source_url": "https://www.revisor.mn.gov/statutes/cite/260C",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 256: Human Services - DHS",
-          "source_url": "https://law.justia.com/codes/minnesota/title-256/",
+          "citation_text": "Minnesota - Minn. Stat. ch. 142A (Department of Children, Youth, and Families)",
+          "source_url": "https://www.revisor.mn.gov/statutes/cite/142A",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 260: Juvenile Court Act",
-          "source_url": "https://law.justia.com/codes/minnesota/title-260/",
+          "citation_text": "Minnesota - Minn. Stat. ch. 260 (Juvenile Court; Child Placement; Compacts — includes the Minnesota Indian Family Preservation Act, §§ 260.751–260.835)",
+          "source_url": "https://www.revisor.mn.gov/statutes/cite/260",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -66,19 +66,19 @@
     "administrative_rule": {
       "regulations_applicable": [
         {
-          "title": "Agency 152 - Marriage and Family Therapy Board",
-          "url": "https://www.law.cornell.edu/regulations/minnesota/agency-152"
+          "title": "Minnesota Rules, Chapter 9560 - Social Services for Children",
+          "url": "https://www.revisor.mn.gov/rules/9560/"
         },
         {
-          "title": "Agency 172 - Private Detective and Protective Agent Services Board",
-          "url": "https://www.law.cornell.edu/regulations/minnesota/agency-172"
+          "title": "Minnesota Rules, parts 9560.0210 to 9560.0234 - Protective Services for Children",
+          "url": "https://www.revisor.mn.gov/rules/9560.0210/"
         },
         {
-          "title": "Agency 196 - Human Services Department",
-          "url": "https://www.law.cornell.edu/regulations/minnesota/agency-196"
+          "title": "Minnesota Rules, parts 9560.0410 to 9560.0485 - Children in Need of Protection or Services",
+          "url": "https://www.revisor.mn.gov/rules/9560.0410/"
         }
       ],
-      "source_url": "https://www.law.cornell.edu/regulations/minnesota.html"
+      "source_url": "https://www.revisor.mn.gov/rules/"
     },
     "state_constitutional": {
       "plane_reference": "state_constitutional_MN",
@@ -109,7 +109,7 @@
       "key_cases": [
         {
           "case_id": "a24-1562",
-          "title": "In the Matter of the Petition of Minnesota Association of Residential Services Homes (MARSH) under Minn. Stat. \u00c2\u00a7 14.381, subd. 1, for a Declaration that the Minnesota Department of Human Services Is Enforcing Unadopted Rules",
+          "title": "In the Matter of the Petition of Minnesota Association of Residential Services Homes (MARSH) under Minn. Stat. Â§ 14.381, subd. 1, for a Declaration that the Minnesota Department of Human Services Is Enforcing Unadopted Rules",
           "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2025/a24-1562.html",
           "year": 2025,
           "court": "Court Of Appeals",
@@ -229,22 +229,24 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Services",
-    "acronym": "DHS",
-    "hotline": "1-800-422-4453",
-    "website": "https://www.leg.state.mn.us"
+    "name": "Minnesota Department of Children, Youth, and Families",
+    "acronym": "DCYF",
+    "hotline": "No statewide hotline. Call the county or Tribal child protection agency where the child lives — the directory link is on dcyf.mn.gov/individuals-and-families/report-abuse",
+    "website": "https://dcyf.mn.gov/"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Shelter Staff",
-    "Childcare Staff",
-    "Clergy",
-    "Foster Parents",
-    "Coaches",
-    "EMTs/Emergency Personnel"
+    "Designated professionals only (not universal) — Minn. Stat. § 260E.06, subd. 1; any person may voluntarily report but is not required to (§ 260E.06, subd. 2)",
+    "A professional or professional's delegate engaged in the practice of the healing arts — Minn. Stat. § 260E.06, subd. 1(a)(1)",
+    "A professional or professional's delegate engaged in social services, including employee assistance counseling and guardian ad litem and parenting time expeditor services — Minn. Stat. § 260E.06, subd. 1(a)(1) and (b)",
+    "A professional or professional's delegate engaged in hospital administration — Minn. Stat. § 260E.06, subd. 1(a)(1)",
+    "A professional or professional's delegate engaged in psychological or psychiatric treatment — Minn. Stat. § 260E.06, subd. 1(a)(1)",
+    "A professional or professional's delegate engaged in child care — Minn. Stat. § 260E.06, subd. 1(a)(1)",
+    "A professional or professional's delegate engaged in education — Minn. Stat. § 260E.06, subd. 1(a)(1)",
+    "A professional or professional's delegate engaged in correctional supervision or probation and correctional services — Minn. Stat. § 260E.06, subd. 1(a)(1)",
+    "A professional or professional's delegate engaged in law enforcement — Minn. Stat. § 260E.06, subd. 1(a)(1)",
+    "A member of the clergy who received the information while engaged in ministerial duties, except information privileged under § 595.02, subd. 1(c) — Minn. Stat. § 260E.06, subd. 1(a)(2)",
+    "An employee or supervisor of a private or public youth recreation program (including coaching staff), as to abuse by another employee or supervisor or abuse a child discloses — Minn. Stat. § 260E.055, subd. 1(d) and subd. 2",
+    "A parent, guardian, or caretaker relying on spiritual means or prayer in lieu of medical care, when the lack of medical care may cause serious danger to the child's health — Minn. Stat. § 260E.06, subd. 3"
   ],
   "reporting_type": "decentralized",
   "definitions": {
@@ -308,17 +310,23 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
-      "starts_from": "Report received",
+      "deadline": "Except in a noncaregiver human trafficking assessment: immediately if sexual abuse or substantial child endangerment is alleged; within 5 calendar days for all other screened in reports",
+      "starts_from": "Report screened in",
       "source": "state_statute",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "source_url": "https://www.revisor.mn.gov/statutes/cite/260E.20",
+      "consequence_of_miss": "Not specified by statute; Minn. Stat. § 260E.20, subd. 2(b) sets the face-to-face contact deadline for the local welfare agency.",
+      "extension_allowed": true,
+      "extension_grounds": "Face-to-face contact on a report alleging sexual abuse or substantial child endangerment may be postponed for no more than five calendar days if the child is residing in a location confirmed to restrict contact with the alleged offender, or if the local welfare agency is pursuing a court order for the caregiver to produce the child for questioning under Minn. Stat. § 260E.22, subd. 5 (§ 260E.20, subd. 2(b))."
     },
     {
       "requirement_name": "Investigation completion",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
+      "deadline": "45 days",
+      "starts_from": "Receipt of the report",
       "source": "state_statute",
-      "consequence_of_miss": "Case dismissal risk"
+      "source_url": "https://www.revisor.mn.gov/statutes/cite/260E.24",
+      "consequence_of_miss": "Not specified by statute; Minn. Stat. § 260E.24, subd. 1 requires the local welfare agency to conclude the assessment or investigation within 45 days.",
+      "extension_allowed": true,
+      "extension_grounds": "Only to complete a criminal investigation or to receive expert information requested within 45 days of receipt of the report (Minn. Stat. § 260E.24, subd. 1)."
     }
   ],
   "notice_requirements": [

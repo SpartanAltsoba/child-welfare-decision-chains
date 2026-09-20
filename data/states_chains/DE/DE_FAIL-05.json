@@ -6,8 +6,8 @@
   "subnode": "FAIL-05",
   "trigger_name": "Discrimination / Retaliation",
   "summary_html": "Agency or actor engages in **discriminatory or retaliatory action**, violating civil-rights or placement-equality provisions. Federal statutes prohibit race, religion, sex, or disability bias in placements or investigations.",
-  "authority_html": "- **Multiethnic Placement Act (MEPA) & Interethnic Adoption Provisions (IEP)** \u2014 prohibits race/ethnicity discrimination in placements  \n- **Civil Rights Act (42 U.S.C. \u00a7 2000d)** \u2014 Title VI discrimination prohibitions in federally funded programs",
-  "icon": "\ud83d\udeab",
+  "authority_html": "- **Multiethnic Placement Act (MEPA) & Interethnic Adoption Provisions (IEP)** — prohibits race/ethnicity discrimination in placements  \n- **Civil Rights Act (42 U.S.C. § 2000d)** — Title VI discrimination prohibitions in federally funded programs",
+  "icon": "🚫",
   "theme_color": "#800080",
   "domain": "civil",
   "procedural_weight": 0.75,
@@ -24,49 +24,49 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 103-382 (MEPA/IEP)",
-        "42 U.S.C. \u00a7 2000d (Title VI Civil Rights Act)"
+        "42 U.S.C. § 2000d (Title VI Civil Rights Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Delaware - Title 16, Chapter 9 (Abuse of Children \u2013 reporting requirements)",
+          "citation_text": "Delaware - Title 16, Chapter 9 (Abuse of Children – reporting requirements)",
           "source_url": "https://delcode.delaware.gov/title16/c009/index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Delaware - Title 13, Chapter 25 (Dependent children proceedings)",
+          "citation_text": "Delaware - Title 13, Chapter 25 (DSCYF Custody)",
           "source_url": "https://delcode.delaware.gov/title13/c025/index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Title 13: Domestic Relations - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/delaware/title-13/",
+          "source_url": "https://delcode.delaware.gov/title13/index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 16: Health and Safety - Child Abuse",
-          "source_url": "https://law.justia.com/codes/delaware/title-16/",
+          "source_url": "https://delcode.delaware.gov/title16/index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 31: Welfare",
-          "source_url": "https://law.justia.com/codes/delaware/title-31/",
+          "source_url": "https://delcode.delaware.gov/title31/index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         }
@@ -75,8 +75,16 @@
     "administrative_rule": {
       "regulations_applicable": [
         {
+          "title": "Delaware Administrative Code, Title 9 — Services for Children, Youth and Their Families (DSCYF)",
+          "url": "https://regulations.delaware.gov/AdminCode/title9",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
+        },
+        {
           "title": "Title 9 - Services for Children Youth and Their Families",
-          "url": "https://www.law.cornell.edu/regulations/delaware/title-9"
+          "url": "https://www.law.cornell.edu/regulations/delaware/title-9",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
         },
         {
           "title": "Delaware Administrative Rule Title 13",
@@ -304,10 +312,10 @@
     }
   },
   "state_agency": {
-    "name": "Division of Family Services",
+    "name": "Delaware Division of Family Services",
     "acronym": "DFS",
     "hotline": "1-800-292-9582",
-    "website": "https://legis.delaware.gov"
+    "website": "https://kids.delaware.gov/family-services/"
   },
   "linked_output": "OUT-02",
   "linked_action": "ACT-04",
@@ -343,9 +351,10 @@
     {
       "requirement_name": "Appeal deadline",
       "deadline": "30 days",
-      "starts_from": "Final order",
-      "source": "court_rule",
-      "consequence_of_miss": "Loss of appeal rights"
+      "starts_from": "Date of the Family Court order or decree in the DSCYF custody (dependency/neglect) case",
+      "source": "state_statute",
+      "source_url": "https://delcode.delaware.gov/title13/c025/sc01/index.html#2507",
+      "consequence_of_miss": "No appeal lies from the order or decree; it stands as entered (13 Del. C. § 2507)."
     },
     {
       "requirement_name": "1983 statute of limitations",

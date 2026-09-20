@@ -6,8 +6,8 @@
   "subnode": "INP-09",
   "trigger_name": "Systemic Audit / Oversight Trigger",
   "summary_html": "Findings by **federal/state oversight** (CFSR reviews, OIG audits, child-fatality commissions) can initiate investigations or corrective actions that open CPS involvement.",
-  "authority_html": "- **Protect Our Kids Act (PL 112-275)** \u2014 national commission on child abuse/neglect fatalities  \n- **Child & Family Services Reviews (45 CFR Part 1355)** \u2014 federal monitoring of state systems  \n- **Inspector General Act (5 U.S.C. App.)** \u2014 OIG oversight of HHS/ACF and grantees",
-  "icon": "\ud83e\uddfe",
+  "authority_html": "- **Protect Our Kids Act (PL 112-275)** — national commission on child abuse/neglect fatalities  \n- **Child & Family Services Reviews (45 CFR Part 1355)** — federal monitoring of state systems  \n- **Inspector General Act (5 U.S.C. App.)** — OIG oversight of HHS/ACF and grantees",
+  "icon": "🧾",
   "theme_color": "#708090",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -18,7 +18,7 @@
     "CFSR_CFR": "https://www.law.cornell.edu/cfr/text/45/part-1355",
     "CFSR_eCFR": "https://www.ecfr.gov/current/title-45/subtitle-B/chapter-XIII/subchapter-G/part-1355",
     "ACF_CFSR": "https://www.acf.hhs.gov/cb/monitoring/child-family-services-reviews",
-    "IGA_Cornell": "https://www.law.cornell.edu/uscode/text/5a/appendix-3"
+    "IGA_Cornell": "https://www.law.cornell.edu/uscode/text/5/part-I/chapter-4"
   },
   "layers": {
     "constitutional": {
@@ -35,34 +35,35 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Montana - Title 41, Chapter\u00a03 (Child Abuse and Neglect \u2013 mandatory reporting and protective services)",
-          "source_url": "https://leg.mt.gov",
+          "citation_text": "Montana - Title 41, Chapter 3 (Child Abuse and Neglect – mandatory reporting and protective services)",
+          "source_url": "https://mca.legmt.gov/bills/mca/title_0410/chapter_0030/parts_index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 41: Minors - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/montana/title-41/",
+          "source_url": "https://mca.legmt.gov/bills/mca/title_0410/chapters_index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 42: Adoption",
-          "source_url": "https://law.justia.com/codes/montana/title-42/",
+          "source_url": "https://mca.legmt.gov/bills/mca/title_0420/chapters_index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 52: Family Services - DPHHS",
-          "source_url": "https://law.justia.com/codes/montana/title-52/",
+          "source_url": "https://mca.legmt.gov/bills/mca/title_0520/chapters_index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -300,23 +301,27 @@
     }
   },
   "state_agency": {
-    "name": "Child & Family Services Division (DPHHS)",
-    "acronym": "DPHHS-CFSD",
-    "hotline": "1-866-820-5437",
-    "website": "https://leg.mt.gov"
+    "name": "Montana Department of Public Health and Human Services, Child and Family Services Division",
+    "acronym": "CFSD",
+    "hotline": "1-866-820-5437 (toll free, 24 hours); TTY (hearing impaired) 1-866-341-8811",
+    "website": "https://dphhs.mt.gov/cfsd/"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Childcare Staff",
-    "Clergy",
-    "Foster Parents",
-    "Coroners"
+    "Physicians, residents, interns, and hospital staff engaged in the admission, examination, care, or treatment of persons — Mont. Code Ann. § 41-3-201(2)(a)",
+    "Nurses, osteopaths, chiropractors, podiatrists, medical examiners, coroners, dentists, optometrists, and any other health or mental health professionals — Mont. Code Ann. § 41-3-201(2)(b)",
+    "Religious healers — Mont. Code Ann. § 41-3-201(2)(c)",
+    "School teachers, other school officials, and employees who work during regular school hours — Mont. Code Ann. § 41-3-201(2)(d)",
+    "Social workers licensed pursuant to Title 37, child protection investigators, child reunification specialists, operators or employees of any registered or licensed day-care or substitute care facility, staff of a resource and referral grant program organized under § 52-2-711 or of a child and adult food care program, and operators or employees of a child-care facility — Mont. Code Ann. § 41-3-201(2)(e)",
+    "Foster care, residential, and institutional workers — Mont. Code Ann. § 41-3-201(2)(f)",
+    "Peace officers and other law enforcement officials — Mont. Code Ann. § 41-3-201(2)(g)",
+    "Members of the clergy, subject to the confessional and canon-law exceptions — Mont. Code Ann. § 41-3-201(2)(h), (6)(b)–(c)",
+    "Guardians ad litem and court-appointed advocates authorized to investigate a report of alleged abuse or neglect — Mont. Code Ann. § 41-3-201(2)(i)",
+    "Employees of entities that contract with the department to provide direct services to children — Mont. Code Ann. § 41-3-201(2)(j)",
+    "Department employees while in the conduct of their duties — Mont. Code Ann. § 41-3-201(2)(k)",
+    "Added duty: a professional listed in § 41-3-201(2)(a) or (2)(b) who is involved in the delivery or care of an infant must report any infant known to the professional to be affected by a dangerous drug, as defined in § 50-32-101 — Mont. Code Ann. § 41-3-201(3)"
   ],
   "reporting_type": "centralized",
-  "reporting_details": "Not applicable",
+  "reporting_details": "Montana is not a universal-reporter state: only the professionals and officials listed in Mont. Code Ann. § 41-3-201(2) must report promptly to the department when, in their professional or official capacity, they know or have reasonable cause to suspect a child is abused or neglected, while § 41-3-201(4) allows any other person to report voluntarily.",
   "definitions": {
     "abuse": [
       "Physical abuse",
@@ -377,15 +382,16 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
-      "requirement_name": "Investigation completion",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
+      "requirement_name": "Written safety and risk assessment furnished",
+      "deadline": "60 days",
+      "starts_from": "Commencement of the investigation",
       "source": "state_statute",
-      "consequence_of_miss": "Case dismissal risk"
+      "source_url": "https://mca.legmt.gov/bills/mca/title_0410/chapter_0030/part_0020/section_0020/0410-0030-0020-0020.html",
+      "consequence_of_miss": "Statute states no penalty; within 60 days the child protection investigator must furnish the written safety and risk assessment to the department and, on request, to the family (Mont. Code Ann. § 41-3-202(6))"
     }
   ],
   "notice_requirements": [

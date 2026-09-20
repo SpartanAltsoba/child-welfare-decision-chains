@@ -5,9 +5,9 @@
   "node_family": "INP",
   "subnode": "INP-03",
   "trigger_name": "Law-Enforcement Referral",
-  "summary_html": "A **law-enforcement agency** encounters suspected maltreatment (e.g., during a domestic call or arrest) and **refers** to CPS. Federal child-abuse infrastructure promotes coordinated investigations via Children\u2019s Advocacy Centers.",
-  "authority_html": "- **Victims of Child Abuse Act (34 U.S.C. \u00a7\u00a7 20301\u201320307)** \u2014 support for multidisciplinary teams and CAC protocols; coordination with CPS  \n- **ASFA/SSA IV-E** \u2014 court findings and reasonable-efforts determinations later constrain downstream actions",
-  "icon": "\ud83d\ude94",
+  "summary_html": "A **law-enforcement agency** encounters suspected maltreatment (e.g., during a domestic call or arrest) and **refers** to CPS. Federal child-abuse infrastructure promotes coordinated investigations via Children’s Advocacy Centers.",
+  "authority_html": "- **Victims of Child Abuse Act (34 U.S.C. §§ 20301–20307)** — support for multidisciplinary teams and CAC protocols; coordination with CPS  \n- **ASFA/SSA IV-E** — court findings and reasonable-efforts determinations later constrain downstream actions",
+  "icon": "🚔",
   "theme_color": "#DC143C",
   "domain": "civil",
   "procedural_weight": 0.45,
@@ -25,32 +25,33 @@
     },
     "federal": {
       "requirements_applicable": [
-        "34 U.S.C. \u00a7\u00a7 20301\u201320307 (Victims of Child Abuse Act)",
-        "42 U.S.C. \u00a7\u00a7 671\u2013675 (ASFA-related IV-E conditions)"
+        "34 U.S.C. §§ 20301–20307 (Victims of Child Abuse Act)",
+        "42 U.S.C. §§ 671–675 (ASFA-related IV-E conditions)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "South Carolina - S.C. Code Title\u00a063, Chapter\u00a07 (Child Protection Act \u2013 includes \u00a7\u00a063-7-310 reporting)",
-          "source_url": "https://www.scstatehouse.gov",
+          "citation_text": "S.C. Code Ann. Title 63, Chapter 7 — Child Protection and Permanency (includes § 63-7-310 mandatory reporting)",
+          "source_url": "https://www.scstatehouse.gov/code/t63c007.php",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 43: Social Services - DSS",
-          "source_url": "https://law.justia.com/codes/south-carolina/title-43/",
+          "source_url": "https://www.scstatehouse.gov/code/title43.php",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 63: South Carolina Children's Code - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/south-carolina/title-63/",
+          "source_url": "https://www.scstatehouse.gov/code/title63.php",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -60,19 +61,19 @@
     "administrative_rule": {
       "regulations_applicable": [
         {
-          "title": "Chapter 24 - OFFICE OF THE GOVERNOR- DIVISION FOR REVIEW OF THE FOSTER CARE OF CHILDREN",
-          "url": "https://www.law.cornell.edu/regulations/south-carolina/chapter-24"
+          "title": "Chapter 24 - OFFICE OF THE GOVERNOR-- DIVISION FOR REVIEW OF THE FOSTER CARE OF CHILDREN",
+          "url": "https://www.scstatehouse.gov/coderegs/Chapter%2024.pdf"
         },
         {
-          "title": "Chapter 31 - OFFICE OF THE GOVERNOR- CONTINUUM OF CARE FOR EMOTIONALLY DISTURBED CHILDREN DIVISION",
-          "url": "https://www.law.cornell.edu/regulations/south-carolina/chapter-31"
+          "title": "Chapter 31 - OFFICE OF THE GOVERNOR-- CONTINUUM OF CARE FOR EMOTIONALLY DISTURBED CHILDREN DIVISION",
+          "url": "https://www.scstatehouse.gov/coderegs/Chapter%2031.pdf"
         },
         {
-          "title": "Chapter 36 - DEPARTMENT OF LABOR, LICENSING AND REGULATION BOARD OF EXAMINERS FOR LICENSURE OF PROFESSIONAL COUNSELORS, MARRIAGE AND FAMILY THERAPISTS, ADDICTION COUNSELORS, AND PSYCHO-EDUCATIONAL SPECIALISTS",
-          "url": "https://www.law.cornell.edu/regulations/south-carolina/chapter-36"
+          "title": "Chapter 36 - DEPARTMENT OF LABOR, LICENSING AND REGULATION-- BOARD OF EXAMINERS FOR LICENSURE OF PROFESSIONAL COUNSELORS, MARRIAGE AND FAMILY THERAPISTS, ADDICTION COUNSELORS AND PSYCHO-EDUCATIONAL SPECIALISTS",
+          "url": "https://www.scstatehouse.gov/coderegs/Chapter%2036.pdf"
         }
       ],
-      "source_url": "https://www.law.cornell.edu/regulations/south-carolina.html"
+      "source_url": "https://www.scstatehouse.gov/coderegs/statmast.php"
     },
     "state_constitutional": {
       "plane_reference": "state_constitutional_SC",
@@ -236,22 +237,30 @@
     }
   },
   "state_agency": {
-    "name": "Department of Social Services",
+    "name": "South Carolina Department of Social Services",
     "acronym": "DSS",
     "hotline": "1-888-227-3487",
-    "website": "https://www.scstatehouse.gov"
+    "website": "https://dss.sc.gov/"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Childcare Staff",
-    "Clergy",
-    "Foster Parents",
-    "Coroners",
-    "EMTs/Emergency Personnel",
-    "Judges"
+    "Listed professionals only, acting in their professional capacity (South Carolina is not a universal-reporter state) — S.C. Code Ann. § 63-7-310(A)",
+    "Physicians, nurses, dentists, optometrists, medical examiners, coroners, and employees of a county medical examiner's or coroner's office",
+    "Any other medical, emergency medical services, mental health, or allied health professional",
+    "Members of the clergy, including Christian Science practitioners and religious healers",
+    "Clerical or nonclerical religious counselors who charge for services",
+    "School teachers, counselors, principals, assistant principals, and school attendance officers",
+    "Social or public assistance workers",
+    "Substance abuse treatment staff",
+    "Childcare workers in a childcare center or foster care facility",
+    "Foster parents",
+    "Police or law enforcement officers",
+    "Juvenile justice workers",
+    "Undertakers, funeral home directors, and employees of a funeral home",
+    "Persons responsible for processing films",
+    "Computer technicians",
+    "Judges",
+    "Volunteer non-attorney guardians ad litem serving on behalf of the South Carolina Guardian ad Litem Program or Richland County CASA",
+    "Any other person may report and is encouraged to report — S.C. Code Ann. § 63-7-310(D)"
   ],
   "reporting_type": "decentralized",
   "definitions": {
@@ -311,17 +320,47 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
-      "starts_from": "Report received",
+      "deadline": "24 hours (imminent and substantial risk, family may flee or child unavailable, or child already in DSS/emergency protective custody); 2 business days for all other reports",
+      "starts_from": "Receipt of the report by DSS",
       "source": "state_statute",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "source_url": "https://www.scstatehouse.gov/code/t63c007.php",
+      "citation": {
+        "citation_text": "S.C. Code Ann. § 63-7-920(A)(1)-(2)",
+        "source_url": "https://www.scstatehouse.gov/code/t63c007.php",
+        "authority_type": "state_statute",
+        "last_verified": "2026-09-19"
+      },
+      "consequence_of_miss": "Not specified in statute"
     },
     {
       "requirement_name": "Investigation completion",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
+      "deadline": "45 days",
+      "starts_from": "Receipt of the report by DSS",
       "source": "state_statute",
-      "consequence_of_miss": "Case dismissal risk"
+      "source_url": "https://www.scstatehouse.gov/code/t63c007.php",
+      "citation": {
+        "citation_text": "S.C. Code Ann. § 63-7-920(A)(3)",
+        "source_url": "https://www.scstatehouse.gov/code/t63c007.php",
+        "authority_type": "state_statute",
+        "last_verified": "2026-09-19"
+      },
+      "extension_allowed": true,
+      "extension_grounds": "A single extension of no more than 15 days may be granted by the DSS director or the director's designee for good cause shown",
+      "consequence_of_miss": "Not specified in statute"
+    },
+    {
+      "requirement_name": "Finding after a reopened investigation",
+      "deadline": "45 days",
+      "starts_from": "Reopening of an investigation that was classified unfounded Category III because DSS could not locate the child or family or for other compelling reasons",
+      "source": "state_statute",
+      "source_url": "https://www.scstatehouse.gov/code/t63c007.php",
+      "citation": {
+        "citation_text": "S.C. Code Ann. § 63-7-920(A)(4)",
+        "source_url": "https://www.scstatehouse.gov/code/t63c007.php",
+        "authority_type": "state_statute",
+        "last_verified": "2026-09-19"
+      },
+      "consequence_of_miss": "Not specified in S.C. Code Ann. § 63-7-920(A)(4)"
     }
   ],
   "notice_requirements": [

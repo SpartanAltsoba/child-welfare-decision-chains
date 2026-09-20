@@ -6,8 +6,8 @@
   "subnode": "INP-01",
   "trigger_name": "Mandatory Report",
   "summary_html": "**Mandatory reporters** (designated professionals) must report suspected child abuse or neglect. Federal law sets the funding and policy floor (CAPTA) and mandates reporter frameworks on federal lands/facilities (VICAA).",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 federal floor for state reporting systems  \n- **Victims of Child Abuse Act (34 U.S.C. \u00a7\u00a7 20301\u201320307)** \u2014 includes federal-facility reporter duties (recodified from former 42 U.S.C. \u00a713031)",
-  "icon": "\ud83d\udcde",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — federal floor for state reporting systems  \n- **Victims of Child Abuse Act (34 U.S.C. §§ 20301–20307)** — includes federal-facility reporter duties (recodified from former 42 U.S.C. §13031)",
+  "icon": "📞",
   "theme_color": "#1E90FF",
   "domain": "civil",
   "procedural_weight": 0.4,
@@ -27,27 +27,27 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
-        "34 U.S.C. \u00a7\u00a7 20301\u201320307 (Victims of Child Abuse Act)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
+        "34 U.S.C. §§ 20301–20307 (Victims of Child Abuse Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Maine - Title 22, Chapter 1071 (Child and Family Services and Child Protection Act \u2013 includes \u00a7\u00a04011-A reporting)",
+          "citation_text": "Maine - Title 22, Chapter 1071 (Child and Family Services and Child Protection Act – includes § 4011-A reporting)",
           "source_url": "https://legislature.maine.gov/statutes/22/title22ch1071sec0.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 22: Health and Welfare - DHHS - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/maine/title-22/",
+          "citation_text": "Maine — 22 M.R.S. § 4011-A (Reporting of suspected abuse or neglect; mandated reporters)",
+          "source_url": "https://legislature.maine.gov/statutes/22/title22sec4011-A.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
-          "title_code": "",
-          "chapter": ""
+          "title_code": "22",
+          "chapter": "1071"
         }
       ]
     },
@@ -286,24 +286,37 @@
     }
   },
   "state_agency": {
-    "name": "Department of Health and Human Services",
-    "acronym": "DHHS",
+    "name": "Maine Department of Health and Human Services, Office of Child and Family Services",
+    "acronym": "OCFS",
     "hotline": "1-800-452-1999",
-    "website": "https://legislature.maine.gov"
+    "website": "https://www.maine.gov/dhhs/ocfs"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Childcare Staff",
-    "Clergy",
-    "Foster Parents",
-    "Coroners",
-    "EMTs/Emergency Personnel"
+    "Physicians (allopathic or osteopathic), residents, interns, physician associates and medical examiners, acting in a professional capacity — 22 M.R.S. § 4011-A(1)(A)",
+    "Emergency medical services personnel — 22 M.R.S. § 4011-A(1)(A)",
+    "Dentists, dental hygienists and dental assistants — 22 M.R.S. § 4011-A(1)(A)",
+    "Chiropractors and podiatrists — 22 M.R.S. § 4011-A(1)(A)",
+    "Registered and licensed practical nurses — 22 M.R.S. § 4011-A(1)(A)",
+    "Teachers, guidance counselors and school officials — 22 M.R.S. § 4011-A(1)(A)",
+    "School bus drivers and school bus attendants — 22 M.R.S. § 4011-A(1)(A)",
+    "Youth camp administrators and counselors — 22 M.R.S. § 4011-A(1)(A)",
+    "Child care personnel — 22 M.R.S. § 4011-A(1)(A)",
+    "Social workers and medical or social service workers — 22 M.R.S. § 4011-A(1)(A)",
+    "Homemakers and home health aides — 22 M.R.S. § 4011-A(1)(A)",
+    "Psychologists and mental health professionals — 22 M.R.S. § 4011-A(1)(A)",
+    "Court-appointed special advocates and guardians ad litem for the child — 22 M.R.S. § 4011-A(1)(A)",
+    "Law enforcement officials — 22 M.R.S. § 4011-A(1)(A)",
+    "State and municipal fire inspectors and municipal code enforcement officials — 22 M.R.S. § 4011-A(1)(A)",
+    "Commercial film and photographic print processors — 22 M.R.S. § 4011-A(1)(A)",
+    "Clergy members acquiring the information as a result of clerical professional work, except information received during confidential communications — 22 M.R.S. § 4011-A(1)(A)",
+    "Chairs of professional licensing boards with jurisdiction over mandated reporters — 22 M.R.S. § 4011-A(1)(A)",
+    "Humane agents employed by the Department of Agriculture, Conservation and Forestry — 22 M.R.S. § 4011-A(1)(A)",
+    "Sexual assault counselors and family or domestic violence victim advocates — 22 M.R.S. § 4011-A(1)(A)",
+    "Any person who has assumed full, intermittent or occasional responsibility for the care or custody of the child, whether or not paid — 22 M.R.S. § 4011-A(1)(B)",
+    "Any person affiliated with a church or religious institution who serves in an administrative capacity or has otherwise assumed a position of trust or responsibility to its members, while acting in that capacity — 22 M.R.S. § 4011-A(1)(C)"
   ],
   "reporting_type": "centralized",
-  "reporting_details": "Not applicable",
+  "reporting_details": "Maine is not a universal-reporting state: the adults listed in 22 M.R.S. § 4011-A(1) must immediately report to the Department of Health and Human Services when they know or have reasonable cause to suspect that a child has been or is likely to be abused or neglected or that a suspicious child death has occurred, and any other person may report voluntarily under § 4011-A(3).",
   "definitions": {
     "abuse": [
       "Physical abuse",
@@ -361,17 +374,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
-      "starts_from": "Report received",
-      "source": "state_statute",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "deadline": "24 hours or 3 days, as assigned at intake using the SDM Intake Assessment Tool",
+      "starts_from": "Screen-in of the report for assignment",
+      "source": "admin_rule",
+      "source_url": "https://www.maine.gov/dhhs/sites/maine.gov.dhhs/files/inline-files/2.1%20Intake%20Screening%20and%20Assignment%20Policy.pdf",
+      "consequence_of_miss": "Not specified in OCFS Policy 2.1, Intake Screening and Assignment"
     },
     {
       "requirement_name": "Investigation completion",
-      "deadline": "30-60 days",
+      "deadline": "Within 45 days; if the investigation stays open beyond 60 days, monthly contacts are required until closure",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
-      "consequence_of_miss": "Case dismissal risk"
+      "source": "admin_rule",
+      "source_url": "https://www.maine.gov/dhhs/sites/maine.gov.dhhs/files/inline-files/2.2%20Child%20Protection%20Investigation_0.pdf",
+      "consequence_of_miss": "Not specified in OCFS Policy 2.2, Child Protection Investigation"
     }
   ],
   "notice_requirements": [

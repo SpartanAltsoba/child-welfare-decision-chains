@@ -6,8 +6,8 @@
   "subnode": "DEC-01",
   "trigger_name": "Screen-Out / Unfounded at Intake",
   "summary_html": "CPS **screens out** a report (no investigation) or closes as **unfounded** after minimal review. Federal law (CAPTA) conditions funding on operating screening criteria and recordkeeping; federal reviews (CFSR) assess decision quality.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 screening & intake system requirements  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal performance/quality review of state screening and responses",
-  "icon": "\ud83d\udeab",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — screening & intake system requirements  \n- **CFSR Regulations (45 CFR Part 1355)** — federal performance/quality review of state screening and responses",
+  "icon": "🚫",
   "theme_color": "#4B9CD3",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -26,40 +26,40 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Minnesota - Minn. Stat. \u00a7\u00a0626.556 (Reporting of Maltreatment of Minors Act)",
-          "source_url": "https://www.revisor.mn.gov/statutes/cite/626",
+          "citation_text": "Minnesota - Minn. Stat. ch. 260E (Reporting of Maltreatment of Minors)",
+          "source_url": "https://www.revisor.mn.gov/statutes/cite/260E",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Minnesota - Minn. Stat. Chapters\u00a0260C and 260E (Child protection and services)",
+          "citation_text": "Minnesota - Minn. Stat. ch. 260C (Juvenile Safety and Placement)",
           "source_url": "https://www.revisor.mn.gov/statutes/cite/260C",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 256: Human Services - DHS",
-          "source_url": "https://law.justia.com/codes/minnesota/title-256/",
+          "citation_text": "Minnesota - Minn. Stat. ch. 142A (Department of Children, Youth, and Families)",
+          "source_url": "https://www.revisor.mn.gov/statutes/cite/142A",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 260: Juvenile Court Act",
-          "source_url": "https://law.justia.com/codes/minnesota/title-260/",
+          "citation_text": "Minnesota - Minn. Stat. ch. 260 (Juvenile Court; Child Placement; Compacts — includes the Minnesota Indian Family Preservation Act, §§ 260.751–260.835)",
+          "source_url": "https://www.revisor.mn.gov/statutes/cite/260",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -69,19 +69,19 @@
     "administrative_rule": {
       "regulations_applicable": [
         {
-          "title": "Agency 152 - Marriage and Family Therapy Board",
-          "url": "https://www.law.cornell.edu/regulations/minnesota/agency-152"
+          "title": "Minnesota Rules, Chapter 9560 - Social Services for Children",
+          "url": "https://www.revisor.mn.gov/rules/9560/"
         },
         {
-          "title": "Agency 172 - Private Detective and Protective Agent Services Board",
-          "url": "https://www.law.cornell.edu/regulations/minnesota/agency-172"
+          "title": "Minnesota Rules, parts 9560.0210 to 9560.0234 - Protective Services for Children",
+          "url": "https://www.revisor.mn.gov/rules/9560.0210/"
         },
         {
-          "title": "Agency 196 - Human Services Department",
-          "url": "https://www.law.cornell.edu/regulations/minnesota/agency-196"
+          "title": "Minnesota Rules, parts 9560.0410 to 9560.0485 - Children in Need of Protection or Services",
+          "url": "https://www.revisor.mn.gov/rules/9560.0410/"
         }
       ],
-      "source_url": "https://www.law.cornell.edu/regulations/minnesota.html"
+      "source_url": "https://www.revisor.mn.gov/rules/"
     },
     "state_constitutional": {
       "plane_reference": "state_constitutional_MN",
@@ -113,7 +113,7 @@
       "key_cases": [
         {
           "case_id": "a24-1562",
-          "title": "In the Matter of the Petition of Minnesota Association of Residential Services Homes (MARSH) under Minn. Stat. \u00c2\u00a7 14.381, subd. 1, for a Declaration that the Minnesota Department of Human Services Is Enforcing Unadopted Rules",
+          "title": "In the Matter of the Petition of Minnesota Association of Residential Services Homes (MARSH) under Minn. Stat. Â§ 14.381, subd. 1, for a Declaration that the Minnesota Department of Human Services Is Enforcing Unadopted Rules",
           "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2025/a24-1562.html",
           "year": 2025,
           "court": "Court Of Appeals",
@@ -246,10 +246,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Services",
-    "acronym": "DHS",
-    "hotline": "1-800-422-4453",
-    "website": "https://www.leg.state.mn.us"
+    "name": "Minnesota Department of Children, Youth, and Families",
+    "acronym": "DCYF",
+    "hotline": "No statewide hotline. Call the county or Tribal child protection agency where the child lives — the directory link is on dcyf.mn.gov/individuals-and-families/report-abuse",
+    "website": "https://dcyf.mn.gov/"
   },
   "investigation_requirements": [
     "Victim interview required",
@@ -284,17 +284,27 @@
   "timeline_requirements": [
     {
       "requirement_name": "Safety decision",
-      "deadline": "Immediate upon contact",
-      "starts_from": "First family contact",
-      "source": "admin_rule",
-      "consequence_of_miss": "Child safety risk"
+      "deadline": "Safety assessment completed at the face-to-face contact with the child and the child's primary caregiver, which must be sufficient to ensure the immediate safety of the child",
+      "starts_from": "Receipt of a screened in report",
+      "source": "state_statute",
+      "source_url": "https://www.revisor.mn.gov/statutes/cite/260E.20",
+      "consequence_of_miss": "Not specified in Minn. Stat. § 260E.20; subd. 2(a) requires the face-to-face contact to be sufficient to complete a safety assessment and ensure the immediate safety of the child."
     },
     {
       "requirement_name": "Disposition finding",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
+      "deadline": "45 days",
+      "starts_from": "Receipt of the report",
       "source": "state_statute",
-      "consequence_of_miss": "Procedural violation"
+      "source_url": "https://www.revisor.mn.gov/statutes/cite/260E.24",
+      "consequence_of_miss": "Not specified by statute; Minn. Stat. § 260E.24, subd. 3 requires the two determinations at the conclusion of the investigation and subd. 5 requires written notice within ten working days of that conclusion."
+    },
+    {
+      "requirement_name": "Maltreatment determination reconsideration",
+      "deadline": "15 calendar days",
+      "starts_from": "Receipt of notice of the investigating agency's final determination regarding maltreatment",
+      "source": "state_statute",
+      "source_url": "https://www.revisor.mn.gov/statutes/cite/260E.33",
+      "consequence_of_miss": "Not specified in Minn. Stat. § 260E.33; subd. 2 requires the written request within 15 calendar days after receipt of notice of the final determination, subd. 3 allows a fair hearing only after the agency denies the reconsideration request or fails to act on it within 15 working days, and subd. 1 provides no reconsideration after a family assessment or noncaregiver human trafficking assessment because no maltreatment determination is made."
     }
   ],
   "notice_requirements": [

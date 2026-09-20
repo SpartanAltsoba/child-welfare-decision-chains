@@ -6,8 +6,8 @@
   "subnode": "PMC-06",
   "trigger_name": "Project Milk Carton AI Analysis",
   "summary_html": "The **Project Milk Carton AI Layer** performs cross-analysis of federal and state chains to identify weak points, policy gaps, and non-compliance. This is the citizen feedback mechanism for accountability and reform.",
-  "authority_html": "No direct statutory authority \u2014 citizen innovation layer built on public data and federal transparency laws.",
-  "icon": "\ud83e\udd16",
+  "authority_html": "No direct statutory authority — citizen innovation layer built on public data and federal transparency laws.",
+  "icon": "🤖",
   "theme_color": "#20B2AA",
   "domain": "civil",
   "procedural_weight": 0.9,
@@ -26,17 +26,17 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Connecticut - Title 17a, Chapter 319 (Abuse of Children \u2013 mandatory reporters)",
-          "source_url": "https://www.cga.ct.gov/current/pub/chap_319.htm",
+          "citation_text": "Connecticut - Title 17a, Chapter 319a, Conn. Gen. Stat. § 17a-101 (Child Welfare – mandated reporters)",
+          "source_url": "https://www.cga.ct.gov/current/pub/chap_319a.htm#sec_17a-101",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Connecticut - Title 46b, Chapter 815t (Juvenile Matters including neglect/termination)",
-          "source_url": "https://www.cga.ct.gov/current/pub/chap_815t.htm",
+          "source_url": "https://www.cga.ct.gov/current/pub/chap_815t.htm#sec_46b-129",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -220,10 +220,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children and Families",
+    "name": "Connecticut Department of Children and Families",
     "acronym": "DCF",
-    "hotline": "1-800-842-2288",
-    "website": "https://www.cga.ct.gov"
+    "hotline": "1-800-842-2288 (DCF Careline, 24 hours a day, every day of the year); TDD 1-800-624-5518",
+    "website": "https://portal.ct.gov/dcf"
   },
   "linked_fail": "ALL",
   "_metadata": {
@@ -264,7 +264,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

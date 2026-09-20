@@ -6,8 +6,8 @@
   "subnode": "FAIL-01",
   "trigger_name": "Court Reversal of Agency Decision",
   "summary_html": "A **court reverses or vacates** a CPS or agency decision due to procedural error, insufficient evidence, or constitutional violation. Federal review data (CFSR, ASFA) tracks judicial determinations on reasonable efforts and due process.",
-  "authority_html": "- **Adoption and Safe Families Act (ASFA)** \u2014 judicial findings of 'reasonable efforts' compliance  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal review of judicial/agency conformity  \n- **42 U.S.C. \u00a7 1983** \u2014 civil-rights remedy for unconstitutional removals (14th & 4th Amendments).",
-  "icon": "\u2696\ufe0f",
+  "authority_html": "- **Adoption and Safe Families Act (ASFA)** — judicial findings of 'reasonable efforts' compliance  \n- **CFSR Regulations (45 CFR Part 1355)** — federal review of judicial/agency conformity  \n- **42 U.S.C. § 1983** — civil-rights remedy for unconstitutional removals (14th & 4th Amendments).",
+  "icon": "⚖️",
   "theme_color": "#FF6347",
   "domain": "civil",
   "procedural_weight": 0.8,
@@ -20,7 +20,7 @@
     "constitutional": {
       "constraints_triggered": [
         "U.S. Const. amend. IV",
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
@@ -28,69 +28,90 @@
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
         "45 CFR Part 1355 (CFSR)",
-        "42 U.S.C. \u00a7 1983 (Civil Rights Act)"
+        "42 U.S.C. § 1983 (Civil Rights Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Arizona - Title 13, \u00a7 3620 (Criminal code \u2013 duty to report child abuse)",
-          "source_url": "https://www.azleg.gov/arstitle/",
+          "citation_text": "Arizona - Title 13, § 3620 (Criminal code – duty to report child abuse)",
+          "source_url": "https://www.azleg.gov/ars/13/03620.htm",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Arizona - Title 8, Chapter 4 (Arizona Juvenile Code \u2013 Dependent children)",
-          "source_url": "https://www.azleg.gov/arstitle/",
+          "citation_text": "Arizona - Title 8, Chapter 4 (Department of Child Safety, A.R.S. §§ 8-451 to 8-892)",
+          "source_url": "https://www.azleg.gov/arsDetail/?title=8#chapter4",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Title 8: Child Safety - DCS - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/arizona/title-8/",
+          "source_url": "https://www.azleg.gov/arsDetail/?title=8",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 13: Criminal Code - Child Abuse Crimes",
-          "source_url": "https://law.justia.com/codes/arizona/title-13/",
+          "source_url": "https://www.azleg.gov/arsDetail/?title=13",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 25: Marital and Domestic Relations",
-          "source_url": "https://law.justia.com/codes/arizona/title-25/",
+          "source_url": "https://www.azleg.gov/arsDetail/?title=25",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 36: Public Health and Safety",
-          "source_url": "https://law.justia.com/codes/arizona/title-36/",
+          "source_url": "https://www.azleg.gov/arsDetail/?title=36",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 46: Welfare",
-          "source_url": "https://law.justia.com/codes/arizona/title-46/",
+          "source_url": "https://www.azleg.gov/arsDetail/?title=46",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
+        },
+        {
+          "citation_text": "Arizona - Title 8, § 8-471 (Office of child welfare investigations; criminal conduct allegations)",
+          "source_url": "https://www.azleg.gov/ars/8/00471.htm",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Arizona - Title 8, § 8-525 (Open court proceedings; closure; records - dependency, permanent guardianship and termination proceedings are open to the public)",
+          "source_url": "https://www.azleg.gov/ars/8/00525.htm",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Arizona - Title 8, § 8-804.02 (Tiered system for placement on central registry; rules)",
+          "source_url": "https://www.azleg.gov/ars/8/00804-02.htm",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
@@ -98,7 +119,9 @@
       "regulations_applicable": [
         {
           "title": "Title 21 - CHILD SAFETY",
-          "url": "https://www.law.cornell.edu/regulations/arizona/title-21"
+          "url": "https://www.law.cornell.edu/regulations/arizona/title-21",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
         },
         {
           "title": "Arizona Administrative Rule Title 8",
@@ -170,14 +193,14 @@
         {
           "provision_id": "AZ_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Arizona Const. art. II, \u00a7 8",
+          "citation": "Arizona Const. art. II, § 8",
           "federal_parallel": "U.S. Const. amend. IV"
         },
         {
           "provision_id": "AZ_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Arizona Const. art. II, \u00a7 4",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Arizona Const. art. II, § 4",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -339,10 +362,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Child Safety",
+    "name": "Arizona Department of Child Safety",
     "acronym": "DCS",
     "hotline": "1-888-767-2445",
-    "website": "https://www.azleg.gov"
+    "website": "https://dcs.az.gov/"
   },
   "linked_output": "OUT-02",
   "linked_action": "ACT-03",
@@ -379,7 +402,7 @@
       "requirement_name": "Appeal deadline",
       "deadline": "30 days",
       "starts_from": "Final order",
-      "source": "court_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Loss of appeal rights"
     },
     {

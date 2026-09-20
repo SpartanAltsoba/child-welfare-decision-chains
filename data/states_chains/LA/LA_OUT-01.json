@@ -6,8 +6,8 @@
   "subnode": "OUT-01",
   "trigger_name": "Reunification",
   "summary_html": "Child safely **reunified with parent or guardian**, case closed. Federal policy treats reunification as the preferred outcome once risk factors are mitigated.",
-  "authority_html": "- **Adoption and Safe Families Act (ASFA)** \u2014 establishes reunification timelines and permanency goals  \n- **SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 funds reunification services and tracks permanency outcomes",
-  "icon": "\ud83c\udfe0",
+  "authority_html": "- **Adoption and Safe Families Act (ASFA)** — establishes reunification timelines and permanency goals  \n- **SSA Title IV-E (42 U.S.C. §§ 670–679c)** — funds reunification services and tracks permanency outcomes",
+  "icon": "🏠",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -25,16 +25,23 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)"
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Louisiana - Children\u2019s Code Article 601 et seq. (Children\u2019s Code \u2013 Child in Need of Care, includes reporting duties)",
-          "source_url": "https://www.legis.la.gov/legis/Laws_Toc.aspx",
+          "citation_text": "Louisiana - Children’s Code Article 601 et seq. (Children’s Code – Child in Need of Care, includes reporting duties)",
+          "source_url": "https://www.legis.la.gov/legis/Law.aspx?d=73193",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Louisiana - La. R.S. 46:288.1 et seq. (Extended Foster Care Program Act)",
+          "source_url": "https://www.legis.la.gov/legis/Law.aspx?d=1148390",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -271,13 +278,13 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children and Family Services",
+    "name": "Louisiana Department of Children and Family Services",
     "acronym": "DCFS",
     "hotline": "1-855-452-5437",
-    "website": "https://www.legis.la.gov"
+    "website": "https://dcfs.louisiana.gov/"
   },
   "extended_foster_care": true,
-  "extended_foster_care_age": "Up to age 21 (until 21st birthday)",
+  "extended_foster_care_age": "18 to 21 (voluntary Extended Foster Care Program; must have been adjudicated a child in need of care and in DCFS custody the day before turning 18, plus a school, work, or medical condition; La. R.S. 46:288.2(3), 288.3)",
   "linked_action": "ACT-02",
   "linked_decision": "DEC-03",
   "linked_input": "INP-01",

@@ -6,8 +6,8 @@
   "subnode": "PMC-02",
   "trigger_name": "OIG / Financial Audit",
   "summary_html": "Federal **OIG** investigations and **Single Audit Act** reviews track misuse of child-welfare funds. Project Milk Carton aggregates audit findings and highlights unresolved repeat deficiencies.",
-  "authority_html": "- **Inspector General Act (5 U.S.C. App.)** \u2014 OIG oversight of HHS  \n- **Single Audit Act (31 U.S.C. \u00a7\u00a7 7501\u20137507)** \u2014 audits of federally funded programs",
-  "icon": "\ud83e\uddfe",
+  "authority_html": "- **Inspector General Act (5 U.S.C. App.)** — OIG oversight of HHS  \n- **Single Audit Act (31 U.S.C. §§ 7501–7507)** — audits of federally funded programs",
+  "icon": "🧾",
   "theme_color": "#708090",
   "domain": "civil",
   "procedural_weight": 0.7,
@@ -24,22 +24,24 @@
     "federal": {
       "requirements_applicable": [
         "5 U.S.C. App. (Inspector General Act)",
-        "31 U.S.C. \u00a7\u00a7 7501\u20137507 (Single Audit Act)"
+        "31 U.S.C. §§ 7501–7507 (Single Audit Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
           "citation_text": "Indiana - Title 31, Article 33 (Reporting and investigation of child abuse)",
-          "source_url": "https://iga.in.gov",
+          "source_url": "https://iga.in.gov/laws/current/ic/titles/31#31-33",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Indiana - Title 31, Article 34 (Juvenile Law \u2013 Children in Need of Services)",
-          "source_url": "https://iga.in.gov",
+          "citation_text": "Indiana - Title 31, Article 34 (Juvenile Law – Children in Need of Services)",
+          "source_url": "https://iga.in.gov/laws/current/ic/titles/31#31-34",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 12: Human Services - DCS",
@@ -249,10 +251,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Child Services",
+    "name": "Indiana Department of Child Services",
     "acronym": "DCS",
     "hotline": "1-800-800-5556",
-    "website": "https://iga.in.gov"
+    "website": "https://www.in.gov/dcs/"
   },
   "linked_fail": "FAIL-03",
   "_metadata": {
@@ -293,7 +295,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

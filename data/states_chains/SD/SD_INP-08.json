@@ -6,8 +6,8 @@
   "subnode": "INP-08",
   "trigger_name": "Educational Disclosure",
   "summary_html": "**Educators/school staff** observing indicators of abuse/neglect report to CPS under state mandatory-reporter lists built on the federal CAPTA floor.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 requires robust reporter regimes that include education sector professionals",
-  "icon": "\ud83c\udf93",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — requires robust reporter regimes that include education sector professionals",
+  "icon": "🎓",
   "theme_color": "#FFD700",
   "domain": "civil",
   "procedural_weight": 0.4,
@@ -23,40 +23,41 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "South Dakota - S.D. Codified Laws Chapter\u00a026-8A (Protection of Children \u2013 mandatory reporting and CPS)",
-          "source_url": "https://sdlegislature.gov",
+          "citation_text": "South Dakota - S.D. Codified Laws Chapter 26-8A (Protection of Children from Abuse or Neglect – mandatory reporting, CPS investigation, central registry)",
+          "source_url": "https://sdlegislature.gov/Statutes/26-8A",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 25: Domestic Relations",
-          "source_url": "https://law.justia.com/codes/south-dakota/title-25/",
+          "source_url": "https://sdlegislature.gov/Statutes/25",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 26: Courts - Juvenile Proceedings - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/south-dakota/title-26/",
+          "citation_text": "Title 26: Minors - CHILD WELFARE PRIMARY",
+          "source_url": "https://sdlegislature.gov/Statutes/26",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 28: Public Health - Child Abuse Reporting",
-          "source_url": "https://law.justia.com/codes/south-dakota/title-28/",
+          "citation_text": "S.D. Codified Laws Chapter 26-7A (Juvenile Court – temporary custody hearings, adjudication, disposition)",
+          "source_url": "https://sdlegislature.gov/Statutes/26-7A",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -132,6 +133,12 @@
           "url": "https://regulations.justia.com/states/south-dakota/title-6/",
           "authority_type": "administrative_rule",
           "last_verified": "2025-12-24"
+        },
+        {
+          "title": "ARSD Article 67:14 - Child Protection Services (Department of Social Services)",
+          "url": "https://sdlegislature.gov/Rules/Administrative/67:14",
+          "authority_type": "admin_rule",
+          "last_verified": "2026-09-19"
         }
       ],
       "source_url": "https://www.law.cornell.edu/regulations/south-dakota.html"
@@ -243,7 +250,7 @@
         },
         {
           "case_id": "30488",
-          "title": "In The Matter Of The Interpretation Of South Dakota Constitution And State Law Re: State Legislator\u2019s Interest In State Or County Contracts",
+          "title": "In The Matter Of The Interpretation Of South Dakota Constitution And State Law Re: State Legislator’s Interest In State Or County Contracts",
           "url": "https://law.justia.com/cases/south-dakota/supreme-court/2024/30488.html",
           "year": 2024,
           "court": "Supreme Court",
@@ -298,20 +305,40 @@
     }
   },
   "state_agency": {
-    "name": "Department of Social Services",
-    "acronym": "DSS",
-    "hotline": "1-877-244-0864",
-    "website": "https://sdlegislature.gov"
+    "name": "South Dakota Department of Social Services, Division of Child Protection Services",
+    "acronym": "CPS",
+    "hotline": "1-877-244-0864 (intake specialists 8 a.m. to 5 p.m. Monday through Friday; before 8 a.m., after 5 p.m., weekends and holidays contact local law enforcement)",
+    "website": "https://dss.sd.gov/childprotection/"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Shelter Staff",
-    "Foster Parents",
-    "Coroners",
-    "EMTs/Emergency Personnel"
+    "Designated professionals only — not every person (S.D. Codified Laws § 26-8A-3)",
+    "Physician",
+    "Dentist",
+    "Doctor of osteopathy",
+    "Chiropractor",
+    "Optometrist",
+    "Emergency medical technician",
+    "Paramedic",
+    "Mental health professional or counselor",
+    "Podiatrist",
+    "Psychologist",
+    "Religious healing practitioner",
+    "Social worker",
+    "Hospital intern or resident",
+    "Parole or court services officer",
+    "Law enforcement officer",
+    "Coach of a school activity",
+    "Teacher",
+    "School counselor",
+    "School official",
+    "Nurse",
+    "Licensed or registered child welfare provider",
+    "Employee or volunteer of a domestic abuse shelter",
+    "Employee or volunteer of a child advocacy organization or child welfare service provider",
+    "Chemical dependency counselor",
+    "Coroner",
+    "Dental hygienist",
+    "Any safety-sensitive position as defined in S.D. Codified Laws § 3-6C-1"
   ],
   "reporting_type": "decentralized",
   "definitions": {
@@ -377,14 +404,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

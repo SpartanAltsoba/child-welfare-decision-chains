@@ -6,8 +6,8 @@
   "subnode": "OUT-06",
   "trigger_name": "Child Fatality / Serious Injury",
   "summary_html": "Case results in **child fatality or serious injury**, triggering mandatory federal and state review. Data and lessons inform systemic reform.",
-  "authority_html": "- **Protect Our Kids Act (PL 112-275)** \u2014 establishes national commission and reporting requirements  \n- **CAPTA \u00a75106a(b)(2)(A)(x)** \u2014 mandates public disclosure and case review of fatalities",
-  "icon": "\u26b0\ufe0f",
+  "authority_html": "- **Protect Our Kids Act (PL 112-275)** — establishes national commission and reporting requirements  \n- **CAPTA §5106a(b)(2)(A)(x)** — mandates public disclosure and case review of fatalities",
+  "icon": "⚰️",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.3,
@@ -24,16 +24,23 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 112-275 (Protect Our Kids Act)",
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Louisiana - Children\u2019s Code Article 601 et seq. (Children\u2019s Code \u2013 Child in Need of Care, includes reporting duties)",
-          "source_url": "https://www.legis.la.gov/legis/Laws_Toc.aspx",
+          "citation_text": "Louisiana - Children’s Code Article 601 et seq. (Children’s Code – Child in Need of Care, includes reporting duties)",
+          "source_url": "https://www.legis.la.gov/legis/Law.aspx?d=73193",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Louisiana - La. R.S. 46:288.1 et seq. (Extended Foster Care Program Act)",
+          "source_url": "https://www.legis.la.gov/legis/Law.aspx?d=1148390",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -270,13 +277,13 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children and Family Services",
+    "name": "Louisiana Department of Children and Family Services",
     "acronym": "DCFS",
     "hotline": "1-855-452-5437",
-    "website": "https://www.legis.la.gov"
+    "website": "https://dcfs.louisiana.gov/"
   },
   "extended_foster_care": true,
-  "extended_foster_care_age": "Up to age 21 (until 21st birthday)",
+  "extended_foster_care_age": "18 to 21 (voluntary Extended Foster Care Program; must have been adjudicated a child in need of care and in DCFS custody the day before turning 18, plus a school, work, or medical condition; La. R.S. 46:288.2(3), 288.3)",
   "linked_action": "ACT-03",
   "linked_decision": "DEC-04",
   "linked_input": "INP-01",

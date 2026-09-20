@@ -6,8 +6,8 @@
   "subnode": "DEC-06",
   "trigger_name": "Differential Response / Alternative Response (No Petition)",
   "summary_html": "Agency chooses **Differential Response (DR)**/**Alternative Response**: engage **services without court petition** when safety permits. FFPSA and IV-B/IV-E prevention funding support voluntary, front-end help to avert removals.",
-  "authority_html": "- **Family First Prevention Services Act (FFPSA)** \u2014 prevention services framework under IV-E  \n- **SSA Title IV-B & IV-E (42 U.S.C. \u00a7\u00a7 620\u2013629m; 670\u2013679c)** \u2014 service funding & case-plan requirements  \n- **CFSR (45 CFR Part 1355)** \u2014 assesses safety/permanency outcomes in DR systems",
-  "icon": "\ud83d\udd27",
+  "authority_html": "- **Family First Prevention Services Act (FFPSA)** — prevention services framework under IV-E  \n- **SSA Title IV-B & IV-E (42 U.S.C. §§ 620–629m; 670–679c)** — service funding & case-plan requirements  \n- **CFSR (45 CFR Part 1355)** — assesses safety/permanency outcomes in DR systems",
+  "icon": "🔧",
   "theme_color": "#20B2AA",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -22,25 +22,46 @@
   "layers": {
     "constitutional": {
       "constraints_triggered": [
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 671\u2013679b (FFPSA-related IV-E)",
-        "42 U.S.C. \u00a7\u00a7 620\u2013629m (Title IV-B)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E)",
+        "42 U.S.C. §§ 671–679b (FFPSA-related IV-E)",
+        "42 U.S.C. §§ 620–629m (Title IV-B)",
+        "42 U.S.C. §§ 670–679c (Title IV-E)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Louisiana - Children\u2019s Code Article 601 et seq. (Children\u2019s Code \u2013 Child in Need of Care, includes reporting duties)",
-          "source_url": "https://www.legis.la.gov/legis/Laws_Toc.aspx",
+          "citation_text": "Louisiana - Children’s Code Article 601 et seq. (Children’s Code – Child in Need of Care, includes reporting duties)",
+          "source_url": "https://www.legis.la.gov/legis/Law.aspx?d=73193",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Louisiana - Children’s Code Article 603 (Definitions; “caretaker”)",
+          "source_url": "https://www.legis.la.gov/legis/Law.aspx?d=73195",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Louisiana - Children’s Code Article 610 (Reporting procedure; which reports go to DCFS and which go to law enforcement)",
+          "source_url": "https://www.legis.la.gov/legis/Law.aspx?d=73202",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Louisiana - Children’s Code Article 612 (Assignment of reports for investigation and assessment; assessment in lieu of investigation)",
+          "source_url": "https://www.legis.la.gov/legis/Law.aspx?d=73204",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -121,8 +142,8 @@
         {
           "provision_id": "LA_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Louisiana Const. art. I, \u00a7 2",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Louisiana Const. art. I, § 2",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -284,15 +305,18 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children and Family Services",
+    "name": "Louisiana Department of Children and Family Services",
     "acronym": "DCFS",
     "hotline": "1-855-452-5437",
-    "website": "https://www.legis.la.gov"
+    "website": "https://dcfs.louisiana.gov/"
   },
   "investigation_requirements": [
     "Home visit required",
     "Victim interview required",
-    "Risk assessment required"
+    "Risk assessment required",
+    "DCFS investigates only where the suspected perpetrator is a parent or caretaker as defined in La. Ch.C. Art. 603 or falls within one of the additional categories in Art. 610(A)(1) (a person in an interpersonal dating or engagement relationship with the parent or caretaker, a person living in the same residence as the parent or caretaker or in any residence of the child, an early learning center or registered family child day care home operator or employee, another child residing in the same residence in a case of suspected sexual abuse, or an indeterminable perpetrator where the abuse is suspected to have occurred at the child’s residence); every other report is routed to a local or state law enforcement agency (La. Ch.C. Art. 610(A)(1)-(2))",
+    "In lieu of an investigation, reports of low levels of risk may be assessed through interviews with the family to identify needs and available matches to community resources; if the assessment shows the child is at immediate substantial risk of harm, the local child protection unit must immediately conduct an intensive investigation (La. Ch.C. Art. 612(A)(3))",
+    "Reports of sexual abuse in which the alleged perpetrator is a child may be assessed immediately through interviews with the family of the child victim and the alleged child perpetrator rather than investigated, with the same immediate-intensive-investigation trigger (La. Ch.C. Art. 612(A)(4); see also Art. 610(G)(5))"
   ],
   "evidence_level": "Preponderance of evidence",
   "_metadata": {
@@ -325,14 +349,14 @@
       "requirement_name": "Safety decision",
       "deadline": "Immediate upon contact",
       "starts_from": "First family contact",
-      "source": "admin_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Child safety risk"
     },
     {
       "requirement_name": "Disposition finding",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Procedural violation"
     }
   ],

@@ -6,8 +6,8 @@
   "subnode": "FAIL-04",
   "trigger_name": "Child Death Under Agency Supervision",
   "summary_html": "A child dies or suffers serious harm while **under agency supervision**, constituting systemic failure. Federal law mandates disclosure and review to identify causes and reforms.",
-  "authority_html": "- **Protect Our Kids Act (PL 112-275)** \u2014 federal commission and review requirements  \n- **CAPTA \u00a75106a(b)(2)(A)(x)** \u2014 mandates public disclosure of child-fatality cases",
-  "icon": "\u26b0\ufe0f",
+  "authority_html": "- **Protect Our Kids Act (PL 112-275)** — federal commission and review requirements  \n- **CAPTA §5106a(b)(2)(A)(x)** — mandates public disclosure of child-fatality cases",
+  "icon": "⚰️",
   "theme_color": "#8B0000",
   "domain": "civil",
   "procedural_weight": 0.3,
@@ -24,22 +24,31 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 112-275 (Protect Our Kids Act)",
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "North Dakota - N.D. Cent. Code Chapter\u00a050-25.1 (Child Abuse and Neglect \u2013 reporting and records)",
-          "source_url": "https://www.legis.nd.gov",
+          "citation_text": "North Dakota - N.D. Cent. Code Chapter 50-25.1 (Child Abuse and Neglect – reporting and records)",
+          "source_url": "https://ndlegis.gov/cencode/t50c25-1.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "North Dakota - N.D. Cent. Code \u00a7\u00a027-20.1-01 et seq. (Juvenile Court Act for deprivation cases)",
-          "source_url": "https://www.legis.nd.gov",
+          "citation_text": "North Dakota - N.D. Cent. Code ch. 27-20.3 (Child Welfare – protective custody, shelter care, child in need of protection)",
+          "source_url": "https://ndlegis.gov/cencode/t27c20-3.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "North Dakota - N.D. Cent. Code ch. 50-01.1 (Human Service Zones - the county-employed local agency that administers designated child welfare services under the direction and supervision of the department; §§ 50-01.1-01(4), (6), 50-01.1-03(1)(j), 50-01.1-05(7))",
+          "source_url": "https://ndlegis.gov/cencode/t50c01-1.html",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 14: Domestic Relations",
@@ -306,10 +315,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Services",
-    "acronym": "DHS",
-    "hotline": "1-833-958-3500",
-    "website": "https://www.legis.nd.gov"
+    "name": "North Dakota Department of Health and Human Services",
+    "acronym": "HHS",
+    "hotline": "1-833-958-3500 (8 a.m.-5 p.m. Central / 7 a.m.-4 p.m. Mountain, Mon-Fri; if a child is in immediate danger call 911)",
+    "website": "https://www.hhs.nd.gov/cfs"
   },
   "linked_output": "OUT-06",
   "linked_action": "ACT-03",
@@ -345,9 +354,10 @@
     {
       "requirement_name": "Appeal deadline",
       "deadline": "30 days",
-      "starts_from": "Final order",
-      "source": "court_rule",
-      "consequence_of_miss": "Loss of appeal rights"
+      "starts_from": "Date on which notice of the order or action was mailed to the claimant",
+      "source": "admin_rule",
+      "consequence_of_miss": "Not specified in N.D. Admin. Code § 75-01-03-06.",
+      "source_url": "https://ndlegis.gov/information/acdata/pdf/75-01-03.pdf"
     },
     {
       "requirement_name": "1983 statute of limitations",

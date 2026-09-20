@@ -6,15 +6,15 @@
   "subnode": "PMC-02",
   "trigger_name": "OIG / Financial Audit",
   "summary_html": "Federal **OIG** investigations and **Single Audit Act** reviews track misuse of child-welfare funds. Project Milk Carton aggregates audit findings and highlights unresolved repeat deficiencies.",
-  "authority_html": "- **Inspector General Act (5 U.S.C. App.)** \u2014 OIG oversight of HHS  \n- **Single Audit Act (31 U.S.C. \u00a7\u00a7 7501\u20137507)** \u2014 audits of federally funded programs",
-  "icon": "\ud83e\uddfe",
+  "authority_html": "- **Inspector General Act (5 U.S.C. App.)** — OIG oversight of HHS  \n- **Single Audit Act (31 U.S.C. §§ 7501–7507)** — audits of federally funded programs",
+  "icon": "🧾",
   "theme_color": "#708090",
   "domain": "civil",
   "procedural_weight": 0.7,
   "federal_alignment_flag": "baseline",
   "urls": {
-    "IGA_Cornell": "https://www.law.cornell.edu/uscode/text/5a/appendix-3",
-    "SAA_Cornell": "https://www.law.cornell.edu/uscode/text/31/chapter-75"
+    "IGA_Cornell": "https://www.law.cornell.edu/uscode/text/5/part-I/chapter-4",
+    "SAA_Cornell": "https://www.law.cornell.edu/uscode/text/31/subtitle-V/chapter-75"
   },
   "layers": {
     "constitutional": {
@@ -24,40 +24,41 @@
     "federal": {
       "requirements_applicable": [
         "5 U.S.C. App. (Inspector General Act)",
-        "31 U.S.C. \u00a7\u00a7 7501\u20137507 (Single Audit Act)"
+        "31 U.S.C. §§ 7501–7507 (Single Audit Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Montana - Title 41, Chapter\u00a03 (Child Abuse and Neglect \u2013 mandatory reporting and protective services)",
-          "source_url": "https://leg.mt.gov",
+          "citation_text": "Montana - Title 41, Chapter 3 (Child Abuse and Neglect – mandatory reporting and protective services)",
+          "source_url": "https://mca.legmt.gov/bills/mca/title_0410/chapter_0030/parts_index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 41: Minors - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/montana/title-41/",
+          "source_url": "https://mca.legmt.gov/bills/mca/title_0410/chapters_index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 42: Adoption",
-          "source_url": "https://law.justia.com/codes/montana/title-42/",
+          "source_url": "https://mca.legmt.gov/bills/mca/title_0420/chapters_index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 52: Family Services - DPHHS",
-          "source_url": "https://law.justia.com/codes/montana/title-52/",
+          "source_url": "https://mca.legmt.gov/bills/mca/title_0520/chapters_index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -295,10 +296,10 @@
     }
   },
   "state_agency": {
-    "name": "Child & Family Services Division (DPHHS)",
-    "acronym": "DPHHS-CFSD",
-    "hotline": "1-866-820-5437",
-    "website": "https://leg.mt.gov"
+    "name": "Montana Department of Public Health and Human Services, Child and Family Services Division",
+    "acronym": "CFSD",
+    "hotline": "1-866-820-5437 (toll free, 24 hours); TTY (hearing impaired) 1-866-341-8811",
+    "website": "https://dphhs.mt.gov/cfsd/"
   },
   "linked_fail": "FAIL-03",
   "_metadata": {
@@ -339,7 +340,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

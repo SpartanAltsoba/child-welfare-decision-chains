@@ -6,8 +6,8 @@
   "subnode": "DEC-06",
   "trigger_name": "Differential Response / Alternative Response (No Petition)",
   "summary_html": "Agency chooses **Differential Response (DR)**/**Alternative Response**: engage **services without court petition** when safety permits. FFPSA and IV-B/IV-E prevention funding support voluntary, front-end help to avert removals.",
-  "authority_html": "- **Family First Prevention Services Act (FFPSA)** \u2014 prevention services framework under IV-E  \n- **SSA Title IV-B & IV-E (42 U.S.C. \u00a7\u00a7 620\u2013629m; 670\u2013679c)** \u2014 service funding & case-plan requirements  \n- **CFSR (45 CFR Part 1355)** \u2014 assesses safety/permanency outcomes in DR systems",
-  "icon": "\ud83d\udd27",
+  "authority_html": "- **Family First Prevention Services Act (FFPSA)** — prevention services framework under IV-E  \n- **SSA Title IV-B & IV-E (42 U.S.C. §§ 620–629m; 670–679c)** — service funding & case-plan requirements  \n- **CFSR (45 CFR Part 1355)** — assesses safety/permanency outcomes in DR systems",
+  "icon": "🔧",
   "theme_color": "#20B2AA",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -22,35 +22,35 @@
   "layers": {
     "constitutional": {
       "constraints_triggered": [
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 671\u2013679b (FFPSA-related IV-E)",
-        "42 U.S.C. \u00a7\u00a7 620\u2013629m (Title IV-B)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E)",
+        "42 U.S.C. §§ 671–679b (FFPSA-related IV-E)",
+        "42 U.S.C. §§ 620–629m (Title IV-B)",
+        "42 U.S.C. §§ 670–679c (Title IV-E)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Kentucky - KRS Chapter 620 (Child Abuse \u2013 dependency proceedings and reporting)",
-          "source_url": "https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=620",
+          "citation_text": "Kentucky - KRS Chapter 620 (Dependency, Neglect, and Abuse)",
+          "source_url": "https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=39420",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 199: Adoption - CHFS",
-          "source_url": "https://law.justia.com/codes/kentucky/title-199/",
+          "citation_text": "Kentucky - KRS Chapter 199 (Protective Services for Children -- Adoption -- Child Care)",
+          "source_url": "https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=38096",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
-          "title_code": "",
-          "chapter": ""
+          "title_code": "XVII",
+          "chapter": "199"
         }
       ]
     },
@@ -78,8 +78,8 @@
         {
           "provision_id": "KY_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Kentucky Const. art. bill_of_rights, \u00a7 11",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Kentucky Const. art. bill_of_rights, § 11",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -228,10 +228,10 @@
     }
   },
   "state_agency": {
-    "name": "Department for Community Based Services",
+    "name": "Kentucky Department for Community Based Services",
     "acronym": "DCBS",
-    "hotline": "1-877-597-2331",
-    "website": "https://legislature.ky.gov"
+    "hotline": "1-877-597-2331 (1-877-KYSAFE1) or 1-800-752-6200; call the phone line nights, weekends and holidays - the online report form is monitored 8 a.m. to 4:30 p.m. ET, Monday through Friday",
+    "website": "https://www.chfs.ky.gov/agencies/dcbs/Pages/default.aspx"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -269,14 +269,14 @@
       "requirement_name": "Safety decision",
       "deadline": "Immediate upon contact",
       "starts_from": "First family contact",
-      "source": "admin_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Child safety risk"
     },
     {
       "requirement_name": "Disposition finding",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Procedural violation"
     }
   ],

@@ -6,8 +6,8 @@
   "subnode": "FAIL-06",
   "trigger_name": "Disclosure / Transparency Failure",
   "summary_html": "Agency fails to **disclose required data or reports**, obstructing transparency. Federal statutes require public reporting under CAPTA, FOIA, and Sunshine provisions.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 mandates public availability of child-fatality information  \n- **Freedom of Information Act (5 U.S.C. \u00a7 552)** \u2014 public access to federal records  \n- **Government in the Sunshine Act (5 U.S.C. \u00a7 552b)** \u2014 open-meeting requirements",
-  "icon": "\ud83d\udd73\ufe0f",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — mandates public availability of child-fatality information  \n- **Freedom of Information Act (5 U.S.C. § 552)** — public access to federal records  \n- **Government in the Sunshine Act (5 U.S.C. § 552b)** — open-meeting requirements",
+  "icon": "🕳️",
   "theme_color": "#708090",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -24,51 +24,51 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
-        "5 U.S.C. \u00a7 552 (FOIA)",
-        "5 U.S.C. \u00a7 552b (Sunshine Act)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
+        "5 U.S.C. § 552 (FOIA)",
+        "5 U.S.C. § 552b (Sunshine Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Delaware - Title 16, Chapter 9 (Abuse of Children \u2013 reporting requirements)",
+          "citation_text": "Delaware - Title 16, Chapter 9 (Abuse of Children – reporting requirements)",
           "source_url": "https://delcode.delaware.gov/title16/c009/index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Delaware - Title 13, Chapter 25 (Dependent children proceedings)",
+          "citation_text": "Delaware - Title 13, Chapter 25 (DSCYF Custody)",
           "source_url": "https://delcode.delaware.gov/title13/c025/index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Title 13: Domestic Relations - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/delaware/title-13/",
+          "source_url": "https://delcode.delaware.gov/title13/index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 16: Health and Safety - Child Abuse",
-          "source_url": "https://law.justia.com/codes/delaware/title-16/",
+          "source_url": "https://delcode.delaware.gov/title16/index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 31: Welfare",
-          "source_url": "https://law.justia.com/codes/delaware/title-31/",
+          "source_url": "https://delcode.delaware.gov/title31/index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         }
@@ -77,8 +77,16 @@
     "administrative_rule": {
       "regulations_applicable": [
         {
+          "title": "Delaware Administrative Code, Title 9 — Services for Children, Youth and Their Families (DSCYF)",
+          "url": "https://regulations.delaware.gov/AdminCode/title9",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
+        },
+        {
           "title": "Title 9 - Services for Children Youth and Their Families",
-          "url": "https://www.law.cornell.edu/regulations/delaware/title-9"
+          "url": "https://www.law.cornell.edu/regulations/delaware/title-9",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
         },
         {
           "title": "Delaware Administrative Rule Title 13",
@@ -306,10 +314,10 @@
     }
   },
   "state_agency": {
-    "name": "Division of Family Services",
+    "name": "Delaware Division of Family Services",
     "acronym": "DFS",
     "hotline": "1-800-292-9582",
-    "website": "https://legis.delaware.gov"
+    "website": "https://kids.delaware.gov/family-services/"
   },
   "linked_output": "OUT-06",
   "linked_action": "ACT-03",
@@ -345,9 +353,10 @@
     {
       "requirement_name": "Appeal deadline",
       "deadline": "30 days",
-      "starts_from": "Final order",
-      "source": "court_rule",
-      "consequence_of_miss": "Loss of appeal rights"
+      "starts_from": "Date of the Family Court order or decree in the DSCYF custody (dependency/neglect) case",
+      "source": "state_statute",
+      "source_url": "https://delcode.delaware.gov/title13/c025/sc01/index.html#2507",
+      "consequence_of_miss": "No appeal lies from the order or decree; it stands as entered (13 Del. C. § 2507)."
     },
     {
       "requirement_name": "1983 statute of limitations",

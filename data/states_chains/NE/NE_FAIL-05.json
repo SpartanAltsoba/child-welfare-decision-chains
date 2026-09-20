@@ -6,8 +6,8 @@
   "subnode": "FAIL-05",
   "trigger_name": "Discrimination / Retaliation",
   "summary_html": "Agency or actor engages in **discriminatory or retaliatory action**, violating civil-rights or placement-equality provisions. Federal statutes prohibit race, religion, sex, or disability bias in placements or investigations.",
-  "authority_html": "- **Multiethnic Placement Act (MEPA) & Interethnic Adoption Provisions (IEP)** \u2014 prohibits race/ethnicity discrimination in placements  \n- **Civil Rights Act (42 U.S.C. \u00a7 2000d)** \u2014 Title VI discrimination prohibitions in federally funded programs",
-  "icon": "\ud83d\udeab",
+  "authority_html": "- **Multiethnic Placement Act (MEPA) & Interethnic Adoption Provisions (IEP)** — prohibits race/ethnicity discrimination in placements  \n- **Civil Rights Act (42 U.S.C. § 2000d)** — Title VI discrimination prohibitions in federally funded programs",
+  "icon": "🚫",
   "theme_color": "#800080",
   "domain": "civil",
   "procedural_weight": 0.75,
@@ -24,51 +24,58 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 103-382 (MEPA/IEP)",
-        "42 U.S.C. \u00a7 2000d (Title VI Civil Rights Act)"
+        "42 U.S.C. § 2000d (Title VI Civil Rights Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Nebraska - Neb. Rev. Stat. \u00a7\u00a028-710 et seq. (Child Protection Act \u2013 reporting requirements)",
-          "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=28",
+          "citation_text": "Nebraska - Neb. Rev. Stat. §§ 28-710 to 28-727 (Child Protection and Family Safety Act – reporting requirements)",
+          "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=28-710",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Nebraska - Neb. Rev. Stat. \u00a7\u00a043-247 et seq. (Juvenile Code for abuse/neglect cases)",
-          "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=43",
+          "citation_text": "Nebraska - Neb. Rev. Stat. § 43-247 et seq. (Juvenile Code for abuse/neglect cases)",
+          "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=43-247",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 28: Crimes - Child Abuse",
-          "source_url": "https://law.justia.com/codes/nebraska/title-28/",
+          "citation_text": "Nebraska - Neb. Rev. Stat. § 28-707 (Child abuse; privileges not available; penalties)",
+          "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=28-707",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 43: Infants and Juveniles - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/nebraska/title-43/",
+          "citation_text": "Nebraska - Neb. Rev. Stat. Chapter 43 (Infants and Juveniles) – child welfare primary",
+          "source_url": "https://nebraskalegislature.gov/laws/browse-chapters.php?chapter=43",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 68: Public Assistance - DHHS",
-          "source_url": "https://law.justia.com/codes/nebraska/title-68/",
+          "citation_text": "Nebraska - Neb. Rev. Stat. Chapter 68 (Public Assistance) – DHHS assistance programs",
+          "source_url": "https://nebraskalegislature.gov/laws/browse-chapters.php?chapter=68",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
+        },
+        {
+          "citation_text": "Nebraska - Neb. Rev. Stat. §§ 43-1501 to 43-1524 (Nebraska Indian Child Welfare Act)",
+          "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=43-1501",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
@@ -308,10 +315,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Health and Human Services",
-    "acronym": "DHHS",
+    "name": "Nebraska Department of Health and Human Services, Division of Children and Family Services",
+    "acronym": "CFS",
     "hotline": "1-800-652-1999",
-    "website": "https://nebraskalegislature.gov"
+    "website": "https://dhhs.ne.gov/Pages/Children-and-Family-Services.aspx"
   },
   "linked_output": "OUT-02",
   "linked_action": "ACT-04",
@@ -347,9 +354,10 @@
     {
       "requirement_name": "Appeal deadline",
       "deadline": "30 days",
-      "starts_from": "Final order",
-      "source": "court_rule",
-      "consequence_of_miss": "Loss of appeal rights"
+      "starts_from": "Entry of the juvenile court's final order or judgment, appealable in the same manner as an appeal from district court (Neb. Rev. Stat. § 43-2,106.01(1))",
+      "source": "state_statute",
+      "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=25-1912",
+      "consequence_of_miss": "Not specified in Neb. Rev. Stat. § 25-1912"
     },
     {
       "requirement_name": "1983 statute of limitations",

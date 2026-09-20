@@ -6,8 +6,8 @@
   "subnode": "DEC-05",
   "trigger_name": "File Petition / Open Dependency Case",
   "summary_html": "Agency **files a court petition** to open a **dependency** (or similar) case. Federal funding frameworks (IV-E/ASFA) link court oversight, reasonable-efforts findings, and permanency timelines to downstream actions.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 court findings; timelines; permanency planning  \n- **CFSR (45 CFR Part 1355)** \u2014 federal review of court/agency performance measures",
-  "icon": "\ud83d\udcdc",
+  "authority_html": "- **ASFA / SSA Title IV-E** — court findings; timelines; permanency planning  \n- **CFSR (45 CFR Part 1355)** — federal review of court/agency performance measures",
+  "icon": "📜",
   "theme_color": "#6A5ACD",
   "domain": "civil",
   "procedural_weight": 0.45,
@@ -21,13 +21,13 @@
   "layers": {
     "constitutional": {
       "constraints_triggered": [
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E)",
+        "42 U.S.C. §§ 670–679c (Title IV-E)",
         "Public Law 105-89 (ASFA)",
         "45 CFR Part 1355 (CFSR)"
       ]
@@ -35,25 +35,25 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Tennessee - Tenn. Code Title\u00a037, Chapter\u00a01, Part\u00a04 (Mandatory child abuse reporting)",
-          "source_url": "https://www.lexisnexis.com/hottopics/tncode/",
+          "citation_text": "Tennessee - Tenn. Code Title 37, Chapter 1, Part 4 (Mandatory child abuse reporting)",
+          "source_url": "https://law.justia.com/codes/tennessee/title-37/chapter-1/part-4/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Tennessee - Tenn. Code Title\u00a037, Chapter\u00a01, Part\u00a06 (Juvenile removal/placement procedures)",
-          "source_url": "https://www.lexisnexis.com/hottopics/tncode/",
+          "citation_text": "Tennessee - Tenn. Code Title 37, Chapter 1, Part 1 (Juvenile court general provisions: taking a child into custody, shelter care, dependent and neglected disposition)",
+          "source_url": "https://law.justia.com/codes/tennessee/title-37/chapter-1/part-1/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Title 36: Domestic Relations",
           "source_url": "https://law.justia.com/codes/tennessee/title-36/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
@@ -61,8 +61,8 @@
           "citation_text": "Title 37: Juveniles - DCS - CHILD WELFARE PRIMARY",
           "source_url": "https://law.justia.com/codes/tennessee/title-37/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
@@ -70,8 +70,8 @@
           "citation_text": "Title 71: Welfare",
           "source_url": "https://law.justia.com/codes/tennessee/title-71/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         }
@@ -101,8 +101,8 @@
         {
           "provision_id": "TN_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Tennessee Const. art. I, \u00a7 8",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Tennessee Const. art. I, § 8",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -264,10 +264,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children's Services",
+    "name": "Tennessee Department of Children's Services",
     "acronym": "DCS",
     "hotline": "1-877-237-0004",
-    "website": "https://www.legislature.state.tn.us"
+    "website": "https://www.tn.gov/dcs.html"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -305,14 +305,15 @@
       "requirement_name": "Safety decision",
       "deadline": "Immediate upon contact",
       "starts_from": "First family contact",
-      "source": "admin_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Child safety risk"
     },
     {
       "requirement_name": "Disposition finding",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
+      "deadline": "60 days",
+      "starts_from": "Initial report received",
       "source": "state_statute",
+      "source_url": "https://law.justia.com/codes/tennessee/title-37/chapter-1/part-4/section-37-1-406/",
       "consequence_of_miss": "Procedural violation"
     }
   ],

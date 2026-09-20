@@ -6,8 +6,8 @@
   "subnode": "ACT-06",
   "trigger_name": "Emergency Medical/Psychological Care",
   "summary_html": "Agency or court authorizes **immediate medical or psychological care** when delay endangers life or safety. Federal statutes support medical access and confidentiality exceptions for child protection.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 permits emergency medical actions for abused/neglected children  \n- **Victims of Child Abuse Act (34 U.S.C. \u00a7\u00a7 20301\u201320307)** \u2014 multidisciplinary response and medical-exam standards",
-  "icon": "\ud83c\udfe5",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — permits emergency medical actions for abused/neglected children  \n- **Victims of Child Abuse Act (34 U.S.C. §§ 20301–20307)** — multidisciplinary response and medical-exam standards",
+  "icon": "🏥",
   "theme_color": "#FF69B4",
   "domain": "civil",
   "procedural_weight": 0.4,
@@ -23,8 +23,8 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
-        "34 U.S.C. \u00a7\u00a7 20301\u201320307 (VICAA)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
+        "34 U.S.C. §§ 20301–20307 (VICAA)"
       ]
     },
     "state_statutory": {
@@ -33,39 +33,39 @@
           "citation_text": "Alaska - Title 47, Chapter 17 (Child Protection, including mandatory reporting)",
           "source_url": "https://www.akleg.gov/basis/statutes.asp#47.17",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Alaska - Title 47, Chapter 10 (Child in Need of Aid proceedings)",
           "source_url": "https://www.akleg.gov/basis/statutes.asp#47.10",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 18: Health, Safety, Housing - Child Abuse Reporting",
-          "source_url": "http://www.legis.state.ak.us/basis/folioproxy.asp?url=http://wwwjnu01.legis.state.ak.us/cgi-bin/folioisa.dll/stattx22/query=*/doc/{t10430}",
+          "citation_text": "Alaska Stat. § 18.85.100 — Right to representation, services, and facilities; under (e) the Public Defender Agency may represent a parent at the AS 47.10.142(d) temporary custody hearing at public expense without a court order, and if the parent is not later found eligible for court-appointed counsel the court shall assess the cost of that representation against the parent",
+          "source_url": "https://www.akleg.gov/basis/statutes.asp#18.85.100",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 25: Marital and Domestic Relations",
-          "source_url": "http://www.legis.state.ak.us/basis/folioproxy.asp?url=http://wwwjnu01.legis.state.ak.us/cgi-bin/folioisa.dll/stattx22/query=*/doc/{t10437}",
+          "citation_text": "Alaska Stat. Title 25 (Marital and Domestic Relations), Chapter 23 — Adoption",
+          "source_url": "https://www.akleg.gov/basis/statutes.asp#25.23",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 47: Welfare, Social Services and Institutions - CHILD WELFARE PRIMARY",
-          "source_url": "http://www.legis.state.ak.us/basis/folioproxy.asp?url=http://wwwjnu01.legis.state.ak.us/cgi-bin/folioisa.dll/stattx22/query=*/doc/{t10459}",
+          "citation_text": "Alaska Stat. Title 47 — Welfare, Social Services and Institutions (child welfare: ch. 10, Children in Need of Aid; ch. 17, Child Protection)",
+          "source_url": "https://www.akleg.gov/basis/statutes.asp#47",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -304,10 +304,10 @@
     }
   },
   "state_agency": {
-    "name": "Office of Children's Services",
+    "name": "Alaska Office of Children's Services",
     "acronym": "OCS",
-    "hotline": "1-800-478-4444",
-    "website": "https://akleg.gov"
+    "hotline": "1-800-478-4444 or 907-269-6510 (24 hours a day, every day)",
+    "website": "https://dfcs.alaska.gov/office-of-childrens-services/"
   },
   "linked_decision": "DEC-04",
   "linked_input": "INP-07",
@@ -340,10 +340,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
+      "deadline": "48 hours",
+      "starts_from": "Court notified of the department's emergency custody",
       "source": "state_statute",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "source_url": "https://www.akleg.gov/basis/statutes.asp#47.10.142",
+      "consequence_of_miss": "Statute sets no penalty; the only excuse it allows is lack of transportation (AS 47.10.142(d))"
     },
     {
       "requirement_name": "Case plan development",

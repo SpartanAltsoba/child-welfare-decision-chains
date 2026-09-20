@@ -6,8 +6,8 @@
   "subnode": "OUT-03",
   "trigger_name": "Guardianship / Kinship Permanency",
   "summary_html": "Child achieves **permanency through legal guardianship** or kinship care. Federal programs provide funding parity with adoption for approved relatives.",
-  "authority_html": "- **Fostering Connections to Success and Increasing Adoptions Act (FCSIAA)** \u2014 kinship-guardianship assistance  \n- **SSA Title IV-E (42 U.S.C. \u00a7 673(d))** \u2014 authorizes Guardianship Assistance Program (GAP)",
-  "icon": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67",
+  "authority_html": "- **Fostering Connections to Success and Increasing Adoptions Act (FCSIAA)** — kinship-guardianship assistance  \n- **SSA Title IV-E (42 U.S.C. § 673(d))** — authorizes Guardianship Assistance Program (GAP)",
+  "icon": "👨‍👩‍👧",
   "theme_color": "#FFD700",
   "domain": "civil",
   "procedural_weight": 0.55,
@@ -19,29 +19,31 @@
   "layers": {
     "constitutional": {
       "constraints_triggered": [
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
         "Public Law 110-351 (FCSIAA)",
-        "42 U.S.C. \u00a7 673(d) (IV-E Guardianship Assistance)"
+        "42 U.S.C. § 673(d) (IV-E Guardianship Assistance)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
           "citation_text": "Indiana - Title 31, Article 33 (Reporting and investigation of child abuse)",
-          "source_url": "https://iga.in.gov",
+          "source_url": "https://iga.in.gov/laws/current/ic/titles/31#31-33",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Indiana - Title 31, Article 34 (Juvenile Law \u2013 Children in Need of Services)",
-          "source_url": "https://iga.in.gov",
+          "citation_text": "Indiana - Title 31, Article 34 (Juvenile Law – Children in Need of Services)",
+          "source_url": "https://iga.in.gov/laws/current/ic/titles/31#31-34",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 12: Human Services - DCS",
@@ -69,6 +71,13 @@
           "deep_link": true,
           "title_code": "",
           "chapter": ""
+        },
+        {
+          "citation_text": "Indiana - Title 31, Article 32, Chapter 4 (Right to Counsel: the juvenile court shall appoint counsel for a parent in proceedings to terminate the parent-child relationship, and may appoint counsel for a parent in any other proceeding - Ind. Code §§ 31-32-4-1, 31-32-4-3)",
+          "source_url": "https://iga.in.gov/ic/2026/Title_31/Article_32/Chapter_4.pdf",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
@@ -96,8 +105,8 @@
         {
           "provision_id": "IN_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Indiana Const. art. I, \u00a7 12",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Indiana Const. art. I, § 12",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -269,13 +278,13 @@
     }
   },
   "state_agency": {
-    "name": "Department of Child Services",
+    "name": "Indiana Department of Child Services",
     "acronym": "DCS",
     "hotline": "1-800-800-5556",
-    "website": "https://iga.in.gov"
+    "website": "https://www.in.gov/dcs/"
   },
   "extended_foster_care": true,
-  "extended_foster_care_age": "Up to age 21 (until 21st birthday)",
+  "extended_foster_care_age": "18 to 21 (Collaborative Care; voluntary, eligibility conditions apply; Ind. Code § 31-28-5.8-5)",
   "linked_action": "ACT-04",
   "linked_decision": "DEC-04",
   "linked_input": "INP-01",

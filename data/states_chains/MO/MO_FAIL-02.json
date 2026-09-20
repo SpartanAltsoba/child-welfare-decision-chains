@@ -5,9 +5,9 @@
   "node_family": "FAIL",
   "subnode": "FAIL-02",
   "trigger_name": "Unlawful Removal",
-  "summary_html": "A **child is removed without exigency or warrant**, violating constitutional rights. Federal courts treat such removals as seizures under the Fourth and Fourteenth Amendments, actionable via \u00a71983.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 limits removals to lawful emergencies and requires judicial review  \n- **U.S. Constitution (4th & 14th Amendments)** \u2014 protects family integrity; requires due process",
-  "icon": "\ud83d\udea8",
+  "summary_html": "A **child is removed without exigency or warrant**, violating constitutional rights. Federal courts treat such removals as seizures under the Fourth and Fourteenth Amendments, actionable via §1983.",
+  "authority_html": "- **ASFA / SSA Title IV-E** — limits removals to lawful emergencies and requires judicial review  \n- **U.S. Constitution (4th & 14th Amendments)** — protects family integrity; requires due process",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.9,
@@ -24,39 +24,40 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)",
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)",
         "U.S. Constitution, Amendments IV & XIV"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Missouri - Mo. Rev. Stat. Chapter\u00a0210 (Child Protection and Reformation \u2013 includes \u00a7\u00a0210.115 reporting)",
+          "citation_text": "Missouri - Mo. Rev. Stat. Chapter 210 (Child Protection and Reformation – includes § 210.115 reporting)",
           "source_url": "https://revisor.mo.gov/main/OneChapter.aspx?chapter=210",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Missouri - Missouri Supreme Court Rules \u2013 Juvenile Proceedings (for abuse/neglect cases)",
-          "source_url": "https://www.mo.gov",
+          "citation_text": "Missouri - Missouri Supreme Court Rules 110–128 (Rules of Practice and Procedure in Juvenile and Family Court Divisions of the Circuit Court)",
+          "source_url": "https://www.courts.mo.gov/courts/ClerkHandbooksP2RulesOnly.nsf/c0c6ffa99df4993f86256ba50057dcb8?OpenView&Start=100&Count=60",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": false
         },
         {
-          "citation_text": "Title 210: Child Protection and Reformation - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/missouri/title-210/",
+          "citation_text": "Missouri Revised Statutes, Title XII - Public Health and Welfare, Chapter 210: Child Protection and Reformation - CHILD WELFARE PRIMARY",
+          "source_url": "https://law.justia.com/codes/missouri/title-xii/chapter-210/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 211: Juvenile Courts",
-          "source_url": "https://law.justia.com/codes/missouri/title-211/",
+          "citation_text": "Missouri Revised Statutes, Title XII - Public Health and Welfare, Chapter 211: Juvenile Courts",
+          "source_url": "https://law.justia.com/codes/missouri/title-xii/chapter-211/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -71,10 +72,10 @@
           "chapter": ""
         },
         {
-          "citation_text": "Title 453: Adoption",
-          "source_url": "https://law.justia.com/codes/missouri/title-453/",
+          "citation_text": "Missouri Revised Statutes, Title XXX - Domestic Relations, Chapter 453: Adoption and Foster Care",
+          "source_url": "https://law.justia.com/codes/missouri/title-xxx/chapter-453/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -86,6 +87,12 @@
         {
           "title": "Title 13 - DEPARTMENT OF SOCIAL SERVICES",
           "url": "https://www.law.cornell.edu/regulations/missouri/title-13"
+        },
+        {
+          "title": "13 CSR 35-31 - Department of Social Services, Division 35 Children's Division, Chapter 31: Child Abuse (includes 13 CSR 35-31.020 screening and track assignment and 13 CSR 35-31.025 Child Abuse and Neglect Review Process)",
+          "url": "https://www.sos.mo.gov/cmsimages/adrules/csr/current/13csr/13c35-31.pdf",
+          "authority_type": "administrative_rule",
+          "last_verified": "2026-09-19"
         },
         {
           "title": "Title 21 - MISSOURI FAMILY TRUST",
@@ -317,10 +324,10 @@
     }
   },
   "state_agency": {
-    "name": "Children's Division (DSS)",
-    "acronym": "DSS-CD",
+    "name": "Missouri Department of Social Services, Children's Division",
+    "acronym": "CD",
     "hotline": "1-800-392-3738",
-    "website": "https://www.mo.gov"
+    "website": "https://dss.mo.gov/cd"
   },
   "linked_output": "OUT-05",
   "linked_action": "ACT-03",
@@ -355,10 +362,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Appeal deadline",
-      "deadline": "30 days",
-      "starts_from": "Final order",
-      "source": "court_rule",
-      "consequence_of_miss": "Loss of appeal rights"
+      "deadline": "30 days to file the notice of appeal from a final judgment, order or decree made under Mo. Rev. Stat. Chapter 211 that adversely affects the parent; neither the notice of appeal nor a motion filed after the final judgment acts as a supersedeas unless the court so orders",
+      "starts_from": "Entry of the final judgment, order or decree",
+      "source": "state_statute",
+      "consequence_of_miss": "Not specified in Mo. Rev. Stat. § 211.261.1",
+      "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=211.261"
+    },
+    {
+      "requirement_name": "Interlocutory appeal of a placement change",
+      "deadline": "3 days to file notice of interlocutory appeal in the appropriate district of the Missouri Court of Appeals; allowed to the parent, guardian ad litem, child's counsel or juvenile officer from any order changing or modifying the placement of a child",
+      "starts_from": "Entry of the order of the trial court",
+      "source": "state_statute",
+      "consequence_of_miss": "Not specified in Mo. Rev. Stat. § 211.261.2 and § 211.261.3",
+      "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=211.261"
     },
     {
       "requirement_name": "1983 statute of limitations",

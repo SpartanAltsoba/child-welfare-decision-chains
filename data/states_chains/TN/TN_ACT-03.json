@@ -6,8 +6,8 @@
   "subnode": "ACT-03",
   "trigger_name": "Foster Care Placement",
   "summary_html": "The child is **removed from the home** and placed in foster care under court order or emergency authority. Federal statutes tie funding to safety findings, judicial oversight, and permanency planning.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal monitoring of placement decisions",
-  "icon": "\ud83d\udea8",
+  "authority_html": "- **ASFA / SSA Title IV-E** — removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** — federal monitoring of placement decisions",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.35,
@@ -21,39 +21,39 @@
     "constitutional": {
       "constraints_triggered": [
         "U.S. Const. amend. IV",
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)",
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Tennessee - Tenn. Code Title\u00a037, Chapter\u00a01, Part\u00a04 (Mandatory child abuse reporting)",
-          "source_url": "https://www.lexisnexis.com/hottopics/tncode/",
+          "citation_text": "Tennessee - Tenn. Code Title 37, Chapter 1, Part 4 (Mandatory child abuse reporting)",
+          "source_url": "https://law.justia.com/codes/tennessee/title-37/chapter-1/part-4/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Tennessee - Tenn. Code Title\u00a037, Chapter\u00a01, Part\u00a06 (Juvenile removal/placement procedures)",
-          "source_url": "https://www.lexisnexis.com/hottopics/tncode/",
+          "citation_text": "Tennessee - Tenn. Code Title 37, Chapter 1, Part 1 (Juvenile court general provisions: taking a child into custody, shelter care, dependent and neglected disposition)",
+          "source_url": "https://law.justia.com/codes/tennessee/title-37/chapter-1/part-1/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Title 36: Domestic Relations",
           "source_url": "https://law.justia.com/codes/tennessee/title-36/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
@@ -61,8 +61,8 @@
           "citation_text": "Title 37: Juveniles - DCS - CHILD WELFARE PRIMARY",
           "source_url": "https://law.justia.com/codes/tennessee/title-37/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
@@ -70,8 +70,8 @@
           "citation_text": "Title 71: Welfare",
           "source_url": "https://law.justia.com/codes/tennessee/title-71/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         }
@@ -101,14 +101,14 @@
         {
           "provision_id": "TN_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Tennessee Const. art. I, \u00a7 7",
+          "citation": "Tennessee Const. art. I, § 7",
           "federal_parallel": "U.S. Const. amend. IV"
         },
         {
           "provision_id": "TN_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Tennessee Const. art. I, \u00a7 8",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Tennessee Const. art. I, § 8",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -270,10 +270,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children's Services",
+    "name": "Tennessee Department of Children's Services",
     "acronym": "DCS",
     "hotline": "1-877-237-0004",
-    "website": "https://www.legislature.state.tn.us"
+    "website": "https://www.tn.gov/dcs.html"
   },
   "linked_decision": "DEC-04",
   "linked_input": "INP-01",
@@ -306,9 +306,10 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
+      "deadline": "72 hours, excluding nonjudicial days (in no event later than 84 hours)",
+      "starts_from": "Child removed from the home",
       "source": "state_statute",
+      "source_url": "https://law.justia.com/codes/tennessee/title-37/chapter-1/part-1/section-37-1-117/",
       "consequence_of_miss": "Constitutional violation, case dismissal"
     },
     {

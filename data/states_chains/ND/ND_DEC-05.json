@@ -6,8 +6,8 @@
   "subnode": "DEC-05",
   "trigger_name": "File Petition / Open Dependency Case",
   "summary_html": "Agency **files a court petition** to open a **dependency** (or similar) case. Federal funding frameworks (IV-E/ASFA) link court oversight, reasonable-efforts findings, and permanency timelines to downstream actions.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 court findings; timelines; permanency planning  \n- **CFSR (45 CFR Part 1355)** \u2014 federal review of court/agency performance measures",
-  "icon": "\ud83d\udcdc",
+  "authority_html": "- **ASFA / SSA Title IV-E** — court findings; timelines; permanency planning  \n- **CFSR (45 CFR Part 1355)** — federal review of court/agency performance measures",
+  "icon": "📜",
   "theme_color": "#6A5ACD",
   "domain": "civil",
   "procedural_weight": 0.45,
@@ -21,13 +21,13 @@
   "layers": {
     "constitutional": {
       "constraints_triggered": [
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E)",
+        "42 U.S.C. §§ 670–679c (Title IV-E)",
         "Public Law 105-89 (ASFA)",
         "45 CFR Part 1355 (CFSR)"
       ]
@@ -35,16 +35,25 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "North Dakota - N.D. Cent. Code Chapter\u00a050-25.1 (Child Abuse and Neglect \u2013 reporting and records)",
-          "source_url": "https://www.legis.nd.gov",
+          "citation_text": "North Dakota - N.D. Cent. Code Chapter 50-25.1 (Child Abuse and Neglect – reporting and records)",
+          "source_url": "https://ndlegis.gov/cencode/t50c25-1.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "North Dakota - N.D. Cent. Code \u00a7\u00a027-20.1-01 et seq. (Juvenile Court Act for deprivation cases)",
-          "source_url": "https://www.legis.nd.gov",
+          "citation_text": "North Dakota - N.D. Cent. Code ch. 27-20.3 (Child Welfare – protective custody, shelter care, child in need of protection)",
+          "source_url": "https://ndlegis.gov/cencode/t27c20-3.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "North Dakota - N.D. Cent. Code ch. 50-01.1 (Human Service Zones - the county-employed local agency that administers designated child welfare services under the direction and supervision of the department; §§ 50-01.1-01(4), (6), 50-01.1-03(1)(j), 50-01.1-05(7))",
+          "source_url": "https://ndlegis.gov/cencode/t50c01-1.html",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 14: Domestic Relations",
@@ -155,8 +164,8 @@
         {
           "provision_id": "ND_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "North Dakota Const. art. I, \u00a7 12",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "North Dakota Const. art. I, § 12",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -318,10 +327,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Services",
-    "acronym": "DHS",
-    "hotline": "1-833-958-3500",
-    "website": "https://www.legis.nd.gov"
+    "name": "North Dakota Department of Health and Human Services",
+    "acronym": "HHS",
+    "hotline": "1-833-958-3500 (8 a.m.-5 p.m. Central / 7 a.m.-4 p.m. Mountain, Mon-Fri; if a child is in immediate danger call 911)",
+    "website": "https://www.hhs.nd.gov/cfs"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -357,17 +366,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Safety decision",
-      "deadline": "Immediate upon contact",
-      "starts_from": "First family contact",
+      "deadline": "Immediately upon receipt of the report where there is a serious threat or danger to the child's life or health",
+      "starts_from": "Report received by assessing agency",
       "source": "admin_rule",
-      "consequence_of_miss": "Child safety risk"
+      "consequence_of_miss": "Child safety risk",
+      "source_url": "https://ndlegis.gov/information/acdata/pdf/75-03-19.pdf"
     },
     {
       "requirement_name": "Disposition finding",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
-      "source": "state_statute",
-      "consequence_of_miss": "Procedural violation"
+      "deadline": "62 days",
+      "starts_from": "Date the report was received",
+      "source": "admin_rule",
+      "consequence_of_miss": "An extension of time must be requested of and granted by the department (N.D. Admin. Code § 75-03-19-04).",
+      "source_url": "https://ndlegis.gov/information/acdata/pdf/75-03-19.pdf"
     }
   ],
   "notice_requirements": [

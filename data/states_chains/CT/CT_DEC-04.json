@@ -6,8 +6,8 @@
   "subnode": "DEC-04",
   "trigger_name": "Emergency Removal Decision",
   "summary_html": "Agency decides to **remove a child immediately** due to **imminent danger** prior to a court order. Federal law (ASFA/IV-E) requires later **court findings** on reasonable efforts; constitutional limits (due process; search/seizure) apply.",
-  "authority_html": "- **ASFA / SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 reasonable-efforts findings; permanency timelines  \n- **CFSR (45 CFR Part 1355)** \u2014 monitors safety & removal decision quality",
-  "icon": "\ud83d\udea8",
+  "authority_html": "- **ASFA / SSA Title IV-E (42 U.S.C. §§ 670–679c)** — reasonable-efforts findings; permanency timelines  \n- **CFSR (45 CFR Part 1355)** — monitors safety & removal decision quality",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.35,
@@ -22,13 +22,13 @@
     "constitutional": {
       "constraints_triggered": [
         "U.S. Const. amend. IV",
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E)",
+        "42 U.S.C. §§ 670–679c (Title IV-E)",
         "Public Law 105-89 (ASFA)",
         "45 CFR Part 1355 (CFSR)"
       ]
@@ -36,17 +36,24 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Connecticut - Title 17a, Chapter 319 (Abuse of Children \u2013 mandatory reporters)",
-          "source_url": "https://www.cga.ct.gov/current/pub/chap_319.htm",
+          "citation_text": "Connecticut - Title 17a, Chapter 319a, Conn. Gen. Stat. § 17a-101 (Child Welfare – mandated reporters)",
+          "source_url": "https://www.cga.ct.gov/current/pub/chap_319a.htm#sec_17a-101",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Connecticut - Title 46b, Chapter 815t (Juvenile Matters including neglect/termination)",
-          "source_url": "https://www.cga.ct.gov/current/pub/chap_815t.htm",
+          "source_url": "https://www.cga.ct.gov/current/pub/chap_815t.htm#sec_46b-129",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Connecticut - Title 17a, Chapter 319a, Conn. Gen. Stat. § 17a-101t (in-person home visit or evaluation pursuant to a safety plan; quarantine exception) (P.A. 24-92)",
+          "source_url": "https://www.cga.ct.gov/current/pub/chap_319a.htm#sec_17a-101t",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -75,14 +82,14 @@
         {
           "provision_id": "CT_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Connecticut Const. art. I, \u00a7 7",
+          "citation": "Connecticut Const. art. I, § 7",
           "federal_parallel": "U.S. Const. amend. IV"
         },
         {
           "provision_id": "CT_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Connecticut Const. art. I, \u00a7 8",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Connecticut Const. art. I, § 8",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -244,15 +251,16 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children and Families",
+    "name": "Connecticut Department of Children and Families",
     "acronym": "DCF",
-    "hotline": "1-800-842-2288",
-    "website": "https://www.cga.ct.gov"
+    "hotline": "1-800-842-2288 (DCF Careline, 24 hours a day, every day of the year); TDD 1-800-624-5518",
+    "website": "https://portal.ct.gov/dcf"
   },
   "investigation_requirements": [
     "Home visit required",
     "Victim interview required",
-    "Risk assessment required"
+    "Risk assessment required",
+    "Any visit to or evaluation of a home conducted pursuant to a safety plan must be conducted in person, unless a resident of the home is subject to an order of quarantine or isolation (Conn. Gen. Stat. § 17a-101t, P.A. 24-92, effective July 1, 2024)"
   ],
   "evidence_level": "Probable or reasonable cause",
   "_metadata": {
@@ -285,15 +293,24 @@
       "requirement_name": "Safety decision",
       "deadline": "Immediate upon contact",
       "starts_from": "First family contact",
-      "source": "admin_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Child safety risk"
     },
     {
       "requirement_name": "Disposition finding",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
+      "deadline": "33 business days",
+      "starts_from": "Report received",
       "source": "state_statute",
-      "consequence_of_miss": "Procedural violation"
+      "consequence_of_miss": "Not specified in statute",
+      "source_url": "https://www.cga.ct.gov/current/pub/chap_319a.htm#sec_17a-101g"
+    },
+    {
+      "requirement_name": "96-hour hold limit (removal without court order)",
+      "deadline": "96 hours",
+      "starts_from": "Child removed without a court order",
+      "source": "state_statute",
+      "consequence_of_miss": "If the child is not returned home within 96 hours, DCF must proceed in court under Conn. Gen. Stat. § 46b-129",
+      "source_url": "https://www.cga.ct.gov/current/pub/chap_319a.htm#sec_17a-101g"
     }
   ],
   "notice_requirements": [
@@ -310,6 +327,29 @@
         "Rights to appeal"
       ],
       "defective_notice_consequence": "Disposition may be overturned"
+    },
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian"
+      ],
+      "method": "personal_service",
+      "timing": "With service of an ex parte order of temporary custody or order to appear; preliminary hearing held not later than 10 days after the order issues",
+      "content_required": [
+        "Conspicuous notice written in clear and simple language",
+        "That the order contains allegations that conditions in the home have endangered the safety and welfare of the child or youth",
+        "That a hearing will be held on the date on the form and is the parents' opportunity to present their position on the alleged facts",
+        "That an attorney will be appointed for parents who cannot afford one, and how and where to apply, as soon as possible so counsel can prepare",
+        "That the parents or a person responsible for the child may ask the Commissioner of Children and Families to investigate placing the child with a blood or marriage relative as licensed foster parent or temporary custodian",
+        "That parents with questions about the case or appointment of counsel should go to the court or call the clerk's office as soon as possible"
+      ],
+      "defective_notice_consequence": "Not specified in Conn. Gen. Stat. § 46b-129(b)",
+      "statutory_basis": {
+        "citation_text": "Conn. Gen. Stat. § 46b-129(b) (order of temporary custody or order to appear; required conspicuous notice to the respondent; preliminary hearing not later than ten days after issuance)",
+        "source_url": "https://www.cga.ct.gov/current/pub/chap_815t.htm#sec_46b-129",
+        "authority_type": "state_statute",
+        "last_verified": "2026-09-19"
+      }
     }
   ],
   "door_scenarios": [

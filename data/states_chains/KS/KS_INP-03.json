@@ -5,9 +5,9 @@
   "node_family": "INP",
   "subnode": "INP-03",
   "trigger_name": "Law-Enforcement Referral",
-  "summary_html": "A **law-enforcement agency** encounters suspected maltreatment (e.g., during a domestic call or arrest) and **refers** to CPS. Federal child-abuse infrastructure promotes coordinated investigations via Children\u2019s Advocacy Centers.",
-  "authority_html": "- **Victims of Child Abuse Act (34 U.S.C. \u00a7\u00a7 20301\u201320307)** \u2014 support for multidisciplinary teams and CAC protocols; coordination with CPS  \n- **ASFA/SSA IV-E** \u2014 court findings and reasonable-efforts determinations later constrain downstream actions",
-  "icon": "\ud83d\ude94",
+  "summary_html": "A **law-enforcement agency** encounters suspected maltreatment (e.g., during a domestic call or arrest) and **refers** to CPS. Federal child-abuse infrastructure promotes coordinated investigations via Children’s Advocacy Centers.",
+  "authority_html": "- **Victims of Child Abuse Act (34 U.S.C. §§ 20301–20307)** — support for multidisciplinary teams and CAC protocols; coordination with CPS  \n- **ASFA/SSA IV-E** — court findings and reasonable-efforts determinations later constrain downstream actions  \n- **Kan. Stat. Ann. § 38-2226(h) (Adrian's Law)** — the investigating agency shall visually observe the child who is the alleged victim; in a joint investigation DCF and law enforcement shall both observe the child, and DCF policy states that law enforcement's observation does not fulfill DCF's responsibility (DCF PPM 2010)  \n- **Kan. Stat. Ann. § 38-2226(b)** — a joint DCF / law enforcement investigation is mandatory when a report indicates serious physical harm to, serious deterioration of, or sexual abuse of the child and action may be required to protect the child (DCF PPM 1530)",
+  "icon": "🚔",
   "theme_color": "#DC143C",
   "domain": "civil",
   "procedural_weight": 0.45,
@@ -25,42 +25,34 @@
     },
     "federal": {
       "requirements_applicable": [
-        "34 U.S.C. \u00a7\u00a7 20301\u201320307 (Victims of Child Abuse Act)",
-        "42 U.S.C. \u00a7\u00a7 671\u2013675 (ASFA-related IV-E conditions)"
+        "34 U.S.C. §§ 20301–20307 (Victims of Child Abuse Act)",
+        "42 U.S.C. §§ 671–675 (ASFA-related IV-E conditions)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Kansas - Chapter 38, Article 22 (Kansas Child in Need of Care Code \u2013 mandatory reporting \u00a7 38-2223)",
-          "source_url": "https://www.kslegislature.org",
+          "citation_text": "Kan. Stat. Ann. § 38-2223 — Reporting of certain abuse or neglect of children; persons required to report (Revised Kansas Code for Care of Children, ch. 38, art. 22)",
+          "source_url": "https://www.ksrevisor.gov/statutes/chapters/ch38/038_022_0023.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Title 23: Marriage and Domestic Relations",
-          "source_url": "https://law.justia.com/codes/kansas/title-23/",
+          "citation_text": "Chapter 23 — Kansas Family Law Code (revised)",
+          "source_url": "https://www.ksrevisor.gov/statutes/ksa_ch23.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 38: Minors - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/kansas/title-38/",
+          "citation_text": "Chapter 38 — Minors; Article 22, Revised Kansas Code for Care of Children (child welfare primary)",
+          "source_url": "https://www.ksrevisor.gov/statutes/ksa_ch38.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
-          "title_code": "",
-          "chapter": ""
-        },
-        {
-          "citation_text": "Title 65: Public Health - Child Abuse Reporting",
-          "source_url": "https://law.justia.com/codes/kansas/title-65/",
-          "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         }
@@ -245,21 +237,21 @@
     }
   },
   "state_agency": {
-    "name": "Department for Children and Families",
+    "name": "Kansas Department for Children and Families",
     "acronym": "DCF",
     "hotline": "1-800-922-5330",
-    "website": "https://www.kslegislature.org"
+    "website": "https://www.dcf.ks.gov/"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Childcare Staff",
-    "EMTs/Emergency Personnel"
+    "Persons providing medical care or treatment: persons licensed to practice the healing arts, dentistry and optometry, persons in board-approved postgraduate training programs, licensed professional or practical nurses, and chief administrative officers of medical care facilities — Kan. Stat. Ann. § 38-2223(a)(1)(A)",
+    "State-licensed mental health providers: psychologists, masters level psychologists, clinical psychotherapists, social workers, marriage and family therapists, clinical marriage and family therapists, behavioral analysts and assistant behavioral analysts, professional counselors, clinical professional counselors, and registered alcohol and drug abuse counselors — Kan. Stat. Ann. § 38-2223(a)(1)(B)",
+    "Teachers, school administrators and other employees of an educational institution the child attends, and members of the board of directors, employees and officers of the Kansas State High School Activities Association — Kan. Stat. Ann. § 38-2223(a)(1)(C)",
+    "Persons licensed by the secretary of health and environment to provide child care services, and their employees at the place where child care services are provided — Kan. Stat. Ann. § 38-2223(a)(1)(D)",
+    "Firefighters, emergency medical services personnel, law enforcement officers, juvenile intake and assessment workers, court services officers, community corrections officers, and case managers and mediators appointed under Kan. Stat. Ann. §§ 23-3508 and 23-3502 — Kan. Stat. Ann. § 38-2223(a)(1)(E)",
+    "Employees and volunteers of any organization, for profit or not-for-profit, that provides social services to pregnant teenagers, including counseling, adoption services and pregnancy education and maintenance — Kan. Stat. Ann. § 38-2223(a)(1)(F)"
   ],
   "reporting_type": "centralized",
-  "reporting_details": "Not applicable",
+  "reporting_details": "Kansas is not a universal-reporting state: only the professionals listed in Kan. Stat. Ann. § 38-2223(a)(1) must report, any other person who suspects a child may be a child in need of care may report but is not required to (§ 38-2223(a)(2)), and reports are made to the secretary for children and families — or to the appropriate law enforcement agency when the department is not open for business (§ 38-2223(c)(1)).",
   "definitions": {
     "abuse": [
       "Physical abuse",
@@ -322,17 +314,27 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
-      "starts_from": "Report received",
+      "deadline": "Same day or 72 hours",
+      "starts_from": "Assignment of the report as designated on the PPS 1002, Initial Assessment (DCF PPM 1500); the 72-hour rule is stated as running from acceptance of the report and excludes weekends and state holidays (DCF PPM 1521)",
+      "source": "admin_rule",
+      "consequence_of_miss": "Not specified in DCF PPM 1500 or 1521",
+      "source_url": "https://www.dcf.ks.gov/services/PPS/Documents/PPM_Forms/PDF%20Manuals/Policy%20and%20Procedure%20Manual%20July%202026.pdf"
+    },
+    {
+      "requirement_name": "Law enforcement referral response",
+      "deadline": "24 hours to initiate an investigation and contact the persons who are the subject of the investigation, then 24 hours from that contact to report the status back to the referring law enforcement agency",
+      "starts_from": "Receipt of a law enforcement officer's electronic referral of a child who may be a victim of abuse or neglect",
       "source": "state_statute",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "consequence_of_miss": "Not specified in Kan. Stat. Ann. § 38-2231(d)",
+      "source_url": "https://www.ksrevisor.gov/statutes/chapters/ch38/038_022_0031.html"
     },
     {
       "requirement_name": "Investigation completion",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
-      "source": "state_statute",
-      "consequence_of_miss": "Case dismissal risk"
+      "deadline": "30 working days",
+      "starts_from": "Report accepted for assessment",
+      "source": "admin_rule",
+      "consequence_of_miss": "A later finding is allowed only if a delay is requested by law enforcement, a county or district attorney, the court, or health or mental health professionals, or exceptional circumstances are documented in the case file (DCF PPM 2511 C.). An allowable late finding requires the Child Protection Specialist to enter \"Allowable Delay\" on the PPS 2011 Case Findings Section IV on or before the case finding due date; if the finding is late for a reason not allowable under PPM 2511 C., the specialist shall document with the finding: \"The case finding is delayed due to a non-allowable reason per policy.\" (DCF PPM 2531 E.)",
+      "source_url": "https://www.dcf.ks.gov/services/PPS/Documents/PPM_Forms/PDF%20Manuals/Policy%20and%20Procedure%20Manual%20July%202026.pdf"
     }
   ],
   "notice_requirements": [

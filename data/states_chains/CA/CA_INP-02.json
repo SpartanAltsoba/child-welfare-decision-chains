@@ -6,8 +6,8 @@
   "subnode": "INP-02",
   "trigger_name": "Voluntary / Third-Party Report",
   "summary_html": "Any person (not just mandated reporters) may submit a **voluntary report** to child-protection authorities. CAPTA requires states to maintain mechanisms for intake, confidentiality, and immunity policies tied to federal funding.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 requires states to operate intake/report systems that accept voluntary reports and protect good-faith reporters",
-  "icon": "\ud83d\udde3\ufe0f",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — requires states to operate intake/report systems that accept voluntary reports and protect good-faith reporters",
+  "icon": "🗣️",
   "theme_color": "#00CED1",
   "domain": "civil",
   "procedural_weight": 0.4,
@@ -24,23 +24,23 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "California - Penal Code \u00a7\u00a7\u00a011164\u201311174 (CANRA \u2013 Child Abuse and Neglect Reporting Act)",
-          "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=11164&lawCode=PENAL",
+          "citation_text": "California - Penal Code §§ 11164–11174.3 (CANRA – Child Abuse and Neglect Reporting Act)",
+          "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=11164.&lawCode=PEN",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "California - Welfare & Institutions Code \u00a7\u00a0300 et seq. (Juvenile dependency proceedings)",
-          "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=300&lawCode=INSTITUTIONS",
+          "citation_text": "California - Welfare & Institutions Code § 300 et seq. (Juvenile dependency proceedings)",
+          "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=300.&lawCode=WIC",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -222,21 +222,50 @@
   "state_agency": {
     "name": "California Department of Social Services",
     "acronym": "CDSS",
-    "hotline": "1-800-540-4000",
-    "website": "https://leginfo.legislature.ca.gov"
+    "hotline": "No statewide number. Call your county's 24-hour hotline",
+    "website": "https://www.cdss.ca.gov/"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Childcare Staff",
-    "Clergy",
-    "Foster Parents",
-    "Coaches",
-    "Coroners",
-    "EMTs/Emergency Personnel",
-    "District Attorneys"
+    "Employees, volunteers, and governing board or body members of a school district, county office of education, charter school, or private school (Pen. Code § 11165.7(a)(1))",
+    "Employees, volunteers, board members, and school district contractors whose duties require contact with or supervision of pupils, including at state special schools and diagnostic centers operated by the State Department of Education (Pen. Code § 11165.7(a)(2)–(3))",
+    "Administrators of public or private day camps (Pen. Code § 11165.7(a)(6))",
+    "Administrators and employees of public or private youth centers, youth recreation programs, or youth organizations (Pen. Code § 11165.7(a)(7))",
+    "Administrators, board members, and employees of public or private organizations whose duties require direct contact and supervision of children, including foster family agencies (Pen. Code § 11165.7(a)(8))",
+    "Licensees, administrators, and employees of licensed child daycare facilities and community care facilities, except facilities exclusively serving adults and seniors (Pen. Code § 11165.7(a)(10))",
+    "Head Start program teachers (Pen. Code § 11165.7(a)(11))",
+    "Licensing workers and licensing evaluators employed by a licensing agency (Pen. Code § 11165.7(a)(12))",
+    "Public assistance workers (Pen. Code § 11165.7(a)(13))",
+    "Employees of childcare institutions, including foster parents, group home personnel, and personnel of residential care facilities (Pen. Code § 11165.7(a)(14))",
+    "Social workers, probation officers, and parole officers (Pen. Code § 11165.7(a)(15))",
+    "Administrators, presenters, and counselors of child abuse prevention programs in public or private schools (Pen. Code § 11165.7(a)(17))",
+    "District attorney investigators and inspectors and local child support agency caseworkers, unless working with an attorney appointed under Welf. & Inst. Code § 317 to represent a minor (Pen. Code § 11165.7(a)(18))",
+    "Peace officers not otherwise described in the section (Pen. Code § 11165.7(a)(19))",
+    "Firefighters, except volunteer firefighters (Pen. Code § 11165.7(a)(20))",
+    "Physicians and surgeons, psychiatrists, psychologists, dentists, residents, interns, podiatrists, chiropractors, licensed nurses, dental hygienists, optometrists, marriage and family therapists, clinical social workers, professional clinical counselors, and other Business and Professions Code division 2 licensees (Pen. Code § 11165.7(a)(21))",
+    "Emergency medical technicians I and II, paramedics, and other persons certified under Health and Safety Code division 2.5 (Pen. Code § 11165.7(a)(22))",
+    "Registered psychological assistants, marriage and family therapist trainees, and registered associate marriage and family therapists (Pen. Code § 11165.7(a)(23)–(25))",
+    "State or county public health employees who treat a minor for venereal disease or any other condition (Pen. Code § 11165.7(a)(26))",
+    "Coroners, medical examiners, and other persons who perform autopsies (Pen. Code § 11165.7(a)(27)–(28))",
+    "Commercial film and photographic print or image processors, as specified in Pen. Code § 11166(e) (Pen. Code § 11165.7(a)(29))",
+    "Child visitation monitors (Pen. Code § 11165.7(a)(30))",
+    "Animal control officers and humane society officers (Pen. Code § 11165.7(a)(31))",
+    "Clergy members and custodians of records for a clergy member, as specified in Pen. Code § 11166(d) (Pen. Code § 11165.7(a)(32)–(33))",
+    "Employees of any police department, county sheriff's department, county probation department, or county welfare department (Pen. Code § 11165.7(a)(34))",
+    "Employees and volunteers of a Court Appointed Special Advocate (CASA) program (Pen. Code § 11165.7(a)(35))",
+    "Custodial officers as defined in Pen. Code § 831.5 (Pen. Code § 11165.7(a)(36))",
+    "Persons providing services to a minor child under Welf. & Inst. Code § 12300 or § 12300.1 (Pen. Code § 11165.7(a)(37))",
+    "Alcohol and drug counselors (Pen. Code § 11165.7(a)(38))",
+    "Clinical counselor trainees and registered associate professional clinical counselors (Pen. Code § 11165.7(a)(39)–(40))",
+    "Employees and administrators of public or private postsecondary educational institutions whose duties bring them into contact with children on a regular basis, as to abuse or neglect occurring on the institution's premises or at an official activity or program of the institution (Pen. Code § 11165.7(a)(41))",
+    "Athletic coaches, athletic administrators, and athletic directors employed by a public or private school providing instruction for kindergarten or grades 1 to 12 (Pen. Code § 11165.7(a)(42))",
+    "Commercial computer technicians, as specified in Pen. Code § 11166(e) (Pen. Code § 11165.7(a)(43))",
+    "Athletic coaches at public or private postsecondary educational institutions, including assistant coaches and graduate assistants involved in coaching (Pen. Code § 11165.7(a)(44))",
+    "Individuals certified by a licensed foster family agency as a certified family home (Pen. Code § 11165.7(a)(45))",
+    "Individuals approved as a resource family (Pen. Code § 11165.7(a)(46))",
+    "Qualified autism service providers, qualified autism service professionals, and qualified autism service paraprofessionals (Pen. Code § 11165.7(a)(47))",
+    "Human resource employees of a business subject to Gov. Code part 2.8 (commencing with § 12900) that employs minors (Pen. Code § 11165.7(a)(48))",
+    "Adults whose duties require direct contact with and supervision of minors in the workplace of a business subject to Gov. Code part 2.8 (commencing with § 12900) — mandated reporters of sexual abuse only (Pen. Code § 11165.7(a)(49))",
+    "Talent agents, talent managers, and talent coaches who provide services to a minor (Pen. Code § 11165.7(a)(50))"
   ],
   "reporting_type": "decentralized",
   "definitions": {
@@ -296,17 +325,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
+      "deadline": "Immediate in-person response in emergency situations; otherwise an evaluation of risk decides whether an in-person response is required",
       "starts_from": "Report received",
       "source": "state_statute",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=16504.&lawCode=WIC",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
-      "source": "state_statute",
-      "consequence_of_miss": "Case dismissal risk"
+      "deadline": "Written risk assessment no later than 30 days, and before the referral is closed or promoted to a case",
+      "starts_from": "Initial in-person contact",
+      "source": "admin_rule",
+      "source_url": "https://www.cdss.ca.gov/Portals/9/Regs/Man/CWS/cws2.docx",
+      "consequence_of_miss": "Not specified in CDSS MPP § 31-125.4"
     }
   ],
   "notice_requirements": [

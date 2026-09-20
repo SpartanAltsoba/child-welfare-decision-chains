@@ -6,8 +6,8 @@
   "subnode": "ACT-04",
   "trigger_name": "Kinship Placement",
   "summary_html": "Agency places a child with **relatives or kin caregivers** instead of non-relative foster care. Federal law favors kinship care as least-restrictive, family-preserving placement.",
-  "authority_html": "- **Fostering Connections to Success and Increasing Adoptions Act (FCSIAA 2008)** \u2014 kinship-care incentives  \n- **SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 reimbursement for approved kin placements",
-  "icon": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67",
+  "authority_html": "- **Fostering Connections to Success and Increasing Adoptions Act (FCSIAA 2008)** — kinship-care incentives  \n- **SSA Title IV-E (42 U.S.C. §§ 670–679c)** — reimbursement for approved kin placements",
+  "icon": "👨‍👩‍👧",
   "theme_color": "#FFD700",
   "domain": "civil",
   "procedural_weight": 0.45,
@@ -20,30 +20,31 @@
   "layers": {
     "constitutional": {
       "constraints_triggered": [
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
         "Public Law 110-351 (FCSIAA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)"
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Wisconsin - Wis. Stat. \u00a7\u00a048.981 (Abuse and Neglect Reporting law)",
-          "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/48",
+          "citation_text": "Wisconsin - Wis. Stat. § 48.981 (Abuse and Neglect Reporting law)",
+          "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/48/xxi/981",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Wisconsin - Wis. Stat. Chapter\u00a048 (Children\u2019s Code \u2013 includes CHIPS proceedings)",
-          "source_url": "https://legis.wisconsin.gov",
+          "citation_text": "Wisconsin - Wis. Stat. Chapter 48 (Children’s Code – includes CHIPS proceedings)",
+          "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/48",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 48: Children's Code - DCF - CHILD WELFARE PRIMARY",
@@ -154,8 +155,8 @@
         {
           "provision_id": "WI_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Wisconsin Const. art. I, \u00a7 8",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Wisconsin Const. art. I, § 8",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -318,10 +319,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children and Families",
+    "name": "Wisconsin Department of Children and Families",
     "acronym": "DCF",
-    "hotline": "1-800-422-4453",
-    "website": "https://legis.wisconsin.gov"
+    "hotline": "No statewide hotline. Call the county or tribal agency where the child lives — the list is at dcf.wisconsin.gov/reportabuse",
+    "website": "https://dcf.wisconsin.gov/"
   },
   "icwa_compliant": true,
   "icwa_details": {
@@ -359,10 +360,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
+      "deadline": "48 hours, excluding Saturdays, Sundays, and legal holidays",
+      "starts_from": "Decision to hold the child in custody",
       "source": "state_statute",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "consequence_of_miss": "Child shall be released (Wis. Stat. § 48.21(1)(a))",
+      "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/48/iv/21"
     },
     {
       "requirement_name": "Case plan development",

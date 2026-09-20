@@ -5,9 +5,9 @@
   "node_family": "FAIL",
   "subnode": "FAIL-02",
   "trigger_name": "Unlawful Removal",
-  "summary_html": "A **child is removed without exigency or warrant**, violating constitutional rights. Federal courts treat such removals as seizures under the Fourth and Fourteenth Amendments, actionable via \u00a71983.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 limits removals to lawful emergencies and requires judicial review  \n- **U.S. Constitution (4th & 14th Amendments)** \u2014 protects family integrity; requires due process",
-  "icon": "\ud83d\udea8",
+  "summary_html": "A **child is removed without exigency or warrant**, violating constitutional rights. Federal courts treat such removals as seizures under the Fourth and Fourteenth Amendments, actionable via §1983.",
+  "authority_html": "- **ASFA / SSA Title IV-E** — limits removals to lawful emergencies and requires judicial review  \n- **U.S. Constitution (4th & 14th Amendments)** — protects family integrity; requires due process",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.9,
@@ -24,24 +24,25 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)",
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)",
         "U.S. Constitution, Amendments IV & XIV"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Wisconsin - Wis. Stat. \u00a7\u00a048.981 (Abuse and Neglect Reporting law)",
-          "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/48",
+          "citation_text": "Wisconsin - Wis. Stat. § 48.981 (Abuse and Neglect Reporting law)",
+          "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/48/xxi/981",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Wisconsin - Wis. Stat. Chapter\u00a048 (Children\u2019s Code \u2013 includes CHIPS proceedings)",
-          "source_url": "https://legis.wisconsin.gov",
+          "citation_text": "Wisconsin - Wis. Stat. Chapter 48 (Children’s Code – includes CHIPS proceedings)",
+          "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/48",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 48: Children's Code - DCF - CHILD WELFARE PRIMARY",
@@ -309,10 +310,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children and Families",
+    "name": "Wisconsin Department of Children and Families",
     "acronym": "DCF",
-    "hotline": "1-800-422-4453",
-    "website": "https://legis.wisconsin.gov"
+    "hotline": "No statewide hotline. Call the county or tribal agency where the child lives — the list is at dcf.wisconsin.gov/reportabuse",
+    "website": "https://dcf.wisconsin.gov/"
   },
   "linked_output": "OUT-05",
   "linked_action": "ACT-03",
@@ -349,7 +350,7 @@
       "requirement_name": "Appeal deadline",
       "deadline": "30 days",
       "starts_from": "Final order",
-      "source": "court_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Loss of appeal rights"
     },
     {
@@ -358,6 +359,38 @@
       "starts_from": "Violation occurred",
       "source": "federal_statute",
       "consequence_of_miss": "Claim barred"
+    },
+    {
+      "requirement_name": "Written notice of a final substantiation determination",
+      "deadline": "Within 5 days",
+      "starts_from": "Date of the final determination that a specific person abused or neglected a child",
+      "source": "state_statute",
+      "consequence_of_miss": "Not specified in Wis. Stat. § 48.981(3)(c)5m.",
+      "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/48/xxi/981/3/c/5p"
+    },
+    {
+      "requirement_name": "Substantiation challenge deadline (ch. 227 contested case hearing request)",
+      "deadline": "Within 10 days",
+      "starts_from": "Date of the notice of the final determination under Wis. Stat. § 48.981(3)(c)5m.",
+      "source": "state_statute",
+      "consequence_of_miss": "Not specified in Wis. Stat. § 48.981(3)(c)5p.; the statute conditions receiving the hearing on a written request sent within this period",
+      "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/48/xxi/981/3/c/5p"
+    },
+    {
+      "requirement_name": "Contested case hearing commencement",
+      "deadline": "Within 90 days",
+      "starts_from": "Department's receipt of the request for the hearing",
+      "source": "state_statute",
+      "consequence_of_miss": "Not specified in Wis. Stat. § 48.981(3)(c)5p.",
+      "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/48/xxi/981/3/c/5p"
+    },
+    {
+      "requirement_name": "Final administrative decision after contested case hearing",
+      "deadline": "Within 60 days",
+      "starts_from": "Close of the contested case hearing",
+      "source": "state_statute",
+      "consequence_of_miss": "Not specified in Wis. Stat. § 48.981(3)(c)5p.",
+      "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/48/xxi/981/3/c/5p"
     }
   ],
   "notice_requirements": [

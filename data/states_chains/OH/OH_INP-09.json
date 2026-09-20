@@ -6,8 +6,8 @@
   "subnode": "INP-09",
   "trigger_name": "Systemic Audit / Oversight Trigger",
   "summary_html": "Findings by **federal/state oversight** (CFSR reviews, OIG audits, child-fatality commissions) can initiate investigations or corrective actions that open CPS involvement.",
-  "authority_html": "- **Protect Our Kids Act (PL 112-275)** \u2014 national commission on child abuse/neglect fatalities  \n- **Child & Family Services Reviews (45 CFR Part 1355)** \u2014 federal monitoring of state systems  \n- **Inspector General Act (5 U.S.C. App.)** \u2014 OIG oversight of HHS/ACF and grantees",
-  "icon": "\ud83e\uddfe",
+  "authority_html": "- **Protect Our Kids Act (PL 112-275)** — national commission on child abuse/neglect fatalities  \n- **Child & Family Services Reviews (45 CFR Part 1355)** — federal monitoring of state systems  \n- **Inspector General Act (5 U.S.C. App.)** — OIG oversight of HHS/ACF and grantees",
+  "icon": "🧾",
   "theme_color": "#708090",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -35,36 +35,44 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Ohio - Ohio Rev. Code \u00a7\u00a02151.421 (Mandatory reporting of child abuse)",
-          "source_url": "https://codes.ohio.gov/ohio-revised-code/chapter-2151",
+          "citation_text": "Ohio - Ohio Rev. Code § 2151.421 (Mandatory reporting of child abuse)",
+          "source_url": "https://codes.ohio.gov/ohio-revised-code/section-2151.421",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Ohio - Ohio Rev. Code Chapter\u00a02151 (Juvenile Court \u2013 abuse, neglect, dependency)",
-          "source_url": "https://www.legislature.ohio.gov",
+          "citation_text": "Ohio - Ohio Rev. Code Chapter 2151 (Juvenile Court – abuse, neglect, dependency)",
+          "source_url": "https://codes.ohio.gov/ohio-revised-code/chapter-2151",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Ohio - Ohio Rev. Code Chapter 5153 (County children services agencies)",
+          "source_url": "https://codes.ohio.gov/ohio-revised-code/chapter-5153",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
     "administrative_rule": {
       "regulations_applicable": [
         {
-          "title": "5101:2 - Division of Social Services (Child Protective Services)",
-          "url": "https://www.law.cornell.edu/regulations/ohio/title-5101-2"
+          "title": "5180:3 - Ohio Department of Children and Youth | Children Services and Supports",
+          "url": "https://codes.ohio.gov/ohio-administrative-code/5180:3"
         },
         {
-          "title": "5101:5 - Child Abuse and Neglect Prevention",
-          "url": "https://www.law.cornell.edu/regulations/ohio/title-5101-5"
+          "title": "5180:3-5 - Assessments (PCSA safety assessment, safety plan, and family assessment)",
+          "url": "https://codes.ohio.gov/ohio-administrative-code/chapter-5180:3-5"
         },
         {
-          "title": "5101 - Department of Job and Family Services",
-          "url": "https://www.law.cornell.edu/regulations/ohio/title-5101"
+          "title": "5180 - Ohio Department of Children and Youth",
+          "url": "https://codes.ohio.gov/ohio-administrative-code/5180"
         }
       ],
-      "source_url": "https://www.law.cornell.edu/regulations/ohio.html"
+      "source_url": "https://codes.ohio.gov/ohio-administrative-code"
     },
     "state_constitutional": {
       "plane_reference": "state_constitutional_OH",
@@ -228,20 +236,34 @@
     }
   },
   "state_agency": {
-    "name": "Department of Job and Family Services",
-    "acronym": "ODJFS",
+    "name": "Ohio Department of Children and Youth",
+    "acronym": "DCY",
     "hotline": "1-855-642-4453",
-    "website": "https://www.legislature.ohio.gov"
+    "website": "https://childrenandyouth.ohio.gov/"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Childcare Staff",
-    "Foster Parents",
+    "Listed professionals only — Ohio is not a universal-reporting state; any other person may report voluntarily (Ohio Rev. Code § 2151.421(A)(1)(b), (B))",
+    "Attorneys",
+    "Health care professionals (defined at Ohio Rev. Code § 2151.421(O)(2))",
+    "Practitioners of a limited branch of medicine (Ohio Rev. Code § 4731.15)",
+    "Licensed school psychologists and independent marriage and family therapists or marriage and family therapists",
     "Coroners",
-    "District Attorneys"
+    "School teachers, school employees and school authorities",
+    "Administrators and employees of child care centers, residential camps, child day camps and private, nonprofit therapeutic wilderness camps",
+    "Administrators and employees of certified child care agencies and other public or private children services agencies, and third parties employed by a public children services agency to assist in providing child or family related services",
+    "Peace officers",
+    "Humane society agents, dog wardens, deputy dog wardens and other appointed animal control officers",
+    "Persons, other than clerics, rendering spiritual treatment through prayer in accordance with the tenets of a well-recognized religion",
+    "Clerics and non-volunteer leaders, officials or delegates designated by a church, religious society or faith (Ohio Rev. Code § 2151.421(A)(4))",
+    "Employees of a county department of job and family services who are professionals working with children and families",
+    "Employees of entities providing home visiting services under the Help Me Grow program (Ohio Rev. Code § 5180.21)",
+    "Superintendents and regional administrators employed by the Department of Youth Services",
+    "Superintendents, board members and employees of county boards of developmental disabilities, contracted investigative agents, Department of Developmental Disabilities employees, and employees of facilities or homes providing respite care (Ohio Rev. Code § 5123.171)",
+    "Employees of entities that provide homemaker services",
+    "Employees of qualified organizations and host families (Ohio Rev. Code § 2151.90)",
+    "Foster caregivers",
+    "Persons performing the duties of an assessor under Ohio Rev. Code Chapter 3107 or 5103",
+    "Court appointed special advocates and guardians ad litem"
   ],
   "reporting_type": "decentralized",
   "definitions": {
@@ -306,17 +328,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
-      "starts_from": "Report received",
+      "deadline": "Within 24 hours, except as provided in Ohio Rev. Code § 2151.422 or in an interagency agreement entered into under Ohio Rev. Code § 2151.428 that applies to the particular report",
+      "starts_from": "Report referred to the public children services agency",
       "source": "state_statute",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "consequence_of_miss": "Statute sets no penalty; Ohio Rev. Code § 2151.421(G)(1) states that a failure to investigate in accordance with the county memorandum of understanding is not grounds for dismissing charges or suppressing evidence",
+      "source_url": "https://codes.ohio.gov/ohio-revised-code/section-2151.421"
     },
     {
       "requirement_name": "Investigation completion",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
-      "source": "state_statute",
-      "consequence_of_miss": "Case dismissal risk"
+      "deadline": "No later than 60 days (family assessment recorded and approved)",
+      "starts_from": "Referral screened in",
+      "source": "admin_rule",
+      "consequence_of_miss": "Not stated in the rule",
+      "source_url": "https://codes.ohio.gov/ohio-administrative-code/rule-5180:3-5-03"
     }
   ],
   "notice_requirements": [

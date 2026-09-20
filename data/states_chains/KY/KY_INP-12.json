@@ -6,8 +6,8 @@
   "subnode": "INP-12",
   "trigger_name": "Emergency / Protective Custody",
   "summary_html": "Immediate state action to **protect a child in imminent danger**. Federal law (ASFA/IV-E) ties funding to court findings on **reasonable efforts**, and constitutional limits (due process, 4th/14th Amendments) constrain warrantless removals.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 reasonable-efforts findings; permanency timelines  \n- **CFSR (45 CFR Part 1355)** \u2014 federal oversight of removal decision quality  \n- **Constitutional constraints** \u2014 enforced via \u00a71983 actions; due process & search/seizure jurisprudence (not listed in file but governs practice)",
-  "icon": "\ud83d\udea8",
+  "authority_html": "- **ASFA / SSA Title IV-E** — reasonable-efforts findings; permanency timelines  \n- **CFSR (45 CFR Part 1355)** — federal oversight of removal decision quality  \n- **Constitutional constraints** — enforced via §1983 actions; due process & search/seizure jurisprudence (not listed in file but governs practice)",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.35,
@@ -27,7 +27,7 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)",
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)",
         "ASFA (Public Law 105-89)",
         "45 CFR Part 1355 (CFSR Regulations)"
       ]
@@ -35,20 +35,20 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Kentucky - KRS Chapter 620 (Child Abuse \u2013 dependency proceedings and reporting)",
-          "source_url": "https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=620",
+          "citation_text": "Kentucky - KRS Chapter 620 (Dependency, Neglect, and Abuse)",
+          "source_url": "https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=39420",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 199: Adoption - CHFS",
-          "source_url": "https://law.justia.com/codes/kentucky/title-199/",
+          "citation_text": "Kentucky - KRS Chapter 199 (Protective Services for Children -- Adoption -- Child Care)",
+          "source_url": "https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=38096",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
-          "title_code": "",
-          "chapter": ""
+          "title_code": "XVII",
+          "chapter": "199"
         }
       ]
     },
@@ -76,7 +76,7 @@
         {
           "provision_id": "KY_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Kentucky Const. art. bill_of_rights, \u00a7 10",
+          "citation": "Kentucky Const. art. bill_of_rights, § 10",
           "federal_parallel": "U.S. Const. amend. IV"
         }
       ]
@@ -225,28 +225,25 @@
     }
   },
   "state_agency": {
-    "name": "Department for Community Based Services",
+    "name": "Kentucky Department for Community Based Services",
     "acronym": "DCBS",
-    "hotline": "1-877-597-2331",
-    "website": "https://legislature.ky.gov"
+    "hotline": "1-877-597-2331 (1-877-KYSAFE1) or 1-800-752-6200; call the phone line nights, weekends and holidays - the online report form is monitored 8 a.m. to 4:30 p.m. ET, Monday through Friday",
+    "website": "https://www.chfs.ky.gov/agencies/dcbs/Pages/default.aspx"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Shelter Staff",
-    "Childcare Staff",
-    "Clergy",
-    "Foster Parents",
-    "Coaches",
-    "Coroners",
-    "EMTs/Emergency Personnel",
-    "Judges",
-    "District Attorneys"
+    "Any person (universal mandatory reporting) — Ky. Rev. Stat. Ann. § 620.030(1)",
+    "Physicians, osteopathic physicians, nurses, residents, interns — Ky. Rev. Stat. Ann. § 620.030(2)(a)",
+    "Teachers and school personnel — Ky. Rev. Stat. Ann. § 620.030(2)(a)",
+    "Social workers and child-caring personnel — Ky. Rev. Stat. Ann. § 620.030(2)(a)",
+    "Coroners and medical examiners — Ky. Rev. Stat. Ann. § 620.030(2)(a)",
+    "Chiropractors, dentists, optometrists — Ky. Rev. Stat. Ann. § 620.030(2)(a)",
+    "Emergency medical technicians and paramedics — Ky. Rev. Stat. Ann. § 620.030(2)(a)",
+    "Health professionals and mental health professionals — Ky. Rev. Stat. Ann. § 620.030(2)(a)",
+    "Peace officers — Ky. Rev. Stat. Ann. § 620.030(2)(a)",
+    "Any organization or agency employing any of the above — Ky. Rev. Stat. Ann. § 620.030(2)(a)"
   ],
   "reporting_type": "centralized",
-  "reporting_details": "Not applicable",
+  "reporting_details": "Kentucky is a universal mandatory reporting state — any person who knows or has reasonable cause to believe that a child is dependent, neglected, or abused must immediately report to a local law enforcement agency, the Department of Kentucky State Police, the cabinet or its designated representative, the Commonwealth's attorney, or the county attorney (Ky. Rev. Stat. Ann. § 620.030(1)).",
   "definitions": {
     "abuse": [
       "Physical abuse",
@@ -307,16 +304,17 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
-      "starts_from": "Report received",
-      "source": "state_statute",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "deadline": "4, 24, 48, or 72 hours, or 5 working days (tiered by risk level)",
+      "starts_from": "Acceptance of the report",
+      "source": "admin_rule",
+      "consequence_of_miss": "Potential audit finding, CFSR deficiency",
+      "source_url": "https://apps.legislature.ky.gov/law/kar/titles/922/001/330/"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

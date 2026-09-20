@@ -6,8 +6,8 @@
   "subnode": "DEC-04",
   "trigger_name": "Emergency Removal Decision",
   "summary_html": "Agency decides to **remove a child immediately** due to **imminent danger** prior to a court order. Federal law (ASFA/IV-E) requires later **court findings** on reasonable efforts; constitutional limits (due process; search/seizure) apply.",
-  "authority_html": "- **ASFA / SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 reasonable-efforts findings; permanency timelines  \n- **CFSR (45 CFR Part 1355)** \u2014 monitors safety & removal decision quality",
-  "icon": "\ud83d\udea8",
+  "authority_html": "- **ASFA / SSA Title IV-E (42 U.S.C. §§ 670–679c)** — reasonable-efforts findings; permanency timelines  \n- **CFSR (45 CFR Part 1355)** — monitors safety & removal decision quality",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.35,
@@ -22,13 +22,13 @@
     "constitutional": {
       "constraints_triggered": [
         "U.S. Const. amend. IV",
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E)",
+        "42 U.S.C. §§ 670–679c (Title IV-E)",
         "Public Law 105-89 (ASFA)",
         "45 CFR Part 1355 (CFSR)"
       ]
@@ -36,43 +36,43 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Colorado - Title 19, Article 3 (Colorado Children\u2019s Code \u2013 abuse/neglect reporting and dependency)",
-          "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf",
+          "citation_text": "Colorado - Title 19, Article 3 (Colorado Children’s Code – abuse/neglect reporting and dependency) — C.R.S. 2024 OLLS edition (uncertified printout)",
+          "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf#page=260",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Colorado - Title 19, Article 3, Part 3 (Dependency and neglect procedures)",
-          "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf",
+          "citation_text": "Colorado - Title 19, Article 3, Part 3 (Child Abuse or Neglect — reporting, screening, and investigation) — C.R.S. 2024 OLLS edition (uncertified printout)",
+          "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf#page=283",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 14: Domestic Matters",
-          "source_url": "https://law.justia.com/codes/colorado/title-14/",
+          "citation_text": "Title 14: Domestic Matters — C.R.S. 2024 OLLS edition (uncertified printout)",
+          "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-14.pdf",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 19: Children's Code - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/colorado/title-19/",
+          "citation_text": "Title 19: Children's Code - CHILD WELFARE PRIMARY — C.R.S. 2024 OLLS edition (uncertified printout)",
+          "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 26: Human Services Code",
-          "source_url": "https://law.justia.com/codes/colorado/title-26/",
+          "citation_text": "Title 26: Human Services Code — C.R.S. 2024 OLLS edition (uncertified printout)",
+          "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-26.pdf",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         }
@@ -102,14 +102,14 @@
         {
           "provision_id": "CO_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Colorado Const. art. II, \u00a7 7",
+          "citation": "Colorado Const. art. II, § 7",
           "federal_parallel": "U.S. Const. amend. IV"
         },
         {
           "provision_id": "CO_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Colorado Const. art. II, \u00a7 25",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Colorado Const. art. II, § 25",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -274,7 +274,7 @@
     "name": "Colorado Department of Human Services",
     "acronym": "CDHS",
     "hotline": "1-844-264-5437",
-    "website": "https://leg.colorado.gov"
+    "website": "https://cdhs.colorado.gov/"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -312,14 +312,14 @@
       "requirement_name": "Safety decision",
       "deadline": "Immediate upon contact",
       "starts_from": "First family contact",
-      "source": "admin_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Child safety risk"
     },
     {
       "requirement_name": "Disposition finding",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Procedural violation"
     }
   ],

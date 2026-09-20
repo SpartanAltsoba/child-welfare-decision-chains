@@ -6,8 +6,8 @@
   "subnode": "ACT-03",
   "trigger_name": "Foster Care Placement",
   "summary_html": "The child is **removed from the home** and placed in foster care under court order or emergency authority. Federal statutes tie funding to safety findings, judicial oversight, and permanency planning.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal monitoring of placement decisions",
-  "icon": "\ud83d\udea8",
+  "authority_html": "- **ASFA / SSA Title IV-E** — removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** — federal monitoring of placement decisions",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.35,
@@ -21,49 +21,41 @@
     "constitutional": {
       "constraints_triggered": [
         "U.S. Const. amend. IV",
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)",
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Kansas - Chapter 38, Article 22 (Kansas Child in Need of Care Code \u2013 mandatory reporting \u00a7 38-2223)",
-          "source_url": "https://www.kslegislature.org",
+          "citation_text": "Kan. Stat. Ann. § 38-2223 — Reporting of certain abuse or neglect of children; persons required to report (Revised Kansas Code for Care of Children, ch. 38, art. 22)",
+          "source_url": "https://www.ksrevisor.gov/statutes/chapters/ch38/038_022_0023.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Title 23: Marriage and Domestic Relations",
-          "source_url": "https://law.justia.com/codes/kansas/title-23/",
+          "citation_text": "Chapter 23 — Kansas Family Law Code (revised)",
+          "source_url": "https://www.ksrevisor.gov/statutes/ksa_ch23.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 38: Minors - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/kansas/title-38/",
+          "citation_text": "Chapter 38 — Minors; Article 22, Revised Kansas Code for Care of Children (child welfare primary)",
+          "source_url": "https://www.ksrevisor.gov/statutes/ksa_ch38.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
-          "title_code": "",
-          "chapter": ""
-        },
-        {
-          "citation_text": "Title 65: Public Health - Child Abuse Reporting",
-          "source_url": "https://law.justia.com/codes/kansas/title-65/",
-          "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         }
@@ -93,14 +85,14 @@
         {
           "provision_id": "KS_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Kansas Const. art. bill_of_rights, \u00a7 15",
+          "citation": "Kansas Const. art. bill_of_rights, § 15",
           "federal_parallel": "U.S. Const. amend. IV"
         },
         {
           "provision_id": "KS_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Kansas Const. art. bill_of_rights, \u00a7 18",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Kansas Const. art. bill_of_rights, § 18",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -262,10 +254,10 @@
     }
   },
   "state_agency": {
-    "name": "Department for Children and Families",
+    "name": "Kansas Department for Children and Families",
     "acronym": "DCF",
     "hotline": "1-800-922-5330",
-    "website": "https://www.kslegislature.org"
+    "website": "https://www.dcf.ks.gov/"
   },
   "linked_decision": "DEC-04",
   "linked_input": "INP-01",
@@ -298,10 +290,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
+      "deadline": "72 hours, excluding Saturdays, Sundays, legal holidays and days the clerk of the court's office is not accessible",
+      "starts_from": "Child taken into protective custody",
       "source": "state_statute",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "consequence_of_miss": "No child may be held in protective custody beyond the 72 hours unless a temporary custody determination is made within that period (Kan. Stat. Ann. § 38-2242(b)(2))",
+      "source_url": "https://www.ksrevisor.gov/statutes/chapters/ch38/038_022_0043.html"
     },
     {
       "requirement_name": "Case plan development",

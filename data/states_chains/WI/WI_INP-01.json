@@ -6,8 +6,8 @@
   "subnode": "INP-01",
   "trigger_name": "Mandatory Report",
   "summary_html": "**Mandatory reporters** (designated professionals) must report suspected child abuse or neglect. Federal law sets the funding and policy floor (CAPTA) and mandates reporter frameworks on federal lands/facilities (VICAA).",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 federal floor for state reporting systems  \n- **Victims of Child Abuse Act (34 U.S.C. \u00a7\u00a7 20301\u201320307)** \u2014 includes federal-facility reporter duties (recodified from former 42 U.S.C. \u00a713031)",
-  "icon": "\ud83d\udcde",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — federal floor for state reporting systems  \n- **Victims of Child Abuse Act (34 U.S.C. §§ 20301–20307)** — includes federal-facility reporter duties (recodified from former 42 U.S.C. §13031)",
+  "icon": "📞",
   "theme_color": "#1E90FF",
   "domain": "civil",
   "procedural_weight": 0.4,
@@ -27,24 +27,25 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
-        "34 U.S.C. \u00a7\u00a7 20301\u201320307 (Victims of Child Abuse Act)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
+        "34 U.S.C. §§ 20301–20307 (Victims of Child Abuse Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Wisconsin - Wis. Stat. \u00a7\u00a048.981 (Abuse and Neglect Reporting law)",
-          "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/48",
+          "citation_text": "Wisconsin - Wis. Stat. § 48.981 (Abuse and Neglect Reporting law)",
+          "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/48/xxi/981",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Wisconsin - Wis. Stat. Chapter\u00a048 (Children\u2019s Code \u2013 includes CHIPS proceedings)",
-          "source_url": "https://legis.wisconsin.gov",
+          "citation_text": "Wisconsin - Wis. Stat. Chapter 48 (Children’s Code – includes CHIPS proceedings)",
+          "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/48",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 48: Children's Code - DCF - CHILD WELFARE PRIMARY",
@@ -311,20 +312,28 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children and Families",
+    "name": "Wisconsin Department of Children and Families",
     "acronym": "DCF",
-    "hotline": "1-800-422-4453",
-    "website": "https://legis.wisconsin.gov"
+    "hotline": "No statewide hotline. Call the county or tribal agency where the child lives — the list is at dcf.wisconsin.gov/reportabuse",
+    "website": "https://dcf.wisconsin.gov/"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Childcare Staff",
-    "Clergy",
-    "Coroners",
-    "EMTs/Emergency Personnel"
+    "Physicians, naturopathic doctors, nurses, dentists, chiropractors, optometrists, acupuncturists, and medical or mental health professionals not otherwise specified (Wis. Stat. § 48.981(2)(a)1., 1m., 4.–9.)",
+    "Coroners and medical examiners (Wis. Stat. § 48.981(2)(a)2., 3.)",
+    "Social workers, marriage and family therapists, and professional counselors (Wis. Stat. § 48.981(2)(a)10.–12.)",
+    "Public assistance workers, including financial and employment planners (Wis. Stat. § 48.981(2)(a)13.)",
+    "School teachers, school administrators, school counselors, and school employees not otherwise specified (Wis. Stat. § 48.981(2)(a)14.–16., 16m.)",
+    "Mediators under Wis. Stat. § 767.405 (Wis. Stat. § 48.981(2)(a)17.)",
+    "Child care workers in a child care center, group home, or residential care center for children and youth, and child care providers (Wis. Stat. § 48.981(2)(a)18., 19.)",
+    "Alcohol or other drug abuse counselors and genetic counselors (Wis. Stat. § 48.981(2)(a)20., 20m.)",
+    "Treatment staff employed by or working under contract with a county department under Wis. Stat. § 46.23, 51.42, or 51.437, or with a residential care center for children and youth (Wis. Stat. § 48.981(2)(a)21.)",
+    "Physical therapists, physical therapist assistants, occupational therapists, and dietitians (Wis. Stat. § 48.981(2)(a)22., 22m., 23., 24.)",
+    "Speech-language pathologists and audiologists (Wis. Stat. § 48.981(2)(a)25., 26.)",
+    "Emergency medical services practitioners and emergency medical responders (Wis. Stat. § 48.981(2)(a)27., 28.)",
+    "Police or law enforcement officers and juvenile correctional officers (Wis. Stat. § 48.981(2)(a)29., 30.)",
+    "Court-appointed special advocates, as to children seen in the course of activities under Wis. Stat. § 48.236(3) (Wis. Stat. § 48.981(2)(b))",
+    "Members of the clergy, except for child abuse information received solely through confidential communications made privately or in a confessional setting (Wis. Stat. § 48.981(2)(bm)1.–3.)",
+    "Any other person, including an attorney — permissive only; may report but is not required to (Wis. Stat. § 48.981(2)(c))"
   ],
   "reporting_type": "decentralized",
   "definitions": {
@@ -383,17 +392,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
+      "deadline": "Within 24 hours",
       "starts_from": "Report received",
       "source": "state_statute",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "consequence_of_miss": "Potential audit finding, CFSR deficiency",
+      "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/48/xxi/981"
     },
     {
       "requirement_name": "Investigation completion",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
+      "deadline": "60 days",
+      "starts_from": "Report received",
       "source": "state_statute",
-      "consequence_of_miss": "Case dismissal risk"
+      "consequence_of_miss": "Case dismissal risk",
+      "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/48/xxi/981"
     }
   ],
   "notice_requirements": [
@@ -409,6 +420,25 @@
         "Rights"
       ],
       "defective_notice_consequence": "May invalidate findings"
+    },
+    {
+      "who_must_be_notified": [
+        "tribe"
+      ],
+      "method": "any_reasonable",
+      "timing": "Within 24 hours after a county department that has a federally recognized reservation or the Ho-Chunk service area wholly or partly within its county receives a report about a child it knows or has reason to know is an Indian child residing in the county, or an Indian unborn child whose expectant mother resides in the county",
+      "content_required": [
+        "Name and address of the Indian child or expectant mother",
+        "The fact that a report has been received about that Indian child or Indian unborn child"
+      ],
+      "icwa_additional_notice": true,
+      "defective_notice_consequence": "Not specified in Wis. Stat. § 48.981(3)(bm)",
+      "statutory_basis": {
+        "citation_text": "Wis. Stat. § 48.981(3)(bm) (notice of report to Indian tribal agent)",
+        "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/48/xxi/981/3/bm",
+        "authority_type": "state_statute",
+        "last_verified": "2026-09-19"
+      }
     }
   ],
   "door_scenarios": [

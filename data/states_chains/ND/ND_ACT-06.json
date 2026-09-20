@@ -6,8 +6,8 @@
   "subnode": "ACT-06",
   "trigger_name": "Emergency Medical/Psychological Care",
   "summary_html": "Agency or court authorizes **immediate medical or psychological care** when delay endangers life or safety. Federal statutes support medical access and confidentiality exceptions for child protection.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 permits emergency medical actions for abused/neglected children  \n- **Victims of Child Abuse Act (34 U.S.C. \u00a7\u00a7 20301\u201320307)** \u2014 multidisciplinary response and medical-exam standards",
-  "icon": "\ud83c\udfe5",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — permits emergency medical actions for abused/neglected children  \n- **Victims of Child Abuse Act (34 U.S.C. §§ 20301–20307)** — multidisciplinary response and medical-exam standards",
+  "icon": "🏥",
   "theme_color": "#FF69B4",
   "domain": "civil",
   "procedural_weight": 0.4,
@@ -23,23 +23,39 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
-        "34 U.S.C. \u00a7\u00a7 20301\u201320307 (VICAA)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
+        "34 U.S.C. §§ 20301–20307 (VICAA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "North Dakota - N.D. Cent. Code Chapter\u00a050-25.1 (Child Abuse and Neglect \u2013 reporting and records)",
-          "source_url": "https://www.legis.nd.gov",
+          "citation_text": "North Dakota - N.D. Cent. Code Chapter 50-25.1 (Child Abuse and Neglect – reporting and records)",
+          "source_url": "https://ndlegis.gov/cencode/t50c25-1.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "North Dakota - N.D. Cent. Code \u00a7\u00a027-20.1-01 et seq. (Juvenile Court Act for deprivation cases)",
-          "source_url": "https://www.legis.nd.gov",
+          "citation_text": "North Dakota - N.D. Cent. Code ch. 27-20.3 (Child Welfare – protective custody, shelter care, child in need of protection)",
+          "source_url": "https://ndlegis.gov/cencode/t27c20-3.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "North Dakota - N.D. Cent. Code ch. 50-01.1 (Human Service Zones - the county-employed local agency that administers designated child welfare services under the direction and supervision of the department; §§ 50-01.1-01(4), (6), 50-01.1-03(1)(j), 50-01.1-05(7))",
+          "source_url": "https://ndlegis.gov/cencode/t50c01-1.html",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "North Dakota - N.D. Cent. Code ch. 27-19.1 (Indian Child Welfare - active efforts, tribal jurisdiction and transfer, registered-mail notice to the parent, Indian custodian and tribe, placement preferences)",
+          "source_url": "https://ndlegis.gov/cencode/t27c19-1.html",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 14: Domestic Relations",
@@ -306,10 +322,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Services",
-    "acronym": "DHS",
-    "hotline": "1-833-958-3500",
-    "website": "https://www.legis.nd.gov"
+    "name": "North Dakota Department of Health and Human Services",
+    "acronym": "HHS",
+    "hotline": "1-833-958-3500 (8 a.m.-5 p.m. Central / 7 a.m.-4 p.m. Mountain, Mon-Fri; if a child is in immediate danger call 911)",
+    "website": "https://www.hhs.nd.gov/cfs"
   },
   "icwa_compliant": true,
   "icwa_details": {
@@ -347,10 +363,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
+      "deadline": "96 hours",
+      "starts_from": "Child placed in shelter care",
       "source": "state_statute",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "consequence_of_miss": "The child must be released unless continued shelter care is found required; if no petition is filed within 30 days of protective custody the child must be released from shelter care (N.D. Cent. Code §§ 27-20.3-08(3), 27-20.3-10).",
+      "source_url": "https://ndlegis.gov/cencode/t27c20-3.html"
     },
     {
       "requirement_name": "Case plan development",
@@ -358,6 +375,22 @@
       "starts_from": "Court jurisdiction",
       "source": "federal_statute",
       "consequence_of_miss": "IV-E funding penalty"
+    },
+    {
+      "requirement_name": "ICWA first hearing after notice",
+      "deadline": "10 days",
+      "starts_from": "Receipt of the registered-mail, return-receipt-requested notice by the Indian child's parent, Indian custodian and tribe (15 days where notice goes to the United States secretary of the interior)",
+      "source": "state_statute",
+      "consequence_of_miss": "The first hearing in the proceeding may not be held until the ten days have run; on request of the parent, Indian custodian or tribe the court shall grant a continuance of up to twenty additional days (N.D. Cent. Code § 27-19.1-03(1)).",
+      "source_url": "https://ndlegis.gov/cencode/t27c19-1.html"
+    },
+    {
+      "requirement_name": "Family case plan filed with juvenile court",
+      "deadline": "60 days",
+      "starts_from": "Commitment of the child to the human service zone by the juvenile court (N.D. Cent. Code § 27-20.3-17(1) states only \"within sixty days\")",
+      "source": "state_statute",
+      "consequence_of_miss": "Not specified in N.D. Cent. Code § 27-20.3-17(1).",
+      "source_url": "https://ndlegis.gov/cencode/t27c20-3.html"
     }
   ],
   "notice_requirements": [
@@ -375,7 +408,8 @@
         "Allegations",
         "Right to counsel"
       ],
-      "defective_notice_consequence": "Hearing must be continued"
+      "defective_notice_consequence": "Hearing must be continued",
+      "icwa_additional_notice": true
     }
   ],
   "door_scenarios": [

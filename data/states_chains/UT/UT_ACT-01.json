@@ -5,9 +5,9 @@
   "node_family": "ACT",
   "subnode": "ACT-01",
   "trigger_name": "Voluntary Services",
-  "summary_html": "Family agrees to a **voluntary service plan**\u2014counseling, substance-use treatment, parenting classes\u2014designed to correct conditions without court compulsion. Federal law prioritizes family preservation through prevention and support services.",
-  "authority_html": "- **Family First Prevention Services Act (FFPSA)** \u2014 prevention services and kin support framework  \n- **SSA Title IV-B (42 U.S.C. \u00a7\u00a7 620\u2013629m)** \u2014 child-welfare services and family-preservation funding",
-  "icon": "\ud83e\udde9",
+  "summary_html": "Family agrees to a **voluntary service plan**—counseling, substance-use treatment, parenting classes—designed to correct conditions without court compulsion. Federal law prioritizes family preservation through prevention and support services.",
+  "authority_html": "- **Family First Prevention Services Act (FFPSA)** — prevention services and kin support framework  \n- **SSA Title IV-B (42 U.S.C. §§ 620–629m)** — child-welfare services and family-preservation funding",
+  "icon": "🧩",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -27,22 +27,28 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 115-123 (FFPSA)",
-        "42 U.S.C. \u00a7\u00a7 620\u2013629m (SSA Title IV-B)"
+        "42 U.S.C. §§ 620–629m (SSA Title IV-B)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Utah - Utah Code Title\u00a062A, Part\u00a04a (Child and Family Services \u2013 includes \u00a7\u00a0403 mandatory reporting)",
-          "source_url": "https://le.utah.gov",
+          "citation_text": "Utah - Utah Code Title 80, Chapter 2 (Child Welfare Services – includes § 80-2-602 mandatory reporting)",
+          "source_url": "https://le.utah.gov/xcode/Title80/Chapter2/80-2.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19"
         },
         {
-          "citation_text": "Utah - Utah Code Title\u00a078A, Chapter\u00a06 (Juvenile Court Act \u2013 abuse, neglect)",
-          "source_url": "https://le.utah.gov",
+          "citation_text": "Utah - Utah Code Title 80, Chapter 2a (Removal and Protective Custody of a Child – includes § 80-2a-202 removal of a child by a peace officer or child welfare caseworker)",
+          "source_url": "https://le.utah.gov/xcode/Title80/Chapter2a/80-2a.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19"
+        },
+        {
+          "citation_text": "Utah - Utah Code Title 80, Chapter 3 (Abuse, Neglect, and Dependency Proceedings)",
+          "source_url": "https://le.utah.gov/xcode/Title80/Chapter3/80-3.html",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19"
         }
       ]
     },
@@ -122,7 +128,7 @@
         {
           "provision_id": "UT_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Utah Const. art. I, \u00a7 14",
+          "citation": "Utah Const. art. I, § 14",
           "federal_parallel": "U.S. Const. amend. IV"
         }
       ]
@@ -285,10 +291,10 @@
     }
   },
   "state_agency": {
-    "name": "Division of Child and Family Services",
+    "name": "Utah Division of Child and Family Services",
     "acronym": "DCFS",
     "hotline": "1-855-323-3237",
-    "website": "https://le.utah.gov"
+    "website": "https://dcfs.utah.gov/"
   },
   "linked_decision": "DEC-06",
   "linked_input": "INP-05",
@@ -321,10 +327,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
+      "deadline": "72 hours, excluding weekends and holidays",
+      "starts_from": "Child removed from home by the division or placed in protective custody",
       "source": "state_statute",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "consequence_of_miss": "Not specified in Utah Code 80-3-301.",
+      "source_url": "https://le.utah.gov/xcode/Title80/Chapter3/80-3-S301.html"
     },
     {
       "requirement_name": "Case plan development",
@@ -343,13 +350,13 @@
         "tribe"
       ],
       "method": "personal_service",
-      "timing": "Before court hearing",
+      "timing": "Personally served as soon as possible, and no later than one business day after the day the child is removed from the child's home (or a motion for expedited placement in temporary custody is filed)",
       "content_required": [
         "Hearing date",
         "Allegations",
         "Right to counsel"
       ],
-      "defective_notice_consequence": "Hearing must be continued"
+      "defective_notice_consequence": "The juvenile court may grant a parent's or guardian's request for a continuance of no more than five judicial days — Utah Code 80-3-301(8)(c)"
     }
   ],
   "door_scenarios": [

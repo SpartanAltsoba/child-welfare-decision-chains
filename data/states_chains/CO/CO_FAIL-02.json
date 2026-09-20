@@ -5,9 +5,9 @@
   "node_family": "FAIL",
   "subnode": "FAIL-02",
   "trigger_name": "Unlawful Removal",
-  "summary_html": "A **child is removed without exigency or warrant**, violating constitutional rights. Federal courts treat such removals as seizures under the Fourth and Fourteenth Amendments, actionable via \u00a71983.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 limits removals to lawful emergencies and requires judicial review  \n- **U.S. Constitution (4th & 14th Amendments)** \u2014 protects family integrity; requires due process",
-  "icon": "\ud83d\udea8",
+  "summary_html": "A **child is removed without exigency or warrant**, violating constitutional rights. Federal courts treat such removals as seizures under the Fourth and Fourteenth Amendments, actionable via §1983.",
+  "authority_html": "- **ASFA / SSA Title IV-E** — limits removals to lawful emergencies and requires judicial review  \n- **U.S. Constitution (4th & 14th Amendments)** — protects family integrity; requires due process",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.9,
@@ -24,50 +24,50 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)",
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)",
         "U.S. Constitution, Amendments IV & XIV"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Colorado - Title 19, Article 3 (Colorado Children\u2019s Code \u2013 abuse/neglect reporting and dependency)",
-          "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf",
+          "citation_text": "Colorado - Title 19, Article 3 (Colorado Children’s Code – abuse/neglect reporting and dependency) — C.R.S. 2024 OLLS edition (uncertified printout)",
+          "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf#page=260",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Colorado - Title 19, Article 3, Part 3 (Dependency and neglect procedures)",
-          "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf",
+          "citation_text": "Colorado - Title 19, Article 3, Part 3 (Child Abuse or Neglect — reporting, screening, and investigation) — C.R.S. 2024 OLLS edition (uncertified printout)",
+          "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf#page=283",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 14: Domestic Matters",
-          "source_url": "https://law.justia.com/codes/colorado/title-14/",
+          "citation_text": "Title 14: Domestic Matters — C.R.S. 2024 OLLS edition (uncertified printout)",
+          "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-14.pdf",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 19: Children's Code - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/colorado/title-19/",
+          "citation_text": "Title 19: Children's Code - CHILD WELFARE PRIMARY — C.R.S. 2024 OLLS edition (uncertified printout)",
+          "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 26: Human Services Code",
-          "source_url": "https://law.justia.com/codes/colorado/title-26/",
+          "citation_text": "Title 26: Human Services Code — C.R.S. 2024 OLLS edition (uncertified printout)",
+          "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-26.pdf",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         }
@@ -256,7 +256,7 @@
     "name": "Colorado Department of Human Services",
     "acronym": "CDHS",
     "hotline": "1-844-264-5437",
-    "website": "https://leg.colorado.gov"
+    "website": "https://cdhs.colorado.gov/"
   },
   "linked_output": "OUT-05",
   "linked_action": "ACT-03",
@@ -293,7 +293,7 @@
       "requirement_name": "Appeal deadline",
       "deadline": "30 days",
       "starts_from": "Final order",
-      "source": "court_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Loss of appeal rights"
     },
     {

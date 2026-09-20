@@ -6,8 +6,8 @@
   "subnode": "OUT-05",
   "trigger_name": "Case Dismissal",
   "summary_html": "Case dismissed due to **unsubstantiated evidence** or court determination that allegations not proven. Federal oversight requires accurate recording of such closures for audit and funding compliance.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 defines data-collection standards for unfounded cases  \n- **CFSR (45 CFR Part 1355)** \u2014 requires tracking and reporting of unsubstantiated outcomes",
-  "icon": "\ud83d\uddc3\ufe0f",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — defines data-collection standards for unfounded cases  \n- **CFSR (45 CFR Part 1355)** — requires tracking and reporting of unsubstantiated outcomes",
+  "icon": "🗃️",
   "theme_color": "#708090",
   "domain": "civil",
   "procedural_weight": 0.55,
@@ -23,24 +23,25 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "New York - N.Y. Soc. Serv. Law \u00a7\u00a0411 et seq. (Child Protective Services Act \u2013 reporting requirements)",
-          "source_url": "https://www.nysenate.gov/legislation/laws/SocServ/411",
+          "citation_text": "New York - N.Y. Soc. Serv. Law § 411 et seq. (Child Protective Services Act – reporting requirements)",
+          "source_url": "https://www.nysenate.gov/legislation/laws/SOS/411",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "New York - Family Court Act Article 10 (Abuse/Neglect juvenile proceedings)",
-          "source_url": "https://nyassembly.gov",
+          "source_url": "https://www.nysenate.gov/legislation/laws/FCT/A10",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
@@ -279,10 +280,10 @@
     "name": "Office of Children and Family Services",
     "acronym": "OCFS",
     "hotline": "1-800-342-3720",
-    "website": "https://nyassembly.gov"
+    "website": "https://ocfs.ny.gov/"
   },
   "extended_foster_care": true,
-  "extended_foster_care_age": "Up to age 21 (until 21st birthday)",
+  "extended_foster_care_age": "Up to age 21 (voluntary; youth's consent required past 18; N.Y. Fam. Ct. Act § 1055(e))",
   "linked_action": "ACT-02",
   "linked_decision": "DEC-01",
   "linked_input": "INP-01",
@@ -315,10 +316,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Permanency hearing",
-      "deadline": "12 months",
-      "starts_from": "Child enters care",
-      "source": "federal_statute",
-      "consequence_of_miss": "ASFA violation"
+      "deadline": "Initial hearing commenced within 6 months; each later hearing no later than 6 months from completion of the previous one",
+      "starts_from": "Sixty days after the child was removed from the home (later hearings run from completion of the previous permanency hearing)",
+      "source": "state_statute",
+      "consequence_of_miss": "Not specified in N.Y. Fam. Ct. Act § 1089(a)",
+      "source_url": "https://www.nysenate.gov/legislation/laws/FCT/1089"
     },
     {
       "requirement_name": "TPR filing",
@@ -346,6 +348,27 @@
       ],
       "icwa_additional_notice": true,
       "defective_notice_consequence": "TPR may be vacated"
+    },
+    {
+      "who_must_be_notified": [
+        "parent",
+        "legal_guardian",
+        "foster_parent",
+        "attorney"
+      ],
+      "method": "regular_mail",
+      "timing": "No later than 14 days before the date certain for the permanency hearing",
+      "content_required": [
+        "Notice of the permanency hearing",
+        "Permanency hearing report"
+      ],
+      "defective_notice_consequence": "Not specified in N.Y. Fam. Ct. Act § 1089(b)",
+      "statutory_basis": {
+        "citation_text": "N.Y. Fam. Ct. Act § 1089(b) (the local social services district serves the notice of the permanency hearing and the permanency hearing report by regular mail on the child's parent, any other person legally responsible for the child's care, the foster parent in whose home the child currently resides, the attorneys, and, where the child is age ten or older, the child)",
+        "source_url": "https://www.nysenate.gov/legislation/laws/FCT/1089",
+        "authority_type": "state_statute",
+        "last_verified": "2026-09-19"
+      }
     }
   ]
 }

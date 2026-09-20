@@ -6,8 +6,8 @@
   "subnode": "INP-11",
   "trigger_name": "Federal / Tribal Jurisdiction Trigger",
   "summary_html": "Cases arising on **federal lands/facilities** or involving **Indian children** invoke federal/tribal jurisdictional rules (VICAA for federal facilities; **ICWA** for Indian children and tribal preference/jurisdiction).",
-  "authority_html": "- **VICAA (34 U.S.C. \u00a7\u00a7 20301\u201320307)** \u2014 federal-facility reporting mandates  \n- **ICWA (25 U.S.C. \u00a7\u00a7 1901\u20131963)** \u2014 tribal jurisdiction, placement preferences, notice to tribes",
-  "icon": "\ud83c\udfdb\ufe0f",
+  "authority_html": "- **VICAA (34 U.S.C. §§ 20301–20307)** — federal-facility reporting mandates  \n- **ICWA (25 U.S.C. §§ 1901–1963)** — tribal jurisdiction, placement preferences, notice to tribes",
+  "icon": "🏛️",
   "theme_color": "#4682B4",
   "domain": "civil",
   "procedural_weight": 0.55,
@@ -24,50 +24,50 @@
     },
     "federal": {
       "requirements_applicable": [
-        "34 U.S.C. \u00a7\u00a7 20301\u201320307 (Victims of Child Abuse Act)",
-        "25 U.S.C. \u00a7\u00a7 1901\u20131963 (ICWA)"
+        "34 U.S.C. §§ 20301–20307 (Victims of Child Abuse Act)",
+        "25 U.S.C. §§ 1901–1963 (ICWA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Colorado - Title 19, Article 3 (Colorado Children\u2019s Code \u2013 abuse/neglect reporting and dependency)",
-          "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf",
+          "citation_text": "Colorado - Title 19, Article 3 (Colorado Children’s Code – abuse/neglect reporting and dependency) — C.R.S. 2024 OLLS edition (uncertified printout)",
+          "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf#page=260",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Colorado - Title 19, Article 3, Part 3 (Dependency and neglect procedures)",
-          "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf",
+          "citation_text": "Colorado - Title 19, Article 3, Part 3 (Child Abuse or Neglect — reporting, screening, and investigation) — C.R.S. 2024 OLLS edition (uncertified printout)",
+          "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf#page=283",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 14: Domestic Matters",
-          "source_url": "https://law.justia.com/codes/colorado/title-14/",
+          "citation_text": "Title 14: Domestic Matters — C.R.S. 2024 OLLS edition (uncertified printout)",
+          "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-14.pdf",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 19: Children's Code - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/colorado/title-19/",
+          "citation_text": "Title 19: Children's Code - CHILD WELFARE PRIMARY — C.R.S. 2024 OLLS edition (uncertified printout)",
+          "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 26: Human Services Code",
-          "source_url": "https://law.justia.com/codes/colorado/title-26/",
+          "citation_text": "Title 26: Human Services Code — C.R.S. 2024 OLLS edition (uncertified printout)",
+          "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-26.pdf",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         }
@@ -255,20 +255,50 @@
     "name": "Colorado Department of Human Services",
     "acronym": "CDHS",
     "hotline": "1-844-264-5437",
-    "website": "https://leg.colorado.gov"
+    "website": "https://cdhs.colorado.gov/"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Shelter Staff",
-    "Childcare Staff",
-    "Clergy",
-    "Foster Parents",
-    "Coaches",
-    "Coroners",
-    "EMTs/Emergency Personnel"
+    "Enumerated professionals only — Colorado is not a universal-reporter state — Colo. Rev. Stat. § 19-3-304(2) (C.R.S. 2024); any other person may report voluntarily under § 19-3-304(3)",
+    "Physicians and surgeons, including physicians in training",
+    "Child health associates",
+    "Medical examiners and coroners",
+    "Dentists",
+    "Osteopaths",
+    "Optometrists",
+    "Chiropractors",
+    "Podiatrists",
+    "Registered nurses and licensed practical nurses",
+    "Hospital personnel engaged in the admission, care, or treatment of patients",
+    "Christian science practitioners",
+    "Public or private school officials and employees",
+    "Social workers and workers in any facility or agency licensed or certified by the state",
+    "Mental health professionals",
+    "Dental therapists and dental hygienists",
+    "Psychologists",
+    "Physical therapists",
+    "Veterinarians",
+    "Peace officers",
+    "Pharmacists",
+    "Commercial film and photographic print processors",
+    "Firefighters",
+    "Victim's advocates",
+    "Licensed professional counselors",
+    "Licensed marriage and family therapists",
+    "Unlicensed psychotherapists",
+    "Clergy members (not for information learned in a communication privileged under Colo. Rev. Stat. § 13-90-107(1)(c))",
+    "Registered dietitians",
+    "Workers in the state department of human services",
+    "Juvenile parole and probation officers",
+    "Child and family investigators",
+    "Officers and agents of the state bureau of animal protection, and animal control officers",
+    "The child protection ombudsman",
+    "Educators providing services through the federal WIC program",
+    "Directors, coaches, assistant coaches, and athletic program personnel employed by a private sports organization or program",
+    "Registered psychologist, marriage and family therapist, and licensed professional counselor candidates",
+    "Emergency medical service providers",
+    "Officials and employees of a county department of health or of human or social services",
+    "Registered naturopathic doctors",
+    "Employees of the department of early childhood"
   ],
   "reporting_type": "decentralized",
   "definitions": {
@@ -335,15 +365,13 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "source": "template_estimate"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
-      "consequence_of_miss": "Case dismissal risk"
+      "source": "template_estimate"
     }
   ],
   "notice_requirements": [

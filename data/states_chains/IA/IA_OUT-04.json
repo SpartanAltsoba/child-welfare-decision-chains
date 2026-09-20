@@ -6,8 +6,8 @@
   "subnode": "OUT-04",
   "trigger_name": "Extended Foster Care / Aging Out",
   "summary_html": "Youth remains in **extended foster care** or receives **transitional services** after age 18 under federal programs promoting independence.",
-  "authority_html": "- **Chafee Foster Care Independence Act (CFCIA)** \u2014 independent-living and transition funding  \n- **FCSIAA** \u2014 extends care to age 21 with education and housing supports",
-  "icon": "\ud83e\udded",
+  "authority_html": "- **Chafee Foster Care Independence Act (CFCIA)** — independent-living and transition funding  \n- **FCSIAA** — extends care to age 21 with education and housing supports",
+  "icon": "🧭",
   "theme_color": "#4682B4",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -30,10 +30,17 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Iowa - Title VI, Chapter 232 (Juvenile Justice \u2013 includes mandatory reporting and child in need of assistance)",
+          "citation_text": "Iowa - Title VI, Chapter 232 (Juvenile Justice – includes mandatory reporting and child in need of assistance)",
           "source_url": "https://www.legis.iowa.gov/law/iowaCode/sections?codeChapter=232",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Iowa - Title VI, Chapter 232B (Iowa Indian Child Welfare Act — jurisdiction, notice to tribes, emergency removal, placement preferences, qualified expert witnesses)",
+          "source_url": "https://www.legis.iowa.gov/law/iowaCode/sections?codeChapter=232B",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -218,13 +225,13 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Services",
-    "acronym": "DHS",
+    "name": "Iowa Department of Health and Human Services, Child Protective Services",
+    "acronym": "Iowa HHS",
     "hotline": "1-800-362-2178",
-    "website": "https://www.legis.iowa.gov"
+    "website": "https://hhs.iowa.gov/programs/CPS"
   },
   "extended_foster_care": true,
-  "extended_foster_care_age": "Up to age 21 (until 21st birthday)",
+  "extended_foster_care_age": "Up to age 21 (voluntary; conditions apply; Iowa Code § 234.1(1))",
   "linked_action": "ACT-03",
   "linked_decision": "DEC-05",
   "linked_input": "INP-01",

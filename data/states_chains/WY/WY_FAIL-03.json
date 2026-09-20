@@ -6,8 +6,8 @@
   "subnode": "FAIL-03",
   "trigger_name": "Federal Compliance Failure",
   "summary_html": "A **state agency fails** to meet federal child-welfare performance standards, triggering **funding penalties** or corrective action under the CFSR or Single Audit Act.",
-  "authority_html": "- **Child & Family Services Reviews (45 CFR Part 1355)** \u2014 performance oversight and penalties  \n- **Single Audit Act (31 U.S.C. \u00a7\u00a7 7501\u20137507)** \u2014 audit of federally funded programs  \n- **Inspector General Act (5 U.S.C. App.)** \u2014 oversight authority for HHS/OIG",
-  "icon": "\ud83d\udcb8",
+  "authority_html": "- **Child & Family Services Reviews (45 CFR Part 1355)** — performance oversight and penalties  \n- **Single Audit Act (31 U.S.C. §§ 7501–7507)** — audit of federally funded programs  \n- **Inspector General Act (5 U.S.C. App.)** — oversight authority for HHS/OIG",
+  "icon": "💸",
   "theme_color": "#FF8C00",
   "domain": "civil",
   "procedural_weight": 0.7,
@@ -25,25 +25,25 @@
     "federal": {
       "requirements_applicable": [
         "45 CFR Part 1355 (CFSR)",
-        "31 U.S.C. \u00a7\u00a7 7501\u20137507 (Single Audit Act)",
+        "31 U.S.C. §§ 7501–7507 (Single Audit Act)",
         "5 U.S.C. App. (Inspector General Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Wyoming - Wyo. Stat. \u00a7\u00a014-3-201 et seq. (Child Protective Services Act \u2013 \u00a7\u00a014-3-205 duty to report)",
+          "citation_text": "Wyoming - Wyo. Stat. §§ 14-3-201 through 14-3-216 (Article 2, Child Protective Services – § 14-3-205(a) duty to report, which applies to any person)",
           "source_url": "https://www.wyoleg.gov/statutes/compress/title14.pdf",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
-          "deep_link": true
+          "last_verified": "2026-09-19",
+          "deep_link": false
         },
         {
-          "citation_text": "Wyoming - Wyo. Stat. \u00a7\u00a014-3-401 et seq. (Child Protection legal proceedings)",
+          "citation_text": "Wyoming - Wyo. Stat. § 14-3-401 et seq. (Child Protection Act – juvenile court process for abuse and neglect)",
           "source_url": "https://www.wyoleg.gov/statutes/compress/title14.pdf",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
-          "deep_link": true
+          "last_verified": "2026-09-19",
+          "deep_link": false
         },
         {
           "citation_text": "Title 14: Children - DFS - CHILD WELFARE PRIMARY",
@@ -293,10 +293,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Family Services",
+    "name": "Wyoming Department of Family Services",
     "acronym": "DFS",
-    "hotline": "1-800-457-3659",
-    "website": "https://www.wyoleg.gov"
+    "hotline": "No statewide hotline. Call the DFS field office in the county where the child lives — the list is at dfs.wyo.gov/about/contact-us",
+    "website": "https://dfs.wyo.gov/"
   },
   "linked_output": "OUT-06",
   "linked_action": "ACT-03",
@@ -332,9 +332,10 @@
     {
       "requirement_name": "Appeal deadline",
       "deadline": "30 days",
-      "starts_from": "Final order",
+      "starts_from": "Entry of the appealable juvenile court order, judgment or decree (Wyo. Stat. § 14-3-432(a) applies the Wyoming Rules of Appellate Procedure; W.R.A.P. 2.01(a) sets the 30 days)",
       "source": "court_rule",
-      "consequence_of_miss": "Loss of appeal rights"
+      "consequence_of_miss": "Timely filing of a notice of appeal is jurisdictional (W.R.A.P. 1.03(a))",
+      "source_url": "https://www.wyocourts.gov/app/uploads/2025/01/WRAP-eff-Dec-1.pdf"
     },
     {
       "requirement_name": "1983 statute of limitations",

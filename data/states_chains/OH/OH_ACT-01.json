@@ -5,9 +5,9 @@
   "node_family": "ACT",
   "subnode": "ACT-01",
   "trigger_name": "Voluntary Services",
-  "summary_html": "Family agrees to a **voluntary service plan**\u2014counseling, substance-use treatment, parenting classes\u2014designed to correct conditions without court compulsion. Federal law prioritizes family preservation through prevention and support services.",
-  "authority_html": "- **Family First Prevention Services Act (FFPSA)** \u2014 prevention services and kin support framework  \n- **SSA Title IV-B (42 U.S.C. \u00a7\u00a7 620\u2013629m)** \u2014 child-welfare services and family-preservation funding",
-  "icon": "\ud83e\udde9",
+  "summary_html": "Family agrees to a **voluntary service plan**—counseling, substance-use treatment, parenting classes—designed to correct conditions without court compulsion. Federal law prioritizes family preservation through prevention and support services.",
+  "authority_html": "- **Family First Prevention Services Act (FFPSA)** — prevention services and kin support framework  \n- **SSA Title IV-B (42 U.S.C. §§ 620–629m)** — child-welfare services and family-preservation funding",
+  "icon": "🧩",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -27,42 +27,50 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 115-123 (FFPSA)",
-        "42 U.S.C. \u00a7\u00a7 620\u2013629m (SSA Title IV-B)"
+        "42 U.S.C. §§ 620–629m (SSA Title IV-B)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Ohio - Ohio Rev. Code \u00a7\u00a02151.421 (Mandatory reporting of child abuse)",
-          "source_url": "https://codes.ohio.gov/ohio-revised-code/chapter-2151",
+          "citation_text": "Ohio - Ohio Rev. Code § 2151.421 (Mandatory reporting of child abuse)",
+          "source_url": "https://codes.ohio.gov/ohio-revised-code/section-2151.421",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Ohio - Ohio Rev. Code Chapter\u00a02151 (Juvenile Court \u2013 abuse, neglect, dependency)",
-          "source_url": "https://www.legislature.ohio.gov",
+          "citation_text": "Ohio - Ohio Rev. Code Chapter 2151 (Juvenile Court – abuse, neglect, dependency)",
+          "source_url": "https://codes.ohio.gov/ohio-revised-code/chapter-2151",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Ohio - Ohio Rev. Code Chapter 5153 (County children services agencies)",
+          "source_url": "https://codes.ohio.gov/ohio-revised-code/chapter-5153",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
     "administrative_rule": {
       "regulations_applicable": [
         {
-          "title": "5101:2 - Division of Social Services (Child Protective Services)",
-          "url": "https://www.law.cornell.edu/regulations/ohio/title-5101-2"
+          "title": "5180:3 - Ohio Department of Children and Youth | Children Services and Supports",
+          "url": "https://codes.ohio.gov/ohio-administrative-code/5180:3"
         },
         {
-          "title": "5101:5 - Child Abuse and Neglect Prevention",
-          "url": "https://www.law.cornell.edu/regulations/ohio/title-5101-5"
+          "title": "5180:3-5 - Assessments (PCSA safety assessment, safety plan, and family assessment)",
+          "url": "https://codes.ohio.gov/ohio-administrative-code/chapter-5180:3-5"
         },
         {
-          "title": "5101 - Department of Job and Family Services",
-          "url": "https://www.law.cornell.edu/regulations/ohio/title-5101"
+          "title": "5180 - Ohio Department of Children and Youth",
+          "url": "https://codes.ohio.gov/ohio-administrative-code/5180"
         }
       ],
-      "source_url": "https://www.law.cornell.edu/regulations/ohio.html"
+      "source_url": "https://codes.ohio.gov/ohio-administrative-code"
     },
     "state_constitutional": {
       "plane_reference": "state_constitutional_OH",
@@ -71,7 +79,7 @@
         {
           "provision_id": "OH_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Ohio Const. art. I, \u00a7 14",
+          "citation": "Ohio Const. art. I, § 14",
           "federal_parallel": "U.S. Const. amend. IV"
         }
       ]
@@ -234,10 +242,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Job and Family Services",
-    "acronym": "ODJFS",
+    "name": "Ohio Department of Children and Youth",
+    "acronym": "DCY",
     "hotline": "1-855-642-4453",
-    "website": "https://www.legislature.ohio.gov"
+    "website": "https://childrenandyouth.ohio.gov/"
   },
   "linked_decision": "DEC-06",
   "linked_input": "INP-05",
@@ -270,17 +278,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
+      "deadline": "Before the end of the next business day, and no later than 72 hours",
+      "starts_from": "Ex parte emergency custody order issued",
       "source": "state_statute",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "consequence_of_miss": "Statute sets no penalty; under Ohio Rev. Code § 2151.314(A) the court must order the child released unless the hearing shows shelter care is required",
+      "source_url": "https://codes.ohio.gov/ohio-revised-code/section-2151.31"
     },
     {
       "requirement_name": "Case plan development",
-      "deadline": "30-60 days",
-      "starts_from": "Court jurisdiction",
-      "source": "federal_statute",
-      "consequence_of_miss": "IV-E funding penalty"
+      "deadline": "Filed with the court before the adjudicatory hearing, no later than 30 days",
+      "starts_from": "Earlier of the date the complaint was filed or the child was first placed in shelter care",
+      "source": "state_statute",
+      "consequence_of_miss": "Not stated in the statute; all parts of the case plan must be completed by the earlier of 30 days after the adjudicatory hearing or the date of the dispositional hearing",
+      "source_url": "https://codes.ohio.gov/ohio-revised-code/section-2151.412"
     }
   ],
   "notice_requirements": [
