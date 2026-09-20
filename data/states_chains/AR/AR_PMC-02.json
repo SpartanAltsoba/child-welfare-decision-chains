@@ -85,6 +85,36 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Arkansas state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Arkansas Department of Health v. Westark Christian Action Council",
+          "citation": "322 Ark. 440, 910 S.W.2d 199 (1995)",
+          "court": "Supreme Court of Arkansas",
+          "year": 1995,
+          "date_decided": "1995-11-13",
+          "holding": "The court reversed, holding the requested reports were exempt vital records, while reaffirming that the FOIA is construed liberally toward disclosure and its exemptions are construed narrowly.",
+          "relevance": "Audit and financial-oversight requests to Arkansas agencies are governed by this construction rule.",
+          "quote": "we narrowly construe exceptions to the FOIA to counterbalance the self-protective instincts of the government bureaucracy",
+          "url": "https://www.courtlistener.com/opinion/1638347/arkansas-department-of-health-v-westark-christian-action-council/",
+          "courtlistener_cluster_id": 1638347
+        },
+        {
+          "case_name": "Pulaski County v. Arkansas Democrat-Gazette, Inc.",
+          "citation": "370 Ark. 435, 260 S.W.3d 718 (2007)",
+          "court": "Supreme Court of Arkansas",
+          "year": 2007,
+          "date_decided": "2007-07-20",
+          "holding": "The court held that the dispositive question was whether the withheld communications were 'public records' under the FOIA and that an in camera review was necessary to decide it, rather than a categorical exemption for personal material.",
+          "relevance": "It is the mechanism by which financial and administrative communications are tested for disclosure.",
+          "quote": "It is necessary to conduct an in camera review to determine whether the e-mails at issue are public records, and thus should be disclosed pursuant to the FOIA.",
+          "url": "https://www.courtlistener.com/opinion/1875537/pulaski-county-v-arkansas-democrat-gazette-inc/",
+          "courtlistener_cluster_id": 1875537
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Arkansas%22%20AND%20%28%22Arkansas%20Department%20of%20Human%20Services%22%20OR%20%22Arkansas%20DCFS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Arkansas Department of Human Services",
         "Arkansas DCFS",
@@ -96,148 +126,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Arkansas%22%20AND%20%28%22Arkansas%20Department%20of%20Human%20Services%22%20OR%20%22Arkansas%20DCFS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "missing child",
-        "amber alert",
-        "custodial interference",
-        "parental kidnapping"
-      ],
-      "jurisdiction": "Arkansas state courts",
-      "key_cases": [
-        {
-          "case_id": "cv-19-337",
-          "title": "FREDA HOSTLER; KIMBERLY STEWARD; STEPHANIE MOTEN; AND EYLORNA BONES v. NATHANIEL DENNISON, ANGELA NEWCOMB, CECILE BLUCHER, AND BECKY DUNAGIN, INDIVIDUALLY AND IN THEIR OFFICIAL CAPACITIES; AND ARKANSAS DEPARTMENT OF HUMAN SERVICES, DIVISION OF CHILDREN AND FAMILY SERVICES (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2020/cv-19-337.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-19-337 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "arkansas department of human services"
-          ],
-          "child_welfare_reason": "High: Family Services"
-        },
-        {
-          "case_id": "cv-25-758",
-          "title": "ARKANSAS DEPARTMENT OF HUMAN SERVICES v. APRIL WARD AND MINOR CHILD (Per Curiam)",
-          "url": "https://law.justia.com/cases/arkansas/supreme-court/2025/cv-25-758.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Arkansas Supreme Court Case cv-25-758 (2025)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "arkansas department of human services"
-          ],
-          "child_welfare_reason": "Medium: minor child"
-        },
-        {
-          "case_id": "cv-25-487",
-          "title": "KATHY TURNER v. ARKANSAS DEPARTMENT OF HUMAN SERVICES AND MINOR CHILD (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2025/cv-25-487.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-25-487 (2025)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "arkansas department of human services"
-          ],
-          "child_welfare_reason": "Medium: minor child"
-        },
-        {
-          "case_id": "cv-25-335",
-          "title": "MARK HUNT v. ARKANSAS DEPARTMENT OF HUMAN SERVICES AND MINOR CHILD (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2025/cv-25-335.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-25-335 (2025)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "arkansas department of human services"
-          ],
-          "child_welfare_reason": "Medium: minor child"
-        },
-        {
-          "case_id": "cv-25-347",
-          "title": "LISA CONAPINSKI v. ARKANSAS DEPARTMENT OF HUMAN SERVICES AND MINOR CHILD (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2025/cv-25-347.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-25-347 (2025)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "arkansas department of human services"
-          ],
-          "child_welfare_reason": "Medium: minor child"
-        },
-        {
-          "case_id": "cv-25-382",
-          "title": "STEPHANIE BYRAMS v. ARKANSAS DEPARTMENT OF HUMAN SERVICES AND MINOR CHILD (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2025/cv-25-382.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-25-382 (2025)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "arkansas department of human services"
-          ],
-          "child_welfare_reason": "Medium: minor child"
-        },
-        {
-          "case_id": "cv-25-411",
-          "title": "KIMBERLY BRAHLER BARNES v. ARKANSAS DEPARTMENT OF HUMAN SERVICES AND MINOR CHILD (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2025/cv-25-411.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-25-411 (2025)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "arkansas department of human services"
-          ],
-          "child_welfare_reason": "Medium: minor child"
-        },
-        {
-          "case_id": "cv-25-233",
-          "title": "BRIANNA JONES v. ARKANSAS DEPARTMENT OF HUMAN SERVICES AND MINOR CHILD (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2025/cv-25-233.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-25-233 (2025)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "arkansas department of human services"
-          ],
-          "child_welfare_reason": "Medium: minor child"
-        },
-        {
-          "case_id": "cv-25-265",
-          "title": "PATRICIA WILLIAMS v. ARKANSAS DEPARTMENT OF HUMAN SERVICES AND MINOR CHILD (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2025/cv-25-265.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-25-265 (2025)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "arkansas department of human services"
-          ],
-          "child_welfare_reason": "Medium: minor child"
-        },
-        {
-          "case_id": "cv-25-134",
-          "title": "DAKOTA CARLILE v. ARKANSAS DEPARTMENT OF HUMAN SERVICES AND MINOR CHILD (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2025/cv-25-134.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-25-134 (2025)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "arkansas department of human services"
-          ],
-          "child_welfare_reason": "Medium: minor child"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

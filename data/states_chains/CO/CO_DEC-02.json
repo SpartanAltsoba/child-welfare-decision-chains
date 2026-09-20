@@ -95,6 +95,72 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Colorado state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Doe v. Woodard",
+          "citation": "912 F.3d 1278 (10th Cir. 2019)",
+          "court": "United States Court of Appeals for the Tenth Circuit",
+          "year": 2019,
+          "date_decided": "2019-01-03",
+          "holding": "The Tenth Circuit affirmed dismissal on qualified immunity, holding that although an El Paso County caseworker's warrantless visual inspection and photographing of a four-year-old's unclothed body at school was a search conducted without a warrant, consent or exigency, it was not clearly established that the special needs doctrine could not justify it.",
+          "relevance": "This is the controlling Tenth Circuit framework for whether a caseworker's investigative examination of a child requires a warrant, consent or exigency.",
+          "quote": "Ms. Woodard needed a warrant or one of the exceptions to the warrant requirement to apply—consent, exigent circumstances, or the special needs doctrine.",
+          "url": "https://www.courtlistener.com/opinion/4578612/doe-v-woodard/",
+          "courtlistener_cluster_id": 4578612
+        },
+        {
+          "case_name": "Jones v. Hunt",
+          "citation": "410 F.3d 1221 (10th Cir. 2005)",
+          "court": "United States Court of Appeals for the Tenth Circuit",
+          "year": 2005,
+          "date_decided": "2005-06-14",
+          "holding": "The Tenth Circuit reversed a grant of qualified immunity, holding that the alleged coercive detention of a teenager at school by a social services official and a deputy, to compel her to change her residence, stated a violation of her clearly established Fourth Amendment right to be free from unreasonable seizure.",
+          "relevance": "Investigative contact with a child can become a Fourth Amendment seizure, which constrains how an accepted report may be worked.",
+          "quote": "the prohibition against unreasonable seizures extends to civil, as well as criminal, investigations by the government.",
+          "url": "https://www.courtlistener.com/opinion/165973/jones-v-hunt/",
+          "courtlistener_cluster_id": 165973
+        },
+        {
+          "case_name": "Malik v. Arapahoe County Department of Social Services",
+          "citation": "191 F.3d 1306 (10th Cir. 1999)",
+          "court": "United States Court of Appeals for the Tenth Circuit",
+          "year": 1999,
+          "date_decided": "1999-09-14",
+          "holding": "The Tenth Circuit affirmed the denial of qualified immunity, holding that procuring an ex parte child custody order through distortion, misrepresentation and omission, and in retaliation for a parent's retaining counsel, violated clearly established Fourth, First and Fourteenth Amendment rights.",
+          "relevance": "Retaliating against a parent for retaining counsel during an investigation independently violates the First Amendment under DeLoach.",
+          "quote": "it was clearly established law that, except in extraordinary circumstances, a parent has a liberty interest in familial association and privacy that cannot be violated without adequate pre-deprivation procedures.",
+          "url": "https://www.courtlistener.com/opinion/158631/malik-v-arapahoe-county-department-of-social-services/",
+          "courtlistener_cluster_id": 158631
+        },
+        {
+          "case_name": "Trinity Broadcasting of Denver, Inc. v. City of Westminster",
+          "citation": "848 P.2d 916 (Colo. 1993)",
+          "court": "Supreme Court of Colorado",
+          "year": 1993,
+          "date_decided": "1993-04-12",
+          "holding": "The court reversed the summary judgment on the Governmental Immunity Act notice issue and remanded, holding that a pretrial governmental-immunity challenge is a jurisdictional question for the trial court under C.R.C.P. 12(b)(1), on which the court may permit limited discovery and must hold an evidentiary hearing when the jurisdictional facts are disputed, rather than resolving it on summary judgment or reserving it for the jury.",
+          "relevance": "Any state-law tort claim arising from how an accepted report was investigated must clear this jurisdictional procedure, decided by the judge on evidence, before it can reach a jury.",
+          "quote": "When a public entity claims before trial that timely notice was not given to it under the Governmental Immunity Act, the trial court is the finder of fact.",
+          "url": "https://www.courtlistener.com/opinion/1376376/trinity-broadcasting-of-denver-inc-v-city-of-westminster/",
+          "courtlistener_cluster_id": 1376376
+        },
+        {
+          "case_name": "Martinez v. Estate of Bleck",
+          "citation": "2016 CO 58, 379 P.3d 315",
+          "court": "Supreme Court of Colorado",
+          "year": 2016,
+          "date_decided": "2016-09-12",
+          "holding": "The court reversed and remanded, holding that a public employee who asserts that his conduct was not willful and wanton under section 24-10-118(2)(a) is claiming sovereign immunity and may appeal its denial, that the trial court must resolve all issues bearing on that immunity claim including factual ones at a Trinity hearing rather than merely test the pleadings, and that willful and wanton conduct requires conscious disregard of the danger rather than negligence.",
+          "relevance": "A caseworker or officer sued in tort over the handling of an accepted report keeps immunity unless the plaintiff proves conscious disregard of the danger, and the trial court, not a jury, must decide that question before trial.",
+          "quote": "willful and wanton conduct is not merely negligent; instead, it must exhibit a conscious disregard for the danger.",
+          "url": "https://www.courtlistener.com/opinion/4255994/martinez-v-estate-of-bleck-ex-rel-churchill/",
+          "courtlistener_cluster_id": 4255994
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Colorado%22%20AND%20%28%22Colorado%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Colorado Department of Human Services",
         "CPS",
@@ -106,149 +172,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Colorado%22%20AND%20%28%22Colorado%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "investigation",
-        "substantiation",
-        "evidence standard",
-        "due process",
-        "reasonable efforts"
-      ],
-      "jurisdiction": "Colorado state courts",
-      "key_cases": [
-        {
-          "case_id": "25sc228",
-          "title": "In re The Marriage of Bailey",
-          "url": "https://law.justia.com/cases/colorado/supreme-court/2025/25sc228.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Colorado Supreme Court Case 25sc228 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "24sc788-0",
-          "title": "In re The Parental Responsibilities Concerning Children K.M.S.",
-          "url": "https://law.justia.com/cases/colorado/supreme-court/2025/24sc788-0.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Colorado Supreme Court Case 24sc788-0 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25sa78-0",
-          "title": "In re People ex rel. R.M.P.",
-          "url": "https://law.justia.com/cases/colorado/supreme-court/2025/25sa78-0.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Colorado Supreme Court Case 25sa78-0 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "24sa193-0",
-          "title": "In re People ex rel. J.D.",
-          "url": "https://law.justia.com/cases/colorado/supreme-court/2025/24sa193-0.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Colorado Supreme Court Case 24sa193-0 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "24sa193",
-          "title": "In re People ex rel. J.D.",
-          "url": "https://law.justia.com/cases/colorado/supreme-court/2025/24sa193.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Colorado Supreme Court Case 24sa193 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "24sa216",
-          "title": "In re Raykin",
-          "url": "https://law.justia.com/cases/colorado/supreme-court/2025/24sa216.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Colorado Supreme Court Case 24sa216 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25ca1355",
-          "title": "Peo in Interest of Zaczek",
-          "url": "https://law.justia.com/cases/colorado/court-of-appeals/2025/25ca1355.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Colorado Court Of Appeals Case 25ca1355 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of"
-        },
-        {
-          "case_id": "25ca1857",
-          "title": "Peo in Interest of Abdurahman",
-          "url": "https://law.justia.com/cases/colorado/court-of-appeals/2025/25ca1857.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Colorado Court Of Appeals Case 25ca1857 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of"
-        },
-        {
-          "case_id": "25ca0535",
-          "title": "Peo in Interest of AM",
-          "url": "https://law.justia.com/cases/colorado/court-of-appeals/2025/25ca0535.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Colorado Court Of Appeals Case 25ca0535 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of"
-        },
-        {
-          "case_id": "25ca1075",
-          "title": "Peo in Interest of AOL",
-          "url": "https://law.justia.com/cases/colorado/court-of-appeals/2025/25ca1075.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Colorado Court Of Appeals Case 25ca1075 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

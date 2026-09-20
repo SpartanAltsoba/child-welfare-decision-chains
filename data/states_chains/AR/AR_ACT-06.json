@@ -92,6 +92,48 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Arkansas state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Roberson v. Dakota Boys & Girls Ranch",
+          "citation": "42 F.4th 924 (8th Cir. 2022)",
+          "court": "United States Court of Appeals for the Eighth Circuit",
+          "year": 2022,
+          "date_decided": "2022-08-02",
+          "holding": "The court reversed dismissal, holding that a State that takes a child into custody assumes a constitutional duty to provide adequate medical and psychological care, and that a private residential facility performing that outsourced duty acts under color of state law.",
+          "relevance": "It is the circuit's clearest statement that authorizing and delivering emergency medical and psychological care to a child in custody is constitutionally compelled.",
+          "quote": "Because North Dakota took custody of A.A.R., it had a constitutional duty to provide adequate medical care to her.",
+          "url": "https://www.courtlistener.com/opinion/7853230/manda-roberson-v-the-dakota-boys-girls-ranch/",
+          "courtlistener_cluster_id": 7853230
+        },
+        {
+          "case_name": "Helms v. Arkansas Department of Human Services",
+          "citation": "2023 Ark. App. 158",
+          "court": "Court of Appeals of Arkansas",
+          "year": 2023,
+          "date_decided": "2023-03-15",
+          "holding": "Sitting in three divisions, the court affirmed termination on the aggravated-circumstances ground, holding that the evidence supported a finding of little likelihood that further reunification services would succeed given the child's severe therapeutic needs and the father's limited engagement.",
+          "relevance": "The child's psychological diagnosis and required trauma therapy, and the caregiver's role in it, were central to the outcome.",
+          "quote": "In our de novo review of the evidence, we cannot say that the circuit court erred in concluding that there was little likelihood that services would result in successful reunification.",
+          "url": "https://www.courtlistener.com/opinion/9383879/shane-helms-v-arkansas-department-of-human-services-and-minor-chil/",
+          "courtlistener_cluster_id": 9383879
+        },
+        {
+          "case_name": "S.S. ex rel. Jervis v. McMullen",
+          "citation": "225 F.3d 960 (8th Cir. 2000)",
+          "court": "United States Court of Appeals for the Eighth Circuit",
+          "year": 2000,
+          "date_decided": "2000-09-13",
+          "holding": "Sitting en banc, the court affirmed dismissal of a § 1983 claim brought by a child abused after the agency returned her to her father, holding that returning a child to the danger she came from is not a state-created danger and does not shock the conscience.",
+          "relevance": "It marks the constitutional limit of the agency's affirmative duty toward a child it is no longer holding, which is where emergency-care obligations end.",
+          "quote": "in returning S.S. to her father, the state did not increase the danger of significant harm to S.S.",
+          "url": "https://www.courtlistener.com/opinion/770316/ss-v-mcmullen/",
+          "courtlistener_cluster_id": 770316
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Arkansas%22%20AND%20%28%22Arkansas%20Department%20of%20Human%20Services%22%20OR%20%22Arkansas%20DCFS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Arkansas Department of Human Services",
         "Arkansas DCFS",
@@ -103,149 +145,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Arkansas%22%20AND%20%28%22Arkansas%20Department%20of%20Human%20Services%22%20OR%20%22Arkansas%20DCFS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "removal",
-        "emergency custody",
-        "placement",
-        "reunification",
-        "services"
-      ],
-      "jurisdiction": "Arkansas state courts",
-      "key_cases": [
-        {
-          "case_id": "cv-22-324",
-          "title": "CAREY D. BELL v. ARKANSAS DEPARTMENT OF HUMAN SERVICES AND MINOR CHILD (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2022/cv-22-324.html",
-          "year": 2022,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-22-324 (2022)",
-          "relevance_score": 2.2,
-          "matched_keywords": [
-            "arkansas department of human services"
-          ],
-          "child_welfare_reason": "Medium: minor child"
-        },
-        {
-          "case_id": "cv-19-337",
-          "title": "FREDA HOSTLER; KIMBERLY STEWARD; STEPHANIE MOTEN; AND EYLORNA BONES v. NATHANIEL DENNISON, ANGELA NEWCOMB, CECILE BLUCHER, AND BECKY DUNAGIN, INDIVIDUALLY AND IN THEIR OFFICIAL CAPACITIES; AND ARKANSAS DEPARTMENT OF HUMAN SERVICES, DIVISION OF CHILDREN AND FAMILY SERVICES (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2020/cv-19-337.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-19-337 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "arkansas department of human services"
-          ],
-          "child_welfare_reason": "High: Family Services"
-        },
-        {
-          "case_id": "cv-25-758",
-          "title": "ARKANSAS DEPARTMENT OF HUMAN SERVICES v. APRIL WARD AND MINOR CHILD (Per Curiam)",
-          "url": "https://law.justia.com/cases/arkansas/supreme-court/2025/cv-25-758.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Arkansas Supreme Court Case cv-25-758 (2025)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "arkansas department of human services"
-          ],
-          "child_welfare_reason": "Medium: minor child"
-        },
-        {
-          "case_id": "cv-25-487",
-          "title": "KATHY TURNER v. ARKANSAS DEPARTMENT OF HUMAN SERVICES AND MINOR CHILD (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2025/cv-25-487.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-25-487 (2025)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "arkansas department of human services"
-          ],
-          "child_welfare_reason": "Medium: minor child"
-        },
-        {
-          "case_id": "cv-25-335",
-          "title": "MARK HUNT v. ARKANSAS DEPARTMENT OF HUMAN SERVICES AND MINOR CHILD (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2025/cv-25-335.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-25-335 (2025)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "arkansas department of human services"
-          ],
-          "child_welfare_reason": "Medium: minor child"
-        },
-        {
-          "case_id": "cv-25-347",
-          "title": "LISA CONAPINSKI v. ARKANSAS DEPARTMENT OF HUMAN SERVICES AND MINOR CHILD (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2025/cv-25-347.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-25-347 (2025)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "arkansas department of human services"
-          ],
-          "child_welfare_reason": "Medium: minor child"
-        },
-        {
-          "case_id": "cv-25-382",
-          "title": "STEPHANIE BYRAMS v. ARKANSAS DEPARTMENT OF HUMAN SERVICES AND MINOR CHILD (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2025/cv-25-382.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-25-382 (2025)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "arkansas department of human services"
-          ],
-          "child_welfare_reason": "Medium: minor child"
-        },
-        {
-          "case_id": "cv-25-411",
-          "title": "KIMBERLY BRAHLER BARNES v. ARKANSAS DEPARTMENT OF HUMAN SERVICES AND MINOR CHILD (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2025/cv-25-411.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-25-411 (2025)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "arkansas department of human services"
-          ],
-          "child_welfare_reason": "Medium: minor child"
-        },
-        {
-          "case_id": "cv-25-233",
-          "title": "BRIANNA JONES v. ARKANSAS DEPARTMENT OF HUMAN SERVICES AND MINOR CHILD (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2025/cv-25-233.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-25-233 (2025)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "arkansas department of human services"
-          ],
-          "child_welfare_reason": "Medium: minor child"
-        },
-        {
-          "case_id": "cv-25-265",
-          "title": "PATRICIA WILLIAMS v. ARKANSAS DEPARTMENT OF HUMAN SERVICES AND MINOR CHILD (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2025/cv-25-265.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-25-265 (2025)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "arkansas department of human services"
-          ],
-          "child_welfare_reason": "Medium: minor child"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

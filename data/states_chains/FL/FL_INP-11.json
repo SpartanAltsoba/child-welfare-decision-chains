@@ -127,6 +127,72 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Florida state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "J.P.H. v. Florida Department of Children & Families",
+          "citation": "39 So. 3d 560 (Fla. 1st DCA 2010)",
+          "court": "District Court of Appeal of Florida, First District",
+          "year": 2010,
+          "date_decided": "2010-07-23",
+          "holding": "Termination of parental rights to Indian children was reversed because the trial court applied Florida's clear-and-convincing standard instead of ICWA's beyond-a-reasonable-doubt standard and wrongly denied the tribe intervention for lack of Florida counsel.",
+          "relevance": "J.P.H. is the clearest Florida holding that ICWA displaces Chapter 39's proof standard and guarantees the tribe's right to intervene.",
+          "quote": "which requires that any order terminating parental rights to an Indian child be supported \"by evidence beyond a reasonable doubt,\" rather than the clear and convincing evidence standard",
+          "url": "https://www.courtlistener.com/opinion/2545844/jph-v-florida-department-of-children-families/",
+          "courtlistener_cluster_id": 2545844
+        },
+        {
+          "case_name": "Seminole Tribe of Florida v. Department of Children & Families",
+          "citation": "959 So. 2d 761 (Fla. 4th DCA 2007)",
+          "court": "District Court of Appeal of Florida, Fourth District",
+          "year": 2007,
+          "date_decided": "2007-05-30",
+          "holding": "A trial court's finding of good cause to deviate from ICWA's placement preferences is reviewed for abuse of discretion, and the deviation was affirmed where the record showed the court understood the statutory scheme and found the tribal family could not presently meet the child's needs.",
+          "relevance": "This is the leading Florida decision applying ICWA's placement-preference scheme once a tribe intervenes in a state dependency case.",
+          "quote": "choosing to apply Florida's abuse of discretion standard to the review of a trial court's finding of good cause to deviate",
+          "url": "https://www.courtlistener.com/opinion/1140780/seminole-tribe-v-dept-of-children/",
+          "courtlistener_cluster_id": 1140780
+        },
+        {
+          "case_name": "Mississippi Band of Choctaw Indians v. Holyfield",
+          "citation": "490 U.S. 30 (1989)",
+          "court": "Supreme Court of the United States",
+          "year": 1989,
+          "date_decided": "1989-04-03",
+          "holding": "'Domicile' in ICWA section 1911(a) is defined by uniform federal law, not state law; twins born off-reservation to parents domiciled on the Choctaw reservation were themselves domiciled there, so the tribal court had exclusive jurisdiction and the state adoption decree was reversed.",
+          "relevance": "Holyfield is the Supreme Court's foundational ICWA decision and the starting point for any Florida jurisdictional analysis involving an Indian child, including the threshold question of exclusive tribal jurisdiction.",
+          "quote": "These congressional objectives make clear that a rule of domicile that would permit individual Indian parents to defeat the ICWA's jurisdictional scheme is inconsistent with what Congress intended",
+          "url": "https://www.courtlistener.com/opinion/112241/mississippi-band-of-choctaw-indians-v-holyfield/",
+          "courtlistener_cluster_id": 112241
+        },
+        {
+          "case_name": "Adoptive Couple v. Baby Girl",
+          "citation": "570 U.S. 637 (2013)",
+          "court": "Supreme Court of the United States",
+          "year": 2013,
+          "date_decided": "2013-06-25",
+          "holding": "ICWA section 1912(f)'s beyond-a-reasonable-doubt 'continued custody' requirement does not apply to a parent who never had custody, section 1912(d)'s remedial-efforts requirement applies only where termination would precipitate the breakup of an Indian family, and section 1915(a)'s preferences do not bar a non-Indian adoption when no preferred party has sought to adopt.",
+          "relevance": "Adoptive Couple directly qualifies the beyond-a-reasonable-doubt proposition Florida's J.P.H. draws from section 1912(f), so INP-11 overstates that holding without it.",
+          "quote": "§1912(f) does not apply where the Indian parent never had custody of the Indian child.",
+          "url": "https://www.courtlistener.com/opinion/931616/adoptive-couple-v-baby-girl/",
+          "courtlistener_cluster_id": 931616
+        },
+        {
+          "case_name": "Haaland v. Brackeen",
+          "citation": "599 U.S. 255 (2023)",
+          "court": "Supreme Court of the United States",
+          "year": 2023,
+          "date_decided": "2023-06-15",
+          "holding": "The Court upheld Congress's Article I authority to enact ICWA and rejected the anticommandeering challenges on the merits, while vacating the equal protection and nondelegation rulings because no petitioner had standing to press them.",
+          "relevance": "Brackeen is the current baseline for ICWA's constitutional validity and binding force on Florida state courts, and it is the authority a 2026-dated brief must cite alongside the older Florida DCA decisions.",
+          "quote": "the bottom line is that we reject all of petitioners' challenges to the statute, some on the merits and others for lack of standing",
+          "url": "https://www.courtlistener.com/opinion/9406660/haaland-v-brackeen/",
+          "courtlistener_cluster_id": 9406660
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Florida%22%20AND%20%28%22Florida%20Department%20of%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Florida Department of Children and Families",
         "DCF",
@@ -138,149 +204,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Florida%22%20AND%20%28%22Florida%20Department%20of%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "mandatory reporting",
-        "failure to report",
-        "reporter immunity",
-        "hotline"
-      ],
-      "jurisdiction": "Florida state courts",
-      "key_cases": [
-        {
-          "case_id": "sc2023-1072",
-          "title": "Christine Askew, etc. v. Florida Department of Children and Families",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2024/sc2023-1072.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc2023-1072 (2024)",
-          "relevance_score": 3.0,
-          "matched_keywords": [
-            "florida department of children and families",
-            "dcf"
-          ],
-          "child_welfare_reason": "High: DCF"
-        },
-        {
-          "case_id": "sc2023-0884",
-          "title": "In Re: Code for Resolving Professionalism Referrals and Amendments to Rule Regulating The Florida Bar 6-10.3",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2023/sc2023-0884.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc2023-0884 (2023)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "referral"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc21-1681",
-          "title": "In Re: Amendments to the Florida Rules of Juvenile Procedure - 2021 Fast-Track Report",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2022/sc21-1681.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc21-1681 (2022)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "report"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc21-1411",
-          "title": "In Re: Amendments to the Florida Probate Rules - 2021 Fast-Track Report",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2021/sc21-1411.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc21-1411 (2021)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "report"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc21-1091",
-          "title": "In Re: Amendments to the Florida Rules of Criminal Procedure - 2021 Fast-Track Report",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2021/sc21-1091.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc21-1091 (2021)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "report"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc20-1153",
-          "title": "In Re: Amendments to the Florida Rules of Juvenile Procedure - 2020 Fast-Track Report",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2021/sc20-1153.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc20-1153 (2021)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "report"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc20-873",
-          "title": "In Re: Amendments to Florida Rule of Judicial Administration 2.420, the Florida Rules of Juvenile Procedure, and the Florida Rules of Appellate Procedureâ€”2020 Joint Fast-Track Report",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2021/sc20-873.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc20-873 (2021)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "report"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc20-165",
-          "title": "In Re: Amendments to the Florida Rules of Judicial Administration - 2020 Regular-Cycle Report",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2021/sc20-165.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc20-165 (2021)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "report"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc20-1746",
-          "title": "In Re: Amendments to the Florida Probate Rules - 2020 Fast-Track Report",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2020/sc20-1746.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc20-1746 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "report"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc20-162",
-          "title": "In Re: Amendments to the Florida Family Law Rules of Procedure - 2020 Regular-Cycle Report",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2020/sc20-162.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc20-162 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "report"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

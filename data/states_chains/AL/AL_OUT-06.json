@@ -150,6 +150,84 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Alabama state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Brakefield v. Alabama Department of Human Resources",
+          "citation": "82 So. 3d 663 (Ala. 2011)",
+          "court": "Supreme Court of Alabama",
+          "year": 2011,
+          "date_decided": "2011-10-14",
+          "holding": "The Court declined to overrule Mitchell v. Davis and held that foster parents are protected by parental immunity from simple-negligence claims by a foster child, so the negligence claims arising from the child's drowning were barred, while the wantonness claims could proceed.",
+          "relevance": "This is the controlling Alabama decision on liability for a foster child's death in the foster home.",
+          "quote": "negligence claims against the Spurgeons are barred by the doctrine of parental immunity",
+          "url": "https://www.courtlistener.com/opinion/5056315/brakefield-v-alabama-department-of-human-resources/",
+          "courtlistener_cluster_id": 5056315
+        },
+        {
+          "case_name": "Ex parte Watson",
+          "citation": "37 So. 3d 752 (Ala. 2009)",
+          "court": "Supreme Court of Alabama",
+          "year": 2009,
+          "date_decided": "2009-10-30",
+          "holding": "The Court denied State-agent immunity to the CA/N investigator, who never made the home visit required by Ala. Admin. Code r. 660-5-34-.05(1)(b), and to the ongoing worker, who ignored her supervisor's binding written instructions, but granted immunity to the two supervisors whose duties involved judgment.",
+          "relevance": "This is the controlling Alabama case on worker liability for a child's death after a defective investigation.",
+          "quote": "because Watson has not submitted substantial evidence indicating that she complied with subsection (b), Watson has not demonstrated that she is entitled to State-agent immunity",
+          "url": "https://www.courtlistener.com/opinion/1650205/ex-parte-watson/",
+          "courtlistener_cluster_id": 1650205
+        },
+        {
+          "case_name": "Ex parte McClintock",
+          "citation": "255 So. 3d 180 (Ala. 2017)",
+          "court": "Supreme Court of Alabama",
+          "year": 2017,
+          "date_decided": "2017-12-01",
+          "holding": "The Court held that DHR employees sued over a foster placement in which the child was harmed were entitled to State-agent immunity because the plaintiffs produced no substantial evidence that the workers violated detailed mandatory rules - including DHR's relative-placement policy and foster-home minimum standards - or acted willfully or in bad faith.",
+          "relevance": "It is the controlling Alabama decision on personal liability of DHR staff when a child is seriously harmed in a placement they arranged.",
+          "quote": "We agree with the petitioners and hold that they satisfied their burden of establishing that they were entitled to State-agent immunity based on Ex parte Cranman.",
+          "url": "https://www.courtlistener.com/opinion/7686848/kh-v-mcclintock-ex-parte-mcclintock/",
+          "courtlistener_cluster_id": 7686848
+        },
+        {
+          "case_name": "Williford v. Toole",
+          "citation": "26 So. 3d 1178 (Ala. 2009)",
+          "court": "Supreme Court of Alabama",
+          "year": 2009,
+          "date_decided": "2009-06-26",
+          "holding": "The Court held that a DHR service supervisor who, on receiving an intake report flagged for an immediate response, had no investigator available and instead confirmed the injured child would remain in the hospital over the weekend exercised protected supervisory judgment and was entitled to State-agent immunity.",
+          "relevance": "The child later died; the Court nonetheless found the supervisor's triage judgment immune.",
+          "quote": "The materials before us support a finding that Sumerlin did not ignore her responsibility; rather, she exercised her judgment in her supervisory capacity to deal with exigent circumstances.",
+          "url": "https://www.courtlistener.com/opinion/5042391/williford-v-toole/",
+          "courtlistener_cluster_id": 5042391
+        },
+        {
+          "case_name": "Mitchell v. Davis",
+          "citation": "598 So. 2d 801 (Ala. 1992)",
+          "court": "Supreme Court of Alabama",
+          "year": 1992,
+          "date_decided": "1992-04-17",
+          "holding": "After six foster children died in a foster-home fire the Court held that parental immunity extends in qualified form to foster parents and to the DHR commissioner, county director and case supervisor standing in loco parentis, barring simple-negligence but not wantonness claims, and that the county DHR itself is a State agency absolutely immune under Article I, section 14.",
+          "relevance": "This is the foundational Alabama decision on who can be sued when foster children die in care, and it is the rule Brakefield later declined to overrule.",
+          "quote": "we hold that foster parents may assert the defense of parental immunity against claims of simple negligence brought by foster children in their care",
+          "url": "https://www.courtlistener.com/opinion/1858824/mitchell-v-davis/",
+          "courtlistener_cluster_id": 1858824
+        },
+        {
+          "case_name": "Gowens v. Tys. S. ex rel. Davis",
+          "citation": "948 So. 2d 513 (Ala. 2006)",
+          "court": "Supreme Court of Alabama",
+          "year": 2006,
+          "date_decided": "2006-05-03",
+          "holding": "The Court held that a DHR investigator was not protected by Ala. Code 26-14-9, which covers reporting rather than investigating, and was not entitled to Cranman State-agent immunity because the DHR Manual's investigation standards required him to verify from an outside source how many children were in the household and to interview them, leaving him no judgment to exercise; it also held he owed the uninterviewed children a duty.",
+          "relevance": "The uninterviewed children were later caught in a house fire; Gowens is the decision holding an investigator personally answerable for that outcome.",
+          "quote": "The mandates of the DHR Manual in this regard are precisely the sort of \"detailed rules or regulations\" that State agents cannot ignore, except at their peril.",
+          "url": "https://www.courtlistener.com/opinion/1944704/gowens-v-tys-s-ex-rel-davis/",
+          "courtlistener_cluster_id": 1944704
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Alabama%22%20AND%20%28%22Alabama%20Department%20of%20Human%20Resources%22%20OR%20%22DHR%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Alabama Department of Human Resources",
         "DHR",
@@ -161,155 +239,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Alabama%22%20AND%20%28%22Alabama%20Department%20of%20Human%20Resources%22%20OR%20%22DHR%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "termination of parental rights",
-        "TPR",
-        "adoption",
-        "permanency",
-        "aging out"
-      ],
-      "jurisdiction": "Alabama state courts",
-      "key_cases": [
-        {
-          "case_id": "2200353-0",
-          "title": "M.B.J. v. State of Alabama Child Support Enforcement Division; Alabama Department of Human Resources; Juanita Whatley, CP; Betty A. Johnson, CP; and Mary C. Hobbs Braswell",
-          "url": "https://law.justia.com/cases/alabama/court-of-appeals-civil/2021/2200353-0.html",
-          "year": 2021,
-          "court": "Court Of Appeals Civil",
-          "citation": "Alabama Court Of Appeals Civil Case 2200353-0 (2021)",
-          "relevance_score": 3.5,
-          "matched_keywords": [
-            "alabama department of human resources",
-            "dhr"
-          ],
-          "child_welfare_reason": "High: DHR"
-        },
-        {
-          "case_id": "2200353",
-          "title": "M.B.J. v. State of Alabama Child Support Enforcement Division; Alabama Department of Human Resources; Juanita Whatley, CP; Betty A. Johnson, CP; and Mary C. Hobbs Braswell",
-          "url": "https://law.justia.com/cases/alabama/court-of-appeals-civil/2021/2200353.html",
-          "year": 2021,
-          "court": "Court Of Appeals Civil",
-          "citation": "Alabama Court Of Appeals Civil Case 2200353 (2021)",
-          "relevance_score": 3.5,
-          "matched_keywords": [
-            "alabama department of human resources",
-            "dhr"
-          ],
-          "child_welfare_reason": "High: DHR"
-        },
-        {
-          "case_id": "cl-2024-0653",
-          "title": "P.H. v. Alabama Department of Human Resources (Appeal from Montgomery Circuit Court: CV-24-900008).",
-          "url": "https://law.justia.com/cases/alabama/court-of-appeals-civil/2025/cl-2024-0653.html",
-          "year": 2025,
-          "court": "Court Of Appeals Civil",
-          "citation": "Alabama Court Of Appeals Civil Case cl-2024-0653 (2025)",
-          "relevance_score": 3.0,
-          "matched_keywords": [
-            "alabama department of human resources",
-            "dhr"
-          ],
-          "child_welfare_reason": "High: DHR"
-        },
-        {
-          "case_id": "cl-2023-0093-0",
-          "title": "Pooh Bear Academy v. Alabama Department of Human Resources (Appeal from Montgomery Circuit Court: CV-22-900285).",
-          "url": "https://law.justia.com/cases/alabama/court-of-appeals-civil/2023/cl-2023-0093-0.html",
-          "year": 2023,
-          "court": "Court Of Appeals Civil",
-          "citation": "Alabama Court Of Appeals Civil Case cl-2023-0093-0 (2023)",
-          "relevance_score": 3.0,
-          "matched_keywords": [
-            "alabama department of human resources",
-            "dhr"
-          ],
-          "child_welfare_reason": "High: DHR"
-        },
-        {
-          "case_id": "2190927",
-          "title": "J.L. v. Alabama Department of Human Resources",
-          "url": "https://law.justia.com/cases/alabama/court-of-appeals-civil/2021/2190927.html",
-          "year": 2021,
-          "court": "Court Of Appeals Civil",
-          "citation": "Alabama Court Of Appeals Civil Case 2190927 (2021)",
-          "relevance_score": 3.0,
-          "matched_keywords": [
-            "alabama department of human resources",
-            "dhr"
-          ],
-          "child_welfare_reason": "High: DHR"
-        },
-        {
-          "case_id": "2190561",
-          "title": "C.S. v. Alabama Department of Human Resources",
-          "url": "https://law.justia.com/cases/alabama/court-of-appeals-civil/2020/2190561.html",
-          "year": 2020,
-          "court": "Court Of Appeals Civil",
-          "citation": "Alabama Court Of Appeals Civil Case 2190561 (2020)",
-          "relevance_score": 3.0,
-          "matched_keywords": [
-            "alabama department of human resources",
-            "dhr"
-          ],
-          "child_welfare_reason": "High: DHR"
-        },
-        {
-          "case_id": "2190981",
-          "title": "Eric Funderburk, in his capacity as the guardian ad litem for H.L., a minor child v. Russell County Department of Human Resources",
-          "url": "https://law.justia.com/cases/alabama/court-of-appeals-civil/2021/2190981.html",
-          "year": 2021,
-          "court": "Court Of Appeals Civil",
-          "citation": "Alabama Court Of Appeals Civil Case 2190981 (2021)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "dhr"
-          ],
-          "child_welfare_reason": "High: DHR"
-        },
-        {
-          "case_id": "sc-2025-0681",
-          "title": "Ex parte J.R., Sr. PETITION FOR WRIT OF CERTIORARI TO THE COURT OF CIVIL APPEALS (In re: J.R., Sr. v. Tuscaloosa County Department of Human Resources) (Tuscaloosa Juvenile Court: JU-22-720.03; Civil Appeals: CL-2025-0165).",
-          "url": "https://law.justia.com/cases/alabama/supreme-court/2025/sc-2025-0681.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alabama Supreme Court Case sc-2025-0681 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "dhr"
-          ],
-          "child_welfare_reason": "High: DHR, Juvenile Court, JU case number, In re initials, Ex parte initials"
-        },
-        {
-          "case_id": "sc-2025-0195",
-          "title": "Ex parte S.D.S. PETITION FOR WRIT OF CERTIORARI TO THE COURT OF CIVIL APPEAL (In re: S.D.S v. Walker County Department of Human Resources) (Walker Juvenile Court: JU-23-12.04; Civil Appeals: CL-2024-0754).",
-          "url": "https://law.justia.com/cases/alabama/supreme-court/2025/sc-2025-0195.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alabama Supreme Court Case sc-2025-0195 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "dhr"
-          ],
-          "child_welfare_reason": "High: DHR, Juvenile Court, JU case number, In re initials, Ex parte initials"
-        },
-        {
-          "case_id": "sc-2025-0186",
-          "title": "Ex parte M.A.D. PETITION FOR WRIT OF CERTIORARI TO THE COURT OF CIVIL APPEALS (In re: M.A.D. v. Jefferson County Department of Human Resources) (Jefferson Juvenile Court: JU-21-1232.02; Civil Appeals: CL-2024-0397).",
-          "url": "https://law.justia.com/cases/alabama/supreme-court/2025/sc-2025-0186.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alabama Supreme Court Case sc-2025-0186 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "dhr"
-          ],
-          "child_welfare_reason": "High: DHR, Juvenile Court, JU case number, In re initials, Ex parte initials"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

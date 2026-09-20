@@ -118,6 +118,72 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Arkansas state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Blanchard v. Arkansas Department of Human Services",
+          "citation": "2010 Ark. App. 785, 379 S.W.3d 686",
+          "court": "Court of Appeals of Arkansas",
+          "year": 2010,
+          "date_decided": "2010-11-17",
+          "holding": "The court affirmed the adjudication of three sisters as dependent-neglected based on sexual abuse, holding that the juvenile code requires only proof by a preponderance of the evidence and that the child's out-of-court statement could support the finding.",
+          "relevance": "It is the standard Arkansas citation for the burden of proof at the dependency-neglect adjudication.",
+          "quote": "The juvenile code requires proof by a preponderance of the evidence in dependency-neglect proceedings.",
+          "url": "https://www.courtlistener.com/opinion/5282978/blanchard-v-arkansas-department-of-human-services/",
+          "courtlistener_cluster_id": 5282978
+        },
+        {
+          "case_name": "Phillips v. Ark. Dep't of Human Servs. & Minor Child",
+          "citation": "560 S.W.3d 499 (Ark. Ct. App. 2018)",
+          "court": "Court of Appeals of Arkansas",
+          "year": 2018,
+          "date_decided": "2018-10-03",
+          "holding": "The court affirmed the adjudication of dependency-neglect based on physical abuse, holding that the circuit court properly weighed the age and size of the child, the location of the injury and the recurrence of bruising in deciding the discipline was not reasonable or moderate.",
+          "relevance": "It is a clear Arkansas Court of Appeals statement of what an adjudication hearing decides and on what proof.",
+          "quote": "The focus of an adjudication hearing is on the child, not the parent.",
+          "url": "https://www.courtlistener.com/opinion/6243053/phillips-v-ark-dept-of-human-servs-minor-child/",
+          "courtlistener_cluster_id": 6243053
+        },
+        {
+          "case_name": "Jones v. Arkansas Department of Human Services",
+          "citation": "361 Ark. 164, 205 S.W.3d 778 (2005)",
+          "court": "Supreme Court of Arkansas",
+          "year": 2005,
+          "date_decided": "2005-03-24",
+          "holding": "The court affirmed the termination but held, as a matter of law, that the statutory right to counsel in termination cases includes the right to effective counsel measured by the Strickland standard, while declining to reach the claim because it was not developed below.",
+          "relevance": "From the filing of the dependency-neglect petition forward, an Arkansas parent's counsel rights are statutory under Ark. Code Ann. § 9-27-316 and are broader than the federal Lassiter floor.",
+          "quote": "The right to counsel in termination cases in Arkansas arises not from the Constitution, but from statutory law.",
+          "url": "https://www.courtlistener.com/opinion/2172815/jones-v-arkansas-department-of-human-services/",
+          "courtlistener_cluster_id": 2172815
+        },
+        {
+          "case_name": "Lassiter v. Department of Social Services of Durham County, North Carolina",
+          "citation": "452 U.S. 18 (1981)",
+          "court": "Supreme Court of the United States",
+          "year": 1981,
+          "date_decided": "1981-06-01",
+          "holding": "The Court held that due process does not automatically require appointed counsel for an indigent parent in every termination proceeding, leaving the question to the trial court in the first instance subject to appellate review.",
+          "relevance": "Lassiter marks the federal minimum at the moment a dependency petition is filed; Arkansas exceeds it by statute (Ark. Code Ann. § 9-27-316), so a family's counsel rights here come from state law, not the Fourteenth Amendment.",
+          "quote": "leave the decision whether due process calls for the appointment of counsel for indigent parents in termination proceedings to be answered in the first instance by the trial court",
+          "url": "https://www.courtlistener.com/opinion/110506/lassiter-v-department-of-social-servs-of-durham-cty/",
+          "courtlistener_cluster_id": 110506
+        },
+        {
+          "case_name": "Linker-Flores v. Arkansas Department of Human Services",
+          "citation": "359 Ark. 131, 194 S.W.3d 739 (2004)",
+          "court": "Supreme Court of Arkansas",
+          "year": 2004,
+          "date_decided": "2004-10-07",
+          "holding": "On the merits of the certified question, the court adopted the Anders no-merit-brief procedure for appeals by indigent parents from termination orders, requiring counsel who seeks to withdraw to file a brief discussing any arguably meritorious issue, serve it on the parent, and allow thirty days for pro se points, and it held counsel's pending motion to withdraw premature until such a brief was filed.",
+          "relevance": "It confirms that the statutory right to counsel under Ark. Code Ann. § 9-27-316(h)(1), which attaches when the dependency-neglect petition is filed, carries through to a first appeal and constrains how counsel may exit the case.",
+          "quote": "the Anders procedures shall apply in cases of indigent parent appeals from orders terminating parental rights",
+          "url": "https://www.courtlistener.com/opinion/1870996/linker-flores-v-arkansas-department-of-human-services/",
+          "courtlistener_cluster_id": 1870996
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Arkansas%22%20AND%20%28%22Arkansas%20Department%20of%20Human%20Services%22%20OR%20%22Arkansas%20DCFS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Arkansas Department of Human Services",
         "Arkansas DCFS",
@@ -129,149 +195,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Arkansas%22%20AND%20%28%22Arkansas%20Department%20of%20Human%20Services%22%20OR%20%22Arkansas%20DCFS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "investigation",
-        "substantiation",
-        "evidence standard",
-        "due process",
-        "reasonable efforts"
-      ],
-      "jurisdiction": "Arkansas state courts",
-      "key_cases": [
-        {
-          "case_id": "cv-22-256",
-          "title": "JESSICA CASEY v. ARKANSAS DEPARTMENT OF HUMAN SERVICES AND MINOR CHILD (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2022/cv-22-256.html",
-          "year": 2022,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-22-256 (2022)",
-          "relevance_score": 2.2,
-          "matched_keywords": [
-            "arkansas department of human services"
-          ],
-          "child_welfare_reason": "Medium: minor child"
-        },
-        {
-          "case_id": "cv-19-337",
-          "title": "FREDA HOSTLER; KIMBERLY STEWARD; STEPHANIE MOTEN; AND EYLORNA BONES v. NATHANIEL DENNISON, ANGELA NEWCOMB, CECILE BLUCHER, AND BECKY DUNAGIN, INDIVIDUALLY AND IN THEIR OFFICIAL CAPACITIES; AND ARKANSAS DEPARTMENT OF HUMAN SERVICES, DIVISION OF CHILDREN AND FAMILY SERVICES (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2020/cv-19-337.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-19-337 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "arkansas department of human services"
-          ],
-          "child_welfare_reason": "High: Family Services"
-        },
-        {
-          "case_id": "cv-25-758",
-          "title": "ARKANSAS DEPARTMENT OF HUMAN SERVICES v. APRIL WARD AND MINOR CHILD (Per Curiam)",
-          "url": "https://law.justia.com/cases/arkansas/supreme-court/2025/cv-25-758.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Arkansas Supreme Court Case cv-25-758 (2025)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "arkansas department of human services"
-          ],
-          "child_welfare_reason": "Medium: minor child"
-        },
-        {
-          "case_id": "cv-25-487",
-          "title": "KATHY TURNER v. ARKANSAS DEPARTMENT OF HUMAN SERVICES AND MINOR CHILD (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2025/cv-25-487.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-25-487 (2025)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "arkansas department of human services"
-          ],
-          "child_welfare_reason": "Medium: minor child"
-        },
-        {
-          "case_id": "cv-25-335",
-          "title": "MARK HUNT v. ARKANSAS DEPARTMENT OF HUMAN SERVICES AND MINOR CHILD (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2025/cv-25-335.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-25-335 (2025)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "arkansas department of human services"
-          ],
-          "child_welfare_reason": "Medium: minor child"
-        },
-        {
-          "case_id": "cv-25-347",
-          "title": "LISA CONAPINSKI v. ARKANSAS DEPARTMENT OF HUMAN SERVICES AND MINOR CHILD (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2025/cv-25-347.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-25-347 (2025)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "arkansas department of human services"
-          ],
-          "child_welfare_reason": "Medium: minor child"
-        },
-        {
-          "case_id": "cv-25-382",
-          "title": "STEPHANIE BYRAMS v. ARKANSAS DEPARTMENT OF HUMAN SERVICES AND MINOR CHILD (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2025/cv-25-382.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-25-382 (2025)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "arkansas department of human services"
-          ],
-          "child_welfare_reason": "Medium: minor child"
-        },
-        {
-          "case_id": "cv-25-411",
-          "title": "KIMBERLY BRAHLER BARNES v. ARKANSAS DEPARTMENT OF HUMAN SERVICES AND MINOR CHILD (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2025/cv-25-411.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-25-411 (2025)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "arkansas department of human services"
-          ],
-          "child_welfare_reason": "Medium: minor child"
-        },
-        {
-          "case_id": "cv-25-233",
-          "title": "BRIANNA JONES v. ARKANSAS DEPARTMENT OF HUMAN SERVICES AND MINOR CHILD (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2025/cv-25-233.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-25-233 (2025)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "arkansas department of human services"
-          ],
-          "child_welfare_reason": "Medium: minor child"
-        },
-        {
-          "case_id": "cv-25-265",
-          "title": "PATRICIA WILLIAMS v. ARKANSAS DEPARTMENT OF HUMAN SERVICES AND MINOR CHILD (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2025/cv-25-265.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-25-265 (2025)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "arkansas department of human services"
-          ],
-          "child_welfare_reason": "Medium: minor child"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

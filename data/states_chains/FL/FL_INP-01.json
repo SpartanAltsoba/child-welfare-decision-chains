@@ -130,6 +130,48 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Florida state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Urquhart v. Helmich",
+          "citation": "947 So. 2d 539 (Fla. 1st DCA 2006)",
+          "court": "District Court of Appeal of Florida, First District",
+          "year": 2006,
+          "date_decided": "2006-12-27",
+          "holding": "A physician who reported suspected child abuse was immune from civil liability under section 39.203 because the record showed no evidence overcoming the good-faith presumption, and summary judgment for the reporter was affirmed.",
+          "relevance": "Urquhart is the Florida appellate application of the reporter-immunity statute that accompanies the universal duty to report.",
+          "quote": "Section 39.203, Florida Statutes affords a general grant of immunity to a person who makes a report of child abuse in good faith.",
+          "url": "https://www.courtlistener.com/opinion/1801944/urquhart-v-helmich/",
+          "courtlistener_cluster_id": 1801944
+        },
+        {
+          "case_name": "Department of Health & Rehabilitative Services v. Yamuni",
+          "citation": "529 So. 2d 258 (Fla. 1988)",
+          "court": "Supreme Court of Florida",
+          "year": 1988,
+          "date_decided": "1988-06-02",
+          "holding": "Florida's child welfare agency owes a statutory duty of care to prevent further harm to a child once reports of abuse are received, and caseworker investigation and protective-supervision activity is operational-level conduct for which sovereign immunity is waived under section 768.28.",
+          "relevance": "Yamuni converts the mandatory-report statute into an enforceable duty: once a report arrives, the agency owes the child a duty of care.",
+          "quote": "We agree with the district court below that HRS has a statutory duty of care to prevent further harm to children when reports of child abuse are received.",
+          "url": "https://www.courtlistener.com/opinion/1134313/dept-of-health-rehab-servs-v-yamuni/",
+          "courtlistener_cluster_id": 1134313
+        },
+        {
+          "case_name": "Floyd v. Department of Children & Families",
+          "citation": "855 So. 2d 204 (Fla. 1st DCA 2003)",
+          "court": "District Court of Appeal of Florida, First District",
+          "year": 2003,
+          "date_decided": "2003-09-18",
+          "holding": "Summary judgment for the Department was reversed in a wrongful death action alleging that its investigator returned a child to a home with a known abuser, because reporting-related statutory immunity does not protect officials who fail to carry out their duty to protect the child.",
+          "relevance": "Floyd separates immunity for making or acting on a report from liability for failing to act on what the reports disclosed.",
+          "quote": "it was not intended to protect those who fail to fulfill their duty to protect children",
+          "url": "https://www.courtlistener.com/opinion/1909591/floyd-v-department-of-children-and-famil/",
+          "courtlistener_cluster_id": 1909591
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Florida%22%20AND%20%28%22Florida%20Department%20of%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Florida Department of Children and Families",
         "DCF",
@@ -141,149 +183,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Florida%22%20AND%20%28%22Florida%20Department%20of%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "mandatory reporting",
-        "failure to report",
-        "reporter immunity",
-        "hotline"
-      ],
-      "jurisdiction": "Florida state courts",
-      "key_cases": [
-        {
-          "case_id": "sc2023-1072",
-          "title": "Christine Askew, etc. v. Florida Department of Children and Families",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2024/sc2023-1072.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc2023-1072 (2024)",
-          "relevance_score": 3.0,
-          "matched_keywords": [
-            "florida department of children and families",
-            "dcf"
-          ],
-          "child_welfare_reason": "High: DCF"
-        },
-        {
-          "case_id": "sc21-1681",
-          "title": "In Re: Amendments to the Florida Rules of Juvenile Procedure - 2021 Fast-Track Report",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2022/sc21-1681.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc21-1681 (2022)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "report"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc21-1411",
-          "title": "In Re: Amendments to the Florida Probate Rules - 2021 Fast-Track Report",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2021/sc21-1411.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc21-1411 (2021)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "report"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc21-1091",
-          "title": "In Re: Amendments to the Florida Rules of Criminal Procedure - 2021 Fast-Track Report",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2021/sc21-1091.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc21-1091 (2021)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "report"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc20-1153",
-          "title": "In Re: Amendments to the Florida Rules of Juvenile Procedure - 2020 Fast-Track Report",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2021/sc20-1153.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc20-1153 (2021)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "report"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc20-873",
-          "title": "In Re: Amendments to Florida Rule of Judicial Administration 2.420, the Florida Rules of Juvenile Procedure, and the Florida Rules of Appellate Procedureâ€”2020 Joint Fast-Track Report",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2021/sc20-873.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc20-873 (2021)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "report"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc20-165",
-          "title": "In Re: Amendments to the Florida Rules of Judicial Administration - 2020 Regular-Cycle Report",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2021/sc20-165.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc20-165 (2021)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "report"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc20-1746",
-          "title": "In Re: Amendments to the Florida Probate Rules - 2020 Fast-Track Report",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2020/sc20-1746.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc20-1746 (2020)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "report"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc20-162",
-          "title": "In Re: Amendments to the Florida Family Law Rules of Procedure - 2020 Regular-Cycle Report",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2020/sc20-162.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc20-162 (2020)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "report"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc20-1374",
-          "title": "In Re: Amendments to the Florida Rules of Appellate Procedure - 2020 Fast-Track Report",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2020/sc20-1374.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc20-1374 (2020)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "report"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

@@ -148,6 +148,84 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Alaska state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Mississippi Band of Choctaw Indians v. Holyfield",
+          "citation": "490 U.S. 30 (1989)",
+          "court": "Supreme Court of the United States",
+          "year": 1989,
+          "date_decided": "1989-04-03",
+          "holding": "\"Domicile\" in ICWA is a uniform question of federal law, and children domiciled on a reservation fall within exclusive tribal jurisdiction that parents cannot defeat by giving birth or placing the child off-reservation.",
+          "relevance": "Establishes that ICWA's jurisdictional terms are federal and uniform, the premise Alaska courts build on when allocating authority between the superior court and Alaska Native tribal courts.",
+          "quote": "In enacting the ICWA Congress confirmed that, in child custody proceedings involving Indian children domiciled on the reservation, tribal jurisdiction was exclusive as to the States.",
+          "url": "https://www.courtlistener.com/opinion/112241/mississippi-band-of-choctaw-indians-v-holyfield/",
+          "courtlistener_cluster_id": 112241
+        },
+        {
+          "case_name": "State v. Native Village of Tanana",
+          "citation": "249 P.3d 734 (Alaska 2011)",
+          "court": "Supreme Court of Alaska",
+          "year": 2011,
+          "date_decided": "2011-03-04",
+          "holding": "Federally recognized Alaska Native tribes may exercise inherent sovereign jurisdiction to initiate ICWA child custody proceedings without a § 1918 reassumption petition, and judgments from those proceedings may be entitled to full faith and credit by the State.",
+          "relevance": "Is the controlling Alaska authority on when a tribal forum, rather than the superior court, may open a child-protection case.",
+          "quote": "federally recognized Alaska Native tribes are not necessarily precluded from exercising inherent sovereign jurisdiction to initiate \"child custody proceedings\" as ICWA defines that term",
+          "url": "https://www.courtlistener.com/opinion/2359562/state-v-native-village-of-tanana/",
+          "courtlistener_cluster_id": 2359562
+        },
+        {
+          "case_name": "Simmonds v. Parks",
+          "citation": "329 P.3d 995 (Alaska 2014)",
+          "court": "Supreme Court of Alaska",
+          "year": 2014,
+          "date_decided": "2014-07-18",
+          "holding": "Adopting the federal tribal-exhaustion doctrine, the court held that a father who failed to appeal a Minto Tribal Court termination of his parental rights through tribal appellate remedies could not collaterally attack that judgment in state court, and his suit was dismissed.",
+          "relevance": "Establishes that once a tribal court properly exercises jurisdiction, tribal remedies must be exhausted before any state-court challenge.",
+          "quote": "We therefore conclude his suit in Alaska state court must be dismissed.",
+          "url": "https://www.courtlistener.com/opinion/2685783/simmonds-v-parks/",
+          "courtlistener_cluster_id": 2685783
+        },
+        {
+          "case_name": "Native Village of Tununak v. State, Department of Health & Social Services, Office of Children's Services",
+          "citation": "303 P.3d 431 (Alaska 2013)",
+          "court": "Supreme Court of Alaska",
+          "year": 2013,
+          "date_decided": "2013-06-21",
+          "holding": "Overruling its prior application of Adoption Rule 11's preponderance standard, the court held that good cause to deviate from ICWA's adoptive placement preferences must be proved by clear and convincing evidence, and vacated and remanded for application of that standard.",
+          "relevance": "Demonstrates that ICWA supplies a federal standard of proof that displaces a conflicting Alaska court rule.",
+          "quote": "we conclude that ICWA implicitly mandates that good cause to deviate from ICWA's adoptive placement preferences be proved by clear and convincing evidence",
+          "url": "https://www.courtlistener.com/opinion/904273/native-village-of-tununak-v-state-department-of-health-social-services/",
+          "courtlistener_cluster_id": 904273
+        },
+        {
+          "case_name": "John v. Baker",
+          "citation": "982 P.2d 738 (Alaska 1999)",
+          "court": "Supreme Court of Alaska",
+          "year": 1999,
+          "date_decided": "1999-09-08",
+          "holding": "Alaska Native tribes possess inherent, non-territorial sovereign authority to adjudicate child custody disputes between their own members in tribal court, so the superior court erred in refusing to give the Northway Tribal Court judgment effect; the case was remanded to decide whether that judgment should be recognized under comity.",
+          "relevance": "Is the foundational Alaska holding that tribal adjudicatory authority over children does not depend on Indian country, the premise on which Tanana and every later Alaska tribal-jurisdiction case rests.",
+          "quote": "we conclude that Native tribes do possess the inherent sovereign power to adjudicate child custody disputes between tribal members in their own courts",
+          "url": "https://www.courtlistener.com/opinion/1253018/john-v-baker/",
+          "courtlistener_cluster_id": 1253018
+        },
+        {
+          "case_name": "Haaland v. Brackeen",
+          "citation": "599 U.S. 255 (2023)",
+          "court": "Supreme Court of the United States",
+          "year": 2023,
+          "date_decided": "2023-06-15",
+          "holding": "The Court rejected every constitutional challenge to ICWA: Congress had Article I power to enact it, its placement and remedial-effort commands do not unconstitutionally commandeer state legislatures, courts or executive officers, and the equal-protection and nondelegation claims failed for want of standing.",
+          "relevance": "Settles that ICWA validly binds Alaska's superior courts and OCS, removing the constitutional cloud the Fifth Circuit had cast over 25 U.S.C. section 1912(d).",
+          "quote": "the bottom line is that we reject all of petitioners’ challenges to the statute, some on the merits and others for lack of standing",
+          "url": "https://www.courtlistener.com/opinion/9402136/haaland-v-brackeen/",
+          "courtlistener_cluster_id": 9406660
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Alaska%22%20AND%20%28%22Alaska%20Office%20of%20Children%27s%20Services%22%20OR%20%22OCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Alaska Office of Children's Services",
         "OCS",
@@ -159,148 +237,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Alaska%22%20AND%20%28%22Alaska%20Office%20of%20Children%27s%20Services%22%20OR%20%22OCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "mandatory reporting",
-        "failure to report",
-        "reporter immunity",
-        "hotline"
-      ],
-      "jurisdiction": "Alaska state courts",
-      "key_cases": [
-        {
-          "case_id": "s-19299",
-          "title": "Enzo C. v. State, DFCS, OCS (Unpublished)",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19299.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-19299 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "ocs"
-          ],
-          "child_welfare_reason": "High: DFCS, OCS"
-        },
-        {
-          "case_id": "s-19347",
-          "title": "R. S. (Father) v. State of Alaska, DFCS, OCS (Unpublished)",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19347.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-19347 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "ocs"
-          ],
-          "child_welfare_reason": "High: DFCS, OCS"
-        },
-        {
-          "case_id": "s-19190",
-          "title": "Terry W. (Father) v. State of Alaska, DHSS, OCS (Unpublished)",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19190.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-19190 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "ocs"
-          ],
-          "child_welfare_reason": "High: OCS"
-        },
-        {
-          "case_id": "s-18848",
-          "title": "R. G. (Father) v. State of Alaska, DFCS, OCS (Unpublished)",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-18848.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-18848 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "ocs"
-          ],
-          "child_welfare_reason": "High: DFCS, OCS"
-        },
-        {
-          "case_id": "s-19209",
-          "title": "Alana M. (Mother) v. State of Alaska, DFCS, OCS (Unpublished)",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19209.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-19209 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "ocs"
-          ],
-          "child_welfare_reason": "High: DFCS, OCS"
-        },
-        {
-          "case_id": "s-19210",
-          "title": "Kash B. (Father) v. State of Alaska, DFCS, OCS (Unpublished)",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19210.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-19210 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "ocs"
-          ],
-          "child_welfare_reason": "High: DFCS, OCS"
-        },
-        {
-          "case_id": "s-19096",
-          "title": "M. J. (Father) v. State of Alaska, DFCS, OCS (Unpublished)",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19096.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-19096 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "ocs"
-          ],
-          "child_welfare_reason": "High: DFCS, OCS"
-        },
-        {
-          "case_id": "s-19127",
-          "title": "G.T. (Father) v. State of Alaska, DFCS, OCS (Unpublished)",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19127.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-19127 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "ocs"
-          ],
-          "child_welfare_reason": "High: DFCS, OCS"
-        },
-        {
-          "case_id": "s-19016",
-          "title": "V. B. (Mother) v. State of Alaska, DFCS, OCS (Unpublished)",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19016.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-19016 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "ocs"
-          ],
-          "child_welfare_reason": "High: DFCS, OCS"
-        },
-        {
-          "case_id": "s-19050",
-          "title": "J.C. (Father) v. State of Alaska, DFCS, OCS (Unpublished)",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19050.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-19050 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "ocs"
-          ],
-          "child_welfare_reason": "High: DFCS, OCS"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

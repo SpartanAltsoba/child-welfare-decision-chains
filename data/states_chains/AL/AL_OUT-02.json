@@ -159,6 +159,84 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Alabama state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Ex parte Beasley",
+          "citation": "564 So. 2d 950 (Ala. 1990)",
+          "court": "Supreme Court of Alabama",
+          "year": 1990,
+          "date_decided": "1990-02-02",
+          "holding": "The Supreme Court restated the two-prong termination test - statutory grounds first, then consideration and rejection of all viable alternatives - and held that when a nonparent, including the State, is the petitioner it must additionally prove the child's dependency as a threshold matter.",
+          "relevance": "Beasley is the controlling Alabama statement of the two-prong termination test that every Alabama TPR judgment is measured against.",
+          "quote": "if a nonparent, including the State, is the petitioner, then such a petitioner must meet the further threshold proof of dependency",
+          "url": "https://www.courtlistener.com/opinion/1707831/ex-parte-beasley/",
+          "courtlistener_cluster_id": 1707831
+        },
+        {
+          "case_name": "Ex parte T.V.",
+          "citation": "971 So. 2d 1 (Ala. 2007)",
+          "court": "Supreme Court of Alabama",
+          "year": 2007,
+          "date_decided": "2007-01-12",
+          "holding": "The Supreme Court reversed a termination judgment because the record did not clearly and convincingly show that the trial court had examined all viable alternatives, including relative placement and continued visitation, and remanded for that consideration.",
+          "relevance": "Ex parte T.V. is the modern Alabama Supreme Court application of Beasley's second prong and the case most often used to attack a termination judgment.",
+          "quote": "the trial court also must find by clear and convincing evidence that there are no viable alternatives to the termination of parental rights",
+          "url": "https://www.courtlistener.com/opinion/1841072/ex-parte-tv/",
+          "courtlistener_cluster_id": 1841072
+        },
+        {
+          "case_name": "Santosky v. Kramer",
+          "citation": "455 U.S. 745 (1982)",
+          "court": "Supreme Court of the United States",
+          "year": 1982,
+          "date_decided": "1982-02-22",
+          "holding": "The Court held that the Due Process Clause of the Fourteenth Amendment requires a State to support its allegations by at least clear and convincing evidence before it may sever the rights of parents in their natural child.",
+          "relevance": "Santosky is the federal constitutional floor beneath Alabama's clear-and-convincing termination standard in Ala. Code 12-15-319.",
+          "quote": "due process requires that the State support its allegations by at least clear and convincing evidence",
+          "url": "https://www.courtlistener.com/opinion/110676/santosky-v-kramer/",
+          "courtlistener_cluster_id": 110676
+        },
+        {
+          "case_name": "A.D.B.H. v. Houston County Department of Human Resources",
+          "citation": "1 So. 3d 53 (Ala. Civ. App. 2008)",
+          "court": "Court of Civil Appeals of Alabama",
+          "year": 2008,
+          "date_decided": "2008-03-21",
+          "holding": "The court affirmed the termination, holding that the evidence supported the juvenile court's rejection of the maternal grandparents as a viable alternative given their prior custodial failures, the grandfather's deployment and the stepgrandmother's health.",
+          "relevance": "The opinion applies Beasley's viable-alternatives prong where the proposed alternative is a relative placement.",
+          "quote": "The evidence supports the juvenile court's finding that awarding custody to the maternal grandparents was not a viable alternative to termination in the present case.",
+          "url": "https://www.courtlistener.com/opinion/1599839/adbh-v-houston-county-department-of-human-resources/",
+          "courtlistener_cluster_id": 1599839
+        },
+        {
+          "case_name": "Lassiter v. Department of Social Services of Durham County",
+          "citation": "452 U.S. 18 (1981)",
+          "court": "Supreme Court of the United States",
+          "year": 1981,
+          "date_decided": "1981-08-28",
+          "holding": "The Court held that the Constitution does not require appointed counsel in every parental-termination proceeding and left the question whether due process requires counsel in a given case to the trial court in the first instance, subject to appellate review.",
+          "relevance": "Alabama supplies appointed counsel in termination cases by statute; Lassiter marks the narrower constitutional floor.",
+          "quote": "neither can we say that the Constitution requires the appointment of counsel in every parental termination proceeding",
+          "url": "https://www.courtlistener.com/opinion/110506/lassiter-v-department-of-social-servs-of-durham-cty/",
+          "courtlistener_cluster_id": 110506
+        },
+        {
+          "case_name": "Ex parte E.D.",
+          "citation": "777 So. 2d 113 (Ala. 2000)",
+          "court": "Supreme Court of Alabama",
+          "year": 2000,
+          "date_decided": "2000-07-21",
+          "holding": "The Court reversed and held that a parent, who has a right to appointed counsel in a termination case, may raise a claim of ineffective assistance of that counsel by a Rule 60(b)(6) motion filed within a reasonable time, and that a motion filed within sixty days after the Court of Civil Appeals affirmed the termination was timely.",
+          "relevance": "It is the Alabama Supreme Court's statement of the right to appointed counsel that accompanies every termination judgment, and the authority behind the effective-assistance rule Alabama courts apply.",
+          "quote": "In a parental-rights-termination case, a parent has a right to appointed counsel.",
+          "url": "https://www.courtlistener.com/opinion/1102692/ex-parte-ed/",
+          "courtlistener_cluster_id": 1102692
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Alabama%22%20AND%20%28%22Alabama%20Department%20of%20Human%20Resources%22%20OR%20%22DHR%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Alabama Department of Human Resources",
         "DHR",
@@ -170,155 +248,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Alabama%22%20AND%20%28%22Alabama%20Department%20of%20Human%20Resources%22%20OR%20%22DHR%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "termination of parental rights",
-        "TPR",
-        "adoption",
-        "permanency",
-        "aging out"
-      ],
-      "jurisdiction": "Alabama state courts",
-      "key_cases": [
-        {
-          "case_id": "cl-2024-0653",
-          "title": "P.H. v. Alabama Department of Human Resources (Appeal from Montgomery Circuit Court: CV-24-900008).",
-          "url": "https://law.justia.com/cases/alabama/court-of-appeals-civil/2025/cl-2024-0653.html",
-          "year": 2025,
-          "court": "Court Of Appeals Civil",
-          "citation": "Alabama Court Of Appeals Civil Case cl-2024-0653 (2025)",
-          "relevance_score": 3.0,
-          "matched_keywords": [
-            "alabama department of human resources",
-            "dhr"
-          ],
-          "child_welfare_reason": "High: DHR"
-        },
-        {
-          "case_id": "cl-2023-0093-0",
-          "title": "Pooh Bear Academy v. Alabama Department of Human Resources (Appeal from Montgomery Circuit Court: CV-22-900285).",
-          "url": "https://law.justia.com/cases/alabama/court-of-appeals-civil/2023/cl-2023-0093-0.html",
-          "year": 2023,
-          "court": "Court Of Appeals Civil",
-          "citation": "Alabama Court Of Appeals Civil Case cl-2023-0093-0 (2023)",
-          "relevance_score": 3.0,
-          "matched_keywords": [
-            "alabama department of human resources",
-            "dhr"
-          ],
-          "child_welfare_reason": "High: DHR"
-        },
-        {
-          "case_id": "2200353-0",
-          "title": "M.B.J. v. State of Alabama Child Support Enforcement Division; Alabama Department of Human Resources; Juanita Whatley, CP; Betty A. Johnson, CP; and Mary C. Hobbs Braswell",
-          "url": "https://law.justia.com/cases/alabama/court-of-appeals-civil/2021/2200353-0.html",
-          "year": 2021,
-          "court": "Court Of Appeals Civil",
-          "citation": "Alabama Court Of Appeals Civil Case 2200353-0 (2021)",
-          "relevance_score": 3.0,
-          "matched_keywords": [
-            "alabama department of human resources",
-            "dhr"
-          ],
-          "child_welfare_reason": "High: DHR"
-        },
-        {
-          "case_id": "2200353",
-          "title": "M.B.J. v. State of Alabama Child Support Enforcement Division; Alabama Department of Human Resources; Juanita Whatley, CP; Betty A. Johnson, CP; and Mary C. Hobbs Braswell",
-          "url": "https://law.justia.com/cases/alabama/court-of-appeals-civil/2021/2200353.html",
-          "year": 2021,
-          "court": "Court Of Appeals Civil",
-          "citation": "Alabama Court Of Appeals Civil Case 2200353 (2021)",
-          "relevance_score": 3.0,
-          "matched_keywords": [
-            "alabama department of human resources",
-            "dhr"
-          ],
-          "child_welfare_reason": "High: DHR"
-        },
-        {
-          "case_id": "2190927",
-          "title": "J.L. v. Alabama Department of Human Resources",
-          "url": "https://law.justia.com/cases/alabama/court-of-appeals-civil/2021/2190927.html",
-          "year": 2021,
-          "court": "Court Of Appeals Civil",
-          "citation": "Alabama Court Of Appeals Civil Case 2190927 (2021)",
-          "relevance_score": 3.0,
-          "matched_keywords": [
-            "alabama department of human resources",
-            "dhr"
-          ],
-          "child_welfare_reason": "High: DHR"
-        },
-        {
-          "case_id": "2190561",
-          "title": "C.S. v. Alabama Department of Human Resources",
-          "url": "https://law.justia.com/cases/alabama/court-of-appeals-civil/2020/2190561.html",
-          "year": 2020,
-          "court": "Court Of Appeals Civil",
-          "citation": "Alabama Court Of Appeals Civil Case 2190561 (2020)",
-          "relevance_score": 3.0,
-          "matched_keywords": [
-            "alabama department of human resources",
-            "dhr"
-          ],
-          "child_welfare_reason": "High: DHR"
-        },
-        {
-          "case_id": "sc-2025-0681",
-          "title": "Ex parte J.R., Sr. PETITION FOR WRIT OF CERTIORARI TO THE COURT OF CIVIL APPEALS (In re: J.R., Sr. v. Tuscaloosa County Department of Human Resources) (Tuscaloosa Juvenile Court: JU-22-720.03; Civil Appeals: CL-2025-0165).",
-          "url": "https://law.justia.com/cases/alabama/supreme-court/2025/sc-2025-0681.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alabama Supreme Court Case sc-2025-0681 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "dhr"
-          ],
-          "child_welfare_reason": "High: DHR, Juvenile Court, JU case number, In re initials, Ex parte initials"
-        },
-        {
-          "case_id": "sc-2025-0195",
-          "title": "Ex parte S.D.S. PETITION FOR WRIT OF CERTIORARI TO THE COURT OF CIVIL APPEAL (In re: S.D.S v. Walker County Department of Human Resources) (Walker Juvenile Court: JU-23-12.04; Civil Appeals: CL-2024-0754).",
-          "url": "https://law.justia.com/cases/alabama/supreme-court/2025/sc-2025-0195.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alabama Supreme Court Case sc-2025-0195 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "dhr"
-          ],
-          "child_welfare_reason": "High: DHR, Juvenile Court, JU case number, In re initials, Ex parte initials"
-        },
-        {
-          "case_id": "sc-2025-0186",
-          "title": "Ex parte M.A.D. PETITION FOR WRIT OF CERTIORARI TO THE COURT OF CIVIL APPEALS (In re: M.A.D. v. Jefferson County Department of Human Resources) (Jefferson Juvenile Court: JU-21-1232.02; Civil Appeals: CL-2024-0397).",
-          "url": "https://law.justia.com/cases/alabama/supreme-court/2025/sc-2025-0186.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alabama Supreme Court Case sc-2025-0186 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "dhr"
-          ],
-          "child_welfare_reason": "High: DHR, Juvenile Court, JU case number, In re initials, Ex parte initials"
-        },
-        {
-          "case_id": "cl-2025-0114",
-          "title": "T.S. v. Houston County Department of Human Resources (Appeal from Houston Juvenile Court: JU-24-451.01).",
-          "url": "https://law.justia.com/cases/alabama/court-of-appeals-civil/2025/cl-2025-0114.html",
-          "year": 2025,
-          "court": "Court Of Appeals Civil",
-          "citation": "Alabama Court Of Appeals Civil Case cl-2025-0114 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "dhr"
-          ],
-          "child_welfare_reason": "High: DHR, Juvenile Court, JU case number"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

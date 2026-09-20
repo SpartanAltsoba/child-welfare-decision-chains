@@ -64,6 +64,48 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "California state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Ferraro v. Chadwick",
+          "citation": "221 Cal. App. 3d 86, 270 Cal. Rptr. 379 (1990)",
+          "court": "California Court of Appeal",
+          "year": 1990,
+          "date_decided": "1990-06-11",
+          "holding": "The court held that the absolute immunity Penal Code section 11172(a) confers on mandated reporters barred the parents' claims against the physician and hospital arising from a report of suspected child abuse, notwithstanding the loss of any civil remedy.",
+          "relevance": "Applies the immunity directly to medical practitioners and their employers reporting suspected abuse discovered in treatment.",
+          "quote": "The Legislature's solution in bestowing absolute immunity to the enumerated professionals was an attempt to remove one of the largest impediments to reporting",
+          "url": "https://www.courtlistener.com/opinion/2126493/ferraro-v-chadwick/",
+          "courtlistener_cluster_id": 2126493
+        },
+        {
+          "case_name": "Landeros v. Flood",
+          "citation": "17 Cal. 3d 399, 551 P.2d 389 (1976)",
+          "court": "California Supreme Court",
+          "year": 1976,
+          "date_decided": "1976-06-30",
+          "holding": "The court reversed a dismissal and held that a child states a cause of action against a physician and hospital for negligently failing to diagnose battered child syndrome and to report it as Penal Code section 11161 then required, because both the standard of care and proximate cause are questions of fact.",
+          "relevance": "Directly governs a physician's obligation in a healthcare encounter to recognize and report the injuries that signal abuse.",
+          "quote": "Accordingly, the trial court in the case at bar could not properly rule as a matter of law that the defendants' negligence was not the proximate cause of plaintiff's injuries.",
+          "url": "https://www.courtlistener.com/opinion/1175924/landeros-v-flood/",
+          "courtlistener_cluster_id": 1175924
+        },
+        {
+          "case_name": "In re L.W.",
+          "citation": "32 Cal. App. 5th 840, 244 Cal. Rptr. 3d 352 (2019)",
+          "court": "California Court of Appeal",
+          "year": 2019,
+          "date_decided": "2019-02-07",
+          "holding": "The court affirmed jurisdictional and dispositional orders entered after a mother who asked her physician for help with cocaine use was referred to the agency, holding the juvenile court did not abuse its discretion in declaring the child a dependent rather than ordering family maintenance services under section 360(b).",
+          "relevance": "Illustrates the physician's referral of a family to the agency based on a patient's disclosure during treatment.",
+          "quote": "The court has broad discretion to determine what would best serve and protect the child's interest and to fashion a dispositional order in accord with this discretion.",
+          "url": "https://www.courtlistener.com/opinion/6240298/l-a-cnty-dept-of-children-family-servs-v-sy-in-re-lw/",
+          "courtlistener_cluster_id": 6240298
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22California%22%20AND%20%28%22California%20Department%20of%20Social%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "California Department of Social Services",
         "CPS",
@@ -75,148 +117,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22California%22%20AND%20%28%22California%20Department%20of%20Social%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "mandatory reporting",
-        "failure to report",
-        "reporter immunity",
-        "hotline"
-      ],
-      "jurisdiction": "California state courts",
-      "key_cases": [
-        {
-          "case_id": "s285759",
-          "title": "In re S.R.",
-          "url": "https://law.justia.com/cases/california/supreme-court/2025/s285759.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "California Supreme Court Case s285759 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "s280572",
-          "title": "In re Ja. O.",
-          "url": "https://law.justia.com/cases/california/supreme-court/2025/s280572.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "California Supreme Court Case s280572 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s282314",
-          "title": "In re Bradshaw",
-          "url": "https://law.justia.com/cases/california/supreme-court/2025/s282314.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "California Supreme Court Case s282314 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s275578m-0",
-          "title": "In re Dezi C.",
-          "url": "https://law.justia.com/cases/california/supreme-court/2024/s275578m-0.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "California Supreme Court Case s275578m-0 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "s275578m",
-          "title": "In re Dezi C.",
-          "url": "https://law.justia.com/cases/california/supreme-court/2024/s275578m.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "California Supreme Court Case s275578m (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "s277072",
-          "title": "In re Tellez",
-          "url": "https://law.justia.com/cases/california/supreme-court/2024/s277072.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "California Supreme Court Case s277072 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s275578",
-          "title": "In re Dezi C.",
-          "url": "https://law.justia.com/cases/california/supreme-court/2024/s275578.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "California Supreme Court Case s275578 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "s276649",
-          "title": "In re Kenneth D.",
-          "url": "https://law.justia.com/cases/california/supreme-court/2024/s276649.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "California Supreme Court Case s276649 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "s272632",
-          "title": "In re Harris",
-          "url": "https://law.justia.com/cases/california/supreme-court/2024/s272632.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "California Supreme Court Case s272632 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s258376",
-          "title": "In re Vaquera",
-          "url": "https://law.justia.com/cases/california/supreme-court/2024/s258376.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "California Supreme Court Case s258376 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

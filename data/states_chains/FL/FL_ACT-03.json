@@ -144,6 +144,60 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Florida state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "R.F. v. Florida Department of Children & Families",
+          "citation": "770 So. 2d 1189 (Fla. 2000)",
+          "court": "Supreme Court of Florida",
+          "year": 2000,
+          "date_decided": "2000-10-12",
+          "holding": "Proof that a parent sexually abused one child does not by itself establish that a sibling is dependent; the court must examine all the circumstances to decide whether the parent poses a substantial risk of imminent abuse or neglect to the other child.",
+          "relevance": "Removal and foster placement of an unharmed sibling requires case-specific proof of substantial risk, not a per se rule.",
+          "quote": "While the commission of such an act may be highly relevant, it is not automatically dispositive of the issue of dependency.",
+          "url": "https://www.courtlistener.com/opinion/7796314/rf-v-florida-department-of-children-families/",
+          "courtlistener_cluster_id": 7796314
+        },
+        {
+          "case_name": "Doe v. Kearney",
+          "citation": "329 F.3d 1286 (11th Cir. 2003)",
+          "court": "United States Court of Appeals for the Eleventh Circuit",
+          "year": 2003,
+          "date_decided": "2003-05-08",
+          "holding": "Florida's emergency removal statute comports with due process, and the caseworker was entitled to judgment because the circumstances showed an objectively imminent danger to the children justifying removal without prior court authorization.",
+          "relevance": "The constitutional test in Kearney governs the removal that precedes any foster placement.",
+          "quote": "there was an objectively imminent danger to the Doe children so as to justify O'Brien's temporary removal of the children without prior court authorization",
+          "url": "https://www.courtlistener.com/opinion/76191/john-doe-jane-doe-v-kathleen-a-kearney/",
+          "courtlistener_cluster_id": 76191
+        },
+        {
+          "case_name": "31 Foster Children v. Bush",
+          "citation": "329 F.3d 1255 (11th Cir. 2003)",
+          "court": "United States Court of Appeals for the Eleventh Circuit",
+          "year": 2003,
+          "date_decided": "2003-05-08",
+          "holding": "In a systemic challenge to Florida's foster care system, standing must be shown claim by claim; some plaintiffs' claims were moot and others were dismissed for lack of standing, leaving only counts for which a particular plaintiff demonstrated injury in fact.",
+          "relevance": "The claims concerned conditions, safety and case planning for children already in Florida foster placements.",
+          "quote": "Only Reggie B. has standing to pursue the procedural due process claims set out in Count II, because he is the only plaintiff who has demonstrated injury in fact",
+          "url": "https://www.courtlistener.com/opinion/76190/foster-children-v-jeb-bush-kathleen-kearney-chuck-bates-robert/",
+          "courtlistener_cluster_id": 76190
+        },
+        {
+          "case_name": "Stanley v. Illinois",
+          "citation": "405 U.S. 645 (1972)",
+          "court": "Supreme Court of the United States",
+          "year": 1972,
+          "date_decided": "1972-04-03",
+          "holding": "Illinois could not presume unwed fathers unfit and make their children wards of the State without a hearing; due process entitled Stanley to a hearing on his parental fitness, and denying him the hearing afforded all other parents denied him equal protection.",
+          "relevance": "Children may not be placed with court-appointed guardians on a statutory presumption of unfitness; the placement must follow a fitness hearing.",
+          "quote": "as a matter of due process of law, Stanley was entitled to a hearing on his fitness as a parent before his children were taken from him",
+          "url": "https://www.courtlistener.com/opinion/108497/stanley-v-illinois/",
+          "courtlistener_cluster_id": 108497
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Florida%22%20AND%20%28%22Florida%20Department%20of%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Florida Department of Children and Families",
         "DCF",
@@ -155,150 +209,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Florida%22%20AND%20%28%22Florida%20Department%20of%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "removal",
-        "emergency custody",
-        "placement",
-        "reunification",
-        "services"
-      ],
-      "jurisdiction": "Florida state courts",
-      "key_cases": [
-        {
-          "case_id": "sc2023-1072",
-          "title": "Christine Askew, etc. v. Florida Department of Children and Families",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2024/sc2023-1072.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc2023-1072 (2024)",
-          "relevance_score": 3.0,
-          "matched_keywords": [
-            "florida department of children and families",
-            "dcf"
-          ],
-          "child_welfare_reason": "High: DCF"
-        },
-        {
-          "case_id": "sc2024-1403",
-          "title": "In Re: Amendments to Florida Rules of General Practice and Judicial Administration",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2025/sc2024-1403.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc2024-1403 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc2025-1173",
-          "title": "In Re: Amendments to Rules Regulating The Florida Bar - Rule 4-8.6",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2025/sc2025-1173.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc2025-1173 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc2025-1180",
-          "title": "In Re: Amendments to Rules Regulating The Florida Bar - Chapter 3",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2025/sc2025-1180.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc2025-1180 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc2025-1750",
-          "title": "In Re: Amendment to Florida Rule of General Practice and Judicial Administration 2.140",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2025/sc2025-1750.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc2025-1750 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc2025-0530-0",
-          "title": "In Re: Amendments to the Florida Rules of Criminal Procedure - 2025 Legislation",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2025/sc2025-0530-0.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc2025-0530-0 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc2025-1808",
-          "title": "In Re: Certification of Need for Additional Judges",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2025/sc2025-1808.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc2025-1808 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc2025-0017",
-          "title": "In Re: Amendments to Rules Regulating The Florida Bar - Rules 6-3.5 and 6-3.6",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2025/sc2025-0017.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc2025-0017 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc2022-0575",
-          "title": "In Re: Amendments to Florida Rules of Civil Procedure 1.440 and 1.500",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2025/sc2022-0575.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc2022-0575 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc2025-0045",
-          "title": "In Re: Amendments to Florida Rule of Civil Procedure 1.442 and Forms 1.902 and 1.938",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2025/sc2025-0045.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc2025-0045 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

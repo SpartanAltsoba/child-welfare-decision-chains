@@ -81,6 +81,84 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "California state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Conservatorship of O.B.",
+          "citation": "No. S254938 (Cal. July 27, 2020)",
+          "court": "California Supreme Court",
+          "year": 2020,
+          "date_decided": "2020-07-27",
+          "holding": "The court held that when a finding was required to be made by clear and convincing evidence, an appellate court reviewing for substantial evidence must ask whether the record contains evidence from which a reasonable factfinder could have made the finding with that heightened degree of certainty.",
+          "relevance": "Supplies the appellate standard California courts now apply when reviewing any dependency finding the statute requires to be proved by clear and convincing evidence.",
+          "quote": "appellate review of the sufficiency of the evidence in support of a finding requiring clear and convincing proof must account for the level of confidence this standard demands",
+          "url": "https://www.courtlistener.com/opinion/4770943/conservatorship-of-ob/",
+          "courtlistener_cluster_id": 4770943
+        },
+        {
+          "case_name": "In re James F.",
+          "citation": "42 Cal. 4th 901, 174 P.3d 180 (2008)",
+          "court": "California Supreme Court",
+          "year": 2008,
+          "date_decided": "2008-01-17",
+          "holding": "The court held that a juvenile court's error in the procedure used to appoint a guardian ad litem for a parent is trial error subject to harmless error analysis rather than structural error requiring automatic reversal, and was harmless on this record.",
+          "relevance": "Supplies the prejudice standard that decides most California dependency appeals: procedural error reverses an order only if it affected the outcome.",
+          "quote": "If the outcome of a proceeding has not been affected, denial of a right to notice and a hearing may be deemed harmless and reversal is not required.",
+          "url": "https://www.courtlistener.com/opinion/2519229/in-re-james-f/",
+          "courtlistener_cluster_id": 2519229
+        },
+        {
+          "case_name": "In re Zeth S.",
+          "citation": "31 Cal. 4th 396, 73 P.3d 541 (2003)",
+          "court": "California Supreme Court",
+          "year": 2003,
+          "date_decided": "2003-08-04",
+          "holding": "The court reversed the Court of Appeal and held that a reviewing court may not receive postjudgment evidence outside the appellate record, including unsworn statements of counsel, to reverse an order terminating parental rights, because dependency appeals are governed by the generally applicable rules confining review to the record.",
+          "relevance": "Controls what a reviewing court may consider when asked to reverse a juvenile court order, and forecloses reversal on evidence never presented below.",
+          "quote": "There is no blanket exception to the general rule for juvenile dependency appeals.",
+          "url": "https://www.courtlistener.com/opinion/2585501/in-re-zeth-s/",
+          "courtlistener_cluster_id": 2585501
+        },
+        {
+          "case_name": "In re Ashly F.",
+          "citation": "225 Cal. App. 4th 803, 170 Cal. Rptr. 3d 523 (2014)",
+          "court": "California Court of Appeal",
+          "year": 2014,
+          "date_decided": "2014-03-28",
+          "holding": "The court reversed removal orders because the agency's report contained no discussion of reasonable efforts to prevent removal and the juvenile court made no statement of facts supporting removal, while ample less drastic alternatives existed.",
+          "relevance": "Is a leading California example of reversal for the agency's and court's failure to make the required reasonable-efforts findings.",
+          "quote": "Ample evidence existed of \"reasonable means\" to protect Ashly and Cristina in their home.",
+          "url": "https://www.courtlistener.com/opinion/5811798/in-re-ashly-f/",
+          "courtlistener_cluster_id": 5811798
+        },
+        {
+          "case_name": "In re Dezi C.",
+          "citation": "No. S275578 (Cal. Aug. 19, 2024)",
+          "court": "California Supreme Court",
+          "year": 2024,
+          "date_decided": "2024-08-19",
+          "holding": "The court held that an agency's failure to conduct the initial inquiry required by California's ICWA statutes requires conditional reversal of the order terminating parental rights, with a remand directing the agency to complete an adequate, record-documented inquiry.",
+          "relevance": "Supplies the remedy — conditional reversal and remand — when an appellate court finds the agency's ICWA inquiry deficient.",
+          "quote": "The conditional reversal rule we adopt today clearly distinguishes between the separate issues of whether an inquiry is adequate and whether inquiry error is harmless.",
+          "url": "https://www.courtlistener.com/opinion/10045012/in-re-dezi-c/",
+          "courtlistener_cluster_id": 10045012
+        },
+        {
+          "case_name": "Lassiter v. Department of Social Servs. of Durham Cty.",
+          "citation": "452 U.S. 18 (1981)",
+          "court": "Supreme Court of the United States",
+          "year": 1981,
+          "date_decided": "1981-08-28",
+          "holding": "The Court held that due process does not require appointment of counsel for indigent parents in every parental rights termination proceeding; the trial court must decide case by case, subject to appellate review.",
+          "relevance": "Frames the case-by-case due process inquiry an appellate court applies when counsel was not appointed below.",
+          "quote": "neither can we say that the Constitution requires the appointment of counsel in every parental termination proceeding.",
+          "url": "https://www.courtlistener.com/opinion/110506/lassiter-v-department-of-social-servs-of-durham-cty/",
+          "courtlistener_cluster_id": 110506
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22California%22%20AND%20%28%22California%20Department%20of%20Social%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "California Department of Social Services",
         "CPS",
@@ -92,149 +170,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22California%22%20AND%20%28%22California%20Department%20of%20Social%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "wrongful removal",
-        "1983 claim",
-        "civil rights",
-        "immunity",
-        "damages"
-      ],
-      "jurisdiction": "California state courts",
-      "key_cases": [
-        {
-          "case_id": "s272166",
-          "title": "Doe v. Superior Court",
-          "url": "https://law.justia.com/cases/california/supreme-court/2023/s272166.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "California Supreme Court Case s272166 (2023)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        },
-        {
-          "case_id": "s285759",
-          "title": "In re S.R.",
-          "url": "https://law.justia.com/cases/california/supreme-court/2025/s285759.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "California Supreme Court Case s285759 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "s280572",
-          "title": "In re Ja. O.",
-          "url": "https://law.justia.com/cases/california/supreme-court/2025/s280572.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "California Supreme Court Case s280572 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s282314",
-          "title": "In re Bradshaw",
-          "url": "https://law.justia.com/cases/california/supreme-court/2025/s282314.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "California Supreme Court Case s282314 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s275578m-0",
-          "title": "In re Dezi C.",
-          "url": "https://law.justia.com/cases/california/supreme-court/2024/s275578m-0.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "California Supreme Court Case s275578m-0 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "s275578m",
-          "title": "In re Dezi C.",
-          "url": "https://law.justia.com/cases/california/supreme-court/2024/s275578m.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "California Supreme Court Case s275578m (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "s277072",
-          "title": "In re Tellez",
-          "url": "https://law.justia.com/cases/california/supreme-court/2024/s277072.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "California Supreme Court Case s277072 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s275578",
-          "title": "In re Dezi C.",
-          "url": "https://law.justia.com/cases/california/supreme-court/2024/s275578.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "California Supreme Court Case s275578 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "s276649",
-          "title": "In re Kenneth D.",
-          "url": "https://law.justia.com/cases/california/supreme-court/2024/s276649.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "California Supreme Court Case s276649 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "s272632",
-          "title": "In re Harris",
-          "url": "https://law.justia.com/cases/california/supreme-court/2024/s272632.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "California Supreme Court Case s272632 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

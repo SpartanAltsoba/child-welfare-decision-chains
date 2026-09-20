@@ -197,6 +197,84 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Arizona state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Kent K. v. Bobby M.",
+          "citation": "210 Ariz. 279, 110 P.3d 1013 (2005)",
+          "court": "Arizona Supreme Court",
+          "year": 2005,
+          "date_decided": "2005-04-28",
+          "holding": "The Arizona Supreme Court held that while a statutory ground for termination must be proved by clear and convincing evidence, the best-interests determination need only be proved by a preponderance of the evidence, and it vacated the contrary portion of the court of appeals' decision.",
+          "relevance": "This is the controlling Arizona case fixing the two-tier burden of proof at termination — clear and convincing for the statutory ground, preponderance for best interests.",
+          "quote": "we hold today that preponderance of the evidence, rather than clear and convincing evidence, is the proper standard of proof to be applied to the best interests inquiry",
+          "url": "https://www.courtlistener.com/opinion/867458/kent-k-v-bobby-m/",
+          "courtlistener_cluster_id": 867458
+        },
+        {
+          "case_name": "Alma S. v. Dep't of Child Safety",
+          "citation": "245 Ariz. 146, 425 P.3d 1089 (2018)",
+          "court": "Arizona Supreme Court",
+          "year": 2018,
+          "date_decided": "2018-09-14",
+          "holding": "The Arizona Supreme Court vacated the court of appeals' opinion and affirmed the severance order, holding that the best-interests inquiry is a totality-of-the-circumstances inquiry that includes the child's adoptability and the parent's rehabilitation but may not subordinate the child's interests to the parent's once a ground is proved.",
+          "relevance": "Supplies the substantive content of the best-interests finding that Kent K. leaves at the preponderance standard.",
+          "quote": "We hold that courts must consider the totality of the circumstances existing at the time of the severance determination, including the child's adoptability and the parent's rehabilitation.",
+          "url": "https://www.courtlistener.com/opinion/4535344/alma-s-v-dept-of-child-safety/",
+          "courtlistener_cluster_id": 4535344
+        },
+        {
+          "case_name": "Demetrius L. v. Joshlynn F.",
+          "citation": "239 Ariz. 1, 365 P.3d 353 (2016)",
+          "court": "Arizona Supreme Court",
+          "year": 2016,
+          "date_decided": "2016-01-12",
+          "holding": "The Arizona Supreme Court reversed the court of appeals and affirmed the juvenile court's best-interests finding, holding that a prospective adoption — including by a stepparent in a private severance action — is a benefit that can support a finding that termination is in the child's best interests, and that the court of appeals erred by overturning a finding supported by reasonable evidence.",
+          "relevance": "The Arizona Supreme Court's controlling statement that a prospective adoption is a cognizable benefit in the best-interests inquiry, in private as well as state-initiated severance actions.",
+          "quote": "a juvenile court may conclude that a proposed adoption benefits the child and supports a finding that severance is in the child's best interests",
+          "url": "https://www.courtlistener.com/opinion/3168832/demetrius-l-v-joshlynn-fdl/",
+          "courtlistener_cluster_id": 3168832
+        },
+        {
+          "case_name": "Michael J. v. Arizona Department of Economic Security",
+          "citation": "196 Ariz. 246, 995 P.2d 682 (2000)",
+          "court": "Arizona Supreme Court",
+          "year": 2000,
+          "date_decided": "2000-03-30",
+          "holding": "The Arizona Supreme Court affirmed termination of an incarcerated father's rights on the abandonment ground, holding that the statutory abandonment definition applies to married and unmarried parents alike and that incarceration is one factor in, but not a defense to, the abandonment analysis.",
+          "relevance": "Leading Arizona authority on abandonment and on how an incarcerated parent's conduct is measured, and the source of the six-factor length-of-sentence test.",
+          "quote": "His incarceration alone, however, does not justify a failure to make more than minimal efforts to support and communicate with his child.",
+          "url": "https://www.courtlistener.com/opinion/1292043/michael-j-v-arizona-department-of-economic-security/",
+          "courtlistener_cluster_id": 1292043
+        },
+        {
+          "case_name": "In re Termination of Parental Rights as to B.W.",
+          "citation": "No. CV-24-0079-PR (Ariz. July 17, 2025)",
+          "court": "Arizona Supreme Court",
+          "year": 2025,
+          "date_decided": "2025-07-17",
+          "holding": "The Arizona Supreme Court reversed and remanded, defining 'just cause' under the abandonment ground as a reasonable and fair justification for not maintaining a normal parental relationship on which the parent relied in good faith.",
+          "relevance": "Current Arizona Supreme Court gloss on the 'just cause' defense to the abandonment ground for termination.",
+          "quote": "parents have \"just cause\" when they had a reasonable and fair justification for not maintaining a normal parental relationship with the child and relied on that justification in good faith",
+          "url": "https://www.courtlistener.com/opinion/10635186/in-re-term-of-parental-rights-as-to-bw/",
+          "courtlistener_cluster_id": 10635186
+        },
+        {
+          "case_name": "Santosky v. Kramer",
+          "citation": "455 U.S. 745 (1982)",
+          "court": "Supreme Court of the United States",
+          "year": 1982,
+          "date_decided": "1982-02-22",
+          "holding": "The Supreme Court reversed and remanded, holding that due process requires a State to support its allegations by at least clear and convincing evidence before terminating parental rights, while leaving any higher standard to state law.",
+          "relevance": "The federal constitutional minimum burden of proof for termination, which Arizona applies to the statutory ground.",
+          "quote": "We hold that such a standard adequately conveys to the factfinder the level of subjective certainty about his factual conclusions necessary to satisfy due process.",
+          "url": "https://www.courtlistener.com/opinion/110676/santosky-v-kramer/",
+          "courtlistener_cluster_id": 110676
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Arizona%22%20AND%20%28%22Arizona%20Department%20of%20Child%20Safety%22%20OR%20%22DCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Arizona Department of Child Safety",
         "DCS",
@@ -208,149 +286,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Arizona%22%20AND%20%28%22Arizona%20Department%20of%20Child%20Safety%22%20OR%20%22DCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "termination of parental rights",
-        "TPR",
-        "adoption",
-        "permanency",
-        "aging out"
-      ],
-      "jurisdiction": "Arizona state courts",
-      "key_cases": [
-        {
-          "case_id": "cv-24-0079-pr",
-          "title": "In re Termination Parental Rights as to B.W.",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2025/cv-24-0079-pr.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-24-0079-pr (2025)",
-          "relevance_score": 3.5,
-          "matched_keywords": [
-            "tpr"
-          ],
-          "child_welfare_reason": "High: In re TPR, In re"
-        },
-        {
-          "case_id": "cv-24-0114-pr",
-          "title": "IN RE TERM OF PARENTAL RIGHTS AS TO M.N.",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2025/cv-24-0114-pr.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-24-0114-pr (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "cv-20-0030-pr",
-          "title": "AMERICAN CIVIL LIBERTIES UNION OF AZ v DCS",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2021/cv-20-0030-pr.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-20-0030-pr (2021)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "dcs"
-          ],
-          "child_welfare_reason": "High: DCS"
-        },
-        {
-          "case_id": "cv-23-0263-pr",
-          "title": "In the matter of CHALMERS",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2025/cv-23-0263-pr.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-23-0263-pr (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "sb-24-0007-ap",
-          "title": "In re Sponsel",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2025/sb-24-0007-ap.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case sb-24-0007-ap (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "cv-23-0160-pr",
-          "title": "IN RE THE MARRIAGE OF QUIJADA/DOMINGUEZ",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2024/cv-23-0160-pr.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-23-0160-pr (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sb-22-0056-ap",
-          "title": "In the Matter of WITT",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2024/sb-22-0056-ap.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case sb-22-0056-ap (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "cv-23-0123-cq",
-          "title": "In re: RIGGINS",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2024/cv-23-0123-cq.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-23-0123-cq (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "cv-23-0009-cq",
-          "title": "In re: DRUMMOND",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2024/cv-23-0009-cq.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-23-0009-cq (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "cv-22-0057-pr",
-          "title": "In re Pima County Mental Health No. 20200860221",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2023/cv-22-0057-pr.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-22-0057-pr (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

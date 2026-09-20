@@ -131,6 +131,48 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Florida state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "31 Foster Children v. Bush",
+          "citation": "329 F.3d 1255 (11th Cir. 2003)",
+          "court": "United States Court of Appeals for the Eleventh Circuit",
+          "year": 2003,
+          "date_decided": "2003-05-08",
+          "holding": "In a systemic challenge to Florida's foster care system, standing must be shown claim by claim; some plaintiffs' claims were moot and others were dismissed for lack of standing, leaving only counts for which a particular plaintiff demonstrated injury in fact.",
+          "relevance": "This is the Eleventh Circuit template for systemic litigation aimed at Florida's child welfare agency as a whole.",
+          "quote": "Only Reggie B. has standing to pursue the procedural due process claims set out in Count II, because he is the only plaintiff who has demonstrated injury in fact",
+          "url": "https://www.courtlistener.com/opinion/76190/foster-children-v-jeb-bush-kathleen-kearney-chuck-bates-robert/",
+          "courtlistener_cluster_id": 76190
+        },
+        {
+          "case_name": "Suter v. Artist M.",
+          "citation": "503 U.S. 347 (1992)",
+          "court": "Supreme Court of the United States",
+          "year": 1992,
+          "date_decided": "1992-03-25",
+          "holding": "The 'reasonable efforts' requirement of the Adoption Assistance and Child Welfare Act creates no privately enforceable right, so beneficiaries could not sue state child welfare officials under section 1983 to enforce it.",
+          "relevance": "Because private enforcement is unavailable, federal reviews and audits are the practical oversight mechanism for Title IV-E compliance.",
+          "quote": "We hold that the Act does not create an enforceable right on behalf of respondents.",
+          "url": "https://www.courtlistener.com/opinion/112712/suter-v-artist-m/",
+          "courtlistener_cluster_id": 112712
+        },
+        {
+          "case_name": "Department of Health & Rehabilitative Services v. Gainesville Sun Publishing Co.",
+          "citation": "582 So. 2d 725 (Fla. 1st DCA 1991)",
+          "court": "District Court of Appeal of Florida, First District",
+          "year": 1991,
+          "date_decided": "1991-07-03",
+          "holding": "A trial court may order confidential child abuse records produced for in camera inspection and may find good cause for disclosure without an evidentiary hearing, balancing the child's and siblings' privacy against the public interest in evaluating agency performance.",
+          "relevance": "Public scrutiny of how the agency handled a case is an express component of the good-cause balance, which is how outside oversight is triggered.",
+          "quote": "Under the circumstances of this case, the trial court did not err in finding good cause for disclosure without an evidentiary hearing.",
+          "url": "https://www.courtlistener.com/opinion/1790509/dhrs-v-gainesville-sun-pub-co/",
+          "courtlistener_cluster_id": 1790509
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Florida%22%20AND%20%28%22Florida%20Department%20of%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Florida Department of Children and Families",
         "DCF",
@@ -142,149 +184,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Florida%22%20AND%20%28%22Florida%20Department%20of%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "mandatory reporting",
-        "failure to report",
-        "reporter immunity",
-        "hotline"
-      ],
-      "jurisdiction": "Florida state courts",
-      "key_cases": [
-        {
-          "case_id": "sc2023-1072",
-          "title": "Christine Askew, etc. v. Florida Department of Children and Families",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2024/sc2023-1072.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc2023-1072 (2024)",
-          "relevance_score": 3.0,
-          "matched_keywords": [
-            "florida department of children and families",
-            "dcf"
-          ],
-          "child_welfare_reason": "High: DCF"
-        },
-        {
-          "case_id": "sc2023-0884",
-          "title": "In Re: Code for Resolving Professionalism Referrals and Amendments to Rule Regulating The Florida Bar 6-10.3",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2023/sc2023-0884.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc2023-0884 (2023)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "referral"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc21-1681",
-          "title": "In Re: Amendments to the Florida Rules of Juvenile Procedure - 2021 Fast-Track Report",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2022/sc21-1681.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc21-1681 (2022)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "report"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc21-1411",
-          "title": "In Re: Amendments to the Florida Probate Rules - 2021 Fast-Track Report",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2021/sc21-1411.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc21-1411 (2021)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "report"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc21-1091",
-          "title": "In Re: Amendments to the Florida Rules of Criminal Procedure - 2021 Fast-Track Report",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2021/sc21-1091.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc21-1091 (2021)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "report"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc20-1153",
-          "title": "In Re: Amendments to the Florida Rules of Juvenile Procedure - 2020 Fast-Track Report",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2021/sc20-1153.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc20-1153 (2021)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "report"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc20-873",
-          "title": "In Re: Amendments to Florida Rule of Judicial Administration 2.420, the Florida Rules of Juvenile Procedure, and the Florida Rules of Appellate Procedureâ€”2020 Joint Fast-Track Report",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2021/sc20-873.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc20-873 (2021)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "report"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc20-165",
-          "title": "In Re: Amendments to the Florida Rules of Judicial Administration - 2020 Regular-Cycle Report",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2021/sc20-165.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc20-165 (2021)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "report"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc20-1746",
-          "title": "In Re: Amendments to the Florida Probate Rules - 2020 Fast-Track Report",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2020/sc20-1746.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc20-1746 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "report"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc20-162",
-          "title": "In Re: Amendments to the Florida Family Law Rules of Procedure - 2020 Regular-Cycle Report",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2020/sc20-162.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc20-162 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "report"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

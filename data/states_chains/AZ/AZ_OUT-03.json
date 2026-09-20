@@ -197,6 +197,60 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Arizona state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "In re Guardianship of C.M.",
+          "citation": "549 P.3d 214 (Ariz. Ct. App. 2024)",
+          "court": "Court of Appeals of Arizona",
+          "year": 2024,
+          "date_decided": "2024-05-02",
+          "holding": "The court of appeals affirmed the denial of the child's own motion for permanent guardianship, holding that the party seeking permanent guardianship bears the burden of proving the statutory criteria by clear and convincing evidence.",
+          "relevance": "States who bears the burden and to what standard when permanency is sought through guardianship rather than adoption.",
+          "quote": "The party seeking a permanent guardianship bears the burden of proof by clear and convincing evidence.",
+          "url": "https://www.courtlistener.com/opinion/9498863/in-re-guardianship-of-cm/",
+          "courtlistener_cluster_id": 9498863
+        },
+        {
+          "case_name": "In re Guardianship of A.K.",
+          "citation": "557 P.3d 770 (Ariz. Ct. App. 2024)",
+          "court": "Court of Appeals of Arizona",
+          "year": 2024,
+          "date_decided": "2024-08-27",
+          "holding": "The court of appeals held that the superior court violated the petitioners' due process rights by deciding the ICWA jurisdictional question without briefing, and that although a guardianship petition is not a foster-care, termination, or adoptive placement proceeding under § 1911, it is a preadoptive placement to which ICWA's placement preferences apply on remand.",
+          "relevance": "Controls how ICWA constrains an Arizona court's choice of guardian for an Indian child.",
+          "quote": "This interpretation allows the superior court on remand to exercise jurisdiction to adjudicate the Danforths' guardianship petition but requires the court to consider ICWA's placement preferences.",
+          "url": "https://www.courtlistener.com/opinion/10098110/in-re-guardianship-of-ak/",
+          "courtlistener_cluster_id": 10098110
+        },
+        {
+          "case_name": "Timothy B. v. Department of Child Safety",
+          "citation": "252 Ariz. 470 (2022)",
+          "court": "Arizona Supreme Court",
+          "year": 2022,
+          "date_decided": "2022-03-07",
+          "holding": "The Arizona Supreme Court reversed and remanded, holding that a 'normal home' under the length-of-sentence ground does not require the incarcerated parent's physical presence and adding the availability of a permanent guardian to the Michael J. factors.",
+          "relevance": "Establishes permanent guardianship as a live alternative to termination that the juvenile court must consider on the record.",
+          "quote": "We modify the fifth factor by adding that the court should consider the availability of a permanent guardian to provide a normal home life if another parent is unavailable.",
+          "url": "https://www.courtlistener.com/opinion/6448699/timothy-b-v-dcshb/",
+          "courtlistener_cluster_id": 6448699
+        },
+        {
+          "case_name": "Arizona Department of Economic Security v. Leonardo",
+          "citation": "200 Ariz. 74, 22 P.3d 513 (App. 2001)",
+          "court": "Court of Appeals of Arizona",
+          "year": 2001,
+          "date_decided": "2001-05-03",
+          "holding": "The court of appeals held that the Interstate Compact on the Placement of Children applies to a court-ordered placement of dependent children with a noncustodial out-of-state parent, and vacated the portions of the orders directing placement without ICPC compliance.",
+          "relevance": "Conditions out-of-state kinship permanency on the receiving state's ICPC approval.",
+          "quote": "it does place her within the category of persons to whom the ICPC applies, based on the language of the compact, its policy and purpose, and Regulation 3",
+          "url": "https://www.courtlistener.com/opinion/2623264/arizona-department-of-economic-security-v-leonardo/",
+          "courtlistener_cluster_id": 2623264
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Arizona%22%20AND%20%28%22Arizona%20Department%20of%20Child%20Safety%22%20OR%20%22DCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Arizona Department of Child Safety",
         "DCS",
@@ -208,149 +262,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Arizona%22%20AND%20%28%22Arizona%20Department%20of%20Child%20Safety%22%20OR%20%22DCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "termination of parental rights",
-        "TPR",
-        "adoption",
-        "permanency",
-        "aging out"
-      ],
-      "jurisdiction": "Arizona state courts",
-      "key_cases": [
-        {
-          "case_id": "cv-24-0079-pr",
-          "title": "In re Termination Parental Rights as to B.W.",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2025/cv-24-0079-pr.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-24-0079-pr (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "tpr"
-          ],
-          "child_welfare_reason": "High: In re TPR, In re"
-        },
-        {
-          "case_id": "cv-20-0030-pr",
-          "title": "AMERICAN CIVIL LIBERTIES UNION OF AZ v DCS",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2021/cv-20-0030-pr.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-20-0030-pr (2021)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "dcs"
-          ],
-          "child_welfare_reason": "High: DCS"
-        },
-        {
-          "case_id": "cv-23-0263-pr",
-          "title": "In the matter of CHALMERS",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2025/cv-23-0263-pr.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-23-0263-pr (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "sb-24-0007-ap",
-          "title": "In re Sponsel",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2025/sb-24-0007-ap.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case sb-24-0007-ap (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "cv-24-0114-pr",
-          "title": "IN RE TERM OF PARENTAL RIGHTS AS TO M.N.",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2025/cv-24-0114-pr.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-24-0114-pr (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "cv-23-0160-pr",
-          "title": "IN RE THE MARRIAGE OF QUIJADA/DOMINGUEZ",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2024/cv-23-0160-pr.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-23-0160-pr (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sb-22-0056-ap",
-          "title": "In the Matter of WITT",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2024/sb-22-0056-ap.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case sb-22-0056-ap (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "cv-23-0123-cq",
-          "title": "In re: RIGGINS",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2024/cv-23-0123-cq.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-23-0123-cq (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "cv-23-0009-cq",
-          "title": "In re: DRUMMOND",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2024/cv-23-0009-cq.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-23-0009-cq (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "cv-22-0057-pr",
-          "title": "In re Pima County Mental Health No. 20200860221",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2023/cv-22-0057-pr.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-22-0057-pr (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

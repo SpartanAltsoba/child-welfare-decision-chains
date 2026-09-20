@@ -188,6 +188,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Arizona state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Griffis v. Pinal County",
+          "citation": "215 Ariz. 1, 156 P.3d 418 (2007)",
+          "court": "Arizona Supreme Court",
+          "year": 2007,
+          "date_decided": "2007-04-25",
+          "holding": "The Arizona Supreme Court held that purely personal documents of a public officer are not public records but that the custodian's assertion is not conclusive, reversed the superior court, vacated the court of appeals' opinion, and remanded for in camera inspection.",
+          "relevance": "Anchors public access to audit and financial records held by state agencies.",
+          "quote": "Arizona law defines \"public records\" broadly and creates a presumption requiring the disclosure of public documents",
+          "url": "https://www.courtlistener.com/opinion/867384/griffis-v-pinal-county/",
+          "courtlistener_cluster_id": 867384
+        },
+        {
+          "case_name": "Carlson v. Pima County",
+          "citation": "141 Ariz. 487, 687 P.2d 1242 (1984)",
+          "court": "Arizona Supreme Court",
+          "year": 1984,
+          "date_decided": "1984-05-29",
+          "holding": "The Arizona Supreme Court approved the court of appeals' decision and held that records a public officer is required to keep are presumed open to inspection, subject to the custodian's discretion to deny access where confidentiality, privacy, or the best interest of the state outweighs disclosure, with any such refusal subject to judicial scrutiny.",
+          "relevance": "Confirms that the records an agency is legally obliged to keep — the audit and expenditure trail — are precisely the records presumed disclosable.",
+          "quote": "all records required to be kept under A.R.S. § 39-121.01(B), are presumed open to the public for inspection as public records",
+          "url": "https://www.courtlistener.com/opinion/1389401/carlson-v-pima-county/",
+          "courtlistener_cluster_id": 1389401
+        },
+        {
+          "case_name": "American Civil Liberties Union of Arizona v. Arizona Department of Child Safety",
+          "citation": "240 Ariz. 142, 377 P.3d 339 (App. 2016)",
+          "court": "Court of Appeals of Arizona",
+          "year": 2016,
+          "date_decided": "2016-06-09",
+          "holding": "The court of appeals held that the electronic records and data DCS maintains in its CHILDS case-management system are public records subject to Arizona's public records law, affirming in part, reversing in part, and remanding.",
+          "relevance": "Opens the agency records needed to verify audit and grant-expenditure findings.",
+          "quote": "Under any of the formulations of a public record discussed above, and based on its content, CHILDS is a public record.",
+          "url": "https://www.courtlistener.com/opinion/6604368/american-civil-liberties-union-v-arizona-department-of-child-safety/",
+          "courtlistener_cluster_id": 6604368
+        },
+        {
+          "case_name": "Silverman v. Arizona Department of Economic Security",
+          "citation": "No. CV-23-0181-PR (Ariz. June 3, 2024)",
+          "court": "Arizona Supreme Court",
+          "year": 2024,
+          "date_decided": "2024-06-03",
+          "holding": "The Arizona Supreme Court held that investigative journalists can qualify as persons conducting 'bona fide research' under the confidentiality statute's exception, vacated the court of appeals' opinion, and remanded for the agency to exercise its release discretion under the definition the Court supplied.",
+          "relevance": "Supports access to agency records needed to test audit and financial findings.",
+          "quote": "The primary issue before us is whether investigative journalists can engage in \"bona fide research.\" We conclude they can.",
+          "url": "https://www.courtlistener.com/opinion/9509831/amy-silverman-v-ades/",
+          "courtlistener_cluster_id": 9509831
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Arizona%22%20AND%20%28%22Arizona%20Department%20of%20Child%20Safety%22%20OR%20%22DCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Arizona Department of Child Safety",
         "DCS",
@@ -199,148 +253,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Arizona%22%20AND%20%28%22Arizona%20Department%20of%20Child%20Safety%22%20OR%20%22DCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "missing child",
-        "amber alert",
-        "custodial interference",
-        "parental kidnapping"
-      ],
-      "jurisdiction": "Arizona state courts",
-      "key_cases": [
-        {
-          "case_id": "cv-20-0030-pr",
-          "title": "AMERICAN CIVIL LIBERTIES UNION OF AZ v DCS",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2021/cv-20-0030-pr.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-20-0030-pr (2021)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "dcs"
-          ],
-          "child_welfare_reason": "High: DCS"
-        },
-        {
-          "case_id": "cv-24-0079-pr",
-          "title": "In re Termination Parental Rights as to B.W.",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2025/cv-24-0079-pr.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-24-0079-pr (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re TPR, In re"
-        },
-        {
-          "case_id": "cv-23-0263-pr",
-          "title": "In the matter of CHALMERS",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2025/cv-23-0263-pr.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-23-0263-pr (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "sb-24-0007-ap",
-          "title": "In re Sponsel",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2025/sb-24-0007-ap.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case sb-24-0007-ap (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "cv-24-0114-pr",
-          "title": "IN RE TERM OF PARENTAL RIGHTS AS TO M.N.",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2025/cv-24-0114-pr.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-24-0114-pr (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "cv-23-0160-pr",
-          "title": "IN RE THE MARRIAGE OF QUIJADA/DOMINGUEZ",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2024/cv-23-0160-pr.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-23-0160-pr (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sb-22-0056-ap",
-          "title": "In the Matter of WITT",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2024/sb-22-0056-ap.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case sb-22-0056-ap (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "cv-23-0123-cq",
-          "title": "In re: RIGGINS",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2024/cv-23-0123-cq.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-23-0123-cq (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "cv-23-0009-cq",
-          "title": "In re: DRUMMOND",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2024/cv-23-0009-cq.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-23-0009-cq (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "cv-22-0057-pr",
-          "title": "In re Pima County Mental Health No. 20200860221",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2023/cv-22-0057-pr.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-22-0057-pr (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

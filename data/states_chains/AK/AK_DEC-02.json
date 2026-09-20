@@ -147,6 +147,36 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Alaska state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Calabretta v. Floyd",
+          "citation": "189 F.3d 808 (9th Cir. 1999)",
+          "court": "United States Court of Appeals for the Ninth Circuit",
+          "year": 1999,
+          "date_decided": "1999-08-26",
+          "holding": "A social worker and police officer were denied qualified immunity for coercing entry into a home and strip-searching a child to investigate an anonymous abuse tip, because a child-abuse investigation is not an exception to the Fourth Amendment's warrant, consent, or exigency requirements.",
+          "relevance": "Marks the constitutional limits on what investigators may do once a report is accepted for investigation.",
+          "quote": "A social worker is not entitled to sacrifice a family's privacy and dignity to her own personal views on how parents ought to discipline their children.",
+          "url": "https://www.courtlistener.com/opinion/7078750/calabretta-v-floyd/",
+          "courtlistener_cluster_id": 7078750
+        },
+        {
+          "case_name": "Rogers v. County of San Joaquin",
+          "citation": "487 F.3d 1288 (9th Cir. 2007)",
+          "court": "United States Court of Appeals for the Ninth Circuit",
+          "year": 2007,
+          "date_decided": "2007-05-29",
+          "holding": "A social worker who removed children without a warrant was denied qualified immunity because no exigency existed; the agency's own decision to treat the report as a non-emergency ten-day response, and its ability to obtain a warrant within hours, defeated any claim of imminent danger.",
+          "relevance": "Ties the response-time decision made at acceptance to the constitutional analysis of any later removal.",
+          "quote": "Here, the concerned officials classified the case as a ten-day response, indicating that they did not think that any exigency existed.",
+          "url": "https://www.courtlistener.com/opinion/3048851/rogers-v-county-of-san-joaquin/",
+          "courtlistener_cluster_id": 3048851
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Alaska%22%20AND%20%28%22Alaska%20Office%20of%20Children%27s%20Services%22%20OR%20%22OCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Alaska Office of Children's Services",
         "OCS",
@@ -158,149 +188,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Alaska%22%20AND%20%28%22Alaska%20Office%20of%20Children%27s%20Services%22%20OR%20%22OCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "investigation",
-        "substantiation",
-        "evidence standard",
-        "due process",
-        "reasonable efforts"
-      ],
-      "jurisdiction": "Alaska state courts",
-      "key_cases": [
-        {
-          "case_id": "s-19299",
-          "title": "Enzo C. v. State, DFCS, OCS (Unpublished)",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19299.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-19299 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "ocs"
-          ],
-          "child_welfare_reason": "High: DFCS, OCS"
-        },
-        {
-          "case_id": "s-19347",
-          "title": "R. S. (Father) v. State of Alaska, DFCS, OCS (Unpublished)",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19347.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-19347 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "ocs"
-          ],
-          "child_welfare_reason": "High: DFCS, OCS"
-        },
-        {
-          "case_id": "s-19190",
-          "title": "Terry W. (Father) v. State of Alaska, DHSS, OCS (Unpublished)",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19190.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-19190 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "ocs"
-          ],
-          "child_welfare_reason": "High: OCS"
-        },
-        {
-          "case_id": "s-18848",
-          "title": "R. G. (Father) v. State of Alaska, DFCS, OCS (Unpublished)",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-18848.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-18848 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "ocs"
-          ],
-          "child_welfare_reason": "High: DFCS, OCS"
-        },
-        {
-          "case_id": "s-19209",
-          "title": "Alana M. (Mother) v. State of Alaska, DFCS, OCS (Unpublished)",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19209.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-19209 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "ocs"
-          ],
-          "child_welfare_reason": "High: DFCS, OCS"
-        },
-        {
-          "case_id": "s-19210",
-          "title": "Kash B. (Father) v. State of Alaska, DFCS, OCS (Unpublished)",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19210.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-19210 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "ocs"
-          ],
-          "child_welfare_reason": "High: DFCS, OCS"
-        },
-        {
-          "case_id": "s-19096",
-          "title": "M. J. (Father) v. State of Alaska, DFCS, OCS (Unpublished)",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19096.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-19096 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "ocs"
-          ],
-          "child_welfare_reason": "High: DFCS, OCS"
-        },
-        {
-          "case_id": "s-19127",
-          "title": "G.T. (Father) v. State of Alaska, DFCS, OCS (Unpublished)",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19127.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-19127 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "ocs"
-          ],
-          "child_welfare_reason": "High: DFCS, OCS"
-        },
-        {
-          "case_id": "s-19016",
-          "title": "V. B. (Mother) v. State of Alaska, DFCS, OCS (Unpublished)",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19016.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-19016 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "ocs"
-          ],
-          "child_welfare_reason": "High: DFCS, OCS"
-        },
-        {
-          "case_id": "s-19050",
-          "title": "J.C. (Father) v. State of Alaska, DFCS, OCS (Unpublished)",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19050.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-19050 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "ocs"
-          ],
-          "child_welfare_reason": "High: DFCS, OCS"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

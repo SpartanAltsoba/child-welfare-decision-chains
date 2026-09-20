@@ -95,6 +95,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Colorado state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "People in Interest of L.S.",
+          "citation": "2023 CO 3, 524 P.3d 847",
+          "court": "Supreme Court of Colorado",
+          "year": 2023,
+          "date_decided": "2023-01-23",
+          "holding": "The court held that the State's burden at a dispositional hearing on whether an appropriate treatment plan can be devised is preponderance of the evidence, and that proof of a single incident resulting in serious bodily injury to the child suffices to support a no-appropriate-treatment-plan finding without proof that the parent caused the injury.",
+          "relevance": "The holding turns on the statutory category of a single incident causing serious bodily injury, which is the serious-injury trigger at this node.",
+          "quote": "we conclude the district court erred by imposing a clear and convincing burden of proof on the state at the dispositional hearing.",
+          "url": "https://www.courtlistener.com/opinion/10018322/in-re-the-people-of-the-state-of-colorado-petitioner-in-the-interest-of/",
+          "courtlistener_cluster_id": 10018322
+        },
+        {
+          "case_name": "Dahn v. Amedei",
+          "citation": "867 F.3d 1178 (10th Cir. 2017)",
+          "court": "United States Court of Appeals for the Tenth Circuit",
+          "year": 2017,
+          "date_decided": "2017-08-14",
+          "holding": "The Tenth Circuit reversed the denial of qualified immunity, holding that the plaintiff had not shown clearly established law creating a special relationship between himself and the Colorado adoption-exchange officials who arranged his out-of-state placement, and declined to decide whether the special-relationship doctrine can cross state lines.",
+          "relevance": "This is the Tenth Circuit's statement of the four elements a foster child or estate must plead when serious harm or death occurs in state-arranged care.",
+          "quote": "First, the plaintiff must demonstrate the existence of a special relationship, meaning that the plaintiff completely depended on the state to satisfy basic human needs.",
+          "url": "https://www.courtlistener.com/opinion/4418305/dahn-v-amedei/",
+          "courtlistener_cluster_id": 4418305
+        },
+        {
+          "case_name": "Brubaker v. Colorado Sun",
+          "citation": "2026 CO 18",
+          "court": "Supreme Court of Colorado",
+          "year": 2026,
+          "date_decided": "2026-03-30",
+          "holding": "The court held that the Department of Human Services failed to carry its burden of showing that the Children's Records Act confidentiality provision barred release, and ordered disclosure of the aggregate number of child-abuse reports and screened-in reports from three named residential child care facilities.",
+          "relevance": "The dispute arose from reporting on harm to children in residential child care facilities; the ruling keeps that data public.",
+          "quote": "we conclude that CDHS must disclose the six cardinal numbers requested by the Media Organizations.",
+          "url": "https://www.courtlistener.com/opinion/10830785/amanda-brubaker-in-her-official-capacity-as-the-records-custodian-for-the/",
+          "courtlistener_cluster_id": 10830785
+        },
+        {
+          "case_name": "Denver Publishing Co. v. Dreyfus",
+          "citation": "184 Colo. 288, 520 P.2d 104 (1974)",
+          "court": "Supreme Court of Colorado",
+          "year": 1974,
+          "date_decided": "1974-03-18",
+          "holding": "The court held that coroners' autopsy reports are public records open to inspection under the Colorado Open Records Act, that a requester need not show a special interest to obtain them, and that a custodian who denies access must state the legal ground and may seek a protective order from the district court.",
+          "relevance": "Autopsy reports on a child who dies are public records, which is the principal documentary route to understanding a fatality in or near agency care.",
+          "quote": "This statement of policy clearly eliminates any requirement that a person seeking access to public records show a special interest in those records in order to be permitted access thereto.",
+          "url": "https://www.courtlistener.com/opinion/1191310/denver-publishing-company-v-dreyfus/",
+          "courtlistener_cluster_id": 1191310
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Colorado%22%20AND%20%28%22Colorado%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Colorado Department of Human Services",
         "CPS",
@@ -106,149 +160,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Colorado%22%20AND%20%28%22Colorado%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "termination of parental rights",
-        "TPR",
-        "adoption",
-        "permanency",
-        "aging out"
-      ],
-      "jurisdiction": "Colorado state courts",
-      "key_cases": [
-        {
-          "case_id": "19ca0759",
-          "title": "In re the Petition of M.M.V., for the Adoption of D.D.R., a Child, and Concerning B.P.R.",
-          "url": "https://law.justia.com/cases/colorado/court-of-appeals/2020/19ca0759.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Colorado Court Of Appeals Case 19ca0759 (2020)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "24ca2275",
-          "title": "Adoption of LAQ",
-          "url": "https://law.justia.com/cases/colorado/court-of-appeals/2025/24ca2275.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Colorado Court Of Appeals Case 24ca2275 (2025)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "Medium: adoption"
-        },
-        {
-          "case_id": "24ca1966",
-          "title": "Adoption of AES",
-          "url": "https://law.justia.com/cases/colorado/court-of-appeals/2025/24ca1966.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Colorado Court Of Appeals Case 24ca1966 (2025)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "Medium: adoption"
-        },
-        {
-          "case_id": "24ca0307",
-          "title": "Adoption of ACZ",
-          "url": "https://law.justia.com/cases/colorado/court-of-appeals/2024/24ca0307.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Colorado Court Of Appeals Case 24ca0307 (2024)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "Medium: adoption"
-        },
-        {
-          "case_id": "24ca0435",
-          "title": "Adoption of JL",
-          "url": "https://law.justia.com/cases/colorado/court-of-appeals/2024/24ca0435.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Colorado Court Of Appeals Case 24ca0435 (2024)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "Medium: adoption"
-        },
-        {
-          "case_id": "21ca0520",
-          "title": "Adoption of E.A.T.",
-          "url": "https://law.justia.com/cases/colorado/court-of-appeals/2022/21ca0520.html",
-          "year": 2022,
-          "court": "Court Of Appeals",
-          "citation": "Colorado Court Of Appeals Case 21ca0520 (2022)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "Medium: adoption"
-        },
-        {
-          "case_id": "19ca0806",
-          "title": "Adoption of J.D.",
-          "url": "https://law.justia.com/cases/colorado/court-of-appeals/2020/19ca0806.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Colorado Court Of Appeals Case 19ca0806 (2020)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "Medium: adoption"
-        },
-        {
-          "case_id": "24sc788-0",
-          "title": "In re The Parental Responsibilities Concerning Children K.M.S.",
-          "url": "https://law.justia.com/cases/colorado/supreme-court/2025/24sc788-0.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Colorado Supreme Court Case 24sc788-0 (2025)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "23sa131",
-          "title": "In Re People in interest of Minor Child C.J.T",
-          "url": "https://law.justia.com/cases/colorado/supreme-court/2023/23sa131.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Colorado Supreme Court Case 23sa131 (2023)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re, Interest of, Interest of minor"
-        },
-        {
-          "case_id": "23sa126",
-          "title": "In Re Colorado in interest of children and concerning J.L.M. and J.P.",
-          "url": "https://law.justia.com/cases/colorado/supreme-court/2023/23sa126.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Colorado Supreme Court Case 23sa126 (2023)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re, Interest of"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

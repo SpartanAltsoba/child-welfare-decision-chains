@@ -189,6 +189,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Arizona state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "In Re the Appeal in Cochise County Juvenile Action No. 5666-J",
+          "citation": "133 Ariz. 157, 650 P.2d 459 (1982)",
+          "court": "Arizona Supreme Court",
+          "year": 1982,
+          "date_decided": "1982-07-29",
+          "holding": "The Arizona Supreme Court vacated the court of appeals' opinion and affirmed the juvenile court's dismissal of the dependency petition, holding that Santosky's clear-and-convincing standard is confined to termination and that dependency must be proved only by a preponderance of the evidence, which the State had not done.",
+          "relevance": "The Arizona Supreme Court source of the evidentiary threshold a referral must ultimately meet once a judge sends a family into the juvenile court.",
+          "quote": "the weighing of the private and public interests convinces us that the preponderance of the evidence standard is the proper standard of proof in dependency proceedings",
+          "url": "https://www.courtlistener.com/opinion/1357609/in-re-the-appeal-in-cochise-county-juvenile-action-no-5666-j/",
+          "courtlistener_cluster_id": 1357609
+        },
+        {
+          "case_name": "Stanley v. Illinois",
+          "citation": "405 U.S. 645 (1972)",
+          "court": "Supreme Court of the United States",
+          "year": 1972,
+          "date_decided": "1972-04-03",
+          "holding": "The Supreme Court reversed and remanded, holding that an unwed father was denied due process and equal protection when Illinois declared his children dependent and removed them on a presumption of unfitness without any hearing on his actual fitness as a parent.",
+          "relevance": "The federal constitutional floor when a court opens a dependency inquiry against a parent — presumed unfitness cannot substitute for an individualized hearing.",
+          "quote": "We have concluded that all Illinois parents are constitutionally entitled to a hearing on their fitness before their children are removed from their custody",
+          "url": "https://www.courtlistener.com/opinion/108497/stanley-v-illinois/",
+          "courtlistener_cluster_id": 108497
+        },
+        {
+          "case_name": "Louis C. v. Department of Child Safety",
+          "citation": "237 Ariz. 484, 353 P.3d 364 (App. 2015)",
+          "court": "Court of Appeals of Arizona",
+          "year": 2015,
+          "date_decided": "2015-06-24",
+          "holding": "The court of appeals affirmed the dependency adjudication, holding that A.R.S. § 8-844(C) requires the juvenile court to adjudicate dependency on a preponderance of the evidence and that the Parents' Bill of Rights does not raise that burden.",
+          "relevance": "Sets the standard the juvenile court applies once a referral results in a dependency proceeding.",
+          "quote": "Section 8-844(C) not only permits a court to enter an order of dependency based on a preponderance of the evidence, but directs that a court \"shall\" do so.",
+          "url": "https://www.courtlistener.com/opinion/2811466/louis-c-v-department-of-child-safety/",
+          "courtlistener_cluster_id": 2811466
+        },
+        {
+          "case_name": "Oscar F. v. Department of Child Safety",
+          "citation": "235 Ariz. 266, 330 P.3d 1023 (App. 2014)",
+          "court": "Court of Appeals of Arizona",
+          "year": 2014,
+          "date_decided": "2014-07-30",
+          "holding": "The court of appeals affirmed the dependency adjudication, holding the juvenile court had statutory authority to find the children dependent as to one parent notwithstanding the petition's allegations or the failure to serve the other parent or guardian.",
+          "relevance": "Confirms the juvenile court's authority to proceed against one parent when a referral reaches the court.",
+          "quote": "The juvenile court was authorized by statute to adjudicate the children dependent as to Oscar, notwithstanding allegations in the petition or that another parent or guardian has not been served.",
+          "url": "https://www.courtlistener.com/opinion/2689001/oscar-f-v-dcs-ef-mf-c-f-gf-and-lf/",
+          "courtlistener_cluster_id": 2689001
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Arizona%22%20AND%20%28%22Arizona%20Department%20of%20Child%20Safety%22%20OR%20%22DCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Arizona Department of Child Safety",
         "DCS",
@@ -200,148 +254,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Arizona%22%20AND%20%28%22Arizona%20Department%20of%20Child%20Safety%22%20OR%20%22DCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "mandatory reporting",
-        "failure to report",
-        "reporter immunity",
-        "hotline"
-      ],
-      "jurisdiction": "Arizona state courts",
-      "key_cases": [
-        {
-          "case_id": "cv-20-0030-pr",
-          "title": "AMERICAN CIVIL LIBERTIES UNION OF AZ v DCS",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2021/cv-20-0030-pr.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-20-0030-pr (2021)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "dcs"
-          ],
-          "child_welfare_reason": "High: DCS"
-        },
-        {
-          "case_id": "cv-24-0079-pr",
-          "title": "In re Termination Parental Rights as to B.W.",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2025/cv-24-0079-pr.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-24-0079-pr (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re TPR, In re"
-        },
-        {
-          "case_id": "cv-23-0263-pr",
-          "title": "In the matter of CHALMERS",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2025/cv-23-0263-pr.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-23-0263-pr (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "sb-24-0007-ap",
-          "title": "In re Sponsel",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2025/sb-24-0007-ap.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case sb-24-0007-ap (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "cv-24-0114-pr",
-          "title": "IN RE TERM OF PARENTAL RIGHTS AS TO M.N.",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2025/cv-24-0114-pr.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-24-0114-pr (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "cv-23-0160-pr",
-          "title": "IN RE THE MARRIAGE OF QUIJADA/DOMINGUEZ",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2024/cv-23-0160-pr.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-23-0160-pr (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sb-22-0056-ap",
-          "title": "In the Matter of WITT",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2024/sb-22-0056-ap.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case sb-22-0056-ap (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "cv-23-0123-cq",
-          "title": "In re: RIGGINS",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2024/cv-23-0123-cq.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-23-0123-cq (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "cv-23-0009-cq",
-          "title": "In re: DRUMMOND",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2024/cv-23-0009-cq.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-23-0009-cq (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "cv-22-0057-pr",
-          "title": "In re Pima County Mental Health No. 20200860221",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2023/cv-22-0057-pr.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-22-0057-pr (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

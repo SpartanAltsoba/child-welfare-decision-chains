@@ -105,6 +105,60 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Colorado state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "People in Interest of L.S.",
+          "citation": "2023 CO 3, 524 P.3d 847",
+          "court": "Supreme Court of Colorado",
+          "year": 2023,
+          "date_decided": "2023-01-23",
+          "holding": "The court held that the State's burden at a dispositional hearing on whether an appropriate treatment plan can be devised is preponderance of the evidence, and that proof of a single incident resulting in serious bodily injury to the child suffices to support a no-appropriate-treatment-plan finding without proof that the parent caused the injury.",
+          "relevance": "Where a single serious-bodily-injury incident is shown, the court may find that no appropriate plan can be devised, which forecloses the voluntary-services path.",
+          "quote": "we conclude the district court erred by imposing a clear and convincing burden of proof on the state at the dispositional hearing.",
+          "url": "https://www.courtlistener.com/opinion/10018322/in-re-the-people-of-the-state-of-colorado-petitioner-in-the-interest-of/",
+          "courtlistener_cluster_id": 10018322
+        },
+        {
+          "case_name": "People in Interest of C.Z.",
+          "citation": "2015 COA 87, 360 P.3d 228",
+          "court": "Colorado Court of Appeals",
+          "year": 2015,
+          "date_decided": "2015-06-18",
+          "holding": "As a matter of first impression the division held that the Americans with Disabilities Act does not pre-empt section 19-3-604(1)(b)(I), because the question whether reasonable accommodations could address a parent's mental impairment is subsumed within the statutory question whether an appropriate treatment plan can be devised.",
+          "relevance": "The decision explains when the department is and is not obliged to offer rehabilitative services to a parent with a disability before seeking termination.",
+          "quote": "we conclude that it does not conflict with the ADA's requirement that a public entity make reasonable accommodations for qualified individuals with disabilities.",
+          "url": "https://www.courtlistener.com/opinion/5345073/people-ex-rel-cz/",
+          "courtlistener_cluster_id": 5345073
+        },
+        {
+          "case_name": "People in Interest of S.K.",
+          "citation": "2019 COA 36, 440 P.3d 1240",
+          "court": "Colorado Court of Appeals",
+          "year": 2019,
+          "date_decided": "2019-03-07",
+          "holding": "The division held that a juvenile court must consider reasonable accommodations for a parent's disability in deciding whether the treatment plan was appropriate and whether the department made reasonable efforts to rehabilitate the parent, and affirmed because the court had done so.",
+          "relevance": "Accommodation must be built into the services offered to a disabled parent from the outset, not raised only at termination.",
+          "quote": "a juvenile court must consider reasonable accommodations in deciding whether such a parent's treatment plan was appropriate and whether reasonable efforts were made to rehabilitate the parent.",
+          "url": "https://www.courtlistener.com/opinion/4597754/in-interest-of-sk/",
+          "courtlistener_cluster_id": 4597754
+        },
+        {
+          "case_name": "Troxel v. Granville",
+          "citation": "530 U.S. 57 (2000)",
+          "court": "Supreme Court of the United States",
+          "year": 2000,
+          "date_decided": "2000-06-05",
+          "holding": "The Court affirmed the invalidation of a nonparental visitation order, holding that the Washington statute as applied violated the mother's due process right to make decisions concerning the care, custody and control of her children because the trial court gave no special weight to the presumption that a fit parent acts in her children's best interests.",
+          "relevance": "Colorado has no published appellate decision construing voluntary service agreements, so this is the federal constitutional baseline for the node: services accepted without an adjudication cannot be used to override a fit parent's decisions about her children.",
+          "quote": "there is a presumption that fit parents act in the best interests of their children",
+          "url": "https://www.courtlistener.com/opinion/1087668/troxel-v-granville/",
+          "courtlistener_cluster_id": 1087668
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Colorado%22%20AND%20%28%22Colorado%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Colorado Department of Human Services",
         "CPS",
@@ -116,149 +170,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Colorado%22%20AND%20%28%22Colorado%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "removal",
-        "emergency custody",
-        "placement",
-        "reunification",
-        "services"
-      ],
-      "jurisdiction": "Colorado state courts",
-      "key_cases": [
-        {
-          "case_id": "20ca0111",
-          "title": "In re the Parental Responsibilities Concerning M.E.R-L. and D.L.R-L., Children, and Concerning Jeffery E. Lay, and Mary A. Rodmon, and Concerning El Paso County Child Support Services",
-          "url": "https://law.justia.com/cases/colorado/court-of-appeals/2020/20ca0111.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Colorado Court Of Appeals Case 20ca0111 (2020)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25sc228",
-          "title": "In re The Marriage of Bailey",
-          "url": "https://law.justia.com/cases/colorado/supreme-court/2025/25sc228.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Colorado Supreme Court Case 25sc228 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "24sc788-0",
-          "title": "In re The Parental Responsibilities Concerning Children K.M.S.",
-          "url": "https://law.justia.com/cases/colorado/supreme-court/2025/24sc788-0.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Colorado Supreme Court Case 24sc788-0 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25sa78-0",
-          "title": "In re People ex rel. R.M.P.",
-          "url": "https://law.justia.com/cases/colorado/supreme-court/2025/25sa78-0.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Colorado Supreme Court Case 25sa78-0 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "24sa193-0",
-          "title": "In re People ex rel. J.D.",
-          "url": "https://law.justia.com/cases/colorado/supreme-court/2025/24sa193-0.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Colorado Supreme Court Case 24sa193-0 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "24sa193",
-          "title": "In re People ex rel. J.D.",
-          "url": "https://law.justia.com/cases/colorado/supreme-court/2025/24sa193.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Colorado Supreme Court Case 24sa193 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "24sa216",
-          "title": "In re Raykin",
-          "url": "https://law.justia.com/cases/colorado/supreme-court/2025/24sa216.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Colorado Supreme Court Case 24sa216 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25ca1355",
-          "title": "Peo in Interest of Zaczek",
-          "url": "https://law.justia.com/cases/colorado/court-of-appeals/2025/25ca1355.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Colorado Court Of Appeals Case 25ca1355 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of"
-        },
-        {
-          "case_id": "25ca1857",
-          "title": "Peo in Interest of Abdurahman",
-          "url": "https://law.justia.com/cases/colorado/court-of-appeals/2025/25ca1857.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Colorado Court Of Appeals Case 25ca1857 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of"
-        },
-        {
-          "case_id": "25ca0535",
-          "title": "Peo in Interest of AM",
-          "url": "https://law.justia.com/cases/colorado/court-of-appeals/2025/25ca0535.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Colorado Court Of Appeals Case 25ca0535 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

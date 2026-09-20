@@ -138,6 +138,84 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Florida state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Department of Health & Rehabilitative Services v. M.B.",
+          "citation": "701 So. 2d 1155 (Fla. 1997)",
+          "court": "Supreme Court of Florida",
+          "year": 1997,
+          "date_decided": "1997-05-29",
+          "holding": "A child's out-of-court statements that satisfy section 90.803(23)'s reliability safeguards are admissible as substantive evidence in a dependency hearing even when they are inconsistent with the child's in-court testimony, and dependency itself is proved by a preponderance of the evidence.",
+          "relevance": "When the agency files a dependency petition, M.B. governs what proof it may use and confirms the preponderance standard at adjudication.",
+          "quote": "are admissible as substantive evidence in a dependency hearing once they have satisfied the stringent reliability safeguards established in section 90.803(23) and refined in our prior case law",
+          "url": "https://www.courtlistener.com/opinion/7771722/department-of-health-rehabilitative-services-v-mb/",
+          "courtlistener_cluster_id": 7771722
+        },
+        {
+          "case_name": "R.F. v. Florida Department of Children & Families",
+          "citation": "770 So. 2d 1189 (Fla. 2000)",
+          "court": "Supreme Court of Florida",
+          "year": 2000,
+          "date_decided": "2000-10-12",
+          "holding": "Proof that a parent sexually abused one child does not by itself establish that a sibling is dependent; the court must examine all the circumstances to decide whether the parent poses a substantial risk of imminent abuse or neglect to the other child.",
+          "relevance": "R.F. governs the sufficiency of a dependency petition that alleges prospective abuse or neglect of a sibling.",
+          "quote": "While the commission of such an act may be highly relevant, it is not automatically dispositive of the issue of dependency.",
+          "url": "https://www.courtlistener.com/opinion/7796314/rf-v-florida-department-of-children-families/",
+          "courtlistener_cluster_id": 7796314
+        },
+        {
+          "case_name": "S.M. v. R.M.",
+          "citation": "82 So. 3d 163 (Fla. 4th DCA 2012)",
+          "court": "District Court of Appeal of Florida, Fourth District",
+          "year": 2012,
+          "date_decided": "2012-03-07",
+          "holding": "Treating the mother's appeal of a family court judge's sua sponte dependency shelter order as a certiorari petition, the court granted relief and remanded because she was given no opportunity to be heard or present evidence at the shelter hearing.",
+          "relevance": "The case shows what a court must do before shelter findings under section 39.402 can stand as the opening of a dependency case.",
+          "quote": "We treat the mother's appeal as a petition for writ of certiorari, grant the petition, and remand with directions.",
+          "url": "https://www.courtlistener.com/opinion/2551374/sm-v-rm/",
+          "courtlistener_cluster_id": 2551374
+        },
+        {
+          "case_name": "In re D.B.",
+          "citation": "385 So. 2d 83 (Fla. 1980)",
+          "court": "Supreme Court of Florida",
+          "year": 1980,
+          "date_decided": "1980-05-16",
+          "holding": "Indigent parents have a constitutional right to appointed counsel whenever the proceeding can result in permanent loss of parental custody; in other dependency proceedings the right is determined case by case.",
+          "relevance": "When the agency files a petition that can end in permanent loss of custody, D.B. requires the court to appoint counsel for indigent parents.",
+          "quote": "We find that a constitutional right to counsel necessarily arises where the proceedings can result in permanent loss of parental custody.",
+          "url": "https://www.courtlistener.com/opinion/1741618/in-interest-of-db/",
+          "courtlistener_cluster_id": 1741618
+        },
+        {
+          "case_name": "Lassiter v. Department of Social Services of Durham County",
+          "citation": "452 U.S. 18 (1981)",
+          "court": "Supreme Court of the United States",
+          "year": 1981,
+          "date_decided": "1981-08-28",
+          "holding": "The Federal Constitution does not require appointed counsel in every parental termination proceeding; whether due process requires counsel is decided case by case by the trial court, subject to appellate review.",
+          "relevance": "Lassiter sets the federal floor for counsel once a petition that may end parental rights is filed; Florida's In re D.B. goes further.",
+          "quote": "leave the decision whether due process calls for the appointment of counsel for indigent parents in termination proceedings to be answered in the first instance by the trial court",
+          "url": "https://www.courtlistener.com/opinion/110506/lassiter-v-department-of-social-servs-of-durham-cty/",
+          "courtlistener_cluster_id": 110506
+        },
+        {
+          "case_name": "Stanley v. Illinois",
+          "citation": "405 U.S. 645 (1972)",
+          "court": "Supreme Court of the United States",
+          "year": 1972,
+          "date_decided": "1972-04-03",
+          "holding": "Illinois could not presume unwed fathers unfit and make their children wards of the State without a hearing; due process entitled Stanley to a hearing on his parental fitness, and denying him the hearing afforded all other parents denied him equal protection.",
+          "relevance": "Stanley is the foundational federal holding that a petition which will take a parent's children cannot be resolved without an individualized hearing on that parent's fitness.",
+          "quote": "as a matter of due process of law, Stanley was entitled to a hearing on his fitness as a parent before his children were taken from him",
+          "url": "https://www.courtlistener.com/opinion/108497/stanley-v-illinois/",
+          "courtlistener_cluster_id": 108497
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Florida%22%20AND%20%28%22Florida%20Department%20of%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Florida Department of Children and Families",
         "DCF",
@@ -149,150 +227,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Florida%22%20AND%20%28%22Florida%20Department%20of%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "investigation",
-        "substantiation",
-        "evidence standard",
-        "due process",
-        "reasonable efforts"
-      ],
-      "jurisdiction": "Florida state courts",
-      "key_cases": [
-        {
-          "case_id": "sc2023-1072",
-          "title": "Christine Askew, etc. v. Florida Department of Children and Families",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2024/sc2023-1072.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc2023-1072 (2024)",
-          "relevance_score": 3.0,
-          "matched_keywords": [
-            "florida department of children and families",
-            "dcf"
-          ],
-          "child_welfare_reason": "High: DCF"
-        },
-        {
-          "case_id": "sc2024-0030",
-          "title": "In Re: Amendments to Rules Regulating The Florida Bar - Miscellaneous Petition",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2024/sc2024-0030.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc2024-0030 (2024)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc20-1467",
-          "title": "In Re: Amendments to the Rules Regulating The Florida Bar - Biennial Petition",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2022/sc20-1467.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc20-1467 (2022)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc20-1236",
-          "title": "In Re: Petition to Amend the Rules of the Supreme Court Relating to Admissions to the Bar and the Rules Regulating The Florida Bar",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2020/sc20-1236.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc20-1236 (2020)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc19-1246",
-          "title": "In Re: Standard Jury Instructions in Civil Cases - Report No. 19-03",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2020/sc19-1246.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc19-1246 (2020)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc19-1806",
-          "title": "In Re: Standard Jury Instructions in Criminal Cases - Report 2019-11",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2020/sc19-1806.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc19-1806 (2020)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc19-1856",
-          "title": "In Re: Standard Jury Instructions in Criminal Cases - Report 2019-12",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2020/sc19-1856.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc19-1856 (2020)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc19-470",
-          "title": "In Re: Standard Jury Instructions in Criminal Cases - Report 2019-03",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2020/sc19-470.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc19-470 (2020)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc19-1350",
-          "title": "In Re: Standard Jury Instructions in Civil Cases - Report No. 19-04",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2020/sc19-1350.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc19-1350 (2020)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc19-1654",
-          "title": "In Re: Standard Jury Instructions in Criminal Cases - Report 2019-08",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2020/sc19-1654.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc19-1654 (2020)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

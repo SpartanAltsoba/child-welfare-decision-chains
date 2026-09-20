@@ -54,6 +54,84 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "District of Columbia state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "In re K.M.",
+          "citation": "164 A.3d 945 (D.C. 2017)",
+          "court": "District of Columbia Court of Appeals",
+          "year": 2017,
+          "date_decided": "2017-04-25",
+          "holding": "Civil Rule 36 admissions deemed against parents who failed to respond were conclusively established and, with the rest of the evidence, sufficed to prove neglect by a preponderance, so the adjudication was affirmed.",
+          "relevance": "It is the current D.C. statement of the burden of proof at the neglect factfinding hearing after a petition is filed.",
+          "quote": "The government’s burden at trial was to prove that K.M. was neglected by a preponderance of the evidence.",
+          "url": "https://www.courtlistener.com/opinion/5155985/in-re-km/",
+          "courtlistener_cluster_id": 5155985
+        },
+        {
+          "case_name": "In re M.L.",
+          "citation": "28 A.3d 520 (D.C. 2011)",
+          "court": "District of Columbia Court of Appeals",
+          "year": 2011,
+          "date_decided": "2011-09-08",
+          "holding": "The Improved Child Abuse Investigations Amendment Act of 2002 does not bar Superior Court judges from admitting the results of court-ordered mental evaluations in neglect hearings, such examinations under D.C. Code § 16-2315(e)(4) are not shielded by the doctor-patient privilege, and the neglect adjudication was supported by sufficient evidence.",
+          "relevance": "It addresses the admissibility and privilege questions that recur at the neglect factfinding hearing.",
+          "quote": "we hold that the trial court's neglect adjudication was supported by sufficient evidence",
+          "url": "https://www.courtlistener.com/opinion/2321544/in-re-ml/",
+          "courtlistener_cluster_id": 2321544
+        },
+        {
+          "case_name": "In re Jam.J.",
+          "citation": "825 A.2d 902 (D.C. 2003)",
+          "court": "District of Columbia Court of Appeals",
+          "year": 2003,
+          "date_decided": "2003-06-05",
+          "holding": "The trial court has power to protect a child from the harmful effects of compelled testimony in a neglect case, but ordinarily must exercise it through conditions on the examination rather than by barring the child's testimony outright; excluding the children's testimony and the parent's expert required a new trial.",
+          "relevance": "It is the D.C. rule on child testimony and expert evidence at the neglect factfinding hearing.",
+          "quote": "We hold that the trial court does have power to protect a child from the harmful effects of forced testimony.",
+          "url": "https://www.courtlistener.com/opinion/1495654/in-re-jam-j/",
+          "courtlistener_cluster_id": 1495654
+        },
+        {
+          "case_name": "In re Na.H.",
+          "citation": "65 A.3d 111 (D.C. 2013)",
+          "court": "District of Columbia Court of Appeals",
+          "year": 2013,
+          "date_decided": "2013-05-02",
+          "holding": "A parent who does not timely move for review of a magistrate judge's neglect and disposition order by a Superior Court associate judge forfeits appellate review, and the Court of Appeals affirmed the dismissal of the untimely motion without reaching the merits.",
+          "relevance": "It fixes the procedural step a parent must take after a magistrate judge's neglect ruling to preserve any challenge.",
+          "quote": "We therefore affirm the Superior Court’s order dismissing the motion for review as untimely, and conclude that the merits of the neglect ruling are not properly before us.",
+          "url": "https://www.courtlistener.com/opinion/5146398/in-re-nah/",
+          "courtlistener_cluster_id": 5146398
+        },
+        {
+          "case_name": "In re Ti.B.",
+          "citation": "762 A.2d 20 (D.C. 2000)",
+          "court": "District of Columbia Court of Appeals",
+          "year": 2000,
+          "date_decided": "2000-11-03",
+          "holding": "Orders barring a father in a neglect proceeding from conferring with his criminal defense counsel about his privilege against self-incrimination, and excluding that lawyer from the courtroom, were immediately appealable under the collateral order doctrine and were an abuse of discretion.",
+          "relevance": "It protects a parent's access to counsel of choice once a neglect petition places him at risk of parallel criminal exposure.",
+          "quote": "the trial court abused its discretion in excluding Mr. Rapping from the courtroom, and in prohibiting T.B. and Mr. Harris from conferring with Mr. Rapping about the neglect proceeding",
+          "url": "https://www.courtlistener.com/opinion/2092391/in-re-ti-b/",
+          "courtlistener_cluster_id": 2092391
+        },
+        {
+          "case_name": "Mathews v. Eldridge",
+          "citation": "424 U.S. 319 (1976)",
+          "court": "Supreme Court of the United States",
+          "year": 1976,
+          "date_decided": "1976-02-24",
+          "holding": "The Court held that an evidentiary hearing is not required before disability benefits are terminated and that what process is due is determined by weighing three factors: the private interest affected, the risk of erroneous deprivation under the existing procedures and the value of added safeguards, and the government's interest including administrative burden.",
+          "relevance": "It is the balancing framework In re S.J. applies in holding that denying a parent an immediate appeal from a shelter care order does not violate due process because the factfinding hearing follows.",
+          "quote": "identification of the specific dictates of due process generally requires consideration of three distinct factors",
+          "url": "https://www.courtlistener.com/opinion/109382/mathews-v-eldridge/",
+          "courtlistener_cluster_id": 109382
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22District%20of%20Columbia%22%20AND%20%28%22CPS%22%20OR%20%22child%20protective%20services%22%20OR%20%22due%20process%22%20OR%20%22parental%20rights%22%20OR%20%22investigation%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "CPS",
         "child protective services",
@@ -64,149 +142,7 @@
         "evidence standard",
         "due process",
         "reasonable efforts"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22District%20of%20Columbia%22%20AND%20%28%22CPS%22%20OR%20%22child%20protective%20services%22%20OR%20%22due%20process%22%20OR%20%22parental%20rights%22%20OR%20%22investigation%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "investigation",
-        "substantiation",
-        "evidence standard",
-        "due process",
-        "reasonable efforts"
-      ],
-      "jurisdiction": "District of Columbia state courts",
-      "key_cases": [
-        {
-          "case_id": "22-fs-0647",
-          "title": "In re Petition of K.D.W.",
-          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2024/22-fs-0647.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "District Of Columbia Court Of Appeals Case 22-fs-0647 (2024)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "22-fs-0569",
-          "title": "In re Petition of S.U. & C.U.; C.J.",
-          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2023/22-fs-0569.html",
-          "year": 2023,
-          "court": "Court Of Appeals",
-          "citation": "District Of Columbia Court Of Appeals Case 22-fs-0569 (2023)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "24-fs-0078",
-          "title": "In re L.C.",
-          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/24-fs-0078.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "District Of Columbia Court Of Appeals Case 24-fs-0078 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "25-bg-0469",
-          "title": "In re Gumbinner (Per Curiam)",
-          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/25-bg-0469.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "District Of Columbia Court Of Appeals Case 25-bg-0469 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-bg-0588-0",
-          "title": "In re Larson-Jackson (Per Curiam)",
-          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/25-bg-0588-0.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "District Of Columbia Court Of Appeals Case 25-bg-0588-0 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-bg-0704",
-          "title": "In re Pisner (Per Curiam)",
-          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/25-bg-0704.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "District Of Columbia Court Of Appeals Case 25-bg-0704 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "19-bg-0587",
-          "title": "In re Wallace",
-          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/19-bg-0587.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "District Of Columbia Court Of Appeals Case 19-bg-0587 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-bg-0685",
-          "title": "In re Lee (Per Curiam)",
-          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/25-bg-0685.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "District Of Columbia Court Of Appeals Case 25-bg-0685 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-bg-0729",
-          "title": "In re Banks (Per Curiam)",
-          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/25-bg-0729.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "District Of Columbia Court Of Appeals Case 25-bg-0729 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-bg-0588",
-          "title": "In re Larson-Jackson (Per Curiam)",
-          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/25-bg-0588.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "District Of Columbia Court Of Appeals Case 25-bg-0588 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     },
     "administrative_rule": {
       "regulations_applicable": []
