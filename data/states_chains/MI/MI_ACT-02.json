@@ -32,15 +32,16 @@
       "primary_citations": [
         {
           "citation_text": "Michigan - Michigan Compiled Laws § 722.621 et seq. (Child Protection Law – mandatory reporting)",
-          "source_url": "https://www.legislature.mi.gov",
+          "source_url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-Act-238-of-1975",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Michigan - Michigan Court Rules, Juvenile (child protective proceedings rules)",
-          "source_url": "https://www.legislature.mi.gov",
+          "citation_text": "Michigan - Michigan Court Rules, Subchapter 3.900 (Proceedings Involving Juveniles – child protective proceedings)",
+          "source_url": "https://www.courts.michigan.gov/siteassets/rules-instructions-administrative-orders/michigan-court-rules/michigan-court-rules.pdf",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19"
         },
         {
           "citation_text": "Title 722: Children - DHHS",
@@ -322,10 +323,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
-      "source": "template_estimate",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "deadline": "24 hours, excluding Sundays and holidays",
+      "starts_from": "Child taken into protective custody",
+      "source": "court_rule",
+      "source_url": "https://www.courts.michigan.gov/siteassets/rules-instructions-administrative-orders/michigan-court-rules/michigan-court-rules.pdf",
+      "consequence_of_miss": "The child must be released unless the preliminary hearing is adjourned for good cause shown (MCR 3.965(A)(1))."
     },
     {
       "requirement_name": "Case plan development",

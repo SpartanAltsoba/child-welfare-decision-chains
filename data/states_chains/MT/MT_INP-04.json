@@ -32,33 +32,34 @@
       "primary_citations": [
         {
           "citation_text": "Montana - Title 41, Chapter 3 (Child Abuse and Neglect – mandatory reporting and protective services)",
-          "source_url": "https://leg.mt.gov",
+          "source_url": "https://mca.legmt.gov/bills/mca/title_0410/chapter_0030/parts_index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 41: Minors - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/montana/title-41/",
+          "source_url": "https://mca.legmt.gov/bills/mca/title_0410/chapters_index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 42: Adoption",
-          "source_url": "https://law.justia.com/codes/montana/title-42/",
+          "source_url": "https://mca.legmt.gov/bills/mca/title_0420/chapters_index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 52: Family Services - DPHHS",
-          "source_url": "https://law.justia.com/codes/montana/title-52/",
+          "source_url": "https://mca.legmt.gov/bills/mca/title_0520/chapters_index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -302,17 +303,20 @@
     "website": "https://dphhs.mt.gov/cfsd/"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Childcare Staff",
-    "Clergy",
-    "Foster Parents",
-    "Coroners"
+    "Physicians, residents, interns, and hospital staff engaged in the admission, examination, care, or treatment of persons — Mont. Code Ann. § 41-3-201(2)(a)",
+    "Nurses, osteopaths, chiropractors, podiatrists, medical examiners, coroners, dentists, optometrists, and any other health or mental health professionals — Mont. Code Ann. § 41-3-201(2)(b)",
+    "Religious healers — Mont. Code Ann. § 41-3-201(2)(c)",
+    "School teachers, other school officials, and employees who work during regular school hours — Mont. Code Ann. § 41-3-201(2)(d)",
+    "Licensed social workers, child protection investigators, child reunification specialists, operators and employees of registered or licensed day-care, substitute-care and child-care facilities, and staff of resource and referral grant or child and adult food care programs — Mont. Code Ann. § 41-3-201(2)(e)",
+    "Foster care, residential, and institutional workers — Mont. Code Ann. § 41-3-201(2)(f)",
+    "Peace officers and other law enforcement officials — Mont. Code Ann. § 41-3-201(2)(g)",
+    "Members of the clergy, subject to the confessional and canon-law exceptions — Mont. Code Ann. § 41-3-201(2)(h), (6)(b)–(c)",
+    "Guardians ad litem and court-appointed advocates authorized to investigate a report of alleged abuse or neglect — Mont. Code Ann. § 41-3-201(2)(i)",
+    "Employees of entities that contract with the department to provide direct services to children — Mont. Code Ann. § 41-3-201(2)(j)",
+    "Department employees while in the conduct of their duties — Mont. Code Ann. § 41-3-201(2)(k)"
   ],
   "reporting_type": "centralized",
-  "reporting_details": "Not applicable",
+  "reporting_details": "Montana is not a universal-reporter state: only the professionals and officials listed in Mont. Code Ann. § 41-3-201(2) must report promptly to the department when, in their professional or official capacity, they know or have reasonable cause to suspect a child is abused or neglected, while § 41-3-201(4) allows any other person to report voluntarily.",
   "definitions": {
     "abuse": [
       "Physical abuse",
@@ -378,10 +382,11 @@
     },
     {
       "requirement_name": "Investigation completion",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
-      "source": "template_estimate",
-      "consequence_of_miss": "Case dismissal risk"
+      "deadline": "60 days",
+      "starts_from": "Investigation commenced",
+      "source": "state_statute",
+      "source_url": "https://mca.legmt.gov/bills/mca/title_0410/chapter_0030/part_0020/section_0020/0410-0030-0020-0020.html",
+      "consequence_of_miss": "Statute states no penalty; within 60 days the child protection investigator must furnish the written safety and risk assessment to the department and, on request, to the family (Mont. Code Ann. § 41-3-202(6))"
     }
   ],
   "notice_requirements": [

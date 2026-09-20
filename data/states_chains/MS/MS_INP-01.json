@@ -35,24 +35,24 @@
       "primary_citations": [
         {
           "citation_text": "Mississippi - Miss. Code Title 43, Chap. 21 (Youth Court Act – § 43-21-353 mandatory reporting)",
-          "source_url": "https://www.lexisnexis.com/hottopics/mscode/",
+          "source_url": "https://law.justia.com/codes/mississippi/title-43/chapter-21/intake/section-43-21-353/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Mississippi - Miss. Code § 43-21-601 et seq. (Youth Court disposition and removal)",
-          "source_url": "https://law.justia.com/codes/mississippi/title-43/chapter-21/",
+          "source_url": "https://law.justia.com/codes/mississippi/title-43/chapter-21/disposition/section-43-21-601/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 43: Public Welfare - DHS - CHILD WELFARE PRIMARY",
+          "citation_text": "Title 43: Public Welfare - MDCPS - CHILD WELFARE PRIMARY",
           "source_url": "https://law.justia.com/codes/mississippi/title-43/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
@@ -60,8 +60,8 @@
           "citation_text": "Title 93: Domestic Relations",
           "source_url": "https://law.justia.com/codes/mississippi/title-93/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         },
@@ -69,8 +69,8 @@
           "citation_text": "Title 97: Crimes - Child Abuse",
           "source_url": "https://law.justia.com/codes/mississippi/title-97/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
-          "deep_link": true,
+          "last_verified": "2026-09-19",
+          "deep_link": false,
           "title_code": "",
           "chapter": ""
         }
@@ -313,22 +313,24 @@
     "website": "https://www.mdcps.ms.gov/"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Shelter Staff",
-    "Childcare Staff",
-    "Clergy",
-    "Foster Parents",
-    "Coaches",
-    "Coroners",
-    "EMTs/Emergency Personnel",
-    "Judges",
-    "District Attorneys"
+    "Any person (universal mandatory reporting) — Miss. Code Ann. § 43-21-353(1)",
+    "Attorneys",
+    "Physicians",
+    "Dentists",
+    "Interns",
+    "Residents",
+    "Nurses",
+    "Psychologists",
+    "Social workers",
+    "Family protection workers",
+    "Family protection specialists",
+    "Child caregivers",
+    "Ministers",
+    "Law enforcement officers",
+    "Public or private school employees"
   ],
   "reporting_type": "centralized",
-  "reporting_details": "Not applicable",
+  "reporting_details": "Mississippi is a universal-reporting state: any person with reasonable cause to suspect that a child is neglected, abused, or a victim of commercial sexual exploitation or human trafficking must cause an oral report to be made immediately to the Mississippi Department of Child Protection Services (1-800-222-8000), followed as soon as possible by a written report (Miss. Code Ann. § 43-21-353(1)).",
   "definitions": {
     "abuse": [
       "Physical abuse",
@@ -383,17 +385,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
-      "starts_from": "Report received",
-      "source": "template_estimate",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "deadline": "24 hours (Level III reports); 72 hours (Level II reports)",
+      "starts_from": "Initial intake report date and time",
+      "source": "admin_rule",
+      "consequence_of_miss": "Potential audit finding, CFSR deficiency",
+      "source_url": "https://www.mdcps.ms.gov/sites/default/files/about-us/policies-%26-procedures/Intake-Policy-Revised-Eff.-10.15.2020.-section-II.D.2.aScreening-Reports-of-Maltreatment-in-Out-of-Home-settings-CORRECTED-url-2.pdf"
     },
     {
       "requirement_name": "Investigation completion",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
-      "source": "template_estimate",
-      "consequence_of_miss": "Case dismissal risk"
+      "deadline": "30 calendar days, including supervisory approval (Level III reports)",
+      "starts_from": "Initial intake report date and time",
+      "source": "admin_rule",
+      "consequence_of_miss": "Case dismissal risk",
+      "source_url": "https://www.mdcps.ms.gov/sites/default/files/about-us/policies-%26-procedures/Intake-Policy-Revised-Eff.-10.15.2020.-section-II.D.2.aScreening-Reports-of-Maltreatment-in-Out-of-Home-settings-CORRECTED-url-2.pdf"
     }
   ],
   "notice_requirements": [

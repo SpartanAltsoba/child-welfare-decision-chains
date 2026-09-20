@@ -5,7 +5,7 @@
   "node_family": "DEC",
   "subnode": "DEC-05",
   "trigger_name": "File Petition / Open Dependency Case",
-  "summary_html": "Agency **files a court petition** to open a **dependency** (or similar) case. Federal funding frameworks (IV-E/ASFA) link court oversight, reasonable-efforts findings, and permanency timelines to downstream actions.",
+  "summary_html": "In Montana the **county attorney, attorney general, or an attorney hired by the county files the court petition** that opens an abuse and neglect case — CFSD does not file it, but the petition must be accompanied by a department affidavit (Mont. Code Ann. § 41-3-422(2)). Federal funding frameworks (IV-E/ASFA) link court oversight, reasonable-efforts findings, and permanency timelines to downstream actions.",
   "authority_html": "- **ASFA / SSA Title IV-E** — court findings; timelines; permanency planning  \n- **CFSR (45 CFR Part 1355)** — federal review of court/agency performance measures",
   "icon": "📜",
   "theme_color": "#6A5ACD",
@@ -36,33 +36,34 @@
       "primary_citations": [
         {
           "citation_text": "Montana - Title 41, Chapter 3 (Child Abuse and Neglect – mandatory reporting and protective services)",
-          "source_url": "https://leg.mt.gov",
+          "source_url": "https://mca.legmt.gov/bills/mca/title_0410/chapter_0030/parts_index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 41: Minors - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/montana/title-41/",
+          "source_url": "https://mca.legmt.gov/bills/mca/title_0410/chapters_index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 42: Adoption",
-          "source_url": "https://law.justia.com/codes/montana/title-42/",
+          "source_url": "https://mca.legmt.gov/bills/mca/title_0420/chapters_index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 52: Family Services - DPHHS",
-          "source_url": "https://law.justia.com/codes/montana/title-52/",
+          "source_url": "https://mca.legmt.gov/bills/mca/title_0520/chapters_index.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -358,6 +359,16 @@
       "starts_from": "Investigation opened",
       "source": "template_estimate",
       "consequence_of_miss": "Procedural violation"
+    },
+    {
+      "requirement_name": "Show cause hearing",
+      "deadline": "21 days",
+      "starts_from": "Filing of the initial child abuse and neglect petition",
+      "source": "state_statute",
+      "source_url": "https://mca.legmt.gov/bills/mca/title_0410/chapter_0030/part_0040/section_0320/0410-0030-0040-0320.html",
+      "consequence_of_miss": "Statute states no penalty; an extension may be granted only on a showing of substantial injustice, and the court must then order an appropriate remedy that considers the best interests of the child (Mont. Code Ann. § 41-3-432(1)(c))",
+      "extension_allowed": true,
+      "extension_grounds": "Stipulation of the parties under Mont. Code Ann. § 41-3-434, or a court-granted extension on a showing of substantial injustice under § 41-3-432(1)(a), (1)(c)"
     }
   ],
   "notice_requirements": [

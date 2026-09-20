@@ -36,15 +36,16 @@
       "primary_citations": [
         {
           "citation_text": "Michigan - Michigan Compiled Laws § 722.621 et seq. (Child Protection Law – mandatory reporting)",
-          "source_url": "https://www.legislature.mi.gov",
+          "source_url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-Act-238-of-1975",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Michigan - Michigan Court Rules, Juvenile (child protective proceedings rules)",
-          "source_url": "https://www.legislature.mi.gov",
+          "citation_text": "Michigan - Michigan Court Rules, Subchapter 3.900 (Proceedings Involving Juveniles – child protective proceedings)",
+          "source_url": "https://www.courts.michigan.gov/siteassets/rules-instructions-administrative-orders/michigan-court-rules/michigan-court-rules.pdf",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19"
         },
         {
           "citation_text": "Title 722: Children - DHHS",
@@ -290,18 +291,20 @@
     "website": "https://www.michigan.gov/mdhhs"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Childcare Staff",
-    "Clergy",
-    "Coaches",
-    "Coroners",
-    "EMTs/Emergency Personnel"
+    "Physicians, dentists, physician's assistants, registered dental hygienists, medical examiners, nurses, and persons licensed to provide emergency medical care — Mich. Comp. Laws § 722.623(1)(a)",
+    "Audiologists, psychologists, physical therapists, physical therapist assistants, occupational therapists, and athletic trainers",
+    "Marriage and family therapists, licensed professional counselors, social workers, licensed master's social workers, licensed bachelor's social workers, registered social service technicians, and social service technicians",
+    "Persons employed in a professional capacity in any office of the friend of the court",
+    "School administrators, school counselors, and teachers",
+    "Law enforcement officers",
+    "Members of the clergy",
+    "Regulated child care providers",
+    "MDHHS eligibility specialists, family independence managers, family independence specialists, social services specialists, social work specialists, social work specialist managers, and welfare services specialists — Mich. Comp. Laws § 722.623(1)(b)",
+    "Employees of an organization that federal funding statutes, regulations, or contracts would otherwise bar from reporting absent a state mandate — Mich. Comp. Laws § 722.623(1)(c)",
+    "Not universal: any other person, including a child, MAY report but is not required to — Mich. Comp. Laws § 722.624"
   ],
   "reporting_type": "centralized",
-  "reporting_details": "Not applicable",
+  "reporting_details": "Michigan is not a universal-reporting state: only the professionals and MDHHS employees listed in Mich. Comp. Laws § 722.623(1) must report, they must report immediately to MDHHS centralized intake by telephone or through the online reporting system, and a telephone report must be followed by a written report within 72 hours, while any other person may report voluntarily under Mich. Comp. Laws § 722.624.",
   "definitions": {
     "abuse": [
       "Physical abuse",
@@ -359,17 +362,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
-      "starts_from": "Report received",
-      "source": "template_estimate",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "deadline": "24 hours",
+      "starts_from": "MDHHS centralized intake receives the report",
+      "source": "state_statute",
+      "source_url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-722-628",
+      "consequence_of_miss": "Not specified by statute; Mich. Comp. Laws § 722.628(1) requires the department, within 24 hours of receiving a report, to refer it to the prosecuting attorney and local law enforcement or to commence an investigation."
     },
     {
       "requirement_name": "Investigation completion",
-      "deadline": "30-60 days",
+      "deadline": "30 days",
       "starts_from": "Investigation opened",
-      "source": "template_estimate",
-      "consequence_of_miss": "Case dismissal risk"
+      "source": "admin_rule",
+      "source_url": "https://www.michigan.gov/mdhhs/adult-child-serv/abuse-neglect/childrens/report-process/investigation-process-and-results/childrens-protective-services-investigation-process",
+      "consequence_of_miss": "Not specified; MDHHS states CPS has 30 days to complete an investigation unless extenuating circumstances require an extension."
     }
   ],
   "notice_requirements": [

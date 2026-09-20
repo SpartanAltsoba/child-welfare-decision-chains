@@ -36,15 +36,17 @@
       "primary_citations": [
         {
           "citation_text": "North Carolina - N.C. Gen. Stat. § 7B-301 (Duty to report abuse, neglect, dependency)",
-          "source_url": "https://www.ncleg.gov",
+          "source_url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_7B/GS_7B-301.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "North Carolina - Chapter 7B, Article 3 (Juvenile Code – abuse, neglect, dependency procedures)",
-          "source_url": "https://www.ncleg.gov",
+          "source_url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_7B/Article_3.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 48: Adoption",
@@ -360,10 +362,13 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
-      "source": "template_estimate",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "deadline": "7 calendar days",
+      "starts_from": "Juvenile held under a nonsecure custody order",
+      "source": "state_statute",
+      "source_url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_7B/GS_7B-506.html",
+      "consequence_of_miss": "No juvenile may be held under a nonsecure custody order for more than seven calendar days without a hearing on the merits or a hearing on the need for continued custody (N.C. Gen. Stat. § 7B-506(a))",
+      "extension_allowed": true,
+      "extension_grounds": "Continuance of up to 10 business days with the consent of the juvenile's parent, guardian, custodian, or caretaker and, if appointed, the juvenile's guardian ad litem"
     },
     {
       "requirement_name": "Case plan development",

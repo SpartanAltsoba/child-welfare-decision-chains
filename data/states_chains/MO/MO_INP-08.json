@@ -32,14 +32,15 @@
           "citation_text": "Missouri - Mo. Rev. Stat. Chapter 210 (Child Protection and Reformation – includes § 210.115 reporting)",
           "source_url": "https://revisor.mo.gov/main/OneChapter.aspx?chapter=210",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Missouri - Missouri Supreme Court Rules – Juvenile Proceedings (for abuse/neglect cases)",
-          "source_url": "https://www.mo.gov",
+          "citation_text": "Missouri - Missouri Supreme Court Rules 110–128 (Rules of Practice and Procedure in Juvenile and Family Court Divisions of the Circuit Court)",
+          "source_url": "https://www.courts.mo.gov/courts/ClerkHandbooksP2RulesOnly.nsf/c0c6ffa99df4993f86256ba50057dcb8?OpenView&Start=100&Count=60",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": false
         },
         {
           "citation_text": "Title 210: Child Protection and Reformation - CHILD WELFARE PRIMARY",
@@ -320,19 +321,19 @@
     "website": "https://dss.mo.gov/cd"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Childcare Staff",
-    "Clergy",
-    "Foster Parents",
-    "Coaches",
-    "Coroners",
-    "EMTs/Emergency Personnel"
+    "Physicians, medical examiners, coroners, dentists, chiropractors, optometrists, podiatrists, residents, interns, nurses, hospital or clinic personnel, and any other health practitioner — Mo. Rev. Stat. § 210.115.1",
+    "Psychologists, mental health professionals, and social workers",
+    "Day care center workers and other child-care workers",
+    "Juvenile officers, probation or parole officers",
+    "Jail or detention center personnel",
+    "Teachers, principals, and other school officials",
+    "Ministers, as provided by Mo. Rev. Stat. § 352.400",
+    "Peace officers and law enforcement officials",
+    "Volunteers or personnel of a community service program that offers support services for families in crisis (Mo. Rev. Stat. §§ 475.600 to 475.604)",
+    "Any other person with responsibility for the care of children"
   ],
   "reporting_type": "centralized",
-  "reporting_details": "Not applicable",
+  "reporting_details": "Missouri is not a universal-reporter state — the professionals and officials listed in Mo. Rev. Stat. § 210.115.1 must immediately report suspected abuse or neglect to the Children's Division and violating that duty is a class A misdemeanor (§ 210.165.1), while any other person may report voluntarily under § 210.115.5.",
   "definitions": {
     "abuse": [
       "Physical abuse",
@@ -393,17 +394,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
-      "starts_from": "Report received",
-      "source": "template_estimate",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "deadline": "24 hours to initiate the investigation or family assessment (72 hours if educational neglect is the only complaint); direct observation of the child within 24 hours if the report indicates danger of serious physical harm or threat to life",
+      "starts_from": "Receipt of the report by the division",
+      "source": "state_statute",
+      "consequence_of_miss": "Not specified in Mo. Rev. Stat. § 210.145.",
+      "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=210.145"
     },
     {
       "requirement_name": "Investigation completion",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
-      "source": "template_estimate",
-      "consequence_of_miss": "Case dismissal risk"
+      "deadline": "45 days; extendable only for good cause specifically documented, and no later than 90 days (120 days for reports involving sexual abuse, or until complete for a child fatality or near-fatality)",
+      "starts_from": "Receipt of the report of abuse or neglect",
+      "source": "state_statute",
+      "consequence_of_miss": "Good cause for not completing within 45 days must be specifically documented in the information system, which must then be updated at regular intervals until the investigation is complete (Mo. Rev. Stat. § 210.145.17(1), (3)).",
+      "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=210.145"
     }
   ],
   "notice_requirements": [

@@ -30,33 +30,33 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Minnesota - Minn. Stat. § 626.556 (Reporting of Maltreatment of Minors Act)",
-          "source_url": "https://www.revisor.mn.gov/statutes/cite/626",
+          "citation_text": "Minnesota - Minn. Stat. ch. 260E (Reporting of Maltreatment of Minors)",
+          "source_url": "https://www.revisor.mn.gov/statutes/cite/260E",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Minnesota - Minn. Stat. Chapters 260C and 260E (Child protection and services)",
+          "citation_text": "Minnesota - Minn. Stat. ch. 260C (Juvenile Safety and Placement)",
           "source_url": "https://www.revisor.mn.gov/statutes/cite/260C",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 256: Human Services - DHS",
-          "source_url": "https://law.justia.com/codes/minnesota/title-256/",
+          "citation_text": "Minnesota - Minn. Stat. ch. 142A (Department of Children, Youth, and Families)",
+          "source_url": "https://www.revisor.mn.gov/statutes/cite/142A",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 260: Juvenile Court Act",
-          "source_url": "https://law.justia.com/codes/minnesota/title-260/",
+          "citation_text": "Minnesota - Minn. Stat. ch. 260 (Juvenile Court; Child Placement; Compacts — includes the Minnesota Indian Family Preservation Act, §§ 260.751–260.835)",
+          "source_url": "https://www.revisor.mn.gov/statutes/cite/260",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -284,17 +284,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
-      "source": "template_estimate",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "deadline": "72 hours, excluding Saturdays, Sundays, and holidays",
+      "starts_from": "Child taken into custody",
+      "source": "state_statute",
+      "source_url": "https://www.revisor.mn.gov/statutes/cite/260C.178",
+      "consequence_of_miss": "Not specified by statute; under Minn. Stat. § 260C.178, subd. 1(b) the child must be released to a parent, guardian, custodian, or other suitable person unless the court makes the endangerment findings in subd. 1(c)."
     },
     {
       "requirement_name": "Case plan development",
-      "deadline": "30-60 days",
-      "starts_from": "Court jurisdiction",
-      "source": "federal_statute",
-      "consequence_of_miss": "IV-E funding penalty"
+      "deadline": "30 days",
+      "starts_from": "Child placed in foster care by court order or voluntary placement agreement",
+      "source": "state_statute",
+      "source_url": "https://www.revisor.mn.gov/statutes/cite/260C.212",
+      "consequence_of_miss": "Not specified by statute; Minn. Stat. § 260C.212, subd. 1(a) sets the 30-day deadline for preparing the out-of-home placement plan."
     }
   ],
   "notice_requirements": [

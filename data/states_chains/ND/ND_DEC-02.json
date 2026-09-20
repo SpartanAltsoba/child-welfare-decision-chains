@@ -31,15 +31,17 @@
       "primary_citations": [
         {
           "citation_text": "North Dakota - N.D. Cent. Code Chapter 50-25.1 (Child Abuse and Neglect – reporting and records)",
-          "source_url": "https://www.legis.nd.gov",
+          "source_url": "https://ndlegis.gov/cencode/t50c25-1.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "North Dakota - N.D. Cent. Code § 27-20.1-01 et seq. (Juvenile Court Act for deprivation cases)",
-          "source_url": "https://www.legis.nd.gov",
+          "citation_text": "North Dakota - N.D. Cent. Code ch. 27-20.3 (Child Welfare – protective custody, shelter care, child in need of protection)",
+          "source_url": "https://ndlegis.gov/cencode/t27c20-3.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 14: Domestic Relations",
@@ -345,17 +347,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Safety decision",
-      "deadline": "Immediate upon contact",
-      "starts_from": "First family contact",
-      "source": "template_estimate",
-      "consequence_of_miss": "Child safety risk"
+      "deadline": "Immediately upon receipt of the report where there is a serious threat or danger to the child's life or health",
+      "starts_from": "Report received by assessing agency",
+      "source": "admin_rule",
+      "consequence_of_miss": "Child safety risk",
+      "source_url": "https://ndlegis.gov/information/acdata/pdf/75-03-19.pdf"
     },
     {
       "requirement_name": "Disposition finding",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
-      "source": "template_estimate",
-      "consequence_of_miss": "Procedural violation"
+      "deadline": "62 days",
+      "starts_from": "Date the report was received",
+      "source": "admin_rule",
+      "consequence_of_miss": "An extension of time must be requested of and granted by the department (N.D. Admin. Code § 75-03-19-04).",
+      "source_url": "https://ndlegis.gov/information/acdata/pdf/75-03-19.pdf"
     }
   ],
   "notice_requirements": [
