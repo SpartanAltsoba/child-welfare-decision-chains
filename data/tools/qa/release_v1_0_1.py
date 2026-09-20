@@ -24,6 +24,7 @@ KNOWN_ISSUES = """### Known issues carried to v1.1.0 (not corrected in this rele
 - **Backfill poster URLs.** `<ST>_backfill.json` files carry NCMEC poster links that change over time; they are not maintained as citations.
 - **Administrative-rule citations.** Several jurisdictions cite regulation index pages or a superseded agency; deep links to the current rule sections are a v1.1.0 item.
 - **Justia links.** law.justia.com and regulations.justia.com return HTTP 403 to automated fetches (Cloudflare challenge) but load in a browser. They are live and were left in place; they are not verifiable by script.
+- **Full per-jurisdiction list.** Every item the verifiers judged out of scope for a correction release, with the reason, is in `data/tools/qa/carried_to_v1.1.0.json`.
 """
 
 METHOD = """### How this release was produced
@@ -107,6 +108,16 @@ def main():
     if manifest is None:
         m = re.search(r"(\d+) files, root_hash ([0-9a-f]{64})", out)
         manifest = {"file_count": int(m.group(1)), "root_hash": m.group(2)}
+    # 1b. carried-to-v1.1.0 list becomes a committed artifact
+    carry_src = os.path.join(os.path.dirname(changelog_dir), "results", "v1_1_0_carry.json")
+    if os.path.exists(carry_src):
+        carry = json.load(open(carry_src))
+        art = {"_about": "Items found during the v1.0.1 verification passes that were out of scope for a correction release (case-law relevance, schema shape, backfill URLs, administrative-rule deep links, items needing fields the schema lacks). Verifier wording, per jurisdiction. Input to the v1.1.0 pass.",
+               "generated": TODAY, "jurisdictions": carry}
+        if write:
+            with open("data/tools/qa/carried_to_v1.1.0.json", "w") as fh:
+                json.dump(art, fh, indent=1, ensure_ascii=False); fh.write("\n")
+        print(f"carried_to_v1.1.0.json: {sum(len(v) for v in carry.values())} items across {len(carry)} jurisdictions ({'written' if write else 'dry run'})")
     # 2. changelog
     cl = build_changelog(changelog_dir, manifest)
     if write:
