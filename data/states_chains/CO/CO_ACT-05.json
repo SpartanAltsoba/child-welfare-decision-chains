@@ -31,41 +31,41 @@
       "primary_citations": [
         {
           "citation_text": "Colorado - Title 19, Article 3 (Colorado Children’s Code – abuse/neglect reporting and dependency)",
-          "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf",
+          "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf#page=260",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Colorado - Title 19, Article 3, Part 3 (Dependency and neglect procedures)",
-          "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf",
+          "citation_text": "Colorado - Title 19, Article 3, Part 3 (Child Abuse or Neglect — reporting, screening, and investigation)",
+          "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf#page=283",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Title 14: Domestic Matters",
-          "source_url": "https://law.justia.com/codes/colorado/title-14/",
+          "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-14.pdf",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 19: Children's Code - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/colorado/title-19/",
+          "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 26: Human Services Code",
-          "source_url": "https://law.justia.com/codes/colorado/title-26/",
+          "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-26.pdf",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -293,10 +293,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
-      "source": "template_estimate",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "deadline": "72 hours, excluding Saturdays, Sundays, and court holidays",
+      "starts_from": "Temporary custody placed with the county department, or an emergency protection order entered",
+      "source": "state_statute",
+      "consequence_of_miss": "Not specified in statute",
+      "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf#page=316"
     },
     {
       "requirement_name": "Case plan development",
@@ -304,6 +305,14 @@
       "starts_from": "Court jurisdiction",
       "source": "federal_statute",
       "consequence_of_miss": "IV-E funding penalty"
+    },
+    {
+      "requirement_name": "Shelter or temporary holding facility hearing",
+      "deadline": "48 hours, excluding Saturdays, Sundays, and legal holidays",
+      "starts_from": "Law enforcement places the child in a court-designated shelter or temporary holding facility",
+      "source": "state_statute",
+      "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf#page=316",
+      "consequence_of_miss": "Not specified in statute"
     }
   ],
   "notice_requirements": [

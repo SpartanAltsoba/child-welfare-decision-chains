@@ -36,16 +36,16 @@
       "primary_citations": [
         {
           "citation_text": "Florida - Title V, Chapter 39 (Proceedings Relating to Children – abuse reporting and CPS)",
-          "source_url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099/0039/0039.html",
+          "source_url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099/0039/0039.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 39: Proceedings Relating to Children - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/florida/title-39/",
+          "citation_text": "Fla. Stat. ch. 39 (Title V, Judicial Branch) — Proceedings Relating to Children: child welfare primary",
+          "source_url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099/0039/0039ContentsIndex.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -294,22 +294,18 @@
     "website": "https://www.myflfamilies.com/"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Shelter Staff",
-    "Childcare Staff",
-    "Clergy",
-    "Foster Parents",
-    "Coaches",
-    "Coroners",
-    "EMTs/Emergency Personnel",
-    "Judges",
-    "District Attorneys"
+    "Any person (universal mandatory reporting) — Fla. Stat. § 39.201(1)(a)",
+    "Physicians, osteopathic physicians, medical examiners, chiropractic physicians, nurses, and hospital personnel — must give their name when reporting, Fla. Stat. § 39.201(1)(b)2.a.",
+    "Health care professionals and mental health professionals — must give their name when reporting, Fla. Stat. § 39.201(1)(b)2.b.",
+    "Practitioners who rely solely on spiritual means for healing — must give their name when reporting, Fla. Stat. § 39.201(1)(b)2.c.",
+    "School teachers and other school officials or personnel — must give their name when reporting, Fla. Stat. § 39.201(1)(b)2.d.",
+    "Social workers, day care center workers, and other professional child care, foster care, residential, or institutional workers — must give their name when reporting, Fla. Stat. § 39.201(1)(b)2.e.",
+    "Law enforcement officers — must give their name when reporting, Fla. Stat. § 39.201(1)(b)2.f.",
+    "Judges — must give their name when reporting, Fla. Stat. § 39.201(1)(b)2.g.",
+    "Animal control officers — must give their name when reporting, Fla. Stat. § 39.201(1)(b)2.h."
   ],
   "reporting_type": "centralized",
-  "reporting_details": "Not applicable",
+  "reporting_details": "In Florida any person who knows, or has reasonable cause to suspect, that a child is abused, abandoned, or neglected must report it immediately to the statewide central abuse hotline (Fla. Stat. § 39.201(1)(a)); members of the general public may report anonymously, but reporters in the professions listed in Fla. Stat. § 39.201(1)(b)2. must give their names.",
   "definitions": {
     "abuse": [
       "Physical abuse",
@@ -377,10 +373,11 @@
     },
     {
       "requirement_name": "Investigation completion",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
-      "source": "template_estimate",
-      "consequence_of_miss": "Case dismissal risk"
+      "deadline": "60 days",
+      "starts_from": "Initial report received",
+      "source": "state_statute",
+      "source_url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0000-0099/0039/Sections/0039.301.html",
+      "consequence_of_miss": "Closure may be extended only for a concurrent criminal investigation, a pending medical examiner report in a child death case, or a missing child (Fla. Stat. § 39.301(16)(a)-(c))"
     }
   ],
   "notice_requirements": [

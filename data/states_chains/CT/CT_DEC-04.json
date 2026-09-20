@@ -36,17 +36,17 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Connecticut - Title 17a, Chapter 319 (Abuse of Children – mandatory reporters)",
-          "source_url": "https://www.cga.ct.gov/current/pub/chap_319.htm",
+          "citation_text": "Connecticut - Title 17a, Chapter 319a, Conn. Gen. Stat. § 17a-101 (Child Welfare – mandated reporters)",
+          "source_url": "https://www.cga.ct.gov/current/pub/chap_319a.htm#sec_17a-101",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Connecticut - Title 46b, Chapter 815t (Juvenile Matters including neglect/termination)",
-          "source_url": "https://www.cga.ct.gov/current/pub/chap_815t.htm",
+          "source_url": "https://www.cga.ct.gov/current/pub/chap_815t.htm#sec_46b-129",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -290,10 +290,19 @@
     },
     {
       "requirement_name": "Disposition finding",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
-      "source": "template_estimate",
-      "consequence_of_miss": "Procedural violation"
+      "deadline": "33 business days",
+      "starts_from": "Report received",
+      "source": "state_statute",
+      "consequence_of_miss": "Not specified in statute",
+      "source_url": "https://www.cga.ct.gov/current/pub/chap_319a.htm#sec_17a-101g"
+    },
+    {
+      "requirement_name": "96-hour hold limit (removal without court order)",
+      "deadline": "96 hours",
+      "starts_from": "Child removed without a court order",
+      "source": "state_statute",
+      "consequence_of_miss": "If the child is not returned home within 96 hours, DCF must proceed in court under Conn. Gen. Stat. § 46b-129",
+      "source_url": "https://www.cga.ct.gov/current/pub/chap_319a.htm#sec_17a-101g"
     }
   ],
   "notice_requirements": [

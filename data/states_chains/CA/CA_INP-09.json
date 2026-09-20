@@ -18,7 +18,7 @@
     "CFSR_CFR": "https://www.law.cornell.edu/cfr/text/45/part-1355",
     "CFSR_eCFR": "https://www.ecfr.gov/current/title-45/subtitle-B/chapter-XIII/subchapter-G/part-1355",
     "ACF_CFSR": "https://www.acf.hhs.gov/cb/monitoring/child-family-services-reviews",
-    "IGA_Cornell": "https://www.law.cornell.edu/uscode/text/5a/appendix-3"
+    "IGA_Cornell": "https://www.law.cornell.edu/uscode/text/5/part-I/chapter-4"
   },
   "layers": {
     "constitutional": {
@@ -35,17 +35,17 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "California - Penal Code §§ 11164–11174 (CANRA – Child Abuse and Neglect Reporting Act)",
-          "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=11164&lawCode=PENAL",
+          "citation_text": "California - Penal Code §§ 11164–11174.3 (CANRA – Child Abuse and Neglect Reporting Act)",
+          "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=11164.&lawCode=PEN",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "California - Welfare & Institutions Code § 300 et seq. (Juvenile dependency proceedings)",
-          "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=300&lawCode=INSTITUTIONS",
+          "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=300.&lawCode=WIC",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -301,9 +301,10 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
+      "deadline": "Immediate in-person response in emergency situations; otherwise an evaluation of risk decides whether an in-person response is required",
       "starts_from": "Report received",
-      "source": "template_estimate",
+      "source": "state_statute",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=16504.&lawCode=WIC",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {

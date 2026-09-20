@@ -33,17 +33,17 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "District of Columbia - D.C. Code Title 4, Chapter 13, Subchapter II (Investigation)",
-          "source_url": "https://code.dccouncil.gov/us/dc/council/code/titles/4/chapters/13/subchapters/II",
+          "citation_text": "District of Columbia - D.C. Code Title 4, Chapter 13, Subchapter I, Part A (Reporting Abuse and Neglect) — §§ 4-1301.04, 4-1301.06 investigation and findings",
+          "source_url": "https://code.dccouncil.gov/us/dc/council/code/titles/4/chapters/13/subchapters/I/parts/A",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "District of Columbia - D.C. Code Title 16, Chapter 23 (Family Division Proceedings)",
-          "source_url": "https://code.dccouncil.gov/us/dc/council/code/titles/16/chapters/23",
+          "citation_text": "District of Columbia - D.C. Code Title 16, Chapter 23, Subchapter I (Proceedings Regarding Delinquency, Neglect, or Need of Supervision)",
+          "source_url": "https://code.dccouncil.gov/us/dc/council/code/titles/16/chapters/23/subchapters/I",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -252,17 +252,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Safety decision",
-      "deadline": "Immediate upon contact",
-      "starts_from": "First family contact",
-      "source": "template_estimate",
-      "consequence_of_miss": "Child safety risk"
+      "deadline": "Within 24 hours of the start of the investigation",
+      "starts_from": "Investigation commenced",
+      "source": "state_statute",
+      "consequence_of_miss": "Not specified in statute",
+      "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/4-1301.04"
     },
     {
       "requirement_name": "Disposition finding",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
-      "source": "template_estimate",
-      "consequence_of_miss": "Procedural violation"
+      "deadline": "45 days for the full investigation (60 days in the listed cases); final report within 5 business days after completion",
+      "starts_from": "Receipt of the first notice of the suspected abuse or neglect",
+      "source": "state_statute",
+      "consequence_of_miss": "Not specified in statute",
+      "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/4-1301.06"
     }
   ],
   "notice_requirements": [

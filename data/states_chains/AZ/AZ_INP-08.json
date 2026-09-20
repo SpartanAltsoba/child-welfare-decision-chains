@@ -30,13 +30,13 @@
       "primary_citations": [
         {
           "citation_text": "Arizona - Title 13, § 3620 (Criminal code – duty to report child abuse)",
-          "source_url": "https://www.azleg.gov/arstitle/",
+          "source_url": "https://www.azleg.gov/ars/13/03620.htm",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Arizona - Title 8, Chapter 4 (Arizona Juvenile Code – Dependent children)",
+          "citation_text": "Arizona - Title 8, Chapter 4 (Department of Child Safety, A.R.S. §§ 8-451 to 8-892)",
           "source_url": "https://www.azleg.gov/arstitle/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -44,45 +44,45 @@
         },
         {
           "citation_text": "Title 8: Child Safety - DCS - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/arizona/title-8/",
+          "source_url": "https://www.azleg.gov/arsDetail/?title=8",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 13: Criminal Code - Child Abuse Crimes",
-          "source_url": "https://law.justia.com/codes/arizona/title-13/",
+          "source_url": "https://www.azleg.gov/arsDetail/?title=13",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 25: Marital and Domestic Relations",
-          "source_url": "https://law.justia.com/codes/arizona/title-25/",
+          "source_url": "https://www.azleg.gov/arsDetail/?title=25",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 36: Public Health and Safety",
-          "source_url": "https://law.justia.com/codes/arizona/title-36/",
+          "source_url": "https://www.azleg.gov/arsDetail/?title=36",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
           "citation_text": "Title 46: Welfare",
-          "source_url": "https://law.justia.com/codes/arizona/title-46/",
+          "source_url": "https://www.azleg.gov/arsDetail/?title=46",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -326,15 +326,16 @@
     "website": "https://dcs.az.gov/"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Clergy",
-    "Foster Parents"
+    "Physicians, physician assistants, optometrists, dentists, osteopathic physicians, chiropractors, podiatrists, behavioral health professionals, nurses, psychologists, counselors and social workers who form the belief while treating a patient — A.R.S. § 13-3620(A)(1)",
+    "Peace officers, child welfare investigators, child safety workers, members of the clergy, priests and Christian Science practitioners — A.R.S. § 13-3620(A)(2)",
+    "The parent, stepparent or guardian of the minor — A.R.S. § 13-3620(A)(3)",
+    "School personnel, including substitute teachers, and domestic violence or sexual assault victim advocates who form the belief in the course of their employment — A.R.S. § 13-3620(A)(4)",
+    "Any other person who has responsibility for the care or treatment of the minor — A.R.S. § 13-3620(A)(5)",
+    "Immediate or next-higher-level supervisors and administrators of a person listed in (A)(1), (2), (4) or (5) — A.R.S. § 13-3620(A)(6)",
+    "Members of a school district governing board or charter school governing body — A.R.S. § 13-3620(A)(7)"
   ],
   "reporting_type": "centralized",
-  "reporting_details": "Not applicable",
+  "reporting_details": "In Arizona a person listed in A.R.S. § 13-3620(A) must report immediately, electronically or by telephone, to a peace officer, to the Department of Child Safety, or — for an Indian minor who resides on an Indian reservation — to a tribal law enforcement or social services agency (A.R.S. § 13-3620(A), (D)).",
   "definitions": {
     "abuse": [
       "Physical abuse",
@@ -401,10 +402,11 @@
     },
     {
       "requirement_name": "Investigation completion",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
-      "source": "template_estimate",
-      "consequence_of_miss": "Case dismissal risk"
+      "deadline": "45 days",
+      "starts_from": "Receipt of the DCS report",
+      "source": "state_statute",
+      "source_url": "https://www.azleg.gov/ars/8/00456.htm",
+      "consequence_of_miss": "A.R.S. § 8-456 states no penalty; the report must still reach the court 48 hours before a dependency hearing or within 21 days after a dependency petition is filed (A.R.S. § 8-456(F)(3)(b))."
     }
   ],
   "notice_requirements": [

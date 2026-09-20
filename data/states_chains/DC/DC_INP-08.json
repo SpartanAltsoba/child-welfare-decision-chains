@@ -32,14 +32,21 @@
           "citation_text": "District of Columbia - D.C. Code Title 4, Chapter 13 (Child Abuse and Neglect)",
           "source_url": "https://code.dccouncil.gov/us/dc/council/code/titles/4/chapters/13",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "District of Columbia - D.C. Code § 4-1321.02 (Mandatory Reporting)",
-          "source_url": "https://code.dccouncil.gov/us/dc/council/code/titles/4/chapters/1321",
+          "citation_text": "District of Columbia - D.C. Code § 4-1321.02 (Mandatory reporters)",
+          "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/4-1321.02",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "District of Columbia - D.C. Code § 22-3020.52 (Reporting requirements and privileges — child sexual abuse)",
+          "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/22-3020.52",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -213,17 +220,29 @@
     "website": "https://cfsa.dc.gov/"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Childcare Staff",
-    "Foster Parents",
-    "Coaches",
-    "Coroners"
+    "Employee, agent, or contractor of the Child and Family Services Agency — D.C. Code § 4-1321.02(a)",
+    "Physician",
+    "Psychologist",
+    "Medical examiner",
+    "Dentist",
+    "Chiropractor",
+    "Registered nurse",
+    "Licensed practical nurse",
+    "Individual involved in the care and treatment of patients",
+    "Law-enforcement officer",
+    "Humane officer of any agency charged with the enforcement of animal cruelty laws",
+    "School official",
+    "Teacher",
+    "Athletic coach",
+    "Employee of the Department of Parks and Recreation",
+    "Public housing resident manager",
+    "Social services worker",
+    "Day care worker",
+    "Mental health professional",
+    "Any person 18 or older, for suspected sexual abuse of a child under 16 — D.C. Code § 22-3020.52(a)"
   ],
   "reporting_type": "centralized",
-  "reporting_details": "Not applicable",
+  "reporting_details": "The District is not a universal-reporter jurisdiction: D.C. Code § 4-1321.02(a) names 19 categories of mandatory reporter who must report to CFSA or the Metropolitan Police Department, while D.C. Code § 22-3020.52(a) separately requires any person 18 or older to report suspected sexual abuse of a child under 16, a call to 911 or a report to CFSA counting as a report to the police.",
   "definitions": {
     "abuse": [
       "Physical abuse",
@@ -286,10 +305,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
-      "starts_from": "Report received",
-      "source": "template_estimate",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "deadline": "Immediately if the child's safety or health is in immediate danger; otherwise within 24 hours",
+      "starts_from": "Report of suspected abuse or neglect received by CFSA",
+      "source": "state_statute",
+      "consequence_of_miss": "Not specified in statute",
+      "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/4-1301.04"
     },
     {
       "requirement_name": "Investigation completion",

@@ -36,16 +36,16 @@
       "primary_citations": [
         {
           "citation_text": "Florida - Title V, Chapter 39 (Proceedings Relating to Children – abuse reporting and CPS)",
-          "source_url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099/0039/0039.html",
+          "source_url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099/0039/0039.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 39: Proceedings Relating to Children - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/florida/title-39/",
+          "citation_text": "Fla. Stat. ch. 39 (Title V, Judicial Branch) — Proceedings Relating to Children: child welfare primary",
+          "source_url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099/0039/0039ContentsIndex.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -338,10 +338,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
-      "source": "template_estimate",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "deadline": "24 hours",
+      "starts_from": "Child removed / placed in shelter",
+      "source": "state_statute",
+      "source_url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0000-0099/0039/Sections/0039.402.html",
+      "consequence_of_miss": "A child may not be held in a shelter longer than 24 hours unless the court so orders after a shelter hearing (Fla. Stat. § 39.402(8)(a))"
     },
     {
       "requirement_name": "Case plan development",
