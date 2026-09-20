@@ -241,10 +241,11 @@
     },
     {
       "requirement_name": "NCMEC notification",
-      "deadline": "24 hours",
-      "starts_from": "Child reported missing",
-      "source": "template_estimate",
-      "consequence_of_miss": "Audit finding, delayed recovery"
+      "deadline": "Immediately if MPD deems the child critical missing; otherwise once the child has been missing more than 30 days (MPD makes the NCMEC report)",
+      "starts_from": "CFSA files a missing person report with MPD immediately after discovering the child is missing (D.C. Code § 4-1323.01(a))",
+      "source": "state_statute",
+      "consequence_of_miss": "Not specified in § 4-1323.01",
+      "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/4-1323.01"
     }
   ],
   "notice_requirements": [
