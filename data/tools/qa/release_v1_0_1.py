@@ -101,15 +101,8 @@ def main():
     changelog_dir = sys.argv[1]
     write = "--write" in sys.argv
     os.chdir(ROOT)
-    # 1. manifest (dry or write) — needs final data tree
-    out = subprocess.run([sys.executable, "data/tools/qa/build_manifest.py", VERSION] + (["--write"] if write else []), capture_output=True, text=True).stdout
-    print(out.strip())
-    manifest = json.load(open("MANIFEST.json")) if write else None
-    if manifest is None:
-        m = re.search(r"(\d+) files, root_hash ([0-9a-f]{64})", out)
-        manifest = {"file_count": int(m.group(1)), "root_hash": m.group(2)}
-    # 1b. carried-to-v1.1.0 list becomes a committed artifact
-    carry_src = os.path.join(os.path.dirname(changelog_dir), "results", "v1_1_0_carry.json")
+    # 1. carried-to-v1.1.0 list becomes a committed artifact (must exist before the manifest is built)
+    carry_src = os.path.join(os.path.dirname(os.path.abspath(changelog_dir)), "results", "v1_1_0_carry.json")
     if os.path.exists(carry_src):
         carry = json.load(open(carry_src))
         art = {"_about": "Items found during the v1.0.1 verification passes that were out of scope for a correction release (case-law relevance, schema shape, backfill URLs, administrative-rule deep links, items needing fields the schema lacks). Verifier wording, per jurisdiction. Input to the v1.1.0 pass.",
@@ -118,26 +111,32 @@ def main():
             with open("data/tools/qa/carried_to_v1.1.0.json", "w") as fh:
                 json.dump(art, fh, indent=1, ensure_ascii=False); fh.write("\n")
         print(f"carried_to_v1.1.0.json: {sum(len(v) for v in carry.values())} items across {len(carry)} jurisdictions ({'written' if write else 'dry run'})")
-    # 2. changelog
+    # 2. manifest, once, over the final data tree
+    out = subprocess.run([sys.executable, "data/tools/qa/build_manifest.py", VERSION] + (["--write"] if write else []), capture_output=True, text=True).stdout
+    print(out.strip())
+    m = re.search(r"(\d+) files, root_hash ([0-9a-f]{64})", out)
+    manifest = {"file_count": int(m.group(1)), "root_hash": m.group(2)}
+    # 3. changelog
     cl = build_changelog(changelog_dir, manifest)
     if write:
         open("CHANGELOG.md", "w").write(cl)
     print(f"CHANGELOG.md: {len(cl.splitlines())} lines ({'written' if write else 'dry run'})")
-    # 3. version strings
+    # 4. version strings (idempotent: patterns no longer match once bumped)
     for path, pat, k in bump_versions(write):
         print(f"  {path}: {k} × {pat}")
-    # 4. provenance root hash line for this version
-    p = os.path.join(ROOT, "PROVENANCE.md")
-    s = open(p).read()
-    if f"v{VERSION} root_hash" not in s:
+    p = os.path.join(ROOT, "README.md"); s = open(p).read()
+    s2 = re.sub(r"2,522 files", f"{manifest['file_count']:,} files", s)
+    if write and s2 != s: open(p, "w").write(s2)
+    # 5. provenance root hash line for this version (replace if present, else add under the v1.0.0 line)
+    p = os.path.join(ROOT, "PROVENANCE.md"); s = open(p).read()
+    line = f"v{VERSION} root_hash: {manifest['root_hash']}   (data/tools/qa/build_manifest.py)"
+    if f"v{VERSION} root_hash" in s:
+        s2 = re.sub(rf"v{re.escape(VERSION)} root_hash: [0-9a-f]{{64}}[^\n]*", line, s)
+    else:
         s2 = s.replace("v1.0.0 root_hash: ac684eaaf7912f24c6e98a35d90232eedddd2da8777e07888f38e5ea6a6bca7e",
-                       f"v1.0.0 root_hash: ac684eaaf7912f24c6e98a35d90232eedddd2da8777e07888f38e5ea6a6bca7e   (historical; generator not committed)\nv{VERSION} root_hash: {manifest['root_hash']}   (data/tools/qa/build_manifest.py)")
-        if write and s2 != s:
-            open(p, "w").write(s2)
-        print("PROVENANCE.md: root hash line", "written" if write else "would be added")
-    if write:
-        # manifest again so it covers the final CHANGELOG-independent data tree (data/ only, unchanged by step 2-4) — recompute to be safe
-        print(subprocess.run([sys.executable, "data/tools/qa/build_manifest.py", VERSION, "--write"], capture_output=True, text=True).stdout.strip())
+                       "v1.0.0 root_hash: ac684eaaf7912f24c6e98a35d90232eedddd2da8777e07888f38e5ea6a6bca7e   (historical; generator not committed)\n" + line)
+    if write and s2 != s: open(p, "w").write(s2)
+    print("PROVENANCE.md: root hash line", "written" if write else "dry run")
 
 
 if __name__ == "__main__":
