@@ -100,6 +100,60 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Nevada state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "In re A.T.",
+          "citation": "141 Nev. Adv. Op. 32 (Nev. June 12, 2025)",
+          "court": "Supreme Court of Nevada",
+          "year": 2025,
+          "date_decided": "2025-06-12",
+          "holding": "NRS 432B.530(2) does not confine a party to admitting or denying the petition's allegations; a district court may properly accept a no-contest plea in a Chapter 432B dependency proceeding without the prosecutor's agreement.",
+          "relevance": "The current Nevada rule on how a dependency petition is answered and resolved without a contested adjudication.",
+          "quote": "we hold that a district court may properly accept a no-contest plea in this context.",
+          "url": "https://www.courtlistener.com/opinion/10603655/in-re-at-a-minor-family/",
+          "courtlistener_cluster_id": 10603655
+        },
+        {
+          "case_name": "Washoe County Department of Social Services v. Kory L.G.",
+          "citation": "129 Nev. 125, 295 P.3d 589 (2013)",
+          "court": "Supreme Court of Nevada",
+          "year": 2013,
+          "date_decided": "2013-02-28",
+          "holding": "A non-offending parent — one not found to have abused or neglected the child — cannot be compelled to comply with an NRS 432B.560 case plan as a condition of reunification, and the agency's reasonable-efforts duty under NRS 432B.393 runs regardless.",
+          "relevance": "Filing on one parent's conduct does not automatically subject the other parent to the petition's service obligations.",
+          "quote": "the agency must make reasonable efforts to reunify and preserve the family of the child, with the child's health and safety being a paramount concern",
+          "url": "https://www.courtlistener.com/opinion/8086054/washoe-county-department-of-social-services-v-kory-lg/",
+          "courtlistener_cluster_id": 8086054
+        },
+        {
+          "case_name": "Stanley v. Illinois",
+          "citation": "405 U.S. 645 (1972)",
+          "court": "Supreme Court of the United States",
+          "year": 1972,
+          "date_decided": "1972-04-03",
+          "holding": "Due process entitles a parent to a hearing on his fitness before his children are taken from him, and a State may not presume unfitness by category.",
+          "relevance": "The petition exists to give the parent the individualized hearing the Constitution requires.",
+          "quote": "as a matter of due process of law, Stanley was entitled to a hearing on his fitness as a parent before his children were taken from him",
+          "url": "https://www.courtlistener.com/opinion/108497/stanley-v-illinois/",
+          "courtlistener_cluster_id": 108497
+        },
+        {
+          "case_name": "In re Parental Rights as to L.L.S.",
+          "citation": "137 Nev. 241, 487 P.3d 791 (2021)",
+          "court": "Supreme Court of Nevada",
+          "year": 2021,
+          "date_decided": "2021-05-27",
+          "holding": "Procedural due process requires that a termination-of-parental-rights trial under NRS Chapter 432B be heard by a district judge in the first instance; a hearing master may not preside, and a district judge's later review of the master's trial record does not cure the defect. The termination order was reversed and the case remanded for a new TPR proceeding.",
+          "relevance": "Marks the line inside a Chapter 432B case: a master may hear the dependency proceeding, but once the matter becomes a TPR trial only a district judge may preside — this materially limits the brief's reliance on master-based procedure.",
+          "quote": "we hold that due process requires the TPR trial to be heard before a district judge in the first instance",
+          "url": "https://www.courtlistener.com/opinion/4887108/in-re-parental-rights-as-to-lls/",
+          "courtlistener_cluster_id": 4887108
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Nevada%22%20AND%20%28%22Nevada%20Division%20of%20Child%20and%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Nevada Division of Child and Family Services",
         "CPS",
@@ -111,149 +165,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Nevada%22%20AND%20%28%22Nevada%20Division%20of%20Child%20and%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "investigation",
-        "substantiation",
-        "evidence standard",
-        "due process",
-        "reasonable efforts"
-      ],
-      "jurisdiction": "Nevada state courts",
-      "key_cases": [
-        {
-          "case_id": "87857",
-          "title": "IN RE: PETITION FOR CHANGE OF NAME (FLEEK) C/W 88016/88190",
-          "url": "https://law.justia.com/cases/nevada/supreme-court/2025/87857.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nevada Supreme Court Case 87857 (2025)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "86192",
-          "title": "In re Petition of Perry",
-          "url": "https://law.justia.com/cases/nevada/supreme-court/2024/86192.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Nevada Supreme Court Case 86192 (2024)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "79638",
-          "title": "In re Petition of Aragon",
-          "url": "https://law.justia.com/cases/nevada/supreme-court/2020/79638.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "Nevada Supreme Court Case 79638 (2020)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "89258",
-          "title": "In re Parental Rights as to S.A.T.",
-          "url": "https://law.justia.com/cases/nevada/supreme-court/2025/89258.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nevada Supreme Court Case 89258 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "86781",
-          "title": "IN RE: DISCIPLINE OF HARDEEP SULL",
-          "url": "https://law.justia.com/cases/nevada/supreme-court/2025/86781.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nevada Supreme Court Case 86781 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "87684",
-          "title": "In re Goldstein Irrevocable Trust",
-          "url": "https://law.justia.com/cases/nevada/supreme-court/2025/87684.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nevada Supreme Court Case 87684 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "89128",
-          "title": "In re A.T.",
-          "url": "https://law.justia.com/cases/nevada/supreme-court/2025/89128.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nevada Supreme Court Case 89128 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "85598",
-          "title": "IN RE: PUB. RECORDS REQUEST TO LAS VEGAS METRO. POLICE DEP'T",
-          "url": "https://law.justia.com/cases/nevada/supreme-court/2025/85598.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nevada Supreme Court Case 85598 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "88174",
-          "title": "IN RE: PARENTAL RIGHTS AS TO R.A.S.",
-          "url": "https://law.justia.com/cases/nevada/supreme-court/2025/88174.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nevada Supreme Court Case 88174 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "87887",
-          "title": "IN RE: GUARDIANSHIP OF H.B. III",
-          "url": "https://law.justia.com/cases/nevada/supreme-court/2025/87887.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nevada Supreme Court Case 87887 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

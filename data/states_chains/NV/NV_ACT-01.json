@@ -105,6 +105,60 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Nevada state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Clark County v. Eighth Judicial District Court (Eggleston)",
+          "citation": "141 Nev. Adv. Op. 31 (Nev. June 12, 2025)",
+          "court": "Supreme Court of Nevada",
+          "year": 2025,
+          "date_decided": "2025-06-12",
+          "holding": "Qualified immunity and Nevada discretionary-act immunity barred suit against a county social worker who allegedly coerced a parent into signing temporary guardianship papers placing his children with relatives instead of filing a petition.",
+          "relevance": "Shows how a voluntary arrangement is negotiated and how little civil exposure the caseworker carries if the parent later claims coercion.",
+          "quote": "we consider whether qualified and discretionary-act immunity apply to bar suit against a social worker who allegedly coerced a parent to sign guardianship papers",
+          "url": "https://www.courtlistener.com/opinion/10603656/clark-cnty-v-dist-ct-eggleston/",
+          "courtlistener_cluster_id": 10603656
+        },
+        {
+          "case_name": "Washoe County Department of Social Services v. Kory L.G.",
+          "citation": "129 Nev. 125, 295 P.3d 589 (2013)",
+          "court": "Supreme Court of Nevada",
+          "year": 2013,
+          "date_decided": "2013-02-28",
+          "holding": "A non-offending parent — one not found to have abused or neglected the child — cannot be compelled to comply with an NRS 432B.560 case plan as a condition of reunification, and the agency's reasonable-efforts duty under NRS 432B.393 runs regardless.",
+          "relevance": "Voluntary acceptance of services cannot be made a precondition to the return of a child to a parent never found at fault.",
+          "quote": "the agency must make reasonable efforts to reunify and preserve the family of the child, with the child's health and safety being a paramount concern",
+          "url": "https://www.courtlistener.com/opinion/8086054/washoe-county-department-of-social-services-v-kory-lg/",
+          "courtlistener_cluster_id": 8086054
+        },
+        {
+          "case_name": "Capp v. County of San Diego",
+          "citation": "940 F.3d 1046 (9th Cir. 2019)",
+          "court": "United States Court of Appeals for the Ninth Circuit",
+          "year": 2019,
+          "date_decided": "2019-10-04",
+          "holding": "A social worker who threatens to terminate a parent's custody in retaliation for the parent's protected criticism of the agency violates the First Amendment, and is not entitled to qualified immunity.",
+          "relevance": "Consent to voluntary services extracted by a threat to remove the children is not genuinely voluntary.",
+          "quote": "A reasonable official would have known that taking the serious step of threatening to terminate a parent's custody of his children",
+          "url": "https://www.courtlistener.com/opinion/4667181/jonathan-capp-v-county-of-san-diego/",
+          "courtlistener_cluster_id": 4667181
+        },
+        {
+          "case_name": "Eggleston v. Stuart",
+          "citation": "137 Nev. 506, 495 P.3d 482 (2021)",
+          "court": "Supreme Court of Nevada",
+          "year": 2021,
+          "date_decided": "2021-09-23",
+          "holding": "Following Patsy v. Board of Regents, a plaintiff generally need not exhaust administrative remedies before bringing a § 1983 claim, subject to Zinermon v. Burch's narrow exception for procedural due process claims. Because the father's claim that a caseworker and police coerced him into signing a temporary guardianship was a substantive due process claim, dismissal for failure to exhaust his DFS substantiation appeal was error, as was the ruling that punitive damages were unavailable against the caseworker. Reversed and remanded.",
+          "relevance": "The facts are a voluntary-services case that turned coercive — a family that agreed to a DFS program and was then pressed to sign away custody under threat.",
+          "quote": "a party generally is not required to exhaust administrative remedies before filing a § 1983 civil rights claim",
+          "url": "https://www.courtlistener.com/opinion/5106965/eggleston-vs-stuart/",
+          "courtlistener_cluster_id": 5106965
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Nevada%22%20AND%20%28%22Nevada%20Division%20of%20Child%20and%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Nevada Division of Child and Family Services",
         "CPS",
@@ -116,149 +170,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Nevada%22%20AND%20%28%22Nevada%20Division%20of%20Child%20and%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "removal",
-        "emergency custody",
-        "placement",
-        "reunification",
-        "services"
-      ],
-      "jurisdiction": "Nevada state courts",
-      "key_cases": [
-        {
-          "case_id": "88457",
-          "title": "Clark County Department of Family Services v. District Court",
-          "url": "https://law.justia.com/cases/nevada/supreme-court/2025/88457.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nevada Supreme Court Case 88457 (2025)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: DFS, Family Services"
-        },
-        {
-          "case_id": "89258",
-          "title": "In re Parental Rights as to S.A.T.",
-          "url": "https://law.justia.com/cases/nevada/supreme-court/2025/89258.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nevada Supreme Court Case 89258 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "86781",
-          "title": "IN RE: DISCIPLINE OF HARDEEP SULL",
-          "url": "https://law.justia.com/cases/nevada/supreme-court/2025/86781.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nevada Supreme Court Case 86781 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "87684",
-          "title": "In re Goldstein Irrevocable Trust",
-          "url": "https://law.justia.com/cases/nevada/supreme-court/2025/87684.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nevada Supreme Court Case 87684 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "89128",
-          "title": "In re A.T.",
-          "url": "https://law.justia.com/cases/nevada/supreme-court/2025/89128.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nevada Supreme Court Case 89128 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "85598",
-          "title": "IN RE: PUB. RECORDS REQUEST TO LAS VEGAS METRO. POLICE DEP'T",
-          "url": "https://law.justia.com/cases/nevada/supreme-court/2025/85598.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nevada Supreme Court Case 85598 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "88174",
-          "title": "IN RE: PARENTAL RIGHTS AS TO R.A.S.",
-          "url": "https://law.justia.com/cases/nevada/supreme-court/2025/88174.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nevada Supreme Court Case 88174 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "87887",
-          "title": "IN RE: GUARDIANSHIP OF H.B. III",
-          "url": "https://law.justia.com/cases/nevada/supreme-court/2025/87887.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nevada Supreme Court Case 87887 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "87857",
-          "title": "IN RE: PETITION FOR CHANGE OF NAME (FLEEK) C/W 88016/88190",
-          "url": "https://law.justia.com/cases/nevada/supreme-court/2025/87857.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nevada Supreme Court Case 87857 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "89623-coa",
-          "title": "IN RE: GUARDIANSHIP OF A.L.R.-Q., A.R.W. AND A.M.W. (CHILD CUSTODY)",
-          "url": "https://law.justia.com/cases/nevada/court-of-appeals/2025/89623-coa.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Nevada Court Of Appeals Case 89623-coa (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {
