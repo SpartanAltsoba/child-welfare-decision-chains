@@ -36,16 +36,16 @@
       "primary_citations": [
         {
           "citation_text": "Illinois - 325 ILCS 5 (Abused and Neglected Child Reporting Act)",
-          "source_url": "https://law.onecle.com/illinois/325ilcs5/",
+          "source_url": "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=1460&ChapterID=32",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Illinois - 705 ILCS 405/2 (Juvenile Court Act – abuse/neglect proceedings)",
-          "source_url": "https://law.onecle.com/illinois/705ilcs5/",
+          "source_url": "https://www.ilga.gov/legislation/ILCS/details?ActID=1863&ChapterID=50&ChapAct=705%2BILCS%2B405%2F&SeqStart=2600000&SeqEnd=7600000",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
@@ -371,10 +371,11 @@
     },
     {
       "requirement_name": "Disposition finding",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
-      "source": "template_estimate",
-      "consequence_of_miss": "Procedural violation"
+      "deadline": "60 days to determine \"indicated\" or \"unfounded\"; extendable in additional periods of up to 30 days for good cause (325 ILCS 5/7.12)",
+      "starts_from": "Report received",
+      "source": "state_statute",
+      "source_url": "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=1460&ChapterID=32",
+      "consequence_of_miss": "Report may be deemed \"undetermined\" where a complete investigation was not possible (325 ILCS 5/7.12)"
     }
   ],
   "notice_requirements": [

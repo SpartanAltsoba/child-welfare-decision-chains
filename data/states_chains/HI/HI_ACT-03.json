@@ -35,10 +35,24 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Hawaii - HRS Chapter 350 (Child Abuse) and Chapter 587A (Child Protective Act)",
-          "source_url": "https://data.capitol.hawaii.gov/sessions/session2017/HRS-Chapter-PDF's/HRS_0350.pdf",
+          "citation_text": "Hawaii — HRS Chapter 350, Child Abuse",
+          "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol07_Ch0346-0398/HRS0350/HRS_0350-.htm",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Hawaii — HRS Chapter 587A, Child Protective Act",
+          "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol12_Ch0501-0588/HRS0587A/HRS_0587A-.htm",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Haw. Rev. Stat. § 587A-26, Temporary foster custody hearing",
+          "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol12_Ch0501-0588/HRS0587A/HRS_0587A-0026.htm",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -324,10 +338,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
-      "source": "template_estimate",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "deadline": "2 days after the temporary foster custody petition is filed, excluding Saturdays, Sundays, and holidays",
+      "starts_from": "Temporary foster custody petition filed",
+      "source": "state_statute",
+      "source_url": "https://www.capitol.hawaii.gov/hrscurrent/Vol12_Ch0501-0588/HRS0587A/HRS_0587A-0026.htm",
+      "consequence_of_miss": "Not specified in statute"
     },
     {
       "requirement_name": "Case plan development",

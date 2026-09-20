@@ -34,23 +34,23 @@
       "primary_citations": [
         {
           "citation_text": "Georgia - Title 19, Chapter 7, Section 5 (Georgia child abuse reporting statute)",
-          "source_url": "https://www.lexisnexis.com/hottopics/gacode/",
+          "source_url": "https://law.justia.com/codes/georgia/title-19/chapter-7/article-1/section-19-7-5/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Georgia - Title 15, Chapter 11 (Juvenile Code – dependency proceedings)",
-          "source_url": "https://www.lexisnexis.com/hottopics/gacode/",
+          "source_url": "https://law.justia.com/codes/georgia/title-15/chapter-11/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Title 15: Courts - Juvenile Courts",
           "source_url": "https://law.justia.com/codes/georgia/title-15/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -59,7 +59,7 @@
           "citation_text": "Title 19: Domestic Relations - CHILD WELFARE PRIMARY",
           "source_url": "https://law.justia.com/codes/georgia/title-19/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -68,7 +68,7 @@
           "citation_text": "Title 49: Social Services - DFCS",
           "source_url": "https://law.justia.com/codes/georgia/title-49/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -298,10 +298,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
-      "source": "template_estimate",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "deadline": "72 hours (next non-weekend, non-holiday day if the 72 hours expire on a weekend or legal holiday)",
+      "starts_from": "Child placed in foster care",
+      "source": "state_statute",
+      "source_url": "https://law.justia.com/codes/georgia/title-15/chapter-11/article-3/part-4/section-15-11-145/",
+      "consequence_of_miss": "Not specified in the statute; Georgia appellate courts have found error where the 72-hour preliminary protective hearing was not held (In the Interest of R.B., 346 Ga. App. 564 (2018))"
     },
     {
       "requirement_name": "Case plan development",

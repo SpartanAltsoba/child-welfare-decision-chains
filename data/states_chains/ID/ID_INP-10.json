@@ -33,41 +33,41 @@
           "citation_text": "Idaho - Title 16, Chapter 16 (Child Protective Act – reporting and removal)",
           "source_url": "https://legislature.idaho.gov/statutesrules/idstat/Title16/T16CH16/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 16: Child Protective Act - CHILD WELFARE PRIMARY",
-          "source_url": "https://law.justia.com/codes/idaho/title-16/",
+          "citation_text": "Idaho Code Title 16 — Juvenile Proceedings (Child Protective Act is chapter 16) - CHILD WELFARE PRIMARY",
+          "source_url": "https://legislature.idaho.gov/statutesrules/idstat/Title16/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 32: Domestic Relations",
-          "source_url": "https://law.justia.com/codes/idaho/title-32/",
+          "citation_text": "Idaho Code Title 32 — Domestic Relations",
+          "source_url": "https://legislature.idaho.gov/statutesrules/idstat/Title32/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 39: Health and Safety",
-          "source_url": "https://law.justia.com/codes/idaho/title-39/",
+          "citation_text": "Idaho Code Title 39 — Health and Safety",
+          "source_url": "https://legislature.idaho.gov/statutesrules/idstat/Title39/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 56: Public Assistance",
-          "source_url": "https://law.justia.com/codes/idaho/title-56/",
+          "citation_text": "Idaho Code Title 56 — Public Assistance and Welfare",
+          "source_url": "https://legislature.idaho.gov/statutesrules/idstat/Title56/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -315,22 +315,14 @@
     "website": "https://healthandwelfare.idaho.gov/services-programs/children-families-older-adults/child-and-family-services-and-foster-care-7"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Shelter Staff",
-    "Childcare Staff",
-    "Clergy",
-    "Foster Parents",
-    "Coaches",
-    "Coroners",
-    "EMTs/Emergency Personnel",
-    "Judges",
-    "District Attorneys"
+    "Any person (universal mandatory reporting) — Idaho Code § 16-1605(1)",
+    "Physicians, hospital residents, interns, nurses, coroners (named in Idaho Code § 16-1605(1))",
+    "School teachers, day care personnel, social workers (named in Idaho Code § 16-1605(1))",
+    "Hospital or similar institution staff report through the person in charge of the institution, who makes the necessary reports — Idaho Code § 16-1605(1)",
+    "Only exception: a duly ordained minister of religion, as to a confession or confidential communication received in his ecclesiastical capacity — Idaho Code § 16-1605(3)"
   ],
   "reporting_type": "centralized",
-  "reporting_details": "Not applicable",
+  "reporting_details": "Idaho is a universal mandatory reporting state: any person who has reason to believe a child under 18 has been abused, abandoned, or neglected must report it to law enforcement or the Department of Health and Welfare within 24 hours, failure to report is a misdemeanor, and the only exception is a duly ordained minister of religion as to a confession made in his ecclesiastical capacity (Idaho Code § 16-1605(1), (3), (4)).",
   "definitions": {
     "abuse": [
       "Physical abuse",
@@ -391,10 +383,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
-      "starts_from": "Report received",
-      "source": "template_estimate",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "deadline": "Immediately (Priority I); child seen within 48 hours (Priority II); worker responds within 3 calendar days and child seen within 5 calendar days (Priority III)",
+      "starts_from": "Department receipt of the referral",
+      "source": "admin_rule",
+      "consequence_of_miss": "Any variance from the response priorities must be documented in the family's case file with the action taken and reviewed and signed by the Child and Family Services Supervisor (IDAPA 16.06.01.554)",
+      "source_url": "https://adminrules.idaho.gov/rules/current/16/160601.pdf"
     },
     {
       "requirement_name": "Investigation completion",

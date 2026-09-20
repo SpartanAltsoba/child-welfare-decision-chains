@@ -36,23 +36,23 @@
       "primary_citations": [
         {
           "citation_text": "Georgia - Title 19, Chapter 7, Section 5 (Georgia child abuse reporting statute)",
-          "source_url": "https://www.lexisnexis.com/hottopics/gacode/",
+          "source_url": "https://law.justia.com/codes/georgia/title-19/chapter-7/article-1/section-19-7-5/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Georgia - Title 15, Chapter 11 (Juvenile Code – dependency proceedings)",
-          "source_url": "https://www.lexisnexis.com/hottopics/gacode/",
+          "source_url": "https://law.justia.com/codes/georgia/title-15/chapter-11/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Title 15: Courts - Juvenile Courts",
           "source_url": "https://law.justia.com/codes/georgia/title-15/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -61,7 +61,7 @@
           "citation_text": "Title 19: Domestic Relations - CHILD WELFARE PRIMARY",
           "source_url": "https://law.justia.com/codes/georgia/title-19/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -70,7 +70,7 @@
           "citation_text": "Title 49: Social Services - DFCS",
           "source_url": "https://law.justia.com/codes/georgia/title-49/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -303,17 +303,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Safety decision",
-      "deadline": "Immediate upon contact",
-      "starts_from": "First family contact",
-      "source": "template_estimate",
-      "consequence_of_miss": "Child safety risk"
+      "deadline": "Before concluding each purposeful contact",
+      "starts_from": "Purposeful contact with the child, parent, adult household member, or alleged maltreater",
+      "source": "admin_rule",
+      "source_url": "https://pamms.dhs.ga.gov/dfcs/cws/05-01/",
+      "consequence_of_miss": "Not specified in policy; DFCS must take immediate action to control identified safety threats if the child is unsafe"
     },
     {
       "requirement_name": "Disposition finding",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
-      "source": "template_estimate",
-      "consequence_of_miss": "Procedural violation"
+      "deadline": "45 calendar days",
+      "starts_from": "Receipt of the intake report",
+      "source": "admin_rule",
+      "source_url": "https://pamms.dhs.ga.gov/dfcs/cws/05-01/",
+      "consequence_of_miss": "Not specified in policy; the substantiated/unsubstantiated determination is made at the conclusion of the investigation, which must be completed within 45 calendar days"
     }
   ],
   "notice_requirements": [

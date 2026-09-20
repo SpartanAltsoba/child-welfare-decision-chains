@@ -32,15 +32,17 @@
       "primary_citations": [
         {
           "citation_text": "Indiana - Title 31, Article 33 (Reporting and investigation of child abuse)",
-          "source_url": "https://iga.in.gov",
+          "source_url": "https://iga.in.gov/laws/current/ic/titles/31#31-33",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Indiana - Title 31, Article 34 (Juvenile Law – Children in Need of Services)",
-          "source_url": "https://iga.in.gov",
+          "source_url": "https://iga.in.gov/laws/current/ic/titles/31#31-34",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 12: Human Services - DCS",
@@ -287,10 +289,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
-      "source": "template_estimate",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "deadline": "48 hours, excluding Saturdays, Sundays, and legal holidays observed for state employees",
+      "starts_from": "Child taken into custody under Ind. Code 31-34-2",
+      "source": "state_statute",
+      "source_url": "https://iga.in.gov/ic/2026/Title_31/Article_34/Chapter_5.pdf",
+      "consequence_of_miss": "If the detention hearing is not held, the child shall be released (Ind. Code § 31-34-5-1(a))"
     },
     {
       "requirement_name": "Case plan development",

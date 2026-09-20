@@ -36,7 +36,14 @@
           "citation_text": "Iowa - Title VI, Chapter 232 (Juvenile Justice – includes mandatory reporting and child in need of assistance)",
           "source_url": "https://www.legis.iowa.gov/law/iowaCode/sections?codeChapter=232",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Iowa - Title VI, Chapter 232B (Iowa Indian Child Welfare Act — jurisdiction, notice to tribes, emergency removal, placement preferences, qualified expert witnesses)",
+          "source_url": "https://www.legis.iowa.gov/law/iowaCode/sections?codeChapter=232B",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -243,10 +250,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
-      "source": "template_estimate",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "deadline": "10 days",
+      "starts_from": "Date of temporary removal",
+      "source": "state_statute",
+      "source_url": "https://www.legis.iowa.gov/docs/code/232.95.pdf",
+      "consequence_of_miss": "Not specified in Iowa Code § 232.95"
     },
     {
       "requirement_name": "Case plan development",

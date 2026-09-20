@@ -30,9 +30,30 @@
       "primary_citations": [
         {
           "citation_text": "Louisiana - Children’s Code Article 601 et seq. (Children’s Code – Child in Need of Care, includes reporting duties)",
-          "source_url": "https://www.legis.la.gov/legis/Laws_Toc.aspx",
+          "source_url": "https://www.legis.la.gov/legis/Law.aspx?d=73193",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Louisiana - Children’s Code Article 603(18) (Definitions; “mandatory reporter”)",
+          "source_url": "https://www.legis.la.gov/legis/Law.aspx?d=73195",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Louisiana - Children’s Code Article 609 (Mandatory and permitted reporting; training requirements)",
+          "source_url": "https://www.legis.la.gov/legis/Law.aspx?d=73201",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
+        },
+        {
+          "citation_text": "Louisiana - Children’s Code Article 610 (Reporting procedure; where a report must be made)",
+          "source_url": "https://www.legis.la.gov/legis/Law.aspx?d=73202",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
           "deep_link": true
         }
       ]
@@ -274,16 +295,22 @@
     "website": "https://dcfs.louisiana.gov/"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Childcare Staff",
-    "Clergy",
-    "Foster Parents",
-    "Coaches",
-    "Coroners",
-    "EMTs/Emergency Personnel"
+    "Health practitioner (physician, surgeon, dentist, resident, intern, hospital staff member, nurse, nursing aide, dental hygienist, emergency medical technician, paramedic, optometrist, podiatrist, chiropractor, physical therapist, medical examiner, or coroner) — La. Ch.C. Art. 603(18)",
+    "Mental health/social service practitioner (psychiatrist, psychologist, marriage or family counselor, social worker, member of the clergy, or other counseling aide)",
+    "Member of the clergy (a confidential communication made in confession is excepted)",
+    "Teaching or child care provider (teacher, teacher's aide, instructional aide, school principal, school staff member, school bus driver, coach, professor, technical or vocational instructor, college or university administrator or staff member, early learning center operator or employee, registered family child day care home operator or employee, licensed or unlicensed day care provider)",
+    "Police officer or law enforcement official, including a school resource officer",
+    "Commercial film and photographic print processor",
+    "Mediator appointed under Children’s Code Title IV, Chapter 6",
+    "Parenting coordinator appointed under La. R.S. 9:358.1 et seq.",
+    "Court-appointed special advocate (CASA) volunteer",
+    "Organizational or youth activity provider (administrator, employee, or volunteer of a day camp, summer camp, youth center, or youth recreation program)",
+    "School coach, including a technical or vocational school, community college, college, or university coach and a coach of intramural or interscholastic athletics",
+    "Foster caregiver",
+    "Group home or other institutional child care staff member or residential home facility personnel",
+    "Probation officer",
+    "Employee of the Office of Juvenile Justice or the Department of Children and Family Services whose duties include supervisory or disciplinary authority over children",
+    "Court-appointed supervised visit monitor"
   ],
   "reporting_type": "centralized",
   "reporting_details": "Not applicable",
@@ -350,10 +377,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
-      "starts_from": "Report received",
-      "source": "template_estimate",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "deadline": "Immediately for high-risk reports; promptly for intermediate-risk reports (statute sets no hour count)",
+      "starts_from": "Department receives the report and assigns a level of risk",
+      "source": "state_statute",
+      "consequence_of_miss": "Violation of the duties imposed by Ch.C. Art. 612 subjects the offender to criminal prosecution authorized by La. R.S. 14:403(A)(2) (Art. 612(F))",
+      "source_url": "https://www.legis.la.gov/legis/Law.aspx?d=73204"
     },
     {
       "requirement_name": "Investigation completion",

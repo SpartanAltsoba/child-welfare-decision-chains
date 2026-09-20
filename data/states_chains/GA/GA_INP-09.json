@@ -36,23 +36,23 @@
       "primary_citations": [
         {
           "citation_text": "Georgia - Title 19, Chapter 7, Section 5 (Georgia child abuse reporting statute)",
-          "source_url": "https://www.lexisnexis.com/hottopics/gacode/",
+          "source_url": "https://law.justia.com/codes/georgia/title-19/chapter-7/article-1/section-19-7-5/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Georgia - Title 15, Chapter 11 (Juvenile Code – dependency proceedings)",
-          "source_url": "https://www.lexisnexis.com/hottopics/gacode/",
+          "source_url": "https://law.justia.com/codes/georgia/title-15/chapter-11/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Title 15: Courts - Juvenile Courts",
           "source_url": "https://law.justia.com/codes/georgia/title-15/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -61,7 +61,7 @@
           "citation_text": "Title 19: Domestic Relations - CHILD WELFARE PRIMARY",
           "source_url": "https://law.justia.com/codes/georgia/title-19/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -70,7 +70,7 @@
           "citation_text": "Title 49: Social Services - DFCS",
           "source_url": "https://law.justia.com/codes/georgia/title-49/",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -262,18 +262,25 @@
     "website": "https://dfcs.georgia.gov/"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Shelter Staff",
-    "Childcare Staff",
-    "Clergy",
-    "Coaches",
-    "EMTs/Emergency Personnel"
+    "Physicians licensed to practice medicine, physician assistants, interns, or residents — O.C.G.A. § 19-7-5(c)(1)",
+    "Hospital or medical personnel",
+    "Dentists",
+    "Licensed psychologists and persons in internships to obtain licensure (O.C.G.A. Title 43, Ch. 39)",
+    "Podiatrists",
+    "Registered professional nurses, licensed practical nurses (O.C.G.A. Title 43, Ch. 26), or nurse's aides",
+    "Professional counselors, social workers, or marriage and family therapists (O.C.G.A. Title 43, Ch. 10A)",
+    "School teachers",
+    "School administrators",
+    "School counselors, visiting teachers, school social workers, or school psychologists (O.C.G.A. Title 20, Ch. 2)",
+    "Child welfare agency personnel (as defined in O.C.G.A. § 49-5-12)",
+    "Child-counseling personnel",
+    "Child service organization personnel — anyone employed by or volunteering at an organization that provides care, treatment, education, training, supervision, coaching, counseling, recreational programs, or shelter to children (O.C.G.A. § 19-7-5(b)(6))",
+    "Law enforcement personnel",
+    "Reproductive health care facility or pregnancy resource center personnel and volunteers",
+    "Clergy — must report unless the information was received solely within confession or a similar communication required to be kept confidential under church doctrine (O.C.G.A. § 19-7-5(g))"
   ],
   "reporting_type": "centralized",
-  "reporting_details": "Not applicable",
+  "reporting_details": "Georgia is not a universal-reporting state: only the professionals listed in O.C.G.A. § 19-7-5(c)(1) — plus clergy outside the confessional under § 19-7-5(g) — must report suspected child abuse, orally or in writing, immediately and in no case later than 24 hours (§ 19-7-5(e)(2)), while any other person may report but is not required to (§ 19-7-5(d)).",
   "definitions": {
     "abuse": [
       "Physical abuse",
@@ -328,17 +335,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
-      "starts_from": "Report received",
-      "source": "template_estimate",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "deadline": "Immediate (present danger); 24 hours (impending danger); 5 weekdays (abuse indicated, no safety threat)",
+      "starts_from": "Receipt of the intake report",
+      "source": "admin_rule",
+      "source_url": "https://pamms.dhs.ga.gov/dfcs/cws/03-32/",
+      "consequence_of_miss": "Not specified in policy; the assigned window is the maximum time allowed to make face-to-face purposeful contact with the alleged victim child"
     },
     {
       "requirement_name": "Investigation completion",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
-      "source": "template_estimate",
-      "consequence_of_miss": "Case dismissal risk"
+      "deadline": "45 calendar days",
+      "starts_from": "Receipt of the intake report",
+      "source": "admin_rule",
+      "source_url": "https://pamms.dhs.ga.gov/dfcs/cws/05-01/",
+      "consequence_of_miss": "Not specified in policy; the investigation must also be submitted to and approved by the Social Services Supervisor within the same 45 calendar days"
     }
   ],
   "notice_requirements": [

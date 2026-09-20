@@ -32,16 +32,16 @@
       "primary_citations": [
         {
           "citation_text": "Illinois - 325 ILCS 5 (Abused and Neglected Child Reporting Act)",
-          "source_url": "https://law.onecle.com/illinois/325ilcs5/",
+          "source_url": "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=1460&ChapterID=32",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Illinois - 705 ILCS 405/2 (Juvenile Court Act – abuse/neglect proceedings)",
-          "source_url": "https://law.onecle.com/illinois/705ilcs5/",
+          "source_url": "https://www.ilga.gov/legislation/ILCS/details?ActID=1863&ChapterID=50&ChapAct=705%2BILCS%2B405%2F&SeqStart=2600000&SeqEnd=7600000",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
@@ -350,10 +350,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
-      "source": "template_estimate",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "deadline": "48 hours, excluding Saturdays, Sundays and court-designated holidays (705 ILCS 405/2-9(1))",
+      "starts_from": "Child taken into temporary protective custody",
+      "source": "state_statute",
+      "source_url": "https://www.ilga.gov/legislation/ILCS/details?ActID=1863&ChapterID=50&ChapAct=705%2BILCS%2B405%2F&SeqStart=2600000&SeqEnd=7600000",
+      "consequence_of_miss": "The child must be released from temporary protective custody if not brought before a judicial officer within the 48 hours (705 ILCS 405/2-9(3))"
     },
     {
       "requirement_name": "Case plan development",
