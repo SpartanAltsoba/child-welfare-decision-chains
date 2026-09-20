@@ -6,8 +6,8 @@
   "subnode": "DEC-04",
   "trigger_name": "Emergency Removal Decision",
   "summary_html": "Agency decides to **remove a child immediately** due to **imminent danger** prior to a court order. Federal law (ASFA/IV-E) requires later **court findings** on reasonable efforts; constitutional limits (due process; search/seizure) apply.",
-  "authority_html": "- **ASFA / SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 reasonable-efforts findings; permanency timelines  \n- **CFSR (45 CFR Part 1355)** \u2014 monitors safety & removal decision quality",
-  "icon": "\ud83d\udea8",
+  "authority_html": "- **ASFA / SSA Title IV-E (42 U.S.C. §§ 670–679c)** — reasonable-efforts findings; permanency timelines  \n- **CFSR (45 CFR Part 1355)** — monitors safety & removal decision quality",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.35,
@@ -22,13 +22,13 @@
     "constitutional": {
       "constraints_triggered": [
         "U.S. Const. amend. IV",
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E)",
+        "42 U.S.C. §§ 670–679c (Title IV-E)",
         "Public Law 105-89 (ASFA)",
         "45 CFR Part 1355 (CFSR)"
       ]
@@ -43,7 +43,7 @@
           "deep_link": true
         },
         {
-          "citation_text": "Georgia - Title 15, Chapter 11 (Juvenile Code \u2013 dependency proceedings)",
+          "citation_text": "Georgia - Title 15, Chapter 11 (Juvenile Code – dependency proceedings)",
           "source_url": "https://www.lexisnexis.com/hottopics/gacode/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -102,14 +102,14 @@
         {
           "provision_id": "GA_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Georgia Const. art. I, \u00a7 I",
+          "citation": "Georgia Const. art. I, § I",
           "federal_parallel": "U.S. Const. amend. IV"
         },
         {
           "provision_id": "GA_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Georgia Const. art. I, \u00a7 I",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Georgia Const. art. I, § I",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -151,7 +151,7 @@
         },
         {
           "case_id": "s26y0129",
-          "title": "IN THE MATTER OF JE\u2019NITA LANE",
+          "title": "IN THE MATTER OF JE’NITA LANE",
           "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s26y0129.html",
           "year": 2025,
           "court": "Supreme Court",
@@ -271,10 +271,10 @@
     }
   },
   "state_agency": {
-    "name": "Division of Family and Children Services",
+    "name": "Georgia Division of Family and Children Services",
     "acronym": "DFCS",
     "hotline": "1-855-422-4453",
-    "website": "https://www.legis.ga.gov"
+    "website": "https://dfcs.georgia.gov/"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -312,14 +312,14 @@
       "requirement_name": "Safety decision",
       "deadline": "Immediate upon contact",
       "starts_from": "First family contact",
-      "source": "admin_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Child safety risk"
     },
     {
       "requirement_name": "Disposition finding",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Procedural violation"
     }
   ],

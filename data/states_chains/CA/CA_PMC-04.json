@@ -6,8 +6,8 @@
   "subnode": "PMC-04",
   "trigger_name": "Fatality Review Commission",
   "summary_html": "The **Protect Our Kids Act (PL 112-275)** created a national commission to study child-fatality prevention. Project Milk Carton cross-references its findings with state fatality data to expose non-implementation.",
-  "authority_html": "- **Public Law 112-275 (Protect Our Kids Act)** \u2014 national commission and reporting framework",
-  "icon": "\ud83d\udcca",
+  "authority_html": "- **Public Law 112-275 (Protect Our Kids Act)** — national commission and reporting framework",
+  "icon": "📊",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -28,14 +28,14 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "California - Penal Code \u00a7\u00a7\u00a011164\u201311174 (CANRA \u2013 Child Abuse and Neglect Reporting Act)",
+          "citation_text": "California - Penal Code §§ 11164–11174 (CANRA – Child Abuse and Neglect Reporting Act)",
           "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=11164&lawCode=PENAL",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "California - Welfare & Institutions Code \u00a7\u00a0300 et seq. (Juvenile dependency proceedings)",
+          "citation_text": "California - Welfare & Institutions Code § 300 et seq. (Juvenile dependency proceedings)",
           "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=300&lawCode=INSTITUTIONS",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -220,8 +220,8 @@
   "state_agency": {
     "name": "California Department of Social Services",
     "acronym": "CDSS",
-    "hotline": "1-800-540-4000",
-    "website": "https://leginfo.legislature.ca.gov"
+    "hotline": "No statewide number. Call your county's 24-hour hotline",
+    "website": "https://www.cdss.ca.gov/"
   },
   "linked_fail": "FAIL-04",
   "_metadata": {
@@ -262,7 +262,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

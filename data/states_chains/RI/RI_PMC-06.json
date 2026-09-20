@@ -6,8 +6,8 @@
   "subnode": "PMC-06",
   "trigger_name": "Project Milk Carton AI Analysis",
   "summary_html": "The **Project Milk Carton AI Layer** performs cross-analysis of federal and state chains to identify weak points, policy gaps, and non-compliance. This is the citizen feedback mechanism for accountability and reform.",
-  "authority_html": "No direct statutory authority \u2014 citizen innovation layer built on public data and federal transparency laws.",
-  "icon": "\ud83e\udd16",
+  "authority_html": "No direct statutory authority — citizen innovation layer built on public data and federal transparency laws.",
+  "icon": "🤖",
   "theme_color": "#20B2AA",
   "domain": "civil",
   "procedural_weight": 0.9,
@@ -26,8 +26,8 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Rhode Island - R.I. Gen. Laws Title\u00a040, Chapter\u00a011 (Abused and Neglected Children \u2013 \u00a7\u00a040-11-6 reporting duty)",
-          "source_url": "https://webserver.rilin.state.ri.us/Statutes/TITLE40/40-11/INDEX.HTM",
+          "citation_text": "Rhode Island - R.I. Gen. Laws Title 40, Chapter 11 (Abused and Neglected Children – § 40-11-6 reporting duty)",
+          "source_url": "https://webserver.rilegislature.gov/Statutes/TITLE40/40-11/INDEX.HTM",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
@@ -240,10 +240,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children, Youth and Families",
+    "name": "Rhode Island Department of Children, Youth and Families",
     "acronym": "DCYF",
     "hotline": "1-800-742-4453",
-    "website": "https://www.rilin.state.ri.us"
+    "website": "https://dcyf.ri.gov/"
   },
   "linked_fail": "ALL",
   "_metadata": {
@@ -284,7 +284,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

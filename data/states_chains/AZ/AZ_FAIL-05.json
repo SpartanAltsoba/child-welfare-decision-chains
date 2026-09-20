@@ -6,8 +6,8 @@
   "subnode": "FAIL-05",
   "trigger_name": "Discrimination / Retaliation",
   "summary_html": "Agency or actor engages in **discriminatory or retaliatory action**, violating civil-rights or placement-equality provisions. Federal statutes prohibit race, religion, sex, or disability bias in placements or investigations.",
-  "authority_html": "- **Multiethnic Placement Act (MEPA) & Interethnic Adoption Provisions (IEP)** \u2014 prohibits race/ethnicity discrimination in placements  \n- **Civil Rights Act (42 U.S.C. \u00a7 2000d)** \u2014 Title VI discrimination prohibitions in federally funded programs",
-  "icon": "\ud83d\udeab",
+  "authority_html": "- **Multiethnic Placement Act (MEPA) & Interethnic Adoption Provisions (IEP)** — prohibits race/ethnicity discrimination in placements  \n- **Civil Rights Act (42 U.S.C. § 2000d)** — Title VI discrimination prohibitions in federally funded programs",
+  "icon": "🚫",
   "theme_color": "#800080",
   "domain": "civil",
   "procedural_weight": 0.75,
@@ -24,20 +24,20 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 103-382 (MEPA/IEP)",
-        "42 U.S.C. \u00a7 2000d (Title VI Civil Rights Act)"
+        "42 U.S.C. § 2000d (Title VI Civil Rights Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Arizona - Title 13, \u00a7 3620 (Criminal code \u2013 duty to report child abuse)",
+          "citation_text": "Arizona - Title 13, § 3620 (Criminal code – duty to report child abuse)",
           "source_url": "https://www.azleg.gov/arstitle/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Arizona - Title 8, Chapter 4 (Arizona Juvenile Code \u2013 Dependent children)",
+          "citation_text": "Arizona - Title 8, Chapter 4 (Arizona Juvenile Code – Dependent children)",
           "source_url": "https://www.azleg.gov/arstitle/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -322,10 +322,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Child Safety",
+    "name": "Arizona Department of Child Safety",
     "acronym": "DCS",
     "hotline": "1-888-767-2445",
-    "website": "https://www.azleg.gov"
+    "website": "https://dcs.az.gov/"
   },
   "linked_output": "OUT-02",
   "linked_action": "ACT-04",
@@ -362,7 +362,7 @@
       "requirement_name": "Appeal deadline",
       "deadline": "30 days",
       "starts_from": "Final order",
-      "source": "court_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Loss of appeal rights"
     },
     {

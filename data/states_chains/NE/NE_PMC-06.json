@@ -6,8 +6,8 @@
   "subnode": "PMC-06",
   "trigger_name": "Project Milk Carton AI Analysis",
   "summary_html": "The **Project Milk Carton AI Layer** performs cross-analysis of federal and state chains to identify weak points, policy gaps, and non-compliance. This is the citizen feedback mechanism for accountability and reform.",
-  "authority_html": "No direct statutory authority \u2014 citizen innovation layer built on public data and federal transparency laws.",
-  "icon": "\ud83e\udd16",
+  "authority_html": "No direct statutory authority — citizen innovation layer built on public data and federal transparency laws.",
+  "icon": "🤖",
   "theme_color": "#20B2AA",
   "domain": "civil",
   "procedural_weight": 0.9,
@@ -26,14 +26,14 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Nebraska - Neb. Rev. Stat. \u00a7\u00a028-710 et seq. (Child Protection Act \u2013 reporting requirements)",
+          "citation_text": "Nebraska - Neb. Rev. Stat. § 28-710 et seq. (Child Protection Act – reporting requirements)",
           "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=28",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Nebraska - Neb. Rev. Stat. \u00a7\u00a043-247 et seq. (Juvenile Code for abuse/neglect cases)",
+          "citation_text": "Nebraska - Neb. Rev. Stat. § 43-247 et seq. (Juvenile Code for abuse/neglect cases)",
           "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=43",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -303,10 +303,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Health and Human Services",
-    "acronym": "DHHS",
+    "name": "Nebraska Department of Health and Human Services, Division of Children and Family Services",
+    "acronym": "CFS",
     "hotline": "1-800-652-1999",
-    "website": "https://nebraskalegislature.gov"
+    "website": "https://dhhs.ne.gov/Pages/Children-and-Family-Services.aspx"
   },
   "linked_fail": "ALL",
   "_metadata": {
@@ -347,7 +347,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

@@ -6,8 +6,8 @@
   "subnode": "DEC-04",
   "trigger_name": "Emergency Removal Decision",
   "summary_html": "Agency decides to **remove a child immediately** due to **imminent danger** prior to a court order. Federal law (ASFA/IV-E) requires later **court findings** on reasonable efforts; constitutional limits (due process; search/seizure) apply.",
-  "authority_html": "- **ASFA / SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 reasonable-efforts findings; permanency timelines  \n- **CFSR (45 CFR Part 1355)** \u2014 monitors safety & removal decision quality",
-  "icon": "\ud83d\udea8",
+  "authority_html": "- **ASFA / SSA Title IV-E (42 U.S.C. §§ 670–679c)** — reasonable-efforts findings; permanency timelines  \n- **CFSR (45 CFR Part 1355)** — monitors safety & removal decision quality",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.35,
@@ -22,13 +22,13 @@
     "constitutional": {
       "constraints_triggered": [
         "U.S. Const. amend. IV",
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E)",
+        "42 U.S.C. §§ 670–679c (Title IV-E)",
         "Public Law 105-89 (ASFA)",
         "45 CFR Part 1355 (CFSR)"
       ]
@@ -36,13 +36,13 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Vermont - 33 V.S.A. Chapter\u00a049 (Child Welfare Services \u2013 \u00a7\u00a04913 mandatory reporting)",
+          "citation_text": "Vermont - 33 V.S.A. Chapter 49 (Child Welfare Services – § 4913 mandatory reporting)",
           "source_url": "https://legislature.vermont.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
         },
         {
-          "citation_text": "Vermont - 33 V.S.A. Chapter\u00a053 (Proceedings in Family Court for abuse/neglect)",
+          "citation_text": "Vermont - 33 V.S.A. Chapter 53 (Proceedings in Family Court for abuse/neglect)",
           "source_url": "https://legislature.vermont.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
@@ -143,14 +143,14 @@
         {
           "provision_id": "VT_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Vermont Const. art. chapter_I, \u00a7 11",
+          "citation": "Vermont Const. art. chapter_I, § 11",
           "federal_parallel": "U.S. Const. amend. IV"
         },
         {
           "provision_id": "VT_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Vermont Const. art. chapter_I, \u00a7 4",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Vermont Const. art. chapter_I, § 4",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -205,7 +205,7 @@
         },
         {
           "case_id": "2020-242",
-          "title": "In re Investigation Pursuant to 30 V.S.A. \u00c2\u00a7\u00c2\u00a7 30 and 209 into whether the Petitioner Initiated Site Preparation at Apple Hill in Bennington, VT (Allco Renewable Energy Limited et al.*)",
+          "title": "In re Investigation Pursuant to 30 V.S.A. Â§Â§ 30 and 209 into whether the Petitioner Initiated Site Preparation at Apple Hill in Bennington, VT (Allco Renewable Energy Limited et al.*)",
           "url": "https://law.justia.com/cases/vermont/supreme-court/2020/2020-242.html",
           "year": 2020,
           "court": "Supreme Court",
@@ -312,10 +312,10 @@
     }
   },
   "state_agency": {
-    "name": "Department for Children and Families",
-    "acronym": "DCF",
+    "name": "Vermont Department for Children and Families, Family Services Division",
+    "acronym": "FSD",
     "hotline": "1-800-649-5285",
-    "website": "https://legislature.vermont.gov"
+    "website": "https://dcf.vermont.gov/fsd"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -353,14 +353,14 @@
       "requirement_name": "Safety decision",
       "deadline": "Immediate upon contact",
       "starts_from": "First family contact",
-      "source": "admin_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Child safety risk"
     },
     {
       "requirement_name": "Disposition finding",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Procedural violation"
     }
   ],

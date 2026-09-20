@@ -6,8 +6,8 @@
   "subnode": "FAIL-05",
   "trigger_name": "Discrimination / Retaliation",
   "summary_html": "Agency or actor engages in **discriminatory or retaliatory action**, violating civil-rights or placement-equality provisions. Federal statutes prohibit race, religion, sex, or disability bias in placements or investigations.",
-  "authority_html": "- **Multiethnic Placement Act (MEPA) & Interethnic Adoption Provisions (IEP)** \u2014 prohibits race/ethnicity discrimination in placements  \n- **Civil Rights Act (42 U.S.C. \u00a7 2000d)** \u2014 Title VI discrimination prohibitions in federally funded programs",
-  "icon": "\ud83d\udeab",
+  "authority_html": "- **Multiethnic Placement Act (MEPA) & Interethnic Adoption Provisions (IEP)** — prohibits race/ethnicity discrimination in placements  \n- **Civil Rights Act (42 U.S.C. § 2000d)** — Title VI discrimination prohibitions in federally funded programs",
+  "icon": "🚫",
   "theme_color": "#800080",
   "domain": "civil",
   "procedural_weight": 0.75,
@@ -24,20 +24,20 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 103-382 (MEPA/IEP)",
-        "42 U.S.C. \u00a7 2000d (Title VI Civil Rights Act)"
+        "42 U.S.C. § 2000d (Title VI Civil Rights Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Missouri - Mo. Rev. Stat. Chapter\u00a0210 (Child Protection and Reformation \u2013 includes \u00a7\u00a0210.115 reporting)",
+          "citation_text": "Missouri - Mo. Rev. Stat. Chapter 210 (Child Protection and Reformation – includes § 210.115 reporting)",
           "source_url": "https://revisor.mo.gov/main/OneChapter.aspx?chapter=210",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Missouri - Missouri Supreme Court Rules \u2013 Juvenile Proceedings (for abuse/neglect cases)",
+          "citation_text": "Missouri - Missouri Supreme Court Rules – Juvenile Proceedings (for abuse/neglect cases)",
           "source_url": "https://www.mo.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
@@ -316,10 +316,10 @@
     }
   },
   "state_agency": {
-    "name": "Children's Division (DSS)",
-    "acronym": "DSS-CD",
+    "name": "Missouri Department of Social Services, Children's Division",
+    "acronym": "CD",
     "hotline": "1-800-392-3738",
-    "website": "https://www.mo.gov"
+    "website": "https://dss.mo.gov/cd"
   },
   "linked_output": "OUT-02",
   "linked_action": "ACT-04",
@@ -356,7 +356,7 @@
       "requirement_name": "Appeal deadline",
       "deadline": "30 days",
       "starts_from": "Final order",
-      "source": "court_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Loss of appeal rights"
     },
     {

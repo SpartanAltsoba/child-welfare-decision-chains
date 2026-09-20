@@ -6,8 +6,8 @@
   "subnode": "FAIL-06",
   "trigger_name": "Disclosure / Transparency Failure",
   "summary_html": "Agency fails to **disclose required data or reports**, obstructing transparency. Federal statutes require public reporting under CAPTA, FOIA, and Sunshine provisions.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 mandates public availability of child-fatality information  \n- **Freedom of Information Act (5 U.S.C. \u00a7 552)** \u2014 public access to federal records  \n- **Government in the Sunshine Act (5 U.S.C. \u00a7 552b)** \u2014 open-meeting requirements",
-  "icon": "\ud83d\udd73\ufe0f",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — mandates public availability of child-fatality information  \n- **Freedom of Information Act (5 U.S.C. § 552)** — public access to federal records  \n- **Government in the Sunshine Act (5 U.S.C. § 552b)** — open-meeting requirements",
+  "icon": "🕳️",
   "theme_color": "#708090",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -24,21 +24,21 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
-        "5 U.S.C. \u00a7 552 (FOIA)",
-        "5 U.S.C. \u00a7 552b (Sunshine Act)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
+        "5 U.S.C. § 552 (FOIA)",
+        "5 U.S.C. § 552b (Sunshine Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Vermont - 33 V.S.A. Chapter\u00a049 (Child Welfare Services \u2013 \u00a7\u00a04913 mandatory reporting)",
+          "citation_text": "Vermont - 33 V.S.A. Chapter 49 (Child Welfare Services – § 4913 mandatory reporting)",
           "source_url": "https://legislature.vermont.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
         },
         {
-          "citation_text": "Vermont - 33 V.S.A. Chapter\u00a053 (Proceedings in Family Court for abuse/neglect)",
+          "citation_text": "Vermont - 33 V.S.A. Chapter 53 (Proceedings in Family Court for abuse/neglect)",
           "source_url": "https://legislature.vermont.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
@@ -295,10 +295,10 @@
     }
   },
   "state_agency": {
-    "name": "Department for Children and Families",
-    "acronym": "DCF",
+    "name": "Vermont Department for Children and Families, Family Services Division",
+    "acronym": "FSD",
     "hotline": "1-800-649-5285",
-    "website": "https://legislature.vermont.gov"
+    "website": "https://dcf.vermont.gov/fsd"
   },
   "linked_output": "OUT-06",
   "linked_action": "ACT-03",
@@ -335,7 +335,7 @@
       "requirement_name": "Appeal deadline",
       "deadline": "30 days",
       "starts_from": "Final order",
-      "source": "court_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Loss of appeal rights"
     },
     {

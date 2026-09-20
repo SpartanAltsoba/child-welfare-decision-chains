@@ -6,8 +6,8 @@
   "subnode": "DEC-05",
   "trigger_name": "File Petition / Open Dependency Case",
   "summary_html": "Agency **files a court petition** to open a **dependency** (or similar) case. Federal funding frameworks (IV-E/ASFA) link court oversight, reasonable-efforts findings, and permanency timelines to downstream actions.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 court findings; timelines; permanency planning  \n- **CFSR (45 CFR Part 1355)** \u2014 federal review of court/agency performance measures",
-  "icon": "\ud83d\udcdc",
+  "authority_html": "- **ASFA / SSA Title IV-E** — court findings; timelines; permanency planning  \n- **CFSR (45 CFR Part 1355)** — federal review of court/agency performance measures",
+  "icon": "📜",
   "theme_color": "#6A5ACD",
   "domain": "civil",
   "procedural_weight": 0.45,
@@ -21,13 +21,13 @@
   "layers": {
     "constitutional": {
       "constraints_triggered": [
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E)",
+        "42 U.S.C. §§ 670–679c (Title IV-E)",
         "Public Law 105-89 (ASFA)",
         "45 CFR Part 1355 (CFSR)"
       ]
@@ -35,7 +35,7 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Oregon - ORS Chapter\u00a0419B (Juvenile Code: Dependency and Abuse \u2013 includes mandatory reporting \u00a7\u00a7\u00a0419B.005\u2013419B.050)",
+          "citation_text": "Oregon - ORS Chapter 419B (Juvenile Code: Dependency and Abuse – includes mandatory reporting §§ 419B.005–419B.050)",
           "source_url": "https://www.oregonlegislature.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
@@ -84,8 +84,8 @@
         {
           "provision_id": "OR_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Oregon Const. art. I, \u00a7 10",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Oregon Const. art. I, § 10",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -247,10 +247,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Services",
-    "acronym": "DHS",
+    "name": "Oregon Department of Human Services, Child Welfare Division",
+    "acronym": "ODHS",
     "hotline": "1-855-503-7233",
-    "website": "https://www.oregonlegislature.gov"
+    "website": "https://www.oregon.gov/odhs/child-safety/pages/default.aspx"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -288,14 +288,14 @@
       "requirement_name": "Safety decision",
       "deadline": "Immediate upon contact",
       "starts_from": "First family contact",
-      "source": "admin_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Child safety risk"
     },
     {
       "requirement_name": "Disposition finding",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Procedural violation"
     }
   ],

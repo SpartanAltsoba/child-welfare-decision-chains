@@ -6,8 +6,8 @@
   "subnode": "DEC-01",
   "trigger_name": "Screen-Out / Unfounded at Intake",
   "summary_html": "CPS **screens out** a report (no investigation) or closes as **unfounded** after minimal review. Federal law (CAPTA) conditions funding on operating screening criteria and recordkeeping; federal reviews (CFSR) assess decision quality.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 screening & intake system requirements  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal performance/quality review of state screening and responses",
-  "icon": "\ud83d\udeab",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — screening & intake system requirements  \n- **CFSR Regulations (45 CFR Part 1355)** — federal performance/quality review of state screening and responses",
+  "icon": "🚫",
   "theme_color": "#4B9CD3",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -26,21 +26,21 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Ohio - Ohio Rev. Code \u00a7\u00a02151.421 (Mandatory reporting of child abuse)",
+          "citation_text": "Ohio - Ohio Rev. Code § 2151.421 (Mandatory reporting of child abuse)",
           "source_url": "https://codes.ohio.gov/ohio-revised-code/chapter-2151",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Ohio - Ohio Rev. Code Chapter\u00a02151 (Juvenile Court \u2013 abuse, neglect, dependency)",
+          "citation_text": "Ohio - Ohio Rev. Code Chapter 2151 (Juvenile Court – abuse, neglect, dependency)",
           "source_url": "https://www.legislature.ohio.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
@@ -227,10 +227,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Job and Family Services",
-    "acronym": "ODJFS",
+    "name": "Ohio Department of Children and Youth",
+    "acronym": "DCY",
     "hotline": "1-855-642-4453",
-    "website": "https://www.legislature.ohio.gov"
+    "website": "https://childrenandyouth.ohio.gov/"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -268,14 +268,14 @@
       "requirement_name": "Safety decision",
       "deadline": "Immediate upon contact",
       "starts_from": "First family contact",
-      "source": "admin_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Child safety risk"
     },
     {
       "requirement_name": "Disposition finding",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Procedural violation"
     }
   ],

@@ -6,8 +6,8 @@
   "subnode": "DEC-01",
   "trigger_name": "Screen-Out / Unfounded at Intake",
   "summary_html": "CPS **screens out** a report (no investigation) or closes as **unfounded** after minimal review. Federal law (CAPTA) conditions funding on operating screening criteria and recordkeeping; federal reviews (CFSR) assess decision quality.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 screening & intake system requirements  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal performance/quality review of state screening and responses",
-  "icon": "\ud83d\udeab",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — screening & intake system requirements  \n- **CFSR Regulations (45 CFR Part 1355)** — federal performance/quality review of state screening and responses",
+  "icon": "🚫",
   "theme_color": "#4B9CD3",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -26,20 +26,20 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Virginia - Va. Code Title\u00a063.2, Chapter\u00a015 (Child Abuse and Neglect \u2013 includes \u00a7\u00a063.2-1509 reporting)",
+          "citation_text": "Virginia - Va. Code Title 63.2, Chapter 15 (Child Abuse and Neglect – includes § 63.2-1509 reporting)",
           "source_url": "https://virginiageneralassembly.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
         },
         {
-          "citation_text": "Virginia - Va. Code \u00a7\u00a016.1-241(A) et seq. (Juvenile & Domestic Relations jurisdiction for abuse/neglect)",
+          "citation_text": "Virginia - Va. Code § 16.1-241(A) et seq. (Juvenile & Domestic Relations jurisdiction for abuse/neglect)",
           "source_url": "https://law.lis.virginia.gov/vacode/title16.1/chapter241/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -201,10 +201,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Social Services",
-    "acronym": "DSS",
+    "name": "Virginia Department of Social Services",
+    "acronym": "VDSS",
     "hotline": "1-800-552-7096",
-    "website": "https://virginiageneralassembly.gov"
+    "website": "https://www.dss.virginia.gov/"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -242,14 +242,14 @@
       "requirement_name": "Safety decision",
       "deadline": "Immediate upon contact",
       "starts_from": "First family contact",
-      "source": "admin_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Child safety risk"
     },
     {
       "requirement_name": "Disposition finding",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Procedural violation"
     }
   ],

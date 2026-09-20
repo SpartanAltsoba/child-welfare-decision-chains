@@ -5,9 +5,9 @@
   "node_family": "PMC",
   "subnode": "PMC-03",
   "trigger_name": "Citizen Review Panels",
-  "summary_html": "**CAPTA \u00a75106a(c)** requires every state to maintain **Citizen Review Panels** that evaluate CPS policies. Project Milk Carton checks whether panels are active, independent, and publicly reporting.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7 5106a(c))** \u2014 Citizen Review Panel mandate and reporting requirements",
-  "icon": "\ud83d\udde3\ufe0f",
+  "summary_html": "**CAPTA §5106a(c)** requires every state to maintain **Citizen Review Panels** that evaluate CPS policies. Project Milk Carton checks whether panels are active, independent, and publicly reporting.",
+  "authority_html": "- **CAPTA (42 U.S.C. § 5106a(c))** — Citizen Review Panel mandate and reporting requirements",
+  "icon": "🗣️",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -22,20 +22,20 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7 5106a(c) (CAPTA)"
+        "42 U.S.C. § 5106a(c) (CAPTA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Ohio - Ohio Rev. Code \u00a7\u00a02151.421 (Mandatory reporting of child abuse)",
+          "citation_text": "Ohio - Ohio Rev. Code § 2151.421 (Mandatory reporting of child abuse)",
           "source_url": "https://codes.ohio.gov/ohio-revised-code/chapter-2151",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Ohio - Ohio Rev. Code Chapter\u00a02151 (Juvenile Court \u2013 abuse, neglect, dependency)",
+          "citation_text": "Ohio - Ohio Rev. Code Chapter 2151 (Juvenile Court – abuse, neglect, dependency)",
           "source_url": "https://www.legislature.ohio.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
@@ -221,10 +221,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Job and Family Services",
-    "acronym": "ODJFS",
+    "name": "Ohio Department of Children and Youth",
+    "acronym": "DCY",
     "hotline": "1-855-642-4453",
-    "website": "https://www.legislature.ohio.gov"
+    "website": "https://childrenandyouth.ohio.gov/"
   },
   "linked_fail": "FAIL-06",
   "_metadata": {
@@ -265,7 +265,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

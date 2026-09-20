@@ -6,8 +6,8 @@
   "subnode": "DEC-05",
   "trigger_name": "File Petition / Open Dependency Case",
   "summary_html": "Agency **files a court petition** to open a **dependency** (or similar) case. Federal funding frameworks (IV-E/ASFA) link court oversight, reasonable-efforts findings, and permanency timelines to downstream actions.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 court findings; timelines; permanency planning  \n- **CFSR (45 CFR Part 1355)** \u2014 federal review of court/agency performance measures",
-  "icon": "\ud83d\udcdc",
+  "authority_html": "- **ASFA / SSA Title IV-E** — court findings; timelines; permanency planning  \n- **CFSR (45 CFR Part 1355)** — federal review of court/agency performance measures",
+  "icon": "📜",
   "theme_color": "#6A5ACD",
   "domain": "civil",
   "procedural_weight": 0.45,
@@ -21,13 +21,13 @@
   "layers": {
     "constitutional": {
       "constraints_triggered": [
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E)",
+        "42 U.S.C. §§ 670–679c (Title IV-E)",
         "Public Law 105-89 (ASFA)",
         "45 CFR Part 1355 (CFSR)"
       ]
@@ -43,14 +43,14 @@
           "node_specific": true
         },
         {
-          "citation_text": "Washington - RCW Chapter\u00a026.44 (Abuse of Children \u2013 mandatory reporting and investigations)",
+          "citation_text": "Washington - RCW Chapter 26.44 (Abuse of Children – mandatory reporting and investigations)",
           "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=26.44",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Washington - RCW Title\u00a013 (Juvenile Courts \u2013 includes dependency proceedings)",
+          "citation_text": "Washington - RCW Title 13 (Juvenile Courts – includes dependency proceedings)",
           "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=13.34",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -114,8 +114,8 @@
         {
           "provision_id": "WA_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Washington Const. art. I, \u00a7 3",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Washington Const. art. I, § 3",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -299,10 +299,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children, Youth, and Families",
+    "name": "Washington State Department of Children, Youth, and Families",
     "acronym": "DCYF",
     "hotline": "1-866-363-4276",
-    "website": "https://leg.wa.gov"
+    "website": "https://dcyf.wa.gov/"
   },
   "investigation_requirements": [
     "Victim interview required",
@@ -339,14 +339,14 @@
       "requirement_name": "Safety decision",
       "deadline": "Immediate upon contact",
       "starts_from": "First family contact",
-      "source": "admin_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Child safety risk"
     },
     {
       "requirement_name": "Disposition finding",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Procedural violation"
     }
   ],

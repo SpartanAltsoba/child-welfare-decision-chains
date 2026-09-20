@@ -5,9 +5,9 @@
   "node_family": "ACT",
   "subnode": "ACT-01",
   "trigger_name": "Voluntary Services",
-  "summary_html": "Family agrees to a **voluntary service plan**\u2014counseling, substance-use treatment, parenting classes\u2014designed to correct conditions without court compulsion. Federal law prioritizes family preservation through prevention and support services.",
-  "authority_html": "- **Family First Prevention Services Act (FFPSA)** \u2014 prevention services and kin support framework  \n- **SSA Title IV-B (42 U.S.C. \u00a7\u00a7 620\u2013629m)** \u2014 child-welfare services and family-preservation funding",
-  "icon": "\ud83e\udde9",
+  "summary_html": "Family agrees to a **voluntary service plan**—counseling, substance-use treatment, parenting classes—designed to correct conditions without court compulsion. Federal law prioritizes family preservation through prevention and support services.",
+  "authority_html": "- **Family First Prevention Services Act (FFPSA)** — prevention services and kin support framework  \n- **SSA Title IV-B (42 U.S.C. §§ 620–629m)** — child-welfare services and family-preservation funding",
+  "icon": "🧩",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -27,13 +27,13 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 115-123 (FFPSA)",
-        "42 U.S.C. \u00a7\u00a7 620\u2013629m (SSA Title IV-B)"
+        "42 U.S.C. §§ 620–629m (SSA Title IV-B)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Nevada - NRS Chapter\u00a0432B (Protection of Children from Abuse and Neglect)",
+          "citation_text": "Nevada - NRS Chapter 432B (Protection of Children from Abuse and Neglect)",
           "source_url": "https://www.leg.state.nv.us/NRS/NRS-432B.html",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -92,7 +92,7 @@
         {
           "provision_id": "NV_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Nevada Const. art. I, \u00a7 18",
+          "citation": "Nevada Const. art. I, § 18",
           "federal_parallel": "U.S. Const. amend. IV"
         }
       ]
@@ -255,10 +255,10 @@
     }
   },
   "state_agency": {
-    "name": "Division of Child and Family Services",
+    "name": "Nevada Division of Child and Family Services",
     "acronym": "DCFS",
-    "hotline": "1-833-803-1183",
-    "website": "https://www.leg.state.nv.us"
+    "hotline": "Clark County 702-399-0081; Washoe County 833-900-7233; all other counties 833-571-1041 (after hours: local law enforcement)",
+    "website": "https://dcfs.nv.gov/"
   },
   "icwa_compliant": true,
   "icwa_details": {
@@ -298,7 +298,7 @@
       "requirement_name": "Emergency removal hearing",
       "deadline": "24-72 hours",
       "starts_from": "Child removed",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Constitutional violation, case dismissal"
     },
     {

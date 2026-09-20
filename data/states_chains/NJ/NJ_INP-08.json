@@ -6,8 +6,8 @@
   "subnode": "INP-08",
   "trigger_name": "Educational Disclosure",
   "summary_html": "**Educators/school staff** observing indicators of abuse/neglect report to CPS under state mandatory-reporter lists built on the federal CAPTA floor.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 requires robust reporter regimes that include education sector professionals",
-  "icon": "\ud83c\udf93",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — requires robust reporter regimes that include education sector professionals",
+  "icon": "🎓",
   "theme_color": "#FFD700",
   "domain": "civil",
   "procedural_weight": 0.4,
@@ -23,13 +23,13 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "New Jersey - Title 9, Chapter 6 (Abuse of Children Act \u2013 all persons must report, e.g. \u00a7\u00a09:6-8.10)",
+          "citation_text": "New Jersey - Title 9, Chapter 6 (Abuse of Children Act – all persons must report, e.g. § 9:6-8.10)",
           "source_url": "https://www.njleg.state.nj.us",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
@@ -295,10 +295,10 @@
     }
   },
   "state_agency": {
-    "name": "Division of Child Protection and Permanency (DCF)",
-    "acronym": "DCPP",
+    "name": "New Jersey Division of Child Protection and Permanency",
+    "acronym": "CP&P",
     "hotline": "1-877-652-2873",
-    "website": "https://www.njleg.state.nj.us"
+    "website": "https://www.nj.gov/dcf/"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -376,14 +376,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

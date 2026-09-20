@@ -6,8 +6,8 @@
   "subnode": "DEC-04",
   "trigger_name": "Emergency Removal Decision",
   "summary_html": "Agency decides to **remove a child immediately** due to **imminent danger** prior to a court order. Federal law (ASFA/IV-E) requires later **court findings** on reasonable efforts; constitutional limits (due process; search/seizure) apply.",
-  "authority_html": "- **ASFA / SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 reasonable-efforts findings; permanency timelines  \n- **CFSR (45 CFR Part 1355)** \u2014 monitors safety & removal decision quality",
-  "icon": "\ud83d\udea8",
+  "authority_html": "- **ASFA / SSA Title IV-E (42 U.S.C. §§ 670–679c)** — reasonable-efforts findings; permanency timelines  \n- **CFSR (45 CFR Part 1355)** — monitors safety & removal decision quality",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.35,
@@ -22,13 +22,13 @@
     "constitutional": {
       "constraints_triggered": [
         "U.S. Const. amend. IV",
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E)",
+        "42 U.S.C. §§ 670–679c (Title IV-E)",
         "Public Law 105-89 (ASFA)",
         "45 CFR Part 1355 (CFSR)"
       ]
@@ -36,7 +36,7 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "South Dakota - S.D. Codified Laws Chapter\u00a026-8A (Protection of Children \u2013 mandatory reporting and CPS)",
+          "citation_text": "South Dakota - S.D. Codified Laws Chapter 26-8A (Protection of Children – mandatory reporting and CPS)",
           "source_url": "https://sdlegislature.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
@@ -150,14 +150,14 @@
         {
           "provision_id": "SD_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "South Dakota Const. art. VI, \u00a7 11",
+          "citation": "South Dakota Const. art. VI, § 11",
           "federal_parallel": "U.S. Const. amend. IV"
         },
         {
           "provision_id": "SD_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "South Dakota Const. art. VI, \u00a7 2",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "South Dakota Const. art. VI, § 2",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -264,7 +264,7 @@
         },
         {
           "case_id": "30488",
-          "title": "In The Matter Of The Interpretation Of South Dakota Constitution And State Law Re: State Legislator\u2019s Interest In State Or County Contracts",
+          "title": "In The Matter Of The Interpretation Of South Dakota Constitution And State Law Re: State Legislator’s Interest In State Or County Contracts",
           "url": "https://law.justia.com/cases/south-dakota/supreme-court/2024/30488.html",
           "year": 2024,
           "court": "Supreme Court",
@@ -319,10 +319,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Social Services",
-    "acronym": "DSS",
+    "name": "South Dakota Department of Social Services, Division of Child Protection Services",
+    "acronym": "CPS",
     "hotline": "1-877-244-0864",
-    "website": "https://sdlegislature.gov"
+    "website": "https://dss.sd.gov/childprotection/"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -360,14 +360,14 @@
       "requirement_name": "Safety decision",
       "deadline": "Immediate upon contact",
       "starts_from": "First family contact",
-      "source": "admin_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Child safety risk"
     },
     {
       "requirement_name": "Disposition finding",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Procedural violation"
     }
   ],

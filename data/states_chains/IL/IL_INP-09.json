@@ -6,8 +6,8 @@
   "subnode": "INP-09",
   "trigger_name": "Systemic Audit / Oversight Trigger",
   "summary_html": "Findings by **federal/state oversight** (CFSR reviews, OIG audits, child-fatality commissions) can initiate investigations or corrective actions that open CPS involvement.",
-  "authority_html": "- **Protect Our Kids Act (PL 112-275)** \u2014 national commission on child abuse/neglect fatalities  \n- **Child & Family Services Reviews (45 CFR Part 1355)** \u2014 federal monitoring of state systems  \n- **Inspector General Act (5 U.S.C. App.)** \u2014 OIG oversight of HHS/ACF and grantees",
-  "icon": "\ud83e\uddfe",
+  "authority_html": "- **Protect Our Kids Act (PL 112-275)** — national commission on child abuse/neglect fatalities  \n- **Child & Family Services Reviews (45 CFR Part 1355)** — federal monitoring of state systems  \n- **Inspector General Act (5 U.S.C. App.)** — OIG oversight of HHS/ACF and grantees",
+  "icon": "🧾",
   "theme_color": "#708090",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -42,7 +42,7 @@
           "deep_link": true
         },
         {
-          "citation_text": "Illinois - 705 ILCS 405/2 (Juvenile Court Act \u2013 abuse/neglect proceedings)",
+          "citation_text": "Illinois - 705 ILCS 405/2 (Juvenile Court Act – abuse/neglect proceedings)",
           "source_url": "https://law.onecle.com/illinois/705ilcs5/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -317,10 +317,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children and Family Services",
+    "name": "Illinois Department of Children and Family Services",
     "acronym": "DCFS",
     "hotline": "1-800-252-2873",
-    "website": "https://www.ilga.gov"
+    "website": "https://dcfs.illinois.gov/"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -400,14 +400,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

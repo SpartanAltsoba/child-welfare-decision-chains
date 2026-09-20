@@ -6,8 +6,8 @@
   "subnode": "ACT-06",
   "trigger_name": "Emergency Medical/Psychological Care",
   "summary_html": "Agency or court authorizes **immediate medical or psychological care** when delay endangers life or safety. Federal statutes support medical access and confidentiality exceptions for child protection.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 permits emergency medical actions for abused/neglected children  \n- **Victims of Child Abuse Act (34 U.S.C. \u00a7\u00a7 20301\u201320307)** \u2014 multidisciplinary response and medical-exam standards",
-  "icon": "\ud83c\udfe5",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — permits emergency medical actions for abused/neglected children  \n- **Victims of Child Abuse Act (34 U.S.C. §§ 20301–20307)** — multidisciplinary response and medical-exam standards",
+  "icon": "🏥",
   "theme_color": "#FF69B4",
   "domain": "civil",
   "procedural_weight": 0.4,
@@ -23,21 +23,21 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
-        "34 U.S.C. \u00a7\u00a7 20301\u201320307 (VICAA)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
+        "34 U.S.C. §§ 20301–20307 (VICAA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Ohio - Ohio Rev. Code \u00a7\u00a02151.421 (Mandatory reporting of child abuse)",
+          "citation_text": "Ohio - Ohio Rev. Code § 2151.421 (Mandatory reporting of child abuse)",
           "source_url": "https://codes.ohio.gov/ohio-revised-code/chapter-2151",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Ohio - Ohio Rev. Code Chapter\u00a02151 (Juvenile Court \u2013 abuse, neglect, dependency)",
+          "citation_text": "Ohio - Ohio Rev. Code Chapter 2151 (Juvenile Court – abuse, neglect, dependency)",
           "source_url": "https://www.legislature.ohio.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
@@ -224,10 +224,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Job and Family Services",
-    "acronym": "ODJFS",
+    "name": "Ohio Department of Children and Youth",
+    "acronym": "DCY",
     "hotline": "1-855-642-4453",
-    "website": "https://www.legislature.ohio.gov"
+    "website": "https://childrenandyouth.ohio.gov/"
   },
   "linked_decision": "DEC-04",
   "linked_input": "INP-07",
@@ -262,7 +262,7 @@
       "requirement_name": "Emergency removal hearing",
       "deadline": "24-72 hours",
       "starts_from": "Child removed",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Constitutional violation, case dismissal"
     },
     {

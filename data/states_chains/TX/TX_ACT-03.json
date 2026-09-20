@@ -6,8 +6,8 @@
   "subnode": "ACT-03",
   "trigger_name": "Foster Care Placement",
   "summary_html": "The child is **removed from the home** and placed in foster care under court order or emergency authority. Federal statutes tie funding to safety findings, judicial oversight, and permanency planning.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal monitoring of placement decisions",
-  "icon": "\ud83d\udea8",
+  "authority_html": "- **ASFA / SSA Title IV-E** — removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** — federal monitoring of placement decisions",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.35,
@@ -21,28 +21,28 @@
     "constitutional": {
       "constraints_triggered": [
         "U.S. Const. amend. IV",
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)",
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Texas - Texas Family Code Chapter\u00a0261 (Investigation of Report of Abuse or Neglect)",
+          "citation_text": "Texas - Texas Family Code Chapter 261 (Investigation of Report of Abuse or Neglect)",
           "source_url": "https://statutes.capitol.texas.gov/Docs/FA/htm/FA.261.htm",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Texas - Texas Family Code Chapter\u00a0262 (Removal of Child in an Emergency)",
+          "citation_text": "Texas - Texas Family Code Chapter 262 (Removal of Child in an Emergency)",
           "source_url": "https://statutes.capitol.texas.gov/Docs/FA/htm/FA.262.htm",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -130,14 +130,14 @@
         {
           "provision_id": "TX_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Texas Const. art. I, \u00a7 9",
+          "citation": "Texas Const. art. I, § 9",
           "federal_parallel": "U.S. Const. amend. IV"
         },
         {
           "provision_id": "TX_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Texas Const. art. I, \u00a7 19",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Texas Const. art. I, § 19",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -286,10 +286,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Family and Protective Services",
+    "name": "Texas Department of Family and Protective Services",
     "acronym": "DFPS",
     "hotline": "1-800-252-5400",
-    "website": "https://capitol.texas.gov"
+    "website": "https://www.dfps.texas.gov/"
   },
   "linked_decision": "DEC-04",
   "linked_input": "INP-01",
@@ -324,7 +324,7 @@
       "requirement_name": "Emergency removal hearing",
       "deadline": "24-72 hours",
       "starts_from": "Child removed",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Constitutional violation, case dismissal"
     },
     {

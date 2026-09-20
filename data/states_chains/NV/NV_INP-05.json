@@ -6,8 +6,8 @@
   "subnode": "INP-05",
   "trigger_name": "Self-Report / Guardian Request",
   "summary_html": "A **parent/guardian/child requests help** without a substantiated allegation. FFPSA created a federal pathway for **prevention services** to avert removal and stabilize families before a case escalates.",
-  "authority_html": "- **Family First Prevention Services Act (2018)** \u2014 prevention services, kinship support; shifts upstream from removal to support",
-  "icon": "\ud83e\udde9",
+  "authority_html": "- **Family First Prevention Services Act (2018)** — prevention services, kinship support; shifts upstream from removal to support",
+  "icon": "🧩",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -24,13 +24,13 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 671\u2013679b (FFPSA-related IV-E changes)"
+        "42 U.S.C. §§ 671–679b (FFPSA-related IV-E changes)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Nevada - NRS Chapter\u00a0432B (Protection of Children from Abuse and Neglect)",
+          "citation_text": "Nevada - NRS Chapter 432B (Protection of Children from Abuse and Neglect)",
           "source_url": "https://www.leg.state.nv.us/NRS/NRS-432B.html",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -244,10 +244,10 @@
     }
   },
   "state_agency": {
-    "name": "Division of Child and Family Services",
+    "name": "Nevada Division of Child and Family Services",
     "acronym": "DCFS",
-    "hotline": "1-833-803-1183",
-    "website": "https://www.leg.state.nv.us"
+    "hotline": "Clark County 702-399-0081; Washoe County 833-900-7233; all other counties 833-571-1041 (after hours: local law enforcement)",
+    "website": "https://dcfs.nv.gov/"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -322,14 +322,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

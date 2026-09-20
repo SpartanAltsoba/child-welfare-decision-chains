@@ -6,8 +6,8 @@
   "subnode": "ACT-03",
   "trigger_name": "Foster Care Placement",
   "summary_html": "The child is **removed from the home** and placed in foster care under court order or emergency authority. Federal statutes tie funding to safety findings, judicial oversight, and permanency planning.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal monitoring of placement decisions",
-  "icon": "\ud83d\udea8",
+  "authority_html": "- **ASFA / SSA Title IV-E** — removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** — federal monitoring of placement decisions",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.35,
@@ -25,14 +25,14 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)",
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "District of Columbia - D.C. Code \u00a7 16-2301 et seq. (Family Division Definitions)",
+          "citation_text": "District of Columbia - D.C. Code § 16-2301 et seq. (Family Division Definitions)",
           "source_url": "https://code.dccouncil.gov/us/dc/council/code/titles/16/chapters/2301",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -215,7 +215,7 @@
     "name": "Child and Family Services Agency",
     "acronym": "CFSA",
     "hotline": "202-671-7233",
-    "website": ""
+    "website": "https://cfsa.dc.gov/"
   },
   "linked_decision": "DEC-04",
   "linked_input": "INP-01",
@@ -250,7 +250,7 @@
       "requirement_name": "Emergency removal hearing",
       "deadline": "24-72 hours",
       "starts_from": "Child removed",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Constitutional violation, case dismissal"
     },
     {

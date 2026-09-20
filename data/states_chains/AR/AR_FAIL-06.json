@@ -6,8 +6,8 @@
   "subnode": "FAIL-06",
   "trigger_name": "Disclosure / Transparency Failure",
   "summary_html": "Agency fails to **disclose required data or reports**, obstructing transparency. Federal statutes require public reporting under CAPTA, FOIA, and Sunshine provisions.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 mandates public availability of child-fatality information  \n- **Freedom of Information Act (5 U.S.C. \u00a7 552)** \u2014 public access to federal records  \n- **Government in the Sunshine Act (5 U.S.C. \u00a7 552b)** \u2014 open-meeting requirements",
-  "icon": "\ud83d\udd73\ufe0f",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — mandates public availability of child-fatality information  \n- **Freedom of Information Act (5 U.S.C. § 552)** — public access to federal records  \n- **Government in the Sunshine Act (5 U.S.C. § 552b)** — open-meeting requirements",
+  "icon": "🕳️",
   "theme_color": "#708090",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -24,21 +24,21 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
-        "5 U.S.C. \u00a7 552 (FOIA)",
-        "5 U.S.C. \u00a7 552b (Sunshine Act)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
+        "5 U.S.C. § 552 (FOIA)",
+        "5 U.S.C. § 552b (Sunshine Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Arkansas - Title 12, Chapter 18 (Child Maltreatment Act \u2013 reporting and investigation)",
+          "citation_text": "Arkansas - Title 12, Chapter 18 (Child Maltreatment Act – reporting and investigation)",
           "source_url": "https://www.arkleg.state.ar.us",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
         },
         {
-          "citation_text": "Arkansas - Title 9, Chapter 27 (Juvenile Code \u2013 dependency-neglect cases)",
+          "citation_text": "Arkansas - Title 9, Chapter 27 (Juvenile Code – dependency-neglect cases)",
           "source_url": "https://www.arkleg.state.ar.us",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
@@ -244,10 +244,10 @@
     }
   },
   "state_agency": {
-    "name": "Division of Children and Family Services",
+    "name": "Arkansas Department of Human Services, Division of Children and Family Services",
     "acronym": "DCFS",
     "hotline": "1-800-482-5964",
-    "website": "https://www.arkleg.state.ar.us"
+    "website": "https://humanservices.arkansas.gov/divisions-shared-services/children-family-services/"
   },
   "linked_output": "OUT-06",
   "linked_action": "ACT-03",
@@ -284,7 +284,7 @@
       "requirement_name": "Appeal deadline",
       "deadline": "30 days",
       "starts_from": "Final order",
-      "source": "court_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Loss of appeal rights"
     },
     {

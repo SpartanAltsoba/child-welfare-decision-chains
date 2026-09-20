@@ -6,8 +6,8 @@
   "subnode": "INP-05",
   "trigger_name": "Self-Report / Guardian Request",
   "summary_html": "A **parent/guardian/child requests help** without a substantiated allegation. FFPSA created a federal pathway for **prevention services** to avert removal and stabilize families before a case escalates.",
-  "authority_html": "- **Family First Prevention Services Act (2018)** \u2014 prevention services, kinship support; shifts upstream from removal to support",
-  "icon": "\ud83e\udde9",
+  "authority_html": "- **Family First Prevention Services Act (2018)** — prevention services, kinship support; shifts upstream from removal to support",
+  "icon": "🧩",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -24,7 +24,7 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 671\u2013679b (FFPSA-related IV-E changes)"
+        "42 U.S.C. §§ 671–679b (FFPSA-related IV-E changes)"
       ]
     },
     "state_statutory": {
@@ -37,7 +37,7 @@
           "deep_link": true
         },
         {
-          "citation_text": "Georgia - Title 15, Chapter 11 (Juvenile Code \u2013 dependency proceedings)",
+          "citation_text": "Georgia - Title 15, Chapter 11 (Juvenile Code – dependency proceedings)",
           "source_url": "https://www.lexisnexis.com/hottopics/gacode/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -144,7 +144,7 @@
         },
         {
           "case_id": "s26y0129",
-          "title": "IN THE MATTER OF JE\u2019NITA LANE",
+          "title": "IN THE MATTER OF JE’NITA LANE",
           "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s26y0129.html",
           "year": 2025,
           "court": "Supreme Court",
@@ -251,10 +251,10 @@
     }
   },
   "state_agency": {
-    "name": "Division of Family and Children Services",
+    "name": "Georgia Division of Family and Children Services",
     "acronym": "DFCS",
     "hotline": "1-855-422-4453",
-    "website": "https://www.legis.ga.gov"
+    "website": "https://dfcs.georgia.gov/"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -325,14 +325,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

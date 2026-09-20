@@ -5,9 +5,9 @@
   "node_family": "PMC",
   "subnode": "PMC-03",
   "trigger_name": "Citizen Review Panels",
-  "summary_html": "**CAPTA \u00a75106a(c)** requires every state to maintain **Citizen Review Panels** that evaluate CPS policies. Project Milk Carton checks whether panels are active, independent, and publicly reporting.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7 5106a(c))** \u2014 Citizen Review Panel mandate and reporting requirements",
-  "icon": "\ud83d\udde3\ufe0f",
+  "summary_html": "**CAPTA §5106a(c)** requires every state to maintain **Citizen Review Panels** that evaluate CPS policies. Project Milk Carton checks whether panels are active, independent, and publicly reporting.",
+  "authority_html": "- **CAPTA (42 U.S.C. § 5106a(c))** — Citizen Review Panel mandate and reporting requirements",
+  "icon": "🗣️",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -22,13 +22,13 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7 5106a(c) (CAPTA)"
+        "42 U.S.C. § 5106a(c) (CAPTA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Iowa - Title VI, Chapter 232 (Juvenile Justice \u2013 includes mandatory reporting and child in need of assistance)",
+          "citation_text": "Iowa - Title VI, Chapter 232 (Juvenile Justice – includes mandatory reporting and child in need of assistance)",
           "source_url": "https://www.legis.iowa.gov/law/iowaCode/sections?codeChapter=232",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -189,10 +189,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Services",
-    "acronym": "DHS",
+    "name": "Iowa Department of Health and Human Services, Child Protective Services",
+    "acronym": "Iowa HHS",
     "hotline": "1-800-362-2178",
-    "website": "https://www.legis.iowa.gov"
+    "website": "https://hhs.iowa.gov/programs/CPS"
   },
   "linked_fail": "FAIL-06",
   "_metadata": {
@@ -233,7 +233,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

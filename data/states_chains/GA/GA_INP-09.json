@@ -6,8 +6,8 @@
   "subnode": "INP-09",
   "trigger_name": "Systemic Audit / Oversight Trigger",
   "summary_html": "Findings by **federal/state oversight** (CFSR reviews, OIG audits, child-fatality commissions) can initiate investigations or corrective actions that open CPS involvement.",
-  "authority_html": "- **Protect Our Kids Act (PL 112-275)** \u2014 national commission on child abuse/neglect fatalities  \n- **Child & Family Services Reviews (45 CFR Part 1355)** \u2014 federal monitoring of state systems  \n- **Inspector General Act (5 U.S.C. App.)** \u2014 OIG oversight of HHS/ACF and grantees",
-  "icon": "\ud83e\uddfe",
+  "authority_html": "- **Protect Our Kids Act (PL 112-275)** — national commission on child abuse/neglect fatalities  \n- **Child & Family Services Reviews (45 CFR Part 1355)** — federal monitoring of state systems  \n- **Inspector General Act (5 U.S.C. App.)** — OIG oversight of HHS/ACF and grantees",
+  "icon": "🧾",
   "theme_color": "#708090",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -42,7 +42,7 @@
           "deep_link": true
         },
         {
-          "citation_text": "Georgia - Title 15, Chapter 11 (Juvenile Code \u2013 dependency proceedings)",
+          "citation_text": "Georgia - Title 15, Chapter 11 (Juvenile Code – dependency proceedings)",
           "source_url": "https://www.lexisnexis.com/hottopics/gacode/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -136,7 +136,7 @@
         },
         {
           "case_id": "s26y0129",
-          "title": "IN THE MATTER OF JE\u2019NITA LANE",
+          "title": "IN THE MATTER OF JE’NITA LANE",
           "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s26y0129.html",
           "year": 2025,
           "court": "Supreme Court",
@@ -256,10 +256,10 @@
     }
   },
   "state_agency": {
-    "name": "Division of Family and Children Services",
+    "name": "Georgia Division of Family and Children Services",
     "acronym": "DFCS",
     "hotline": "1-855-422-4453",
-    "website": "https://www.legis.ga.gov"
+    "website": "https://dfcs.georgia.gov/"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -330,14 +330,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

@@ -6,8 +6,8 @@
   "subnode": "PMC-06",
   "trigger_name": "Project Milk Carton AI Analysis",
   "summary_html": "The **Project Milk Carton AI Layer** performs cross-analysis of federal and state chains to identify weak points, policy gaps, and non-compliance. This is the citizen feedback mechanism for accountability and reform.",
-  "authority_html": "No direct statutory authority \u2014 citizen innovation layer built on public data and federal transparency laws.",
-  "icon": "\ud83e\udd16",
+  "authority_html": "No direct statutory authority — citizen innovation layer built on public data and federal transparency laws.",
+  "icon": "🤖",
   "theme_color": "#20B2AA",
   "domain": "civil",
   "procedural_weight": 0.9,
@@ -26,7 +26,7 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Oregon - ORS Chapter\u00a0419B (Juvenile Code: Dependency and Abuse \u2013 includes mandatory reporting \u00a7\u00a7\u00a0419B.005\u2013419B.050)",
+          "citation_text": "Oregon - ORS Chapter 419B (Juvenile Code: Dependency and Abuse – includes mandatory reporting §§ 419B.005–419B.050)",
           "source_url": "https://www.oregonlegislature.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
@@ -230,10 +230,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Services",
-    "acronym": "DHS",
+    "name": "Oregon Department of Human Services, Child Welfare Division",
+    "acronym": "ODHS",
     "hotline": "1-855-503-7233",
-    "website": "https://www.oregonlegislature.gov"
+    "website": "https://www.oregon.gov/odhs/child-safety/pages/default.aspx"
   },
   "linked_fail": "ALL",
   "_metadata": {
@@ -274,7 +274,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

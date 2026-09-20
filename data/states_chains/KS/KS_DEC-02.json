@@ -6,8 +6,8 @@
   "subnode": "DEC-02",
   "trigger_name": "Accept for Investigation / Assessment",
   "summary_html": "CPS **accepts** a report for **investigation/assessment**. CAPTA sets the floor for investigation procedures; CFSR evaluates timeliness, safety, and decision quality.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 investigation standards tied to funding  \n- **CFSR (45 CFR Part 1355)** \u2014 timeliness & response conformity indicators",
-  "icon": "\ud83d\uddc2\ufe0f",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — investigation standards tied to funding  \n- **CFSR (45 CFR Part 1355)** — timeliness & response conformity indicators",
+  "icon": "🗂️",
   "theme_color": "#2E8B57",
   "domain": "civil",
   "procedural_weight": 0.55,
@@ -23,14 +23,14 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Kansas - Chapter 38, Article 22 (Kansas Child in Need of Care Code \u2013 mandatory reporting \u00a7 38-2223)",
+          "citation_text": "Kansas - Chapter 38, Article 22 (Kansas Child in Need of Care Code – mandatory reporting § 38-2223)",
           "source_url": "https://www.kslegislature.org",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
@@ -244,10 +244,10 @@
     }
   },
   "state_agency": {
-    "name": "Department for Children and Families",
+    "name": "Kansas Department for Children and Families",
     "acronym": "DCF",
     "hotline": "1-800-922-5330",
-    "website": "https://www.kslegislature.org"
+    "website": "https://www.dcf.ks.gov/"
   },
   "investigation_requirements": [
     "Victim interview required",
@@ -284,14 +284,14 @@
       "requirement_name": "Safety decision",
       "deadline": "Immediate upon contact",
       "starts_from": "First family contact",
-      "source": "admin_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Child safety risk"
     },
     {
       "requirement_name": "Disposition finding",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Procedural violation"
     }
   ],

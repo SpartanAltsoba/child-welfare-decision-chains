@@ -6,8 +6,8 @@
   "subnode": "DEC-03",
   "trigger_name": "Substantiated / Founded Finding",
   "summary_html": "Agency makes a **substantiated (founded)** finding of abuse/neglect. This decision often unlocks **court petitions**, **service mandates**, and **federal reporting** duties.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 definitions floor; data & record requirements  \n- **CFSR (45 CFR Part 1355)** \u2014 outcomes & safety performance reviews",
-  "icon": "\u2705",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — definitions floor; data & record requirements  \n- **CFSR (45 CFR Part 1355)** — outcomes & safety performance reviews",
+  "icon": "✅",
   "theme_color": "#8B008B",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -23,21 +23,21 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Missouri - Mo. Rev. Stat. Chapter\u00a0210 (Child Protection and Reformation \u2013 includes \u00a7\u00a0210.115 reporting)",
+          "citation_text": "Missouri - Mo. Rev. Stat. Chapter 210 (Child Protection and Reformation – includes § 210.115 reporting)",
           "source_url": "https://revisor.mo.gov/main/OneChapter.aspx?chapter=210",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Missouri - Missouri Supreme Court Rules \u2013 Juvenile Proceedings (for abuse/neglect cases)",
+          "citation_text": "Missouri - Missouri Supreme Court Rules – Juvenile Proceedings (for abuse/neglect cases)",
           "source_url": "https://www.mo.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
@@ -316,10 +316,10 @@
     }
   },
   "state_agency": {
-    "name": "Children's Division (DSS)",
-    "acronym": "DSS-CD",
+    "name": "Missouri Department of Social Services, Children's Division",
+    "acronym": "CD",
     "hotline": "1-800-392-3738",
-    "website": "https://www.mo.gov"
+    "website": "https://dss.mo.gov/cd"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -357,14 +357,14 @@
       "requirement_name": "Safety decision",
       "deadline": "Immediate upon contact",
       "starts_from": "First family contact",
-      "source": "admin_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Child safety risk"
     },
     {
       "requirement_name": "Disposition finding",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Procedural violation"
     }
   ],

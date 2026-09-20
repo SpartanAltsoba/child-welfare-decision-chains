@@ -6,8 +6,8 @@
   "subnode": "INP-09",
   "trigger_name": "Systemic Audit / Oversight Trigger",
   "summary_html": "Findings by **federal/state oversight** (CFSR reviews, OIG audits, child-fatality commissions) can initiate investigations or corrective actions that open CPS involvement.",
-  "authority_html": "- **Protect Our Kids Act (PL 112-275)** \u2014 national commission on child abuse/neglect fatalities  \n- **Child & Family Services Reviews (45 CFR Part 1355)** \u2014 federal monitoring of state systems  \n- **Inspector General Act (5 U.S.C. App.)** \u2014 OIG oversight of HHS/ACF and grantees",
-  "icon": "\ud83e\uddfe",
+  "authority_html": "- **Protect Our Kids Act (PL 112-275)** — national commission on child abuse/neglect fatalities  \n- **Child & Family Services Reviews (45 CFR Part 1355)** — federal monitoring of state systems  \n- **Inspector General Act (5 U.S.C. App.)** — OIG oversight of HHS/ACF and grantees",
+  "icon": "🧾",
   "theme_color": "#708090",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -42,7 +42,7 @@
           "deep_link": true
         },
         {
-          "citation_text": "District of Columbia - D.C. Code \u00a7 4-1321.02 (Mandatory Reporting)",
+          "citation_text": "District of Columbia - D.C. Code § 4-1321.02 (Mandatory Reporting)",
           "source_url": "https://code.dccouncil.gov/us/dc/council/code/titles/4/chapters/1321",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -216,7 +216,7 @@
     "name": "Child and Family Services Agency",
     "acronym": "CFSA",
     "hotline": "202-671-7233",
-    "website": ""
+    "website": "https://cfsa.dc.gov/"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -294,14 +294,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

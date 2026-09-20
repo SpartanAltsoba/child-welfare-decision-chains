@@ -5,9 +5,9 @@
   "node_family": "PMC",
   "subnode": "PMC-03",
   "trigger_name": "Citizen Review Panels",
-  "summary_html": "**CAPTA \u00a75106a(c)** requires every state to maintain **Citizen Review Panels** that evaluate CPS policies. Project Milk Carton checks whether panels are active, independent, and publicly reporting.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7 5106a(c))** \u2014 Citizen Review Panel mandate and reporting requirements",
-  "icon": "\ud83d\udde3\ufe0f",
+  "summary_html": "**CAPTA §5106a(c)** requires every state to maintain **Citizen Review Panels** that evaluate CPS policies. Project Milk Carton checks whether panels are active, independent, and publicly reporting.",
+  "authority_html": "- **CAPTA (42 U.S.C. § 5106a(c))** — Citizen Review Panel mandate and reporting requirements",
+  "icon": "🗣️",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -22,20 +22,20 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7 5106a(c) (CAPTA)"
+        "42 U.S.C. § 5106a(c) (CAPTA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Missouri - Mo. Rev. Stat. Chapter\u00a0210 (Child Protection and Reformation \u2013 includes \u00a7\u00a0210.115 reporting)",
+          "citation_text": "Missouri - Mo. Rev. Stat. Chapter 210 (Child Protection and Reformation – includes § 210.115 reporting)",
           "source_url": "https://revisor.mo.gov/main/OneChapter.aspx?chapter=210",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Missouri - Missouri Supreme Court Rules \u2013 Juvenile Proceedings (for abuse/neglect cases)",
+          "citation_text": "Missouri - Missouri Supreme Court Rules – Juvenile Proceedings (for abuse/neglect cases)",
           "source_url": "https://www.mo.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
@@ -313,10 +313,10 @@
     }
   },
   "state_agency": {
-    "name": "Children's Division (DSS)",
-    "acronym": "DSS-CD",
+    "name": "Missouri Department of Social Services, Children's Division",
+    "acronym": "CD",
     "hotline": "1-800-392-3738",
-    "website": "https://www.mo.gov"
+    "website": "https://dss.mo.gov/cd"
   },
   "linked_fail": "FAIL-06",
   "_metadata": {
@@ -357,7 +357,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

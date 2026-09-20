@@ -6,8 +6,8 @@
   "subnode": "ACT-04",
   "trigger_name": "Kinship Placement",
   "summary_html": "Agency places a child with **relatives or kin caregivers** instead of non-relative foster care. Federal law favors kinship care as least-restrictive, family-preserving placement.",
-  "authority_html": "- **Fostering Connections to Success and Increasing Adoptions Act (FCSIAA 2008)** \u2014 kinship-care incentives  \n- **SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 reimbursement for approved kin placements",
-  "icon": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67",
+  "authority_html": "- **Fostering Connections to Success and Increasing Adoptions Act (FCSIAA 2008)** — kinship-care incentives  \n- **SSA Title IV-E (42 U.S.C. §§ 670–679c)** — reimbursement for approved kin placements",
+  "icon": "👨‍👩‍👧",
   "theme_color": "#FFD700",
   "domain": "civil",
   "procedural_weight": 0.45,
@@ -20,20 +20,20 @@
   "layers": {
     "constitutional": {
       "constraints_triggered": [
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
         "Public Law 110-351 (FCSIAA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)"
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "South Carolina - S.C. Code Title\u00a063, Chapter\u00a07 (Child Protection Act \u2013 includes \u00a7\u00a063-7-310 reporting)",
+          "citation_text": "South Carolina - S.C. Code Title 63, Chapter 7 (Child Protection Act – includes § 63-7-310 reporting)",
           "source_url": "https://www.scstatehouse.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
@@ -82,8 +82,8 @@
         {
           "provision_id": "SC_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "South Carolina Const. art. I, \u00a7 3",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "South Carolina Const. art. I, § 3",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -245,10 +245,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Social Services",
+    "name": "South Carolina Department of Social Services",
     "acronym": "DSS",
     "hotline": "1-888-227-3487",
-    "website": "https://www.scstatehouse.gov"
+    "website": "https://dss.sc.gov/"
   },
   "linked_decision": "DEC-04",
   "linked_input": "INP-01",
@@ -283,7 +283,7 @@
       "requirement_name": "Emergency removal hearing",
       "deadline": "24-72 hours",
       "starts_from": "Child removed",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Constitutional violation, case dismissal"
     },
     {

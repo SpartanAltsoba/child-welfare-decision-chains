@@ -6,8 +6,8 @@
   "subnode": "DEC-01",
   "trigger_name": "Screen-Out / Unfounded at Intake",
   "summary_html": "CPS **screens out** a report (no investigation) or closes as **unfounded** after minimal review. Federal law (CAPTA) conditions funding on operating screening criteria and recordkeeping; federal reviews (CFSR) assess decision quality.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 screening & intake system requirements  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal performance/quality review of state screening and responses",
-  "icon": "\ud83d\udeab",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — screening & intake system requirements  \n- **CFSR Regulations (45 CFR Part 1355)** — federal performance/quality review of state screening and responses",
+  "icon": "🚫",
   "theme_color": "#4B9CD3",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -26,14 +26,14 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "South Dakota - S.D. Codified Laws Chapter\u00a026-8A (Protection of Children \u2013 mandatory reporting and CPS)",
+          "citation_text": "South Dakota - S.D. Codified Laws Chapter 26-8A (Protection of Children – mandatory reporting and CPS)",
           "source_url": "https://sdlegislature.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
@@ -248,7 +248,7 @@
         },
         {
           "case_id": "30488",
-          "title": "In The Matter Of The Interpretation Of South Dakota Constitution And State Law Re: State Legislator\u2019s Interest In State Or County Contracts",
+          "title": "In The Matter Of The Interpretation Of South Dakota Constitution And State Law Re: State Legislator’s Interest In State Or County Contracts",
           "url": "https://law.justia.com/cases/south-dakota/supreme-court/2024/30488.html",
           "year": 2024,
           "court": "Supreme Court",
@@ -303,10 +303,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Social Services",
-    "acronym": "DSS",
+    "name": "South Dakota Department of Social Services, Division of Child Protection Services",
+    "acronym": "CPS",
     "hotline": "1-877-244-0864",
-    "website": "https://sdlegislature.gov"
+    "website": "https://dss.sd.gov/childprotection/"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -344,14 +344,14 @@
       "requirement_name": "Safety decision",
       "deadline": "Immediate upon contact",
       "starts_from": "First family contact",
-      "source": "admin_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Child safety risk"
     },
     {
       "requirement_name": "Disposition finding",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Procedural violation"
     }
   ],

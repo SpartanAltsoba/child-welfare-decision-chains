@@ -6,8 +6,8 @@
   "subnode": "INP-02",
   "trigger_name": "Voluntary / Third-Party Report",
   "summary_html": "Any person (not just mandated reporters) may submit a **voluntary report** to child-protection authorities. CAPTA requires states to maintain mechanisms for intake, confidentiality, and immunity policies tied to federal funding.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 requires states to operate intake/report systems that accept voluntary reports and protect good-faith reporters",
-  "icon": "\ud83d\udde3\ufe0f",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — requires states to operate intake/report systems that accept voluntary reports and protect good-faith reporters",
+  "icon": "🗣️",
   "theme_color": "#00CED1",
   "domain": "civil",
   "procedural_weight": 0.4,
@@ -24,7 +24,7 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)"
       ]
     },
     "state_statutory": {
@@ -269,10 +269,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Services",
-    "acronym": "DHS",
+    "name": "Hawaii Department of Human Services, Child Welfare Services",
+    "acronym": "CWS",
     "hotline": "808-832-5300",
-    "website": "https://www.capitol.hawaii.gov"
+    "website": "https://humanservices.hawaii.gov/ssd/home/child-welfare-services/"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -347,14 +347,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

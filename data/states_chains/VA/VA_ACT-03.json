@@ -6,8 +6,8 @@
   "subnode": "ACT-03",
   "trigger_name": "Foster Care Placement",
   "summary_html": "The child is **removed from the home** and placed in foster care under court order or emergency authority. Federal statutes tie funding to safety findings, judicial oversight, and permanency planning.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal monitoring of placement decisions",
-  "icon": "\ud83d\udea8",
+  "authority_html": "- **ASFA / SSA Title IV-E** — removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** — federal monitoring of placement decisions",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.35,
@@ -21,27 +21,27 @@
     "constitutional": {
       "constraints_triggered": [
         "U.S. Const. amend. IV",
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)",
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Virginia - Va. Code Title\u00a063.2, Chapter\u00a015 (Child Abuse and Neglect \u2013 includes \u00a7\u00a063.2-1509 reporting)",
+          "citation_text": "Virginia - Va. Code Title 63.2, Chapter 15 (Child Abuse and Neglect – includes § 63.2-1509 reporting)",
           "source_url": "https://virginiageneralassembly.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
         },
         {
-          "citation_text": "Virginia - Va. Code \u00a7\u00a016.1-241(A) et seq. (Juvenile & Domestic Relations jurisdiction for abuse/neglect)",
+          "citation_text": "Virginia - Va. Code § 16.1-241(A) et seq. (Juvenile & Domestic Relations jurisdiction for abuse/neglect)",
           "source_url": "https://law.lis.virginia.gov/vacode/title16.1/chapter241/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -125,14 +125,14 @@
         {
           "provision_id": "VA_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Virginia Const. art. I, \u00a7 10",
+          "citation": "Virginia Const. art. I, § 10",
           "federal_parallel": "U.S. Const. amend. IV"
         },
         {
           "provision_id": "VA_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Virginia Const. art. I, \u00a7 11",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Virginia Const. art. I, § 11",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -216,10 +216,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Social Services",
-    "acronym": "DSS",
+    "name": "Virginia Department of Social Services",
+    "acronym": "VDSS",
     "hotline": "1-800-552-7096",
-    "website": "https://virginiageneralassembly.gov"
+    "website": "https://www.dss.virginia.gov/"
   },
   "linked_decision": "DEC-04",
   "linked_input": "INP-01",
@@ -254,7 +254,7 @@
       "requirement_name": "Emergency removal hearing",
       "deadline": "24-72 hours",
       "starts_from": "Child removed",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Constitutional violation, case dismissal"
     },
     {

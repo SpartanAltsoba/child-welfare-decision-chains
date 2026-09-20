@@ -6,8 +6,8 @@
   "subnode": "INP-04",
   "trigger_name": "Court-Ordered Referral",
   "summary_html": "A **judge orders** CPS to investigate or assess during civil/criminal proceedings. Federal funding statutes (ASFA/IV-E) tether court findings to child-welfare actions, embedding judicial oversight into intake-to-case flow.",
-  "authority_html": "- **ASFA (42 U.S.C. \u00a7\u00a7 671\u2013675)** \u2014 court \u2018reasonable efforts\u2019 findings; permanency timelines  \n- **SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 funding structure linking court oversight to agency actions",
-  "icon": "\u2696\ufe0f",
+  "authority_html": "- **ASFA (42 U.S.C. §§ 671–675)** — court ‘reasonable efforts’ findings; permanency timelines  \n- **SSA Title IV-E (42 U.S.C. §§ 670–679c)** — funding structure linking court oversight to agency actions",
+  "icon": "⚖️",
   "theme_color": "#8A2BE2",
   "domain": "civil",
   "procedural_weight": 0.55,
@@ -24,21 +24,21 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 671\u2013675 (ASFA/IV-E)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E framework)"
+        "42 U.S.C. §§ 671–675 (ASFA/IV-E)",
+        "42 U.S.C. §§ 670–679c (Title IV-E framework)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Missouri - Mo. Rev. Stat. Chapter\u00a0210 (Child Protection and Reformation \u2013 includes \u00a7\u00a0210.115 reporting)",
+          "citation_text": "Missouri - Mo. Rev. Stat. Chapter 210 (Child Protection and Reformation – includes § 210.115 reporting)",
           "source_url": "https://revisor.mo.gov/main/OneChapter.aspx?chapter=210",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Missouri - Missouri Supreme Court Rules \u2013 Juvenile Proceedings (for abuse/neglect cases)",
+          "citation_text": "Missouri - Missouri Supreme Court Rules – Juvenile Proceedings (for abuse/neglect cases)",
           "source_url": "https://www.mo.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
@@ -316,10 +316,10 @@
     }
   },
   "state_agency": {
-    "name": "Children's Division (DSS)",
-    "acronym": "DSS-CD",
+    "name": "Missouri Department of Social Services, Children's Division",
+    "acronym": "CD",
     "hotline": "1-800-392-3738",
-    "website": "https://www.mo.gov"
+    "website": "https://dss.mo.gov/cd"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -397,14 +397,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

@@ -5,9 +5,9 @@
   "node_family": "ACT",
   "subnode": "ACT-01",
   "trigger_name": "Voluntary Services",
-  "summary_html": "Family agrees to a **voluntary service plan**\u2014counseling, substance-use treatment, parenting classes\u2014designed to correct conditions without court compulsion. Federal law prioritizes family preservation through prevention and support services.",
-  "authority_html": "- **Family First Prevention Services Act (FFPSA)** \u2014 prevention services and kin support framework  \n- **SSA Title IV-B (42 U.S.C. \u00a7\u00a7 620\u2013629m)** \u2014 child-welfare services and family-preservation funding",
-  "icon": "\ud83e\udde9",
+  "summary_html": "Family agrees to a **voluntary service plan**—counseling, substance-use treatment, parenting classes—designed to correct conditions without court compulsion. Federal law prioritizes family preservation through prevention and support services.",
+  "authority_html": "- **Family First Prevention Services Act (FFPSA)** — prevention services and kin support framework  \n- **SSA Title IV-B (42 U.S.C. §§ 620–629m)** — child-welfare services and family-preservation funding",
+  "icon": "🧩",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -27,19 +27,19 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 115-123 (FFPSA)",
-        "42 U.S.C. \u00a7\u00a7 620\u2013629m (SSA Title IV-B)"
+        "42 U.S.C. §§ 620–629m (SSA Title IV-B)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Virginia - Va. Code Title\u00a063.2, Chapter\u00a015 (Child Abuse and Neglect \u2013 includes \u00a7\u00a063.2-1509 reporting)",
+          "citation_text": "Virginia - Va. Code Title 63.2, Chapter 15 (Child Abuse and Neglect – includes § 63.2-1509 reporting)",
           "source_url": "https://virginiageneralassembly.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
         },
         {
-          "citation_text": "Virginia - Va. Code \u00a7\u00a016.1-241(A) et seq. (Juvenile & Domestic Relations jurisdiction for abuse/neglect)",
+          "citation_text": "Virginia - Va. Code § 16.1-241(A) et seq. (Juvenile & Domestic Relations jurisdiction for abuse/neglect)",
           "source_url": "https://law.lis.virginia.gov/vacode/title16.1/chapter241/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -123,7 +123,7 @@
         {
           "provision_id": "VA_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Virginia Const. art. I, \u00a7 10",
+          "citation": "Virginia Const. art. I, § 10",
           "federal_parallel": "U.S. Const. amend. IV"
         }
       ]
@@ -208,10 +208,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Social Services",
-    "acronym": "DSS",
+    "name": "Virginia Department of Social Services",
+    "acronym": "VDSS",
     "hotline": "1-800-552-7096",
-    "website": "https://virginiageneralassembly.gov"
+    "website": "https://www.dss.virginia.gov/"
   },
   "linked_decision": "DEC-06",
   "linked_input": "INP-05",
@@ -246,7 +246,7 @@
       "requirement_name": "Emergency removal hearing",
       "deadline": "24-72 hours",
       "starts_from": "Child removed",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Constitutional violation, case dismissal"
     },
     {

@@ -6,8 +6,8 @@
   "subnode": "INP-02",
   "trigger_name": "Voluntary / Third-Party Report",
   "summary_html": "Any person (not just mandated reporters) may submit a **voluntary report** to child-protection authorities. CAPTA requires states to maintain mechanisms for intake, confidentiality, and immunity policies tied to federal funding.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 requires states to operate intake/report systems that accept voluntary reports and protect good-faith reporters",
-  "icon": "\ud83d\udde3\ufe0f",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — requires states to operate intake/report systems that accept voluntary reports and protect good-faith reporters",
+  "icon": "🗣️",
   "theme_color": "#00CED1",
   "domain": "civil",
   "procedural_weight": 0.4,
@@ -24,19 +24,19 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "North Dakota - N.D. Cent. Code Chapter\u00a050-25.1 (Child Abuse and Neglect \u2013 reporting and records)",
+          "citation_text": "North Dakota - N.D. Cent. Code Chapter 50-25.1 (Child Abuse and Neglect – reporting and records)",
           "source_url": "https://www.legis.nd.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
         },
         {
-          "citation_text": "North Dakota - N.D. Cent. Code \u00a7\u00a027-20.1-01 et seq. (Juvenile Court Act for deprivation cases)",
+          "citation_text": "North Dakota - N.D. Cent. Code § 27-20.1-01 et seq. (Juvenile Court Act for deprivation cases)",
           "source_url": "https://www.legis.nd.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
@@ -305,10 +305,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Services",
-    "acronym": "DHS",
+    "name": "North Dakota Department of Health and Human Services",
+    "acronym": "HHS",
     "hotline": "1-833-958-3500",
-    "website": "https://www.legis.nd.gov"
+    "website": "https://www.hhs.nd.gov/cfs"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -387,14 +387,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

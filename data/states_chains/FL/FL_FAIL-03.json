@@ -6,8 +6,8 @@
   "subnode": "FAIL-03",
   "trigger_name": "Federal Compliance Failure",
   "summary_html": "A **state agency fails** to meet federal child-welfare performance standards, triggering **funding penalties** or corrective action under the CFSR or Single Audit Act.",
-  "authority_html": "- **Child & Family Services Reviews (45 CFR Part 1355)** \u2014 performance oversight and penalties  \n- **Single Audit Act (31 U.S.C. \u00a7\u00a7 7501\u20137507)** \u2014 audit of federally funded programs  \n- **Inspector General Act (5 U.S.C. App.)** \u2014 oversight authority for HHS/OIG",
-  "icon": "\ud83d\udcb8",
+  "authority_html": "- **Child & Family Services Reviews (45 CFR Part 1355)** — performance oversight and penalties  \n- **Single Audit Act (31 U.S.C. §§ 7501–7507)** — audit of federally funded programs  \n- **Inspector General Act (5 U.S.C. App.)** — oversight authority for HHS/OIG",
+  "icon": "💸",
   "theme_color": "#FF8C00",
   "domain": "civil",
   "procedural_weight": 0.7,
@@ -25,14 +25,14 @@
     "federal": {
       "requirements_applicable": [
         "45 CFR Part 1355 (CFSR)",
-        "31 U.S.C. \u00a7\u00a7 7501\u20137507 (Single Audit Act)",
+        "31 U.S.C. §§ 7501–7507 (Single Audit Act)",
         "5 U.S.C. App. (Inspector General Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Florida - Title V, Chapter 39 (Proceedings Relating to Children \u2013 abuse reporting and CPS)",
+          "citation_text": "Florida - Title V, Chapter 39 (Proceedings Relating to Children – abuse reporting and CPS)",
           "source_url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099/0039/0039.html",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -286,10 +286,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children and Families",
+    "name": "Florida Department of Children and Families",
     "acronym": "DCF",
     "hotline": "1-800-962-2873",
-    "website": "https://www.leg.state.fl.us"
+    "website": "https://www.myflfamilies.com/"
   },
   "linked_output": "OUT-06",
   "linked_action": "ACT-03",
@@ -326,7 +326,7 @@
       "requirement_name": "Appeal deadline",
       "deadline": "30 days",
       "starts_from": "Final order",
-      "source": "court_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Loss of appeal rights"
     },
     {

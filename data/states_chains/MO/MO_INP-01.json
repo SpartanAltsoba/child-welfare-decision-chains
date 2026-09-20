@@ -6,8 +6,8 @@
   "subnode": "INP-01",
   "trigger_name": "Mandatory Report",
   "summary_html": "**Mandatory reporters** (designated professionals) must report suspected child abuse or neglect. Federal law sets the funding and policy floor (CAPTA) and mandates reporter frameworks on federal lands/facilities (VICAA).",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 federal floor for state reporting systems  \n- **Victims of Child Abuse Act (34 U.S.C. \u00a7\u00a7 20301\u201320307)** \u2014 includes federal-facility reporter duties (recodified from former 42 U.S.C. \u00a713031)",
-  "icon": "\ud83d\udcde",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — federal floor for state reporting systems  \n- **Victims of Child Abuse Act (34 U.S.C. §§ 20301–20307)** — includes federal-facility reporter duties (recodified from former 42 U.S.C. §13031)",
+  "icon": "📞",
   "theme_color": "#1E90FF",
   "domain": "civil",
   "procedural_weight": 0.4,
@@ -27,21 +27,21 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
-        "34 U.S.C. \u00a7\u00a7 20301\u201320307 (Victims of Child Abuse Act)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
+        "34 U.S.C. §§ 20301–20307 (Victims of Child Abuse Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Missouri - Mo. Rev. Stat. Chapter\u00a0210 (Child Protection and Reformation \u2013 includes \u00a7\u00a0210.115 reporting)",
+          "citation_text": "Missouri - Mo. Rev. Stat. Chapter 210 (Child Protection and Reformation – includes § 210.115 reporting)",
           "source_url": "https://revisor.mo.gov/main/OneChapter.aspx?chapter=210",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Missouri - Missouri Supreme Court Rules \u2013 Juvenile Proceedings (for abuse/neglect cases)",
+          "citation_text": "Missouri - Missouri Supreme Court Rules – Juvenile Proceedings (for abuse/neglect cases)",
           "source_url": "https://www.mo.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
@@ -319,10 +319,10 @@
     }
   },
   "state_agency": {
-    "name": "Children's Division (DSS)",
-    "acronym": "DSS-CD",
+    "name": "Missouri Department of Social Services, Children's Division",
+    "acronym": "CD",
     "hotline": "1-800-392-3738",
-    "website": "https://www.mo.gov"
+    "website": "https://dss.mo.gov/cd"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -400,14 +400,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

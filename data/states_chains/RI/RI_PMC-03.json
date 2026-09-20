@@ -5,9 +5,9 @@
   "node_family": "PMC",
   "subnode": "PMC-03",
   "trigger_name": "Citizen Review Panels",
-  "summary_html": "**CAPTA \u00a75106a(c)** requires every state to maintain **Citizen Review Panels** that evaluate CPS policies. Project Milk Carton checks whether panels are active, independent, and publicly reporting.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7 5106a(c))** \u2014 Citizen Review Panel mandate and reporting requirements",
-  "icon": "\ud83d\udde3\ufe0f",
+  "summary_html": "**CAPTA §5106a(c)** requires every state to maintain **Citizen Review Panels** that evaluate CPS policies. Project Milk Carton checks whether panels are active, independent, and publicly reporting.",
+  "authority_html": "- **CAPTA (42 U.S.C. § 5106a(c))** — Citizen Review Panel mandate and reporting requirements",
+  "icon": "🗣️",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -22,14 +22,14 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7 5106a(c) (CAPTA)"
+        "42 U.S.C. § 5106a(c) (CAPTA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Rhode Island - R.I. Gen. Laws Title\u00a040, Chapter\u00a011 (Abused and Neglected Children \u2013 \u00a7\u00a040-11-6 reporting duty)",
-          "source_url": "https://webserver.rilin.state.ri.us/Statutes/TITLE40/40-11/INDEX.HTM",
+          "citation_text": "Rhode Island - R.I. Gen. Laws Title 40, Chapter 11 (Abused and Neglected Children – § 40-11-6 reporting duty)",
+          "source_url": "https://webserver.rilegislature.gov/Statutes/TITLE40/40-11/INDEX.HTM",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
@@ -242,10 +242,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children, Youth and Families",
+    "name": "Rhode Island Department of Children, Youth and Families",
     "acronym": "DCYF",
     "hotline": "1-800-742-4453",
-    "website": "https://www.rilin.state.ri.us"
+    "website": "https://dcyf.ri.gov/"
   },
   "linked_fail": "FAIL-06",
   "_metadata": {
@@ -286,7 +286,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

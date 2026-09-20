@@ -6,8 +6,8 @@
   "subnode": "INP-09",
   "trigger_name": "Systemic Audit / Oversight Trigger",
   "summary_html": "Findings by **federal/state oversight** (CFSR reviews, OIG audits, child-fatality commissions) can initiate investigations or corrective actions that open CPS involvement.",
-  "authority_html": "- **Protect Our Kids Act (PL 112-275)** \u2014 national commission on child abuse/neglect fatalities  \n- **Child & Family Services Reviews (45 CFR Part 1355)** \u2014 federal monitoring of state systems  \n- **Inspector General Act (5 U.S.C. App.)** \u2014 OIG oversight of HHS/ACF and grantees",
-  "icon": "\ud83e\uddfe",
+  "authority_html": "- **Protect Our Kids Act (PL 112-275)** — national commission on child abuse/neglect fatalities  \n- **Child & Family Services Reviews (45 CFR Part 1355)** — federal monitoring of state systems  \n- **Inspector General Act (5 U.S.C. App.)** — OIG oversight of HHS/ACF and grantees",
+  "icon": "🧾",
   "theme_color": "#708090",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -35,13 +35,13 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Maryland - Family Law Article, Title 5, Subtitle 7 (Child Abuse and Neglect \u2013 mandatory reporting)",
+          "citation_text": "Maryland - Family Law Article, Title 5, Subtitle 7 (Child Abuse and Neglect – mandatory reporting)",
           "source_url": "https://mgaleg.maryland.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
         },
         {
-          "citation_text": "Maryland - Courts & Judicial Proc. \u00a7\u00a03-801 et seq. (CINA\u2014Child in Need of Assistance proceedings)",
+          "citation_text": "Maryland - Courts & Judicial Proc. § 3-801 et seq. (CINA—Child in Need of Assistance proceedings)",
           "source_url": "https://mgaleg.maryland.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
@@ -283,10 +283,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Social Services",
-    "acronym": "DSS",
-    "hotline": "1-800-332-6347",
-    "website": "https://mgaleg.maryland.gov"
+    "name": "Maryland Department of Human Services",
+    "acronym": "DHS",
+    "hotline": "1-800-917-7383",
+    "website": "https://dhs.maryland.gov/"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -356,14 +356,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

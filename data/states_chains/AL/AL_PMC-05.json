@@ -5,9 +5,9 @@
   "node_family": "PMC",
   "subnode": "PMC-05",
   "trigger_name": "FOIA / Transparency",
-  "summary_html": "Federal transparency statutes\u2014**FOIA** and **Sunshine Act**\u2014require disclosure of government data. Project Milk Carton promotes FOIA requests and public dashboards for child-welfare records.",
-  "authority_html": "- **Freedom of Information Act (5 U.S.C. \u00a7 552)** \u2014 public access to records  \n- **Government in the Sunshine Act (5 U.S.C. \u00a7 552b)** \u2014 open-meeting requirements",
-  "icon": "\ud83d\udcc2",
+  "summary_html": "Federal transparency statutes—**FOIA** and **Sunshine Act**—require disclosure of government data. Project Milk Carton promotes FOIA requests and public dashboards for child-welfare records.",
+  "authority_html": "- **Freedom of Information Act (5 U.S.C. § 552)** — public access to records  \n- **Government in the Sunshine Act (5 U.S.C. § 552b)** — open-meeting requirements",
+  "icon": "📂",
   "theme_color": "#FFD700",
   "domain": "civil",
   "procedural_weight": 0.65,
@@ -23,8 +23,8 @@
     },
     "federal": {
       "requirements_applicable": [
-        "5 U.S.C. \u00a7 552 (FOIA)",
-        "5 U.S.C. \u00a7 552b (Sunshine Act)"
+        "5 U.S.C. § 552 (FOIA)",
+        "5 U.S.C. § 552b (Sunshine Act)"
       ]
     },
     "state_statutory": {
@@ -275,10 +275,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Resources",
+    "name": "Alabama Department of Human Resources",
     "acronym": "DHR",
-    "hotline": "1-800-228-7688",
-    "website": "https://www.legislature.state.al.us"
+    "hotline": "No statewide hotline. Call your county DHR office, listed at dhr.alabama.gov/county-office-contact, or local law enforcement",
+    "website": "https://dhr.alabama.gov/"
   },
   "linked_fail": "FAIL-06",
   "_metadata": {
@@ -319,7 +319,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

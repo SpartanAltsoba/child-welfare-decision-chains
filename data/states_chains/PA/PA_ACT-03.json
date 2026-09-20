@@ -6,8 +6,8 @@
   "subnode": "ACT-03",
   "trigger_name": "Foster Care Placement",
   "summary_html": "The child is **removed from the home** and placed in foster care under court order or emergency authority. Federal statutes tie funding to safety findings, judicial oversight, and permanency planning.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal monitoring of placement decisions",
-  "icon": "\ud83d\udea8",
+  "authority_html": "- **ASFA / SSA Title IV-E** — removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** — federal monitoring of placement decisions",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.35,
@@ -21,28 +21,28 @@
     "constitutional": {
       "constraints_triggered": [
         "U.S. Const. amend. IV",
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)",
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Pennsylvania - Title 23 Pa.C.S. Chapter\u00a063 (Child Protective Services Law)",
+          "citation_text": "Pennsylvania - Title 23 Pa.C.S. Chapter 63 (Child Protective Services Law)",
           "source_url": "https://law.onecle.com/pennsylvania/title-23/chapter-63/index.html",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Pennsylvania - 42 Pa.C.S. Chapter\u00a063 (Juvenile Act \u2013 dependency proceedings)",
+          "citation_text": "Pennsylvania - 42 Pa.C.S. Chapter 63 (Juvenile Act – dependency proceedings)",
           "source_url": "https://www.legis.state.pa.us/cfdocs/legis/LI/consCheck.cfm?txtType=HTM&ttl=4&div=0&chpt=2",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -110,14 +110,14 @@
         {
           "provision_id": "PA_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Pennsylvania Const. art. I, \u00a7 8",
+          "citation": "Pennsylvania Const. art. I, § 8",
           "federal_parallel": "U.S. Const. amend. IV"
         },
         {
           "provision_id": "PA_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Pennsylvania Const. art. I, \u00a7 9",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Pennsylvania Const. art. I, § 9",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -279,10 +279,10 @@
     }
   },
   "state_agency": {
-    "name": "Children and Youth Services",
-    "acronym": "CYS",
+    "name": "Pennsylvania Department of Human Services, Office of Children, Youth, and Families",
+    "acronym": "OCYF",
     "hotline": "1-800-932-0313",
-    "website": "https://www.legis.state.pa.us"
+    "website": "https://www.pa.gov/agencies/dhs/departments-offices/ocyf-info"
   },
   "linked_decision": "DEC-04",
   "linked_input": "INP-01",
@@ -317,7 +317,7 @@
       "requirement_name": "Emergency removal hearing",
       "deadline": "24-72 hours",
       "starts_from": "Child removed",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Constitutional violation, case dismissal"
     },
     {

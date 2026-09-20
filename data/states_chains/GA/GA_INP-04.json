@@ -6,8 +6,8 @@
   "subnode": "INP-04",
   "trigger_name": "Court-Ordered Referral",
   "summary_html": "A **judge orders** CPS to investigate or assess during civil/criminal proceedings. Federal funding statutes (ASFA/IV-E) tether court findings to child-welfare actions, embedding judicial oversight into intake-to-case flow.",
-  "authority_html": "- **ASFA (42 U.S.C. \u00a7\u00a7 671\u2013675)** \u2014 court \u2018reasonable efforts\u2019 findings; permanency timelines  \n- **SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 funding structure linking court oversight to agency actions",
-  "icon": "\u2696\ufe0f",
+  "authority_html": "- **ASFA (42 U.S.C. §§ 671–675)** — court ‘reasonable efforts’ findings; permanency timelines  \n- **SSA Title IV-E (42 U.S.C. §§ 670–679c)** — funding structure linking court oversight to agency actions",
+  "icon": "⚖️",
   "theme_color": "#8A2BE2",
   "domain": "civil",
   "procedural_weight": 0.55,
@@ -24,8 +24,8 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 671\u2013675 (ASFA/IV-E)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E framework)"
+        "42 U.S.C. §§ 671–675 (ASFA/IV-E)",
+        "42 U.S.C. §§ 670–679c (Title IV-E framework)"
       ]
     },
     "state_statutory": {
@@ -38,7 +38,7 @@
           "deep_link": true
         },
         {
-          "citation_text": "Georgia - Title 15, Chapter 11 (Juvenile Code \u2013 dependency proceedings)",
+          "citation_text": "Georgia - Title 15, Chapter 11 (Juvenile Code – dependency proceedings)",
           "source_url": "https://www.lexisnexis.com/hottopics/gacode/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -132,7 +132,7 @@
         },
         {
           "case_id": "s26y0129",
-          "title": "IN THE MATTER OF JE\u2019NITA LANE",
+          "title": "IN THE MATTER OF JE’NITA LANE",
           "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s26y0129.html",
           "year": 2025,
           "court": "Supreme Court",
@@ -252,10 +252,10 @@
     }
   },
   "state_agency": {
-    "name": "Division of Family and Children Services",
+    "name": "Georgia Division of Family and Children Services",
     "acronym": "DFCS",
     "hotline": "1-855-422-4453",
-    "website": "https://www.legis.ga.gov"
+    "website": "https://dfcs.georgia.gov/"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -326,14 +326,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

@@ -5,9 +5,9 @@
   "node_family": "PMC",
   "subnode": "PMC-03",
   "trigger_name": "Citizen Review Panels",
-  "summary_html": "**CAPTA \u00a75106a(c)** requires every state to maintain **Citizen Review Panels** that evaluate CPS policies. Project Milk Carton checks whether panels are active, independent, and publicly reporting.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7 5106a(c))** \u2014 Citizen Review Panel mandate and reporting requirements",
-  "icon": "\ud83d\udde3\ufe0f",
+  "summary_html": "**CAPTA §5106a(c)** requires every state to maintain **Citizen Review Panels** that evaluate CPS policies. Project Milk Carton checks whether panels are active, independent, and publicly reporting.",
+  "authority_html": "- **CAPTA (42 U.S.C. § 5106a(c))** — Citizen Review Panel mandate and reporting requirements",
+  "icon": "🗣️",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -22,13 +22,13 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7 5106a(c) (CAPTA)"
+        "42 U.S.C. § 5106a(c) (CAPTA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "New Jersey - Title 9, Chapter 6 (Abuse of Children Act \u2013 all persons must report, e.g. \u00a7\u00a09:6-8.10)",
+          "citation_text": "New Jersey - Title 9, Chapter 6 (Abuse of Children Act – all persons must report, e.g. § 9:6-8.10)",
           "source_url": "https://www.njleg.state.nj.us",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
@@ -294,10 +294,10 @@
     }
   },
   "state_agency": {
-    "name": "Division of Child Protection and Permanency (DCF)",
-    "acronym": "DCPP",
+    "name": "New Jersey Division of Child Protection and Permanency",
+    "acronym": "CP&P",
     "hotline": "1-877-652-2873",
-    "website": "https://www.njleg.state.nj.us"
+    "website": "https://www.nj.gov/dcf/"
   },
   "linked_fail": "FAIL-06",
   "_metadata": {
@@ -338,7 +338,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

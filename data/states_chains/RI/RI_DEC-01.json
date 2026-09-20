@@ -6,8 +6,8 @@
   "subnode": "DEC-01",
   "trigger_name": "Screen-Out / Unfounded at Intake",
   "summary_html": "CPS **screens out** a report (no investigation) or closes as **unfounded** after minimal review. Federal law (CAPTA) conditions funding on operating screening criteria and recordkeeping; federal reviews (CFSR) assess decision quality.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 screening & intake system requirements  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal performance/quality review of state screening and responses",
-  "icon": "\ud83d\udeab",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — screening & intake system requirements  \n- **CFSR Regulations (45 CFR Part 1355)** — federal performance/quality review of state screening and responses",
+  "icon": "🚫",
   "theme_color": "#4B9CD3",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -26,15 +26,15 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Rhode Island - R.I. Gen. Laws Title\u00a040, Chapter\u00a011 (Abused and Neglected Children \u2013 \u00a7\u00a040-11-6 reporting duty)",
-          "source_url": "https://webserver.rilin.state.ri.us/Statutes/TITLE40/40-11/INDEX.HTM",
+          "citation_text": "Rhode Island - R.I. Gen. Laws Title 40, Chapter 11 (Abused and Neglected Children – § 40-11-6 reporting duty)",
+          "source_url": "https://webserver.rilegislature.gov/Statutes/TITLE40/40-11/INDEX.HTM",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
@@ -248,10 +248,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children, Youth and Families",
+    "name": "Rhode Island Department of Children, Youth and Families",
     "acronym": "DCYF",
     "hotline": "1-800-742-4453",
-    "website": "https://www.rilin.state.ri.us"
+    "website": "https://dcyf.ri.gov/"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -289,14 +289,14 @@
       "requirement_name": "Safety decision",
       "deadline": "Immediate upon contact",
       "starts_from": "First family contact",
-      "source": "admin_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Child safety risk"
     },
     {
       "requirement_name": "Disposition finding",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Procedural violation"
     }
   ],

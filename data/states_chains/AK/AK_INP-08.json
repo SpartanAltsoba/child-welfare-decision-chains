@@ -6,8 +6,8 @@
   "subnode": "INP-08",
   "trigger_name": "Educational Disclosure",
   "summary_html": "**Educators/school staff** observing indicators of abuse/neglect report to CPS under state mandatory-reporter lists built on the federal CAPTA floor.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 requires robust reporter regimes that include education sector professionals",
-  "icon": "\ud83c\udf93",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — requires robust reporter regimes that include education sector professionals",
+  "icon": "🎓",
   "theme_color": "#FFD700",
   "domain": "civil",
   "procedural_weight": 0.4,
@@ -23,7 +23,7 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)"
       ]
     },
     "state_statutory": {
@@ -302,10 +302,10 @@
     }
   },
   "state_agency": {
-    "name": "Office of Children's Services",
+    "name": "Alaska Office of Children's Services",
     "acronym": "OCS",
     "hotline": "1-800-478-4444",
-    "website": "https://akleg.gov"
+    "website": "https://dfcs.alaska.gov/office-of-childrens-services/"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -379,14 +379,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

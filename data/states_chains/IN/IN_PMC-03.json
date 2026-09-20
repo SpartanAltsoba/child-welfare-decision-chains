@@ -5,9 +5,9 @@
   "node_family": "PMC",
   "subnode": "PMC-03",
   "trigger_name": "Citizen Review Panels",
-  "summary_html": "**CAPTA \u00a75106a(c)** requires every state to maintain **Citizen Review Panels** that evaluate CPS policies. Project Milk Carton checks whether panels are active, independent, and publicly reporting.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7 5106a(c))** \u2014 Citizen Review Panel mandate and reporting requirements",
-  "icon": "\ud83d\udde3\ufe0f",
+  "summary_html": "**CAPTA §5106a(c)** requires every state to maintain **Citizen Review Panels** that evaluate CPS policies. Project Milk Carton checks whether panels are active, independent, and publicly reporting.",
+  "authority_html": "- **CAPTA (42 U.S.C. § 5106a(c))** — Citizen Review Panel mandate and reporting requirements",
+  "icon": "🗣️",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -22,7 +22,7 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7 5106a(c) (CAPTA)"
+        "42 U.S.C. § 5106a(c) (CAPTA)"
       ]
     },
     "state_statutory": {
@@ -34,7 +34,7 @@
           "last_verified": "2025-12-22"
         },
         {
-          "citation_text": "Indiana - Title 31, Article 34 (Juvenile Law \u2013 Children in Need of Services)",
+          "citation_text": "Indiana - Title 31, Article 34 (Juvenile Law – Children in Need of Services)",
           "source_url": "https://iga.in.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
@@ -247,10 +247,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Child Services",
+    "name": "Indiana Department of Child Services",
     "acronym": "DCS",
     "hotline": "1-800-800-5556",
-    "website": "https://iga.in.gov"
+    "website": "https://www.in.gov/dcs/"
   },
   "linked_fail": "FAIL-06",
   "_metadata": {
@@ -291,7 +291,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

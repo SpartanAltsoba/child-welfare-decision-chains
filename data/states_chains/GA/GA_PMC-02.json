@@ -6,8 +6,8 @@
   "subnode": "PMC-02",
   "trigger_name": "OIG / Financial Audit",
   "summary_html": "Federal **OIG** investigations and **Single Audit Act** reviews track misuse of child-welfare funds. Project Milk Carton aggregates audit findings and highlights unresolved repeat deficiencies.",
-  "authority_html": "- **Inspector General Act (5 U.S.C. App.)** \u2014 OIG oversight of HHS  \n- **Single Audit Act (31 U.S.C. \u00a7\u00a7 7501\u20137507)** \u2014 audits of federally funded programs",
-  "icon": "\ud83e\uddfe",
+  "authority_html": "- **Inspector General Act (5 U.S.C. App.)** — OIG oversight of HHS  \n- **Single Audit Act (31 U.S.C. §§ 7501–7507)** — audits of federally funded programs",
+  "icon": "🧾",
   "theme_color": "#708090",
   "domain": "civil",
   "procedural_weight": 0.7,
@@ -24,7 +24,7 @@
     "federal": {
       "requirements_applicable": [
         "5 U.S.C. App. (Inspector General Act)",
-        "31 U.S.C. \u00a7\u00a7 7501\u20137507 (Single Audit Act)"
+        "31 U.S.C. §§ 7501–7507 (Single Audit Act)"
       ]
     },
     "state_statutory": {
@@ -37,7 +37,7 @@
           "deep_link": true
         },
         {
-          "citation_text": "Georgia - Title 15, Chapter 11 (Juvenile Code \u2013 dependency proceedings)",
+          "citation_text": "Georgia - Title 15, Chapter 11 (Juvenile Code – dependency proceedings)",
           "source_url": "https://www.lexisnexis.com/hottopics/gacode/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -131,7 +131,7 @@
         },
         {
           "case_id": "s26y0129",
-          "title": "IN THE MATTER OF JE\u2019NITA LANE",
+          "title": "IN THE MATTER OF JE’NITA LANE",
           "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s26y0129.html",
           "year": 2025,
           "court": "Supreme Court",
@@ -251,10 +251,10 @@
     }
   },
   "state_agency": {
-    "name": "Division of Family and Children Services",
+    "name": "Georgia Division of Family and Children Services",
     "acronym": "DFCS",
     "hotline": "1-855-422-4453",
-    "website": "https://www.legis.ga.gov"
+    "website": "https://dfcs.georgia.gov/"
   },
   "linked_fail": "FAIL-03",
   "_metadata": {
@@ -295,7 +295,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

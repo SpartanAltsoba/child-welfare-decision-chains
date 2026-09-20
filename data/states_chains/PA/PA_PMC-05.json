@@ -5,9 +5,9 @@
   "node_family": "PMC",
   "subnode": "PMC-05",
   "trigger_name": "FOIA / Transparency",
-  "summary_html": "Federal transparency statutes\u2014**FOIA** and **Sunshine Act**\u2014require disclosure of government data. Project Milk Carton promotes FOIA requests and public dashboards for child-welfare records.",
-  "authority_html": "- **Freedom of Information Act (5 U.S.C. \u00a7 552)** \u2014 public access to records  \n- **Government in the Sunshine Act (5 U.S.C. \u00a7 552b)** \u2014 open-meeting requirements",
-  "icon": "\ud83d\udcc2",
+  "summary_html": "Federal transparency statutes—**FOIA** and **Sunshine Act**—require disclosure of government data. Project Milk Carton promotes FOIA requests and public dashboards for child-welfare records.",
+  "authority_html": "- **Freedom of Information Act (5 U.S.C. § 552)** — public access to records  \n- **Government in the Sunshine Act (5 U.S.C. § 552b)** — open-meeting requirements",
+  "icon": "📂",
   "theme_color": "#FFD700",
   "domain": "civil",
   "procedural_weight": 0.65,
@@ -23,21 +23,21 @@
     },
     "federal": {
       "requirements_applicable": [
-        "5 U.S.C. \u00a7 552 (FOIA)",
-        "5 U.S.C. \u00a7 552b (Sunshine Act)"
+        "5 U.S.C. § 552 (FOIA)",
+        "5 U.S.C. § 552b (Sunshine Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Pennsylvania - Title 23 Pa.C.S. Chapter\u00a063 (Child Protective Services Law)",
+          "citation_text": "Pennsylvania - Title 23 Pa.C.S. Chapter 63 (Child Protective Services Law)",
           "source_url": "https://law.onecle.com/pennsylvania/title-23/chapter-63/index.html",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Pennsylvania - 42 Pa.C.S. Chapter\u00a063 (Juvenile Act \u2013 dependency proceedings)",
+          "citation_text": "Pennsylvania - 42 Pa.C.S. Chapter 63 (Juvenile Act – dependency proceedings)",
           "source_url": "https://www.legis.state.pa.us/cfdocs/legis/LI/consCheck.cfm?txtType=HTM&ttl=4&div=0&chpt=2",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -260,10 +260,10 @@
     }
   },
   "state_agency": {
-    "name": "Children and Youth Services",
-    "acronym": "CYS",
+    "name": "Pennsylvania Department of Human Services, Office of Children, Youth, and Families",
+    "acronym": "OCYF",
     "hotline": "1-800-932-0313",
-    "website": "https://www.legis.state.pa.us"
+    "website": "https://www.pa.gov/agencies/dhs/departments-offices/ocyf-info"
   },
   "linked_fail": "FAIL-06",
   "_metadata": {
@@ -304,7 +304,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

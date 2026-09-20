@@ -5,9 +5,9 @@
   "node_family": "PMC",
   "subnode": "PMC-03",
   "trigger_name": "Citizen Review Panels",
-  "summary_html": "**CAPTA \u00a75106a(c)** requires every state to maintain **Citizen Review Panels** that evaluate CPS policies. Project Milk Carton checks whether panels are active, independent, and publicly reporting.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7 5106a(c))** \u2014 Citizen Review Panel mandate and reporting requirements",
-  "icon": "\ud83d\udde3\ufe0f",
+  "summary_html": "**CAPTA §5106a(c)** requires every state to maintain **Citizen Review Panels** that evaluate CPS policies. Project Milk Carton checks whether panels are active, independent, and publicly reporting.",
+  "authority_html": "- **CAPTA (42 U.S.C. § 5106a(c))** — Citizen Review Panel mandate and reporting requirements",
+  "icon": "🗣️",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -22,14 +22,14 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7 5106a(c) (CAPTA)"
+        "42 U.S.C. § 5106a(c) (CAPTA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Oklahoma - Title 10A (Children and Juvenile Code), \u00a7\u00a01-2-101 (Duty to report) and Article 1, Part 4 (deprived child proceedings)",
-          "source_url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=10000",
+          "citation_text": "Oklahoma - Title 10A (Children and Juvenile Code), § 1-2-101 (Duty to report) and Article 1, Part 4 (deprived child proceedings)",
+          "source_url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=455989",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
@@ -242,10 +242,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Services",
+    "name": "Oklahoma Human Services",
     "acronym": "OKDHS",
     "hotline": "1-800-522-3511",
-    "website": "https://www.oklegislature.gov"
+    "website": "https://oklahoma.gov/okdhs.html"
   },
   "linked_fail": "FAIL-06",
   "_metadata": {
@@ -286,7 +286,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

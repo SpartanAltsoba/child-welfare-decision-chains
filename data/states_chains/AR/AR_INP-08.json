@@ -6,8 +6,8 @@
   "subnode": "INP-08",
   "trigger_name": "Educational Disclosure",
   "summary_html": "**Educators/school staff** observing indicators of abuse/neglect report to CPS under state mandatory-reporter lists built on the federal CAPTA floor.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 requires robust reporter regimes that include education sector professionals",
-  "icon": "\ud83c\udf93",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — requires robust reporter regimes that include education sector professionals",
+  "icon": "🎓",
   "theme_color": "#FFD700",
   "domain": "civil",
   "procedural_weight": 0.4,
@@ -23,19 +23,19 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Arkansas - Title 12, Chapter 18 (Child Maltreatment Act \u2013 reporting and investigation)",
+          "citation_text": "Arkansas - Title 12, Chapter 18 (Child Maltreatment Act – reporting and investigation)",
           "source_url": "https://www.arkleg.state.ar.us",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
         },
         {
-          "citation_text": "Arkansas - Title 9, Chapter 27 (Juvenile Code \u2013 dependency-neglect cases)",
+          "citation_text": "Arkansas - Title 9, Chapter 27 (Juvenile Code – dependency-neglect cases)",
           "source_url": "https://www.arkleg.state.ar.us",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
@@ -240,10 +240,10 @@
     }
   },
   "state_agency": {
-    "name": "Division of Children and Family Services",
+    "name": "Arkansas Department of Human Services, Division of Children and Family Services",
     "acronym": "DCFS",
     "hotline": "1-800-482-5964",
-    "website": "https://www.arkleg.state.ar.us"
+    "website": "https://humanservices.arkansas.gov/divisions-shared-services/children-family-services/"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -323,14 +323,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

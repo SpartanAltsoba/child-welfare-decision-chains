@@ -6,8 +6,8 @@
   "subnode": "ACT-03",
   "trigger_name": "Foster Care Placement",
   "summary_html": "The child is **removed from the home** and placed in foster care under court order or emergency authority. Federal statutes tie funding to safety findings, judicial oversight, and permanency planning.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal monitoring of placement decisions",
-  "icon": "\ud83d\udea8",
+  "authority_html": "- **ASFA / SSA Title IV-E** — removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** — federal monitoring of placement decisions",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.35,
@@ -21,28 +21,28 @@
     "constitutional": {
       "constraints_triggered": [
         "U.S. Const. amend. IV",
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)",
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Ohio - Ohio Rev. Code \u00a7\u00a02151.421 (Mandatory reporting of child abuse)",
+          "citation_text": "Ohio - Ohio Rev. Code § 2151.421 (Mandatory reporting of child abuse)",
           "source_url": "https://codes.ohio.gov/ohio-revised-code/chapter-2151",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Ohio - Ohio Rev. Code Chapter\u00a02151 (Juvenile Court \u2013 abuse, neglect, dependency)",
+          "citation_text": "Ohio - Ohio Rev. Code Chapter 2151 (Juvenile Court – abuse, neglect, dependency)",
           "source_url": "https://www.legislature.ohio.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
@@ -73,14 +73,14 @@
         {
           "provision_id": "OH_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Ohio Const. art. I, \u00a7 14",
+          "citation": "Ohio Const. art. I, § 14",
           "federal_parallel": "U.S. Const. amend. IV"
         },
         {
           "provision_id": "OH_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Ohio Const. art. I, \u00a7 16",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Ohio Const. art. I, § 16",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -242,10 +242,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Job and Family Services",
-    "acronym": "ODJFS",
+    "name": "Ohio Department of Children and Youth",
+    "acronym": "DCY",
     "hotline": "1-855-642-4453",
-    "website": "https://www.legislature.ohio.gov"
+    "website": "https://childrenandyouth.ohio.gov/"
   },
   "linked_decision": "DEC-04",
   "linked_input": "INP-01",
@@ -280,7 +280,7 @@
       "requirement_name": "Emergency removal hearing",
       "deadline": "24-72 hours",
       "starts_from": "Child removed",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Constitutional violation, case dismissal"
     },
     {

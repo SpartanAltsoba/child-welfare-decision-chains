@@ -6,8 +6,8 @@
   "subnode": "INP-12",
   "trigger_name": "Emergency / Protective Custody",
   "summary_html": "Immediate state action to **protect a child in imminent danger**. Federal law (ASFA/IV-E) ties funding to court findings on **reasonable efforts**, and constitutional limits (due process, 4th/14th Amendments) constrain warrantless removals.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 reasonable-efforts findings; permanency timelines  \n- **CFSR (45 CFR Part 1355)** \u2014 federal oversight of removal decision quality  \n- **Constitutional constraints** \u2014 enforced via \u00a71983 actions; due process & search/seizure jurisprudence (not listed in file but governs practice)",
-  "icon": "\ud83d\udea8",
+  "authority_html": "- **ASFA / SSA Title IV-E** — reasonable-efforts findings; permanency timelines  \n- **CFSR (45 CFR Part 1355)** — federal oversight of removal decision quality  \n- **Constitutional constraints** — enforced via §1983 actions; due process & search/seizure jurisprudence (not listed in file but governs practice)",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.35,
@@ -27,7 +27,7 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)",
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)",
         "ASFA (Public Law 105-89)",
         "45 CFR Part 1355 (CFSR Regulations)"
       ]
@@ -35,13 +35,13 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Maryland - Family Law Article, Title 5, Subtitle 7 (Child Abuse and Neglect \u2013 mandatory reporting)",
+          "citation_text": "Maryland - Family Law Article, Title 5, Subtitle 7 (Child Abuse and Neglect – mandatory reporting)",
           "source_url": "https://mgaleg.maryland.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
         },
         {
-          "citation_text": "Maryland - Courts & Judicial Proc. \u00a7\u00a03-801 et seq. (CINA\u2014Child in Need of Assistance proceedings)",
+          "citation_text": "Maryland - Courts & Judicial Proc. § 3-801 et seq. (CINA—Child in Need of Assistance proceedings)",
           "source_url": "https://mgaleg.maryland.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
@@ -128,7 +128,7 @@
         {
           "provision_id": "MD_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Maryland Const. art. 26, \u00a7 ",
+          "citation": "Maryland Const. art. 26, § ",
           "federal_parallel": "U.S. Const. amend. IV"
         }
       ]
@@ -290,10 +290,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Social Services",
-    "acronym": "DSS",
-    "hotline": "1-800-332-6347",
-    "website": "https://mgaleg.maryland.gov"
+    "name": "Maryland Department of Human Services",
+    "acronym": "DHS",
+    "hotline": "1-800-917-7383",
+    "website": "https://dhs.maryland.gov/"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -363,14 +363,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

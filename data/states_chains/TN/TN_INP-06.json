@@ -6,8 +6,8 @@
   "subnode": "INP-06",
   "trigger_name": "Anonymous Tip / Hotline",
   "summary_html": "Reports via **state hotlines** (anonymous or confidential). CAPTA conditions funding on operating intake systems with confidentiality and good-faith protections.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 intake, confidentiality, immunity, and data requirements tied to federal funding",
-  "icon": "\u260e\ufe0f",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — intake, confidentiality, immunity, and data requirements tied to federal funding",
+  "icon": "☎️",
   "theme_color": "#FF8C00",
   "domain": "civil",
   "procedural_weight": 0.4,
@@ -24,20 +24,20 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Tennessee - Tenn. Code Title\u00a037, Chapter\u00a01, Part\u00a04 (Mandatory child abuse reporting)",
+          "citation_text": "Tennessee - Tenn. Code Title 37, Chapter 1, Part 4 (Mandatory child abuse reporting)",
           "source_url": "https://www.lexisnexis.com/hottopics/tncode/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Tennessee - Tenn. Code Title\u00a037, Chapter\u00a01, Part\u00a06 (Juvenile removal/placement procedures)",
+          "citation_text": "Tennessee - Tenn. Code Title 37, Chapter 1, Part 6 (Juvenile removal/placement procedures)",
           "source_url": "https://www.lexisnexis.com/hottopics/tncode/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -251,10 +251,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children's Services",
+    "name": "Tennessee Department of Children's Services",
     "acronym": "DCS",
     "hotline": "1-877-237-0004",
-    "website": "https://www.legislature.state.tn.us"
+    "website": "https://www.tn.gov/dcs.html"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -336,14 +336,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

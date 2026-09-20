@@ -6,8 +6,8 @@
   "subnode": "PMC-06",
   "trigger_name": "Project Milk Carton AI Analysis",
   "summary_html": "The **Project Milk Carton AI Layer** performs cross-analysis of federal and state chains to identify weak points, policy gaps, and non-compliance. This is the citizen feedback mechanism for accountability and reform.",
-  "authority_html": "No direct statutory authority \u2014 citizen innovation layer built on public data and federal transparency laws.",
-  "icon": "\ud83e\udd16",
+  "authority_html": "No direct statutory authority — citizen innovation layer built on public data and federal transparency laws.",
+  "icon": "🤖",
   "theme_color": "#20B2AA",
   "domain": "civil",
   "procedural_weight": 0.9,
@@ -26,14 +26,14 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Massachusetts - MGL Chapter\u00a0119 (Protection of Children, incl. \u00a7\u00a051A mandated reporting)",
+          "citation_text": "Massachusetts - MGL Chapter 119 (Protection of Children, incl. § 51A mandated reporting)",
           "source_url": "https://malegislature.gov/Laws/GeneralLaws/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Massachusetts - MGL Chapter\u00a0119, \u00a7\u00a7\u00a024\u201329 (Care and protection proceedings)",
+          "citation_text": "Massachusetts - MGL Chapter 119, §§ 24–29 (Care and protection proceedings)",
           "source_url": "https://malegislature.gov/Laws/GeneralLaws/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -238,10 +238,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children and Families",
+    "name": "Massachusetts Department of Children and Families",
     "acronym": "DCF",
     "hotline": "1-800-792-5200",
-    "website": "https://malegislature.gov"
+    "website": "https://www.mass.gov/orgs/massachusetts-department-of-children-families"
   },
   "linked_fail": "ALL",
   "_metadata": {
@@ -282,7 +282,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

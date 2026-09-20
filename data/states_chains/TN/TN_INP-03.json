@@ -5,9 +5,9 @@
   "node_family": "INP",
   "subnode": "INP-03",
   "trigger_name": "Law-Enforcement Referral",
-  "summary_html": "A **law-enforcement agency** encounters suspected maltreatment (e.g., during a domestic call or arrest) and **refers** to CPS. Federal child-abuse infrastructure promotes coordinated investigations via Children\u2019s Advocacy Centers.",
-  "authority_html": "- **Victims of Child Abuse Act (34 U.S.C. \u00a7\u00a7 20301\u201320307)** \u2014 support for multidisciplinary teams and CAC protocols; coordination with CPS  \n- **ASFA/SSA IV-E** \u2014 court findings and reasonable-efforts determinations later constrain downstream actions",
-  "icon": "\ud83d\ude94",
+  "summary_html": "A **law-enforcement agency** encounters suspected maltreatment (e.g., during a domestic call or arrest) and **refers** to CPS. Federal child-abuse infrastructure promotes coordinated investigations via Children’s Advocacy Centers.",
+  "authority_html": "- **Victims of Child Abuse Act (34 U.S.C. §§ 20301–20307)** — support for multidisciplinary teams and CAC protocols; coordination with CPS  \n- **ASFA/SSA IV-E** — court findings and reasonable-efforts determinations later constrain downstream actions",
+  "icon": "🚔",
   "theme_color": "#DC143C",
   "domain": "civil",
   "procedural_weight": 0.45,
@@ -25,21 +25,21 @@
     },
     "federal": {
       "requirements_applicable": [
-        "34 U.S.C. \u00a7\u00a7 20301\u201320307 (Victims of Child Abuse Act)",
-        "42 U.S.C. \u00a7\u00a7 671\u2013675 (ASFA-related IV-E conditions)"
+        "34 U.S.C. §§ 20301–20307 (Victims of Child Abuse Act)",
+        "42 U.S.C. §§ 671–675 (ASFA-related IV-E conditions)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Tennessee - Tenn. Code Title\u00a037, Chapter\u00a01, Part\u00a04 (Mandatory child abuse reporting)",
+          "citation_text": "Tennessee - Tenn. Code Title 37, Chapter 1, Part 4 (Mandatory child abuse reporting)",
           "source_url": "https://www.lexisnexis.com/hottopics/tncode/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Tennessee - Tenn. Code Title\u00a037, Chapter\u00a01, Part\u00a06 (Juvenile removal/placement procedures)",
+          "citation_text": "Tennessee - Tenn. Code Title 37, Chapter 1, Part 6 (Juvenile removal/placement procedures)",
           "source_url": "https://www.lexisnexis.com/hottopics/tncode/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -253,10 +253,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children's Services",
+    "name": "Tennessee Department of Children's Services",
     "acronym": "DCS",
     "hotline": "1-877-237-0004",
-    "website": "https://www.legislature.state.tn.us"
+    "website": "https://www.tn.gov/dcs.html"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -338,14 +338,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

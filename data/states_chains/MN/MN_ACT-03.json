@@ -6,8 +6,8 @@
   "subnode": "ACT-03",
   "trigger_name": "Foster Care Placement",
   "summary_html": "The child is **removed from the home** and placed in foster care under court order or emergency authority. Federal statutes tie funding to safety findings, judicial oversight, and permanency planning.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal monitoring of placement decisions",
-  "icon": "\ud83d\udea8",
+  "authority_html": "- **ASFA / SSA Title IV-E** — removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** — federal monitoring of placement decisions",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.35,
@@ -21,28 +21,28 @@
     "constitutional": {
       "constraints_triggered": [
         "U.S. Const. amend. IV",
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)",
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Minnesota - Minn. Stat. \u00a7\u00a0626.556 (Reporting of Maltreatment of Minors Act)",
+          "citation_text": "Minnesota - Minn. Stat. § 626.556 (Reporting of Maltreatment of Minors Act)",
           "source_url": "https://www.revisor.mn.gov/statutes/cite/626",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Minnesota - Minn. Stat. Chapters\u00a0260C and 260E (Child protection and services)",
+          "citation_text": "Minnesota - Minn. Stat. Chapters 260C and 260E (Child protection and services)",
           "source_url": "https://www.revisor.mn.gov/statutes/cite/260C",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -92,14 +92,14 @@
         {
           "provision_id": "MN_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Minnesota Const. art. I, \u00a7 10",
+          "citation": "Minnesota Const. art. I, § 10",
           "federal_parallel": "U.S. Const. amend. IV"
         },
         {
           "provision_id": "MN_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Minnesota Const. art. I, \u00a7 7",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Minnesota Const. art. I, § 7",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -206,7 +206,7 @@
         },
         {
           "case_id": "a24-1562",
-          "title": "In the Matter of the Petition of Minnesota Association of Residential Services Homes (MARSH) under Minn. Stat. \u00c2\u00a7 14.381, subd. 1, for a Declaration that the Minnesota Department of Human Services Is Enforcing Unadopted Rules",
+          "title": "In the Matter of the Petition of Minnesota Association of Residential Services Homes (MARSH) under Minn. Stat. Â§ 14.381, subd. 1, for a Declaration that the Minnesota Department of Human Services Is Enforcing Unadopted Rules",
           "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2025/a24-1562.html",
           "year": 2025,
           "court": "Court Of Appeals",
@@ -261,10 +261,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Services",
-    "acronym": "DHS",
-    "hotline": "1-800-422-4453",
-    "website": "https://www.leg.state.mn.us"
+    "name": "Minnesota Department of Children, Youth, and Families",
+    "acronym": "DCYF",
+    "hotline": "No statewide hotline. Call the county or Tribal child protection agency where the child lives — the directory link is on dcyf.mn.gov/individuals-and-families/report-abuse",
+    "website": "https://dcyf.mn.gov/"
   },
   "icwa_compliant": true,
   "icwa_details": {
@@ -304,7 +304,7 @@
       "requirement_name": "Emergency removal hearing",
       "deadline": "24-72 hours",
       "starts_from": "Child removed",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Constitutional violation, case dismissal"
     },
     {

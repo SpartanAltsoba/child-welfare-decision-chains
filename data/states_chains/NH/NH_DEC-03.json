@@ -6,8 +6,8 @@
   "subnode": "DEC-03",
   "trigger_name": "Substantiated / Founded Finding",
   "summary_html": "Agency makes a **substantiated (founded)** finding of abuse/neglect. This decision often unlocks **court petitions**, **service mandates**, and **federal reporting** duties.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 definitions floor; data & record requirements  \n- **CFSR (45 CFR Part 1355)** \u2014 outcomes & safety performance reviews",
-  "icon": "\u2705",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — definitions floor; data & record requirements  \n- **CFSR (45 CFR Part 1355)** — outcomes & safety performance reviews",
+  "icon": "✅",
   "theme_color": "#8B008B",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -23,14 +23,14 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "New Hampshire - RSA 169-C (Child Protection Act \u2013 includes reporting \u00a7\u00a0169-C:29)",
+          "citation_text": "New Hampshire - RSA 169-C (Child Protection Act – includes reporting § 169-C:29)",
           "source_url": "https://www.gencourt.state.nh.us/rsa/html/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -237,7 +237,7 @@
     "name": "Division for Children, Youth and Families",
     "acronym": "DCYF",
     "hotline": "1-800-894-5533",
-    "website": "https://www.gencourt.state.nh.us"
+    "website": "https://www.dhhs.nh.gov/division-children-youth-and-families"
   },
   "investigation_requirements": [
     "Victim interview required",
@@ -274,14 +274,14 @@
       "requirement_name": "Safety decision",
       "deadline": "Immediate upon contact",
       "starts_from": "First family contact",
-      "source": "admin_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Child safety risk"
     },
     {
       "requirement_name": "Disposition finding",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Procedural violation"
     }
   ],

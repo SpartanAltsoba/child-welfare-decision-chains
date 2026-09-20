@@ -6,8 +6,8 @@
   "subnode": "INP-04",
   "trigger_name": "Court-Ordered Referral",
   "summary_html": "A **judge orders** CPS to investigate or assess during civil/criminal proceedings. Federal funding statutes (ASFA/IV-E) tether court findings to child-welfare actions, embedding judicial oversight into intake-to-case flow.",
-  "authority_html": "- **ASFA (42 U.S.C. \u00a7\u00a7 671\u2013675)** \u2014 court \u2018reasonable efforts\u2019 findings; permanency timelines  \n- **SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 funding structure linking court oversight to agency actions",
-  "icon": "\u2696\ufe0f",
+  "authority_html": "- **ASFA (42 U.S.C. §§ 671–675)** — court ‘reasonable efforts’ findings; permanency timelines  \n- **SSA Title IV-E (42 U.S.C. §§ 670–679c)** — funding structure linking court oversight to agency actions",
+  "icon": "⚖️",
   "theme_color": "#8A2BE2",
   "domain": "civil",
   "procedural_weight": 0.55,
@@ -24,20 +24,20 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 671\u2013675 (ASFA/IV-E)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E framework)"
+        "42 U.S.C. §§ 671–675 (ASFA/IV-E)",
+        "42 U.S.C. §§ 670–679c (Title IV-E framework)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Arkansas - Title 12, Chapter 18 (Child Maltreatment Act \u2013 reporting and investigation)",
+          "citation_text": "Arkansas - Title 12, Chapter 18 (Child Maltreatment Act – reporting and investigation)",
           "source_url": "https://www.arkleg.state.ar.us",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
         },
         {
-          "citation_text": "Arkansas - Title 9, Chapter 27 (Juvenile Code \u2013 dependency-neglect cases)",
+          "citation_text": "Arkansas - Title 9, Chapter 27 (Juvenile Code – dependency-neglect cases)",
           "source_url": "https://www.arkleg.state.ar.us",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
@@ -242,10 +242,10 @@
     }
   },
   "state_agency": {
-    "name": "Division of Children and Family Services",
+    "name": "Arkansas Department of Human Services, Division of Children and Family Services",
     "acronym": "DCFS",
     "hotline": "1-800-482-5964",
-    "website": "https://www.arkleg.state.ar.us"
+    "website": "https://humanservices.arkansas.gov/divisions-shared-services/children-family-services/"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -325,14 +325,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

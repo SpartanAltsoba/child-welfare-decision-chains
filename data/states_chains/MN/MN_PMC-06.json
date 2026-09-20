@@ -6,8 +6,8 @@
   "subnode": "PMC-06",
   "trigger_name": "Project Milk Carton AI Analysis",
   "summary_html": "The **Project Milk Carton AI Layer** performs cross-analysis of federal and state chains to identify weak points, policy gaps, and non-compliance. This is the citizen feedback mechanism for accountability and reform.",
-  "authority_html": "No direct statutory authority \u2014 citizen innovation layer built on public data and federal transparency laws.",
-  "icon": "\ud83e\udd16",
+  "authority_html": "No direct statutory authority — citizen innovation layer built on public data and federal transparency laws.",
+  "icon": "🤖",
   "theme_color": "#20B2AA",
   "domain": "civil",
   "procedural_weight": 0.9,
@@ -26,14 +26,14 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Minnesota - Minn. Stat. \u00a7\u00a0626.556 (Reporting of Maltreatment of Minors Act)",
+          "citation_text": "Minnesota - Minn. Stat. § 626.556 (Reporting of Maltreatment of Minors Act)",
           "source_url": "https://www.revisor.mn.gov/statutes/cite/626",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Minnesota - Minn. Stat. Chapters\u00a0260C and 260E (Child protection and services)",
+          "citation_text": "Minnesota - Minn. Stat. Chapters 260C and 260E (Child protection and services)",
           "source_url": "https://www.revisor.mn.gov/statutes/cite/260C",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -105,7 +105,7 @@
       "key_cases": [
         {
           "case_id": "a24-1562",
-          "title": "In the Matter of the Petition of Minnesota Association of Residential Services Homes (MARSH) under Minn. Stat. \u00c2\u00a7 14.381, subd. 1, for a Declaration that the Minnesota Department of Human Services Is Enforcing Unadopted Rules",
+          "title": "In the Matter of the Petition of Minnesota Association of Residential Services Homes (MARSH) under Minn. Stat. Â§ 14.381, subd. 1, for a Declaration that the Minnesota Department of Human Services Is Enforcing Unadopted Rules",
           "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2025/a24-1562.html",
           "year": 2025,
           "court": "Court Of Appeals",
@@ -238,10 +238,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Services",
-    "acronym": "DHS",
-    "hotline": "1-800-422-4453",
-    "website": "https://www.leg.state.mn.us"
+    "name": "Minnesota Department of Children, Youth, and Families",
+    "acronym": "DCYF",
+    "hotline": "No statewide hotline. Call the county or Tribal child protection agency where the child lives — the directory link is on dcyf.mn.gov/individuals-and-families/report-abuse",
+    "website": "https://dcyf.mn.gov/"
   },
   "linked_fail": "ALL",
   "_metadata": {
@@ -282,7 +282,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

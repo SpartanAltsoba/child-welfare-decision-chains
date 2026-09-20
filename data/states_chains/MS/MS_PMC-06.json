@@ -6,8 +6,8 @@
   "subnode": "PMC-06",
   "trigger_name": "Project Milk Carton AI Analysis",
   "summary_html": "The **Project Milk Carton AI Layer** performs cross-analysis of federal and state chains to identify weak points, policy gaps, and non-compliance. This is the citizen feedback mechanism for accountability and reform.",
-  "authority_html": "No direct statutory authority \u2014 citizen innovation layer built on public data and federal transparency laws.",
-  "icon": "\ud83e\udd16",
+  "authority_html": "No direct statutory authority — citizen innovation layer built on public data and federal transparency laws.",
+  "icon": "🤖",
   "theme_color": "#20B2AA",
   "domain": "civil",
   "procedural_weight": 0.9,
@@ -26,14 +26,14 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Mississippi - Miss. Code Title\u00a043, Chap.\u00a021 (Youth Court Act \u2013 \u00a7\u00a043-21-353 mandatory reporting)",
+          "citation_text": "Mississippi - Miss. Code Title 43, Chap. 21 (Youth Court Act – § 43-21-353 mandatory reporting)",
           "source_url": "https://www.lexisnexis.com/hottopics/mscode/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Mississippi - Miss. Code \u00a7\u00a043-21-601 et seq. (Youth Court disposition and removal)",
+          "citation_text": "Mississippi - Miss. Code § 43-21-601 et seq. (Youth Court disposition and removal)",
           "source_url": "https://law.justia.com/codes/mississippi/title-43/chapter-21/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -299,10 +299,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Child Protection Services",
+    "name": "Mississippi Department of Child Protection Services",
     "acronym": "MDCPS",
     "hotline": "1-800-222-8000",
-    "website": "https://www.legislature.ms.gov"
+    "website": "https://www.mdcps.ms.gov/"
   },
   "linked_fail": "ALL",
   "_metadata": {
@@ -343,7 +343,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

@@ -6,8 +6,8 @@
   "subnode": "ACT-03",
   "trigger_name": "Foster Care Placement",
   "summary_html": "The child is **removed from the home** and placed in foster care under court order or emergency authority. Federal statutes tie funding to safety findings, judicial oversight, and permanency planning.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal monitoring of placement decisions",
-  "icon": "\ud83d\udea8",
+  "authority_html": "- **ASFA / SSA Title IV-E** — removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** — federal monitoring of placement decisions",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.35,
@@ -21,21 +21,21 @@
     "constitutional": {
       "constraints_triggered": [
         "U.S. Const. amend. IV",
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)",
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "South Carolina - S.C. Code Title\u00a063, Chapter\u00a07 (Child Protection Act \u2013 includes \u00a7\u00a063-7-310 reporting)",
+          "citation_text": "South Carolina - S.C. Code Title 63, Chapter 7 (Child Protection Act – includes § 63-7-310 reporting)",
           "source_url": "https://www.scstatehouse.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
@@ -84,14 +84,14 @@
         {
           "provision_id": "SC_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "South Carolina Const. art. I, \u00a7 10",
+          "citation": "South Carolina Const. art. I, § 10",
           "federal_parallel": "U.S. Const. amend. IV"
         },
         {
           "provision_id": "SC_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "South Carolina Const. art. I, \u00a7 3",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "South Carolina Const. art. I, § 3",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -253,10 +253,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Social Services",
+    "name": "South Carolina Department of Social Services",
     "acronym": "DSS",
     "hotline": "1-888-227-3487",
-    "website": "https://www.scstatehouse.gov"
+    "website": "https://dss.sc.gov/"
   },
   "linked_decision": "DEC-04",
   "linked_input": "INP-01",
@@ -291,7 +291,7 @@
       "requirement_name": "Emergency removal hearing",
       "deadline": "24-72 hours",
       "starts_from": "Child removed",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Constitutional violation, case dismissal"
     },
     {

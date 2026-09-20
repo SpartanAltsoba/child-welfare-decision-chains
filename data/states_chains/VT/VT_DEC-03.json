@@ -6,8 +6,8 @@
   "subnode": "DEC-03",
   "trigger_name": "Substantiated / Founded Finding",
   "summary_html": "Agency makes a **substantiated (founded)** finding of abuse/neglect. This decision often unlocks **court petitions**, **service mandates**, and **federal reporting** duties.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 definitions floor; data & record requirements  \n- **CFSR (45 CFR Part 1355)** \u2014 outcomes & safety performance reviews",
-  "icon": "\u2705",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — definitions floor; data & record requirements  \n- **CFSR (45 CFR Part 1355)** — outcomes & safety performance reviews",
+  "icon": "✅",
   "theme_color": "#8B008B",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -23,20 +23,20 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Vermont - 33 V.S.A. Chapter\u00a049 (Child Welfare Services \u2013 \u00a7\u00a04913 mandatory reporting)",
+          "citation_text": "Vermont - 33 V.S.A. Chapter 49 (Child Welfare Services – § 4913 mandatory reporting)",
           "source_url": "https://legislature.vermont.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
         },
         {
-          "citation_text": "Vermont - 33 V.S.A. Chapter\u00a053 (Proceedings in Family Court for abuse/neglect)",
+          "citation_text": "Vermont - 33 V.S.A. Chapter 53 (Proceedings in Family Court for abuse/neglect)",
           "source_url": "https://legislature.vermont.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
@@ -186,7 +186,7 @@
         },
         {
           "case_id": "2020-242",
-          "title": "In re Investigation Pursuant to 30 V.S.A. \u00c2\u00a7\u00c2\u00a7 30 and 209 into whether the Petitioner Initiated Site Preparation at Apple Hill in Bennington, VT (Allco Renewable Energy Limited et al.*)",
+          "title": "In re Investigation Pursuant to 30 V.S.A. Â§Â§ 30 and 209 into whether the Petitioner Initiated Site Preparation at Apple Hill in Bennington, VT (Allco Renewable Energy Limited et al.*)",
           "url": "https://law.justia.com/cases/vermont/supreme-court/2020/2020-242.html",
           "year": 2020,
           "court": "Supreme Court",
@@ -293,10 +293,10 @@
     }
   },
   "state_agency": {
-    "name": "Department for Children and Families",
-    "acronym": "DCF",
+    "name": "Vermont Department for Children and Families, Family Services Division",
+    "acronym": "FSD",
     "hotline": "1-800-649-5285",
-    "website": "https://legislature.vermont.gov"
+    "website": "https://dcf.vermont.gov/fsd"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -334,14 +334,14 @@
       "requirement_name": "Safety decision",
       "deadline": "Immediate upon contact",
       "starts_from": "First family contact",
-      "source": "admin_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Child safety risk"
     },
     {
       "requirement_name": "Disposition finding",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Procedural violation"
     }
   ],

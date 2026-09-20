@@ -6,8 +6,8 @@
   "subnode": "FAIL-04",
   "trigger_name": "Child Death Under Agency Supervision",
   "summary_html": "A child dies or suffers serious harm while **under agency supervision**, constituting systemic failure. Federal law mandates disclosure and review to identify causes and reforms.",
-  "authority_html": "- **Protect Our Kids Act (PL 112-275)** \u2014 federal commission and review requirements  \n- **CAPTA \u00a75106a(b)(2)(A)(x)** \u2014 mandates public disclosure of child-fatality cases",
-  "icon": "\u26b0\ufe0f",
+  "authority_html": "- **Protect Our Kids Act (PL 112-275)** — federal commission and review requirements  \n- **CAPTA §5106a(b)(2)(A)(x)** — mandates public disclosure of child-fatality cases",
+  "icon": "⚰️",
   "theme_color": "#8B0000",
   "domain": "civil",
   "procedural_weight": 0.3,
@@ -24,13 +24,13 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 112-275 (Protect Our Kids Act)",
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Iowa - Title VI, Chapter 232 (Juvenile Justice \u2013 includes mandatory reporting and child in need of assistance)",
+          "citation_text": "Iowa - Title VI, Chapter 232 (Juvenile Justice – includes mandatory reporting and child in need of assistance)",
           "source_url": "https://www.legis.iowa.gov/law/iowaCode/sections?codeChapter=232",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -218,10 +218,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Services",
-    "acronym": "DHS",
+    "name": "Iowa Department of Health and Human Services, Child Protective Services",
+    "acronym": "Iowa HHS",
     "hotline": "1-800-362-2178",
-    "website": "https://www.legis.iowa.gov"
+    "website": "https://hhs.iowa.gov/programs/CPS"
   },
   "linked_output": "OUT-06",
   "linked_action": "ACT-03",
@@ -258,7 +258,7 @@
       "requirement_name": "Appeal deadline",
       "deadline": "30 days",
       "starts_from": "Final order",
-      "source": "court_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Loss of appeal rights"
     },
     {

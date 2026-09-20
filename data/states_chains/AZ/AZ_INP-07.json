@@ -6,8 +6,8 @@
   "subnode": "INP-07",
   "trigger_name": "Medical Disclosure",
   "summary_html": "**Healthcare encounters** that reveal suspected abuse or neglect trigger reporting obligations. Federal law governs mandatory reporting in federal facilities and coordination with state systems.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 state reporter systems and protections  \n- **Victims of Child Abuse Act (34 U.S.C. \u00a7\u00a7 20301\u201320307)** \u2014 mandates in federal settings, CAC coordination",
-  "icon": "\ud83c\udfe5",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — state reporter systems and protections  \n- **Victims of Child Abuse Act (34 U.S.C. §§ 20301–20307)** — mandates in federal settings, CAC coordination",
+  "icon": "🏥",
   "theme_color": "#FF69B4",
   "domain": "civil",
   "procedural_weight": 0.45,
@@ -23,21 +23,21 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
-        "34 U.S.C. \u00a7\u00a7 20301\u201320307 (Victims of Child Abuse Act)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
+        "34 U.S.C. §§ 20301–20307 (Victims of Child Abuse Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Arizona - Title 13, \u00a7 3620 (Criminal code \u2013 duty to report child abuse)",
+          "citation_text": "Arizona - Title 13, § 3620 (Criminal code – duty to report child abuse)",
           "source_url": "https://www.azleg.gov/arstitle/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Arizona - Title 8, Chapter 4 (Arizona Juvenile Code \u2013 Dependent children)",
+          "citation_text": "Arizona - Title 8, Chapter 4 (Arizona Juvenile Code – Dependent children)",
           "source_url": "https://www.azleg.gov/arstitle/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -321,10 +321,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Child Safety",
+    "name": "Arizona Department of Child Safety",
     "acronym": "DCS",
     "hotline": "1-888-767-2445",
-    "website": "https://www.azleg.gov"
+    "website": "https://dcs.az.gov/"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -397,14 +397,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

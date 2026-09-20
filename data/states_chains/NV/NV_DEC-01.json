@@ -6,8 +6,8 @@
   "subnode": "DEC-01",
   "trigger_name": "Screen-Out / Unfounded at Intake",
   "summary_html": "CPS **screens out** a report (no investigation) or closes as **unfounded** after minimal review. Federal law (CAPTA) conditions funding on operating screening criteria and recordkeeping; federal reviews (CFSR) assess decision quality.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 screening & intake system requirements  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal performance/quality review of state screening and responses",
-  "icon": "\ud83d\udeab",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — screening & intake system requirements  \n- **CFSR Regulations (45 CFR Part 1355)** — federal performance/quality review of state screening and responses",
+  "icon": "🚫",
   "theme_color": "#4B9CD3",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -26,14 +26,14 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Nevada - NRS Chapter\u00a0432B (Protection of Children from Abuse and Neglect)",
+          "citation_text": "Nevada - NRS Chapter 432B (Protection of Children from Abuse and Neglect)",
           "source_url": "https://www.leg.state.nv.us/NRS/NRS-432B.html",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -248,10 +248,10 @@
     }
   },
   "state_agency": {
-    "name": "Division of Child and Family Services",
+    "name": "Nevada Division of Child and Family Services",
     "acronym": "DCFS",
-    "hotline": "1-833-803-1183",
-    "website": "https://www.leg.state.nv.us"
+    "hotline": "Clark County 702-399-0081; Washoe County 833-900-7233; all other counties 833-571-1041 (after hours: local law enforcement)",
+    "website": "https://dcfs.nv.gov/"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -289,14 +289,14 @@
       "requirement_name": "Safety decision",
       "deadline": "Immediate upon contact",
       "starts_from": "First family contact",
-      "source": "admin_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Child safety risk"
     },
     {
       "requirement_name": "Disposition finding",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Procedural violation"
     }
   ],

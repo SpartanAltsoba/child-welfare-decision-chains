@@ -6,8 +6,8 @@
   "subnode": "INP-08",
   "trigger_name": "Educational Disclosure",
   "summary_html": "**Educators/school staff** observing indicators of abuse/neglect report to CPS under state mandatory-reporter lists built on the federal CAPTA floor.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 requires robust reporter regimes that include education sector professionals",
-  "icon": "\ud83c\udf93",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — requires robust reporter regimes that include education sector professionals",
+  "icon": "🎓",
   "theme_color": "#FFD700",
   "domain": "civil",
   "procedural_weight": 0.4,
@@ -23,7 +23,7 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)"
       ]
     },
     "state_statutory": {
@@ -268,10 +268,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Services",
-    "acronym": "DHS",
+    "name": "Hawaii Department of Human Services, Child Welfare Services",
+    "acronym": "CWS",
     "hotline": "808-832-5300",
-    "website": "https://www.capitol.hawaii.gov"
+    "website": "https://humanservices.hawaii.gov/ssd/home/child-welfare-services/"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -346,14 +346,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

@@ -6,8 +6,8 @@
   "subnode": "ACT-06",
   "trigger_name": "Emergency Medical/Psychological Care",
   "summary_html": "Agency or court authorizes **immediate medical or psychological care** when delay endangers life or safety. Federal statutes support medical access and confidentiality exceptions for child protection.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 permits emergency medical actions for abused/neglected children  \n- **Victims of Child Abuse Act (34 U.S.C. \u00a7\u00a7 20301\u201320307)** \u2014 multidisciplinary response and medical-exam standards",
-  "icon": "\ud83c\udfe5",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — permits emergency medical actions for abused/neglected children  \n- **Victims of Child Abuse Act (34 U.S.C. §§ 20301–20307)** — multidisciplinary response and medical-exam standards",
+  "icon": "🏥",
   "theme_color": "#FF69B4",
   "domain": "civil",
   "procedural_weight": 0.4,
@@ -23,20 +23,20 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
-        "34 U.S.C. \u00a7\u00a7 20301\u201320307 (VICAA)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
+        "34 U.S.C. §§ 20301–20307 (VICAA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Vermont - 33 V.S.A. Chapter\u00a049 (Child Welfare Services \u2013 \u00a7\u00a04913 mandatory reporting)",
+          "citation_text": "Vermont - 33 V.S.A. Chapter 49 (Child Welfare Services – § 4913 mandatory reporting)",
           "source_url": "https://legislature.vermont.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
         },
         {
-          "citation_text": "Vermont - 33 V.S.A. Chapter\u00a053 (Proceedings in Family Court for abuse/neglect)",
+          "citation_text": "Vermont - 33 V.S.A. Chapter 53 (Proceedings in Family Court for abuse/neglect)",
           "source_url": "https://legislature.vermont.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
@@ -293,10 +293,10 @@
     }
   },
   "state_agency": {
-    "name": "Department for Children and Families",
-    "acronym": "DCF",
+    "name": "Vermont Department for Children and Families, Family Services Division",
+    "acronym": "FSD",
     "hotline": "1-800-649-5285",
-    "website": "https://legislature.vermont.gov"
+    "website": "https://dcf.vermont.gov/fsd"
   },
   "linked_decision": "DEC-04",
   "linked_input": "INP-07",
@@ -331,7 +331,7 @@
       "requirement_name": "Emergency removal hearing",
       "deadline": "24-72 hours",
       "starts_from": "Child removed",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Constitutional violation, case dismissal"
     },
     {

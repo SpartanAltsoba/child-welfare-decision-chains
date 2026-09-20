@@ -6,8 +6,8 @@
   "subnode": "ACT-03",
   "trigger_name": "Foster Care Placement",
   "summary_html": "The child is **removed from the home** and placed in foster care under court order or emergency authority. Federal statutes tie funding to safety findings, judicial oversight, and permanency planning.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal monitoring of placement decisions",
-  "icon": "\ud83d\udea8",
+  "authority_html": "- **ASFA / SSA Title IV-E** — removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** — federal monitoring of placement decisions",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.35,
@@ -21,21 +21,21 @@
     "constitutional": {
       "constraints_triggered": [
         "U.S. Const. amend. IV",
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)",
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "South Dakota - S.D. Codified Laws Chapter\u00a026-8A (Protection of Children \u2013 mandatory reporting and CPS)",
+          "citation_text": "South Dakota - S.D. Codified Laws Chapter 26-8A (Protection of Children – mandatory reporting and CPS)",
           "source_url": "https://sdlegislature.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
@@ -149,14 +149,14 @@
         {
           "provision_id": "SD_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "South Dakota Const. art. VI, \u00a7 11",
+          "citation": "South Dakota Const. art. VI, § 11",
           "federal_parallel": "U.S. Const. amend. IV"
         },
         {
           "provision_id": "SD_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "South Dakota Const. art. VI, \u00a7 2",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "South Dakota Const. art. VI, § 2",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -263,7 +263,7 @@
         },
         {
           "case_id": "30488",
-          "title": "In The Matter Of The Interpretation Of South Dakota Constitution And State Law Re: State Legislator\u2019s Interest In State Or County Contracts",
+          "title": "In The Matter Of The Interpretation Of South Dakota Constitution And State Law Re: State Legislator’s Interest In State Or County Contracts",
           "url": "https://law.justia.com/cases/south-dakota/supreme-court/2024/30488.html",
           "year": 2024,
           "court": "Supreme Court",
@@ -318,10 +318,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Social Services",
-    "acronym": "DSS",
+    "name": "South Dakota Department of Social Services, Division of Child Protection Services",
+    "acronym": "CPS",
     "hotline": "1-877-244-0864",
-    "website": "https://sdlegislature.gov"
+    "website": "https://dss.sd.gov/childprotection/"
   },
   "linked_decision": "DEC-04",
   "linked_input": "INP-01",
@@ -356,7 +356,7 @@
       "requirement_name": "Emergency removal hearing",
       "deadline": "24-72 hours",
       "starts_from": "Child removed",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Constitutional violation, case dismissal"
     },
     {

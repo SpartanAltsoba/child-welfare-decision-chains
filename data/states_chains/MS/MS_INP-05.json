@@ -6,8 +6,8 @@
   "subnode": "INP-05",
   "trigger_name": "Self-Report / Guardian Request",
   "summary_html": "A **parent/guardian/child requests help** without a substantiated allegation. FFPSA created a federal pathway for **prevention services** to avert removal and stabilize families before a case escalates.",
-  "authority_html": "- **Family First Prevention Services Act (2018)** \u2014 prevention services, kinship support; shifts upstream from removal to support",
-  "icon": "\ud83e\udde9",
+  "authority_html": "- **Family First Prevention Services Act (2018)** — prevention services, kinship support; shifts upstream from removal to support",
+  "icon": "🧩",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -24,20 +24,20 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 671\u2013679b (FFPSA-related IV-E changes)"
+        "42 U.S.C. §§ 671–679b (FFPSA-related IV-E changes)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Mississippi - Miss. Code Title\u00a043, Chap.\u00a021 (Youth Court Act \u2013 \u00a7\u00a043-21-353 mandatory reporting)",
+          "citation_text": "Mississippi - Miss. Code Title 43, Chap. 21 (Youth Court Act – § 43-21-353 mandatory reporting)",
           "source_url": "https://www.lexisnexis.com/hottopics/mscode/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Mississippi - Miss. Code \u00a7\u00a043-21-601 et seq. (Youth Court disposition and removal)",
+          "citation_text": "Mississippi - Miss. Code § 43-21-601 et seq. (Youth Court disposition and removal)",
           "source_url": "https://law.justia.com/codes/mississippi/title-43/chapter-21/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -303,10 +303,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Child Protection Services",
+    "name": "Mississippi Department of Child Protection Services",
     "acronym": "MDCPS",
     "hotline": "1-800-222-8000",
-    "website": "https://www.legislature.ms.gov"
+    "website": "https://www.mdcps.ms.gov/"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -381,14 +381,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

@@ -6,8 +6,8 @@
   "subnode": "INP-06",
   "trigger_name": "Anonymous Tip / Hotline",
   "summary_html": "Reports via **state hotlines** (anonymous or confidential). CAPTA conditions funding on operating intake systems with confidentiality and good-faith protections.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 intake, confidentiality, immunity, and data requirements tied to federal funding",
-  "icon": "\u260e\ufe0f",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — intake, confidentiality, immunity, and data requirements tied to federal funding",
+  "icon": "☎️",
   "theme_color": "#FF8C00",
   "domain": "civil",
   "procedural_weight": 0.4,
@@ -24,7 +24,7 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)"
       ]
     },
     "state_statutory": {
@@ -38,14 +38,14 @@
           "node_specific": true
         },
         {
-          "citation_text": "Washington - RCW Chapter\u00a026.44 (Abuse of Children \u2013 mandatory reporting and investigations)",
+          "citation_text": "Washington - RCW Chapter 26.44 (Abuse of Children – mandatory reporting and investigations)",
           "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=26.44",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Washington - RCW Title\u00a013 (Juvenile Courts \u2013 includes dependency proceedings)",
+          "citation_text": "Washington - RCW Title 13 (Juvenile Courts – includes dependency proceedings)",
           "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=13.34",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -280,10 +280,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children, Youth, and Families",
+    "name": "Washington State Department of Children, Youth, and Families",
     "acronym": "DCYF",
     "hotline": "1-866-363-4276",
-    "website": "https://leg.wa.gov"
+    "website": "https://dcyf.wa.gov/"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -355,14 +355,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

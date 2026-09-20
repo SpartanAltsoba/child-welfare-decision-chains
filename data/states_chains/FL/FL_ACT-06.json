@@ -6,8 +6,8 @@
   "subnode": "ACT-06",
   "trigger_name": "Emergency Medical/Psychological Care",
   "summary_html": "Agency or court authorizes **immediate medical or psychological care** when delay endangers life or safety. Federal statutes support medical access and confidentiality exceptions for child protection.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 permits emergency medical actions for abused/neglected children  \n- **Victims of Child Abuse Act (34 U.S.C. \u00a7\u00a7 20301\u201320307)** \u2014 multidisciplinary response and medical-exam standards",
-  "icon": "\ud83c\udfe5",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — permits emergency medical actions for abused/neglected children  \n- **Victims of Child Abuse Act (34 U.S.C. §§ 20301–20307)** — multidisciplinary response and medical-exam standards",
+  "icon": "🏥",
   "theme_color": "#FF69B4",
   "domain": "civil",
   "procedural_weight": 0.4,
@@ -23,14 +23,14 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
-        "34 U.S.C. \u00a7\u00a7 20301\u201320307 (VICAA)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
+        "34 U.S.C. §§ 20301–20307 (VICAA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Florida - Title V, Chapter 39 (Proceedings Relating to Children \u2013 abuse reporting and CPS)",
+          "citation_text": "Florida - Title V, Chapter 39 (Proceedings Relating to Children – abuse reporting and CPS)",
           "source_url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099/0039/0039.html",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -284,10 +284,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children and Families",
+    "name": "Florida Department of Children and Families",
     "acronym": "DCF",
     "hotline": "1-800-962-2873",
-    "website": "https://www.leg.state.fl.us"
+    "website": "https://www.myflfamilies.com/"
   },
   "linked_decision": "DEC-04",
   "linked_input": "INP-07",
@@ -322,7 +322,7 @@
       "requirement_name": "Emergency removal hearing",
       "deadline": "24-72 hours",
       "starts_from": "Child removed",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Constitutional violation, case dismissal"
     },
     {

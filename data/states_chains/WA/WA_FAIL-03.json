@@ -6,8 +6,8 @@
   "subnode": "FAIL-03",
   "trigger_name": "Federal Compliance Failure",
   "summary_html": "A **state agency fails** to meet federal child-welfare performance standards, triggering **funding penalties** or corrective action under the CFSR or Single Audit Act.",
-  "authority_html": "- **Child & Family Services Reviews (45 CFR Part 1355)** \u2014 performance oversight and penalties  \n- **Single Audit Act (31 U.S.C. \u00a7\u00a7 7501\u20137507)** \u2014 audit of federally funded programs  \n- **Inspector General Act (5 U.S.C. App.)** \u2014 oversight authority for HHS/OIG",
-  "icon": "\ud83d\udcb8",
+  "authority_html": "- **Child & Family Services Reviews (45 CFR Part 1355)** — performance oversight and penalties  \n- **Single Audit Act (31 U.S.C. §§ 7501–7507)** — audit of federally funded programs  \n- **Inspector General Act (5 U.S.C. App.)** — oversight authority for HHS/OIG",
+  "icon": "💸",
   "theme_color": "#FF8C00",
   "domain": "civil",
   "procedural_weight": 0.7,
@@ -25,7 +25,7 @@
     "federal": {
       "requirements_applicable": [
         "45 CFR Part 1355 (CFSR)",
-        "31 U.S.C. \u00a7\u00a7 7501\u20137507 (Single Audit Act)",
+        "31 U.S.C. §§ 7501–7507 (Single Audit Act)",
         "5 U.S.C. App. (Inspector General Act)"
       ]
     },
@@ -40,14 +40,14 @@
           "node_specific": true
         },
         {
-          "citation_text": "Washington - RCW Chapter\u00a026.44 (Abuse of Children \u2013 mandatory reporting and investigations)",
+          "citation_text": "Washington - RCW Chapter 26.44 (Abuse of Children – mandatory reporting and investigations)",
           "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=26.44",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Washington - RCW Title\u00a013 (Juvenile Courts \u2013 includes dependency proceedings)",
+          "citation_text": "Washington - RCW Title 13 (Juvenile Courts – includes dependency proceedings)",
           "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=13.34",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -267,10 +267,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children, Youth, and Families",
+    "name": "Washington State Department of Children, Youth, and Families",
     "acronym": "DCYF",
     "hotline": "1-866-363-4276",
-    "website": "https://leg.wa.gov"
+    "website": "https://dcyf.wa.gov/"
   },
   "linked_output": "OUT-06",
   "linked_action": "ACT-03",
@@ -307,7 +307,7 @@
       "requirement_name": "Appeal deadline",
       "deadline": "30 days",
       "starts_from": "Final order",
-      "source": "court_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Loss of appeal rights"
     },
     {

@@ -6,8 +6,8 @@
   "subnode": "FAIL-06",
   "trigger_name": "Disclosure / Transparency Failure",
   "summary_html": "Agency fails to **disclose required data or reports**, obstructing transparency. Federal statutes require public reporting under CAPTA, FOIA, and Sunshine provisions.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 mandates public availability of child-fatality information  \n- **Freedom of Information Act (5 U.S.C. \u00a7 552)** \u2014 public access to federal records  \n- **Government in the Sunshine Act (5 U.S.C. \u00a7 552b)** \u2014 open-meeting requirements",
-  "icon": "\ud83d\udd73\ufe0f",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — mandates public availability of child-fatality information  \n- **Freedom of Information Act (5 U.S.C. § 552)** — public access to federal records  \n- **Government in the Sunshine Act (5 U.S.C. § 552b)** — open-meeting requirements",
+  "icon": "🕳️",
   "theme_color": "#708090",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -24,16 +24,16 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
-        "5 U.S.C. \u00a7 552 (FOIA)",
-        "5 U.S.C. \u00a7 552b (Sunshine Act)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
+        "5 U.S.C. § 552 (FOIA)",
+        "5 U.S.C. § 552b (Sunshine Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Rhode Island - R.I. Gen. Laws Title\u00a040, Chapter\u00a011 (Abused and Neglected Children \u2013 \u00a7\u00a040-11-6 reporting duty)",
-          "source_url": "https://webserver.rilin.state.ri.us/Statutes/TITLE40/40-11/INDEX.HTM",
+          "citation_text": "Rhode Island - R.I. Gen. Laws Title 40, Chapter 11 (Abused and Neglected Children – § 40-11-6 reporting duty)",
+          "source_url": "https://webserver.rilegislature.gov/Statutes/TITLE40/40-11/INDEX.HTM",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
@@ -247,10 +247,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children, Youth and Families",
+    "name": "Rhode Island Department of Children, Youth and Families",
     "acronym": "DCYF",
     "hotline": "1-800-742-4453",
-    "website": "https://www.rilin.state.ri.us"
+    "website": "https://dcyf.ri.gov/"
   },
   "linked_output": "OUT-06",
   "linked_action": "ACT-03",
@@ -287,7 +287,7 @@
       "requirement_name": "Appeal deadline",
       "deadline": "30 days",
       "starts_from": "Final order",
-      "source": "court_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Loss of appeal rights"
     },
     {

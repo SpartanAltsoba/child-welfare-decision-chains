@@ -5,9 +5,9 @@
   "node_family": "PMC",
   "subnode": "PMC-05",
   "trigger_name": "FOIA / Transparency",
-  "summary_html": "Federal transparency statutes\u2014**FOIA** and **Sunshine Act**\u2014require disclosure of government data. Project Milk Carton promotes FOIA requests and public dashboards for child-welfare records.",
-  "authority_html": "- **Freedom of Information Act (5 U.S.C. \u00a7 552)** \u2014 public access to records  \n- **Government in the Sunshine Act (5 U.S.C. \u00a7 552b)** \u2014 open-meeting requirements",
-  "icon": "\ud83d\udcc2",
+  "summary_html": "Federal transparency statutes—**FOIA** and **Sunshine Act**—require disclosure of government data. Project Milk Carton promotes FOIA requests and public dashboards for child-welfare records.",
+  "authority_html": "- **Freedom of Information Act (5 U.S.C. § 552)** — public access to records  \n- **Government in the Sunshine Act (5 U.S.C. § 552b)** — open-meeting requirements",
+  "icon": "📂",
   "theme_color": "#FFD700",
   "domain": "civil",
   "procedural_weight": 0.65,
@@ -23,14 +23,14 @@
     },
     "federal": {
       "requirements_applicable": [
-        "5 U.S.C. \u00a7 552 (FOIA)",
-        "5 U.S.C. \u00a7 552b (Sunshine Act)"
+        "5 U.S.C. § 552 (FOIA)",
+        "5 U.S.C. § 552b (Sunshine Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "New York - N.Y. Soc. Serv. Law \u00a7\u00a0411 et seq. (Child Protective Services Act \u2013 reporting requirements)",
+          "citation_text": "New York - N.Y. Soc. Serv. Law § 411 et seq. (Child Protective Services Act – reporting requirements)",
           "source_url": "https://www.nysenate.gov/legislation/laws/SocServ/411",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -278,7 +278,7 @@
     "name": "Office of Children and Family Services",
     "acronym": "OCFS",
     "hotline": "1-800-342-3720",
-    "website": "https://nyassembly.gov"
+    "website": "https://ocfs.ny.gov/"
   },
   "linked_fail": "FAIL-06",
   "_metadata": {
@@ -319,7 +319,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

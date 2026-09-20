@@ -1,0 +1,14 @@
+{
+  "_about": "Verified replacements for dataset URLs that are wrong or dead. Applied by weblink() in the importer. Exact-URL keys win; host keys rewrite any URL on that host. Every entry: who found it, when, proof. Repo fix belongs in v1.0.1.",
+  "exact": {
+    "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=10000": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=455989"
+  },
+  "hosts": {
+    "webserver.rilin.state.ri.us": "webserver.rilegislature.gov",
+    "www.rilin.state.ri.us": "www.rilegislature.gov"
+  },
+  "_provenance": {
+    "CiteID=10000": "OK fleet writer, 19 SEP 2026: CiteID 10000 = Prudential v. Grimes (1986 insurance case); 10A O.S. 1-2-101 is CiteID 455989 (full text verified). 42/42 OK files.",
+    "rilin.state.ri.us": "RI fleet writer, 19 SEP 2026: old General Assembly host returns 000; live host is rilegislature.gov. 42/42 RI files."
+  }
+}

@@ -6,8 +6,8 @@
   "subnode": "INP-01",
   "trigger_name": "Mandatory Report",
   "summary_html": "**Mandatory reporters** (designated professionals) must report suspected child abuse or neglect. Federal law sets the funding and policy floor (CAPTA) and mandates reporter frameworks on federal lands/facilities (VICAA).",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 federal floor for state reporting systems  \n- **Victims of Child Abuse Act (34 U.S.C. \u00a7\u00a7 20301\u201320307)** \u2014 includes federal-facility reporter duties (recodified from former 42 U.S.C. \u00a713031)",
-  "icon": "\ud83d\udcde",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — federal floor for state reporting systems  \n- **Victims of Child Abuse Act (34 U.S.C. §§ 20301–20307)** — includes federal-facility reporter duties (recodified from former 42 U.S.C. §13031)",
+  "icon": "📞",
   "theme_color": "#1E90FF",
   "domain": "civil",
   "procedural_weight": 0.4,
@@ -27,21 +27,21 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
-        "34 U.S.C. \u00a7\u00a7 20301\u201320307 (Victims of Child Abuse Act)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
+        "34 U.S.C. §§ 20301–20307 (Victims of Child Abuse Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Texas - Texas Family Code Chapter\u00a0261 (Investigation of Report of Abuse or Neglect)",
+          "citation_text": "Texas - Texas Family Code Chapter 261 (Investigation of Report of Abuse or Neglect)",
           "source_url": "https://statutes.capitol.texas.gov/Docs/FA/htm/FA.261.htm",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Texas - Texas Family Code Chapter\u00a0262 (Removal of Child in an Emergency)",
+          "citation_text": "Texas - Texas Family Code Chapter 262 (Removal of Child in an Emergency)",
           "source_url": "https://statutes.capitol.texas.gov/Docs/FA/htm/FA.262.htm",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -271,10 +271,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Family and Protective Services",
+    "name": "Texas Department of Family and Protective Services",
     "acronym": "DFPS",
     "hotline": "1-800-252-5400",
-    "website": "https://capitol.texas.gov"
+    "website": "https://www.dfps.texas.gov/"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -354,14 +354,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

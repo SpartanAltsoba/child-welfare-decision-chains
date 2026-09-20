@@ -5,9 +5,9 @@
   "node_family": "PMC",
   "subnode": "PMC-05",
   "trigger_name": "FOIA / Transparency",
-  "summary_html": "Federal transparency statutes\u2014**FOIA** and **Sunshine Act**\u2014require disclosure of government data. Project Milk Carton promotes FOIA requests and public dashboards for child-welfare records.",
-  "authority_html": "- **Freedom of Information Act (5 U.S.C. \u00a7 552)** \u2014 public access to records  \n- **Government in the Sunshine Act (5 U.S.C. \u00a7 552b)** \u2014 open-meeting requirements",
-  "icon": "\ud83d\udcc2",
+  "summary_html": "Federal transparency statutes—**FOIA** and **Sunshine Act**—require disclosure of government data. Project Milk Carton promotes FOIA requests and public dashboards for child-welfare records.",
+  "authority_html": "- **Freedom of Information Act (5 U.S.C. § 552)** — public access to records  \n- **Government in the Sunshine Act (5 U.S.C. § 552b)** — open-meeting requirements",
+  "icon": "📂",
   "theme_color": "#FFD700",
   "domain": "civil",
   "procedural_weight": 0.65,
@@ -23,15 +23,15 @@
     },
     "federal": {
       "requirements_applicable": [
-        "5 U.S.C. \u00a7 552 (FOIA)",
-        "5 U.S.C. \u00a7 552b (Sunshine Act)"
+        "5 U.S.C. § 552 (FOIA)",
+        "5 U.S.C. § 552b (Sunshine Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Rhode Island - R.I. Gen. Laws Title\u00a040, Chapter\u00a011 (Abused and Neglected Children \u2013 \u00a7\u00a040-11-6 reporting duty)",
-          "source_url": "https://webserver.rilin.state.ri.us/Statutes/TITLE40/40-11/INDEX.HTM",
+          "citation_text": "Rhode Island - R.I. Gen. Laws Title 40, Chapter 11 (Abused and Neglected Children – § 40-11-6 reporting duty)",
+          "source_url": "https://webserver.rilegislature.gov/Statutes/TITLE40/40-11/INDEX.HTM",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
@@ -244,10 +244,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children, Youth and Families",
+    "name": "Rhode Island Department of Children, Youth and Families",
     "acronym": "DCYF",
     "hotline": "1-800-742-4453",
-    "website": "https://www.rilin.state.ri.us"
+    "website": "https://dcyf.ri.gov/"
   },
   "linked_fail": "FAIL-06",
   "_metadata": {
@@ -288,7 +288,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

@@ -6,8 +6,8 @@
   "subnode": "FAIL-01",
   "trigger_name": "Court Reversal of Agency Decision",
   "summary_html": "A **court reverses or vacates** a CPS or agency decision due to procedural error, insufficient evidence, or constitutional violation. Federal review data (CFSR, ASFA) tracks judicial determinations on reasonable efforts and due process.",
-  "authority_html": "- **Adoption and Safe Families Act (ASFA)** \u2014 judicial findings of 'reasonable efforts' compliance  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal review of judicial/agency conformity  \n- **42 U.S.C. \u00a7 1983** \u2014 civil-rights remedy for unconstitutional removals (14th & 4th Amendments).",
-  "icon": "\u2696\ufe0f",
+  "authority_html": "- **Adoption and Safe Families Act (ASFA)** — judicial findings of 'reasonable efforts' compliance  \n- **CFSR Regulations (45 CFR Part 1355)** — federal review of judicial/agency conformity  \n- **42 U.S.C. § 1983** — civil-rights remedy for unconstitutional removals (14th & 4th Amendments).",
+  "icon": "⚖️",
   "theme_color": "#FF6347",
   "domain": "civil",
   "procedural_weight": 0.8,
@@ -20,7 +20,7 @@
     "constitutional": {
       "constraints_triggered": [
         "U.S. Const. amend. IV",
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
@@ -28,7 +28,7 @@
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
         "45 CFR Part 1355 (CFSR)",
-        "42 U.S.C. \u00a7 1983 (Civil Rights Act)"
+        "42 U.S.C. § 1983 (Civil Rights Act)"
       ]
     },
     "state_statutory": {
@@ -42,14 +42,14 @@
           "node_specific": true
         },
         {
-          "citation_text": "Washington - RCW Chapter\u00a026.44 (Abuse of Children \u2013 mandatory reporting and investigations)",
+          "citation_text": "Washington - RCW Chapter 26.44 (Abuse of Children – mandatory reporting and investigations)",
           "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=26.44",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Washington - RCW Title\u00a013 (Juvenile Courts \u2013 includes dependency proceedings)",
+          "citation_text": "Washington - RCW Title 13 (Juvenile Courts – includes dependency proceedings)",
           "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=13.34",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -113,14 +113,14 @@
         {
           "provision_id": "WA_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Washington Const. art. I, \u00a7 7",
+          "citation": "Washington Const. art. I, § 7",
           "federal_parallel": "U.S. Const. amend. IV"
         },
         {
           "provision_id": "WA_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Washington Const. art. I, \u00a7 3",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Washington Const. art. I, § 3",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -282,10 +282,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children, Youth, and Families",
+    "name": "Washington State Department of Children, Youth, and Families",
     "acronym": "DCYF",
     "hotline": "1-866-363-4276",
-    "website": "https://leg.wa.gov"
+    "website": "https://dcyf.wa.gov/"
   },
   "linked_output": "OUT-02",
   "linked_action": "ACT-03",
@@ -322,7 +322,7 @@
       "requirement_name": "Appeal deadline",
       "deadline": "30 days",
       "starts_from": "Final order",
-      "source": "court_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Loss of appeal rights"
     },
     {

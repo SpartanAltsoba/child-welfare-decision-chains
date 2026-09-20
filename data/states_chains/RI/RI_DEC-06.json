@@ -6,8 +6,8 @@
   "subnode": "DEC-06",
   "trigger_name": "Differential Response / Alternative Response (No Petition)",
   "summary_html": "Agency chooses **Differential Response (DR)**/**Alternative Response**: engage **services without court petition** when safety permits. FFPSA and IV-B/IV-E prevention funding support voluntary, front-end help to avert removals.",
-  "authority_html": "- **Family First Prevention Services Act (FFPSA)** \u2014 prevention services framework under IV-E  \n- **SSA Title IV-B & IV-E (42 U.S.C. \u00a7\u00a7 620\u2013629m; 670\u2013679c)** \u2014 service funding & case-plan requirements  \n- **CFSR (45 CFR Part 1355)** \u2014 assesses safety/permanency outcomes in DR systems",
-  "icon": "\ud83d\udd27",
+  "authority_html": "- **Family First Prevention Services Act (FFPSA)** — prevention services framework under IV-E  \n- **SSA Title IV-B & IV-E (42 U.S.C. §§ 620–629m; 670–679c)** — service funding & case-plan requirements  \n- **CFSR (45 CFR Part 1355)** — assesses safety/permanency outcomes in DR systems",
+  "icon": "🔧",
   "theme_color": "#20B2AA",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -22,23 +22,23 @@
   "layers": {
     "constitutional": {
       "constraints_triggered": [
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 671\u2013679b (FFPSA-related IV-E)",
-        "42 U.S.C. \u00a7\u00a7 620\u2013629m (Title IV-B)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E)",
+        "42 U.S.C. §§ 671–679b (FFPSA-related IV-E)",
+        "42 U.S.C. §§ 620–629m (Title IV-B)",
+        "42 U.S.C. §§ 670–679c (Title IV-E)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Rhode Island - R.I. Gen. Laws Title\u00a040, Chapter\u00a011 (Abused and Neglected Children \u2013 \u00a7\u00a040-11-6 reporting duty)",
-          "source_url": "https://webserver.rilin.state.ri.us/Statutes/TITLE40/40-11/INDEX.HTM",
+          "citation_text": "Rhode Island - R.I. Gen. Laws Title 40, Chapter 11 (Abused and Neglected Children – § 40-11-6 reporting duty)",
+          "source_url": "https://webserver.rilegislature.gov/Statutes/TITLE40/40-11/INDEX.HTM",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
@@ -96,8 +96,8 @@
         {
           "provision_id": "RI_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Rhode Island Const. art. I, \u00a7 2",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Rhode Island Const. art. I, § 2",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -259,10 +259,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children, Youth and Families",
+    "name": "Rhode Island Department of Children, Youth and Families",
     "acronym": "DCYF",
     "hotline": "1-800-742-4453",
-    "website": "https://www.rilin.state.ri.us"
+    "website": "https://dcyf.ri.gov/"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -300,14 +300,14 @@
       "requirement_name": "Safety decision",
       "deadline": "Immediate upon contact",
       "starts_from": "First family contact",
-      "source": "admin_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Child safety risk"
     },
     {
       "requirement_name": "Disposition finding",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Procedural violation"
     }
   ],

@@ -6,8 +6,8 @@
   "subnode": "PMC-04",
   "trigger_name": "Fatality Review Commission",
   "summary_html": "The **Protect Our Kids Act (PL 112-275)** created a national commission to study child-fatality prevention. Project Milk Carton cross-references its findings with state fatality data to expose non-implementation.",
-  "authority_html": "- **Public Law 112-275 (Protect Our Kids Act)** \u2014 national commission and reporting framework",
-  "icon": "\ud83d\udcca",
+  "authority_html": "- **Public Law 112-275 (Protect Our Kids Act)** — national commission and reporting framework",
+  "icon": "📊",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -28,14 +28,14 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Nebraska - Neb. Rev. Stat. \u00a7\u00a028-710 et seq. (Child Protection Act \u2013 reporting requirements)",
+          "citation_text": "Nebraska - Neb. Rev. Stat. § 28-710 et seq. (Child Protection Act – reporting requirements)",
           "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=28",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Nebraska - Neb. Rev. Stat. \u00a7\u00a043-247 et seq. (Juvenile Code for abuse/neglect cases)",
+          "citation_text": "Nebraska - Neb. Rev. Stat. § 43-247 et seq. (Juvenile Code for abuse/neglect cases)",
           "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=43",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -305,10 +305,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Health and Human Services",
-    "acronym": "DHHS",
+    "name": "Nebraska Department of Health and Human Services, Division of Children and Family Services",
+    "acronym": "CFS",
     "hotline": "1-800-652-1999",
-    "website": "https://nebraskalegislature.gov"
+    "website": "https://dhhs.ne.gov/Pages/Children-and-Family-Services.aspx"
   },
   "linked_fail": "FAIL-04",
   "_metadata": {
@@ -349,7 +349,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

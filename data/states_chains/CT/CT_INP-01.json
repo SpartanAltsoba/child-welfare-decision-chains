@@ -6,8 +6,8 @@
   "subnode": "INP-01",
   "trigger_name": "Mandatory Report",
   "summary_html": "**Mandatory reporters** (designated professionals) must report suspected child abuse or neglect. Federal law sets the funding and policy floor (CAPTA) and mandates reporter frameworks on federal lands/facilities (VICAA).",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 federal floor for state reporting systems  \n- **Victims of Child Abuse Act (34 U.S.C. \u00a7\u00a7 20301\u201320307)** \u2014 includes federal-facility reporter duties (recodified from former 42 U.S.C. \u00a713031)",
-  "icon": "\ud83d\udcde",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — federal floor for state reporting systems  \n- **Victims of Child Abuse Act (34 U.S.C. §§ 20301–20307)** — includes federal-facility reporter duties (recodified from former 42 U.S.C. §13031)",
+  "icon": "📞",
   "theme_color": "#1E90FF",
   "domain": "civil",
   "procedural_weight": 0.4,
@@ -27,14 +27,14 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
-        "34 U.S.C. \u00a7\u00a7 20301\u201320307 (Victims of Child Abuse Act)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
+        "34 U.S.C. §§ 20301–20307 (Victims of Child Abuse Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Connecticut - Title 17a, Chapter 319 (Abuse of Children \u2013 mandatory reporters)",
+          "citation_text": "Connecticut - Title 17a, Chapter 319 (Abuse of Children – mandatory reporters)",
           "source_url": "https://www.cga.ct.gov/current/pub/chap_319.htm",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -228,10 +228,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children and Families",
+    "name": "Connecticut Department of Children and Families",
     "acronym": "DCF",
     "hotline": "1-800-842-2288",
-    "website": "https://www.cga.ct.gov"
+    "website": "https://portal.ct.gov/dcf"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -307,14 +307,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

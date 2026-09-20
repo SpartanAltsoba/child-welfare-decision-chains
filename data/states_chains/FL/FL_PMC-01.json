@@ -6,8 +6,8 @@
   "subnode": "PMC-01",
   "trigger_name": "CFSR Monitoring",
   "summary_html": "Federal **Child and Family Services Reviews (CFSR)** monitor state performance on safety, permanency, and well-being. Project Milk Carton flags states that repeatedly fail or never publish CFSR improvement plans.",
-  "authority_html": "- **45 CFR Part 1355** \u2014 CFSR procedures and performance metrics  \n- **Social Security Act IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 ties funding to CFSR compliance",
-  "icon": "\ud83d\udd0d",
+  "authority_html": "- **45 CFR Part 1355** — CFSR procedures and performance metrics  \n- **Social Security Act IV-E (42 U.S.C. §§ 670–679c)** — ties funding to CFSR compliance",
+  "icon": "🔍",
   "theme_color": "#1E90FF",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -24,13 +24,13 @@
     "federal": {
       "requirements_applicable": [
         "45 CFR Part 1355 (CFSR)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)"
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Florida - Title V, Chapter 39 (Proceedings Relating to Children \u2013 abuse reporting and CPS)",
+          "citation_text": "Florida - Title V, Chapter 39 (Proceedings Relating to Children – abuse reporting and CPS)",
           "source_url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099/0039/0039.html",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -283,10 +283,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children and Families",
+    "name": "Florida Department of Children and Families",
     "acronym": "DCF",
     "hotline": "1-800-962-2873",
-    "website": "https://www.leg.state.fl.us"
+    "website": "https://www.myflfamilies.com/"
   },
   "linked_fail": "FAIL-03",
   "_metadata": {
@@ -327,7 +327,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

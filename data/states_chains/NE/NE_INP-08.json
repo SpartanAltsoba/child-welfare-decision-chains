@@ -6,8 +6,8 @@
   "subnode": "INP-08",
   "trigger_name": "Educational Disclosure",
   "summary_html": "**Educators/school staff** observing indicators of abuse/neglect report to CPS under state mandatory-reporter lists built on the federal CAPTA floor.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 requires robust reporter regimes that include education sector professionals",
-  "icon": "\ud83c\udf93",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — requires robust reporter regimes that include education sector professionals",
+  "icon": "🎓",
   "theme_color": "#FFD700",
   "domain": "civil",
   "procedural_weight": 0.4,
@@ -23,20 +23,20 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Nebraska - Neb. Rev. Stat. \u00a7\u00a028-710 et seq. (Child Protection Act \u2013 reporting requirements)",
+          "citation_text": "Nebraska - Neb. Rev. Stat. § 28-710 et seq. (Child Protection Act – reporting requirements)",
           "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=28",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Nebraska - Neb. Rev. Stat. \u00a7\u00a043-247 et seq. (Juvenile Code for abuse/neglect cases)",
+          "citation_text": "Nebraska - Neb. Rev. Stat. § 43-247 et seq. (Juvenile Code for abuse/neglect cases)",
           "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=43",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -306,10 +306,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Health and Human Services",
-    "acronym": "DHHS",
+    "name": "Nebraska Department of Health and Human Services, Division of Children and Family Services",
+    "acronym": "CFS",
     "hotline": "1-800-652-1999",
-    "website": "https://nebraskalegislature.gov"
+    "website": "https://dhhs.ne.gov/Pages/Children-and-Family-Services.aspx"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -390,14 +390,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

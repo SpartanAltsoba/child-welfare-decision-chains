@@ -6,8 +6,8 @@
   "subnode": "DEC-01",
   "trigger_name": "Screen-Out / Unfounded at Intake",
   "summary_html": "CPS **screens out** a report (no investigation) or closes as **unfounded** after minimal review. Federal law (CAPTA) conditions funding on operating screening criteria and recordkeeping; federal reviews (CFSR) assess decision quality.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 screening & intake system requirements  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal performance/quality review of state screening and responses",
-  "icon": "\ud83d\udeab",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — screening & intake system requirements  \n- **CFSR Regulations (45 CFR Part 1355)** — federal performance/quality review of state screening and responses",
+  "icon": "🚫",
   "theme_color": "#4B9CD3",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -26,21 +26,21 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Pennsylvania - Title 23 Pa.C.S. Chapter\u00a063 (Child Protective Services Law)",
+          "citation_text": "Pennsylvania - Title 23 Pa.C.S. Chapter 63 (Child Protective Services Law)",
           "source_url": "https://law.onecle.com/pennsylvania/title-23/chapter-63/index.html",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Pennsylvania - 42 Pa.C.S. Chapter\u00a063 (Juvenile Act \u2013 dependency proceedings)",
+          "citation_text": "Pennsylvania - 42 Pa.C.S. Chapter 63 (Juvenile Act – dependency proceedings)",
           "source_url": "https://www.legis.state.pa.us/cfdocs/legis/LI/consCheck.cfm?txtType=HTM&ttl=4&div=0&chpt=2",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -264,10 +264,10 @@
     }
   },
   "state_agency": {
-    "name": "Children and Youth Services",
-    "acronym": "CYS",
+    "name": "Pennsylvania Department of Human Services, Office of Children, Youth, and Families",
+    "acronym": "OCYF",
     "hotline": "1-800-932-0313",
-    "website": "https://www.legis.state.pa.us"
+    "website": "https://www.pa.gov/agencies/dhs/departments-offices/ocyf-info"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -305,14 +305,14 @@
       "requirement_name": "Safety decision",
       "deadline": "Immediate upon contact",
       "starts_from": "First family contact",
-      "source": "admin_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Child safety risk"
     },
     {
       "requirement_name": "Disposition finding",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Procedural violation"
     }
   ],

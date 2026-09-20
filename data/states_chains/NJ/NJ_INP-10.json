@@ -4,10 +4,10 @@
   "state_name": "New Jersey",
   "node_family": "INP",
   "subnode": "INP-10",
-  "trigger_name": "Agency Escalation (Screening \u2192 Investigation)",
+  "trigger_name": "Agency Escalation (Screening → Investigation)",
   "summary_html": "An intake **screen** is elevated to a formal **investigation/assessment** under state criteria. CAPTA and CFSR establish the federal expectations for screening, timelines, and investigative quality.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 screening/investigation conditions for funding  \n- **CFSR (45 CFR Part 1355)** \u2014 federal performance/quality review framework",
-  "icon": "\ud83d\udd04",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — screening/investigation conditions for funding  \n- **CFSR (45 CFR Part 1355)** — federal performance/quality review framework",
+  "icon": "🔄",
   "theme_color": "#20B2AA",
   "domain": "civil",
   "procedural_weight": 0.45,
@@ -23,14 +23,14 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
         "45 CFR Part 1355 (CFSR Regulations)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "New Jersey - Title 9, Chapter 6 (Abuse of Children Act \u2013 all persons must report, e.g. \u00a7\u00a09:6-8.10)",
+          "citation_text": "New Jersey - Title 9, Chapter 6 (Abuse of Children Act – all persons must report, e.g. § 9:6-8.10)",
           "source_url": "https://www.njleg.state.nj.us",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
@@ -296,10 +296,10 @@
     }
   },
   "state_agency": {
-    "name": "Division of Child Protection and Permanency (DCF)",
-    "acronym": "DCPP",
+    "name": "New Jersey Division of Child Protection and Permanency",
+    "acronym": "CP&P",
     "hotline": "1-877-652-2873",
-    "website": "https://www.njleg.state.nj.us"
+    "website": "https://www.nj.gov/dcf/"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -377,14 +377,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

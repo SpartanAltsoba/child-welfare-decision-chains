@@ -5,9 +5,9 @@
   "node_family": "INP",
   "subnode": "INP-03",
   "trigger_name": "Law-Enforcement Referral",
-  "summary_html": "A **law-enforcement agency** encounters suspected maltreatment (e.g., during a domestic call or arrest) and **refers** to CPS. Federal child-abuse infrastructure promotes coordinated investigations via Children\u2019s Advocacy Centers.",
-  "authority_html": "- **Victims of Child Abuse Act (34 U.S.C. \u00a7\u00a7 20301\u201320307)** \u2014 support for multidisciplinary teams and CAC protocols; coordination with CPS  \n- **ASFA/SSA IV-E** \u2014 court findings and reasonable-efforts determinations later constrain downstream actions",
-  "icon": "\ud83d\ude94",
+  "summary_html": "A **law-enforcement agency** encounters suspected maltreatment (e.g., during a domestic call or arrest) and **refers** to CPS. Federal child-abuse infrastructure promotes coordinated investigations via Children’s Advocacy Centers.",
+  "authority_html": "- **Victims of Child Abuse Act (34 U.S.C. §§ 20301–20307)** — support for multidisciplinary teams and CAC protocols; coordination with CPS  \n- **ASFA/SSA IV-E** — court findings and reasonable-efforts determinations later constrain downstream actions",
+  "icon": "🚔",
   "theme_color": "#DC143C",
   "domain": "civil",
   "procedural_weight": 0.45,
@@ -25,8 +25,8 @@
     },
     "federal": {
       "requirements_applicable": [
-        "34 U.S.C. \u00a7\u00a7 20301\u201320307 (Victims of Child Abuse Act)",
-        "42 U.S.C. \u00a7\u00a7 671\u2013675 (ASFA-related IV-E conditions)"
+        "34 U.S.C. §§ 20301–20307 (Victims of Child Abuse Act)",
+        "42 U.S.C. §§ 671–675 (ASFA-related IV-E conditions)"
       ]
     },
     "state_statutory": {
@@ -271,10 +271,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Services",
-    "acronym": "DHS",
+    "name": "Hawaii Department of Human Services, Child Welfare Services",
+    "acronym": "CWS",
     "hotline": "808-832-5300",
-    "website": "https://www.capitol.hawaii.gov"
+    "website": "https://humanservices.hawaii.gov/ssd/home/child-welfare-services/"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -349,14 +349,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

@@ -6,8 +6,8 @@
   "subnode": "PMC-06",
   "trigger_name": "Project Milk Carton AI Analysis",
   "summary_html": "The **Project Milk Carton AI Layer** performs cross-analysis of federal and state chains to identify weak points, policy gaps, and non-compliance. This is the citizen feedback mechanism for accountability and reform.",
-  "authority_html": "No direct statutory authority \u2014 citizen innovation layer built on public data and federal transparency laws.",
-  "icon": "\ud83e\udd16",
+  "authority_html": "No direct statutory authority — citizen innovation layer built on public data and federal transparency laws.",
+  "icon": "🤖",
   "theme_color": "#20B2AA",
   "domain": "civil",
   "procedural_weight": 0.9,
@@ -26,14 +26,14 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Tennessee - Tenn. Code Title\u00a037, Chapter\u00a01, Part\u00a04 (Mandatory child abuse reporting)",
+          "citation_text": "Tennessee - Tenn. Code Title 37, Chapter 1, Part 4 (Mandatory child abuse reporting)",
           "source_url": "https://www.lexisnexis.com/hottopics/tncode/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Tennessee - Tenn. Code Title\u00a037, Chapter\u00a01, Part\u00a06 (Juvenile removal/placement procedures)",
+          "citation_text": "Tennessee - Tenn. Code Title 37, Chapter 1, Part 6 (Juvenile removal/placement procedures)",
           "source_url": "https://www.lexisnexis.com/hottopics/tncode/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -247,10 +247,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children's Services",
+    "name": "Tennessee Department of Children's Services",
     "acronym": "DCS",
     "hotline": "1-877-237-0004",
-    "website": "https://www.legislature.state.tn.us"
+    "website": "https://www.tn.gov/dcs.html"
   },
   "linked_fail": "ALL",
   "_metadata": {
@@ -291,7 +291,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

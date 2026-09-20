@@ -6,8 +6,8 @@
   "subnode": "ACT-03",
   "trigger_name": "Foster Care Placement",
   "summary_html": "The child is **removed from the home** and placed in foster care under court order or emergency authority. Federal statutes tie funding to safety findings, judicial oversight, and permanency planning.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal monitoring of placement decisions",
-  "icon": "\ud83d\udea8",
+  "authority_html": "- **ASFA / SSA Title IV-E** — removal, reasonable-efforts, and permanency requirements  \n- **CFSR Regulations (45 CFR Part 1355)** — federal monitoring of placement decisions",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.35,
@@ -21,28 +21,28 @@
     "constitutional": {
       "constraints_triggered": [
         "U.S. Const. amend. IV",
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
         "Public Law 105-89 (ASFA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)",
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Mississippi - Miss. Code Title\u00a043, Chap.\u00a021 (Youth Court Act \u2013 \u00a7\u00a043-21-353 mandatory reporting)",
+          "citation_text": "Mississippi - Miss. Code Title 43, Chap. 21 (Youth Court Act – § 43-21-353 mandatory reporting)",
           "source_url": "https://www.lexisnexis.com/hottopics/mscode/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Mississippi - Miss. Code \u00a7\u00a043-21-601 et seq. (Youth Court disposition and removal)",
+          "citation_text": "Mississippi - Miss. Code § 43-21-601 et seq. (Youth Court disposition and removal)",
           "source_url": "https://law.justia.com/codes/mississippi/title-43/chapter-21/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -153,14 +153,14 @@
         {
           "provision_id": "MS_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Mississippi Const. art. III, \u00a7 23",
+          "citation": "Mississippi Const. art. III, § 23",
           "federal_parallel": "U.S. Const. amend. IV"
         },
         {
           "provision_id": "MS_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Mississippi Const. art. III, \u00a7 14",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Mississippi Const. art. III, § 14",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -322,10 +322,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Child Protection Services",
+    "name": "Mississippi Department of Child Protection Services",
     "acronym": "MDCPS",
     "hotline": "1-800-222-8000",
-    "website": "https://www.legislature.ms.gov"
+    "website": "https://www.mdcps.ms.gov/"
   },
   "linked_decision": "DEC-04",
   "linked_input": "INP-01",
@@ -360,7 +360,7 @@
       "requirement_name": "Emergency removal hearing",
       "deadline": "24-72 hours",
       "starts_from": "Child removed",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Constitutional violation, case dismissal"
     },
     {

@@ -6,8 +6,8 @@
   "subnode": "ACT-06",
   "trigger_name": "Emergency Medical/Psychological Care",
   "summary_html": "Agency or court authorizes **immediate medical or psychological care** when delay endangers life or safety. Federal statutes support medical access and confidentiality exceptions for child protection.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 permits emergency medical actions for abused/neglected children  \n- **Victims of Child Abuse Act (34 U.S.C. \u00a7\u00a7 20301\u201320307)** \u2014 multidisciplinary response and medical-exam standards",
-  "icon": "\ud83c\udfe5",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — permits emergency medical actions for abused/neglected children  \n- **Victims of Child Abuse Act (34 U.S.C. §§ 20301–20307)** — multidisciplinary response and medical-exam standards",
+  "icon": "🏥",
   "theme_color": "#FF69B4",
   "domain": "civil",
   "procedural_weight": 0.4,
@@ -23,21 +23,21 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
-        "34 U.S.C. \u00a7\u00a7 20301\u201320307 (VICAA)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
+        "34 U.S.C. §§ 20301–20307 (VICAA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Massachusetts - MGL Chapter\u00a0119 (Protection of Children, incl. \u00a7\u00a051A mandated reporting)",
+          "citation_text": "Massachusetts - MGL Chapter 119 (Protection of Children, incl. § 51A mandated reporting)",
           "source_url": "https://malegislature.gov/Laws/GeneralLaws/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Massachusetts - MGL Chapter\u00a0119, \u00a7\u00a7\u00a024\u201329 (Care and protection proceedings)",
+          "citation_text": "Massachusetts - MGL Chapter 119, §§ 24–29 (Care and protection proceedings)",
           "source_url": "https://malegislature.gov/Laws/GeneralLaws/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -243,10 +243,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children and Families",
+    "name": "Massachusetts Department of Children and Families",
     "acronym": "DCF",
     "hotline": "1-800-792-5200",
-    "website": "https://malegislature.gov"
+    "website": "https://www.mass.gov/orgs/massachusetts-department-of-children-families"
   },
   "linked_decision": "DEC-04",
   "linked_input": "INP-07",
@@ -281,7 +281,7 @@
       "requirement_name": "Emergency removal hearing",
       "deadline": "24-72 hours",
       "starts_from": "Child removed",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Constitutional violation, case dismissal"
     },
     {

@@ -6,8 +6,8 @@
   "subnode": "INP-12",
   "trigger_name": "Emergency / Protective Custody",
   "summary_html": "Immediate state action to **protect a child in imminent danger**. Federal law (ASFA/IV-E) ties funding to court findings on **reasonable efforts**, and constitutional limits (due process, 4th/14th Amendments) constrain warrantless removals.",
-  "authority_html": "- **ASFA / SSA Title IV-E** \u2014 reasonable-efforts findings; permanency timelines  \n- **CFSR (45 CFR Part 1355)** \u2014 federal oversight of removal decision quality  \n- **Constitutional constraints** \u2014 enforced via \u00a71983 actions; due process & search/seizure jurisprudence (not listed in file but governs practice)",
-  "icon": "\ud83d\udea8",
+  "authority_html": "- **ASFA / SSA Title IV-E** — reasonable-efforts findings; permanency timelines  \n- **CFSR (45 CFR Part 1355)** — federal oversight of removal decision quality  \n- **Constitutional constraints** — enforced via §1983 actions; due process & search/seizure jurisprudence (not listed in file but governs practice)",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.35,
@@ -27,7 +27,7 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)",
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)",
         "ASFA (Public Law 105-89)",
         "45 CFR Part 1355 (CFSR Regulations)"
       ]
@@ -43,14 +43,14 @@
           "node_specific": true
         },
         {
-          "citation_text": "Washington - RCW Chapter\u00a026.44 (Abuse of Children \u2013 mandatory reporting and investigations)",
+          "citation_text": "Washington - RCW Chapter 26.44 (Abuse of Children – mandatory reporting and investigations)",
           "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=26.44",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Washington - RCW Title\u00a013 (Juvenile Courts \u2013 includes dependency proceedings)",
+          "citation_text": "Washington - RCW Title 13 (Juvenile Courts – includes dependency proceedings)",
           "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=13.34",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -114,7 +114,7 @@
         {
           "provision_id": "WA_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Washington Const. art. I, \u00a7 7",
+          "citation": "Washington Const. art. I, § 7",
           "federal_parallel": "U.S. Const. amend. IV"
         }
       ]
@@ -276,10 +276,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children, Youth, and Families",
+    "name": "Washington State Department of Children, Youth, and Families",
     "acronym": "DCYF",
     "hotline": "1-866-363-4276",
-    "website": "https://leg.wa.gov"
+    "website": "https://dcyf.wa.gov/"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -351,14 +351,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

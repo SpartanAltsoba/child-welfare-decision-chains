@@ -6,8 +6,8 @@
   "subnode": "DEC-01",
   "trigger_name": "Screen-Out / Unfounded at Intake",
   "summary_html": "CPS **screens out** a report (no investigation) or closes as **unfounded** after minimal review. Federal law (CAPTA) conditions funding on operating screening criteria and recordkeeping; federal reviews (CFSR) assess decision quality.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 screening & intake system requirements  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal performance/quality review of state screening and responses",
-  "icon": "\ud83d\udeab",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — screening & intake system requirements  \n- **CFSR Regulations (45 CFR Part 1355)** — federal performance/quality review of state screening and responses",
+  "icon": "🚫",
   "theme_color": "#4B9CD3",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -26,14 +26,14 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "New Mexico - Chapter 32A, Article 4 (Child Abuse and Neglect Act \u2013 mandatory reporting and custody)",
+          "citation_text": "New Mexico - Chapter 32A, Article 4 (Child Abuse and Neglect Act – mandatory reporting and custody)",
           "source_url": "https://www.nmlegis.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
@@ -290,10 +290,10 @@
     }
   },
   "state_agency": {
-    "name": "Children, Youth and Families Department",
+    "name": "New Mexico Children, Youth and Families Department",
     "acronym": "CYFD",
     "hotline": "1-855-333-7233",
-    "website": "https://www.nmlegis.gov"
+    "website": "https://www.cyfd.nm.gov/"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -331,14 +331,14 @@
       "requirement_name": "Safety decision",
       "deadline": "Immediate upon contact",
       "starts_from": "First family contact",
-      "source": "admin_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Child safety risk"
     },
     {
       "requirement_name": "Disposition finding",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Procedural violation"
     }
   ],

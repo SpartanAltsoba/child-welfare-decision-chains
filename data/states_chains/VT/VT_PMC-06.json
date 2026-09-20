@@ -6,8 +6,8 @@
   "subnode": "PMC-06",
   "trigger_name": "Project Milk Carton AI Analysis",
   "summary_html": "The **Project Milk Carton AI Layer** performs cross-analysis of federal and state chains to identify weak points, policy gaps, and non-compliance. This is the citizen feedback mechanism for accountability and reform.",
-  "authority_html": "No direct statutory authority \u2014 citizen innovation layer built on public data and federal transparency laws.",
-  "icon": "\ud83e\udd16",
+  "authority_html": "No direct statutory authority — citizen innovation layer built on public data and federal transparency laws.",
+  "icon": "🤖",
   "theme_color": "#20B2AA",
   "domain": "civil",
   "procedural_weight": 0.9,
@@ -26,13 +26,13 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Vermont - 33 V.S.A. Chapter\u00a049 (Child Welfare Services \u2013 \u00a7\u00a04913 mandatory reporting)",
+          "citation_text": "Vermont - 33 V.S.A. Chapter 49 (Child Welfare Services – § 4913 mandatory reporting)",
           "source_url": "https://legislature.vermont.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
         },
         {
-          "citation_text": "Vermont - 33 V.S.A. Chapter\u00a053 (Proceedings in Family Court for abuse/neglect)",
+          "citation_text": "Vermont - 33 V.S.A. Chapter 53 (Proceedings in Family Court for abuse/neglect)",
           "source_url": "https://legislature.vermont.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
@@ -288,10 +288,10 @@
     }
   },
   "state_agency": {
-    "name": "Department for Children and Families",
-    "acronym": "DCF",
+    "name": "Vermont Department for Children and Families, Family Services Division",
+    "acronym": "FSD",
     "hotline": "1-800-649-5285",
-    "website": "https://legislature.vermont.gov"
+    "website": "https://dcf.vermont.gov/fsd"
   },
   "linked_fail": "ALL",
   "_metadata": {
@@ -332,7 +332,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

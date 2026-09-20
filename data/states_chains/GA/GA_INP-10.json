@@ -4,10 +4,10 @@
   "state_name": "Georgia",
   "node_family": "INP",
   "subnode": "INP-10",
-  "trigger_name": "Agency Escalation (Screening \u2192 Investigation)",
+  "trigger_name": "Agency Escalation (Screening → Investigation)",
   "summary_html": "An intake **screen** is elevated to a formal **investigation/assessment** under state criteria. CAPTA and CFSR establish the federal expectations for screening, timelines, and investigative quality.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 screening/investigation conditions for funding  \n- **CFSR (45 CFR Part 1355)** \u2014 federal performance/quality review framework",
-  "icon": "\ud83d\udd04",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — screening/investigation conditions for funding  \n- **CFSR (45 CFR Part 1355)** — federal performance/quality review framework",
+  "icon": "🔄",
   "theme_color": "#20B2AA",
   "domain": "civil",
   "procedural_weight": 0.45,
@@ -23,7 +23,7 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
         "45 CFR Part 1355 (CFSR Regulations)"
       ]
     },
@@ -37,7 +37,7 @@
           "deep_link": true
         },
         {
-          "citation_text": "Georgia - Title 15, Chapter 11 (Juvenile Code \u2013 dependency proceedings)",
+          "citation_text": "Georgia - Title 15, Chapter 11 (Juvenile Code – dependency proceedings)",
           "source_url": "https://www.lexisnexis.com/hottopics/gacode/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -131,7 +131,7 @@
         },
         {
           "case_id": "s26y0129",
-          "title": "IN THE MATTER OF JE\u2019NITA LANE",
+          "title": "IN THE MATTER OF JE’NITA LANE",
           "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s26y0129.html",
           "year": 2025,
           "court": "Supreme Court",
@@ -251,10 +251,10 @@
     }
   },
   "state_agency": {
-    "name": "Division of Family and Children Services",
+    "name": "Georgia Division of Family and Children Services",
     "acronym": "DFCS",
     "hotline": "1-855-422-4453",
-    "website": "https://www.legis.ga.gov"
+    "website": "https://dfcs.georgia.gov/"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -325,14 +325,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

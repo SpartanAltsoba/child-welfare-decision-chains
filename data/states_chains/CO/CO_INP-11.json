@@ -6,8 +6,8 @@
   "subnode": "INP-11",
   "trigger_name": "Federal / Tribal Jurisdiction Trigger",
   "summary_html": "Cases arising on **federal lands/facilities** or involving **Indian children** invoke federal/tribal jurisdictional rules (VICAA for federal facilities; **ICWA** for Indian children and tribal preference/jurisdiction).",
-  "authority_html": "- **VICAA (34 U.S.C. \u00a7\u00a7 20301\u201320307)** \u2014 federal-facility reporting mandates  \n- **ICWA (25 U.S.C. \u00a7\u00a7 1901\u20131963)** \u2014 tribal jurisdiction, placement preferences, notice to tribes",
-  "icon": "\ud83c\udfdb\ufe0f",
+  "authority_html": "- **VICAA (34 U.S.C. §§ 20301–20307)** — federal-facility reporting mandates  \n- **ICWA (25 U.S.C. §§ 1901–1963)** — tribal jurisdiction, placement preferences, notice to tribes",
+  "icon": "🏛️",
   "theme_color": "#4682B4",
   "domain": "civil",
   "procedural_weight": 0.55,
@@ -24,14 +24,14 @@
     },
     "federal": {
       "requirements_applicable": [
-        "34 U.S.C. \u00a7\u00a7 20301\u201320307 (Victims of Child Abuse Act)",
-        "25 U.S.C. \u00a7\u00a7 1901\u20131963 (ICWA)"
+        "34 U.S.C. §§ 20301–20307 (Victims of Child Abuse Act)",
+        "25 U.S.C. §§ 1901–1963 (ICWA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Colorado - Title 19, Article 3 (Colorado Children\u2019s Code \u2013 abuse/neglect reporting and dependency)",
+          "citation_text": "Colorado - Title 19, Article 3 (Colorado Children’s Code – abuse/neglect reporting and dependency)",
           "source_url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-19.pdf",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -255,7 +255,7 @@
     "name": "Colorado Department of Human Services",
     "acronym": "CDHS",
     "hotline": "1-844-264-5437",
-    "website": "https://leg.colorado.gov"
+    "website": "https://cdhs.colorado.gov/"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -335,14 +335,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

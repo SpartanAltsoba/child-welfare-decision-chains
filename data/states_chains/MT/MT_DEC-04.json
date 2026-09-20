@@ -6,8 +6,8 @@
   "subnode": "DEC-04",
   "trigger_name": "Emergency Removal Decision",
   "summary_html": "Agency decides to **remove a child immediately** due to **imminent danger** prior to a court order. Federal law (ASFA/IV-E) requires later **court findings** on reasonable efforts; constitutional limits (due process; search/seizure) apply.",
-  "authority_html": "- **ASFA / SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 reasonable-efforts findings; permanency timelines  \n- **CFSR (45 CFR Part 1355)** \u2014 monitors safety & removal decision quality",
-  "icon": "\ud83d\udea8",
+  "authority_html": "- **ASFA / SSA Title IV-E (42 U.S.C. §§ 670–679c)** — reasonable-efforts findings; permanency timelines  \n- **CFSR (45 CFR Part 1355)** — monitors safety & removal decision quality",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.35,
@@ -22,13 +22,13 @@
     "constitutional": {
       "constraints_triggered": [
         "U.S. Const. amend. IV",
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E)",
+        "42 U.S.C. §§ 670–679c (Title IV-E)",
         "Public Law 105-89 (ASFA)",
         "45 CFR Part 1355 (CFSR)"
       ]
@@ -36,7 +36,7 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Montana - Title 41, Chapter\u00a03 (Child Abuse and Neglect \u2013 mandatory reporting and protective services)",
+          "citation_text": "Montana - Title 41, Chapter 3 (Child Abuse and Neglect – mandatory reporting and protective services)",
           "source_url": "https://leg.mt.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
@@ -146,14 +146,14 @@
         {
           "provision_id": "MT_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Montana Const. art. II, \u00a7 11",
+          "citation": "Montana Const. art. II, § 11",
           "federal_parallel": "U.S. Const. amend. IV"
         },
         {
           "provision_id": "MT_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Montana Const. art. II, \u00a7 17",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Montana Const. art. II, § 17",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -315,10 +315,10 @@
     }
   },
   "state_agency": {
-    "name": "Child & Family Services Division (DPHHS)",
-    "acronym": "DPHHS-CFSD",
+    "name": "Montana Department of Public Health and Human Services, Child and Family Services Division",
+    "acronym": "CFSD",
     "hotline": "1-866-820-5437",
-    "website": "https://leg.mt.gov"
+    "website": "https://dphhs.mt.gov/cfsd/"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -356,14 +356,14 @@
       "requirement_name": "Safety decision",
       "deadline": "Immediate upon contact",
       "starts_from": "First family contact",
-      "source": "admin_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Child safety risk"
     },
     {
       "requirement_name": "Disposition finding",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Procedural violation"
     }
   ],

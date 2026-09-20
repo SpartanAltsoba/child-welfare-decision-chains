@@ -6,8 +6,8 @@
   "subnode": "INP-09",
   "trigger_name": "Systemic Audit / Oversight Trigger",
   "summary_html": "Findings by **federal/state oversight** (CFSR reviews, OIG audits, child-fatality commissions) can initiate investigations or corrective actions that open CPS involvement.",
-  "authority_html": "- **Protect Our Kids Act (PL 112-275)** \u2014 national commission on child abuse/neglect fatalities  \n- **Child & Family Services Reviews (45 CFR Part 1355)** \u2014 federal monitoring of state systems  \n- **Inspector General Act (5 U.S.C. App.)** \u2014 OIG oversight of HHS/ACF and grantees",
-  "icon": "\ud83e\uddfe",
+  "authority_html": "- **Protect Our Kids Act (PL 112-275)** — national commission on child abuse/neglect fatalities  \n- **Child & Family Services Reviews (45 CFR Part 1355)** — federal monitoring of state systems  \n- **Inspector General Act (5 U.S.C. App.)** — OIG oversight of HHS/ACF and grantees",
+  "icon": "🧾",
   "theme_color": "#708090",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -35,14 +35,14 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Pennsylvania - Title 23 Pa.C.S. Chapter\u00a063 (Child Protective Services Law)",
+          "citation_text": "Pennsylvania - Title 23 Pa.C.S. Chapter 63 (Child Protective Services Law)",
           "source_url": "https://law.onecle.com/pennsylvania/title-23/chapter-63/index.html",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Pennsylvania - 42 Pa.C.S. Chapter\u00a063 (Juvenile Act \u2013 dependency proceedings)",
+          "citation_text": "Pennsylvania - 42 Pa.C.S. Chapter 63 (Juvenile Act – dependency proceedings)",
           "source_url": "https://www.legis.state.pa.us/cfdocs/legis/LI/consCheck.cfm?txtType=HTM&ttl=4&div=0&chpt=2",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -265,10 +265,10 @@
     }
   },
   "state_agency": {
-    "name": "Children and Youth Services",
-    "acronym": "CYS",
+    "name": "Pennsylvania Department of Human Services, Office of Children, Youth, and Families",
+    "acronym": "OCYF",
     "hotline": "1-800-932-0313",
-    "website": "https://www.legis.state.pa.us"
+    "website": "https://www.pa.gov/agencies/dhs/departments-offices/ocyf-info"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -342,14 +342,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

@@ -5,9 +5,9 @@
   "node_family": "PMC",
   "subnode": "PMC-03",
   "trigger_name": "Citizen Review Panels",
-  "summary_html": "**CAPTA \u00a75106a(c)** requires every state to maintain **Citizen Review Panels** that evaluate CPS policies. Project Milk Carton checks whether panels are active, independent, and publicly reporting.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7 5106a(c))** \u2014 Citizen Review Panel mandate and reporting requirements",
-  "icon": "\ud83d\udde3\ufe0f",
+  "summary_html": "**CAPTA §5106a(c)** requires every state to maintain **Citizen Review Panels** that evaluate CPS policies. Project Milk Carton checks whether panels are active, independent, and publicly reporting.",
+  "authority_html": "- **CAPTA (42 U.S.C. § 5106a(c))** — Citizen Review Panel mandate and reporting requirements",
+  "icon": "🗣️",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -22,20 +22,20 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7 5106a(c) (CAPTA)"
+        "42 U.S.C. § 5106a(c) (CAPTA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Mississippi - Miss. Code Title\u00a043, Chap.\u00a021 (Youth Court Act \u2013 \u00a7\u00a043-21-353 mandatory reporting)",
+          "citation_text": "Mississippi - Miss. Code Title 43, Chap. 21 (Youth Court Act – § 43-21-353 mandatory reporting)",
           "source_url": "https://www.lexisnexis.com/hottopics/mscode/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Mississippi - Miss. Code \u00a7\u00a043-21-601 et seq. (Youth Court disposition and removal)",
+          "citation_text": "Mississippi - Miss. Code § 43-21-601 et seq. (Youth Court disposition and removal)",
           "source_url": "https://law.justia.com/codes/mississippi/title-43/chapter-21/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -301,10 +301,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Child Protection Services",
+    "name": "Mississippi Department of Child Protection Services",
     "acronym": "MDCPS",
     "hotline": "1-800-222-8000",
-    "website": "https://www.legislature.ms.gov"
+    "website": "https://www.mdcps.ms.gov/"
   },
   "linked_fail": "FAIL-06",
   "_metadata": {
@@ -345,7 +345,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

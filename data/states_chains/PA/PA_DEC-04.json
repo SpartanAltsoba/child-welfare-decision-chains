@@ -6,8 +6,8 @@
   "subnode": "DEC-04",
   "trigger_name": "Emergency Removal Decision",
   "summary_html": "Agency decides to **remove a child immediately** due to **imminent danger** prior to a court order. Federal law (ASFA/IV-E) requires later **court findings** on reasonable efforts; constitutional limits (due process; search/seizure) apply.",
-  "authority_html": "- **ASFA / SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 reasonable-efforts findings; permanency timelines  \n- **CFSR (45 CFR Part 1355)** \u2014 monitors safety & removal decision quality",
-  "icon": "\ud83d\udea8",
+  "authority_html": "- **ASFA / SSA Title IV-E (42 U.S.C. §§ 670–679c)** — reasonable-efforts findings; permanency timelines  \n- **CFSR (45 CFR Part 1355)** — monitors safety & removal decision quality",
+  "icon": "🚨",
   "theme_color": "#B22222",
   "domain": "civil",
   "procedural_weight": 0.35,
@@ -22,13 +22,13 @@
     "constitutional": {
       "constraints_triggered": [
         "U.S. Const. amend. IV",
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (Title IV-E)",
+        "42 U.S.C. §§ 670–679c (Title IV-E)",
         "Public Law 105-89 (ASFA)",
         "45 CFR Part 1355 (CFSR)"
       ]
@@ -36,14 +36,14 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Pennsylvania - Title 23 Pa.C.S. Chapter\u00a063 (Child Protective Services Law)",
+          "citation_text": "Pennsylvania - Title 23 Pa.C.S. Chapter 63 (Child Protective Services Law)",
           "source_url": "https://law.onecle.com/pennsylvania/title-23/chapter-63/index.html",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Pennsylvania - 42 Pa.C.S. Chapter\u00a063 (Juvenile Act \u2013 dependency proceedings)",
+          "citation_text": "Pennsylvania - 42 Pa.C.S. Chapter 63 (Juvenile Act – dependency proceedings)",
           "source_url": "https://www.legis.state.pa.us/cfdocs/legis/LI/consCheck.cfm?txtType=HTM&ttl=4&div=0&chpt=2",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -111,14 +111,14 @@
         {
           "provision_id": "PA_CONST_SEARCH_SEIZURE",
           "name": "Search and Seizure",
-          "citation": "Pennsylvania Const. art. I, \u00a7 8",
+          "citation": "Pennsylvania Const. art. I, § 8",
           "federal_parallel": "U.S. Const. amend. IV"
         },
         {
           "provision_id": "PA_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Pennsylvania Const. art. I, \u00a7 9",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Pennsylvania Const. art. I, § 9",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -280,10 +280,10 @@
     }
   },
   "state_agency": {
-    "name": "Children and Youth Services",
-    "acronym": "CYS",
+    "name": "Pennsylvania Department of Human Services, Office of Children, Youth, and Families",
+    "acronym": "OCYF",
     "hotline": "1-800-932-0313",
-    "website": "https://www.legis.state.pa.us"
+    "website": "https://www.pa.gov/agencies/dhs/departments-offices/ocyf-info"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -321,14 +321,14 @@
       "requirement_name": "Safety decision",
       "deadline": "Immediate upon contact",
       "starts_from": "First family contact",
-      "source": "admin_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Child safety risk"
     },
     {
       "requirement_name": "Disposition finding",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Procedural violation"
     }
   ],

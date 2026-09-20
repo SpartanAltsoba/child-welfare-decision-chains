@@ -6,8 +6,8 @@
   "subnode": "ACT-05",
   "trigger_name": "Protective Order",
   "summary_html": "Court issues a **protective or restraining order** to prevent contact, remove abuser, or ensure safety without removing the child. Federal law leaves implementation to states but funds protection efforts through CAPTA and IV-B.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 authorizes protective interventions and state plan requirements  \n- **SSA Title IV-B** \u2014 permits funding for protective services and court interventions",
-  "icon": "\ud83e\uddfe",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — authorizes protective interventions and state plan requirements  \n- **SSA Title IV-B** — permits funding for protective services and court interventions",
+  "icon": "🧾",
   "theme_color": "#708090",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -23,14 +23,14 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
-        "42 U.S.C. \u00a7\u00a7 620\u2013629m (SSA Title IV-B)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
+        "42 U.S.C. §§ 620–629m (SSA Title IV-B)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Nevada - NRS Chapter\u00a0432B (Protection of Children from Abuse and Neglect)",
+          "citation_text": "Nevada - NRS Chapter 432B (Protection of Children from Abuse and Neglect)",
           "source_url": "https://www.leg.state.nv.us/NRS/NRS-432B.html",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -245,10 +245,10 @@
     }
   },
   "state_agency": {
-    "name": "Division of Child and Family Services",
+    "name": "Nevada Division of Child and Family Services",
     "acronym": "DCFS",
-    "hotline": "1-833-803-1183",
-    "website": "https://www.leg.state.nv.us"
+    "hotline": "Clark County 702-399-0081; Washoe County 833-900-7233; all other counties 833-571-1041 (after hours: local law enforcement)",
+    "website": "https://dcfs.nv.gov/"
   },
   "icwa_compliant": true,
   "icwa_details": {
@@ -288,7 +288,7 @@
       "requirement_name": "Emergency removal hearing",
       "deadline": "24-72 hours",
       "starts_from": "Child removed",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Constitutional violation, case dismissal"
     },
     {

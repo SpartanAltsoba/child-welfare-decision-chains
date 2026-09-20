@@ -6,8 +6,8 @@
   "subnode": "ACT-06",
   "trigger_name": "Emergency Medical/Psychological Care",
   "summary_html": "Agency or court authorizes **immediate medical or psychological care** when delay endangers life or safety. Federal statutes support medical access and confidentiality exceptions for child protection.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 permits emergency medical actions for abused/neglected children  \n- **Victims of Child Abuse Act (34 U.S.C. \u00a7\u00a7 20301\u201320307)** \u2014 multidisciplinary response and medical-exam standards",
-  "icon": "\ud83c\udfe5",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — permits emergency medical actions for abused/neglected children  \n- **Victims of Child Abuse Act (34 U.S.C. §§ 20301–20307)** — multidisciplinary response and medical-exam standards",
+  "icon": "🏥",
   "theme_color": "#FF69B4",
   "domain": "civil",
   "procedural_weight": 0.4,
@@ -23,14 +23,14 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
-        "34 U.S.C. \u00a7\u00a7 20301\u201320307 (VICAA)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
+        "34 U.S.C. §§ 20301–20307 (VICAA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "New Hampshire - RSA 169-C (Child Protection Act \u2013 includes reporting \u00a7\u00a0169-C:29)",
+          "citation_text": "New Hampshire - RSA 169-C (Child Protection Act – includes reporting § 169-C:29)",
           "source_url": "https://www.gencourt.state.nh.us/rsa/html/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -237,7 +237,7 @@
     "name": "Division for Children, Youth and Families",
     "acronym": "DCYF",
     "hotline": "1-800-894-5533",
-    "website": "https://www.gencourt.state.nh.us"
+    "website": "https://www.dhhs.nh.gov/division-children-youth-and-families"
   },
   "linked_decision": "DEC-04",
   "linked_input": "INP-07",
@@ -272,7 +272,7 @@
       "requirement_name": "Emergency removal hearing",
       "deadline": "24-72 hours",
       "starts_from": "Child removed",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Constitutional violation, case dismissal"
     },
     {

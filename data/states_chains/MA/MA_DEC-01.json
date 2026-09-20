@@ -6,8 +6,8 @@
   "subnode": "DEC-01",
   "trigger_name": "Screen-Out / Unfounded at Intake",
   "summary_html": "CPS **screens out** a report (no investigation) or closes as **unfounded** after minimal review. Federal law (CAPTA) conditions funding on operating screening criteria and recordkeeping; federal reviews (CFSR) assess decision quality.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 screening & intake system requirements  \n- **CFSR Regulations (45 CFR Part 1355)** \u2014 federal performance/quality review of state screening and responses",
-  "icon": "\ud83d\udeab",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — screening & intake system requirements  \n- **CFSR Regulations (45 CFR Part 1355)** — federal performance/quality review of state screening and responses",
+  "icon": "🚫",
   "theme_color": "#4B9CD3",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -26,21 +26,21 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
         "45 CFR Part 1355 (CFSR)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Massachusetts - MGL Chapter\u00a0119 (Protection of Children, incl. \u00a7\u00a051A mandated reporting)",
+          "citation_text": "Massachusetts - MGL Chapter 119 (Protection of Children, incl. § 51A mandated reporting)",
           "source_url": "https://malegislature.gov/Laws/GeneralLaws/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Massachusetts - MGL Chapter\u00a0119, \u00a7\u00a7\u00a024\u201329 (Care and protection proceedings)",
+          "citation_text": "Massachusetts - MGL Chapter 119, §§ 24–29 (Care and protection proceedings)",
           "source_url": "https://malegislature.gov/Laws/GeneralLaws/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -246,10 +246,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children and Families",
+    "name": "Massachusetts Department of Children and Families",
     "acronym": "DCF",
     "hotline": "1-800-792-5200",
-    "website": "https://malegislature.gov"
+    "website": "https://www.mass.gov/orgs/massachusetts-department-of-children-families"
   },
   "investigation_requirements": [
     "Home visit required",
@@ -287,14 +287,14 @@
       "requirement_name": "Safety decision",
       "deadline": "Immediate upon contact",
       "starts_from": "First family contact",
-      "source": "admin_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Child safety risk"
     },
     {
       "requirement_name": "Disposition finding",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Procedural violation"
     }
   ],

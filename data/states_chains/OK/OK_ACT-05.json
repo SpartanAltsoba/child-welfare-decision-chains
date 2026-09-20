@@ -6,8 +6,8 @@
   "subnode": "ACT-05",
   "trigger_name": "Protective Order",
   "summary_html": "Court issues a **protective or restraining order** to prevent contact, remove abuser, or ensure safety without removing the child. Federal law leaves implementation to states but funds protection efforts through CAPTA and IV-B.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 authorizes protective interventions and state plan requirements  \n- **SSA Title IV-B** \u2014 permits funding for protective services and court interventions",
-  "icon": "\ud83e\uddfe",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — authorizes protective interventions and state plan requirements  \n- **SSA Title IV-B** — permits funding for protective services and court interventions",
+  "icon": "🧾",
   "theme_color": "#708090",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -23,15 +23,15 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
-        "42 U.S.C. \u00a7\u00a7 620\u2013629m (SSA Title IV-B)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
+        "42 U.S.C. §§ 620–629m (SSA Title IV-B)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Oklahoma - Title 10A (Children and Juvenile Code), \u00a7\u00a01-2-101 (Duty to report) and Article 1, Part 4 (deprived child proceedings)",
-          "source_url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=10000",
+          "citation_text": "Oklahoma - Title 10A (Children and Juvenile Code), § 1-2-101 (Duty to report) and Article 1, Part 4 (deprived child proceedings)",
+          "source_url": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=455989",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
@@ -245,10 +245,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Services",
+    "name": "Oklahoma Human Services",
     "acronym": "OKDHS",
     "hotline": "1-800-522-3511",
-    "website": "https://www.oklegislature.gov"
+    "website": "https://oklahoma.gov/okdhs.html"
   },
   "icwa_compliant": true,
   "icwa_details": {
@@ -288,7 +288,7 @@
       "requirement_name": "Emergency removal hearing",
       "deadline": "24-72 hours",
       "starts_from": "Child removed",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Constitutional violation, case dismissal"
     },
     {

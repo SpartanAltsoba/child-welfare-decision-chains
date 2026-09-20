@@ -6,8 +6,8 @@
   "subnode": "INP-09",
   "trigger_name": "Systemic Audit / Oversight Trigger",
   "summary_html": "Findings by **federal/state oversight** (CFSR reviews, OIG audits, child-fatality commissions) can initiate investigations or corrective actions that open CPS involvement.",
-  "authority_html": "- **Protect Our Kids Act (PL 112-275)** \u2014 national commission on child abuse/neglect fatalities  \n- **Child & Family Services Reviews (45 CFR Part 1355)** \u2014 federal monitoring of state systems  \n- **Inspector General Act (5 U.S.C. App.)** \u2014 OIG oversight of HHS/ACF and grantees",
-  "icon": "\ud83e\uddfe",
+  "authority_html": "- **Protect Our Kids Act (PL 112-275)** — national commission on child abuse/neglect fatalities  \n- **Child & Family Services Reviews (45 CFR Part 1355)** — federal monitoring of state systems  \n- **Inspector General Act (5 U.S.C. App.)** — OIG oversight of HHS/ACF and grantees",
+  "icon": "🧾",
   "theme_color": "#708090",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -35,7 +35,7 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Michigan - Michigan Compiled Laws \u00a7\u00a0722.621 et seq. (Child Protection Law \u2013 mandatory reporting)",
+          "citation_text": "Michigan - Michigan Compiled Laws § 722.621 et seq. (Child Protection Law – mandatory reporting)",
           "source_url": "https://www.legislature.mi.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
@@ -284,10 +284,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Health and Human Services",
+    "name": "Michigan Department of Health and Human Services",
     "acronym": "MDHHS",
-    "hotline": "1-855-444-3911",
-    "website": "https://www.legislature.mi.gov"
+    "hotline": "855-444-3911",
+    "website": "https://www.michigan.gov/mdhhs"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -361,14 +361,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

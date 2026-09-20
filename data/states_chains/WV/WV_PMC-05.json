@@ -5,9 +5,9 @@
   "node_family": "PMC",
   "subnode": "PMC-05",
   "trigger_name": "FOIA / Transparency",
-  "summary_html": "Federal transparency statutes\u2014**FOIA** and **Sunshine Act**\u2014require disclosure of government data. Project Milk Carton promotes FOIA requests and public dashboards for child-welfare records.",
-  "authority_html": "- **Freedom of Information Act (5 U.S.C. \u00a7 552)** \u2014 public access to records  \n- **Government in the Sunshine Act (5 U.S.C. \u00a7 552b)** \u2014 open-meeting requirements",
-  "icon": "\ud83d\udcc2",
+  "summary_html": "Federal transparency statutes—**FOIA** and **Sunshine Act**—require disclosure of government data. Project Milk Carton promotes FOIA requests and public dashboards for child-welfare records.",
+  "authority_html": "- **Freedom of Information Act (5 U.S.C. § 552)** — public access to records  \n- **Government in the Sunshine Act (5 U.S.C. § 552b)** — open-meeting requirements",
+  "icon": "📂",
   "theme_color": "#FFD700",
   "domain": "civil",
   "procedural_weight": 0.65,
@@ -23,20 +23,20 @@
     },
     "federal": {
       "requirements_applicable": [
-        "5 U.S.C. \u00a7 552 (FOIA)",
-        "5 U.S.C. \u00a7 552b (Sunshine Act)"
+        "5 U.S.C. § 552 (FOIA)",
+        "5 U.S.C. § 552b (Sunshine Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "West Virginia - W. Va. Code Chapter\u00a049, Article\u00a02 (Child Welfare \u2013 includes \u00a7\u00a049-2-803 mandatory reporting)",
+          "citation_text": "West Virginia - W. Va. Code Chapter 49, Article 2 (Child Welfare – includes § 49-2-803 mandatory reporting)",
           "source_url": "https://www.wvlegislature.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
         },
         {
-          "citation_text": "West Virginia - W. Va. Code \u00a7\u00a049-4-601 et seq. (Child abuse and neglect proceedings)",
+          "citation_text": "West Virginia - W. Va. Code § 49-4-601 et seq. (Child abuse and neglect proceedings)",
           "source_url": "https://www.wvlegislature.gov/WVCODE/ChapterEntire.cfm?chap=49&art=4",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -241,10 +241,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Health and Human Resources",
-    "acronym": "DHHR",
+    "name": "West Virginia Bureau for Social Services, Department of Human Services",
+    "acronym": "BSS",
     "hotline": "1-800-352-6513",
-    "website": "https://www.wvlegislature.gov"
+    "website": "https://bss.wv.gov/"
   },
   "linked_fail": "FAIL-06",
   "_metadata": {
@@ -285,7 +285,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

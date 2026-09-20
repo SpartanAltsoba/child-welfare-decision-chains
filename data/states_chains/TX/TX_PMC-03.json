@@ -5,9 +5,9 @@
   "node_family": "PMC",
   "subnode": "PMC-03",
   "trigger_name": "Citizen Review Panels",
-  "summary_html": "**CAPTA \u00a75106a(c)** requires every state to maintain **Citizen Review Panels** that evaluate CPS policies. Project Milk Carton checks whether panels are active, independent, and publicly reporting.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7 5106a(c))** \u2014 Citizen Review Panel mandate and reporting requirements",
-  "icon": "\ud83d\udde3\ufe0f",
+  "summary_html": "**CAPTA §5106a(c)** requires every state to maintain **Citizen Review Panels** that evaluate CPS policies. Project Milk Carton checks whether panels are active, independent, and publicly reporting.",
+  "authority_html": "- **CAPTA (42 U.S.C. § 5106a(c))** — Citizen Review Panel mandate and reporting requirements",
+  "icon": "🗣️",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -22,20 +22,20 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7 5106a(c) (CAPTA)"
+        "42 U.S.C. § 5106a(c) (CAPTA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Texas - Texas Family Code Chapter\u00a0261 (Investigation of Report of Abuse or Neglect)",
+          "citation_text": "Texas - Texas Family Code Chapter 261 (Investigation of Report of Abuse or Neglect)",
           "source_url": "https://statutes.capitol.texas.gov/Docs/FA/htm/FA.261.htm",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Texas - Texas Family Code Chapter\u00a0262 (Removal of Child in an Emergency)",
+          "citation_text": "Texas - Texas Family Code Chapter 262 (Removal of Child in an Emergency)",
           "source_url": "https://statutes.capitol.texas.gov/Docs/FA/htm/FA.262.htm",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -265,10 +265,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Family and Protective Services",
+    "name": "Texas Department of Family and Protective Services",
     "acronym": "DFPS",
     "hotline": "1-800-252-5400",
-    "website": "https://capitol.texas.gov"
+    "website": "https://www.dfps.texas.gov/"
   },
   "linked_fail": "FAIL-06",
   "_metadata": {
@@ -309,7 +309,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

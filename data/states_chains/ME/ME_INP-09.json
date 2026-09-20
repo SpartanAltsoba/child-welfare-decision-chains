@@ -6,8 +6,8 @@
   "subnode": "INP-09",
   "trigger_name": "Systemic Audit / Oversight Trigger",
   "summary_html": "Findings by **federal/state oversight** (CFSR reviews, OIG audits, child-fatality commissions) can initiate investigations or corrective actions that open CPS involvement.",
-  "authority_html": "- **Protect Our Kids Act (PL 112-275)** \u2014 national commission on child abuse/neglect fatalities  \n- **Child & Family Services Reviews (45 CFR Part 1355)** \u2014 federal monitoring of state systems  \n- **Inspector General Act (5 U.S.C. App.)** \u2014 OIG oversight of HHS/ACF and grantees",
-  "icon": "\ud83e\uddfe",
+  "authority_html": "- **Protect Our Kids Act (PL 112-275)** — national commission on child abuse/neglect fatalities  \n- **Child & Family Services Reviews (45 CFR Part 1355)** — federal monitoring of state systems  \n- **Inspector General Act (5 U.S.C. App.)** — OIG oversight of HHS/ACF and grantees",
+  "icon": "🧾",
   "theme_color": "#708090",
   "domain": "civil",
   "procedural_weight": 0.5,
@@ -35,7 +35,7 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Maine - Title 22, Chapter 1071 (Child and Family Services and Child Protection Act \u2013 includes \u00a7\u00a04011-A reporting)",
+          "citation_text": "Maine - Title 22, Chapter 1071 (Child and Family Services and Child Protection Act – includes § 4011-A reporting)",
           "source_url": "https://legislature.maine.gov/statutes/22/title22ch1071sec0.html",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -287,10 +287,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Health and Human Services",
-    "acronym": "DHHS",
+    "name": "Maine Department of Health and Human Services, Office of Child and Family Services",
+    "acronym": "OCFS",
     "hotline": "1-800-452-1999",
-    "website": "https://legislature.maine.gov"
+    "website": "https://www.maine.gov/dhhs/ocfs"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -364,14 +364,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

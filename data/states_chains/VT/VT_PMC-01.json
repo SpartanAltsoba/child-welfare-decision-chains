@@ -6,8 +6,8 @@
   "subnode": "PMC-01",
   "trigger_name": "CFSR Monitoring",
   "summary_html": "Federal **Child and Family Services Reviews (CFSR)** monitor state performance on safety, permanency, and well-being. Project Milk Carton flags states that repeatedly fail or never publish CFSR improvement plans.",
-  "authority_html": "- **45 CFR Part 1355** \u2014 CFSR procedures and performance metrics  \n- **Social Security Act IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 ties funding to CFSR compliance",
-  "icon": "\ud83d\udd0d",
+  "authority_html": "- **45 CFR Part 1355** — CFSR procedures and performance metrics  \n- **Social Security Act IV-E (42 U.S.C. §§ 670–679c)** — ties funding to CFSR compliance",
+  "icon": "🔍",
   "theme_color": "#1E90FF",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -24,19 +24,19 @@
     "federal": {
       "requirements_applicable": [
         "45 CFR Part 1355 (CFSR)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)"
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Vermont - 33 V.S.A. Chapter\u00a049 (Child Welfare Services \u2013 \u00a7\u00a04913 mandatory reporting)",
+          "citation_text": "Vermont - 33 V.S.A. Chapter 49 (Child Welfare Services – § 4913 mandatory reporting)",
           "source_url": "https://legislature.vermont.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
         },
         {
-          "citation_text": "Vermont - 33 V.S.A. Chapter\u00a053 (Proceedings in Family Court for abuse/neglect)",
+          "citation_text": "Vermont - 33 V.S.A. Chapter 53 (Proceedings in Family Court for abuse/neglect)",
           "source_url": "https://legislature.vermont.gov",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22"
@@ -292,10 +292,10 @@
     }
   },
   "state_agency": {
-    "name": "Department for Children and Families",
-    "acronym": "DCF",
+    "name": "Vermont Department for Children and Families, Family Services Division",
+    "acronym": "FSD",
     "hotline": "1-800-649-5285",
-    "website": "https://legislature.vermont.gov"
+    "website": "https://dcf.vermont.gov/fsd"
   },
   "linked_fail": "FAIL-03",
   "_metadata": {
@@ -336,7 +336,7 @@
       "requirement_name": "NCMEC notification",
       "deadline": "24 hours",
       "starts_from": "Child reported missing",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Audit finding, delayed recovery"
     }
   ],

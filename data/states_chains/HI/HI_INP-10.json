@@ -4,10 +4,10 @@
   "state_name": "Hawaii",
   "node_family": "INP",
   "subnode": "INP-10",
-  "trigger_name": "Agency Escalation (Screening \u2192 Investigation)",
+  "trigger_name": "Agency Escalation (Screening → Investigation)",
   "summary_html": "An intake **screen** is elevated to a formal **investigation/assessment** under state criteria. CAPTA and CFSR establish the federal expectations for screening, timelines, and investigative quality.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 screening/investigation conditions for funding  \n- **CFSR (45 CFR Part 1355)** \u2014 federal performance/quality review framework",
-  "icon": "\ud83d\udd04",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — screening/investigation conditions for funding  \n- **CFSR (45 CFR Part 1355)** — federal performance/quality review framework",
+  "icon": "🔄",
   "theme_color": "#20B2AA",
   "domain": "civil",
   "procedural_weight": 0.45,
@@ -23,7 +23,7 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
         "45 CFR Part 1355 (CFSR Regulations)"
       ]
     },
@@ -269,10 +269,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Services",
-    "acronym": "DHS",
+    "name": "Hawaii Department of Human Services, Child Welfare Services",
+    "acronym": "CWS",
     "hotline": "808-832-5300",
-    "website": "https://www.capitol.hawaii.gov"
+    "website": "https://humanservices.hawaii.gov/ssd/home/child-welfare-services/"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -347,14 +347,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

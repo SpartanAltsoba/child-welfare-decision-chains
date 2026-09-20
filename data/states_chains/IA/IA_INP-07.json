@@ -6,8 +6,8 @@
   "subnode": "INP-07",
   "trigger_name": "Medical Disclosure",
   "summary_html": "**Healthcare encounters** that reveal suspected abuse or neglect trigger reporting obligations. Federal law governs mandatory reporting in federal facilities and coordination with state systems.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 state reporter systems and protections  \n- **Victims of Child Abuse Act (34 U.S.C. \u00a7\u00a7 20301\u201320307)** \u2014 mandates in federal settings, CAC coordination",
-  "icon": "\ud83c\udfe5",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — state reporter systems and protections  \n- **Victims of Child Abuse Act (34 U.S.C. §§ 20301–20307)** — mandates in federal settings, CAC coordination",
+  "icon": "🏥",
   "theme_color": "#FF69B4",
   "domain": "civil",
   "procedural_weight": 0.45,
@@ -23,14 +23,14 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)",
-        "34 U.S.C. \u00a7\u00a7 20301\u201320307 (Victims of Child Abuse Act)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)",
+        "34 U.S.C. §§ 20301–20307 (Victims of Child Abuse Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Iowa - Title VI, Chapter 232 (Juvenile Justice \u2013 includes mandatory reporting and child in need of assistance)",
+          "citation_text": "Iowa - Title VI, Chapter 232 (Juvenile Justice – includes mandatory reporting and child in need of assistance)",
           "source_url": "https://www.legis.iowa.gov/law/iowaCode/sections?codeChapter=232",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -191,10 +191,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Services",
-    "acronym": "DHS",
+    "name": "Iowa Department of Health and Human Services, Child Protective Services",
+    "acronym": "Iowa HHS",
     "hotline": "1-800-362-2178",
-    "website": "https://www.legis.iowa.gov"
+    "website": "https://hhs.iowa.gov/programs/CPS"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -270,14 +270,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

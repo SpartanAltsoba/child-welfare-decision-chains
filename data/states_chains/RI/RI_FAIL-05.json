@@ -6,8 +6,8 @@
   "subnode": "FAIL-05",
   "trigger_name": "Discrimination / Retaliation",
   "summary_html": "Agency or actor engages in **discriminatory or retaliatory action**, violating civil-rights or placement-equality provisions. Federal statutes prohibit race, religion, sex, or disability bias in placements or investigations.",
-  "authority_html": "- **Multiethnic Placement Act (MEPA) & Interethnic Adoption Provisions (IEP)** \u2014 prohibits race/ethnicity discrimination in placements  \n- **Civil Rights Act (42 U.S.C. \u00a7 2000d)** \u2014 Title VI discrimination prohibitions in federally funded programs",
-  "icon": "\ud83d\udeab",
+  "authority_html": "- **Multiethnic Placement Act (MEPA) & Interethnic Adoption Provisions (IEP)** — prohibits race/ethnicity discrimination in placements  \n- **Civil Rights Act (42 U.S.C. § 2000d)** — Title VI discrimination prohibitions in federally funded programs",
+  "icon": "🚫",
   "theme_color": "#800080",
   "domain": "civil",
   "procedural_weight": 0.75,
@@ -24,14 +24,14 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 103-382 (MEPA/IEP)",
-        "42 U.S.C. \u00a7 2000d (Title VI Civil Rights Act)"
+        "42 U.S.C. § 2000d (Title VI Civil Rights Act)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Rhode Island - R.I. Gen. Laws Title\u00a040, Chapter\u00a011 (Abused and Neglected Children \u2013 \u00a7\u00a040-11-6 reporting duty)",
-          "source_url": "https://webserver.rilin.state.ri.us/Statutes/TITLE40/40-11/INDEX.HTM",
+          "citation_text": "Rhode Island - R.I. Gen. Laws Title 40, Chapter 11 (Abused and Neglected Children – § 40-11-6 reporting duty)",
+          "source_url": "https://webserver.rilegislature.gov/Statutes/TITLE40/40-11/INDEX.HTM",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
@@ -245,10 +245,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children, Youth and Families",
+    "name": "Rhode Island Department of Children, Youth and Families",
     "acronym": "DCYF",
     "hotline": "1-800-742-4453",
-    "website": "https://www.rilin.state.ri.us"
+    "website": "https://dcyf.ri.gov/"
   },
   "linked_output": "OUT-02",
   "linked_action": "ACT-04",
@@ -285,7 +285,7 @@
       "requirement_name": "Appeal deadline",
       "deadline": "30 days",
       "starts_from": "Final order",
-      "source": "court_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Loss of appeal rights"
     },
     {

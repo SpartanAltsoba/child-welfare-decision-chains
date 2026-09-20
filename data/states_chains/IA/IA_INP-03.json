@@ -5,9 +5,9 @@
   "node_family": "INP",
   "subnode": "INP-03",
   "trigger_name": "Law-Enforcement Referral",
-  "summary_html": "A **law-enforcement agency** encounters suspected maltreatment (e.g., during a domestic call or arrest) and **refers** to CPS. Federal child-abuse infrastructure promotes coordinated investigations via Children\u2019s Advocacy Centers.",
-  "authority_html": "- **Victims of Child Abuse Act (34 U.S.C. \u00a7\u00a7 20301\u201320307)** \u2014 support for multidisciplinary teams and CAC protocols; coordination with CPS  \n- **ASFA/SSA IV-E** \u2014 court findings and reasonable-efforts determinations later constrain downstream actions",
-  "icon": "\ud83d\ude94",
+  "summary_html": "A **law-enforcement agency** encounters suspected maltreatment (e.g., during a domestic call or arrest) and **refers** to CPS. Federal child-abuse infrastructure promotes coordinated investigations via Children’s Advocacy Centers.",
+  "authority_html": "- **Victims of Child Abuse Act (34 U.S.C. §§ 20301–20307)** — support for multidisciplinary teams and CAC protocols; coordination with CPS  \n- **ASFA/SSA IV-E** — court findings and reasonable-efforts determinations later constrain downstream actions",
+  "icon": "🚔",
   "theme_color": "#DC143C",
   "domain": "civil",
   "procedural_weight": 0.45,
@@ -25,14 +25,14 @@
     },
     "federal": {
       "requirements_applicable": [
-        "34 U.S.C. \u00a7\u00a7 20301\u201320307 (Victims of Child Abuse Act)",
-        "42 U.S.C. \u00a7\u00a7 671\u2013675 (ASFA-related IV-E conditions)"
+        "34 U.S.C. §§ 20301–20307 (Victims of Child Abuse Act)",
+        "42 U.S.C. §§ 671–675 (ASFA-related IV-E conditions)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Iowa - Title VI, Chapter 232 (Juvenile Justice \u2013 includes mandatory reporting and child in need of assistance)",
+          "citation_text": "Iowa - Title VI, Chapter 232 (Juvenile Justice – includes mandatory reporting and child in need of assistance)",
           "source_url": "https://www.legis.iowa.gov/law/iowaCode/sections?codeChapter=232",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -193,10 +193,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Human Services",
-    "acronym": "DHS",
+    "name": "Iowa Department of Health and Human Services, Child Protective Services",
+    "acronym": "Iowa HHS",
     "hotline": "1-800-362-2178",
-    "website": "https://www.legis.iowa.gov"
+    "website": "https://hhs.iowa.gov/programs/CPS"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -272,14 +272,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

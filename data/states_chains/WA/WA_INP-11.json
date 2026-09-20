@@ -6,8 +6,8 @@
   "subnode": "INP-11",
   "trigger_name": "Federal / Tribal Jurisdiction Trigger",
   "summary_html": "Cases arising on **federal lands/facilities** or involving **Indian children** invoke federal/tribal jurisdictional rules (VICAA for federal facilities; **ICWA** for Indian children and tribal preference/jurisdiction).",
-  "authority_html": "- **VICAA (34 U.S.C. \u00a7\u00a7 20301\u201320307)** \u2014 federal-facility reporting mandates  \n- **ICWA (25 U.S.C. \u00a7\u00a7 1901\u20131963)** \u2014 tribal jurisdiction, placement preferences, notice to tribes",
-  "icon": "\ud83c\udfdb\ufe0f",
+  "authority_html": "- **VICAA (34 U.S.C. §§ 20301–20307)** — federal-facility reporting mandates  \n- **ICWA (25 U.S.C. §§ 1901–1963)** — tribal jurisdiction, placement preferences, notice to tribes",
+  "icon": "🏛️",
   "theme_color": "#4682B4",
   "domain": "civil",
   "procedural_weight": 0.55,
@@ -24,8 +24,8 @@
     },
     "federal": {
       "requirements_applicable": [
-        "34 U.S.C. \u00a7\u00a7 20301\u201320307 (Victims of Child Abuse Act)",
-        "25 U.S.C. \u00a7\u00a7 1901\u20131963 (ICWA)"
+        "34 U.S.C. §§ 20301–20307 (Victims of Child Abuse Act)",
+        "25 U.S.C. §§ 1901–1963 (ICWA)"
       ]
     },
     "state_statutory": {
@@ -39,14 +39,14 @@
           "node_specific": true
         },
         {
-          "citation_text": "Washington - RCW Chapter\u00a026.44 (Abuse of Children \u2013 mandatory reporting and investigations)",
+          "citation_text": "Washington - RCW Chapter 26.44 (Abuse of Children – mandatory reporting and investigations)",
           "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=26.44",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Washington - RCW Title\u00a013 (Juvenile Courts \u2013 includes dependency proceedings)",
+          "citation_text": "Washington - RCW Title 13 (Juvenile Courts – includes dependency proceedings)",
           "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=13.34",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -281,10 +281,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children, Youth, and Families",
+    "name": "Washington State Department of Children, Youth, and Families",
     "acronym": "DCYF",
     "hotline": "1-866-363-4276",
-    "website": "https://leg.wa.gov"
+    "website": "https://dcyf.wa.gov/"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -356,14 +356,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

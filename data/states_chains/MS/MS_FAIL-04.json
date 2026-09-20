@@ -6,8 +6,8 @@
   "subnode": "FAIL-04",
   "trigger_name": "Child Death Under Agency Supervision",
   "summary_html": "A child dies or suffers serious harm while **under agency supervision**, constituting systemic failure. Federal law mandates disclosure and review to identify causes and reforms.",
-  "authority_html": "- **Protect Our Kids Act (PL 112-275)** \u2014 federal commission and review requirements  \n- **CAPTA \u00a75106a(b)(2)(A)(x)** \u2014 mandates public disclosure of child-fatality cases",
-  "icon": "\u26b0\ufe0f",
+  "authority_html": "- **Protect Our Kids Act (PL 112-275)** — federal commission and review requirements  \n- **CAPTA §5106a(b)(2)(A)(x)** — mandates public disclosure of child-fatality cases",
+  "icon": "⚰️",
   "theme_color": "#8B0000",
   "domain": "civil",
   "procedural_weight": 0.3,
@@ -24,20 +24,20 @@
     "federal": {
       "requirements_applicable": [
         "Public Law 112-275 (Protect Our Kids Act)",
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Mississippi - Miss. Code Title\u00a043, Chap.\u00a021 (Youth Court Act \u2013 \u00a7\u00a043-21-353 mandatory reporting)",
+          "citation_text": "Mississippi - Miss. Code Title 43, Chap. 21 (Youth Court Act – § 43-21-353 mandatory reporting)",
           "source_url": "https://www.lexisnexis.com/hottopics/mscode/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Mississippi - Miss. Code \u00a7\u00a043-21-601 et seq. (Youth Court disposition and removal)",
+          "citation_text": "Mississippi - Miss. Code § 43-21-601 et seq. (Youth Court disposition and removal)",
           "source_url": "https://law.justia.com/codes/mississippi/title-43/chapter-21/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -304,10 +304,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Child Protection Services",
+    "name": "Mississippi Department of Child Protection Services",
     "acronym": "MDCPS",
     "hotline": "1-800-222-8000",
-    "website": "https://www.legislature.ms.gov"
+    "website": "https://www.mdcps.ms.gov/"
   },
   "linked_output": "OUT-06",
   "linked_action": "ACT-03",
@@ -344,7 +344,7 @@
       "requirement_name": "Appeal deadline",
       "deadline": "30 days",
       "starts_from": "Final order",
-      "source": "court_rule",
+      "source": "template_estimate",
       "consequence_of_miss": "Loss of appeal rights"
     },
     {

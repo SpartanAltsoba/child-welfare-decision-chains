@@ -6,8 +6,8 @@
   "subnode": "ACT-04",
   "trigger_name": "Kinship Placement",
   "summary_html": "Agency places a child with **relatives or kin caregivers** instead of non-relative foster care. Federal law favors kinship care as least-restrictive, family-preserving placement.",
-  "authority_html": "- **Fostering Connections to Success and Increasing Adoptions Act (FCSIAA 2008)** \u2014 kinship-care incentives  \n- **SSA Title IV-E (42 U.S.C. \u00a7\u00a7 670\u2013679c)** \u2014 reimbursement for approved kin placements",
-  "icon": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67",
+  "authority_html": "- **Fostering Connections to Success and Increasing Adoptions Act (FCSIAA 2008)** — kinship-care incentives  \n- **SSA Title IV-E (42 U.S.C. §§ 670–679c)** — reimbursement for approved kin placements",
+  "icon": "👨‍👩‍👧",
   "theme_color": "#FFD700",
   "domain": "civil",
   "procedural_weight": 0.45,
@@ -20,14 +20,14 @@
   "layers": {
     "constitutional": {
       "constraints_triggered": [
-        "U.S. Const. amend. XIV, \u00a7 1"
+        "U.S. Const. amend. XIV, § 1"
       ],
       "alignment": "aligned"
     },
     "federal": {
       "requirements_applicable": [
         "Public Law 110-351 (FCSIAA)",
-        "42 U.S.C. \u00a7\u00a7 670\u2013679c (SSA Title IV-E)"
+        "42 U.S.C. §§ 670–679c (SSA Title IV-E)"
       ]
     },
     "state_statutory": {
@@ -40,7 +40,7 @@
           "deep_link": true
         },
         {
-          "citation_text": "Illinois - 705 ILCS 405/2 (Juvenile Court Act \u2013 abuse/neglect proceedings)",
+          "citation_text": "Illinois - 705 ILCS 405/2 (Juvenile Court Act – abuse/neglect proceedings)",
           "source_url": "https://law.onecle.com/illinois/705ilcs5/",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -160,8 +160,8 @@
         {
           "provision_id": "IL_CONST_DUE_PROCESS",
           "name": "Due Process / Law of the Land",
-          "citation": "Illinois Const. art. I, \u00a7 2",
-          "federal_parallel": "U.S. Const. amend. XIV, \u00a7 1"
+          "citation": "Illinois Const. art. I, § 2",
+          "federal_parallel": "U.S. Const. amend. XIV, § 1"
         }
       ]
     },
@@ -323,10 +323,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Children and Family Services",
+    "name": "Illinois Department of Children and Family Services",
     "acronym": "DCFS",
     "hotline": "1-800-252-2873",
-    "website": "https://www.ilga.gov"
+    "website": "https://dcfs.illinois.gov/"
   },
   "linked_decision": "DEC-04",
   "linked_input": "INP-01",
@@ -361,7 +361,7 @@
       "requirement_name": "Emergency removal hearing",
       "deadline": "24-72 hours",
       "starts_from": "Child removed",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Constitutional violation, case dismissal"
     },
     {

@@ -6,8 +6,8 @@
   "subnode": "INP-08",
   "trigger_name": "Educational Disclosure",
   "summary_html": "**Educators/school staff** observing indicators of abuse/neglect report to CPS under state mandatory-reporter lists built on the federal CAPTA floor.",
-  "authority_html": "- **CAPTA (42 U.S.C. \u00a7\u00a7 5101\u20135116)** \u2014 requires robust reporter regimes that include education sector professionals",
-  "icon": "\ud83c\udf93",
+  "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — requires robust reporter regimes that include education sector professionals",
+  "icon": "🎓",
   "theme_color": "#FFD700",
   "domain": "civil",
   "procedural_weight": 0.4,
@@ -23,7 +23,7 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 5101\u20135116 (CAPTA)"
+        "42 U.S.C. §§ 5101–5116 (CAPTA)"
       ]
     },
     "state_statutory": {
@@ -36,7 +36,7 @@
           "deep_link": true
         },
         {
-          "citation_text": "District of Columbia - D.C. Code \u00a7 4-1321.02 (Mandatory Reporting)",
+          "citation_text": "District of Columbia - D.C. Code § 4-1321.02 (Mandatory Reporting)",
           "source_url": "https://code.dccouncil.gov/us/dc/council/code/titles/4/chapters/1321",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -210,7 +210,7 @@
     "name": "Child and Family Services Agency",
     "acronym": "CFSA",
     "hotline": "202-671-7233",
-    "website": ""
+    "website": "https://cfsa.dc.gov/"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -288,14 +288,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],

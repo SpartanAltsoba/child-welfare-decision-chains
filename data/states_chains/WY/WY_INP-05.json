@@ -6,8 +6,8 @@
   "subnode": "INP-05",
   "trigger_name": "Self-Report / Guardian Request",
   "summary_html": "A **parent/guardian/child requests help** without a substantiated allegation. FFPSA created a federal pathway for **prevention services** to avert removal and stabilize families before a case escalates.",
-  "authority_html": "- **Family First Prevention Services Act (2018)** \u2014 prevention services, kinship support; shifts upstream from removal to support",
-  "icon": "\ud83e\udde9",
+  "authority_html": "- **Family First Prevention Services Act (2018)** — prevention services, kinship support; shifts upstream from removal to support",
+  "icon": "🧩",
   "theme_color": "#32CD32",
   "domain": "civil",
   "procedural_weight": 0.6,
@@ -24,20 +24,20 @@
     },
     "federal": {
       "requirements_applicable": [
-        "42 U.S.C. \u00a7\u00a7 671\u2013679b (FFPSA-related IV-E changes)"
+        "42 U.S.C. §§ 671–679b (FFPSA-related IV-E changes)"
       ]
     },
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Wyoming - Wyo. Stat. \u00a7\u00a014-3-201 et seq. (Child Protective Services Act \u2013 \u00a7\u00a014-3-205 duty to report)",
+          "citation_text": "Wyoming - Wyo. Stat. § 14-3-201 et seq. (Child Protective Services Act – § 14-3-205 duty to report)",
           "source_url": "https://www.wyoleg.gov/statutes/compress/title14.pdf",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
           "deep_link": true
         },
         {
-          "citation_text": "Wyoming - Wyo. Stat. \u00a7\u00a014-3-401 et seq. (Child Protection legal proceedings)",
+          "citation_text": "Wyoming - Wyo. Stat. § 14-3-401 et seq. (Child Protection legal proceedings)",
           "source_url": "https://www.wyoleg.gov/statutes/compress/title14.pdf",
           "authority_type": "state_statute",
           "last_verified": "2025-12-22",
@@ -290,10 +290,10 @@
     }
   },
   "state_agency": {
-    "name": "Department of Family Services",
+    "name": "Wyoming Department of Family Services",
     "acronym": "DFS",
-    "hotline": "1-800-457-3659",
-    "website": "https://www.wyoleg.gov"
+    "hotline": "No statewide hotline. Call the DFS field office in the county where the child lives — the list is at dfs.wyo.gov/about/contact-us",
+    "website": "https://dfs.wyo.gov/"
   },
   "mandatory_reporters": [
     "Teachers/School Personnel",
@@ -372,14 +372,14 @@
       "requirement_name": "Initial response time",
       "deadline": "24-72 hours",
       "starts_from": "Report received",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Potential audit finding, CFSR deficiency"
     },
     {
       "requirement_name": "Investigation completion",
       "deadline": "30-60 days",
       "starts_from": "Investigation opened",
-      "source": "state_statute",
+      "source": "template_estimate",
       "consequence_of_miss": "Case dismissal risk"
     }
   ],
