@@ -79,6 +79,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Kansas state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Burney v. Kansas Department of Social & Rehabilitation Services",
+          "citation": "23 Kan. App. 2d 394, 931 P.2d 26 (1997)",
+          "court": "Court of Appeals of Kansas",
+          "year": 1997,
+          "date_decided": "1997-01-17",
+          "holding": "The court reversed a negligence verdict for a substitute teacher who had been investigated for child abuse, holding that SRS owes no duty to an alleged abuser, that there is no special relationship between the agency and a suspect, and that both the decision whether to open a file and the manner of conducting a child abuse investigation are discretionary functions immune under the Kansas Tort Claims Act.",
+          "relevance": "Someone wrongly named in a substantiated finding cannot sue the agency in negligence for the investigation that produced it.",
+          "quote": "we hold that in investigating child abuse cases, SRS owes no duty to the alleged abuser",
+          "url": "https://www.courtlistener.com/opinion/1169765/burney-v-kansas-department-of-social-rehabilitation-services/",
+          "courtlistener_cluster_id": 1169765
+        },
+        {
+          "case_name": "T.H. v. University of Kansas Hospital Authority",
+          "citation": "53 Kan. App. 2d 332, 388 P.3d 181 (2017)",
+          "court": "Court of Appeals of Kansas",
+          "year": 2017,
+          "date_decided": "2017-01-06",
+          "holding": "The court affirmed dismissal of a malpractice suit against a physician who reported suspected sexual abuse, holding that K.S.A. 38-2223(f) immunizes reporters who negligently misdiagnose abuse and that the immunity is lost only if the plaintiff pleads facts supporting actual malice, meaning a specific intent to injure.",
+          "relevance": "A family harmed by an erroneous abuse determination generally has no civil remedy against the reporting professional absent pleaded malice.",
+          "quote": "In sum, we find that K.S.A. 2015 Supp. 38-2223(f) provides immunity to doctors who negligently misdiagnose child abuse",
+          "url": "https://www.courtlistener.com/opinion/4336421/th-and-cc-v-university-of-kansas-hosp-auth/",
+          "courtlistener_cluster_id": 4336421
+        },
+        {
+          "case_name": "In re J.D.C.",
+          "citation": "284 Kan. 155, 159 P.3d 974 (2007)",
+          "court": "Supreme Court of Kansas",
+          "year": 2007,
+          "date_decided": "2007-06-08",
+          "holding": "The court affirmed the CINC adjudication, holding that the Sixth Amendment Confrontation Clause does not apply in CINC proceedings, that a child's hearsay statements were admissible under K.S.A. 60-460(a) even though the State did not call her in its case in chief, and that the district judge's standing offer to summon the child for cross-examination satisfied whatever confrontation right due process supplied.",
+          "relevance": "A finding that a child is in need of care may rest on the child's out-of-court statements relayed by a counselor, investigator and detective, so long as the declarant is made available for cross-examination.",
+          "quote": "Any right that a civil litigant can claim to confrontation and cross-examination is grounded in the Due Process Clauses of the Fifth and Fourteenth Amendments",
+          "url": "https://www.courtlistener.com/opinion/7970297/in-the-interest-of-jdc/",
+          "courtlistener_cluster_id": 7970297
+        },
+        {
+          "case_name": "In re B.D.-Y.",
+          "citation": "286 Kan. 686, 187 P.3d 594 (2008)",
+          "court": "Supreme Court of Kansas",
+          "year": 2008,
+          "date_decided": "2008-07-18",
+          "holding": "The court affirmed the CINC adjudication, holding that clear and convincing evidence in Kansas means evidence sufficient to establish that the truth of the facts asserted is highly probable, disapproving all contrary holdings, and that an appellate court reviewing such a determination asks only whether a rational factfinder could have found it highly probable on the evidence viewed most favorably to the State.",
+          "relevance": "This is the load-bearing Kansas definition of the burden the State must carry to obtain a finding that a child is in need of care.",
+          "quote": "We agree with those courts that have essentially defined clear and convincing evidence as that which is sufficient to establish that the truth of the facts asserted is \"highly probable.\"",
+          "url": "https://www.courtlistener.com/opinion/7970469/in-the-interest-of-bd-y/",
+          "courtlistener_cluster_id": 7970469
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Kansas%22%20AND%20%28%22Kansas%20Department%20for%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Kansas Department for Children and Families",
         "DCF",
@@ -90,149 +144,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Kansas%22%20AND%20%28%22Kansas%20Department%20for%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "investigation",
-        "substantiation",
-        "evidence standard",
-        "due process",
-        "reasonable efforts"
-      ],
-      "jurisdiction": "Kansas state courts",
-      "key_cases": [
-        {
-          "case_id": "119012",
-          "title": "In re Mason",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/119012.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 119012 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "129013",
-          "title": "In re Wagle",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/129013.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 129013 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "20346",
-          "title": "In re Holmes",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/20346.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 20346 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "13805",
-          "title": "In re Peterson, II",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/13805.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 13805 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "118723",
-          "title": "In re Sullivan",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/118723.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 118723 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "125499",
-          "title": "In re McVey",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/125499.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 125499 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "127835",
-          "title": "In re Valdez",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/127835.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 127835 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "124395",
-          "title": "In re Martinez",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/124395.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 124395 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "125968",
-          "title": "In re Barnds",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/125968.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 125968 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "126718",
-          "title": "In re K.W.D.",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/126718.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 126718 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

@@ -176,6 +176,60 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Idaho state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Idaho Department of Health & Welfare v. Doe",
+          "citation": "161 Idaho 596, 389 P.3d 141 (2016)",
+          "court": "Idaho Supreme Court",
+          "year": 2016,
+          "date_decided": "2016-09-09",
+          "holding": "The court vacated the termination judgment and remanded because the magistrate court applied an erroneous legal standard to each statutory ground, including by measuring the incarceration ground by the aggregate time served rather than the time likely to be served after the hearing.",
+          "relevance": "The clearest Idaho example of appellate reversal of a termination for legal error, including criticism of a magistrate's practice of letting the State draft the findings.",
+          "quote": "As the magistrate court applied an erroneous legal standard to each ground that it relied upon to terminate Doe's parental rights, we vacate the judgment terminating Doe's parental rights",
+          "url": "https://www.courtlistener.com/opinion/4255320/idaho-department-of-health-welfare-v-doe/",
+          "courtlistener_cluster_id": 4255320
+        },
+        {
+          "case_name": "In re Termination of the Parental Rights of John Doe (2014-26)",
+          "citation": "158 Idaho 548, 348 P.3d 163 (2015)",
+          "court": "Idaho Supreme Court",
+          "year": 2015,
+          "date_decided": "2015-04-23",
+          "holding": "The court vacated a termination judgment that rested solely on a murder conviction and sentence later vacated on appeal, and construed I.C. § 16-2005(1)(e) to require that the parent be serving a sentence and be likely to remain incarcerated for a substantial period of the child's remaining minority.",
+          "relevance": "Demonstrates that a termination built on a collateral criminal judgment collapses when that judgment is vacated.",
+          "quote": "In context, the word \"incarcerated\" refers to someone who has been convicted of a crime and is serving a sentence of incarceration",
+          "url": "https://www.courtlistener.com/opinion/3133242/in-re-the-termination-of-the-parental-rights-of-doe/",
+          "courtlistener_cluster_id": 3133242
+        },
+        {
+          "case_name": "State v. Doe",
+          "citation": "144 Idaho 534, 164 P.3d 814 (2007)",
+          "court": "Idaho Supreme Court",
+          "year": 2007,
+          "date_decided": "2007-07-02",
+          "holding": "The court vacated a termination order and remanded, holding that the rebuttable presumption in I.C. § 16-1629(9) favors only the Department's filing of a termination petition after fifteen of twenty-two months in care and does not shift to the parent the burden of disproving that termination is in the child's best interests.",
+          "relevance": "A leading Idaho reversal: applying the incorrect burden 'infected the trial' and was not harmless.",
+          "quote": "It does not create a presumption that it is in the best interests of the child to terminate parental rights",
+          "url": "https://www.courtlistener.com/opinion/874513/state-v-doe/",
+          "courtlistener_cluster_id": 874513
+        },
+        {
+          "case_name": "Roe Family Services v. Doe",
+          "citation": "139 Idaho 930, 88 P.3d 749 (2004)",
+          "court": "Idaho Supreme Court",
+          "year": 2004,
+          "date_decided": "2004-03-29",
+          "holding": "The court reversed a magistrate's decree terminating an unmarried biological father's parental rights and remanded, holding that although the magistrate's factual findings were supported by substantial and competent evidence he failed to apply the correct law, because a father who had filed a notarized acknowledgment of paternity with the mother's consent was entitled to notice of the termination hearing under I.C. §§ 16-2007 and 16-1505(1)(d).",
+          "relevance": "The Idaho Supreme Court's canonical statement that a magistrate's findings may be fully supported by the evidence and the termination still reversed because he applied the wrong law.",
+          "quote": "The magistrate judge's factual findings are supported by substantial and competent evidence, but he failed to apply the correct law to the facts of this case.",
+          "url": "https://www.courtlistener.com/opinion/2572495/roe-family-services-v-doe/",
+          "courtlistener_cluster_id": 2572495
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Idaho%22%20AND%20%28%22Idaho%20Department%20of%20Health%20and%20Welfare%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Idaho Department of Health and Welfare",
         "CPS",
@@ -187,149 +241,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Idaho%22%20AND%20%28%22Idaho%20Department%20of%20Health%20and%20Welfare%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "wrongful removal",
-        "1983 claim",
-        "civil rights",
-        "immunity",
-        "damages"
-      ],
-      "jurisdiction": "Idaho state courts",
-      "key_cases": [
-        {
-          "case_id": "53056",
-          "title": "IDHW v. John Doe (2025-27)",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-civil/2025/53056.html",
-          "year": 2025,
-          "court": "Court Of Appeals Civil",
-          "citation": "Idaho Court Of Appeals Civil Case 53056 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: IDHW, John Doe"
-        },
-        {
-          "case_id": "53025",
-          "title": "IDHW v. Jane Doe (2025-22)",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-civil/2025/53025.html",
-          "year": 2025,
-          "court": "Court Of Appeals Civil",
-          "citation": "Idaho Court Of Appeals Civil Case 53025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: IDHW, Jane Doe"
-        },
-        {
-          "case_id": "51081",
-          "title": "State v. John Doe",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-criminal/2025/51081.html",
-          "year": 2025,
-          "court": "Court Of Appeals Criminal",
-          "citation": "Idaho Court Of Appeals Criminal Case 51081 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: John Doe"
-        },
-        {
-          "case_id": "51246",
-          "title": "State v. John Doe, a juvenile",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-criminal/2025/51246.html",
-          "year": 2025,
-          "court": "Court Of Appeals Criminal",
-          "citation": "Idaho Court Of Appeals Criminal Case 51246 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: John Doe"
-        },
-        {
-          "case_id": "52029",
-          "title": "Jane Doe and John Doe I v. John Doe",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-civil/2024/52029.html",
-          "year": 2024,
-          "court": "Court Of Appeals Civil",
-          "citation": "Idaho Court Of Appeals Civil Case 52029 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Jane Doe, John Doe"
-        },
-        {
-          "case_id": "52140",
-          "title": "Jane Doe v. John Doe",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-civil/2024/52140.html",
-          "year": 2024,
-          "court": "Court Of Appeals Civil",
-          "citation": "Idaho Court Of Appeals Civil Case 52140 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Jane Doe, John Doe, Doe plaintiff"
-        },
-        {
-          "case_id": "51756",
-          "title": "John Doe I & Jane Doe I v. John Doe",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-civil/2024/51756.html",
-          "year": 2024,
-          "court": "Court Of Appeals Civil",
-          "citation": "Idaho Court Of Appeals Civil Case 51756 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Jane Doe, John Doe"
-        },
-        {
-          "case_id": "51494",
-          "title": "Jane Doe and John Doe 1 v. John Doe",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-civil/2024/51494.html",
-          "year": 2024,
-          "court": "Court Of Appeals Civil",
-          "citation": "Idaho Court Of Appeals Civil Case 51494 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Jane Doe, John Doe"
-        },
-        {
-          "case_id": "51601",
-          "title": "IDHW v. John Doe",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-civil/2024/51601.html",
-          "year": 2024,
-          "court": "Court Of Appeals Civil",
-          "citation": "Idaho Court Of Appeals Civil Case 51601 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: IDHW, John Doe"
-        },
-        {
-          "case_id": "51581",
-          "title": "IDHW v. Jane Doe",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-civil/2024/51581.html",
-          "year": 2024,
-          "court": "Court Of Appeals Civil",
-          "citation": "Idaho Court Of Appeals Civil Case 51581 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: IDHW, Jane Doe"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

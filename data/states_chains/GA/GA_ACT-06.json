@@ -106,6 +106,36 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Georgia state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "In the Interest of C. C.",
+          "citation": "314 Ga. 446 (2022)",
+          "court": "Supreme Court of Georgia",
+          "year": 2022,
+          "date_decided": "2022-08-23",
+          "holding": "The Supreme Court of Georgia vacated and remanded, holding that the juvenile court applied the wrong standard in finding the parents' religious objection to immunization insincere, and declining on constitutional-avoidance grounds to decide whether OCGA 15-11-30 transfers the right to make religiously freighted medical decisions to DFCS.",
+          "relevance": "This is the Georgia Supreme Court's most recent statement on DFCS authority to obtain medical care for a child in its custody over parental objection.",
+          "quote": "Thus, when the Chandlers consented to the adjudication of dependency, they were consenting to the transfer of those parental rights for the duration of DFCS's custody.",
+          "url": "https://www.courtlistener.com/opinion/10679829/in-the-interest-of-cc-children/",
+          "courtlistener_cluster_id": 10679829
+        },
+        {
+          "case_name": "Bendiburg v. Dempsey",
+          "citation": "909 F.2d 463 (11th Cir. 1990)",
+          "court": "United States Court of Appeals for the Eleventh Circuit",
+          "year": 1990,
+          "date_decided": "1990-08-20",
+          "holding": "In a Georgia case the Eleventh Circuit affirmed in part and reversed in part, holding that whether DFACS employees' ex parte transfer of custody and consent to a Hickman catheter over the father's objection satisfied procedural due process turns on whether a genuine medical emergency existed, and that private physicians and nurses who reached an understanding with the caseworkers to obtain that order may be liable under section 1983 as joint actors.",
+          "relevance": "It is the leading Georgia-based federal authority on agency-authorized emergency medical treatment over a parent's objection, and on the limits of that authority when the emergency is manufactured or exaggerated.",
+          "quote": "Parental autonomy may be limited when parental decisions jeopardize the health or safety of a child, and the state can intercede on the child's behalf.",
+          "url": "https://www.courtlistener.com/opinion/8989384/bendiburg-v-dempsey/",
+          "courtlistener_cluster_id": 8989384
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Georgia%22%20AND%20%28%22Georgia%20Division%20of%20Family%20and%20Children%20Services%22%20OR%20%22DFCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Georgia Division of Family and Children Services",
         "DFCS",
@@ -117,149 +147,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Georgia%22%20AND%20%28%22Georgia%20Division%20of%20Family%20and%20Children%20Services%22%20OR%20%22DFCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "removal",
-        "emergency custody",
-        "placement",
-        "reunification",
-        "services"
-      ],
-      "jurisdiction": "Georgia state courts",
-      "key_cases": [
-        {
-          "case_id": "s24y1247",
-          "title": "IN THE MATTER OF CHRISTOPHER CASEY TAYLOR (six cases)",
-          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s24y1247.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Georgia Supreme Court Case s24y1247 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "s26y0129",
-          "title": "IN THE MATTER OF JE’NITA LANE",
-          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s26y0129.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Georgia Supreme Court Case s26y0129 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "s25y0795",
-          "title": "IN THE MATTER OF BRIAN JOEL APLIN (two cases)",
-          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y0795.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Georgia Supreme Court Case s25y0795 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "s25y1085",
-          "title": "IN THE MATTER OF HERALD J.A. ALEXANDER",
-          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y1085.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Georgia Supreme Court Case s25y1085 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "s25y1459",
-          "title": "IN THE MATTER OF DESTIN MICHELLE GILLUM",
-          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y1459.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Georgia Supreme Court Case s25y1459 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "s25y0965",
-          "title": "IN THE MATTER OF CRAIG S. BONNELL",
-          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y0965.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Georgia Supreme Court Case s25y0965 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "s25y1146",
-          "title": "IN THE MATTER OF MELVIN RAINES, II",
-          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y1146.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Georgia Supreme Court Case s25y1146 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "s25y1290",
-          "title": "IN THE MATTER OF PAUL GERARD WERSANT",
-          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y1290.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Georgia Supreme Court Case s25y1290 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "s25y0726",
-          "title": "IN THE MATTER OF ALLEN CHARLES JONES",
-          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y0726.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Georgia Supreme Court Case s25y0726 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "s25y1174",
-          "title": "IN THE MATTER OF VI BUI",
-          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y1174.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Georgia Supreme Court Case s25y1174 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

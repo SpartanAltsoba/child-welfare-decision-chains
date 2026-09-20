@@ -73,6 +73,60 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Iowa state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "F.K. v. Iowa District Court for Polk County",
+          "citation": "630 N.W.2d 801 (Iowa 2001)",
+          "court": "Supreme Court of Iowa",
+          "year": 2001,
+          "date_decided": "2001-07-27",
+          "holding": "Iowa Code section 232.78, which permits ex parte temporary removal orders on an application that need not be sworn or written, violates neither the Fourth Amendment nor the Warrant Clause nor federal or state due process, because the removal is limited in duration and a reasonably prompt post-removal hearing follows.",
+          "relevance": "The controlling Iowa decision on the constitutionality of emergency protective custody under Iowa Code section 232.78, including the ten-day maximum for an ex parte removal.",
+          "quote": "On balance, we cannot say that the protections in place in section 232.78 deprive litigants, such as Felicia, of due process.",
+          "url": "https://www.courtlistener.com/opinion/1253062/fk-v-iowa-district-court-for-polk-county/",
+          "courtlistener_cluster_id": 1253062
+        },
+        {
+          "case_name": "Webster v. Westlake",
+          "citation": "41 F.4th 1004 (8th Cir. 2022)",
+          "court": "Court of Appeals for the Eighth Circuit",
+          "year": 2022,
+          "date_decided": "2022-07-27",
+          "holding": "Des Moines detectives conducting a child welfare check were not entitled to qualified immunity for arresting a mother on her porch after she refused their demands: without a warrant, an exigency, a removal order, or her consent, they could neither enter the home nor compel her to produce the child.",
+          "relevance": "Confirms that taking protective custody requires a warrant, court order, consent, or a genuine exigency — the four lawful doors.",
+          "quote": "they could not lawfully enter the home without Webster's consent, nor force her to take any specific action with respect to L.B.",
+          "url": "https://www.courtlistener.com/opinion/7441117/trenisha-webster-v-jennifer-westlake/",
+          "courtlistener_cluster_id": 7441117
+        },
+        {
+          "case_name": "Stanley v. Finnegan",
+          "citation": "899 F.3d 623 (8th Cir. 2018)",
+          "court": "Court of Appeals for the Eighth Circuit",
+          "year": 2018,
+          "date_decided": "2018-08-10",
+          "holding": "The Eighth Circuit affirmed the denial of qualified immunity on a motion to dismiss where a child-abuse investigator was alleged to have ordered seven children removed from their home despite contrary evidence and staff recommendations; reasonable suspicion of child abuse is required and is judged on the totality of the circumstances at the time of removal.",
+          "relevance": "States the substantive standard — reasonable suspicion of child abuse on the totality of the circumstances — that must exist when protective custody is taken.",
+          "quote": "whether there was reasonable suspicion of child abuse warranting removal must be determined by analyzing the totality of the circumstances at the time of the removal",
+          "url": "https://www.courtlistener.com/opinion/4525560/hal-stanley-v-katherine-finnegan/",
+          "courtlistener_cluster_id": 4525560
+        },
+        {
+          "case_name": "Heartland Academy Community Church v. Waddle",
+          "citation": "427 F.3d 525 (8th Cir. 2005)",
+          "court": "Court of Appeals for the Eighth Circuit",
+          "year": 2005,
+          "date_decided": "2005-10-14",
+          "holding": "The Eighth Circuit affirmed injunctive relief and the district court's conclusion that a juvenile officer's mass removal of children from a residential school violated the Fourth Amendment — the ex parte orders were tainted by the manner in which they were obtained, and thirty-five children were taken with no court order, probable cause, or exigent circumstances.",
+          "relevance": "The Eighth Circuit's clearest condemnation of mass protective custody taken without individualized court authorization or exigency.",
+          "quote": "upon de novo review, we see no error in the legal conclusions on the reasonableness of the seizures and the Fourth Amendment violation",
+          "url": "https://www.courtlistener.com/opinion/792293/heartland-academy-community-church-v-michael-waddle/",
+          "courtlistener_cluster_id": 792293
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Iowa%22%20AND%20%28%22Iowa%20Department%20of%20Human%20Services%22%20OR%20%22DHS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Iowa Department of Human Services",
         "DHS",
@@ -84,122 +138,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Iowa%22%20AND%20%28%22Iowa%20Department%20of%20Human%20Services%22%20OR%20%22DHS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "mandatory reporting",
-        "failure to report",
-        "reporter immunity",
-        "hotline"
-      ],
-      "jurisdiction": "Iowa state courts",
-      "key_cases": [
-        {
-          "case_id": "23-2069",
-          "title": "In re the Marriage Kraus",
-          "url": "https://law.justia.com/cases/iowa/supreme-court/2025/23-2069.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Iowa Supreme Court Case 23-2069 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "24-0830",
-          "title": "In re the Marriage of Owen and Brinker",
-          "url": "https://law.justia.com/cases/iowa/supreme-court/2025/24-0830.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Iowa Supreme Court Case 24-0830 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "24-0453",
-          "title": "J. Doe v. Iowa District Court for Polk County",
-          "url": "https://law.justia.com/cases/iowa/supreme-court/2025/24-0453.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Iowa Supreme Court Case 24-0453 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        },
-        {
-          "case_id": "24-0727",
-          "title": "In re Davenport Hotel Building Collapse",
-          "url": "https://law.justia.com/cases/iowa/supreme-court/2025/24-0727.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Iowa Supreme Court Case 24-0727 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "24-0700",
-          "title": "Doe v. Western Dubuque Community School District",
-          "url": "https://law.justia.com/cases/iowa/supreme-court/2025/24-0700.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Iowa Supreme Court Case 24-0700 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        },
-        {
-          "case_id": "23-1662",
-          "title": "Doe v. Iowa District Court For Polk County",
-          "url": "https://law.justia.com/cases/iowa/supreme-court/2025/23-1662.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Iowa Supreme Court Case 23-1662 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        },
-        {
-          "case_id": "24-0297",
-          "title": "In re N.F.",
-          "url": "https://law.justia.com/cases/iowa/supreme-court/2025/24-0297.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Iowa Supreme Court Case 24-0297 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "22-1801",
-          "title": "In re Estate of Johnston",
-          "url": "https://law.justia.com/cases/iowa/supreme-court/2025/22-1801.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Iowa Supreme Court Case 22-1801 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

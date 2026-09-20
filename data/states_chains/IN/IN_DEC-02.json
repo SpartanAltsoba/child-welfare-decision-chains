@@ -95,6 +95,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Indiana state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Doe v. Heck",
+          "citation": "327 F.3d 492 (7th Cir. 2003)",
+          "court": "United States Court of Appeals for the Seventh Circuit",
+          "year": 2003,
+          "date_decided": "2003-05-15",
+          "holding": "The court held that caseworkers violated the Fourth Amendment by entering a private school and interviewing a student without a warrant, consent, probable cause, or exigent circumstances, and violated the parents' right to familial relations by threatening removal, though the officials retained qualified immunity on some claims.",
+          "relevance": "Defines the constitutional limits on how an accepted report may be investigated through school-based interviews.",
+          "quote": "the amendment's prohibition against unreasonable searches and seizures protects against warrantless intrusions during civil as well as criminal investigations by the government",
+          "url": "https://www.courtlistener.com/opinion/781752/doe-v-heck/",
+          "courtlistener_cluster_id": 781752
+        },
+        {
+          "case_name": "Siliven v. Indiana Department of Child Services",
+          "citation": "635 F.3d 921 (7th Cir. 2011)",
+          "court": "United States Court of Appeals for the Seventh Circuit",
+          "year": 2011,
+          "date_decided": "2011-03-16",
+          "holding": "The court affirmed summary judgment for the Indiana DCS caseworkers on qualified immunity grounds, holding that the physician's opinion that the infant's injuries were non-accidental gave them probable cause, and therefore also reasonable suspicion, to remove the child without a court order.",
+          "relevance": "Defines the evidentiary threshold an accepted investigation must reach before coercive action is constitutional.",
+          "quote": "The pertinent inquiry, then, is whether defendants had probable cause to believe that C.S.'s physical health would be seriously endangered if he was not immediately removed from his father's custody.",
+          "url": "https://www.courtlistener.com/opinion/212473/siliven-v-indiana-department-of-child-services/",
+          "courtlistener_cluster_id": 212473
+        },
+        {
+          "case_name": "Michael C. v. Gresbach",
+          "citation": "526 F.3d 1008 (7th Cir. 2008)",
+          "court": "United States Court of Appeals for the Seventh Circuit",
+          "year": 2008,
+          "date_decided": "2008-05-19",
+          "holding": "The court affirmed the denial of qualified immunity, holding that a child-protection caseworker violated the children's clearly established Fourth Amendment rights by conducting under-the-clothes body searches at their private school where the principal's consent to interview did not extend to searching the children's bodies.",
+          "relevance": "Fixes the limits of consent in an accepted investigation: permission to interview a child at school is not permission to examine the child's body.",
+          "quote": "it is a violation of a child's constitutional rights to conduct a search of a child at a private school without a warrant or probable cause, consent, or exigent circumstances",
+          "url": "https://www.courtlistener.com/opinion/1190279/michael-c-v-gresbach/",
+          "courtlistener_cluster_id": 1190279
+        },
+        {
+          "case_name": "Jerger v. Blaize",
+          "citation": "41 F.4th 910 (7th Cir. 2022)",
+          "court": "United States Court of Appeals for the Seventh Circuit",
+          "year": 2022,
+          "date_decided": "2022-07-26",
+          "holding": "The court vacated summary judgment for the Indiana DCS caseworkers and remanded for trial, holding a jury must decide whether the parents' consent to a blood draw on their infant was voluntary or the product of a threatened CHINS filing and loss of the right to make her medical decisions.",
+          "relevance": "Holds that an accepted investigation may not be advanced by threatening a CHINS petition to extract consent to a medical test the agency has no order to compel.",
+          "quote": "Taking these facts together, the Jergers paint a picture of coercion, not “freely and voluntarily given” consent.",
+          "url": "https://www.courtlistener.com/opinion/7440743/lelah-jerger-v-shannon-blaize/",
+          "courtlistener_cluster_id": 7440743
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Indiana%22%20AND%20%28%22Indiana%20Department%20of%20Child%20Services%22%20OR%20%22DCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Indiana Department of Child Services",
         "DCS",
@@ -106,149 +160,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Indiana%22%20AND%20%28%22Indiana%20Department%20of%20Child%20Services%22%20OR%20%22DCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "investigation",
-        "substantiation",
-        "evidence standard",
-        "due process",
-        "reasonable efforts"
-      ],
-      "jurisdiction": "Indiana state courts",
-      "key_cases": [
-        {
-          "case_id": "20a-jt-1307",
-          "title": "In the Matter of the Involuntary Termination of the Parent-Child Relationship of: J.R. and J.M. (Minor Children) and V.R. (Mother) v. The Indiana Department of Child Services (mem. dec.)",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-1307.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jt-1307 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: involuntary TPR, Matter of"
-        },
-        {
-          "case_id": "20a-jc-1201",
-          "title": "In the Matter of M.H. and K.M. (Minor Children), Children in Need of Services; Q.H. (Mother) v. The Indiana Department of Child Services (mem. dec.)",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jc-1201.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jc-1201 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: Matter of initials"
-        },
-        {
-          "case_id": "20a-jc-1319",
-          "title": "In the Matter of J.G., A Child in Need of Services, J.B., Father v. Indiana Department of Child Services (mem. dec.)",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jc-1319.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jc-1319 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: Matter of initials"
-        },
-        {
-          "case_id": "20a-jt-1284",
-          "title": "In the Matter of the Involuntary Termination of the Parent-Child Relationship of C.Q. (Minor Child) and K.Q. (Mother) v. The Indiana Department of Child Services (mem. dec.)",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-1284.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jt-1284 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: involuntary TPR, Matter of"
-        },
-        {
-          "case_id": "20a-jt-1297",
-          "title": "In the Matter of R.R. v. Indiana Department of Child Services (mem. dec.)",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-1297.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jt-1297 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: Matter of initials"
-        },
-        {
-          "case_id": "20a-jt-318",
-          "title": "In the Matter of the Involuntary Termination of the Parent-Child Relationship of C.L. (Minor Child) and J.M. (Mother) v. Indiana Department of Child Services (mem. dec.)",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-318.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jt-318 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: involuntary TPR, Matter of"
-        },
-        {
-          "case_id": "20a-jt-63",
-          "title": "In the Matter of the Termination of the Parent-Child Relationship, Q.J., et al. (Minor Children), and B.J. (Mother) and Q.J., Sr. (Father) v. Indiana Department of Child Services (mem. dec.)",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-63.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jt-63 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: Matter of TPR, Matter of"
-        },
-        {
-          "case_id": "20a-jc-1368",
-          "title": "In the Matter of: M.C., K.H., and T.H., Children in Need of Services: B.H. (Mother) v. The Indiana Department of Child Services (mem. dec.)",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jc-1368.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jc-1368 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: Matter of initials"
-        },
-        {
-          "case_id": "20a-jt-1175",
-          "title": "In the Matter of the Termination of the Parent-Child Relationship of: M.C., J.C., Ja.C., Ma.C., and P.C. (Minor Children); C.C. (Mother) and Ch.C. (Father) v. Indiana Department of Child Services",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-1175.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jt-1175 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: Matter of TPR, Matter of"
-        },
-        {
-          "case_id": "20a-jt-1378",
-          "title": "In re the Termination of the Parent-Child Relationship of A.D. (Minor Child) and J.H. (Mother) v. Indiana Department of Child Services (mem. dec.)",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-1378.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jt-1378 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: In re TPR, In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

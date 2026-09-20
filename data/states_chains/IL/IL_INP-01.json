@@ -160,6 +160,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Illinois state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Doe-3 v. McLean County Unit District No. 5 Board of Directors",
+          "citation": "2012 IL 112479, 973 N.E.2d 880",
+          "court": "Illinois Supreme Court",
+          "year": 2012,
+          "date_decided": "2012-08-09",
+          "holding": "The court held school officials owed no affirmative common-law duty to warn or report, but that plaintiffs stated a willful and wanton claim based on defendants' alleged misrepresentation of a teacher's record to a subsequent employer, and remanded for further proceedings.",
+          "relevance": "Establishes that in Illinois the reporting duty of school personnel is statutory under ANCRA, not a freestanding common-law duty.",
+          "quote": "the common law does not recognize an affirmative duty to act for the protection of another in the absence of a special relationship between the parties",
+          "url": "https://www.courtlistener.com/opinion/3135854/doe-3-v-mclean-county-unit-district-no-5-board-of-directors/",
+          "courtlistener_cluster_id": 3135854
+        },
+        {
+          "case_name": "Lyon v. Department of Children & Family Services",
+          "citation": "209 Ill. 2d 264, 807 N.E.2d 423 (2004)",
+          "court": "Illinois Supreme Court",
+          "year": 2004,
+          "date_decided": "2004-03-18",
+          "holding": "The court held that DCFS violated Lyon's due process rights by combining the low credible-evidence standard for indicating a report and deciding the first-stage appeal with delays beyond its own regulatory deadlines, and affirmed expungement from the State Central Register.",
+          "relevance": "Mandated-reporter allegations against a school employee drove the register listing at issue.",
+          "quote": "we require strict statutory and regulatory compliance only if the Department uses the credible-evidence standard to indicate a report and to consider a first-stage appeal",
+          "url": "https://www.courtlistener.com/opinion/1991243/lyon-v-department-of-children-family-services/",
+          "courtlistener_cluster_id": 1991243
+        },
+        {
+          "case_name": "Dupuy v. Samuels",
+          "citation": "397 F.3d 493 (7th Cir. 2005)",
+          "court": "United States Court of Appeals for the Seventh Circuit",
+          "year": 2005,
+          "date_decided": "2005-02-03",
+          "holding": "The court largely upheld injunctive relief requiring DCFS to weigh exculpatory evidence under the credible-evidence standard and to give child-care workers a pre-deprivation conference and expedited appeal, while holding foster parents lack a protected liberty or property interest.",
+          "relevance": "Mandated-reporter allegations feed the register system whose accuracy safeguards this case imposed.",
+          "quote": "It also requires that the investigator take into account all of the available evidence that tends to show that abuse or neglect did or did not occur.",
+          "url": "https://www.courtlistener.com/opinion/789169/jeff-dupuy-belinda-dupuy-pilar-berman-v-bryan-samuels-director-illinois/",
+          "courtlistener_cluster_id": 789169
+        },
+        {
+          "case_name": "Iseberg v. Gross",
+          "citation": "227 Ill. 2d 78, 879 N.E.2d 278 (2007)",
+          "court": "Illinois Supreme Court",
+          "year": 2007,
+          "date_decided": "2007-09-20",
+          "holding": "The court affirmed dismissal of a failure-to-warn claim, holding that Illinois adheres to the rule that absent one of the four recognized special relationships a private person owes no affirmative duty to warn or protect another from a third party's criminal conduct.",
+          "relevance": "The affirmative-duty framework Doe-3 applies to school staff: because the common law imposes no duty to warn, a reporting obligation in Illinois must come from ANCRA.",
+          "quote": "a private person has no duty to act affirmatively to protect another from criminal attack by a third person absent a \"special relationship\" between the parties",
+          "url": "https://www.courtlistener.com/opinion/2050890/iseberg-v-gross/",
+          "courtlistener_cluster_id": 2050890
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Illinois%22%20AND%20%28%22Illinois%20Department%20of%20Children%20and%20Family%20Services%22%20OR%20%22DCFS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Illinois Department of Children and Family Services",
         "DCFS",
@@ -171,148 +225,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Illinois%22%20AND%20%28%22Illinois%20Department%20of%20Children%20and%20Family%20Services%22%20OR%20%22DCFS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "mandatory reporting",
-        "failure to report",
-        "reporter immunity",
-        "hotline"
-      ],
-      "jurisdiction": "Illinois state courts",
-      "key_cases": [
-        {
-          "case_id": "130596",
-          "title": "In re Marriage of Tronsrue",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2025/130596.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 130596 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "129755",
-          "title": "In re V.S.",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2025/129755.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 129755 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "129155",
-          "title": "In re Marriage of Arjmand",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2024/129155.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 129155 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "128867",
-          "title": "In re Estate of Coffman",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2023/128867.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 128867 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "129097",
-          "title": "Doe v. Burke Wise Morrissey & Kaveny, LLC",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2023/129097.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 129097 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        },
-        {
-          "case_id": "128031",
-          "title": "In re Kelan W.",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2022/128031.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 128031 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "126256",
-          "title": "In re Craig H.",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2022/126256.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 126256 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "126956",
-          "title": "In re Estate of McDonald",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2022/126956.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 126956 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "126929",
-          "title": "In re Application of the County Collector",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2022/126929.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 126929 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "127222",
-          "title": "In re Johnathan T.",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2022/127222.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 127222 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

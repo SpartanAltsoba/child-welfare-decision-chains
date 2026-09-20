@@ -79,6 +79,72 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Kentucky state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Santosky v. Kramer",
+          "citation": "455 U.S. 745 (1982)",
+          "court": "Supreme Court of the United States",
+          "year": 1982,
+          "date_decided": "1982-02-22",
+          "holding": "The Court held that the Due Process Clause of the Fourteenth Amendment requires a State to support its allegations by at least clear and convincing evidence before it may permanently terminate parental rights, and struck down New York's preponderance standard.",
+          "relevance": "This is the federal constitutional floor for the burden of proof in every Kentucky termination case and is expressly applied in KRS 625.090 jurisprudence.",
+          "quote": "due process requires that the State support its allegations by at least clear and convincing evidence",
+          "url": "https://www.courtlistener.com/opinion/110676/santosky-v-kramer/",
+          "courtlistener_cluster_id": 110676
+        },
+        {
+          "case_name": "N.S. v. C",
+          "citation": "642 S.W.2d 589 (Ky. 1982)",
+          "court": "Supreme Court of Kentucky",
+          "year": 1982,
+          "date_decided": "1982-12-14",
+          "holding": "Following Santosky v. Kramer, the Court held that the preponderance-of-the-evidence standard then prescribed by KRS 199.603(1) for involuntary termination of parental rights is unconstitutional under the Fourteenth Amendment, and it reversed and remanded for a new trial applying the clear-and-convincing standard.",
+          "relevance": "This is Kentucky's own adoption of the clear-and-convincing standard for involuntary termination, the intervening Kentucky Supreme Court authority between the federal floor of Santosky and the modern KRS 625.090 case law that the brief otherwise skips over.",
+          "quote": "we declare that the provision of KRS 199.603(1) (1978) requiring only a \"preponderance of the evidence\" in involuntary termination cases is unconstitutional",
+          "url": "https://www.courtlistener.com/opinion/5233111/ns-v-c/",
+          "courtlistener_cluster_id": 5233111
+        },
+        {
+          "case_name": "D.G.R. v. Commonwealth, Cabinet for Health & Family Services",
+          "citation": "364 S.W.3d 106 (Ky. 2012)",
+          "court": "Supreme Court of Kentucky",
+          "year": 2012,
+          "date_decided": "2012-04-26",
+          "holding": "The Court reinstated a trial court's refusal to terminate parental rights, holding that only a decision to terminate must rest on clear and convincing evidence, that parents may defeat termination by showing by a preponderance that the child will not be abused in the future, and that the KRS 625.090(3) best-interest factors are to be considered rather than treated as a checklist.",
+          "relevance": "This is the Kentucky Supreme Court's leading modern explication of the burdens and discretion built into KRS 625.090.",
+          "quote": "the Cabinet must prove the necessary statutory allegations by clear and convincing evidence in order for the trial court to terminate parental rights",
+          "url": "https://www.courtlistener.com/opinion/2541102/dgr-v-commonwealth-cabinet-for-health-family-services/",
+          "courtlistener_cluster_id": 2541102
+        },
+        {
+          "case_name": "B.L. v. J.S.",
+          "citation": "434 S.W.3d 61 (Ky. Ct. App. 2014)",
+          "court": "Court of Appeals of Kentucky",
+          "year": 2014,
+          "date_decided": "2014-05-09",
+          "holding": "The court affirmed an adoption granted without the biological parents' consent under KRS 199.502, holding that such an adoption is functionally a termination governed by the clear-and-convincing standard, that it does not require a prior abuse-or-neglect adjudication, and that the trial court adequately considered less drastic alternatives.",
+          "relevance": "This is the Kentucky rule that a KRS 199.502 adoption without consent must satisfy the same clear-and-convincing proof as an involuntary termination.",
+          "quote": "An adoption without the consent of a living biological parent is, in effect, a proceeding to terminate that parent's parental rights.",
+          "url": "https://www.courtlistener.com/opinion/5444352/bl-v-js/",
+          "courtlistener_cluster_id": 5444352
+        },
+        {
+          "case_name": "Moore v. Asente",
+          "citation": "110 S.W.3d 336 (Ky. 2003)",
+          "court": "Supreme Court of Kentucky",
+          "year": 2003,
+          "date_decided": "2003-06-12",
+          "holding": "The Court affirmed the trial court's jurisdiction and reinstated its finding that the birth parents' adoption consents were not knowingly given, but held that the prospective adoptive parents had standing to seek custody and that the birth parents had waived their superior right to custody, so on remand custody must be decided on the child's best interest.",
+          "relevance": "The Court's statement that a valid adoption judgment terminates parental rights exactly as a termination order does is the premise from which B.L. v. J.S. derives the rule that a KRS 199.502 adoption without consent requires clear and convincing proof.",
+          "quote": "Like the final order in a TPR proceeding, a valid adoption judgment terminates the parental rights of the birth parent.",
+          "url": "https://www.courtlistener.com/opinion/1773531/moore-v-asente/",
+          "courtlistener_cluster_id": 1773531
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Kentucky%22%20AND%20%28%22Kentucky%20Department%20for%20Community%20Based%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Kentucky Department for Community Based Services",
         "CPS",
@@ -90,136 +156,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Kentucky%22%20AND%20%28%22Kentucky%20Department%20for%20Community%20Based%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "termination of parental rights",
-        "TPR",
-        "adoption",
-        "permanency",
-        "aging out"
-      ],
-      "jurisdiction": "Kentucky state courts",
-      "key_cases": [
-        {
-          "case_id": "2024-ca-0273-me",
-          "title": "T.T. v. CABINET FOR HEALTH AND FAMILY SERVICES, DIVISION OF PROTECTION AND PERMANENCY, COMMONWEALTH OF KENTUCKY, ET AL.",
-          "url": "https://law.justia.com/cases/kentucky/court-of-appeals/2024/2024-ca-0273-me.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Kentucky Court Of Appeals Case 2024-ca-0273-me (2024)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "permanency"
-          ],
-          "child_welfare_reason": "High: Family Services"
-        },
-        {
-          "case_id": "2019-sc-0295-dg",
-          "title": "Kentucky Guardianship Administrators, LLC v. Baptist Health System, Inc.",
-          "url": "https://law.justia.com/cases/kentucky/supreme-court/2021/2019-sc-0295-dg.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Kentucky Supreme Court Case 2019-sc-0295-dg (2021)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "Medium: guardianship"
-        },
-        {
-          "case_id": "2024-sc-0496-kb",
-          "title": "IN RE: ARTHUR JOSEPH MCLAUGHLIN III",
-          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2024-sc-0496-kb.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kentucky Supreme Court Case 2024-sc-0496-kb (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2025-sc-0118-kb",
-          "title": "IN RE: MARCUS DANIEL GALE",
-          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2025-sc-0118-kb.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kentucky Supreme Court Case 2025-sc-0118-kb (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2025-sc-0423-kb",
-          "title": "IN RE: DANIEL LOUIS THOMPSON",
-          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2025-sc-0423-kb.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kentucky Supreme Court Case 2025-sc-0423-kb (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2025-sc-0478-kb",
-          "title": "IN RE: J. TODD P'POOL",
-          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2025-sc-0478-kb.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kentucky Supreme Court Case 2025-sc-0478-kb (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initial"
-        },
-        {
-          "case_id": "2025-sc-0365-kb",
-          "title": "IN RE: ERIC SHANE GRINNELL",
-          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2025-sc-0365-kb.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kentucky Supreme Court Case 2025-sc-0365-kb (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2025-sc-0039-kb",
-          "title": "IN RE: DARREN CRAIG LAMB",
-          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2025-sc-0039-kb.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kentucky Supreme Court Case 2025-sc-0039-kb (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2025-sc-0281-kb",
-          "title": "IN RE: HAROLD WAYNE ROBERTS",
-          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2025-sc-0281-kb.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kentucky Supreme Court Case 2025-sc-0281-kb (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

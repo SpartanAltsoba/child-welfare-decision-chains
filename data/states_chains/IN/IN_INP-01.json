@@ -99,6 +99,48 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Indiana state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "C.T. v. Gammon",
+          "citation": "928 N.E.2d 847 (Ind. Ct. App. 2010)",
+          "court": "Court of Appeals of Indiana",
+          "year": 2010,
+          "date_decided": "2010-06-10",
+          "holding": "The court affirmed summary judgment for the pediatrician, holding Indiana does not recognize a private right of action against a person who fails to report suspected child abuse or neglect.",
+          "relevance": "Establishes that the mandatory-reporting duty is enforced criminally, not through private damages suits.",
+          "quote": "Because Indiana does not recognize a private right of action for failure to report child abuse or neglect, we affirm the trial court's entry of summary judgment",
+          "url": "https://www.courtlistener.com/opinion/2078130/ct-v-gammon/",
+          "courtlistener_cluster_id": 2078130
+        },
+        {
+          "case_name": "Gresk v. Demetris",
+          "citation": "96 N.E.3d 564 (Ind. 2018)",
+          "court": "Indiana Supreme Court",
+          "year": 2018,
+          "date_decided": "2018-05-10",
+          "holding": "The court reversed dismissal of a malpractice suit against a physician who reported suspected medical child abuse to DCS, holding Indiana's anti-SLAPP statute did not apply because the suit targeted her medical care rather than speech on a public issue.",
+          "relevance": "Shows that the anti-SLAPP statute is not a shield for a mandated reporter sued over the care surrounding the report.",
+          "quote": "a person's actions must be “in furtherance of” his or her right of petition or free speech and “in connection with a public issue.”",
+          "url": "https://www.courtlistener.com/opinion/4496837/paul-gresk-trustee-for-the-bankruptcy-estate-of-derek-vanwinkle-and-stacey/",
+          "courtlistener_cluster_id": 4496837
+        },
+        {
+          "case_name": "John Doe #1 v. Indiana Department of Child Services",
+          "citation": "81 N.E.3d 199 (Ind. 2017)",
+          "court": "Indiana Supreme Court",
+          "year": 2017,
+          "date_decided": "2017-08-24",
+          "holding": "The court held that the statute requiring DCS to protect a child-abuse reporter's identity creates no private right of action and that the hotline operator's assurance of anonymity created no common-law duty, so the reporter's family had no remedy when DCS released his unredacted report.",
+          "relevance": "Tells mandated reporters that the statutory promise of confidentiality is not privately enforceable if the agency breaches it.",
+          "quote": "We denounce DCS's thoughtlessness, but find no basis for liability under either theory.",
+          "url": "https://www.courtlistener.com/opinion/4421402/john-doe-1-v-indiana-department-of-child-services/",
+          "courtlistener_cluster_id": 4421402
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Indiana%22%20AND%20%28%22Indiana%20Department%20of%20Child%20Services%22%20OR%20%22DCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Indiana Department of Child Services",
         "DCS",
@@ -110,148 +152,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Indiana%22%20AND%20%28%22Indiana%20Department%20of%20Child%20Services%22%20OR%20%22DCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "mandatory reporting",
-        "failure to report",
-        "reporter immunity",
-        "hotline"
-      ],
-      "jurisdiction": "Indiana state courts",
-      "key_cases": [
-        {
-          "case_id": "20a-jt-1307",
-          "title": "In the Matter of the Involuntary Termination of the Parent-Child Relationship of: J.R. and J.M. (Minor Children) and V.R. (Mother) v. The Indiana Department of Child Services (mem. dec.)",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-1307.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jt-1307 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: involuntary TPR, Matter of"
-        },
-        {
-          "case_id": "20a-jc-1201",
-          "title": "In the Matter of M.H. and K.M. (Minor Children), Children in Need of Services; Q.H. (Mother) v. The Indiana Department of Child Services (mem. dec.)",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jc-1201.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jc-1201 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: Matter of initials"
-        },
-        {
-          "case_id": "20a-jc-1319",
-          "title": "In the Matter of J.G., A Child in Need of Services, J.B., Father v. Indiana Department of Child Services (mem. dec.)",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jc-1319.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jc-1319 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: Matter of initials"
-        },
-        {
-          "case_id": "20a-jt-1284",
-          "title": "In the Matter of the Involuntary Termination of the Parent-Child Relationship of C.Q. (Minor Child) and K.Q. (Mother) v. The Indiana Department of Child Services (mem. dec.)",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-1284.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jt-1284 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: involuntary TPR, Matter of"
-        },
-        {
-          "case_id": "20a-jt-1297",
-          "title": "In the Matter of R.R. v. Indiana Department of Child Services (mem. dec.)",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-1297.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jt-1297 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: Matter of initials"
-        },
-        {
-          "case_id": "20a-jt-318",
-          "title": "In the Matter of the Involuntary Termination of the Parent-Child Relationship of C.L. (Minor Child) and J.M. (Mother) v. Indiana Department of Child Services (mem. dec.)",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-318.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jt-318 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: involuntary TPR, Matter of"
-        },
-        {
-          "case_id": "20a-jt-63",
-          "title": "In the Matter of the Termination of the Parent-Child Relationship, Q.J., et al. (Minor Children), and B.J. (Mother) and Q.J., Sr. (Father) v. Indiana Department of Child Services (mem. dec.)",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-63.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jt-63 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: Matter of TPR, Matter of"
-        },
-        {
-          "case_id": "20a-jc-1368",
-          "title": "In the Matter of: M.C., K.H., and T.H., Children in Need of Services: B.H. (Mother) v. The Indiana Department of Child Services (mem. dec.)",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jc-1368.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jc-1368 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: Matter of initials"
-        },
-        {
-          "case_id": "20a-jt-1175",
-          "title": "In the Matter of the Termination of the Parent-Child Relationship of: M.C., J.C., Ja.C., Ma.C., and P.C. (Minor Children); C.C. (Mother) and Ch.C. (Father) v. Indiana Department of Child Services",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-1175.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jt-1175 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: Matter of TPR, Matter of"
-        },
-        {
-          "case_id": "20a-jt-1378",
-          "title": "In re the Termination of the Parent-Child Relationship of A.D. (Minor Child) and J.H. (Mother) v. Indiana Department of Child Services (mem. dec.)",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-1378.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jt-1378 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: In re TPR, In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

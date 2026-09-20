@@ -109,6 +109,48 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Louisiana state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "New Orleans Bulldog Society v. Louisiana Society for the Prevention of Cruelty to Animals",
+          "citation": "222 So. 3d 679 (La. 2017)",
+          "court": "Supreme Court of Louisiana",
+          "year": 2017,
+          "date_decided": "2017-05-03",
+          "holding": "The Louisiana Supreme Court held that a private nonprofit performing a governmental function under a cooperative endeavor agreement and paid with public money is an instrumentality of the municipality subject to the Public Records Law, and that contractual reporting requirements cannot substitute for public-records access.",
+          "relevance": "Establishes the records access on which independent cross-analysis of contracted state functions depends.",
+          "quote": "the requirement for access to public records cannot be circumscribed by contract",
+          "url": "https://www.courtlistener.com/opinion/4388621/new-orleans-bulldog-society-v-louisiana-society-for-the-prevention-of/",
+          "courtlistener_cluster_id": 4388621
+        },
+        {
+          "case_name": "Landis v. Moreau",
+          "citation": "779 So. 2d 691 (La. 2001)",
+          "court": "Supreme Court of Louisiana",
+          "year": 2001,
+          "date_decided": "2001-02-21",
+          "holding": "The Louisiana Supreme Court held that recorded pre-trial witness statements in a concluded criminal prosecution are public records not exempted by the Public Records Act and not shielded as attorney work product after final adjudication.",
+          "relevance": "Anchors the public data pipeline on which independent analysis of state records depends.",
+          "quote": "the right of access to public records is a fundamental right guaranteed by La. Const. art. XII § 3",
+          "url": "https://www.courtlistener.com/opinion/1125295/landis-v-moreau/",
+          "courtlistener_cluster_id": 1125295
+        },
+        {
+          "case_name": "Title Research Corp. v. Rausch",
+          "citation": "450 So. 2d 933 (La. 1984)",
+          "court": "Supreme Court of Louisiana",
+          "year": 1984,
+          "date_decided": "1984-04-02",
+          "holding": "The Louisiana Supreme Court reversed the lower courts and held that access to public records is a fundamental constitutional right that must be construed liberally, ordering the clerk to allow reproduction of the records by any safe means, free of charge, and assessing attorney's fees.",
+          "relevance": "It establishes that reproduction, not merely inspection, is part of the constitutional right, which is what makes bulk public-records analysis of state data lawful.",
+          "quote": "Whenever there is doubt as to whether the public has the right of access to certain records, the doubt must be resolved in favor of the public's right to see",
+          "url": "https://www.courtlistener.com/opinion/1832393/title-research-corp-v-rausch/",
+          "courtlistener_cluster_id": 1832393
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Louisiana%22%20AND%20%28%22Louisiana%20Department%20of%20Children%20and%20Family%20Services%22%20OR%20%22DCFS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Louisiana Department of Children and Family Services",
         "DCFS",
@@ -120,148 +162,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Louisiana%22%20AND%20%28%22Louisiana%20Department%20of%20Children%20and%20Family%20Services%22%20OR%20%22DCFS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "missing child",
-        "amber alert",
-        "custodial interference",
-        "parental kidnapping"
-      ],
-      "jurisdiction": "Louisiana state courts",
-      "key_cases": [
-        {
-          "case_id": "2025-b-00537",
-          "title": "IN RE: HENRY L. KLEIN",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2025-b-00537.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2025-b-00537 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "2025-o-00994",
-          "title": "IN RE: JUDGE ROYALE COLBERT",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2025-o-00994.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2025-o-00994 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2025-o-01127",
-          "title": "IN RE: JUDGE TIFFANY FOXWORTH-ROBERTS",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2025-o-01127.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2025-o-01127 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2025-o-00879",
-          "title": "IN RE: JUDGE JENNIFER M. MEDLEY",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2025-o-00879.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2025-o-00879 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2025-o-00320",
-          "title": "IN RE: JUDGE DONALD \"CHICK\" FORET TWENTY-FOURTH JUDICIAL DISTRICT COURT PARISH OF JEFFERSON STATE OF LOUISIANA",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2025-o-00320.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2025-o-00320 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2024-ck-00254",
-          "title": "In re D.D.",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2024-ck-00254.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2024-ck-00254 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "2023-ba-00159",
-          "title": "IN RE: COMMITTEE ON BAR ADMISSIONS CFN-1791",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2023-ba-00159.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2023-ba-00159 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2023-ba-01455",
-          "title": "IN RE: COMMITTEE ON BAR ADMISSIONS CFN-65372",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2024/2023-ba-01455.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2023-ba-01455 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2024-b-00479",
-          "title": "IN RE: TRINA TRINHTHI CHU",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2024/2024-b-00479.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2024-b-00479 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2024-b-00520",
-          "title": "IN RE: NED FRANKLIN PIERCE SONNIER, SR.",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2024/2024-b-00520.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2024-b-00520 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

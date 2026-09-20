@@ -68,6 +68,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Iowa state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Lennette v. State",
+          "citation": "No. 20-1148 (Iowa June 10, 2022)",
+          "court": "Supreme Court of Iowa",
+          "year": 2022,
+          "date_decided": "2022-06-10",
+          "holding": "A father ordered out of the family home on a DHS worker's ex parte affidavit, where the abuse allegation was later deemed unfounded, could not recover on tort or state constitutional claims: the affidavit contained no knowing or reckless falsehood, the conduct did not shock the conscience, and the adversary process that cleared him satisfied procedural due process.",
+          "relevance": "Establishes that a later unfounded determination and case dismissal do not, standing alone, generate damages liability against the State or its workers.",
+          "quote": "One can second-guess Siver's investigation, though, without treating it as a Fourth Amendment violation.",
+          "url": "https://www.courtlistener.com/opinion/6476611/andrew-lennette-individually-and-on-behalf-of-cl-ol-and-sl-minor/",
+          "courtlistener_cluster_id": 6476611
+        },
+        {
+          "case_name": "Roth v. Reagen",
+          "citation": "422 N.W.2d 464 (Iowa 1988)",
+          "court": "Supreme Court of Iowa",
+          "year": 1988,
+          "date_decided": "1988-04-13",
+          "holding": "Iowa Code section 235A.18(2), which requires the central registry to retain a record of an unfounded child-abuse accusation for six months before expungement, does not violate the accused's due-process, privacy, or equal-protection rights.",
+          "relevance": "Establishes that dismissal or an unfounded outcome does not entitle the accused to immediate erasure of the record.",
+          "quote": "We think the statute strikes a proper balance between the state's compelling interest in protecting children against abuse and the individual's interest in privacy and reputation.",
+          "url": "https://www.courtlistener.com/opinion/2103802/roth-v-reagen/",
+          "courtlistener_cluster_id": 2103802
+        },
+        {
+          "case_name": "In re Q.G.",
+          "citation": "911 N.W.2d 761 (Iowa 2018)",
+          "court": "Supreme Court of Iowa",
+          "year": 2018,
+          "date_decided": "2018-05-04",
+          "holding": "In a private chapter 600A termination brought by the mother against the incarcerated father, the mother failed to prove by clear and convincing evidence that terminating the father's rights would advance the children's best interests, and the termination decree was reversed.",
+          "relevance": "The leading recent Iowa decision refusing termination and leaving the parent-child relationship intact where the petitioner's proof fell short.",
+          "quote": "we conclude A.P. did not show by clear and convincing evidence the best interest of the children will be advanced by termination of B.G.'s parental rights",
+          "url": "https://www.courtlistener.com/opinion/4495431/in-the-interest-of-qg-and-wg-minor-children/",
+          "courtlistener_cluster_id": 4495431
+        },
+        {
+          "case_name": "McCracken v. Iowa Department of Human Services",
+          "citation": "595 N.W.2d 779 (Iowa 1999)",
+          "court": "Supreme Court of Iowa",
+          "year": 1999,
+          "date_decided": "1999-06-03",
+          "holding": "DHS had statutory authority to investigate the same alleged incident a second time and to enter a founded report even though an earlier investigation had produced an unfounded report that was expunged; the second investigator lawfully accessed the expunged unfounded information under Iowa Code section 235A.15(3), and the father's constitutional due-process objections to the ALJ hearing were not preserved.",
+          "relevance": "Confirms that closing a case as unfounded is not an adjudication on the merits that bars later agency action on the same incident.",
+          "quote": "the department had statutory authority to conduct an investigation involving the alleged sexual abuse, even though a previous investigation of the same allegation resulted in an unfounded report",
+          "url": "https://www.courtlistener.com/opinion/1990166/mccracken-v-iowa-department-of-human-services/",
+          "courtlistener_cluster_id": 1990166
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Iowa%22%20AND%20%28%22Iowa%20Department%20of%20Human%20Services%22%20OR%20%22DHS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Iowa Department of Human Services",
         "DHS",
@@ -79,149 +133,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Iowa%22%20AND%20%28%22Iowa%20Department%20of%20Human%20Services%22%20OR%20%22DHS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "termination of parental rights",
-        "TPR",
-        "adoption",
-        "permanency",
-        "aging out"
-      ],
-      "jurisdiction": "Iowa state courts",
-      "key_cases": [
-        {
-          "case_id": "24-1875",
-          "title": "In re the Guardianship of K.W., a Minor.",
-          "url": "https://law.justia.com/cases/iowa/court-of-appeals/2025/24-1875.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Iowa Court Of Appeals Case 24-1875 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "24-0418",
-          "title": "In the Matter of the Guardianship of Jeffrey Erickson",
-          "url": "https://law.justia.com/cases/iowa/court-of-appeals/2025/24-0418.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Iowa Court Of Appeals Case 24-0418 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "24-0175",
-          "title": "In the Matter of the Guardianship of E.D. and J.C.",
-          "url": "https://law.justia.com/cases/iowa/court-of-appeals/2025/24-0175.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Iowa Court Of Appeals Case 24-0175 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "23-1725",
-          "title": "In re Guardianship of L.W.",
-          "url": "https://law.justia.com/cases/iowa/court-of-appeals/2024/23-1725.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Iowa Court Of Appeals Case 23-1725 (2024)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "23-1159",
-          "title": "In the Matter of the Guardianship of T.K., L.K., and S.K.",
-          "url": "https://law.justia.com/cases/iowa/court-of-appeals/2024/23-1159.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Iowa Court Of Appeals Case 23-1159 (2024)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "23-1481",
-          "title": "In re Guardianship of K.E.",
-          "url": "https://law.justia.com/cases/iowa/court-of-appeals/2024/23-1481.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Iowa Court Of Appeals Case 23-1481 (2024)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "23-1200",
-          "title": "In re Guardianship of G.B.",
-          "url": "https://law.justia.com/cases/iowa/court-of-appeals/2024/23-1200.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Iowa Court Of Appeals Case 23-1200 (2024)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "21-0348",
-          "title": "In re Guardianship of J.W.",
-          "url": "https://law.justia.com/cases/iowa/supreme-court/2023/21-0348.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Iowa Supreme Court Case 21-0348 (2023)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "23-0486",
-          "title": "In re Guardianship of E.B.",
-          "url": "https://law.justia.com/cases/iowa/court-of-appeals/2023/23-0486.html",
-          "year": 2023,
-          "court": "Court Of Appeals",
-          "citation": "Iowa Court Of Appeals Case 23-0486 (2023)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "20-1034",
-          "title": "In re Guardianship of L.Y.",
-          "url": "https://law.justia.com/cases/iowa/supreme-court/2022/20-1034.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Iowa Supreme Court Case 20-1034 (2022)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

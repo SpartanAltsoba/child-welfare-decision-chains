@@ -118,6 +118,60 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Georgia state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "In the Interest of C. R.",
+          "citation": "292 Ga. App. 346, 665 S.E.2d 39 (2008)",
+          "court": "Court of Appeals of Georgia",
+          "year": 2008,
+          "date_decided": "2008-06-27",
+          "holding": "The Court of Appeals affirmed the deprivation finding as to the mother but reversed the award of temporary custody to DFACS, holding that a temporary loss of custody requires clear and convincing evidence that the parent is unfit, and here only the mother's unfitness had been shown.",
+          "relevance": "It states the proof the Department must carry to convert a dependency finding into agency custody.",
+          "quote": "There must be clear and convincing evidence that the parents are unfit to support a grant of temporary custody to DFACS.",
+          "url": "https://www.courtlistener.com/opinion/7925355/in-the-interest-of-c-r/",
+          "courtlistener_cluster_id": 7925355
+        },
+        {
+          "case_name": "In the Interest of I. L. M.",
+          "citation": "304 Ga. 114 (2018)",
+          "court": "Supreme Court of Georgia",
+          "year": 2018,
+          "date_decided": "2018-06-29",
+          "holding": "The Supreme Court of Georgia reversed the Court of Appeals, holding that although a juvenile judge may continue an adjudication hearing on his own initiative, the continuance and the nunc pro tunc order entered here had to rest on matters actually before the court and comply with the governing statutes.",
+          "relevance": "It controls the timing and record requirements once a dependency petition is filed and the adjudication hearing is continued.",
+          "quote": "No such statement is present here, and so we conclude that a judge may consider a continuance on his or her own initiative.",
+          "url": "https://www.courtlistener.com/opinion/10366741/in-the-interest-of-i-l-m-children/",
+          "courtlistener_cluster_id": 10366741
+        },
+        {
+          "case_name": "Ray v. Department of Human Resources",
+          "citation": "155 Ga. App. 81, 270 S.E.2d 303 (1980)",
+          "court": "Court of Appeals of Georgia",
+          "year": 1980,
+          "date_decided": "1980-06-26",
+          "holding": "The court reversed, holding that a juvenile court may order disclosure of otherwise confidential DHR child-abuse records when it finds disclosure necessary to resolve an issue before it, and that parental rights may not be terminated on a bare 'welfare of the child' test without a showing of parental unfitness.",
+          "relevance": "It sets the substantive floor the Department must meet once it petitions: unfitness, not merely a better home elsewhere.",
+          "quote": "it is not proper to consider the question of termination of parental rights based solely upon a \"welfare of the child\" test, without some required showing of parental unfitness",
+          "url": "https://www.courtlistener.com/opinion/1315311/ray-v-department-of-human-resources/",
+          "courtlistener_cluster_id": 1315311
+        },
+        {
+          "case_name": "In the Interest of M. D. H.",
+          "citation": "300 Ga. 46, 793 S.E.2d 49 (2016)",
+          "court": "Supreme Court of Georgia",
+          "year": 2016,
+          "date_decided": "2016-10-31",
+          "holding": "The Supreme Court of Georgia resolved a conflict between two Court of Appeals panels, holding that when the State misses the 30-day petition-filing deadline of OCGA 15-11-521(b) without obtaining an extension the case must be dismissed without prejudice, because the 2014 Juvenile Code's silence about the consequence of a missed deadline does not authorize the extreme sanction of dismissal with prejudice.",
+          "relevance": "It is the controlling rule on what happens when the State blows a statutory filing deadline after a complaint is lodged: the petition is dismissed, but the State may start over within the statute of limitation.",
+          "quote": "when a Juvenile Code statute is silent in this way, Georgia appellate precedent holds that the consequence is dismissal without prejudice",
+          "url": "https://www.courtlistener.com/opinion/5749493/in-the-interest-of-m-d-h/",
+          "courtlistener_cluster_id": 5749493
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Georgia%22%20AND%20%28%22Georgia%20Division%20of%20Family%20and%20Children%20Services%22%20OR%20%22DFCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Georgia Division of Family and Children Services",
         "DFCS",
@@ -129,149 +183,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Georgia%22%20AND%20%28%22Georgia%20Division%20of%20Family%20and%20Children%20Services%22%20OR%20%22DFCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "investigation",
-        "substantiation",
-        "evidence standard",
-        "due process",
-        "reasonable efforts"
-      ],
-      "jurisdiction": "Georgia state courts",
-      "key_cases": [
-        {
-          "case_id": "s24y1247",
-          "title": "IN THE MATTER OF CHRISTOPHER CASEY TAYLOR (six cases)",
-          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s24y1247.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Georgia Supreme Court Case s24y1247 (2025)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "s25y0795",
-          "title": "IN THE MATTER OF BRIAN JOEL APLIN (two cases)",
-          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y0795.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Georgia Supreme Court Case s25y0795 (2025)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "s25y0537",
-          "title": "IN THE MATTER OF DOMINIQUE MARC HENRI LEMOINE (two cases)",
-          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y0537.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Georgia Supreme Court Case s25y0537 (2025)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "s25y0899",
-          "title": "pdf\" target=\"_blank\" rel=\"noopener\">S25Y0899. IN THE MATTER OF ALAN CHRISTOPHER NORTON",
-          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y0899.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Georgia Supreme Court Case s25y0899 (2025)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "s25g0338",
-          "title": "pdf\" target=\"_blank\" rel=\"noopener\">S25G0338. IN THE INTEREST OF M. R. S., A CHILD",
-          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25g0338.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Georgia Supreme Court Case s25g0338 (2025)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re interest"
-        },
-        {
-          "case_id": "s25y0424",
-          "title": "pdf\" target=\"_blank\" rel=\"noopener\">S25Y0424. IN THE MATTER OF SANJAY PATEL",
-          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y0424.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Georgia Supreme Court Case s25y0424 (2025)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "s25y0598",
-          "title": "pdf\" target=\"_blank\" rel=\"noopener\">S25Y0598. IN THE MATTER OF STEPHEN DANA MORRISON, JR.",
-          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y0598.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Georgia Supreme Court Case s25y0598 (2025)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "s25y0686",
-          "title": "pdf\" target=\"_blank\" rel=\"noopener\">S25Y0686. IN THE MATTER OF DEBORAH LYNN HAKLIN",
-          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y0686.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Georgia Supreme Court Case s25y0686 (2025)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "s25y0420",
-          "title": "IN THE MATTER OF JAMES HOWARD SINNOTT (two cases)",
-          "url": "https://law.justia.com/cases/georgia/supreme-court/2025/s25y0420.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Georgia Supreme Court Case s25y0420 (2025)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "s24y1267",
-          "title": "IN THE MATTER OF ESTON WILLIAM HOOD, JR. (two cases)",
-          "url": "https://law.justia.com/cases/georgia/supreme-court/2024/s24y1267.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Georgia Supreme Court Case s24y1267 (2024)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

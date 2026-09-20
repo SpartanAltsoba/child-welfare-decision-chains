@@ -70,6 +70,48 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Kentucky state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Commonwealth v. Allen",
+          "citation": "980 S.W.2d 278 (Ky. 1998)",
+          "court": "Supreme Court of Kentucky",
+          "year": 1998,
+          "date_decided": "1998-11-19",
+          "holding": "The Court held that KRS 620.030(1) imposes an individual, non-delegable duty to report suspected child abuse directly to law enforcement, the Cabinet, or a prosecutor, so a teacher's and counselor's report to their school principal neither discharged that duty nor entitled them to KRS 620.050 immunity from misdemeanor prosecution.",
+          "relevance": "The Court confirmed that an oral report 'by telephone or otherwise' to a designated state agency satisfies the statute, which is the legal footing for hotline intake.",
+          "quote": "All individuals with firsthand knowledge or reasonable cause to believe that a child is abused have a mandatory duty to report the abuse.",
+          "url": "https://www.courtlistener.com/opinion/1620232/commonwealth-v-allen/",
+          "courtlistener_cluster_id": 1620232
+        },
+        {
+          "case_name": "Norton Hospitals, Inc. v. Peyton",
+          "citation": "381 S.W.3d 286 (Ky. 2012)",
+          "court": "Supreme Court of Kentucky",
+          "year": 2012,
+          "date_decided": "2012-10-25",
+          "holding": "The Court held that KRS 620.050(1) grants immunity in either of two independent situations - acting upon reasonable cause in making a report, or acting under KRS 620.030-620.050 in good faith - so a reporter's subjective good-faith belief that she was discharging the reporting duty confers immunity even if that belief was mistaken, and it reinstated summary judgment for the hospital and physician.",
+          "relevance": "Anonymous and hotline reporters are immunized on the same subjective good-faith basis, with liability reserved for knowingly false reports made with malice.",
+          "quote": "a reporter may be \"acting under KRS 620.030 to 620.050 in good faith\" if the reporter subjectively believed he or she was discharging the duty imposed by KRS 620.030.",
+          "url": "https://www.courtlistener.com/opinion/5283140/norton-hospitals-inc-v-peyton/",
+          "courtlistener_cluster_id": 5283140
+        },
+        {
+          "case_name": "A.A. ex rel. Lewis v. Shutts",
+          "citation": "516 S.W.3d 343 (Ky. Ct. App. 2017)",
+          "court": "Court of Appeals of Kentucky",
+          "year": 2017,
+          "date_decided": "2017-02-17",
+          "holding": "The court held that KRS 620.050(1) immunity is available only to a person who acts by making a report, so a physician who did not report suspected abuse of a foster child later murdered by his foster uncle was not immune, and it reversed summary judgment because a jury could find she breached her KRS 620.030 duty to report.",
+          "relevance": "The case shows that a prior unsubstantiated hotline report does not neutralize a later independent duty to report new injuries.",
+          "quote": "we hold that the Immunity Statute only applies to those who act by making a report",
+          "url": "https://www.courtlistener.com/opinion/5448132/aa-ex-rel-lewis-v-kristy-shutts/",
+          "courtlistener_cluster_id": 5448132
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Kentucky%22%20AND%20%28%22Kentucky%20Department%20for%20Community%20Based%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Kentucky Department for Community Based Services",
         "CPS",
@@ -81,135 +123,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Kentucky%22%20AND%20%28%22Kentucky%20Department%20for%20Community%20Based%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "mandatory reporting",
-        "failure to report",
-        "reporter immunity",
-        "hotline"
-      ],
-      "jurisdiction": "Kentucky state courts",
-      "key_cases": [
-        {
-          "case_id": "2024-sc-0496-kb",
-          "title": "IN RE: ARTHUR JOSEPH MCLAUGHLIN III",
-          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2024-sc-0496-kb.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kentucky Supreme Court Case 2024-sc-0496-kb (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2025-sc-0118-kb",
-          "title": "IN RE: MARCUS DANIEL GALE",
-          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2025-sc-0118-kb.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kentucky Supreme Court Case 2025-sc-0118-kb (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2025-sc-0423-kb",
-          "title": "IN RE: DANIEL LOUIS THOMPSON",
-          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2025-sc-0423-kb.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kentucky Supreme Court Case 2025-sc-0423-kb (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2025-sc-0478-kb",
-          "title": "IN RE: J. TODD P'POOL",
-          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2025-sc-0478-kb.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kentucky Supreme Court Case 2025-sc-0478-kb (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initial"
-        },
-        {
-          "case_id": "2025-sc-0365-kb",
-          "title": "IN RE: ERIC SHANE GRINNELL",
-          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2025-sc-0365-kb.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kentucky Supreme Court Case 2025-sc-0365-kb (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2025-sc-0039-kb",
-          "title": "IN RE: DARREN CRAIG LAMB",
-          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2025-sc-0039-kb.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kentucky Supreme Court Case 2025-sc-0039-kb (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2025-sc-0281-kb",
-          "title": "IN RE: HAROLD WAYNE ROBERTS",
-          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2025-sc-0281-kb.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kentucky Supreme Court Case 2025-sc-0281-kb (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2025-sc-0314-kb",
-          "title": "IN RE: COLIN DOAN EDMUNDSON",
-          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2025-sc-0314-kb.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kentucky Supreme Court Case 2025-sc-0314-kb (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2023-sc-0226-dg",
-          "title": "PROFESSIONAL HOME HEALTH CARE V. COMMONWEALTH OF KENTUCKY CABINET FOR HEALTH AND FAMILY SERVICES",
-          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2023-sc-0226-dg.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kentucky Supreme Court Case 2023-sc-0226-dg (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Family Services"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

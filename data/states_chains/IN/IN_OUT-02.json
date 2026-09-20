@@ -111,6 +111,84 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Indiana state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Santosky v. Kramer",
+          "citation": "455 U.S. 745 (1982)",
+          "court": "Supreme Court of the United States",
+          "year": 1982,
+          "date_decided": "1982-02-22",
+          "holding": "The Court held that the Due Process Clause requires a State to support its allegations by at least clear and convincing evidence before terminating parental rights, striking down New York's fair-preponderance standard.",
+          "relevance": "The federal constitutional floor for the burden of proof in every Indiana termination of parental rights case.",
+          "quote": "due process requires that the State support its allegations by at least clear and convincing evidence",
+          "url": "https://www.courtlistener.com/opinion/110676/santosky-v-kramer/",
+          "courtlistener_cluster_id": 110676
+        },
+        {
+          "case_name": "Lassiter v. Department of Social Servs. of Durham Cty.",
+          "citation": "452 U.S. 18 (1981)",
+          "court": "Supreme Court of the United States",
+          "year": 1981,
+          "date_decided": "1981-08-28",
+          "holding": "The Court held that due process does not require appointed counsel for an indigent parent in every termination proceeding, leaving the decision to the trial court on a case-by-case basis subject to appellate review.",
+          "relevance": "Sets the federal constitutional baseline for appointed counsel in termination cases, above which Indiana's statutory right operates.",
+          "quote": "neither can we say that the Constitution requires the appointment of counsel in every parental termination proceeding",
+          "url": "https://www.courtlistener.com/opinion/110506/lassiter-v-department-of-social-servs-of-durham-cty/",
+          "courtlistener_cluster_id": 110506
+        },
+        {
+          "case_name": "Bester v. Lake County Office of Family & Children",
+          "citation": "839 N.E.2d 143 (Ind. 2005)",
+          "court": "Indiana Supreme Court",
+          "year": 2005,
+          "date_decided": "2005-12-20",
+          "holding": "The court reversed the termination of the father's parental rights, holding that several of the trial court's findings were misleading or unsupported and that the remaining findings did not clearly and convincingly establish that continuation of the parent-child relationship threatened the child's well-being.",
+          "relevance": "The controlling Indiana Supreme Court statement that the agency must prove each statutory element of Ind. Code 31-35-2-4(b)(2) by clear and convincing evidence, and the case later decisions cite for that standard.",
+          "quote": "The OFC bears the burden of proving these allegations by clear and convincing evidence.",
+          "url": "https://www.courtlistener.com/opinion/852727/bester-v-lake-county-office-of-family-children/",
+          "courtlistener_cluster_id": 852727
+        },
+        {
+          "case_name": "Egly v. Blackford County Department of Public Welfare",
+          "citation": "592 N.E.2d 1232 (Ind. 1992)",
+          "court": "Indiana Supreme Court",
+          "year": 1992,
+          "date_decided": "1992-06-04",
+          "holding": "The court granted transfer, vacated the Court of Appeals opinion and affirmed the termination, holding that the clear-and-convincing standard does not require proof that continued parental custody is wholly inadequate for the child's very survival, only that the child's emotional and physical development are threatened.",
+          "relevance": "The foundational Indiana statement of what the heightened quantum of proof in a termination case actually requires, correcting the mistaken notion that the State must show the child's survival is at stake.",
+          "quote": "This includes situations not only where the child is in immediate danger of losing his life, but also where the child's emotional and physical development are threatened.",
+          "url": "https://www.courtlistener.com/opinion/2237309/egly-v-blackford-county-department-of-public-welfare/",
+          "courtlistener_cluster_id": 2237309
+        },
+        {
+          "case_name": "In re K.T.K.",
+          "citation": "989 N.E.2d 1225 (Ind. 2013)",
+          "court": "Indiana Supreme Court",
+          "year": 2013,
+          "date_decided": "2013-06-05",
+          "holding": "The court affirmed the termination of the mother's parental rights, holding the record clearly and convincingly supported the findings that the conditions leading to the children's removal would not be remedied and that termination served their need for permanency.",
+          "relevance": "The Indiana Supreme Court's leading modern statement of the two-step conditions-not-remedied inquiry and of permanency as a central best-interests consideration, the affirmance-side counterpart to Bester and In re V.A.",
+          "quote": "We engage in a two-step analysis to determine whether the conditions that led to the Children's placement outside the home will not be remedied.",
+          "url": "https://www.courtlistener.com/opinion/7167202/rc-v-indiana-department-of-child-services/",
+          "courtlistener_cluster_id": 7167202
+        },
+        {
+          "case_name": "In re V.A.",
+          "citation": "51 N.E.3d 1140 (Ind. 2016)",
+          "court": "Indiana Supreme Court",
+          "year": 2016,
+          "date_decided": "2016-02-18",
+          "holding": "The court reversed the termination of the father's parental rights and remanded, holding the evidence did not clearly and convincingly support termination and observing that a permanent legal guardianship remained available if reunification proved unfeasible.",
+          "relevance": "The most recent Indiana Supreme Court reversal of a termination for failure to meet the heightened burden, and the court's reminder that termination is a last resort after all other reasonable efforts fail.",
+          "quote": "The evidence in a case involving the termination of a parent's constitutional right to parent his or her child must meet the heightened burden of clear and convincing.",
+          "url": "https://www.courtlistener.com/opinion/3178596/in-re-the-termination-of-the-parent-child-relationship-of-va-minor/",
+          "courtlistener_cluster_id": 3178596
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Indiana%22%20AND%20%28%22Indiana%20Department%20of%20Child%20Services%22%20OR%20%22DCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Indiana Department of Child Services",
         "DCS",
@@ -122,159 +200,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Indiana%22%20AND%20%28%22Indiana%20Department%20of%20Child%20Services%22%20OR%20%22DCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "termination of parental rights",
-        "TPR",
-        "adoption",
-        "permanency",
-        "aging out"
-      ],
-      "jurisdiction": "Indiana state courts",
-      "key_cases": [
-        {
-          "case_id": "20a-jt-1307",
-          "title": "In the Matter of the Involuntary Termination of the Parent-Child Relationship of: J.R. and J.M. (Minor Children) and V.R. (Mother) v. The Indiana Department of Child Services (mem. dec.)",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-1307.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jt-1307 (2020)",
-          "relevance_score": 3.5,
-          "matched_keywords": [
-            "tpr",
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: involuntary TPR, Matter of"
-        },
-        {
-          "case_id": "20a-jt-1284",
-          "title": "In the Matter of the Involuntary Termination of the Parent-Child Relationship of C.Q. (Minor Child) and K.Q. (Mother) v. The Indiana Department of Child Services (mem. dec.)",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-1284.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jt-1284 (2020)",
-          "relevance_score": 3.5,
-          "matched_keywords": [
-            "tpr",
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: involuntary TPR, Matter of"
-        },
-        {
-          "case_id": "20a-jt-318",
-          "title": "In the Matter of the Involuntary Termination of the Parent-Child Relationship of C.L. (Minor Child) and J.M. (Mother) v. Indiana Department of Child Services (mem. dec.)",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-318.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jt-318 (2020)",
-          "relevance_score": 3.5,
-          "matched_keywords": [
-            "tpr",
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: involuntary TPR, Matter of"
-        },
-        {
-          "case_id": "20a-jt-63",
-          "title": "In the Matter of the Termination of the Parent-Child Relationship, Q.J., et al. (Minor Children), and B.J. (Mother) and Q.J., Sr. (Father) v. Indiana Department of Child Services (mem. dec.)",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-63.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jt-63 (2020)",
-          "relevance_score": 3.5,
-          "matched_keywords": [
-            "tpr",
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: Matter of TPR, Matter of"
-        },
-        {
-          "case_id": "20a-jt-1175",
-          "title": "In the Matter of the Termination of the Parent-Child Relationship of: M.C., J.C., Ja.C., Ma.C., and P.C. (Minor Children); C.C. (Mother) and Ch.C. (Father) v. Indiana Department of Child Services",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-1175.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jt-1175 (2020)",
-          "relevance_score": 3.5,
-          "matched_keywords": [
-            "tpr",
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: Matter of TPR, Matter of"
-        },
-        {
-          "case_id": "20a-jt-1378",
-          "title": "In re the Termination of the Parent-Child Relationship of A.D. (Minor Child) and J.H. (Mother) v. Indiana Department of Child Services (mem. dec.)",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-1378.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jt-1378 (2020)",
-          "relevance_score": 3.5,
-          "matched_keywords": [
-            "tpr",
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: In re TPR, In re"
-        },
-        {
-          "case_id": "20a-jt-1044",
-          "title": "In re the Termination of the Parent-Child Relationship of: De.D., M.S., A.D. (Minor Children) and D.D. (Mother) v. Indiana Department of Child Services (mem. dec.)",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-1044.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jt-1044 (2020)",
-          "relevance_score": 3.5,
-          "matched_keywords": [
-            "tpr",
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: In re TPR, In re"
-        },
-        {
-          "case_id": "20a-jt-263",
-          "title": "In the Matter of the Termination of the Parent-Child Relationship, Ki.H., K.H., and Kr.H. (Minor Children) v. Indiana Department of Child Services, and Child Advocates, Inc. (mem. dec.)",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-263.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jt-263 (2020)",
-          "relevance_score": 3.5,
-          "matched_keywords": [
-            "tpr",
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: Matter of TPR, Matter of"
-        },
-        {
-          "case_id": "20a-jt-618",
-          "title": "In the Matter of the Termination of the Parent-Child Relationship of O.K. & B.K. (Minor Children) and T.A. (Mother) v. Indiana Department of Child Services (mem. dec.)",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-618.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jt-618 (2020)",
-          "relevance_score": 3.5,
-          "matched_keywords": [
-            "tpr",
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: Matter of TPR, Matter of"
-        },
-        {
-          "case_id": "20a-jt-812",
-          "title": "In the Matter of the Termination of the Parent-Child Relationship of K.A. (Minor Child) and B.A. (Father); B.A. (Father) v. Indiana Department of Child Services (mem. dec.)",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-812.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jt-812 (2020)",
-          "relevance_score": 3.5,
-          "matched_keywords": [
-            "tpr",
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: Matter of TPR, Matter of"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

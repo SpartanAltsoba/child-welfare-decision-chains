@@ -143,6 +143,84 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Hawaii state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Santosky v. Kramer",
+          "citation": "455 U.S. 745 (1982)",
+          "court": "Supreme Court of the United States",
+          "year": 1982,
+          "date_decided": "1982-02-22",
+          "holding": "The Court held that the Due Process Clause of the Fourteenth Amendment requires a State to support its allegations by at least clear and convincing evidence before it may sever completely and irrevocably a parent's rights in a natural child.",
+          "relevance": "This is the federal constitutional floor for the burden of proof in every termination of parental rights case, including under HRS § 587A-33.",
+          "quote": "due process requires that the State support its allegations by at least clear and convincing evidence",
+          "url": "https://www.courtlistener.com/opinion/110676/santosky-v-kramer/",
+          "courtlistener_cluster_id": 110676
+        },
+        {
+          "case_name": "In the Interest of Doe",
+          "citation": "95 Haw. 183, 20 P.3d 616 (2001)",
+          "court": "Supreme Court of Hawai'i",
+          "year": 2001,
+          "date_decided": "2001-03-30",
+          "holding": "The court reversed the ICA and held that the Child Protective Act is not constitutionally infirm, because its criteria do not allow termination absent clear and convincing evidence bearing on the individual parent's unfitness, and affirmed the termination order.",
+          "relevance": "This is the Hawai'i Supreme Court's due-process validation of the CPA termination criteria under both constitutions.",
+          "quote": "it does not permit the termination of parental rights in the absence of clear and convincing evidence that a parent is \"unfit\"",
+          "url": "https://www.courtlistener.com/opinion/2625094/in-the-interest-of-doe/",
+          "courtlistener_cluster_id": 2625094
+        },
+        {
+          "case_name": "In re R Children",
+          "citation": "145 Haw. 477 (2019)",
+          "court": "Supreme Court of Hawai'i",
+          "year": 2019,
+          "date_decided": "2019-12-13",
+          "holding": "The court held that termination under HRS § 587A-33 requires a finding that the proposed permanent plan is in the child's best interests, and that the ICA erred by substituting the more general family court provision, HRS § 571-61(b)(1)(E), to avoid that requirement.",
+          "relevance": "Termination cannot rest on the general family court statute where the Child Protective Act adds a permanent-plan best-interests element.",
+          "quote": "the family court erred in terminating Father’s parental rights under HRS § 587A-33, the CPA Provision, without finding that DHS’s proposed permanent plan was in KK’s best interests",
+          "url": "https://www.courtlistener.com/opinion/4686976/in-re-r-children/",
+          "courtlistener_cluster_id": 4686976
+        },
+        {
+          "case_name": "In re H.A.",
+          "citation": "422 P.3d 642 (Haw. Ct. App. 2017)",
+          "court": "Intermediate Court of Appeals of Hawai'i",
+          "year": 2017,
+          "date_decided": "2017-04-28",
+          "holding": "On competing adoption petitions for children in DHS permanent custody, the ICA held that family courts must separately determine whether the statutory consent requirement of HRS § 578-2 is met, and that the party contending DHS unreasonably withheld consent bears a preponderance burden.",
+          "relevance": "It governs the consent element in a contested adoption following termination of parental rights.",
+          "quote": "we hold that the party challenging DHS's action bears the burden of proving, by a preponderance of the evidence, that the withholding of consent is unreasonable",
+          "url": "https://www.courtlistener.com/opinion/6656897/in-re-ha/",
+          "courtlistener_cluster_id": 6656897
+        },
+        {
+          "case_name": "In the Interest of T.M.",
+          "citation": "131 Haw. 419, 319 P.3d 338 (2014)",
+          "court": "Supreme Court of Hawai'i",
+          "year": 2014,
+          "date_decided": "2014-01-06",
+          "holding": "The court held that under article I, section 5 of the Hawai'i Constitution indigent parents have a right to court-appointed counsel in termination proceedings, and that the family court abused its discretion by not appointing counsel until nineteen months after DHS petitioned for temporary foster custody.",
+          "relevance": "This is the Hawai'i constitutional foundation for the right to counsel in any proceeding that may end in termination of parental rights.",
+          "quote": "indigent parents are guaranteed the right to court-appointed counsel in termination proceedings",
+          "url": "https://www.courtlistener.com/opinion/6617372/in-the-interest-of-tm/",
+          "courtlistener_cluster_id": 6617372
+        },
+        {
+          "case_name": "In the Interest of RGB",
+          "citation": "123 Haw. 1, 229 P.3d 1066 (2010)",
+          "court": "Supreme Court of Hawai'i",
+          "year": 2010,
+          "date_decided": "2010-04-01",
+          "holding": "The court held that where the right to counsel applies in a termination case it includes the right to effective counsel and that an HFCR Rule 60(b)(6) motion is an appropriate vehicle for such a claim, but affirmed the denial of relief on this record given the delay's harm to the child.",
+          "relevance": "It supplies the ineffective-assistance standard and the procedural vehicle for attacking a termination order after the fact.",
+          "quote": "the right to counsel in termination of parental rights cases, where applicable, includes the right to effective counsel",
+          "url": "https://www.courtlistener.com/opinion/6616127/in-the-interest-of-rgb/",
+          "courtlistener_cluster_id": 6616127
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Hawaii%22%20AND%20%28%22Hawaii%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Hawaii Department of Human Services",
         "CPS",
@@ -154,149 +232,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Hawaii%22%20AND%20%28%22Hawaii%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "termination of parental rights",
-        "TPR",
-        "adoption",
-        "permanency",
-        "aging out"
-      ],
-      "jurisdiction": "Hawaii state courts",
-      "key_cases": [
-        {
-          "case_id": "caap-24-0000450",
-          "title": "In re: Adoption of B.H.",
-          "url": "https://law.justia.com/cases/hawaii/court-of-appeals/2025/caap-24-0000450.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Hawaii Court Of Appeals Case caap-24-0000450 (2025)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "scwc-23-0000290",
-          "title": "In Re: Adoption of a Male Child by C.C. and J.C.",
-          "url": "https://law.justia.com/cases/hawaii/supreme-court/2024/scwc-23-0000290.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Hawaii Supreme Court Case scwc-23-0000290 (2024)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "caap-23-0000311",
-          "title": "In the Matter of Adoption of a Male Child",
-          "url": "https://law.justia.com/cases/hawaii/court-of-appeals/2023/caap-23-0000311.html",
-          "year": 2023,
-          "court": "Court Of Appeals",
-          "citation": "Hawaii Court Of Appeals Case caap-23-0000311 (2023)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "scwc-20-0000099",
-          "title": "In re: Adoption of a Male Child",
-          "url": "https://law.justia.com/cases/hawaii/supreme-court/2022/scwc-20-0000099.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Hawaii Supreme Court Case scwc-20-0000099 (2022)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "caap-20-0000099",
-          "title": "In re: Adoption of A",
-          "url": "https://law.justia.com/cases/hawaii/court-of-appeals/2022/caap-20-0000099.html",
-          "year": 2022,
-          "court": "Court Of Appeals",
-          "citation": "Hawaii Court Of Appeals Case caap-20-0000099 (2022)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "caap-20-0000099",
-          "title": "In re: Adoption of A",
-          "url": "https://law.justia.com/cases/hawaii/court-of-appeals/2021/caap-20-0000099.html",
-          "year": 2021,
-          "court": "Court Of Appeals",
-          "citation": "Hawaii Court Of Appeals Case caap-20-0000099 (2021)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "caap-21-0000524",
-          "title": "In re: Adoption of LI",
-          "url": "https://law.justia.com/cases/hawaii/court-of-appeals/2021/caap-21-0000524.html",
-          "year": 2021,
-          "court": "Court Of Appeals",
-          "citation": "Hawaii Court Of Appeals Case caap-21-0000524 (2021)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "caap-23-0000356",
-          "title": "In re: Guardianship of I.W. and T.E.",
-          "url": "https://law.justia.com/cases/hawaii/court-of-appeals/2025/caap-23-0000356.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Hawaii Court Of Appeals Case caap-23-0000356 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "caap-24-0000550",
-          "title": "In Re: Co-Guardianship of T.H., a Minor",
-          "url": "https://law.justia.com/cases/hawaii/court-of-appeals/2024/caap-24-0000550.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Hawaii Court Of Appeals Case caap-24-0000550 (2024)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "caap-20-0000430",
-          "title": "In re: The Conservatorship and Guardianship of Sheena May Winnie",
-          "url": "https://law.justia.com/cases/hawaii/court-of-appeals/2024/caap-20-0000430.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Hawaii Court Of Appeals Case caap-20-0000430 (2024)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

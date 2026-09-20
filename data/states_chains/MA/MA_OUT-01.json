@@ -91,6 +91,84 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Massachusetts state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Care & Protection of Erin",
+          "citation": "443 Mass. 567, 823 N.E.2d 356 (2005)",
+          "court": "Massachusetts Supreme Judicial Court",
+          "year": 2005,
+          "date_decided": "2005-03-03",
+          "holding": "The SJC held that on a petition for review and redetermination under G. L. c. 119, § 26, the moving party bears only an initial burden of producing credible evidence of changed circumstances, after which the department must prove by clear and convincing evidence that the child is still in need of care and protection; the burden may never be shifted to the parent.",
+          "relevance": "Reunification is obtained through the § 26 review and redetermination mechanism, and Erin allocates the burdens that govern that hearing.",
+          "quote": "we conclude that in a petition for review and redetermination, the department bears the ultimate burden to prove that the child is still in need of care and protection",
+          "url": "https://www.courtlistener.com/opinion/6579096/care-protection-of-erin/",
+          "courtlistener_cluster_id": 6579096
+        },
+        {
+          "case_name": "Adoption of Ilona",
+          "citation": "459 Mass. 53, 944 N.E.2d 115 (2011)",
+          "court": "Massachusetts Supreme Judicial Court",
+          "year": 2011,
+          "date_decided": "2011-03-04",
+          "holding": "The SJC held that the department must make reasonable efforts to reunify before seeking termination, that a judge may weigh a failure of those efforts in deciding whether unfitness is merely temporary, but that a reasonable-efforts failure does not preclude an order in the child's best interest; it affirmed termination and left future visitation to the adoptive parents.",
+          "relevance": "Reasonable efforts \"aimed at restoring the child to the care of the natural parents\" is the Massachusetts formulation of the reunification duty.",
+          "quote": "Before seeking to terminate parental rights, the department must make “reasonable efforts” aimed at restoring the child to the care of the natural parents.",
+          "url": "https://www.courtlistener.com/opinion/6580265/adoption-of-ilona/",
+          "courtlistener_cluster_id": 6580265
+        },
+        {
+          "case_name": "Care and Protection of Jaylen",
+          "citation": "493 Mass. 798 (2024)",
+          "court": "Massachusetts Supreme Judicial Court",
+          "year": 2024,
+          "date_decided": "2024-04-17",
+          "holding": "The SJC held that where a Juvenile Court awards \"permanent\" custody of a nonmarital child to the father in a care and protection case, the Juvenile Court may keep the case open until a Probate and Family Court judge enters a custody order under G. L. c. 209C, and that this practice satisfies due process.",
+          "relevance": "Placement of the child with a fit parent does not by itself end the case; the Juvenile Court retains the case until a Probate and Family Court custody order issues.",
+          "quote": "We agree that this practice best reflects the Legislature's intent and harmonizes the two statutory schemes.",
+          "url": "https://www.courtlistener.com/opinion/9494221/care-and-protection-of-jaylen/",
+          "courtlistener_cluster_id": 9494221
+        },
+        {
+          "case_name": "Adoption of Georgia",
+          "citation": "433 Mass. 62, 739 N.E.2d 694 (2000)",
+          "court": "Massachusetts Supreme Judicial Court",
+          "year": 2000,
+          "date_decided": "2000-12-14",
+          "holding": "The SJC affirmed termination, holding that the department discharged its duty to strengthen and encourage the family unit where it worked diligently without success and the additional services the mother sought would not have solved her chronic problems, and that a court appointed special advocate appointed as guardian ad litem may testify and submit a report.",
+          "relevance": "The reunification duty is measured by whether the services offered could realistically have solved the parent's chronic problems.",
+          "quote": "Mary’s argument that the department failed to fulfil its duty to strengthen and encourage the family unit lacks merit.",
+          "url": "https://www.courtlistener.com/opinion/6578208/adoption-of-georgia/",
+          "courtlistener_cluster_id": 6578208
+        },
+        {
+          "case_name": "Adoption of Helen",
+          "citation": "429 Mass. 856, 712 N.E.2d 77 (1999)",
+          "court": "Massachusetts Supreme Judicial Court",
+          "year": 1999,
+          "date_decided": "1999-06-29",
+          "holding": "The SJC affirmed the decree dispensing with the mother's consent to adoption and upheld the denial of visitation pending appeal, holding that the department proved unfitness by clear and convincing evidence and that posttermination visitation is governed by the child's best interests rather than by any independent parental right.",
+          "relevance": "A parent seeking restoration of contact must proceed by review and redetermination under G. L. c. 119, § 26, on the child's best interests.",
+          "quote": "While posttermination visitation may be allowed, the proper focus is on the best interests of the child.",
+          "url": "https://www.courtlistener.com/opinion/6577906/adoption-of-helen/",
+          "courtlistener_cluster_id": 6577906
+        },
+        {
+          "case_name": "Petition of Dept. of Public Welfare",
+          "citation": "376 Mass. 252, 381 N.E.2d 565 (1978)",
+          "court": "Massachusetts Supreme Judicial Court",
+          "year": 1978,
+          "date_decided": "1978-08-29",
+          "holding": "The SJC affirmed two Probate Court decrees dispensing with parental consent to the adoption of two children, holding that the judge applied the correct statutory standard and based the decrees on a proper assessment of all the relevant facts, while agreeing that the State must make every effort to strengthen and encourage family life before it moves to sever family ties permanently.",
+          "relevance": "Reunification in Massachusetts rests on the State's obligation to make every effort to strengthen family life before permanent severance is even considered.",
+          "quote": "we agree that the State is required to make every effort to strengthen and encourage family life before it may proceed with plans to sever family ties permanently",
+          "url": "https://www.courtlistener.com/opinion/2006106/petition-of-dept-of-public-welfare/",
+          "courtlistener_cluster_id": 2006106
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Massachusetts%22%20AND%20%28%22Massachusetts%20Department%20of%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Massachusetts Department of Children and Families",
         "DCF",
@@ -102,149 +180,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Massachusetts%22%20AND%20%28%22Massachusetts%20Department%20of%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "termination of parental rights",
-        "TPR",
-        "adoption",
-        "permanency",
-        "aging out"
-      ],
-      "jurisdiction": "Massachusetts state courts",
-      "key_cases": [
-        {
-          "case_id": "22-p-35",
-          "title": "Kyle K. v. Department of Children and Families",
-          "url": "https://law.justia.com/cases/massachusetts/court-of-appeals/2023/22-p-35.html",
-          "year": 2023,
-          "court": "Court Of Appeals",
-          "citation": "Massachusetts Court Of Appeals Case 22-p-35 (2023)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "dcf"
-          ],
-          "child_welfare_reason": "High: DCF"
-        },
-        {
-          "case_id": "sjc-13220",
-          "title": "In re Adoption of Patty",
-          "url": "https://law.justia.com/cases/massachusetts/supreme-court/2022/sjc-13220.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Massachusetts Supreme Court Case sjc-13220 (2022)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "sjc-12846",
-          "title": "In re Adoption of Daphne",
-          "url": "https://law.justia.com/cases/massachusetts/supreme-court/2020/sjc-12846.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "Massachusetts Supreme Court Case sjc-12846 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "sjc-12719",
-          "title": "In re Adoption of Luc",
-          "url": "https://law.justia.com/cases/massachusetts/supreme-court/2020/sjc-12719.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "Massachusetts Supreme Court Case sjc-12719 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "18-p-1568-0",
-          "title": "Rhea R. v. Department of Children and Families",
-          "url": "https://law.justia.com/cases/massachusetts/court-of-appeals/2020/18-p-1568-0.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Massachusetts Court Of Appeals Case 18-p-1568-0 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "dcf"
-          ],
-          "child_welfare_reason": "High: DCF"
-        },
-        {
-          "case_id": "18-p-715",
-          "title": "C.M. v. Commissioner of the Department of Children and Families",
-          "url": "https://law.justia.com/cases/massachusetts/court-of-appeals/2020/18-p-715.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Massachusetts Court Of Appeals Case 18-p-715 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "dcf"
-          ],
-          "child_welfare_reason": "High: DCF"
-        },
-        {
-          "case_id": "18-p-1568",
-          "title": "Rhea R. v. Department of Children and Families",
-          "url": "https://law.justia.com/cases/massachusetts/court-of-appeals/2020/18-p-1568.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Massachusetts Court Of Appeals Case 18-p-1568 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "dcf"
-          ],
-          "child_welfare_reason": "High: DCF"
-        },
-        {
-          "case_id": "sjc-13668",
-          "title": "Guardianship of Wilson",
-          "url": "https://law.justia.com/cases/massachusetts/supreme-court/2025/sjc-13668.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Massachusetts Supreme Court Case sjc-13668 (2025)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "Medium: guardianship"
-        },
-        {
-          "case_id": "24-p-450",
-          "title": "Adoption of Breck",
-          "url": "https://law.justia.com/cases/massachusetts/court-of-appeals/2025/24-p-450.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Massachusetts Court Of Appeals Case 24-p-450 (2025)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "Medium: adoption"
-        },
-        {
-          "case_id": "24-p-561",
-          "title": "Adoption of Onya",
-          "url": "https://law.justia.com/cases/massachusetts/court-of-appeals/2025/24-p-561.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Massachusetts Court Of Appeals Case 24-p-561 (2025)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "Medium: adoption"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

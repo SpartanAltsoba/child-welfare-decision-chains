@@ -135,6 +135,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Louisiana state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Adoptive Couple v. Baby Girl",
+          "citation": "570 U.S. 637 (2013)",
+          "court": "Supreme Court of the United States",
+          "year": 2013,
+          "date_decided": "2013-06-25",
+          "holding": "The Court held that ICWA section 1912(f) does not bar termination where the Indian parent never had custody, and that section 1912(d)'s remedial-services requirement applies only where the termination would precipitate the breakup of an Indian family.",
+          "relevance": "Governs how a Louisiana court must apply ICWA's heightened standards once an Indian child is identified, and narrows when active-efforts proof is required.",
+          "quote": "we hold that §1912(d) applies only in cases where an Indian family's \"breakup\" would be precipitated by the termination of the parent's rights",
+          "url": "https://www.courtlistener.com/opinion/931616/adoptive-couple-v-baby-girl/",
+          "courtlistener_cluster_id": 931616
+        },
+        {
+          "case_name": "Hampton v. J.A.L.",
+          "citation": "658 So. 2d 331 (La. Ct. App. 2d Cir. 1995)",
+          "court": "Court of Appeal of Louisiana, Second Circuit",
+          "year": 1995,
+          "date_decided": "1995-07-06",
+          "holding": "Applying the judicially created existing-Indian-family exception, the court of appeal held ICWA inapplicable to the adoption of a child who had never lived in an Indian environment, reversed the portion of the judgment allowing the Indian mother to withdraw her consent, and left custody with the non-Indian adoptive couple.",
+          "relevance": "Is the only published Louisiana appellate decision retrieved applying ICWA, and it must be read against 25 C.F.R. 23.103(c), which rejects the existing-Indian-family exception it applies.",
+          "quote": "In sum, we find that the adoption of A.S.L. will not cause the breakup of an existing Indian family or removal of a child from an Indian environment.",
+          "url": "https://www.courtlistener.com/opinion/1138518/hampton-v-jal/",
+          "courtlistener_cluster_id": 1138518
+        },
+        {
+          "case_name": "Haaland v. Brackeen",
+          "citation": "599 U.S. 255 (2023)",
+          "court": "Supreme Court of the United States",
+          "year": 2023,
+          "date_decided": "2023-06-15",
+          "holding": "The Court upheld the Indian Child Welfare Act against Article I and anticommandeering challenges and vacated the equal-protection and nondelegation rulings for want of standing, leaving ICWA and its placement preferences fully in force in state child-welfare proceedings.",
+          "relevance": "This is the current Supreme Court decision settling ICWA's constitutional footing, so a Louisiana court identifying an Indian child must apply the Act and its placement preferences without regard to the constitutional objections rejected here.",
+          "quote": "the bottom line is that we reject all of petitioners' challenges to the statute, some on the merits and others for lack of standing",
+          "url": "https://www.courtlistener.com/opinion/9406660/haaland-v-brackeen/",
+          "courtlistener_cluster_id": 9406660
+        },
+        {
+          "case_name": "Mississippi Band of Choctaw Indians v. Holyfield",
+          "citation": "490 U.S. 30 (1989)",
+          "court": "Supreme Court of the United States",
+          "year": 1989,
+          "date_decided": "1989-04-03",
+          "holding": "The Court held that domicile under ICWA section 1911(a) is a matter of uniform federal law, that twins born off-reservation to reservation-domiciled parents were domiciled on the reservation, and that the tribal court therefore had exclusive jurisdiction, so the state adoption decree was vacated.",
+          "relevance": "It establishes the federal domicile rule and exclusive tribal jurisdiction that a Louisiana court must apply at the moment an Indian child is identified, and it cannot be displaced by state-law notions of abandonment or residence.",
+          "quote": "We therefore think it beyond dispute that Congress intended a uniform federal law of domicile for the ICWA",
+          "url": "https://www.courtlistener.com/opinion/112241/mississippi-band-of-choctaw-indians-v-holyfield/",
+          "courtlistener_cluster_id": 112241
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Louisiana%22%20AND%20%28%22Louisiana%20Department%20of%20Children%20and%20Family%20Services%22%20OR%20%22DCFS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Louisiana Department of Children and Family Services",
         "DCFS",
@@ -146,148 +200,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Louisiana%22%20AND%20%28%22Louisiana%20Department%20of%20Children%20and%20Family%20Services%22%20OR%20%22DCFS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "mandatory reporting",
-        "failure to report",
-        "reporter immunity",
-        "hotline"
-      ],
-      "jurisdiction": "Louisiana state courts",
-      "key_cases": [
-        {
-          "case_id": "2025-b-00537",
-          "title": "IN RE: HENRY L. KLEIN",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2025-b-00537.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2025-b-00537 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "2025-o-00994",
-          "title": "IN RE: JUDGE ROYALE COLBERT",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2025-o-00994.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2025-o-00994 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2025-o-01127",
-          "title": "IN RE: JUDGE TIFFANY FOXWORTH-ROBERTS",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2025-o-01127.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2025-o-01127 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2025-o-00879",
-          "title": "IN RE: JUDGE JENNIFER M. MEDLEY",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2025-o-00879.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2025-o-00879 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2025-o-00320",
-          "title": "IN RE: JUDGE DONALD \"CHICK\" FORET TWENTY-FOURTH JUDICIAL DISTRICT COURT PARISH OF JEFFERSON STATE OF LOUISIANA",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2025-o-00320.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2025-o-00320 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2024-ck-00254",
-          "title": "In re D.D.",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2024-ck-00254.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2024-ck-00254 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "2023-ba-00159",
-          "title": "IN RE: COMMITTEE ON BAR ADMISSIONS CFN-1791",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2023-ba-00159.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2023-ba-00159 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2023-ba-01455",
-          "title": "IN RE: COMMITTEE ON BAR ADMISSIONS CFN-65372",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2024/2023-ba-01455.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2023-ba-01455 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2024-b-00479",
-          "title": "IN RE: TRINA TRINHTHI CHU",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2024/2024-b-00479.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2024-b-00479 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2024-b-00520",
-          "title": "IN RE: NED FRANKLIN PIERCE SONNIER, SR.",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2024/2024-b-00520.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2024-b-00520 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

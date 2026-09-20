@@ -158,6 +158,36 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Illinois state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Harris v. One Hope United, Inc.",
+          "citation": "2015 IL 117200",
+          "court": "Illinois Supreme Court",
+          "year": 2015,
+          "date_decided": "2015-04-23",
+          "holding": "The court declined to recognize a self-critical analysis privilege in Illinois and affirmed the order compelling a DCFS contractor to produce its internal priority review report on an infant's death during intact family services.",
+          "relevance": "Rejects a privilege that would have let a child-welfare provider withhold its own post-fatality review.",
+          "quote": "the type of information sought in discovery here is not subject to a \"self-critical analysis privilege\" that would protect it from disclosure",
+          "url": "https://www.courtlistener.com/opinion/2796291/harris-v-one-hope-united-inc/",
+          "courtlistener_cluster_id": 2796291
+        },
+        {
+          "case_name": "B.H. v. McDonald",
+          "citation": "49 F.3d 294 (7th Cir. 1995)",
+          "court": "United States Court of Appeals for the Seventh Circuit",
+          "year": 1995,
+          "date_decided": "1995-04-07",
+          "holding": "The court held that non-parties, including the Cook County Public Guardian, had no right to intervene in or attend in-chambers status conferences implementing the B.H. consent decree governing the Illinois DCFS, and that the public had no First Amendment right of access to those conferences.",
+          "relevance": "Marks the limits of public access to the implementation of a child-welfare reform decree.",
+          "quote": "we hold that non-parties have no right to be present at these in-chambers conferences",
+          "url": "https://www.courtlistener.com/opinion/691072/bh-ch-je-v-jess-mcdonald-director-of-the-illinois-department-of/",
+          "courtlistener_cluster_id": 691072
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Illinois%22%20AND%20%28%22Illinois%20Department%20of%20Children%20and%20Family%20Services%22%20OR%20%22DCFS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Illinois Department of Children and Family Services",
         "DCFS",
@@ -169,149 +199,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Illinois%22%20AND%20%28%22Illinois%20Department%20of%20Children%20and%20Family%20Services%22%20OR%20%22DCFS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "wrongful removal",
-        "1983 claim",
-        "civil rights",
-        "immunity",
-        "damages"
-      ],
-      "jurisdiction": "Illinois state courts",
-      "key_cases": [
-        {
-          "case_id": "130596",
-          "title": "In re Marriage of Tronsrue",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2025/130596.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 130596 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "129755",
-          "title": "In re V.S.",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2025/129755.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 129755 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "129155",
-          "title": "In re Marriage of Arjmand",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2024/129155.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 129155 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "128867",
-          "title": "In re Estate of Coffman",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2023/128867.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 128867 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "129097",
-          "title": "Doe v. Burke Wise Morrissey & Kaveny, LLC",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2023/129097.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 129097 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        },
-        {
-          "case_id": "128031",
-          "title": "In re Kelan W.",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2022/128031.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 128031 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "126256",
-          "title": "In re Craig H.",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2022/126256.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 126256 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "126956",
-          "title": "In re Estate of McDonald",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2022/126956.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 126956 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "126929",
-          "title": "In re Application of the County Collector",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2022/126929.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 126929 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "127222",
-          "title": "In re Johnathan T.",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2022/127222.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 127222 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

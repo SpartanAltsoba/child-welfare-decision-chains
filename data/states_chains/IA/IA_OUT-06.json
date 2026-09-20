@@ -68,6 +68,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Iowa state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "In re M.W.",
+          "citation": "876 N.W.2d 212 (Iowa 2016)",
+          "court": "Supreme Court of Iowa",
+          "year": 2016,
+          "date_decided": "2016-03-04",
+          "holding": "Termination of the mother's rights to both children under Iowa Code section 232.116(1)(h) was proper on clear and convincing evidence; the court restated the governing three-step framework — statutory ground, best-interest factors, then permissive exceptions.",
+          "relevance": "The CPS case opened after the children's infant sibling died while under the father's supervision, and that death drove the safety analysis.",
+          "quote": "Our review of termination of parental rights under Iowa Code chapter 232 is a three-step analysis.",
+          "url": "https://www.courtlistener.com/opinion/3182736/in-the-interest-of-mw-and-zw-minor-children-rw-mother/",
+          "courtlistener_cluster_id": 3182736
+        },
+        {
+          "case_name": "Nelson v. Lindaman",
+          "citation": "867 N.W.2d 1 (Iowa 2015)",
+          "court": "Supreme Court of Iowa",
+          "year": 2015,
+          "date_decided": "2015-04-24",
+          "holding": "A physician who gave the DHS child-abuse investigator his honest opinion that the father's explanation of an infant's spiral fracture was plausible was immune from civil liability under Iowa Code section 232.73, because that immunity turns on the subjective good faith of the person reporting or assisting in the assessment, not on whether he was negligent.",
+          "relevance": "Addresses liability where serious injury follows a child-abuse assessment, holding good-faith participants are not answerable in damages.",
+          "quote": "To avoid summary judgment, the plaintiff must have evidence the defendant acted dishonestly, not merely carelessly, in assisting the DHS.",
+          "url": "https://www.courtlistener.com/opinion/4472092/shannon-and-danny-nelson-individually-and-on-behalf-of-en-fka-en-a/",
+          "courtlistener_cluster_id": 4472092
+        },
+        {
+          "case_name": "DeShaney v. Winnebago County Department of Social Services",
+          "citation": "489 U.S. 189 (1989)",
+          "court": "Supreme Court of the United States",
+          "year": 1989,
+          "date_decided": "1989-02-22",
+          "holding": "A state child-protection agency's failure to remove a child from a father it knew or suspected was abusing him did not deprive the child of liberty in violation of the Due Process Clause, because the Clause imposes no affirmative constitutional duty on the State to protect against private violence.",
+          "relevance": "The controlling federal rule that a child gravely injured by a parent after CPS involvement generally has no substantive due-process damages claim against the agency.",
+          "quote": "nothing in the language of the Due Process Clause itself requires the State to protect the life, liberty, and property of its citizens against invasion by private actors",
+          "url": "https://www.courtlistener.com/opinion/112202/deshaney-v-winnebago-county-department-of-social-services/",
+          "courtlistener_cluster_id": 112202
+        },
+        {
+          "case_name": "Minor v. State",
+          "citation": "819 N.W.2d 383 (Iowa 2012)",
+          "court": "Supreme Court of Iowa",
+          "year": 2012,
+          "date_decided": "2012-06-15",
+          "holding": "Social workers have absolute immunity under section 1983 when acting as prosecutors (filing a CINA petition) or as ordinary witnesses, and qualified immunity when acting as complaining witnesses or performing investigatory acts; summary judgment for the State and its workers was affirmed on both the section 1983 and Iowa Tort Claims Act theories.",
+          "relevance": "Addresses agency exposure where a child is harmed in a state-arranged foster placement.",
+          "quote": "Similarly, a social worker is entitled to qualified immunity for his or her investigatory acts.",
+          "url": "https://www.courtlistener.com/opinion/4472318/vania-minor-individually-and-as-mother-natural-guardian-and-next-best/",
+          "courtlistener_cluster_id": 4472318
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Iowa%22%20AND%20%28%22Iowa%20Department%20of%20Human%20Services%22%20OR%20%22DHS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Iowa Department of Human Services",
         "DHS",
@@ -79,149 +133,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Iowa%22%20AND%20%28%22Iowa%20Department%20of%20Human%20Services%22%20OR%20%22DHS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "termination of parental rights",
-        "TPR",
-        "adoption",
-        "permanency",
-        "aging out"
-      ],
-      "jurisdiction": "Iowa state courts",
-      "key_cases": [
-        {
-          "case_id": "20-1638",
-          "title": "In the Matter of the Guardianship of J.M., Minor Child",
-          "url": "https://law.justia.com/cases/iowa/court-of-appeals/2021/20-1638.html",
-          "year": 2021,
-          "court": "Court Of Appeals",
-          "citation": "Iowa Court Of Appeals Case 20-1638 (2021)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "19-0904",
-          "title": "In the Matter of the Guardianships of J.W. and J.W., Minor Children",
-          "url": "https://law.justia.com/cases/iowa/court-of-appeals/2020/19-0904.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Iowa Court Of Appeals Case 19-0904 (2020)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "24-1875",
-          "title": "In re the Guardianship of K.W., a Minor.",
-          "url": "https://law.justia.com/cases/iowa/court-of-appeals/2025/24-1875.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Iowa Court Of Appeals Case 24-1875 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "24-0418",
-          "title": "In the Matter of the Guardianship of Jeffrey Erickson",
-          "url": "https://law.justia.com/cases/iowa/court-of-appeals/2025/24-0418.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Iowa Court Of Appeals Case 24-0418 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "24-0175",
-          "title": "In the Matter of the Guardianship of E.D. and J.C.",
-          "url": "https://law.justia.com/cases/iowa/court-of-appeals/2025/24-0175.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Iowa Court Of Appeals Case 24-0175 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "23-1725",
-          "title": "In re Guardianship of L.W.",
-          "url": "https://law.justia.com/cases/iowa/court-of-appeals/2024/23-1725.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Iowa Court Of Appeals Case 23-1725 (2024)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "23-1159",
-          "title": "In the Matter of the Guardianship of T.K., L.K., and S.K.",
-          "url": "https://law.justia.com/cases/iowa/court-of-appeals/2024/23-1159.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Iowa Court Of Appeals Case 23-1159 (2024)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "23-1481",
-          "title": "In re Guardianship of K.E.",
-          "url": "https://law.justia.com/cases/iowa/court-of-appeals/2024/23-1481.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Iowa Court Of Appeals Case 23-1481 (2024)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "23-1200",
-          "title": "In re Guardianship of G.B.",
-          "url": "https://law.justia.com/cases/iowa/court-of-appeals/2024/23-1200.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Iowa Court Of Appeals Case 23-1200 (2024)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "21-0348",
-          "title": "In re Guardianship of J.W.",
-          "url": "https://law.justia.com/cases/iowa/supreme-court/2023/21-0348.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Iowa Supreme Court Case 21-0348 (2023)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

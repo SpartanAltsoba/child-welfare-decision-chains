@@ -70,6 +70,24 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Kentucky state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "C.K. v. Cabinet for Health & Family Services",
+          "citation": "529 S.W.3d 786 (Ky. Ct. App. 2017)",
+          "court": "Court of Appeals of Kentucky",
+          "year": 2017,
+          "date_decided": "2017-05-19",
+          "holding": "The court held that a KRS 620.110 petition for immediate entitlement to custody is governed by the juvenile code's best-interests standard rather than by a heightened parental-fitness standard, and it affirmed the placement of a child with her grandmother rather than her non-custodial father after an emergency custody order.",
+          "relevance": "The father's KRS 620.110 petition is the statutory vehicle by which a parent or guardian can ask a court to undo a temporary removal.",
+          "quote": "The custody rights of parents, while important, are not the trial court's priority in such cases",
+          "url": "https://www.courtlistener.com/opinion/5449122/ck-v-cabinet-for-health-family-services/",
+          "courtlistener_cluster_id": 5449122
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Kentucky%22%20AND%20%28%22Kentucky%20Department%20for%20Community%20Based%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Kentucky Department for Community Based Services",
         "CPS",
@@ -81,135 +99,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Kentucky%22%20AND%20%28%22Kentucky%20Department%20for%20Community%20Based%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "mandatory reporting",
-        "failure to report",
-        "reporter immunity",
-        "hotline"
-      ],
-      "jurisdiction": "Kentucky state courts",
-      "key_cases": [
-        {
-          "case_id": "2019-sc-0295-dg",
-          "title": "Kentucky Guardianship Administrators, LLC v. Baptist Health System, Inc.",
-          "url": "https://law.justia.com/cases/kentucky/supreme-court/2021/2019-sc-0295-dg.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Kentucky Supreme Court Case 2019-sc-0295-dg (2021)",
-          "relevance_score": 1.2,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "Medium: guardianship"
-        },
-        {
-          "case_id": "2024-sc-0496-kb",
-          "title": "IN RE: ARTHUR JOSEPH MCLAUGHLIN III",
-          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2024-sc-0496-kb.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kentucky Supreme Court Case 2024-sc-0496-kb (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2025-sc-0118-kb",
-          "title": "IN RE: MARCUS DANIEL GALE",
-          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2025-sc-0118-kb.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kentucky Supreme Court Case 2025-sc-0118-kb (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2025-sc-0423-kb",
-          "title": "IN RE: DANIEL LOUIS THOMPSON",
-          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2025-sc-0423-kb.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kentucky Supreme Court Case 2025-sc-0423-kb (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2025-sc-0478-kb",
-          "title": "IN RE: J. TODD P'POOL",
-          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2025-sc-0478-kb.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kentucky Supreme Court Case 2025-sc-0478-kb (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initial"
-        },
-        {
-          "case_id": "2025-sc-0365-kb",
-          "title": "IN RE: ERIC SHANE GRINNELL",
-          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2025-sc-0365-kb.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kentucky Supreme Court Case 2025-sc-0365-kb (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2025-sc-0039-kb",
-          "title": "IN RE: DARREN CRAIG LAMB",
-          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2025-sc-0039-kb.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kentucky Supreme Court Case 2025-sc-0039-kb (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2025-sc-0281-kb",
-          "title": "IN RE: HAROLD WAYNE ROBERTS",
-          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2025-sc-0281-kb.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kentucky Supreme Court Case 2025-sc-0281-kb (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2025-sc-0314-kb",
-          "title": "IN RE: COLIN DOAN EDMUNDSON",
-          "url": "https://law.justia.com/cases/kentucky/supreme-court/2025/2025-sc-0314-kb.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kentucky Supreme Court Case 2025-sc-0314-kb (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

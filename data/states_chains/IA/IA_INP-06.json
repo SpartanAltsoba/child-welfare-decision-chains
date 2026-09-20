@@ -61,6 +61,48 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Iowa state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Nelson v. Lindaman",
+          "citation": "867 N.W.2d 1 (Iowa 2015)",
+          "court": "Supreme Court of Iowa",
+          "year": 2015,
+          "date_decided": "2015-04-24",
+          "holding": "A physician who gave the DHS child-abuse investigator his honest opinion that the father's explanation of an infant's spiral fracture was plausible was immune from civil liability under Iowa Code section 232.73, because that immunity turns on the subjective good faith of the person reporting or assisting in the assessment, not on whether he was negligent.",
+          "relevance": "Because immunity turns on subjective honesty rather than accuracy, a hotline caller acting on an honest belief is protected even if the belief was carelessly formed.",
+          "quote": "To avoid summary judgment, the plaintiff must have evidence the defendant acted dishonestly, not merely carelessly, in assisting the DHS.",
+          "url": "https://www.courtlistener.com/opinion/4472092/shannon-and-danny-nelson-individually-and-on-behalf-of-en-fka-en-a/",
+          "courtlistener_cluster_id": 4472092
+        },
+        {
+          "case_name": "Roth v. Reagen",
+          "citation": "422 N.W.2d 464 (Iowa 1988)",
+          "court": "Supreme Court of Iowa",
+          "year": 1988,
+          "date_decided": "1988-04-13",
+          "holding": "Iowa Code section 235A.18(2), which requires the central registry to retain a record of an unfounded child-abuse accusation for six months before expungement, does not violate the accused's due-process, privacy, or equal-protection rights.",
+          "relevance": "Supports the confidentiality architecture behind anonymous hotline reporting: registry information is highly confidential and unauthorized disclosure is criminal.",
+          "quote": "We think the statute strikes a proper balance between the state's compelling interest in protecting children against abuse and the individual's interest in privacy and reputation.",
+          "url": "https://www.courtlistener.com/opinion/2103802/roth-v-reagen/",
+          "courtlistener_cluster_id": 2103802
+        },
+        {
+          "case_name": "Lennette v. State",
+          "citation": "No. 20-1148 (Iowa June 10, 2022)",
+          "court": "Supreme Court of Iowa",
+          "year": 2022,
+          "date_decided": "2022-06-10",
+          "holding": "A father ordered out of the family home on a DHS worker's ex parte affidavit, where the abuse allegation was later deemed unfounded, could not recover on tort or state constitutional claims: the affidavit contained no knowing or reckless falsehood, the conduct did not shock the conscience, and the adversary process that cleared him satisfied procedural due process.",
+          "relevance": "Confirms that an initial report need not be independently corroborated before the agency acts, so long as the affidavit contains no intentional or reckless falsehood.",
+          "quote": "One can second-guess Siver's investigation, though, without treating it as a Fourth Amendment violation.",
+          "url": "https://www.courtlistener.com/opinion/6476611/andrew-lennette-individually-and-on-behalf-of-cl-ol-and-sl-minor/",
+          "courtlistener_cluster_id": 6476611
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Iowa%22%20AND%20%28%22Iowa%20Department%20of%20Human%20Services%22%20OR%20%22DHS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Iowa Department of Human Services",
         "DHS",
@@ -72,122 +114,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Iowa%22%20AND%20%28%22Iowa%20Department%20of%20Human%20Services%22%20OR%20%22DHS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "mandatory reporting",
-        "failure to report",
-        "reporter immunity",
-        "hotline"
-      ],
-      "jurisdiction": "Iowa state courts",
-      "key_cases": [
-        {
-          "case_id": "23-2069",
-          "title": "In re the Marriage Kraus",
-          "url": "https://law.justia.com/cases/iowa/supreme-court/2025/23-2069.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Iowa Supreme Court Case 23-2069 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "24-0830",
-          "title": "In re the Marriage of Owen and Brinker",
-          "url": "https://law.justia.com/cases/iowa/supreme-court/2025/24-0830.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Iowa Supreme Court Case 24-0830 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "24-0453",
-          "title": "J. Doe v. Iowa District Court for Polk County",
-          "url": "https://law.justia.com/cases/iowa/supreme-court/2025/24-0453.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Iowa Supreme Court Case 24-0453 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        },
-        {
-          "case_id": "24-0727",
-          "title": "In re Davenport Hotel Building Collapse",
-          "url": "https://law.justia.com/cases/iowa/supreme-court/2025/24-0727.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Iowa Supreme Court Case 24-0727 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "24-0700",
-          "title": "Doe v. Western Dubuque Community School District",
-          "url": "https://law.justia.com/cases/iowa/supreme-court/2025/24-0700.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Iowa Supreme Court Case 24-0700 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        },
-        {
-          "case_id": "23-1662",
-          "title": "Doe v. Iowa District Court For Polk County",
-          "url": "https://law.justia.com/cases/iowa/supreme-court/2025/23-1662.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Iowa Supreme Court Case 23-1662 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        },
-        {
-          "case_id": "24-0297",
-          "title": "In re N.F.",
-          "url": "https://law.justia.com/cases/iowa/supreme-court/2025/24-0297.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Iowa Supreme Court Case 24-0297 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "22-1801",
-          "title": "In re Estate of Johnston",
-          "url": "https://law.justia.com/cases/iowa/supreme-court/2025/22-1801.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Iowa Supreme Court Case 22-1801 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

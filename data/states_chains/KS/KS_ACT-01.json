@@ -89,6 +89,36 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Kansas state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "In re Guardianship & Conservatorship of B.H.",
+          "citation": "442 P.3d 457 (Kan. 2019)",
+          "court": "Supreme Court of Kansas",
+          "year": 2019,
+          "date_decided": "2019-06-07",
+          "holding": "The court reversed the Court of Appeals and remanded, holding that the parental preference doctrine governs a parent's petition to terminate a voluntary guardianship absent unfitness or extraordinary circumstances, and that the district court's findings were too sparse to permit appellate review of whether extraordinary circumstances existed.",
+          "relevance": "A voluntary guardianship functions as an alternative to compelled agency intervention, and this case governs how it may later be undone.",
+          "quote": "Because we determine that the district court findings were insufficient to allow proper appellate review, we remand the case to the district court for more complete and specific findings",
+          "url": "https://www.courtlistener.com/opinion/4629727/in-re-guardianship-and-conservatorship-of-bh/",
+          "courtlistener_cluster_id": 4629727
+        },
+        {
+          "case_name": "In re T.S.",
+          "citation": "276 Kan. 282, 74 P.3d 1009 (2003)",
+          "court": "Supreme Court of Kansas",
+          "year": 2003,
+          "date_decided": "2003-08-22",
+          "holding": "The court affirmed the disposition placing a child in need of care with the noncustodial natural father, holding that the Code permitted that placement without first finding that reasonable efforts had been made to prevent removal from, or to reintegrate the child into, the home from which the child was taken.",
+          "relevance": "The reasonable-efforts/reintegration machinery is not triggered when the court can place the child with the other parent, which shapes when voluntary service plans are required.",
+          "quote": "the trial court was allowed to place T.S. in the custody of his natural father without first entering a finding of \"reasonable efforts.\"",
+          "url": "https://www.courtlistener.com/opinion/7969841/in-re-ts/",
+          "courtlistener_cluster_id": 7969841
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Kansas%22%20AND%20%28%22Kansas%20Department%20for%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Kansas Department for Children and Families",
         "DCF",
@@ -100,149 +130,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Kansas%22%20AND%20%28%22Kansas%20Department%20for%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "removal",
-        "emergency custody",
-        "placement",
-        "reunification",
-        "services"
-      ],
-      "jurisdiction": "Kansas state courts",
-      "key_cases": [
-        {
-          "case_id": "119012",
-          "title": "In re Mason",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/119012.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 119012 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "129013",
-          "title": "In re Wagle",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/129013.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 129013 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "20346",
-          "title": "In re Holmes",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/20346.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 20346 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "13805",
-          "title": "In re Peterson, II",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/13805.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 13805 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "118723",
-          "title": "In re Sullivan",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/118723.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 118723 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "125499",
-          "title": "In re McVey",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/125499.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 125499 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "127835",
-          "title": "In re Valdez",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/127835.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 127835 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "124395",
-          "title": "In re Martinez",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/124395.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 124395 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "125968",
-          "title": "In re Barnds",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/125968.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 125968 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "126718",
-          "title": "In re K.W.D.",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/126718.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 126718 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {
