@@ -5,7 +5,7 @@
   "node_family": "INP",
   "subnode": "INP-01",
   "trigger_name": "Mandatory Report",
-  "summary_html": "**Mandatory reporters** (designated professionals) must report suspected child abuse or neglect. Federal law sets the funding and policy floor (CAPTA) and mandates reporter frameworks on federal lands/facilities (VICAA).",
+  "summary_html": "In New Mexico **every person** — not only designated professionals — who knows or reasonably suspects child abuse or neglect must report it immediately, and failing to report is a misdemeanor (NMSA 1978 § 32A-4-3(A), (F)). Federal law sets the funding and policy floor (CAPTA) and mandates reporter frameworks on federal lands/facilities (VICAA).",
   "authority_html": "- **CAPTA (42 U.S.C. §§ 5101–5116)** — federal floor for state reporting systems  \n- **Victims of Child Abuse Act (34 U.S.C. §§ 20301–20307)** — includes federal-facility reporter duties (recodified from former 42 U.S.C. §13031)",
   "icon": "📞",
   "theme_color": "#1E90FF",
@@ -34,10 +34,11 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "New Mexico - Chapter 32A, Article 4 (Child Abuse and Neglect Act – mandatory reporting and custody)",
-          "source_url": "https://www.nmlegis.gov",
+          "citation_text": "New Mexico - NMSA 1978 Chapter 32A, Article 4 (Abuse and Neglect Act: 32A-4-3 duty to report, 32A-4-18 custody hearings, 32A-4-19 adjudicatory hearings), CYFD-published Children's Code compilation (2023 text; 32A-4-3 amended 2025 by SB 42)",
+          "source_url": "https://www.cyfd.nm.gov/wp-content/uploads/2024/06/chapter-32a-children-s-code-2023.pdf",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
           "citation_text": "Title 27: Human Services Department - CYFD",
@@ -296,22 +297,17 @@
     "website": "https://www.cyfd.nm.gov/"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Shelter Staff",
-    "Childcare Staff",
-    "Clergy",
-    "Foster Parents",
-    "Coaches",
-    "Coroners",
-    "EMTs/Emergency Personnel",
-    "Judges",
-    "District Attorneys"
+    "Any person (universal mandatory reporting) — NMSA 1978 § 32A-4-3(A)",
+    "Licensed physicians, residents and interns examining, attending or treating a child (named in the statute as examples, not limits)",
+    "Law enforcement officers",
+    "Judges presiding during a proceeding",
+    "Registered nurses and visiting nurses",
+    "School employees (includes employees of a school district or a public school)",
+    "Social workers acting in an official capacity",
+    "Clergy, as to information that is not privileged as a matter of law"
   ],
   "reporting_type": "centralized",
-  "reporting_details": "Not applicable",
+  "reporting_details": "In New Mexico every person who knows or has a reasonable suspicion that a child is abused or neglected must report it immediately to a local law enforcement agency, to CYFD (Statewide Central Intake, 1-855-333-7233), or, for an Indian child residing in Indian country, to a tribal law enforcement or social services agency, and failing to report is a misdemeanor (NMSA 1978 § 32A-4-3(A), (F)).",
   "definitions": {
     "abuse": [
       "Physical abuse",
@@ -370,17 +366,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
-      "starts_from": "Report received",
-      "source": "template_estimate",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "deadline": "3 hours (emergency), 24 hours (priority one), or 5 calendar days (priority two)",
+      "starts_from": "Statewide Central Intake supervisor's screening decision",
+      "source": "admin_rule",
+      "source_url": "https://www.srca.nm.gov/parts/title08/08.010.0003.html",
+      "consequence_of_miss": "Not specified in 8.10.3.9 NMAC"
     },
     {
       "requirement_name": "Investigation completion",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
-      "source": "template_estimate",
-      "consequence_of_miss": "Case dismissal risk"
+      "deadline": "45 days (one supervisor-approved extension of up to 30 additional days)",
+      "starts_from": "Statewide Central Intake accepts the report for investigation",
+      "source": "admin_rule",
+      "source_url": "https://www.srca.nm.gov/parts/title08/08.010.0003.html",
+      "consequence_of_miss": "Not specified in 8.10.3.17 NMAC"
     }
   ],
   "notice_requirements": [

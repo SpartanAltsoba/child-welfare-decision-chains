@@ -36,15 +36,17 @@
       "primary_citations": [
         {
           "citation_text": "New Jersey - Title 9, Chapter 6 (Abuse of Children Act – all persons must report, e.g. § 9:6-8.10)",
-          "source_url": "https://www.njleg.state.nj.us",
+          "source_url": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1?f=templates&fn=default.htm&vid=Publish:10.1048/Enu",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": false
         },
         {
           "citation_text": "New Jersey - Title 30, Chapter 4C (Child Placement Review Act, etc.)",
-          "source_url": "https://www.njleg.state.nj.us",
+          "source_url": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1?f=templates&fn=default.htm&vid=Publish:10.1048/Enu",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": false
         },
         {
           "citation_text": "Title 9: Children - Juvenile Code - CHILD WELFARE PRIMARY",
@@ -354,10 +356,11 @@
     },
     {
       "requirement_name": "Disposition finding",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
-      "source": "template_estimate",
-      "consequence_of_miss": "Procedural violation"
+      "deadline": "60 calendar days (good-cause extensions in 30-day increments)",
+      "starts_from": "State Central Registry assigns the CPS report to the local office for response",
+      "source": "admin_rule",
+      "source_url": "https://policy.dcf.nj.gov/app/file/CPP-II-C-6-200.pdf",
+      "consequence_of_miss": "Good cause must be established and an extension approved by the local office manager or designee before day 60 (CP&P-II-C-6-200)."
     }
   ],
   "notice_requirements": [

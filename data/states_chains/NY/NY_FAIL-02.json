@@ -32,16 +32,17 @@
       "primary_citations": [
         {
           "citation_text": "New York - N.Y. Soc. Serv. Law § 411 et seq. (Child Protective Services Act – reporting requirements)",
-          "source_url": "https://www.nysenate.gov/legislation/laws/SocServ/411",
+          "source_url": "https://www.nysenate.gov/legislation/laws/SOS/411",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "New York - Family Court Act Article 10 (Abuse/Neglect juvenile proceedings)",
-          "source_url": "https://nyassembly.gov",
+          "source_url": "https://www.nysenate.gov/legislation/laws/FCT/A10",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
@@ -315,10 +316,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Appeal deadline",
-      "deadline": "30 days",
-      "starts_from": "Final order",
-      "source": "template_estimate",
-      "consequence_of_miss": "Loss of appeal rights"
+      "deadline": "30 days (35 days if the clerk mailed the order)",
+      "starts_from": "Service or receipt of the Family Court order, whichever comes first",
+      "source": "state_statute",
+      "consequence_of_miss": "Loss of appeal rights",
+      "source_url": "https://www.nysenate.gov/legislation/laws/FCT/1113"
     },
     {
       "requirement_name": "1983 statute of limitations",

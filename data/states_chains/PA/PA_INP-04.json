@@ -32,16 +32,16 @@
       "primary_citations": [
         {
           "citation_text": "Pennsylvania - Title 23 Pa.C.S. Chapter 63 (Child Protective Services Law)",
-          "source_url": "https://law.onecle.com/pennsylvania/title-23/chapter-63/index.html",
+          "source_url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=PDF&ttl=23&div=00.&chpt=63",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Pennsylvania - 42 Pa.C.S. Chapter 63 (Juvenile Act – dependency proceedings)",
-          "source_url": "https://www.legis.state.pa.us/cfdocs/legis/LI/consCheck.cfm?txtType=HTM&ttl=4&div=0&chpt=2",
+          "source_url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=PDF&ttl=42&div=00.&chpt=63",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
@@ -281,7 +281,7 @@
     "District Attorneys"
   ],
   "reporting_type": "centralized",
-  "reporting_details": "Not applicable",
+  "reporting_details": "Pennsylvania is not a universal-reporting state: only the categories of mandated reporters listed in 23 Pa.C.S. § 6311(a) are required to report, and they must report immediately to ChildLine (1-800-932-0313) or electronically under 23 Pa.C.S. § 6313(a)(1) with a written report within 48 hours, while any other person may report to the department, the county agency or law enforcement under 23 Pa.C.S. § 6312.",
   "definitions": {
     "abuse": [
       "Physical abuse",
@@ -336,17 +336,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
-      "starts_from": "Report received",
-      "source": "template_estimate",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "deadline": "Immediately if emergency protective custody is or may be required; otherwise see the child within 24 hours",
+      "starts_from": "County agency receives the report from the Department of Human Services (ChildLine)",
+      "source": "state_statute",
+      "source_url": "https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/23/00.063.068.000..HTM",
+      "consequence_of_miss": "No consequence stated in 23 Pa.C.S. § 6368(b); county agency performance is reviewable by the department under 23 Pa.C.S. § 6343"
     },
     {
       "requirement_name": "Investigation completion",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
-      "source": "template_estimate",
-      "consequence_of_miss": "Case dismissal risk"
+      "deadline": "60 days in all cases; reasons for delay must be recorded if not completed within 30 days",
+      "starts_from": "Investigation commenced by the county agency",
+      "source": "state_statute",
+      "source_url": "https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/23/00.063.068.000..HTM",
+      "consequence_of_miss": "The particular reasons for delay past 30 days must be described in the child protective service record and made available to the department to determine whether the county agency strictly followed 23 Pa.C.S. Ch. 63 and whether it is subject to action under 23 Pa.C.S. § 6343"
     }
   ],
   "notice_requirements": [

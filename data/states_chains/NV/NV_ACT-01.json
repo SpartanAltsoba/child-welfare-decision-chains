@@ -36,35 +36,42 @@
           "citation_text": "Nevada - NRS Chapter 432B (Protection of Children from Abuse and Neglect)",
           "source_url": "https://www.leg.state.nv.us/NRS/NRS-432B.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 127: Adoption",
-          "source_url": "https://law.justia.com/codes/nevada/title-127/",
+          "citation_text": "Nevada - NRS Chapter 127 (Adoption of Children and Adults)",
+          "source_url": "https://www.leg.state.nv.us/NRS/NRS-127.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 128: Termination of Parental Rights",
-          "source_url": "https://law.justia.com/codes/nevada/title-128/",
+          "citation_text": "Nevada - NRS Chapter 128 (Termination of Parental Rights)",
+          "source_url": "https://www.leg.state.nv.us/NRS/NRS-128.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 432: Services for Children - DCFS",
-          "source_url": "https://law.justia.com/codes/nevada/title-432/",
+          "citation_text": "Nevada - NRS Chapter 432 (Public Services for Children)",
+          "source_url": "https://www.leg.state.nv.us/NRS/NRS-432.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
+        },
+        {
+          "citation_text": "Nevada - NRS Chapter 125E (Custody of Indian Children — Nevada's own Indian child welfare law: good faith inquiry, notice to tribes, active efforts, qualified expert witnesses, transfer to tribal court)",
+          "source_url": "https://www.leg.state.nv.us/NRS/NRS-125E.html",
+          "authority_type": "state_statute",
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
@@ -296,10 +303,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
-      "source": "template_estimate",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "deadline": "72 hours, excluding Saturdays, Sundays and holidays",
+      "starts_from": "Child placed in protective custody",
+      "source": "state_statute",
+      "source_url": "https://www.leg.state.nv.us/NRS/NRS-432B.html#NRS432BSec470",
+      "consequence_of_miss": "Not specified in NRS 432B.470"
     },
     {
       "requirement_name": "Case plan development",
@@ -339,7 +347,7 @@
         "Demand to see court order",
         "Right to know where child is going",
         "Right to attorney",
-        "Right to hearing within 24-72 hours"
+        "Right to a hearing within 72 hours, excluding Saturdays, Sundays and holidays (NRS 432B.470)"
       ],
       "what_to_say": [
         "Do you have a court order for removal?",

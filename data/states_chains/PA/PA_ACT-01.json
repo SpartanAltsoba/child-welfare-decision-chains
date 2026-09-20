@@ -34,16 +34,16 @@
       "primary_citations": [
         {
           "citation_text": "Pennsylvania - Title 23 Pa.C.S. Chapter 63 (Child Protective Services Law)",
-          "source_url": "https://law.onecle.com/pennsylvania/title-23/chapter-63/index.html",
+          "source_url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=PDF&ttl=23&div=00.&chpt=63",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "Pennsylvania - 42 Pa.C.S. Chapter 63 (Juvenile Act – dependency proceedings)",
-          "source_url": "https://www.legis.state.pa.us/cfdocs/legis/LI/consCheck.cfm?txtType=HTM&ttl=4&div=0&chpt=2",
+          "source_url": "https://www.palegis.us/statutes/consolidated/view-statute?txtType=PDF&ttl=42&div=00.&chpt=63",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
@@ -307,10 +307,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
-      "source": "template_estimate",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "deadline": "72 hours for an informal hearing; no more than 24 hours in protective custody without a court order",
+      "starts_from": "Child taken into protective custody",
+      "source": "state_statute",
+      "source_url": "https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/23/00.063.015.000..HTM",
+      "consequence_of_miss": "Protective custody may not be maintained beyond 72 hours without an informal hearing under 42 Pa.C.S. § 6332; if custody is continued the county agency must file a dependency petition within 48 hours (23 Pa.C.S. § 6315(d))"
     },
     {
       "requirement_name": "Case plan development",

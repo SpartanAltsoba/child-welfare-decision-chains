@@ -30,25 +30,26 @@
     "state_statutory": {
       "primary_citations": [
         {
-          "citation_text": "Oregon - ORS Chapter 419B (Juvenile Code: Dependency and Abuse – includes mandatory reporting §§ 419B.005–419B.050)",
-          "source_url": "https://www.oregonlegislature.gov",
+          "citation_text": "Oregon - ORS Chapter 419B (Juvenile Code: Dependency – includes reporting and investigation of child abuse, ORS 419B.005 to 419B.050)",
+          "source_url": "https://www.oregonlegislature.gov/bills_laws/ors/ors419B.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         },
         {
-          "citation_text": "Title 109: Parent and Child",
-          "source_url": "https://law.justia.com/codes/oregon/title-109/",
+          "citation_text": "Oregon - ORS Chapter 109 (Parent and Child Rights and Relationships)",
+          "source_url": "https://www.oregonlegislature.gov/bills_laws/ors/ors109.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
         },
         {
-          "citation_text": "Title 418: Child Care",
-          "source_url": "https://law.justia.com/codes/oregon/title-418/",
+          "citation_text": "Oregon - ORS Chapter 418 (Child Welfare Services)",
+          "source_url": "https://www.oregonlegislature.gov/bills_laws/ors/ors418.html",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -253,7 +254,7 @@
     "District Attorneys"
   ],
   "reporting_type": "centralized",
-  "reporting_details": "Not applicable",
+  "reporting_details": "Oregon is not a universal-reporting state: only the “public or private officials” listed in Or. Rev. Stat. § 419B.005(6) must immediately report suspected child abuse, and they report through the centralized Oregon Child Abuse Hotline or to a local law enforcement agency (Or. Rev. Stat. §§ 419B.010(1), 419B.015(1)(a)); the duty is personal to the official regardless of any employer’s internal reporting policy (§ 419B.010(3), (4)), privileged communications to a psychiatrist, psychologist, member of the clergy, attorney or guardian ad litem are excepted (§ 419B.010(1)), failure to report is a Class A violation (§ 419B.010(5)), and any other person may report voluntarily (§ 419B.015(1)(a)).",
   "definitions": {
     "abuse": [
       "Physical abuse",
@@ -315,10 +316,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
-      "starts_from": "Report received",
-      "source": "template_estimate",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "deadline": "Within 24 hours, within 72 hours, or within 10 business days — one of the three timelines assigned at screening",
+      "starts_from": "Receipt of the report at screening (Oregon Child Abuse Hotline)",
+      "source": "admin_rule",
+      "source_url": "https://www.oregon.gov/odhs/rules-policy/cwrules/413-015-en.pdf",
+      "consequence_of_miss": "Not specified in OAR 413-015-0405; the rule requires the CPS worker to make initial contact within the assigned response timeline."
     },
     {
       "requirement_name": "Investigation completion",

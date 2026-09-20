@@ -31,16 +31,17 @@
       "primary_citations": [
         {
           "citation_text": "New York - N.Y. Soc. Serv. Law § 411 et seq. (Child Protective Services Act – reporting requirements)",
-          "source_url": "https://www.nysenate.gov/legislation/laws/SocServ/411",
+          "source_url": "https://www.nysenate.gov/legislation/laws/SOS/411",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "New York - Family Court Act Article 10 (Abuse/Neglect juvenile proceedings)",
-          "source_url": "https://nyassembly.gov",
+          "source_url": "https://www.nysenate.gov/legislation/laws/FCT/A10",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": true
         }
       ]
     },
@@ -317,10 +318,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
-      "source": "template_estimate",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "deadline": "No later than the next court day after the petition is filed",
+      "starts_from": "Petition filed after a removal without a court order",
+      "source": "state_statute",
+      "consequence_of_miss": "Not specified in statute (the hearing continues on successive court days until the court decides)",
+      "source_url": "https://www.nysenate.gov/legislation/laws/FCT/1027"
     },
     {
       "requirement_name": "Case plan development",

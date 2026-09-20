@@ -31,23 +31,23 @@
       "primary_citations": [
         {
           "citation_text": "New Hampshire - RSA 169-C (Child Protection Act – includes reporting § 169-C:29)",
-          "source_url": "https://www.gencourt.state.nh.us/rsa/html/",
+          "source_url": "https://gc.nh.gov/rsa/html/NHTOC/NHTOC-XII-169-C.htm",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
           "citation_text": "New Hampshire - RSA 169-C:1 et seq. (Procedures for abuse/neglect cases)",
-          "source_url": "https://www.gencourt.state.nh.us/rsa/html/",
+          "source_url": "https://gc.nh.gov/rsa/html/XII/169-C/169-C-1.htm",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22",
+          "last_verified": "2026-09-19",
           "deep_link": true
         },
         {
-          "citation_text": "Title 161: Human Services - DCYF",
-          "source_url": "https://law.justia.com/codes/new-hampshire/title-161/",
+          "citation_text": "New Hampshire - RSA 170-G (Services for Children, Youth and Families – DCYF program authority)",
+          "source_url": "https://gc.nh.gov/rsa/html/NHTOC/NHTOC-XII-170-G.htm",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-24",
+          "last_verified": "2026-09-19",
           "deep_link": true,
           "title_code": "",
           "chapter": ""
@@ -239,19 +239,16 @@
     "website": "https://www.dhhs.nh.gov/division-children-youth-and-families"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Shelter Staff",
-    "Childcare Staff",
-    "Clergy",
-    "Foster Parents",
-    "Coaches",
-    "Coroners",
-    "EMTs/Emergency Personnel",
-    "Judges",
-    "District Attorneys"
+    "Any person (universal mandatory reporting) — N.H. Rev. Stat. Ann. § 169-C:29",
+    "Physicians, surgeons, county medical examiners, psychiatrists, residents, interns",
+    "Dentists, osteopaths, optometrists, chiropractors",
+    "Psychologists and therapists",
+    "Registered nurses and hospital personnel (admission, examination, care and treatment)",
+    "Christian Science practitioners",
+    "Teachers, school officials, school nurses, school counselors",
+    "Social workers, day care workers, and any other child or foster care workers",
+    "Law enforcement officials",
+    "Priests, ministers, and rabbis"
   ],
   "reporting_type": "centralized",
   "reporting_details": "Not applicable",
@@ -319,10 +316,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
-      "starts_from": "Report received",
-      "source": "template_estimate",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "deadline": "Immediately if the child’s immediate safety or well-being is endangered, the family may flee, or the child may disappear; otherwise within 72 hours",
+      "starts_from": "Receipt of the report by the department",
+      "source": "state_statute",
+      "consequence_of_miss": "Not specified in RSA 169-C:34",
+      "source_url": "https://gc.nh.gov/rsa/html/XII/169-C/169-C-34.htm"
     },
     {
       "requirement_name": "Investigation completion",

@@ -31,15 +31,17 @@
       "primary_citations": [
         {
           "citation_text": "New Jersey - Title 9, Chapter 6 (Abuse of Children Act – all persons must report, e.g. § 9:6-8.10)",
-          "source_url": "https://www.njleg.state.nj.us",
+          "source_url": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1?f=templates&fn=default.htm&vid=Publish:10.1048/Enu",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": false
         },
         {
           "citation_text": "New Jersey - Title 30, Chapter 4C (Child Placement Review Act, etc.)",
-          "source_url": "https://www.njleg.state.nj.us",
+          "source_url": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1?f=templates&fn=default.htm&vid=Publish:10.1048/Enu",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": false
         },
         {
           "citation_text": "Title 9: Children - Juvenile Code - CHILD WELFARE PRIMARY",
@@ -302,22 +304,10 @@
     "website": "https://www.nj.gov/dcf/"
   },
   "mandatory_reporters": [
-    "Teachers/School Personnel",
-    "Medical/Dental Professionals",
-    "Mental Health Professionals",
-    "Law Enforcement",
-    "Shelter Staff",
-    "Childcare Staff",
-    "Clergy",
-    "Foster Parents",
-    "Coaches",
-    "Coroners",
-    "EMTs/Emergency Personnel",
-    "Judges",
-    "District Attorneys"
+    "Any person (universal mandatory reporting) — N.J.S.A. 9:6-8.10"
   ],
   "reporting_type": "centralized",
-  "reporting_details": "Not applicable",
+  "reporting_details": "New Jersey is a universal-reporter state: any person having reasonable cause to believe that a child has been subjected to child abuse must report it immediately to the Division of Child Protection and Permanency through the 24-hour State Central Registry hotline, 1-877-652-2873 (1-877 NJ ABUSE), and may do so anonymously, and any person who fails to report is a disorderly person (N.J.S.A. 9:6-8.10; N.J.S.A. 9:6-8.14).",
   "definitions": {
     "abuse": [
       "Physical abuse",
@@ -375,17 +365,19 @@
   "timeline_requirements": [
     {
       "requirement_name": "Initial response time",
-      "deadline": "24-72 hours",
-      "starts_from": "Report received",
-      "source": "template_estimate",
-      "consequence_of_miss": "Potential audit finding, CFSR deficiency"
+      "deadline": "Immediate (by the end of the work day) or within 24 hours for a child protective services report; within 72 hours or 5 work days for a child welfare service referral",
+      "starts_from": "State Central Registry accepts the report and assigns it to the local office for response",
+      "source": "admin_rule",
+      "source_url": "https://policy.dcf.nj.gov/app/file/CPP-II-C-2-300.pdf",
+      "consequence_of_miss": "When contact cannot be made within the assigned timeframe the worker must make and document a good faith effort (CP&P-II-C-2-300(G); CP&P-II-C-5-125)."
     },
     {
       "requirement_name": "Investigation completion",
-      "deadline": "30-60 days",
-      "starts_from": "Investigation opened",
-      "source": "template_estimate",
-      "consequence_of_miss": "Case dismissal risk"
+      "deadline": "60 calendar days (good-cause extensions in 30-day increments)",
+      "starts_from": "State Central Registry assigns the CPS report to the local office for response",
+      "source": "admin_rule",
+      "source_url": "https://policy.dcf.nj.gov/app/file/CPP-II-C-6-200.pdf",
+      "consequence_of_miss": "Good cause must be established and an extension approved by the local office manager or designee before day 60 (CP&P-II-C-6-200)."
     }
   ],
   "notice_requirements": [

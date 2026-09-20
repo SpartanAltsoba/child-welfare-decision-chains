@@ -36,15 +36,17 @@
       "primary_citations": [
         {
           "citation_text": "New Jersey - Title 9, Chapter 6 (Abuse of Children Act – all persons must report, e.g. § 9:6-8.10)",
-          "source_url": "https://www.njleg.state.nj.us",
+          "source_url": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1?f=templates&fn=default.htm&vid=Publish:10.1048/Enu",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": false
         },
         {
           "citation_text": "New Jersey - Title 30, Chapter 4C (Child Placement Review Act, etc.)",
-          "source_url": "https://www.njleg.state.nj.us",
+          "source_url": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1?f=templates&fn=default.htm&vid=Publish:10.1048/Enu",
           "authority_type": "state_statute",
-          "last_verified": "2025-12-22"
+          "last_verified": "2026-09-19",
+          "deep_link": false
         },
         {
           "citation_text": "Title 9: Children - Juvenile Code - CHILD WELFARE PRIMARY",
@@ -351,10 +353,11 @@
   "timeline_requirements": [
     {
       "requirement_name": "Emergency removal hearing",
-      "deadline": "24-72 hours",
-      "starts_from": "Child removed",
-      "source": "template_estimate",
-      "consequence_of_miss": "Constitutional violation, case dismissal"
+      "deadline": "Within 2 court days",
+      "starts_from": "Child's emergency (“Dodd”) removal without a court order",
+      "source": "state_statute",
+      "source_url": "https://policy.dcf.nj.gov/app/file/CPP-II-C-2-700.pdf",
+      "consequence_of_miss": "CP&P must file a complaint with the court unless the child is returned home within two court days (N.J.S.A. 9:6-8.30)."
     },
     {
       "requirement_name": "Case plan development",
