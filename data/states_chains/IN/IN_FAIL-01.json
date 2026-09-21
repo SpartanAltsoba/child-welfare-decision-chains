@@ -112,6 +112,84 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Indiana state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "In re D.J.",
+          "citation": "68 N.E.3d 574 (Ind. 2017)",
+          "court": "Indiana Supreme Court",
+          "year": 2017,
+          "date_decided": "2017-02-07",
+          "holding": "The court reversed the CHINS adjudication because the Department failed to prove by a preponderance of the evidence the third statutory element, that the children needed care the parents were unlikely to provide without the court's coercive intervention.",
+          "relevance": "Leading modern reversal of a CHINS adjudication by the state's highest court.",
+          "quote": "To prove a child is “in need of services”, the Department must prove three statutory elements by a preponderance of the evidence",
+          "url": "https://www.courtlistener.com/opinion/4346731/in-re-the-matter-of-dj-and-gj-children-in-need-of-services-grj/",
+          "courtlistener_cluster_id": 4346731
+        },
+        {
+          "case_name": "In re S.D.",
+          "citation": "2 N.E.3d 1283 (Ind. 2014)",
+          "court": "Indiana Supreme Court",
+          "year": 2014,
+          "date_decided": "2014-02-12",
+          "holding": "The court reversed the CHINS adjudication, holding the evidence did not show the mother was unlikely to meet the children's needs without the coercive intervention of the court, and it declined to find the appeal moot because of the collateral consequences of a CHINS judgment.",
+          "relevance": "A leading example of appellate reversal of an agency-obtained CHINS adjudication for insufficient proof of the coercion element.",
+          "quote": "The intrusion of a CHINS judgment, then, must be reserved for families who cannot meet those needs without coercion",
+          "url": "https://www.courtlistener.com/opinion/2653534/in-the-matter-of-sd-alleged-to-be-a-child-in-need-of-services-jb-v/",
+          "courtlistener_cluster_id": 2653534
+        },
+        {
+          "case_name": "In re G.Y.",
+          "citation": "904 N.E.2d 1257 (Ind. 2009)",
+          "court": "Indiana Supreme Court",
+          "year": 2009,
+          "date_decided": "2009-04-24",
+          "holding": "The court reversed the termination of an incarcerated mother's parental rights, concluding the evidence did not clearly and convincingly show that the conditions leading to removal would not be remedied or that termination was in the child's best interests where she maintained consistent visitation and pursued available prison programming.",
+          "relevance": "A leading reversal by the state's highest court of a termination judgment obtained on an insufficient record against an incarcerated parent.",
+          "quote": "The State's burden of proof in termination of parental rights cases is one of “clear and convincing evidence.”",
+          "url": "https://www.courtlistener.com/opinion/7166491/ry-v-indiana-department-of-child-services/",
+          "courtlistener_cluster_id": 7166491
+        },
+        {
+          "case_name": "In re G.P.",
+          "citation": "4 N.E.3d 1158 (Ind. 2014)",
+          "court": "Indiana Supreme Court",
+          "year": 2014,
+          "date_decided": "2014-03-13",
+          "holding": "The court vacated the judgment terminating the mother's parental rights because the CHINS court found her indigent and entitled to counsel but never appointed one, and those defective CHINS proceedings flowed directly into the termination action.",
+          "relevance": "Leading Indiana authority vacating a termination judgment for procedural irregularities occurring in the underlying CHINS case.",
+          "quote": "J.A. was denied her statutory right to counsel during the course of the CHINS proceedings below and those proceedings flowed directly into an action to terminate her parental rights",
+          "url": "https://www.courtlistener.com/opinion/7167375/ja-v-indiana-department-of-child-services/",
+          "courtlistener_cluster_id": 7167375
+        },
+        {
+          "case_name": "Baker v. Marion County Office of Family & Children",
+          "citation": "810 N.E.2d 1035 (Ind. 2004)",
+          "court": "Indiana Supreme Court",
+          "year": 2004,
+          "date_decided": "2004-06-29",
+          "holding": "The court adopted a fundamental-fairness standard, rather than the criminal Strickland test, for claims that counsel underperformed in a termination case, and affirmed because joint representation of both parents did not render the hearing fundamentally unfair.",
+          "relevance": "Supplies the Indiana standard for attacking a termination judgment on the ground that appointed counsel performed inadequately.",
+          "quote": "we deem the focus of the inquiry to be whether it appears that the parents received a fundamentally fair trial whose facts demonstrate an accurate determination",
+          "url": "https://www.courtlistener.com/opinion/852888/baker-v-marion-county-office-of-family-children/",
+          "courtlistener_cluster_id": 852888
+        },
+        {
+          "case_name": "Bester v. Lake County Office of Family & Children",
+          "citation": "839 N.E.2d 143 (Ind. 2005)",
+          "court": "Indiana Supreme Court",
+          "year": 2005,
+          "date_decided": "2005-12-20",
+          "holding": "The court reversed the termination of the father's parental rights, holding that several of the trial court's findings were misleading or unsupported and that the remaining findings did not clearly and convincingly establish that continuation of the parent-child relationship threatened the child's well-being.",
+          "relevance": "A leading reversal by the state's highest court of a termination judgment resting on findings that were misleading or unsupported by the evidence.",
+          "quote": "The OFC bears the burden of proving these allegations by clear and convincing evidence.",
+          "url": "https://www.courtlistener.com/opinion/852727/bester-v-lake-county-office-of-family-children/",
+          "courtlistener_cluster_id": 852727
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Indiana%22%20AND%20%28%22Indiana%20Department%20of%20Child%20Services%22%20OR%20%22DCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Indiana Department of Child Services",
         "DCS",
@@ -123,149 +201,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Indiana%22%20AND%20%28%22Indiana%20Department%20of%20Child%20Services%22%20OR%20%22DCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "wrongful removal",
-        "1983 claim",
-        "civil rights",
-        "immunity",
-        "damages"
-      ],
-      "jurisdiction": "Indiana state courts",
-      "key_cases": [
-        {
-          "case_id": "20a-jt-1307",
-          "title": "In the Matter of the Involuntary Termination of the Parent-Child Relationship of: J.R. and J.M. (Minor Children) and V.R. (Mother) v. The Indiana Department of Child Services (mem. dec.)",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-1307.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jt-1307 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: involuntary TPR, Matter of"
-        },
-        {
-          "case_id": "20a-jc-1201",
-          "title": "In the Matter of M.H. and K.M. (Minor Children), Children in Need of Services; Q.H. (Mother) v. The Indiana Department of Child Services (mem. dec.)",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jc-1201.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jc-1201 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: Matter of initials"
-        },
-        {
-          "case_id": "20a-jc-1319",
-          "title": "In the Matter of J.G., A Child in Need of Services, J.B., Father v. Indiana Department of Child Services (mem. dec.)",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jc-1319.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jc-1319 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: Matter of initials"
-        },
-        {
-          "case_id": "20a-jt-1284",
-          "title": "In the Matter of the Involuntary Termination of the Parent-Child Relationship of C.Q. (Minor Child) and K.Q. (Mother) v. The Indiana Department of Child Services (mem. dec.)",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-1284.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jt-1284 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: involuntary TPR, Matter of"
-        },
-        {
-          "case_id": "20a-jt-1297",
-          "title": "In the Matter of R.R. v. Indiana Department of Child Services (mem. dec.)",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-1297.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jt-1297 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: Matter of initials"
-        },
-        {
-          "case_id": "20a-jt-318",
-          "title": "In the Matter of the Involuntary Termination of the Parent-Child Relationship of C.L. (Minor Child) and J.M. (Mother) v. Indiana Department of Child Services (mem. dec.)",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-318.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jt-318 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: involuntary TPR, Matter of"
-        },
-        {
-          "case_id": "20a-jt-63",
-          "title": "In the Matter of the Termination of the Parent-Child Relationship, Q.J., et al. (Minor Children), and B.J. (Mother) and Q.J., Sr. (Father) v. Indiana Department of Child Services (mem. dec.)",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-63.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jt-63 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: Matter of TPR, Matter of"
-        },
-        {
-          "case_id": "20a-jc-1368",
-          "title": "In the Matter of: M.C., K.H., and T.H., Children in Need of Services: B.H. (Mother) v. The Indiana Department of Child Services (mem. dec.)",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jc-1368.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jc-1368 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: Matter of initials"
-        },
-        {
-          "case_id": "20a-jt-1175",
-          "title": "In the Matter of the Termination of the Parent-Child Relationship of: M.C., J.C., Ja.C., Ma.C., and P.C. (Minor Children); C.C. (Mother) and Ch.C. (Father) v. Indiana Department of Child Services",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-1175.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jt-1175 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: Matter of TPR, Matter of"
-        },
-        {
-          "case_id": "20a-jt-1378",
-          "title": "In re the Termination of the Parent-Child Relationship of A.D. (Minor Child) and J.H. (Mother) v. Indiana Department of Child Services (mem. dec.)",
-          "url": "https://law.justia.com/cases/indiana/court-of-appeals/2020/20a-jt-1378.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Indiana Court Of Appeals Case 20a-jt-1378 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "indiana department of child services"
-          ],
-          "child_welfare_reason": "High: In re TPR, In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

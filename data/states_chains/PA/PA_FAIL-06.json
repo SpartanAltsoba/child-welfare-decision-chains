@@ -106,6 +106,84 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Pennsylvania state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "Allegheny County Department of Administrative Services v. A Second Chance, Inc.",
+          "citation": "13 A.3d 1025 (Pa. Commw. Ct. 2011)",
+          "court": "Commonwealth Court of Pennsylvania",
+          "year": 2011,
+          "date_decided": "2011-02-16",
+          "holding": "The court affirmed in part and vacated in part, holding that the Right-to-Know Law's definition of 'record' is not confined to documents the agency itself created or holds, that agency policy bulletins could not create an exemption, and remanding for findings on the contractor's duties.",
+          "relevance": "Holds that a county may not shield child-welfare contractor information by pointing to the contractor's private possession or to internal bulletins.",
+          "quote": "This language does not limit \"record\" to only those documents \"created, received or retained\" by the agency.",
+          "url": "https://www.courtlistener.com/opinion/5144420/allegheny-county-department-of-administrative-services-v-a-second-chance/",
+          "courtlistener_cluster_id": 5144420
+        },
+        {
+          "case_name": "In re Fortieth Statewide Investigating Grand Jury",
+          "citation": "190 A.3d 560 (Pa. 2018)",
+          "court": "Supreme Court of Pennsylvania",
+          "year": 2018,
+          "date_decided": "2018-07-27",
+          "holding": "The court ordered interim release of the clergy-abuse grand jury report with the challengers' identities redacted, holding that Pennsylvania's constitutional right to reputation requires enhanced procedural protections before a grand jury report publicly condemns named individuals.",
+          "relevance": "Balances the public's interest in disclosure of abuse findings against the due-process rights of those named.",
+          "quote": "the lines between a grand jury \"investigation\" and an \"adjudication\" are blurred when the grand jury renders wide-scale, individualized, condemnatory findings",
+          "url": "https://www.courtlistener.com/opinion/6485493/in-re-fortieth-statewide-investigating-grand-jury/",
+          "courtlistener_cluster_id": 6485493
+        },
+        {
+          "case_name": "Support Center for Child Advocates v. Department of Human Services",
+          "citation": "189 A.3d 497 (Pa. Commw. Ct. 2018)",
+          "court": "Commonwealth Court of Pennsylvania",
+          "year": 2018,
+          "date_decided": "2018-06-22",
+          "holding": "The court affirmed the denial of the child's guardian ad litem's petition to intervene in the alleged perpetrator's ChildLine expunction appeal, holding the GAL had no statutory right to intervene and no interest not already represented by the Department.",
+          "relevance": "Limits third-party access to and participation in the confidential expunction process.",
+          "quote": "H.M.'s G.A.L. has no right to intervene \"conferred by statute,\" nor has he stated an interest such that his participation \"is in the public interest.\"",
+          "url": "https://www.courtlistener.com/opinion/4509917/support-center-for-child-advocates-as-gal-for-the-minor-child-hm-and-hm/",
+          "courtlistener_cluster_id": 4509917
+        },
+        {
+          "case_name": "Pennsylvania v. Ritchie",
+          "citation": "480 U.S. 39 (1987)",
+          "court": "Supreme Court of the United States",
+          "year": 1987,
+          "date_decided": "1987-02-24",
+          "holding": "Affirming in part and reversing in part, the Court held that due process entitles a criminal defendant to have Pennsylvania's confidential CYS child-abuse file reviewed in camera by the trial court for material exculpatory evidence, but does not entitle defense counsel to search the file itself.",
+          "relevance": "The governing decision on when Pennsylvania's confidentiality of CYS child-abuse records must yield to a competing constitutional right of access, and on the in camera mechanism for resolving that clash.",
+          "quote": "Although we recognize that the public interest in protecting this type of sensitive information is strong, we do not agree that this interest necessarily prevents disclosure in all circumstances.",
+          "url": "https://www.courtlistener.com/opinion/111822/pennsylvania-v-ritchie/",
+          "courtlistener_cluster_id": 111822
+        },
+        {
+          "case_name": "R. v. Department of Public Welfare",
+          "citation": "535 Pa. 440, 636 A.2d 142 (1994)",
+          "court": "Supreme Court of Pennsylvania",
+          "year": 1994,
+          "date_decided": "1994-01-04",
+          "holding": "Affirming the Commonwealth Court, the court held that an alleged perpetrator was not denied due process at a ChildLine expunction hearing where the hearing examiner who decided the case had not observed all the witnesses and the child testified in camera subject to cross-examination, because the CPSL narrowly limits who may learn of an indicated report.",
+          "relevance": "Grounds the constitutionality of the indicated-report scheme in the statute's narrow limits on who may receive registry information.",
+          "quote": "we conclude that R. received all the process he was due under the Fourteenth Amendment to the United States Constitution",
+          "url": "https://www.courtlistener.com/opinion/2207723/r-v-com-dept-of-public-welfare/",
+          "courtlistener_cluster_id": 2207723
+        },
+        {
+          "case_name": "Mulholland v. Government County of Berks, Pennsylvania",
+          "citation": "706 F.3d 227 (3d Cir. 2013)",
+          "court": "United States Court of Appeals for the Third Circuit",
+          "year": 2013,
+          "date_decided": "2013-01-28",
+          "holding": "Affirming judgment as a matter of law for the county, the court held that the CPSL's appeal process supplies all the process due to a person listed as an indicated perpetrator, so a county policy of not forwarding exculpatory information to ChildLine is not a constitutional violation, and that the removal rested on objectively reasonable suspicion.",
+          "relevance": "Rejects a constitutional duty on a county agency to forward recantations and other exculpatory information to the statewide registry after its investigation closes, leaving correction to the CPSL appeal.",
+          "quote": "That standard is met if the child is removed without \"an objectively reasonable suspicion of abuse,\" based on the information available at the time.",
+          "url": "https://www.courtlistener.com/opinion/816127/randy-mulholland-v-government-county-of-berks/",
+          "courtlistener_cluster_id": 816127
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Pennsylvania%22%20AND%20%28%22Pennsylvania%20Department%20of%20Human%20Services%22%20OR%20%22Children%20and%20Youth%20Services%22%20OR%20%22CYS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Pennsylvania Department of Human Services",
         "Children and Youth Services",
@@ -117,149 +195,7 @@
         "reasonable efforts",
         "reunification",
         "emergency removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Pennsylvania%22%20AND%20%28%22Pennsylvania%20Department%20of%20Human%20Services%22%20OR%20%22Children%20and%20Youth%20Services%22%20OR%20%22CYS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "wrongful removal",
-        "1983 claim",
-        "civil rights",
-        "immunity",
-        "damages"
-      ],
-      "jurisdiction": "Pennsylvania state courts",
-      "key_cases": [
-        {
-          "case_id": "216-wal-2025",
-          "title": "In Re: Blythedale Park of: EQT Artemis - No. (Granted) (petitions for allowance of appeal)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/216-wal-2025.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 216-wal-2025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "1029-supreme-court-rules",
-          "title": "In Re: Appointments to the Orphans' Court Procedural Rules Committee (appointment)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/1029-supreme-court-rules.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 1029-supreme-court-rules (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "3093-dd3",
-          "title": "In the Matter of: Paul T. Sosnowski (disciplinary order)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/3093-dd3.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 3093-dd3 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "471-mal-2025",
-          "title": "In Re: Estate of Byerley, D. of: Byerley, D. (petitions for allowance of appeal)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/471-mal-2025.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 471-mal-2025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "398-judicial-classification",
-          "title": "In Re: Reassignment of Honorable Sierra Thomas Street to CCP First Judicial District Orphans' Division (appointment)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/398-judicial-classification.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 398-judicial-classification (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "399-judicial-classification",
-          "title": "In Re: Reassignment of Honorable Daine A. Grey to CCP First Judicial District Trial Division (appointment)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/399-judicial-classification.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 399-judicial-classification (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "65-rst-2025",
-          "title": "In the Matter of: James Richard Koban, II (disciplinary order)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/65-rst-2025.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 65-rst-2025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "66-rst-2025",
-          "title": "In the Matter of: Jarrod W. Harmon (disciplinary order)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/66-rst-2025.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 66-rst-2025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "648-judicial-administration-2025",
-          "title": "In RE: Duty Assignment Schedule for Emergency itions in the Year 2026 (rules)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/648-judicial-administration-2025.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 648-judicial-administration-2025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "593-mal-2025",
-          "title": "In Re: Adopt. of: J.E.M.-M., a Minor (petitions for allowance of appeal)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/593-mal-2025.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 593-mal-2025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

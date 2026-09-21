@@ -104,6 +104,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Pennsylvania state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "In the Interest of L.V.",
+          "citation": "127 A.3d 831 (Pa. Super. 2015)",
+          "court": "Superior Court of Pennsylvania",
+          "year": 2015,
+          "date_decided": "2015-11-12",
+          "holding": "The court affirmed the dependency adjudication of a child certified as a near fatality, holding the trial court did not abuse its discretion where medical evidence established extensive inflicted injuries and the mother failed to seek treatment.",
+          "relevance": "A published Pennsylvania decision addressing a formally certified near fatality.",
+          "quote": "In order to adjudicate a child dependent, the court must determine that the above definition has been met by clear and convincing evidence.",
+          "url": "https://www.courtlistener.com/opinion/3154267/in-the-interest-of-lv-a-minor/",
+          "courtlistener_cluster_id": 3154267
+        },
+        {
+          "case_name": "In the Matter of L.Z.",
+          "citation": "111 A.3d 1164, 631 Pa. 343 (2015)",
+          "court": "Supreme Court of Pennsylvania",
+          "year": 2015,
+          "date_decided": "2015-03-25",
+          "holding": "Reversing the Superior Court and reinstating the trial court, the court held that the rebuttable presumption of 23 Pa.C.S. § 6381(d) identifying the caregiver as the abuser applies even where a child was in the care of multiple responsible adults.",
+          "relevance": "Applies to serious-injury cases where the agency can prove abuse but not who inflicted it.",
+          "quote": "when a child is in the care of multiple parents or other persons responsible for care, those individuals are accountable for the care and protection of the child",
+          "url": "https://www.courtlistener.com/opinion/2789257/in-the-matter-of-lz-appeal-of-lz/",
+          "courtlistener_cluster_id": 2789257
+        },
+        {
+          "case_name": "Nicini v. Morra",
+          "citation": "212 F.3d 798 (3d Cir. 2000)",
+          "court": "United States Court of Appeals for the Third Circuit",
+          "year": 2000,
+          "date_decided": "2000-05-19",
+          "holding": "Sitting en banc, the court held that placing a child in state-regulated foster care creates a special relationship imposing affirmative constitutional duties, but affirmed summary judgment because the caseworker's conduct amounted at most to negligence and did not shock the conscience.",
+          "relevance": "Sets the culpability standard for constitutional claims when a child is harmed while in care.",
+          "quote": "when the state places a child in state-regulated foster care, the state has entered into a special relationship with that child which imposes upon it certain affirmative duties",
+          "url": "https://www.courtlistener.com/opinion/768726/nicini-v-morra/",
+          "courtlistener_cluster_id": 768726
+        },
+        {
+          "case_name": "DeShaney v. Winnebago County Department of Social Services",
+          "citation": "489 U.S. 189 (1989)",
+          "court": "Supreme Court of the United States",
+          "year": 1989,
+          "date_decided": "1989-02-22",
+          "holding": "The Court affirmed, holding that the Due Process Clause imposes no affirmative constitutional duty on a child-protection agency to protect a child from private violence where the child remains in the parent's custody rather than in state custody.",
+          "relevance": "The threshold rule for constitutional liability when a child known to the agency is killed or seriously injured at home.",
+          "quote": "nothing in the language of the Due Process Clause itself requires the State to protect the life, liberty, and property of its citizens against invasion by private actors",
+          "url": "https://www.courtlistener.com/opinion/112202/deshaney-v-winnebago-cty-dss/",
+          "courtlistener_cluster_id": 112202
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Pennsylvania%22%20AND%20%28%22Pennsylvania%20Department%20of%20Human%20Services%22%20OR%20%22Children%20and%20Youth%20Services%22%20OR%20%22CYS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Pennsylvania Department of Human Services",
         "Children and Youth Services",
@@ -115,149 +169,7 @@
         "reasonable efforts",
         "reunification",
         "emergency removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Pennsylvania%22%20AND%20%28%22Pennsylvania%20Department%20of%20Human%20Services%22%20OR%20%22Children%20and%20Youth%20Services%22%20OR%20%22CYS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "termination of parental rights",
-        "TPR",
-        "adoption",
-        "permanency",
-        "aging out"
-      ],
-      "jurisdiction": "Pennsylvania state courts",
-      "key_cases": [
-        {
-          "case_id": "14-wap-2021-0",
-          "title": "In Re: Adoption of: L.A.K.; Apl of: C.K. (dissenting)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2021/14-wap-2021-0.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 14-wap-2021-0 (2021)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "14-wap-2021",
-          "title": "In Re: Adoption of: L.A.K.; Apl of: C.K. (majority)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2021/14-wap-2021.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 14-wap-2021 (2021)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "15-wap-2021-0",
-          "title": "In Re: Adoption of: A.L.K.; Apl of: C.K. (dissenting)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2021/15-wap-2021-0.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 15-wap-2021-0 (2021)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "15-wap-2021",
-          "title": "In Re: Adoption of: A.L.K.; Apl of: C.K. (majority)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2021/15-wap-2021.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 15-wap-2021 (2021)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "561-judicial-administration-2021",
-          "title": "In Re: Amendments to Rules 250-252 of the Pennsylvania Rules of Judicial Administration and Adoption of Rules 260-263 of the Pennsylvania Rules of Judicial Administration (rules)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2021/561-judicial-administration-2021.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 561-judicial-administration-2021 (2021)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "87-wm-2020",
-          "title": "In Re: Adoption of Z.V.H. of: J.H. (miscellaneous)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2020/87-wm-2020.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 87-wm-2020 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "202-disciplinary-rules",
-          "title": "In Re: Adoption of Rule 404 and Amendment of Rules 102, 201(a)(3), 204(c), 217(d)(3) and 219(b)(2) of the Pennsylvania Rules of Disciplinary Enforcement (rules)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2020/202-disciplinary-rules.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 202-disciplinary-rules (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "234-wal-2025",
-          "title": "Adoption of: M.F.H. of: R.L.H. (petitions for allowance of appeal)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/234-wal-2025.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 234-wal-2025 (2025)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "Medium: adoption"
-        },
-        {
-          "case_id": "271-wal-2024",
-          "title": "Adoption of: R.J.H. of: J.A.W. (petitions for allowance of appeal)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2024/271-wal-2024.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 271-wal-2024 (2024)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "Medium: adoption"
-        },
-        {
-          "case_id": "547-mal-2023",
-          "title": "Adoption of: L.M.M., Appeal of: G.L. & A.L. (petitions for allowance of appeal)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2023/547-mal-2023.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 547-mal-2023 (2023)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "Medium: adoption"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

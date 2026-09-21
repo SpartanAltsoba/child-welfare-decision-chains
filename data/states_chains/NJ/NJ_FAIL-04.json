@@ -142,6 +142,36 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "New Jersey state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "L.A. v. New Jersey Division of Youth & Family Services",
+          "citation": "429 N.J. Super. 48, 56 A.3d 890 (App. Div. 2012)",
+          "court": "New Jersey Superior Court, Appellate Division",
+          "year": 2012,
+          "date_decided": "2012-11-16",
+          "holding": "The court defined the standard governing a physician's statutory duty to report, holding 'reasonable cause to believe' exists when a probable inference from the available information is that the child's condition results from abuse.",
+          "relevance": "L.A. examines whether professionals and the Division met their duties before a child came to further harm.",
+          "quote": "The inference need not be the \"most probable,\" but it must be more than speculation or suspicion.",
+          "url": "https://www.courtlistener.com/opinion/7404636/la-v-new-jersey-division-of-youth-family-services/",
+          "courtlistener_cluster_id": 7404636
+        },
+        {
+          "case_name": "DeShaney v. Winnebago County Department of Social Services",
+          "citation": "489 U.S. 189 (1989)",
+          "court": "Supreme Court of the United States",
+          "year": 1989,
+          "date_decided": "1989-02-22",
+          "holding": "The Court held the Due Process Clause imposed no constitutional duty on the county to protect a child from his father's violence, even though the agency knew of the danger, absent a custodial or other special relationship.",
+          "relevance": "DeShaney is the controlling federal rule limiting constitutional liability when a child is harmed while known to the agency.",
+          "quote": "the Due Process Clauses generally confer no affirmative right to governmental aid, even where such aid may be necessary to secure life, liberty, or property interests",
+          "url": "https://www.courtlistener.com/opinion/112202/deshaney-v-winnebago-cty-dept-of-social-servs/",
+          "courtlistener_cluster_id": 112202
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22New%20Jersey%22%20AND%20%28%22New%20Jersey%20Department%20of%20Children%20and%20Families%22%20OR%20%22DCPP%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "New Jersey Department of Children and Families",
         "DCPP",
@@ -153,149 +183,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22New%20Jersey%22%20AND%20%28%22New%20Jersey%20Department%20of%20Children%20and%20Families%22%20OR%20%22DCPP%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "wrongful removal",
-        "1983 claim",
-        "civil rights",
-        "immunity",
-        "damages"
-      ],
-      "jurisdiction": "New Jersey state courts",
-      "key_cases": [
-        {
-          "case_id": "a-57-18",
-          "title": "S.C. v. New Jersey Department of Children and Families",
-          "url": "https://law.justia.com/cases/new-jersey/supreme-court/2020/a-57-18.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "New Jersey Supreme Court Case a-57-18 (2020)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "new jersey department of children and families"
-          ],
-          "child_welfare_reason": "High: DCF"
-        },
-        {
-          "case_id": "a-44-22",
-          "title": "DCPP v. D.C.A. and J.J.C.B.",
-          "url": "https://law.justia.com/cases/new-jersey/supreme-court/2023/a-44-22.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "New Jersey Supreme Court Case a-44-22 (2023)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "dcpp"
-          ],
-          "child_welfare_reason": "High: DCPP"
-        },
-        {
-          "case_id": "a-14-23",
-          "title": "New Jersey Division of Child Protection and Permanency v. A.P.",
-          "url": "https://law.justia.com/cases/new-jersey/supreme-court/2024/a-14-23.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "New Jersey Supreme Court Case a-14-23 (2024)",
-          "relevance_score": 1.2,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "Medium: permanency"
-        },
-        {
-          "case_id": "a-8-23",
-          "title": "New Jersey Division of Child Protection and Permanency v. J.C. and K.C.",
-          "url": "https://law.justia.com/cases/new-jersey/supreme-court/2024/a-8-23.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "New Jersey Supreme Court Case a-8-23 (2024)",
-          "relevance_score": 1.2,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "Medium: permanency"
-        },
-        {
-          "case_id": "a-56-22",
-          "title": "New Jersey Division of Child Protection and Permanency v. B.P.",
-          "url": "https://law.justia.com/cases/new-jersey/supreme-court/2024/a-56-22.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "New Jersey Supreme Court Case a-56-22 (2024)",
-          "relevance_score": 1.2,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "Medium: permanency"
-        },
-        {
-          "case_id": "a-26-24",
-          "title": "In the Matter of the Certificates of Nicholas Cilento, State Board of Examiners, New Jersey Department of Education",
-          "url": "https://law.justia.com/cases/new-jersey/supreme-court/2025/a-26-24.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Jersey Supreme Court Case a-26-24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "a-68-24",
-          "title": "In the Matter of the Verified Petition for the Proposed Creation of a PK-12 All-Purpose Regional School District",
-          "url": "https://law.justia.com/cases/new-jersey/supreme-court/2025/a-68-24.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Jersey Supreme Court Case a-68-24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "a-15-24",
-          "title": "In re the Matter Concerning the State Grand Jury",
-          "url": "https://law.justia.com/cases/new-jersey/supreme-court/2025/a-15-24.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Jersey Supreme Court Case a-15-24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a-61-62-19",
-          "title": "In re Opinion No. 735 of the Supreme Court Advisory Committee on Professional Ethics",
-          "url": "https://law.justia.com/cases/new-jersey/supreme-court/2025/a-61-62-19.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Jersey Supreme Court Case a-61-62-19 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a-33-24",
-          "title": "In the Matter of Protest Filed by El Sol Contracting and Construction Corp., Contract T100.638",
-          "url": "https://law.justia.com/cases/new-jersey/supreme-court/2025/a-33-24.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Jersey Supreme Court Case a-33-24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

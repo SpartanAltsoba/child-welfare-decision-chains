@@ -98,6 +98,84 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Oklahoma state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "In the Matter of the Adoption of S.A.H.",
+          "citation": "2022 OK 10, 503 P.3d 1190",
+          "court": "Supreme Court of Oklahoma",
+          "year": 2022,
+          "date_decided": "2022-02-01",
+          "holding": "The court affirmed the grandparents' adoption and the dismissal of a cousin's competing guardianship claim, holding the cousin had no statutory or constitutional right to custody of, or to notice of the adoption of, the child.",
+          "relevance": "S.A.H. marks the boundary of kinship preference: extended relatives beyond those the statutes name have no entitlement to placement or notice.",
+          "quote": "Cousin had no right--by statute or constitution--to notice of Grandparents' adoption.",
+          "url": "https://www.courtlistener.com/opinion/8242628/in-the-matter-of-the-adoption-of-sah/",
+          "courtlistener_cluster_id": 8242628
+        },
+        {
+          "case_name": "In the Matter of K.G. v. Department of Human Services",
+          "citation": "2002 OK CIV APP 65, 48 P.3d 131",
+          "court": "Court of Civil Appeals of Oklahoma",
+          "year": 2002,
+          "date_decided": "2002-05-07",
+          "holding": "The court affirmed the denial of foster grandparents' objection to DHS's emergency removal of their foster child, holding that the reasonable-suspicion standard governs whether an emergency justified physically removing a child from a foster home.",
+          "relevance": "The foster parents were the child's grandparents, and the case shows kinship status does not raise the agency's burden to move the child.",
+          "quote": "the trial court is faced with an inquiry into whether an emergency exists to justify physical removal of the child from an existing foster home, the reasonable suspicion standard applies",
+          "url": "https://www.courtlistener.com/opinion/5321404/kg-v-department-of-human-services/",
+          "courtlistener_cluster_id": 5321404
+        },
+        {
+          "case_name": "Cherokee Nation v. L.S. (In re B.B.A.)",
+          "citation": "2009 OK CIV APP 80, 224 P.3d 1285",
+          "court": "Court of Civil Appeals of Oklahoma",
+          "year": 2009,
+          "date_decided": "2009-09-11",
+          "holding": "The court affirmed a decree of adoption of an Indian child by a non-Indian family, finding no abuse of discretion in the trial court's conclusion that the biological parents' unified placement preference in a voluntary proceeding was good cause to deviate from the ICWA and OICWA preferences.",
+          "relevance": "The case marks the principal Oklahoma exception to mandatory tribal and extended-family placement preference in voluntary placements.",
+          "quote": "We cannot find the district court abused its discretion when it determined good cause existed to deviate from the statutory adoptive order of preferences",
+          "url": "https://www.courtlistener.com/opinion/5325949/cherokee-nation-v-ls/",
+          "courtlistener_cluster_id": 5325949
+        },
+        {
+          "case_name": "Katherine E. v. State, Department of Human Services",
+          "citation": "2011 OK CIV APP 3, 246 P.3d 1115",
+          "court": "Court of Civil Appeals of Oklahoma",
+          "year": 2010,
+          "date_decided": "2010-12-17",
+          "holding": "The court reversed the dismissal of out-of-state grandparents' adoption petition, holding they had standing after the parents' rights were terminated and that DHS's statutory power to consent to an adoption does not displace the court's duty to hear them on the child's best interests.",
+          "relevance": "It establishes that DHS's placement and consent preferences cannot foreclose a relative's statutory and due-process right to be heard.",
+          "quote": "the trial court erred when it dismissed Grandparents' adoption petition based on the best interests of the child, without providing Grandparents an opportunity to be heard",
+          "url": "https://www.courtlistener.com/opinion/5326259/katherine-e-v-state-department-of-human-services/",
+          "courtlistener_cluster_id": 5326259
+        },
+        {
+          "case_name": "Porter v. Comstock ex rel. Department of Human Services",
+          "citation": "2013 OK CIV APP 30, 298 P.3d 1203",
+          "court": "Court of Civil Appeals of Oklahoma",
+          "year": 2013,
+          "date_decided": "2013-02-15",
+          "holding": "The court affirmed the award of adoption to the children's out-of-state first cousin over long-term tribal foster parents, holding the foster parents had not shown good cause by clear and convincing evidence to depart from ICWA's extended-family placement preference.",
+          "relevance": "Porter holds that ICWA's extended-family preference outranks both attachment to a long-term foster home and the state kinship-preference statute.",
+          "quote": "the Porters did not demonstrate good cause, by clear and convincing evidence, to deviate from the mandatory placement preferences of the ICWA",
+          "url": "https://www.courtlistener.com/opinion/5328237/porter-v-comstock-ex-rel-department-of-human-services/",
+          "courtlistener_cluster_id": 5328237
+        },
+        {
+          "case_name": "Muggenborg v. Kessler",
+          "citation": "1981 OK 66, 630 P.2d 1276",
+          "court": "Supreme Court of Oklahoma",
+          "year": 1981,
+          "date_decided": "1981-06-09",
+          "holding": "The court granted a writ prohibiting enforcement of an adoption decree obtained ex parte by one grandparent, holding that grandparents whose custodial claims stand co-equal with the petitioner's were affected or interested parties constitutionally entitled to notice and an opportunity to be heard.",
+          "relevance": "Muggenborg is the Oklahoma Supreme Court source of the rule that relatives with a co-equal custodial claim cannot be cut out of a placement decision without notice, the authority Katherine E. applies.",
+          "quote": "Our view is, and we hold, that by the inexorable command of both the state and federal fundamental law notice to these petitioners was indeed their constitutional due.",
+          "url": "https://www.courtlistener.com/opinion/1167062/muggenborg-v-kessler/",
+          "courtlistener_cluster_id": 1167062
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Oklahoma%22%20AND%20%28%22Oklahoma%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Oklahoma Department of Human Services",
         "CPS",
@@ -109,149 +187,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Oklahoma%22%20AND%20%28%22Oklahoma%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "removal",
-        "emergency custody",
-        "placement",
-        "reunification",
-        "services"
-      ],
-      "jurisdiction": "Oklahoma state courts",
-      "key_cases": [
-        {
-          "case_id": "scbd-8012",
-          "title": "IN RE: Rules of the Supreme Court for Mandatory Continuing Legal Education",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/scbd-8012.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case scbd-8012 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "122249",
-          "title": "IN THE MATTER OF THE ESTATE OF EVANS v. GREER",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/122249.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case 122249 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "scbd-7913",
-          "title": "IN THE MATTER OF THE REINSTATEMENT OF BRANDY KEARNEY CHAMBERS",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/scbd-7913.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case scbd-7913 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "2025-ok-83",
-          "title": "In Re: Rules of the Supreme Court of the State of Oklahoma on Legal Internship",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/2025-ok-83.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case 2025-ok-83 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "121662",
-          "title": "In the Matter of the Estate of Hill v. Hill",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/121662.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case 121662 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "scbd-7792",
-          "title": "IN THE MATTER OF THE REINSTATEMENT OF CAREY",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/scbd-7792.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case scbd-7792 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "2025-ok-70",
-          "title": "In re: Amendments to Rule 24-Voluntary Retired Certificate Status and Inactive Status of the Rules of the State Board of Examiners of Certified Shorthand Reporters",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/2025-ok-70.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case 2025-ok-70 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "123007",
-          "title": "IN RE INITIATIVE PETITION NO. 448, STATE QUESTION NO. 836: THE OKLAHOMA REPUBLICAN PARTY v. SETTER",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/123007.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case 123007 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "123375",
-          "title": "IN THE MATTER OF THE DISCIPLINARY PROCEEDING CONCERNING MUELLER",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/123375.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case 123375 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "2025-ok-45",
-          "title": "IN RE: CERTIFICATION OF OKLAHOMA COURT REPORTERS",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/2025-ok-45.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case 2025-ok-45 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

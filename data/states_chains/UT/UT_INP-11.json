@@ -125,6 +125,84 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Utah state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "In re Adoption of Halloway",
+          "citation": "732 P.2d 962 (Utah 1986)",
+          "court": "Utah Supreme Court",
+          "year": 1986,
+          "date_decided": "1986-12-05",
+          "holding": "The Court held that ICWA domicile is a matter of federal law that state abandonment doctrine cannot defeat, so the Navajo Nation had exclusive jurisdiction over the adoption of a child whose mother was domiciled on the reservation; the United States Supreme Court later adopted this reasoning in Holyfield.",
+          "relevance": "It is the foundational Utah authority on ICWA's exclusive tribal jurisdiction, expressly approved by the Supreme Court in Mississippi Band of Choctaw Indians v. Holyfield.",
+          "quote": "the interests of the tribe in custodial decisions made with respect to Indian children are as entitled to respect as the interests of the parents",
+          "url": "https://www.courtlistener.com/opinion/1154237/matter-of-adoption-of-halloway/",
+          "courtlistener_cluster_id": 1154237
+        },
+        {
+          "case_name": "Mississippi Band of Choctaw Indians v. Holyfield",
+          "citation": "490 U.S. 30 (1989)",
+          "court": "Supreme Court of the United States",
+          "year": 1989,
+          "date_decided": "1989-04-03",
+          "holding": "The Court held that 'domicile' under ICWA is a matter of uniform federal law, that children born off-reservation to reservation-domiciled parents were domiciled on the reservation, and that the tribal court therefore had exclusive jurisdiction over their adoption.",
+          "relevance": "It is the controlling federal authority on ICWA's exclusive tribal jurisdiction, and it expressly adopts the Utah Supreme Court's reasoning in Halloway.",
+          "quote": "the law of domicile Congress used in the ICWA cannot be one that permits individual reservation-domiciled tribal members to defeat the tribe's exclusive jurisdiction",
+          "url": "https://www.courtlistener.com/opinion/112241/mississippi-band-of-choctaw-indians-v-holyfield/",
+          "courtlistener_cluster_id": 112241
+        },
+        {
+          "case_name": "In re Adoption of B.B.",
+          "citation": "2017 UT 59, 417 P.3d 1",
+          "court": "Utah Supreme Court",
+          "year": 2017,
+          "date_decided": "2017-08-31",
+          "holding": "The Court held that whether an unwed father has acknowledged or established paternity under ICWA is governed by a federal reasonability standard rather than state law, that the birth father qualified as a 'parent' under ICWA, and that he was entitled to notice of and intervention in the adoption.",
+          "relevance": "It is Utah's leading modern ICWA decision on who counts as a 'parent,' on federal rather than state definitions controlling, and on the rejection of the 'existing Indian family' exception.",
+          "quote": "because he acknowledged paternity as required under ICWA, he had a right to receive notice of and to intervene in the adoption proceeding",
+          "url": "https://www.courtlistener.com/opinion/4423655/adoption-bb-v-rkb/",
+          "courtlistener_cluster_id": 4423655
+        },
+        {
+          "case_name": "In re Adoption of B.B.",
+          "citation": "2020 UT 53",
+          "court": "Utah Supreme Court",
+          "year": 2020,
+          "date_decided": "2020-07-28",
+          "holding": "The Court held that the birth mother was domiciled in Utah at the child's birth and that initiating adoption proceedings is not an 'abandonment' shifting the child's domicile to the reservation, so the state district court had jurisdiction rather than exclusive tribal jurisdiction under 25 U.S.C. § 1911(a).",
+          "relevance": "It supplies the Utah test for the ICWA domicile question that decides whether a tribe has exclusive jurisdiction over a child custody proceeding.",
+          "quote": "Because a change of domicile occurs once a person establishes physical presence in a new jurisdiction with the intent to remain, we hold that C.C. was a Utah domiciliary",
+          "url": "https://www.courtlistener.com/opinion/4771533/in-re-adoption-of-bb/",
+          "courtlistener_cluster_id": 4771533
+        },
+        {
+          "case_name": "In re A.J.B.",
+          "citation": "2017 UT App 237, 414 P.3d 552",
+          "court": "Court of Appeals of Utah",
+          "year": 2017,
+          "date_decided": "2017-12-29",
+          "holding": "The court affirmed, holding that the juvenile court properly exercised jurisdiction where the child was found not to be an 'Indian child' (the mother's tribe being federally unrecognized) and did not abuse its discretion in declining to communicate with the tribal court, since the UCCJEA makes such communication permissive.",
+          "relevance": "It addresses the threshold ICWA question — federal recognition of the tribe — and the discretionary nature of state-tribal judicial communication in Utah.",
+          "quote": "we conclude that the juvenile court properly exercised its jurisdiction and did not abuse its discretion in declining to contact the tribal court",
+          "url": "https://www.courtlistener.com/opinion/6656169/state-ex-rel-ajb-v-state/",
+          "courtlistener_cluster_id": 6656169
+        },
+        {
+          "case_name": "A.D.T. v. State (In re C.D.)",
+          "citation": "2008 UT App 477, 200 P.3d 194",
+          "court": "Court of Appeals of Utah",
+          "year": 2008,
+          "date_decided": "2008-12-26",
+          "holding": "The court affirmed the finding that further ICWA active efforts with the grandfather would be futile, but held that the State must begin complying with ICWA's placement preferences immediately after the shelter hearing and demonstrate compliance, good cause to deviate, or a concrete plan by the dispositional hearing.",
+          "relevance": "It is Utah's most detailed appellate treatment of ICWA active efforts and placement preferences in a dependency case.",
+          "quote": "the State must begin its attempts to comply with the ICWA's placement preferences immediately after the shelter hearing",
+          "url": "https://www.courtlistener.com/opinion/5325594/adt-v-state/",
+          "courtlistener_cluster_id": 5325594
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Utah%22%20AND%20%28%22Utah%20Division%20of%20Child%20and%20Family%20Services%22%20OR%20%22DCFS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Utah Division of Child and Family Services",
         "DCFS",
@@ -136,148 +214,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Utah%22%20AND%20%28%22Utah%20Division%20of%20Child%20and%20Family%20Services%22%20OR%20%22DCFS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "mandatory reporting",
-        "failure to report",
-        "reporter immunity",
-        "hotline"
-      ],
-      "jurisdiction": "Utah state courts",
-      "key_cases": [
-        {
-          "case_id": "20231140",
-          "title": "In re Estate of Davies",
-          "url": "https://law.justia.com/cases/utah/supreme-court/2025/20231140.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Utah Supreme Court Case 20231140 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "20230726",
-          "title": "In re Adoption of B.C.",
-          "url": "https://law.justia.com/cases/utah/supreme-court/2025/20230726.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Utah Supreme Court Case 20230726 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "20230877",
-          "title": "In re D.S.",
-          "url": "https://law.justia.com/cases/utah/supreme-court/2025/20230877.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Utah Supreme Court Case 20230877 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "20220968",
-          "title": "In re E.M.",
-          "url": "https://law.justia.com/cases/utah/supreme-court/2025/20220968.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Utah Supreme Court Case 20220968 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "20221029",
-          "title": "In re A.H.",
-          "url": "https://law.justia.com/cases/utah/supreme-court/2024/20221029.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Utah Supreme Court Case 20221029 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "20220372",
-          "title": "In re Estate of Goldberg",
-          "url": "https://law.justia.com/cases/utah/supreme-court/2024/20220372.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Utah Supreme Court Case 20220372 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "20221097",
-          "title": "In re Adoption of M.A.",
-          "url": "https://law.justia.com/cases/utah/supreme-court/2024/20221097.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Utah Supreme Court Case 20221097 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "20220580",
-          "title": "In re C.D.S.",
-          "url": "https://law.justia.com/cases/utah/supreme-court/2023/20220580.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Utah Supreme Court Case 20220580 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "20210776",
-          "title": "In re A.B.",
-          "url": "https://law.justia.com/cases/utah/supreme-court/2022/20210776.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Utah Supreme Court Case 20210776 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "20200271",
-          "title": "In re J.L.",
-          "url": "https://law.justia.com/cases/utah/supreme-court/2022/20200271.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Utah Supreme Court Case 20200271 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

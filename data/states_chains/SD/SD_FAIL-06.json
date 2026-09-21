@@ -152,6 +152,84 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "South Dakota state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "Mercer v. South Dakota Attorney General Office",
+          "citation": "2015 S.D. 31, 864 N.W.2d 299",
+          "court": "South Dakota Supreme Court",
+          "year": 2015,
+          "date_decided": "2015-05-13",
+          "holding": "The court affirmed denial of a public records request for a death investigation file, holding SDCL 1-27-1.5(5) and SDCL 23-5-11 expressly exempt law enforcement investigative reports and confidential criminal justice information, and that no right to redaction or partial release exists.",
+          "relevance": "It is the controlling South Dakota decision on when the State may lawfully withhold investigative records from the public, and it points the remedy to the Legislature.",
+          "quote": "The records developed or received by the agencies charged with the duty to investigate Benda's death constitute confidential criminal justice information as defined by statute.",
+          "url": "https://www.courtlistener.com/opinion/2800709/mercer-v-south-dakota-attorney-general-office/",
+          "courtlistener_cluster_id": 2800709
+        },
+        {
+          "case_name": "Matter of Implicated Individual",
+          "citation": "2023 S.D. 16, 989 N.W.2d 517",
+          "court": "South Dakota Supreme Court",
+          "year": 2023,
+          "date_decided": "2023-04-05",
+          "holding": "The court affirmed the order unsealing search warrant affidavits after the investigation closed, holding no statute entitles the implicated individual to inspect the affidavits or participate in redaction before unsealing, and the circuit court did not abuse its discretion in denying that request.",
+          "relevance": "It establishes that sealing of investigative court records in South Dakota is time-limited and that public access presumptively resumes when the investigation ends.",
+          "quote": "There is nothing in SDCL 23A-35-4.1 or SDCL 15-15A-13 that mandates the circuit court to allow such an inspection.",
+          "url": "https://www.courtlistener.com/opinion/9385298/matter-of-implicated-individual/",
+          "courtlistener_cluster_id": 9389822
+        },
+        {
+          "case_name": "Argus Leader Media v. Hogstad",
+          "citation": "2017 S.D. 57, 902 N.W.2d 778",
+          "court": "South Dakota Supreme Court",
+          "year": 2017,
+          "date_decided": "2017-09-20",
+          "holding": "The court reversed and held that a city's confidential construction settlement agreement is a public record open to inspection, because the Public Records Act's presumption of openness and the SDCL 1-27-1.3 directive to construe fiscal records liberally require narrow construction of the SDCL 1-27-1.5(20) exception.",
+          "relevance": "It holds that a public body cannot defeat disclosure by having contracted for confidentiality, which is the answer to an agency that withholds records it agreed to keep secret.",
+          "quote": "Therefore, in accordance with that presumption of openness and the requirement that we construe the statute liberally in favor of openness, we must narrowly construe the exception with subdivision (20).",
+          "url": "https://www.courtlistener.com/opinion/4427727/argus-leader-media-v-hogstad/",
+          "courtlistener_cluster_id": 4427727
+        },
+        {
+          "case_name": "Rapid City Journal v. Delaney",
+          "citation": "2011 S.D. 55, 804 N.W.2d 388",
+          "court": "South Dakota Supreme Court",
+          "year": 2011,
+          "date_decided": "2011-09-07",
+          "holding": "The court granted a permanent writ of prohibition against a circuit judge's closure and gag orders, holding that the First Amendment affords the media and public a qualified right of access to civil trials and adopting the Publicker requirement of an articulated overriding interest, specific findings, and narrow tailoring before closure.",
+          "relevance": "A closure or sealing order entered without an articulated overriding interest, findings specific enough for appellate review, and narrow tailoring is subject to a writ of prohibition.",
+          "quote": "We, therefore, hold that the First Amendment affords the media and public a qualified right of access to civil trials in this state.",
+          "url": "https://www.courtlistener.com/opinion/902061/rapid-city-journal-v-delaney/",
+          "courtlistener_cluster_id": 902061
+        },
+        {
+          "case_name": "Rapid City Journal v. Callahan",
+          "citation": "2022 S.D. 38, 977 N.W.2d 742",
+          "court": "South Dakota Supreme Court",
+          "year": 2022,
+          "date_decided": "2022-06-22",
+          "holding": "The court held that a newspaper has standing to challenge an order sealing a criminal court file, declined to give a corrective nunc pro tunc order retroactive effect against the newspaper's pending access request, and granted mandamus directing access to the file as it existed up to the amended order.",
+          "relevance": "It holds that a court may not retroactively cure a premature seal through a nunc pro tunc order so as to extinguish a third party's already-pending access request.",
+          "quote": "Therefore, the Journal has standing to challenge the validity of Judge Callahan's October 4, 2021 seal order.",
+          "url": "https://www.courtlistener.com/opinion/9508040/rapid-city-journal-v-callahan/",
+          "courtlistener_cluster_id": 9508040
+        },
+        {
+          "case_name": "Small v. State",
+          "citation": "2003 S.D. 29, 659 N.W.2d 15",
+          "court": "South Dakota Supreme Court",
+          "year": 2003,
+          "date_decided": "2003-03-12",
+          "holding": "The court affirmed dismissal of a declaratory judgment action attacking a central registry listing, holding that the SDCL 26-8A-11 administrative decision had to be appealed under SDCL ch. 1-26 and that the failure to do so was a jurisdictional defect.",
+          "relevance": "The listing surfaced only through a tribal foster-care screening, illustrating how registry information is disclosed and how little recourse attaches after the appeal window closes.",
+          "quote": "The Smalls' decision not to appeal pursuant to SDCL ch 1-26 deprived the circuit court of jurisdiction.",
+          "url": "https://www.courtlistener.com/opinion/901134/small-v-state/",
+          "courtlistener_cluster_id": 901134
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22South%20Dakota%22%20AND%20%28%22South%20Dakota%20Department%20of%20Social%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "South Dakota Department of Social Services",
         "CPS",
@@ -163,149 +241,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22South%20Dakota%22%20AND%20%28%22South%20Dakota%20Department%20of%20Social%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "wrongful removal",
-        "1983 claim",
-        "civil rights",
-        "immunity",
-        "damages"
-      ],
-      "jurisdiction": "South Dakota state courts",
-      "key_cases": [
-        {
-          "case_id": "30810",
-          "title": "Interest Of J.W.",
-          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2025/30810.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "South Dakota Supreme Court Case 30810 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of initials"
-        },
-        {
-          "case_id": "30520",
-          "title": "In the Matter of the Estate Of Mack",
-          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2025/30520.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "South Dakota Supreme Court Case 30520 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "30549",
-          "title": "Interest Of N.K.",
-          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2024/30549.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "South Dakota Supreme Court Case 30549 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of initials"
-        },
-        {
-          "case_id": "30081",
-          "title": "In the Matter of the Estate Of Simon",
-          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2024/30081.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "South Dakota Supreme Court Case 30081 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "30320",
-          "title": "In the Matter of the Adoption of I.V.E.",
-          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2024/30320.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "South Dakota Supreme Court Case 30320 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of adoption, Matter of"
-        },
-        {
-          "case_id": "30166",
-          "title": "In re Estate Of Schmeling",
-          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2024/30166.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "South Dakota Supreme Court Case 30166 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "30488",
-          "title": "In The Matter Of The Interpretation Of South Dakota Constitution And State Law Re: State Legislator’s Interest In State Or County Contracts",
-          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2024/30488.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "South Dakota Supreme Court Case 30488 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "29809",
-          "title": "In re Estate of Tank",
-          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2023/29809.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "South Dakota Supreme Court Case 29809 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "29873",
-          "title": "In re S.A.",
-          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2023/29873.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "South Dakota Supreme Court Case 29873 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "29745",
-          "title": "In re Fred Petersen Living Trust",
-          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2023/29745.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "South Dakota Supreme Court Case 29745 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

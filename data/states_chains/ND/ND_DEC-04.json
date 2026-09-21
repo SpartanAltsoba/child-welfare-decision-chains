@@ -177,6 +177,48 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "North Dakota state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "K.D. v. County of Crow Wing",
+          "citation": "434 F.3d 1051 (8th Cir. 2006)",
+          "court": "United States Court of Appeals for the Eighth Circuit",
+          "year": 2006,
+          "date_decided": "2006-01-18",
+          "holding": "Affirming summary judgment for county and city defendants, the court held that removal of a child without a court order is constitutionally permitted only where continued parental custody poses an imminent threat, that officials acting on a reasonable suspicion of abuse have qualified immunity, and that after such a removal the state must promptly initiate judicial proceedings.",
+          "relevance": "States the imminent-threat standard that governs any decision to remove a child before a court order is obtained.",
+          "quote": "In cases in which continued parental custody poses an imminent threat to the child's health or welfare, emergency removal of children without a court order is constitutionally permitted.",
+          "url": "https://www.courtlistener.com/opinion/792986/kd-a-minor-through-his-mother-michelle-deason/",
+          "courtlistener_cluster_id": 792986
+        },
+        {
+          "case_name": "Dornheim v. Sholes",
+          "citation": "430 F.3d 919 (8th Cir. 2005)",
+          "court": "United States Court of Appeals for the Eighth Circuit",
+          "year": 2005,
+          "date_decided": "2005-12-07",
+          "holding": "Affirming dismissal of North Dakota parents' § 1983 suit against a social worker and others, the court recognized the parents' substantive due process interest in familial integrity but held that officials pursuing a child-abuse investigation retain qualified immunity when their actions rest on a reasonable suspicion of child abuse.",
+          "relevance": "Measures an emergency intervention decision against the reasonable-suspicion standard that governs caseworker immunity.",
+          "quote": "We have long recognized that parents have a liberty interest in familial relationships and have an important substantive due process right to control the care and custody of their children.",
+          "url": "https://www.courtlistener.com/opinion/3039317/marybeth-dornheim-v-michael-sholes/",
+          "courtlistener_cluster_id": 3039317
+        },
+        {
+          "case_name": "Stanley v. Illinois",
+          "citation": "405 U.S. 645 (1972)",
+          "court": "Supreme Court of the United States",
+          "year": 1972,
+          "date_decided": "1972-04-03",
+          "holding": "The Court held that an unwed father was entitled as a matter of due process to a hearing on his fitness before his children could be taken from him, and that Illinois's presumption of unfitness for unwed fathers, while affording a hearing to every other parent, denied him equal protection.",
+          "relevance": "Explains why administrative convenience and a generalized presumption cannot justify taking custody without an individualized determination about this parent.",
+          "quote": "We conclude that, as a matter of due process of law, Stanley was entitled to a hearing on his fitness as a parent before his children were taken from him",
+          "url": "https://www.courtlistener.com/opinion/108497/stanley-v-illinois/",
+          "courtlistener_cluster_id": 108497
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22North%20Dakota%22%20AND%20%28%22North%20Dakota%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "North Dakota Department of Human Services",
         "CPS",
@@ -188,149 +230,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22North%20Dakota%22%20AND%20%28%22North%20Dakota%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "investigation",
-        "substantiation",
-        "evidence standard",
-        "due process",
-        "reasonable efforts"
-      ],
-      "jurisdiction": "North Dakota state courts",
-      "key_cases": [
-        {
-          "case_id": "20250206",
-          "title": "Matter of Hansen Trust",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2025/20250206.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20250206 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "20250378",
-          "title": "Interest of J.C. 2025 ND 217",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2025/20250378.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20250378 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of initials"
-        },
-        {
-          "case_id": "20250379",
-          "title": "Interest of S.C.Y.",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2025/20250379.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20250379 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of initials"
-        },
-        {
-          "case_id": "20250394",
-          "title": "Interest of G.S. 2025 ND 214",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2025/20250394.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20250394 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of initials"
-        },
-        {
-          "case_id": "20250395",
-          "title": "Interest of A.S. 2025 ND 214",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2025/20250395.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20250395 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of initials"
-        },
-        {
-          "case_id": "20250371",
-          "title": "Interest of A.D.-B. 2025 ND 203",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2025/20250371.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20250371 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of initials"
-        },
-        {
-          "case_id": "20250372",
-          "title": "Interest of M.D.-B. 2025 ND 203",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2025/20250372.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20250372 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of initials"
-        },
-        {
-          "case_id": "20250373",
-          "title": "Interest of C.B. 2025 ND 203",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2025/20250373.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20250373 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of initials"
-        },
-        {
-          "case_id": "20250397",
-          "title": "Interest of B.L.H. 2025 ND 207",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2025/20250397.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20250397 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of initials"
-        },
-        {
-          "case_id": "20250320",
-          "title": "Interest of M.P. 2025 ND 181",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2025/20250320.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20250320 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of initials"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

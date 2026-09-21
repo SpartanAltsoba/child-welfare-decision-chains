@@ -160,6 +160,84 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "North Carolina state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Santosky v. Kramer",
+          "citation": "455 U.S. 745 (1982)",
+          "court": "Supreme Court of the United States",
+          "year": 1982,
+          "date_decided": "1982-02-22",
+          "holding": "The Supreme Court held that before a State may permanently terminate parental rights, the Due Process Clause requires proof of its allegations by at least clear and convincing evidence, striking down a preponderance standard.",
+          "relevance": "It is the federal constitutional source of North Carolina's clear, cogent, and convincing standard at the termination adjudication stage.",
+          "quote": "due process requires that the State support its allegations by at least clear and convincing evidence",
+          "url": "https://www.courtlistener.com/opinion/110676/santosky-v-kramer/",
+          "courtlistener_cluster_id": 110676
+        },
+        {
+          "case_name": "In re Montgomery",
+          "citation": "311 N.C. 101, 316 S.E.2d 246 (1984)",
+          "court": "Supreme Court of North Carolina",
+          "year": 1984,
+          "date_decided": "1984-06-05",
+          "holding": "The Supreme Court upheld the statutory neglect ground for termination and held that neglect turns on the circumstances and conditions surrounding the child rather than on parental fault, reversing the Court of Appeals' narrower construction.",
+          "relevance": "It is the leading NC authority on the neglect ground for termination and on the two-stage adjudication/disposition structure.",
+          "quote": "In determining whether a child is neglected, the determinative factors are the circumstances and conditions surrounding the child, not the fault or culpability of the parent.",
+          "url": "https://www.courtlistener.com/opinion/1333701/matter-of-montgomery/",
+          "courtlistener_cluster_id": 1333701
+        },
+        {
+          "case_name": "In re Ballard",
+          "citation": "311 N.C. 708, 319 S.E.2d 227 (1984)",
+          "court": "Supreme Court of North Carolina",
+          "year": 1984,
+          "date_decided": "1984-08-28",
+          "holding": "The Supreme Court held that evidence of neglect predating loss of custody, including a prior adjudication, is admissible in a termination proceeding, but the trial court must make an independent present-day determination that weighs changed conditions against the history of neglect and the probability that neglect would recur.",
+          "relevance": "It bars treating a prior neglect adjudication as conclusive and requires a current finding of likely repetition.",
+          "quote": "The trial court must also consider any evidence of changed conditions in light of the evidence of prior neglect and the probability of a repetition of neglect.",
+          "url": "https://www.courtlistener.com/opinion/1350033/matter-of-ballard/",
+          "courtlistener_cluster_id": 1350033
+        },
+        {
+          "case_name": "In re Young",
+          "citation": "346 N.C. 244, 485 S.E.2d 612 (1997)",
+          "court": "Supreme Court of North Carolina",
+          "year": 1997,
+          "date_decided": "1997-06-06",
+          "holding": "The Supreme Court reversed a termination order, holding that the trial court's findings did not support the conclusions of neglect or willful abandonment because the evidence failed to show a willful determination to forego all parental duties.",
+          "relevance": "Young states the burden and two-stage structure governing every NC termination and shows that findings must actually support each ground.",
+          "quote": "At the adjudication stage, the party petitioning for the termination must show by clear, cogent, and convincing evidence that grounds authorizing the termination of parental rights exist.",
+          "url": "https://www.courtlistener.com/opinion/1204906/in-re-young/",
+          "courtlistener_cluster_id": 1204906
+        },
+        {
+          "case_name": "In re B.O.A.",
+          "citation": "372 N.C. 372, 831 S.E.2d 305 (2019)",
+          "court": "Supreme Court of North Carolina",
+          "year": 2019,
+          "date_decided": "2019-08-16",
+          "holding": "The Supreme Court held that a parent's failure to comply with a court-approved case plan supports termination under N.C.G.S. § 7B-1111(a)(2) so long as the case plan provision addresses an issue that directly or indirectly contributed to the child's removal, and it reversed the Court of Appeals' contrary, narrower reading.",
+          "relevance": "It governs the § 7B-1111(a)(2) 'reasonable progress' ground for termination.",
+          "quote": "parental compliance with a judicially adopted case plan is relevant in determining whether grounds for termination exist",
+          "url": "https://www.courtlistener.com/opinion/4649087/in-re-boa/",
+          "courtlistener_cluster_id": 4649087
+        },
+        {
+          "case_name": "Lassiter v. Department of Social Services of Durham County",
+          "citation": "452 U.S. 18 (1981)",
+          "court": "Supreme Court of the United States",
+          "year": 1981,
+          "date_decided": "1981-08-28",
+          "holding": "The Supreme Court held, in an appeal from a North Carolina termination order, that due process does not require appointment of counsel for an indigent parent in every termination proceeding; the trial court must decide case by case under the Eldridge factors, subject to appellate review.",
+          "relevance": "Lassiter is the federal constitutional floor for a parent's right to counsel in termination proceedings and arose out of a Durham County, North Carolina case.",
+          "quote": "neither can we say that the Constitution requires the appointment of counsel in every parental termination proceeding",
+          "url": "https://www.courtlistener.com/opinion/110506/lassiter-v-department-of-social-servs-of-durham-cty/",
+          "courtlistener_cluster_id": 110506
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22North%20Carolina%22%20AND%20%28%22North%20Carolina%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "North Carolina Department of Health and Human Services",
         "CPS",
@@ -171,149 +249,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22North%20Carolina%22%20AND%20%28%22North%20Carolina%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "termination of parental rights",
-        "TPR",
-        "adoption",
-        "permanency",
-        "aging out"
-      ],
-      "jurisdiction": "North Carolina state courts",
-      "key_cases": [
-        {
-          "case_id": "265pa24",
-          "title": "In re A.D.H",
-          "url": "https://law.justia.com/cases/north-carolina/supreme-court/2025/265pa24.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Carolina Supreme Court Case 265pa24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "92a25",
-          "title": "In re Godfrey",
-          "url": "https://law.justia.com/cases/north-carolina/supreme-court/2025/92a25.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Carolina Supreme Court Case 92a25 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "188pa24",
-          "title": "In re E.H. & R.H.",
-          "url": "https://law.justia.com/cases/north-carolina/supreme-court/2025/188pa24.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Carolina Supreme Court Case 188pa24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "321a24",
-          "title": "In re Kimble",
-          "url": "https://law.justia.com/cases/north-carolina/supreme-court/2025/321a24.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Carolina Supreme Court Case 321a24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "168pa22",
-          "title": "Doe v. Roman Cath. Diocese",
-          "url": "https://law.justia.com/cases/north-carolina/supreme-court/2025/168pa22.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Carolina Supreme Court Case 168pa22 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        },
-        {
-          "case_id": "25-366",
-          "title": "In re: S.A.B.S",
-          "url": "https://law.justia.com/cases/north-carolina/court-of-appeals/2025/25-366.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "North Carolina Court Of Appeals Case 25-366 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "25-140",
-          "title": "In re: D.V.P",
-          "url": "https://law.justia.com/cases/north-carolina/court-of-appeals/2025/25-140.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "North Carolina Court Of Appeals Case 25-140 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "25-228",
-          "title": "In re: A.R.-B",
-          "url": "https://law.justia.com/cases/north-carolina/court-of-appeals/2025/25-228.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "North Carolina Court Of Appeals Case 25-228 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "25-341",
-          "title": "In re: A.M.B",
-          "url": "https://law.justia.com/cases/north-carolina/court-of-appeals/2025/25-341.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "North Carolina Court Of Appeals Case 25-341 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "25-375",
-          "title": "In re: I.H., A.H., R.H",
-          "url": "https://law.justia.com/cases/north-carolina/court-of-appeals/2025/25-375.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "North Carolina Court Of Appeals Case 25-375 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

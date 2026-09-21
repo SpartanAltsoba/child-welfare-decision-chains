@@ -99,6 +99,84 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Massachusetts state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Guardianship of V.V.",
+          "citation": "470 Mass. 590, 24 N.E.3d 1022 (2015)",
+          "court": "Massachusetts Supreme Judicial Court",
+          "year": 2015,
+          "date_decided": "2015-02-10",
+          "holding": "The SJC held that an indigent parent is entitled to appointed counsel in a private guardianship proceeding concerning her child, reasoning that the parent's liberty interest does not depend on whether the State is a party.",
+          "relevance": "V.V. is the SJC's foundational holding on counsel for indigent parents in guardianship permanency proceedings.",
+          "quote": "There is no reason why an indigent parent whose child is the subject of a guardianship proceeding should receive the benefit of counsel only if the State is involved.",
+          "url": "https://www.courtlistener.com/opinion/2778096/guardianship-of-vv/",
+          "courtlistener_cluster_id": 2778096
+        },
+        {
+          "case_name": "Guardianship of K.N.",
+          "citation": "476 Mass. 762, 73 N.E.3d 271 (2017)",
+          "court": "Massachusetts Supreme Judicial Court",
+          "year": 2017,
+          "date_decided": "2017-04-13",
+          "holding": "The SJC held that a guardian who is a de facto parent has no liberty interest supporting a procedural due process right to counsel in a removal proceeding, but that the Probate and Family Court's equitable powers permit a judge to appoint counsel for an indigent guardian where the child's best interests warrant it.",
+          "relevance": "K.N. distinguishes the constitutional entitlements of parents from the equitable, discretionary protections available to guardians in permanency proceedings.",
+          "quote": "A guardian who is a de facto parent does not have a liberty interest in her relationship with her ward sufficient to warrant the appointment of counsel.",
+          "url": "https://www.courtlistener.com/opinion/4382785/guardianship-of-kn/",
+          "courtlistener_cluster_id": 4382785
+        },
+        {
+          "case_name": "Adoption of Hugo",
+          "citation": "428 Mass. 219, 700 N.E.2d 516 (1998)",
+          "court": "Massachusetts Supreme Judicial Court",
+          "year": 1998,
+          "date_decided": "1998-10-14",
+          "holding": "The SJC affirmed the Juvenile Court judge's choice of the parents' plan for adoption by a paternal aunt over the department's plan for adoption by the foster mother, holding that the judge owes an even-handed assessment of competing plans and that his decision is entitled to substantial deference.",
+          "relevance": "Hugo governs the comparative evaluation of kinship and non-kinship permanency options.",
+          "quote": "A judge should provide an “even handed” assessment of all the facts surrounding both the department’s plan and any competing custody or adoption plan.",
+          "url": "https://www.courtlistener.com/opinion/6577721/adoption-of-hugo/",
+          "courtlistener_cluster_id": 6577721
+        },
+        {
+          "case_name": "Adoption of Nancy",
+          "citation": "443 Mass. 512, 822 N.E.2d 1179 (2005)",
+          "court": "Massachusetts Supreme Judicial Court",
+          "year": 2005,
+          "date_decided": "2005-02-24",
+          "holding": "The SJC reversed the Appeals Court and upheld termination of the father's rights, holding that termination may be ordered even where it is not a necessary prerequisite to the children's permanency plans, so long as the judge finds it serves the children's best interests.",
+          "relevance": "The opinion addresses the \"legal orphan\" objection raised when permanency is achieved through guardianship or long-term care rather than adoption.",
+          "quote": "we conclude that termination may be ordered, even though termination is not a necessary prerequisite to a child’s permanency plan",
+          "url": "https://www.courtlistener.com/opinion/6579091/adoption-of-nancy/",
+          "courtlistener_cluster_id": 6579091
+        },
+        {
+          "case_name": "Youmans v. Ramos",
+          "citation": "429 Mass. 774, 711 N.E.2d 165 (1999)",
+          "court": "Massachusetts Supreme Judicial Court",
+          "year": 1999,
+          "date_decided": "1999-06-22",
+          "holding": "The SJC affirmed a Probate and Family Court judgment awarding the father custody of his daughter but ordering continuing visitation between the child and the maternal aunt who had been her guardian and de facto parent, holding that the judge's reliance on the child's best interests was appropriate and fell within the court's general equity jurisdiction notwithstanding the absence of any statute authorizing visitation for an aunt or former guardian.",
+          "relevance": "Youmans is the SJC's foundational treatment of de facto parenthood and of the Probate and Family Court's equitable authority to preserve the child's relationship with a former guardian, the companion to Guardianship of K.N.",
+          "quote": "The judge's consideration of Tamika's best interests was entirely appropriate.",
+          "url": "https://www.courtlistener.com/opinion/6577898/youmans-v-ramos/",
+          "courtlistener_cluster_id": 6577898
+        },
+        {
+          "case_name": "Care & Protection of Three Minors",
+          "citation": "392 Mass. 704, 467 N.E.2d 851 (1984)",
+          "court": "Massachusetts Supreme Judicial Court",
+          "year": 1984,
+          "date_decided": "1984-08-13",
+          "holding": "The SJC affirmed the finding that the mother was currently unfit by clear and convincing evidence but vacated the order committing the three sisters permanently to the department and remanded, because the judge's findings failed to address the importance of the sibling relationship and whether placing all three children with their paternal grandparents would serve their best interests.",
+          "relevance": "A permanency disposition that scatters siblings and passes over an available grandparent placement cannot stand without findings addressing both.",
+          "quote": "The courts of this Commonwealth have recognized the importance of siblings' being raised together.",
+          "url": "https://www.courtlistener.com/opinion/2027382/care-protection-of-three-minors/",
+          "courtlistener_cluster_id": 2027382
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Massachusetts%22%20AND%20%28%22Massachusetts%20Department%20of%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Massachusetts Department of Children and Families",
         "DCF",
@@ -110,149 +188,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Massachusetts%22%20AND%20%28%22Massachusetts%20Department%20of%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "termination of parental rights",
-        "TPR",
-        "adoption",
-        "permanency",
-        "aging out"
-      ],
-      "jurisdiction": "Massachusetts state courts",
-      "key_cases": [
-        {
-          "case_id": "sjc-13668",
-          "title": "Guardianship of Wilson",
-          "url": "https://law.justia.com/cases/massachusetts/supreme-court/2025/sjc-13668.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Massachusetts Supreme Court Case sjc-13668 (2025)",
-          "relevance_score": 2.2,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "Medium: guardianship"
-        },
-        {
-          "case_id": "22-p-1100",
-          "title": "Guardianship of Raya",
-          "url": "https://law.justia.com/cases/massachusetts/court-of-appeals/2023/22-p-1100.html",
-          "year": 2023,
-          "court": "Court Of Appeals",
-          "citation": "Massachusetts Court Of Appeals Case 22-p-1100 (2023)",
-          "relevance_score": 2.2,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "Medium: guardianship"
-        },
-        {
-          "case_id": "21-p-1047",
-          "title": "Guardianship of C.A.",
-          "url": "https://law.justia.com/cases/massachusetts/court-of-appeals/2023/21-p-1047.html",
-          "year": 2023,
-          "court": "Court Of Appeals",
-          "citation": "Massachusetts Court Of Appeals Case 21-p-1047 (2023)",
-          "relevance_score": 2.2,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "Medium: guardianship"
-        },
-        {
-          "case_id": "22-p-53-ac-22-p-58",
-          "title": "Guardianship of Ingrid; Guardianship of Hannah",
-          "url": "https://law.justia.com/cases/massachusetts/court-of-appeals/2022/22-p-53-ac-22-p-58.html",
-          "year": 2022,
-          "court": "Court Of Appeals",
-          "citation": "Massachusetts Court Of Appeals Case 22-p-53-ac-22-p-58 (2022)",
-          "relevance_score": 2.2,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "Medium: guardianship"
-        },
-        {
-          "case_id": "20-p-672",
-          "title": "Guardianship of Keanu",
-          "url": "https://law.justia.com/cases/massachusetts/court-of-appeals/2021/20-p-672.html",
-          "year": 2021,
-          "court": "Court Of Appeals",
-          "citation": "Massachusetts Court Of Appeals Case 20-p-672 (2021)",
-          "relevance_score": 2.2,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "Medium: guardianship"
-        },
-        {
-          "case_id": "20-p-2",
-          "title": "Guardianship of A.R.",
-          "url": "https://law.justia.com/cases/massachusetts/court-of-appeals/2021/20-p-2.html",
-          "year": 2021,
-          "court": "Court Of Appeals",
-          "citation": "Massachusetts Court Of Appeals Case 20-p-2 (2021)",
-          "relevance_score": 2.2,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "Medium: guardianship"
-        },
-        {
-          "case_id": "19-p-1029",
-          "title": "Guardianship of a Minor",
-          "url": "https://law.justia.com/cases/massachusetts/court-of-appeals/2020/19-p-1029.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Massachusetts Court Of Appeals Case 19-p-1029 (2020)",
-          "relevance_score": 2.2,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "Medium: guardianship"
-        },
-        {
-          "case_id": "19-p-296",
-          "title": "Guardianship of Minor Children",
-          "url": "https://law.justia.com/cases/massachusetts/court-of-appeals/2020/19-p-296.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Massachusetts Court Of Appeals Case 19-p-296 (2020)",
-          "relevance_score": 2.2,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "Medium: guardianship"
-        },
-        {
-          "case_id": "18-p-1531",
-          "title": "Guardianship of Tara",
-          "url": "https://law.justia.com/cases/massachusetts/court-of-appeals/2020/18-p-1531.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Massachusetts Court Of Appeals Case 18-p-1531 (2020)",
-          "relevance_score": 2.2,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "Medium: guardianship"
-        },
-        {
-          "case_id": "22-p-35",
-          "title": "Kyle K. v. Department of Children and Families",
-          "url": "https://law.justia.com/cases/massachusetts/court-of-appeals/2023/22-p-35.html",
-          "year": 2023,
-          "court": "Court Of Appeals",
-          "citation": "Massachusetts Court Of Appeals Case 22-p-35 (2023)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "dcf"
-          ],
-          "child_welfare_reason": "High: DCF"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

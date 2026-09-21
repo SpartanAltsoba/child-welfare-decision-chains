@@ -92,6 +92,36 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Arkansas state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Contreras v. Arkansas Department of Human Services",
+          "citation": "2014 Ark. 51, 431 S.W.3d 297",
+          "court": "Supreme Court of Arkansas",
+          "year": 2014,
+          "date_decided": "2014-02-06",
+          "holding": "The court reversed a permanency-planning and case-closure order, holding that a sufficiency challenge is preserved in a nonjury juvenile case without a motion below and that the evidence did not support the finding that the placement was in the child's best interest.",
+          "relevance": "It governs review of the permanency and case-closure orders that determine whether a youth stays in the system.",
+          "quote": "This court reviews findings in dependency-neglect proceedings de novo, but we will not reverse the trial court's findings unless they are clearly erroneous.",
+          "url": "https://www.courtlistener.com/opinion/2652429/contreras-v-arkansas-department-of-human-services/",
+          "courtlistener_cluster_id": 2652429
+        },
+        {
+          "case_name": "Helms v. Arkansas Department of Human Services",
+          "citation": "2023 Ark. App. 158",
+          "court": "Court of Appeals of Arkansas",
+          "year": 2023,
+          "date_decided": "2023-03-15",
+          "holding": "Sitting in three divisions, the court affirmed termination on the aggravated-circumstances ground, holding that the evidence supported a finding of little likelihood that further reunification services would succeed given the child's severe therapeutic needs and the father's limited engagement.",
+          "relevance": "It shows how a child's ongoing therapeutic and support needs shape the court's assessment of what continued state care must provide.",
+          "quote": "In our de novo review of the evidence, we cannot say that the circuit court erred in concluding that there was little likelihood that services would result in successful reunification.",
+          "url": "https://www.courtlistener.com/opinion/9383879/shane-helms-v-arkansas-department-of-human-services-and-minor-chil/",
+          "courtlistener_cluster_id": 9383879
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Arkansas%22%20AND%20%28%22Arkansas%20Department%20of%20Human%20Services%22%20OR%20%22Arkansas%20DCFS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Arkansas Department of Human Services",
         "Arkansas DCFS",
@@ -103,149 +133,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Arkansas%22%20AND%20%28%22Arkansas%20Department%20of%20Human%20Services%22%20OR%20%22Arkansas%20DCFS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "termination of parental rights",
-        "TPR",
-        "adoption",
-        "permanency",
-        "aging out"
-      ],
-      "jurisdiction": "Arkansas state courts",
-      "key_cases": [
-        {
-          "case_id": "cv-22-324",
-          "title": "CAREY D. BELL v. ARKANSAS DEPARTMENT OF HUMAN SERVICES AND MINOR CHILD (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2022/cv-22-324.html",
-          "year": 2022,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-22-324 (2022)",
-          "relevance_score": 2.2,
-          "matched_keywords": [
-            "arkansas department of human services"
-          ],
-          "child_welfare_reason": "Medium: minor child"
-        },
-        {
-          "case_id": "2025-ark-220",
-          "title": "IN RE ADOPTION OF ARKANSAS SUPREME COURT ADMINISTRATIVE ORDER NO. 25 ARTIFICIAL INTELLIGENCE (Per Curiam)",
-          "url": "https://law.justia.com/cases/arkansas/supreme-court/2025/2025-ark-220.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Arkansas Supreme Court Case 2025-ark-220 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "2025-ark-119",
-          "title": "IN RE ADOPTION OF NEXTGEN BAR EXAMINATION (Per Curiam)",
-          "url": "https://law.justia.com/cases/arkansas/supreme-court/2025/2025-ark-119.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Arkansas Supreme Court Case 2025-ark-119 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "cv-24-380",
-          "title": "(IN THE MATTER OF THE GUARDIANSHIP OF GRACE YVONNE FENNER) GRACE YVONNE FENNER v. CHRISTOPHER MICHAEL FENNER (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2025/cv-24-380.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-24-380 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "cv-24-609",
-          "title": "IN THE MATTER OF THE ADOPTION OF MINOR CHILDREN, WILLIAM KYLE MURPHY v. LAUREN TAYLOR MURPHY (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2025/cv-24-609.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-24-609 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: Matter of adoption, Matter of"
-        },
-        {
-          "case_id": "cv-23-679",
-          "title": "IN THE MATTER OF THE GUARDIANSHIP OF MC, A MINOR, SANDRA ANDRACA v. PATRICIA TICE (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2025/cv-23-679.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-23-679 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "cv-24-15",
-          "title": "IN THE MATTER OF THE ADOPTION OF MINOR CHILDREN, JESUS FELICIANA ANDRADE v. CARA JEAN DEROUEN AND COURTNEY LYNN DEROUEN (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2025/cv-24-15.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-24-15 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: Matter of adoption, Matter of"
-        },
-        {
-          "case_id": "2024-ark-109",
-          "title": "IN RE ADOPTION OF ARK. SUP. CT. ADMIN. ORDER NO. 23 (Per Curiam)",
-          "url": "https://law.justia.com/cases/arkansas/supreme-court/2024/2024-ark-109.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Arkansas Supreme Court Case 2024-ark-109 (2024)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "cv-23-637",
-          "title": "(IN THE MATTER OF THE ADOPTION OF MC, A MINOR ) JAMES DAVID GARNER v. RHONDA MICHELLE BUNN AND PAUL BUNN (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2024/cv-23-637.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-23-637 (2024)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: Matter of adoption, Matter of"
-        },
-        {
-          "case_id": "cv-23-172",
-          "title": "(IN THE MATTER OF THE ADOPTION OF MINOR CHILD) RANDELL G. SHELTON, JR. v. JESSE REID AND SHEENA REID",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2024/cv-23-172.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-23-172 (2024)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: Matter of adoption, Matter of"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

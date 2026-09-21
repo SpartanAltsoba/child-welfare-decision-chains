@@ -127,6 +127,84 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "New York state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "Matter of Lee TT. v. Dowling",
+          "citation": "87 N.Y.2d 699, 664 N.E.2d 1243, 642 N.Y.S.2d 181 (1996)",
+          "court": "New York Court of Appeals",
+          "year": 1996,
+          "date_decided": "1996-04-04",
+          "holding": "The Court of Appeals held that the 'some credible evidence' standard for retaining an indicated report in the Statewide Central Register violates federal due process to the extent the report is disseminated to provider and licensing agencies, and that a subject is entitled to a pre-deprivation hearing at which the agency must prove the abuse or maltreatment by a fair preponderance of the evidence.",
+          "relevance": "This is the leading New York authority on the evidentiary standard and hearing rights attaching to a substantiated (indicated) finding.",
+          "quote": "subjects are entitled to a predeprivation hearing to determine by a fair preponderance of the evidence whether reports of abuse can be substantiated and relevant to future employment or licensure",
+          "url": "https://www.courtlistener.com/opinion/2130803/matter-of-lee-tt-v-dowling/",
+          "courtlistener_cluster_id": 2130803
+        },
+        {
+          "case_name": "Matter of Jeter v. Poole",
+          "citation": "2024 NY Slip Op 05868 (N.Y. Nov. 25, 2024)",
+          "court": "New York Court of Appeals",
+          "year": 2024,
+          "date_decided": "2024-11-25",
+          "holding": "The Court affirmed confirmation of an indicated Central Register report, holding that there is no constitutional right to assigned counsel at a Statewide Central Register administrative fair hearing and that the 2020 amendments to Social Services Law § 422 - including the fair-preponderance standard and the irrebuttable presumption from an article 10 dismissal - do not apply retroactively to determinations rendered before their January 1, 2022 effective date.",
+          "relevance": "This is the current Court of Appeals decision on the procedural protections and evidentiary standard governing a substantiated finding.",
+          "quote": "Inclusion on the SCR—unlike Family Court article 10 proceedings—does not impact rights that we have concluded warrant recognition of a constitutional right to assigned counsel in civil proceedings",
+          "url": "https://www.courtlistener.com/opinion/10283167/matter-of-jeter-v-poole/",
+          "courtlistener_cluster_id": 10283167
+        },
+        {
+          "case_name": "Matter of Elizabeth B. v. New York State Office of Children & Family Services",
+          "citation": "149 A.D.3d 8, 47 N.Y.S.3d 515 (3d Dep't 2017)",
+          "court": "Appellate Division of the Supreme Court of the State of New York, Third Department",
+          "year": 2017,
+          "date_decided": "2017-02-23",
+          "holding": "The Third Department annulled the portion of the OCFS determination that maintained an indicated report of inadequate guardianship against a mother who was herself the victim of domestic violence, ordering the report unfounded, expunged and sealed, because the minimum-degree-of-care inquiry must account for the risks and constraints she actually faced.",
+          "relevance": "It applies the fair-preponderance maltreatment standard and Nicholson's minimum-degree-of-care test to an administrative substantiation.",
+          "quote": "Respondent misconstrues this standard as one that cannot be \"modified or excused because a parent is under stress or fear.\"",
+          "url": "https://www.courtlistener.com/opinion/4370544/matter-of-elizabeth-b-v-new-york-state-office-of-children-and-family/",
+          "courtlistener_cluster_id": 4370544
+        },
+        {
+          "case_name": "Matter of Philip M.",
+          "citation": "82 N.Y.2d 238, 624 N.E.2d 168, 604 N.Y.S.2d 40 (1993)",
+          "court": "New York Court of Appeals",
+          "year": 1993,
+          "date_decided": "1993-11-16",
+          "holding": "Affirming findings of abuse and an order of supervision, the Court held that Family Court Act § 1046(a)(ii) creates only a rebuttable presumption shifting the burden of going forward to the respondents, while the burden of proving abuse by a preponderance always remains with the petitioning agency.",
+          "relevance": "It fixes the burden of proof and the evidentiary weight of a res ipsa-style prima facie case behind a founded finding.",
+          "quote": "The establishment of a prima facie case does not require the court to find that the parents were culpable; it merely establishes a rebuttable presumption of parental culpability",
+          "url": "https://www.courtlistener.com/opinion/2065121/matter-of-philip-m/",
+          "courtlistener_cluster_id": 2065121
+        },
+        {
+          "case_name": "Matter of Nicole V.",
+          "citation": "71 N.Y.2d 112, 518 N.E.2d 914, 524 N.Y.S.2d 19 (1987)",
+          "court": "New York Court of Appeals",
+          "year": 1987,
+          "date_decided": "1987-12-21",
+          "holding": "The Court affirmed abuse findings in two proceedings, holding that as amended Family Court Act § 1046(a)(vi) permits a child's out-of-court statements to be corroborated by any other evidence tending to support their reliability, including validation testimony by a qualified expert and the cross-corroborating statements of other child victims.",
+          "relevance": "This is the controlling New York rule on the corroboration required before a child's hearsay disclosure can support a founded finding.",
+          "quote": "As amended, section 1046 (a) (vi) states a broad flexible rule providing that out-of-court statements may be corroborated by \"[a]ny other evidence tending to support\" their reliability",
+          "url": "https://www.courtlistener.com/opinion/5689110/in-re-nicole-v/",
+          "courtlistener_cluster_id": 5689110
+        },
+        {
+          "case_name": "Matter of Nassau County Dep't of Social Servs. ex rel. Dante M. v. Denise J.",
+          "citation": "87 N.Y.2d 73, 661 N.E.2d 138, 637 N.Y.S.2d 666 (1995)",
+          "court": "New York Court of Appeals",
+          "year": 1995,
+          "date_decided": "1995-11-30",
+          "holding": "The Court held that a newborn's positive toxicology for a controlled substance cannot by itself support a neglect finding because it does not establish the causative connection to actual or imminent impairment that Family Court Act § 1012(f)(i)(B) requires, but affirmed the findings and the one-year order of supervision because other evidence - prematurity, low birth weight, intensive-care and high-risk follow-up needs, and the mother's cocaine use during pregnancy - showed imminent danger of impairment to both children.",
+          "relevance": "This is the leading New York causation authority for a founded finding: the agency must link the medical result to actual or imminent impairment rather than treat the result itself as the finding.",
+          "quote": "We conclude that more than a positive toxicology is generally required for a neglect determination.",
+          "url": "https://www.courtlistener.com/opinion/2092873/nassau-county-department-of-social-services-ex-rel-dante-m-v-denise-j/",
+          "courtlistener_cluster_id": 2092873
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22New%20York%22%20AND%20%28%22New%20York%20State%20Office%20of%20Children%20and%20Family%20Services%22%20OR%20%22OCFS%22%20OR%20%22Administration%20for%20Children%27s%20Services%22%20OR%20%22ACS%22%20OR%20%22CPS%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "New York State Office of Children and Family Services",
         "OCFS",
@@ -138,149 +216,7 @@
         "42 U.S.C. 1983",
         "reasonable efforts",
         "reunification"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22New%20York%22%20AND%20%28%22New%20York%20State%20Office%20of%20Children%20and%20Family%20Services%22%20OR%20%22OCFS%22%20OR%20%22Administration%20for%20Children%27s%20Services%22%20OR%20%22ACS%22%20OR%20%22CPS%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "investigation",
-        "substantiation",
-        "evidence standard",
-        "due process",
-        "reasonable efforts"
-      ],
-      "jurisdiction": "New York state courts",
-      "key_cases": [
-        {
-          "case_id": "111",
-          "title": "Matter of Mantilla v New York City Dept. of Hous. Preserv. & Dev.",
-          "url": "https://law.justia.com/cases/new-york/court-of-appeals/2025/111.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New York Court Of Appeals Case 111 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "131",
-          "title": "Matter of Miller",
-          "url": "https://law.justia.com/cases/new-york/court-of-appeals/2025/131.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New York Court Of Appeals Case 131 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "128-ssm-3",
-          "title": "Matter of Jensen v Commissioner of Labor",
-          "url": "https://law.justia.com/cases/new-york/court-of-appeals/2025/128-ssm-3.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New York Court Of Appeals Case 128-ssm-3 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "129-ssm-5",
-          "title": "Matter of Carmody (Commissioner of Labor)",
-          "url": "https://law.justia.com/cases/new-york/court-of-appeals/2025/129-ssm-5.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New York Court Of Appeals Case 129-ssm-5 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "85",
-          "title": "Matter of Parker J.",
-          "url": "https://law.justia.com/cases/new-york/court-of-appeals/2025/85.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New York Court Of Appeals Case 85 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "69",
-          "title": "Matter of First United Methodist Church in Flushing v Assessor, Town of Callicoon",
-          "url": "https://law.justia.com/cases/new-york/court-of-appeals/2025/69.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New York Court Of Appeals Case 69 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "88",
-          "title": "Matter of McLaurin v New York City Tr. Auth.",
-          "url": "https://law.justia.com/cases/new-york/court-of-appeals/2025/88.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New York Court Of Appeals Case 88 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "92",
-          "title": "Matter of Aungst v Family Dollar",
-          "url": "https://law.justia.com/cases/new-york/court-of-appeals/2025/92.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New York Court Of Appeals Case 92 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "93",
-          "title": "Matter of Garcia v WTC Volunteer",
-          "url": "https://law.justia.com/cases/new-york/court-of-appeals/2025/93.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New York Court Of Appeals Case 93 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "68",
-          "title": "In re K.Y.Z. (W.Z.)",
-          "url": "https://law.justia.com/cases/new-york/court-of-appeals/2025/68.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New York Court Of Appeals Case 68 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

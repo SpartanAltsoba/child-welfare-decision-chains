@@ -95,6 +95,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Tennessee state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "Hawk v. Hawk",
+          "citation": "855 S.W.2d 573 (Tenn. 1993)",
+          "court": "Tennessee Supreme Court",
+          "year": 1993,
+          "date_decided": "1993-06-01",
+          "holding": "The court held that article I, section 8 of the Tennessee Constitution protects parents' privacy in child-rearing decisions and that the State may not intervene in an intact family absent a showing of harm to the child.",
+          "relevance": "Requires a harm finding before a court restricts a parent's contact with the child.",
+          "quote": "Absent some harm to the child, we find that the state lacks a sufficiently compelling justification for interfering with this fundamental right.",
+          "url": "https://www.courtlistener.com/opinion/1669174/hawk-v-hawk/",
+          "courtlistener_cluster_id": 1669174
+        },
+        {
+          "case_name": "State v. Meeks",
+          "citation": "262 S.W.3d 710 (Tenn. 2008)",
+          "court": "Tennessee Supreme Court",
+          "year": 2008,
+          "date_decided": "2008-09-02",
+          "holding": "The court held the warrantless entry lawful, setting out Tennessee's exigent-circumstances test: whether the circumstances gave rise to an objectively reasonable belief of a compelling need to act with insufficient time to obtain a warrant.",
+          "relevance": "Identifies when immediate action is permitted instead of seeking a court order first.",
+          "quote": "the inquiry is whether the circumstances give rise to an objectively reasonable belief that there was a compelling need to act and insufficient time to obtain a warrant",
+          "url": "https://www.courtlistener.com/opinion/1057727/state-v-meeks/",
+          "courtlistener_cluster_id": 1057727
+        },
+        {
+          "case_name": "In re Adoption of Angela E.",
+          "citation": "402 S.W.3d 636 (Tenn. 2013)",
+          "court": "Tennessee Supreme Court",
+          "year": 2013,
+          "date_decided": "2013-03-13",
+          "holding": "The court held that a prior order suspending the father's visitation did not prevent a finding that his failure to visit was willful, sustained abandonment by willful failure to visit, rejected abandonment by failure to support, and remanded for a best-interest determination.",
+          "relevance": "Shows that a protective or no-contact order restricting a parent's access does not by itself excuse the parent's failure to pursue contact.",
+          "quote": "We agree with the Court of Appeals that the prior order suspending Father's visitation rights did not preclude a finding that Father willfully failed to visit the children.",
+          "url": "https://www.courtlistener.com/opinion/1043901/in-re-the-adoption-of-angela-e/",
+          "courtlistener_cluster_id": 1043901
+        },
+        {
+          "case_name": "In re F.R.R. III",
+          "citation": "193 S.W.3d 528 (Tenn. 2006)",
+          "court": "Tennessee Supreme Court",
+          "year": 2006,
+          "date_decided": "2006-05-08",
+          "holding": "The court affirmed termination for abandonment by willful failure to visit, holding that abandonment must be willful and cannot be found where a parent's visitation efforts were thwarted, but that this father's failure was willful because the mother never denied him access.",
+          "relevance": "Distinguishes a parent genuinely prevented from visiting from one who simply did not pursue contact, which is the question whenever access has been restricted.",
+          "quote": "the abandonment must be willful, and where a parent has been thwarted in visitation efforts, we have refused to find willful abandonment",
+          "url": "https://www.courtlistener.com/opinion/1672350/in-re-frr-iii/",
+          "courtlistener_cluster_id": 1672350
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Tennessee%22%20AND%20%28%22Tennessee%20Department%20of%20Children%27s%20Services%22%20OR%20%22DCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Tennessee Department of Children's Services",
         "DCS",
@@ -106,149 +160,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Tennessee%22%20AND%20%28%22Tennessee%20Department%20of%20Children%27s%20Services%22%20OR%20%22DCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "removal",
-        "emergency custody",
-        "placement",
-        "reunification",
-        "services"
-      ],
-      "jurisdiction": "Tennessee state courts",
-      "key_cases": [
-        {
-          "case_id": "w2019-01923-coa-r3-cv",
-          "title": "In Re March 9, 2012 Order",
-          "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2020/w2019-01923-coa-r3-cv.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Tennessee Court Of Appeals Case w2019-01923-coa-r3-cv (2020)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "m2024-00474-cca-r3-co",
-          "title": "State of Tennessee v. Nathaniel Buchanan, In Re: McAdoo Bonding Company, Surety",
-          "url": "https://law.justia.com/cases/tennessee/court-of-criminal-appeals/2025/m2024-00474-cca-r3-co.html",
-          "year": 2025,
-          "court": "Court Of Criminal Appeals",
-          "citation": "Tennessee Court Of Criminal Appeals Case m2024-00474-cca-r3-co (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "m2024-00797-coa-r9-jv",
-          "title": "In Re Markus E.",
-          "url": "https://law.justia.com/cases/tennessee/court-of-criminal-appeals/2025/m2024-00797-coa-r9-jv.html",
-          "year": 2025,
-          "court": "Court Of Criminal Appeals",
-          "citation": "Tennessee Court Of Criminal Appeals Case m2024-00797-coa-r9-jv (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "w2024-01063-cca-r3-cd",
-          "title": "In Re: Tennessee Bonding Company, Inc., d/b/a Action Bail Bonding",
-          "url": "https://law.justia.com/cases/tennessee/court-of-criminal-appeals/2025/w2024-01063-cca-r3-cd.html",
-          "year": 2025,
-          "court": "Court Of Criminal Appeals",
-          "citation": "Tennessee Court Of Criminal Appeals Case w2024-01063-cca-r3-cd (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "m2024-01260-coa-r3-pt",
-          "title": "In Re Taron H.",
-          "url": "https://law.justia.com/cases/tennessee/court-of-criminal-appeals/2025/m2024-01260-coa-r3-pt.html",
-          "year": 2025,
-          "court": "Court Of Criminal Appeals",
-          "citation": "Tennessee Court Of Criminal Appeals Case m2024-01260-coa-r3-pt (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "w2024-00425-cca-r3-cd",
-          "title": "In Re Ann Blankenship (d/b/a Ann Blankenship Bonding)",
-          "url": "https://law.justia.com/cases/tennessee/court-of-criminal-appeals/2025/w2024-00425-cca-r3-cd.html",
-          "year": 2025,
-          "court": "Court Of Criminal Appeals",
-          "citation": "Tennessee Court Of Criminal Appeals Case w2024-00425-cca-r3-cd (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "m2024-00972-cca-r3-co",
-          "title": "In Re Bail U Out Bonding",
-          "url": "https://law.justia.com/cases/tennessee/court-of-criminal-appeals/2025/m2024-00972-cca-r3-co.html",
-          "year": 2025,
-          "court": "Court Of Criminal Appeals",
-          "citation": "Tennessee Court Of Criminal Appeals Case m2024-00972-cca-r3-co (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "e2025-00486-coa-r3-pt",
-          "title": "IN RE MAISYNN Y.",
-          "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2025/e2025-00486-coa-r3-pt.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Tennessee Court Of Appeals Case e2025-00486-coa-r3-pt (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "m2024-01421-coa-r3-pt",
-          "title": "In Re Ka'Myiah M. et al.",
-          "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2025/m2024-01421-coa-r3-pt.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Tennessee Court Of Appeals Case m2024-01421-coa-r3-pt (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "w2025-00474-coa-r3-pt",
-          "title": "In Re Arlo L.",
-          "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2025/w2025-00474-coa-r3-pt.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Tennessee Court Of Appeals Case w2025-00474-coa-r3-pt (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

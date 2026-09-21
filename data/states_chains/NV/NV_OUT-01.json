@@ -89,6 +89,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Nevada state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Washoe County Department of Social Services v. Kory L.G.",
+          "citation": "129 Nev. 125, 295 P.3d 589 (2013)",
+          "court": "Supreme Court of Nevada",
+          "year": 2013,
+          "date_decided": "2013-02-28",
+          "holding": "A non-offending parent — one not found to have abused or neglected the child — cannot be compelled to comply with an NRS 432B.560 case plan as a condition of reunification, and the agency's reasonable-efforts duty under NRS 432B.393 runs regardless.",
+          "relevance": "Reunification with a non-offending parent may not be conditioned on case-plan compliance.",
+          "quote": "the agency must make reasonable efforts to reunify and preserve the family of the child, with the child's health and safety being a paramount concern",
+          "url": "https://www.courtlistener.com/opinion/8086054/washoe-county-department-of-social-services-v-kory-lg/",
+          "courtlistener_cluster_id": 8086054
+        },
+        {
+          "case_name": "In re Parental Rights as to J.L.N.",
+          "citation": "118 Nev. 621, 55 P.3d 955 (2002)",
+          "court": "Supreme Court of Nevada",
+          "year": 2002,
+          "date_decided": "2002-10-18",
+          "holding": "The statutory presumptions favoring termination are rebuttable, and a parent's failure to complete a case plan within six months solely because of incarceration is not a ground for finding failure of parental adjustment.",
+          "relevance": "Supplies the 'compelling reasons' analysis that keeps reunification available after the statutory clock has run.",
+          "quote": "Compelling reasons demonstrate why termination of parental rights was not in J.L.N.'s best interests.",
+          "url": "https://www.courtlistener.com/opinion/2598762/diana-l-n-v-state-department-of-human-resources-division-of-child/",
+          "courtlistener_cluster_id": 2598762
+        },
+        {
+          "case_name": "In re Parental Rights as to R.A.S.",
+          "citation": "141 Nev. Adv. Op. 20, 567 P.3d 337 (Nev. Apr. 24, 2025)",
+          "court": "Supreme Court of Nevada",
+          "year": 2025,
+          "date_decided": "2025-04-24",
+          "holding": "Because no agency reunification services are available in a privately filed termination action, courts must approach private petitions with particular care; here the findings of abandonment and other parental fault were not supported by substantial evidence and the termination was reversed.",
+          "relevance": "Explains why the reunification-services predicate that normally precedes termination is absent in private petitions.",
+          "quote": "In contrast, when a private party petitions to terminate parental rights, no such services are available.",
+          "url": "https://www.courtlistener.com/opinion/10384394/in-re-parental-rights-as-to-ras/",
+          "courtlistener_cluster_id": 10384394
+        },
+        {
+          "case_name": "Santosky v. Kramer",
+          "citation": "455 U.S. 745 (1982)",
+          "court": "Supreme Court of the United States",
+          "year": 1982,
+          "date_decided": "1982-02-22",
+          "holding": "Before a State may sever completely and irrevocably the rights of parents in their natural child, due process requires that the State support its allegations by at least clear and convincing evidence.",
+          "relevance": "Until the State meets that burden, the constitutional presumption favors preserving and restoring the family.",
+          "quote": "due process requires that the State support its allegations by at least clear and convincing evidence",
+          "url": "https://www.courtlistener.com/opinion/110676/santosky-v-kramer/",
+          "courtlistener_cluster_id": 110676
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Nevada%22%20AND%20%28%22Nevada%20Division%20of%20Child%20and%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Nevada Division of Child and Family Services",
         "CPS",
@@ -100,149 +154,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Nevada%22%20AND%20%28%22Nevada%20Division%20of%20Child%20and%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "termination of parental rights",
-        "TPR",
-        "adoption",
-        "permanency",
-        "aging out"
-      ],
-      "jurisdiction": "Nevada state courts",
-      "key_cases": [
-        {
-          "case_id": "87887",
-          "title": "IN RE: GUARDIANSHIP OF H.B. III",
-          "url": "https://law.justia.com/cases/nevada/supreme-court/2025/87887.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nevada Supreme Court Case 87887 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "89623-coa",
-          "title": "IN RE: GUARDIANSHIP OF A.L.R.-Q., A.R.W. AND A.M.W. (CHILD CUSTODY)",
-          "url": "https://law.justia.com/cases/nevada/court-of-appeals/2025/89623-coa.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Nevada Court Of Appeals Case 89623-coa (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "84655",
-          "title": "In re Guardianship of Jones",
-          "url": "https://law.justia.com/cases/nevada/supreme-court/2024/84655.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Nevada Supreme Court Case 84655 (2024)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "84655",
-          "title": "In re Guardianship of Jones",
-          "url": "https://law.justia.com/cases/nevada/supreme-court/2023/84655.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Nevada Supreme Court Case 84655 (2023)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "83967",
-          "title": "In re Guardianship of Jones",
-          "url": "https://law.justia.com/cases/nevada/supreme-court/2023/83967.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Nevada Supreme Court Case 83967 (2023)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "81799-coa",
-          "title": "In re Guardianship of Jones",
-          "url": "https://law.justia.com/cases/nevada/court-of-appeals/2022/81799-coa.html",
-          "year": 2022,
-          "court": "Court Of Appeals",
-          "citation": "Nevada Court Of Appeals Case 81799-coa (2022)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "80300",
-          "title": "In re Guardianship of Rubin",
-          "url": "https://law.justia.com/cases/nevada/supreme-court/2021/80300.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Nevada Supreme Court Case 80300 (2021)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "78626-coa",
-          "title": "In re Guardianship of B.A.A.R.",
-          "url": "https://law.justia.com/cases/nevada/court-of-appeals/2020/78626-coa.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Nevada Court Of Appeals Case 78626-coa (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "89258",
-          "title": "In re Parental Rights as to S.A.T.",
-          "url": "https://law.justia.com/cases/nevada/supreme-court/2025/89258.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nevada Supreme Court Case 89258 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "86781",
-          "title": "IN RE: DISCIPLINE OF HARDEEP SULL",
-          "url": "https://law.justia.com/cases/nevada/supreme-court/2025/86781.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nevada Supreme Court Case 86781 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

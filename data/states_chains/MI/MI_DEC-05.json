@@ -149,6 +149,84 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Michigan state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "In re Sanders",
+          "citation": "495 Mich. 394, 852 N.W.2d 524 (2014)",
+          "court": "Michigan Supreme Court",
+          "year": 2014,
+          "date_decided": "2014-06-02",
+          "holding": "The Court held Michigan's one-parent doctrine unconstitutional under the Fourteenth Amendment, so a court may not enter dispositional orders infringing a parent's rights until that parent has been individually adjudicated unfit, and overruled In re CR.",
+          "relevance": "When the agency files a petition it must name and plead against every parent whose rights it intends to restrict, because jurisdiction over the child does not supply authority over an unadjudicated parent.",
+          "quote": "due process requires a specific adjudication of a parent's unfitness before the state can infringe the constitutionally protected parent-child relationship",
+          "url": "https://www.courtlistener.com/opinion/8001640/in-re-sanders/",
+          "courtlistener_cluster_id": 8001640
+        },
+        {
+          "case_name": "In re Ferranti",
+          "citation": "No. 157907 (Mich. June 12, 2019)",
+          "court": "Michigan Supreme Court",
+          "year": 2019,
+          "date_decided": "2019-06-12",
+          "holding": "The Court overruled In re Hatcher, holding that a child protective proceeding is one continuous action so a parent may attack adjudication errors on appeal from the termination order, and it vacated the adjudication and termination because the plea colloquy omitted the advice MCR 3.971 requires.",
+          "relevance": "Because the petition opens a single continuous proceeding, defects at the front end remain reviewable all the way through termination.",
+          "quote": "We hold that an appeal of an adjudication error in an appeal from an order terminating parental rights is not a collateral attack.",
+          "url": "https://www.courtlistener.com/opinion/4628995/in-re-j-ferranti-minor/",
+          "courtlistener_cluster_id": 4628995
+        },
+        {
+          "case_name": "In re Utrera",
+          "citation": "281 Mich. App. 1, 761 N.W.2d 253 (2008)",
+          "court": "Michigan Court of Appeals",
+          "year": 2008,
+          "date_decided": "2008-09-23",
+          "holding": "The Court affirmed a termination at initial disposition, holding that because termination was sought on the original petition the rules of evidence applied and the grounds had to rest on clear and convincing legally admissible evidence, with the improperly admitted hearsay harmless on this record.",
+          "relevance": "Choosing to plead termination in the original petition raises the evidentiary bar the agency must meet at the first dispositional hearing.",
+          "quote": "clear and convincing, legally admissible evidence was required to establish the grounds for termination",
+          "url": "https://www.courtlistener.com/opinion/1990491/in-re-utrera/",
+          "courtlistener_cluster_id": 1990491
+        },
+        {
+          "case_name": "In re AMB",
+          "citation": "248 Mich. App. 144, 640 N.W.2d 262 (2002)",
+          "court": "Michigan Court of Appeals",
+          "year": 2002,
+          "date_decided": "2002-01-25",
+          "holding": "The Court held the family court's ex parte and referee proceedings authorizing withdrawal of an infant's life support were fatally defective, that inadequate notice to a respondent is a jurisdictional defect, and it set out the notice, evidentiary and decision-maker standards such a case requires.",
+          "relevance": "Every petition must be accompanied by statutorily adequate notice; the defect cannot be cured by the urgency of the request.",
+          "quote": "The absence of this notice to a respondent in a protective proceeding constitutes a jurisdictional defect.",
+          "url": "https://www.courtlistener.com/opinion/1712181/in-re-amb/",
+          "courtlistener_cluster_id": 1712181
+        },
+        {
+          "case_name": "In re Hatcher",
+          "citation": "443 Mich. 426, 505 N.W.2d 834 (1993)",
+          "court": "Michigan Supreme Court",
+          "year": 1993,
+          "date_decided": "1993-08-31",
+          "holding": "The Court overruled Fritts v Krugh and held that the probate court's subject-matter jurisdiction is established by a non-frivolous petition on which probable cause is found, so a parent could not collaterally attack the earlier adjudication on appeal from the termination order — a holding the Michigan Supreme Court itself overruled in In re Ferranti (2019).",
+          "relevance": "OVERRULED BY IN RE FERRANTI (2019): Hatcher is the source of the collateral-bar rule that once barred a Michigan parent from attacking petition and adjudication defects on appeal from termination, and it must be marked as overruled wherever a search surfaces it alongside Ferranti.",
+          "quote": "Our ruling today severs a party's ability to challenge a probate court decision years later in a collateral attack where a direct appeal was available.",
+          "url": "https://www.courtlistener.com/opinion/2123972/in-re-hatcher/",
+          "courtlistener_cluster_id": 2123972
+        },
+        {
+          "case_name": "In re Gach",
+          "citation": "315 Mich. App. 83, 889 N.W.2d 707 (2016)",
+          "court": "Michigan Court of Appeals",
+          "year": 2016,
+          "date_decided": "2016-04-19",
+          "holding": "The Court reversed the termination and held that MCL 712A.19b(3)(l), which permits termination on the bare fact of a prior involuntary termination, creates an irrebuttable presumption of parental unfitness and therefore fails to comport with due process, and it declined to adopt a saving construction.",
+          "relevance": "A petition that pleads the prior-termination ground under MCL 712A.19b(3)(l) rests on a statutory basis the Michigan Court of Appeals has held unconstitutional, which is a live defense from the pleading stage forward.",
+          "quote": "As written, MCL 712A.19b(3)(l) provides no way to rebut this presumption of unfitness, assuming the fact of the prior involuntary termination.",
+          "url": "https://www.courtlistener.com/opinion/7961848/in-re-gach/",
+          "courtlistener_cluster_id": 8007084
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Michigan%22%20AND%20%28%22Michigan%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Michigan Department of Health and Human Services",
         "CPS",
@@ -160,136 +238,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Michigan%22%20AND%20%28%22Michigan%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "investigation",
-        "substantiation",
-        "evidence standard",
-        "due process",
-        "reasonable efforts"
-      ],
-      "jurisdiction": "Michigan state courts",
-      "key_cases": [
-        {
-          "case_id": "167745",
-          "title": "In Re Barber/Espinoza Minors (Opinion on Application - Reverse CoA)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2025/167745.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 167745 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "165666",
-          "title": "In Re Contempt Of Kathy H Murphy (Opinion on Application - Reverse CoA)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2025/165666.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 165666 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "166509",
-          "title": "In Re Lange (Opinion on Application - Remand to TC)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2025/166509.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 166509 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "165018",
-          "title": "In Re Guardianship Of Mary Ann Malloy (Opinion on Application - Remand to TC)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2024/165018.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 165018 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "165020",
-          "title": "In Re Guardianship Of Dana Jenkins (Opinion on Application - Remand to TC)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2024/165020.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 165020 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "162260",
-          "title": "In Re Tracy E. Green, Judge (Opinion - Leave Granted)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2023/162260.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 162260 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "164311",
-          "title": "In re Parole of Richard Allen McBrayer (Opinion - Leave Granted)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2023/164311.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 164311 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "161535",
-          "title": "In Re Von Greiff Estate (Opinion on Application - Affirm CoA)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2022/161535.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 161535 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "161839-0",
-          "title": "In Re Morrow",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2022/161839-0.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 161839-0 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

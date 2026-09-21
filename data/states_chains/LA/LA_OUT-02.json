@@ -129,6 +129,84 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Louisiana state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Santosky v. Kramer",
+          "citation": "455 U.S. 745 (1982)",
+          "court": "Supreme Court of the United States",
+          "year": 1982,
+          "date_decided": "1982-02-22",
+          "holding": "The Court held that New York's fair-preponderance standard was unconstitutional and that the Due Process Clause requires a State to support its allegations by at least clear and convincing evidence before permanently terminating parental rights.",
+          "relevance": "This is the federal constitutional floor that Louisiana codified in La. Ch.C. art. 1035(A) and that the Louisiana Supreme Court cites directly in State in the Interest of C.F. when terminating rights.",
+          "quote": "due process requires that the State support its allegations by at least clear and convincing evidence",
+          "url": "https://www.courtlistener.com/opinion/110676/santosky-v-kramer/",
+          "courtlistener_cluster_id": 110676
+        },
+        {
+          "case_name": "State in the Interest of C.F.",
+          "citation": "235 So. 3d 1066 (La. 2017)",
+          "court": "Supreme Court of Louisiana",
+          "year": 2017,
+          "date_decided": "2017-12-06",
+          "holding": "The Louisiana Supreme Court held that DCFS proved abandonment and case-plan noncompliance by clear and convincing evidence and that the district court manifestly erred in finding termination contrary to the child's best interest; it reversed and terminated the father's rights, freeing the child for adoption.",
+          "relevance": "Is the current Louisiana Supreme Court statement of the two-prong termination inquiry: a statutory ground by clear and convincing evidence, then best interest.",
+          "quote": "First, the State must prove by clear and convincing evidence the existence of at least one ground for termination under La. Ch. Code art. 1015.",
+          "url": "https://www.courtlistener.com/opinion/4449014/state-of-louisiana-in-the-interest-of-cf/",
+          "courtlistener_cluster_id": 4449014
+        },
+        {
+          "case_name": "State ex rel. J.M.",
+          "citation": "837 So. 2d 1247 (La. 2003)",
+          "court": "Supreme Court of Louisiana",
+          "year": 2003,
+          "date_decided": "2003-01-28",
+          "holding": "The Louisiana Supreme Court reversed the court of appeal and reinstated the termination of a mother's parental rights, holding that the State proved a ground under La. Ch.C. art. 1015(5) by clear and convincing evidence and that leaving the children indefinitely in foster care was not in their best interests.",
+          "relevance": "It is the Louisiana Supreme Court's leading statement of the two competing interests in an involuntary termination and of the child's paramount interest in permanency, and it is the case State in the Interest of C.F. quotes.",
+          "quote": "In balancing these interests, the courts of this state have consistently found the interest of the child to be paramount over that of the parent",
+          "url": "https://www.courtlistener.com/opinion/7815589/state-ex-rel-jm/",
+          "courtlistener_cluster_id": 7815589
+        },
+        {
+          "case_name": "In re Adoption of B.G.S.",
+          "citation": "556 So. 2d 545 (La. 1990)",
+          "court": "Supreme Court of Louisiana",
+          "year": 1990,
+          "date_decided": "1990-02-05",
+          "holding": "The Louisiana Supreme Court held La. R.S. 9:422.8 unconstitutional insofar as it allowed a mother's private surrender to terminate the rights of an unwed father with a protected interest without prior notice and an opportunity to be heard before a neutral decision maker, dismissed the adoption, and placed the child with her natural parents.",
+          "relevance": "It is the foundational Louisiana authority on the notice and hearing a father is owed before surrender and adoption extinguish his rights, and it is the source of the due-process rule In re A.J.F. later quotes.",
+          "quote": "It is evident that the statutory method of terminating the natural parent's interest in his child falls short of due process requirements in several respects",
+          "url": "https://www.courtlistener.com/opinion/1149593/in-re-adoption-of-bgs/",
+          "courtlistener_cluster_id": 1149593
+        },
+        {
+          "case_name": "In re A.J.F.",
+          "citation": "764 So. 2d 47 (La. 2000)",
+          "court": "Supreme Court of Louisiana",
+          "year": 2000,
+          "date_decided": "2000-06-30",
+          "holding": "The Louisiana Supreme Court held that an alleged father's actual knowledge of the birth and surrender does not substitute for the legal notice the Children's Code requires, so the appellate court erred in treating actual knowledge as sufficient; the mother's act of surrender was dissolved on remand.",
+          "relevance": "Governs the notice due an alleged or adjudicated father before his rights can be extinguished through surrender and adoption.",
+          "quote": "the right to notice and an opportunity to be heard must be granted at a meaningful time and in a meaningful manner",
+          "url": "https://www.courtlistener.com/opinion/7794025/in-re-ajf/",
+          "courtlistener_cluster_id": 7794025
+        },
+        {
+          "case_name": "State in the Interest of A.L.D. and L.S.D.",
+          "citation": "263 So. 3d 860 (La. 2019)",
+          "court": "Supreme Court of Louisiana",
+          "year": 2019,
+          "date_decided": "2019-01-30",
+          "holding": "The Louisiana Supreme Court reversed the court of appeal and reinstated the district court's termination judgment, holding that the court of appeal disregarded the manifest error standard and failed to focus on the children's best interests.",
+          "relevance": "Supplies the governing standard of appellate review for every Louisiana termination judgment.",
+          "quote": "An appellate court reviews a district court's findings as to whether parental rights should be terminated according to the manifest error standard.",
+          "url": "https://www.courtlistener.com/opinion/4585868/state-of-louisiana-in-the-interest-of-ald-and-lsd/",
+          "courtlistener_cluster_id": 4585868
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Louisiana%22%20AND%20%28%22Louisiana%20Department%20of%20Children%20and%20Family%20Services%22%20OR%20%22DCFS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Louisiana Department of Children and Family Services",
         "DCFS",
@@ -140,149 +218,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Louisiana%22%20AND%20%28%22Louisiana%20Department%20of%20Children%20and%20Family%20Services%22%20OR%20%22DCFS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "termination of parental rights",
-        "TPR",
-        "adoption",
-        "permanency",
-        "aging out"
-      ],
-      "jurisdiction": "Louisiana state courts",
-      "key_cases": [
-        {
-          "case_id": "2025-b-00537",
-          "title": "IN RE: HENRY L. KLEIN",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2025-b-00537.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2025-b-00537 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "2025-o-00994",
-          "title": "IN RE: JUDGE ROYALE COLBERT",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2025-o-00994.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2025-o-00994 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2025-o-01127",
-          "title": "IN RE: JUDGE TIFFANY FOXWORTH-ROBERTS",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2025-o-01127.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2025-o-01127 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2025-o-00879",
-          "title": "IN RE: JUDGE JENNIFER M. MEDLEY",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2025-o-00879.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2025-o-00879 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2025-o-00320",
-          "title": "IN RE: JUDGE DONALD \"CHICK\" FORET TWENTY-FOURTH JUDICIAL DISTRICT COURT PARISH OF JEFFERSON STATE OF LOUISIANA",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2025-o-00320.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2025-o-00320 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2024-ck-00254",
-          "title": "In re D.D.",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2024-ck-00254.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2024-ck-00254 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "2023-ba-00159",
-          "title": "IN RE: COMMITTEE ON BAR ADMISSIONS CFN-1791",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2023-ba-00159.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2023-ba-00159 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2023-ba-01455",
-          "title": "IN RE: COMMITTEE ON BAR ADMISSIONS CFN-65372",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2024/2023-ba-01455.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2023-ba-01455 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2024-b-00479",
-          "title": "IN RE: TRINA TRINHTHI CHU",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2024/2024-b-00479.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2024-b-00479 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2024-b-00520",
-          "title": "IN RE: NED FRANKLIN PIERCE SONNIER, SR.",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2024/2024-b-00520.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2024-b-00520 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

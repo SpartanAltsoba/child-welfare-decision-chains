@@ -147,6 +147,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Wyoming state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "In the Interest of RTB",
+          "citation": "2024 WY 75, 552 P.3d 365",
+          "court": "Wyoming Supreme Court",
+          "year": 2024,
+          "date_decided": "2024-07-17",
+          "holding": "The Court affirmed the neglect adjudication, holding the State must prove neglect by a preponderance of the evidence, and cautioned that an officer taking warrantless protective custody under Wyo. Stat. Ann. § 14-3-405(a)(i) must actually find the child seriously endangered rather than apply a blanket positive-drug-test policy.",
+          "relevance": "Supplies the governing burden of proof for a founded finding of neglect at adjudication.",
+          "quote": "During the adjudicatory hearing, the State had the burden to prove its allegations of neglect by a preponderance of the evidence",
+          "url": "https://www.courtlistener.com/opinion/10005456/in-the-interest-of-rtb-minor-child-blb-v-the-state-of-wyoming/",
+          "courtlistener_cluster_id": 10005456
+        },
+        {
+          "case_name": "In the Interest of AE",
+          "citation": "2024 WY 28, 544 P.3d 1113",
+          "court": "Wyoming Supreme Court",
+          "year": 2024,
+          "date_decided": "2024-03-13",
+          "holding": "The Court affirmed an adjudication of neglect of an infant who failed to thrive at home but gained weight in hospital, holding that differences in a child's condition between care settings are competent evidence of neglect and that the appellate court will not reweigh the juvenile court's assessment.",
+          "relevance": "Defines what evidence will sustain a founded finding of neglect under Wyo. Stat. Ann. § 14-3-202(a)(vii).",
+          "quote": "we have recognized that differences in a child's condition between care settings can be evidence of neglect",
+          "url": "https://www.courtlistener.com/opinion/9483578/in-the-interest-of-ae-minor-child-ce-and-ae-v-the-state-of-wyoming/",
+          "courtlistener_cluster_id": 9483578
+        },
+        {
+          "case_name": "In the Interest of NP",
+          "citation": "2017 WY 18, 389 P.3d 787",
+          "court": "Wyoming Supreme Court",
+          "year": 2017,
+          "date_decided": "2017-02-27",
+          "holding": "The Court held that the statutory right to a jury trial at a juvenile adjudicatory hearing is waived unless a written demand is filed within ten days of the advisement, and affirmed the neglect adjudication as supported by sufficient evidence.",
+          "relevance": "Restates that neglect must be proven by a preponderance and sets the deference owed the juvenile court's finding.",
+          "quote": "we conclude that Mother waived her right to a jury trial when she failed to file a demand within the ten-day time frame required by statute",
+          "url": "https://www.courtlistener.com/opinion/4371259/in-the-interest-of-np-a-minor-child-cp-v-state/",
+          "courtlistener_cluster_id": 4371259
+        },
+        {
+          "case_name": "In re \"H\" Children",
+          "citation": "2003 WY 155, 79 P.3d 997",
+          "court": "Wyoming Supreme Court",
+          "year": 2003,
+          "date_decided": "2003-11-25",
+          "holding": "Over a two-justice dissent, the Court affirmed a juvenile-court adjudication of neglect and the ensuing placement order, holding that neglect need be shown only by a preponderance of the evidence and that the record contained sufficient evidence to sustain the finding under the statutory definition of a neglected child.",
+          "relevance": "This is the source Wyoming authority for the preponderance standard that governs a founded finding of neglect at adjudication, and it sets out the deferential sufficiency review applied to that finding.",
+          "quote": "Child neglect, on the other hand, need only be shown by a preponderance of the evidence.",
+          "url": "https://www.courtlistener.com/opinion/2520914/in-re-h-children/",
+          "courtlistener_cluster_id": 2520914
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Wyoming%22%20AND%20%28%22Wyoming%20Department%20of%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Wyoming Department of Family Services",
         "CPS",
@@ -158,136 +212,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Wyoming%22%20AND%20%28%22Wyoming%20Department%20of%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "investigation",
-        "substantiation",
-        "evidence standard",
-        "due process",
-        "reasonable efforts"
-      ],
-      "jurisdiction": "Wyoming state courts",
-      "key_cases": [
-        {
-          "case_id": "s-25-0035",
-          "title": "In the Interest of SP v. The State of Wyoming",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-25-0035.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-25-0035 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re interest, Interest of"
-        },
-        {
-          "case_id": "s-25-0032",
-          "title": "In the Interest of MC, Minor Child: CC v. The State of Wyoming",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-25-0032.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-25-0032 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re interest, Interest of"
-        },
-        {
-          "case_id": "s-24-0317",
-          "title": "In the Matter of the Sanction Fee of Christopher Goetz: Christopher Goetz, Defense Attorney for Jordan Ryan Borrego v. The State of Wyoming",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0317.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-24-0317 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "s-24-0297",
-          "title": "In the Interest Of: AB and JC",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0297.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-24-0297 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re interest, Interest of"
-        },
-        {
-          "case_id": "s-24-0228",
-          "title": "In the Matter of the Termination of Parental Rights To: Jdv, a Minor Child",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0228.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-24-0228 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: TPR, Matter of TPR, Matter of"
-        },
-        {
-          "case_id": "s-24-0206",
-          "title": "In re Termination of Parental Rights To SLD v. Hansen",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0206.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-24-0206 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: TPR, In re TPR, In re"
-        },
-        {
-          "case_id": "s-24-0214",
-          "title": "In re L.H. v. State",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0214.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-24-0214 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "s-24-0134",
-          "title": "In the Interest of: JF v. The State of Wyoming",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0134.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-24-0134 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re interest, Interest of"
-        },
-        {
-          "case_id": "s-24-0159",
-          "title": "In re PT v. State",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0159.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-24-0159 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

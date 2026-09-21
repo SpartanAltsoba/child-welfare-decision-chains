@@ -126,6 +126,72 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Maine state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "J.R. v. Gloria",
+          "citation": "593 F.3d 73 (1st Cir. 2010)",
+          "court": "United States Court of Appeals for the First Circuit",
+          "year": 2010,
+          "date_decided": "2010-01-27",
+          "holding": "The First Circuit affirmed qualified immunity for child-welfare caseworkers sued for failing to protect twins abused in a licensed foster home, holding that even assuming a special relationship arose from foster placement, the plaintiffs must show conscience-shocking conduct and their evidence did not show even deliberate indifference.",
+          "relevance": "This is the controlling circuit standard for failure-to-protect claims when a child is seriously harmed while under agency supervision.",
+          "quote": "Even then, the claim against the defendants must also involve \"conscience-shocking\" conduct by state officials",
+          "url": "https://www.courtlistener.com/opinion/204155/jr-v-gloria/",
+          "courtlistener_cluster_id": 204155
+        },
+        {
+          "case_name": "Huff v. Williams",
+          "citation": "1999 ME 186, 743 A.2d 1252",
+          "court": "Supreme Judicial Court of Maine",
+          "year": 1999,
+          "date_decided": "1999-12-16",
+          "holding": "The Law Court affirmed summary judgment for two Department caseworkers, holding that their decisions about how much of a child's sexual-abuse history to disclose to relatives seeking his placement were discretionary functions absolutely immune under 14 M.R.S.A. § 8111(1)(C), even assuming negligence or bad faith.",
+          "relevance": "Where a child is harmed in a placement the agency arranged, Maine Tort Claims Act immunity will usually defeat the negligence theory.",
+          "quote": "The Legislature has immunized from suit caseworkers' discretionary actions within the scope of their employment.",
+          "url": "https://www.courtlistener.com/opinion/5137239/huff-v-williams/",
+          "courtlistener_cluster_id": 5137239
+        },
+        {
+          "case_name": "In re Bailey M.",
+          "citation": "2002 ME 12, 788 A.2d 590",
+          "court": "Supreme Judicial Court of Maine",
+          "year": 2002,
+          "date_decided": "2002-01-28",
+          "holding": "The Law Court affirmed denial of a mother's motion to open her termination proceeding to the public, holding that 22 M.R.S. § 4007(1) presumptively closes child protection proceedings and records and that the mother lacked standing to assert the public's First Amendment right of access.",
+          "relevance": "The case arose after the mother's other daughter died in the foster home the Department had selected and the foster mother was criminally charged, and the Court still held the protective proceeding presumptively closed.",
+          "quote": "the Legislature intended section 4007(1) to mean that child protection proceedings are presumptively closed",
+          "url": "https://www.courtlistener.com/opinion/2077801/in-re-bailey-m/",
+          "courtlistener_cluster_id": 2077801
+        },
+        {
+          "case_name": "Connor B. ex rel. Vigurs v. Patrick",
+          "citation": "774 F.3d 45 (1st Cir. 2014)",
+          "court": "United States Court of Appeals for the First Circuit",
+          "year": 2014,
+          "date_decided": "2014-12-15",
+          "holding": "The First Circuit affirmed judgment for the state in a systemic foster-care class action, holding the record did not establish a class-wide substantive due process violation or a class-wide failure to maintain individualized case plans under the Adoption Assistance and Child Welfare Act.",
+          "relevance": "The court distinguished documented system deficiencies from constitutional violations, which is the barrier any systemic child-safety claim must clear.",
+          "quote": "We agree with the district court that this record does not show a class-wide failure to provide documentation in the form of individualized case plans.",
+          "url": "https://www.courtlistener.com/opinion/2760820/connor-b-ex-rel-vigurs-v-patrick/",
+          "courtlistener_cluster_id": 2760820
+        },
+        {
+          "case_name": "DeShaney v. Winnebago County Department of Social Services",
+          "citation": "489 U.S. 189 (1989)",
+          "court": "Supreme Court of the United States",
+          "year": 1989,
+          "date_decided": "1989-02-22",
+          "holding": "The Supreme Court affirmed judgment for county social services officials, holding that the Due Process Clause imposes no affirmative constitutional duty on a State to protect a child from private violence — even where the agency received repeated reports, opened a file and monitored the home — because the affirmative duty to protect arises only from a state-imposed restraint on the individual's own freedom to act, not from the State's knowledge of the danger or its expressed intention to help.",
+          "relevance": "This is the controlling federal baseline for every failure-to-protect claim against a child-welfare agency, and the source of the special-relationship and custodial-restraint framework that J.R. v. Gloria applies in the First Circuit; absent custody, agency knowledge of the danger creates no constitutional duty.",
+          "quote": "nothing in the language of the Due Process Clause itself requires the State to protect the life, liberty, and property of its citizens against invasion by private actors",
+          "url": "https://www.courtlistener.com/opinion/112202/deshaney-v-winnebago-county-department-of-social-services/",
+          "courtlistener_cluster_id": 112202
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Maine%22%20AND%20%28%22Maine%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Maine Department of Health and Human Services",
         "CPS",
@@ -137,149 +203,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Maine%22%20AND%20%28%22Maine%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "wrongful removal",
-        "1983 claim",
-        "civil rights",
-        "immunity",
-        "damages"
-      ],
-      "jurisdiction": "Maine state courts",
-      "key_cases": [
-        {
-          "case_id": "2025-me-91",
-          "title": "In re Children of Krystal W.",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2025/2025-me-91.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2025-me-91 (2025)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re child, In re"
-        },
-        {
-          "case_id": "2025-me-16",
-          "title": "In re Child of Christian D.",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2025/2025-me-16.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2025-me-16 (2025)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re child, In re"
-        },
-        {
-          "case_id": "2025-me-7",
-          "title": "In re Child of Taylor M.",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2025/2025-me-7.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2025-me-7 (2025)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re child, In re"
-        },
-        {
-          "case_id": "2024-me-66",
-          "title": "In re Children of Destiny H.",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2024/2024-me-66.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2024-me-66 (2024)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re child, In re"
-        },
-        {
-          "case_id": "2024-me-16",
-          "title": "In re Child of Barni A.",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2024/2024-me-16.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2024-me-16 (2024)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re child, In re"
-        },
-        {
-          "case_id": "2024-me-1",
-          "title": "In re Children of Billie S.",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2024/2024-me-1.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2024-me-1 (2024)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re child, In re"
-        },
-        {
-          "case_id": "2023-me-76",
-          "title": "In re Children of Shannevia Y.",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2023/2023-me-76.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2023-me-76 (2023)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re child, In re"
-        },
-        {
-          "case_id": "2023-me-49",
-          "title": "In re Children of Quincy A.",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2023/2023-me-49.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2023-me-49 (2023)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re child, In re"
-        },
-        {
-          "case_id": "2022-me-14",
-          "title": "In re Child of Kenneth S.",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2022/2022-me-14.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2022-me-14 (2022)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re child, In re"
-        },
-        {
-          "case_id": "2021-me-61",
-          "title": "In re Children of Michelle C.",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2021/2021-me-61.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2021-me-61 (2021)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re child, In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

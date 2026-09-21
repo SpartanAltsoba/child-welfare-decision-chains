@@ -52,6 +52,84 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "District of Columbia state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "In re Ang.P.",
+          "citation": "71 A.3d 713 (D.C. 2013)",
+          "court": "District of Columbia Court of Appeals",
+          "year": 2013,
+          "date_decided": "2013-07-25",
+          "holding": "The evidence did not show that the mother's back injury and physical incapacity left her children without proper parental care or control, so the neglect adjudication was vacated.",
+          "relevance": "It is a published reversal of an agency-driven neglect finding for failure of proof.",
+          "quote": "we conclude there is insufficient evidence to support a finding of neglect and vacate the trial court’s holding",
+          "url": "https://www.courtlistener.com/opinion/5146826/in-re-angp/",
+          "courtlistener_cluster_id": 5146826
+        },
+        {
+          "case_name": "In re L.M.",
+          "citation": "No. 23-FS-0386 (D.C. Dec. 21, 2023)",
+          "court": "District of Columbia Court of Appeals",
+          "year": 2023,
+          "date_decided": "2023-12-21",
+          "holding": "The District failed to carry its burden of showing that shelter care was necessary for a healthy five-month-old removed after her mother's hospitalization, even under the less demanding probable cause standard, so the shelter care order was reversed.",
+          "relevance": "It is the leading recent D.C. reversal of an agency emergency custody decision for failure of proof.",
+          "quote": "Because we conclude that the District failed to carry its burden even under a less-demanding probable-cause standard, we assume without deciding that a probable-cause standard applies.",
+          "url": "https://www.courtlistener.com/opinion/9454123/in-re-lm/",
+          "courtlistener_cluster_id": 9454123
+        },
+        {
+          "case_name": "In re Ta.L.",
+          "citation": "149 A.3d 1060 (D.C. 2016) (en banc)",
+          "court": "District of Columbia Court of Appeals",
+          "year": 2016,
+          "date_decided": "2016-12-08",
+          "holding": "Sitting en banc the court overruled In re K.M.T. and held that an order changing a neglected child's permanency goal from reunification to adoption is an immediately appealable final order, that permanency goal review hearings must protect parental due process, that the court must first find by a preponderance that the government made reasonable efforts toward reunification, and that a finding of parental unfitness must precede termination absent truly exceptional circumstances or stipulation.",
+          "relevance": "It is the D.C. decision that created appellate review of the goal-change decision that previously escaped correction entirely.",
+          "quote": "a change of the presumptive goal of a neglect proceeding from reunification to adoption is an appealable final order",
+          "url": "https://www.courtlistener.com/opinion/4328485/in-re-tal-in-re-al-in-petition-of-rw-aw-in-re-petition-of/",
+          "courtlistener_cluster_id": 4328485
+        },
+        {
+          "case_name": "In re Ak.V.",
+          "citation": "747 A.2d 570 (D.C. 2000)",
+          "court": "District of Columbia Court of Appeals",
+          "year": 2000,
+          "date_decided": "2000-03-23",
+          "holding": "Summarily denying a parent's motion to extend the time to file a late appeal from a neglect finding and disposition, without considering her claim that her lawyer's failure to file constituted excusable neglect, was an abuse of discretion.",
+          "relevance": "It is the D.C. authority preserving a parent's late appeal where counsel's default, not the parent's, caused the missed deadline.",
+          "quote": "it was an abuse of discretion for the trial court summarily to deny the requested extension",
+          "url": "https://www.courtlistener.com/opinion/5137359/in-re-ak-v/",
+          "courtlistener_cluster_id": 5137359
+        },
+        {
+          "case_name": "In re Ti.B.",
+          "citation": "762 A.2d 20 (D.C. 2000)",
+          "court": "District of Columbia Court of Appeals",
+          "year": 2000,
+          "date_decided": "2000-11-03",
+          "holding": "Orders barring a father in a neglect proceeding from conferring with his criminal defense counsel about his privilege against self-incrimination, and excluding that lawyer from the courtroom, were immediately appealable under the collateral order doctrine and were an abuse of discretion.",
+          "relevance": "It is a D.C. reversal of trial court orders that interfered with a parent's right to informed legal advice in a neglect case.",
+          "quote": "the trial court abused its discretion in excluding Mr. Rapping from the courtroom, and in prohibiting T.B. and Mr. Harris from conferring with Mr. Rapping about the neglect proceeding",
+          "url": "https://www.courtlistener.com/opinion/2092391/in-re-ti-b/",
+          "courtlistener_cluster_id": 2092391
+        },
+        {
+          "case_name": "In re K.M.T.",
+          "citation": "795 A.2d 688 (D.C. 2002)",
+          "court": "District of Columbia Court of Appeals",
+          "year": 2002,
+          "date_decided": "2002-04-11",
+          "holding": "The court dismissed the mother's appeals for lack of jurisdiction, holding that an order changing a permanency planning goal is only a step toward final disposition, does not affect the parents' substantive rights, and therefore is not a final appealable order.",
+          "relevance": "It is the rule In re Ta.L. overruled en banc in 2016, and candor requires citing it whenever Ta.L.'s appealability holding is relied on.",
+          "quote": "We hold accordingly that an order changing a permanency planning goal is not final or appealable.",
+          "url": "https://www.courtlistener.com/opinion/5138822/in-re-kmt/",
+          "courtlistener_cluster_id": 5138822
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22District%20of%20Columbia%22%20AND%20%28%22CPS%22%20OR%20%22child%20protective%20services%22%20OR%20%22due%20process%22%20OR%20%22parental%20rights%22%20OR%20%22wrongful%20removal%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "CPS",
         "child protective services",
@@ -62,149 +140,7 @@
         "civil rights",
         "immunity",
         "damages"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22District%20of%20Columbia%22%20AND%20%28%22CPS%22%20OR%20%22child%20protective%20services%22%20OR%20%22due%20process%22%20OR%20%22parental%20rights%22%20OR%20%22wrongful%20removal%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "wrongful removal",
-        "1983 claim",
-        "civil rights",
-        "immunity",
-        "damages"
-      ],
-      "jurisdiction": "District of Columbia state courts",
-      "key_cases": [
-        {
-          "case_id": "21-cv-0448",
-          "title": "Greene v. D.C. Child & Family Services Agency",
-          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2024/21-cv-0448.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "District Of Columbia Court Of Appeals Case 21-cv-0448 (2024)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Family Services"
-        },
-        {
-          "case_id": "24-fs-0078",
-          "title": "In re L.C.",
-          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/24-fs-0078.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "District Of Columbia Court Of Appeals Case 24-fs-0078 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "25-bg-0469",
-          "title": "In re Gumbinner (Per Curiam)",
-          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/25-bg-0469.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "District Of Columbia Court Of Appeals Case 25-bg-0469 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-bg-0588-0",
-          "title": "In re Larson-Jackson (Per Curiam)",
-          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/25-bg-0588-0.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "District Of Columbia Court Of Appeals Case 25-bg-0588-0 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-bg-0704",
-          "title": "In re Pisner (Per Curiam)",
-          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/25-bg-0704.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "District Of Columbia Court Of Appeals Case 25-bg-0704 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "19-bg-0587",
-          "title": "In re Wallace",
-          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/19-bg-0587.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "District Of Columbia Court Of Appeals Case 19-bg-0587 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-bg-0685",
-          "title": "In re Lee (Per Curiam)",
-          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/25-bg-0685.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "District Of Columbia Court Of Appeals Case 25-bg-0685 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-bg-0729",
-          "title": "In re Banks (Per Curiam)",
-          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/25-bg-0729.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "District Of Columbia Court Of Appeals Case 25-bg-0729 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-bg-0588",
-          "title": "In re Larson-Jackson (Per Curiam)",
-          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/25-bg-0588.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "District Of Columbia Court Of Appeals Case 25-bg-0588 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-bg-0605",
-          "title": "In re Ross (Per Curiam)",
-          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/25-bg-0605.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "District Of Columbia Court Of Appeals Case 25-bg-0605 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     },
     "administrative_rule": {
       "regulations_applicable": []

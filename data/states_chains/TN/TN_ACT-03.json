@@ -113,6 +113,72 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Tennessee state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "Kovacic v. Cuyahoga County Department of Children & Family Services",
+          "citation": "724 F.3d 687 (6th Cir. 2013)",
+          "court": "United States Court of Appeals for the Sixth Circuit",
+          "year": 2013,
+          "date_decided": "2013-07-31",
+          "holding": "The Sixth Circuit affirmed denial of absolute and qualified immunity to social workers who removed children without a warrant, holding it was clearly established by 2002 that the Fourth Amendment's warrant requirement and its exigency exception apply to child removals.",
+          "relevance": "Defines the constitutional predicate for lawfully placing a removed child into foster care.",
+          "quote": "it was clearly established that Fourth Amendment warrant requirements, including the exigent-circumstances exception, apply to the removal of children from their homes by social workers",
+          "url": "https://www.courtlistener.com/opinion/1035935/kovacic-v-cuyahoga-county-department-of-children-family-services/",
+          "courtlistener_cluster_id": 1035935
+        },
+        {
+          "case_name": "DeShaney v. Winnebago County Department of Social Services",
+          "citation": "489 U.S. 189 (1989)",
+          "court": "Supreme Court of the United States",
+          "year": 1989,
+          "date_decided": "1989-02-22",
+          "holding": "The Supreme Court held that the Due Process Clause imposes no affirmative duty on a State to protect a child from private violence, so county social workers were not liable for failing to remove a child they knew was being abused.",
+          "relevance": "Marks the custody line that distinguishes a child left at home from a child taken into state care.",
+          "quote": "nothing in the language of the Due Process Clause itself requires the State to protect the life, liberty, and property of its citizens against invasion by private actors",
+          "url": "https://www.courtlistener.com/opinion/112202/deshaney-v-winnebago-county-department-of-social-services/",
+          "courtlistener_cluster_id": 112202
+        },
+        {
+          "case_name": "In re Kaliyah S.",
+          "citation": "455 S.W.3d 533 (Tenn. 2015)",
+          "court": "Tennessee Supreme Court",
+          "year": 2015,
+          "date_decided": "2015-01-22",
+          "holding": "The Tennessee Supreme Court held that the Department need not prove reasonable efforts to reunify as a precondition to termination; the extent of its efforts is instead weighed in the best-interests analysis.",
+          "relevance": "Explains that DCS reunification efforts after a foster-care removal are evaluated in the best-interest analysis rather than as an independent element.",
+          "quote": "the extent of DCS's efforts to reunify the family is weighed in the court's best-interest analysis, but proof of reasonable efforts is not a precondition to termination",
+          "url": "https://www.courtlistener.com/opinion/2772441/in-re-kaliyah-s/",
+          "courtlistener_cluster_id": 2772441
+        },
+        {
+          "case_name": "In re Braxton M.",
+          "citation": "531 S.W.3d 708 (Tenn. Ct. App. 2017)",
+          "court": "Court of Appeals of Tennessee",
+          "year": 2017,
+          "date_decided": "2017-07-05",
+          "holding": "The court affirmed termination of the father's rights on abandonment grounds and affirmed the best-interest finding, while reversing the trial court's application of the putative-father grounds in Tenn. Code Ann. sec. 36-1-113(g)(9)(A)(iv)-(v).",
+          "relevance": "Traces a drug-exposed-newborn dependency removal through to permanency.",
+          "quote": "we conclude that clear and convincing evidence supports the trial court's finding that termination of Father's parental rights was in the Children's best interest",
+          "url": "https://www.courtlistener.com/opinion/4406243/in-re-braxton-m/",
+          "courtlistener_cluster_id": 4406243
+        },
+        {
+          "case_name": "In re Bernard T.",
+          "citation": "319 S.W.3d 586 (Tenn. 2010)",
+          "court": "Tennessee Supreme Court",
+          "year": 2010,
+          "date_decided": "2010-08-26",
+          "holding": "The court reversed the Court of Appeals and reinstated termination of the putative father's rights, holding that the Department's reunification efforts need only be reasonable rather than herculean, that parents bear a reciprocal duty to remedy the conditions requiring removal, and that clear and convincing evidence showed he could not presently assume custody.",
+          "relevance": "Supplies the case-by-case factors for measuring DCS's post-removal reunification efforts for a child already in foster care.",
+          "quote": "The parents must also make reasonable efforts to rehabilitate themselves and to remedy the conditions that required the removal of the children.",
+          "url": "https://www.courtlistener.com/opinion/1057603/in-re-bernard-t/",
+          "courtlistener_cluster_id": 1057603
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Tennessee%22%20AND%20%28%22Tennessee%20Department%20of%20Children%27s%20Services%22%20OR%20%22DCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Tennessee Department of Children's Services",
         "DCS",
@@ -124,149 +190,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Tennessee%22%20AND%20%28%22Tennessee%20Department%20of%20Children%27s%20Services%22%20OR%20%22DCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "removal",
-        "emergency custody",
-        "placement",
-        "reunification",
-        "services"
-      ],
-      "jurisdiction": "Tennessee state courts",
-      "key_cases": [
-        {
-          "case_id": "m2024-00474-cca-r3-co",
-          "title": "State of Tennessee v. Nathaniel Buchanan, In Re: McAdoo Bonding Company, Surety",
-          "url": "https://law.justia.com/cases/tennessee/court-of-criminal-appeals/2025/m2024-00474-cca-r3-co.html",
-          "year": 2025,
-          "court": "Court Of Criminal Appeals",
-          "citation": "Tennessee Court Of Criminal Appeals Case m2024-00474-cca-r3-co (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "m2024-00797-coa-r9-jv",
-          "title": "In Re Markus E.",
-          "url": "https://law.justia.com/cases/tennessee/court-of-criminal-appeals/2025/m2024-00797-coa-r9-jv.html",
-          "year": 2025,
-          "court": "Court Of Criminal Appeals",
-          "citation": "Tennessee Court Of Criminal Appeals Case m2024-00797-coa-r9-jv (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "w2024-01063-cca-r3-cd",
-          "title": "In Re: Tennessee Bonding Company, Inc., d/b/a Action Bail Bonding",
-          "url": "https://law.justia.com/cases/tennessee/court-of-criminal-appeals/2025/w2024-01063-cca-r3-cd.html",
-          "year": 2025,
-          "court": "Court Of Criminal Appeals",
-          "citation": "Tennessee Court Of Criminal Appeals Case w2024-01063-cca-r3-cd (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "m2024-01260-coa-r3-pt",
-          "title": "In Re Taron H.",
-          "url": "https://law.justia.com/cases/tennessee/court-of-criminal-appeals/2025/m2024-01260-coa-r3-pt.html",
-          "year": 2025,
-          "court": "Court Of Criminal Appeals",
-          "citation": "Tennessee Court Of Criminal Appeals Case m2024-01260-coa-r3-pt (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "w2024-00425-cca-r3-cd",
-          "title": "In Re Ann Blankenship (d/b/a Ann Blankenship Bonding)",
-          "url": "https://law.justia.com/cases/tennessee/court-of-criminal-appeals/2025/w2024-00425-cca-r3-cd.html",
-          "year": 2025,
-          "court": "Court Of Criminal Appeals",
-          "citation": "Tennessee Court Of Criminal Appeals Case w2024-00425-cca-r3-cd (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "m2024-00972-cca-r3-co",
-          "title": "In Re Bail U Out Bonding",
-          "url": "https://law.justia.com/cases/tennessee/court-of-criminal-appeals/2025/m2024-00972-cca-r3-co.html",
-          "year": 2025,
-          "court": "Court Of Criminal Appeals",
-          "citation": "Tennessee Court Of Criminal Appeals Case m2024-00972-cca-r3-co (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "e2025-00486-coa-r3-pt",
-          "title": "IN RE MAISYNN Y.",
-          "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2025/e2025-00486-coa-r3-pt.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Tennessee Court Of Appeals Case e2025-00486-coa-r3-pt (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "m2024-01421-coa-r3-pt",
-          "title": "In Re Ka'Myiah M. et al.",
-          "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2025/m2024-01421-coa-r3-pt.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Tennessee Court Of Appeals Case m2024-01421-coa-r3-pt (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "w2025-00474-coa-r3-pt",
-          "title": "In Re Arlo L.",
-          "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2025/w2025-00474-coa-r3-pt.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Tennessee Court Of Appeals Case w2025-00474-coa-r3-pt (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "e2024-01574-coa-r3-pt",
-          "title": "IN RE LINCOLN S. ET AL.",
-          "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2025/e2024-01574-coa-r3-pt.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Tennessee Court Of Appeals Case e2024-01574-coa-r3-pt (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

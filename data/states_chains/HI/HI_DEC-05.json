@@ -139,6 +139,84 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Hawaii state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "In the Interest of Doe",
+          "citation": "91 Haw. 166, 981 P.2d 723 (Haw. Ct. App. 1999)",
+          "court": "Intermediate Court of Appeals of Hawai'i",
+          "year": 1999,
+          "date_decided": "1999-07-14",
+          "holding": "The ICA affirmed an order of family supervision, holding that a chapter 587 petition is verified by a declaration under penalty of perjury, that threatened harm alone suffices to sustain the petition, and that DHS's disclosure of case information to the police was not a ground for dismissal absent particularized objection.",
+          "relevance": "It sets the verification and pleading requirements for the petition that opens a Hawai'i dependency case.",
+          "quote": "Thus, allegations of actual harm are not required to sustain a petition for family supervision and allegations of threatened harm would suffice.",
+          "url": "https://www.courtlistener.com/opinion/1160891/in-the-interest-of-doe/",
+          "courtlistener_cluster_id": 1160891
+        },
+        {
+          "case_name": "In the Interest of T.M.",
+          "citation": "131 Haw. 419, 319 P.3d 338 (2014)",
+          "court": "Supreme Court of Hawai'i",
+          "year": 2014,
+          "date_decided": "2014-01-06",
+          "holding": "The court held that under article I, section 5 of the Hawai'i Constitution indigent parents have a right to court-appointed counsel in termination proceedings, and that the family court abused its discretion by not appointing counsel until nineteen months after DHS petitioned for temporary foster custody.",
+          "relevance": "Filing the petition is the point at which the indigent parent's right to appointed counsel attaches, so the petition decision has immediate due-process consequences.",
+          "quote": "indigent parents are guaranteed the right to court-appointed counsel in termination proceedings",
+          "url": "https://www.courtlistener.com/opinion/6617372/in-the-interest-of-tm/",
+          "courtlistener_cluster_id": 6617372
+        },
+        {
+          "case_name": "In re LI and HDK",
+          "citation": "149 Haw. 118 (2021)",
+          "court": "Supreme Court of Hawai'i",
+          "year": 2021,
+          "date_decided": "2021-03-11",
+          "holding": "The court held that counsel must be appointed for an indigent parent when DHS files a petition for family supervision, not merely when it seeks foster custody, and that failure to do so is structural error requiring vacatur of the foster-custody and termination orders.",
+          "relevance": "The filing of any petition that can lead to custody or termination, including a family supervision petition, triggers the appointment duty.",
+          "quote": "The family court's failure to appoint Mother counsel when DHS filed its petition for family supervision was structural error and cannot be deemed harmless.",
+          "url": "https://www.courtlistener.com/opinion/4863169/in-re-li-and-hdk/",
+          "courtlistener_cluster_id": 4863169
+        },
+        {
+          "case_name": "Rieman v. Vazquez",
+          "citation": "96 F.4th 1085 (9th Cir. 2024)",
+          "court": "United States Court of Appeals for the Ninth Circuit",
+          "year": 2024,
+          "date_decided": "2024-03-05",
+          "holding": "The court affirmed denial of absolute and qualified immunity to social workers who failed to give a mother notice of the detention hearing and then told the juvenile court her whereabouts were unknown, holding that giving notice is a mandatory, non-discretionary act and that the right against judicial deception was clearly established.",
+          "relevance": "Filing a petition and obtaining detention orders requires truthful representations and actual notice to the parent.",
+          "quote": "An individual has a well-established constitutional right to be free from deception in the presentation of evidence during juvenile dependency proceedings.",
+          "url": "https://www.courtlistener.com/opinion/9481186/sydney-rieman-v-gloria-vasquez/",
+          "courtlistener_cluster_id": 9481186
+        },
+        {
+          "case_name": "In the Interest of the P Children",
+          "citation": "No. SCWC-22-0000636 (Haw. Feb. 13, 2025)",
+          "court": "Supreme Court of Hawai'i",
+          "year": 2025,
+          "date_decided": "2025-02-13",
+          "holding": "The court held that an indigent parent's constitutional right to counsel is not invoked for structural-error purposes until the parent appears and engages in the case, including complying with the court's indigency process, affirmed the permanent custody and adoption orders because the years-long proceeding was fundamentally fair, and directed family courts to make an indigency determination at a parent's first appearance.",
+          "relevance": "It supplies the operational rule that follows the filing of a chapter 587A petition: the family court must determine indigency at the parent's first appearance, and must appoint counsel whenever indigency is uncertain or the parent resists the inquiry.",
+          "quote": "we direct family courts to make an indigency determination at a parent's first appearance in a chapter 587A proceeding that substantially affects parental rights",
+          "url": "https://www.courtlistener.com/opinion/10332851/in-re-the-p-children/",
+          "courtlistener_cluster_id": 10332851
+        },
+        {
+          "case_name": "In the Interest of Doe",
+          "citation": "99 Haw. 522, 57 P.3d 447 (2002)",
+          "court": "Supreme Court of Hawai'i",
+          "year": 2002,
+          "date_decided": "2002-11-08",
+          "holding": "The court held that, as an aspect of procedural due process, a parent who needs an interpreter must be provided one at any family court proceeding where parental rights are substantially affected, a question resolved case by case rather than by a bright-line test, but affirmed the award of foster custody to DHS because the mother showed neither a need for an interpreter nor substantial prejudice and DHS proved harm by a preponderance of the evidence.",
+          "relevance": "This is the pre-T.M. authority holding that due process protections attach whenever a family court proceeding substantially affects parental rights, decided case by case with no bright-line test; In re T.M. (2014) later replaced that case-by-case approach for the appointment of counsel.",
+          "quote": "Procedural due process requires that an individual whose rights are at stake understand the nature of the proceedings he or she faces.",
+          "url": "https://www.courtlistener.com/opinion/2602460/in-the-interest-of-doe/",
+          "courtlistener_cluster_id": 2602460
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Hawaii%22%20AND%20%28%22Hawaii%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Hawaii Department of Human Services",
         "CPS",
@@ -150,149 +228,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Hawaii%22%20AND%20%28%22Hawaii%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "investigation",
-        "substantiation",
-        "evidence standard",
-        "due process",
-        "reasonable efforts"
-      ],
-      "jurisdiction": "Hawaii state courts",
-      "key_cases": [
-        {
-          "case_id": "scrq-24-0000602-0",
-          "title": "In re: The Petition for the Coordination of Maui Fire Cases. S.Ct. Order",
-          "url": "https://law.justia.com/cases/hawaii/supreme-court/2025/scrq-24-0000602-0.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Hawaii Supreme Court Case scrq-24-0000602-0 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "scrq-24-0000602",
-          "title": "In re: The Petition for the Coordination of Maui Fire Cases",
-          "url": "https://law.justia.com/cases/hawaii/supreme-court/2025/scrq-24-0000602.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Hawaii Supreme Court Case scrq-24-0000602 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "scap-20-0000110",
-          "title": "In re Investigation of KAHEA",
-          "url": "https://law.justia.com/cases/hawaii/supreme-court/2021/scap-20-0000110.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Hawaii Supreme Court Case scap-20-0000110 (2021)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "investigation"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "caap-23-0000459",
-          "title": "In re: Petition of Kenneth S. Church",
-          "url": "https://law.justia.com/cases/hawaii/court-of-appeals/2025/caap-23-0000459.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Hawaii Court Of Appeals Case caap-23-0000459 (2025)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "caap-24-0000472",
-          "title": "In re: Ex Parte Petition of Gonsalves",
-          "url": "https://law.justia.com/cases/hawaii/court-of-appeals/2025/caap-24-0000472.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Hawaii Court Of Appeals Case caap-24-0000472 (2025)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "scot-19-0000830",
-          "title": "In re Petition of Ku'ulei Higashi Kanahele",
-          "url": "https://law.justia.com/cases/hawaii/supreme-court/2023/scot-19-0000830.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Hawaii Supreme Court Case scot-19-0000830 (2023)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "caap-18-0000799-0",
-          "title": "In re: Petition of Avilla, Villanueva, and Biddinger v. Ito",
-          "url": "https://law.justia.com/cases/hawaii/court-of-appeals/2023/caap-18-0000799-0.html",
-          "year": 2023,
-          "court": "Court Of Appeals",
-          "citation": "Hawaii Court Of Appeals Case caap-18-0000799-0 (2023)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "caap-18-0000799",
-          "title": "In re: Petition of Avilla, Villanueva, and Biddinger v. Ito",
-          "url": "https://law.justia.com/cases/hawaii/court-of-appeals/2023/caap-18-0000799.html",
-          "year": 2023,
-          "court": "Court Of Appeals",
-          "citation": "Hawaii Court Of Appeals Case caap-18-0000799 (2023)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "caap-17-0000477",
-          "title": "In re: The Petition of Arden Delos Santos, as Personal Representative of the Estate of ADS",
-          "url": "https://law.justia.com/cases/hawaii/court-of-appeals/2023/caap-17-0000477.html",
-          "year": 2023,
-          "court": "Court Of Appeals",
-          "citation": "Hawaii Court Of Appeals Case caap-17-0000477 (2023)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "caap-20-0000267",
-          "title": "In re: The Petition of Hannah Harrison v. Ito",
-          "url": "https://law.justia.com/cases/hawaii/court-of-appeals/2023/caap-20-0000267.html",
-          "year": 2023,
-          "court": "Court Of Appeals",
-          "citation": "Hawaii Court Of Appeals Case caap-20-0000267 (2023)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

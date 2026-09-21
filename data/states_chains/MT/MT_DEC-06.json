@@ -154,6 +154,36 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Montana state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "In re J.C.",
+          "citation": "2008 MT 127, 343 Mont. 30, 183 P.3d 22",
+          "court": "Montana Supreme Court",
+          "year": 2008,
+          "date_decided": "2008-04-21",
+          "holding": "Termination was affirmed; a youth-in-need-of-care adjudication is not a prerequisite to temporary investigative authority under § 41-3-433 or to a court-ordered treatment plan under § 41-3-443(1) where the parents admit or stipulate to the allegations.",
+          "relevance": "It is the closest Montana analogue to alternative response: services can be ordered on parental admission or stipulation without a contested adjudication.",
+          "quote": "a YINC adjudication is not always required for TIA and court-approved treatment plans",
+          "url": "https://www.courtlistener.com/opinion/8071677/in-re-jc/",
+          "courtlistener_cluster_id": 8071677
+        },
+        {
+          "case_name": "In re B.P.",
+          "citation": "2000 MT 39, 298 Mont. 287, 995 P.2d 982",
+          "court": "Montana Supreme Court",
+          "year": 2000,
+          "date_decided": "2000-02-15",
+          "holding": "An interlocutory order granting temporary investigative authority and protective services is not appealable under Rule 1, M.R.App.P.; review must be sought by certiorari, habeas corpus or supervisory control, although the Court suspended the rules and reached the merits here because the parties had relied on a contrary prior statement.",
+          "relevance": "Because a TIA can be granted by stipulation, it marks the boundary between negotiated service arrangements and contested court intervention.",
+          "quote": "We hold, therefore, that an interlocutory order granting temporary investigative authority and protective services is not appealable under Rule 1, M.R.App.P.",
+          "url": "https://www.courtlistener.com/opinion/8070481/in-re-bp/",
+          "courtlistener_cluster_id": 8070481
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Montana%22%20AND%20%28%22Montana%20Department%20of%20Public%20Health%20and%20Human%20Services%22%20OR%20%22DPHHS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Montana Department of Public Health and Human Services",
         "DPHHS",
@@ -165,149 +195,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Montana%22%20AND%20%28%22Montana%20Department%20of%20Public%20Health%20and%20Human%20Services%22%20OR%20%22DPHHS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "investigation",
-        "substantiation",
-        "evidence standard",
-        "due process",
-        "reasonable efforts"
-      ],
-      "jurisdiction": "Montana state courts",
-      "key_cases": [
-        {
-          "case_id": "da-25-0077",
-          "title": "In re Marriage of Steinbeisser",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0077.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-25-0077 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "da-25-0386",
-          "title": "Matter of K.H. & D.H., YINC",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0386.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-25-0386 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of initials"
-        },
-        {
-          "case_id": "da-25-0073",
-          "title": "Matter of J.D.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0073.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-25-0073 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of initials"
-        },
-        {
-          "case_id": "da-25-0146",
-          "title": "In re C.M.B.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0146.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-25-0146 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "da-25-0273",
-          "title": "In re Parenting of A.M.B.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0273.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-25-0273 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "da-25-0341",
-          "title": "In re Estate of Damjanovich",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0341.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-25-0341 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "da-24-0148",
-          "title": "In re J.L.O.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-24-0148.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-24-0148 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "da-24-0187",
-          "title": "In re P.G.J.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-24-0187.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-24-0187 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "da-24-0469",
-          "title": "In re Potter Exemption Trust",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-24-0469.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-24-0469 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "da-22-0645",
-          "title": "In re T.W.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-22-0645.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-22-0645 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

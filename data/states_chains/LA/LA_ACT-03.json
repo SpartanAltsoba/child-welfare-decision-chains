@@ -131,6 +131,60 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Louisiana state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "State ex rel. L.C.B.",
+          "citation": "805 So. 2d 159 (La. 2002)",
+          "court": "Supreme Court of Louisiana",
+          "year": 2002,
+          "date_decided": "2002-01-15",
+          "holding": "The Louisiana Supreme Court held the juvenile court exceeded its authority by ordering the department to move a child adjudicated in need of care into a certified foster home, because La. Ch.C. art. 672(A) gives the department sole authority over placement, with judicial control exercised through approval and review of the case plan.",
+          "relevance": "Is the controlling Louisiana authority on who chooses the foster placement once custody is assigned to the department.",
+          "quote": "the court was without authority to order the child's movement to a certified foster home",
+          "url": "https://www.courtlistener.com/opinion/7806485/state-ex-rel-lcb/",
+          "courtlistener_cluster_id": 7806485
+        },
+        {
+          "case_name": "State in the Interest of G.H.",
+          "citation": "265 So. 3d 960 (La. Ct. App. 5th Cir. 2019)",
+          "court": "Court of Appeal of Louisiana, Fifth Circuit",
+          "year": 2019,
+          "date_decided": "2019-01-30",
+          "holding": "The court of appeal denied the motion to dismiss and affirmed the juvenile court's denial of former foster parents' third motion to intervene, holding intervention by an interested person under La. Ch.C. art. 697 is discretionary and was properly refused where it would slow the permanency plan.",
+          "relevance": "Is the Louisiana authority on foster parents' limited standing to contest a change of foster placement, and on DCFS's authority to decide where a child in its custody is placed.",
+          "quote": "The trial court is vested with the discretion to allow an intervention as an \"interested person.\"",
+          "url": "https://www.courtlistener.com/opinion/7703066/state-in-interest-of-gh/",
+          "courtlistener_cluster_id": 7703066
+        },
+        {
+          "case_name": "State ex rel. L.B.",
+          "citation": "986 So. 2d 62 (La. 2008)",
+          "court": "Supreme Court of Louisiana",
+          "year": 2008,
+          "date_decided": "2008-07-17",
+          "holding": "The Louisiana Supreme Court reversed the juvenile court's refusal to find the infant a child in need of care, holding that expert medical evidence of repeated non-accidental trauma established reasonable grounds and that the agency need only prove the petition's allegations by a preponderance.",
+          "relevance": "Holds that placing the child in agency custody was warranted to allow further investigation, case planning and protection.",
+          "quote": "It is not the OCS's duty to prove its case beyond a reasonable doubt, by clear and convincing evidence, or to disprove every hypothesis of innocence.",
+          "url": "https://www.courtlistener.com/opinion/7849856/state-ex-rel-lb/",
+          "courtlistener_cluster_id": 7849856
+        },
+        {
+          "case_name": "Parham v. J. R.",
+          "citation": "442 U.S. 584 (1979)",
+          "court": "Supreme Court of the United States",
+          "year": 1979,
+          "date_decided": "1979-06-20",
+          "holding": "The Court held that a child's admission to a state mental hospital, whether sought by parents or by the State as guardian of a ward, requires an independent inquiry by a neutral factfinder into whether statutory admission standards are met, plus periodic review, but not a formal adversarial hearing.",
+          "relevance": "It addresses children who are wards of the State and holds that the agency's decision to place a child in an institution is subject to the same independent medical review as a parent's.",
+          "quote": "Thus, a staff physician will suffice, so long as he or she is free to evaluate independently the child's mental and emotional condition and need for treatment",
+          "url": "https://www.courtlistener.com/opinion/110113/parham-v-j-r/",
+          "courtlistener_cluster_id": 110113
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Louisiana%22%20AND%20%28%22Louisiana%20Department%20of%20Children%20and%20Family%20Services%22%20OR%20%22DCFS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Louisiana Department of Children and Family Services",
         "DCFS",
@@ -142,149 +196,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Louisiana%22%20AND%20%28%22Louisiana%20Department%20of%20Children%20and%20Family%20Services%22%20OR%20%22DCFS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "removal",
-        "emergency custody",
-        "placement",
-        "reunification",
-        "services"
-      ],
-      "jurisdiction": "Louisiana state courts",
-      "key_cases": [
-        {
-          "case_id": "2025-b-00537",
-          "title": "IN RE: HENRY L. KLEIN",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2025-b-00537.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2025-b-00537 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "2025-o-00994",
-          "title": "IN RE: JUDGE ROYALE COLBERT",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2025-o-00994.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2025-o-00994 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2025-o-01127",
-          "title": "IN RE: JUDGE TIFFANY FOXWORTH-ROBERTS",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2025-o-01127.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2025-o-01127 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2025-o-00879",
-          "title": "IN RE: JUDGE JENNIFER M. MEDLEY",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2025-o-00879.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2025-o-00879 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2025-o-00320",
-          "title": "IN RE: JUDGE DONALD \"CHICK\" FORET TWENTY-FOURTH JUDICIAL DISTRICT COURT PARISH OF JEFFERSON STATE OF LOUISIANA",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2025-o-00320.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2025-o-00320 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2024-ck-00254",
-          "title": "In re D.D.",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2024-ck-00254.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2024-ck-00254 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "2023-ba-00159",
-          "title": "IN RE: COMMITTEE ON BAR ADMISSIONS CFN-1791",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2023-ba-00159.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2023-ba-00159 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2023-ba-01455",
-          "title": "IN RE: COMMITTEE ON BAR ADMISSIONS CFN-65372",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2024/2023-ba-01455.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2023-ba-01455 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2024-b-00479",
-          "title": "IN RE: TRINA TRINHTHI CHU",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2024/2024-b-00479.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2024-b-00479 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2024-b-00520",
-          "title": "IN RE: NED FRANKLIN PIERCE SONNIER, SR.",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2024/2024-b-00520.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2024-b-00520 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

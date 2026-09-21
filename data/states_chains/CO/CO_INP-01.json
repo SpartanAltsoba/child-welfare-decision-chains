@@ -99,6 +99,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Colorado state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "L.J. v. Carricato",
+          "citation": "2018 COA 3, 413 P.3d 1280",
+          "court": "Colorado Court of Appeals",
+          "year": 2018,
+          "date_decided": "2018-01-11",
+          "holding": "The division held that the Child Protection Act and the Colorado Governmental Immunity Act can be read together, so that a public-employee mandatory reporter is immune from liability for reporting or failing to report child abuse unless the conduct was willful and wanton, and remanded for a Trinity hearing on that question.",
+          "relevance": "This is the controlling Colorado statement of the scope and limits of mandatory-reporter immunity under C.R.S. § 19-3-309, which is what makes the reporting duty at this node enforceable without exposing the reporter to suit.",
+          "quote": "persons who report child abuse under section 19-3-304 are immune from liability unless their conduct is willful, wanton, and malicious.",
+          "url": "https://www.courtlistener.com/opinion/4461396/lj-v-carricato/",
+          "courtlistener_cluster_id": 4461396
+        },
+        {
+          "case_name": "Berges v. County Court of Douglas County",
+          "citation": "2016 COA 146, 409 P.3d 592",
+          "court": "Colorado Court of Appeals",
+          "year": 2016,
+          "date_decided": "2016-10-06",
+          "holding": "The division held that section 19-3-206's grant of exclusive authority to county attorneys over article 3 proceedings does not strip district attorneys of their authority to criminally prosecute mandatory reporters who willfully fail to report under section 19-3-304.",
+          "relevance": "This case establishes that a mandatory reporter's willful failure to report is a criminal misdemeanor prosecutable by the district attorney, which is the enforcement mechanism behind the reporting duty at this node.",
+          "quote": "section 19-3-304 does not set forth a proceeding under article 3; it simply defines an offense.",
+          "url": "https://www.courtlistener.com/opinion/4311747/berges-v-county-court-of-douglas-county/",
+          "courtlistener_cluster_id": 4311747
+        },
+        {
+          "case_name": "Trinity Broadcasting of Denver, Inc. v. City of Westminster",
+          "citation": "848 P.2d 916 (Colo. 1993)",
+          "court": "Supreme Court of Colorado",
+          "year": 1993,
+          "date_decided": "1993-04-12",
+          "holding": "The court reversed the summary judgment on the Governmental Immunity Act notice issue and remanded, holding that a pretrial governmental-immunity challenge is a jurisdictional question for the trial court under C.R.C.P. 12(b)(1), on which the court may permit limited discovery and must hold an evidentiary hearing when the jurisdictional facts are disputed, rather than resolving it on summary judgment or reserving it for the jury.",
+          "relevance": "This is the decision that supplies the procedure — the 'Trinity hearing' — a trial court must use to resolve a mandatory reporter's or agency employee's Governmental Immunity Act defence, which is exactly what L.J. v. Carricato ordered on remand.",
+          "quote": "When a public entity claims before trial that timely notice was not given to it under the Governmental Immunity Act, the trial court is the finder of fact.",
+          "url": "https://www.courtlistener.com/opinion/1376376/trinity-broadcasting-of-denver-inc-v-city-of-westminster/",
+          "courtlistener_cluster_id": 1376376
+        },
+        {
+          "case_name": "Martinez v. Estate of Bleck",
+          "citation": "2016 CO 58, 379 P.3d 315",
+          "court": "Supreme Court of Colorado",
+          "year": 2016,
+          "date_decided": "2016-09-12",
+          "holding": "The court reversed and remanded, holding that a public employee who asserts that his conduct was not willful and wanton under section 24-10-118(2)(a) is claiming sovereign immunity and may appeal its denial, that the trial court must resolve all issues bearing on that immunity claim including factual ones at a Trinity hearing rather than merely test the pleadings, and that willful and wanton conduct requires conscious disregard of the danger rather than negligence.",
+          "relevance": "It supplies the substantive standard and the procedure for the willful-and-wanton exception that strips a public-employee mandatory reporter of Governmental Immunity Act immunity under the rule stated in L.J. v. Carricato.",
+          "quote": "willful and wanton conduct is not merely negligent; instead, it must exhibit a conscious disregard for the danger.",
+          "url": "https://www.courtlistener.com/opinion/4255994/martinez-v-estate-of-bleck-ex-rel-churchill/",
+          "courtlistener_cluster_id": 4255994
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Colorado%22%20AND%20%28%22Colorado%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Colorado Department of Human Services",
         "CPS",
@@ -110,148 +164,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Colorado%22%20AND%20%28%22Colorado%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "mandatory reporting",
-        "failure to report",
-        "reporter immunity",
-        "hotline"
-      ],
-      "jurisdiction": "Colorado state courts",
-      "key_cases": [
-        {
-          "case_id": "25sc228",
-          "title": "In re The Marriage of Bailey",
-          "url": "https://law.justia.com/cases/colorado/supreme-court/2025/25sc228.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Colorado Supreme Court Case 25sc228 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "24sc788-0",
-          "title": "In re The Parental Responsibilities Concerning Children K.M.S.",
-          "url": "https://law.justia.com/cases/colorado/supreme-court/2025/24sc788-0.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Colorado Supreme Court Case 24sc788-0 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25sa78-0",
-          "title": "In re People ex rel. R.M.P.",
-          "url": "https://law.justia.com/cases/colorado/supreme-court/2025/25sa78-0.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Colorado Supreme Court Case 25sa78-0 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "24sa193-0",
-          "title": "In re People ex rel. J.D.",
-          "url": "https://law.justia.com/cases/colorado/supreme-court/2025/24sa193-0.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Colorado Supreme Court Case 24sa193-0 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "24sa193",
-          "title": "In re People ex rel. J.D.",
-          "url": "https://law.justia.com/cases/colorado/supreme-court/2025/24sa193.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Colorado Supreme Court Case 24sa193 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "24sa216",
-          "title": "In re Raykin",
-          "url": "https://law.justia.com/cases/colorado/supreme-court/2025/24sa216.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Colorado Supreme Court Case 24sa216 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25ca1355",
-          "title": "Peo in Interest of Zaczek",
-          "url": "https://law.justia.com/cases/colorado/court-of-appeals/2025/25ca1355.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Colorado Court Of Appeals Case 25ca1355 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of"
-        },
-        {
-          "case_id": "25ca1857",
-          "title": "Peo in Interest of Abdurahman",
-          "url": "https://law.justia.com/cases/colorado/court-of-appeals/2025/25ca1857.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Colorado Court Of Appeals Case 25ca1857 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of"
-        },
-        {
-          "case_id": "25ca0535",
-          "title": "Peo in Interest of AM",
-          "url": "https://law.justia.com/cases/colorado/court-of-appeals/2025/25ca0535.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Colorado Court Of Appeals Case 25ca0535 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of"
-        },
-        {
-          "case_id": "25ca1075",
-          "title": "Peo in Interest of AOL",
-          "url": "https://law.justia.com/cases/colorado/court-of-appeals/2025/25ca1075.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Colorado Court Of Appeals Case 25ca1075 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

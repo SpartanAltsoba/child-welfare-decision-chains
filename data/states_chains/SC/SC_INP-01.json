@@ -83,6 +83,48 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "South Carolina state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "Doe v. Marion",
+          "citation": "373 S.C. 390, 645 S.E.2d 245 (2007)",
+          "court": "Supreme Court of South Carolina",
+          "year": 2007,
+          "date_decided": "2007-05-07",
+          "holding": "The court affirmed dismissal, holding South Carolina's child abuse reporting statute creates a duty owed to the public and no private cause of action for failing to report, and that no common law duty to warn future victims existed.",
+          "relevance": "This is the controlling South Carolina authority that a mandated reporter's failure to report gives the victim no civil damages claim, however serious the consequences.",
+          "quote": "The fact that such language is missing from § 20-7-510 indicates the legislative intent was for the reporting statute not to create civil liability.",
+          "url": "https://www.courtlistener.com/opinion/1269614/doe-v-marion/",
+          "courtlistener_cluster_id": 1269614
+        },
+        {
+          "case_name": "Whitner v. State",
+          "citation": "328 S.C. 1, 492 S.E.2d 777 (1997)",
+          "court": "Supreme Court of South Carolina",
+          "year": 1997,
+          "date_decided": "1997-10-27",
+          "holding": "The court held that 'child' in South Carolina's child abuse and endangerment statute includes a viable fetus, so a mother's prenatal drug use can constitute criminal child neglect, and found no due process violation.",
+          "relevance": "Whitner is why prenatal substance exposure reported by a hospital is treated as a report of child abuse in South Carolina.",
+          "quote": "We hold the word \"child\" as used in that statute includes viable fetuses.",
+          "url": "https://www.courtlistener.com/opinion/1388496/whitner-v-state/",
+          "courtlistener_cluster_id": 1388496
+        },
+        {
+          "case_name": "Beattie v. Aiken County Department of Social Services",
+          "citation": "319 S.C. 449, 462 S.E.2d 276 (1995)",
+          "court": "Supreme Court of South Carolina",
+          "year": 1995,
+          "date_decided": "1995-09-18",
+          "holding": "The court held that parents whose case was closed as unfounded may not examine the DSS case file, that 'report' covers all investigative information and the reporter's identity is never disclosable, and that FOIA requires separation and release of non-exempt material where a court is asked to conduct that review.",
+          "relevance": "Beattie is the reason a mandated reporter's identity cannot be obtained by the family, which is the practical backbone of reporter protection in South Carolina.",
+          "quote": "The clear language of § 20-7-650 prohibits the disclosure of the DSS case file to Appellants or to anyone else.",
+          "url": "https://www.courtlistener.com/opinion/1354043/beattie-v-aiken-county-department-of-social-services/",
+          "courtlistener_cluster_id": 1354043
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22South%20Carolina%22%20AND%20%28%22South%20Carolina%20Department%20of%20Social%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "South Carolina Department of Social Services",
         "CPS",
@@ -94,148 +136,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22South%20Carolina%22%20AND%20%28%22South%20Carolina%20Department%20of%20Social%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "mandatory reporting",
-        "failure to report",
-        "reporter immunity",
-        "hotline"
-      ],
-      "jurisdiction": "South Carolina state courts",
-      "key_cases": [
-        {
-          "case_id": "2021-up-303",
-          "title": "South Carolina Department of Social Services v. Poole",
-          "url": "https://law.justia.com/cases/south-carolina/court-of-appeals/2021/2021-up-303.html",
-          "year": 2021,
-          "court": "Court Of Appeals",
-          "citation": "South Carolina Court Of Appeals Case 2021-up-303 (2021)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "south carolina department of social services"
-          ],
-          "child_welfare_reason": "High: SCDSS, DSS"
-        },
-        {
-          "case_id": "2021-up-304",
-          "title": "South Carolina Department of Social Services v. Poole",
-          "url": "https://law.justia.com/cases/south-carolina/court-of-appeals/2021/2021-up-304.html",
-          "year": 2021,
-          "court": "Court Of Appeals",
-          "citation": "South Carolina Court Of Appeals Case 2021-up-304 (2021)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "south carolina department of social services"
-          ],
-          "child_welfare_reason": "High: SCDSS, DSS"
-        },
-        {
-          "case_id": "28302",
-          "title": "In the Matter of Edward Joseph Schafer",
-          "url": "https://law.justia.com/cases/south-carolina/supreme-court/2025/28302.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "South Carolina Supreme Court Case 28302 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "28299",
-          "title": "In the Matter of Travis W. White",
-          "url": "https://law.justia.com/cases/south-carolina/supreme-court/2025/28299.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "South Carolina Supreme Court Case 28299 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "28300",
-          "title": "In the Matter of Georgia Anne Shobe",
-          "url": "https://law.justia.com/cases/south-carolina/supreme-court/2025/28300.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "South Carolina Supreme Court Case 28300 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "28292",
-          "title": "In the Matter of David Charles Johnston",
-          "url": "https://law.justia.com/cases/south-carolina/supreme-court/2025/28292.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "South Carolina Supreme Court Case 28292 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "2025-mo-037",
-          "title": "In the Matter of: Estate of Florence Petrak Mensch",
-          "url": "https://law.justia.com/cases/south-carolina/supreme-court/2025/2025-mo-037.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "South Carolina Supreme Court Case 2025-mo-037 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "28287",
-          "title": "In the Matter of Joseph R. Surface",
-          "url": "https://law.justia.com/cases/south-carolina/supreme-court/2025/28287.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "South Carolina Supreme Court Case 28287 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "28288",
-          "title": "In the Matter of Claudia Flower",
-          "url": "https://law.justia.com/cases/south-carolina/supreme-court/2025/28288.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "South Carolina Supreme Court Case 28288 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "28286",
-          "title": "In the Matter of Edward C. Nix",
-          "url": "https://law.justia.com/cases/south-carolina/supreme-court/2025/28286.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "South Carolina Supreme Court Case 28286 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

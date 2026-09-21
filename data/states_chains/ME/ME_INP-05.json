@@ -126,6 +126,72 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Maine state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Guardianship of Sebastien Chamberlain",
+          "citation": "2015 ME 76, 118 A.3d 229",
+          "court": "Supreme Judicial Court of Maine",
+          "year": 2015,
+          "date_decided": "2015-06-18",
+          "holding": "The Law Court held that appointing a guardian for a minor over a parent's objection on the de facto guardian provision's preponderance standard violates procedural due process, construed the statute to require clear and convincing evidence, and vacated and remanded for application of that standard.",
+          "relevance": "When a relative or caregiver petitions for guardianship instead of calling the hotline, the parent is constitutionally entitled to the clear and convincing standard before losing custody.",
+          "quote": "Notwithstanding the plain language of section 5-204(d), the applicable standard of proof must be proof by clear and convincing evidence.",
+          "url": "https://www.courtlistener.com/opinion/2809775/guardianship-of-sebastien-chamberlain/",
+          "courtlistener_cluster_id": 2809775
+        },
+        {
+          "case_name": "Guardianship of Ella M. Grenier",
+          "citation": "2018 ME 66, 185 A.3d 728",
+          "court": "Supreme Judicial Court of Maine",
+          "year": 2018,
+          "date_decided": "2018-05-08",
+          "holding": "The Law Court vacated a temporary guardianship awarded to a grandmother, holding that the finding of a temporarily intolerable living situation was clearly erroneous because the overwhelming record evidence showed the mother was a fit parent at the time of the hearing.",
+          "relevance": "When a relative petitions in Probate Court instead of triggering a child-protective report, the parent's fitness must still be assessed as of the hearing date, not on historical conduct.",
+          "quote": "Given the overwhelming record evidence that Nicole was a fit parent at the time of the hearing, the court's finding to the contrary is clearly erroneous",
+          "url": "https://www.courtlistener.com/opinion/4496072/guardianship-of-ella-m-grenier/",
+          "courtlistener_cluster_id": 4496072
+        },
+        {
+          "case_name": "Guardianship of Gabriel I.K. Johnson",
+          "citation": "2014 ME 104, 98 A.3d 1023",
+          "court": "Supreme Judicial Court of Maine",
+          "year": 2014,
+          "date_decided": "2014-08-12",
+          "holding": "The Law Court affirmed appointment of the paternal grandparents as full guardians over the mother's objection, holding the Probate Court's findings that the mother was unfit and presented a temporarily intolerable living situation and that the appointment served the child's best interest satisfied 18-A M.R.S. §§ 5-204 and 5-207.",
+          "relevance": "A grandparent's guardianship petition is the private-law counterpart to a child-protective referral, and the consent of one legal custodian changes the proof required.",
+          "quote": "Here, there was no dispute as to venue or notice, and the court found all of the elements necessary to support a guardianship judgment pursuant to sections 5-204 and 5-207.",
+          "url": "https://www.courtlistener.com/opinion/2717374/guardianship-of-gabriel-ik-johnson/",
+          "courtlistener_cluster_id": 2717374
+        },
+        {
+          "case_name": "Maureen D. Davis v. Bennie C. McGuire III",
+          "citation": "2018 ME 72, 186 A.3d 837",
+          "court": "Supreme Judicial Court of Maine",
+          "year": 2018,
+          "date_decided": "2018-05-24",
+          "holding": "The Law Court affirmed dismissal of a grandmother's de facto parentage complaint for lack of standing, holding that a single standard of proof governs the standing determination under 19-A M.R.S. § 1891 — a burden of persuasion, not mere production — so that the petitioner must prove every statutory element of a de facto parent relationship by a preponderance of the evidence whether the court decides standing on the affidavits or after a hearing.",
+          "relevance": "A relative or long-term caregiver who seeks legal status outside the child-protective system must first clear a standing threshold the Court designed to protect the parent from the constitutional intrusion of having to defend the claim at all.",
+          "quote": "a petitioner must prove each of the elements of a de facto parent relationship with the child by—as we now hold—a preponderance of the evidence.",
+          "url": "https://www.courtlistener.com/opinion/4500792/maureen-d-davis-v-bennie-c-mcguire-iii/",
+          "courtlistener_cluster_id": 4500792
+        },
+        {
+          "case_name": "Guardianship of Jewel M.",
+          "citation": "2010 ME 17, 989 A.2d 726",
+          "court": "Supreme Judicial Court of Maine",
+          "year": 2010,
+          "date_decided": "2010-03-09",
+          "holding": "The Law Court affirmed with modifications a minor guardianship granted to the maternal grandmother over the father's objection, construing the 'temporarily intolerable living situation' element of 18-A M.R.S. § 5-204(c) to require proof of parental unfitness — that the parent is currently unable to meet the child's needs with an effect on the child's well-being that may be dramatic or even traumatic — together with a finding that the proposed guardian will provide a living situation in the child's best interest, and striking one finding unsupported by the evidence.",
+          "relevance": "When a grandparent or other caregiver petitions in Probate Court rather than making a child-protective report, this case states what the petitioner must establish before the parent may be displaced, on a standard the Court describes as less stringent than jeopardy but still requiring unfitness.",
+          "quote": "proof of parental unfitness is a required element to support the establishment of a guardianship over the parent's objection.",
+          "url": "https://www.courtlistener.com/opinion/1995678/guardianship-of-jewel-m/",
+          "courtlistener_cluster_id": 1995678
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Maine%22%20AND%20%28%22Maine%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Maine Department of Health and Human Services",
         "CPS",
@@ -137,148 +203,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Maine%22%20AND%20%28%22Maine%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "mandatory reporting",
-        "failure to report",
-        "reporter immunity",
-        "hotline"
-      ],
-      "jurisdiction": "Maine state courts",
-      "key_cases": [
-        {
-          "case_id": "2022-me-51",
-          "title": "In re Adult Guardianship & Conservatorship of T.",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2022/2022-me-51.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2022-me-51 (2022)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2022-me-1",
-          "title": "In re Guardianship by Stacey M.",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2022/2022-me-1.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2022-me-1 (2022)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "2020-me-13",
-          "title": "In re Adult Guardianship of L.",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2020/2020-me-13.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2020-me-13 (2020)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2021-me-5",
-          "title": "Guardianship by Joseph W.",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2021/2021-me-5.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2021-me-5 (2021)",
-          "relevance_score": 1.2,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "Medium: guardianship"
-        },
-        {
-          "case_id": "2025-me-91",
-          "title": "In re Children of Krystal W.",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2025/2025-me-91.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2025-me-91 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re child, In re"
-        },
-        {
-          "case_id": "2025-me-33",
-          "title": "Doe v. Burnham",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2025/2025-me-33.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2025-me-33 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        },
-        {
-          "case_id": "2025-me-23",
-          "title": "Doe v. Costin",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2025/2025-me-23.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2025-me-23 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        },
-        {
-          "case_id": "2025-me-16",
-          "title": "In re Child of Christian D.",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2025/2025-me-16.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2025-me-16 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re child, In re"
-        },
-        {
-          "case_id": "2025-me-7",
-          "title": "In re Child of Taylor M.",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2025/2025-me-7.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2025-me-7 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re child, In re"
-        },
-        {
-          "case_id": "2024-me-71",
-          "title": "In re William B. Blaisdell IV",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2024/2024-me-71.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2024-me-71 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

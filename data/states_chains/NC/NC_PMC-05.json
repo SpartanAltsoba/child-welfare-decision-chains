@@ -151,6 +151,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "North Carolina state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "News and Observer Publishing Co. v. Poole",
+          "citation": "330 N.C. 465, 412 S.E.2d 7 (1992)",
+          "court": "Supreme Court of North Carolina",
+          "year": 1992,
+          "date_decided": "1992-01-10",
+          "holding": "The Supreme Court held that SBI investigative reports submitted to a gubernatorial commission became the commission's public records, and that absent a clear statutory exemption all documents meeting the statutory definition of public records must be disclosed for public inspection.",
+          "relevance": "It is the leading NC transparency decision: exemptions must be clear and statutory, not inferred from policy.",
+          "quote": "in the absence of clear statutory exemption or exception, documents falling within the definition of \"public records\" in the Public Records Law must be made available for public inspection",
+          "url": "https://www.courtlistener.com/opinion/1410240/news-and-observer-publishing-co-v-poole/",
+          "courtlistener_cluster_id": 1410240
+        },
+        {
+          "case_name": "Virmani v. Presbyterian Health Services Corp.",
+          "citation": "350 N.C. 449, 515 S.E.2d 675 (1999)",
+          "court": "Supreme Court of North Carolina",
+          "year": 1999,
+          "date_decided": "1999-06-25",
+          "holding": "The Supreme Court held that the public's qualified right of access to civil court proceedings and records under Article I, Section 18 was not violated by closing hearings and sealing materials, because the compelling statutory interest in confidential medical peer review outweighed that right and no lesser alternative would protect it.",
+          "relevance": "It is the leading NC authority balancing statutory confidentiality against the constitutional right of access to court records.",
+          "quote": "the compelling countervailing public interest in such high quality public medical care overcomes the qualified public right to open civil court proceedings and records of those proceedings",
+          "url": "https://www.courtlistener.com/opinion/1335543/virmani-v-presbyterian-health-services-corp/",
+          "courtlistener_cluster_id": 1335543
+        },
+        {
+          "case_name": "Hodge ex rel. Hodge v. Jones",
+          "citation": "31 F.3d 157 (4th Cir. 1994)",
+          "court": "Court of Appeals for the Fourth Circuit",
+          "year": 1994,
+          "date_decided": "1994-07-19",
+          "holding": "The Fourth Circuit held that parents cleared of abuse allegations had no clearly established constitutional right to expungement of the agency's investigative records, reversing the denial of qualified immunity because the familial privacy interest in those records is outweighed by legitimate governmental interests in retaining them.",
+          "relevance": "It defines the limits of a family's privacy claim against government retention of child-welfare investigative files.",
+          "quote": "The maxim of familial privacy is neither absolute nor unqualified",
+          "url": "https://www.courtlistener.com/opinion/7029683/hodge-ex-rel-hodge-v-jones/",
+          "courtlistener_cluster_id": 7029683
+        },
+        {
+          "case_name": "DTH Media Corp. v. Folt",
+          "citation": "No. 142PA18 (N.C. May 1, 2020)",
+          "court": "Supreme Court of North Carolina",
+          "year": 2020,
+          "date_decided": "2020-05-01",
+          "holding": "The Supreme Court held that UNC-Chapel Hill must release as public records the name, violation and sanction of every student found responsible for violating its sexual assault policy, because FERPA permits but does not compel confidentiality and therefore does not preempt the mandate of North Carolina's Public Records Act.",
+          "relevance": "It updates Poole and Virmani for the FOIA/transparency node, supplying twenty-first-century authority that exceptions to the Public Records Act are construed narrowly.",
+          "quote": "The Act is intended to be liberally construed to ensure that governmental records be open and made available to the public, subject only to a few limited exceptions.",
+          "url": "https://www.courtlistener.com/opinion/4750577/dth-media-corp-v-folt/",
+          "courtlistener_cluster_id": 4750577
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22North%20Carolina%22%20AND%20%28%22North%20Carolina%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "North Carolina Department of Health and Human Services",
         "CPS",
@@ -162,148 +216,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22North%20Carolina%22%20AND%20%28%22North%20Carolina%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "missing child",
-        "amber alert",
-        "custodial interference",
-        "parental kidnapping"
-      ],
-      "jurisdiction": "North Carolina state courts",
-      "key_cases": [
-        {
-          "case_id": "265pa24",
-          "title": "In re A.D.H",
-          "url": "https://law.justia.com/cases/north-carolina/supreme-court/2025/265pa24.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Carolina Supreme Court Case 265pa24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "92a25",
-          "title": "In re Godfrey",
-          "url": "https://law.justia.com/cases/north-carolina/supreme-court/2025/92a25.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Carolina Supreme Court Case 92a25 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "188pa24",
-          "title": "In re E.H. & R.H.",
-          "url": "https://law.justia.com/cases/north-carolina/supreme-court/2025/188pa24.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Carolina Supreme Court Case 188pa24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "321a24",
-          "title": "In re Kimble",
-          "url": "https://law.justia.com/cases/north-carolina/supreme-court/2025/321a24.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Carolina Supreme Court Case 321a24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "168pa22",
-          "title": "Doe v. Roman Cath. Diocese",
-          "url": "https://law.justia.com/cases/north-carolina/supreme-court/2025/168pa22.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Carolina Supreme Court Case 168pa22 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        },
-        {
-          "case_id": "25-366",
-          "title": "In re: S.A.B.S",
-          "url": "https://law.justia.com/cases/north-carolina/court-of-appeals/2025/25-366.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "North Carolina Court Of Appeals Case 25-366 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "25-140",
-          "title": "In re: D.V.P",
-          "url": "https://law.justia.com/cases/north-carolina/court-of-appeals/2025/25-140.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "North Carolina Court Of Appeals Case 25-140 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "25-228",
-          "title": "In re: A.R.-B",
-          "url": "https://law.justia.com/cases/north-carolina/court-of-appeals/2025/25-228.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "North Carolina Court Of Appeals Case 25-228 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "25-341",
-          "title": "In re: A.M.B",
-          "url": "https://law.justia.com/cases/north-carolina/court-of-appeals/2025/25-341.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "North Carolina Court Of Appeals Case 25-341 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "25-375",
-          "title": "In re: I.H., A.H., R.H",
-          "url": "https://law.justia.com/cases/north-carolina/court-of-appeals/2025/25-375.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "North Carolina Court Of Appeals Case 25-375 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

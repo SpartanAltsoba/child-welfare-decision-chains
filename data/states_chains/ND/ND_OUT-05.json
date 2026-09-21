@@ -158,6 +158,48 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "North Dakota state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Interest of J.C.",
+          "citation": "2007 ND 111, 736 N.W.2d 451",
+          "court": "North Dakota Supreme Court",
+          "year": 2007,
+          "date_decided": "2007-07-25",
+          "holding": "The court reversed a default termination of parental rights and remanded, holding a parent who had responded to the petition could not have her rights terminated without evidence, and that the court could not rely on prior-proceeding records without satisfying the requirements for judicial notice and affording an opportunity to be heard.",
+          "relevance": "A petition unsupported by evidence at the hearing cannot produce a valid order and must be revisited.",
+          "quote": "In parental termination proceedings, due process requires clear and convincing evidence before parental rights may be terminated.",
+          "url": "https://www.courtlistener.com/opinion/8245072/wetch-v-zc/",
+          "courtlistener_cluster_id": 8279683
+        },
+        {
+          "case_name": "Raboin v. North Dakota Department of Human Services",
+          "citation": "552 N.W.2d 329 (N.D. 1996)",
+          "court": "North Dakota Supreme Court",
+          "year": 1996,
+          "date_decided": "1996-06-27",
+          "holding": "The court held that a Department determination of probable cause to believe child abuse is indicated affects legal rights and is an appealable final order, and that on this record the determination was not supported by a preponderance of the evidence, reversing and remanding with directions to vacate the probable-cause finding.",
+          "relevance": "Shows the result when an agency finding cannot be sustained on the evidence: the finding is vacated.",
+          "quote": "We conclude there is a statutory right of appeal to the courts from the Department's finding of probable cause to believe child abuse or neglect is indicated.",
+          "url": "https://www.courtlistener.com/opinion/1840875/raboin-v-north-dakota-department-of-human-services/",
+          "courtlistener_cluster_id": 1840875
+        },
+        {
+          "case_name": "Interest of K.B.",
+          "citation": "2021 ND 163",
+          "court": "North Dakota Supreme Court",
+          "year": 2021,
+          "date_decided": "2021-09-09",
+          "holding": "On return from its own remand, the court affirmed the juvenile court's order denying the petition to terminate the mother's parental rights and instead removing the children from her custody for nine months, deferring to the finding that the qualified expert's testimony raised a reasonable doubt whether continued custody was likely to cause serious emotional or physical damage.",
+          "relevance": "A concrete example of a termination petition denied for failure of proof, with the denial affirmed under the clearly erroneous standard.",
+          "quote": "A finding relating to a likelihood of future harm requires some prognostic evidence providing \"the basis for a reasonable prediction as to future action.\"",
+          "url": "https://www.courtlistener.com/opinion/5092497/interest-of-kb/",
+          "courtlistener_cluster_id": 5092497
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22North%20Dakota%22%20AND%20%28%22North%20Dakota%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "North Dakota Department of Human Services",
         "CPS",
@@ -169,149 +211,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22North%20Dakota%22%20AND%20%28%22North%20Dakota%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "termination of parental rights",
-        "TPR",
-        "adoption",
-        "permanency",
-        "aging out"
-      ],
-      "jurisdiction": "North Dakota state courts",
-      "key_cases": [
-        {
-          "case_id": "20210310",
-          "title": "In the Matter of the Adoption of K.M.T.",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2022/20210310.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20210310 (2022)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: Matter of adoption, Matter of"
-        },
-        {
-          "case_id": "20210172",
-          "title": "In the Matter of the Adoption of M.E.",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2021/20210172.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20210172 (2021)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: Matter of adoption, Matter of"
-        },
-        {
-          "case_id": "20250376",
-          "title": "Adoption of G.M.H.",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2025/20250376.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20250376 (2025)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "Medium: adoption"
-        },
-        {
-          "case_id": "20250232",
-          "title": "Adoption of A.B.G.R. 2025 ND 145",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2025/20250232.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20250232 (2025)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "Medium: adoption"
-        },
-        {
-          "case_id": "20250233",
-          "title": "Adoption of A.R.G.-R. 2025 ND 145",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2025/20250233.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20250233 (2025)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "Medium: adoption"
-        },
-        {
-          "case_id": "20240146",
-          "title": "Guardianship and Conservatorship of G.I.C.",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2025/20240146.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20240146 (2025)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "Medium: guardianship"
-        },
-        {
-          "case_id": "20240289",
-          "title": "Adoption of H.W.L. 2024 ND 234",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2024/20240289.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20240289 (2024)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "Medium: adoption"
-        },
-        {
-          "case_id": "20240021",
-          "title": "Guardianship and Conservatorship of K.H.P.",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2024/20240021.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20240021 (2024)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "Medium: guardianship"
-        },
-        {
-          "case_id": "20240056",
-          "title": "Adoption of T.J.R. and B.L.R.",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2024/20240056.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20240056 (2024)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "Medium: adoption"
-        },
-        {
-          "case_id": "20230321",
-          "title": "Adoption of R.E.M.",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2024/20230321.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20230321 (2024)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "Medium: adoption"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

@@ -146,6 +146,48 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Vermont state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "In re D.F., H.F., M.F. and D.F., Juveniles",
+          "citation": "2018 VT 132, 204 A.3d 641",
+          "court": "Supreme Court of Vermont",
+          "year": 2018,
+          "date_decided": "2018-12-14",
+          "holding": "Termination of the father's rights was affirmed notwithstanding his completion of case-plan tasks, and his separate challenge to the standalone reasonable-efforts finding was dismissed as moot once termination was upheld.",
+          "relevance": "D.F. identifies the reasonable-efforts finding under 33 V.S.A. § 5321(h) as the mechanism preserving federal funding, and holds a parent's challenge to it moot once termination stands.",
+          "quote": "A reasonable-efforts finding is essential to preserving federal funding for state child-welfare programs.",
+          "url": "https://www.courtlistener.com/opinion/4573483/in-re-df-hf-mf-and-df-juveniles/",
+          "courtlistener_cluster_id": 4573483
+        },
+        {
+          "case_name": "In re C.P.",
+          "citation": "2012 VT 100, 193 Vt. 29, 71 A.3d 1142",
+          "court": "Supreme Court of Vermont",
+          "year": 2012,
+          "date_decided": "2012-12-07",
+          "holding": "Termination was affirmed; a reasonable-efforts finding is a separate determination from the best-interests inquiry and is not a precondition to terminating parental rights, although the level of assistance given to parents remains relevant to whether they can resume parenting in a reasonable time.",
+          "relevance": "C.P. separates the federally driven reasonable-efforts finding from the state-law merits of termination, so a federal compliance lapse does not automatically invalidate the state outcome.",
+          "quote": "the court is not required to find DCF made reasonable efforts as a prerequisite to termination",
+          "url": "https://www.courtlistener.com/opinion/1043661/in-re-c-p/",
+          "courtlistener_cluster_id": 1043661
+        },
+        {
+          "case_name": "In re Appeal of T.O. & L.O.",
+          "citation": "2021 VT 41, 257 A.3d 240",
+          "court": "Supreme Court of Vermont",
+          "year": 2021,
+          "date_decided": "2021-06-11",
+          "holding": "The Human Services Board lacked jurisdiction over grandparents' claim that DCF failed to comply with state and federal relative-placement requirements; their remedy lies in the family division of the superior court, and no due process violation resulted.",
+          "relevance": "The case addresses alleged non-compliance with federally conditioned relative-notice requirements and holds the administrative forum unavailable to remedy it.",
+          "quote": "That procedure is access to the family division, not to the Human Services Board.",
+          "url": "https://www.courtlistener.com/opinion/4890927/in-re-appeal-of-to-lo/",
+          "courtlistener_cluster_id": 4890927
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Vermont%22%20AND%20%28%22Vermont%20Department%20for%20Children%20and%20Families%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Vermont Department for Children and Families",
         "CPS",
@@ -157,149 +199,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Vermont%22%20AND%20%28%22Vermont%20Department%20for%20Children%20and%20Families%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "wrongful removal",
-        "1983 claim",
-        "civil rights",
-        "immunity",
-        "damages"
-      ],
-      "jurisdiction": "Vermont state courts",
-      "key_cases": [
-        {
-          "case_id": "2019-249",
-          "title": "In re Hopkins Certificate of Compliance (Boudreau, Appellant)",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2020/2019-249.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 2019-249 (2020)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "24-ap-374",
-          "title": "In re Petition of Otter Creek Solar LLC",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/24-ap-374.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 24-ap-374 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-ap-292",
-          "title": "In re Appeal of H.D.",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/25-ap-292.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 25-ap-292 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-ap-005",
-          "title": "In re Petition of Randolph Davis Solar LLC",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/25-ap-005.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 25-ap-005 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-ap-217",
-          "title": "In re J.D. and C.D., Juveniles",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/25-ap-217.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 25-ap-217 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "25-ap-220",
-          "title": "In re G.B., Juvenile",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/25-ap-220.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 25-ap-220 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "25-ap-236",
-          "title": "In re A.K. and P.K., Juveniles",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/25-ap-236.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 25-ap-236 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "25-ap-253",
-          "title": "In re N.S., Juvenile",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/25-ap-253.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 25-ap-253 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "25-ap-054",
-          "title": "In re Holland Cannabis, LLC",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/25-ap-054.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 25-ap-054 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-ap-038",
-          "title": "In re Lake Bomoseen Association and Lake Bomoseen Preservation Trust Denial",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/25-ap-038.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 25-ap-038 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

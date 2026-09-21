@@ -1,0 +1,99 @@
+name: Case-law layer rebuild (v1.1.0 method)
+
+# Manual only. Rebuilds layers.case_law for the given jurisdictions from CourtListener opinion text:
+# research -> adversarial verification -> reconcile -> supplement -> re-verify -> reconcile, then opens a
+# pull request with a per-node digest. Never writes to main. Method: data/tools/qa/caselaw/README.md
+on:
+  workflow_dispatch:
+    inputs:
+      states:
+        description: 'Comma-separated jurisdiction codes (e.g. AK,AL,AR) or US for the federal baseline'
+        required: true
+        type: string
+      apply:
+        description: 'Write the verified briefs into the node files and open a PR (false = briefs + digests only, as artifacts)'
+        required: true
+        type: boolean
+        default: true
+      model:
+        description: 'Model for all stages'
+        required: false
+        type: string
+        default: 'opus'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: caselaw-rebuild
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Claude Code CLI and the Agent SDK
+        run: |
+          npm install -g @anthropic-ai/claude-code
+          python -m pip install --upgrade pip
+          python -m pip install "claude-agent-sdk>=0.2.157" jsonschema
+
+      - name: Run the pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          COURTLISTENER_TOKEN: ${{ secrets.COURTLISTENER_TOKEN }}
+          CASELAW_MODEL: ${{ inputs.model }}
+        run: |
+          python data/tools/qa/caselaw/pipeline.py \
+            --states "${{ inputs.states }}" \
+            --briefs data/tools/qa/caselaw/briefs \
+            ${{ inputs.apply && '--apply' || '' }}
+
+      - name: Upload briefs and digests
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: caselaw-briefs-${{ github.run_id }}
+          path: |
+            data/tools/qa/caselaw/briefs/*.json
+            data/tools/qa/caselaw/briefs/*.md
+          if-no-files-found: warn
+
+      - name: Validate every touched node against the schema
+        if: inputs.apply
+        run: python data/tools/qa/caselaw/validate_touched.py
+
+      - name: Open a pull request
+        if: inputs.apply
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          STATES="${{ inputs.states }}"
+          SLUG=$(echo "$STATES" | tr ',' '-' | tr '[:upper:]' '[:lower:]')
+          BRANCH="caselaw/v1.1.0-${SLUG}-${{ github.run_id }}"
+          git config user.name "caselaw-rebuild[bot]"
+          git config user.email "caselaw-rebuild@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add data/
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "v1.1.0 case-law layer: ${STATES} (CourtListener-verified)"
+          git push origin "$BRANCH"
+          python data/tools/qa/caselaw/pr_body.py "$STATES" > /tmp/pr_body.md
+          gh pr create --base main --head "$BRANCH" \
+            --title "v1.1.0 case-law layer: ${STATES}" \
+            --body-file /tmp/pr_body.md

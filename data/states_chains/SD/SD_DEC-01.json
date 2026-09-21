@@ -153,6 +153,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "South Dakota state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "Cotton v. Stange",
+          "citation": "1998 S.D. 81, 582 N.W.2d 25",
+          "court": "South Dakota Supreme Court",
+          "year": 1998,
+          "date_decided": "1998-07-22",
+          "holding": "The court reversed the denial of summary judgment and ordered judgment for two DSS social workers, holding they were immune under SDCL 26-8A-14 because the children produced only evidence of negligent investigation, not of bad faith.",
+          "relevance": "This is the controlling South Dakota authority on liability for screening out or under-investigating referrals - only bad faith, not error, is actionable.",
+          "quote": "These circumstances might amount to negligence but they do not equate with bad faith.",
+          "url": "https://www.courtlistener.com/opinion/900289/cotton-v-stange/",
+          "courtlistener_cluster_id": 900289
+        },
+        {
+          "case_name": "DuBray v. South Dakota Department of Social Services",
+          "citation": "2004 S.D. 130, 690 N.W.2d 657",
+          "court": "South Dakota Supreme Court",
+          "year": 2004,
+          "date_decided": "2004-12-15",
+          "holding": "The court affirmed reversal of a central registry listing, holding that DSS's exclusive reliance on an intake worksheet, a police incident report and a DSS narrative - all inadmissible hearsay - deprived DuBray of a meaningful due process hearing.",
+          "relevance": "It marks the evidentiary line between an unreviewable internal screening judgment and a substantiation that must survive a contested hearing.",
+          "quote": "the admission of such evidence deprived DuBray of her fundamental right to a meaningful, due process hearing",
+          "url": "https://www.courtlistener.com/opinion/1294715/dubray-v-south-dakota-dept-of-social-services/",
+          "courtlistener_cluster_id": 1294715
+        },
+        {
+          "case_name": "Pfuhl v. Pfuhl",
+          "citation": "2014 S.D. 25, 846 N.W.2d 778",
+          "court": "South Dakota Supreme Court",
+          "year": 2014,
+          "date_decided": "2014-04-30",
+          "holding": "The court reversed an order directing the county to pay court-appointed counsel in a protection order proceeding, holding SDCL 26-8A-18 authorizes county payment only in proceedings whose particular subject is a child's status or condition as abused or neglected.",
+          "relevance": "DSS investigated the same allegations and found no evidence of abuse, and law enforcement declined charges - the unfounded outcome in practice.",
+          "quote": "the circuit court lacked statutory authority in this case to order Minnehaha to pay appointed counsel's costs",
+          "url": "https://www.courtlistener.com/opinion/2713901/pfuhl-v-pfuhl/",
+          "courtlistener_cluster_id": 2713901
+        },
+        {
+          "case_name": "L.S. v. C.T.",
+          "citation": "2009 S.D. 2, 760 N.W.2d 145",
+          "court": "South Dakota Supreme Court",
+          "year": 2009,
+          "date_decided": "2009-01-14",
+          "holding": "The court affirmed denial of a protection order and of a request to restrict visitation, holding the circuit court was not clearly erroneous in finding that the mother had failed to prove by a preponderance of the evidence that the father sexually abused their child.",
+          "relevance": "Three South Dakota CPS investigations and two Nebraska investigations were all closed as 'unsubstantiated' or 'unfounded,' showing the screen-out and unfounded outcome as it actually reaches a court.",
+          "quote": "Under SDCL 25-10-5, a circuit court may grant a protection order if it finds by a preponderance of the evidence that abuse has occurred.",
+          "url": "https://www.courtlistener.com/opinion/8279753/ls-v-ct/",
+          "courtlistener_cluster_id": 8279753
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22South%20Dakota%22%20AND%20%28%22South%20Dakota%20Department%20of%20Social%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "South Dakota Department of Social Services",
         "CPS",
@@ -164,149 +218,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22South%20Dakota%22%20AND%20%28%22South%20Dakota%20Department%20of%20Social%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "investigation",
-        "substantiation",
-        "evidence standard",
-        "due process",
-        "reasonable efforts"
-      ],
-      "jurisdiction": "South Dakota state courts",
-      "key_cases": [
-        {
-          "case_id": "30810",
-          "title": "Interest Of J.W.",
-          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2025/30810.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "South Dakota Supreme Court Case 30810 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of initials"
-        },
-        {
-          "case_id": "30520",
-          "title": "In the Matter of the Estate Of Mack",
-          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2025/30520.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "South Dakota Supreme Court Case 30520 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "30549",
-          "title": "Interest Of N.K.",
-          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2024/30549.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "South Dakota Supreme Court Case 30549 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of initials"
-        },
-        {
-          "case_id": "30081",
-          "title": "In the Matter of the Estate Of Simon",
-          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2024/30081.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "South Dakota Supreme Court Case 30081 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "30320",
-          "title": "In the Matter of the Adoption of I.V.E.",
-          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2024/30320.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "South Dakota Supreme Court Case 30320 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of adoption, Matter of"
-        },
-        {
-          "case_id": "30166",
-          "title": "In re Estate Of Schmeling",
-          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2024/30166.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "South Dakota Supreme Court Case 30166 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "30488",
-          "title": "In The Matter Of The Interpretation Of South Dakota Constitution And State Law Re: State Legislator’s Interest In State Or County Contracts",
-          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2024/30488.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "South Dakota Supreme Court Case 30488 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "29809",
-          "title": "In re Estate of Tank",
-          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2023/29809.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "South Dakota Supreme Court Case 29809 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "29873",
-          "title": "In re S.A.",
-          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2023/29873.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "South Dakota Supreme Court Case 29873 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "29745",
-          "title": "In re Fred Petersen Living Trust",
-          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2023/29745.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "South Dakota Supreme Court Case 29745 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

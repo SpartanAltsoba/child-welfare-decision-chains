@@ -100,6 +100,84 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Oklahoma state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "Gordon v. State (In re G.G.)",
+          "citation": "2004 OK CIV APP 71, 97 P.3d 1155",
+          "court": "Court of Civil Appeals of Oklahoma",
+          "year": 2004,
+          "date_decided": "2004-09-22",
+          "holding": "The court reversed a termination judgment and remanded for new trial, holding that a parent's stipulation entered at the preponderance-level adjudication stage cannot be given preclusive effect on the elements the State must later prove by clear and convincing evidence.",
+          "relevance": "It warns that the way a petition is resolved by stipulation controls how much the State must still prove later.",
+          "quote": "we view the recited stipulation as reflecting only Mother's concession that State could prove the allegations of the deprived petition by a preponderance of the evidence",
+          "url": "https://www.courtlistener.com/opinion/5322863/gordon-v-state/",
+          "courtlistener_cluster_id": 5322863
+        },
+        {
+          "case_name": "State v. Frazier (In re P.F.)",
+          "citation": "2005 OK CIV APP 50, 118 P.3d 224",
+          "court": "Court of Civil Appeals of Oklahoma",
+          "year": 2005,
+          "date_decided": "2005-06-28",
+          "holding": "The court reversed a deprived adjudication that rested on a DHS worker's recounting of the child's and other declarants' out-of-court statements, because the trial court made none of the reliability and trustworthiness findings the hearsay statutes require.",
+          "relevance": "The opinion shows what the State must be prepared to prove admissibly once it files a deprived petition.",
+          "quote": "Subsection B(l) imposes upon the trial court an affirmative duty to make a specific finding of reliability, according to a general set of criteria.",
+          "url": "https://www.courtlistener.com/opinion/5323474/state-v-frazier/",
+          "courtlistener_cluster_id": 5323474
+        },
+        {
+          "case_name": "State v. Gurley",
+          "citation": "2012 OK CIV APP 52, 276 P.3d 1114",
+          "court": "Court of Civil Appeals of Oklahoma",
+          "year": 2012,
+          "date_decided": "2012-04-13",
+          "holding": "The court affirmed a deprived adjudication, holding the State could re-remove and refile after the first case failed for want of a petition within seven days, that holding the emergency custody hearing on the third judicial day violated the two-day rule but did not divest jurisdiction or deny due process, and that competent evidence supported the adjudication.",
+          "relevance": "The seven-day petition deadline and its enforcement are the subject of the first half of the opinion.",
+          "quote": "The burden of proof is on the State to demonstrate the factual basis for the deprived status adjudication by a preponderance of the evidence.",
+          "url": "https://www.courtlistener.com/opinion/5327142/state-v-gurley/",
+          "courtlistener_cluster_id": 5327142
+        },
+        {
+          "case_name": "Clark v. State (In re J.C.)",
+          "citation": "2018 OK CIV APP 32, 417 P.3d 1218",
+          "court": "Court of Civil Appeals of Oklahoma",
+          "year": 2018,
+          "date_decided": "2018-03-19",
+          "holding": "The court vacated a deprived adjudication as to a father because the trial court treated the mother's no-contest stipulation as binding on him and denied the non-jury trial he requested, and remanded for a trial meeting ICWA standards.",
+          "relevance": "The case holds that one parent's stipulation to the petition cannot adjudicate the other parent's child deprived.",
+          "quote": "We therefore find that the trial court committed reversible error in denying Father's request for a non-jury trial",
+          "url": "https://www.courtlistener.com/opinion/6656490/clark-v-state/",
+          "courtlistener_cluster_id": 6656490
+        },
+        {
+          "case_name": "Hensley v. State (In re E.H.)",
+          "citation": "2018 OK CIV APP 67, 429 P.3d 1003",
+          "court": "Court of Civil Appeals of Oklahoma",
+          "year": 2018,
+          "date_decided": "2018-10-19",
+          "holding": "The court affirmed adjudication and immediate termination of a mother's parental rights for failure to protect her children from the father's sexual abuse, holding that trying the case two years past the statutory adjudication deadline neither destroyed jurisdiction nor denied due process.",
+          "relevance": "The opinion addresses a petition that sought adjudication and immediate termination together, and the timing rules that then apply.",
+          "quote": "the court did maintain jurisdiction of the matter and the delay in the adjudication hearing did not violate mother's constitutional guarantee of due process of law",
+          "url": "https://www.courtlistener.com/opinion/6657544/hensley-v-state/",
+          "courtlistener_cluster_id": 6657544
+        },
+        {
+          "case_name": "In the Matter of J.D.H.",
+          "citation": "2006 OK 5, 130 P.3d 245",
+          "court": "Supreme Court of Oklahoma",
+          "year": 2006,
+          "date_decided": "2006-01-24",
+          "holding": "The court vacated the Court of Civil Appeals opinion and affirmed the deprived adjudication of all four children, holding a therapist's account of a child's statements was admissible under the medical diagnosis or treatment hearsay exception and that competent evidence supported the adjudications.",
+          "relevance": "It is the Oklahoma Supreme Court's statement of the preponderance burden and competent-evidence review that govern a filed deprived petition through adjudication.",
+          "quote": "On appeal from an order declaring a child deprived, we will affirm the trial court's findings if they are supported by competent evidence.",
+          "url": "https://www.courtlistener.com/opinion/2622689/in-re-jdh/",
+          "courtlistener_cluster_id": 2622689
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Oklahoma%22%20AND%20%28%22Oklahoma%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Oklahoma Department of Human Services",
         "CPS",
@@ -111,149 +189,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Oklahoma%22%20AND%20%28%22Oklahoma%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "investigation",
-        "substantiation",
-        "evidence standard",
-        "due process",
-        "reasonable efforts"
-      ],
-      "jurisdiction": "Oklahoma state courts",
-      "key_cases": [
-        {
-          "case_id": "123007",
-          "title": "IN RE INITIATIVE PETITION NO. 448, STATE QUESTION NO. 836: THE OKLAHOMA REPUBLICAN PARTY v. SETTER",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/123007.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case 123007 (2025)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "122423",
-          "title": "IN RE: STATE QUESTION NO. 832 INITIATIVE PETITION NO. 446",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2024/122423.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case 122423 (2024)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2023-ok-94",
-          "title": "IN RE: AMENDMENT TO OKLAHOMA SUPREME COURT RULE 1.301, FORM 5 PETITION IN ERROR",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2023/2023-ok-94.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case 2023-ok-94 (2023)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "120170",
-          "title": "IN RE: STATE QUESTION No. 820 INITIATIVE PETITION No. 434",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2022/120170.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case 120170 (2022)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "119419",
-          "title": "IN RE CITY OF EUFAULA INITIATIVE PETITION NO. 3",
-          "url": "https://law.justia.com/cases/oklahoma/court-of-appeals-civil/2022/119419.html",
-          "year": 2022,
-          "court": "Court Of Appeals Civil",
-          "citation": "Oklahoma Court Of Appeals Civil Case 119419 (2022)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "118733",
-          "title": "IN RE STATE QUESTION No. 813, INITIATIVE PETITION No. 429",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2020/118733.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case 118733 (2020)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2020-ok-61",
-          "title": "CREATION OF THE UNIFORM REPRESENTATION OF CHILDREN AND PARENTS IN CASES INVOLVING ABUSE AND NEGLECT OVERSIGHT COMMITTEE",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2020/2020-ok-61.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case 2020-ok-61 (2020)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: abuse/neglect"
-        },
-        {
-          "case_id": "118582",
-          "title": "In re: State Question No. 807, Initiative Petition No. 423",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2020/118582.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case 118582 (2020)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "118665",
-          "title": "In re: Initiative Petition No. 425, State Question No. 809",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2020/118665.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case 118665 (2020)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "118685",
-          "title": "In re: Initiative Petition No. 426 State Question No. 810",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2020/118685.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case 118685 (2020)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

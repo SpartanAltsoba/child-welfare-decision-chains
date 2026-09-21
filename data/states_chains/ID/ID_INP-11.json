@@ -160,6 +160,48 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Idaho state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "In the Matter of Baby Boy Doe",
+          "citation": "123 Idaho 464, 849 P.2d 925 (1993)",
+          "court": "Idaho Supreme Court",
+          "year": 1993,
+          "date_decided": "1993-03-19",
+          "holding": "The court reversed the trial court's ruling that ICWA did not apply, vacated the termination order, and rejected the judicially created 'existing Indian family' exception, holding that ICWA governs the termination and placement of an Indian child regardless of whether the child was removed from an Indian home.",
+          "relevance": "Idaho's foundational holding that ICWA is triggered by the child's status, not by the family's living arrangements.",
+          "quote": "Limiting ICWA to situations in which an Indian child is being removed from an existing Indian family is, therefore, a judicially created exception to ICWA",
+          "url": "https://www.courtlistener.com/opinion/5341534/indian-tribe-v-doe/",
+          "courtlistener_cluster_id": 5341534
+        },
+        {
+          "case_name": "In the Matter of Baby Boy Doe",
+          "citation": "127 Idaho 452, 902 P.2d 477 (1995)",
+          "court": "Idaho Supreme Court",
+          "year": 1995,
+          "date_decided": "1995-08-25",
+          "holding": "On the second appeal in the same case, the court held that none of the mother's consents satisfied ICWA's formalities so the 1990 termination of her rights was invalid and she had standing, and that the ICWA active-efforts finding under § 1912(d) need not be proved beyond a reasonable doubt.",
+          "relevance": "Holds that ICWA's consent formalities in 25 U.S.C. § 1913(a) displace state law whenever they give the parent greater protection, per § 1921.",
+          "quote": "We hold that none of the consents to terminate parental rights complied with ICWA's statutory formalities, and that the order of June 1990 terminating the mother's parental rights is invalid",
+          "url": "https://www.courtlistener.com/opinion/5341698/doe-v-roe/",
+          "courtlistener_cluster_id": 5341698
+        },
+        {
+          "case_name": "In re Termination of the Parental Rights of Jane (2014-23) Doe",
+          "citation": "157 Idaho 920, 342 P.3d 632 (2015)",
+          "court": "Idaho Supreme Court",
+          "year": 2015,
+          "date_decided": "2015-01-23",
+          "holding": "The court affirmed termination of parental rights to an Indian child, holding that the ICWA active-efforts finding under 25 U.S.C. § 1912(d) need not be made by clear and convincing evidence, while the state-law grounds must be proved by clear and convincing evidence and the § 1912(f) finding beyond a reasonable doubt.",
+          "relevance": "The controlling Idaho authority on the burden of proof for ICWA active efforts once a case is identified as involving an Indian child.",
+          "quote": "The ICWA also does not require that the finding with respect to active efforts be made by clear and convincing evidence",
+          "url": "https://www.courtlistener.com/opinion/3133269/idaho-department-of-health-welfare-v-doe/",
+          "courtlistener_cluster_id": 3133269
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Idaho%22%20AND%20%28%22Idaho%20Department%20of%20Health%20and%20Welfare%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Idaho Department of Health and Welfare",
         "CPS",
@@ -171,148 +213,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Idaho%22%20AND%20%28%22Idaho%20Department%20of%20Health%20and%20Welfare%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "mandatory reporting",
-        "failure to report",
-        "reporter immunity",
-        "hotline"
-      ],
-      "jurisdiction": "Idaho state courts",
-      "key_cases": [
-        {
-          "case_id": "53056",
-          "title": "IDHW v. John Doe (2025-27)",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-civil/2025/53056.html",
-          "year": 2025,
-          "court": "Court Of Appeals Civil",
-          "citation": "Idaho Court Of Appeals Civil Case 53056 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: IDHW, John Doe"
-        },
-        {
-          "case_id": "53025",
-          "title": "IDHW v. Jane Doe (2025-22)",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-civil/2025/53025.html",
-          "year": 2025,
-          "court": "Court Of Appeals Civil",
-          "citation": "Idaho Court Of Appeals Civil Case 53025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: IDHW, Jane Doe"
-        },
-        {
-          "case_id": "51081",
-          "title": "State v. John Doe",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-criminal/2025/51081.html",
-          "year": 2025,
-          "court": "Court Of Appeals Criminal",
-          "citation": "Idaho Court Of Appeals Criminal Case 51081 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: John Doe"
-        },
-        {
-          "case_id": "51246",
-          "title": "State v. John Doe, a juvenile",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-criminal/2025/51246.html",
-          "year": 2025,
-          "court": "Court Of Appeals Criminal",
-          "citation": "Idaho Court Of Appeals Criminal Case 51246 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: John Doe"
-        },
-        {
-          "case_id": "52029",
-          "title": "Jane Doe and John Doe I v. John Doe",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-civil/2024/52029.html",
-          "year": 2024,
-          "court": "Court Of Appeals Civil",
-          "citation": "Idaho Court Of Appeals Civil Case 52029 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Jane Doe, John Doe"
-        },
-        {
-          "case_id": "52140",
-          "title": "Jane Doe v. John Doe",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-civil/2024/52140.html",
-          "year": 2024,
-          "court": "Court Of Appeals Civil",
-          "citation": "Idaho Court Of Appeals Civil Case 52140 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Jane Doe, John Doe, Doe plaintiff"
-        },
-        {
-          "case_id": "51756",
-          "title": "John Doe I & Jane Doe I v. John Doe",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-civil/2024/51756.html",
-          "year": 2024,
-          "court": "Court Of Appeals Civil",
-          "citation": "Idaho Court Of Appeals Civil Case 51756 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Jane Doe, John Doe"
-        },
-        {
-          "case_id": "51494",
-          "title": "Jane Doe and John Doe 1 v. John Doe",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-civil/2024/51494.html",
-          "year": 2024,
-          "court": "Court Of Appeals Civil",
-          "citation": "Idaho Court Of Appeals Civil Case 51494 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Jane Doe, John Doe"
-        },
-        {
-          "case_id": "51601",
-          "title": "IDHW v. John Doe",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-civil/2024/51601.html",
-          "year": 2024,
-          "court": "Court Of Appeals Civil",
-          "citation": "Idaho Court Of Appeals Civil Case 51601 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: IDHW, John Doe"
-        },
-        {
-          "case_id": "51581",
-          "title": "IDHW v. Jane Doe",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-civil/2024/51581.html",
-          "year": 2024,
-          "court": "Court Of Appeals Civil",
-          "citation": "Idaho Court Of Appeals Civil Case 51581 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: IDHW, Jane Doe"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

@@ -148,6 +148,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Wyoming state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Stanley v. Illinois",
+          "citation": "405 U.S. 645 (1972)",
+          "court": "Supreme Court of the United States",
+          "year": 1972,
+          "date_decided": "1972-04-03",
+          "holding": "The Court held Illinois could not presume an unwed father unfit and take his children in a dependency proceeding without a hearing on his individual fitness, because the interest of a parent in the children he has raised is protected by due process and equal protection.",
+          "relevance": "Removing children without any hearing on the parent's fitness is the paradigm constitutional violation this node describes.",
+          "quote": "The rights to conceive and to raise one’s children have been deemed “essential,”",
+          "url": "https://www.courtlistener.com/opinion/108497/stanley-v-illinois/",
+          "courtlistener_cluster_id": 108497
+        },
+        {
+          "case_name": "Gomes v. Wood",
+          "citation": "451 F.3d 1122 (10th Cir. 2006)",
+          "court": "United States Court of Appeals for the Tenth Circuit",
+          "year": 2006,
+          "date_decided": "2006-06-27",
+          "holding": "The Tenth Circuit adopted the majority rule that state officials may remove a child without prior notice and a hearing only on a reasonable suspicion of an immediate threat to the child's safety, found fact questions on whether that standard was met, but granted qualified immunity because the law was not clearly established.",
+          "relevance": "Defines the threshold below which a removal is an unconstitutional seizure actionable under § 1983 in this circuit.",
+          "quote": "officials may remove a child from the home without prior notice and a hearing when they have a reasonable suspicion of an immediate threat to the safety of the child",
+          "url": "https://www.courtlistener.com/opinion/167696/gomes-v-wood/",
+          "courtlistener_cluster_id": 167696
+        },
+        {
+          "case_name": "Roska v. Sneddon",
+          "citation": "437 F.3d 964 (10th Cir. 2006)",
+          "court": "United States Court of Appeals for the Tenth Circuit",
+          "year": 2006,
+          "date_decided": "2006-02-09",
+          "holding": "The Tenth Circuit affirmed the denial of qualified immunity to caseworkers who removed a chronically ill child from his home without a warrant or pre-deprivation hearing, holding their failure to offer reasonably available preventive services that would have eliminated the need for removal was objectively unreasonable.",
+          "relevance": "This is the circuit's clearest example of an unlawful removal surviving qualified immunity.",
+          "quote": "In light of these circumstances, Defendants' failure to provide the Roskas with preventive services to eliminate the need for removal was not reasonable",
+          "url": "https://www.courtlistener.com/opinion/167080/roska-v-sneddon/",
+          "courtlistener_cluster_id": 167080
+        },
+        {
+          "case_name": "Doe v. Woodard",
+          "citation": "912 F.3d 1278 (10th Cir. 2019)",
+          "court": "United States Court of Appeals for the Tenth Circuit",
+          "year": 2019,
+          "date_decided": "2019-01-03",
+          "holding": "The Tenth Circuit affirmed qualified immunity for a caseworker who visually examined a four-year-old's unclothed body at her preschool without a warrant or parental consent, holding the plaintiffs failed to show clearly established law that the special-needs doctrine could not justify the search.",
+          "relevance": "Shows how difficult it is to establish liability for an intrusive investigative search absent clearly established circuit law.",
+          "quote": "We conclude they have not shown clearly established law that the special needs doctrine could not support the search in this case",
+          "url": "https://www.courtlistener.com/opinion/4578612/doe-v-woodard/",
+          "courtlistener_cluster_id": 4578612
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Wyoming%22%20AND%20%28%22Wyoming%20Department%20of%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Wyoming Department of Family Services",
         "CPS",
@@ -159,136 +213,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Wyoming%22%20AND%20%28%22Wyoming%20Department%20of%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "wrongful removal",
-        "1983 claim",
-        "civil rights",
-        "immunity",
-        "damages"
-      ],
-      "jurisdiction": "Wyoming state courts",
-      "key_cases": [
-        {
-          "case_id": "s-25-0035",
-          "title": "In the Interest of SP v. The State of Wyoming",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-25-0035.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-25-0035 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re interest, Interest of"
-        },
-        {
-          "case_id": "s-25-0032",
-          "title": "In the Interest of MC, Minor Child: CC v. The State of Wyoming",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-25-0032.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-25-0032 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re interest, Interest of"
-        },
-        {
-          "case_id": "s-24-0317",
-          "title": "In the Matter of the Sanction Fee of Christopher Goetz: Christopher Goetz, Defense Attorney for Jordan Ryan Borrego v. The State of Wyoming",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0317.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-24-0317 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "s-24-0297",
-          "title": "In the Interest Of: AB and JC",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0297.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-24-0297 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re interest, Interest of"
-        },
-        {
-          "case_id": "s-24-0228",
-          "title": "In the Matter of the Termination of Parental Rights To: Jdv, a Minor Child",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0228.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-24-0228 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: TPR, Matter of TPR, Matter of"
-        },
-        {
-          "case_id": "s-24-0206",
-          "title": "In re Termination of Parental Rights To SLD v. Hansen",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0206.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-24-0206 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: TPR, In re TPR, In re"
-        },
-        {
-          "case_id": "s-24-0214",
-          "title": "In re L.H. v. State",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0214.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-24-0214 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "s-24-0134",
-          "title": "In the Interest of: JF v. The State of Wyoming",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0134.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-24-0134 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re interest, Interest of"
-        },
-        {
-          "case_id": "s-24-0159",
-          "title": "In re PT v. State",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0159.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-24-0159 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

@@ -161,6 +161,36 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Alaska state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Dennis O. v. Stephanie O.",
+          "citation": "393 P.3d 401 (Alaska 2017)",
+          "court": "Supreme Court of Alaska",
+          "year": 2017,
+          "date_decided": "2017-03-17",
+          "holding": "Neither due process nor equal protection required appointment of counsel for an indigent parent in a private child custody modification proceeding where the opposing private party had retained an attorney.",
+          "relevance": "Confirms that when no state petition is filed, the procedural protections attached to a dependency case do not attach.",
+          "quote": "We conclude that due process does not mandate court-appointed counsel for all indigent parents in Dennis's situation",
+          "url": "https://www.courtlistener.com/opinion/4376396/dennis-o-v-stephanie-o/",
+          "courtlistener_cluster_id": 4376396
+        },
+        {
+          "case_name": "Flores v. Flores",
+          "citation": "598 P.2d 893 (Alaska 1979)",
+          "court": "Supreme Court of Alaska",
+          "year": 1979,
+          "date_decided": "1979-07-13",
+          "holding": "The due process clause of the Alaska Constitution entitles an indigent parent to court-appointed counsel in a child custody proceeding in which the opposing parent is represented by counsel supplied by a public agency; because the Children's Rules do not reach divorce cases, counsel must be appointed from the private bar.",
+          "relevance": "Is the precedent Dennis O. declined to extend, marking the outer limit of the right to counsel when no state petition and no state-funded opponent is present.",
+          "quote": "This disadvantage is constitutionally impermissible where the other parent has an attorney supplied by a public agency.",
+          "url": "https://www.courtlistener.com/opinion/1218258/flores-v-flores/",
+          "courtlistener_cluster_id": 1218258
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Alaska%22%20AND%20%28%22Alaska%20Office%20of%20Children%27s%20Services%22%20OR%20%22OCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Alaska Office of Children's Services",
         "OCS",
@@ -172,149 +202,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Alaska%22%20AND%20%28%22Alaska%20Office%20of%20Children%27s%20Services%22%20OR%20%22OCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "investigation",
-        "substantiation",
-        "evidence standard",
-        "due process",
-        "reasonable efforts"
-      ],
-      "jurisdiction": "Alaska state courts",
-      "key_cases": [
-        {
-          "case_id": "s-19299",
-          "title": "Enzo C. v. State, DFCS, OCS (Unpublished)",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19299.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-19299 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "ocs"
-          ],
-          "child_welfare_reason": "High: DFCS, OCS"
-        },
-        {
-          "case_id": "s-19347",
-          "title": "R. S. (Father) v. State of Alaska, DFCS, OCS (Unpublished)",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19347.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-19347 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "ocs"
-          ],
-          "child_welfare_reason": "High: DFCS, OCS"
-        },
-        {
-          "case_id": "s-19190",
-          "title": "Terry W. (Father) v. State of Alaska, DHSS, OCS (Unpublished)",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19190.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-19190 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "ocs"
-          ],
-          "child_welfare_reason": "High: OCS"
-        },
-        {
-          "case_id": "s-18848",
-          "title": "R. G. (Father) v. State of Alaska, DFCS, OCS (Unpublished)",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-18848.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-18848 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "ocs"
-          ],
-          "child_welfare_reason": "High: DFCS, OCS"
-        },
-        {
-          "case_id": "s-19209",
-          "title": "Alana M. (Mother) v. State of Alaska, DFCS, OCS (Unpublished)",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19209.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-19209 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "ocs"
-          ],
-          "child_welfare_reason": "High: DFCS, OCS"
-        },
-        {
-          "case_id": "s-19210",
-          "title": "Kash B. (Father) v. State of Alaska, DFCS, OCS (Unpublished)",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19210.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-19210 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "ocs"
-          ],
-          "child_welfare_reason": "High: DFCS, OCS"
-        },
-        {
-          "case_id": "s-19096",
-          "title": "M. J. (Father) v. State of Alaska, DFCS, OCS (Unpublished)",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19096.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-19096 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "ocs"
-          ],
-          "child_welfare_reason": "High: DFCS, OCS"
-        },
-        {
-          "case_id": "s-19127",
-          "title": "G.T. (Father) v. State of Alaska, DFCS, OCS (Unpublished)",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19127.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-19127 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "ocs"
-          ],
-          "child_welfare_reason": "High: DFCS, OCS"
-        },
-        {
-          "case_id": "s-19016",
-          "title": "V. B. (Mother) v. State of Alaska, DFCS, OCS (Unpublished)",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19016.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-19016 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "ocs"
-          ],
-          "child_welfare_reason": "High: DFCS, OCS"
-        },
-        {
-          "case_id": "s-19050",
-          "title": "J.C. (Father) v. State of Alaska, DFCS, OCS (Unpublished)",
-          "url": "https://law.justia.com/cases/alaska/supreme-court/2025/s-19050.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Alaska Supreme Court Case s-19050 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "ocs"
-          ],
-          "child_welfare_reason": "High: DFCS, OCS"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

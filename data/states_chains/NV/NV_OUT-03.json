@@ -97,6 +97,96 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Nevada state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "In re Guardianship & Estate of D.R.G.",
+          "citation": "119 Nev. 32, 62 P.3d 1127 (2003)",
+          "court": "Supreme Court of Nevada",
+          "year": 2003,
+          "date_decided": "2003-02-12",
+          "holding": "The NRS 159.061 parental preference in guardianship applies only after the court finds the parent qualified and suitable, and the preference may be rebutted by parental unfitness or by extraordinary circumstances amounting to serious detriment to the child.",
+          "relevance": "The controlling Nevada standard for guardianship as a permanency outcome over a parent's objection.",
+          "quote": "parental preference can be rebutted by showing parental unfitness or other extraordinary circumstances.",
+          "url": "https://www.courtlistener.com/opinion/2621554/matter-of-guardianship-estate-of-drg/",
+          "courtlistener_cluster_id": 2621554
+        },
+        {
+          "case_name": "Maria L. v. Eighth Judicial District Court",
+          "citation": "122 Nev. 305, 130 P.3d 657 (2006)",
+          "court": "Supreme Court of Nevada",
+          "year": 2006,
+          "date_decided": "2006-03-16",
+          "holding": "Under NRS Chapter 432B a relative with a special interest in the child must be notified of and involved in the placement plan before the court awards custody to the State, and the district court may not give controlling weight to foster parents' wish to raise the child without contact with the natural family.",
+          "relevance": "Controls the relative's standing to seek guardianship as a permanency option.",
+          "quote": "the district court gave undue weight to the foster parents' desires to raise N.S. without attachment to her natural family",
+          "url": "https://www.courtlistener.com/opinion/2622785/maria-l-v-eighth-judicial-district-court-of-the-state-of-nevada/",
+          "courtlistener_cluster_id": 2622785
+        },
+        {
+          "case_name": "Rennels v. Rennels",
+          "citation": "127 Nev. 564, 257 P.3d 396 (2011)",
+          "court": "Supreme Court of Nevada",
+          "year": 2011,
+          "date_decided": "2011-08-04",
+          "holding": "The constitutional presumption in favor of a fit parent's decision applies at the court's initial determination of a nonparent's visitation rights, but once a final visitation decree has entered the parent seeking to modify or terminate it no longer carries that presumption.",
+          "relevance": "A nonparent's judicially approved contact rights acquire res judicata protection and shape kinship permanency arrangements.",
+          "quote": "the parental presumption applies at the time of the court's initial determination of a nonparent's visitation rights.",
+          "url": "https://www.courtlistener.com/opinion/2463591/rennels-v-rennels/",
+          "courtlistener_cluster_id": 2463591
+        },
+        {
+          "case_name": "Troxel v. Granville",
+          "citation": "530 U.S. 57, 68 (2000) (plurality opinion)",
+          "court": "Supreme Court of the United States",
+          "year": 2000,
+          "date_decided": "2000-06-05",
+          "holding": "A fit parent's decisions about the care, custody and control of his or her children are presumed to be in the children's best interests, and a court may not override them merely because it would decide differently.",
+          "relevance": "The constitutional presumption a nonparent must overcome to obtain guardianship or court-ordered contact.",
+          "quote": "there is a presumption that fit parents act in the best interests of their children",
+          "url": "https://www.courtlistener.com/opinion/1087668/troxel-v-granville/",
+          "courtlistener_cluster_id": 1087668
+        },
+        {
+          "case_name": "Clark County v. Eighth Judicial District Court (Eggleston)",
+          "citation": "141 Nev. Adv. Op. 31 (Nev. June 12, 2025)",
+          "court": "Supreme Court of Nevada",
+          "year": 2025,
+          "date_decided": "2025-06-12",
+          "holding": "Qualified immunity and Nevada discretionary-act immunity barred suit against a county social worker who allegedly coerced a parent into signing temporary guardianship papers placing his children with relatives instead of filing a petition.",
+          "relevance": "A guardianship reached this way still produces a kinship placement, with the parent's later challenge sharply limited.",
+          "quote": "we consider whether qualified and discretionary-act immunity apply to bar suit against a social worker who allegedly coerced a parent to sign guardianship papers",
+          "url": "https://www.courtlistener.com/opinion/10603656/clark-cnty-v-dist-ct-eggleston/",
+          "courtlistener_cluster_id": 10603656
+        },
+        {
+          "case_name": "Destin v. Eighth Judicial District Court (Handwerker-LaMaster)",
+          "citation": "141 Nev. Adv. Op. 42 (Nev. Aug. 28, 2025)",
+          "court": "Supreme Court of Nevada",
+          "year": 2025,
+          "date_decided": "2025-08-28",
+          "holding": "Once parental rights are terminated, placement is governed by NRS 128.110(2) rather than NRS 432B.550's familial preference; the district court must give due consideration to the agency's placement preference but is not bound by it, because the court retains the duty to decide what placement serves the child's best interest. Writ relief denied; placement with the paternal aunt upheld over the maternal grandmother.",
+          "relevance": "Governs the contest between two willing kin caregivers at the permanency stage, including the court's authority to override the agency.",
+          "quote": "While the district court is not bound by the agency's placement preference, it must give due consideration to that preference in deciding placement.",
+          "url": "https://www.courtlistener.com/opinion/10662659/destin-v-dist-ct-handwerker-lamaster-child-custody/",
+          "courtlistener_cluster_id": 10662659
+        },
+        {
+          "case_name": "Eggleston v. Stuart",
+          "citation": "137 Nev. 506, 495 P.3d 482 (2021)",
+          "court": "Supreme Court of Nevada",
+          "year": 2021,
+          "date_decided": "2021-09-23",
+          "holding": "Following Patsy v. Board of Regents, a plaintiff generally need not exhaust administrative remedies before bringing a § 1983 claim, subject to Zinermon v. Burch's narrow exception for procedural due process claims. Because the father's claim that a caseworker and police coerced him into signing a temporary guardianship was a substantive due process claim, dismissal for failure to exhaust his DFS substantiation appeal was error, as was the ruling that punitive damages were unavailable against the caseworker. Reversed and remanded.",
+          "relevance": "The instrument used was a temporary guardianship to a relative, obtained under threat, which the court treated as the injury rather than as a permanency outcome.",
+          "quote": "a party generally is not required to exhaust administrative remedies before filing a § 1983 civil rights claim",
+          "url": "https://www.courtlistener.com/opinion/5106965/eggleston-vs-stuart/",
+          "courtlistener_cluster_id": 5106965
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Nevada%22%20AND%20%28%22Nevada%20Division%20of%20Child%20and%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Nevada Division of Child and Family Services",
         "CPS",
@@ -108,149 +198,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Nevada%22%20AND%20%28%22Nevada%20Division%20of%20Child%20and%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "termination of parental rights",
-        "TPR",
-        "adoption",
-        "permanency",
-        "aging out"
-      ],
-      "jurisdiction": "Nevada state courts",
-      "key_cases": [
-        {
-          "case_id": "87887",
-          "title": "IN RE: GUARDIANSHIP OF H.B. III",
-          "url": "https://law.justia.com/cases/nevada/supreme-court/2025/87887.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nevada Supreme Court Case 87887 (2025)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "89623-coa",
-          "title": "IN RE: GUARDIANSHIP OF A.L.R.-Q., A.R.W. AND A.M.W. (CHILD CUSTODY)",
-          "url": "https://law.justia.com/cases/nevada/court-of-appeals/2025/89623-coa.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Nevada Court Of Appeals Case 89623-coa (2025)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "84655",
-          "title": "In re Guardianship of Jones",
-          "url": "https://law.justia.com/cases/nevada/supreme-court/2024/84655.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Nevada Supreme Court Case 84655 (2024)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "84655",
-          "title": "In re Guardianship of Jones",
-          "url": "https://law.justia.com/cases/nevada/supreme-court/2023/84655.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Nevada Supreme Court Case 84655 (2023)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "83967",
-          "title": "In re Guardianship of Jones",
-          "url": "https://law.justia.com/cases/nevada/supreme-court/2023/83967.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Nevada Supreme Court Case 83967 (2023)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "81799-coa",
-          "title": "In re Guardianship of Jones",
-          "url": "https://law.justia.com/cases/nevada/court-of-appeals/2022/81799-coa.html",
-          "year": 2022,
-          "court": "Court Of Appeals",
-          "citation": "Nevada Court Of Appeals Case 81799-coa (2022)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "80300",
-          "title": "In re Guardianship of Rubin",
-          "url": "https://law.justia.com/cases/nevada/supreme-court/2021/80300.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Nevada Supreme Court Case 80300 (2021)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "78626-coa",
-          "title": "In re Guardianship of B.A.A.R.",
-          "url": "https://law.justia.com/cases/nevada/court-of-appeals/2020/78626-coa.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Nevada Court Of Appeals Case 78626-coa (2020)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "89258",
-          "title": "In re Parental Rights as to S.A.T.",
-          "url": "https://law.justia.com/cases/nevada/supreme-court/2025/89258.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nevada Supreme Court Case 89258 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "86781",
-          "title": "IN RE: DISCIPLINE OF HARDEEP SULL",
-          "url": "https://law.justia.com/cases/nevada/supreme-court/2025/86781.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nevada Supreme Court Case 86781 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

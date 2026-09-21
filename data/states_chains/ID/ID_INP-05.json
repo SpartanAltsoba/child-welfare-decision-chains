@@ -159,6 +159,24 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Idaho state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Roe v. State, Department of Health & Welfare",
+          "citation": "134 Idaho 760, 9 P.3d 1226 (2000)",
+          "court": "Idaho Supreme Court",
+          "year": 2000,
+          "date_decided": "2000-09-06",
+          "holding": "The court affirmed denial of a grandmother's motion to intervene, holding that the CPA confers no conditional right to intervene, that permissive intervention under I.R.C.P. 24(b)(2) is inconsistent with the CPA, and that once the Department has legal custody it, not the court, decides where the child lives.",
+          "relevance": "A relative who asks to take the child cannot become a party; her remedy is the ASFA right to be heard at reviews and hearings.",
+          "quote": "Once the Department has legal custody of a child under the CPA, the Department and not the court has the authority to determine where the child should live",
+          "url": "https://www.courtlistener.com/opinion/5341894/roe-v-state/",
+          "courtlistener_cluster_id": 5341894
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Idaho%22%20AND%20%28%22Idaho%20Department%20of%20Health%20and%20Welfare%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Idaho Department of Health and Welfare",
         "CPS",
@@ -170,148 +188,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Idaho%22%20AND%20%28%22Idaho%20Department%20of%20Health%20and%20Welfare%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "mandatory reporting",
-        "failure to report",
-        "reporter immunity",
-        "hotline"
-      ],
-      "jurisdiction": "Idaho state courts",
-      "key_cases": [
-        {
-          "case_id": "53056",
-          "title": "IDHW v. John Doe (2025-27)",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-civil/2025/53056.html",
-          "year": 2025,
-          "court": "Court Of Appeals Civil",
-          "citation": "Idaho Court Of Appeals Civil Case 53056 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: IDHW, John Doe"
-        },
-        {
-          "case_id": "53025",
-          "title": "IDHW v. Jane Doe (2025-22)",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-civil/2025/53025.html",
-          "year": 2025,
-          "court": "Court Of Appeals Civil",
-          "citation": "Idaho Court Of Appeals Civil Case 53025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: IDHW, Jane Doe"
-        },
-        {
-          "case_id": "51081",
-          "title": "State v. John Doe",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-criminal/2025/51081.html",
-          "year": 2025,
-          "court": "Court Of Appeals Criminal",
-          "citation": "Idaho Court Of Appeals Criminal Case 51081 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: John Doe"
-        },
-        {
-          "case_id": "51246",
-          "title": "State v. John Doe, a juvenile",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-criminal/2025/51246.html",
-          "year": 2025,
-          "court": "Court Of Appeals Criminal",
-          "citation": "Idaho Court Of Appeals Criminal Case 51246 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: John Doe"
-        },
-        {
-          "case_id": "52029",
-          "title": "Jane Doe and John Doe I v. John Doe",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-civil/2024/52029.html",
-          "year": 2024,
-          "court": "Court Of Appeals Civil",
-          "citation": "Idaho Court Of Appeals Civil Case 52029 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Jane Doe, John Doe"
-        },
-        {
-          "case_id": "52140",
-          "title": "Jane Doe v. John Doe",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-civil/2024/52140.html",
-          "year": 2024,
-          "court": "Court Of Appeals Civil",
-          "citation": "Idaho Court Of Appeals Civil Case 52140 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Jane Doe, John Doe, Doe plaintiff"
-        },
-        {
-          "case_id": "51756",
-          "title": "John Doe I & Jane Doe I v. John Doe",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-civil/2024/51756.html",
-          "year": 2024,
-          "court": "Court Of Appeals Civil",
-          "citation": "Idaho Court Of Appeals Civil Case 51756 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Jane Doe, John Doe"
-        },
-        {
-          "case_id": "51494",
-          "title": "Jane Doe and John Doe 1 v. John Doe",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-civil/2024/51494.html",
-          "year": 2024,
-          "court": "Court Of Appeals Civil",
-          "citation": "Idaho Court Of Appeals Civil Case 51494 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Jane Doe, John Doe"
-        },
-        {
-          "case_id": "51601",
-          "title": "IDHW v. John Doe",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-civil/2024/51601.html",
-          "year": 2024,
-          "court": "Court Of Appeals Civil",
-          "citation": "Idaho Court Of Appeals Civil Case 51601 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: IDHW, John Doe"
-        },
-        {
-          "case_id": "51581",
-          "title": "IDHW v. Jane Doe",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-civil/2024/51581.html",
-          "year": 2024,
-          "court": "Court Of Appeals Civil",
-          "citation": "Idaho Court Of Appeals Civil Case 51581 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: IDHW, Jane Doe"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

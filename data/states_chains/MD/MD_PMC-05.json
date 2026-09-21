@@ -124,6 +124,48 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Maryland state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Freed v. Worcester County Department of Social Services",
+          "citation": "69 Md. App. 447, 518 A.2d 159 (1986)",
+          "court": "Court of Special Appeals of Maryland",
+          "year": 1986,
+          "date_decided": "1986-12-08",
+          "holding": "The court held that parents investigated for neglect have no right to compel the department to disclose the identity of the person who reported them, rejecting due process and equal protection challenges to the confidentiality and good-faith immunity scheme of FL §§ 5-707 and 5-708.",
+          "relevance": "It is the controlling Maryland authority limiting transparency claims against child-abuse records.",
+          "quote": "no one has the right to obtain the name of the reporter from Social Services for the purpose of initiating litigation under 42 U.S.C. § 1983",
+          "url": "https://www.courtlistener.com/opinion/2361472/freed-v-worcester-county-department-of-social-services/",
+          "courtlistener_cluster_id": 2361472
+        },
+        {
+          "case_name": "Hodge ex rel. Hodge v. Jones",
+          "citation": "31 F.3d 157 (4th Cir. 1994)",
+          "court": "United States Court of Appeals for the Fourth Circuit",
+          "year": 1994,
+          "date_decided": "1994-07-19",
+          "holding": "The court held that Maryland's confidential retention of an 'unsubstantiated' and 'ruled out' child-abuse investigation file did not violate the family's constitutional privacy, familial or due process rights, because there was no cognizable stigma and no loss of a tangible interest.",
+          "relevance": "It marks the constitutional ceiling on transparency and expungement claims against Maryland's child-welfare records.",
+          "quote": "a conclusory allegation of reputational injury which, absent a cognizable stigma and the ensuing loss of a tangible interest, fails to state a cause of action under Sec. 1983",
+          "url": "https://www.courtlistener.com/opinion/675711/hodge-v-jones/",
+          "courtlistener_cluster_id": 675711
+        },
+        {
+          "case_name": "Montgomery County Department of Health & Human Services v. P.F.",
+          "citation": "137 Md. App. 243, 768 A.2d 112 (2001)",
+          "court": "Court of Special Appeals of Maryland",
+          "year": 2001,
+          "date_decided": "2001-03-06",
+          "holding": "The court affirmed an order requiring the agency to reclassify a sexual-abuse finding as 'ruled out' and to expunge its records and central registry entry, where the ALJ found no credible evidence that abuse occurred after a deficient investigation.",
+          "relevance": "It establishes a concrete, enforceable expungement remedy against a Maryland child-welfare agency.",
+          "quote": "MCHHS must comply with the order to reclassify the case as \"ruled out,\" and expunge its records and registry.",
+          "url": "https://www.courtlistener.com/opinion/1975443/montgomery-county-department-of-health-human-services-v-pf/",
+          "courtlistener_cluster_id": 1975443
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Maryland%22%20AND%20%28%22Maryland%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Maryland Department of Human Services",
         "CPS",
@@ -135,148 +177,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Maryland%22%20AND%20%28%22Maryland%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "missing child",
-        "amber alert",
-        "custodial interference",
-        "parental kidnapping"
-      ],
-      "jurisdiction": "Maryland state courts",
-      "key_cases": [
-        {
-          "case_id": "25-24",
-          "title": "In re: Foster Farm",
-          "url": "https://law.justia.com/cases/maryland/court-of-appeals/2025/25-24.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Maryland Court Of Appeals Case 25-24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "17o-24",
-          "title": "In re Petition of Featherfall Restoration",
-          "url": "https://law.justia.com/cases/maryland/court-of-appeals/2025/17o-24.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Maryland Court Of Appeals Case 17o-24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "34-24-0",
-          "title": "In re: Marriage of Houser",
-          "url": "https://law.justia.com/cases/maryland/court-of-appeals/2025/34-24-0.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Maryland Court Of Appeals Case 34-24-0 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "34-24",
-          "title": "In re Marriage of Houser",
-          "url": "https://law.justia.com/cases/maryland/court-of-appeals/2025/34-24.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Maryland Court Of Appeals Case 34-24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "8-24",
-          "title": "In re M.Z.",
-          "url": "https://law.justia.com/cases/maryland/court-of-appeals/2025/8-24.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Maryland Court Of Appeals Case 8-24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "15-24-0",
-          "title": "In re: Estate of Schappell",
-          "url": "https://law.justia.com/cases/maryland/court-of-appeals/2025/15-24-0.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Maryland Court Of Appeals Case 15-24-0 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "15-24",
-          "title": "In re: Estate of Schappell",
-          "url": "https://law.justia.com/cases/maryland/court-of-appeals/2025/15-24.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Maryland Court Of Appeals Case 15-24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "10-24",
-          "title": "Bd. of Education Of Harford Cnty. v. Doe",
-          "url": "https://law.justia.com/cases/maryland/court-of-appeals/2025/10-24.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Maryland Court Of Appeals Case 10-24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe defendant"
-        },
-        {
-          "case_id": "9-24",
-          "title": "Archbishop of Washington v. Doe",
-          "url": "https://law.justia.com/cases/maryland/court-of-appeals/2025/9-24.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Maryland Court Of Appeals Case 9-24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe defendant"
-        },
-        {
-          "case_id": "16-24",
-          "title": "In re Isely",
-          "url": "https://law.justia.com/cases/maryland/court-of-appeals/2025/16-24.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Maryland Court Of Appeals Case 16-24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

@@ -97,6 +97,96 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Oregon state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "Lassiter v. Department of Social Services",
+          "citation": "452 U.S. 18 (1981) (decided June 1, 1981)",
+          "court": "Supreme Court of the United States",
+          "year": 1981,
+          "date_decided": "1981-08-28",
+          "holding": "The Court held due process does not categorically require appointed counsel for an indigent parent in every termination proceeding, leaving the question to case-by-case determination by the trial court subject to appellate review.",
+          "relevance": "Sets the federal due process floor for appointed counsel in termination cases; Oregon exceeds it by statute in ORS 419B.205, which is why Oregon litigation turns on the adequacy rather than the existence of counsel.",
+          "quote": "neither can we say that the Constitution requires the appointment of counsel in every parental termination proceeding",
+          "url": "https://www.courtlistener.com/opinion/110506/lassiter-v-department-of-social-servs-of-durham-cty/",
+          "courtlistener_cluster_id": 110506
+        },
+        {
+          "case_name": "Santosky v. Kramer",
+          "citation": "455 U.S. 745 (1982)",
+          "court": "Supreme Court of the United States",
+          "year": 1982,
+          "date_decided": "1982-02-22",
+          "holding": "The Court held that due process requires a State to support its allegations by at least clear and convincing evidence before terminating parental rights, invalidating New York's preponderance standard.",
+          "relevance": "This is the federal constitutional floor that Oregon's ORS 419B.521 clear-and-convincing standard implements, and the authority a parent invokes if any lesser standard is applied.",
+          "quote": "due process requires that the State support its allegations by at least clear and convincing evidence",
+          "url": "https://www.courtlistener.com/opinion/110676/santosky-v-kramer/",
+          "courtlistener_cluster_id": 110676
+        },
+        {
+          "case_name": "State ex rel Dept. of Human Services v. Rardin",
+          "citation": "340 Or. 436, 134 P.3d 940 (2006)",
+          "court": "Oregon Supreme Court",
+          "year": 2006,
+          "date_decided": "2006-04-27",
+          "holding": "Reversing a termination judgment, the court held that because ORS 419B.504 permits termination only on grounds of present unfitness, the statute assumes parents can change, and a father whose earlier conduct had changed genuinely and lastingly could not be found unfit for failing to present an agency-satisfactory reintegration plan.",
+          "relevance": "Completes the Stillman–Simmons line by holding that genuine and lasting change in a parent's conduct forecloses termination for unfitness, because ORS 419B.504 reaches only present unfitness.",
+          "quote": "the legislature assumes that parents can change their conduct and that, if the change is both genuine and lasting, the state may not terminate their parental rights for unfitness",
+          "url": "https://www.courtlistener.com/opinion/835614/state-ex-rel-department-of-human-services-v-rardin/",
+          "courtlistener_cluster_id": 835614
+        },
+        {
+          "case_name": "State ex rel SOSCF v. Stillman",
+          "citation": "333 Or. 135, 36 P.3d 490 (2001)",
+          "court": "Oregon Supreme Court",
+          "year": 2001,
+          "date_decided": "2001-12-20",
+          "holding": "The court affirmed reversal of termination, construing ORS 419B.504 to require a two-part showing — present unfitness from seriously detrimental conduct or condition, and improbability of integration within a reasonable time — and holding an incarcerated father's drug history did not make him presently unfit.",
+          "relevance": "This is the leading Oregon Supreme Court construction of the ORS 419B.504 unfitness ground, and the source of the two-part test every later Oregon termination case applies.",
+          "quote": "ORS 419B.504 sets out a two-part test for determining whether to terminate parental rights, both parts of which must be met before the court orders termination.",
+          "url": "https://www.courtlistener.com/opinion/836145/state-ex-rel-state-office-for-services-to-children-families-v-stillman/",
+          "courtlistener_cluster_id": 836145
+        },
+        {
+          "case_name": "Dept. of Human Services v. T. M. D.",
+          "citation": "365 Or. 143, 442 P.3d 1100 (2019)",
+          "court": "Oregon Supreme Court",
+          "year": 2019,
+          "date_decided": "2019-06-13",
+          "holding": "The court held there is no statutory presumption or preference favoring termination over permanent guardianship, that the department bears the full burden on best interests, and on this record termination was not in the child's best interest.",
+          "relevance": "Controls the best-interests half of an Oregon termination case and rejects any thumb on the scale in favor of adoption over less drastic permanency.",
+          "quote": "The department must prove only that that the parent's conduct justifies termination and that the best interest of the child will be served by termination.",
+          "url": "https://www.courtlistener.com/opinion/6658864/dept-of-human-servs-v-t-m-d-in-re-r-d-d-g/",
+          "courtlistener_cluster_id": 6658864
+        },
+        {
+          "case_name": "State ex rel Dept. of Human Services v. Simmons",
+          "citation": "342 Or. 76, 149 P.3d 1124 (2006)",
+          "court": "Oregon Supreme Court",
+          "year": 2006,
+          "date_decided": "2006-12-14",
+          "holding": "Reversing termination, the court held the State had not proved by clear and convincing evidence that mother's mental illness and past substance addiction made her unfit at the time of the termination trial, the only time frame that matters.",
+          "relevance": "Sets the Oregon Supreme Court's controlling application of the clear-and-convincing unfitness standard, measured at the time of the termination trial rather than on historical conduct.",
+          "quote": "On this record, there is not clear and convincing evidence of a present drug abuse problem that would render mother unfit at the time of the termination trial.",
+          "url": "https://www.courtlistener.com/opinion/7016038/state-ex-rel-department-of-human-services-v-simmons/",
+          "courtlistener_cluster_id": 7016038
+        },
+        {
+          "case_name": "Dept. of Human Services v. M. A. N.",
+          "citation": "303 Or. App. 600, 464 P.3d 506 (2020)",
+          "court": "Court of Appeals of Oregon",
+          "year": 2020,
+          "date_decided": "2020-04-15",
+          "holding": "On de novo review in an ICWA case, the court held mother was unfit but that the State failed to prove beyond a reasonable doubt that termination was in the child's best interest where he was placed long-term with bonded extended family, and reversed.",
+          "relevance": "Shows that in an ICWA case the best-interests element must be proved beyond a reasonable doubt, not merely by clear and convincing evidence.",
+          "quote": "DHS has failed to prove beyond a reasonable doubt that termination of mother's parental rights is in his best interest",
+          "url": "https://www.courtlistener.com/opinion/10133460/dept-of-human-services-v-m-a-n/",
+          "courtlistener_cluster_id": 10133460
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Oregon%22%20AND%20%28%22Oregon%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Oregon Department of Human Services",
         "CPS",
@@ -108,149 +198,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Oregon%22%20AND%20%28%22Oregon%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "termination of parental rights",
-        "TPR",
-        "adoption",
-        "permanency",
-        "aging out"
-      ],
-      "jurisdiction": "Oregon state courts",
-      "key_cases": [
-        {
-          "case_id": "s071019",
-          "title": "In re Gregory Mark Abel",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2025/s071019.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s071019 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a184792",
-          "title": "In re Oregon State Hospital",
-          "url": "https://law.justia.com/cases/oregon/court-of-appeals/2025/a184792.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Oregon Court Of Appeals Case a184792 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s071223",
-          "title": "In re Flint",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2024/s071223.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s071223 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s070455",
-          "title": "In re Munn",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2024/s070455.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s070455 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s068780",
-          "title": "In re: Sause and Schnitzer",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2023/s068780.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s068780 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s069006",
-          "title": "In re Duboff",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2023/s069006.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s069006 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a173412",
-          "title": "Doe v. First Christian Church of The Dalles",
-          "url": "https://law.justia.com/cases/oregon/court-of-appeals/2023/a173412.html",
-          "year": 2023,
-          "court": "Court Of Appeals",
-          "citation": "Oregon Court Of Appeals Case a173412 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        },
-        {
-          "case_id": "s068805",
-          "title": "In re Keller",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2022/s068805.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s068805 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s068497",
-          "title": "In re Ard",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2021/s068497.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s068497 (2021)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s067932",
-          "title": "In re Kauffman",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2021/s067932.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s067932 (2021)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

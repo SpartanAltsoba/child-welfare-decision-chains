@@ -142,6 +142,48 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Vermont state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "Willis S. Sheldon, Individually and as Administrator of the Estate of Dezirae Sheldon v. Nicholas Ruggiero",
+          "citation": "2018 VT 125, 202 A.3d 241",
+          "court": "Supreme Court of Vermont",
+          "year": 2018,
+          "date_decided": "2018-11-09",
+          "holding": "Summary judgment for a DCF administrative reviewer was affirmed because the mandated-reporter duty under 33 V.S.A. § 4913(a) is triggered only by reasonable cause to believe a child has been abused, and a repetitious allegation adding nothing new did not supply it.",
+          "relevance": "Sheldon is the judicial record of a Vermont child-fatality review and identifies the investigative gap that mattered.",
+          "quote": "In this context, as a matter of law, defendant did not have reasonable cause to make a report.",
+          "url": "https://www.courtlistener.com/opinion/4552217/willis-s-sheldon-individually-and-as-administrator-of-the-estate-of/",
+          "courtlistener_cluster_id": 4552217
+        },
+        {
+          "case_name": "Sabia v. State",
+          "citation": "164 Vt. 293, 669 A.2d 1187 (1995)",
+          "court": "Supreme Court of Vermont",
+          "year": 1995,
+          "date_decided": "1995-10-30",
+          "holding": "SRS (now DCF) owed the reporting children an actionable duty of care because 33 V.S.A. § 4915 imposes mandatory investigative acts for the protection of a particular class, and sovereign immunity did not bar the negligence suit.",
+          "relevance": "Sabia shows that Vermont courts will review agency failures to act on known abuse reports, which is the judicial analogue of fatality review.",
+          "quote": "Accordingly, we conclude that SRS had a duty to protect plaintiffs under the circumstances of this case.",
+          "url": "https://www.courtlistener.com/opinion/1983925/sabia-v-state/",
+          "courtlistener_cluster_id": 1983925
+        },
+        {
+          "case_name": "Tina Stocker v. State of Vermont",
+          "citation": "2021 VT 71",
+          "court": "Supreme Court of Vermont",
+          "year": 2021,
+          "date_decided": "2021-09-03",
+          "holding": "Judgment as a matter of law for the State was affirmed: the only non-discretionary DCF duty supporting a damages action is the 33 V.S.A. § 4915 duty to record a report and make an initial determination whether it is valid, assessment and investigation under §§ 4915a and 4915b are discretionary and within sovereign immunity, and plaintiffs could not show the recording failures proximately caused the children's continued abuse.",
+          "relevance": "The opinion is the judicial record of a Vermont serious-harm review, cataloguing dozens of unrecorded reports and identifying exactly which agency failures are and are not remediable.",
+          "quote": "any implied right of action against DCF based in this statutory scheme is limited to violations of mandatory duties pursuant to § 4915",
+          "url": "https://www.courtlistener.com/opinion/4908267/tina-stocker-v-state-of-vermont/",
+          "courtlistener_cluster_id": 5090886
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Vermont%22%20AND%20%28%22Vermont%20Department%20for%20Children%20and%20Families%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Vermont Department for Children and Families",
         "CPS",
@@ -153,148 +195,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Vermont%22%20AND%20%28%22Vermont%20Department%20for%20Children%20and%20Families%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "missing child",
-        "amber alert",
-        "custodial interference",
-        "parental kidnapping"
-      ],
-      "jurisdiction": "Vermont state courts",
-      "key_cases": [
-        {
-          "case_id": "2020-311",
-          "title": "In re Investigation to Review the Avoided Costs that Serve as Prices for the Standard-Offer Program in 2020 (Allco Renewable Energy Limited & PLH LLC)",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2021/2020-311.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 2020-311 (2021)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2020-134",
-          "title": "In re Investigation to Review the Avoided Costs that Serve as Prices for the Standard-Offer Program in 2020 (Allco Renewable Energy Limited & PLH LLC, Appellants)",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2021/2020-134.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 2020-134 (2021)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "24-ap-374",
-          "title": "In re Petition of Otter Creek Solar LLC",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/24-ap-374.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 24-ap-374 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-ap-292",
-          "title": "In re Appeal of H.D.",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/25-ap-292.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 25-ap-292 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-ap-005",
-          "title": "In re Petition of Randolph Davis Solar LLC",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/25-ap-005.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 25-ap-005 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-ap-217",
-          "title": "In re J.D. and C.D., Juveniles",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/25-ap-217.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 25-ap-217 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "25-ap-220",
-          "title": "In re G.B., Juvenile",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/25-ap-220.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 25-ap-220 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "25-ap-236",
-          "title": "In re A.K. and P.K., Juveniles",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/25-ap-236.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 25-ap-236 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "25-ap-253",
-          "title": "In re N.S., Juvenile",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/25-ap-253.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 25-ap-253 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "25-ap-054",
-          "title": "In re Holland Cannabis, LLC",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/25-ap-054.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 25-ap-054 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

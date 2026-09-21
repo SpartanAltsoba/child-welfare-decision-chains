@@ -16,7 +16,7 @@ The CC BY-SA 4.0 license sets the legal floor. This document sets the practical 
 | EIN | 33-1323547 |
 | Repository | https://github.com/SpartanAltsoba/child-welfare-decision-chains |
 | License | CC BY-SA 4.0 |
-| Version (current release) | v1.0.1 |
+| Version (current release) | v1.1.0 |
 | Release date | 2026-04-26 |
 | Cryptographic root hash | See `MANIFEST.json` `root_hash` field |
 | Citation file | See `CITATION.cff` |
@@ -56,7 +56,7 @@ The CC BY-SA 4.0 license requires every public-facing use to:
 
 Beyond the legal floor, we ask downstream users to honor four practical norms:
 
-**(a) Cite the version.** The dataset evolves. Citing "the dataset" without a version number is ambiguous. Cite the version (`v1.0.1`) and, ideally, the manifest root hash. Both are in `MANIFEST.json` and `CITATION.cff`.
+**(a) Cite the version.** The dataset evolves. Citing "the dataset" without a version number is ambiguous. Cite the version (`v1.1.0`) and, ideally, the manifest root hash. Both are in `MANIFEST.json` and `CITATION.cff`.
 
 **(b) Cite the node, not the dataset, when quoting specifics.** If you reference a specific decision node, cite the file path. *"Per `data/states_chains/AK/AK_INP-01.json` in the US Child Welfare Decision Chain Dataset (v1.0.0, Project Milk Carton)..."* That granularity is what lets a reader verify your claim against the canonical record.
 
@@ -75,6 +75,7 @@ The root hash for v1.0.0 is published in `MANIFEST.json` and in this document be
 ```
 v1.0.0 root_hash: ac684eaaf7912f24c6e98a35d90232eedddd2da8777e07888f38e5ea6a6bca7e   (historical; generator not committed)
 v1.0.1 root_hash: 2226e0ed09c8007c8f28e03670fcee3b26f3ac3512af4bdf9fbc429ebebb79d5   (data/tools/qa/build_manifest.py)
+v1.1.0 root_hash: fa4660008dd0c7e5417c8c9314ca00523ca2dd8bad539e3f797fe62eb51bd06f   (data/tools/qa/build_manifest.py)
 ```
 
 This hash:

@@ -141,6 +141,48 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "New Mexico state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "State ex rel. Children, Youth & Families Department v. Djamila B. (In re Mahdjid B.)",
+          "citation": "2015-NMSC-003",
+          "court": "New Mexico Supreme Court",
+          "year": 2014,
+          "date_decided": "2014-12-15",
+          "holding": "The Court held that kinship guardians are not necessary and indispensable parties to abuse and neglect proceedings but have a statutory right to a Kinship Guardianship Act revocation hearing before they may be involuntarily dismissed from those proceedings.",
+          "relevance": "This is the controlling New Mexico authority on the legal status of a kinship caregiver once CYFD opens a case.",
+          "quote": "kinship guardianships must be revoked in accordance with the revocation procedures of the KGA and our Rules of Evidence before involuntarily dismissing a kinship guardian from abuse and neglect proceedings",
+          "url": "https://www.courtlistener.com/opinion/6592326/state-ex-rel-chidren-youth-families-department-v-djamila-b/",
+          "courtlistener_cluster_id": 6592326
+        },
+        {
+          "case_name": "In re Guardianship of Ashleigh R.",
+          "citation": "2002-NMCA-103, 132 N.M. 772, 55 P.3d 984",
+          "court": "New Mexico Court of Appeals",
+          "year": 2002,
+          "date_decided": "2002-08-06",
+          "holding": "The court held that the trial court had no authority to appoint guardians over a parent's objection absent proof of present unfitness or extraordinary circumstances, and that voluntary relinquishment of custody plus the children's attachment to the grandparents did not supply those circumstances.",
+          "relevance": "It sets the burden a relative caregiver must meet before a court may formalize a placement over the parent's objection.",
+          "quote": "We hold that Grandparents presented insufficient evidence to prove that Mother was unfit to care for her children at the time of the hearing",
+          "url": "https://www.courtlistener.com/opinion/2598640/in-re-guardianship-of-ashleigh-r/",
+          "courtlistener_cluster_id": 2598640
+        },
+        {
+          "case_name": "State ex rel. Children, Youth & Families Department v. Casey J.",
+          "citation": "2015-NMCA-088",
+          "court": "New Mexico Court of Appeals",
+          "year": 2015,
+          "date_decided": "2015-06-22",
+          "holding": "The court affirmed termination and held that CYFD's placement of the children complied with the Abuse and Neglect Act and ICWA because the record supported the district court's finding of good cause to deviate from the ICWA placement preferences, and that the father received due process.",
+          "relevance": "It is New Mexico's leading decision on a parent's ability to force placement with a particular relative and on good cause to deviate from the preferences.",
+          "quote": "we conclude that the district court did not err in determining that good cause existed to deviate from the ICWA placement preferences at the time of the initial judicial review",
+          "url": "https://www.courtlistener.com/opinion/2811407/state-ex-rel-children-youth-families-dept-v-casey-/",
+          "courtlistener_cluster_id": 2811407
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22New%20Mexico%22%20AND%20%28%22New%20Mexico%20Children%20Youth%20and%20Families%20Department%22%20OR%20%22CYFD%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "New Mexico Children Youth and Families Department",
         "CYFD",
@@ -152,149 +194,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22New%20Mexico%22%20AND%20%28%22New%20Mexico%20Children%20Youth%20and%20Families%20Department%22%20OR%20%22CYFD%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "removal",
-        "emergency custody",
-        "placement",
-        "reunification",
-        "services"
-      ],
-      "jurisdiction": "New Mexico state courts",
-      "key_cases": [
-        {
-          "case_id": "a-1-ca-41078",
-          "title": "In re Kinship Guardianship Neneah L. v. Lara (Unpublished Opinion)",
-          "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2023/a-1-ca-41078.html",
-          "year": 2023,
-          "court": "Court Of Appeals",
-          "citation": "New Mexico Court Of Appeals Case a-1-ca-41078 (2023)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "kinship"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s-1-sc-40711",
-          "title": "In re Rael (Unpublished Opinion)",
-          "url": "https://law.justia.com/cases/new-mexico/supreme-court/2025/s-1-sc-40711.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Mexico Supreme Court Case s-1-sc-40711 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s-1-sc-40571",
-          "title": "In re Valdez (Unpublished Opinion)",
-          "url": "https://law.justia.com/cases/new-mexico/supreme-court/2025/s-1-sc-40571.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Mexico Supreme Court Case s-1-sc-40571 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a-1-ca-41980",
-          "title": "In re Guardianship & Conservatorship of Linda D. (Unpublished Opinion)",
-          "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2025/a-1-ca-41980.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New Mexico Court Of Appeals Case a-1-ca-41980 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "a-1-ca-41751",
-          "title": "In re Estate of Sanchez (Unpublished Opinion)",
-          "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2025/a-1-ca-41751.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New Mexico Court Of Appeals Case a-1-ca-41751 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a-1-ca-42499",
-          "title": "In re Estate of Carr (Unpublished Opinion)",
-          "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2025/a-1-ca-42499.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New Mexico Court Of Appeals Case a-1-ca-42499 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a-1-ca-40832",
-          "title": "In re Maestas (Unpublished Opinion)",
-          "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2025/a-1-ca-40832.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New Mexico Court Of Appeals Case a-1-ca-40832 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a-1-ca-41794",
-          "title": "In re Dissolution of ROI Enters., LLC (Unpublished Opinion)",
-          "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2025/a-1-ca-41794.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New Mexico Court Of Appeals Case a-1-ca-41794 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a-1-ca-41644",
-          "title": "In re Estate of Chavez (Unpublished Opinion)",
-          "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2025/a-1-ca-41644.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New Mexico Court Of Appeals Case a-1-ca-41644 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a-1-ca-42410",
-          "title": "In re Estate of Groves (Unpublished Opinion)",
-          "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2025/a-1-ca-42410.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New Mexico Court Of Appeals Case a-1-ca-42410 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

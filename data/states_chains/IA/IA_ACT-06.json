@@ -68,6 +68,36 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Iowa state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "In re C.M.",
+          "citation": "526 N.W.2d 562 (Iowa Ct. App. 1994)",
+          "court": "Court of Appeals of Iowa",
+          "year": 1994,
+          "date_decided": "1994-11-28",
+          "holding": "The CINA adjudication and foster placement of an infant were affirmed; the mother's Americans with Disabilities Act reasonable-accommodation claim was not preserved because it was never raised in the juvenile court, and in any event the providers offered were trained to work with her personality disorder.",
+          "relevance": "Involved medication non-compliance amounting to denial of critical care and the resulting protective response to the infant's medical needs.",
+          "quote": "As a general rule, an issue not presented in the juvenile court may not be raised for the first time on appeal.",
+          "url": "https://www.courtlistener.com/opinion/1598591/in-the-interest-of-cm/",
+          "courtlistener_cluster_id": 1598591
+        },
+        {
+          "case_name": "Riehm v. Engelking",
+          "citation": "538 F.3d 952 (8th Cir. 2008)",
+          "court": "Court of Appeals for the Eighth Circuit",
+          "year": 2008,
+          "date_decided": "2008-08-15",
+          "holding": "A county social worker who obtained an ex parte order removing a high school student for a seventy-two-hour psychiatric evaluation after his teacher reported a violent murder-suicide essay was entitled to qualified immunity, and the mother's familial-association claim failed because there was no underlying Fourth Amendment violation.",
+          "relevance": "Upholds a court-ordered emergency psychiatric evaluation and seventy-two-hour hold as consistent with the Fourth Amendment on a reasonable suspicion of danger.",
+          "quote": "Diercks had a \"reasonable suspicion\" of a threat to David's welfare that justified the ex parte order removing David from his home",
+          "url": "https://www.courtlistener.com/opinion/1443178/riehm-v-engelking/",
+          "courtlistener_cluster_id": 1443178
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Iowa%22%20AND%20%28%22Iowa%20Department%20of%20Human%20Services%22%20OR%20%22DHS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Iowa Department of Human Services",
         "DHS",
@@ -79,123 +109,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Iowa%22%20AND%20%28%22Iowa%20Department%20of%20Human%20Services%22%20OR%20%22DHS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "removal",
-        "emergency custody",
-        "placement",
-        "reunification",
-        "services"
-      ],
-      "jurisdiction": "Iowa state courts",
-      "key_cases": [
-        {
-          "case_id": "23-2069",
-          "title": "In re the Marriage Kraus",
-          "url": "https://law.justia.com/cases/iowa/supreme-court/2025/23-2069.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Iowa Supreme Court Case 23-2069 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "24-0830",
-          "title": "In re the Marriage of Owen and Brinker",
-          "url": "https://law.justia.com/cases/iowa/supreme-court/2025/24-0830.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Iowa Supreme Court Case 24-0830 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "24-0453",
-          "title": "J. Doe v. Iowa District Court for Polk County",
-          "url": "https://law.justia.com/cases/iowa/supreme-court/2025/24-0453.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Iowa Supreme Court Case 24-0453 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        },
-        {
-          "case_id": "24-0727",
-          "title": "In re Davenport Hotel Building Collapse",
-          "url": "https://law.justia.com/cases/iowa/supreme-court/2025/24-0727.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Iowa Supreme Court Case 24-0727 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "24-0700",
-          "title": "Doe v. Western Dubuque Community School District",
-          "url": "https://law.justia.com/cases/iowa/supreme-court/2025/24-0700.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Iowa Supreme Court Case 24-0700 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        },
-        {
-          "case_id": "23-1662",
-          "title": "Doe v. Iowa District Court For Polk County",
-          "url": "https://law.justia.com/cases/iowa/supreme-court/2025/23-1662.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Iowa Supreme Court Case 23-1662 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        },
-        {
-          "case_id": "24-0297",
-          "title": "In re N.F.",
-          "url": "https://law.justia.com/cases/iowa/supreme-court/2025/24-0297.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Iowa Supreme Court Case 24-0297 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "22-1801",
-          "title": "In re Estate of Johnston",
-          "url": "https://law.justia.com/cases/iowa/supreme-court/2025/22-1801.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Iowa Supreme Court Case 22-1801 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

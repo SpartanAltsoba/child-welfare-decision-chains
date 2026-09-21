@@ -171,6 +171,72 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Idaho state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Wallis v. Spencer",
+          "citation": "202 F.3d 1126 (9th Cir. 2000)",
+          "court": "United States Court of Appeals for the Ninth Circuit",
+          "year": 1999,
+          "date_decided": "1999-09-14",
+          "holding": "Reversing summary judgment for the officers and the city, the court held that children may be seized from parents without prior judicial authorization only on reasonable cause to believe the child faces imminent danger of serious bodily injury, that reasonable cause is a jury question, and that subjecting seized children to invasive medical examinations without judicial authorization or parental notification implicates the family's right to make medical decisions.",
+          "relevance": "States the exigency showing required before emergency protective custody may be taken without a court order.",
+          "quote": "The right to family association includes the right of parents to make important medical decisions for their children",
+          "url": "https://www.courtlistener.com/opinion/7079922/wallis-ex-rel-wallis-v-spencer/",
+          "courtlistener_cluster_id": 7079922
+        },
+        {
+          "case_name": "Rogers v. County of San Joaquin",
+          "citation": "487 F.3d 1288 (9th Cir. 2007)",
+          "court": "United States Court of Appeals for the Ninth Circuit",
+          "year": 2007,
+          "date_decided": "2007-05-29",
+          "holding": "The court held that a social worker violated the family's Fourth and Fourteenth Amendment rights by removing children without a warrant where nothing in the record showed imminent danger of serious bodily harm during the few hours needed to obtain one, and that the law to that effect was clearly established.",
+          "relevance": "Ties emergency custody to danger arising within the time a warrant would take, not to generalized neglect concerns.",
+          "quote": "there is no support at all in the record for the conclusion that the Rogers children were likely in imminent danger of serious bodily harm",
+          "url": "https://www.courtlistener.com/opinion/3048851/rogers-v-county-of-san-joaquin/",
+          "courtlistener_cluster_id": 3048851
+        },
+        {
+          "case_name": "State v. Barrett",
+          "citation": "138 Idaho 290, 62 P.3d 214 (Ct. App. 2003)",
+          "court": "Idaho Court of Appeals",
+          "year": 2003,
+          "date_decided": "2003-01-07",
+          "holding": "The court affirmed denial of a suppression motion, holding that exigent circumstances justified a warrantless entry into a home where officers reasonably believed a wife and children inside might need emergency medical assistance, and that evidence in plain view during legitimate emergency activity may be seized.",
+          "relevance": "Idaho's own statement of the exigency and emergency-aid exception that underlies protective custody entries.",
+          "quote": "The risk of danger to police officers or other persons either inside or outside the dwelling constitutes such an exigency justifying a warrantless entry",
+          "url": "https://www.courtlistener.com/opinion/2621493/state-v-barrett/",
+          "courtlistener_cluster_id": 2621493
+        },
+        {
+          "case_name": "Idaho Department of Health & Welfare v. John Doe (2023-25)",
+          "citation": "No. 50875 (Idaho Nov. 3, 2023)",
+          "court": "Idaho Supreme Court",
+          "year": 2023,
+          "date_decided": "2023-11-03",
+          "holding": "Affirming a redisposition order removing five children from a home that had been under protective supervision, the court held for the first time that a redisposition hearing under I.C. § 16-1623 is governed by the same preponderance-of-the-evidence standard as an adjudicatory hearing and does not unconstitutionally interfere with parental rights.",
+          "relevance": "Holds that a child under protective supervision may be removed without a prior hearing only if a redisposition hearing follows within 48 hours.",
+          "quote": "The redisposition hearing process is, in essence, another adjudicatory hearing resulting in a \"redisposition\" of the child's custody",
+          "url": "https://www.courtlistener.com/opinion/9437138/idhw-v-john-doe/",
+          "courtlistener_cluster_id": 9437138
+        },
+        {
+          "case_name": "State v. Pearson-Anderson",
+          "citation": "136 Idaho 847, 41 P.3d 275 (Ct. App. 2001)",
+          "court": "Idaho Court of Appeals",
+          "year": 2001,
+          "date_decided": "2001-12-14",
+          "holding": "Affirming denial of a suppression motion, the court held that a warrantless entry into a home is presumed unlawful unless an exception applies, and that the exigent-circumstances exception justified an officer's brief entry after a 911 hang-up call where responding officers found two people fighting and had reason to believe another person inside might need assistance.",
+          "relevance": "Idaho's own statement that a warrantless entry into a home is presumptively unlawful — the baseline any emergency protective-custody entry must overcome.",
+          "quote": "an officer's warrantless entry into a home is presumed to be unlawful unless it falls within a well-recognized exception",
+          "url": "https://www.courtlistener.com/opinion/2600824/state-v-pearson-anderson/",
+          "courtlistener_cluster_id": 2600824
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Idaho%22%20AND%20%28%22Idaho%20Department%20of%20Health%20and%20Welfare%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Idaho Department of Health and Welfare",
         "CPS",
@@ -182,148 +248,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Idaho%22%20AND%20%28%22Idaho%20Department%20of%20Health%20and%20Welfare%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "mandatory reporting",
-        "failure to report",
-        "reporter immunity",
-        "hotline"
-      ],
-      "jurisdiction": "Idaho state courts",
-      "key_cases": [
-        {
-          "case_id": "53056",
-          "title": "IDHW v. John Doe (2025-27)",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-civil/2025/53056.html",
-          "year": 2025,
-          "court": "Court Of Appeals Civil",
-          "citation": "Idaho Court Of Appeals Civil Case 53056 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: IDHW, John Doe"
-        },
-        {
-          "case_id": "53025",
-          "title": "IDHW v. Jane Doe (2025-22)",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-civil/2025/53025.html",
-          "year": 2025,
-          "court": "Court Of Appeals Civil",
-          "citation": "Idaho Court Of Appeals Civil Case 53025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: IDHW, Jane Doe"
-        },
-        {
-          "case_id": "51081",
-          "title": "State v. John Doe",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-criminal/2025/51081.html",
-          "year": 2025,
-          "court": "Court Of Appeals Criminal",
-          "citation": "Idaho Court Of Appeals Criminal Case 51081 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: John Doe"
-        },
-        {
-          "case_id": "51246",
-          "title": "State v. John Doe, a juvenile",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-criminal/2025/51246.html",
-          "year": 2025,
-          "court": "Court Of Appeals Criminal",
-          "citation": "Idaho Court Of Appeals Criminal Case 51246 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: John Doe"
-        },
-        {
-          "case_id": "52029",
-          "title": "Jane Doe and John Doe I v. John Doe",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-civil/2024/52029.html",
-          "year": 2024,
-          "court": "Court Of Appeals Civil",
-          "citation": "Idaho Court Of Appeals Civil Case 52029 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Jane Doe, John Doe"
-        },
-        {
-          "case_id": "52140",
-          "title": "Jane Doe v. John Doe",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-civil/2024/52140.html",
-          "year": 2024,
-          "court": "Court Of Appeals Civil",
-          "citation": "Idaho Court Of Appeals Civil Case 52140 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Jane Doe, John Doe, Doe plaintiff"
-        },
-        {
-          "case_id": "51756",
-          "title": "John Doe I & Jane Doe I v. John Doe",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-civil/2024/51756.html",
-          "year": 2024,
-          "court": "Court Of Appeals Civil",
-          "citation": "Idaho Court Of Appeals Civil Case 51756 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Jane Doe, John Doe"
-        },
-        {
-          "case_id": "51494",
-          "title": "Jane Doe and John Doe 1 v. John Doe",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-civil/2024/51494.html",
-          "year": 2024,
-          "court": "Court Of Appeals Civil",
-          "citation": "Idaho Court Of Appeals Civil Case 51494 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Jane Doe, John Doe"
-        },
-        {
-          "case_id": "51601",
-          "title": "IDHW v. John Doe",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-civil/2024/51601.html",
-          "year": 2024,
-          "court": "Court Of Appeals Civil",
-          "citation": "Idaho Court Of Appeals Civil Case 51601 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: IDHW, John Doe"
-        },
-        {
-          "case_id": "51581",
-          "title": "IDHW v. Jane Doe",
-          "url": "https://law.justia.com/cases/idaho/court-of-appeals-civil/2024/51581.html",
-          "year": 2024,
-          "court": "Court Of Appeals Civil",
-          "citation": "Idaho Court Of Appeals Civil Case 51581 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: IDHW, Jane Doe"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

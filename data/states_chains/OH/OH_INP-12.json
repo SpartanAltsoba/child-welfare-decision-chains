@@ -87,6 +87,84 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Ohio state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "In re Murray",
+          "citation": "52 Ohio St.3d 155, 556 N.E.2d 1169 (1990)",
+          "court": "Supreme Court of Ohio",
+          "year": 1990,
+          "date_decided": "1990-07-03",
+          "holding": "An adjudication of dependency followed by an award of temporary custody to a children services board is a final, appealable order, and the Court grounded that conclusion in the fundamental liberty interest and paramount right of suitable parents in the custody of their children.",
+          "relevance": "It supplies the Ohio Supreme Court's statement of the constitutional interest that emergency protective custody intrudes upon.",
+          "quote": "Parents have a \"fundamental liberty-interest\" in the care, custody, and management of the child.",
+          "url": "https://www.courtlistener.com/opinion/6870542/in-re-murray/",
+          "courtlistener_cluster_id": 6870542
+        },
+        {
+          "case_name": "Kovacic v. Cuyahoga Cty. Dept. of Children & Family Servs.",
+          "citation": "724 F.3d 687 (6th Cir. 2013)",
+          "court": "United States Court of Appeals for the Sixth Circuit",
+          "year": 2013,
+          "date_decided": "2013-07-31",
+          "holding": "Ohio social workers who entered a home and removed children without a warrant were not entitled to qualified immunity on the children's Fourth Amendment claims because a warrantless removal requires exigency, not merely probable cause, although the workers retained absolute immunity for preparing the temporary emergency care order and initiating the proceedings.",
+          "relevance": "It is the controlling Sixth Circuit case, arising in Cuyahoga County, on the constitutional limits of emergency protective custody.",
+          "quote": "The relevant question is whether there was exigency, not probable cause: in the absence of exigency, a warrant is required, even \"when probable cause is clearly present.\"",
+          "url": "https://www.courtlistener.com/opinion/1035935/kovacic-v-cuyahoga-county-department-of-children-family-services/",
+          "courtlistener_cluster_id": 1035935
+        },
+        {
+          "case_name": "Andrews v. Hickman County",
+          "citation": "700 F.3d 845 (6th Cir. 2012)",
+          "court": "United States Court of Appeals for the Sixth Circuit",
+          "year": 2012,
+          "date_decided": "2012-12-03",
+          "holding": "The Sixth Circuit held that social workers are bound by the Fourth Amendment's warrant requirement when entering a home and that no social-worker exception exists, but granted qualified immunity because that rule was not clearly established in the circuit at the time of the entry.",
+          "relevance": "It is the circuit's foundational statement that emergency entry by a caseworker is constrained by the Fourth Amendment.",
+          "quote": "we agree that a social worker, like other state officers, is governed by the Fourth Amendment's warrant requirement",
+          "url": "https://www.courtlistener.com/opinion/812950/robert-andrews-v-hickman-county-tennessee/",
+          "courtlistener_cluster_id": 812950
+        },
+        {
+          "case_name": "Stanley v. Illinois",
+          "citation": "405 U.S. 645 (1972)",
+          "court": "Supreme Court of the United States",
+          "year": 1972,
+          "date_decided": "1972-04-03",
+          "holding": "An unwed father was denied due process and equal protection when his children were taken from him under a presumption of unfitness without any hearing on his fitness as a parent.",
+          "relevance": "It is the foundational federal authority that a hearing must precede or promptly follow the state's taking of a child.",
+          "quote": "as a matter of due process of law, Stanley was entitled to a hearing on his fitness as a parent before his children were taken from him",
+          "url": "https://www.courtlistener.com/opinion/108497/stanley-v-illinois/",
+          "courtlistener_cluster_id": 108497
+        },
+        {
+          "case_name": "In re C.F.",
+          "citation": "113 Ohio St.3d 73 (2007)",
+          "court": "Supreme Court of Ohio",
+          "year": 2007,
+          "date_decided": "2007-03-28",
+          "holding": "Except for narrowly defined statutory exceptions the state must have made reasonable efforts to reunify the family before parental rights are terminated, but the specific R.C. 2151.419(A)(1) reasonable-efforts determination applies only at the enumerated removal and disposition hearings and not at a hearing on an R.C. 2151.413 permanent-custody motion, where the agency must prove reasonable efforts only if it has not already done so.",
+          "relevance": "R.C. 2151.419 requires the court to make a reasonable-efforts finding at the hearing that follows emergency protective custody.",
+          "quote": "we hold that, except for a few narrowly defined exceptions, the state must have made reasonable efforts to reunify the family prior to the termination of parental rights",
+          "url": "https://www.courtlistener.com/opinion/6895758/in-re-cf/",
+          "courtlistener_cluster_id": 6895758
+        },
+        {
+          "case_name": "Kovacic v. Cuyahoga Cty. Dept. of Children & Family Servs.",
+          "citation": "606 F.3d 301 (6th Cir. 2010)",
+          "court": "United States Court of Appeals for the Sixth Circuit",
+          "year": 2010,
+          "date_decided": "2010-05-26",
+          "holding": "In the first Kovacic appeal the court affirmed dismissal of the mother's Section 1983 and state tort claims as barred by Ohio's two-year limitations period, but held that the children's federal claims are not barred by Rooker-Feldman because the source of their injury is the conduct of the agency and its social workers leading up to the removal rather than the juvenile court's temporary-custody judgment.",
+          "relevance": "This first appeal is what allowed the constitutional challenge to an Ohio emergency removal to be heard at all, and it is the predicate for the 2013 merits decision on exigency.",
+          "quote": "the children's claims in this case do not seek review or reversal of the decision of the juvenile court to award temporary custody to the state",
+          "url": "https://www.courtlistener.com/opinion/147186/kovacic-v-cuyahoga-county-dept-of-children-family-services/",
+          "courtlistener_cluster_id": 147186
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Ohio%22%20AND%20%28%22Ohio%20Department%20of%20Job%20and%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Ohio Department of Job and Family Services",
         "CPS",
@@ -98,148 +176,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Ohio%22%20AND%20%28%22Ohio%20Department%20of%20Job%20and%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "mandatory reporting",
-        "failure to report",
-        "reporter immunity",
-        "hotline"
-      ],
-      "jurisdiction": "Ohio state courts",
-      "key_cases": [
-        {
-          "case_id": "ca2022-06-039",
-          "title": "In re Adult Protective Servs. of Devanan",
-          "url": "https://law.justia.com/cases/ohio/twelfth-district-court-of-appeals/2023/ca2022-06-039.html",
-          "year": 2023,
-          "court": "Twelfth District Court Of Appeals",
-          "citation": "Ohio Twelfth District Court Of Appeals Case ca2022-06-039 (2023)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "c-250544",
-          "title": "In re A.J.",
-          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250544.html",
-          "year": 2025,
-          "court": "First District Court Of Appeals",
-          "citation": "Ohio First District Court Of Appeals Case c-250544 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "c-250454",
-          "title": "In re E.J.",
-          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250454.html",
-          "year": 2025,
-          "court": "First District Court Of Appeals",
-          "citation": "Ohio First District Court Of Appeals Case c-250454 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "c-250179",
-          "title": "In re L.K.",
-          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250179.html",
-          "year": 2025,
-          "court": "First District Court Of Appeals",
-          "citation": "Ohio First District Court Of Appeals Case c-250179 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "c-250248",
-          "title": "In re D.B.",
-          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250248.html",
-          "year": 2025,
-          "court": "First District Court Of Appeals",
-          "citation": "Ohio First District Court Of Appeals Case c-250248 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "c-240566",
-          "title": "In re J.W.",
-          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-240566.html",
-          "year": 2025,
-          "court": "First District Court Of Appeals",
-          "citation": "Ohio First District Court Of Appeals Case c-240566 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "c-250379",
-          "title": "In re M. Children",
-          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250379.html",
-          "year": 2025,
-          "court": "First District Court Of Appeals",
-          "citation": "Ohio First District Court Of Appeals Case c-250379 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initial"
-        },
-        {
-          "case_id": "c-240546",
-          "title": "In re G.T.",
-          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-240546.html",
-          "year": 2025,
-          "court": "First District Court Of Appeals",
-          "citation": "Ohio First District Court Of Appeals Case c-240546 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "c-250178",
-          "title": "In re A.H.",
-          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250178.html",
-          "year": 2025,
-          "court": "First District Court Of Appeals",
-          "citation": "Ohio First District Court Of Appeals Case c-250178 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "c-250222",
-          "title": "In re R.K.",
-          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250222.html",
-          "year": 2025,
-          "court": "First District Court Of Appeals",
-          "citation": "Ohio First District Court Of Appeals Case c-250222 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

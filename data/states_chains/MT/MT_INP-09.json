@@ -145,6 +145,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Montana state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Mercer v. Montana Department of Public Health & Human Services",
+          "citation": "2025 MT 9",
+          "court": "Montana Supreme Court",
+          "year": 2025,
+          "date_decided": "2025-01-17",
+          "holding": "A mandatory preliminary injunction requiring DPHHS to disclose child abuse and neglect case records to a state legislator conducting a statutory review under § 41-3-205(4) was affirmed; the legislator had an absolute statutory right to the described records subject only to the statute's own limits, and a stipulation barring further disclosure minimized any harm to the Department.",
+          "relevance": "It is the Montana Supreme Court's enforcement of legislative oversight over DPHHS child-protection files and the concrete remedy — mandatory injunction — when the agency withholds them.",
+          "quote": "This statute requires that child abuse and neglect “case records” be kept confidential but also provides for disclosure of such records upon satisfaction of statutory criteria",
+          "url": "https://www.courtlistener.com/opinion/10316885/mercer-v-dphhs/",
+          "courtlistener_cluster_id": 10316885
+        },
+        {
+          "case_name": "Shockley v. Cascade County",
+          "citation": "2014 MT 281, 376 Mont. 493, 336 P.3d 375",
+          "court": "Montana Supreme Court",
+          "year": 2014,
+          "date_decided": "2014-10-21",
+          "holding": "Any Montana citizen has standing under Article II, Section 9 to seek judicial relief for a denial of access to the documents of any Montana public body, without needing a nexus to or residence in that body's jurisdiction; the individual-privacy limitation and any confidentiality provisions remain to be applied on remand.",
+          "relevance": "It gives any citizen — not just a party or resident — standing to compel production of the records that make outside oversight of a public agency possible.",
+          "quote": "We hold Article II, Section 9 grants a right to judicial relief to a Montana citizen alleging denial of access to a document of a Montana public body.",
+          "url": "https://www.courtlistener.com/opinion/2744364/shockley-v-cascade-county/",
+          "courtlistener_cluster_id": 2744364
+        },
+        {
+          "case_name": "Suter v. Artist M.",
+          "citation": "503 U.S. 347 (1992)",
+          "court": "Supreme Court of the United States",
+          "year": 1992,
+          "date_decided": "1992-03-25",
+          "holding": "The 'reasonable efforts' clause of the Adoption Assistance and Child Welfare Act, 42 U.S.C. § 671(a)(15), does not create a right enforceable by private plaintiffs under § 1983, nor an implied private right of action; compliance is enforced by the Secretary through the plan-approval and funding process.",
+          "relevance": "It explains why federal child-welfare compliance is policed through administrative review and funding rather than private litigation, making oversight findings the practical remedy.",
+          "quote": "the “reasonable efforts” language does not unambiguously confer an enforceable right upon the Act's beneficiaries",
+          "url": "https://www.courtlistener.com/opinion/112712/suter-v-artist-m/",
+          "courtlistener_cluster_id": 112712
+        },
+        {
+          "case_name": "Schoof v. Nesbit",
+          "citation": "2014 MT 6, 373 Mont. 226, 316 P.3d 831",
+          "court": "Montana Supreme Court",
+          "year": 2014,
+          "date_decided": "2014-01-09",
+          "holding": "Reversed and remanded: a county resident has standing to pursue right-to-know and right-of-participation claims without alleging an injury distinguishable from that of the public generally, because the personal stake those provisions require is the opportunity to observe and participate in the public body's decision-making, and Fleenor is overruled to the extent it held otherwise.",
+          "relevance": "It is the standing decision Shockley v. Cascade County builds on, and it removes the 'injury distinguishable from the public generally' barrier that agencies had used to defeat citizen oversight suits.",
+          "quote": "we hold that Schoof has standing to pursue further discovery on his claims, and overrule Fleenor to the extent that it is inconsistent with this opinion",
+          "url": "https://www.courtlistener.com/opinion/2648684/schoof-v-nesbit/",
+          "courtlistener_cluster_id": 2648684
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Montana%22%20AND%20%28%22Montana%20Department%20of%20Public%20Health%20and%20Human%20Services%22%20OR%20%22DPHHS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Montana Department of Public Health and Human Services",
         "DPHHS",
@@ -156,148 +210,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Montana%22%20AND%20%28%22Montana%20Department%20of%20Public%20Health%20and%20Human%20Services%22%20OR%20%22DPHHS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "mandatory reporting",
-        "failure to report",
-        "reporter immunity",
-        "hotline"
-      ],
-      "jurisdiction": "Montana state courts",
-      "key_cases": [
-        {
-          "case_id": "da-25-0077",
-          "title": "In re Marriage of Steinbeisser",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0077.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-25-0077 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "da-25-0386",
-          "title": "Matter of K.H. & D.H., YINC",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0386.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-25-0386 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of initials"
-        },
-        {
-          "case_id": "da-25-0073",
-          "title": "Matter of J.D.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0073.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-25-0073 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of initials"
-        },
-        {
-          "case_id": "da-25-0146",
-          "title": "In re C.M.B.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0146.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-25-0146 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "da-25-0273",
-          "title": "In re Parenting of A.M.B.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0273.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-25-0273 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "da-25-0341",
-          "title": "In re Estate of Damjanovich",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0341.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-25-0341 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "da-24-0148",
-          "title": "In re J.L.O.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-24-0148.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-24-0148 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "da-24-0187",
-          "title": "In re P.G.J.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-24-0187.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-24-0187 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "da-24-0469",
-          "title": "In re Potter Exemption Trust",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-24-0469.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-24-0469 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "da-22-0645",
-          "title": "In re T.W.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-22-0645.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-22-0645 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

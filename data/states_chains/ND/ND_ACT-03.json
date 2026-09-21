@@ -183,6 +183,84 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "North Dakota state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Interest of K.S.D.",
+          "citation": "2017 ND 289, 904 N.W.2d 479",
+          "court": "North Dakota Supreme Court",
+          "year": 2017,
+          "date_decided": "2017-12-07",
+          "holding": "Clear and convincing evidence supported the state-law grounds and the finding that active efforts had been made and failed, but because nothing in the record satisfied ICWA's requirement of proof beyond a reasonable doubt including qualified expert witness testimony, the court retained jurisdiction and remanded for a hearing limited to that ICWA requirement.",
+          "relevance": "Active efforts to prevent the breakup of the Indian family must be proven before foster-care placement or termination.",
+          "quote": "When Indian children are involved in proceedings such as this, state and federal law create a dual burden of proof for the party seeking termination of parental rights.",
+          "url": "https://www.courtlistener.com/opinion/8248639/gaddie-v-ksd/",
+          "courtlistener_cluster_id": 8282629
+        },
+        {
+          "case_name": "James v. Friend",
+          "citation": "458 F.3d 726 (8th Cir. 2006)",
+          "court": "United States Court of Appeals for the Eighth Circuit",
+          "year": 2006,
+          "date_decided": "2006-08-10",
+          "holding": "After a child died in foster care, the court affirmed summary judgment for the caseworkers, holding that although foster placement creates a custodial relationship, liability requires conscience-shocking conduct — deliberate indifference where deliberation is practical — which the record did not establish.",
+          "relevance": "Confirms that placing a child in foster care creates a custodial relationship carrying constitutional duties of protection.",
+          "quote": "a substantive due process violation will be found to have occurred only if the official conduct or inaction is so egregious or outrageous that it is conscience-shocking",
+          "url": "https://www.courtlistener.com/opinion/795306/sidney-james-v-alysha-friend/",
+          "courtlistener_cluster_id": 795306
+        },
+        {
+          "case_name": "Interest of A.C.",
+          "citation": "2022 ND 123, 975 N.W.2d 567",
+          "court": "North Dakota Supreme Court",
+          "year": 2022,
+          "date_decided": "2022-06-08",
+          "holding": "Because the juvenile court's order contained inconsistent findings about whether ICWA applied and whether active efforts and the beyond-a-reasonable-doubt serious-damage element were established, the Supreme Court retained jurisdiction and remanded for clear findings before any termination could stand.",
+          "relevance": "Confirms that foster-care placement and removal of an Indian child trigger ICWA's active-efforts finding, which must appear in the court's order.",
+          "quote": "Without consistent and clear factual findings supporting the application of ICWA and North Dakota heightened review for Indian families we are unable to determine the remaining issues raised by A.L.",
+          "url": "https://www.courtlistener.com/opinion/6347947/interest-of-ac/",
+          "courtlistener_cluster_id": 6475836
+        },
+        {
+          "case_name": "In the Interest of M.S.",
+          "citation": "2001 ND 68, 624 N.W.2d 678",
+          "court": "North Dakota Supreme Court",
+          "year": 2001,
+          "date_decided": "2001-04-12",
+          "holding": "The court affirmed termination of a mother's rights to her Yankton Sioux daughter, holding that state and federal law impose a dual burden — the state statutory elements by clear and convincing evidence and ICWA's serious-damage element beyond a reasonable doubt — and holding for the first time that ICWA's active-efforts requirement under 25 U.S.C. § 1912(d) need be proven only by clear and convincing evidence.",
+          "relevance": "Holds that ICWA's active-efforts showing before foster-care placement or termination must be proven by clear and convincing evidence, not beyond a reasonable doubt, and that agencies need not persist in efforts destined for failure.",
+          "quote": "These state and federal provisions create a dual burden of proof for the party seeking parental termination of the parent of an Indian child",
+          "url": "https://www.courtlistener.com/opinion/896766/in-re-ms/",
+          "courtlistener_cluster_id": 896766
+        },
+        {
+          "case_name": "Interest of K.B.",
+          "citation": "2021 ND 163",
+          "court": "North Dakota Supreme Court",
+          "year": 2021,
+          "date_decided": "2021-09-09",
+          "holding": "On return from its own remand, the court affirmed the juvenile court's order denying the petition to terminate the mother's parental rights and instead removing the children from her custody for nine months, deferring to the finding that the qualified expert's testimony raised a reasonable doubt whether continued custody was likely to cause serious emotional or physical damage.",
+          "relevance": "Confirms that a court that declines to terminate may still order the children removed and kept in agency custody for a fixed period, here nine months, as the disposition.",
+          "quote": "A finding relating to a likelihood of future harm requires some prognostic evidence providing \"the basis for a reasonable prediction as to future action.\"",
+          "url": "https://www.courtlistener.com/opinion/5092497/interest-of-kb/",
+          "courtlistener_cluster_id": 5092497
+        },
+        {
+          "case_name": "Interest of O.F.",
+          "citation": "2024 ND 140",
+          "court": "North Dakota Supreme Court",
+          "year": 2024,
+          "date_decided": "2024-07-18",
+          "holding": "The court affirmed termination of a father's parental rights under the current juvenile chapter, holding that N.D.C.C. § 27-20.3-20(1)(c)(2) requires only that the child have been in foster care at least 450 nights and does not require that 660 nights have elapsed since the child entered care.",
+          "relevance": "Construes the foster-care duration ground of the current chapter, fixing how the 450-of-660-nights clock is computed from the date of placement.",
+          "quote": "The plain language of the statute requires the child be in care for at least 450 nights.",
+          "url": "https://www.courtlistener.com/opinion/10006485/interest-of-of/",
+          "courtlistener_cluster_id": 10006485
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22North%20Dakota%22%20AND%20%28%22North%20Dakota%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "North Dakota Department of Human Services",
         "CPS",
@@ -194,149 +272,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22North%20Dakota%22%20AND%20%28%22North%20Dakota%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "removal",
-        "emergency custody",
-        "placement",
-        "reunification",
-        "services"
-      ],
-      "jurisdiction": "North Dakota state courts",
-      "key_cases": [
-        {
-          "case_id": "20250206",
-          "title": "Matter of Hansen Trust",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2025/20250206.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20250206 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "20250378",
-          "title": "Interest of J.C. 2025 ND 217",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2025/20250378.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20250378 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of initials"
-        },
-        {
-          "case_id": "20250379",
-          "title": "Interest of S.C.Y.",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2025/20250379.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20250379 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of initials"
-        },
-        {
-          "case_id": "20250394",
-          "title": "Interest of G.S. 2025 ND 214",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2025/20250394.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20250394 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of initials"
-        },
-        {
-          "case_id": "20250395",
-          "title": "Interest of A.S. 2025 ND 214",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2025/20250395.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20250395 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of initials"
-        },
-        {
-          "case_id": "20250371",
-          "title": "Interest of A.D.-B. 2025 ND 203",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2025/20250371.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20250371 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of initials"
-        },
-        {
-          "case_id": "20250372",
-          "title": "Interest of M.D.-B. 2025 ND 203",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2025/20250372.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20250372 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of initials"
-        },
-        {
-          "case_id": "20250373",
-          "title": "Interest of C.B. 2025 ND 203",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2025/20250373.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20250373 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of initials"
-        },
-        {
-          "case_id": "20250397",
-          "title": "Interest of B.L.H. 2025 ND 207",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2025/20250397.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20250397 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of initials"
-        },
-        {
-          "case_id": "20250320",
-          "title": "Interest of M.P. 2025 ND 181",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2025/20250320.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20250320 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of initials"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

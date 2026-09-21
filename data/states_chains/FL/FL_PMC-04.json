@@ -124,6 +124,48 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Florida state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Department of Health & Rehabilitative Services v. Yamuni",
+          "citation": "529 So. 2d 258 (Fla. 1988)",
+          "court": "Supreme Court of Florida",
+          "year": 1988,
+          "date_decided": "1988-06-02",
+          "holding": "Florida's child welfare agency owes a statutory duty of care to prevent further harm to a child once reports of abuse are received, and caseworker investigation and protective-supervision activity is operational-level conduct for which sovereign immunity is waived under section 768.28.",
+          "relevance": "Fatality and near-fatality reviews in Florida operate against Yamuni's rule that operational failures after a report are actionable.",
+          "quote": "We agree with the district court below that HRS has a statutory duty of care to prevent further harm to children when reports of child abuse are received.",
+          "url": "https://www.courtlistener.com/opinion/1134313/dept-of-health-rehab-servs-v-yamuni/",
+          "courtlistener_cluster_id": 1134313
+        },
+        {
+          "case_name": "Floyd v. Department of Children & Families",
+          "citation": "855 So. 2d 204 (Fla. 1st DCA 2003)",
+          "court": "District Court of Appeal of Florida, First District",
+          "year": 2003,
+          "date_decided": "2003-09-18",
+          "holding": "Summary judgment for the Department was reversed in a wrongful death action alleging that its investigator returned a child to a home with a known abuser, because reporting-related statutory immunity does not protect officials who fail to carry out their duty to protect the child.",
+          "relevance": "Fatality review findings translate into liability only through the duty analysis Floyd applies.",
+          "quote": "it was not intended to protect those who fail to fulfill their duty to protect children",
+          "url": "https://www.courtlistener.com/opinion/1909591/floyd-v-department-of-children-and-famil/",
+          "courtlistener_cluster_id": 1909591
+        },
+        {
+          "case_name": "In re Records of the Department of Children & Family Services (Sarasota Herald-Tribune v. Department of Children & Family Services)",
+          "citation": "873 So. 2d 506 (Fla. 2d DCA 2004)",
+          "court": "District Court of Appeal of Florida, Second District",
+          "year": 2004,
+          "date_decided": "2004-05-14",
+          "holding": "A circuit court considering a petition for access to confidential child abuse records must conduct an in camera review before ruling; refusing to inspect the records was an abuse of discretion and the denial of access was reversed.",
+          "relevance": "Fatality review work turns on the good-cause balancing and in camera inspection this case requires.",
+          "quote": "the circuit court abused its discretion when it failed to conduct an in camera review of the records to which the Herald-Tribune seeks access",
+          "url": "https://www.courtlistener.com/opinion/7825351/sarasota-herald-tribune-v-department-of-children-family-services/",
+          "courtlistener_cluster_id": 7825351
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Florida%22%20AND%20%28%22Florida%20Department%20of%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Florida Department of Children and Families",
         "DCF",
@@ -135,149 +177,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Florida%22%20AND%20%28%22Florida%20Department%20of%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "missing child",
-        "amber alert",
-        "custodial interference",
-        "parental kidnapping"
-      ],
-      "jurisdiction": "Florida state courts",
-      "key_cases": [
-        {
-          "case_id": "sc2023-1072",
-          "title": "Christine Askew, etc. v. Florida Department of Children and Families",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2024/sc2023-1072.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc2023-1072 (2024)",
-          "relevance_score": 3.0,
-          "matched_keywords": [
-            "florida department of children and families",
-            "dcf"
-          ],
-          "child_welfare_reason": "High: DCF"
-        },
-        {
-          "case_id": "sc2024-1403",
-          "title": "In Re: Amendments to Florida Rules of General Practice and Judicial Administration",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2025/sc2024-1403.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc2024-1403 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc2025-1173",
-          "title": "In Re: Amendments to Rules Regulating The Florida Bar - Rule 4-8.6",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2025/sc2025-1173.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc2025-1173 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc2025-1180",
-          "title": "In Re: Amendments to Rules Regulating The Florida Bar - Chapter 3",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2025/sc2025-1180.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc2025-1180 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc2025-1750",
-          "title": "In Re: Amendment to Florida Rule of General Practice and Judicial Administration 2.140",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2025/sc2025-1750.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc2025-1750 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc2025-0530-0",
-          "title": "In Re: Amendments to the Florida Rules of Criminal Procedure - 2025 Legislation",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2025/sc2025-0530-0.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc2025-0530-0 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc2025-1808",
-          "title": "In Re: Certification of Need for Additional Judges",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2025/sc2025-1808.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc2025-1808 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc2025-0017",
-          "title": "In Re: Amendments to Rules Regulating The Florida Bar - Rules 6-3.5 and 6-3.6",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2025/sc2025-0017.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc2025-0017 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc2022-0575",
-          "title": "In Re: Amendments to Florida Rules of Civil Procedure 1.440 and 1.500",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2025/sc2022-0575.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc2022-0575 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc2025-0045",
-          "title": "In Re: Amendments to Florida Rule of Civil Procedure 1.442 and Forms 1.902 and 1.938",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2025/sc2025-0045.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc2025-0045 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

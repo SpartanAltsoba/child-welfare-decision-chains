@@ -148,6 +148,84 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Wyoming state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "In the Interest of SRS and LS",
+          "citation": "2023 WY 50, 529 P.3d 1074",
+          "court": "Wyoming Supreme Court",
+          "year": 2023,
+          "date_decided": "2023-05-25",
+          "holding": "The Court affirmed the change of permanency plan from reunification to adoption, holding that parents are not entitled to an indefinite period to complete a case plan and that the juvenile court did not abuse its discretion in finding adoption served the children's best interests after eighteen months of limited progress.",
+          "relevance": "States the point at which a reunification plan may be abandoned notwithstanding some parental progress.",
+          "quote": "Parents are not afforded an indefinite period to achieve their case plan goals",
+          "url": "https://www.courtlistener.com/opinion/9401966/in-the-interest-of-srs-and-ls-minor-children-js-v-the-state-of-wyoming/",
+          "courtlistener_cluster_id": 9401966
+        },
+        {
+          "case_name": "Matter of Termination of Parental Rights to ALRW",
+          "citation": "2023 WY 20, 525 P.3d 627",
+          "court": "Wyoming Supreme Court",
+          "year": 2023,
+          "date_decided": "2023-03-10",
+          "holding": "The Court affirmed termination under Wyo. Stat. Ann. § 14-2-309(a)(iii), holding that the sufficiency of the Department's reasonable efforts is assessed case by case and that the Department must tie its efforts to the reasons that necessitated the child's out-of-home placement.",
+          "relevance": "Defines the reasonable-efforts showing the State must make before reunification may be abandoned.",
+          "quote": "We assess whether sufficient evidence supports that DFS made reasonable efforts to rehabilitate the family on a case-by-case basis",
+          "url": "https://www.courtlistener.com/opinion/9382982/in-the-matter-of-the-termination-of-parental-rights-to-alrw-minor-child/",
+          "courtlistener_cluster_id": 9382982
+        },
+        {
+          "case_name": "Matter of Termination of Parental Rights to PML and EGL",
+          "citation": "2024 WY 37, 545 P.3d 856",
+          "court": "Wyoming Supreme Court",
+          "year": 2024,
+          "date_decided": "2024-04-01",
+          "holding": "The Court affirmed termination, holding that whether the Department made reasonable efforts is assessed case by case, that its efforts must be accessible and tailored to the parent, and that a case plan adapted to a mother's intellectual disability satisfied the standard.",
+          "relevance": "Marks the point at which reasonable but unsuccessful efforts justify ending reunification.",
+          "quote": "We assess on a case-by-case basis whether sufficient evidence exists to demonstrate the Department made reasonable efforts to rehabilitate the family",
+          "url": "https://www.courtlistener.com/opinion/9489606/in-the-matter-of-the-termination-of-parental-rights-to-pml-and-egl-minor/",
+          "courtlistener_cluster_id": 9489606
+        },
+        {
+          "case_name": "ARC v. State, Department of Family Services",
+          "citation": "2011 WY 119, 258 P.3d 704",
+          "court": "Wyoming Supreme Court",
+          "year": 2011,
+          "date_decided": "2011-08-22",
+          "holding": "The Court affirmed termination, holding the Department proved by clear and convincing evidence that it made reasonable rehabilitative efforts, and that under strict scrutiny the State must use the least intrusive means, though the Court did not decide whether guardianship is a less intrusive alternative to termination.",
+          "relevance": "Fixes the evidentiary showing required before reunification efforts may be declared unsuccessful.",
+          "quote": "the district court properly concluded that DFS presented clear and convincing evidence it made reasonable efforts to reunite her with the children",
+          "url": "https://www.courtlistener.com/opinion/5326470/arc-v-state-department-of-family-services/",
+          "courtlistener_cluster_id": 5326470
+        },
+        {
+          "case_name": "KC v. State (In re GC)",
+          "citation": "2015 WY 73, 351 P.3d 236",
+          "court": "Wyoming Supreme Court",
+          "year": 2015,
+          "date_decided": "2015-05-20",
+          "holding": "The Court affirmed the change of the permanency plan from family reunification to adoption, holding that the State must prove the grounds for a change of permanency plan by a preponderance of the evidence and that the mother's repeated failures to appear for and to pass drug testing satisfied that burden.",
+          "relevance": "It fixes the burden and the procedural protections that apply at the precise point a reunification plan is abandoned for another permanency goal.",
+          "quote": "when a change in the permanency plan is sought, the burden upon the State is to prove grounds for that change by a preponderance of the evidence",
+          "url": "https://www.courtlistener.com/opinion/5344948/kc-v-state/",
+          "courtlistener_cluster_id": 5344948
+        },
+        {
+          "case_name": "RH v. State, Department of Family Services (In re DRS)",
+          "citation": "2011 WY 128, 261 P.3d 697",
+          "court": "Wyoming Supreme Court",
+          "year": 2011,
+          "date_decided": "2011-09-14",
+          "holding": "The Court affirmed orders placing the children with their grandparents and their father rather than returning them to the mother, holding that whether the Department made reasonable efforts is determined case by case and that the record supplied sufficient evidence of efforts to prevent removal and of the children's best interests.",
+          "relevance": "A practitioner contesting whether the Department did enough before reunification was abandoned cites this case for the governing standard rather than only its later restatements.",
+          "quote": "Reasonable efforts are determined on a case-by-case basis.",
+          "url": "https://www.courtlistener.com/opinion/2342771/in-re-drs/",
+          "courtlistener_cluster_id": 2342771
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Wyoming%22%20AND%20%28%22Wyoming%20Department%20of%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Wyoming Department of Family Services",
         "CPS",
@@ -159,156 +237,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Wyoming%22%20AND%20%28%22Wyoming%20Department%20of%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "termination of parental rights",
-        "TPR",
-        "adoption",
-        "permanency",
-        "aging out"
-      ],
-      "jurisdiction": "Wyoming state courts",
-      "key_cases": [
-        {
-          "case_id": "s-24-0228",
-          "title": "In the Matter of the Termination of Parental Rights To: Jdv, a Minor Child",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0228.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-24-0228 (2025)",
-          "relevance_score": 3.0,
-          "matched_keywords": [
-            "termination of parental rights",
-            "tpr"
-          ],
-          "child_welfare_reason": "High: TPR, Matter of TPR, Matter of"
-        },
-        {
-          "case_id": "s-24-0206",
-          "title": "In re Termination of Parental Rights To SLD v. Hansen",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0206.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-24-0206 (2025)",
-          "relevance_score": 3.0,
-          "matched_keywords": [
-            "termination of parental rights",
-            "tpr"
-          ],
-          "child_welfare_reason": "High: TPR, In re TPR, In re"
-        },
-        {
-          "case_id": "s-23-0168",
-          "title": "In the Matter of the Termination of Parental Rights To: Pml and Egl, Minor Children v. State of Wyoming, Ex Rel. Department of Family Services",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2024/s-23-0168.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-23-0168 (2024)",
-          "relevance_score": 3.0,
-          "matched_keywords": [
-            "termination of parental rights",
-            "tpr"
-          ],
-          "child_welfare_reason": "High: DFS, Family Services, TPR, Matter of TPR, Matter of"
-        },
-        {
-          "case_id": "s-23-0167",
-          "title": "In re Termination of Parental Rights To: Mmd, Jid and Drd v. State, Ex Rel. Department of Family Services",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2024/s-23-0167.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-23-0167 (2024)",
-          "relevance_score": 3.0,
-          "matched_keywords": [
-            "termination of parental rights",
-            "tpr"
-          ],
-          "child_welfare_reason": "High: DFS, Family Services, TPR, In re TPR, In re"
-        },
-        {
-          "case_id": "s-23-0076-0",
-          "title": "In the Matter of the Termination of Parental Rights To: JJD v. State of Wyoming, Ex Rel. Department of Family Services",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2023/s-23-0076-0.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-23-0076-0 (2023)",
-          "relevance_score": 3.0,
-          "matched_keywords": [
-            "termination of parental rights",
-            "tpr"
-          ],
-          "child_welfare_reason": "High: DFS, Family Services, TPR, Matter of TPR, Matter of"
-        },
-        {
-          "case_id": "s-23-0076",
-          "title": "In the Matter of the Termination of Parental Rights To: JJD, minor child, Dominique Desiree Sciacca v. State of Wyoming, ex rel. Department of Family Services",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2023/s-23-0076.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-23-0076 (2023)",
-          "relevance_score": 3.0,
-          "matched_keywords": [
-            "termination of parental rights",
-            "tpr"
-          ],
-          "child_welfare_reason": "High: DFS, Family Services, TPR, Matter of TPR, Matter of"
-        },
-        {
-          "case_id": "s-19-0246",
-          "title": "In the Matter of the Termination of Parental Rights To: IRS, a Minor Child, Kaleigha Elizabeth Fish v. State of Wyoming, Department of Family Services",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2020/s-19-0246.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-19-0246 (2020)",
-          "relevance_score": 3.0,
-          "matched_keywords": [
-            "termination of parental rights",
-            "tpr"
-          ],
-          "child_welfare_reason": "High: DFS, Family Services, TPR, Matter of TPR, Matter of"
-        },
-        {
-          "case_id": "s-21-0096",
-          "title": "In re Guardianship of DEP",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2021/s-21-0096.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-21-0096 (2021)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "s-21-0005",
-          "title": "In re Guardianship of ARB",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2021/s-21-0005.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-21-0005 (2021)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "s-20-0184",
-          "title": "In re Adoption of ATWS",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2021/s-20-0184.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-20-0184 (2021)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

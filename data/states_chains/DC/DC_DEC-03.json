@@ -51,6 +51,48 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "District of Columbia state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "V.K. v. Child & Family Services Agency",
+          "citation": "14 A.3d 628 (D.C. 2011)",
+          "court": "District of Columbia Court of Appeals",
+          "year": 2011,
+          "date_decided": "2011-02-17",
+          "holding": "On judicial review of a CFSA administrative decision upholding a 'substantiated' abuse entry in the Child Protection Register, CFSA bears the burden by a preponderance at the fair hearing and the court will disturb the hearing officer's finding only if the record compels a contrary conclusion; the decision was affirmed on substantial evidence.",
+          "relevance": "It is the controlling D.C. authority on the burden of proof and the scope of review for a substantiated finding and Register listing.",
+          "quote": "At the hearing, CFSA bore the burden of proof by a preponderance of the evidence.",
+          "url": "https://www.courtlistener.com/opinion/2552462/vk-v-child-and-family-services-agency/",
+          "courtlistener_cluster_id": 2552462
+        },
+        {
+          "case_name": "J.C. v. District of Columbia",
+          "citation": "199 A.3d 192 (D.C. 2018)",
+          "court": "District of Columbia Court of Appeals",
+          "year": 2018,
+          "date_decided": "2018-12-27",
+          "holding": "Probable cause supported the medical hold and shelter care of an infant with suspected shaken baby syndrome and the parents' Child Protection Register listing did not violate due process, but the warrantless seizure of the sibling from inside the family home was remanded for a determination whether exigent circumstances existed.",
+          "relevance": "It holds that placement on the Child Protection Register following a substantiated finding did not deny the parents due process.",
+          "quote": "under the Fourth Amendment, a lawful seizure of children from their parents' custody requires a court order, e.g., a warrant, probable cause, or exigent circumstances",
+          "url": "https://www.courtlistener.com/opinion/6486612/jc-v-dist-of-columbia/",
+          "courtlistener_cluster_id": 6486612
+        },
+        {
+          "case_name": "Mathews v. Eldridge",
+          "citation": "424 U.S. 319 (1976)",
+          "court": "Supreme Court of the United States",
+          "year": 1976,
+          "date_decided": "1976-02-24",
+          "holding": "The Court held that an evidentiary hearing is not required before disability benefits are terminated and that what process is due is determined by weighing three factors: the private interest affected, the risk of erroneous deprivation under the existing procedures and the value of added safeguards, and the government's interest including administrative burden.",
+          "relevance": "It governs how much process a parent is constitutionally due before a substantiated finding and Child Protection Register listing take effect.",
+          "quote": "identification of the specific dictates of due process generally requires consideration of three distinct factors",
+          "url": "https://www.courtlistener.com/opinion/109382/mathews-v-eldridge/",
+          "courtlistener_cluster_id": 109382
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22District%20of%20Columbia%22%20AND%20%28%22CPS%22%20OR%20%22child%20protective%20services%22%20OR%20%22due%20process%22%20OR%20%22parental%20rights%22%20OR%20%22investigation%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "CPS",
         "child protective services",
@@ -61,149 +103,7 @@
         "evidence standard",
         "due process",
         "reasonable efforts"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22District%20of%20Columbia%22%20AND%20%28%22CPS%22%20OR%20%22child%20protective%20services%22%20OR%20%22due%20process%22%20OR%20%22parental%20rights%22%20OR%20%22investigation%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "investigation",
-        "substantiation",
-        "evidence standard",
-        "due process",
-        "reasonable efforts"
-      ],
-      "jurisdiction": "District of Columbia state courts",
-      "key_cases": [
-        {
-          "case_id": "24-fs-0078",
-          "title": "In re L.C.",
-          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/24-fs-0078.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "District Of Columbia Court Of Appeals Case 24-fs-0078 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "25-bg-0469",
-          "title": "In re Gumbinner (Per Curiam)",
-          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/25-bg-0469.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "District Of Columbia Court Of Appeals Case 25-bg-0469 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-bg-0588-0",
-          "title": "In re Larson-Jackson (Per Curiam)",
-          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/25-bg-0588-0.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "District Of Columbia Court Of Appeals Case 25-bg-0588-0 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-bg-0704",
-          "title": "In re Pisner (Per Curiam)",
-          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/25-bg-0704.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "District Of Columbia Court Of Appeals Case 25-bg-0704 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "19-bg-0587",
-          "title": "In re Wallace",
-          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/19-bg-0587.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "District Of Columbia Court Of Appeals Case 19-bg-0587 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-bg-0685",
-          "title": "In re Lee (Per Curiam)",
-          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/25-bg-0685.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "District Of Columbia Court Of Appeals Case 25-bg-0685 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-bg-0729",
-          "title": "In re Banks (Per Curiam)",
-          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/25-bg-0729.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "District Of Columbia Court Of Appeals Case 25-bg-0729 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-bg-0588",
-          "title": "In re Larson-Jackson (Per Curiam)",
-          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/25-bg-0588.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "District Of Columbia Court Of Appeals Case 25-bg-0588 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-bg-0605",
-          "title": "In re Ross (Per Curiam)",
-          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/25-bg-0605.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "District Of Columbia Court Of Appeals Case 25-bg-0605 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-bg-0982",
-          "title": "In re Hill (Per Curiam)",
-          "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/2025/25-bg-0982.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "District Of Columbia Court Of Appeals Case 25-bg-0982 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     },
     "administrative_rule": {
       "regulations_applicable": []

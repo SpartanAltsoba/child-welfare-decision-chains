@@ -69,6 +69,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Iowa state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "In re C.B.",
+          "citation": "611 N.W.2d 489 (Iowa 2000)",
+          "court": "Supreme Court of Iowa",
+          "year": 2000,
+          "date_decided": "2000-06-01",
+          "holding": "The reasonable-efforts requirement is not a freestanding substantive element of termination; it bears on the State's burden to prove the child cannot safely be returned home, and a parent who does not object to services early in the case cannot rely on their inadequacy at the termination hearing.",
+          "relevance": "Defines the reunification obligation — DHS must 'make every reasonable effort to return the child to the child's home as quickly as possible consistent with the best interests of the child.'",
+          "quote": "The State must show reasonable efforts as a part of its ultimate proof the child cannot be safely returned to the care of a parent.",
+          "url": "https://www.courtlistener.com/opinion/7931500/in-the-interest-of-cb/",
+          "courtlistener_cluster_id": 7931500
+        },
+        {
+          "case_name": "In re L.T.",
+          "citation": "924 N.W.2d 521 (Iowa 2019)",
+          "court": "Supreme Court of Iowa",
+          "year": 2019,
+          "date_decided": "2019-03-01",
+          "holding": "Where the juvenile court waited twenty months after the evidentiary hearing to enter a written termination order, it abused its discretion by refusing the mother's motion to reopen the record with contemporary evidence of sobriety, housing, and employment; the termination order was reversed and remanded.",
+          "relevance": "Holds that reunification efforts cannot be abandoned on an oral indication of intent to terminate while the permanency goal on paper remains reunification.",
+          "quote": "We reiterate for emphasis that DHS's reasonable efforts obligation continues until either a final written termination order or a waiver by the juvenile court",
+          "url": "https://www.courtlistener.com/opinion/4595373/in-the-interest-of-lt-at-and-dt-minor-children/",
+          "courtlistener_cluster_id": 4595373
+        },
+        {
+          "case_name": "In re L.M.",
+          "citation": "904 N.W.2d 835 (Iowa 2017)",
+          "court": "Supreme Court of Iowa",
+          "year": 2017,
+          "date_decided": "2017-12-08",
+          "holding": "Termination of an incarcerated mother's parental rights was affirmed: her appellate complaint that DHS never arranged prison visitation came too late because she repeatedly declined to object when the juvenile court asked, and clear and convincing evidence showed the child could not be returned to her.",
+          "relevance": "Shows how an unexercised right to reunification services — here prison visitation — forecloses a reunification argument at termination.",
+          "quote": "We conclude Katherine's challenge on appeal to the failure of DHS to provide visitation during her incarceration at the ICIW comes too late.",
+          "url": "https://www.courtlistener.com/opinion/8282635/in-the-interest-of-lm/",
+          "courtlistener_cluster_id": 8282635
+        },
+        {
+          "case_name": "In re C.H.",
+          "citation": "652 N.W.2d 144 (Iowa 2002)",
+          "court": "Supreme Court of Iowa",
+          "year": 2002,
+          "date_decided": "2002-10-09",
+          "holding": "A father who never asked the juvenile court for different services — complaining only to a social worker — waived his challenge to the adequacy of reunification services, and the State's reasonable efforts were sufficient to support termination.",
+          "relevance": "The controlling Iowa waiver rule that shapes whether a failed reunification can later be blamed on inadequate services.",
+          "quote": "In general, if a parent fails to request other services at the proper time, the parent waives the issue and may not later challenge it at the termination proceeding.",
+          "url": "https://www.courtlistener.com/opinion/8279377/in-the-interest-of-ch/",
+          "courtlistener_cluster_id": 8279377
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Iowa%22%20AND%20%28%22Iowa%20Department%20of%20Human%20Services%22%20OR%20%22DHS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Iowa Department of Human Services",
         "DHS",
@@ -80,149 +134,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Iowa%22%20AND%20%28%22Iowa%20Department%20of%20Human%20Services%22%20OR%20%22DHS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "termination of parental rights",
-        "TPR",
-        "adoption",
-        "permanency",
-        "aging out"
-      ],
-      "jurisdiction": "Iowa state courts",
-      "key_cases": [
-        {
-          "case_id": "24-1875",
-          "title": "In re the Guardianship of K.W., a Minor.",
-          "url": "https://law.justia.com/cases/iowa/court-of-appeals/2025/24-1875.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Iowa Court Of Appeals Case 24-1875 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "24-0418",
-          "title": "In the Matter of the Guardianship of Jeffrey Erickson",
-          "url": "https://law.justia.com/cases/iowa/court-of-appeals/2025/24-0418.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Iowa Court Of Appeals Case 24-0418 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "24-0175",
-          "title": "In the Matter of the Guardianship of E.D. and J.C.",
-          "url": "https://law.justia.com/cases/iowa/court-of-appeals/2025/24-0175.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Iowa Court Of Appeals Case 24-0175 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "23-1725",
-          "title": "In re Guardianship of L.W.",
-          "url": "https://law.justia.com/cases/iowa/court-of-appeals/2024/23-1725.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Iowa Court Of Appeals Case 23-1725 (2024)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "23-1159",
-          "title": "In the Matter of the Guardianship of T.K., L.K., and S.K.",
-          "url": "https://law.justia.com/cases/iowa/court-of-appeals/2024/23-1159.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Iowa Court Of Appeals Case 23-1159 (2024)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "23-1481",
-          "title": "In re Guardianship of K.E.",
-          "url": "https://law.justia.com/cases/iowa/court-of-appeals/2024/23-1481.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Iowa Court Of Appeals Case 23-1481 (2024)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "23-1200",
-          "title": "In re Guardianship of G.B.",
-          "url": "https://law.justia.com/cases/iowa/court-of-appeals/2024/23-1200.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Iowa Court Of Appeals Case 23-1200 (2024)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "21-0348",
-          "title": "In re Guardianship of J.W.",
-          "url": "https://law.justia.com/cases/iowa/supreme-court/2023/21-0348.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Iowa Supreme Court Case 21-0348 (2023)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "23-0486",
-          "title": "In re Guardianship of E.B.",
-          "url": "https://law.justia.com/cases/iowa/court-of-appeals/2023/23-0486.html",
-          "year": 2023,
-          "court": "Court Of Appeals",
-          "citation": "Iowa Court Of Appeals Case 23-0486 (2023)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "20-1034",
-          "title": "In re Guardianship of L.Y.",
-          "url": "https://law.justia.com/cases/iowa/supreme-court/2022/20-1034.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Iowa Supreme Court Case 20-1034 (2022)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

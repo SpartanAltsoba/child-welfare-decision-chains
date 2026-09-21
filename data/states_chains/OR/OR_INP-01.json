@@ -92,6 +92,48 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Oregon state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "Pamplin Media Group v. City of Salem",
+          "citation": "293 Or. App. 755, 429 P.3d 1019 (2018)",
+          "court": "Court of Appeals of Oregon",
+          "year": 2018,
+          "date_decided": "2018-09-06",
+          "holding": "The court held that ORS 419B.035's exclusion of child-abuse reports and records from disclosure does not sweep in an arrest record merely because the underlying investigation began as a child-abuse report, and the city failed to carry its burden of proving exemption.",
+          "relevance": "Construes ORS 419B.010 to 419B.050 — the mandatory reporting and investigation provisions — to define what is and is not a confidential 'report of child abuse.'",
+          "quote": "On both parties' motions for summary judgment, the city bore the burden of proving that the requested records were exempt from disclosure.",
+          "url": "https://www.courtlistener.com/opinion/6657546/pamplin-media-grp-v-city-of-salem/",
+          "courtlistener_cluster_id": 6657546
+        },
+        {
+          "case_name": "State v. Judd",
+          "citation": "301 Or. App. 549, 457 P.3d 316 (2019)",
+          "court": "Court of Appeals of Oregon",
+          "year": 2019,
+          "date_decided": "2019-12-26",
+          "holding": "The court held Oregon's mandatory abuse-reporting statutes abrogate the psychotherapist-patient privilege only far enough to permit the required report, not to permit the reporter to testify about the privileged communication in a later judicial proceeding.",
+          "relevance": "Defines how far a mandatory reporting duty overrides a professional privilege — the report is compelled, courtroom testimony is not, and the court expressly compares the parallel child-abuse reporting statute.",
+          "quote": "the elder abuse reporting statutes only abrogate privileged communications to the extent that a report be submitted",
+          "url": "https://www.courtlistener.com/opinion/10133262/state-v-judd/",
+          "courtlistener_cluster_id": 10133262
+        },
+        {
+          "case_name": "Querbach v. Dept. of Human Services",
+          "citation": "369 Or. 786, 512 P.3d 432 (2022)",
+          "court": "Oregon Supreme Court",
+          "year": 2022,
+          "date_decided": "2022-06-16",
+          "holding": "Reviewing a DHS \"founded\" child-abuse determination as an order in other than a contested case, the court held that the governing threshold is the rule's \"reasonable cause to believe\" standard rather than probable cause, that review is for substantial evidence on the record developed in the circuit court, and that the circuit court's criticisms of DHS's investigative process were not relevant to that review.",
+          "relevance": "Ties the \"reasonable cause to believe\" founding standard to the identical standard that triggers a mandatory reporter's duty to report under ORS 419B.010.",
+          "quote": "the issue is whether the record developed in the circuit court, when viewed as a whole, would permit a reasonable person to make the determinations that the agency did here.",
+          "url": "https://www.courtlistener.com/opinion/10160897/querbach-v-dept-of-human-services/",
+          "courtlistener_cluster_id": 10160897
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Oregon%22%20AND%20%28%22Oregon%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Oregon Department of Human Services",
         "CPS",
@@ -103,148 +145,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Oregon%22%20AND%20%28%22Oregon%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "mandatory reporting",
-        "failure to report",
-        "reporter immunity",
-        "hotline"
-      ],
-      "jurisdiction": "Oregon state courts",
-      "key_cases": [
-        {
-          "case_id": "s071019",
-          "title": "In re Gregory Mark Abel",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2025/s071019.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s071019 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a184792",
-          "title": "In re Oregon State Hospital",
-          "url": "https://law.justia.com/cases/oregon/court-of-appeals/2025/a184792.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Oregon Court Of Appeals Case a184792 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s071223",
-          "title": "In re Flint",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2024/s071223.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s071223 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s070455",
-          "title": "In re Munn",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2024/s070455.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s070455 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s068780",
-          "title": "In re: Sause and Schnitzer",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2023/s068780.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s068780 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s069006",
-          "title": "In re Duboff",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2023/s069006.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s069006 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a173412",
-          "title": "Doe v. First Christian Church of The Dalles",
-          "url": "https://law.justia.com/cases/oregon/court-of-appeals/2023/a173412.html",
-          "year": 2023,
-          "court": "Court Of Appeals",
-          "citation": "Oregon Court Of Appeals Case a173412 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        },
-        {
-          "case_id": "s068805",
-          "title": "In re Keller",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2022/s068805.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s068805 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s068497",
-          "title": "In re Ard",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2021/s068497.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s068497 (2021)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s067932",
-          "title": "In re Kauffman",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2021/s067932.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s067932 (2021)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

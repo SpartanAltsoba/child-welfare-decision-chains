@@ -164,6 +164,84 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Wyoming state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "In the Interest of AA",
+          "citation": "2021 WY 18, 479 P.3d 1252",
+          "court": "Wyoming Supreme Court",
+          "year": 2021,
+          "date_decided": "2021-02-01",
+          "holding": "The Court reversed, holding the juvenile court violated the father's due-process right to notice and an opportunity to be heard in the early stages of the case, and that 'other aggravating circumstances' relieving the Department of reasonable efforts under Wyo. Stat. Ann. § 14-2-309(c)(v) must be as severe as the enumerated grounds.",
+          "relevance": "A working example of appellate reversal of a juvenile-court order for procedural due-process error.",
+          "quote": "the legislature logically meant for “other aggravating circumstances” to meet the same level of severity as set out in the preceding provisions",
+          "url": "https://www.courtlistener.com/opinion/10012044/in-the-interest-of-aa-a-minor-child-ra-v-the-state-of-wyoming/",
+          "courtlistener_cluster_id": 10012044
+        },
+        {
+          "case_name": "Matter of Termination of Parental Rights to RVR, KAR and RLR",
+          "citation": "2022 WY 153",
+          "court": "Wyoming Supreme Court",
+          "year": 2022,
+          "date_decided": "2022-12-06",
+          "holding": "The Court held that Wyo. Stat. Ann. § 14-2-318(a) creates neither a mandatory right to counsel nor a statutory right to effective assistance of counsel in termination proceedings, and affirmed the refusal to set aside an entry of default against the father.",
+          "relevance": "Forecloses ineffective-assistance-of-counsel as a statutory ground for appellate reversal of a Wyoming termination order and sets the good-cause standard for setting aside default.",
+          "quote": "Wyoming Statute § 14-2-318(a) does not create a statutory right to counsel or a statutory right to effective assistance of counsel in termination of parental rights cases",
+          "url": "https://www.courtlistener.com/opinion/9327844/in-the-matter-of-the-termination-of-parental-rights-to-rvr-kar-and-rlr/",
+          "courtlistener_cluster_id": 9327844
+        },
+        {
+          "case_name": "BSC v. Natrona County Department of Family Services",
+          "citation": "2004 WY 167, 102 P.3d 890",
+          "court": "Wyoming Supreme Court",
+          "year": 2004,
+          "date_decided": "2004-12-17",
+          "holding": "Applying Lassiter and the Mathews v. Eldridge factors case by case, the Court held the district court did not deny the incarcerated, indigent father due process when it refused to appoint counsel for him at the hearing terminating his parental rights.",
+          "relevance": "Defines the narrow circumstances in which denial of appointed counsel at a Wyoming termination hearing is reversible due-process error.",
+          "quote": "we conclude that BSC's due process rights were not violated when the district court refused to appoint counsel to represent him at the termination proceeding",
+          "url": "https://www.courtlistener.com/opinion/5323040/bsc-v-natrona-county-department-of-family-services/",
+          "courtlistener_cluster_id": 5323040
+        },
+        {
+          "case_name": "In the Interest of JW v. State",
+          "citation": "2010 WY 28, 226 P.3d 873",
+          "court": "Wyoming Supreme Court",
+          "year": 2010,
+          "date_decided": "2010-03-18",
+          "holding": "The Court reversed a permanency order placing children with non-relative foster parents and remanded with instructions to place them with their uncle and aunt, rejecting the argument that the federal and state kinship-placement preferences are merely precatory.",
+          "relevance": "A rare appellate reversal of an agency-driven permanency placement for failure to honor the kinship preference.",
+          "quote": "We are unable to accept these characterizations given the high stakes in play here",
+          "url": "https://www.courtlistener.com/opinion/2586510/in-the-interest-of-jw-v-state/",
+          "courtlistener_cluster_id": 2586510
+        },
+        {
+          "case_name": "Matter of Termination of Parental Rights to JJD",
+          "citation": "2023 WY 115, 539 P.3d 101",
+          "court": "Wyoming Supreme Court",
+          "year": 2023,
+          "date_decided": "2023-12-05",
+          "holding": "Reviewing for plain error, the Court held the mother was not denied a meaningful opportunity to be heard when the district court proceeded with the termination hearing and allowed her to appear and testify by telephone while her counsel appeared in person.",
+          "relevance": "Defines when a procedural irregularity at a termination hearing is and is not reversible plain error on appeal.",
+          "quote": "The district court did not deny Mother a meaningful opportunity to be heard when it proceeded with the termination hearing and allowed her to appear by phone",
+          "url": "https://www.courtlistener.com/opinion/9449175/in-the-matter-of-the-termination-of-parental-rights-to-jjd-minor-child/",
+          "courtlistener_cluster_id": 9449175
+        },
+        {
+          "case_name": "In re Termination of Parental Rights to TJH (Herden v. State ex rel. Department of Family Services)",
+          "citation": "2021 WY 56, 485 P.3d 408",
+          "court": "Wyoming Supreme Court",
+          "year": 2021,
+          "date_decided": "2021-04-27",
+          "holding": "Applying the Mathews v. Eldridge factors, the Court affirmed the termination, holding the defaulted mother's due-process rights were not violated when the district court held the evidentiary default hearing by video conference and limited her participation to cross-examination and argument rather than permitting her to present her own best-interests evidence.",
+          "relevance": "This is Wyoming's companion due-process authority to ECH and JJD on a parent's meaningful opportunity to be heard, and it fixes how far a court may limit a defaulted parent's participation before the order becomes reversible.",
+          "quote": "Balancing the Mathews factors, it is clear Mother received adequate process under the circumstances of this case even though she was not permitted to present evidence on Child's best interests",
+          "url": "https://www.courtlistener.com/opinion/9998814/in-the-matter-of-the-termination-of-parental-rights-to-tjh-minor-child/",
+          "courtlistener_cluster_id": 9998814
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Wyoming%22%20AND%20%28%22Wyoming%20Department%20of%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Wyoming Department of Family Services",
         "CPS",
@@ -175,136 +253,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Wyoming%22%20AND%20%28%22Wyoming%20Department%20of%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "wrongful removal",
-        "1983 claim",
-        "civil rights",
-        "immunity",
-        "damages"
-      ],
-      "jurisdiction": "Wyoming state courts",
-      "key_cases": [
-        {
-          "case_id": "s-25-0035",
-          "title": "In the Interest of SP v. The State of Wyoming",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-25-0035.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-25-0035 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re interest, Interest of"
-        },
-        {
-          "case_id": "s-25-0032",
-          "title": "In the Interest of MC, Minor Child: CC v. The State of Wyoming",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-25-0032.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-25-0032 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re interest, Interest of"
-        },
-        {
-          "case_id": "s-24-0317",
-          "title": "In the Matter of the Sanction Fee of Christopher Goetz: Christopher Goetz, Defense Attorney for Jordan Ryan Borrego v. The State of Wyoming",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0317.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-24-0317 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "s-24-0297",
-          "title": "In the Interest Of: AB and JC",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0297.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-24-0297 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re interest, Interest of"
-        },
-        {
-          "case_id": "s-24-0228",
-          "title": "In the Matter of the Termination of Parental Rights To: Jdv, a Minor Child",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0228.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-24-0228 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: TPR, Matter of TPR, Matter of"
-        },
-        {
-          "case_id": "s-24-0206",
-          "title": "In re Termination of Parental Rights To SLD v. Hansen",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0206.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-24-0206 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: TPR, In re TPR, In re"
-        },
-        {
-          "case_id": "s-24-0214",
-          "title": "In re L.H. v. State",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0214.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-24-0214 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "s-24-0134",
-          "title": "In the Interest of: JF v. The State of Wyoming",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0134.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-24-0134 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re interest, Interest of"
-        },
-        {
-          "case_id": "s-24-0159",
-          "title": "In re PT v. State",
-          "url": "https://law.justia.com/cases/wyoming/supreme-court/2025/s-24-0159.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Wyoming Supreme Court Case s-24-0159 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

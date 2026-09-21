@@ -31,7 +31,76 @@
       "source_reference": [
         "CAPTA intake/screening conditions",
         "CFSR oversight links"
-      ]
+      ],
+      "layers": {
+        "case_law": {
+          "jurisdiction": "US",
+          "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+          "verified_date": "2026-09-20",
+          "key_cases": [
+            {
+              "case_name": "DeShaney v. Winnebago County Department of Social Services",
+              "citation": "489 U.S. 189 (1989)",
+              "court": "Supreme Court of the United States",
+              "year": 1989,
+              "date_decided": "1989-02-22",
+              "holding": "The Court held that the Due Process Clause imposes no affirmative duty on a state child protection agency to protect a child from private violence, even where the agency knew of the danger, absent a custodial relationship created by the State.",
+              "relevance": "Screening out a report, even wrongly, is not a due process violation under DeShaney unless the State has taken the child into its custody.",
+              "quote": "As a general matter, then, we conclude that a State's failure to protect an individual against private violence simply does not constitute a violation of the Due Process Clause",
+              "url": "https://www.courtlistener.com/opinion/112202/deshaney-v-winnebago-county-department-of-social-services/",
+              "courtlistener_cluster_id": 112202
+            },
+            {
+              "case_name": "Suter v. Artist M.",
+              "citation": "503 U.S. 347 (1992)",
+              "court": "Supreme Court of the United States",
+              "year": 1992,
+              "date_decided": "1992-03-25",
+              "holding": "The Court held that the Adoption Assistance and Child Welfare Act's 'reasonable efforts' requirement, 42 U.S.C. § 671(a)(15), creates no right enforceable by beneficiaries through § 1983 or an implied right of action.",
+              "relevance": "A screen-out that conflicts with the state IV-E plan is an administrative compliance matter, not a privately enforceable federal wrong.",
+              "quote": "We hold that the Act does not create an enforceable right on behalf of respondents",
+              "url": "https://www.courtlistener.com/opinion/112712/suter-v-artist-m/",
+              "courtlistener_cluster_id": 112712
+            },
+            {
+              "case_name": "Gonzaga University v. Doe",
+              "citation": "536 U.S. 273 (2002)",
+              "court": "Supreme Court of the United States",
+              "year": 2002,
+              "date_decided": "2002-06-20",
+              "holding": "The Court held that FERPA's nondisclosure provisions create no personal rights enforceable under § 1983, and that nothing short of an unambiguously conferred right will support a § 1983 action to enforce a federal spending statute.",
+              "relevance": "CAPTA screening and recordkeeping conditions are funding directives to states rather than individual rights enforceable when a report is screened out.",
+              "quote": "We now reject the notion that our cases permit anything short of an unambiguously conferred right to support a cause of action brought under § 1983",
+              "url": "https://www.courtlistener.com/opinion/121157/gonzaga-university-v-doe/",
+              "courtlistener_cluster_id": 121157
+            },
+            {
+              "case_name": "Croft v. Westmoreland County Children and Youth Services",
+              "citation": "103 F.3d 1123 (3d Cir. 1997)",
+              "court": "Court of Appeals for the Third Circuit",
+              "year": 1997,
+              "date_decided": "1997-01-06",
+              "holding": "The court reversed summary judgment for the agency, holding that a caseworker who forced a father from the home on the basis of an uncorroborated anonymous tip, while holding no opinion that abuse had occurred, lacked objectively reasonable grounds and committed an arbitrary abuse of government power.",
+              "relevance": "Croft illustrates the evidentiary floor below which a report should be closed rather than acted on coercively.",
+              "quote": "Even considered together, minor inconsistencies which provide no affirmative evidence of sexual abuse cannot alone establish the objectively reasonable grounds necessary to remove a family member from the family unit",
+              "url": "https://www.courtlistener.com/opinion/732428/croft-v-westmoreland-county-children-and-youth-services/",
+              "courtlistener_cluster_id": 732428
+            },
+            {
+              "case_name": "Health and Hospital Corporation of Marion Cty. v. Talevski",
+              "citation": "599 U.S. 166 (2023)",
+              "court": "Supreme Court of the United States",
+              "year": 2023,
+              "date_decided": "2023-06-08",
+              "holding": "The Court affirmed, holding that the Federal Nursing Home Reform Act's chemical-restraint and pre-transfer-notice provisions unambiguously confer individual rights presumptively enforceable under § 1983, and that the Act's remedial scheme was not comprehensive enough to rebut that presumption; the Court declined to disturb the Spending Clause § 1983 line running from Suter and Gonzaga.",
+              "relevance": "A CAPTA or Title IV-E screening or recordkeeping condition becomes privately enforceable only if its text unambiguously confers an individual right, which Talevski makes a demanding textual showing.",
+              "quote": "our precedent sets a demanding bar: Statutory provisions must unambiguously confer individual federal rights",
+              "url": "https://www.courtlistener.com/opinion/9404968/health-and-hospital-corporation-of-marion-cty-v-talevski/",
+              "courtlistener_cluster_id": 9404968
+            }
+          ]
+        }
+      }
     },
     {
       "subnode": "DEC-02",
@@ -60,7 +129,88 @@
       "federal_alignment_flag": "baseline",
       "source_reference": [
         "CAPTA/CFSR investigation expectations"
-      ]
+      ],
+      "layers": {
+        "case_law": {
+          "jurisdiction": "US",
+          "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+          "verified_date": "2026-09-20",
+          "key_cases": [
+            {
+              "case_name": "Doe v. Heck",
+              "citation": "327 F.3d 492 (7th Cir. 2003)",
+              "court": "Court of Appeals for the Seventh Circuit",
+              "year": 2003,
+              "date_decided": "2003-05-15",
+              "holding": "The court held that caseworkers violated the Fourth Amendment by entering a private school and seizing a student for a custodial interview without a warrant, consent, or probable cause, and violated the parents' right to familial relations, although qualified immunity shielded them from damages.",
+              "relevance": "The decision to investigate must be executed by means reasonably related in scope to the circumstances that justified it.",
+              "quote": "although child welfare caseworkers may investigate allegations of child abuse without violating parents' constitutional right to familial relations, they may not do so arbitrarily",
+              "url": "https://www.courtlistener.com/opinion/781752/doe-v-heck/",
+              "courtlistener_cluster_id": 781752
+            },
+            {
+              "case_name": "Croft v. Westmoreland County Children and Youth Services",
+              "citation": "103 F.3d 1123 (3d Cir. 1997)",
+              "court": "Court of Appeals for the Third Circuit",
+              "year": 1997,
+              "date_decided": "1997-01-06",
+              "holding": "The court reversed summary judgment for the agency, holding that a caseworker who forced a father from the home on the basis of an uncorroborated anonymous tip, while holding no opinion that abuse had occurred, lacked objectively reasonable grounds and committed an arbitrary abuse of government power.",
+              "relevance": "Accepting a report for investigation does not license intervention once the investigation yields no affirmative evidence.",
+              "quote": "Even considered together, minor inconsistencies which provide no affirmative evidence of sexual abuse cannot alone establish the objectively reasonable grounds necessary to remove a family member from the family unit",
+              "url": "https://www.courtlistener.com/opinion/732428/croft-v-westmoreland-county-children-and-youth-services/",
+              "courtlistener_cluster_id": 732428
+            },
+            {
+              "case_name": "Gates v. Texas Department of Protective & Regulatory Services",
+              "citation": "537 F.3d 404 (5th Cir. 2008)",
+              "court": "Court of Appeals for the Fifth Circuit",
+              "year": 2008,
+              "date_decided": "2008-07-31",
+              "holding": "The court held that the Fourth Amendment governs social workers' civil investigations, that the government may not seize a child from his parents absent a court order, parental consent, or exigent circumstances, and that removing a child from public school for a central-location interview requires a court order or a reasonable belief of abuse.",
+              "relevance": "Acceptance of a report for investigation does not relax the consent, warrant, or exigency requirements for entering the home.",
+              "quote": "it is well established in this circuit that the Fourth Amendment regulates social workers' civil investigations",
+              "url": "https://www.courtlistener.com/opinion/62905/gates-v-texas-deparment-of-protective-regulatory-services/",
+              "courtlistener_cluster_id": 62905
+            },
+            {
+              "case_name": "Calabretta v. Floyd",
+              "citation": "189 F.3d 808 (9th Cir. 1999)",
+              "court": "Court of Appeals for the Ninth Circuit",
+              "year": 1999,
+              "date_decided": "1999-08-26",
+              "holding": "The court affirmed the denial of qualified immunity, holding that a social worker and police officer who coerced entry into a home and directed a strip search of a child, without a warrant, consent, or exigency, violated clearly established Fourth and Fourteenth Amendment rights.",
+              "relevance": "Accepting a report for investigation confers no authority to enter the family home over the parent's objection.",
+              "quote": "Under White, appellants' claim, that \"a search warrant is not required for home investigatory visits by social workers,\" is simply not the law",
+              "url": "https://www.courtlistener.com/opinion/765930/robert-calabretta-v-floyd/",
+              "courtlistener_cluster_id": 765930
+            },
+            {
+              "case_name": "Andrews v. Hickman County",
+              "citation": "700 F.3d 845 (6th Cir. 2012)",
+              "court": "Court of Appeals for the Sixth Circuit",
+              "year": 2012,
+              "date_decided": "2012-12-03",
+              "holding": "The court held that the Fourth Amendment governs social workers entering a home and that no social worker exception exists, but reversed the denial of qualified immunity to the caseworkers because that principle was not clearly established in the Sixth Circuit at the time, while affirming its denial to the officer.",
+              "relevance": "Investigating an accepted report by entering a home requires consent, a warrant, or exigency, with no child-welfare carve-out.",
+              "quote": "the actions of social workers in entering a home are governed by the Fourth Amendment, and we have concluded that no social worker exception applies in such situations",
+              "url": "https://www.courtlistener.com/opinion/812950/robert-andrews-v-hickman-county-tennessee/",
+              "courtlistener_cluster_id": 812950
+            },
+            {
+              "case_name": "Wyman v. James",
+              "citation": "400 U.S. 309 (1971)",
+              "court": "Supreme Court of the United States",
+              "year": 1971,
+              "date_decided": "1971-01-12",
+              "holding": "The Court reversed, holding that a periodic caseworker home visit required as a condition of continued AFDC assistance is not a Fourth Amendment search and, even if it had some characteristics of one, is not unreasonable, because the visit cannot be forced and refusal carries only the loss of benefits rather than criminal sanction.",
+              "relevance": "An investigating caseworker cannot read Wyman as general authority to enter a home, because Wyman rests on the absence of compulsion and the absence of a criminal-investigative purpose.",
+              "quote": "We note, too, that the visitation in itself is not forced or compelled, and that the beneficiary's denial of permission is not a criminal act",
+              "url": "https://www.courtlistener.com/opinion/108223/wyman-v-james/",
+              "courtlistener_cluster_id": 108223
+            }
+          ]
+        }
+      }
     },
     {
       "subnode": "DEC-03",
@@ -90,7 +240,76 @@
       "source_reference": [
         "CAPTA definitions/data conditions",
         "CFSR performance review framework"
-      ]
+      ],
+      "layers": {
+        "case_law": {
+          "jurisdiction": "US",
+          "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+          "verified_date": "2026-09-20",
+          "key_cases": [
+            {
+              "case_name": "Croft v. Westmoreland County Children and Youth Services",
+              "citation": "103 F.3d 1123 (3d Cir. 1997)",
+              "court": "Court of Appeals for the Third Circuit",
+              "year": 1997,
+              "date_decided": "1997-01-06",
+              "holding": "The court reversed summary judgment for the agency, holding that a caseworker who forced a father from the home on the basis of an uncorroborated anonymous tip, while holding no opinion that abuse had occurred, lacked objectively reasonable grounds and committed an arbitrary abuse of government power.",
+              "relevance": "A caseworker who holds no opinion that abuse occurred has no objectively reasonable basis for a founded finding or for acting on one.",
+              "quote": "Even considered together, minor inconsistencies which provide no affirmative evidence of sexual abuse cannot alone establish the objectively reasonable grounds necessary to remove a family member from the family unit",
+              "url": "https://www.courtlistener.com/opinion/732428/croft-v-westmoreland-county-children-and-youth-services/",
+              "courtlistener_cluster_id": 732428
+            },
+            {
+              "case_name": "Doe v. Heck",
+              "citation": "327 F.3d 492 (7th Cir. 2003)",
+              "court": "Court of Appeals for the Seventh Circuit",
+              "year": 2003,
+              "date_decided": "2003-05-15",
+              "holding": "The court held that caseworkers violated the Fourth Amendment by entering a private school and seizing a student for a custodial interview without a warrant, consent, or probable cause, and violated the parents' right to familial relations, although qualified immunity shielded them from damages.",
+              "relevance": "Targeting parents as abusers without evidence giving rise to reasonable suspicion is itself a constitutional violation.",
+              "quote": "although child welfare caseworkers may investigate allegations of child abuse without violating parents' constitutional right to familial relations, they may not do so arbitrarily",
+              "url": "https://www.courtlistener.com/opinion/781752/doe-v-heck/",
+              "courtlistener_cluster_id": 781752
+            },
+            {
+              "case_name": "Stanley v. Illinois",
+              "citation": "405 U.S. 645 (1972)",
+              "court": "Supreme Court of the United States",
+              "year": 1972,
+              "date_decided": "1972-04-03",
+              "holding": "The Court held that an unwed father was entitled as a matter of due process to a hearing on his fitness before his children could be taken from him, and that presuming him unfit without such a hearing also denied equal protection.",
+              "relevance": "A substantiated finding that operates as a de facto declaration of unfitness cannot substitute for the individualized fitness hearing Stanley requires.",
+              "quote": "as a matter of due process of law, Stanley was entitled to a hearing on his fitness as a parent before his children were taken from him",
+              "url": "https://www.courtlistener.com/opinion/108497/stanley-v-illinois/",
+              "courtlistener_cluster_id": 108497
+            },
+            {
+              "case_name": "Los Angeles County v. Humphries",
+              "citation": "562 U.S. 29 (2010)",
+              "court": "Supreme Court of the United States",
+              "year": 2010,
+              "date_decided": "2010-11-30",
+              "holding": "In a suit by parents exonerated of child abuse who remained listed on California's Child Abuse Central Index with no procedure to contest inclusion, the Court reversed the Ninth Circuit and held that Monell's policy-or-custom requirement applies to § 1983 claims against a municipality whether the relief sought is damages or prospective.",
+              "relevance": "Humphries arose from a state central index that records findings which are merely 'not unfounded,' and it fixes who may be sued when a listed parent seeks a way to contest that finding.",
+              "quote": "Nothing in the text of §1983 suggests that the causation requirement contained in the statute should change with the form of relief sought",
+              "url": "https://www.courtlistener.com/opinion/180037/los-angeles-county-v-humphries/",
+              "courtlistener_cluster_id": 180037
+            },
+            {
+              "case_name": "Valmonte v. Bane",
+              "citation": "18 F.3d 992 (2d Cir. 1994)",
+              "court": "Court of Appeals for the Second Circuit",
+              "year": 1994,
+              "date_decided": "1994-03-03",
+              "holding": "The court reversed the dismissal, holding that inclusion on New York's Central Register of Child Abuse and Maltreatment, disseminated to prospective child care employers and coupled with a statutory burden on those employers, deprives the listed person of a protected liberty interest, and that the 'some credible evidence' expungement standard creates too high a risk of error to satisfy due process.",
+              "relevance": "Valmonte is the leading circuit authority on what process is due before and after a substantiation finding is entered on a state child abuse register, and it rejects a 'some credible evidence' standard as too error-prone.",
+              "quote": "the dissemination of information from the Central Register to potential child care employers, coupled with the defamatory nature of inclusion on the list, does implicate a liberty interest",
+              "url": "https://www.courtlistener.com/opinion/664891/valmonte-v-bane/",
+              "courtlistener_cluster_id": 664891
+            }
+          ]
+        }
+      }
     },
     {
       "subnode": "DEC-04",
@@ -122,7 +341,76 @@
       "federal_alignment_flag": "baseline",
       "source_reference": [
         "ASFA/IV-E & CFSR citations"
-      ]
+      ],
+      "layers": {
+        "case_law": {
+          "jurisdiction": "US",
+          "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+          "verified_date": "2026-09-20",
+          "key_cases": [
+            {
+              "case_name": "Wallis v. Spencer",
+              "citation": "202 F.3d 1126 (9th Cir. 2000)",
+              "court": "Court of Appeals for the Ninth Circuit",
+              "year": 2000,
+              "date_decided": "2000-02-07",
+              "holding": "The court held that officials may seize a child without prior judicial authorization only on reasonable cause to believe the child faces imminent danger of serious bodily injury, that reasonable investigative avenues must first be pursued, and that subjecting seized children to invasive medical examinations without parental notice implicated the family's constitutional rights.",
+              "relevance": "The emergency removal decision fails Fourth Amendment scrutiny where reasonable avenues of investigation were skipped.",
+              "quote": "the police cannot seize children suspected of being abused or neglected unless reasonable avenues of investigation are first pursued",
+              "url": "https://www.courtlistener.com/opinion/767557/no-97-55579/",
+              "courtlistener_cluster_id": 767557
+            },
+            {
+              "case_name": "Mabe v. San Bernardino County",
+              "citation": "237 F.3d 1101 (9th Cir. 2001)",
+              "court": "Court of Appeals for the Ninth Circuit",
+              "year": 2001,
+              "date_decided": "2001-01-24",
+              "holding": "The court reversed summary judgment for a social worker, holding that a material fact issue existed on whether there was reasonable cause to believe the child faced imminent danger of serious bodily injury justifying warrantless entry and seizure.",
+              "relevance": "Agency delay in acting on a report undercuts any later claim that removal had to occur before a warrant could be obtained.",
+              "quote": "Nonetheless, imminent danger of future harm is required to show exigency",
+              "url": "https://www.courtlistener.com/opinion/771798/mabe-v-san-bernardino-county/",
+              "courtlistener_cluster_id": 771798
+            },
+            {
+              "case_name": "Rogers v. County of San Joaquin",
+              "citation": "487 F.3d 1288 (9th Cir. 2007)",
+              "court": "Court of Appeals for the Ninth Circuit",
+              "year": 2007,
+              "date_decided": "2007-05-29",
+              "holding": "The court reversed the grant of qualified immunity, holding that chronic medical neglect and unsanitary home conditions did not establish exigency and that the warrantless removal violated clearly established Fourth and Fourteenth Amendment rights.",
+              "relevance": "The exigency inquiry asks whether the child would suffer serious bodily harm in the hours needed to obtain judicial authorization.",
+              "quote": "we hold that it was clearly established that warrantless removal of children is permissible only in cases of exigency",
+              "url": "https://www.courtlistener.com/opinion/797914/rogers-v-county-of-san-joaquin/",
+              "courtlistener_cluster_id": 797914
+            },
+            {
+              "case_name": "Tenenbaum v. Williams",
+              "citation": "193 F.3d 581 (2d Cir. 1999)",
+              "court": "Court of Appeals for the Second Circuit",
+              "year": 1999,
+              "date_decided": "1999-10-13",
+              "holding": "The court held that removing a child from school for an examination on an emergency basis is unconstitutional where officials had reasonable time to seek judicial authorization consistent with the child's safety, though the defendants there received qualified immunity because the right was not clearly established in 1990.",
+              "relevance": "The emergency removal decision turns on the availability of time to seek a court order, not on the seriousness of the allegation alone.",
+              "quote": "it is unconstitutional for state officials to effect a child's removal on an \"emergency\" basis where there is reasonable time safely to obtain judicial authorization consistent with the child's safety",
+              "url": "https://www.courtlistener.com/opinion/766396/tenenbaum-v-williams/",
+              "courtlistener_cluster_id": 766396
+            },
+            {
+              "case_name": "Gates v. Texas Department of Protective & Regulatory Services",
+              "citation": "537 F.3d 404 (5th Cir. 2008)",
+              "court": "Court of Appeals for the Fifth Circuit",
+              "year": 2008,
+              "date_decided": "2008-07-31",
+              "holding": "The court held that the Fourth Amendment governs social workers' civil investigations, that the government may not seize a child from his parents absent a court order, parental consent, or exigent circumstances, and that removing a child from public school for a central-location interview requires a court order or a reasonable belief of abuse.",
+              "relevance": "Emergency removal requires reasonable cause to believe the child faces imminent danger of physical or sexual abuse if he remains at home.",
+              "quote": "it is well established in this circuit that the Fourth Amendment regulates social workers' civil investigations",
+              "url": "https://www.courtlistener.com/opinion/62905/gates-v-texas-deparment-of-protective-regulatory-services/",
+              "courtlistener_cluster_id": 62905
+            }
+          ]
+        }
+      }
     },
     {
       "subnode": "DEC-05",
@@ -154,7 +442,64 @@
       "federal_alignment_flag": "baseline",
       "source_reference": [
         "IV-E/ASFA & CFSR links"
-      ]
+      ],
+      "layers": {
+        "case_law": {
+          "jurisdiction": "US",
+          "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+          "verified_date": "2026-09-20",
+          "key_cases": [
+            {
+              "case_name": "Stanley v. Illinois",
+              "citation": "405 U.S. 645 (1972)",
+              "court": "Supreme Court of the United States",
+              "year": 1972,
+              "date_decided": "1972-04-03",
+              "holding": "The Court held that an unwed father was entitled as a matter of due process to a hearing on his fitness before his children could be taken from him, and that presuming him unfit without such a hearing also denied equal protection.",
+              "relevance": "Filing a dependency petition triggers the parent's right to an individualized hearing on fitness rather than adjudication by statutory presumption.",
+              "quote": "as a matter of due process of law, Stanley was entitled to a hearing on his fitness as a parent before his children were taken from him",
+              "url": "https://www.courtlistener.com/opinion/108497/stanley-v-illinois/",
+              "courtlistener_cluster_id": 108497
+            },
+            {
+              "case_name": "Suter v. Artist M.",
+              "citation": "503 U.S. 347 (1992)",
+              "court": "Supreme Court of the United States",
+              "year": 1992,
+              "date_decided": "1992-03-25",
+              "holding": "The Court held that the Adoption Assistance and Child Welfare Act's 'reasonable efforts' requirement, 42 U.S.C. § 671(a)(15), creates no right enforceable by beneficiaries through § 1983 or an implied right of action.",
+              "relevance": "The reasonable-efforts finding a court makes on a petition is a funding condition, not a right the family can sue to enforce.",
+              "quote": "We hold that the Act does not create an enforceable right on behalf of respondents",
+              "url": "https://www.courtlistener.com/opinion/112712/suter-v-artist-m/",
+              "courtlistener_cluster_id": 112712
+            },
+            {
+              "case_name": "Lehr v. Robertson",
+              "citation": "463 U.S. 248 (1983)",
+              "court": "Supreme Court of the United States",
+              "year": 1983,
+              "date_decided": "1983-06-27",
+              "holding": "The Court affirmed, holding that where an unwed father had never had a significant custodial, personal, or financial relationship with his child, New York's putative father registry adequately protected his opportunity to form one and due process did not entitle him to actual notice of the child's adoption.",
+              "relevance": "Lehr is the case that reconciles Stanley and Quilloin: what notice a putative father is owed when a proceeding affecting the parent-child tie is opened depends on the relationship he has actually developed, not on biology alone.",
+              "quote": "The significance of the biological connection is that it offers the natural father an opportunity that no other male possesses to develop a relationship with his offspring",
+              "url": "https://www.courtlistener.com/opinion/110999/lehr-v-robertson/",
+              "courtlistener_cluster_id": 110999
+            },
+            {
+              "case_name": "In re Gault",
+              "citation": "387 U.S. 1 (1967)",
+              "court": "Supreme Court of the United States",
+              "year": 1967,
+              "date_decided": "1967-05-15",
+              "holding": "The Court reversed, holding that the Due Process Clause requires that a juvenile facing delinquency proceedings that may result in institutional commitment receive written notice of the specific charges sufficiently in advance of the hearing, notice of the right to counsel including appointed counsel for the indigent, the privilege against self-incrimination, and confrontation and cross-examination of sworn witnesses.",
+              "relevance": "Gault is the foundational holding that opening a juvenile court proceeding that may cost a child his liberty and a parent custody triggers particularized written notice and an adversarial hearing, not informal parens patriae discretion.",
+              "quote": "Under our Constitution, the condition of being a boy does not justify a kangaroo court",
+              "url": "https://www.courtlistener.com/opinion/107439/in-re-gault/",
+              "courtlistener_cluster_id": 107439
+            }
+          ]
+        }
+      }
     },
     {
       "subnode": "DEC-06",
@@ -188,7 +533,64 @@
       "federal_alignment_flag": "baseline",
       "source_reference": [
         "FFPSA; IV-B/IV-E; CFSR references"
-      ]
+      ],
+      "layers": {
+        "case_law": {
+          "jurisdiction": "US",
+          "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+          "verified_date": "2026-09-20",
+          "key_cases": [
+            {
+              "case_name": "Troxel v. Granville",
+              "citation": "530 U.S. 57 (2000)",
+              "court": "Supreme Court of the United States",
+              "year": 2000,
+              "date_decided": "2000-06-05",
+              "holding": "The plurality opinion announcing the judgment held that Washington's broad third-party visitation statute, as applied, violated the mother's due process rights because the trial court gave no special weight to a fit parent's determination of her children's best interests.",
+              "relevance": "Differential response must respect the presumption that a fit parent's choices about services and household arrangements are in the child's interest.",
+              "quote": "there is a presumption that fit parents act in the best interests of their children",
+              "url": "https://www.courtlistener.com/opinion/1087668/troxel-v-granville/",
+              "courtlistener_cluster_id": 1087668
+            },
+            {
+              "case_name": "Parham v. J. R.",
+              "citation": "442 U.S. 584 (1979)",
+              "court": "Supreme Court of the United States",
+              "year": 1979,
+              "date_decided": "1979-06-20",
+              "holding": "The Court held that parents retain a substantial and presumptively dominant role in committing a child for mental health treatment, but that due process requires review of the admission decision by a neutral factfinder.",
+              "relevance": "Alternative response should preserve the parents' dominant role in choosing treatment while supplying the neutral review Parham requires.",
+              "quote": "our precedents permit the parents to retain a substantial, if not the dominant, role in the decision, absent a finding of neglect or abuse",
+              "url": "https://www.courtlistener.com/opinion/110113/parham-v-j-r/",
+              "courtlistener_cluster_id": 110113
+            },
+            {
+              "case_name": "Doe v. Heck",
+              "citation": "327 F.3d 492 (7th Cir. 2003)",
+              "court": "Court of Appeals for the Seventh Circuit",
+              "year": 2003,
+              "date_decided": "2003-05-15",
+              "holding": "The court held that caseworkers violated the Fourth Amendment by entering a private school and seizing a student for a custodial interview without a warrant, consent, or probable cause, and violated the parents' right to familial relations, although qualified immunity shielded them from damages.",
+              "relevance": "Non-court-involved investigative contact still must avoid arbitrary interference with the family relationship.",
+              "quote": "although child welfare caseworkers may investigate allegations of child abuse without violating parents' constitutional right to familial relations, they may not do so arbitrarily",
+              "url": "https://www.courtlistener.com/opinion/781752/doe-v-heck/",
+              "courtlistener_cluster_id": 781752
+            },
+            {
+              "case_name": "Suter v. Artist M.",
+              "citation": "503 U.S. 347 (1992)",
+              "court": "Supreme Court of the United States",
+              "year": 1992,
+              "date_decided": "1992-03-25",
+              "holding": "The Court held that the Adoption Assistance and Child Welfare Act's 'reasonable efforts' requirement, 42 U.S.C. § 671(a)(15), creates no right enforceable by beneficiaries through § 1983 or an implied right of action.",
+              "relevance": "Prevention-oriented alternative response is a state plan feature whose adequacy Suter leaves to federal administrative review.",
+              "quote": "We hold that the Act does not create an enforceable right on behalf of respondents",
+              "url": "https://www.courtlistener.com/opinion/112712/suter-v-artist-m/",
+              "courtlistener_cluster_id": 112712
+            }
+          ]
+        }
+      }
     }
   ]
 }

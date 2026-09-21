@@ -134,6 +134,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Hawaii state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Kaho'ohanohano ex rel. Morales-Kaho'ohanohano v. Department of Human Services",
+          "citation": "117 Haw. 262, 178 P.3d 538 (2008)",
+          "court": "Supreme Court of Hawai'i",
+          "year": 2008,
+          "date_decided": "2008-03-20",
+          "holding": "The court affirmed a negligence judgment against DHS, holding that once DHS receives a report of suspected child abuse, HRS chapter 587 and its implementing rules create a special relationship and an affirmative legal duty to investigate reasonably and to protect the reported child from further harm.",
+          "relevance": "This is Hawai'i's leading case on agency liability where a child suffers catastrophic injury after a report to DHS.",
+          "quote": "Accordingly, we conclude that DHS had a duty to protect Minor under the circumstances of this case.",
+          "url": "https://www.courtlistener.com/opinion/6615449/kahoohanohano-ex-rel-morales-kahoohanohano-v-department-of-human/",
+          "courtlistener_cluster_id": 6615449
+        },
+        {
+          "case_name": "Tamas v. Department of Social & Health Services",
+          "citation": "630 F.3d 833 (9th Cir. 2010)",
+          "court": "United States Court of Appeals for the Ninth Circuit",
+          "year": 2010,
+          "date_decided": "2010-12-22",
+          "holding": "The court held that foster children have a Fourteenth Amendment liberty interest in supervision and protection from harm by their foster parents, and denied qualified immunity to licensors and social workers who placed and left children with a foster parent despite warning signs.",
+          "relevance": "It is the circuit authority for constitutional claims when a child is seriously harmed while in a licensed foster home.",
+          "quote": "The Fourteenth Amendment substantive due process clause protects a foster child's liberty interest in social worker supervision and protection from harm inflicted by a foster parent.",
+          "url": "https://www.courtlistener.com/opinion/181573/tamas-v-department-of-social-health-services/",
+          "courtlistener_cluster_id": 181573
+        },
+        {
+          "case_name": "DeShaney v. Winnebago County Department of Social Services",
+          "citation": "489 U.S. 189 (1989)",
+          "court": "Supreme Court of the United States",
+          "year": 1989,
+          "date_decided": "1989-02-22",
+          "holding": "The Court held that the Due Process Clause imposes no general affirmative federal duty on a State to protect a child from private violence, even where caseworkers received and recorded repeated reports of abuse, while noting that States may impose such duties through their own tort law.",
+          "relevance": "It marks the boundary between federal constitutional claims and state tort claims after a child dies following agency contact.",
+          "quote": "As a general matter, then, we conclude that a State's failure to protect an individual against private violence simply does not constitute a violation of the Due Process Clause.",
+          "url": "https://www.courtlistener.com/opinion/112202/deshaney-v-winnebago-county-department-of-social-services/",
+          "courtlistener_cluster_id": 112202
+        },
+        {
+          "case_name": "Public First Law Center v. Viola",
+          "citation": "No. SCPW-24-0000464 (Haw. Sept. 30, 2025)",
+          "court": "Supreme Court of Hawai'i",
+          "year": 2025,
+          "date_decided": "2025-09-30",
+          "holding": "In an original proceeding arising from the death of foster child Isabella Kalua, the court held that the 'legitimate purpose' standard of HRS § 587A-40 for disclosing confidential Child Protective Act records is not limited to the child's best interests, that a legitimate purpose and 'good cause' under HRS § 578-15 exist to release CPA and connected adoption records where a foster child is missing, has suffered a near fatality, been critically injured, or has died, and it granted the petition and ordered disclosure with redactions protecting the surviving siblings.",
+          "relevance": "Where a foster child dies or suffers a near fatality, the confidentiality of the CPA and adoption files yields, and the record of how the agency and courts handled the case becomes publicly obtainable.",
+          "quote": "We hold that the standard for whether a legitimate purpose exists for disclosure of CPA records is not grounded solely in the best interest of the child standard.",
+          "url": "https://www.courtlistener.com/opinion/10682020/public-first-law-center-v-viola/",
+          "courtlistener_cluster_id": 10682020
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Hawaii%22%20AND%20%28%22Hawaii%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Hawaii Department of Human Services",
         "CPS",
@@ -145,149 +199,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Hawaii%22%20AND%20%28%22Hawaii%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "termination of parental rights",
-        "TPR",
-        "adoption",
-        "permanency",
-        "aging out"
-      ],
-      "jurisdiction": "Hawaii state courts",
-      "key_cases": [
-        {
-          "case_id": "scwc-23-0000290",
-          "title": "In Re: Adoption of a Male Child by C.C. and J.C.",
-          "url": "https://law.justia.com/cases/hawaii/supreme-court/2024/scwc-23-0000290.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Hawaii Supreme Court Case scwc-23-0000290 (2024)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "caap-23-0000311",
-          "title": "In the Matter of Adoption of a Male Child",
-          "url": "https://law.justia.com/cases/hawaii/court-of-appeals/2023/caap-23-0000311.html",
-          "year": 2023,
-          "court": "Court Of Appeals",
-          "citation": "Hawaii Court Of Appeals Case caap-23-0000311 (2023)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "scwc-20-0000099",
-          "title": "In re: Adoption of a Male Child",
-          "url": "https://law.justia.com/cases/hawaii/supreme-court/2022/scwc-20-0000099.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Hawaii Supreme Court Case scwc-20-0000099 (2022)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "caap-23-0000356",
-          "title": "In re: Guardianship of I.W. and T.E.",
-          "url": "https://law.justia.com/cases/hawaii/court-of-appeals/2025/caap-23-0000356.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Hawaii Court Of Appeals Case caap-23-0000356 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "caap-24-0000450",
-          "title": "In re: Adoption of B.H.",
-          "url": "https://law.justia.com/cases/hawaii/court-of-appeals/2025/caap-24-0000450.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Hawaii Court Of Appeals Case caap-24-0000450 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "caap-24-0000550",
-          "title": "In Re: Co-Guardianship of T.H., a Minor",
-          "url": "https://law.justia.com/cases/hawaii/court-of-appeals/2024/caap-24-0000550.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Hawaii Court Of Appeals Case caap-24-0000550 (2024)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "caap-20-0000430",
-          "title": "In re: The Conservatorship and Guardianship of Sheena May Winnie",
-          "url": "https://law.justia.com/cases/hawaii/court-of-appeals/2024/caap-20-0000430.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Hawaii Court Of Appeals Case caap-20-0000430 (2024)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "caap-24-0000083",
-          "title": "In Re: Guardianship of I.W and T.E.",
-          "url": "https://law.justia.com/cases/hawaii/court-of-appeals/2024/caap-24-0000083.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Hawaii Court Of Appeals Case caap-24-0000083 (2024)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "caap-24-0000062",
-          "title": "In Re: The Guardianship of I.W. and T.E.",
-          "url": "https://law.justia.com/cases/hawaii/court-of-appeals/2024/caap-24-0000062.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Hawaii Court Of Appeals Case caap-24-0000062 (2024)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "caap-18-0000040",
-          "title": "In re: Guardianship and Conservatorship of Stanley M. Zedalis, an Incapacitated Person",
-          "url": "https://law.justia.com/cases/hawaii/court-of-appeals/2023/caap-18-0000040.html",
-          "year": 2023,
-          "court": "Court Of Appeals",
-          "citation": "Hawaii Court Of Appeals Case caap-18-0000040 (2023)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

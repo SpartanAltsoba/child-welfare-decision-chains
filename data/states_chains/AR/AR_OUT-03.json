@@ -101,6 +101,84 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Arkansas state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "In the Matter of the Guardianship of S.H.",
+          "citation": "2015 Ark. 75, 455 S.W.3d 313",
+          "court": "Supreme Court of Arkansas",
+          "year": 2015,
+          "date_decided": "2015-02-26",
+          "holding": "On the second appeal in the same litigation, the court reversed again and ordered the child returned, holding that the circuit court applied a standard that failed to protect the fit natural parent's fundamental right to the care, custody and control of her child.",
+          "relevance": "It supplies the operative Arkansas standard a court must apply before guardianship can be continued over a fit parent's objection.",
+          "quote": "We hold that the circuit court applied a legal standard that failed to safeguard the natural parent's fundamental right with respect to the care, custody, and control of her child.",
+          "url": "https://www.courtlistener.com/opinion/2782464/in-the-matter-of-the-guardianship-of-sh/",
+          "courtlistener_cluster_id": 2782464
+        },
+        {
+          "case_name": "Ellis v. Arkansas Department of Human Services",
+          "citation": "2016 Ark. 441, 505 S.W.3d 678",
+          "court": "Supreme Court of Arkansas",
+          "year": 2016,
+          "date_decided": "2016-12-08",
+          "holding": "The court reversed, holding that the circuit court erred by failing to hold the mandatory review hearing and to apply the statutory relative-placement preference upon receipt of a satisfactory home study, and overruled cases limiting that preference to initial placement.",
+          "relevance": "It requires the court to consider relative placement before moving the case toward adoption as the permanency goal.",
+          "quote": "it simply cannot be the law that strong bonds with a foster family can defeat the statutory preference for relative placement",
+          "url": "https://www.courtlistener.com/opinion/4328401/ellis-v-arkansas-department-of-human-services/",
+          "courtlistener_cluster_id": 4328401
+        },
+        {
+          "case_name": "Mahone v. Arkansas Department of Human Services",
+          "citation": "2011 Ark. 370, 383 S.W.3d 854",
+          "court": "Supreme Court of Arkansas",
+          "year": 2011,
+          "date_decided": "2011-09-22",
+          "holding": "The court reversed a permanency order giving permanent custody to a grandmother, holding that the statutory first preference of returning the child to a parent applies to a noncustodial parent as well, and overruling contrary court of appeals authority.",
+          "relevance": "Permanent custody with a relative may not be entered without first applying the statutory parental preference.",
+          "quote": "We hold that the first statutory preference applies to Mahone because he is a parent of the children.",
+          "url": "https://www.courtlistener.com/opinion/5283434/mahone-v-arkansas-department-of-human-services/",
+          "courtlistener_cluster_id": 5283434
+        },
+        {
+          "case_name": "Arkansas Department of Human Services v. Cox",
+          "citation": "349 Ark. 205, 82 S.W.3d 806 (2002)",
+          "court": "Supreme Court of Arkansas",
+          "year": 2002,
+          "date_decided": "2002-06-06",
+          "holding": "The court affirmed the Arkansas guardianship orders and held that DHS had no authority to seize a newborn on a Florida ex parte order that had never been registered or enforced through an Arkansas court.",
+          "relevance": "The Arkansas guardianship order was the operative permanency determination and DHS was bound by it.",
+          "quote": "DHS is utterly without authority to execute an order from a foreign jurisdiction on its own.",
+          "url": "https://www.courtlistener.com/opinion/1745590/arkansas-department-of-human-services-v-cox/",
+          "courtlistener_cluster_id": 1745590
+        },
+        {
+          "case_name": "Lamontagne v. Arkansas Department of Human Services",
+          "citation": "2010 Ark. 190, 366 S.W.3d 351",
+          "court": "Supreme Court of Arkansas",
+          "year": 2010,
+          "date_decided": "2010-04-22",
+          "holding": "The court affirmed a permanency order awarding permanent custody of a dependent-neglected child to her adult sister without reaching the merits, holding that a party must raise an argument to the circuit court to preserve it for appeal and overruling Jones v. Abraham and Morrow v. Morrow to the extent they held that de novo review dispensed with a contemporaneous objection.",
+          "relevance": "The case arose from a fifteen-month permanency hearing that ceased reunification services and gave permanent custody to a relative, and it shows how such an order survives appeal when the statutory argument was never presented below.",
+          "quote": "this court reviews findings in dependency-neglect proceedings de novo, but we will not reverse the trial judge's findings \"unless they are clearly erroneous.\"",
+          "url": "https://www.courtlistener.com/opinion/5281711/lamontagne-v-arkansas-department-of-human-services/",
+          "courtlistener_cluster_id": 5281711
+        },
+        {
+          "case_name": "Devine v. Martens",
+          "citation": "371 Ark. 60, 263 S.W.3d 515 (2007)",
+          "court": "Supreme Court of Arkansas",
+          "year": 2007,
+          "date_decided": "2007-09-27",
+          "holding": "The court reversed an order granting the grandparents permanent guardianship of a child, holding that although temporary emergency jurisdiction under the UCCJEA was proper, the circuit court clearly erred in finding the natural mother unfit where she had corrected the conditions complained of before the final hearing.",
+          "relevance": "It is the guardianship and parental-preference authority the Troeskyn/S.H. line builds on, and it holds that improvements a parent makes before the final hearing must be credited rather than ignored.",
+          "quote": "The law prefers a parent over a grandparent or other third person unless the parent is proved to be incompetent or unfit.",
+          "url": "https://www.courtlistener.com/opinion/1628659/devine-v-martens/",
+          "courtlistener_cluster_id": 1628659
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Arkansas%22%20AND%20%28%22Arkansas%20Department%20of%20Human%20Services%22%20OR%20%22Arkansas%20DCFS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Arkansas Department of Human Services",
         "Arkansas DCFS",
@@ -112,149 +190,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Arkansas%22%20AND%20%28%22Arkansas%20Department%20of%20Human%20Services%22%20OR%20%22Arkansas%20DCFS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "termination of parental rights",
-        "TPR",
-        "adoption",
-        "permanency",
-        "aging out"
-      ],
-      "jurisdiction": "Arkansas state courts",
-      "key_cases": [
-        {
-          "case_id": "cv-24-380",
-          "title": "(IN THE MATTER OF THE GUARDIANSHIP OF GRACE YVONNE FENNER) GRACE YVONNE FENNER v. CHRISTOPHER MICHAEL FENNER (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2025/cv-24-380.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-24-380 (2025)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "cv-23-679",
-          "title": "IN THE MATTER OF THE GUARDIANSHIP OF MC, A MINOR, SANDRA ANDRACA v. PATRICIA TICE (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2025/cv-23-679.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-23-679 (2025)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "cv-21-235",
-          "title": "IN THE MATTER OF THE GUARDIANSHIP OF A.P.G., A MINOR, SANDRA ANDRACA v. PATRICIA TICE (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2022/cv-21-235.html",
-          "year": 2022,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-21-235 (2022)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "cv-21-308",
-          "title": "IN RE GUARDIANSHIP OF GILL (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2022/cv-21-308.html",
-          "year": 2022,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-21-308 (2022)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "cv-21-24",
-          "title": "IN THE MATTER OF THE GUARDIANSHIP OF KM, A MINOR (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2022/cv-21-24.html",
-          "year": 2022,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-21-24 (2022)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "cv-21-72",
-          "title": "IN THE MATTER OF THE GUARDIANSHIP OF Z.S., A MINOR (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2022/cv-21-72.html",
-          "year": 2022,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-21-72 (2022)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "cv-20-589",
-          "title": "IN RE GUARDIANSHIP OF PITTS (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2021/cv-20-589.html",
-          "year": 2021,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-20-589 (2021)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "cv-19-689",
-          "title": "IN RE GUARDIANSHIP OF KATHRYN GRACE KENNEDY, AN INCAPACITATED PERSON, DAN KROTZER v. ESTHER JULIANNE MCDANIEL (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2020/cv-19-689.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-19-689 (2020)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "cv-19-779",
-          "title": "IN THE MATTER OF THE GUARDIANSHIP OF THE PERSONS OF K.Y. AND R.Z.S., MINORS, ROLANDO CEDILLO v. EMMA TURNER (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2020/cv-19-779.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-19-779 (2020)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "cv-19-474",
-          "title": "IN RE GUARDIANSHIP OF MATTHEW HELTON (Majority)",
-          "url": "https://law.justia.com/cases/arkansas/court-of-appeals/2020/cv-19-474.html",
-          "year": 2020,
-          "court": "Court Of Appeals",
-          "citation": "Arkansas Court Of Appeals Case cv-19-474 (2020)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

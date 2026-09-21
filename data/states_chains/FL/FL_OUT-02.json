@@ -135,6 +135,84 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Florida state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Padgett v. Department of Health & Rehabilitative Services",
+          "citation": "577 So. 2d 565 (Fla. 1991)",
+          "court": "Supreme Court of Florida",
+          "year": 1991,
+          "date_decided": "1991-03-28",
+          "holding": "Parental rights may be involuntarily terminated only on clear and convincing proof that reunification poses a substantial risk of significant harm to the child and that termination is the least restrictive means of protecting the child, which ordinarily requires a good-faith agency effort to rehabilitate the parent and reunite the family; abuse of one child may supply grounds as to another child.",
+          "relevance": "This is Florida's controlling standard for involuntary termination of parental rights and the source of the least-restrictive-means test.",
+          "quote": "the state must show by clear and convincing evidence that reunification with the parent poses a substantial risk of significant harm to the child",
+          "url": "https://www.courtlistener.com/opinion/1603220/padgett-v-dept-of-health-rehab-services/",
+          "courtlistener_cluster_id": 1603220
+        },
+        {
+          "case_name": "Santosky v. Kramer",
+          "citation": "455 U.S. 745 (1982)",
+          "court": "Supreme Court of the United States",
+          "year": 1982,
+          "date_decided": "1982-02-22",
+          "holding": "Before a State may sever completely and irrevocably the rights of parents in their natural child, due process requires proof by at least clear and convincing evidence; New York's fair-preponderance standard was unconstitutional.",
+          "relevance": "It is the constitutional source of Florida's clear-and-convincing standard for termination of parental rights.",
+          "quote": "due process requires that the State support its allegations by at least clear and convincing evidence",
+          "url": "https://www.courtlistener.com/opinion/110676/santosky-v-kramer/",
+          "courtlistener_cluster_id": 110676
+        },
+        {
+          "case_name": "S.M. v. Florida Department of Children & Families",
+          "citation": "202 So. 3d 769 (Fla. 2016)",
+          "court": "Supreme Court of Florida",
+          "year": 2016,
+          "date_decided": "2016-09-01",
+          "holding": "Once grounds for termination are proved by clear and convincing evidence and reunification is not in the child's manifest best interests, the least-restrictive-means requirement does not oblige the trial court to consider permanent guardianship instead of adoption.",
+          "relevance": "S.M. confirms that adoption outranks guardianship once termination grounds are established, limiting the least-restrictive-means argument.",
+          "quote": "Section 39.621, Florida Statutes (2016), specifies that permanent guardianship shall be considered only after reunification and adoption are not available options.",
+          "url": "https://www.courtlistener.com/opinion/4253362/sm-etc-v-florida-department-of-children-and-families/",
+          "courtlistener_cluster_id": 4253362
+        },
+        {
+          "case_name": "J.B. v. Florida Department of Children & Families",
+          "citation": "170 So. 3d 780 (Fla. 2015)",
+          "court": "Supreme Court of Florida",
+          "year": 2015,
+          "date_decided": "2015-07-09",
+          "holding": "An indigent parent's right to counsel in termination proceedings includes the right to effective assistance and a procedural means of raising such claims, although J.B. herself showed no basis to set aside the termination order.",
+          "relevance": "This decision creates the ineffective-assistance remedy that now accompanies every Florida termination judgment against an indigent parent.",
+          "quote": "we hold that the right to counsel in termination of parental right (TPR) proceedings includes the right to effective assistance and requires a means of vindicating that right",
+          "url": "https://www.courtlistener.com/opinion/2815838/jb-etc-v-florida-department-of-children-and-families/",
+          "courtlistener_cluster_id": 2815838
+        },
+        {
+          "case_name": "Statewide Guardian ad Litem Office v. C.C.",
+          "citation": "No. SC2023-0604 (Fla. Mar. 7, 2024)",
+          "court": "Supreme Court of Florida",
+          "year": 2024,
+          "date_decided": "2024-03-07",
+          "holding": "An appellate court may not reweigh the evidence supporting a termination judgment; because competent substantial evidence supported the trial court's least-restrictive-means and manifest-best-interests findings after the father failed a voluntary case plan, the district court's reversal was quashed.",
+          "relevance": "C.C. is the most recent Florida Supreme Court statement on proof of least restrictive means and manifest best interests in termination cases.",
+          "quote": "We conclude that the Fifth District's decision improperly reweighed the evidence below and, thus, conflicts with our precedent.",
+          "url": "https://www.courtlistener.com/opinion/9481924/statewide-guardian-ad-litem-office-v-cc-department-of-children-and/",
+          "courtlistener_cluster_id": 9481924
+        },
+        {
+          "case_name": "In re D.B.",
+          "citation": "385 So. 2d 83 (Fla. 1980)",
+          "court": "Supreme Court of Florida",
+          "year": 1980,
+          "date_decided": "1980-05-16",
+          "holding": "Indigent parents have a constitutional right to appointed counsel whenever the proceeding can result in permanent loss of parental custody; in other dependency proceedings the right is determined case by case.",
+          "relevance": "D.B. is Florida's foundational right-to-counsel holding for proceedings ending in permanent severance.",
+          "quote": "We find that a constitutional right to counsel necessarily arises where the proceedings can result in permanent loss of parental custody.",
+          "url": "https://www.courtlistener.com/opinion/1741618/in-interest-of-db/",
+          "courtlistener_cluster_id": 1741618
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Florida%22%20AND%20%28%22Florida%20Department%20of%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Florida Department of Children and Families",
         "DCF",
@@ -146,150 +224,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Florida%22%20AND%20%28%22Florida%20Department%20of%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "termination of parental rights",
-        "TPR",
-        "adoption",
-        "permanency",
-        "aging out"
-      ],
-      "jurisdiction": "Florida state courts",
-      "key_cases": [
-        {
-          "case_id": "sc2023-1072",
-          "title": "Christine Askew, etc. v. Florida Department of Children and Families",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2024/sc2023-1072.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc2023-1072 (2024)",
-          "relevance_score": 3.0,
-          "matched_keywords": [
-            "florida department of children and families",
-            "dcf"
-          ],
-          "child_welfare_reason": "High: DCF"
-        },
-        {
-          "case_id": "sc19-1370",
-          "title": "In Re: Amendments to the Florida Probate Rules - Guardianship",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2020/sc19-1370.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc19-1370 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc18-1554",
-          "title": "In Re: Amendments to the Florida Rules of Judicial Administration - Parental Leave",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2020/sc18-1554.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc18-1554 (2020)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc2024-1403",
-          "title": "In Re: Amendments to Florida Rules of General Practice and Judicial Administration",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2025/sc2024-1403.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc2024-1403 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc2025-1173",
-          "title": "In Re: Amendments to Rules Regulating The Florida Bar - Rule 4-8.6",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2025/sc2025-1173.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc2025-1173 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc2025-1180",
-          "title": "In Re: Amendments to Rules Regulating The Florida Bar - Chapter 3",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2025/sc2025-1180.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc2025-1180 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc2025-1750",
-          "title": "In Re: Amendment to Florida Rule of General Practice and Judicial Administration 2.140",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2025/sc2025-1750.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc2025-1750 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc2025-0530-0",
-          "title": "In Re: Amendments to the Florida Rules of Criminal Procedure - 2025 Legislation",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2025/sc2025-0530-0.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc2025-0530-0 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc2025-1808",
-          "title": "In Re: Certification of Need for Additional Judges",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2025/sc2025-1808.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc2025-1808 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sc2025-0017",
-          "title": "In Re: Amendments to Rules Regulating The Florida Bar - Rules 6-3.5 and 6-3.6",
-          "url": "https://law.justia.com/cases/florida/supreme-court/2025/sc2025-0017.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Florida Supreme Court Case sc2025-0017 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

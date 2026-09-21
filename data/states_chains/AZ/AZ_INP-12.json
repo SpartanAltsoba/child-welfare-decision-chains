@@ -200,6 +200,84 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Arizona state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Dep't of Child Safety v. Stocking-Tate",
+          "citation": "247 Ariz. 108, 446 P.3d 813 (App. 2019)",
+          "court": "Court of Appeals of Arizona",
+          "year": 2019,
+          "date_decided": "2019-06-14",
+          "holding": "The court of appeals granted special action relief and vacated the order striking the ex parte temporary custody order, holding that an ex parte removal order is not challenged by a motion to strike but is reviewed at the statutory temporary custody hearing, where DCS bears the probable-cause burden.",
+          "relevance": "The controlling Arizona case on the procedure and burden governing emergency protective custody.",
+          "quote": "DCS bears the burden of proving \"there is probable cause to believe that continued temporary custody of the child is clearly necessary to prevent abuse or neglect.\"",
+          "url": "https://www.courtlistener.com/opinion/6659254/dept-of-child-safety-v-stocking-tate/",
+          "courtlistener_cluster_id": 6659254
+        },
+        {
+          "case_name": "Demaree v. Pederson",
+          "citation": "887 F.3d 870 (9th Cir. 2018)",
+          "court": "United States Court of Appeals for the Ninth Circuit",
+          "year": 2018,
+          "date_decided": "2018-01-23",
+          "holding": "In an Arizona case, the Ninth Circuit reversed summary judgment based on qualified immunity and remanded, holding that on the plaintiffs' version of the facts the social workers lacked reasonable cause to believe the children faced articulable, imminent, serious physical injury or molestation and so violated clearly established rights by removing them without a court order.",
+          "relevance": "States the exact quantum of risk required before Arizona caseworkers may take emergency custody without judicial authorization.",
+          "quote": "The clearly established case law requires articulable, imminent, and serious physical injury or physical abuse to children to justify removing them from their parents' home without a judicial order.",
+          "url": "https://www.courtlistener.com/opinion/9022500/demaree-v-pederson/",
+          "courtlistener_cluster_id": 9022500
+        },
+        {
+          "case_name": "Kirkpatrick v. County of Washoe",
+          "citation": "843 F.3d 784 (9th Cir. 2016) (en banc)",
+          "court": "United States Court of Appeals for the Ninth Circuit",
+          "year": 2016,
+          "date_decided": "2016-12-09",
+          "holding": "The en banc Ninth Circuit held a jury could find the warrantless seizure of a newborn unconstitutional because there was time to obtain a warrant, granted the individual caseworkers qualified immunity because that obligation was not clearly established at the time, and reversed and remanded the municipal-liability claim.",
+          "relevance": "Establishes that exigency requires not only danger but insufficient time to obtain judicial authorization.",
+          "quote": "We hold that Kirkpatrick has raised a genuine dispute as to whether B.W. was in such imminent danger of serious bodily injury that no warrant was necessary.",
+          "url": "https://www.courtlistener.com/opinion/4328788/jamie-kirkpatrick-v-county-of-washoe/",
+          "courtlistener_cluster_id": 4328788
+        },
+        {
+          "case_name": "Wallis ex rel. Wallis v. Spencer",
+          "citation": "202 F.3d 1126 (9th Cir. 2000)",
+          "court": "United States Court of Appeals for the Ninth Circuit",
+          "year": 1999,
+          "date_decided": "1999-09-14",
+          "holding": "The Ninth Circuit reversed summary judgment for the city on the § 1983 claims, holding that absent risk of dissipating evidence or an urgent medical problem the state must notify parents and obtain judicial approval before subjecting children in protective custody to investigatory physical examinations, and that a jury must decide whether there was reasonable cause for the removal.",
+          "relevance": "Confirms that protective custody does not by itself authorize intrusive examinations of the child.",
+          "quote": "The right to family association includes the right of parents to make important medical decisions for their children",
+          "url": "https://www.courtlistener.com/opinion/7079922/wallis-ex-rel-wallis-v-spencer/",
+          "courtlistener_cluster_id": 7079922
+        },
+        {
+          "case_name": "Mabe v. San Bernardino County",
+          "citation": "237 F.3d 1101 (9th Cir. 2001)",
+          "court": "United States Court of Appeals for the Ninth Circuit",
+          "year": 2001,
+          "date_decided": "2001-01-24",
+          "holding": "The Ninth Circuit affirmed in part and reversed in part, holding that a triable issue existed as to whether the social worker had reasonable cause to believe the child faced imminent danger of serious bodily injury justifying warrantless entry and seizure, and that probable cause supporting a warrant does not itself establish the exigency a warrantless removal requires.",
+          "relevance": "The source authority for the imminent-danger standard Arizona caseworkers must satisfy before taking protective custody without a court order, cited here directly rather than second-hand.",
+          "quote": "a showing of probable cause does not satisfy the conclusion that MD was in imminent danger of serious physical injury sufficient to justify a warrantless removal",
+          "url": "https://www.courtlistener.com/opinion/771798/mabe-v-san-bernardino-county/",
+          "courtlistener_cluster_id": 771798
+        },
+        {
+          "case_name": "Rogers v. County of San Joaquin",
+          "citation": "487 F.3d 1288 (9th Cir. 2007)",
+          "court": "United States Court of Appeals for the Ninth Circuit",
+          "year": 2007,
+          "date_decided": "2007-05-29",
+          "holding": "The Ninth Circuit reversed the grant of qualified immunity to the social worker and reversed the denial of the parents' partial summary judgment motion, holding it was clearly established that children may be removed without a warrant only in exigent circumstances and that no reasonable social worker could have found exigency on these facts of medical neglect.",
+          "relevance": "Confirms that neglect findings, even serious ones, do not supply the exigency that alone permits protective custody without judicial authorization.",
+          "quote": "it was clearly established that warrantless removal of children is permissible only in cases of exigency",
+          "url": "https://www.courtlistener.com/opinion/797914/rogers-v-county-of-san-joaquin/",
+          "courtlistener_cluster_id": 797914
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Arizona%22%20AND%20%28%22Arizona%20Department%20of%20Child%20Safety%22%20OR%20%22DCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Arizona Department of Child Safety",
         "DCS",
@@ -211,148 +289,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Arizona%22%20AND%20%28%22Arizona%20Department%20of%20Child%20Safety%22%20OR%20%22DCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "mandatory reporting",
-        "failure to report",
-        "reporter immunity",
-        "hotline"
-      ],
-      "jurisdiction": "Arizona state courts",
-      "key_cases": [
-        {
-          "case_id": "cv-20-0030-pr",
-          "title": "AMERICAN CIVIL LIBERTIES UNION OF AZ v DCS",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2021/cv-20-0030-pr.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-20-0030-pr (2021)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "dcs"
-          ],
-          "child_welfare_reason": "High: DCS"
-        },
-        {
-          "case_id": "cv-24-0079-pr",
-          "title": "In re Termination Parental Rights as to B.W.",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2025/cv-24-0079-pr.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-24-0079-pr (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re TPR, In re"
-        },
-        {
-          "case_id": "cv-23-0263-pr",
-          "title": "In the matter of CHALMERS",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2025/cv-23-0263-pr.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-23-0263-pr (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "sb-24-0007-ap",
-          "title": "In re Sponsel",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2025/sb-24-0007-ap.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case sb-24-0007-ap (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "cv-24-0114-pr",
-          "title": "IN RE TERM OF PARENTAL RIGHTS AS TO M.N.",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2025/cv-24-0114-pr.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-24-0114-pr (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "cv-23-0160-pr",
-          "title": "IN RE THE MARRIAGE OF QUIJADA/DOMINGUEZ",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2024/cv-23-0160-pr.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-23-0160-pr (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "sb-22-0056-ap",
-          "title": "In the Matter of WITT",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2024/sb-22-0056-ap.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case sb-22-0056-ap (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "cv-23-0123-cq",
-          "title": "In re: RIGGINS",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2024/cv-23-0123-cq.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-23-0123-cq (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "cv-23-0009-cq",
-          "title": "In re: DRUMMOND",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2024/cv-23-0009-cq.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-23-0009-cq (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "cv-22-0057-pr",
-          "title": "In re Pima County Mental Health No. 20200860221",
-          "url": "https://law.justia.com/cases/arizona/supreme-court/2023/cv-22-0057-pr.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Arizona Supreme Court Case cv-22-0057-pr (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

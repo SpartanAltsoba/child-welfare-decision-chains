@@ -87,6 +87,84 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Minnesota state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "In re Children of T.A.A.",
+          "citation": "702 N.W.2d 703 (Minn. 2005)",
+          "court": "Supreme Court of Minnesota",
+          "year": 2005,
+          "date_decided": "2005-08-04",
+          "holding": "The court reversed the court of appeals and held that the county's reasonable efforts to reunite were supported by clear and convincing evidence, explaining that reasonable efforts are assessed after statutory grounds and best interests are established.",
+          "relevance": "It is the leading Minnesota authority on whether a court-ordered service plan satisfies the reasonable-efforts requirement.",
+          "quote": "the appellate court then determines whether there is clear and convincing evidence that the county made reasonable efforts to reunite the family",
+          "url": "https://www.courtlistener.com/opinion/2230085/in-re-the-children-of-taa/",
+          "courtlistener_cluster_id": 2230085
+        },
+        {
+          "case_name": "In re Welfare of the Children of S.E.P.",
+          "citation": "744 N.W.2d 381 (Minn. 2008)",
+          "court": "Supreme Court of Minnesota",
+          "year": 2008,
+          "date_decided": "2008-02-14",
+          "holding": "Reinstating the termination, the court held that appellate courts closely examine the record to confirm the evidence was clear and convincing, and that the findings on statutory grounds, reasonable efforts and best interests were not clearly erroneous.",
+          "relevance": "It applies the clear-and-convincing standard to a court-ordered case plan and the parent's compliance with it.",
+          "quote": "But we closely inquire into the sufficiency of the evidence to determine whether it was clear and convincing.",
+          "url": "https://www.courtlistener.com/opinion/2036456/in-re-the-welfare-of-the-children-of-sep/",
+          "courtlistener_cluster_id": 2036456
+        },
+        {
+          "case_name": "In re Welfare of the Children of T.R.",
+          "citation": "750 N.W.2d 656 (Minn. 2008)",
+          "court": "Supreme Court of Minnesota",
+          "year": 2008,
+          "date_decided": "2008-07-02",
+          "holding": "The court held that substance or alcohol use alone does not render a parent palpably unfit and that the county's testing-only response did not amount to reasonable efforts, reversing the termination.",
+          "relevance": "It holds that a case plan consisting largely of drug testing, without services aimed at the underlying problem, is not reasonable efforts.",
+          "quote": "substance or alcohol use alone does not render a parent palpably unfit",
+          "url": "https://www.courtlistener.com/opinion/1785279/in-re-the-welfare-of-the-children-of-tr/",
+          "courtlistener_cluster_id": 1785279
+        },
+        {
+          "case_name": "In re Welfare of the Children of S.W.",
+          "citation": "727 N.W.2d 144 (Minn. Ct. App. 2007)",
+          "court": "Court of Appeals of Minnesota",
+          "year": 2007,
+          "date_decided": "2007-01-30",
+          "holding": "The court affirmed termination of parental rights to Indian children, holding the district court did not err in finding that active and reasonable efforts to reunify had failed and in refusing to invalidate the proceedings for earlier ICWA violations.",
+          "relevance": "It is the published Minnesota application of the heightened active-efforts standard to a court-ordered case plan for an Indian family.",
+          "quote": "We conclude that the district court did not err by finding that active and reasonable efforts failed to reunite the family.",
+          "url": "https://www.courtlistener.com/opinion/1735918/in-re-the-welfare-of-the-children-of-sw/",
+          "courtlistener_cluster_id": 1735918
+        },
+        {
+          "case_name": "In re Welfare of the Children of Coats",
+          "citation": "633 N.W.2d 505 (Minn. 2001)",
+          "court": "Supreme Court of Minnesota",
+          "year": 2001,
+          "date_decided": "2001-08-23",
+          "holding": "Reversing the court of appeals and reinstating the district court's default judgment, the court held that a mother who signed a notice warning that default could be entered, failed to appear at the pretrial hearing, and showed neither a reasonable defense on the merits nor a reasonable excuse was not entitled to Rule 60.02 relief, and that the resulting termination was not void for lack of due process.",
+          "relevance": "The mother's documented non-compliance with a court-ordered case plan across five review hearings — testing, therapy, psychiatric evaluation and an in-home parenting program — was the entire evidentiary basis on which her rights were terminated.",
+          "quote": "Accordingly, we hold that the default judgment is not void for lack of due process.",
+          "url": "https://www.courtlistener.com/opinion/1985979/in-re-the-welfare-of-the-children-of-coats/",
+          "courtlistener_cluster_id": 1985979
+        },
+        {
+          "case_name": "In re Welfare of M.D.O.",
+          "citation": "462 N.W.2d 370 (Minn. 1990)",
+          "court": "Supreme Court of Minnesota",
+          "year": 1990,
+          "date_decided": "1990-11-02",
+          "holding": "Reversing the court of appeals and leaving the trial court's dismissal of the petition in place, the court held the county had not proved palpable unfitness or refusal to comply with parental duties, where it made an admission of culpability the gateway goal of its case plan while itself failing to provide the services and counseling that would have made rehabilitation possible.",
+          "relevance": "It is the foundational Minnesota holding that a case plan whose first and controlling requirement the county never explained, supported with services, or even asked the parent to accept cannot carry a termination.",
+          "quote": "The county's expectations seem especially daunting considering the county's admitted failure to provide services, counseling or assistance to aid Ostlund in coming to grips with her conduct.",
+          "url": "https://www.courtlistener.com/opinion/2212288/in-re-the-welfare-of-mdo/",
+          "courtlistener_cluster_id": 2212288
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Minnesota%22%20AND%20%28%22Minnesota%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Minnesota Department of Human Services",
         "CPS",
@@ -98,149 +176,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Minnesota%22%20AND%20%28%22Minnesota%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "removal",
-        "emergency custody",
-        "placement",
-        "reunification",
-        "services"
-      ],
-      "jurisdiction": "Minnesota state courts",
-      "key_cases": [
-        {
-          "case_id": "a24-1562",
-          "title": "In the Matter of the Petition of Minnesota Association of Residential Services Homes (MARSH) under Minn. Stat. Â§ 14.381, subd. 1, for a Declaration that the Minnesota Department of Human Services Is Enforcing Unadopted Rules",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2025/a24-1562.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a24-1562 (2025)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "minnesota department of human services"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "a24-0430",
-          "title": "In the Matter of the Appeal by Kehinde Yusuf and Caring for Adults of the Order of License Revocation of the Adult Foster Care and Home and Community-Based Services Licenses",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2024/a24-0430.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a24-0430 (2024)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "foster care"
-          ],
-          "child_welfare_reason": "High: foster care, Matter of"
-        },
-        {
-          "case_id": "a24-0126",
-          "title": "In re the Matter of: Western Prairie Human Services, Respondent, Commissioner of Minnesota Department of Human Services, Respondent, vs. County of Benton, Appellant",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2024/a24-0126.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a24-0126 (2024)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "minnesota department of human services"
-          ],
-          "child_welfare_reason": "High: In re, Matter of"
-        },
-        {
-          "case_id": "a22-0367",
-          "title": "In the Matter of the Surveillance and Integrity Review Appeal by Smart Choice Health Care Corporation and Farah Jama Mohamed, Relators, vs. Minnesota Department of Human Services, Respondent",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2022/a22-0367.html",
-          "year": 2022,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a22-0367 (2022)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "minnesota department of human services"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "a20-1300",
-          "title": "In re the Matter of: Dorothy Geyen, Respondent, vs. Commissioner of Minnesota Department of Human Services, Appellant, Carver County Health and Human Services, Respondent below",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2021/a20-1300.html",
-          "year": 2021,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a20-1300 (2021)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "minnesota department of human services"
-          ],
-          "child_welfare_reason": "High: In re, Matter of"
-        },
-        {
-          "case_id": "a21-1393",
-          "title": "In the Matter of the Appeal by John Casterton of the Order of License Revocation Adult Foster Care License",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2022/a21-1393.html",
-          "year": 2022,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a21-1393 (2022)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "foster care"
-          ],
-          "child_welfare_reason": "High: foster care, Matter of"
-        },
-        {
-          "case_id": "a21-1119",
-          "title": "In the Matter of the Appeal by Amy Waters of the Maltreatment Determination and Disqualification, and by John and Amy Waters Order of Revocation of their Child Foster Care License DHS Case Number 36496",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2022/a21-1119.html",
-          "year": 2022,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a21-1119 (2022)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "foster care"
-          ],
-          "child_welfare_reason": "High: DHS, foster care, Matter of"
-        },
-        {
-          "case_id": "a20-1513",
-          "title": "In the Matter of Enbridge Line 3 Replacement Project in Minnesota Kittson, Marshall, Pennington, Polk, Red Lake, Clearwater, Hubbard, Wadena, Cass, Crow Wing, Aitkin, St. Louis, and Carlton Counties Section 401 Water Quality Certification",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2021/a20-1513.html",
-          "year": 2021,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a20-1513 (2021)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "placement"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "a20-1071",
-          "title": "In the Matter of the Application of Enbridge Energy, Limited Partnership, for a Certificate of Need and a Routing Permit for the Proposed Line 3 Replacement Project in Minnesota from the North Dakota Border to the Wisconsin Border",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2021/a20-1071.html",
-          "year": 2021,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a20-1071 (2021)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "placement"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "a25-0375",
-          "title": "In the Matter of the Unlicensed Debt Collection Activity of PurCo Fleet Services, Inc",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2025/a25-0375.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a25-0375 (2025)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

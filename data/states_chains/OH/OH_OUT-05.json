@@ -75,6 +75,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Ohio state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "In re Young Children",
+          "citation": "76 Ohio St.3d 632, 669 N.E.2d 1140 (1996)",
+          "court": "Supreme Court of Ohio",
+          "year": 1996,
+          "date_decided": "1996-10-09",
+          "holding": "The statutory sunset date does not automatically divest a juvenile court of jurisdiction, but where the problems that gave rise to the original complaint have been resolved or sufficiently mitigated the court may not enter further dispositional orders on that complaint.",
+          "relevance": "This is the leading Ohio authority requiring closure when the original basis for the case no longer exists.",
+          "quote": "Where the original problems have been resolved or sufficiently mitigated, courts may not make further dispositional orders based on the original complaint.",
+          "url": "https://www.courtlistener.com/opinion/6881578/in-re-young-children/",
+          "courtlistener_cluster_id": 6881578
+        },
+        {
+          "case_name": "In re Adams",
+          "citation": "115 Ohio St.3d 86, 873 N.E.2d 886 (2007)",
+          "court": "Supreme Court of Ohio",
+          "year": 2007,
+          "date_decided": "2007-10-03",
+          "holding": "An order continuing temporary custody is not a final, appealable order, because although a juvenile custody hearing is a special proceeding the order must also affect a substantial right, and the continuation of temporary custody does not foreclose appropriate relief later.",
+          "relevance": "It distinguishes an order that ends the case from one that merely continues it, which controls when a dismissal or closure becomes reviewable.",
+          "quote": "While a juvenile custody hearing is a special proceeding, a juvenile court order must also affect a substantial right to be a final, appealable order under R.C. 2505.02(B)(2).",
+          "url": "https://www.courtlistener.com/opinion/6896408/in-re-adams/",
+          "courtlistener_cluster_id": 6896408
+        },
+        {
+          "case_name": "In re K.T.1",
+          "citation": "2018-Ohio-4312, 121 N.E.3d 847 (Ohio Ct. App. 2018)",
+          "court": "Court of Appeals of Ohio, First Appellate District",
+          "year": 2018,
+          "date_decided": "2018-10-24",
+          "holding": "Affirming in part and reversing in part custody dispositions for four siblings, the court held that where reunification within a reasonable time was not possible the mandatory disposition of R.C. 2151.414(D)(2) applied, and it explained that sufficiency review asks whether the evidence justified the juvenile court's findings under the clear-and-convincing standard.",
+          "relevance": "It shows when an appellate court will set aside a disposition and return custody rather than let the case close on the agency's terms.",
+          "quote": "Our sufficiency review asks whether enough evidence exists to justify the juvenile court's relevant findings under a clear-and-convincing standard.",
+          "url": "https://www.courtlistener.com/opinion/4546916/in-re-kt1/",
+          "courtlistener_cluster_id": 4546916
+        },
+        {
+          "case_name": "In re H.F.",
+          "citation": "120 Ohio St.3d 499, 2008-Ohio-6810, 900 N.E.2d 607 (2008)",
+          "court": "Supreme Court of Ohio",
+          "year": 2008,
+          "date_decided": "2008-12-31",
+          "holding": "An adjudication of abuse, dependency or neglect coupled with an award of temporary custody under R.C. 2151.353(A)(2) is a final order that must be appealed within 30 days under App.R. 4(A), and App.R. 4(B)(5) gives no second opportunity to appeal that adjudication after the final dispositional order terminating parental rights.",
+          "relevance": "It distinguishes the orders that end the controversy when entered from those that leave issues pending, which controls when an adjudication or closure becomes reviewable.",
+          "quote": "App.R. 4(B)(5) does not apply to adjudication orders that include a finding of neglect, abuse, or dependency and a grant of temporary custody to a children services agency",
+          "url": "https://www.courtlistener.com/opinion/2689963/in-re-hf/",
+          "courtlistener_cluster_id": 2689963
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Ohio%22%20AND%20%28%22Ohio%20Department%20of%20Job%20and%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Ohio Department of Job and Family Services",
         "CPS",
@@ -86,149 +140,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Ohio%22%20AND%20%28%22Ohio%20Department%20of%20Job%20and%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "termination of parental rights",
-        "TPR",
-        "adoption",
-        "permanency",
-        "aging out"
-      ],
-      "jurisdiction": "Ohio state courts",
-      "key_cases": [
-        {
-          "case_id": "30444",
-          "title": "In re Adoption of W.M.J.",
-          "url": "https://law.justia.com/cases/ohio/second-district-court-of-appeals/2025/30444.html",
-          "year": 2025,
-          "court": "Second District Court Of Appeals",
-          "citation": "Ohio Second District Court Of Appeals Case 30444 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "30432",
-          "title": "In re Adoption of E.G.B.",
-          "url": "https://law.justia.com/cases/ohio/second-district-court-of-appeals/2025/30432.html",
-          "year": 2025,
-          "court": "Second District Court Of Appeals",
-          "citation": "Ohio Second District Court Of Appeals Case 30432 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "30380",
-          "title": "In re Adoption of Z.D.W.",
-          "url": "https://law.justia.com/cases/ohio/second-district-court-of-appeals/2025/30380.html",
-          "year": 2025,
-          "court": "Second District Court Of Appeals",
-          "citation": "Ohio Second District Court Of Appeals Case 30380 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "30404",
-          "title": "In re Adoption of D.X.B.",
-          "url": "https://law.justia.com/cases/ohio/second-district-court-of-appeals/2025/30404.html",
-          "year": 2025,
-          "court": "Second District Court Of Appeals",
-          "citation": "Ohio Second District Court Of Appeals Case 30404 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "2025-ca-1",
-          "title": "In re Adoption of B.M.H.M",
-          "url": "https://law.justia.com/cases/ohio/second-district-court-of-appeals/2025/2025-ca-1.html",
-          "year": 2025,
-          "court": "Second District Court Of Appeals",
-          "citation": "Ohio Second District Court Of Appeals Case 2025-ca-1 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "2024-ca-24-2",
-          "title": "In re Adoption of G.A.J.-K.",
-          "url": "https://law.justia.com/cases/ohio/second-district-court-of-appeals/2025/2024-ca-24-2.html",
-          "year": 2025,
-          "court": "Second District Court Of Appeals",
-          "citation": "Ohio Second District Court Of Appeals Case 2024-ca-24-2 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "3-25-08",
-          "title": "In re Adoption of D.C.H.",
-          "url": "https://law.justia.com/cases/ohio/third-district-court-of-appeals/2025/3-25-08.html",
-          "year": 2025,
-          "court": "Third District Court Of Appeals",
-          "citation": "Ohio Third District Court Of Appeals Case 3-25-08 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "13-25-07",
-          "title": "In re Adoption of T.M.Z.",
-          "url": "https://law.justia.com/cases/ohio/third-district-court-of-appeals/2025/13-25-07.html",
-          "year": 2025,
-          "court": "Third District Court Of Appeals",
-          "citation": "Ohio Third District Court Of Appeals Case 13-25-07 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "5-24-37",
-          "title": "In re Adoption of V.C.",
-          "url": "https://law.justia.com/cases/ohio/third-district-court-of-appeals/2025/5-24-37.html",
-          "year": 2025,
-          "court": "Third District Court Of Appeals",
-          "citation": "Ohio Third District Court Of Appeals Case 5-24-37 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "2025ca00047",
-          "title": "In re Guardianship of Babcock",
-          "url": "https://law.justia.com/cases/ohio/fifth-district-court-of-appeals/2025/2025ca00047.html",
-          "year": 2025,
-          "court": "Fifth District Court Of Appeals",
-          "citation": "Ohio Fifth District Court Of Appeals Case 2025ca00047 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

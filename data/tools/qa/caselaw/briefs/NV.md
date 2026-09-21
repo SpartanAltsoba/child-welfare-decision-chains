@@ -1,0 +1,1067 @@
+# NV — 51 authorities, verified 2026-09-20
+
+## INP-01 · Mandatory Report
+- **Clark County Department of Family Services v. Eighth Judicial District Court (Sharp)**, 141 Nev. Adv. Op. 10 (Nev. Mar. 6, 2025)
+  Holding: NRS 432B.290(4) creates only a limited privilege for the identity of a person who reports suspected child abuse — available when the agency determines disclosure would harm an investigation or endanger a person — and it did not bar the court from ordering DFS to disclose reporter identities to a criminal defendant.
+  Why here: Directly governs whether a mandated reporter's identity stays confidential in Nevada — the answer is qualified, not absolute.
+  Quote: “we hold that the district court did not exceed its jurisdiction when it ordered DFS to release the names of the individuals who made the reports at issue”
+  https://www.courtlistener.com/opinion/10351457/clark-cnty-dept-of-fam-serv-v-dist-ct-sharp/
+- **DeShaney v. Winnebago County Department of Social Services**, 489 U.S. 189 (1989)
+  Holding: The Due Process Clause imposes no affirmative obligation on a State to protect a child from private violence it did not create, even where the agency received repeated abuse reports and failed to act. (Joshua DeShaney was never in state custody and survived with profound brain injury; this is not a death-in-care case.)
+  Why here: A mandated report that the agency receives and does not act on creates no federal constitutional duty to the child.
+  Quote: “its language cannot fairly be extended to impose an affirmative obligation on the State to ensure that those interests do not come to harm through other means.”
+  https://www.courtlistener.com/opinion/112202/deshaney-v-winnebago-county-department-of-social-services/
+- **In re Parental Rights as to J.D.N.**, 128 Nev. 462, 283 P.3d 842 (2012)
+  Holding: The juvenile 'J' file does not automatically form part of the family division's record in a termination proceeding and is admissible only if it satisfies Nevada's evidence rules, including the hearsay rule; NRS 128.090(3) removes only privilege objections, not hearsay objections. A parent who objects to the entire file without identifying the specific hearsay portions waives the objection. Once an NRS 128.109 presumption applies, the parent may rebut it by a preponderance of the evidence. Affirmed.
+  Why here: A mandated reporter's report reaches the termination court inside the 'J' file, and this case holds that it is not automatically in evidence — it must satisfy the hearsay rule like any other document.
+  Quote: “the "J" file is only admissible if it complies with Nevada's statutes and rules of evidence, including the hearsay rule and any hearsay exception”
+  https://www.courtlistener.com/opinion/8086015/quiana-m-b-v-state-department-of-family-services/
+
+## INP-02 · Voluntary / Third-Party Report
+- **Clark County Department of Family Services v. Eighth Judicial District Court (Sharp)**, 141 Nev. Adv. Op. 10 (Nev. Mar. 6, 2025)
+  Holding: NRS 432B.290(4) creates only a limited privilege for the identity of a person who reports suspected child abuse — available when the agency determines disclosure would harm an investigation or endanger a person — and it did not bar the court from ordering DFS to disclose reporter identities to a criminal defendant.
+  Why here: A voluntary reporter's anonymity is a limited privilege the agency must affirmatively invoke and justify.
+  Quote: “we hold that the district court did not exceed its jurisdiction when it ordered DFS to release the names of the individuals who made the reports at issue”
+  https://www.courtlistener.com/opinion/10351457/clark-cnty-dept-of-fam-serv-v-dist-ct-sharp/
+- **DeShaney v. Winnebago County Department of Social Services**, 489 U.S. 189 (1989)
+  Holding: The Due Process Clause imposes no affirmative obligation on a State to protect a child from private violence it did not create, even where the agency received repeated abuse reports and failed to act. (Joshua DeShaney was never in state custody and survived with profound brain injury; this is not a death-in-care case.)
+  Why here: The same limit applies to third-party reports, which is why state reporting statutes and oversight carry the weight.
+  Quote: “its language cannot fairly be extended to impose an affirmative obligation on the State to ensure that those interests do not come to harm through other means.”
+  https://www.courtlistener.com/opinion/112202/deshaney-v-winnebago-county-department-of-social-services/
+- **In re Parental Rights as to J.D.N.**, 128 Nev. 462, 283 P.3d 842 (2012)
+  Holding: The juvenile 'J' file does not automatically form part of the family division's record in a termination proceeding and is admissible only if it satisfies Nevada's evidence rules, including the hearsay rule; NRS 128.090(3) removes only privilege objections, not hearsay objections. A parent who objects to the entire file without identifying the specific hearsay portions waives the objection. Once an NRS 128.109 presumption applies, the parent may rebut it by a preponderance of the evidence. Affirmed.
+  Why here: Third-party reports compiled into the agency file carry no automatic admissibility in a termination trial.
+  Quote: “the "J" file is only admissible if it complies with Nevada's statutes and rules of evidence, including the hearsay rule and any hearsay exception”
+  https://www.courtlistener.com/opinion/8086015/quiana-m-b-v-state-department-of-family-services/
+
+## INP-03 · Law-Enforcement Referral
+- **Wallis v. Spencer**, 193 F.3d 1054 (9th Cir. 1999)
+  Holding: Officials who seized children on the basis of a non-existent court order and subjected them to invasive medical examinations without parental notice, consent or judicial authorization violated the family's constitutional rights; any intrusion must be strictly circumscribed by the exigency that justified it.
+  Why here: Police acting on a supposed order without verifying it is the paradigm of an unlawful law-enforcement-driven seizure.
+  Quote: “The right to family association includes the right of parents to make important medical decisions for their children, and of children to have those decisions made by their parents”
+  https://www.courtlistener.com/opinion/766447/wallis-v-spencer/
+- **Clark County Department of Family Services v. Eighth Judicial District Court (Sharp)**, 141 Nev. Adv. Op. 10 (Nev. Mar. 6, 2025)
+  Holding: NRS 432B.290(4) creates only a limited privilege for the identity of a person who reports suspected child abuse — available when the agency determines disclosure would harm an investigation or endanger a person — and it did not bar the court from ordering DFS to disclose reporter identities to a criminal defendant.
+  Why here: Controls DFS disclosure of its reports to parties in a related criminal prosecution.
+  Quote: “we hold that the district court did not exceed its jurisdiction when it ordered DFS to release the names of the individuals who made the reports at issue”
+  https://www.courtlistener.com/opinion/10351457/clark-cnty-dept-of-fam-serv-v-dist-ct-sharp/
+- **In re Parental Rights as to J.D.N.**, 128 Nev. 462, 283 P.3d 842 (2012)
+  Holding: The juvenile 'J' file does not automatically form part of the family division's record in a termination proceeding and is admissible only if it satisfies Nevada's evidence rules, including the hearsay rule; NRS 128.090(3) removes only privilege objections, not hearsay objections. A parent who objects to the entire file without identifying the specific hearsay portions waives the objection. Once an NRS 128.109 presumption applies, the parent may rebut it by a preponderance of the evidence. Affirmed.
+  Why here: Law-enforcement referrals and the agency reports built on them are subject to hearsay objection when the State offers the 'J' file.
+  Quote: “the "J" file is only admissible if it complies with Nevada's statutes and rules of evidence, including the hearsay rule and any hearsay exception”
+  https://www.courtlistener.com/opinion/8086015/quiana-m-b-v-state-department-of-family-services/
+
+## INP-04 · Court-Ordered Referral
+- **In re A.T.**, 141 Nev. Adv. Op. 32 (Nev. June 12, 2025)
+  Holding: NRS 432B.530(2) does not confine a party to admitting or denying the petition's allegations; a district court may properly accept a no-contest plea in a Chapter 432B dependency proceeding without the prosecutor's agreement.
+  Why here: Once a referral becomes a petition, this defines the responsive pleas available to the parent at the first hearing.
+  Quote: “we hold that a district court may properly accept a no-contest plea in this context.”
+  https://www.courtlistener.com/opinion/10603655/in-re-at-a-minor-family/
+- **Washoe County Department of Social Services v. Kory L.G.**, 129 Nev. 125, 295 P.3d 589 (2013)
+  Holding: A non-offending parent — one not found to have abused or neglected the child — cannot be compelled to comply with an NRS 432B.560 case plan as a condition of reunification, and the agency's reasonable-efforts duty under NRS 432B.393 runs regardless.
+  Why here: Frames what a court may and may not order an agency or a non-offending parent to do once a dependency referral is opened.
+  Quote: “the agency must make reasonable efforts to reunify and preserve the family of the child, with the child's health and safety being a paramount concern”
+  https://www.courtlistener.com/opinion/8086054/washoe-county-department-of-social-services-v-kory-lg/
+
+## INP-05 · Self-Report / Guardian Request
+- **Clark County v. Eighth Judicial District Court (Eggleston)**, 141 Nev. Adv. Op. 31 (Nev. June 12, 2025)
+  Holding: Qualified immunity and Nevada discretionary-act immunity barred suit against a county social worker who allegedly coerced a parent into signing temporary guardianship papers placing his children with relatives instead of filing a petition.
+  Why here: Describes the informal, non-petition route Nevada caseworkers use when a parent is asked to sign children over to relatives.
+  Quote: “we consider whether qualified and discretionary-act immunity apply to bar suit against a social worker who allegedly coerced a parent to sign guardianship papers”
+  https://www.courtlistener.com/opinion/10603656/clark-cnty-v-dist-ct-eggleston/
+- **Capp v. County of San Diego**, 940 F.3d 1046 (9th Cir. 2019)
+  Holding: A social worker who threatens to terminate a parent's custody in retaliation for the parent's protected criticism of the agency violates the First Amendment, and is not entitled to qualified immunity.
+  Why here: A parent who seeks help or questions the agency may not be punished for doing so.
+  Quote: “A reasonable official would have known that taking the serious step of threatening to terminate a parent's custody of his children”
+  https://www.courtlistener.com/opinion/4667181/jonathan-capp-v-county-of-san-diego/
+- **Troxel v. Granville**, 530 U.S. 57, 68 (2000) (plurality opinion)
+  Holding: A fit parent's decisions about the care, custody and control of his or her children are presumed to be in the children's best interests, and a court may not override them merely because it would decide differently.
+  Why here: A parent's own request for help does not waive the presumption that the parent's decisions are in the child's interest (an application of the fit-parent presumption, not language in Troxel).
+  Quote: “there is a presumption that fit parents act in the best interests of their children”
+  https://www.courtlistener.com/opinion/1087668/troxel-v-granville/
+- **Eggleston v. Stuart**, 137 Nev. 506, 495 P.3d 482 (2021)
+  Holding: Following Patsy v. Board of Regents, a plaintiff generally need not exhaust administrative remedies before bringing a § 1983 claim, subject to Zinermon v. Burch's narrow exception for procedural due process claims. Because the father's claim that a caseworker and police coerced him into signing a temporary guardianship was a substantive due process claim, dismissal for failure to exhaust his DFS substantiation appeal was error, as was the ruling that punitive damages were unavailable against the caseworker. Reversed and remanded.
+  Why here: Shows the risk a parent runs in self-referring to the agency, and that the remedy for what follows is not confined to the agency's internal process.
+  Quote: “a party generally is not required to exhaust administrative remedies before filing a § 1983 civil rights claim”
+  https://www.courtlistener.com/opinion/5106965/eggleston-vs-stuart/
+
+## INP-06 · Anonymous Tip / Hotline
+- **Clark County Department of Family Services v. Eighth Judicial District Court (Sharp)**, 141 Nev. Adv. Op. 10 (Nev. Mar. 6, 2025)
+  Holding: NRS 432B.290(4) creates only a limited privilege for the identity of a person who reports suspected child abuse — available when the agency determines disclosure would harm an investigation or endanger a person — and it did not bar the court from ordering DFS to disclose reporter identities to a criminal defendant.
+  Why here: The most recent Nevada authority on hotline-reporter confidentiality under NRS 432B.290(4).
+  Quote: “we hold that the district court did not exceed its jurisdiction when it ordered DFS to release the names of the individuals who made the reports at issue”
+  https://www.courtlistener.com/opinion/10351457/clark-cnty-dept-of-fam-serv-v-dist-ct-sharp/
+- **Mabe v. San Bernardino County**, 237 F.3d 1101 (9th Cir. 2001)
+  Holding: Officials may not enter a home or seize a child without prior judicial authorization unless they possess information at the time of seizure establishing reasonable cause to believe the child is in imminent danger of serious bodily injury, and the intrusion must be no broader than necessary to avert that injury.
+  Why here: A hotline allegation, standing alone, does not supply the reasonable cause required for warrantless entry or seizure.
+  Quote: “reasonable cause to believe that the child is in imminent danger of serious bodily injury and that the scope of the intrusion is reasonably necessary to avert that specific injury.”
+  https://www.courtlistener.com/opinion/771798/mabe-v-san-bernardino-county/
+- **In re Parental Rights as to J.D.N.**, 128 Nev. 462, 283 P.3d 842 (2012)
+  Holding: The juvenile 'J' file does not automatically form part of the family division's record in a termination proceeding and is admissible only if it satisfies Nevada's evidence rules, including the hearsay rule; NRS 128.090(3) removes only privilege objections, not hearsay objections. A parent who objects to the entire file without identifying the specific hearsay portions waives the objection. Once an NRS 128.109 presumption applies, the parent may rebut it by a preponderance of the evidence. Affirmed.
+  Why here: Hotline intake documents in the 'J' file are admissible only through a hearsay rule or exception, not by virtue of being in the agency's file.
+  Quote: “the "J" file is only admissible if it complies with Nevada's statutes and rules of evidence, including the hearsay rule and any hearsay exception”
+  https://www.courtlistener.com/opinion/8086015/quiana-m-b-v-state-department-of-family-services/
+
+## INP-07 · Medical Disclosure
+- **Jason S. v. Valley Hospital Medical Center**, 120 Nev. 157, 87 P.3d 521 (2004)
+  Holding: A parent's substantive due process rights are not violated when a district court appoints a temporary guardian under NRS 159.052 to consent to medically necessary care that the parents refused on religious grounds, subject to notice within 48 hours and a hearing within ten days.
+  Why here: Defines the medical provider's lawful route when a clinical encounter reveals a refusal of necessary treatment.
+  Quote: “we hold that a parent's substantive due process rights are not violated when the district court awards temporary guardianship of a minor child”
+  https://www.courtlistener.com/opinion/8085819/jason-s-v-valley-hospital-medical-center/
+- **Mann v. County of San Diego**, 907 F.3d 1154 (9th Cir. 2018)
+  Holding: A county violates parents' Fourteenth Amendment substantive due process rights when it performs medical examinations of removed children without notifying the parents and without either parental consent or judicial authorization, and the children's Fourth Amendment rights are separately implicated.
+  Why here: Routine intake medical examinations of children entering care are not exempt from parental notice and consent requirements.
+  Quote: “the County violates parents' Fourteenth Amendment substantive due process rights when it performs the Polinsky medical examinations without notifying the parents”
+  https://www.courtlistener.com/opinion/4548912/mark-mann-v-county-of-san-diego/
+- **Wallis v. Spencer**, 193 F.3d 1054 (9th Cir. 1999)
+  Holding: Officials who seized children on the basis of a non-existent court order and subjected them to invasive medical examinations without parental notice, consent or judicial authorization violated the family's constitutional rights; any intrusion must be strictly circumscribed by the exigency that justified it.
+  Why here: Parents hold the constitutional right to make and be present for their children's medical decisions, including forensic examinations.
+  Quote: “The right to family association includes the right of parents to make important medical decisions for their children, and of children to have those decisions made by their parents”
+  https://www.courtlistener.com/opinion/766447/wallis-v-spencer/
+- **Henry A. v. Willden**, 678 F.3d 991 (9th Cir. 2012)
+  Holding: Clark County and Nevada foster children stated clearly established substantive due process claims under the 'special relationship' doctrine for inadequate safety and medical care, and the court applied the Blessing test to determine which Child Welfare Act and CAPTA provisions are privately enforceable under § 1983.
+  Why here: Foster children have an enforceable due process right to adequate medical, dental and mental health care while in state custody.
+  Quote: “Having examined the relevant contours of a foster child's clearly established due process rights to adequate safety and medical care”
+  https://www.courtlistener.com/opinion/799337/henry-a-v-willden/
+
+## INP-08 · Educational Disclosure
+- **Clark County Department of Family Services v. Eighth Judicial District Court (Sharp)**, 141 Nev. Adv. Op. 10 (Nev. Mar. 6, 2025)
+  Holding: NRS 432B.290(4) creates only a limited privilege for the identity of a person who reports suspected child abuse — available when the agency determines disclosure would harm an investigation or endanger a person — and it did not bar the court from ordering DFS to disclose reporter identities to a criminal defendant.
+  Why here: A school employee's report is protected only to the extent the agency makes the required harm determination.
+  Quote: “we hold that the district court did not exceed its jurisdiction when it ordered DFS to release the names of the individuals who made the reports at issue”
+  https://www.courtlistener.com/opinion/10351457/clark-cnty-dept-of-fam-serv-v-dist-ct-sharp/
+- **In re Parental Rights as to J.D.N.**, 128 Nev. 462, 283 P.3d 842 (2012)
+  Holding: The juvenile 'J' file does not automatically form part of the family division's record in a termination proceeding and is admissible only if it satisfies Nevada's evidence rules, including the hearsay rule; NRS 128.090(3) removes only privilege objections, not hearsay objections. A parent who objects to the entire file without identifying the specific hearsay portions waives the objection. Once an NRS 128.109 presumption applies, the parent may rebut it by a preponderance of the evidence. Affirmed.
+  Why here: An educator's report travels into court as part of the 'J' file, and this decision governs how that document is tested — by specific objection, portion by portion.
+  Quote: “the "J" file is only admissible if it complies with Nevada's statutes and rules of evidence, including the hearsay rule and any hearsay exception”
+  https://www.courtlistener.com/opinion/8086015/quiana-m-b-v-state-department-of-family-services/
+
+## INP-09 · Systemic Audit / Oversight Trigger
+- **Henry A. v. Willden**, 678 F.3d 991 (9th Cir. 2012)
+  Holding: Clark County and Nevada foster children stated clearly established substantive due process claims under the 'special relationship' doctrine for inadequate safety and medical care, and the court applied the Blessing test to determine which Child Welfare Act and CAPTA provisions are privately enforceable under § 1983.
+  Why here: A systemic class action against the Nevada and Clark County child welfare agencies — the litigation form that oversight failure takes.
+  Quote: “Having examined the relevant contours of a foster child's clearly established due process rights to adequate safety and medical care”
+  https://www.courtlistener.com/opinion/799337/henry-a-v-willden/
+- **In re N.R.R.**, 140 Nev. Adv. Op. 77 (Nev. Dec. 5, 2024)
+  Holding: A district court in an NRS Chapter 432B proceeding lacks statutory authority to order the child welfare agency to pay rental assistance to a foster parent; the agency retains broad discretion over the services and supports it funds.
+  Why here: Shows that judicial oversight of a Nevada child welfare agency does not extend to directing its spending — oversight must come from elsewhere.
+  Quote: “We conclude that the district court lacked statutory authority to order DFS to pay rental assistance to a foster parent.”
+  https://www.courtlistener.com/opinion/10288704/in-re-matter-of-nrr-and-nir/
+- **Public Employees' Retirement System of Nevada v. Nevada Policy Research Institute, Inc.**, 134 Nev. Adv. Op. 81, 429 P.3d 280 (2018)
+  Holding: Under the Nevada Public Records Act an agency must disclose requested information where producing it merely requires searching an existing database, the information is readily accessible and not confidential, and speculative risks of disclosure do not outweigh the public's interest in access.
+  Why here: Supplies the records mechanism by which outside reviewers obtain the agency data that triggers oversight.
+  Quote: “is readily accessible and not confidential, and the alleged risks posed by disclosure do not outweigh the benefits of the public's interest in access to the records”
+  https://www.courtlistener.com/opinion/6657499/pub-employees-ret-sys-of-nev-v-nev-policy-research-inst-inc/
+
+## INP-10 · Agency Escalation (Screening → Investigation)
+- **Mabe v. San Bernardino County**, 237 F.3d 1101 (9th Cir. 2001)
+  Holding: Officials may not enter a home or seize a child without prior judicial authorization unless they possess information at the time of seizure establishing reasonable cause to believe the child is in imminent danger of serious bodily injury, and the intrusion must be no broader than necessary to avert that injury.
+  Why here: Marks the constitutional ceiling on what an escalated investigation may do without a court order.
+  Quote: “reasonable cause to believe that the child is in imminent danger of serious bodily injury and that the scope of the intrusion is reasonably necessary to avert that specific injury.”
+  https://www.courtlistener.com/opinion/771798/mabe-v-san-bernardino-county/
+- **Capp v. County of San Diego**, 940 F.3d 1046 (9th Cir. 2019)
+  Holding: A social worker who threatens to terminate a parent's custody in retaliation for the parent's protected criticism of the agency violates the First Amendment, and is not entitled to qualified immunity.
+  Why here: Escalation from screening to investigation driven by retaliatory motive rather than risk is actionable.
+  Quote: “A reasonable official would have known that taking the serious step of threatening to terminate a parent's custody of his children”
+  https://www.courtlistener.com/opinion/4667181/jonathan-capp-v-county-of-san-diego/
+- **Washoe County Department of Social Services v. Kory L.G.**, 129 Nev. 125, 295 P.3d 589 (2013)
+  Holding: A non-offending parent — one not found to have abused or neglected the child — cannot be compelled to comply with an NRS 432B.560 case plan as a condition of reunification, and the agency's reasonable-efforts duty under NRS 432B.393 runs regardless.
+  Why here: Marks the line between the offending and non-offending parent as the escalation from assessment to case-planning occurs.
+  Quote: “the agency must make reasonable efforts to reunify and preserve the family of the child, with the child's health and safety being a paramount concern”
+  https://www.courtlistener.com/opinion/8086054/washoe-county-department-of-social-services-v-kory-lg/
+
+## INP-11 · Federal / Tribal Jurisdiction Trigger
+- **In re Parental Rights as to S.M.M.D. and T.A.D.**, 128 Nev. 14, 272 P.3d 126 (2012)
+  Holding: A tribal-state agreement under 25 U.S.C. § 1919(a) may vest a Nevada district court with subject-matter jurisdiction over an Indian child custody proceeding even where § 1911(a) would otherwise place exclusive jurisdiction in the tribal court.
+  Why here: The controlling Nevada authority on when a state court may hear an ICWA case and on the tribal-notice requirements that travel with it.
+  Quote: “We therefore uphold the district court's jurisdiction over Raena's relinquishment of parental rights under 25 U.S.C. § 1919”
+  https://www.courtlistener.com/opinion/8085986/raena-r-v-state/
+- **Mississippi Band of Choctaw Indians v. Holyfield**, 490 U.S. 30 (1989)
+  Holding: Domicile under ICWA is a matter of uniform federal law, and children domiciled on the reservation fall within the tribal court's exclusive jurisdiction under 25 U.S.C. § 1911(a) even where the parents voluntarily gave birth off-reservation.
+  Why here: The foundational federal authority on when a state court has no jurisdiction at all over an Indian child.
+  Quote: “Section 1911(a) establishes exclusive jurisdiction in the tribal courts for proceedings concerning an Indian child”
+  https://www.courtlistener.com/opinion/112241/mississippi-band-of-choctaw-indians-v-holyfield/
+- **Haaland v. Brackeen**, 599 U.S. 255 (2023)
+  Holding: ICWA is a valid exercise of Congress's Article I authority over Indian affairs, its placement and procedural requirements do not violate the anticommandeering doctrine, and the equal protection and nondelegation challenges failed for lack of standing (so the constitutionality of the placement preferences remains formally open).
+  Why here: Confirms that ICWA and its Nevada analogue in NRS Chapter 125E remain fully binding on state courts and agencies.
+  Quote: “the bottom line is that we reject all of petitioners' challenges to the statute, some on the merits and others for lack of standing.”
+  https://www.courtlistener.com/opinion/9406660/haaland-v-brackeen/
+- **Adoptive Couple v. Baby Girl**, 570 U.S. 637 (2013)
+  Holding: Sections 1912(f) and 1912(d) of ICWA do not bar termination of the rights of a parent who never had custody of the Indian child, because there is no 'continued custody' to be broken up and no family to preserve through remedial efforts.
+  Why here: Narrows which ICWA protections attach when the Indian parent never had physical or legal custody.
+  Quote: “we hold that neither § 1912(f) nor § 1912(d) bars the termination of his parental rights”
+  https://www.courtlistener.com/opinion/931616/adoptive-couple-v-baby-girl/
+- **Phillip A. C. v. Central Council of the Tlingit & Haida Tribes of Alaska**, 122 Nev. 1284, 149 P.3d 51 (2006)
+  Holding: A tribal enrollment officer's affidavit may be used to establish that a child is an Indian child subject to ICWA, but the adoptive parent must be given an opportunity to rebut it; an Indian tribe has independent standing under 25 U.S.C. § 1914 to challenge a voluntary adoption, and a violation of § 1913(a)'s consent-certification requirement makes the adoption order voidable rather than void. Reversed and remanded so the adoptive parent could present rebuttal evidence.
+  Why here: Nevada's published answer to two practical ICWA questions the statute does not settle — how Indian-child status is proved in a state court and who may raise ICWA — and it confirms that the tribe can intervene in a voluntary adoption on its own footing.
+  Quote: “a Native American tribe has independent standing under the ICWA to challenge the voluntary adoption of a Native American child”
+  https://www.courtlistener.com/opinion/2565779/phillip-a-c-v-central-council-of-the-tlingit-haida-tribes-of-alaska/
+
+## INP-12 · Emergency / Protective Custody
+- **Rogers v. County of San Joaquin**, 487 F.3d 1288 (9th Cir. 2007)
+  Holding: A social worker who removes a child without a warrant violates the Fourth and Fourteenth Amendments unless reasonable cause exists to believe the child would suffer serious bodily harm in the time it would take to obtain a warrant.
+  Why here: Defines the exigency that must exist before Nevada officials may take protective custody without judicial authorization.
+  Quote: “Officials, including social workers, who remove a child from its home without a warrant must have reasonable cause to believe that the child is likely to experience serious bodily harm”
+  https://www.courtlistener.com/opinion/797914/rogers-v-county-of-san-joaquin/
+- **Mabe v. San Bernardino County**, 237 F.3d 1101 (9th Cir. 2001)
+  Holding: Officials may not enter a home or seize a child without prior judicial authorization unless they possess information at the time of seizure establishing reasonable cause to believe the child is in imminent danger of serious bodily injury, and the intrusion must be no broader than necessary to avert that injury.
+  Why here: The source of the Ninth Circuit's imminent-danger formulation for warrantless protective custody.
+  Quote: “reasonable cause to believe that the child is in imminent danger of serious bodily injury and that the scope of the intrusion is reasonably necessary to avert that specific injury.”
+  https://www.courtlistener.com/opinion/771798/mabe-v-san-bernardino-county/
+- **Wallis v. Spencer**, 193 F.3d 1054 (9th Cir. 1999)
+  Holding: Officials who seized children on the basis of a non-existent court order and subjected them to invasive medical examinations without parental notice, consent or judicial authorization violated the family's constitutional rights; any intrusion must be strictly circumscribed by the exigency that justified it.
+  Why here: Protective custody must be strictly limited to what the claimed emergency actually requires.
+  Quote: “The right to family association includes the right of parents to make important medical decisions for their children, and of children to have those decisions made by their parents”
+  https://www.courtlistener.com/opinion/766447/wallis-v-spencer/
+- **Jason S. v. Valley Hospital Medical Center**, 120 Nev. 157, 87 P.3d 521 (2004)
+  Holding: A parent's substantive due process rights are not violated when a district court appoints a temporary guardian under NRS 159.052 to consent to medically necessary care that the parents refused on religious grounds, subject to notice within 48 hours and a hearing within ten days.
+  Why here: An alternative to protective custody: temporary guardianship limited to the medical decision, with statutory notice and hearing deadlines.
+  Quote: “we hold that a parent's substantive due process rights are not violated when the district court awards temporary guardianship of a minor child”
+  https://www.courtlistener.com/opinion/8085819/jason-s-v-valley-hospital-medical-center/
+- **Stanley v. Illinois**, 405 U.S. 645 (1972)
+  Holding: Due process entitles a parent to a hearing on his fitness before his children are taken from him, and a State may not presume unfitness by category.
+  Why here: Emergency custody must be followed promptly by an individualized hearing rather than a categorical presumption.
+  Quote: “as a matter of due process of law, Stanley was entitled to a hearing on his fitness as a parent before his children were taken from him”
+  https://www.courtlistener.com/opinion/108497/stanley-v-illinois/
+
+## DEC-01 · Screen-Out / Unfounded at Intake
+- **DeShaney v. Winnebago County Department of Social Services**, 489 U.S. 189 (1989)
+  Holding: The Due Process Clause imposes no affirmative obligation on a State to protect a child from private violence it did not create, even where the agency received repeated abuse reports and failed to act. (Joshua DeShaney was never in state custody and survived with profound brain injury; this is not a death-in-care case.)
+  Why here: A screen-out that later proves catastrophic is not, without more, a federal constitutional violation.
+  Quote: “its language cannot fairly be extended to impose an affirmative obligation on the State to ensure that those interests do not come to harm through other means.”
+  https://www.courtlistener.com/opinion/112202/deshaney-v-winnebago-county-department-of-social-services/
+- **Mabe v. San Bernardino County**, 237 F.3d 1101 (9th Cir. 2001)
+  Holding: Officials may not enter a home or seize a child without prior judicial authorization unless they possess information at the time of seizure establishing reasonable cause to believe the child is in imminent danger of serious bodily injury, and the intrusion must be no broader than necessary to avert that injury.
+  Why here: An uncorroborated allegation that fails this test is one the agency must investigate further rather than act on.
+  Quote: “reasonable cause to believe that the child is in imminent danger of serious bodily injury and that the scope of the intrusion is reasonably necessary to avert that specific injury.”
+  https://www.courtlistener.com/opinion/771798/mabe-v-san-bernardino-county/
+
+## DEC-02 · Accept for Investigation / Assessment
+- **Mabe v. San Bernardino County**, 237 F.3d 1101 (9th Cir. 2001)
+  Holding: Officials may not enter a home or seize a child without prior judicial authorization unless they possess information at the time of seizure establishing reasonable cause to believe the child is in imminent danger of serious bodily injury, and the intrusion must be no broader than necessary to avert that injury.
+  Why here: Accepting a report for investigation does not authorize entry or seizure absent this showing.
+  Quote: “reasonable cause to believe that the child is in imminent danger of serious bodily injury and that the scope of the intrusion is reasonably necessary to avert that specific injury.”
+  https://www.courtlistener.com/opinion/771798/mabe-v-san-bernardino-county/
+- **Capp v. County of San Diego**, 940 F.3d 1046 (9th Cir. 2019)
+  Holding: A social worker who threatens to terminate a parent's custody in retaliation for the parent's protected criticism of the agency violates the First Amendment, and is not entitled to qualified immunity.
+  Why here: The decision to open or expand an investigation may not be made in retaliation for protected speech.
+  Quote: “A reasonable official would have known that taking the serious step of threatening to terminate a parent's custody of his children”
+  https://www.courtlistener.com/opinion/4667181/jonathan-capp-v-county-of-san-diego/
+
+## DEC-03 · Substantiated / Founded Finding
+- **Clark County Department of Family Services v. Eighth Judicial District Court (Sharp)**, 141 Nev. Adv. Op. 10 (Nev. Mar. 6, 2025)
+  Holding: NRS 432B.290(4) creates only a limited privilege for the identity of a person who reports suspected child abuse — available when the agency determines disclosure would harm an investigation or endanger a person — and it did not bar the court from ordering DFS to disclose reporter identities to a criminal defendant.
+  Why here: The underlying report and reporter identity may become discoverable once the matter moves into litigation.
+  Quote: “we hold that the district court did not exceed its jurisdiction when it ordered DFS to release the names of the individuals who made the reports at issue”
+  https://www.courtlistener.com/opinion/10351457/clark-cnty-dept-of-fam-serv-v-dist-ct-sharp/
+- **In re Parental Rights as to K.D.L. and S.P.K.**, 118 Nev. 737, 58 P.3d 181 (2002)
+  Holding: Termination of parental rights requires clear and convincing proof of both the child's best interests and a statutory ground of parental fault, and incarceration alone cannot supply the fault finding.
+  Why here: Fixes the evidentiary weight a substantiated agency finding must ultimately carry if the State intends to move from finding to termination.
+  Quote: “To terminate a parent's rights, a petitioner must prove, by clear and convincing evidence, that termination is in the child's best interests and that there is parental fault.”
+  https://www.courtlistener.com/opinion/8085801/richard-j-k-v-state-division-of-child-family-services/
+- **Santosky v. Kramer**, 455 U.S. 745 (1982)
+  Holding: Before a State may sever completely and irrevocably the rights of parents in their natural child, due process requires that the State support its allegations by at least clear and convincing evidence.
+  Why here: The federal constitutional floor that an agency finding must eventually meet if it is to support severance of the parent-child relationship.
+  Quote: “due process requires that the State support its allegations by at least clear and convincing evidence”
+  https://www.courtlistener.com/opinion/110676/santosky-v-kramer/
+- **In re Parental Rights as to J.D.N.**, 128 Nev. 462, 283 P.3d 842 (2012)
+  Holding: The juvenile 'J' file does not automatically form part of the family division's record in a termination proceeding and is admissible only if it satisfies Nevada's evidence rules, including the hearsay rule; NRS 128.090(3) removes only privilege objections, not hearsay objections. A parent who objects to the entire file without identifying the specific hearsay portions waives the objection. Once an NRS 128.109 presumption applies, the parent may rebut it by a preponderance of the evidence. Affirmed.
+  Why here: Tells a parent how a substantiated finding recorded in the agency file can and cannot be used as proof later, and what a lawyer must do to keep the objection alive on appeal.
+  Quote: “the "J" file is only admissible if it complies with Nevada's statutes and rules of evidence, including the hearsay rule and any hearsay exception”
+  https://www.courtlistener.com/opinion/8086015/quiana-m-b-v-state-department-of-family-services/
+- **In re Parental Rights as to N.J.**, 116 Nev. 790, 8 P.3d 126 (2000)
+  Holding: Abandoning the jurisdictional/dispositional framework of Champagne v. Welfare Division, the court adopted the best-interest/parental-fault standard that Nevada applies today: a district court must find both that termination serves the child's best interest and that parental fault exists. The district court also erred by failing to apply NRS 128.012(2)'s abandonment presumption. Orders reversed and remanded for a new trial.
+  Why here: Establishes that a fault finding and a best-interest finding are separate inquiries, neither of which a substantiated agency finding supplies by itself.
+  Quote: “we now reject our Champagne standard, which requires a district court to find jurisdictional grounds to terminate parental rights before it considers the best interests of the child”
+  https://www.courtlistener.com/opinion/8085758/sam-z-v-hikmet/
+- **Champagne v. Welfare Division of the Nevada State Department of Human Resources**, 100 Nev. 640, 691 P.2d 849 (1984)
+  Holding: In four consolidated appeals the court held that parental rights may be severed only on clear and convincing proof of parental unsuitability — serious and persistent fault or incapacity, not mere inadequacy — together with dispositional grounds in the child's best interest; it affirmed two terminations and reversed two. Its two-step jurisdictional/dispositional framework was later rejected in In re Parental Rights as to N.J., 116 Nev. 790 (2000), but its unsuitability analysis remains the court's reference point, including in In re Parental Rights as to S.A.T. (2025).
+  Why here: Draws the distinction Nevada still uses between neglect (a condition of the child), unfitness (a condition of the parent) and unsuitability (the constitutional threshold for severance).
+  Quote: “Absent a showing of unsuitability, invasion of the liberty interest in parenthood is not constitutionally warranted.”
+  https://www.courtlistener.com/opinion/1408398/champagne-v-welfare-div-of-nev-state-dept/
+- **In re Parental Rights as to Q.L.R.**, 118 Nev. 602, 54 P.3d 56 (2002)
+  Holding: On an issue of first impression, the court held that incarceration resulting from a parent's voluntary criminal conduct does not by itself establish an intent to abandon the child; because the record contained no substantial evidence of abandonment, the termination of the father's parental rights was reversed.
+  Why here: A parent's imprisonment cannot be treated as a self-proving fault finding.
+  Quote: “we hold that voluntary conduct resulting in incarceration does not alone establish an intent to abandon a minor child.”
+  https://www.courtlistener.com/opinion/2516615/matter-of-parental-rights-as-to-qlr/
+- **In re Parental Rights as to C.J.M.**, 118 Nev. 724, 58 P.3d 188 (2002)
+  Holding: Decided as the companion to Q.L.R., this case holds that while incarceration alone cannot justify termination, it is properly weighed with other factors bearing on fitness and the children's best interests; because the district court articulated grounds beyond incarceration — abandonment and more than a year without meaningful contact — termination was affirmed and the agency was not obliged to provide a reunification plan.
+  Why here: Fault must be articulated on grounds over and above the fact of imprisonment.
+  Quote: “incarceration should be considered along with other factors in determining parental fitness and in making a determination on what course of action would serve the children's best interests.”
+  https://www.courtlistener.com/opinion/2544539/francisco-m-v-state-division-of-child-family-services/
+- **In re Parental Rights as to D.R.H.**, 120 Nev. 422, 92 P.3d 1230 (2004)
+  Holding: NRS 128.109(2)'s presumption that termination serves the best interest of a child who has lived outside the home for 14 of 20 consecutive months survives strict scrutiny: it is narrowly tailored to the State's compelling interest in permanency, applies only to children removed under NRS Chapter 432B, is rebuttable, and must be read with NRS 128.105's separate fault requirement. Termination affirmed.
+  Why here: Confirms that the statutory presumption supplements, but does not displace, the clear-and-convincing findings of fault and best interest.
+  Quote: “We conclude that NRS 128.109(2) is constitutional and that substantial evidence supports the district court's decision to terminate Cristan's and Vincent's parental rights.”
+  https://www.courtlistener.com/opinion/8085830/vincent-l-g-v-state-division-of-child-family-services-department-of/
+- **In re Parental Rights as to A.J.G.**, 122 Nev. 1418, 148 P.3d 759 (2006)
+  Holding: Neither Nevada nor federal law requires the State to prove that an adoptive placement exists before a court may terminate parental rights, and once the State establishes the NRS 128.109(2) presumption the parent bears the burden of offering evidence of the child's desires under NRS 128.107(2). Termination affirmed.
+  Why here: Allocates the evidentiary burden once the agency's presumption attaches, which is where a substantiated case usually turns.
+  Quote: “neither state nor federal law on parental rights termination requires the State to prove the existence of an adoptive placement for a child before a court can terminate parental rights”
+  https://www.courtlistener.com/opinion/2543266/tammila-g-v-state-department-of-human-resources/
+- **In re Parental Rights as to A.D.L. and C.L.B., Jr.**, 133 Nev. Adv. Op. 72, 402 P.3d 1280 (2017)
+  Holding: A case plan may not condition compliance on a parent's admission of a criminal act; terminating parental rights because the mother would not admit she intentionally burned her child violated her Fifth Amendment privilege against self-incrimination, and once the NRS 128.109(1)-(2) presumptions were rebutted there was no substantial evidence of fault or of best interest. Reversed.
+  Why here: A refusal to admit the agency's substantiated allegation cannot itself be converted into the fault finding.
+  Quote: “We conclude that a parent cannot be compelled to admit to a crime under the threat of termination of parental rights.”
+  https://www.courtlistener.com/opinion/4634477/in-re-parental-rights-as-to-adl-and-clb-jr/
+- **Donald B. v. Nevada Department of Family Services (In re S.L.)**, 422 P.3d 1253 (Nev. 2018)
+  Holding: Distinguishing A.D.L., the court held that where termination rested not on the parents' refusal to confess but on years of physical and mental abuse of the oldest child witnessed by the younger children, and on the parents' failure to engage in meaningful therapy or show the insight needed to keep the children safe, there was no Fifth Amendment violation and substantial evidence supported both fault and best interest. Affirmed.
+  Why here: Shows how a substantiated finding involving one child supports fault as to siblings who witnessed the abuse.
+  Quote: “although appellants cannot be compelled to admit to a crime, they can be required to engage in meaningful therapy designed to ensure the children's safety if returned to the home”
+  https://www.courtlistener.com/opinion/6656944/donald-b-v-nev-dept-of-family-servs-in-re-sl/
+
+## DEC-04 · Emergency Removal Decision
+- **Rogers v. County of San Joaquin**, 487 F.3d 1288 (9th Cir. 2007)
+  Holding: A social worker who removes a child without a warrant violates the Fourth and Fourteenth Amendments unless reasonable cause exists to believe the child would suffer serious bodily harm in the time it would take to obtain a warrant.
+  Why here: The operative test for emergency removal: the harm must be likely within the time a warrant would take.
+  Quote: “Officials, including social workers, who remove a child from its home without a warrant must have reasonable cause to believe that the child is likely to experience serious bodily harm”
+  https://www.courtlistener.com/opinion/797914/rogers-v-county-of-san-joaquin/
+- **Mabe v. San Bernardino County**, 237 F.3d 1101 (9th Cir. 2001)
+  Holding: Officials may not enter a home or seize a child without prior judicial authorization unless they possess information at the time of seizure establishing reasonable cause to believe the child is in imminent danger of serious bodily injury, and the intrusion must be no broader than necessary to avert that injury.
+  Why here: The controlling formulation of both the cause and the scope limits on emergency removal.
+  Quote: “reasonable cause to believe that the child is in imminent danger of serious bodily injury and that the scope of the intrusion is reasonably necessary to avert that specific injury.”
+  https://www.courtlistener.com/opinion/771798/mabe-v-san-bernardino-county/
+- **Wallis v. Spencer**, 193 F.3d 1054 (9th Cir. 1999)
+  Holding: Officials who seized children on the basis of a non-existent court order and subjected them to invasive medical examinations without parental notice, consent or judicial authorization violated the family's constitutional rights; any intrusion must be strictly circumscribed by the exigency that justified it.
+  Why here: A removal justified by exigency is unlawful in scope once it exceeds what the exigency demands.
+  Quote: “The right to family association includes the right of parents to make important medical decisions for their children, and of children to have those decisions made by their parents”
+  https://www.courtlistener.com/opinion/766447/wallis-v-spencer/
+- **Stanley v. Illinois**, 405 U.S. 645 (1972)
+  Holding: Due process entitles a parent to a hearing on his fitness before his children are taken from him, and a State may not presume unfitness by category.
+  Why here: Removal before any fitness hearing is constitutionally tolerable only as a genuine emergency measure.
+  Quote: “as a matter of due process of law, Stanley was entitled to a hearing on his fitness as a parent before his children were taken from him”
+  https://www.courtlistener.com/opinion/108497/stanley-v-illinois/
+
+## DEC-05 · File Petition / Open Dependency Case
+- **In re A.T.**, 141 Nev. Adv. Op. 32 (Nev. June 12, 2025)
+  Holding: NRS 432B.530(2) does not confine a party to admitting or denying the petition's allegations; a district court may properly accept a no-contest plea in a Chapter 432B dependency proceeding without the prosecutor's agreement.
+  Why here: The current Nevada rule on how a dependency petition is answered and resolved without a contested adjudication.
+  Quote: “we hold that a district court may properly accept a no-contest plea in this context.”
+  https://www.courtlistener.com/opinion/10603655/in-re-at-a-minor-family/
+- **Washoe County Department of Social Services v. Kory L.G.**, 129 Nev. 125, 295 P.3d 589 (2013)
+  Holding: A non-offending parent — one not found to have abused or neglected the child — cannot be compelled to comply with an NRS 432B.560 case plan as a condition of reunification, and the agency's reasonable-efforts duty under NRS 432B.393 runs regardless.
+  Why here: Filing on one parent's conduct does not automatically subject the other parent to the petition's service obligations.
+  Quote: “the agency must make reasonable efforts to reunify and preserve the family of the child, with the child's health and safety being a paramount concern”
+  https://www.courtlistener.com/opinion/8086054/washoe-county-department-of-social-services-v-kory-lg/
+- **Stanley v. Illinois**, 405 U.S. 645 (1972)
+  Holding: Due process entitles a parent to a hearing on his fitness before his children are taken from him, and a State may not presume unfitness by category.
+  Why here: The petition exists to give the parent the individualized hearing the Constitution requires.
+  Quote: “as a matter of due process of law, Stanley was entitled to a hearing on his fitness as a parent before his children were taken from him”
+  https://www.courtlistener.com/opinion/108497/stanley-v-illinois/
+- **In re Parental Rights as to L.L.S.**, 137 Nev. 241, 487 P.3d 791 (2021)
+  Holding: Procedural due process requires that a termination-of-parental-rights trial under NRS Chapter 432B be heard by a district judge in the first instance; a hearing master may not preside, and a district judge's later review of the master's trial record does not cure the defect. The termination order was reversed and the case remanded for a new TPR proceeding.
+  Why here: Marks the line inside a Chapter 432B case: a master may hear the dependency proceeding, but once the matter becomes a TPR trial only a district judge may preside — this materially limits the brief's reliance on master-based procedure.
+  Quote: “we hold that due process requires the TPR trial to be heard before a district judge in the first instance”
+  https://www.courtlistener.com/opinion/4887108/in-re-parental-rights-as-to-lls/
+
+## DEC-06 · Differential Response / Alternative Response (No Petition)
+- **Clark County v. Eighth Judicial District Court (Eggleston)**, 141 Nev. Adv. Op. 31 (Nev. June 12, 2025)
+  Holding: Qualified immunity and Nevada discretionary-act immunity barred suit against a county social worker who allegedly coerced a parent into signing temporary guardianship papers placing his children with relatives instead of filing a petition.
+  Why here: The leading recent Nevada case on the alternative-response path of a 'voluntary' relative placement in lieu of a petition.
+  Quote: “we consider whether qualified and discretionary-act immunity apply to bar suit against a social worker who allegedly coerced a parent to sign guardianship papers”
+  https://www.courtlistener.com/opinion/10603656/clark-cnty-v-dist-ct-eggleston/
+- **Capp v. County of San Diego**, 940 F.3d 1046 (9th Cir. 2019)
+  Holding: A social worker who threatens to terminate a parent's custody in retaliation for the parent's protected criticism of the agency violates the First Amendment, and is not entitled to qualified immunity.
+  Why here: A 'voluntary' alternative-response agreement obtained under threat of removal is constitutionally suspect.
+  Quote: “A reasonable official would have known that taking the serious step of threatening to terminate a parent's custody of his children”
+  https://www.courtlistener.com/opinion/4667181/jonathan-capp-v-county-of-san-diego/
+- **Washoe County Department of Social Services v. Kory L.G.**, 129 Nev. 125, 295 P.3d 589 (2013)
+  Holding: A non-offending parent — one not found to have abused or neglected the child — cannot be compelled to comply with an NRS 432B.560 case plan as a condition of reunification, and the agency's reasonable-efforts duty under NRS 432B.393 runs regardless.
+  Why here: Supports handling a non-offending parent outside the coercive petition track.
+  Quote: “the agency must make reasonable efforts to reunify and preserve the family of the child, with the child's health and safety being a paramount concern”
+  https://www.courtlistener.com/opinion/8086054/washoe-county-department-of-social-services-v-kory-lg/
+- **Troxel v. Granville**, 530 U.S. 57, 68 (2000) (plurality opinion)
+  Holding: A fit parent's decisions about the care, custody and control of his or her children are presumed to be in the children's best interests, and a court may not override them merely because it would decide differently.
+  Why here: Alternative response must respect parental decision-making absent a finding of unfitness.
+  Quote: “there is a presumption that fit parents act in the best interests of their children”
+  https://www.courtlistener.com/opinion/1087668/troxel-v-granville/
+
+## ACT-01 · Voluntary Services
+- **Clark County v. Eighth Judicial District Court (Eggleston)**, 141 Nev. Adv. Op. 31 (Nev. June 12, 2025)
+  Holding: Qualified immunity and Nevada discretionary-act immunity barred suit against a county social worker who allegedly coerced a parent into signing temporary guardianship papers placing his children with relatives instead of filing a petition.
+  Why here: Shows how a voluntary arrangement is negotiated and how little civil exposure the caseworker carries if the parent later claims coercion.
+  Quote: “we consider whether qualified and discretionary-act immunity apply to bar suit against a social worker who allegedly coerced a parent to sign guardianship papers”
+  https://www.courtlistener.com/opinion/10603656/clark-cnty-v-dist-ct-eggleston/
+- **Washoe County Department of Social Services v. Kory L.G.**, 129 Nev. 125, 295 P.3d 589 (2013)
+  Holding: A non-offending parent — one not found to have abused or neglected the child — cannot be compelled to comply with an NRS 432B.560 case plan as a condition of reunification, and the agency's reasonable-efforts duty under NRS 432B.393 runs regardless.
+  Why here: Voluntary acceptance of services cannot be made a precondition to the return of a child to a parent never found at fault.
+  Quote: “the agency must make reasonable efforts to reunify and preserve the family of the child, with the child's health and safety being a paramount concern”
+  https://www.courtlistener.com/opinion/8086054/washoe-county-department-of-social-services-v-kory-lg/
+- **Capp v. County of San Diego**, 940 F.3d 1046 (9th Cir. 2019)
+  Holding: A social worker who threatens to terminate a parent's custody in retaliation for the parent's protected criticism of the agency violates the First Amendment, and is not entitled to qualified immunity.
+  Why here: Consent to voluntary services extracted by a threat to remove the children is not genuinely voluntary.
+  Quote: “A reasonable official would have known that taking the serious step of threatening to terminate a parent's custody of his children”
+  https://www.courtlistener.com/opinion/4667181/jonathan-capp-v-county-of-san-diego/
+- **Eggleston v. Stuart**, 137 Nev. 506, 495 P.3d 482 (2021)
+  Holding: Following Patsy v. Board of Regents, a plaintiff generally need not exhaust administrative remedies before bringing a § 1983 claim, subject to Zinermon v. Burch's narrow exception for procedural due process claims. Because the father's claim that a caseworker and police coerced him into signing a temporary guardianship was a substantive due process claim, dismissal for failure to exhaust his DFS substantiation appeal was error, as was the ruling that punitive damages were unavailable against the caseworker. Reversed and remanded.
+  Why here: The facts are a voluntary-services case that turned coercive — a family that agreed to a DFS program and was then pressed to sign away custody under threat.
+  Quote: “a party generally is not required to exhaust administrative remedies before filing a § 1983 civil rights claim”
+  https://www.courtlistener.com/opinion/5106965/eggleston-vs-stuart/
+
+## ACT-02 · Court-Ordered Services
+- **Washoe County Department of Social Services v. Kory L.G.**, 129 Nev. 125, 295 P.3d 589 (2013)
+  Holding: A non-offending parent — one not found to have abused or neglected the child — cannot be compelled to comply with an NRS 432B.560 case plan as a condition of reunification, and the agency's reasonable-efforts duty under NRS 432B.393 runs regardless.
+  Why here: The leading Nevada statement of the reasonable-efforts and case-plan duty at the dispositional stage.
+  Quote: “the agency must make reasonable efforts to reunify and preserve the family of the child, with the child's health and safety being a paramount concern”
+  https://www.courtlistener.com/opinion/8086054/washoe-county-department-of-social-services-v-kory-lg/
+- **In re Parental Rights as to J.L.N.**, 118 Nev. 621, 55 P.3d 955 (2002)
+  Holding: The statutory presumptions favoring termination are rebuttable, and a parent's failure to complete a case plan within six months solely because of incarceration is not a ground for finding failure of parental adjustment.
+  Why here: Establishes that non-completion of a court-ordered case plan caused by incarceration cannot be converted into parental fault.
+  Quote: “Compelling reasons demonstrate why termination of parental rights was not in J.L.N.'s best interests.”
+  https://www.courtlistener.com/opinion/2598762/diana-l-n-v-state-department-of-human-resources-division-of-child/
+- **In re Parental Rights as to K.D.L. and S.P.K.**, 118 Nev. 737, 58 P.3d 181 (2002)
+  Holding: Termination of parental rights requires clear and convincing proof of both the child's best interests and a statutory ground of parental fault, and incarceration alone cannot supply the fault finding.
+  Why here: Court-ordered service plans are measured against the parental-fault grounds this case enumerates, so plan design drives the later fault analysis.
+  Quote: “To terminate a parent's rights, a petitioner must prove, by clear and convincing evidence, that termination is in the child's best interests and that there is parental fault.”
+  https://www.courtlistener.com/opinion/8085801/richard-j-k-v-state-division-of-child-family-services/
+- **In re Parental Rights as to R.A.S.**, 141 Nev. Adv. Op. 20, 567 P.3d 337 (Nev. Apr. 24, 2025)
+  Holding: Because no agency reunification services are available in a privately filed termination action, courts must approach private petitions with particular care; here the findings of abandonment and other parental fault were not supported by substantial evidence and the termination was reversed.
+  Why here: Draws the sharp line between an agency case with NRS 432B.393 services and a private petition where no services exist.
+  Quote: “In contrast, when a private party petitions to terminate parental rights, no such services are available.”
+  https://www.courtlistener.com/opinion/10384394/in-re-parental-rights-as-to-ras/
+- **Santosky v. Kramer**, 455 U.S. 745 (1982)
+  Holding: Before a State may sever completely and irrevocably the rights of parents in their natural child, due process requires that the State support its allegations by at least clear and convincing evidence.
+  Why here: Service-plan compliance evidence must be able to carry a clear-and-convincing burden, not a preponderance.
+  Quote: “due process requires that the State support its allegations by at least clear and convincing evidence”
+  https://www.courtlistener.com/opinion/110676/santosky-v-kramer/
+- **In re Parental Rights as to J.D.N.**, 128 Nev. 462, 283 P.3d 842 (2012)
+  Holding: The juvenile 'J' file does not automatically form part of the family division's record in a termination proceeding and is admissible only if it satisfies Nevada's evidence rules, including the hearsay rule; NRS 128.090(3) removes only privilege objections, not hearsay objections. A parent who objects to the entire file without identifying the specific hearsay portions waives the objection. Once an NRS 128.109 presumption applies, the parent may rebut it by a preponderance of the evidence. Affirmed.
+  Why here: Sets the burden for rebutting the NRS 128.109(1) token-efforts and case-plan-noncompliance presumptions that a court-ordered service plan generates: preponderance, not clear and convincing.
+  Quote: “the "J" file is only admissible if it complies with Nevada's statutes and rules of evidence, including the hearsay rule and any hearsay exception”
+  https://www.courtlistener.com/opinion/8086015/quiana-m-b-v-state-department-of-family-services/
+- **In re Parental Rights as to N.J.**, 116 Nev. 790, 8 P.3d 126 (2000)
+  Holding: Abandoning the jurisdictional/dispositional framework of Champagne v. Welfare Division, the court adopted the best-interest/parental-fault standard that Nevada applies today: a district court must find both that termination serves the child's best interest and that parental fault exists. The district court also erred by failing to apply NRS 128.012(2)'s abandonment presumption. Orders reversed and remanded for a new trial.
+  Why here: Because fault must be independently found, compliance or non-compliance with a court-ordered plan is evidence of fault, not a substitute for it.
+  Quote: “we now reject our Champagne standard, which requires a district court to find jurisdictional grounds to terminate parental rights before it considers the best interests of the child”
+  https://www.courtlistener.com/opinion/8085758/sam-z-v-hikmet/
+- **Champagne v. Welfare Division of the Nevada State Department of Human Resources**, 100 Nev. 640, 691 P.2d 849 (1984)
+  Holding: In four consolidated appeals the court held that parental rights may be severed only on clear and convincing proof of parental unsuitability — serious and persistent fault or incapacity, not mere inadequacy — together with dispositional grounds in the child's best interest; it affirmed two terminations and reversed two. Its two-step jurisdictional/dispositional framework was later rejected in In re Parental Rights as to N.J., 116 Nev. 790 (2000), but its unsuitability analysis remains the court's reference point, including in In re Parental Rights as to S.A.T. (2025).
+  Why here: Holds that a parent cannot be found unsuitable for failing to meet case-plan requirements that are unclear, uncommunicated, or impossible to satisfy.
+  Quote: “Absent a showing of unsuitability, invasion of the liberty interest in parenthood is not constitutionally warranted.”
+  https://www.courtlistener.com/opinion/1408398/champagne-v-welfare-div-of-nev-state-dept/
+- **In re Parental Rights as to C.J.M.**, 118 Nev. 724, 58 P.3d 188 (2002)
+  Holding: Decided as the companion to Q.L.R., this case holds that while incarceration alone cannot justify termination, it is properly weighed with other factors bearing on fitness and the children's best interests; because the district court articulated grounds beyond incarceration — abandonment and more than a year without meaningful contact — termination was affirmed and the agency was not obliged to provide a reunification plan.
+  Why here: Holds that where the parent's own failure to show interest in the children is the greater cause of the absence of a case plan, the agency was not obligated to provide one.
+  Quote: “incarceration should be considered along with other factors in determining parental fitness and in making a determination on what course of action would serve the children's best interests.”
+  https://www.courtlistener.com/opinion/2544539/francisco-m-v-state-division-of-child-family-services/
+- **In re Parental Rights as to A.D.L. and C.L.B., Jr.**, 133 Nev. Adv. Op. 72, 402 P.3d 1280 (2017)
+  Holding: A case plan may not condition compliance on a parent's admission of a criminal act; terminating parental rights because the mother would not admit she intentionally burned her child violated her Fifth Amendment privilege against self-incrimination, and once the NRS 128.109(1)-(2) presumptions were rebutted there was no substantial evidence of fault or of best interest. Reversed.
+  Why here: The clearest Nevada limit on what a court-ordered service plan may demand: it may require treatment and demonstrated safety, but not a confession.
+  Quote: “We conclude that a parent cannot be compelled to admit to a crime under the threat of termination of parental rights.”
+  https://www.courtlistener.com/opinion/4634477/in-re-parental-rights-as-to-adl-and-clb-jr/
+- **Donald B. v. Nevada Department of Family Services (In re S.L.)**, 422 P.3d 1253 (Nev. 2018)
+  Holding: Distinguishing A.D.L., the court held that where termination rested not on the parents' refusal to confess but on years of physical and mental abuse of the oldest child witnessed by the younger children, and on the parents' failure to engage in meaningful therapy or show the insight needed to keep the children safe, there was no Fifth Amendment violation and substantial evidence supported both fault and best interest. Affirmed.
+  Why here: Defines what a Nevada case plan may lawfully require of a parent who denies the abuse: meaningful therapy aimed at the children's safety, measured by behavioral change rather than by an admission.
+  Quote: “although appellants cannot be compelled to admit to a crime, they can be required to engage in meaningful therapy designed to ensure the children's safety if returned to the home”
+  https://www.courtlistener.com/opinion/6656944/donald-b-v-nev-dept-of-family-servs-in-re-sl/
+- **Suter v. Artist M.**, 503 U.S. 347 (1992)
+  Holding: The 'reasonable efforts' requirement of the Adoption Assistance and Child Welfare Act, 42 U.S.C. § 671(a)(15), creates no privately enforceable right: it is enforced through the Secretary's approval and oversight of the state plan, not through § 1983 or an implied cause of action by the children the Act benefits. Seventh Circuit reversed.
+  Why here: Sets the ceiling on what 'reasonable efforts' gives a Nevada parent: it shapes what the agency owes HHS, and a parent's leverage over a service plan comes from NRS 432B.393 and the juvenile court, not from the federal statute.
+  Quote: “neither confers an enforceable private right on its beneficiaries nor creates an implied cause of action on their behalf”
+  https://www.courtlistener.com/opinion/112712/suter-v-artist-m/
+
+## ACT-03 · Foster Care Placement
+- **Maria L. v. Eighth Judicial District Court**, 122 Nev. 305, 130 P.3d 657 (2006)
+  Holding: Under NRS Chapter 432B a relative with a special interest in the child must be notified of and involved in the placement plan before the court awards custody to the State, and the district court may not give controlling weight to foster parents' wish to raise the child without contact with the natural family.
+  Why here: Foster placement may not be entered without first honoring the statutory notice and participation rights of interested relatives.
+  Quote: “the district court gave undue weight to the foster parents' desires to raise N.S. without attachment to her natural family”
+  https://www.courtlistener.com/opinion/2622785/maria-l-v-eighth-judicial-district-court-of-the-state-of-nevada/
+- **Mulkern v. Eighth Judicial District Court**, 429 P.3d 277 (Nev. 2018)
+  Holding: The rebuttable presumption in NRS 432B.550(5)(a) that a dependent child's best interest is to be placed with siblings applies even after a sibling has been adopted, because adoption does not defeat the statutory sibling-placement presumption.
+  Why here: Any foster placement decision in Nevada must start from the statutory presumption favoring placement with siblings.
+  Quote: “the district court is required, under NRS 432B.550(5), to apply the rebuttable sibling presumption in determining Baby Girl W.'s placement.”
+  https://www.courtlistener.com/opinion/6657498/mulkern-v-eighth-judicial-dist-court-of-nev/
+- **In re N.R.R.**, 140 Nev. Adv. Op. 77 (Nev. Dec. 5, 2024)
+  Holding: A district court in an NRS Chapter 432B proceeding lacks statutory authority to order the child welfare agency to pay rental assistance to a foster parent; the agency retains broad discretion over the services and supports it funds.
+  Why here: Limits what a court may order an agency to fund in support of a foster placement.
+  Quote: “We conclude that the district court lacked statutory authority to order DFS to pay rental assistance to a foster parent.”
+  https://www.courtlistener.com/opinion/10288704/in-re-matter-of-nrr-and-nir/
+- **Henry A. v. Willden**, 678 F.3d 991 (9th Cir. 2012)
+  Holding: Clark County and Nevada foster children stated clearly established substantive due process claims under the 'special relationship' doctrine for inadequate safety and medical care, and the court applied the Blessing test to determine which Child Welfare Act and CAPTA provisions are privately enforceable under § 1983.
+  Why here: Placing a child in foster care creates the custodial 'special relationship' that imposes affirmative constitutional duties on Nevada agencies.
+  Quote: “Having examined the relevant contours of a foster child's clearly established due process rights to adequate safety and medical care”
+  https://www.courtlistener.com/opinion/799337/henry-a-v-willden/
+- **Smith v. Organization of Foster Families for Equality & Reform**, 431 U.S. 816 (1977)
+  Holding: Whatever liberty interest foster parents may hold arises from a state-created arrangement rather than intrinsic family rights, and New York's existing pre-removal procedures were constitutionally adequate to protect it.
+  Why here: Defines the limited constitutional status of the foster relationship the state creates when it places a child.
+  Quote: “the procedures provided by New York State in § 392 and by New York City's SSC Procedure No. 5 are adequate to protect whatever liberty interests appellees may have”
+  https://www.courtlistener.com/opinion/109684/smith-v-organization-of-foster-families-for-equality-reform/
+- **In re Parental Rights as to D.R.H.**, 120 Nev. 422, 92 P.3d 1230 (2004)
+  Holding: NRS 128.109(2)'s presumption that termination serves the best interest of a child who has lived outside the home for 14 of 20 consecutive months survives strict scrutiny: it is narrowly tailored to the State's compelling interest in permanency, applies only to children removed under NRS Chapter 432B, is rebuttable, and must be read with NRS 128.105's separate fault requirement. Termination affirmed.
+  Why here: A removal into foster care starts the 14-of-20-month clock that drives this presumption — the single most consequential timing rule for a Nevada family after placement.
+  Quote: “We conclude that NRS 128.109(2) is constitutional and that substantial evidence supports the district court's decision to terminate Cristan's and Vincent's parental rights.”
+  https://www.courtlistener.com/opinion/8085830/vincent-l-g-v-state-division-of-child-family-services-department-of/
+
+## ACT-04 · Kinship Placement
+- **Maria L. v. Eighth Judicial District Court**, 122 Nev. 305, 130 P.3d 657 (2006)
+  Holding: Under NRS Chapter 432B a relative with a special interest in the child must be notified of and involved in the placement plan before the court awards custody to the State, and the district court may not give controlling weight to foster parents' wish to raise the child without contact with the natural family.
+  Why here: The leading Nevada statement of the familial-preference requirement in NRS Chapter 432B placement decisions.
+  Quote: “the district court gave undue weight to the foster parents' desires to raise N.S. without attachment to her natural family”
+  https://www.courtlistener.com/opinion/2622785/maria-l-v-eighth-judicial-district-court-of-the-state-of-nevada/
+- **In re Guardianship & Estate of D.R.G.**, 119 Nev. 32, 62 P.3d 1127 (2003)
+  Holding: The NRS 159.061 parental preference in guardianship applies only after the court finds the parent qualified and suitable, and the preference may be rebutted by parental unfitness or by extraordinary circumstances amounting to serious detriment to the child.
+  Why here: Sets the burden a kin caregiver must meet to displace a parent in a Nevada guardianship.
+  Quote: “parental preference can be rebutted by showing parental unfitness or other extraordinary circumstances.”
+  https://www.courtlistener.com/opinion/2621554/matter-of-guardianship-estate-of-drg/
+- **Mulkern v. Eighth Judicial District Court**, 429 P.3d 277 (Nev. 2018)
+  Holding: The rebuttable presumption in NRS 432B.550(5)(a) that a dependent child's best interest is to be placed with siblings applies even after a sibling has been adopted, because adoption does not defeat the statutory sibling-placement presumption.
+  Why here: An adoptive parent of a sibling is a statutorily preferred placement the court must consider.
+  Quote: “the district court is required, under NRS 432B.550(5), to apply the rebuttable sibling presumption in determining Baby Girl W.'s placement.”
+  https://www.courtlistener.com/opinion/6657498/mulkern-v-eighth-judicial-dist-court-of-nev/
+- **Clark County v. Eighth Judicial District Court (Eggleston)**, 141 Nev. Adv. Op. 31 (Nev. June 12, 2025)
+  Holding: Qualified immunity and Nevada discretionary-act immunity barred suit against a county social worker who allegedly coerced a parent into signing temporary guardianship papers placing his children with relatives instead of filing a petition.
+  Why here: Temporary guardianship with relatives, obtained outside the petition process, is the placement mechanism at issue.
+  Quote: “we consider whether qualified and discretionary-act immunity apply to bar suit against a social worker who allegedly coerced a parent to sign guardianship papers”
+  https://www.courtlistener.com/opinion/10603656/clark-cnty-v-dist-ct-eggleston/
+- **Mississippi Band of Choctaw Indians v. Holyfield**, 490 U.S. 30 (1989)
+  Holding: Domicile under ICWA is a matter of uniform federal law, and children domiciled on the reservation fall within the tribal court's exclusive jurisdiction under 25 U.S.C. § 1911(a) even where the parents voluntarily gave birth off-reservation.
+  Why here: ICWA's placement scheme, grounded in tribal interests, constrains Nevada's ordinary kinship-preference analysis.
+  Quote: “Section 1911(a) establishes exclusive jurisdiction in the tribal courts for proceedings concerning an Indian child”
+  https://www.courtlistener.com/opinion/112241/mississippi-band-of-choctaw-indians-v-holyfield/
+- **Haaland v. Brackeen**, 599 U.S. 255 (2023)
+  Holding: ICWA is a valid exercise of Congress's Article I authority over Indian affairs, its placement and procedural requirements do not violate the anticommandeering doctrine, and the equal protection and nondelegation challenges failed for lack of standing (so the constitutionality of the placement preferences remains formally open).
+  Why here: ICWA's placement preferences survive constitutional attack and continue to govern kinship placement of Indian children.
+  Quote: “the bottom line is that we reject all of petitioners' challenges to the statute, some on the merits and others for lack of standing.”
+  https://www.courtlistener.com/opinion/9406660/haaland-v-brackeen/
+- **Destin v. Eighth Judicial District Court (Handwerker-LaMaster)**, 141 Nev. Adv. Op. 42 (Nev. Aug. 28, 2025)
+  Holding: Once parental rights are terminated, placement is governed by NRS 128.110(2) rather than NRS 432B.550's familial preference; the district court must give due consideration to the agency's placement preference but is not bound by it, because the court retains the duty to decide what placement serves the child's best interest. Writ relief denied; placement with the paternal aunt upheld over the maternal grandmother.
+  Why here: The current Nevada statement of how much weight a relative's claim carries against the agency's preference — and it confirms that degree of consanguinity does not control.
+  Quote: “While the district court is not bound by the agency's placement preference, it must give due consideration to that preference in deciding placement.”
+  https://www.courtlistener.com/opinion/10662659/destin-v-dist-ct-handwerker-lamaster-child-custody/
+
+## ACT-05 · Protective Order
+- **In re Parental Rights as to S.A.T.**, 141 Nev. Adv. Op. 46 (Nev. Oct. 2, 2025)
+  Holding: Terminating parental rights in a private termination action based solely on the parental-fault ground of token efforts to communicate is disfavored, particularly where a protective order restricted the parent's contact.
+  Why here: Holds that a protective order restricting contact cannot then be used as the evidence of the parent's token efforts.
+  Quote: “we now hold that terminating parental rights in a private termination action based solely on the parental-fault ground of token efforts to communicate with the child is disfavored.”
+  https://www.courtlistener.com/opinion/10690440/in-re-parental-rights-as-to-sat-family/
+- **Jason S. v. Valley Hospital Medical Center**, 120 Nev. 157, 87 P.3d 521 (2004)
+  Holding: A parent's substantive due process rights are not violated when a district court appoints a temporary guardian under NRS 159.052 to consent to medically necessary care that the parents refused on religious grounds, subject to notice within 48 hours and a hearing within ten days.
+  Why here: Temporary guardianship functions as the protective order here, restricting parental decision-making without removing the child.
+  Quote: “we hold that a parent's substantive due process rights are not violated when the district court awards temporary guardianship of a minor child”
+  https://www.courtlistener.com/opinion/8085819/jason-s-v-valley-hospital-medical-center/
+
+## ACT-06 · Emergency Medical/Psychological Care
+- **Jason S. v. Valley Hospital Medical Center**, 120 Nev. 157, 87 P.3d 521 (2004)
+  Holding: A parent's substantive due process rights are not violated when a district court appoints a temporary guardian under NRS 159.052 to consent to medically necessary care that the parents refused on religious grounds, subject to notice within 48 hours and a hearing within ten days.
+  Why here: The controlling Nevada authority for court-authorized emergency medical care over parental religious objection.
+  Quote: “we hold that a parent's substantive due process rights are not violated when the district court awards temporary guardianship of a minor child”
+  https://www.courtlistener.com/opinion/8085819/jason-s-v-valley-hospital-medical-center/
+- **Mann v. County of San Diego**, 907 F.3d 1154 (9th Cir. 2018)
+  Holding: A county violates parents' Fourteenth Amendment substantive due process rights when it performs medical examinations of removed children without notifying the parents and without either parental consent or judicial authorization, and the children's Fourth Amendment rights are separately implicated.
+  Why here: Emergency medical or forensic care of a child in protective custody requires consent or a court order absent a genuine emergency.
+  Quote: “the County violates parents' Fourteenth Amendment substantive due process rights when it performs the Polinsky medical examinations without notifying the parents”
+  https://www.courtlistener.com/opinion/4548912/mark-mann-v-county-of-san-diego/
+- **Wallis v. Spencer**, 193 F.3d 1054 (9th Cir. 1999)
+  Holding: Officials who seized children on the basis of a non-existent court order and subjected them to invasive medical examinations without parental notice, consent or judicial authorization violated the family's constitutional rights; any intrusion must be strictly circumscribed by the exigency that justified it.
+  Why here: Invasive medical or forensic examinations of a seized child require parental notice and consent or judicial authorization.
+  Quote: “The right to family association includes the right of parents to make important medical decisions for their children, and of children to have those decisions made by their parents”
+  https://www.courtlistener.com/opinion/766447/wallis-v-spencer/
+- **Henry A. v. Willden**, 678 F.3d 991 (9th Cir. 2012)
+  Holding: Clark County and Nevada foster children stated clearly established substantive due process claims under the 'special relationship' doctrine for inadequate safety and medical care, and the court applied the Blessing test to determine which Child Welfare Act and CAPTA provisions are privately enforceable under § 1983.
+  Why here: The state's duty to provide medical care, including monitoring of psychotropic medication, attaches on placement.
+  Quote: “Having examined the relevant contours of a foster child's clearly established due process rights to adequate safety and medical care”
+  https://www.courtlistener.com/opinion/799337/henry-a-v-willden/
+
+## OUT-01 · Reunification
+- **Washoe County Department of Social Services v. Kory L.G.**, 129 Nev. 125, 295 P.3d 589 (2013)
+  Holding: A non-offending parent — one not found to have abused or neglected the child — cannot be compelled to comply with an NRS 432B.560 case plan as a condition of reunification, and the agency's reasonable-efforts duty under NRS 432B.393 runs regardless.
+  Why here: Reunification with a non-offending parent may not be conditioned on case-plan compliance.
+  Quote: “the agency must make reasonable efforts to reunify and preserve the family of the child, with the child's health and safety being a paramount concern”
+  https://www.courtlistener.com/opinion/8086054/washoe-county-department-of-social-services-v-kory-lg/
+- **In re Parental Rights as to J.L.N.**, 118 Nev. 621, 55 P.3d 955 (2002)
+  Holding: The statutory presumptions favoring termination are rebuttable, and a parent's failure to complete a case plan within six months solely because of incarceration is not a ground for finding failure of parental adjustment.
+  Why here: Supplies the 'compelling reasons' analysis that keeps reunification available after the statutory clock has run.
+  Quote: “Compelling reasons demonstrate why termination of parental rights was not in J.L.N.'s best interests.”
+  https://www.courtlistener.com/opinion/2598762/diana-l-n-v-state-department-of-human-resources-division-of-child/
+- **In re Parental Rights as to R.A.S.**, 141 Nev. Adv. Op. 20, 567 P.3d 337 (Nev. Apr. 24, 2025)
+  Holding: Because no agency reunification services are available in a privately filed termination action, courts must approach private petitions with particular care; here the findings of abandonment and other parental fault were not supported by substantial evidence and the termination was reversed.
+  Why here: Explains why the reunification-services predicate that normally precedes termination is absent in private petitions.
+  Quote: “In contrast, when a private party petitions to terminate parental rights, no such services are available.”
+  https://www.courtlistener.com/opinion/10384394/in-re-parental-rights-as-to-ras/
+- **Santosky v. Kramer**, 455 U.S. 745 (1982)
+  Holding: Before a State may sever completely and irrevocably the rights of parents in their natural child, due process requires that the State support its allegations by at least clear and convincing evidence.
+  Why here: Until the State meets that burden, the constitutional presumption favors preserving and restoring the family.
+  Quote: “due process requires that the State support its allegations by at least clear and convincing evidence”
+  https://www.courtlistener.com/opinion/110676/santosky-v-kramer/
+
+## OUT-02 · Termination of Parental Rights / Adoption
+- **Santosky v. Kramer**, 455 U.S. 745 (1982)
+  Holding: Before a State may sever completely and irrevocably the rights of parents in their natural child, due process requires that the State support its allegations by at least clear and convincing evidence.
+  Why here: The controlling federal standard of proof for every termination of parental rights, including Nevada's.
+  Quote: “due process requires that the State support its allegations by at least clear and convincing evidence”
+  https://www.courtlistener.com/opinion/110676/santosky-v-kramer/
+- **In re Parental Rights as to K.D.L. and S.P.K.**, 118 Nev. 737, 58 P.3d 181 (2002)
+  Holding: Termination of parental rights requires clear and convincing proof of both the child's best interests and a statutory ground of parental fault, and incarceration alone cannot supply the fault finding.
+  Why here: This is Nevada's governing two-prong termination test and the anchor authority for any NV TPR entry in the chain.
+  Quote: “To terminate a parent's rights, a petitioner must prove, by clear and convincing evidence, that termination is in the child's best interests and that there is parental fault.”
+  https://www.courtlistener.com/opinion/8085801/richard-j-k-v-state-division-of-child-family-services/
+- **In re Parental Rights as to S.A.T.**, 141 Nev. Adv. Op. 46 (Nev. Oct. 2, 2025)
+  Holding: Terminating parental rights in a private termination action based solely on the parental-fault ground of token efforts to communicate is disfavored, particularly where a protective order restricted the parent's contact.
+  Why here: The most recent Nevada limit on the token-efforts ground in privately initiated terminations.
+  Quote: “we now hold that terminating parental rights in a private termination action based solely on the parental-fault ground of token efforts to communicate with the child is disfavored.”
+  https://www.courtlistener.com/opinion/10690440/in-re-parental-rights-as-to-sat-family/
+- **In re Parental Rights as to N.D.O., T.L.O., and T.O.**, 121 Nev. 379, 115 P.3d 223 (2005)
+  Holding: There is no categorical constitutional right to appointed counsel in a Nevada parental-rights termination proceeding; the right is assessed case by case under Lassiter, and absent that right no ineffective-assistance claim lies.
+  Why here: Controls whether an indigent Nevada parent facing termination is entitled to appointed counsel and, derivatively, to any ineffective-assistance review.
+  Quote: “the right to counsel must be assessed on a case-by-case basis, consistent with the United States Supreme Court's decision in Lassiter v. Department of Social Services.”
+  https://www.courtlistener.com/opinion/8085863/letesheia-o-v-state-division-of-child-family-services/
+- **M.L.B. v. S.L.J.**, 519 U.S. 102 (1996)
+  Holding: A State may not condition an indigent parent's appeal from a decree terminating parental rights on the parent's ability to pay record preparation fees.
+  Why here: Guarantees an indigent Nevada parent a real appellate remedy from a termination decree.
+  Quote: “just as a State may not block an indigent petty offender's access to an appeal afforded others”
+  https://www.courtlistener.com/opinion/9281247/m-l-b-v-s-l-j/
+- **Birth Mother v. Adoptive Parents**, 118 Nev. 972, 59 P.3d 1233 (2002)
+  Holding: Absent a specific Nevada statute authorizing them, post-adoption contact agreements between a birth parent and adoptive parents are unenforceable, and the adoption decree terminates all rights of the natural parent.
+  Why here: Warns families and counsel that an open-adoption promise made to secure relinquishment carries no legal force in Nevada.
+  Quote: “Because this agreement is unenforceable under Nevada law and the adoption decree governs, the birth mother cannot seek relief based on the agreement.”
+  https://www.courtlistener.com/opinion/2621263/birth-mother-v-adoptive-parents/
+- **In re Parental Rights as to L.L.S.**, 137 Nev. 241, 487 P.3d 791 (2021)
+  Holding: Procedural due process requires that a termination-of-parental-rights trial under NRS Chapter 432B be heard by a district judge in the first instance; a hearing master may not preside, and a district judge's later review of the master's trial record does not cure the defect. The termination order was reversed and the case remanded for a new TPR proceeding.
+  Why here: Nevada's controlling procedural rule for how a termination must be tried, independent of the sufficiency of the evidence.
+  Quote: “we hold that due process requires the TPR trial to be heard before a district judge in the first instance”
+  https://www.courtlistener.com/opinion/4887108/in-re-parental-rights-as-to-lls/
+- **In re Parental Rights as to J.D.N.**, 128 Nev. 462, 283 P.3d 842 (2012)
+  Holding: The juvenile 'J' file does not automatically form part of the family division's record in a termination proceeding and is admissible only if it satisfies Nevada's evidence rules, including the hearsay rule; NRS 128.090(3) removes only privilege objections, not hearsay objections. A parent who objects to the entire file without identifying the specific hearsay portions waives the objection. Once an NRS 128.109 presumption applies, the parent may rebut it by a preponderance of the evidence. Affirmed.
+  Why here: The correct Nevada authority on the evidentiary record in a termination trial; it replaces the mis-citation the earlier draft carried.
+  Quote: “the "J" file is only admissible if it complies with Nevada's statutes and rules of evidence, including the hearsay rule and any hearsay exception”
+  https://www.courtlistener.com/opinion/8086015/quiana-m-b-v-state-department-of-family-services/
+- **In re Parental Rights as to N.J.**, 116 Nev. 790, 8 P.3d 126 (2000)
+  Holding: Abandoning the jurisdictional/dispositional framework of Champagne v. Welfare Division, the court adopted the best-interest/parental-fault standard that Nevada applies today: a district court must find both that termination serves the child's best interest and that parental fault exists. The district court also erred by failing to apply NRS 128.012(2)'s abandonment presumption. Orders reversed and remanded for a new trial.
+  Why here: The origin of Nevada's modern two-prong termination test; every later NV TPR case, including K.D.L., traces to this decision.
+  Quote: “we now reject our Champagne standard, which requires a district court to find jurisdictional grounds to terminate parental rights before it considers the best interests of the child”
+  https://www.courtlistener.com/opinion/8085758/sam-z-v-hikmet/
+- **Champagne v. Welfare Division of the Nevada State Department of Human Resources**, 100 Nev. 640, 691 P.2d 849 (1984)
+  Holding: In four consolidated appeals the court held that parental rights may be severed only on clear and convincing proof of parental unsuitability — serious and persistent fault or incapacity, not mere inadequacy — together with dispositional grounds in the child's best interest; it affirmed two terminations and reversed two. Its two-step jurisdictional/dispositional framework was later rejected in In re Parental Rights as to N.J., 116 Nev. 790 (2000), but its unsuitability analysis remains the court's reference point, including in In re Parental Rights as to S.A.T. (2025).
+  Why here: The foundational Nevada unsuitability decision; a Nevada TPR brief that omits it reads as incomplete, but it must always be cited with its partial abrogation by N.J. (2000).
+  Quote: “Absent a showing of unsuitability, invasion of the liberty interest in parenthood is not constitutionally warranted.”
+  https://www.courtlistener.com/opinion/1408398/champagne-v-welfare-div-of-nev-state-dept/
+- **In re Parental Rights as to Q.L.R.**, 118 Nev. 602, 54 P.3d 56 (2002)
+  Holding: On an issue of first impression, the court held that incarceration resulting from a parent's voluntary criminal conduct does not by itself establish an intent to abandon the child; because the record contained no substantial evidence of abandonment, the termination of the father's parental rights was reversed.
+  Why here: The source of the Nevada incarceration rule that K.D.L. later applies; citing K.D.L. without Q.L.R. cites the derivative rather than the source.
+  Quote: “we hold that voluntary conduct resulting in incarceration does not alone establish an intent to abandon a minor child.”
+  https://www.courtlistener.com/opinion/2516615/matter-of-parental-rights-as-to-qlr/
+- **In re Parental Rights as to C.J.M.**, 118 Nev. 724, 58 P.3d 188 (2002)
+  Holding: Decided as the companion to Q.L.R., this case holds that while incarceration alone cannot justify termination, it is properly weighed with other factors bearing on fitness and the children's best interests; because the district court articulated grounds beyond incarceration — abandonment and more than a year without meaningful contact — termination was affirmed and the agency was not obliged to provide a reunification plan.
+  Why here: The other half of Nevada's 2002 incarcerated-parent pair; read with Q.L.R. it shows exactly where the line falls between incarceration as context and incarceration as the ground.
+  Quote: “incarceration should be considered along with other factors in determining parental fitness and in making a determination on what course of action would serve the children's best interests.”
+  https://www.courtlistener.com/opinion/2544539/francisco-m-v-state-division-of-child-family-services/
+- **In re Parental Rights as to D.R.H.**, 120 Nev. 422, 92 P.3d 1230 (2004)
+  Holding: NRS 128.109(2)'s presumption that termination serves the best interest of a child who has lived outside the home for 14 of 20 consecutive months survives strict scrutiny: it is narrowly tailored to the State's compelling interest in permanency, applies only to children removed under NRS Chapter 432B, is rebuttable, and must be read with NRS 128.105's separate fault requirement. Termination affirmed.
+  Why here: The constitutional answer to a parent who attacks the 14-of-20-month presumption, and the case later decisions cite for Nevada's clear-and-convincing standard.
+  Quote: “We conclude that NRS 128.109(2) is constitutional and that substantial evidence supports the district court's decision to terminate Cristan's and Vincent's parental rights.”
+  https://www.courtlistener.com/opinion/8085830/vincent-l-g-v-state-division-of-child-family-services-department-of/
+- **In re Parental Rights as to A.J.G.**, 122 Nev. 1418, 148 P.3d 759 (2006)
+  Holding: Neither Nevada nor federal law requires the State to prove that an adoptive placement exists before a court may terminate parental rights, and once the State establishes the NRS 128.109(2) presumption the parent bears the burden of offering evidence of the child's desires under NRS 128.107(2). Termination affirmed.
+  Why here: Answers the most common parental objection to a Nevada termination petition — that no adoptive home has been identified — and answers it against the parent.
+  Quote: “neither state nor federal law on parental rights termination requires the State to prove the existence of an adoptive placement for a child before a court can terminate parental rights”
+  https://www.courtlistener.com/opinion/2543266/tammila-g-v-state-department-of-human-resources/
+- **In re Parental Rights as to A.D.L. and C.L.B., Jr.**, 133 Nev. Adv. Op. 72, 402 P.3d 1280 (2017)
+  Holding: A case plan may not condition compliance on a parent's admission of a criminal act; terminating parental rights because the mother would not admit she intentionally burned her child violated her Fifth Amendment privilege against self-incrimination, and once the NRS 128.109(1)-(2) presumptions were rebutted there was no substantial evidence of fault or of best interest. Reversed.
+  Why here: Read with Donald B. (2018), it fixes both edges of the rule — no compelled confession, but meaningful therapy can still be required.
+  Quote: “We conclude that a parent cannot be compelled to admit to a crime under the threat of termination of parental rights.”
+  https://www.courtlistener.com/opinion/4634477/in-re-parental-rights-as-to-adl-and-clb-jr/
+- **Donald B. v. Nevada Department of Family Services (In re S.L.)**, 422 P.3d 1253 (Nev. 2018)
+  Holding: Distinguishing A.D.L., the court held that where termination rested not on the parents' refusal to confess but on years of physical and mental abuse of the oldest child witnessed by the younger children, and on the parents' failure to engage in meaningful therapy or show the insight needed to keep the children safe, there was no Fifth Amendment violation and substantial evidence supported both fault and best interest. Affirmed.
+  Why here: The counterweight to A.D.L.; a parent cannot use the Fifth Amendment to avoid the treatment component of a plan.
+  Quote: “although appellants cannot be compelled to admit to a crime, they can be required to engage in meaningful therapy designed to ensure the children's safety if returned to the home”
+  https://www.courtlistener.com/opinion/6656944/donald-b-v-nev-dept-of-family-servs-in-re-sl/
+- **Destin v. Eighth Judicial District Court (Handwerker-LaMaster)**, 141 Nev. Adv. Op. 42 (Nev. Aug. 28, 2025)
+  Holding: Once parental rights are terminated, placement is governed by NRS 128.110(2) rather than NRS 432B.550's familial preference; the district court must give due consideration to the agency's placement preference but is not bound by it, because the court retains the duty to decide what placement serves the child's best interest. Writ relief denied; placement with the paternal aunt upheld over the maternal grandmother.
+  Why here: Post-termination adoptive placement decisions run through NRS 128.110(2), not the Chapter 432B preferences that applied before termination.
+  Quote: “While the district court is not bound by the agency's placement preference, it must give due consideration to that preference in deciding placement.”
+  https://www.courtlistener.com/opinion/10662659/destin-v-dist-ct-handwerker-lamaster-child-custody/
+
+## OUT-03 · Guardianship / Kinship Permanency
+- **In re Guardianship & Estate of D.R.G.**, 119 Nev. 32, 62 P.3d 1127 (2003)
+  Holding: The NRS 159.061 parental preference in guardianship applies only after the court finds the parent qualified and suitable, and the preference may be rebutted by parental unfitness or by extraordinary circumstances amounting to serious detriment to the child.
+  Why here: The controlling Nevada standard for guardianship as a permanency outcome over a parent's objection.
+  Quote: “parental preference can be rebutted by showing parental unfitness or other extraordinary circumstances.”
+  https://www.courtlistener.com/opinion/2621554/matter-of-guardianship-estate-of-drg/
+- **Maria L. v. Eighth Judicial District Court**, 122 Nev. 305, 130 P.3d 657 (2006)
+  Holding: Under NRS Chapter 432B a relative with a special interest in the child must be notified of and involved in the placement plan before the court awards custody to the State, and the district court may not give controlling weight to foster parents' wish to raise the child without contact with the natural family.
+  Why here: Controls the relative's standing to seek guardianship as a permanency option.
+  Quote: “the district court gave undue weight to the foster parents' desires to raise N.S. without attachment to her natural family”
+  https://www.courtlistener.com/opinion/2622785/maria-l-v-eighth-judicial-district-court-of-the-state-of-nevada/
+- **Rennels v. Rennels**, 127 Nev. 564, 257 P.3d 396 (2011)
+  Holding: The constitutional presumption in favor of a fit parent's decision applies at the court's initial determination of a nonparent's visitation rights, but once a final visitation decree has entered the parent seeking to modify or terminate it no longer carries that presumption.
+  Why here: A nonparent's judicially approved contact rights acquire res judicata protection and shape kinship permanency arrangements.
+  Quote: “the parental presumption applies at the time of the court's initial determination of a nonparent's visitation rights.”
+  https://www.courtlistener.com/opinion/2463591/rennels-v-rennels/
+- **Troxel v. Granville**, 530 U.S. 57, 68 (2000) (plurality opinion)
+  Holding: A fit parent's decisions about the care, custody and control of his or her children are presumed to be in the children's best interests, and a court may not override them merely because it would decide differently.
+  Why here: The constitutional presumption a nonparent must overcome to obtain guardianship or court-ordered contact.
+  Quote: “there is a presumption that fit parents act in the best interests of their children”
+  https://www.courtlistener.com/opinion/1087668/troxel-v-granville/
+- **Clark County v. Eighth Judicial District Court (Eggleston)**, 141 Nev. Adv. Op. 31 (Nev. June 12, 2025)
+  Holding: Qualified immunity and Nevada discretionary-act immunity barred suit against a county social worker who allegedly coerced a parent into signing temporary guardianship papers placing his children with relatives instead of filing a petition.
+  Why here: A guardianship reached this way still produces a kinship placement, with the parent's later challenge sharply limited.
+  Quote: “we consider whether qualified and discretionary-act immunity apply to bar suit against a social worker who allegedly coerced a parent to sign guardianship papers”
+  https://www.courtlistener.com/opinion/10603656/clark-cnty-v-dist-ct-eggleston/
+- **Destin v. Eighth Judicial District Court (Handwerker-LaMaster)**, 141 Nev. Adv. Op. 42 (Nev. Aug. 28, 2025)
+  Holding: Once parental rights are terminated, placement is governed by NRS 128.110(2) rather than NRS 432B.550's familial preference; the district court must give due consideration to the agency's placement preference but is not bound by it, because the court retains the duty to decide what placement serves the child's best interest. Writ relief denied; placement with the paternal aunt upheld over the maternal grandmother.
+  Why here: Governs the contest between two willing kin caregivers at the permanency stage, including the court's authority to override the agency.
+  Quote: “While the district court is not bound by the agency's placement preference, it must give due consideration to that preference in deciding placement.”
+  https://www.courtlistener.com/opinion/10662659/destin-v-dist-ct-handwerker-lamaster-child-custody/
+- **Eggleston v. Stuart**, 137 Nev. 506, 495 P.3d 482 (2021)
+  Holding: Following Patsy v. Board of Regents, a plaintiff generally need not exhaust administrative remedies before bringing a § 1983 claim, subject to Zinermon v. Burch's narrow exception for procedural due process claims. Because the father's claim that a caseworker and police coerced him into signing a temporary guardianship was a substantive due process claim, dismissal for failure to exhaust his DFS substantiation appeal was error, as was the ruling that punitive damages were unavailable against the caseworker. Reversed and remanded.
+  Why here: The instrument used was a temporary guardianship to a relative, obtained under threat, which the court treated as the injury rather than as a permanency outcome.
+  Quote: “a party generally is not required to exhaust administrative remedies before filing a § 1983 civil rights claim”
+  https://www.courtlistener.com/opinion/5106965/eggleston-vs-stuart/
+
+## OUT-04 · Extended Foster Care / Aging Out
+- **Henry A. v. Willden**, 678 F.3d 991 (9th Cir. 2012)
+  Holding: Clark County and Nevada foster children stated clearly established substantive due process claims under the 'special relationship' doctrine for inadequate safety and medical care, and the court applied the Blessing test to determine which Child Welfare Act and CAPTA provisions are privately enforceable under § 1983.
+  Why here: The safety and medical-care duties run for the entire period the youth remains in state custody, including extended care.
+  Quote: “Having examined the relevant contours of a foster child's clearly established due process rights to adequate safety and medical care”
+  https://www.courtlistener.com/opinion/799337/henry-a-v-willden/
+- **In re Parental Rights as to A.J.G.**, 122 Nev. 1418, 148 P.3d 759 (2006)
+  Holding: Neither Nevada nor federal law requires the State to prove that an adoptive placement exists before a court may terminate parental rights, and once the State establishes the NRS 128.109(2) presumption the parent bears the burden of offering evidence of the child's desires under NRS 128.107(2). Termination affirmed.
+  Why here: This is the legal mechanism by which Nevada children become legally free and then remain in care to majority: because no adoptive resource need be proved before rights are severed, a terminated case can end in extended foster care rather than adoption. (The opinion itself says nothing about extended foster care or aging out; the node remains statute-driven.)
+  Quote: “neither state nor federal law on parental rights termination requires the State to prove the existence of an adoptive placement for a child before a court can terminate parental rights”
+  https://www.courtlistener.com/opinion/2543266/tammila-g-v-state-department-of-human-resources/
+
+## OUT-05 · Case Dismissal
+- **In re Parental Rights as to J.L.N.**, 118 Nev. 621, 55 P.3d 955 (2002)
+  Holding: The statutory presumptions favoring termination are rebuttable, and a parent's failure to complete a case plan within six months solely because of incarceration is not a ground for finding failure of parental adjustment.
+  Why here: Shows the record showing required before a court may decline to terminate and close or dismiss on the merits.
+  Quote: “Compelling reasons demonstrate why termination of parental rights was not in J.L.N.'s best interests.”
+  https://www.courtlistener.com/opinion/2598762/diana-l-n-v-state-department-of-human-resources-division-of-child/
+- **In re Parental Rights as to S.A.T.**, 141 Nev. Adv. Op. 46 (Nev. Oct. 2, 2025)
+  Holding: Terminating parental rights in a private termination action based solely on the parental-fault ground of token efforts to communicate is disfavored, particularly where a protective order restricted the parent's contact.
+  Why here: Affirms denial of a termination petition where the fault grounds were not proven by clear and convincing evidence.
+  Quote: “we now hold that terminating parental rights in a private termination action based solely on the parental-fault ground of token efforts to communicate with the child is disfavored.”
+  https://www.courtlistener.com/opinion/10690440/in-re-parental-rights-as-to-sat-family/
+- **In re Parental Rights as to R.A.S.**, 141 Nev. Adv. Op. 20, 567 P.3d 337 (Nev. Apr. 24, 2025)
+  Holding: Because no agency reunification services are available in a privately filed termination action, courts must approach private petitions with particular care; here the findings of abandonment and other parental fault were not supported by substantial evidence and the termination was reversed.
+  Why here: Reversal for want of substantial evidence, returning the family to an intact status.
+  Quote: “In contrast, when a private party petitions to terminate parental rights, no such services are available.”
+  https://www.courtlistener.com/opinion/10384394/in-re-parental-rights-as-to-ras/
+- **Stanley v. Illinois**, 405 U.S. 645 (1972)
+  Holding: Due process entitles a parent to a hearing on his fitness before his children are taken from him, and a State may not presume unfitness by category.
+  Why here: Where the State cannot prove unfitness at that hearing, the case must end.
+  Quote: “as a matter of due process of law, Stanley was entitled to a hearing on his fitness as a parent before his children were taken from him”
+  https://www.courtlistener.com/opinion/108497/stanley-v-illinois/
+
+## OUT-06 · Child Fatality / Serious Injury
+- **Henry A. v. Willden**, 678 F.3d 991 (9th Cir. 2012)
+  Holding: Clark County and Nevada foster children stated clearly established substantive due process claims under the 'special relationship' doctrine for inadequate safety and medical care, and the court applied the Blessing test to determine which Child Welfare Act and CAPTA provisions are privately enforceable under § 1983.
+  Why here: Frames agency liability where a child in care suffers serious harm.
+  Quote: “Having examined the relevant contours of a foster child's clearly established due process rights to adequate safety and medical care”
+  https://www.courtlistener.com/opinion/799337/henry-a-v-willden/
+- **DeShaney v. Winnebago County Department of Social Services**, 489 U.S. 189 (1989)
+  Holding: The Due Process Clause imposes no affirmative obligation on a State to protect a child from private violence it did not create, even where the agency received repeated abuse reports and failed to act. (Joshua DeShaney was never in state custody and survived with profound brain injury; this is not a death-in-care case.)
+  Why here: The starting point for analyzing agency responsibility for serious harm to a child, and the reason the custody exceptions matter.
+  Quote: “its language cannot fairly be extended to impose an affirmative obligation on the State to ensure that those interests do not come to harm through other means.”
+  https://www.courtlistener.com/opinion/112202/deshaney-v-winnebago-county-department-of-social-services/
+
+## FAIL-01 · Court Reversal of Agency Decision
+- **In re Parental Rights as to J.L.N.**, 118 Nev. 621, 55 P.3d 955 (2002)
+  Holding: The statutory presumptions favoring termination are rebuttable, and a parent's failure to complete a case plan within six months solely because of incarceration is not a ground for finding failure of parental adjustment.
+  Why here: A published reversal of a district court termination for want of substantial evidence — the model for court correction of agency-driven outcomes.
+  Quote: “Compelling reasons demonstrate why termination of parental rights was not in J.L.N.'s best interests.”
+  https://www.courtlistener.com/opinion/2598762/diana-l-n-v-state-department-of-human-resources-division-of-child/
+- **In re Parental Rights as to R.A.S.**, 141 Nev. Adv. Op. 20, 567 P.3d 337 (Nev. Apr. 24, 2025)
+  Holding: Because no agency reunification services are available in a privately filed termination action, courts must approach private petitions with particular care; here the findings of abandonment and other parental fault were not supported by substantial evidence and the termination was reversed.
+  Why here: A 2025 published reversal of a district court termination — the freshest statement of the substantial-evidence review standard.
+  Quote: “In contrast, when a private party petitions to terminate parental rights, no such services are available.”
+  https://www.courtlistener.com/opinion/10384394/in-re-parental-rights-as-to-ras/
+- **In re Parental Rights as to S.A.T.**, 141 Nev. Adv. Op. 46 (Nev. Oct. 2, 2025)
+  Holding: Terminating parental rights in a private termination action based solely on the parental-fault ground of token efforts to communicate is disfavored, particularly where a protective order restricted the parent's contact.
+  Why here: Illustrates appellate enforcement of the clear-and-convincing standard against an unsupported fault finding (by affirmance of a denial, not reversal).
+  Quote: “we now hold that terminating parental rights in a private termination action based solely on the parental-fault ground of token efforts to communicate with the child is disfavored.”
+  https://www.courtlistener.com/opinion/10690440/in-re-parental-rights-as-to-sat-family/
+- **M.L.B. v. S.L.J.**, 519 U.S. 102 (1996)
+  Holding: A State may not condition an indigent parent's appeal from a decree terminating parental rights on the parent's ability to pay record preparation fees.
+  Why here: Removes the cost barrier that would otherwise prevent appellate correction of an erroneous termination.
+  Quote: “just as a State may not block an indigent petty offender's access to an appeal afforded others”
+  https://www.courtlistener.com/opinion/9281247/m-l-b-v-s-l-j/
+- **In re Parental Rights as to L.L.S.**, 137 Nev. 241, 487 P.3d 791 (2021)
+  Holding: Procedural due process requires that a termination-of-parental-rights trial under NRS Chapter 432B be heard by a district judge in the first instance; a hearing master may not preside, and a district judge's later review of the master's trial record does not cure the defect. The termination order was reversed and the case remanded for a new TPR proceeding.
+  Why here: A structural reversal ground: a TPR order produced by a hearing master is vacated on due process grounds even where the record would otherwise support termination, and even where the parent never raised the objection below.
+  Quote: “we hold that due process requires the TPR trial to be heard before a district judge in the first instance”
+  https://www.courtlistener.com/opinion/4887108/in-re-parental-rights-as-to-lls/
+- **In re Parental Rights as to N.J.**, 116 Nev. 790, 8 P.3d 126 (2000)
+  Holding: Abandoning the jurisdictional/dispositional framework of Champagne v. Welfare Division, the court adopted the best-interest/parental-fault standard that Nevada applies today: a district court must find both that termination serves the child's best interest and that parental fault exists. The district court also erred by failing to apply NRS 128.012(2)'s abandonment presumption. Orders reversed and remanded for a new trial.
+  Why here: A reversal squarely on the ground that the district court applied the wrong legal standard and ignored a statutory presumption.
+  Quote: “we now reject our Champagne standard, which requires a district court to find jurisdictional grounds to terminate parental rights before it considers the best interests of the child”
+  https://www.courtlistener.com/opinion/8085758/sam-z-v-hikmet/
+- **Champagne v. Welfare Division of the Nevada State Department of Human Resources**, 100 Nev. 640, 691 P.2d 849 (1984)
+  Holding: In four consolidated appeals the court held that parental rights may be severed only on clear and convincing proof of parental unsuitability — serious and persistent fault or incapacity, not mere inadequacy — together with dispositional grounds in the child's best interest; it affirmed two terminations and reversed two. Its two-step jurisdictional/dispositional framework was later rejected in In re Parental Rights as to N.J., 116 Nev. 790 (2000), but its unsuitability analysis remains the court's reference point, including in In re Parental Rights as to S.A.T. (2025).
+  Why here: Two of the four terminations were reversed for want of clearly and convincingly established unsuitability — the court's model of close appellate scrutiny.
+  Quote: “Absent a showing of unsuitability, invasion of the liberty interest in parenthood is not constitutionally warranted.”
+  https://www.courtlistener.com/opinion/1408398/champagne-v-welfare-div-of-nev-state-dept/
+- **In re Parental Rights as to Q.L.R.**, 118 Nev. 602, 54 P.3d 56 (2002)
+  Holding: On an issue of first impression, the court held that incarceration resulting from a parent's voluntary criminal conduct does not by itself establish an intent to abandon the child; because the record contained no substantial evidence of abandonment, the termination of the father's parental rights was reversed.
+  Why here: A reversal for insufficiency: the fault ground the district court relied on was legally unavailable on these facts.
+  Quote: “we hold that voluntary conduct resulting in incarceration does not alone establish an intent to abandon a minor child.”
+  https://www.courtlistener.com/opinion/2516615/matter-of-parental-rights-as-to-qlr/
+- **In re Parental Rights as to A.D.L. and C.L.B., Jr.**, 133 Nev. Adv. Op. 72, 402 P.3d 1280 (2017)
+  Holding: A case plan may not condition compliance on a parent's admission of a criminal act; terminating parental rights because the mother would not admit she intentionally burned her child violated her Fifth Amendment privilege against self-incrimination, and once the NRS 128.109(1)-(2) presumptions were rebutted there was no substantial evidence of fault or of best interest. Reversed.
+  Why here: A published reversal of a Nevada termination on constitutional grounds, and the strongest Nevada precedent for a parent challenging an admission-based case plan.
+  Quote: “We conclude that a parent cannot be compelled to admit to a crime under the threat of termination of parental rights.”
+  https://www.courtlistener.com/opinion/4634477/in-re-parental-rights-as-to-adl-and-clb-jr/
+
+## FAIL-02 · Unlawful Removal
+- **Rogers v. County of San Joaquin**, 487 F.3d 1288 (9th Cir. 2007)
+  Holding: A social worker who removes a child without a warrant violates the Fourth and Fourteenth Amendments unless reasonable cause exists to believe the child would suffer serious bodily harm in the time it would take to obtain a warrant.
+  Why here: The standard a wrongful-removal § 1983 claim in the Ninth Circuit is measured against.
+  Quote: “Officials, including social workers, who remove a child from its home without a warrant must have reasonable cause to believe that the child is likely to experience serious bodily harm”
+  https://www.courtlistener.com/opinion/797914/rogers-v-county-of-san-joaquin/
+- **Mabe v. San Bernardino County**, 237 F.3d 1101 (9th Cir. 2001)
+  Holding: Officials may not enter a home or seize a child without prior judicial authorization unless they possess information at the time of seizure establishing reasonable cause to believe the child is in imminent danger of serious bodily injury, and the intrusion must be no broader than necessary to avert that injury.
+  Why here: The foundational Ninth Circuit standard for unlawful warrantless removal and entry.
+  Quote: “reasonable cause to believe that the child is in imminent danger of serious bodily injury and that the scope of the intrusion is reasonably necessary to avert that specific injury.”
+  https://www.courtlistener.com/opinion/771798/mabe-v-san-bernardino-county/
+- **Wallis v. Spencer**, 193 F.3d 1054 (9th Cir. 1999)
+  Holding: Officials who seized children on the basis of a non-existent court order and subjected them to invasive medical examinations without parental notice, consent or judicial authorization violated the family's constitutional rights; any intrusion must be strictly circumscribed by the exigency that justified it.
+  Why here: The leading Ninth Circuit case on seizure of children absent a real court order or true exigency.
+  Quote: “The right to family association includes the right of parents to make important medical decisions for their children, and of children to have those decisions made by their parents”
+  https://www.courtlistener.com/opinion/766447/wallis-v-spencer/
+- **Clark County v. Eighth Judicial District Court (Eggleston)**, 141 Nev. Adv. Op. 31 (Nev. June 12, 2025)
+  Holding: Qualified immunity and Nevada discretionary-act immunity barred suit against a county social worker who allegedly coerced a parent into signing temporary guardianship papers placing his children with relatives instead of filing a petition.
+  Why here: Marks the immunity wall a Nevada parent faces when alleging a coerced, non-judicial removal.
+  Quote: “we consider whether qualified and discretionary-act immunity apply to bar suit against a social worker who allegedly coerced a parent to sign guardianship papers”
+  https://www.courtlistener.com/opinion/10603656/clark-cnty-v-dist-ct-eggleston/
+- **Eggleston v. Stuart**, 137 Nev. 506, 495 P.3d 482 (2021)
+  Holding: Following Patsy v. Board of Regents, a plaintiff generally need not exhaust administrative remedies before bringing a § 1983 claim, subject to Zinermon v. Burch's narrow exception for procedural due process claims. Because the father's claim that a caseworker and police coerced him into signing a temporary guardianship was a substantive due process claim, dismissal for failure to exhaust his DFS substantiation appeal was error, as was the ruling that punitive damages were unavailable against the caseworker. Reversed and remanded.
+  Why here: The threshold Nevada holding for a coerced- or unlawful-removal suit: a parent may sue under § 1983 without first finishing the agency's own substantiation appeal.
+  Quote: “a party generally is not required to exhaust administrative remedies before filing a § 1983 civil rights claim”
+  https://www.courtlistener.com/opinion/5106965/eggleston-vs-stuart/
+
+## FAIL-03 · Federal Compliance Failure
+- **Henry A. v. Willden**, 678 F.3d 991 (9th Cir. 2012)
+  Holding: Clark County and Nevada foster children stated clearly established substantive due process claims under the 'special relationship' doctrine for inadequate safety and medical care, and the court applied the Blessing test to determine which Child Welfare Act and CAPTA provisions are privately enforceable under § 1983.
+  Why here: Applies the Blessing/Suter framework that decides which federal Title IV-E and CAPTA duties a child may actually enforce.
+  Quote: “Having examined the relevant contours of a foster child's clearly established due process rights to adequate safety and medical care”
+  https://www.courtlistener.com/opinion/799337/henry-a-v-willden/
+- **Haaland v. Brackeen**, 599 U.S. 255 (2023)
+  Holding: ICWA is a valid exercise of Congress's Article I authority over Indian affairs, its placement and procedural requirements do not violate the anticommandeering doctrine, and the equal protection and nondelegation challenges failed for lack of standing (so the constitutionality of the placement preferences remains formally open).
+  Why here: A state's failure to apply ICWA is a failure of binding federal law, not of a waivable federal guideline.
+  Quote: “the bottom line is that we reject all of petitioners' challenges to the statute, some on the merits and others for lack of standing.”
+  https://www.courtlistener.com/opinion/9406660/haaland-v-brackeen/
+- **Suter v. Artist M.**, 503 U.S. 347 (1992)
+  Holding: The 'reasonable efforts' requirement of the Adoption Assistance and Child Welfare Act, 42 U.S.C. § 671(a)(15), creates no privately enforceable right: it is enforced through the Secretary's approval and oversight of the state plan, not through § 1983 or an implied cause of action by the children the Act benefits. Seventh Circuit reversed.
+  Why here: A state's failure to meet the federal reasonable-efforts standard is a federal compliance problem, not a private cause of action; this is the case Henry A. v. Willden's Blessing/Suter analysis applies.
+  Quote: “neither confers an enforceable private right on its beneficiaries nor creates an implied cause of action on their behalf”
+  https://www.courtlistener.com/opinion/112712/suter-v-artist-m/
+
+## FAIL-04 · Child Death Under Agency Supervision
+- **Henry A. v. Willden**, 678 F.3d 991 (9th Cir. 2012)
+  Holding: Clark County and Nevada foster children stated clearly established substantive due process claims under the 'special relationship' doctrine for inadequate safety and medical care, and the court applied the Blessing test to determine which Child Welfare Act and CAPTA provisions are privately enforceable under § 1983.
+  Why here: The Nevada-specific roadmap for constitutional claims arising from harm to a child under agency supervision.
+  Quote: “Having examined the relevant contours of a foster child's clearly established due process rights to adequate safety and medical care”
+  https://www.courtlistener.com/opinion/799337/henry-a-v-willden/
+- **DeShaney v. Winnebago County Department of Social Services**, 489 U.S. 189 (1989)
+  Holding: The Due Process Clause imposes no affirmative obligation on a State to protect a child from private violence it did not create, even where the agency received repeated abuse reports and failed to act. (Joshua DeShaney was never in state custody and survived with profound brain injury; this is not a death-in-care case.)
+  Why here: The controlling authority limiting § 1983 liability where a child was never taken into state custody.
+  Quote: “its language cannot fairly be extended to impose an affirmative obligation on the State to ensure that those interests do not come to harm through other means.”
+  https://www.courtlistener.com/opinion/112202/deshaney-v-winnebago-county-department-of-social-services/
+
+## FAIL-05 · Discrimination / Retaliation
+- **Capp v. County of San Diego**, 940 F.3d 1046 (9th Cir. 2019)
+  Holding: A social worker who threatens to terminate a parent's custody in retaliation for the parent's protected criticism of the agency violates the First Amendment, and is not entitled to qualified immunity.
+  Why here: The leading Ninth Circuit authority on retaliation by child welfare officials against a parent.
+  Quote: “A reasonable official would have known that taking the serious step of threatening to terminate a parent's custody of his children”
+  https://www.courtlistener.com/opinion/4667181/jonathan-capp-v-county-of-san-diego/
+- **Haaland v. Brackeen**, 599 U.S. 255 (2023)
+  Holding: ICWA is a valid exercise of Congress's Article I authority over Indian affairs, its placement and procedural requirements do not violate the anticommandeering doctrine, and the equal protection and nondelegation challenges failed for lack of standing (so the constitutionality of the placement preferences remains formally open).
+  Why here: Leaves the equal protection challenge to ICWA's preferences undecided for want of standing — a point counsel must not overstate.
+  Quote: “the bottom line is that we reject all of petitioners' challenges to the statute, some on the merits and others for lack of standing.”
+  https://www.courtlistener.com/opinion/9406660/haaland-v-brackeen/
+- **Adoptive Couple v. Baby Girl**, 570 U.S. 637 (2013)
+  Holding: Sections 1912(f) and 1912(d) of ICWA do not bar termination of the rights of a parent who never had custody of the Indian child, because there is no 'continued custody' to be broken up and no family to preserve through remedial efforts.
+  Why here: Shows the Court construing ICWA narrowly to avoid the equal protection question its preferences would raise.
+  Quote: “we hold that neither § 1912(f) nor § 1912(d) bars the termination of his parental rights”
+  https://www.courtlistener.com/opinion/931616/adoptive-couple-v-baby-girl/
+- **Mississippi Band of Choctaw Indians v. Holyfield**, 490 U.S. 30 (1989)
+  Holding: Domicile under ICWA is a matter of uniform federal law, and children domiciled on the reservation fall within the tribal court's exclusive jurisdiction under 25 U.S.C. § 1911(a) even where the parents voluntarily gave birth off-reservation.
+  Why here: Explains that ICWA's preferences rest on tribal political status, not racial classification.
+  Quote: “Section 1911(a) establishes exclusive jurisdiction in the tribal courts for proceedings concerning an Indian child”
+  https://www.courtlistener.com/opinion/112241/mississippi-band-of-choctaw-indians-v-holyfield/
+
+## FAIL-06 · Disclosure / Transparency Failure
+- **Clark County Department of Family Services v. Eighth Judicial District Court (Sharp)**, 141 Nev. Adv. Op. 10 (Nev. Mar. 6, 2025)
+  Holding: NRS 432B.290(4) creates only a limited privilege for the identity of a person who reports suspected child abuse — available when the agency determines disclosure would harm an investigation or endanger a person — and it did not bar the court from ordering DFS to disclose reporter identities to a criminal defendant.
+  Why here: Shows the precise boundary of a Nevada agency's lawful nondisclosure, against which a refusal can be tested.
+  Quote: “we hold that the district court did not exceed its jurisdiction when it ordered DFS to release the names of the individuals who made the reports at issue”
+  https://www.courtlistener.com/opinion/10351457/clark-cnty-dept-of-fam-serv-v-dist-ct-sharp/
+- **State, Division of Child & Family Services v. Eighth Judicial District Court**, 119 Nev. 655, 81 P.3d 512 (2003)
+  Holding: Although child welfare and adoption records are confidential under NRS 432B.280, the exceptions in NRS 432B.290 permit a family court to order DCFS to release identifying information so a child may serve siblings' adoptive parents in a sibling-visitation petition.
+  Why here: Confidentiality under NRS 432B.280 is not absolute; an agency that refuses all disclosure misstates Nevada law.
+  Quote: “We conclude that the family court acted well within its jurisdiction in ordering DCFS to disclose the information for the sole purpose of effecting service.”
+  https://www.courtlistener.com/opinion/8085815/state-division-of-child-family-services-v-eighth-judicial-district/
+- **Public Employees' Retirement System of Nevada v. Nevada Policy Research Institute, Inc.**, 134 Nev. Adv. Op. 81, 429 P.3d 280 (2018)
+  Holding: Under the Nevada Public Records Act an agency must disclose requested information where producing it merely requires searching an existing database, the information is readily accessible and not confidential, and speculative risks of disclosure do not outweigh the public's interest in access.
+  Why here: The governing Nevada Public Records Act balancing test against which an agency's refusal to release data is measured.
+  Quote: “is readily accessible and not confidential, and the alleged risks posed by disclosure do not outweigh the benefits of the public's interest in access to the records”
+  https://www.courtlistener.com/opinion/6657499/pub-employees-ret-sys-of-nev-v-nev-policy-research-inst-inc/
+- **Public Employees' Retirement System v. Reno Newspapers, Inc.**, 129 Nev. 833, 313 P.3d 221 (2013)
+  Holding: Under the Public Records Act the agency bears the burden of proving confidentiality, either by identifying a statute that declares the record confidential or by showing its interest in nondisclosure clearly outweighs the public interest; NRS 286.110(3) protects individual members' files but does not protect the same information when it appears in reports generated from those files. Affirmed in part and vacated in part.
+  Why here: The burden-allocation rule a requester uses when an agency simply refuses — silence is not a defense; the agency must prove confidentiality.
+  Quote: “The state entity bears the burden of overcoming this presumption of openness by proving by a preponderance of the evidence that the requested records are confidential.”
+  https://www.courtlistener.com/opinion/8086079/public-employees-retirement-system-v-reno-newspapers-inc/
+- **In re Public Records Request to Las Vegas Metropolitan Police Department**, 141 Nev. Adv. Op. 26 (Nev. May 29, 2025)
+  Holding: A government agency cannot obtain an advance judicial ruling on its own disclosure obligations: the Judicial Confirmation Law does not reach LVMPD, which is not a municipality, and NRS 239.0107's mandatory five-business-day response duties foreclose declaratory relief in response to a records request. The court noted that a third party who is the subject of requested records is not similarly barred from a reverse-records action. Affirmed.
+  Why here: Closes the principal delay tactic available to a Nevada agency — it must answer the request within five business days and cite a legal basis for any claimed confidentiality rather than litigate first.
+  Quote: “the Act does not allow a governmental entity to bypass NRS 239.0107 and seek declaratory relief in response to a public records request”
+  https://www.courtlistener.com/opinion/10646903/in-re-pub-records-request-to-las-vegas-metro-police-dept/
+
+## PMC-01 · CFSR Monitoring
+- **Henry A. v. Willden**, 678 F.3d 991 (9th Cir. 2012)
+  Holding: Clark County and Nevada foster children stated clearly established substantive due process claims under the 'special relationship' doctrine for inadequate safety and medical care, and the court applied the Blessing test to determine which Child Welfare Act and CAPTA provisions are privately enforceable under § 1983.
+  Why here: Shows what federal performance obligations look like when litigated rather than merely reviewed under the CFSR.
+  Quote: “Having examined the relevant contours of a foster child's clearly established due process rights to adequate safety and medical care”
+  https://www.courtlistener.com/opinion/799337/henry-a-v-willden/
+- **Suter v. Artist M.**, 503 U.S. 347 (1992)
+  Holding: The 'reasonable efforts' requirement of the Adoption Assistance and Child Welfare Act, 42 U.S.C. § 671(a)(15), creates no privately enforceable right: it is enforced through the Secretary's approval and oversight of the state plan, not through § 1983 or an implied cause of action by the children the Act benefits. Seventh Circuit reversed.
+  Why here: The controlling federal answer to why CFSR-style monitoring is the remedy for state non-performance: the Adoption Act's plan requirements are enforced administratively by HHS, not by the children in court.
+  Quote: “neither confers an enforceable private right on its beneficiaries nor creates an implied cause of action on their behalf”
+  https://www.courtlistener.com/opinion/112712/suter-v-artist-m/
+
+## PMC-02 · OIG / Financial Audit
+- **Henry A. v. Willden**, 678 F.3d 991 (9th Cir. 2012)
+  Holding: Clark County and Nevada foster children stated clearly established substantive due process claims under the 'special relationship' doctrine for inadequate safety and medical care, and the court applied the Blessing test to determine which Child Welfare Act and CAPTA provisions are privately enforceable under § 1983.
+  Why here: Documents the categories of systemic Nevada agency failure that audit findings typically mirror.
+  Quote: “Having examined the relevant contours of a foster child's clearly established due process rights to adequate safety and medical care”
+  https://www.courtlistener.com/opinion/799337/henry-a-v-willden/
+- **Public Employees' Retirement System of Nevada v. Nevada Policy Research Institute, Inc.**, 134 Nev. Adv. Op. 81, 429 P.3d 280 (2018)
+  Holding: Under the Nevada Public Records Act an agency must disclose requested information where producing it merely requires searching an existing database, the information is readily accessible and not confidential, and speculative risks of disclosure do not outweigh the public's interest in access.
+  Why here: Establishes the public's right of access to the agency data that audit and financial review depend on.
+  Quote: “is readily accessible and not confidential, and the alleged risks posed by disclosure do not outweigh the benefits of the public's interest in access to the records”
+  https://www.courtlistener.com/opinion/6657499/pub-employees-ret-sys-of-nev-v-nev-policy-research-inst-inc/
+- **Suter v. Artist M.**, 503 U.S. 347 (1992)
+  Holding: The 'reasonable efforts' requirement of the Adoption Assistance and Child Welfare Act, 42 U.S.C. § 671(a)(15), creates no privately enforceable right: it is enforced through the Secretary's approval and oversight of the state plan, not through § 1983 or an implied cause of action by the children the Act benefits. Seventh Circuit reversed.
+  Why here: Explains why audit and funding leverage — rather than private litigation — is the operative check on how a state spends Title IV-E money.
+  Quote: “neither confers an enforceable private right on its beneficiaries nor creates an implied cause of action on their behalf”
+  https://www.courtlistener.com/opinion/112712/suter-v-artist-m/
+
+## PMC-03 · Citizen Review Panels
+- **Henry A. v. Willden**, 678 F.3d 991 (9th Cir. 2012)
+  Holding: Clark County and Nevada foster children stated clearly established substantive due process claims under the 'special relationship' doctrine for inadequate safety and medical care, and the court applied the Blessing test to determine which Child Welfare Act and CAPTA provisions are privately enforceable under § 1983.
+  Why here: Identifies the specific Nevada system deficiencies a citizen review panel would be evaluating.
+  Quote: “Having examined the relevant contours of a foster child's clearly established due process rights to adequate safety and medical care”
+  https://www.courtlistener.com/opinion/799337/henry-a-v-willden/
+- **Public Employees' Retirement System of Nevada v. Nevada Policy Research Institute, Inc.**, 134 Nev. Adv. Op. 81, 429 P.3d 280 (2018)
+  Holding: Under the Nevada Public Records Act an agency must disclose requested information where producing it merely requires searching an existing database, the information is readily accessible and not confidential, and speculative risks of disclosure do not outweigh the public's interest in access.
+  Why here: Gives a citizen review panel the legal footing to demand the underlying records rather than agency summaries.
+  Quote: “is readily accessible and not confidential, and the alleged risks posed by disclosure do not outweigh the benefits of the public's interest in access to the records”
+  https://www.courtlistener.com/opinion/6657499/pub-employees-ret-sys-of-nev-v-nev-policy-research-inst-inc/
+- **Clark County Department of Family Services v. Eighth Judicial District Court (Sharp)**, 141 Nev. Adv. Op. 10 (Nev. Mar. 6, 2025)
+  Holding: NRS 432B.290(4) creates only a limited privilege for the identity of a person who reports suspected child abuse — available when the agency determines disclosure would harm an investigation or endanger a person — and it did not bar the court from ordering DFS to disclose reporter identities to a criminal defendant.
+  Why here: Defines what a review body can and cannot be told about reporters under NRS 432B.290.
+  Quote: “we hold that the district court did not exceed its jurisdiction when it ordered DFS to release the names of the individuals who made the reports at issue”
+  https://www.courtlistener.com/opinion/10351457/clark-cnty-dept-of-fam-serv-v-dist-ct-sharp/
+
+## PMC-04 · Fatality Review Commission
+- **DeShaney v. Winnebago County Department of Social Services**, 489 U.S. 189 (1989)
+  Holding: The Due Process Clause imposes no affirmative obligation on a State to protect a child from private violence it did not create, even where the agency received repeated abuse reports and failed to act. (Joshua DeShaney was never in state custody and survived with profound brain injury; this is not a death-in-care case.)
+  Why here: The authority limiting liability where the child was never in state custody — which is why administrative fatality and near-fatality review, rather than litigation, is the practical accountability route.
+  Quote: “its language cannot fairly be extended to impose an affirmative obligation on the State to ensure that those interests do not come to harm through other means.”
+  https://www.courtlistener.com/opinion/112202/deshaney-v-winnebago-county-department-of-social-services/
+- **Henry A. v. Willden**, 678 F.3d 991 (9th Cir. 2012)
+  Holding: Clark County and Nevada foster children stated clearly established substantive due process claims under the 'special relationship' doctrine for inadequate safety and medical care, and the court applied the Blessing test to determine which Child Welfare Act and CAPTA provisions are privately enforceable under § 1983.
+  Why here: Identifies the recurring care failures that a fatality-review body is meant to surface before a death occurs.
+  Quote: “Having examined the relevant contours of a foster child's clearly established due process rights to adequate safety and medical care”
+  https://www.courtlistener.com/opinion/799337/henry-a-v-willden/
+
+## PMC-05 · FOIA / Transparency
+- **Public Employees' Retirement System of Nevada v. Nevada Policy Research Institute, Inc.**, 134 Nev. Adv. Op. 81, 429 P.3d 280 (2018)
+  Holding: Under the Nevada Public Records Act an agency must disclose requested information where producing it merely requires searching an existing database, the information is readily accessible and not confidential, and speculative risks of disclosure do not outweigh the public's interest in access.
+  Why here: The leading modern Nevada statement that speculative harm does not defeat a public records request.
+  Quote: “is readily accessible and not confidential, and the alleged risks posed by disclosure do not outweigh the benefits of the public's interest in access to the records”
+  https://www.courtlistener.com/opinion/6657499/pub-employees-ret-sys-of-nev-v-nev-policy-research-inst-inc/
+- **Clark County Department of Family Services v. Eighth Judicial District Court (Sharp)**, 141 Nev. Adv. Op. 10 (Nev. Mar. 6, 2025)
+  Holding: NRS 432B.290(4) creates only a limited privilege for the identity of a person who reports suspected child abuse — available when the agency determines disclosure would harm an investigation or endanger a person — and it did not bar the court from ordering DFS to disclose reporter identities to a criminal defendant.
+  Why here: The 2025 statement of how much of the NRS 432B record stays sealed in Nevada.
+  Quote: “we hold that the district court did not exceed its jurisdiction when it ordered DFS to release the names of the individuals who made the reports at issue”
+  https://www.courtlistener.com/opinion/10351457/clark-cnty-dept-of-fam-serv-v-dist-ct-sharp/
+- **State, Division of Child & Family Services v. Eighth Judicial District Court**, 119 Nev. 655, 81 P.3d 512 (2003)
+  Holding: Although child welfare and adoption records are confidential under NRS 432B.280, the exceptions in NRS 432B.290 permit a family court to order DCFS to release identifying information so a child may serve siblings' adoptive parents in a sibling-visitation petition.
+  Why here: The statutory exceptions in NRS 432B.290 are the lawful route to child-welfare records that the blanket-confidentiality claim obscures.
+  Quote: “We conclude that the family court acted well within its jurisdiction in ordering DCFS to disclose the information for the sole purpose of effecting service.”
+  https://www.courtlistener.com/opinion/8085815/state-division-of-child-family-services-v-eighth-judicial-district/
+- **Public Employees' Retirement System v. Reno Newspapers, Inc.**, 129 Nev. 833, 313 P.3d 221 (2013)
+  Holding: Under the Public Records Act the agency bears the burden of proving confidentiality, either by identifying a statute that declares the record confidential or by showing its interest in nondisclosure clearly outweighs the public interest; NRS 286.110(3) protects individual members' files but does not protect the same information when it appears in reports generated from those files. Affirmed in part and vacated in part.
+  Why here: The foundational modern Nevada Public Records Act decision that PERS v. NPRI builds on; it supplies the presumption of openness, the narrow-construction rule and the balancing test.
+  Quote: “The state entity bears the burden of overcoming this presumption of openness by proving by a preponderance of the evidence that the requested records are confidential.”
+  https://www.courtlistener.com/opinion/8086079/public-employees-retirement-system-v-reno-newspapers-inc/
+- **In re Public Records Request to Las Vegas Metropolitan Police Department**, 141 Nev. Adv. Op. 26 (Nev. May 29, 2025)
+  Holding: A government agency cannot obtain an advance judicial ruling on its own disclosure obligations: the Judicial Confirmation Law does not reach LVMPD, which is not a municipality, and NRS 239.0107's mandatory five-business-day response duties foreclose declaratory relief in response to a records request. The court noted that a third party who is the subject of requested records is not similarly barred from a reverse-records action. Affirmed.
+  Why here: The most recent Nevada Supreme Court statement on the Public Records Act, decided the same term as Sharp, and the one that fixes the procedural posture of any transparency dispute.
+  Quote: “the Act does not allow a governmental entity to bypass NRS 239.0107 and seek declaratory relief in response to a public records request”
+  https://www.courtlistener.com/opinion/10646903/in-re-pub-records-request-to-las-vegas-metro-police-dept/
+
+## PMC-06 · Project Milk Carton AI Analysis
+- **Henry A. v. Willden**, 678 F.3d 991 (9th Cir. 2012)
+  Holding: Clark County and Nevada foster children stated clearly established substantive due process claims under the 'special relationship' doctrine for inadequate safety and medical care, and the court applied the Blessing test to determine which Child Welfare Act and CAPTA provisions are privately enforceable under § 1983.
+  Why here: The anchor case for any structural analysis of the Nevada and Clark County child welfare systems.
+  Quote: “Having examined the relevant contours of a foster child's clearly established due process rights to adequate safety and medical care”
+  https://www.courtlistener.com/opinion/799337/henry-a-v-willden/
+- **Public Employees' Retirement System of Nevada v. Nevada Policy Research Institute, Inc.**, 134 Nev. Adv. Op. 81, 429 P.3d 280 (2018)
+  Holding: Under the Nevada Public Records Act an agency must disclose requested information where producing it merely requires searching an existing database, the information is readily accessible and not confidential, and speculative risks of disclosure do not outweigh the public's interest in access.
+  Why here: Confirms that database queries against existing records are a disclosable public record in Nevada, not a prohibited new compilation.
+  Quote: “is readily accessible and not confidential, and the alleged risks posed by disclosure do not outweigh the benefits of the public's interest in access to the records”
+  https://www.courtlistener.com/opinion/6657499/pub-employees-ret-sys-of-nev-v-nev-policy-research-inst-inc/
+- **Clark County Department of Family Services v. Eighth Judicial District Court (Sharp)**, 141 Nev. Adv. Op. 10 (Nev. Mar. 6, 2025)
+  Holding: NRS 432B.290(4) creates only a limited privilege for the identity of a person who reports suspected child abuse — available when the agency determines disclosure would harm an investigation or endanger a person — and it did not bar the court from ordering DFS to disclose reporter identities to a criminal defendant.
+  Why here: The controlling recent rule an automated records analysis must encode about reporter-identity confidentiality.
+  Quote: “we hold that the district court did not exceed its jurisdiction when it ordered DFS to release the names of the individuals who made the reports at issue”
+  https://www.courtlistener.com/opinion/10351457/clark-cnty-dept-of-fam-serv-v-dist-ct-sharp/
+- **In re N.R.R.**, 140 Nev. Adv. Op. 77 (Nev. Dec. 5, 2024)
+  Holding: A district court in an NRS Chapter 432B proceeding lacks statutory authority to order the child welfare agency to pay rental assistance to a foster parent; the agency retains broad discretion over the services and supports it funds.
+  Why here: A structural constraint any accountability model must encode: the Nevada juvenile court cannot order agency expenditures.
+  Quote: “We conclude that the district court lacked statutory authority to order DFS to pay rental assistance to a foster parent.”
+  https://www.courtlistener.com/opinion/10288704/in-re-matter-of-nrr-and-nir/
+- **Public Employees' Retirement System v. Reno Newspapers, Inc.**, 129 Nev. 833, 313 P.3d 221 (2013)
+  Holding: Under the Public Records Act the agency bears the burden of proving confidentiality, either by identifying a statute that declares the record confidential or by showing its interest in nondisclosure clearly outweighs the public interest; NRS 286.110(3) protects individual members' files but does not protect the same information when it appears in reports generated from those files. Affirmed in part and vacated in part.
+  Why here: Establishes the point an automated records analysis must encode: aggregated or derived reports are not confidential merely because the underlying individual file is.
+  Quote: “The state entity bears the burden of overcoming this presumption of openness by proving by a preponderance of the evidence that the requested records are confidential.”
+  https://www.courtlistener.com/opinion/8086079/public-employees-retirement-system-v-reno-newspapers-inc/
+
+## Notes
+- RECONCILIATION APPLIED AFTER VERIFICATION. Three cases were removed from this brief in full, together with every node_map entry and every relevance sentence that depended on them: (1) In re Parental Rights as to N.J., 125 Nev. 835, 221 P.3d 1255 (2009) (cluster 8085964) — the stated holding was the exact inverse of the opinion, which held that Nevada's courts MAY apply the Existing Indian Family doctrine case by case; (2) Clark County Department of Family Services v. Eighth Judicial District Court, 128 Nev. 764, 291 P.3d 122 (2012) (cluster 8086041) — the quoted sentence was a party's rejected argument, the opinion never construes NRS 432B.530(3), and the writ petition was denied rather than granted; (3) Kirkpatrick v. County of Washoe, 843 F.3d 784 (9th Cir. 2016) (en banc) (cluster 4328788) — the stored quote was a fragment that, standing alone, asserts the opposite of what the en banc court decided. All three are recoverable on a later pass with corrected holdings and quotes; none should be re-entered as written. Additional node-level drops applied for fit rather than accuracy: Jason S. from INP-05; Keates from INP-08; Rennels from ACT-05 (retained at OUT-03); Lassiter from DEC-05; Smith v. OFFER and Momox-Caselis from OUT-04; In re N.R.R. from FAIL-01, FAIL-03, PMC-01 and PMC-02; Kory L.G. from PMC-01. No node was left with zero authorities, but INP-08, OUT-04 and PMC-01 now carry a single case each and should be treated as statute-driven until supplemented.
+- METHOD AND VERIFICATION. Every one of the 40 cases was retrieved from the CourtListener v4 API in this session and its opinion text read. Each quote was then machine-verified as an exact substring of that opinion's whitespace-normalized text (curly quotes/dashes normalized to ASCII) and confirmed at 30 words or fewer with no internal ellipses. 107 of the 150 permitted API requests were used. No case, holding, quote or citation in this brief comes from memory.
+- CASE-NAME CAPTIONS — IMPORTANT FOR CITE-CHECKING. CourtListener stores several leading Nevada child-welfare opinions under the parent's pseudonymous party caption, while the Nevada Supreme Court itself cites them as 'In re Parental Rights as to [initials].' I used the court's own form. The CourtListener captions at the same URLs are: 118 Nev. 737 = 'Richard J. K. v. State, Div. of Child & Family Servs.' (In re Parental Rights as to K.D.L.); 118 Nev. 621 = 'Diana L. N. v. State' (In re Parental Rights as to J.L.N.; the 2025 R.A.S. opinion cites it as J.L.N.); 121 Nev. 379 = 'Letesheia O. v. State' (In re Parental Rights as to N.D.O.); 125 Nev. 835 = 'Dawn M. v. Nevada State Div. of Child & Family Servs.' (In re Parental Rights as to N.J.); 128 Nev. 14 = 'Raena R. v. State' (In re Parental Rights as to S.M.M.D.); 128 Nev. 462 = 'Quiana M. B. v. State Dep't of Family Servs.' (In re Parental Rights as to J.D.N., the form the Nevada Supreme Court uses in In re A.T. (2025) and the form adopted here on reconciliation). Both forms point to the same cluster.
+- CITATION FORM FOR 2024–2025 OPINIONS. Six recent Nevada Supreme Court opinions (Sharp, Eggleston, In re A.T., In re N.R.R., S.A.T., R.A.S.) carry no P.3d citation in CourtListener yet — cluster lookups returned only the advance-opinion number. They are cited here in Nevada advance-opinion form with the exact filing date. R.A.S. is an exception: the parallel cite 567 P.3d 337 was recovered from the S.A.T. opinion's own citation and has been added. A cite-checker should add the remaining parallel P.3d cites once assigned. Mulkern is cited to P.3d only because CourtListener carried no Nevada Reports page or advance-opinion number for it; PERS v. NPRI carries the advance-opinion number 134 Nev. Adv. Op. 81 in the brief's citation string, which was NOT confirmed by anything read in verification and still needs its Nevada Reports page.
+- NO NEVADA CASE LAW EXISTS IN COURTLISTENER ON MANDATORY-REPORTER DUTY OR REPORTER IMMUNITY. Four separate searches of nev and nevapp ('432B.160'/'432B.220' immunity; reporter good-faith immunity; teacher/physician/social-worker failure to report; civil liability for failure to report) returned zero on-point results, and the zero results for '432B.220' and 'mandatory reporter child abuse' were independently confirmed on verification. For INP-01, INP-02, INP-06, INP-07 and INP-08, the operating authority in Nevada is therefore statutory — NRS 432B.220 (duty to report), NRS 432B.160 (immunity for good-faith reports), NRS 432B.240 (criminal penalty for failure to report) — plus the CAPTA floor at 42 U.S.C. §§ 5101–5116. The cases mapped to those nodes go to what happens to a report once made (Sharp on reporter-identity confidentiality) and to the absence of a federal constitutional remedy for an unacted-upon report (DeShaney). A user should not be told Nevada appellate courts have construed the reporting duty itself; they have not, in the published record available here.
+- NO NEVADA CASE LAW ON EXTENDED FOSTER CARE OR AGING OUT (OUT-04). A targeted search for age-of-majority/age-21/independent-living jurisdiction returned zero Nevada results, and the zero result for '432B.594'/'extended foster care' was independently confirmed. OUT-04 is therefore carried by the federal standard — the Chafee Foster Care Independence Act (Pub. L. 106-169) and the Fostering Connections Act (Pub. L. 110-351), with NRS 432B.594 governing Nevada's extended-care program — plus Henry A. v. Willden (safety and medical-care duties run for the duration of state custody). This node is the thinnest in the NV layer and must be flagged as statute-driven.
+- NO NEVADA CASE LAW ON CITIZEN REVIEW PANELS (PMC-03), THE FATALITY REVIEW COMMISSION (PMC-04) OR CFSR/SINGLE-AUDIT ENFORCEMENT (PMC-01, PMC-02, FAIL-03). These nodes rest on federal statute and regulation — CAPTA § 5106a(c) (citizen review panels), 45 C.F.R. Part 1355 (CFSR), the Protect Our Kids Act (Pub. L. 112-275), the Single Audit Act, and NRS 432B.403–.409 (Nevada's child death review teams). The cases mapped there are the closest litigated analogues: Henry A. v. Willden (systemic Nevada/Clark County failures and the Blessing/Suter test for which federal child-welfare duties are privately enforceable at all) and PERS v. NPRI (the public-records right that any review body or FOIA effort depends on). No Nevada or Ninth Circuit decision adjudicates the CFSR, a citizen review panel, or a fatality commission.
+- EVERY CASE IS PUBLISHED. No unpublished memorandum decision was used. One near-miss is worth recording: Joyce E.B. v. State (In re K.J.B.), 443 P.3d 1127 (Nev. 2019), surfaced repeatedly in TPR searches but is a table disposition of a pro se appeal, so it was excluded in favor of published authority. The existing key_cases blocks in the NV files (In re Goldstein Irrevocable Trust, In re Discipline of Hardeep Sull, In re Petition for Change of Name (Fleek), etc.) are keyword-matched noise with synthetic citations and share none of the entries here; none survived retrieval and should be replaced wholesale.
+- HAALAND v. BRACKEEN REQUIRES A CAREFUL READ, NOT A SOUNDBITE. Brackeen rejected the equal-protection and nondelegation challenges to ICWA's placement preferences for lack of standing, not on the merits — the constitutionality of the preferences themselves remains formally open and must never be described as settled. This caveat is carried in the published entry as well as in these notes.
+- SOME RETRIEVED TEXTS ARE OCR OF SCANNED SLIP OPINIONS AND CONTAIN SCANNING ARTIFACTS (the Sharp opinion, for instance, renders 'limited' as 'lirnited' and 'mandamus' as 'rnandamus' in places). Every quote in this brief was deliberately drawn from a clean, artifact-free passage and verified character-for-character against the retrieved text. Quotes drawn from Ninth Circuit opinions were also checked against the opinion body rather than the court-staff summary paragraph, which by its own terms 'constitutes no part of the opinion of the court' — this mattered for Capp (verified in the body) and was the ground on which Momox-Caselis was removed.
+- QUOTE AND ATTRIBUTION CAUTIONS CARRIED FORWARD FROM VERIFICATION. (a) The Mabe quote appears in that opinion inside quotation marks as the court's quotation of Wallis v. Spencer, 202 F.3d 1126, 1138 (9th Cir. 2000), and must be reproduced with the internal-quotation signal '(quoting Wallis)'. (b) Wallis, 193 F.3d 1054, was later amended and superseded in part at 202 F.3d 1126 (9th Cir. 2000); the pin cite must be checked against whichever version is relied on. (c) Capp is a Rule 12(b)(6) pleading-stage ruling and superseded an earlier opinion of August 30, 2019, which must never be cited. (d) Troxel's quoted passage is from a four-Justice plurality and is cited here as such. (e) Henry A.'s Blessing analysis came out both ways — the Child Welfare Act case-plan and records provisions are privately enforceable under § 1983, the CAPTA guardian ad litem and early-intervention provisions are not. (f) Adoptive Couple's holding depends on the predicate that the father never had legal or physical custody, and the majority's sentence opens 'assuming for the sake of argument that he is a "parent"' — both must travel with any citation to it. (g) Eggleston (2025) drew a dissent from Bell, J., and is the sequel to Eggleston v. Stuart, 137 Nev. 506, 495 P.3d 482 (2021). (h) In re A.T. expressly cautions that 'nothing in this opinion should be read to authorize a district court to negotiate plea conditions on behalf of the district attorney.' (i) S.A.T. carries a second holding worth quoting: a parent does not admit a parental-fault ground simply by failing to oppose it when responding to the petition. (j) In Jason S. the temporary guardianship ran to the HOSPITAL under NRS 159.052. (k) The M.L.B. fragment is the antecedent half of the Court's holding sentence and must travel with the 'so Mississippi may not deny...' clause. (l) The PERS v. NPRI quote begins mid-clause and should be pulled from 'We hold that where the requested information merely requires searching a database...'. (m) The Mann quote's own sentence continues 'about the examinations and without obtaining either the parents' consent or judicial authorization'; the holding carries that qualification. (n) Lassiter's CourtListener date_filed (1981-08-28) is the rehearing-denial date; the decision issued June 1, 1981.
+- NEVADA HAS ITS OWN INDIAN CHILD WELFARE STATUTE, NRS CHAPTER 125E, which independently requires good-faith inquiry, tribal notice, active efforts, qualified expert witnesses and transfer to tribal court. It postdates In re Parental Rights as to S.M.M.D. (2012), and no published Nevada opinion construing NRS Chapter 125E was found in CourtListener. INP-11 accordingly pairs the surviving Nevada ICWA cases with the three controlling federal decisions (Holyfield, Adoptive Couple, Brackeen); practitioners must read NRS Chapter 125E alongside them because it may impose duties the older Nevada cases did not address.
+- DISTINCTIVELY NEVADA POINTS A PRACTITIONER SHOULD KNOW, all drawn from opinions read here: (a) reasonable efforts under NRS 432B.393 cannot be converted into a case-plan mandate against a NON-OFFENDING parent (Kory L.G.); (b) NRS 432B.550(5)(a) creates a rebuttable presumption favoring SIBLING placement that survives a sibling's adoption (Mulkern); (c) a relative with a 'special interest' under NRS 432B.457(2)(a)(1) must be notified and involved BEFORE custody is awarded to the State (Maria L.); (d) a no-contest plea is available in a Chapter 432B petition without prosecutor agreement (In re A.T.); (e) PRIVATE termination petitions get heightened judicial scrutiny precisely because no agency services exist (R.A.S., S.A.T.); (f) reporter identity is protected only by a LIMITED privilege the agency must invoke and justify (Sharp); (g) a Nevada juvenile court cannot order the agency to spend money on a placement (In re N.R.R.); (h) post-adoption contact agreements are UNENFORCEABLE in Nevada (Birth Mother); (i) a TPR trial must be heard by a district judge in the first instance, never a hearing master (L.L.S.).
+- NEVADA-ARISING FEDERAL CASES ANCHOR THE § 1983 NODES and should be surfaced prominently to Nevada families: Henry A. v. Willden (systemic claims by Clark County foster children) is now the sole federal Nevada-arising anchor in this brief, because Momox-Caselis v. Donohue was removed on verification for a quote defect (see the removals note). Clark County v. Eighth Judicial District Court (Eggleston) (2025) is the state-court counterpart and is the current Nevada statement of social-worker qualified and discretionary-act immunity; Eggleston v. Stuart (2021) is its predicate. Kirkpatrick v. County of Washoe and Momox-Caselis both belong in this group and must be restored on a later pass with corrected quotes.
+- The repository was not modified. This brief is returned as data only, per instruction.
+- GAP-CLOSURE PASS, 2026-09-20. Sixteen cases were added to this brief. Every one was retrieved from the CourtListener v4 API in this session, its opinion text read, and its quote machine-verified as an exact substring of that opinion's whitespace-normalized text (curly quotes, en/em dashes and section signs normalized to ASCII), at 30 words or fewer, with no internal ellipses, and confirmed by character offset to fall inside the majority opinion rather than any dissent, concurrence or syllabus. 50 API requests were used. The thirteen 'Missing (for a later pass)' notes carried by the prior version are superseded by the entries and notes below and have been removed; nothing they recorded has been dropped. No case, holding, quote or citation added here comes from memory. The repository was not modified.
+- CORRECTION TO THE RECONCILIATION NOTE ABOVE. Its closing sentence - that INP-08, OUT-04 and PMC-01 each carry a single case - was true of an earlier version and is no longer true. Every node in node_map carries at least two authorities: INP-08 (Sharp + J.D.N.), OUT-04 (Henry A. v. Willden + In re Parental Rights as to A.J.G.) and PMC-01 (Henry A. v. Willden + Suter v. Artist M.). OUT-04 and PMC-01 nevertheless remain statute- and federal-standard-driven and must still be presented that way.
+- Added In re Parental Rights as to L.L.S., 137 Nev. 241, 487 P.3d 791 (2021) (en banc) for OUT-02, DEC-05, FAIL-01: it is the controlling Nevada rule that a TPR trial must be heard by a district judge in the first instance and that a hearing master may not preside, which is a structural reversal ground and materially limits how far master-based Chapter 432B procedure can be relied on. (Citation corrected on reconciliation: the advance-opinion form the prior pass used is superseded by the Nevada Reports and P.3d cites confirmed from In re A.T.'s internal citation.)
+- Added In re Parental Rights as to J.D.N., 128 Nev. 462 (2012) for INP-01, INP-02, INP-03, INP-06, INP-08, DEC-03, ACT-02, OUT-02: it is the Nevada hearsay authority the brief actually needed: the juvenile 'J' file, which is where every intake report ends up, is not automatically in evidence in a termination trial, and NRS 128.109's presumptions are rebutted by a preponderance. (Caption corrected on reconciliation from the CourtListener party caption 'Quiana M. B.' to the court's own form, per this brief's stated convention.)
+- Added Phillip A. C. v. Central Council of the Tlingit & Haida Tribes of Alaska, 122 Nev. 1284 (2006) for INP-11: it is Nevada's published ICWA decision on how Indian-child status is proved and on the tribe's independent standing under 25 U.S.C. S 1914 to challenge a voluntary adoption.
+- Added In re Parental Rights as to N.J., 116 Nev. 790, 8 P.3d 126 (2000) for OUT-02, DEC-03, ACT-02, FAIL-01: it is the decision that rejected the Champagne standard and adopted the best-interest/parental-fault test every later Nevada TPR case applies. Its citation, which the prior pass could not fully verify (CourtListener's cluster field reads '1 Nev. 790', a data error), is now confirmed by the internal citations of more than a dozen Nevada opinions read in verification; the 'could not fully verify' caveat is discharged.
+- Added Champagne v. Welfare Division, 100 Nev. 640 (1984) for OUT-02, DEC-03, ACT-02, FAIL-01: it is the foundational Nevada unsuitability decision that the 2025 S.A.T. opinion still reasons from, and its case-plan limitation (no unsuitability finding on plans that are unclear, uncommunicated or impossible) has no modern substitute.
+- Added In re Parental Rights as to Q.L.R., 118 Nev. 602 (2002) for OUT-02, DEC-03, FAIL-01: it is the source of Nevada's incarceration rule that K.D.L. later applies, and it reversed a termination for want of substantial evidence of abandonment.
+- Added In re Parental Rights as to C.J.M., 118 Nev. 724 (2002) for OUT-02, DEC-03, ACT-02: it is Q.L.R.'s companion and shows where incarceration crosses from context into an articulated ground, and when the agency owes no reunification plan. Its quote begins after the word 'Instead,' and must be read with the preceding sentence, which states that incarceration alone cannot justify termination.
+- Added In re Parental Rights as to D.R.H., 120 Nev. 422 (2004) for OUT-02, DEC-03, ACT-03: it upholds NRS 128.109(2)'s 14-of-20-month presumption against a substantive due process attack and is the case later opinions cite for Nevada's clear-and-convincing standard.
+- Added In re Parental Rights as to A.J.G., 122 Nev. 1418 (2006) for OUT-02, OUT-04, DEC-03: it holds that no adoptive placement need be proved before rights are severed, which is the legal mechanism by which a Nevada child becomes legally free and then stays in care, and it is the only retrieved Nevada authority that reaches OUT-04 at all. The opinion itself says nothing about extended foster care or aging out and must stay labeled that way.
+- Added In re Parental Rights as to A.D.L. and C.L.B., Jr., 133 Nev. Adv. Op. 72, 402 P.3d 1280 (2017) for ACT-02, DEC-03, FAIL-01, OUT-02: it is Nevada's limit on what a court-ordered case plan may demand - treatment and demonstrated safety, but never a confession - and it reversed a termination on Fifth Amendment grounds. The Nevada Reports page was unassigned, so the advance-opinion form is correct; the parallel P.3d cite was recovered from Donald B.
+- Added Donald B. v. Nevada Department of Family Services (In re S.L.), 422 P.3d 1253 (Nev. 2018) for ACT-02, DEC-03, OUT-02: it is the other edge of the A.D.L. rule: a denying parent can still be required to engage in meaningful therapy aimed at the children's safety, and it was surfaced by the verifier as an omission.
+- Added Destin v. Eighth Judicial District Court (Handwerker-LaMaster), 141 Nev. Adv. Op. 42 (2025) for ACT-04, OUT-03, OUT-02: it is the current Nevada statement that post-termination placement runs through NRS 128.110(2) rather than NRS 432B.550, and that the court must weigh but is not bound by the agency's preference.
+- Added Public Employees' Retirement System v. Reno Newspapers, Inc., 129 Nev. 833 (2013) for FAIL-06, PMC-05, PMC-06: it is the modern Nevada Public Records Act decision that PERS v. NPRI builds on, and it supplies the presumption of openness, the agency's burden, and the rule that derived reports are not confidential merely because the underlying file is. Its quoted sentence carries an 'Id.' to Reno Newspapers, Inc. v. Gibbons, 127 Nev. 873, 266 P.3d 623 (2011) and should be reproduced with a '(citing Gibbons)' signal.
+- Added In re Public Records Request to Las Vegas Metropolitan Police Department, 141 Nev. Adv. Op. 26 (2025) for FAIL-06, PMC-05: it forecloses an agency's attempt to litigate its disclosure obligations in advance instead of answering within NRS 239.0107's five business days.
+- Added Eggleston v. Stuart, 137 Nev. 506, 495 P.3d 482 (2021) ('Eggleston I') for FAIL-02, ACT-01, INP-05, OUT-03: it is the predicate the 2025 Eggleston majority and Bell, J., dissenting both argue from, and it holds that a parent need not exhaust the agency's substantiation appeal before bringing a S 1983 substantive due process claim. Its Nevada Reports page, unverified on the prior pass, is now established from the Bell dissent's internal citation and the citation has been corrected accordingly.
+- Added Suter v. Artist M., 503 U.S. 347 (1992) for PMC-01, PMC-02, FAIL-03, ACT-02: no Nevada or Ninth Circuit decision adjudicates CFSR monitoring or single-audit enforcement, so PMC-01 is carried by the federal standard: the Adoption Act's reasonable-efforts clause is enforced by HHS through plan approval, not privately, and this is the authority Henry A. v. Willden's Blessing/Suter analysis applies. The quoted fragment omits its subject, 42 U.S.C. S 671(a)(15), which must travel with it.
+- CITATION-COLLISION WARNING, LIVE IN THE BRIEF. There are two Nevada Supreme Court decisions styled 'In re Parental Rights as to N.J.': 116 Nev. 790, 8 P.3d 126 (2000) (cluster 8085758), which is entered here, and 125 Nev. 835, 221 P.3d 1255 (2009) (cluster 8085964, CourtListener caption 'Dawn M. v. Nevada State Div. of Child & Family Servs.'), which the reconciliation removed for an inverted ICWA holding and which has NOT been restored. Any short-form cite to 'N.J.' in this brief means the 2000 decision. The court's own caption for the 2000 decision varies between 'In re Termination of Parental Rights as to N.J.' and 'Matter of Parental Rights as to N.J.'
+- CHAMPAGNE MUST NEVER BE CITED WITHOUT ITS ABROGATION. Champagne's two-step jurisdictional/dispositional framework was expressly rejected in In re Parental Rights as to N.J., 116 Nev. 790 (2000), which replaced it with the best-interest/parental-fault standard. What survives, and what the 2025 S.A.T. opinion reasons from, is Champagne's unsuitability analysis and its constitutional floor. The entry here is written to that distinction; a cite-checker should confirm the pin cites (S.A.T. pin-cites Champagne at 651, 691 P.2d at 857) before publication.
+- OUT-04 REMAINS THE THINNEST NODE AND IS STILL STATUTE-DRIVEN. Re-running the searches with quoted terms as the verifier directed: '"extended foster care"' returns 0 published results in nev and nevapp, and '"432B.594"' returns exactly one Nevada result - In re S.B., No. 79394 (Nev. Nov. 20, 2020), cluster 4831560, opinion 4635339 - which was retrieved and read and is an ORDER OF AFFIRMANCE, not a published opinion, and so was excluded under this brief's published-only standard. Its substance is worth knowing and is recorded here rather than entered as authority: NRS 432B.594(1) requires the court to retain jurisdiction past 18 'if the child so requests,' and the court held that a guardian ad litem, but not the child's attorney, may make that request for a non-verbal or incapacitated child. OUT-04 is therefore carried by In re Parental Rights as to A.J.G. (why a legally free child can remain in care), Henry A. v. Willden (duties that run for the duration of custody), and the federal and state statutes: the Chafee Act (Pub. L. 106-169), the Fostering Connections Act (Pub. L. 110-351) and NRS 432B.594.
+- PMC-01, PMC-02, PMC-03 AND FAIL-03 REMAIN FEDERAL-STANDARD NODES, CONFIRMED ON RE-SEARCH. Quoted-term searches returned 0 published Nevada results for '"Child and Family Services Review"' and 0 Nevada results for '"citizen review panel"' (the 91 hits nationwide are Georgia juvenile-court citizen panel review cases, an unrelated institution). A 2026 Nevada opinion, Las Vegas Police Protective Assoc. v. LVMPD Citizen Review Bd., 142 Nev. Adv. Op. 55 (cluster 10954056), surfaced in that search and was NOT added: it concerns a police civilian oversight board, not a CAPTA S 5106a(c) child-welfare citizen review panel, and is off point. PMC-01 and PMC-02 now carry Suter v. Artist M. alongside Henry A. v. Willden, which is the honest federal answer rather than a Nevada case that does not exist. PMC-03's Sharp relevance sentence must be read as the general NRS 432B.290(4) rule a panel would be subject to; Sharp is a criminal-discovery decision and says nothing about review bodies.
+- THE VERIFIER'S FALSE-NEGATIVE WARNING WAS SOUND AND IS NOW PARTLY DISCHARGED. Unquoted multi-term CourtListener queries do produce false negatives; the negative claims in the earlier notes for '432B.220', 'mandatory reporter child abuse', '432B.594', 'extended foster care', 'Child and Family Services Review' and 'citizen review panel' have now been re-run with quoted terms, and all were confirmed except '432B.594', which returned the single unpublished order described above. The earlier note asserting that NO Nevada case law exists on mandatory-reporter duty or reporter immunity was NOT independently re-run beyond the two terms already confirmed; before any of those negative assertions is published as a representation to a client, each should be re-run with quoted statutory terms.
+- REMOVALS APPLIED ON THIS RECONCILIATION PASS (two cases, both for quote defects, neither for a bad holding). (1) Keates v. Koile, 883 F.3d 1228 (9th Cir. 2018) (cluster 4474827) - case, citation and holding all check out, but the stored quote ends mid-sentence on 'unless they have' and therefore states no rule at all; in the opinion the sentence continues '"information at the time of the seizure that establishes reasonable cause to believe that the child is in imminent danger of serious bodily injury." Rogers v. County of San Joaquin, 487 F.3d 1288, 1294 (9th Cir. 2007) (internal quotation marks omitted).' Removed from INP-07, DEC-02, DEC-04, ACT-06 and FAIL-02. (2) Momox-Caselis v. Donohue, 987 F.3d 835 (9th Cir. 2021) (cluster 4853292) - case, citation and holding all correct, but the stored quote's first occurrence is inside the court-staff summary (no part of the opinion) and its only body occurrence sits inside a sentence reporting the plaintiffs' contention. Removed from ACT-03, OUT-06, FAIL-04 and PMC-04. No node was left below two authorities by either removal. Both are recoverable on a later pass with the corrected quotes identified above.
+- PMC-04 RELEVANCE CORRECTED. The prior version gave DeShaney the sentence 'Illustrates why fatality review, rather than litigation, is the practical accountability route after a death in care' - verbatim the sentence used for Momox-Caselis. Joshua DeShaney was never in state custody and did not die; he survived with profound brain injury inflicted by his father. DeShaney is retained on PMC-04 and OUT-06 as the authority limiting liability where the child was never in custody, and the 'death in care' framing is reserved for Momox-Caselis, which is currently out of the brief pending a corrected quote.
+- OPERATOR NOTE, NOT PART OF THE LEGAL BRIEF - on the question of whether GitHub's own AI could do these passes instead. Partly. The mechanical half of this work is a good fit for a GitHub Action: fetching clusters and opinions from CourtListener, checking that every quote is an exact substring of the retrieved text, that it is 30 words or fewer with no ellipses, that its character offset falls inside the majority rather than a staff summary or dissent, that the quote is a complete sentence rather than a fragment ending mid-clause, that no case is unpublished, that every cited cluster id resolves, and that no node in node_map has fewer than two authorities. That is deterministic, it is cheap, it runs on every pull request, and it would have caught all five defects reconciliation has had to fix by hand across these passes - including both quote defects removed today, which are exactly the shape a substring-plus-offset-plus-sentence-completeness check catches. The judgment half is not a fit today: deciding that a quote states the rule rather than a party's rejected argument, that a holding is not inverted, that Champagne is abrogated in part but still load-bearing, that DeShaney is not a death-in-care case, and that a police civilian review board is not a CAPTA citizen review panel - a Copilot coding agent working from an issue will produce plausible text for all of those without the retrieval discipline, which is exactly the failure mode that put the bad entries in the file. Recommended split: keep the case-selection and holding-writing passes here, and move the verification rules into a CI check in the dataset repo so nothing merges unverified.
+- Missing (for a later pass): Kirkpatrick v. County of Washoe, 843 F.3d 784 (9th Cir. 2016) (en banc) (cluster 4328788) - a Nevada-arising Fourth Amendment warrantless-removal decision that belongs on FAIL-02, INP-12 and DEC-04; the prior reconciliation pulled it only because its stored quote was an inverted fragment, and it must be restored with a corrected holding and quote.
+- Missing (for a later pass): In re Parental Rights as to N.J., 125 Nev. 835, 221 P.3d 1255 (2009) (cluster 8085964, CourtListener caption 'Dawn M. v. Nevada State Div. of Child & Family Servs.') - Nevada's published Existing Indian Family decision, load-bearing for INP-11 and currently absent; removed for an inverted stored holding, and recoverable with the holding corrected to what the court actually decided (Nevada courts MAY apply the doctrine case by case). Keep the short-form collision warning against the 2000 N.J. decision when it is restored.
+- Missing (for a later pass): Keates v. Koile, 883 F.3d 1228 (9th Cir. 2018) (cluster 4474827) - removed on this pass for a truncated quote only; holding and citation are sound. Restore to INP-07, DEC-02, DEC-04, ACT-06 and FAIL-02 with the completed sentence and a '(quoting Rogers)' signal.
+- Missing (for a later pass): Momox-Caselis v. Donohue, 987 F.3d 835 (9th Cir. 2021) (cluster 4853292) - removed on this pass for a quote drawn from the staff summary and from a sentence reporting the plaintiffs' contention; holding and citation are sound and it is one of only two Nevada-arising federal anchors. Restore to ACT-03, OUT-06, FAIL-04 and PMC-04 using the court's own holding sentence, 'We hold that neither exception applies under the facts of this appeal.'

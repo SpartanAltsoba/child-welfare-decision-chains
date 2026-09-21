@@ -79,6 +79,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Kansas state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "In re A.J.S.",
+          "citation": "288 Kan. 429, 204 P.3d 543 (2009)",
+          "court": "Supreme Court of Kansas",
+          "year": 2009,
+          "date_decided": "2009-03-27",
+          "holding": "The court overruled In re Adoption of Baby Boy L. and abandoned the judicially created 'existing Indian family' doctrine, holding that ICWA applies to a child of both Indian and non-Indian heritage without any threshold inquiry into the family's cultural connection to the tribe.",
+          "relevance": "Abandoning the existing-Indian-family doctrine removes a device that had been used to withhold ICWA's protections from children on the basis of perceived cultural assimilation.",
+          "quote": "we hereby overrule Baby Boy L., 231 Kan. 199, and abandon its existing Indian family doctrine",
+          "url": "https://www.courtlistener.com/opinion/7970564/in-re-ajs/",
+          "courtlistener_cluster_id": 7970564
+        },
+        {
+          "case_name": "Haaland v. Brackeen",
+          "citation": "599 U.S. 255 (2023)",
+          "court": "Supreme Court of the United States",
+          "year": 2023,
+          "date_decided": "2023-06-15",
+          "holding": "The Court rejected all challenges to the Indian Child Welfare Act, upholding Congress's authority to enact it, reversing on the anticommandeering claims, and vacating for lack of standing the equal protection and nondelegation challenges to the placement preferences.",
+          "relevance": "The equal protection challenge to ICWA's placement preferences was left unresolved for lack of standing, so the preferences continue to govern placements.",
+          "quote": "the bottom line is that we reject all of petitioners' challenges to the statute, some on the merits and others for lack of standing",
+          "url": "https://www.courtlistener.com/opinion/9406660/haaland-v-brackeen/",
+          "courtlistener_cluster_id": 9406660
+        },
+        {
+          "case_name": "In re T.S.W.",
+          "citation": "294 Kan. 423, 276 P.3d 133 (2012)",
+          "court": "Supreme Court of Kansas",
+          "year": 2012,
+          "date_decided": "2012-05-04",
+          "holding": "Reviewing a collateral order, the court held that a non-Indian biological mother's preference for a non-Indian adoptive family is not, absent a request for anonymity, good cause to deviate from ICWA's placement preferences, and reversed the district court's good-cause finding.",
+          "relevance": "Deviating from ICWA preferences on the strength of a parent's non-Indian placement preference is the kind of placement decision the court identified as unlawful.",
+          "quote": "absent a request for anonymity by a biological parent, a parent's placement preference cannot override ICWA's placement factors",
+          "url": "https://www.courtlistener.com/opinion/7970877/in-re-tsw/",
+          "courtlistener_cluster_id": 7970877
+        },
+        {
+          "case_name": "Lindenman v. Umscheid",
+          "citation": "255 Kan. 610, 875 P.2d 964 (1994)",
+          "court": "Supreme Court of Kansas",
+          "year": 1994,
+          "date_decided": "1994-06-03",
+          "holding": "In a suit by day care operators against state and local health officials, the court affirmed judgment for most defendants but reversed summary judgment for KDHE on the abuse-of-process and malicious-prosecution claims, holding that the Kansas Tort Claims Act's discretionary function exception applies only where no mandatory duty or guideline exists and confers no immunity for maliciously prosecuting a citizen.",
+          "relevance": "A person who claims a state agency pursued enforcement against him maliciously has a remedy in Kansas notwithstanding the Tort Claims Act, unlike a claim of mere negligent investigation.",
+          "quote": "The government has no power or grant of immunity under the KTCA to maliciously prosecute a citizen of the state",
+          "url": "https://www.courtlistener.com/opinion/2612878/lindenman-v-umscheid/",
+          "courtlistener_cluster_id": 2612878
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Kansas%22%20AND%20%28%22Kansas%20Department%20for%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Kansas Department for Children and Families",
         "DCF",
@@ -90,149 +144,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Kansas%22%20AND%20%28%22Kansas%20Department%20for%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "wrongful removal",
-        "1983 claim",
-        "civil rights",
-        "immunity",
-        "damages"
-      ],
-      "jurisdiction": "Kansas state courts",
-      "key_cases": [
-        {
-          "case_id": "119012",
-          "title": "In re Mason",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/119012.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 119012 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "129013",
-          "title": "In re Wagle",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/129013.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 129013 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "20346",
-          "title": "In re Holmes",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/20346.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 20346 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "13805",
-          "title": "In re Peterson, II",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/13805.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 13805 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "118723",
-          "title": "In re Sullivan",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/118723.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 118723 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "125499",
-          "title": "In re McVey",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/125499.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 125499 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "127835",
-          "title": "In re Valdez",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/127835.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 127835 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "124395",
-          "title": "In re Martinez",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/124395.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 124395 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "125968",
-          "title": "In re Barnds",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/125968.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 125968 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "126718",
-          "title": "In re K.W.D.",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/126718.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 126718 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

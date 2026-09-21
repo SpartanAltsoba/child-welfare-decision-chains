@@ -127,6 +127,72 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Maine state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "In re Thomas D.",
+          "citation": "2004 ME 104, 854 A.2d 195",
+          "court": "Supreme Judicial Court of Maine",
+          "year": 2004,
+          "date_decided": "2004-08-04",
+          "holding": "The Law Court vacated termination of the father's parental rights because, without a rehabilitation and reunification plan establishing the services he was required to complete, his failure to abstain from alcohol and complete counseling could not establish unfitness by clear and convincing evidence, and vacated as to the mother so her unfitness and best-interest determinations could be reconsidered.",
+          "relevance": "This is Maine's leading authority on court-ordered service plans under 22 M.R.S. § 4041: the Department must develop the plan when the child enters foster care and the court must resolve disputes about its contents.",
+          "quote": "Unless the Department has been excused from reunification efforts, the rehabilitation and reunification plan is the centerpiece of child protective proceedings following a jeopardy determination.",
+          "url": "https://www.courtlistener.com/opinion/2326676/in-re-thomas-d/",
+          "courtlistener_cluster_id": 2326676
+        },
+        {
+          "case_name": "In re Child of Barni A.",
+          "citation": "2024 ME 16",
+          "court": "Supreme Judicial Court of Maine",
+          "year": 2024,
+          "date_decided": "2024-01-31",
+          "holding": "The Law Court vacated termination of a mother's rights to her medically fragile child and remanded, holding that where the Department never provided the 24/7 private duty nursing to which the child was legally entitled under MaineCare and never followed up on indications that the mother has an intellectual disability, the record did not establish her unfitness by clear and convincing evidence.",
+          "relevance": "The Court tied the Department's reunification obligation under 22 M.R.S. § 4041(1-A)(A)(1)(c)(iv) to services tailored to a parent who may have an intellectual disability.",
+          "quote": "We cannot assume that the mother would have been found unfit if the Department had met its legal obligations.",
+          "url": "https://www.courtlistener.com/opinion/9471586/in-re-child-of-barni-a/",
+          "courtlistener_cluster_id": 9471586
+        },
+        {
+          "case_name": "In re Children of Bethmarie R.",
+          "citation": "2018 ME 96, 189 A.3d 252",
+          "court": "Supreme Judicial Court of Maine",
+          "year": 2018,
+          "date_decided": "2018-07-12",
+          "holding": "The Law Court affirmed a jeopardy order and an order directing the Department to cease reunification based on the aggravating factor of heinous or abhorrent treatment, rejecting the mother's due process challenge founded on a contemporaneous Probate Court guardianship proceeding that had reached a different result on overlapping evidence.",
+          "relevance": "The opinion sets out how an aggravating-factor finding under 22 M.R.S. § 4002(1-B) relieves the Department of the service and reunification obligations that would otherwise drive the case plan.",
+          "quote": "No due process violation has been demonstrated on this record.",
+          "url": "https://www.courtlistener.com/opinion/4516323/in-re-children-of-bethmarie-r/",
+          "courtlistener_cluster_id": 4516323
+        },
+        {
+          "case_name": "In re B.C.",
+          "citation": "2012 ME 140, 58 A.3d 1118",
+          "court": "Supreme Judicial Court of Maine",
+          "year": 2012,
+          "date_decided": "2012-12-20",
+          "holding": "The Law Court affirmed the jeopardy order, holding that the aggravating-factor finding embedded in a jeopardy order may be reviewed for evidentiary sufficiency but that the resulting cease-reunification order is interlocutory and not itself subject to appellate review, overruling contrary suggestions in earlier cases.",
+          "relevance": "This is the Maine authority defining when a court may relieve the Department of its statutory rehabilitation and reunification obligations under 22 M.R.S. § 4041(2)(A-2).",
+          "quote": "In some limited circumstances, however, the court may relieve the Department of those efforts by issuing a cease reunification order.",
+          "url": "https://www.courtlistener.com/opinion/5146065/in-re-bc/",
+          "courtlistener_cluster_id": 5146065
+        },
+        {
+          "case_name": "In re Doris G.",
+          "citation": "2006 ME 142, 912 A.2d 572",
+          "court": "Supreme Judicial Court of Maine",
+          "year": 2006,
+          "date_decided": "2006-12-19",
+          "holding": "The Law Court affirmed termination of the father's parental rights notwithstanding the Department's failure to develop and file the reunification plan that 22 M.R.S. § 4041 and the jeopardy order required, holding that the Department's section 4041 compliance is not a discrete element of proof in a termination proceeding and distinguishing In re Thomas D. because this father knew what rehabilitation was expected of him, was himself partly responsible for the plan's absence, and lost his rights for his inability to care for and protect his children rather than for failing undisclosed services.",
+          "relevance": "This is the controlling counterweight to In re Thomas D. and In re Child of Barni A. on court-ordered service plans: the section 4041 plan duties are mandatory, but their breach is not a discrete element of proof and does not by itself defeat a termination, and the Court limits Thomas D. to cases where the parent was never told what services were required.",
+          "quote": "although the Department's obligations pursuant to section 4041 are mandatory, the Department's failure to satisfy those obligations does not preclude a termination of parental rights.",
+          "url": "https://www.courtlistener.com/opinion/5142769/in-re-doris-g/",
+          "courtlistener_cluster_id": 5142769
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Maine%22%20AND%20%28%22Maine%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Maine Department of Health and Human Services",
         "CPS",
@@ -138,149 +204,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Maine%22%20AND%20%28%22Maine%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "removal",
-        "emergency custody",
-        "placement",
-        "reunification",
-        "services"
-      ],
-      "jurisdiction": "Maine state courts",
-      "key_cases": [
-        {
-          "case_id": "2025-me-91",
-          "title": "In re Children of Krystal W.",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2025/2025-me-91.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2025-me-91 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re child, In re"
-        },
-        {
-          "case_id": "2025-me-33",
-          "title": "Doe v. Burnham",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2025/2025-me-33.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2025-me-33 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        },
-        {
-          "case_id": "2025-me-23",
-          "title": "Doe v. Costin",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2025/2025-me-23.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2025-me-23 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        },
-        {
-          "case_id": "2025-me-16",
-          "title": "In re Child of Christian D.",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2025/2025-me-16.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2025-me-16 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re child, In re"
-        },
-        {
-          "case_id": "2025-me-7",
-          "title": "In re Child of Taylor M.",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2025/2025-me-7.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2025-me-7 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re child, In re"
-        },
-        {
-          "case_id": "2024-me-71",
-          "title": "In re William B. Blaisdell IV",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2024/2024-me-71.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2024-me-71 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "2024-me-66",
-          "title": "In re Children of Destiny H.",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2024/2024-me-66.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2024-me-66 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re child, In re"
-        },
-        {
-          "case_id": "2024-me-16",
-          "title": "In re Child of Barni A.",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2024/2024-me-16.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2024-me-16 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re child, In re"
-        },
-        {
-          "case_id": "2024-me-1",
-          "title": "In re Children of Billie S.",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2024/2024-me-1.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2024-me-1 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re child, In re"
-        },
-        {
-          "case_id": "2023-me-76",
-          "title": "In re Children of Shannevia Y.",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2023/2023-me-76.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2023-me-76 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re child, In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

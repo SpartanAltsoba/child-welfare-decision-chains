@@ -136,6 +136,48 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "New Mexico state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "In re Termination of Parental Rights of Eventyr J.",
+          "citation": "120 N.M. 463, 902 P.2d 1066 (Ct. App. 1995)",
+          "court": "New Mexico Court of Appeals",
+          "year": 1995,
+          "date_decided": "1995-07-07",
+          "holding": "The court affirmed termination, holding that clear and convincing evidence supported the findings and that admitting the Citizen's Review Board chairman's testimony about the mother's statements to the Board did not deprive her of due process.",
+          "relevance": "It is the New Mexico decision describing how the substitute care review board process under Section 32A-8-6 feeds monitoring findings back into the court file.",
+          "quote": "we conclude that there was clear and convincing evidence to support the district court's order terminating Respondent's parental rights and that Respondent's due process rights were not violated",
+          "url": "https://www.courtlistener.com/opinion/2607019/matter-of-termination-of-parental-rights/",
+          "courtlistener_cluster_id": 2607019
+        },
+        {
+          "case_name": "Suter v. Artist M.",
+          "citation": "503 U.S. 347 (1992)",
+          "court": "Supreme Court of the United States",
+          "year": 1992,
+          "date_decided": "1992-03-25",
+          "holding": "The Court held that the 'reasonable efforts' clause of the Adoption Assistance and Child Welfare Act, 42 U.S.C. Section 671(a)(15), confers no enforceable private right on its beneficiaries and creates no implied cause of action.",
+          "relevance": "It explains why federal child-welfare performance requirements are enforced through the Secretary's plan-approval and review machinery rather than private suits.",
+          "quote": "We conclude that 42 U. S. C. § 671 (a)(15) neither confers an enforceable private right on its beneficiaries nor creates an implied cause of action on their behalf",
+          "url": "https://www.courtlistener.com/opinion/112712/suter-v-artist-m/",
+          "courtlistener_cluster_id": 112712
+        },
+        {
+          "case_name": "Yvonne L. v. New Mexico Department of Human Services",
+          "citation": "959 F.2d 883 (10th Cir. 1992)",
+          "court": "United States Court of Appeals for the Tenth Circuit",
+          "year": 1992,
+          "date_decided": "1992-03-24",
+          "holding": "The court held that children in New Mexico state custody had a clearly established Fourteenth Amendment right to reasonable safety measured by the Youngberg professional judgment standard and reversed qualified immunity on that claim, while affirming that 42 U.S.C. Section 671(a)(10) of the AACWA is too vague and amorphous to be enforced under Section 1983.",
+          "relevance": "The plaintiffs' theory was that New Mexico never designated an authority or adopted standards for child care institutions, an oversight failure the court examines.",
+          "quote": "while it does not require actual knowledge the children will be harmed, it implies abdication of the duty to act professionally in making the placements",
+          "url": "https://www.courtlistener.com/opinion/9006488/yvonne-l-v-new-mexico-department-of-human-services/",
+          "courtlistener_cluster_id": 9006488
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22New%20Mexico%22%20AND%20%28%22New%20Mexico%20Children%20Youth%20and%20Families%20Department%22%20OR%20%22CYFD%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "New Mexico Children Youth and Families Department",
         "CYFD",
@@ -147,148 +189,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22New%20Mexico%22%20AND%20%28%22New%20Mexico%20Children%20Youth%20and%20Families%20Department%22%20OR%20%22CYFD%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "mandatory reporting",
-        "failure to report",
-        "reporter immunity",
-        "hotline"
-      ],
-      "jurisdiction": "New Mexico state courts",
-      "key_cases": [
-        {
-          "case_id": "s-1-sc-40711",
-          "title": "In re Rael (Unpublished Opinion)",
-          "url": "https://law.justia.com/cases/new-mexico/supreme-court/2025/s-1-sc-40711.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Mexico Supreme Court Case s-1-sc-40711 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s-1-sc-40571",
-          "title": "In re Valdez (Unpublished Opinion)",
-          "url": "https://law.justia.com/cases/new-mexico/supreme-court/2025/s-1-sc-40571.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Mexico Supreme Court Case s-1-sc-40571 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a-1-ca-41980",
-          "title": "In re Guardianship & Conservatorship of Linda D. (Unpublished Opinion)",
-          "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2025/a-1-ca-41980.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New Mexico Court Of Appeals Case a-1-ca-41980 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "a-1-ca-41751",
-          "title": "In re Estate of Sanchez (Unpublished Opinion)",
-          "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2025/a-1-ca-41751.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New Mexico Court Of Appeals Case a-1-ca-41751 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a-1-ca-42499",
-          "title": "In re Estate of Carr (Unpublished Opinion)",
-          "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2025/a-1-ca-42499.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New Mexico Court Of Appeals Case a-1-ca-42499 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a-1-ca-40832",
-          "title": "In re Maestas (Unpublished Opinion)",
-          "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2025/a-1-ca-40832.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New Mexico Court Of Appeals Case a-1-ca-40832 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a-1-ca-41794",
-          "title": "In re Dissolution of ROI Enters., LLC (Unpublished Opinion)",
-          "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2025/a-1-ca-41794.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New Mexico Court Of Appeals Case a-1-ca-41794 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a-1-ca-41644",
-          "title": "In re Estate of Chavez (Unpublished Opinion)",
-          "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2025/a-1-ca-41644.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New Mexico Court Of Appeals Case a-1-ca-41644 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a-1-ca-42410",
-          "title": "In re Estate of Groves (Unpublished Opinion)",
-          "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2025/a-1-ca-42410.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New Mexico Court Of Appeals Case a-1-ca-42410 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a-1-ca-42477",
-          "title": "In re Guardianship of Kenya A.C. (Unpublished Opinion)",
-          "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2025/a-1-ca-42477.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New Mexico Court Of Appeals Case a-1-ca-42477 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

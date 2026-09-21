@@ -136,6 +136,96 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Texas state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "In re Department of Family & Protective Services",
+          "citation": "273 S.W.3d 637 (Tex. 2009)",
+          "court": "Supreme Court of Texas",
+          "year": 2009,
+          "date_decided": "2009-01-09",
+          "holding": "The one-year dismissal deadline in Family Code § 263.401 is mandatory though not jurisdictional, and a trial court that fails to render a final order or a valid extension must dismiss the termination suit.",
+          "relevance": "From the day the petition is filed the Department has one year (plus at most a 180-day extension) to obtain a final order, or the case must be dismissed.",
+          "quote": "We hold that the Family Code required the case to be dismissed and the trial court abused its discretion by failing to do so",
+          "url": "https://www.courtlistener.com/opinion/895080/in-re-department-of-family-protective-services/",
+          "courtlistener_cluster_id": 895080
+        },
+        {
+          "case_name": "In re E.R.",
+          "citation": "385 S.W.3d 552 (Tex. 2012)",
+          "court": "Supreme Court of Texas",
+          "year": 2012,
+          "date_decided": "2012-07-06",
+          "holding": "Service by publication on a parent whose whereabouts were reasonably ascertainable does not satisfy due process under Mullane, and a termination decree so obtained cannot stand.",
+          "relevance": "Controls how DFPS may serve an absent parent when it opens the case; publication is constitutionally inadequate if the parent could have been found with reasonable diligence.",
+          "quote": "Mullane remains the seminal case involving notice by publication, and it explains how to evaluate the adequacy of notice",
+          "url": "https://www.courtlistener.com/opinion/5283628/in-the-interest-of-er/",
+          "courtlistener_cluster_id": 5283628
+        },
+        {
+          "case_name": "In re K.M.L.",
+          "citation": "443 S.W.3d 101 (Tex. 2014)",
+          "court": "Supreme Court of Texas",
+          "year": 2014,
+          "date_decided": "2014-08-29",
+          "holding": "Termination was improper where the mother's relinquishment affidavit was not knowingly and intelligently executed and where the indigent father received no notice of trial and did not waive it.",
+          "relevance": "Once the suit is opened, every parent must receive actual notice of trial, and a relinquishment affidavit signed by a parent who lacks capacity cannot substitute for it.",
+          "quote": "because the father did not receive notice of trial and did not waive notice, we reverse the judgment of the court of appeals",
+          "url": "https://www.courtlistener.com/opinion/2831425/in-the-interest-of-kml-a-child/",
+          "courtlistener_cluster_id": 2831425
+        },
+        {
+          "case_name": "Stanley v. Illinois",
+          "citation": "405 U.S. 645 (1972)",
+          "court": "Supreme Court of the United States",
+          "year": 1972,
+          "date_decided": "1972-04-03",
+          "holding": "A parent's interest in the custody and care of his children is constitutionally protected, and the State may not take children on a presumption of unfitness without a hearing on that parent's actual fitness.",
+          "relevance": "When the Department files its Chapter 262 petition, the parent is constitutionally entitled to an individualized hearing on fitness rather than a status-based presumption.",
+          "quote": "the interest of a parent in the companionship, care, custody, and management of his or her children",
+          "url": "https://www.courtlistener.com/opinion/108497/stanley-v-illinois/",
+          "courtlistener_cluster_id": 108497
+        },
+        {
+          "case_name": "In re B.L.D.",
+          "citation": "113 S.W.3d 340 (Tex. 2003)",
+          "court": "Supreme Court of Texas",
+          "year": 2003,
+          "date_decided": "2003-07-03",
+          "holding": "Ordinary preservation rules apply in parental-termination appeals, so unobjected-to jury charge error is waived, and a trial court must assess whether joint representation creates a substantial risk of conflict between parents.",
+          "relevance": "When the petition names both parents, the court must decide at the outset whether one appointed lawyer can represent both, and the parents must preserve their trial complaints from that point forward.",
+          "quote": "the failure to raise a complaint at trial to a jury charge waives review of that complaint on appeal",
+          "url": "https://www.courtlistener.com/opinion/5276421/in-the-interest-of-bld/",
+          "courtlistener_cluster_id": 5276421
+        },
+        {
+          "case_name": "In re G.X.H.",
+          "citation": "No. 19-0959 (Tex. Apr. 30, 2021)",
+          "court": "Supreme Court of Texas",
+          "year": 2021,
+          "date_decided": "2021-04-30",
+          "holding": "Only a trial court's failure to extend the Family Code § 263.401 automatic dismissal date before that date passes is jurisdictional; every other claimed defect in complying with § 263.401(b) is non-jurisdictional and must be preserved for appellate review. A docket-sheet pronouncement sufficed to extend the date here, so the final decree was not void.",
+          "relevance": "Once the Department files and the court signs a temporary order, the § 263.401 one-year clock runs; G.X.H. is the current law on which deadline failures kill the trial court's jurisdiction and which merely have to be preserved. It is the case that must travel with In re Dep't of Family & Protective Servs., 273 S.W.3d 637, which construed the pre-2017 statute.",
+          "quote": "The Legislature’s 2017 amendments changed the consequence of expiration of the statutory deadline (without an extension or commencement of the trial) so that it is now jurisdictional.",
+          "url": "https://www.courtlistener.com/opinion/4879410/in-the-interest-of-gxh-jr-and-bxh-children/",
+          "courtlistener_cluster_id": 4879410
+        },
+        {
+          "case_name": "In re Z.L.T.",
+          "citation": "124 S.W.3d 163 (Tex. 2003)",
+          "court": "Supreme Court of Texas",
+          "year": 2003,
+          "date_decided": "2003-11-21",
+          "holding": "An inmate has no absolute right to appear in person in a civil proceeding; the burden is on the inmate to identify, in the bench-warrant request, the facts showing why his personal appearance is necessary, and a trial court that proceeds without ruling on a request containing no such information does not abuse its discretion.",
+          "relevance": "Once the Department files and the case is set, an incarcerated respondent must affirmatively justify his appearance; the court has no sua sponte duty to produce him.",
+          "quote": "However, an inmate does not have an absolute right to appear in person in every court proceeding.",
+          "url": "https://www.courtlistener.com/opinion/5276862/in-the-interest-of-zlt/",
+          "courtlistener_cluster_id": 5276862
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Texas%22%20AND%20%28%22Texas%20Department%20of%20Family%20and%20Protective%20Services%22%20OR%20%22DFPS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Texas Department of Family and Protective Services",
         "DFPS",
@@ -147,136 +237,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Texas%22%20AND%20%28%22Texas%20Department%20of%20Family%20and%20Protective%20Services%22%20OR%20%22DFPS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "investigation",
-        "substantiation",
-        "evidence standard",
-        "due process",
-        "reasonable efforts"
-      ],
-      "jurisdiction": "Texas state courts",
-      "key_cases": [
-        {
-          "case_id": "22-0229",
-          "title": "IN RE GREG ABBOTT IN HIS OFFICIAL CAPACITY AS GOVERNOR OF THE STATE OF TEXAS; JAIME MASTERS IN HER OFFICIAL CAPACITY AS COMMISSIONER OF THE DEPARTMENT OF FAMILY AND PROTECTIVE SERVICES; AND THE TEXAS DEPARTMENT OF FAMILY AND PROTECTIVE SERVICES; from Travi (Concurring)",
-          "url": "https://law.justia.com/cases/texas/supreme-court/2022/22-0229.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Texas Supreme Court Case 22-0229 (2022)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "texas department of family and protective services"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "21-0235",
-          "title": "IN RE TEXAS DEPARTMENT OF FAMILY AND PROTECTIVE SERVICES; from Fort Bend County; 14th Court of Appeals District (14-20-00703-CV, ___ SW3d ___, 03-09-21) (Dissenting)",
-          "url": "https://law.justia.com/cases/texas/supreme-court/2021/21-0235.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Texas Supreme Court Case 21-0235 (2021)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "texas department of family and protective services"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "23-0202",
-          "title": "IN RE JANE DOE CASES (Opinion)",
-          "url": "https://law.justia.com/cases/texas/supreme-court/2024/23-0202.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Texas Supreme Court Case 23-0202 (2024)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re Doe, In re, Jane Doe"
-        },
-        {
-          "case_id": "25-0641-0",
-          "title": "IN RE KEN PAXTON AND THE OFFICE OF THE ATTORNEY GENERAL; from Travis County; 15th Court of Appeals District (15-25-00116-CV) (Concurring)",
-          "url": "https://law.justia.com/cases/texas/supreme-court/2025/25-0641-0.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Texas Supreme Court Case 25-0641-0 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-0641",
-          "title": "IN RE KEN PAXTON AND THE OFFICE OF THE ATTORNEY GENERAL; from Travis County; 15th Court of Appeals District (15-25-00116-CV) (Per Curiam)",
-          "url": "https://law.justia.com/cases/texas/supreme-court/2025/25-0641.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Texas Supreme Court Case 25-0641 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-1107",
-          "title": "IN RE STEVE SMITH (Per Curiam)",
-          "url": "https://law.justia.com/cases/texas/supreme-court/2025/25-1107.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Texas Supreme Court Case 25-1107 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "24-0024",
-          "title": "IN RE UMTH GENERAL SERVICES, L.P. (Opinion)",
-          "url": "https://law.justia.com/cases/texas/supreme-court/2025/24-0024.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Texas Supreme Court Case 24-0024 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "24-0315",
-          "title": "IN RE ESTATE OF GUADALUPE LOPEZ, SR., DECEASED; from Jim Wells County; 4th Court of Appeals District (04-23-00130-CV, ___ SW3d ___, 03-06-24) (Per Curiam)",
-          "url": "https://law.justia.com/cases/texas/supreme-court/2025/24-0315.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Texas Supreme Court Case 24-0315 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "24-1073",
-          "title": "IN RE LYNN MADISON; from Bexar County; 4th Court of Appeals District (04-24-00814-CV, ___ SW3d ___, 12-18-24) (Per Curiam)",
-          "url": "https://law.justia.com/cases/texas/supreme-court/2025/24-1073.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Texas Supreme Court Case 24-1073 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

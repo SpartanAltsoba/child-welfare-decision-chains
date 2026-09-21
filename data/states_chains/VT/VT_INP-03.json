@@ -146,6 +146,36 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Vermont state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "In re E.W.",
+          "citation": "2015 VT 7, 198 Vt. 311, 114 A.3d 112",
+          "court": "Supreme Court of Vermont",
+          "year": 2015,
+          "date_decided": "2015-01-16",
+          "holding": "A fifteen-year-old in DCF custody was in custody for Miranda purposes when questioned by police at his foster home, so the resulting statements were suppressed and the trial court judgment reversed.",
+          "relevance": "E.W. governs police questioning of a child in state custody and the role of an 'independent interested adult' when the foster parent is the adult present.",
+          "quote": "We conclude that the juvenile was in custody, and therefore reverse the trial court judgment.",
+          "url": "https://www.courtlistener.com/opinion/2770572/in-re-ew/",
+          "courtlistener_cluster_id": 2770572
+        },
+        {
+          "case_name": "In re E.T.C.",
+          "citation": "141 Vt. 375, 449 A.2d 937 (1982)",
+          "court": "Supreme Court of Vermont",
+          "year": 1982,
+          "date_decided": "1982-06-24",
+          "holding": "The delinquency adjudication was reversed and the juvenile's statements suppressed because, under Chapter I, Article 10 of the Vermont Constitution, a juvenile may waive counsel and the privilege against self-incrimination only after an opportunity to consult privately with an informed adult who is independent of the prosecution, and the state-contracted group-home director was not such an adult.",
+          "relevance": "E.T.C. is the foundational Vermont rule governing police contact with children, requiring an independent interested adult before any juvenile waiver, and it arose from state troopers questioning children who were in SRS custody in a state-contracted group home.",
+          "quote": "Although our prior cases apply only to waivers in court, we now hold that the same principles apply to police interrogation of juvenile suspects.",
+          "url": "https://www.courtlistener.com/opinion/8170913/in-re-e-t-c/",
+          "courtlistener_cluster_id": 8208589
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Vermont%22%20AND%20%28%22Vermont%20Department%20for%20Children%20and%20Families%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Vermont Department for Children and Families",
         "CPS",
@@ -157,148 +187,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Vermont%22%20AND%20%28%22Vermont%20Department%20for%20Children%20and%20Families%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "mandatory reporting",
-        "failure to report",
-        "reporter immunity",
-        "hotline"
-      ],
-      "jurisdiction": "Vermont state courts",
-      "key_cases": [
-        {
-          "case_id": "24-ap-374",
-          "title": "In re Petition of Otter Creek Solar LLC",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/24-ap-374.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 24-ap-374 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-ap-292",
-          "title": "In re Appeal of H.D.",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/25-ap-292.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 25-ap-292 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-ap-005",
-          "title": "In re Petition of Randolph Davis Solar LLC",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/25-ap-005.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 25-ap-005 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-ap-217",
-          "title": "In re J.D. and C.D., Juveniles",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/25-ap-217.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 25-ap-217 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "25-ap-220",
-          "title": "In re G.B., Juvenile",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/25-ap-220.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 25-ap-220 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "25-ap-236",
-          "title": "In re A.K. and P.K., Juveniles",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/25-ap-236.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 25-ap-236 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "25-ap-253",
-          "title": "In re N.S., Juvenile",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/25-ap-253.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 25-ap-253 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "25-ap-054",
-          "title": "In re Holland Cannabis, LLC",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/25-ap-054.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 25-ap-054 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-ap-038",
-          "title": "In re Lake Bomoseen Association and Lake Bomoseen Preservation Trust Denial",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/25-ap-038.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 25-ap-038 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-ap-116",
-          "title": "In re Guardianship of Alice Thomas (Brenda Leonard)",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/25-ap-116.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 25-ap-116 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

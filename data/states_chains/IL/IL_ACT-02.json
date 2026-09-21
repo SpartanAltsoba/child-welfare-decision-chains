@@ -157,6 +157,84 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Illinois state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "In re A.W.",
+          "citation": "231 Ill. 2d 92, 896 N.E.2d 316 (2008)",
+          "court": "Illinois Supreme Court",
+          "year": 2008,
+          "date_decided": "2008-09-18",
+          "holding": "The court affirmed the neglect and unfitness findings and reversed the appellate court's Fifth Amendment ruling, holding that on this record the father failed to prove the court-ordered sex-offender counseling requirement compelled him to incriminate himself.",
+          "relevance": "Defines the constitutional limits on what a juvenile court may require of a parent in a court-ordered service plan.",
+          "quote": "the record in this case fails to support the appellate court's conclusion that the circuit court's order had the effect of requiring Eugene to incriminate himself",
+          "url": "https://www.courtlistener.com/opinion/3135473/people-v-eugene-w/",
+          "courtlistener_cluster_id": 3135473
+        },
+        {
+          "case_name": "In re S.L.",
+          "citation": "2014 IL 115424",
+          "court": "Illinois Supreme Court",
+          "year": 2014,
+          "date_decided": "2014-03-03",
+          "holding": "The court held that the State's failure to file the separate notice specifying the nine-month period relied on for the reasonable-progress unfitness ground was a forfeitable pleading defect, and reinstated the circuit court's unfitness finding.",
+          "relevance": "The reasonable-progress ground measures a parent's performance against the court-ordered service plan during defined nine-month windows.",
+          "quote": "the State's failure to file a separate notice pleading identifying the nine-month period or periods at issue constitutes a pleading defect",
+          "url": "https://www.courtlistener.com/opinion/2655394/in-re-sl/",
+          "courtlistener_cluster_id": 2655394
+        },
+        {
+          "case_name": "In re D.C.",
+          "citation": "209 Ill. 2d 287, 807 N.E.2d 472 (2004)",
+          "court": "Illinois Supreme Court",
+          "year": 2004,
+          "date_decided": "2004-03-18",
+          "holding": "The court affirmed reversal of the unfitness finding as to a child born during the nine-month reasonable-progress period, holding the statute's literal language, not convenience, controls which children a reasonable-progress finding can reach.",
+          "relevance": "The reasonable-progress ground is measured child by child against the statutory period, not extrapolated across a sibling group.",
+          "quote": "when conducting such proceedings, it is not simple logic, but the literal language of the statute that must control",
+          "url": "https://www.courtlistener.com/opinion/3135155/people-v-tontorya-c/",
+          "courtlistener_cluster_id": 3135155
+        },
+        {
+          "case_name": "In re K.C.",
+          "citation": "325 Ill. App. 3d 771, 759 N.E.2d 15 (2001)",
+          "court": "Appellate Court of Illinois",
+          "year": 2001,
+          "date_decided": "2001-10-09",
+          "holding": "The court affirmed a circuit court order directing DCFS to remove and reassign a caseworker team that had failed its statutory reporting duty, holding the order neither exceeded the Juvenile Court Act nor violated separation of powers.",
+          "relevance": "Marks how far a juvenile court may go in policing agency performance of court-ordered casework.",
+          "quote": "The ultimate determination of which caseworkers to assign to the matter, therefore, remained within the discretion of DCFS.",
+          "url": "https://www.courtlistener.com/opinion/3142009/in-re-kc/",
+          "courtlistener_cluster_id": 3142009
+        },
+        {
+          "case_name": "In re C.N.",
+          "citation": "196 Ill. 2d 181, 752 N.E.2d 1030 (2001)",
+          "court": "Illinois Supreme Court",
+          "year": 2001,
+          "date_decided": "2001-05-24",
+          "holding": "The court reversed the appellate court and reinstated both parents' unfitness findings, holding that the benchmark for reasonable progress under section 1(D)(m) takes in compliance with DCFS service plans and court directives measured against both the conditions that caused removal and conditions later discovered.",
+          "relevance": "The leading Illinois decision on how compliance with a court-ordered DCFS service plan figures in the reasonable-progress ground for unfitness.",
+          "quote": "compliance with DCFS service plans is intimately tied to a parent's progress toward the return of the child",
+          "url": "https://www.courtlistener.com/opinion/2167237/in-re-cn/",
+          "courtlistener_cluster_id": 2167237
+        },
+        {
+          "case_name": "In re D.F.",
+          "citation": "208 Ill. 2d 223, 802 N.E.2d 800 (2003)",
+          "court": "Illinois Supreme Court",
+          "year": 2003,
+          "date_decided": "2003-12-18",
+          "holding": "The court affirmed the unfitness finding, holding that section 1(D)(m)'s nine-month evaluation period applies to both the reasonable-efforts and the reasonable-progress grounds and runs from the adjudication of neglect, abuse or dependency rather than from the dispositional order.",
+          "relevance": "Fixes the nine-month window in which a parent's efforts to correct the removal conditions and progress toward return are measured against court-ordered services.",
+          "quote": "A stated purpose of the Juvenile Court Act is to secure permanency for minors who have been removed from the custody of their parents \"at the earliest opportunity.\"",
+          "url": "https://www.courtlistener.com/opinion/2207949/in-re-df/",
+          "courtlistener_cluster_id": 2207949
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Illinois%22%20AND%20%28%22Illinois%20Department%20of%20Children%20and%20Family%20Services%22%20OR%20%22DCFS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Illinois Department of Children and Family Services",
         "DCFS",
@@ -168,149 +246,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Illinois%22%20AND%20%28%22Illinois%20Department%20of%20Children%20and%20Family%20Services%22%20OR%20%22DCFS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "removal",
-        "emergency custody",
-        "placement",
-        "reunification",
-        "services"
-      ],
-      "jurisdiction": "Illinois state courts",
-      "key_cases": [
-        {
-          "case_id": "130596",
-          "title": "In re Marriage of Tronsrue",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2025/130596.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 130596 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "129755",
-          "title": "In re V.S.",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2025/129755.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 129755 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "129155",
-          "title": "In re Marriage of Arjmand",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2024/129155.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 129155 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "128867",
-          "title": "In re Estate of Coffman",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2023/128867.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 128867 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "129097",
-          "title": "Doe v. Burke Wise Morrissey & Kaveny, LLC",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2023/129097.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 129097 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        },
-        {
-          "case_id": "128031",
-          "title": "In re Kelan W.",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2022/128031.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 128031 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "126256",
-          "title": "In re Craig H.",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2022/126256.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 126256 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "126956",
-          "title": "In re Estate of McDonald",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2022/126956.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 126956 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "126929",
-          "title": "In re Application of the County Collector",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2022/126929.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 126929 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "127222",
-          "title": "In re Johnathan T.",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2022/127222.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 127222 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

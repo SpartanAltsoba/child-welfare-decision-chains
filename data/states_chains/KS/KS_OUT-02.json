@@ -88,6 +88,84 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Kansas state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Santosky v. Kramer",
+          "citation": "455 U.S. 745 (1982)",
+          "court": "Supreme Court of the United States",
+          "year": 1982,
+          "date_decided": "1982-02-22",
+          "holding": "The Court held that the Due Process Clause requires at least clear and convincing evidence before a State may terminate parental rights, vacated the judgment approving New York's preponderance standard, and left States free to adopt any burden at or above that level.",
+          "relevance": "This is the federal constitutional floor for the standard of proof in every termination of parental rights case, including Kansas proceedings under K.S.A. 38-2269.",
+          "quote": "due process requires that the State support its allegations by at least clear and convincing evidence",
+          "url": "https://www.courtlistener.com/opinion/110676/santosky-v-kramer/",
+          "courtlistener_cluster_id": 110676
+        },
+        {
+          "case_name": "Lassiter v. Department of Social Services",
+          "citation": "452 U.S. 18 (1981)",
+          "court": "Supreme Court of the United States",
+          "year": 1981,
+          "date_decided": "1981-08-28",
+          "holding": "The Court held that due process does not require appointment of counsel for indigent parents in every parental termination proceeding, leaving the decision in the first instance to the trial court applying the Mathews v. Eldridge factors subject to appellate review, and affirmed on the facts.",
+          "relevance": "This is the federal baseline on appointed counsel at termination; Kansas exceeds it by statute, and Kansas courts apply its Mathews framework to related counsel questions.",
+          "quote": "neither can we say that the Constitution requires the appointment of counsel in every parental termination proceeding",
+          "url": "https://www.courtlistener.com/opinion/110506/lassiter-v-department-of-social-servs-of-durham-cty/",
+          "courtlistener_cluster_id": 110506
+        },
+        {
+          "case_name": "In re D.G.",
+          "citation": "555 P.3d 719 (Kan. 2024)",
+          "court": "Supreme Court of Kansas",
+          "year": 2024,
+          "date_decided": "2024-09-13",
+          "holding": "The court affirmed termination of parental rights, holding that appellate courts reviewing unfitness findings view all the evidence in the light most favorable to the State, ask only whether a rational factfinder could have found unfitness highly probable, and may not reweigh evidence or reassess witness credibility.",
+          "relevance": "This is the current Kansas Supreme Court statement of the appellate standard governing termination of parental rights, including the unfitness and foreseeable-future elements.",
+          "quote": "the appellate court does not weigh conflicting evidence, pass on the credibility of witnesses, or redetermine questions of fact",
+          "url": "https://www.courtlistener.com/opinion/10116135/in-re-dg/",
+          "courtlistener_cluster_id": 10116135
+        },
+        {
+          "case_name": "In re A.S.",
+          "citation": "555 P.3d 732 (Kan. 2024)",
+          "court": "Supreme Court of Kansas",
+          "year": 2024,
+          "date_decided": "2024-09-06",
+          "holding": "The court reversed a termination of parental rights, holding that a party who appears for a termination hearing is presumed to want to participate fully, that the district court must ensure the party can see, hear, speak and consult counsel, and that any waiver of that right must be knowing, voluntary, intelligent and on the record.",
+          "relevance": "This sets the current Kansas due process floor for the conduct of a termination hearing itself, independent of the sufficiency of the evidence.",
+          "quote": "a waiver of an appearing party's right to fully and meaningfully participate in a termination of parental rights hearing must be made knowingly, voluntarily, intelligently, and on the record",
+          "url": "https://www.courtlistener.com/opinion/10106361/in-re-as/",
+          "courtlistener_cluster_id": 10106361
+        },
+        {
+          "case_name": "In re Adoption of Baby Girl P.",
+          "citation": "291 Kan. 424, 242 P.3d 1168 (2010)",
+          "court": "Supreme Court of Kansas",
+          "year": 2010,
+          "date_decided": "2010-10-29",
+          "holding": "The court reversed the termination of a natural father's parental rights and the Court of Appeals' affirmance, holding that the adoption petitioners failed to prove any K.S.A. 59-2136(h)(1) factor by clear and convincing evidence and that the child's best interests cannot alone justify termination, and remanded for a custodial transition to the father not to exceed 30 days.",
+          "relevance": "This is the Kansas Supreme Court's statement of the clear-and-convincing burden an adoption petitioner bears before a natural father's rights may be terminated.",
+          "quote": "As with stepparent adoptions, the best interest of the child may not be the sole basis for terminating a parent's rights",
+          "url": "https://www.courtlistener.com/opinion/2629048/in-re-adoption-of-baby-girl-p/",
+          "courtlistener_cluster_id": 2629048
+        },
+        {
+          "case_name": "In re Adoption of A.A.T.",
+          "citation": "287 Kan. 590, 196 P.3d 1180 (2008)",
+          "court": "Supreme Court of Kansas",
+          "year": 2008,
+          "date_decided": "2008-12-12",
+          "holding": "The court affirmed the district court's refusal to set aside a finalized adoption, holding that an unwed father of a newborn who did not grasp his fleeting opportunity to commit to parenting during the pregnancy acquired no protected liberty interest, so the absence of notice to him did not make the adoption void, and rejecting his fraud and equal protection theories.",
+          "relevance": "This is the leading Kansas authority on an unwed father's notice and consent rights when adoption is the permanency outcome, and on how quickly that opportunity closes.",
+          "quote": "We hold that M.P. did not have a liberty interest in a relationship with A.A.T. and that the State did not deny him the opportunity to establish such a relationship",
+          "url": "https://www.courtlistener.com/opinion/2514340/in-re-the-adoption-of-aat/",
+          "courtlistener_cluster_id": 2514340
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Kansas%22%20AND%20%28%22Kansas%20Department%20for%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Kansas Department for Children and Families",
         "DCF",
@@ -99,149 +177,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Kansas%22%20AND%20%28%22Kansas%20Department%20for%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "termination of parental rights",
-        "TPR",
-        "adoption",
-        "permanency",
-        "aging out"
-      ],
-      "jurisdiction": "Kansas state courts",
-      "key_cases": [
-        {
-          "case_id": "128197",
-          "title": "In re Adoption of Baby Boy S.",
-          "url": "https://law.justia.com/cases/kansas/court-of-appeals/2025/128197.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Kansas Court Of Appeals Case 128197 (2025)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "128124",
-          "title": "In re Adoption of M.B.",
-          "url": "https://law.justia.com/cases/kansas/court-of-appeals/2025/128124.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Kansas Court Of Appeals Case 128124 (2025)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "127484",
-          "title": "In re Adoption of E.R.K.",
-          "url": "https://law.justia.com/cases/kansas/court-of-appeals/2025/127484.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Kansas Court Of Appeals Case 127484 (2025)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "128193",
-          "title": "In re Adoption of D.A., D.A., and Y.A.",
-          "url": "https://law.justia.com/cases/kansas/court-of-appeals/2025/128193.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Kansas Court Of Appeals Case 128193 (2025)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "121051",
-          "title": "In re Adoption of Baby Girl G.",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2020/121051.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 121051 (2020)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "119012",
-          "title": "In re Mason",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/119012.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 119012 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "129013",
-          "title": "In re Wagle",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/129013.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 129013 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "20346",
-          "title": "In re Holmes",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/20346.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 20346 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "13805",
-          "title": "In re Peterson, II",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/13805.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 13805 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "118723",
-          "title": "In re Sullivan",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/118723.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 118723 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

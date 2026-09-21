@@ -162,6 +162,84 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "South Dakota state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "Interest of C.V.",
+          "citation": "1998 S.D. 47, 579 N.W.2d 17",
+          "court": "South Dakota Supreme Court",
+          "year": 1998,
+          "date_decided": "1998-05-13",
+          "holding": "The court held that the circuit court erred by treating the mother's stipulation as an adjudication binding the father and by denying him an adjudicatory hearing, but affirmed the termination because on this record the error was harmless beyond a reasonable doubt.",
+          "relevance": "This is the controlling South Dakota statement that filing a petition triggers an adjudicatory hearing for every non-admitting parent under SDCL 26-7A-55.",
+          "quote": "the court could only dispense with an adjudicatory hearing if all of the necessary parties, including the father, agreed",
+          "url": "https://www.courtlistener.com/opinion/900324/matter-of-cv/",
+          "courtlistener_cluster_id": 900324
+        },
+        {
+          "case_name": "People ex rel. South Dakota Department of Social Services",
+          "citation": "2004 S.D. 131, 691 N.W.2d 586",
+          "court": "South Dakota Supreme Court",
+          "year": 2004,
+          "date_decided": "2004-12-22",
+          "holding": "The court held that the circuit court erred in letting an indigent mother proceed pro se at the adjudicatory hearing without the procedures that safeguard the SDCL 26-7A-31 right to counsel, but found the error harmless on the facts and affirmed termination.",
+          "relevance": "It fixes the statutory right to appointed counsel that attaches to parents once a petition is filed and an adjudicatory hearing is set.",
+          "quote": "SDCL 26-7A-31 specifically provides for a court appointed attorney for parents in an abuse and neglect proceeding.",
+          "url": "https://www.courtlistener.com/opinion/901167/people-ex-rel-south-dakota-dept-of-social-services/",
+          "courtlistener_cluster_id": 901167
+        },
+        {
+          "case_name": "Lassiter v. Department of Social Services of Durham County",
+          "citation": "452 U.S. 18 (1981)",
+          "court": "Supreme Court of the United States",
+          "year": 1981,
+          "date_decided": "1981-08-28",
+          "holding": "The Supreme Court held that due process does not require appointed counsel in every parental termination proceeding and left the appointment decision to the trial court case by case, subject to appellate review, finding no error in the refusal to appoint counsel there.",
+          "relevance": "It is the federal baseline for the right to counsel in dependency and termination proceedings, against which South Dakota's broader statutory right under SDCL 26-7A-31 should be read.",
+          "quote": "neither can we say that the Constitution requires the appointment of counsel in every parental termination proceeding",
+          "url": "https://www.courtlistener.com/opinion/110506/lassiter-v-department-of-social-servs-of-durham-cty/",
+          "courtlistener_cluster_id": 110506
+        },
+        {
+          "case_name": "In re S.A.",
+          "citation": "2005 S.D. 120, 708 N.W.2d 673",
+          "court": "South Dakota Supreme Court",
+          "year": 2005,
+          "date_decided": "2005-12-07",
+          "holding": "The court affirmed the adjudication and termination, holding that the State proved abuse and neglect by clear and convincing evidence and that DSS need not exhaust every possible form of assistance before termination becomes the least restrictive alternative.",
+          "relevance": "It states the evidentiary burden the State carries once it files the petition and proceeds to the adjudicatory hearing.",
+          "quote": "The State has the burden of proving that the children were abused or neglected by clear and convincing evidence.",
+          "url": "https://www.courtlistener.com/opinion/8244988/in-re-sa/",
+          "courtlistener_cluster_id": 8279610
+        },
+        {
+          "case_name": "Santosky v. Kramer",
+          "citation": "455 U.S. 745 (1982)",
+          "court": "Supreme Court of the United States",
+          "year": 1982,
+          "date_decided": "1982-02-22",
+          "holding": "The Supreme Court held that the Due Process Clause of the Fourteenth Amendment forbids a State from terminating parental rights on a mere preponderance of the evidence and requires proof by at least clear and convincing evidence.",
+          "relevance": "It is the federal constitutional floor that shapes what the State must ultimately be prepared to prove once it files a petition aimed at severance.",
+          "quote": "due process requires that the State support its allegations by at least clear and convincing evidence",
+          "url": "https://www.courtlistener.com/opinion/110676/santosky-v-kramer/",
+          "courtlistener_cluster_id": 110676
+        },
+        {
+          "case_name": "People ex rel. D.T., Jr.",
+          "citation": "2003 S.D. 88, 667 N.W.2d 694",
+          "court": "South Dakota Supreme Court",
+          "year": 2003,
+          "date_decided": "2003-07-23",
+          "holding": "The court affirmed an adjudication of abuse and neglect and termination of the father's parental rights, holding that the State proved abuse and neglect by clear and convincing evidence on the parents' history with their other children and that termination was the least restrictive alternative.",
+          "relevance": "It is the customary South Dakota primary citation for the clear-and-convincing burden and the standard of review that attach once the State files its abuse and neglect petition, and it is the authority In re S.A. cites on that point.",
+          "quote": "Termination of parental rights is proper only when the court finds by clear and convincing evidence that termination is the least restrictive alternative in keeping with the child's best interest.",
+          "url": "https://www.courtlistener.com/opinion/901073/the-people-of-the-state-of-south-dakota-in-the-interest-of-dt-jr/",
+          "courtlistener_cluster_id": 901073
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22South%20Dakota%22%20AND%20%28%22South%20Dakota%20Department%20of%20Social%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "South Dakota Department of Social Services",
         "CPS",
@@ -173,149 +251,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22South%20Dakota%22%20AND%20%28%22South%20Dakota%20Department%20of%20Social%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "investigation",
-        "substantiation",
-        "evidence standard",
-        "due process",
-        "reasonable efforts"
-      ],
-      "jurisdiction": "South Dakota state courts",
-      "key_cases": [
-        {
-          "case_id": "30810",
-          "title": "Interest Of J.W.",
-          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2025/30810.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "South Dakota Supreme Court Case 30810 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of initials"
-        },
-        {
-          "case_id": "30520",
-          "title": "In the Matter of the Estate Of Mack",
-          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2025/30520.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "South Dakota Supreme Court Case 30520 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "30549",
-          "title": "Interest Of N.K.",
-          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2024/30549.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "South Dakota Supreme Court Case 30549 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of initials"
-        },
-        {
-          "case_id": "30081",
-          "title": "In the Matter of the Estate Of Simon",
-          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2024/30081.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "South Dakota Supreme Court Case 30081 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "30320",
-          "title": "In the Matter of the Adoption of I.V.E.",
-          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2024/30320.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "South Dakota Supreme Court Case 30320 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of adoption, Matter of"
-        },
-        {
-          "case_id": "30166",
-          "title": "In re Estate Of Schmeling",
-          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2024/30166.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "South Dakota Supreme Court Case 30166 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "30488",
-          "title": "In The Matter Of The Interpretation Of South Dakota Constitution And State Law Re: State Legislator’s Interest In State Or County Contracts",
-          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2024/30488.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "South Dakota Supreme Court Case 30488 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "29809",
-          "title": "In re Estate of Tank",
-          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2023/29809.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "South Dakota Supreme Court Case 29809 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "29873",
-          "title": "In re S.A.",
-          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2023/29873.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "South Dakota Supreme Court Case 29873 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "29745",
-          "title": "In re Fred Petersen Living Trust",
-          "url": "https://law.justia.com/cases/south-dakota/supreme-court/2023/29745.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "South Dakota Supreme Court Case 29745 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

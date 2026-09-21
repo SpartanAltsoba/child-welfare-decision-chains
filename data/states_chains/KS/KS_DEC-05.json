@@ -91,6 +91,84 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Kansas state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "In re J.L.",
+          "citation": "57 Kan. App. 2d 60, 449 P.3d 762 (2019)",
+          "court": "Court of Appeals of Kansas",
+          "year": 2019,
+          "date_decided": "2019-07-19",
+          "holding": "The court reversed and remanded a default CINC adjudication entered at a pretrial conference when the father arrived ten minutes late, holding that the blanket notice in the petition did not satisfy K.S.A. 60-255(a) and that due process independently required advance notice that adjudication could occur at that hearing.",
+          "relevance": "Generic language in the petition warning of default is not enough; the State must give targeted notice of its intent to seek default adjudication.",
+          "quote": "Father had a due process right to advance notice that a CINC adjudication could happen at the pending pretrial hearing before such an order could be entered",
+          "url": "https://www.courtlistener.com/opinion/4641222/in-re-jl/",
+          "courtlistener_cluster_id": 4641222
+        },
+        {
+          "case_name": "In re A.A.-F.",
+          "citation": "444 P.3d 938 (Kan. 2019)",
+          "court": "Supreme Court of Kansas",
+          "year": 2019,
+          "date_decided": "2019-07-12",
+          "holding": "The court affirmed Kansas courts' exercise of UCCJEA jurisdiction transferred from California and held that, where minimal due process was afforded, the district court's failure to hold the statutorily required permanency hearing within 30 days did not establish a constitutional due process violation, while stressing that the statutory requirement still binds district courts.",
+          "relevance": "Subject-matter jurisdiction to open or continue a dependency case in Kansas derives from the Code as limited by the UCCJEA, not from the parties' consent.",
+          "quote": "Mother has failed to show a constitutional due process violation resulting from the failure to comply with a Kansas statute",
+          "url": "https://www.courtlistener.com/opinion/4639102/in-re-interests-aa-f/",
+          "courtlistener_cluster_id": 4639102
+        },
+        {
+          "case_name": "In re A.E.S.",
+          "citation": "48 Kan. App. 2d 761, 298 P.3d 386 (2013)",
+          "court": "Court of Appeals of Kansas",
+          "year": 2013,
+          "date_decided": "2013-04-05",
+          "holding": "The court held the father's challenge to the temporary custody order moot because later adjudication and disposition orders superseded it, but retained the appeal under the public-importance exception and upheld K.S.A. 38-2243(f)(3) — the temporary custody standard — against vagueness and overbreadth attack.",
+          "relevance": "Temporary custody orders entered at the outset of a petition are appealable but become moot once adjudication and disposition orders are entered.",
+          "quote": "K.S.A. 2011 Supp. 38-2243(f)(3) is neither unconstitutionally vague nor over-broad",
+          "url": "https://www.courtlistener.com/opinion/7213414/in-the-interest-of-aes/",
+          "courtlistener_cluster_id": 7213414
+        },
+        {
+          "case_name": "In re J.A.H.",
+          "citation": "285 Kan. 375, 172 P.3d 1 (2007)",
+          "court": "Supreme Court of Kansas",
+          "year": 2007,
+          "date_decided": "2007-12-07",
+          "holding": "The court affirmed the CINC adjudication, holding that the Kansas Code gives indigent parents a statutory right to appointed counsel in CINC proceedings so the Cooper balancing test is no longer needed, but that a parent who waives counsel and elects to proceed pro se cannot re-invoke the right on the morning of trial and thereby force a continuance.",
+          "relevance": "Once the State files a CINC petition the indigent parent has a statutory right to appointed counsel, so this case fixes the procedural floor at case opening.",
+          "quote": "we refuse to hold that the statutory right to counsel \"at any stage of the proceeding\" is equivalent to the right at every time",
+          "url": "https://www.courtlistener.com/opinion/7970385/in-the-interest-of-jah/",
+          "courtlistener_cluster_id": 7970385
+        },
+        {
+          "case_name": "In re J.D.C.",
+          "citation": "284 Kan. 155, 159 P.3d 974 (2007)",
+          "court": "Supreme Court of Kansas",
+          "year": 2007,
+          "date_decided": "2007-06-08",
+          "holding": "The court affirmed the CINC adjudication, holding that the Sixth Amendment Confrontation Clause does not apply in CINC proceedings, that a child's hearsay statements were admissible under K.S.A. 60-460(a) even though the State did not call her in its case in chief, and that the district judge's standing offer to summon the child for cross-examination satisfied whatever confrontation right due process supplied.",
+          "relevance": "Once a CINC petition is filed the case is civil, not criminal, so the parent's confrontation protections come from due process rather than the Sixth Amendment.",
+          "quote": "Any right that a civil litigant can claim to confrontation and cross-examination is grounded in the Due Process Clauses of the Fifth and Fourteenth Amendments",
+          "url": "https://www.courtlistener.com/opinion/7970297/in-the-interest-of-jdc/",
+          "courtlistener_cluster_id": 7970297
+        },
+        {
+          "case_name": "In re Cooper",
+          "citation": "230 Kan. 57, 631 P.2d 632 (1981)",
+          "court": "Supreme Court of Kansas",
+          "year": 1981,
+          "date_decided": "1981-07-17",
+          "holding": "The court reversed the Court of Appeals and affirmed the deprived-child adjudication, holding that due process requires appointed counsel for an indigent parent on a case-by-case basis — where the parent cannot properly present the case and faces a substantial possibility of losing custody permanently or of prolonged separation — and that a refusal to appoint counsel must be explained on the record.",
+          "relevance": "When the State files a petition the district court must consider, on the record, whether the indigent parent's circumstances require appointed counsel, and must state grounds for any refusal.",
+          "quote": "the district court should safeguard the due process rights of an indigent parent and have counsel appointed at the expense of the county when the circumstances appear to require it",
+          "url": "https://www.courtlistener.com/opinion/1450325/in-the-interest-of-cooper/",
+          "courtlistener_cluster_id": 1450325
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Kansas%22%20AND%20%28%22Kansas%20Department%20for%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Kansas Department for Children and Families",
         "DCF",
@@ -102,149 +180,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Kansas%22%20AND%20%28%22Kansas%20Department%20for%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "investigation",
-        "substantiation",
-        "evidence standard",
-        "due process",
-        "reasonable efforts"
-      ],
-      "jurisdiction": "Kansas state courts",
-      "key_cases": [
-        {
-          "case_id": "127925",
-          "title": "In re Petition of Wright",
-          "url": "https://law.justia.com/cases/kansas/court-of-appeals/2025/127925.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Kansas Court Of Appeals Case 127925 (2025)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "119012",
-          "title": "In re Mason",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/119012.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 119012 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "129013",
-          "title": "In re Wagle",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/129013.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 129013 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "20346",
-          "title": "In re Holmes",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/20346.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 20346 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "13805",
-          "title": "In re Peterson, II",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/13805.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 13805 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "118723",
-          "title": "In re Sullivan",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/118723.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 118723 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "125499",
-          "title": "In re McVey",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/125499.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 125499 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "127835",
-          "title": "In re Valdez",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/127835.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 127835 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "124395",
-          "title": "In re Martinez",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/124395.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 124395 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "125968",
-          "title": "In re Barnds",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/125968.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 125968 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

@@ -124,6 +124,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Maryland state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "L.J. v. Wilbon",
+          "citation": "633 F.3d 297 (4th Cir. 2011)",
+          "court": "United States Court of Appeals for the Fourth Circuit",
+          "year": 2011,
+          "date_decided": "2011-01-26",
+          "holding": "The court affirmed the denial of Rule 60(b)(5) relief from, and the entry of a modified, consent decree governing Baltimore City's foster care system, holding that the State had not shown that the law-of-the-case finding of a private right of action under 42 U.S.C. § 671(a)(16) was overruled or clearly wrong.",
+          "relevance": "It shows how federal case-plan and case-review requirements are enforced against a Maryland agency outside the CFSR process.",
+          "quote": "we do not now hold that § 671(a)(16) provides a private right of action",
+          "url": "https://www.courtlistener.com/opinion/183666/lj-v-baltimore-city-department-of-social-services/",
+          "courtlistener_cluster_id": 183666
+        },
+        {
+          "case_name": "In re C.E.",
+          "citation": "456 Md. 209, 172 A.3d 476 (2017)",
+          "court": "Court of Appeals of Maryland",
+          "year": 2017,
+          "date_decided": "2017-10-20",
+          "holding": "Resolving a split in the intermediate court, the Court held that an order waiving the department's obligation to make reasonable reunification efforts is not immediately appealable under CJP § 12-303(3)(x) because, standing alone, it does not deprive the parent of care or custody.",
+          "relevance": "Judicial reasonable-efforts determinations are the data point CFSR reviews rely on, and this case controls their reviewability.",
+          "quote": "juvenile court's order waiving a department's obligation to provide reasonable reunification efforts, while leaving a custody order and permanency plan unchanged, does not deprive a parent of care or custody",
+          "url": "https://www.courtlistener.com/opinion/4213514/in-re-ce/",
+          "courtlistener_cluster_id": 4436261
+        },
+        {
+          "case_name": "In re James G.",
+          "citation": "178 Md. App. 543, 943 A.2d 53 (2008)",
+          "court": "Court of Special Appeals of Maryland",
+          "year": 2008,
+          "date_decided": "2008-02-29",
+          "holding": "The court held that the juvenile court erred in finding reasonable efforts where the department made only a single vocational referral to address the father's unemployment, because the department's services must address the actual impediments to reunification.",
+          "relevance": "It supplies a concrete Maryland yardstick for CFSR-style assessment of service adequacy.",
+          "quote": "the obligation to render \"reasonable efforts\" rests on the Department, not the parent",
+          "url": "https://www.courtlistener.com/opinion/1990179/in-re-james-g/",
+          "courtlistener_cluster_id": 1990179
+        },
+        {
+          "case_name": "Suter v. Artist M.",
+          "citation": "503 U.S. 347 (1992)",
+          "court": "Supreme Court of the United States",
+          "year": 1992,
+          "date_decided": "1992-03-25",
+          "holding": "The Court reversed the Seventh Circuit, holding that the 'reasonable efforts' requirement of 42 U.S.C. § 671(a)(15) confers no federally enforceable right on foster children or their parents, whether through § 1983 or an implied right of action, and is instead enforced by the Secretary through plan approval.",
+          "relevance": "It explains why federal monitoring (CFSR and the Secretary's plan-approval process), rather than private suit, is the mechanism for policing state reasonable-efforts performance.",
+          "quote": "We hold that the Act does not create an enforceable right on behalf of respondents.",
+          "url": "https://www.courtlistener.com/opinion/112712/suter-v-artist-m/",
+          "courtlistener_cluster_id": 112712
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Maryland%22%20AND%20%28%22Maryland%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Maryland Department of Human Services",
         "CPS",
@@ -135,148 +189,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Maryland%22%20AND%20%28%22Maryland%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "missing child",
-        "amber alert",
-        "custodial interference",
-        "parental kidnapping"
-      ],
-      "jurisdiction": "Maryland state courts",
-      "key_cases": [
-        {
-          "case_id": "25-24",
-          "title": "In re: Foster Farm",
-          "url": "https://law.justia.com/cases/maryland/court-of-appeals/2025/25-24.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Maryland Court Of Appeals Case 25-24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "17o-24",
-          "title": "In re Petition of Featherfall Restoration",
-          "url": "https://law.justia.com/cases/maryland/court-of-appeals/2025/17o-24.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Maryland Court Of Appeals Case 17o-24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "34-24-0",
-          "title": "In re: Marriage of Houser",
-          "url": "https://law.justia.com/cases/maryland/court-of-appeals/2025/34-24-0.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Maryland Court Of Appeals Case 34-24-0 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "34-24",
-          "title": "In re Marriage of Houser",
-          "url": "https://law.justia.com/cases/maryland/court-of-appeals/2025/34-24.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Maryland Court Of Appeals Case 34-24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "8-24",
-          "title": "In re M.Z.",
-          "url": "https://law.justia.com/cases/maryland/court-of-appeals/2025/8-24.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Maryland Court Of Appeals Case 8-24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "15-24-0",
-          "title": "In re: Estate of Schappell",
-          "url": "https://law.justia.com/cases/maryland/court-of-appeals/2025/15-24-0.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Maryland Court Of Appeals Case 15-24-0 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "15-24",
-          "title": "In re: Estate of Schappell",
-          "url": "https://law.justia.com/cases/maryland/court-of-appeals/2025/15-24.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Maryland Court Of Appeals Case 15-24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "10-24",
-          "title": "Bd. of Education Of Harford Cnty. v. Doe",
-          "url": "https://law.justia.com/cases/maryland/court-of-appeals/2025/10-24.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Maryland Court Of Appeals Case 10-24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe defendant"
-        },
-        {
-          "case_id": "9-24",
-          "title": "Archbishop of Washington v. Doe",
-          "url": "https://law.justia.com/cases/maryland/court-of-appeals/2025/9-24.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Maryland Court Of Appeals Case 9-24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe defendant"
-        },
-        {
-          "case_id": "16-24",
-          "title": "In re Isely",
-          "url": "https://law.justia.com/cases/maryland/court-of-appeals/2025/16-24.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Maryland Court Of Appeals Case 16-24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

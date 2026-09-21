@@ -168,6 +168,84 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Wisconsin state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "State v. Shirley E.",
+          "citation": "2006 WI 129, 298 Wis. 2d 1, 724 N.W.2d 623",
+          "court": "Wisconsin Supreme Court",
+          "year": 2006,
+          "date_decided": "2006-12-13",
+          "holding": "A parent sanctioned with default for failing to appear personally in a TPR case retains the statutory right to counsel at both the fact-finding and dispositional phases, and the court may not find default before taking evidence that clearly and convincingly establishes grounds.",
+          "relevance": "It is the leading Wisconsin case vacating a termination order for denial of counsel and for defaulting a parent without proof of grounds.",
+          "quote": "the circuit court erred in finding Shirley E. in default before conducting an evidentiary hearing to determine whether there was clear and convincing evidence that the grounds for termination existed",
+          "url": "https://www.courtlistener.com/opinion/8238200/state-v-shirley-e/",
+          "courtlistener_cluster_id": 8238200
+        },
+        {
+          "case_name": "Brown County DHS v. Brenda B.",
+          "citation": "2011 WI 6, 331 Wis. 2d 310, 795 N.W.2d 730",
+          "court": "Wisconsin Supreme Court",
+          "year": 2011,
+          "date_decided": "2011-02-04",
+          "holding": "A parent's no-contest plea to TPR grounds is knowing, voluntary and intelligent only if the colloquy informs the parent of the two dispositions available to the court; Brenda's colloquy was adequate and she made no prima facie showing otherwise.",
+          "relevance": "A defective plea colloquy is a recognized ground for reopening and reversing a Wisconsin termination order.",
+          "quote": "To render a plea knowing, voluntary, and intelligent, we conclude that the parent must be informed of the two independent dispositions available to the circuit court.",
+          "url": "https://www.courtlistener.com/opinion/8238387/brown-county-department-of-human-services-v-brenda-b/",
+          "courtlistener_cluster_id": 8238387
+        },
+        {
+          "case_name": "State v. C.L.K.",
+          "citation": "2019 WI 14, 385 Wis. 2d 418, 922 N.W.2d 807",
+          "court": "Wisconsin Supreme Court",
+          "year": 2019,
+          "date_decided": "2019-02-19",
+          "holding": "Deciding a contested TPR issue in the State's favor before the parent has had the opportunity to present a case-in-chief is structural error requiring automatic reversal and a new trial.",
+          "relevance": "It is the strongest recent Wisconsin ground for reversing a termination outright, without harmless-error analysis.",
+          "quote": "We hold that denying a defendant the opportunity to present his case-in-chief is a structural error, the consequence of which is an automatic new trial.",
+          "url": "https://www.courtlistener.com/opinion/8286332/state-v-c-l-k-in-re-smh/",
+          "courtlistener_cluster_id": 8286332
+        },
+        {
+          "case_name": "In re Christopher D.",
+          "citation": "191 Wis. 2d 680, 530 N.W.2d 34 (Ct. App. 1995)",
+          "court": "Court of Appeals of Wisconsin",
+          "year": 1995,
+          "date_decided": "1995-02-20",
+          "holding": "The shortened notice-of-appeal deadline for TPR cases does not interfere with effective assistance of appellate counsel, is supported by a rational basis, and does not offend the separation of powers.",
+          "relevance": "It governs the compressed appellate timeline a parent must meet to challenge a termination order.",
+          "quote": "the fifteen-day time limit does not interfere with effective assistance of appellate counsel",
+          "url": "https://www.courtlistener.com/opinion/1596446/in-interest-of-christopher-d/",
+          "courtlistener_cluster_id": 1596446
+        },
+        {
+          "case_name": "Evelyn C. R. v. Tykila S.",
+          "citation": "2001 WI 110, 246 Wis. 2d 1, 629 N.W.2d 768",
+          "court": "Wisconsin Supreme Court",
+          "year": 2001,
+          "date_decided": "2001-07-12",
+          "holding": "A circuit court may sanction a parent who violates an order to appear personally by entering default, but it erroneously exercises its discretion if it enters default on the grounds phase without first taking evidence sufficient to establish the ground by clear and convincing evidence; here the error was harmless because the dispositional testimony supplied that proof.",
+          "relevance": "It is the controlling Wisconsin authority a practitioner reaches for first when attacking a TPR default entered without proof of grounds - the decision Shirley E. later builds on.",
+          "quote": "By entering a default judgment against Tykila on the issue of abandonment without first taking this constitutionally and statutorily required evidence, the circuit court erroneously exercised its discretion.",
+          "url": "https://www.courtlistener.com/opinion/1863107/evelyn-c-r-v-tykila-s/",
+          "courtlistener_cluster_id": 1863107
+        },
+        {
+          "case_name": "In Interest of M.D.(S)",
+          "citation": "168 Wis. 2d 995, 485 N.W.2d 52 (1992)",
+          "court": "Wisconsin Supreme Court",
+          "year": 1992,
+          "date_decided": "1992-06-17",
+          "holding": "The Wisconsin legislature intended the statutory right to appointed counsel in a termination of parental rights proceeding to include the right to effective counsel, so the court did not reach the parents' constitutional arguments and remanded for a Machner hearing on trial counsel's performance.",
+          "relevance": "Ineffective assistance of appointed trial counsel is an independent Wisconsin ground for setting aside a termination order, and this is the case that establishes it.",
+          "quote": "It is axiomatic that the right to be represented by appointed counsel is worthless unless that right includes the right to effective counsel.",
+          "url": "https://www.courtlistener.com/opinion/1599987/in-interest-of-md-s/",
+          "courtlistener_cluster_id": 1599987
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Wisconsin%22%20AND%20%28%22Wisconsin%20Department%20of%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Wisconsin Department of Children and Families",
         "DCF",
@@ -179,150 +257,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Wisconsin%22%20AND%20%28%22Wisconsin%20Department%20of%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "wrongful removal",
-        "1983 claim",
-        "civil rights",
-        "immunity",
-        "damages"
-      ],
-      "jurisdiction": "Wisconsin state courts",
-      "key_cases": [
-        {
-          "case_id": "2024ap000472",
-          "title": "S. G. v. Wisconsin Department of Children and Families",
-          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2025/2024ap000472.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Wisconsin Court Of Appeals Case 2024ap000472 (2025)",
-          "relevance_score": 3.0,
-          "matched_keywords": [
-            "wisconsin department of children and families",
-            "dcf"
-          ],
-          "child_welfare_reason": "High: DCF"
-        },
-        {
-          "case_id": "2022ap001812",
-          "title": "Kenosha County DCFS v. D.R.-R.",
-          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2023/2022ap001812.html",
-          "year": 2023,
-          "court": "Court Of Appeals",
-          "citation": "Wisconsin Court Of Appeals Case 2022ap001812 (2023)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "dcf"
-          ],
-          "child_welfare_reason": "High: DCFS"
-        },
-        {
-          "case_id": "2024ap001166",
-          "title": "Jackson County DHS v. A. M. N.",
-          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2025/2024ap001166.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Wisconsin Court Of Appeals Case 2024ap001166 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: DHS"
-        },
-        {
-          "case_id": "2024ap001459",
-          "title": "Jane Doe v. Jay C. Lick, D.O.",
-          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2025/2024ap001459.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Wisconsin Court Of Appeals Case 2024ap001459 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Jane Doe, Doe plaintiff"
-        },
-        {
-          "case_id": "2024ap000553",
-          "title": "Fond du Lac County DSS v. T. P. W., Jr",
-          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2024/2024ap000553.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Wisconsin Court Of Appeals Case 2024ap000553 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: DSS"
-        },
-        {
-          "case_id": "2024ap000733-0",
-          "title": "Waushara County DHS v. A. M. S.",
-          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2024/2024ap000733-0.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Wisconsin Court Of Appeals Case 2024ap000733-0 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: DHS"
-        },
-        {
-          "case_id": "2024ap000733",
-          "title": "Waushara County DHS v. A. M. S.",
-          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2024/2024ap000733.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Wisconsin Court Of Appeals Case 2024ap000733 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: DHS"
-        },
-        {
-          "case_id": "2024ap000081",
-          "title": "Winnebago County DHS v. C. R. Q., II",
-          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2024/2024ap000081.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Wisconsin Court Of Appeals Case 2024ap000081 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: DHS"
-        },
-        {
-          "case_id": "2023ap001496",
-          "title": "Jackson County DHS v. I. J. R.",
-          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2024/2023ap001496.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Wisconsin Court Of Appeals Case 2023ap001496 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: DHS"
-        },
-        {
-          "case_id": "2023ap001947",
-          "title": "Dane County DHS v. J. K.",
-          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2024/2023ap001947.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Wisconsin Court Of Appeals Case 2023ap001947 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: DHS"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

@@ -152,6 +152,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "North Carolina state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "In re B.O.A.",
+          "citation": "372 N.C. 372, 831 S.E.2d 305 (2019)",
+          "court": "Supreme Court of North Carolina",
+          "year": 2019,
+          "date_decided": "2019-08-16",
+          "holding": "The Supreme Court held that a parent's failure to comply with a court-approved case plan supports termination under N.C.G.S. § 7B-1111(a)(2) so long as the case plan provision addresses an issue that directly or indirectly contributed to the child's removal, and it reversed the Court of Appeals' contrary, narrower reading.",
+          "relevance": "B.O.A. is the controlling NC authority on the permissible scope of court-ordered case plan requirements and their nexus to the conditions of removal.",
+          "quote": "parental compliance with a judicially adopted case plan is relevant in determining whether grounds for termination exist",
+          "url": "https://www.courtlistener.com/opinion/4649087/in-re-boa/",
+          "courtlistener_cluster_id": 4649087
+        },
+        {
+          "case_name": "In re Ballard",
+          "citation": "311 N.C. 708, 319 S.E.2d 227 (1984)",
+          "court": "Supreme Court of North Carolina",
+          "year": 1984,
+          "date_decided": "1984-08-28",
+          "holding": "The Supreme Court held that evidence of neglect predating loss of custody, including a prior adjudication, is admissible in a termination proceeding, but the trial court must make an independent present-day determination that weighs changed conditions against the history of neglect and the probability that neglect would recur.",
+          "relevance": "Progress under a court-ordered service plan is the 'changed conditions' evidence the court must weigh before terminating on neglect.",
+          "quote": "The trial court must also consider any evidence of changed conditions in light of the evidence of prior neglect and the probability of a repetition of neglect.",
+          "url": "https://www.courtlistener.com/opinion/1350033/matter-of-ballard/",
+          "courtlistener_cluster_id": 1350033
+        },
+        {
+          "case_name": "In re D.L.W.",
+          "citation": "368 N.C. 835, 788 S.E.2d 162 (2016)",
+          "court": "Supreme Court of North Carolina",
+          "year": 2016,
+          "date_decided": "2016-06-10",
+          "holding": "The Supreme Court reversed the Court of Appeals and held that the trial court had authority under N.C.G.S. § 7B-904(d1)(3) to require the mother to create a budgeting plan, and that her failure to do so supported termination under § 7B-1111(a)(2) because her mismanagement of income worsened the instability and inadequate housing that led to the juveniles' removal.",
+          "relevance": "D.L.W. is the NC Supreme Court predicate for In re B.O.A.: it holds that a court-ordered case plan requirement is valid, and non-compliance with it consequential, where the requirement addresses a condition that contributed to removal even indirectly.",
+          "quote": "it was entirely appropriate for the court to have ordered respondent to create a budgeting plan",
+          "url": "https://www.courtlistener.com/opinion/3212121/in-re-dlw/",
+          "courtlistener_cluster_id": 3212121
+        },
+        {
+          "case_name": "In re L.M.T.",
+          "citation": "367 N.C. 165, 752 S.E.2d 453 (2013)",
+          "court": "Supreme Court of North Carolina",
+          "year": 2013,
+          "date_decided": "2013-12-20",
+          "holding": "The Supreme Court reversed the Court of Appeals and held that a permanency planning order ceasing reunification need not recite N.C.G.S. § 7B-507's language verbatim so long as its findings address the substance of the statutory requirements, and that an incomplete cease-reunification order may be cured by the findings in the later termination of parental rights order reviewed together with it.",
+          "relevance": "L.M.T. is the controlling NC Supreme Court authority on the findings a court must make before relieving the agency of court-ordered reunification efforts (former § 7B-507(b), now § 7B-901(c)).",
+          "quote": "When reviewing the sufficiency of such orders, an appellate court should consider whether the trial court's findings of fact address the substance of the statutory requirements.",
+          "url": "https://www.courtlistener.com/opinion/2677889/in-re-lmt/",
+          "courtlistener_cluster_id": 2677889
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22North%20Carolina%22%20AND%20%28%22North%20Carolina%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "North Carolina Department of Health and Human Services",
         "CPS",
@@ -163,149 +217,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22North%20Carolina%22%20AND%20%28%22North%20Carolina%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "removal",
-        "emergency custody",
-        "placement",
-        "reunification",
-        "services"
-      ],
-      "jurisdiction": "North Carolina state courts",
-      "key_cases": [
-        {
-          "case_id": "24-687",
-          "title": "In re: Foreclosure of a Deed of Tr. Executed by Raymond Carpenter",
-          "url": "https://law.justia.com/cases/north-carolina/court-of-appeals/2025/24-687.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "North Carolina Court Of Appeals Case 24-687 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "closure"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "240pa21",
-          "title": "In re Foreclosure of a Lien by Executive Office Park of Durham Ass'n against Rock",
-          "url": "https://law.justia.com/cases/north-carolina/supreme-court/2022/240pa21.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "North Carolina Supreme Court Case 240pa21 (2022)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "closure"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "1pa19",
-          "title": "Rouse v. Forsyth County Department of Social Services",
-          "url": "https://law.justia.com/cases/north-carolina/supreme-court/2020/1pa19.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "North Carolina Supreme Court Case 1pa19 (2020)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: DSS"
-        },
-        {
-          "case_id": "265pa24",
-          "title": "In re A.D.H",
-          "url": "https://law.justia.com/cases/north-carolina/supreme-court/2025/265pa24.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Carolina Supreme Court Case 265pa24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "92a25",
-          "title": "In re Godfrey",
-          "url": "https://law.justia.com/cases/north-carolina/supreme-court/2025/92a25.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Carolina Supreme Court Case 92a25 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "188pa24",
-          "title": "In re E.H. & R.H.",
-          "url": "https://law.justia.com/cases/north-carolina/supreme-court/2025/188pa24.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Carolina Supreme Court Case 188pa24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "321a24",
-          "title": "In re Kimble",
-          "url": "https://law.justia.com/cases/north-carolina/supreme-court/2025/321a24.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Carolina Supreme Court Case 321a24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "168pa22",
-          "title": "Doe v. Roman Cath. Diocese",
-          "url": "https://law.justia.com/cases/north-carolina/supreme-court/2025/168pa22.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Carolina Supreme Court Case 168pa22 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        },
-        {
-          "case_id": "25-366",
-          "title": "In re: S.A.B.S",
-          "url": "https://law.justia.com/cases/north-carolina/court-of-appeals/2025/25-366.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "North Carolina Court Of Appeals Case 25-366 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "25-140",
-          "title": "In re: D.V.P",
-          "url": "https://law.justia.com/cases/north-carolina/court-of-appeals/2025/25-140.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "North Carolina Court Of Appeals Case 25-140 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

@@ -86,6 +86,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Minnesota state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Burton v. Richmond",
+          "citation": "276 F.3d 973 (8th Cir. 2002)",
+          "court": "United States Court of Appeals for the Eighth Circuit",
+          "year": 2002,
+          "date_decided": "2002-01-11",
+          "holding": "The court affirmed denial of qualified immunity to state caseworkers, holding it was clearly established that children placed in state foster custody have a substantive due process right to protection, medical care and supervision.",
+          "relevance": "It is the Eighth Circuit's authority for liability when a child is seriously harmed in a state-arranged placement.",
+          "quote": "Accordingly, we affirm the district court's denial of the Defendants' motion to dismiss based upon qualified immunity.",
+          "url": "https://www.courtlistener.com/opinion/776145/heather-burton-v-patricia-richmond/",
+          "courtlistener_cluster_id": 776145
+        },
+        {
+          "case_name": "James v. Friend",
+          "citation": "458 F.3d 726 (8th Cir. 2006)",
+          "court": "United States Court of Appeals for the Eighth Circuit",
+          "year": 2006,
+          "date_decided": "2006-08-10",
+          "holding": "The court affirmed summary judgment for child-protection workers after a foster child's death, holding their conduct did not amount to the deliberate indifference required to shock the conscience.",
+          "relevance": "It is the Eighth Circuit's standard for civil liability arising from a child's death while the agency was involved.",
+          "quote": "When deliberation is practical, the officials' conduct will not be found to be conscience-shocking unless the officials acted with deliberate indifference.",
+          "url": "https://www.courtlistener.com/opinion/795306/sidney-james-on-behalf-of-dominic-james-deceased-and-on-his-own-behalf-v/",
+          "courtlistener_cluster_id": 795306
+        },
+        {
+          "case_name": "In re Welfare of the Child of J.K.T.",
+          "citation": "814 N.W.2d 76 (Minn. Ct. App. 2012)",
+          "court": "Court of Appeals of Minnesota",
+          "year": 2012,
+          "date_decided": "2012-05-21",
+          "holding": "The court held that a parent's appeal from a termination order remains justiciable after the child's death because collateral consequences attach to the order, and affirmed the termination on the merits.",
+          "relevance": "It is the published Minnesota decision addressing what survives when a child in the child-protection system dies during the case.",
+          "quote": "We conclude that collateral consequences attach to the termination order because it may affect any future termination proceedings against appellant.",
+          "url": "https://www.courtlistener.com/opinion/8280589/in-re-the-welfare-of-the-child-of-jkt/",
+          "courtlistener_cluster_id": 8280589
+        },
+        {
+          "case_name": "Radke v. County of Freeborn",
+          "citation": "694 N.W.2d 788 (Minn. 2005)",
+          "court": "Supreme Court of Minnesota",
+          "year": 2005,
+          "date_decided": "2005-04-21",
+          "holding": "Reversing the court of appeals and reinstating a wrongful-death complaint, the court held that a common-law negligence action may be maintained against a county and its child-protection workers for negligence in the investigation of, and intervention in, reports of suspected child abuse required under the Child Abuse Reporting Act.",
+          "relevance": "It arises directly from a child fatality during an open county investigation and defines the civil remedy available to the child's next of kin.",
+          "quote": "Accordingly, we hold that a cause of action can be maintained for negligence in the investigation of child abuse and neglect reports as required under CARA.",
+          "url": "https://www.courtlistener.com/opinion/2071545/radke-v-county-of-freeborn/",
+          "courtlistener_cluster_id": 2071545
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Minnesota%22%20AND%20%28%22Minnesota%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Minnesota Department of Human Services",
         "CPS",
@@ -97,149 +151,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Minnesota%22%20AND%20%28%22Minnesota%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "termination of parental rights",
-        "TPR",
-        "adoption",
-        "permanency",
-        "aging out"
-      ],
-      "jurisdiction": "Minnesota state courts",
-      "key_cases": [
-        {
-          "case_id": "a24-1562",
-          "title": "In the Matter of the Petition of Minnesota Association of Residential Services Homes (MARSH) under Minn. Stat. Â§ 14.381, subd. 1, for a Declaration that the Minnesota Department of Human Services Is Enforcing Unadopted Rules",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2025/a24-1562.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a24-1562 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "minnesota department of human services"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "a24-0147",
-          "title": "In re the Guardianship of Humberto Mazariegos Rodriguez",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2024/a24-0147.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a24-0147 (2024)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "a24-0126",
-          "title": "In re the Matter of: Western Prairie Human Services, Respondent, Commissioner of Minnesota Department of Human Services, Respondent, vs. County of Benton, Appellant",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2024/a24-0126.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a24-0126 (2024)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "minnesota department of human services"
-          ],
-          "child_welfare_reason": "High: In re, Matter of"
-        },
-        {
-          "case_id": "a23-1742",
-          "title": "In re the Guardianship and/or Conservatorship of: Sherry Linn",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2024/a23-1742.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a23-1742 (2024)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "a23-0596",
-          "title": "In re: Guardianship of Jill Lee Osufsen",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2023/a23-0596.html",
-          "year": 2023,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a23-0596 (2023)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "a23-0252",
-          "title": "In re: Guardianship of Brianna Orwig, Person Subject to Guardianship",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2023/a23-0252.html",
-          "year": 2023,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a23-0252 (2023)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "a23-0344",
-          "title": "In re the Guardianship of Travis Trong Khuong Nguyen",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2023/a23-0344.html",
-          "year": 2023,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a23-0344 (2023)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "a22-0578",
-          "title": "In re the Guardianship and Conservatorship of Carolyn Neu",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2022/a22-0578.html",
-          "year": 2022,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a22-0578 (2022)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "a22-0186",
-          "title": "In re the Guardianship of Dale Carl Luepke, Jr",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2022/a22-0186.html",
-          "year": 2022,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a22-0186 (2022)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "a22-0367",
-          "title": "In the Matter of the Surveillance and Integrity Review Appeal by Smart Choice Health Care Corporation and Farah Jama Mohamed, Relators, vs. Minnesota Department of Human Services, Respondent",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2022/a22-0367.html",
-          "year": 2022,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a22-0367 (2022)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "minnesota department of human services"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

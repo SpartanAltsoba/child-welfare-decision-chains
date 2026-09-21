@@ -165,6 +165,84 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Illinois state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Santosky v. Kramer",
+          "citation": "455 U.S. 745 (1982)",
+          "court": "Supreme Court of the United States",
+          "year": 1982,
+          "date_decided": "1982-02-22",
+          "holding": "The Court held that due process requires a state to support its allegations by at least clear and convincing evidence before terminating parental rights, and reversed New York's use of a fair-preponderance standard.",
+          "relevance": "The federal constitutional floor for the unfitness stage of Illinois termination proceedings, which the legislature codified in 1983.",
+          "quote": "due process requires that the State support its allegations by at least clear and convincing evidence",
+          "url": "https://www.courtlistener.com/opinion/110676/santosky-v-kramer/",
+          "courtlistener_cluster_id": 110676
+        },
+        {
+          "case_name": "In re D.T.",
+          "citation": "212 Ill. 2d 347, 818 N.E.2d 1214 (2004)",
+          "court": "Illinois Supreme Court",
+          "year": 2004,
+          "date_decided": "2004-10-21",
+          "holding": "The court held that 'sound discretion' is not a standard of proof and that the State must prove by a preponderance of the evidence at the best-interests stage that termination of parental rights is in the child's best interest, remanding for a new best-interests hearing.",
+          "relevance": "Fixes the two-step Illinois termination structure: clear and convincing evidence of unfitness, then preponderance at the best-interests stage.",
+          "quote": "at a best-interests hearing, the parent's interest in maintaining the parent-child relationship must yield to the child's interest in a stable, loving home life",
+          "url": "https://www.courtlistener.com/opinion/3135099/people-v-brenda-t/",
+          "courtlistener_cluster_id": 3135099
+        },
+        {
+          "case_name": "In re N.G.",
+          "citation": "2018 IL 121939",
+          "court": "Illinois Supreme Court",
+          "year": 2019,
+          "date_decided": "2019-02-05",
+          "holding": "The court held that a conviction under a facially unconstitutional statute is void ab initio and cannot be used to establish depravity, affirming the appellate court's reversal of the unfitness finding and remanding for DCFS to attempt proof on other grounds.",
+          "relevance": "Limits the criminal-conviction route to parental unfitness and restates that the parental liberty interest survives imperfect parenting.",
+          "quote": "Today, we hold simply that he cannot be found depraved and therefore unfit under section 1(D)(i) of the Adoption Act based on his legally nonexistent and now-vacated 2008 AUUW conviction.",
+          "url": "https://www.courtlistener.com/opinion/4587592/in-re-ng/",
+          "courtlistener_cluster_id": 4587592
+        },
+        {
+          "case_name": "Lassiter v. Department of Social Services of Durham County",
+          "citation": "452 U.S. 18 (1981)",
+          "court": "Supreme Court of the United States",
+          "year": 1981,
+          "date_decided": "1981-08-28",
+          "holding": "The Court held that due process does not require appointed counsel in every parental termination proceeding and left the decision to the trial court case by case, affirming the refusal to appoint counsel on this record.",
+          "relevance": "The federal constitutional baseline for counsel at termination, which Illinois exceeds by statute under the Juvenile Court Act.",
+          "quote": "neither can we say that the Constitution requires the appointment of counsel in every parental termination proceeding",
+          "url": "https://www.courtlistener.com/opinion/110506/lassiter-v-department-of-social-servs-of-durham-cty/",
+          "courtlistener_cluster_id": 110506
+        },
+        {
+          "case_name": "In re M.H.",
+          "citation": "196 Ill. 2d 356, 751 N.E.2d 1134 (2001)",
+          "court": "Illinois Supreme Court",
+          "year": 2001,
+          "date_decided": "2001-05-24",
+          "holding": "The court affirmed the vacatur of a mother's admission of unfitness, holding that due process requires the circuit court to determine that a factual basis exists before accepting such an admission, and remanded for a new fitness hearing.",
+          "relevance": "The Illinois bridge between Santosky and the two-step termination structure: clear and convincing proof of unfitness comes first, best interests second.",
+          "quote": "Before a circuit court can adjudicate a parent unfit and terminate parental rights, the State must prove by clear and convincing evidence that the parent is unfit.",
+          "url": "https://www.courtlistener.com/opinion/2224471/in-re-mh/",
+          "courtlistener_cluster_id": 2224471
+        },
+        {
+          "case_name": "In re Enis",
+          "citation": "121 Ill. 2d 124, 520 N.E.2d 362 (1988)",
+          "court": "Illinois Supreme Court",
+          "year": 1988,
+          "date_decided": "1988-02-11",
+          "holding": "The court affirmed the appellate court, holding that section 1(D)(f) of the Adoption Act violates due process because it rests unfitness on prior abuse findings made by a preponderance, and remanded for a new termination hearing under the clear and convincing standard.",
+          "relevance": "The Illinois Supreme Court's own application of Santosky, striking an unfitness ground that borrowed preponderance-level abuse findings from the juvenile case.",
+          "quote": "we order a new hearing on the State's petition to be conducted under the constitutionally proper standard, i.e., clear and convincing evidence",
+          "url": "https://www.courtlistener.com/opinion/2076795/people-v-enis/",
+          "courtlistener_cluster_id": 2076795
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Illinois%22%20AND%20%28%22Illinois%20Department%20of%20Children%20and%20Family%20Services%22%20OR%20%22DCFS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Illinois Department of Children and Family Services",
         "DCFS",
@@ -176,149 +254,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Illinois%22%20AND%20%28%22Illinois%20Department%20of%20Children%20and%20Family%20Services%22%20OR%20%22DCFS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "termination of parental rights",
-        "TPR",
-        "adoption",
-        "permanency",
-        "aging out"
-      ],
-      "jurisdiction": "Illinois state courts",
-      "key_cases": [
-        {
-          "case_id": "130596",
-          "title": "In re Marriage of Tronsrue",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2025/130596.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 130596 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "129755",
-          "title": "In re V.S.",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2025/129755.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 129755 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "129155",
-          "title": "In re Marriage of Arjmand",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2024/129155.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 129155 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "128867",
-          "title": "In re Estate of Coffman",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2023/128867.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 128867 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "129097",
-          "title": "Doe v. Burke Wise Morrissey & Kaveny, LLC",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2023/129097.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 129097 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        },
-        {
-          "case_id": "128031",
-          "title": "In re Kelan W.",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2022/128031.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 128031 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "126256",
-          "title": "In re Craig H.",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2022/126256.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 126256 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "126956",
-          "title": "In re Estate of McDonald",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2022/126956.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 126956 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "126929",
-          "title": "In re Application of the County Collector",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2022/126929.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 126929 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "127222",
-          "title": "In re Johnathan T.",
-          "url": "https://law.justia.com/cases/illinois/supreme-court/2022/127222.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Illinois Supreme Court Case 127222 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

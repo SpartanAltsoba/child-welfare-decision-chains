@@ -155,6 +155,36 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Delaware state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Flowers, Jr. v. Office of the Governor",
+          "citation": "167 A.3d 530 (Del. Super. Ct. 2017)",
+          "court": "Superior Court of Delaware",
+          "year": 2017,
+          "date_decided": "2017-08-08",
+          "holding": "On appeal from the Chief Deputy Attorney General's FOIA determination, the Superior Court held that the burden of proof rests on the public body to give sufficient reasons for withholding records and found that the Governor's Office satisfied that burden under the legislative e-mail and privilege exemptions.",
+          "relevance": "Defines the state-law route to the records an audit or financial review would need.",
+          "quote": "Regardless of who reviews the requestor's petition, the burden of proof is on the public body to demonstrate that its \"reasons\" for withholding records were sufficient.",
+          "url": "https://www.courtlistener.com/opinion/4417294/flowers-jr-v-office-of-the-governor/",
+          "courtlistener_cluster_id": 4417294
+        },
+        {
+          "case_name": "Division of Family Services v. Redman",
+          "citation": "979 A.2d 1138 (Del. Fam. Ct. 2009)",
+          "court": "Delaware Family Court",
+          "year": 2009,
+          "date_decided": "2009-04-15",
+          "holding": "The Family Court granted the Division's motion to quash a parent's Rule 45 subpoena duces tecum for the Division's case file, holding that a trial subpoena is not the proper vehicle and that access must instead proceed through an expedited discovery request consistent with the Division's federal and state confidentiality obligations.",
+          "relevance": "Sets the confidentiality boundary any auditor or reviewer of DFS files must work within.",
+          "quote": "For the reasons that will follow, the Court is granting the Division's Motion to Quash the subpoena which was issued pursuant to Family Court Civil Rule 45.",
+          "url": "https://www.courtlistener.com/opinion/1536786/division-of-family-services-v-redman/",
+          "courtlistener_cluster_id": 1536786
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Delaware%22%20AND%20%28%22Delaware%20Division%20of%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Delaware Division of Family Services",
         "CPS",
@@ -166,148 +196,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Delaware%22%20AND%20%28%22Delaware%20Division%20of%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "missing child",
-        "amber alert",
-        "custodial interference",
-        "parental kidnapping"
-      ],
-      "jurisdiction": "Delaware state courts",
-      "key_cases": [
-        {
-          "case_id": "292-2022",
-          "title": "Kline v. Delaware Division of Family Services",
-          "url": "https://law.justia.com/cases/delaware/supreme-court/2023/292-2022.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Delaware Supreme Court Case 292-2022 (2023)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "delaware division of family services"
-          ],
-          "child_welfare_reason": "High: Family Services"
-        },
-        {
-          "case_id": "213-2025",
-          "title": "Roy Harris v. DSCYF TPR",
-          "url": "https://law.justia.com/cases/delaware/supreme-court/2025/213-2025.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Delaware Supreme Court Case 213-2025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: TPR"
-        },
-        {
-          "case_id": "534-2024-10-11-and-12-2025",
-          "title": "In re Tesla, Inc. Derivative Litigation",
-          "url": "https://law.justia.com/cases/delaware/supreme-court/2025/534-2024-10-11-and-12-2025.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Delaware Supreme Court Case 534-2024-10-11-and-12-2025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "306-2025",
-          "title": "Martin Schnell v. DSCYF TPR",
-          "url": "https://law.justia.com/cases/delaware/supreme-court/2025/306-2025.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Delaware Supreme Court Case 306-2025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: TPR"
-        },
-        {
-          "case_id": "307-2025",
-          "title": "Shelby Davis v. DSCYF TPR",
-          "url": "https://law.justia.com/cases/delaware/supreme-court/2025/307-2025.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Delaware Supreme Court Case 307-2025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: TPR"
-        },
-        {
-          "case_id": "19-2025",
-          "title": "In re Straight Path Communications Inc. Stockholder Litigation",
-          "url": "https://law.justia.com/cases/delaware/supreme-court/2025/19-2025.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Delaware Supreme Court Case 19-2025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "114-2025",
-          "title": "In re The Trade Desk, Inc. Derivative Action",
-          "url": "https://law.justia.com/cases/delaware/supreme-court/2025/114-2025.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Delaware Supreme Court Case 114-2025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "242-2025",
-          "title": "Storm v. DSCYF TPR",
-          "url": "https://law.justia.com/cases/delaware/supreme-court/2025/242-2025.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Delaware Supreme Court Case 242-2025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: TPR"
-        },
-        {
-          "case_id": "397-2025",
-          "title": "In re Kostyshyn 634 Governor Circle",
-          "url": "https://law.justia.com/cases/delaware/supreme-court/2025/397-2025.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Delaware Supreme Court Case 397-2025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "189-2025",
-          "title": "Ross v. DSCYF/DFS",
-          "url": "https://law.justia.com/cases/delaware/supreme-court/2025/189-2025.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Delaware Supreme Court Case 189-2025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: DFS"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

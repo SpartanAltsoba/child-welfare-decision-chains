@@ -82,6 +82,36 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Minnesota state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Hennepin County Community Services Department v. Hale",
+          "citation": "470 N.W.2d 159 (Minn. Ct. App. 1991)",
+          "court": "Court of Appeals of Minnesota",
+          "year": 1991,
+          "date_decided": "1991-05-14",
+          "holding": "The court affirmed the Commissioner of Administration's order requiring the county to correct a social-services report, holding substantial evidence supported the conclusion that the report was inaccurate in finding the abuse allegation substantiated.",
+          "relevance": "It establishes that recorded agency conclusions are challengeable on the record, which is the legal basis for any external data-driven audit.",
+          "quote": "there is substantial evidence in the record to support the Commissioner's decision that the contested report was inaccurate in concluding that the report of abuse by Johnston was substantiated",
+          "url": "https://www.courtlistener.com/opinion/1591931/hennepin-county-community-services-department-v-hale/",
+          "courtlistener_cluster_id": 1591931
+        },
+        {
+          "case_name": "Fosselman v. Commissioner of Human Services",
+          "citation": "612 N.W.2d 456 (Minn. Ct. App. 2000)",
+          "court": "Court of Appeals of Minnesota",
+          "year": 2000,
+          "date_decided": "2000-07-03",
+          "holding": "The court held that maltreatment-based disqualification proceedings against mandated reporters are subject to procedural due process and that making the commissioner's reconsideration the final agency action, with no evidentiary hearing, denied relators due process.",
+          "relevance": "Any automated or paper-record flagging of individuals for maltreatment must still be followed by a constitutionally adequate hearing.",
+          "quote": "We conclude that disqualification proceedings are subject to the requirements of procedural due process.",
+          "url": "https://www.courtlistener.com/opinion/1862579/fosselman-v-commissioner-of-human-services/",
+          "courtlistener_cluster_id": 1862579
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Minnesota%22%20AND%20%28%22Minnesota%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Minnesota Department of Human Services",
         "CPS",
@@ -93,148 +123,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Minnesota%22%20AND%20%28%22Minnesota%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "missing child",
-        "amber alert",
-        "custodial interference",
-        "parental kidnapping"
-      ],
-      "jurisdiction": "Minnesota state courts",
-      "key_cases": [
-        {
-          "case_id": "a24-1562",
-          "title": "In the Matter of the Petition of Minnesota Association of Residential Services Homes (MARSH) under Minn. Stat. Â§ 14.381, subd. 1, for a Declaration that the Minnesota Department of Human Services Is Enforcing Unadopted Rules",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2025/a24-1562.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a24-1562 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "minnesota department of human services"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "a24-0126",
-          "title": "In re the Matter of: Western Prairie Human Services, Respondent, Commissioner of Minnesota Department of Human Services, Respondent, vs. County of Benton, Appellant",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2024/a24-0126.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a24-0126 (2024)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "minnesota department of human services"
-          ],
-          "child_welfare_reason": "High: In re, Matter of"
-        },
-        {
-          "case_id": "a22-0367",
-          "title": "In the Matter of the Surveillance and Integrity Review Appeal by Smart Choice Health Care Corporation and Farah Jama Mohamed, Relators, vs. Minnesota Department of Human Services, Respondent",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2022/a22-0367.html",
-          "year": 2022,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a22-0367 (2022)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "minnesota department of human services"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "a20-1300",
-          "title": "In re the Matter of: Dorothy Geyen, Respondent, vs. Commissioner of Minnesota Department of Human Services, Appellant, Carver County Health and Human Services, Respondent below",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2021/a20-1300.html",
-          "year": 2021,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a20-1300 (2021)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "minnesota department of human services"
-          ],
-          "child_welfare_reason": "High: In re, Matter of"
-        },
-        {
-          "case_id": "a25-0806",
-          "title": "In re Cottonwood County's Decision on the Need for an Environmental Impact Statement for the Proposed Sioux Rock Quarry Expansion Project in Delton Township. -------------------------- In the Matter of the Application of OMG Midwest, Inc. d/b/a Minnesota Paving and Materials for a Conditional Use Permit",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2025/a25-0806.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a25-0806 (2025)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re, Matter of"
-        },
-        {
-          "case_id": "a22-1773",
-          "title": "In the Matter of the Trusteeship Created by The Volusia County Industrial Development Authority relating to the Issuance of $24,035,000 in Volusia County Industrial Development Authority Senior Living Revenue Bonds (Woodland Towers Project), Series 2017",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2023/a22-1773.html",
-          "year": 2023,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a22-1773 (2023)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "a18-1952",
-          "title": "In the Matter of the NorthMet Project Permit to Mine Application Dated December 2017 (A18-1952, A18-1958, A18-1959), and Dam Safety Permits 2016-1380 and 2016-1383 for the NorthMet Mining Project (A18-1953, A18-1960, A18-1961)",
-          "url": "https://law.justia.com/cases/minnesota/supreme-court/2021/a18-1952.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Minnesota Supreme Court Case a18-1952 (2021)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "a20-1513",
-          "title": "In the Matter of Enbridge Line 3 Replacement Project in Minnesota Kittson, Marshall, Pennington, Polk, Red Lake, Clearwater, Hubbard, Wadena, Cass, Crow Wing, Aitkin, St. Louis, and Carlton Counties Section 401 Water Quality Certification",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2021/a20-1513.html",
-          "year": 2021,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a20-1513 (2021)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "a20-1417-0",
-          "title": "In the Matter of the Decision on the Need for an Environmental Impact Statement for the Proposed Barrick Family Farms, LLP - Lockhart 25 Project Lockhart Township Norman County, Minnesota (A20-1417), and In re Minnesota Pollution Control Agency's Issuance of a General Animal Feedlot National Pollutant Discharge Elimination System Permit to Barrack Family Farms, LLP - Lockhart 25 Project (A20-1418)",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2021/a20-1417-0.html",
-          "year": 2021,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a20-1417-0 (2021)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re, Matter of"
-        },
-        {
-          "case_id": "a20-1071",
-          "title": "In the Matter of the Application of Enbridge Energy, Limited Partnership, for a Certificate of Need and a Routing Permit for the Proposed Line 3 Replacement Project in Minnesota from the North Dakota Border to the Wisconsin Border",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2021/a20-1071.html",
-          "year": 2021,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a20-1071 (2021)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

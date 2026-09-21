@@ -126,6 +126,48 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Maine state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Flanders v. Cooper",
+          "citation": "1998 ME 28, 706 A.2d 589",
+          "court": "Supreme Judicial Court of Maine",
+          "year": 1998,
+          "date_decided": "1998-02-11",
+          "holding": "The Law Court affirmed dismissal of a father's malpractice claim, holding that a health care professional whose treatment of a child patient produced allegations of sexual abuse owes no duty of care to the accused third party, and reasoning that Maine's mandated-reporter scheme makes negligent reporting non-actionable.",
+          "relevance": "The same immunity reasoning protects any person who reports in good faith, which is what makes the voluntary-report channel usable without fear of a retaliatory suit.",
+          "quote": "Negligent reporting is not actionable.",
+          "url": "https://www.courtlistener.com/opinion/2071480/flanders-v-cooper/",
+          "courtlistener_cluster_id": 2071480
+        },
+        {
+          "case_name": "Hatch v. Department for Children, Youth & Their Families",
+          "citation": "274 F.3d 12 (1st Cir. 2001)",
+          "court": "United States Court of Appeals for the First Circuit",
+          "year": 2001,
+          "date_decided": "2001-12-17",
+          "holding": "The First Circuit held that the Constitution allows a caseworker to take temporary custody of a child without a hearing on an objectively reasonable suspicion that abuse has occurred or is imminent, and affirmed because the information the caseworker had, including a school report and a physician's hold, met that standard.",
+          "relevance": "The court analyzed the reliability of a lay report under a totality-of-the-circumstances test drawn from Fourth Amendment reasonable-suspicion doctrine.",
+          "quote": "Because the welfare of the child is paramount, an objectively reasonable suspicion of abuse justifies protective measures.",
+          "url": "https://www.courtlistener.com/opinion/775863/hatch-v-department-for-children-youth-their-families/",
+          "courtlistener_cluster_id": 775863
+        },
+        {
+          "case_name": "Cunningham v. Haza",
+          "citation": "538 A.2d 265 (Me. 1988)",
+          "court": "Supreme Judicial Court of Maine",
+          "year": 1988,
+          "date_decided": "1988-02-29",
+          "holding": "The Law Court vacated judgment on the pleadings for a child protective caseworker, holding that where the complaint alleges she interviewed and physically examined a child at school without parental notice, acted beyond her statutory authority, and acted with malice, Maine Tort Claims Act immunity could not be resolved on the pleadings.",
+          "relevance": "The investigation began from a third-party referral about a group of children and expanded to a child who had never been named in it.",
+          "quote": "At a minimum, however, plaintiffs' complaint alleges that defendant acted beyond the bounds of any statutory authority she might have, and that she acted with malice.",
+          "url": "https://www.courtlistener.com/opinion/1926300/cunningham-v-haza/",
+          "courtlistener_cluster_id": 1926300
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Maine%22%20AND%20%28%22Maine%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Maine Department of Health and Human Services",
         "CPS",
@@ -137,148 +179,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Maine%22%20AND%20%28%22Maine%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "mandatory reporting",
-        "failure to report",
-        "reporter immunity",
-        "hotline"
-      ],
-      "jurisdiction": "Maine state courts",
-      "key_cases": [
-        {
-          "case_id": "2020-me-99",
-          "title": "In re Involuntary Commitment of M.",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2020/2020-me-99.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2020-me-99 (2020)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2020-me-39",
-          "title": "In re Involuntary Treatment of K.",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2020/2020-me-39.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2020-me-39 (2020)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2025-me-91",
-          "title": "In re Children of Krystal W.",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2025/2025-me-91.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2025-me-91 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re child, In re"
-        },
-        {
-          "case_id": "2025-me-33",
-          "title": "Doe v. Burnham",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2025/2025-me-33.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2025-me-33 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        },
-        {
-          "case_id": "2025-me-23",
-          "title": "Doe v. Costin",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2025/2025-me-23.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2025-me-23 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        },
-        {
-          "case_id": "2025-me-16",
-          "title": "In re Child of Christian D.",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2025/2025-me-16.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2025-me-16 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re child, In re"
-        },
-        {
-          "case_id": "2025-me-7",
-          "title": "In re Child of Taylor M.",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2025/2025-me-7.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2025-me-7 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re child, In re"
-        },
-        {
-          "case_id": "2024-me-71",
-          "title": "In re William B. Blaisdell IV",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2024/2024-me-71.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2024-me-71 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "2024-me-66",
-          "title": "In re Children of Destiny H.",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2024/2024-me-66.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2024-me-66 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re child, In re"
-        },
-        {
-          "case_id": "2024-me-16",
-          "title": "In re Child of Barni A.",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2024/2024-me-16.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2024-me-16 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re child, In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

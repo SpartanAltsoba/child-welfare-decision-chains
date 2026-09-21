@@ -124,6 +124,48 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Texas state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Perry v. S.N.",
+          "citation": "973 S.W.2d 301 (Tex. 1998)",
+          "court": "Supreme Court of Texas",
+          "year": 1998,
+          "date_decided": "1998-07-03",
+          "holding": "Texas does not recognize a negligence per se claim for failing to report child abuse under Family Code § 261.109; the reporting duty is enforced criminally, not through private tort liability.",
+          "relevance": "The controlling Texas answer to the question families ask at this node: the § 261.101 duty to report and the § 261.109 misdemeanor for failing to report create no private cause of action, so a failure to report (or to act on a report) is punished criminally and administratively, not in a civil damages suit.",
+          "quote": "we hold that it is not appropriate to adopt Family Code section 261.109(a) as establishing a duty and standard of conduct in tort",
+          "url": "https://www.courtlistener.com/opinion/2466738/perry-v-sn/",
+          "courtlistener_cluster_id": 2466738
+        },
+        {
+          "case_name": "Sanchez v. State",
+          "citation": "354 S.W.3d 476 (Tex. Crim. App. 2011)",
+          "court": "Texas Court of Criminal Appeals",
+          "year": 2011,
+          "date_decided": "2011-12-14",
+          "holding": "The pre-trial hearing required by Code of Criminal Procedure article 38.072 § 2(b)(2) tests only the reliability of the child's out-of-court outcry statement, so the cross-examination available there is inadequate to make the outcry witness's hearing testimony admissible at trial under the former-testimony exception.",
+          "relevance": "Governs how a disclosure made to a professional is later admitted — the outcry witness is the first adult over eighteen told, and the reliability hearing is the gate, not the record.",
+          "quote": "a pre-trial hearing conducted under Code of Criminal Procedure Article 38.072 § 2(b)(2) is intended only to determine the reliability of the complainant’s out-of-court statement",
+          "url": "https://www.courtlistener.com/opinion/2542273/sanchez-v-state/",
+          "courtlistener_cluster_id": 2542273
+        },
+        {
+          "case_name": "Bird v. W.C.W.",
+          "citation": "868 S.W.2d 767 (Tex. 1994)",
+          "court": "Supreme Court of Texas",
+          "year": 1994,
+          "date_decided": "1994-01-05",
+          "holding": "A mental-health professional who examines a child for abuse owes no professional duty of care to a third party — here the accused father — to avoid negligently misdiagnosing the child, and the affidavit she filed in the family court was privileged as a judicial-proceeding communication.",
+          "relevance": "Directly on the medical or psychological disclosure route — the examining clinician's duty runs to the child patient only, not to the parent her diagnosis implicates.",
+          "quote": "We hold that a mental health professional owes no professional duty of care to a third party to not negligently misdiagnose a condition of a patient.",
+          "url": "https://www.courtlistener.com/opinion/1728574/bird-v-wcw/",
+          "courtlistener_cluster_id": 1728574
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Texas%22%20AND%20%28%22Texas%20Department%20of%20Family%20and%20Protective%20Services%22%20OR%20%22DFPS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Texas Department of Family and Protective Services",
         "DFPS",
@@ -135,135 +177,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Texas%22%20AND%20%28%22Texas%20Department%20of%20Family%20and%20Protective%20Services%22%20OR%20%22DFPS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "mandatory reporting",
-        "failure to report",
-        "reporter immunity",
-        "hotline"
-      ],
-      "jurisdiction": "Texas state courts",
-      "key_cases": [
-        {
-          "case_id": "22-0229",
-          "title": "IN RE GREG ABBOTT IN HIS OFFICIAL CAPACITY AS GOVERNOR OF THE STATE OF TEXAS; JAIME MASTERS IN HER OFFICIAL CAPACITY AS COMMISSIONER OF THE DEPARTMENT OF FAMILY AND PROTECTIVE SERVICES; AND THE TEXAS DEPARTMENT OF FAMILY AND PROTECTIVE SERVICES; from Travi (Concurring)",
-          "url": "https://law.justia.com/cases/texas/supreme-court/2022/22-0229.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Texas Supreme Court Case 22-0229 (2022)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "texas department of family and protective services"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "21-0235",
-          "title": "IN RE TEXAS DEPARTMENT OF FAMILY AND PROTECTIVE SERVICES; from Fort Bend County; 14th Court of Appeals District (14-20-00703-CV, ___ SW3d ___, 03-09-21) (Dissenting)",
-          "url": "https://law.justia.com/cases/texas/supreme-court/2021/21-0235.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Texas Supreme Court Case 21-0235 (2021)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "texas department of family and protective services"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "23-1039",
-          "title": "IN RE EAST TEXAS MEDICAL CENTER ATHENS (Opinion)",
-          "url": "https://law.justia.com/cases/texas/supreme-court/2025/23-1039.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Texas Supreme Court Case 23-1039 (2025)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "wr-91-715-01-0",
-          "title": "IN RE UNIVERSITY OF TEXAS MEDICAL BRANCH-GALVESTON, RELATOR Appeal from 259th District Court of Jones County (concurring by judge slaughter)",
-          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/2023/wr-91-715-01-0.html",
-          "year": 2023,
-          "court": "Court Of Criminal Appeals",
-          "citation": "Texas Court Of Criminal Appeals Case wr-91-715-01-0 (2023)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "wr-91-715-01",
-          "title": "In re University of Texas Medical Branch-Galveston (original by judge newell)",
-          "url": "https://law.justia.com/cases/texas/court-of-criminal-appeals/2023/wr-91-715-01.html",
-          "year": 2023,
-          "court": "Court Of Criminal Appeals",
-          "citation": "Texas Court Of Criminal Appeals Case wr-91-715-01 (2023)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-0641-0",
-          "title": "IN RE KEN PAXTON AND THE OFFICE OF THE ATTORNEY GENERAL; from Travis County; 15th Court of Appeals District (15-25-00116-CV) (Concurring)",
-          "url": "https://law.justia.com/cases/texas/supreme-court/2025/25-0641-0.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Texas Supreme Court Case 25-0641-0 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-0641",
-          "title": "IN RE KEN PAXTON AND THE OFFICE OF THE ATTORNEY GENERAL; from Travis County; 15th Court of Appeals District (15-25-00116-CV) (Per Curiam)",
-          "url": "https://law.justia.com/cases/texas/supreme-court/2025/25-0641.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Texas Supreme Court Case 25-0641 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-1107",
-          "title": "IN RE STEVE SMITH (Per Curiam)",
-          "url": "https://law.justia.com/cases/texas/supreme-court/2025/25-1107.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Texas Supreme Court Case 25-1107 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "24-0024",
-          "title": "IN RE UMTH GENERAL SERVICES, L.P. (Opinion)",
-          "url": "https://law.justia.com/cases/texas/supreme-court/2025/24-0024.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Texas Supreme Court Case 24-0024 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

@@ -126,6 +126,36 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Maine state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Seider v. Board of Examiners of Psychologists",
+          "citation": "2000 ME 206, 762 A.2d 551",
+          "court": "Supreme Judicial Court of Maine",
+          "year": 2000,
+          "date_decided": "2000-11-29",
+          "holding": "The Law Court affirmed professional discipline of a psychologist who, in responding to a child-protective investigative subpoena, disclosed confidential client information far beyond what the subpoena requested, and held her statutory-immunity argument unpreserved because it was not raised before the Board.",
+          "relevance": "For clinicians making a medical or mental-health disclosure, this case marks the outer limit: information supplied to the Department must be germane to the child-protective purpose.",
+          "quote": "The Board did not err in finding that Seider violated Principle 5.02 of the APA Code.",
+          "url": "https://www.courtlistener.com/opinion/2092596/seider-v-board-of-examiners-of-psychologists/",
+          "courtlistener_cluster_id": 2092596
+        },
+        {
+          "case_name": "Flanders v. Cooper",
+          "citation": "1998 ME 28, 706 A.2d 589",
+          "court": "Supreme Judicial Court of Maine",
+          "year": 1998,
+          "date_decided": "1998-02-11",
+          "holding": "The Law Court affirmed dismissal of a father's malpractice claim, holding that a health care professional whose treatment of a child patient produced allegations of sexual abuse owes no duty of care to the accused third party, and reasoning that Maine's mandated-reporter scheme makes negligent reporting non-actionable.",
+          "relevance": "The case arose from a health care provider's treatment and reporting of suspected sexual abuse and is the leading Maine authority on the absence of a duty running from clinicians to accused third parties.",
+          "quote": "Negligent reporting is not actionable.",
+          "url": "https://www.courtlistener.com/opinion/2071480/flanders-v-cooper/",
+          "courtlistener_cluster_id": 2071480
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Maine%22%20AND%20%28%22Maine%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Maine Department of Health and Human Services",
         "CPS",
@@ -137,148 +167,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Maine%22%20AND%20%28%22Maine%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "mandatory reporting",
-        "failure to report",
-        "reporter immunity",
-        "hotline"
-      ],
-      "jurisdiction": "Maine state courts",
-      "key_cases": [
-        {
-          "case_id": "2025-me-91",
-          "title": "In re Children of Krystal W.",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2025/2025-me-91.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2025-me-91 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re child, In re"
-        },
-        {
-          "case_id": "2025-me-33",
-          "title": "Doe v. Burnham",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2025/2025-me-33.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2025-me-33 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        },
-        {
-          "case_id": "2025-me-23",
-          "title": "Doe v. Costin",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2025/2025-me-23.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2025-me-23 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        },
-        {
-          "case_id": "2025-me-16",
-          "title": "In re Child of Christian D.",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2025/2025-me-16.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2025-me-16 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re child, In re"
-        },
-        {
-          "case_id": "2025-me-7",
-          "title": "In re Child of Taylor M.",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2025/2025-me-7.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2025-me-7 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re child, In re"
-        },
-        {
-          "case_id": "2024-me-71",
-          "title": "In re William B. Blaisdell IV",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2024/2024-me-71.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2024-me-71 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "2024-me-66",
-          "title": "In re Children of Destiny H.",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2024/2024-me-66.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2024-me-66 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re child, In re"
-        },
-        {
-          "case_id": "2024-me-16",
-          "title": "In re Child of Barni A.",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2024/2024-me-16.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2024-me-16 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re child, In re"
-        },
-        {
-          "case_id": "2024-me-1",
-          "title": "In re Children of Billie S.",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2024/2024-me-1.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2024-me-1 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re child, In re"
-        },
-        {
-          "case_id": "2023-me-76",
-          "title": "In re Children of Shannevia Y.",
-          "url": "https://law.justia.com/cases/maine/supreme-court/2023/2023-me-76.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Maine Supreme Court Case 2023-me-76 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re child, In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

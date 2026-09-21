@@ -88,6 +88,72 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Oklahoma state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "Deal v. Brooks",
+          "citation": "2016 OK CIV APP 81, 389 P.3d 375",
+          "court": "Court of Civil Appeals of Oklahoma",
+          "year": 2016,
+          "date_decided": "2016-06-24",
+          "holding": "In an action arising from the murder of a child DHS had placed with her biological father, the court affirmed that the Governmental Tort Claims Act's child-placement exemption bars tort claims against DHS, but reversed and remanded for trial on a state constitutional due-process claim that DHS employees acted in reckless disregard of a known risk.",
+          "relevance": "It holds that GTCA immunity does not extinguish a state constitutional claim where DHS employees recklessly disregarded a known or obvious risk of serious harm.",
+          "quote": "the Legislature, under 155(29), has exempted DHS from tort liability under the GTCA",
+          "url": "https://www.courtlistener.com/opinion/5345433/deal-v-brooks/",
+          "courtlistener_cluster_id": 5345433
+        },
+        {
+          "case_name": "T.D. v. Patton",
+          "citation": "868 F.3d 1209 (10th Cir. 2017)",
+          "court": "United States Court of Appeals for the Tenth Circuit",
+          "year": 2017,
+          "date_decided": "2017-08-28",
+          "holding": "The Tenth Circuit affirmed the denial of qualified immunity to a caseworker who recommended placing and keeping a child in his father's custody and failed to investigate mounting evidence that the father was abusing him, holding this violated clearly established state-created-danger law.",
+          "relevance": "T.D. v. Patton is the controlling danger-creation precedent for harm suffered by a child under agency supervision.",
+          "quote": "Ms. Patton's conduct violated T.D.'s clearly established substantive due process right under Currier to be free from state-created danger.",
+          "url": "https://www.courtlistener.com/opinion/4422214/td-v-patton/",
+          "courtlistener_cluster_id": 4422214
+        },
+        {
+          "case_name": "DeShaney v. Winnebago County Department of Social Services",
+          "citation": "489 U.S. 189 (1989)",
+          "court": "Supreme Court of the United States",
+          "year": 1989,
+          "date_decided": "1989-02-22",
+          "holding": "The Court held that a state child-protection agency that knew of and investigated abuse but left the child in his father's home did not violate the Due Process Clause, because the Clause imposes no affirmative duty to protect a person from private violence absent a custodial relationship.",
+          "relevance": "DeShaney and its custody and danger-creation exceptions define the entire federal liability landscape for harm to a supervised child.",
+          "quote": "nothing in the language of the Due Process Clause itself requires the State to protect the life, liberty, and property of its citizens against invasion by private actors",
+          "url": "https://www.courtlistener.com/opinion/112202/deshaney-v-winnebago-cty-dss/",
+          "courtlistener_cluster_id": 112202
+        },
+        {
+          "case_name": "Bosh v. Cherokee County Building Authority",
+          "citation": "2013 OK 9, 305 P.3d 994",
+          "court": "Supreme Court of Oklahoma",
+          "year": 2013,
+          "date_decided": "2013-02-12",
+          "holding": "Answering certified questions, the court held that Okla. Const. art. 2, section 30 supplies a private damages action for excessive force notwithstanding the Governmental Tort Claims Act, that the action applies retrospectively to cases then in the pipeline, and that respondeat superior governs municipal liability for it.",
+          "relevance": "Bosh is the trunk of the state constitutional damages theory that Deal v. Brooks grafted onto child-welfare facts, and no Deal argument is complete without it.",
+          "quote": "The Okla. Const. art 2, § 30 provides a private cause of action for excessive force, notwithstanding the limitations of the Oklahoma Governmental Tort Claims Act",
+          "url": "https://www.courtlistener.com/opinion/5328543/bosh-v-cherokee-county-building-authority/",
+          "courtlistener_cluster_id": 5328543
+        },
+        {
+          "case_name": "Barrios v. Haskell County Public Facilities Authority",
+          "citation": "2018 OK 90, 432 P.3d 233",
+          "court": "Supreme Court of Oklahoma",
+          "year": 2018,
+          "date_decided": "2018-12-04",
+          "holding": "Answering certified questions, the court declined to extend Bosh and held that because the Legislature amended the Governmental Tort Claims Act in 2014 to define constitutional violations as torts subject to the Act, article II sections 7 and 9 do not allow an inmate to sue the State for denial of medical care.",
+          "relevance": "Barrios is the Supreme Court's narrowing of Bosh and is essential to any honest assessment of whether Deal v. Brooks's state constitutional route to liability survives the 2014 GTCA amendments.",
+          "quote": "these \"constitutional\" torts are now clearly \"torts\" governed by the GTCA",
+          "url": "https://www.courtlistener.com/opinion/6657866/barrios-v-haskell-cnty-pub-facilities-auth/",
+          "courtlistener_cluster_id": 6657866
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Oklahoma%22%20AND%20%28%22Oklahoma%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Oklahoma Department of Human Services",
         "CPS",
@@ -99,149 +165,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Oklahoma%22%20AND%20%28%22Oklahoma%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "wrongful removal",
-        "1983 claim",
-        "civil rights",
-        "immunity",
-        "damages"
-      ],
-      "jurisdiction": "Oklahoma state courts",
-      "key_cases": [
-        {
-          "case_id": "2020-ok-61",
-          "title": "CREATION OF THE UNIFORM REPRESENTATION OF CHILDREN AND PARENTS IN CASES INVOLVING ABUSE AND NEGLECT OVERSIGHT COMMITTEE",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2020/2020-ok-61.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case 2020-ok-61 (2020)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: abuse/neglect"
-        },
-        {
-          "case_id": "scbd-8012",
-          "title": "IN RE: Rules of the Supreme Court for Mandatory Continuing Legal Education",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/scbd-8012.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case scbd-8012 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "122249",
-          "title": "IN THE MATTER OF THE ESTATE OF EVANS v. GREER",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/122249.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case 122249 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "scbd-7913",
-          "title": "IN THE MATTER OF THE REINSTATEMENT OF BRANDY KEARNEY CHAMBERS",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/scbd-7913.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case scbd-7913 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "2025-ok-83",
-          "title": "In Re: Rules of the Supreme Court of the State of Oklahoma on Legal Internship",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/2025-ok-83.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case 2025-ok-83 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "121662",
-          "title": "In the Matter of the Estate of Hill v. Hill",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/121662.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case 121662 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "scbd-7792",
-          "title": "IN THE MATTER OF THE REINSTATEMENT OF CAREY",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/scbd-7792.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case scbd-7792 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "2025-ok-70",
-          "title": "In re: Amendments to Rule 24-Voluntary Retired Certificate Status and Inactive Status of the Rules of the State Board of Examiners of Certified Shorthand Reporters",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/2025-ok-70.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case 2025-ok-70 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "123007",
-          "title": "IN RE INITIATIVE PETITION NO. 448, STATE QUESTION NO. 836: THE OKLAHOMA REPUBLICAN PARTY v. SETTER",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/123007.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case 123007 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "123375",
-          "title": "IN THE MATTER OF THE DISCIPLINARY PROCEEDING CONCERNING MUELLER",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/123375.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case 123375 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

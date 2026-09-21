@@ -79,6 +79,48 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "New Hampshire state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "Union Leader Corp. v. N.H. Dep't of Safety",
+          "citation": "2024 N.H. 35",
+          "court": "Supreme Court of New Hampshire",
+          "year": 2024,
+          "date_decided": "2024-07-03",
+          "holding": "The court reversed the dismissal of a Right-to-Know suit for State Police records of the response to the Sununu Youth Services Center, clarifying that juvenile confidentiality under RSA 169-B:35 reaches records held by non-court agencies only to the extent disclosure would run counter to the purpose of rehabilitating delinquent minors, and remanded for that determination and for consideration of redaction.",
+          "relevance": "This is the controlling New Hampshire authority limiting an agency's ability to withhold records wholesale by invoking juvenile confidentiality.",
+          "quote": "This refinement effectuates the juvenile delinquency statutes’ purpose of rehabilitating delinquent minors while also ensuring “the greatest possible public access to the actions, discussions and records of all public bodies.”",
+          "url": "https://www.courtlistener.com/opinion/10271805/union-leader-corp-v-nh-dept-of-safety/",
+          "courtlistener_cluster_id": 10271805
+        },
+        {
+          "case_name": "Petition of K.S.",
+          "citation": "2024 N.H. 62",
+          "court": "Supreme Court of New Hampshire",
+          "year": 2024,
+          "date_decided": "2024-11-08",
+          "holding": "On certiorari brought by the child herself, the court held that approving her placement in a residential treatment program without first holding an evidentiary hearing did not violate due process, that several placement challenges were moot, and that the circuit court did not err in denying her requests for records disclosure to her grandmother, placement with her father, or changes to the dispositional order.",
+          "relevance": "The court considered, and rejected, the youth's claim that she was denied statutorily and constitutionally required access to information about her own case and permanency options.",
+          "quote": "we hold that the court’s approval of K.S.’s placement in an institutional setting without holding an evidentiary hearing did not violate K.S.’s right to due process",
+          "url": "https://www.courtlistener.com/opinion/10266977/petition-of-ks/",
+          "courtlistener_cluster_id": 10266977
+        },
+        {
+          "case_name": "Petition of Bagley",
+          "citation": "128 N.H. 275, 513 A.2d 331 (1986)",
+          "court": "Supreme Court of New Hampshire",
+          "year": 1986,
+          "date_decided": "1986-07-09",
+          "holding": "The court held that when the division finds a report of abuse or neglect 'founded' and records that determination in the central registry it adjudicates the subject's status and must, under Part I, Article 15 of the State Constitution, give written notice of the determination, its reasons, the identification of the named perpetrator, and the rights of access and administrative challenge; the division's notice here was constitutionally inadequate.",
+          "relevance": "The court directed that the subject be told of his right of access to the information the division stores about him, making agency non-disclosure a due process failure.",
+          "quote": "We hold that the notification procedures employed by the division did not afford the Bagleys the protections required by part I, article 15 of the New Hampshire Constitution",
+          "url": "https://www.courtlistener.com/opinion/8090044/in-re-bagley/",
+          "courtlistener_cluster_id": 8090044
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22New%20Hampshire%22%20AND%20%28%22New%20Hampshire%20Division%20for%20Children%20Youth%20and%20Families%22%20OR%20%22DCYF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "New Hampshire Division for Children Youth and Families",
         "DCYF",
@@ -90,149 +132,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22New%20Hampshire%22%20AND%20%28%22New%20Hampshire%20Division%20for%20Children%20Youth%20and%20Families%22%20OR%20%22DCYF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "wrongful removal",
-        "1983 claim",
-        "civil rights",
-        "immunity",
-        "damages"
-      ],
-      "jurisdiction": "New Hampshire state courts",
-      "key_cases": [
-        {
-          "case_id": "2025-0068",
-          "title": "In re G.W.",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2025/2025-0068.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2025-0068 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "2024-0180",
-          "title": "Doe v. Concord Police Department",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2025/2024-0180.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2024-0180 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        },
-        {
-          "case_id": "2024-0467",
-          "title": "In re Guardianship of K.S.",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2025/2024-0467.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2024-0467 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "2024-0686",
-          "title": "In re K.O.",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2025/2024-0686.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2024-0686 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "2024-0051",
-          "title": "In the Matter of LeGault & LeGault",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2025/2024-0051.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2024-0051 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "2024-0680",
-          "title": "In re Guardianship of K.C.",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2025/2024-0680.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2024-0680 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "2023-0678",
-          "title": "In the Matter of Penichet and Corroon",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2025/2023-0678.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2023-0678 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "2024-0092",
-          "title": "In re M.T.",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2025/2024-0092.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2024-0092 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "2024-0287",
-          "title": "In re J.M.",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2024/2024-0287.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2024-0287 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "2023-0297",
-          "title": "In the Matter of Nadeau & Nadeau",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2024/2023-0297.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2023-0297 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

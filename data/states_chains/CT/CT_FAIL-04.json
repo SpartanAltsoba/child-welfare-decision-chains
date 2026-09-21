@@ -68,6 +68,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Connecticut state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "DeShaney v. Winnebago County Department of Social Services",
+          "citation": "489 U.S. 189 (1989)",
+          "court": "Supreme Court of the United States",
+          "year": 1989,
+          "date_decided": "1989-02-22",
+          "holding": "The Court held that the Due Process Clause imposes no affirmative constitutional duty on a State to protect a child from private violence of which its caseworkers were aware, absent a custodial relationship the State itself created, and affirmed judgment for the county after the child was beaten into permanent brain damage.",
+          "relevance": "This is the controlling federal limit on failure-to-protect liability when a child is harmed after the agency received and recorded reports.",
+          "quote": "As a general matter, then, we conclude that a State's failure to protect an individual against private violence simply does not constitute a violation of the Due Process Clause.",
+          "url": "https://www.courtlistener.com/opinion/112202/deshaney-v-winnebago-cty-dss/",
+          "courtlistener_cluster_id": 112202
+        },
+        {
+          "case_name": "Ward v. Greene",
+          "citation": "267 Conn. 539, 839 A.2d 1259 (2004)",
+          "court": "Supreme Court of Connecticut",
+          "year": 2004,
+          "date_decided": "2004-02-03",
+          "holding": "The court held that § 17a-101 protects only the child who is or should have been the subject of a mandated report, so no duty of care was owed to a different child later killed by the same caregiver.",
+          "relevance": "It is the leading Connecticut decision rejecting a duty of care running from the reporting scheme to children other than the reported child.",
+          "quote": "the defendant did not owe a duty of care to McBride because she was not within the class of persons protected by § 17a-101",
+          "url": "https://www.courtlistener.com/opinion/7900096/ward-v-greene/",
+          "courtlistener_cluster_id": 7900096
+        },
+        {
+          "case_name": "Teresa T. v. Ragaglia",
+          "citation": "272 Conn. 734, 865 A.2d 428 (2005)",
+          "court": "Supreme Court of Connecticut",
+          "year": 2005,
+          "date_decided": "2005-02-08",
+          "holding": "Answering certified questions from the federal District Court in a suit by children who were left in an abusive home, the court held that § 17a-101g (c) is directory rather than mandatory, so that on probable cause of imminent risk of physical harm the commissioner is authorized but not required to invoke a ninety-six hour hold and may instead choose among the other statutory protective remedies.",
+          "relevance": "The children were seriously harmed after the department declined to remove them, and this case forecloses the argument that the removal statute itself created a mandatory duty owed to them.",
+          "quote": "§ 17a-101g (c) does not require the commissioner to remove the child upon a finding of probable cause, but merely authorizes the commissioner to seek removal under such circumstances.",
+          "url": "https://www.courtlistener.com/opinion/7900548/teresa-t-v-ragaglia/",
+          "courtlistener_cluster_id": 7900548
+        },
+        {
+          "case_name": "Cornejo v. Bell",
+          "citation": "592 F.3d 121 (2d Cir. 2010)",
+          "court": "United States Court of Appeals for the Second Circuit",
+          "year": 2010,
+          "date_decided": "2010-01-04",
+          "holding": "The Second Circuit held that agency lawyers who initiate and prosecute child protective proceedings have absolute immunity but that caseworkers do not, being entitled only to qualified immunity for their investigative functions, and affirmed on immunity grounds.",
+          "relevance": "This is the governing circuit authority on liability of caseworkers and agency counsel after a child dies under agency supervision.",
+          "quote": "the district court was incorrect in its conclusion that the caseworker defendants were also entitled to absolute immunity",
+          "url": "https://www.courtlistener.com/opinion/1356186/cornejo-v-bell/",
+          "courtlistener_cluster_id": 1356186
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Connecticut%22%20AND%20%28%22Connecticut%20Department%20of%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Connecticut Department of Children and Families",
         "DCF",
@@ -79,149 +133,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Connecticut%22%20AND%20%28%22Connecticut%20Department%20of%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "wrongful removal",
-        "1983 claim",
-        "civil rights",
-        "immunity",
-        "damages"
-      ],
-      "jurisdiction": "Connecticut state courts",
-      "key_cases": [
-        {
-          "case_id": "sc21078",
-          "title": "In re Andrew C.",
-          "url": "https://law.justia.com/cases/connecticut/supreme-court/2025/sc21078.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Connecticut Supreme Court Case sc21078 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "sc21055-0",
-          "title": "In re Jewelyette M.",
-          "url": "https://law.justia.com/cases/connecticut/supreme-court/2025/sc21055-0.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Connecticut Supreme Court Case sc21055-0 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "sc21055-1",
-          "title": "In re Jewelyette M. (First Dissent)",
-          "url": "https://law.justia.com/cases/connecticut/supreme-court/2025/sc21055-1.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Connecticut Supreme Court Case sc21055-1 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "sc21055-2",
-          "title": "In re Jewelyette M. (Second Dissent)",
-          "url": "https://law.justia.com/cases/connecticut/supreme-court/2025/sc21055-2.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Connecticut Supreme Court Case sc21055-2 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "sc21055",
-          "title": "In re Jewelyette M.",
-          "url": "https://law.justia.com/cases/connecticut/supreme-court/2025/sc21055.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Connecticut Supreme Court Case sc21055 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "ac48128",
-          "title": "In re Probate Appeal of Barbera",
-          "url": "https://law.justia.com/cases/connecticut/court-of-appeals/2025/ac48128.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Connecticut Court Of Appeals Case ac48128 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "ac46481",
-          "title": "In re Austin C.",
-          "url": "https://law.justia.com/cases/connecticut/court-of-appeals/2025/ac46481.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Connecticut Court Of Appeals Case ac46481 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "ac46466",
-          "title": "Doe v. Lamb",
-          "url": "https://law.justia.com/cases/connecticut/court-of-appeals/2025/ac46466.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Connecticut Court Of Appeals Case ac46466 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        },
-        {
-          "case_id": "ac48293",
-          "title": "In re Ariella M.",
-          "url": "https://law.justia.com/cases/connecticut/court-of-appeals/2025/ac48293.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Connecticut Court Of Appeals Case ac48293 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "ac47269",
-          "title": "Doe v. Fasold",
-          "url": "https://law.justia.com/cases/connecticut/court-of-appeals/2025/ac47269.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Connecticut Court Of Appeals Case ac47269 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

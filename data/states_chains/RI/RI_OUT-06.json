@@ -88,6 +88,84 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Rhode Island state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "In re Kristopher J.",
+          "citation": "115 A.3d 965 (R.I. 2015)",
+          "court": "Supreme Court of Rhode Island",
+          "year": 2015,
+          "date_decided": "2015-05-28",
+          "holding": "Termination of the father's rights to his surviving son was affirmed on the cruel-or-abusive-conduct ground after clear and convincing evidence showed he was the sole caretaker when his five-week-old daughter sustained the fatal non-accidental injuries.",
+          "relevance": "This is the Rhode Island decision showing how a child fatality is used to terminate rights to a surviving sibling.",
+          "quote": "the statute dictates that \"the department has no obligation to engage in reasonable efforts to preserve and reunify a family.\"",
+          "url": "https://www.courtlistener.com/opinion/2823208/in-re-kristopher-j/",
+          "courtlistener_cluster_id": 2823208
+        },
+        {
+          "case_name": "J.R. v. Gloria",
+          "citation": "593 F.3d 73 (1st Cir. 2010)",
+          "court": "United States Court of Appeals for the First Circuit",
+          "year": 2010,
+          "date_decided": "2010-01-27",
+          "holding": "Rhode Island DCYF social workers were entitled to qualified immunity on substantive due process claims by twins abused in foster care because the evidence did not show conscience-shocking conduct, and Rhode Island sovereign and qualified immunity barred the state negligence claims.",
+          "relevance": "Serious injury to a child in DCYF foster care does not itself establish liability; the plaintiff must prove the workers knew of and ignored the danger.",
+          "quote": "state officials must have been at least aware of known or likely injuries or abuse and have chosen to ignore the danger to the child",
+          "url": "https://www.courtlistener.com/opinion/204155/jr-v-gloria/",
+          "courtlistener_cluster_id": 204155
+        },
+        {
+          "case_name": "DeShaney v. Winnebago County Department of Social Services",
+          "citation": "489 U.S. 189 (1989)",
+          "court": "Supreme Court of the United States",
+          "year": 1989,
+          "date_decided": "1989-02-22",
+          "holding": "The Due Process Clause imposes no affirmative duty on a child protection agency to protect a child from private violence, so the county's failure to remove Joshua DeShaney from his abusive father was not a constitutional deprivation.",
+          "relevance": "When a child dies or is seriously injured after DCYF had contact with the family but had not taken custody, DeShaney is the threshold obstacle to any federal damages claim.",
+          "quote": "But nothing in the language of the Due Process Clause itself requires the State to protect the life, liberty, and property of its citizens against invasion by private actors.",
+          "url": "https://www.courtlistener.com/opinion/112202/deshaney-v-winnebago-county-department-of-social-services/",
+          "courtlistener_cluster_id": 112202
+        },
+        {
+          "case_name": "In re Madlyn B.",
+          "citation": "187 A.3d 1105 (R.I. 2018)",
+          "court": "Supreme Court of Rhode Island",
+          "year": 2018,
+          "date_decided": "2018-06-28",
+          "holding": "Abuse and neglect findings were affirmed on medical evidence of fourteen non-accidental fractures, and the mother's Fourteenth Amendment challenge to DCYF's seventy-two-hour hold was not preserved because the parents waived the Rule 15(c)(5) probable-cause hearing.",
+          "relevance": "Serious non-accidental injury to an infant is the fact pattern that drives both the hold and the adjudication here.",
+          "quote": "Therefore, we conclude that Kimberly's challenge to the temporary hold on the children was not preserved for appeal.",
+          "url": "https://www.courtlistener.com/opinion/4512166/in-re-madlyn-bin-re-luke-b/",
+          "courtlistener_cluster_id": 4512166
+        },
+        {
+          "case_name": "In Re Jazlyn P.",
+          "citation": "31 A.3d 1273 (R.I. 2011)",
+          "court": "Supreme Court of Rhode Island",
+          "year": 2011,
+          "date_decided": "2011-12-09",
+          "holding": "Termination of the father's rights to Jazlyn was affirmed on the cruel-or-abusive-conduct ground, the Court holding that abuse of another child in the household, together with medical evidence of inflicted injury to Jazlyn, supported the finding.",
+          "relevance": "It is the Rhode Island decision establishing that catastrophic harm to one child in a household is the evidentiary foundation for protective action as to a surviving sibling.",
+          "quote": "cruel or abusive conduct towards one child in a household can serve as a basis for terminating a parent's rights with respect to another child in the household",
+          "url": "https://www.courtlistener.com/opinion/2318602/in-re-jazlyn-p/",
+          "courtlistener_cluster_id": 2318602
+        },
+        {
+          "case_name": "Rivera v. Rhode Island",
+          "citation": "402 F.3d 27 (1st Cir. 2005)",
+          "court": "United States Court of Appeals for the First Circuit",
+          "year": 2005,
+          "date_decided": "2005-03-22",
+          "holding": "Dismissal of the section 1983 claims arising from the murder of a teenage state witness in Providence was affirmed because the state's unkept promises of protection did not deprive her of liberty, so neither the special-relationship nor the state-created-danger theory removed the case from DeShaney.",
+          "relevance": "When a child or youth is harmed after state actors knew of the danger but never took custody, Rivera is the decision that forecloses the damages claim absent a genuine deprivation of liberty.",
+          "quote": "Merely alleging state actions which render the individual more vulnerable to harm, under a theory of state created danger, cannot be used as an end run around DeShaney's core holding.",
+          "url": "https://www.courtlistener.com/opinion/201493/rivera-v-rhode-island/",
+          "courtlistener_cluster_id": 201493
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Rhode%20Island%22%20AND%20%28%22Rhode%20Island%20Department%20of%20Children%20Youth%20%26%20Families%22%20OR%20%22DCYF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Rhode Island Department of Children Youth & Families",
         "DCYF",
@@ -99,149 +177,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Rhode%20Island%22%20AND%20%28%22Rhode%20Island%20Department%20of%20Children%20Youth%20%26%20Families%22%20OR%20%22DCYF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "termination of parental rights",
-        "TPR",
-        "adoption",
-        "permanency",
-        "aging out"
-      ],
-      "jurisdiction": "Rhode Island state courts",
-      "key_cases": [
-        {
-          "case_id": "23-57",
-          "title": "In re J.R.; In re E.R.; In re A.R.; In re D.R",
-          "url": "https://law.justia.com/cases/rhode-island/supreme-court/2025/23-57.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Rhode Island Supreme Court Case 23-57 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "23-224",
-          "title": "In re N.O.",
-          "url": "https://law.justia.com/cases/rhode-island/supreme-court/2025/23-224.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Rhode Island Supreme Court Case 23-224 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "23-115",
-          "title": "In re CVS Health Corporation Securities Litigation",
-          "url": "https://law.justia.com/cases/rhode-island/supreme-court/2025/23-115.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Rhode Island Supreme Court Case 23-115 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "22-142",
-          "title": "In re B.M.",
-          "url": "https://law.justia.com/cases/rhode-island/supreme-court/2024/22-142.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Rhode Island Supreme Court Case 22-142 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "22-226",
-          "title": "In re A.N.",
-          "url": "https://law.justia.com/cases/rhode-island/supreme-court/2024/22-226.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Rhode Island Supreme Court Case 22-226 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "22-302",
-          "title": "In re C.R.",
-          "url": "https://law.justia.com/cases/rhode-island/supreme-court/2024/22-302.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Rhode Island Supreme Court Case 22-302 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "22-59",
-          "title": "In re N.D.",
-          "url": "https://law.justia.com/cases/rhode-island/supreme-court/2024/22-59.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Rhode Island Supreme Court Case 22-59 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "22-75",
-          "title": "In re N.B.",
-          "url": "https://law.justia.com/cases/rhode-island/supreme-court/2024/22-75.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Rhode Island Supreme Court Case 22-75 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "22-355",
-          "title": "In re Da Cruz",
-          "url": "https://law.justia.com/cases/rhode-island/supreme-court/2024/22-355.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Rhode Island Supreme Court Case 22-355 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "22-77",
-          "title": "In re R.M.",
-          "url": "https://law.justia.com/cases/rhode-island/supreme-court/2023/22-77.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Rhode Island Supreme Court Case 22-77 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

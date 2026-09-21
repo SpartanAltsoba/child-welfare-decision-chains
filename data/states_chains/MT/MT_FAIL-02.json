@@ -141,6 +141,84 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Montana state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Rogers v. County of San Joaquin",
+          "citation": "487 F.3d 1288 (9th Cir. 2007)",
+          "court": "United States Court of Appeals for the Ninth Circuit",
+          "year": 2007,
+          "date_decided": "2007-05-29",
+          "holding": "A social worker who removed children without a warrant violated the Fourth and Fourteenth Amendments where unsanitary home conditions, malnourishment and a child being locked in her room at night did not establish reasonable cause to believe the children faced serious bodily harm in the time it would take to obtain a warrant; reliance on factors closely tied to economic status would border on the unconstitutional.",
+          "relevance": "It is the leading Ninth Circuit decision defining an unlawful warrantless removal and is the standard by which a Montana § 1983 wrongful-removal claim is measured.",
+          "quote": "Thus, we hold that, under any view of the facts, the Rogerses' Fourth and Fourteenth Amendment rights were violated when Royal removed the children without a warrant.",
+          "url": "https://www.courtlistener.com/opinion/797914/rogers-v-county-of-san-joaquin/",
+          "courtlistener_cluster_id": 797914
+        },
+        {
+          "case_name": "Kirkpatrick v. County of Washoe",
+          "citation": "843 F.3d 784 (9th Cir. 2016) (en banc)",
+          "court": "United States Court of Appeals for the Ninth Circuit",
+          "year": 2016,
+          "date_decided": "2016-12-09",
+          "holding": "Social workers who took a two-day-old from her mother in a hospital maternity ward without a warrant should have obtained one, but were entitled to qualified immunity because that obligation was not clearly established; summary judgment was reversed on the Monell claim because there was evidence the county maintained a policy of seizing children without warrants in non-exigent circumstances.",
+          "relevance": "It is the Ninth Circuit's most authoritative recent treatment of warrantless removal, including municipal liability where an agency's ordinary practice is to remove without warrants.",
+          "quote": "the social workers here lacked cause to forgo a warrant if they had adequate time to pursue one through the ordinary judicial process without risking B.W.'s well-being",
+          "url": "https://www.courtlistener.com/opinion/4328788/jamie-kirkpatrick-v-county-of-washoe/",
+          "courtlistener_cluster_id": 4328788
+        },
+        {
+          "case_name": "Keates v. Koile",
+          "citation": "883 F.3d 1228 (9th Cir. 2018)",
+          "court": "United States Court of Appeals for the Ninth Circuit",
+          "year": 2018,
+          "date_decided": "2018-03-06",
+          "holding": "Dismissal of a mother's and daughter's familial-association claims on qualified immunity was reversed: taking a child from her mother at a hospital and continuing to detain her at a treatment center after professionals concluded she was a low suicide risk required reasonable cause to believe she faced imminent danger, and concern about the mother's lack of health insurance did not supply it.",
+          "relevance": "It is a recent, published circuit decision denying qualified immunity for a removal without a court order, directly applicable to Montana § 1983 claims.",
+          "quote": "Lack of health insurance, by contrast, does not provide a reasonable cause to believe a child is in imminent danger.",
+          "url": "https://www.courtlistener.com/opinion/4474827/ellen-keates-v-michael-koile/",
+          "courtlistener_cluster_id": 4474827
+        },
+        {
+          "case_name": "Calabretta v. Floyd",
+          "citation": "189 F.3d 808 (9th Cir. 1999)",
+          "court": "United States Court of Appeals for the Ninth Circuit",
+          "year": 1999,
+          "date_decided": "1999-08-26",
+          "holding": "A social worker and a police officer who coerced entry into a family home to investigate an anonymous abuse report, without a warrant, consent or exigency, and who had a child's clothing removed for a visual inspection, were not entitled to qualified immunity; the administrative-search doctrine does not exempt child-protection home entries.",
+          "relevance": "It is binding Ninth Circuit law for Montana that child-protection workers need a warrant, consent or exigency to enter a home, and § 1983 liability follows when they do not.",
+          "quote": "Under White, appellants' claim, that “a search warrant is not required for home investigatory visits by social workers,” is simply not the law.",
+          "url": "https://www.courtlistener.com/opinion/7078750/calabretta-v-floyd/",
+          "courtlistener_cluster_id": 7078750
+        },
+        {
+          "case_name": "DeShaney v. Winnebago County Department of Social Services",
+          "citation": "489 U.S. 189 (1989)",
+          "court": "Supreme Court of the United States",
+          "year": 1989,
+          "date_decided": "1989-02-22",
+          "holding": "The Due Process Clause imposes no affirmative constitutional obligation on a state child-protection agency to protect a child from violence by a private actor, even where the agency knew of the danger and had intervened before, so the county was not liable under § 1983 for failing to remove the child.",
+          "relevance": "It draws the line this dataset must respect: § 1983 liability attaches to what the State does (removal, seizure), not to what it fails to do.",
+          "quote": "As a general matter, then, we conclude that a State's failure to protect an individual against private violence simply does not constitute a violation of the Due Process Clause.",
+          "url": "https://www.courtlistener.com/opinion/112202/deshaney-v-winnebago-county-department-of-social-services/",
+          "courtlistener_cluster_id": 112202
+        },
+        {
+          "case_name": "Mabe v. San Bernardino County",
+          "citation": "237 F.3d 1101 (9th Cir. 2001)",
+          "court": "United States Court of Appeals for the Ninth Circuit",
+          "year": 2001,
+          "date_decided": "2001-01-24",
+          "holding": "Summary judgment for the investigating social worker was reversed and remanded for trial: government officials must obtain prior judicial authorization before removing a child unless the information they hold at the time gives reasonable cause to believe the child is in imminent danger of serious bodily injury, and whether that exigency existed here was a disputed question of fact for the jury.",
+          "relevance": "It confirms that a caseworker who removes a child without a warrant loses qualified immunity if a reasonable jury could find the child faced no immediate threat of serious physical injury.",
+          "quote": "viewing the exigency evidence in the light most favorable to Mabe, a reasonable jury could conclude that Mabe's constitutional rights were violated by Perry's warrantless removal of MD",
+          "url": "https://www.courtlistener.com/opinion/771798/mabe-v-san-bernardino-county/",
+          "courtlistener_cluster_id": 771798
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Montana%22%20AND%20%28%22Montana%20Department%20of%20Public%20Health%20and%20Human%20Services%22%20OR%20%22DPHHS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Montana Department of Public Health and Human Services",
         "DPHHS",
@@ -152,149 +230,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Montana%22%20AND%20%28%22Montana%20Department%20of%20Public%20Health%20and%20Human%20Services%22%20OR%20%22DPHHS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "wrongful removal",
-        "1983 claim",
-        "civil rights",
-        "immunity",
-        "damages"
-      ],
-      "jurisdiction": "Montana state courts",
-      "key_cases": [
-        {
-          "case_id": "da-25-0077",
-          "title": "In re Marriage of Steinbeisser",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0077.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-25-0077 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "da-25-0386",
-          "title": "Matter of K.H. & D.H., YINC",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0386.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-25-0386 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of initials"
-        },
-        {
-          "case_id": "da-25-0073",
-          "title": "Matter of J.D.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0073.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-25-0073 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of initials"
-        },
-        {
-          "case_id": "da-25-0146",
-          "title": "In re C.M.B.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0146.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-25-0146 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "da-25-0273",
-          "title": "In re Parenting of A.M.B.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0273.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-25-0273 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "da-25-0341",
-          "title": "In re Estate of Damjanovich",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0341.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-25-0341 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "da-24-0148",
-          "title": "In re J.L.O.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-24-0148.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-24-0148 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "da-24-0187",
-          "title": "In re P.G.J.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-24-0187.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-24-0187 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "da-24-0469",
-          "title": "In re Potter Exemption Trust",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-24-0469.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-24-0469 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "da-22-0645",
-          "title": "In re T.W.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-22-0645.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-22-0645 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

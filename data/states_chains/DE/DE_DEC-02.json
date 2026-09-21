@@ -155,6 +155,72 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Delaware state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Croft v. Westmoreland County Children and Youth Services",
+          "citation": "103 F.3d 1123 (3d Cir. 1997)",
+          "court": "United States Court of Appeals for the Third Circuit",
+          "year": 1997,
+          "date_decided": "1997-01-06",
+          "holding": "The Third Circuit reversed summary judgment for the caseworker, holding that a caseworker who lacked objectively reasonable grounds to believe a child had been abused or was in imminent danger violated the family's Fourteenth Amendment liberty interest by forcing the father to leave the home under threat of removal.",
+          "relevance": "Frames the investigative decision as measured objectively against what the caseworker knew when she acted.",
+          "quote": "Even considered together, minor inconsistencies which provide no affirmative evidence of sexual abuse cannot alone establish the objectively reasonable grounds necessary to remove a family member from the family unit.",
+          "url": "https://www.courtlistener.com/opinion/732428/croft-v-westmoreland-county-children-and-youth-services/",
+          "courtlistener_cluster_id": 732428
+        },
+        {
+          "case_name": "Good v. Dauphin County Social Services For Children And Youth",
+          "citation": "891 F.2d 1087 (3d Cir. 1989)",
+          "court": "United States Court of Appeals for the Third Circuit",
+          "year": 1989,
+          "date_decided": "1989-12-15",
+          "holding": "The Third Circuit held that a state child-protective-services immunity statute cannot shield defendants from federal claims, and that a warrantless entry into a home and strip search of a child by a caseworker and police required either freely given consent or exigent circumstances, precluding summary judgment.",
+          "relevance": "Defines the Fourth Amendment limits on how a child-abuse investigation may be conducted.",
+          "quote": "We conclude that: 1) Pennsylvania's Child Protective Services Law cannot immunize defendants from a suit alleging a violation of a federal law",
+          "url": "https://www.courtlistener.com/opinion/533797/good-v-dauphin-county-social-services-for-children-and-youth/",
+          "courtlistener_cluster_id": 533797
+        },
+        {
+          "case_name": "Miller v. City of Philadelphia",
+          "citation": "174 F.3d 368 (3d Cir. 1999)",
+          "court": "United States Court of Appeals for the Third Circuit",
+          "year": 1999,
+          "date_decided": "1999-04-26",
+          "holding": "The Third Circuit affirmed judgment for the child-welfare caseworker, holding that a substantive due process claim arising from a child-welfare intervention requires executive conduct that shocks the conscience, a standard that negligence cannot meet.",
+          "relevance": "Establishes that an imperfect or negligent investigation is not by itself a constitutional violation.",
+          "quote": "Critically, under this standard, officials will not be held liable for actions that are merely negligent.",
+          "url": "https://www.courtlistener.com/opinion/763470/miller-v-city-of-philadelphia/",
+          "courtlistener_cluster_id": 763470
+        },
+        {
+          "case_name": "Ernst v. Child and Youth Services of Chester County",
+          "citation": "108 F.3d 486 (3d Cir. 1997)",
+          "court": "United States Court of Appeals for the Third Circuit",
+          "year": 1997,
+          "date_decided": "1997-03-12",
+          "holding": "Affirming judgment for the agency defendants on the alternative ground of immunity and reversing the judgment entered against the agency's attorney, the Third Circuit held as a matter of first impression that child-welfare workers and counsel representing child-welfare agencies are absolutely immune from section 1983 damages for actions taken in preparing for, initiating and prosecuting dependency proceedings, including formulating and presenting recommendations to the court.",
+          "relevance": "Draws the line between investigative conduct, which carries only qualified immunity, and quasi-prosecutorial case-building, which is absolutely immune from damages.",
+          "quote": "we hold that the CYS defendants are entitled to absolute immunity for their actions on behalf of the state in preparing for, initiating, and prosecuting dependency proceedings",
+          "url": "https://www.courtlistener.com/opinion/737406/sylvia-ernst-in-no-93-1929-v-child-and-youth-services-of-chester-county/",
+          "courtlistener_cluster_id": 737406
+        },
+        {
+          "case_name": "Mulholland v. Government County of Berks",
+          "citation": "706 F.3d 227 (3d Cir. 2013)",
+          "court": "United States Court of Appeals for the Third Circuit",
+          "year": 2013,
+          "date_decided": "2013-01-28",
+          "holding": "Affirming judgment for the county, the Third Circuit held that the statutory notice, amendment and expungement procedure available to a person listed as an indicated perpetrator on the state child-abuse registry satisfies procedural due process, so the county agency's policy of not forwarding later exculpatory information to the registry was not unconstitutional, and a single caseworker's lapse could not establish municipal liability.",
+          "relevance": "Holds that an allegedly desultory abuse investigation supports no municipal claim absent an agency policy or custom of conducting inadequate investigations.",
+          "quote": "the process provided by the CPSL allows a subject of a report of child abuse the opportunity to air new information at a meaningful time and in a meaningful manner",
+          "url": "https://www.courtlistener.com/opinion/816127/randy-mulholland-v-government-county-of-berks/",
+          "courtlistener_cluster_id": 816127
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Delaware%22%20AND%20%28%22Delaware%20Division%20of%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Delaware Division of Family Services",
         "CPS",
@@ -166,149 +232,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Delaware%22%20AND%20%28%22Delaware%20Division%20of%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "investigation",
-        "substantiation",
-        "evidence standard",
-        "due process",
-        "reasonable efforts"
-      ],
-      "jurisdiction": "Delaware state courts",
-      "key_cases": [
-        {
-          "case_id": "292-2022",
-          "title": "Kline v. Delaware Division of Family Services",
-          "url": "https://law.justia.com/cases/delaware/supreme-court/2023/292-2022.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Delaware Supreme Court Case 292-2022 (2023)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "delaware division of family services"
-          ],
-          "child_welfare_reason": "High: Family Services"
-        },
-        {
-          "case_id": "213-2025",
-          "title": "Roy Harris v. DSCYF TPR",
-          "url": "https://law.justia.com/cases/delaware/supreme-court/2025/213-2025.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Delaware Supreme Court Case 213-2025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: TPR"
-        },
-        {
-          "case_id": "534-2024-10-11-and-12-2025",
-          "title": "In re Tesla, Inc. Derivative Litigation",
-          "url": "https://law.justia.com/cases/delaware/supreme-court/2025/534-2024-10-11-and-12-2025.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Delaware Supreme Court Case 534-2024-10-11-and-12-2025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "306-2025",
-          "title": "Martin Schnell v. DSCYF TPR",
-          "url": "https://law.justia.com/cases/delaware/supreme-court/2025/306-2025.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Delaware Supreme Court Case 306-2025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: TPR"
-        },
-        {
-          "case_id": "307-2025",
-          "title": "Shelby Davis v. DSCYF TPR",
-          "url": "https://law.justia.com/cases/delaware/supreme-court/2025/307-2025.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Delaware Supreme Court Case 307-2025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: TPR"
-        },
-        {
-          "case_id": "19-2025",
-          "title": "In re Straight Path Communications Inc. Stockholder Litigation",
-          "url": "https://law.justia.com/cases/delaware/supreme-court/2025/19-2025.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Delaware Supreme Court Case 19-2025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "114-2025",
-          "title": "In re The Trade Desk, Inc. Derivative Action",
-          "url": "https://law.justia.com/cases/delaware/supreme-court/2025/114-2025.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Delaware Supreme Court Case 114-2025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "242-2025",
-          "title": "Storm v. DSCYF TPR",
-          "url": "https://law.justia.com/cases/delaware/supreme-court/2025/242-2025.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Delaware Supreme Court Case 242-2025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: TPR"
-        },
-        {
-          "case_id": "397-2025",
-          "title": "In re Kostyshyn 634 Governor Circle",
-          "url": "https://law.justia.com/cases/delaware/supreme-court/2025/397-2025.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Delaware Supreme Court Case 397-2025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "189-2025",
-          "title": "Ross v. DSCYF/DFS",
-          "url": "https://law.justia.com/cases/delaware/supreme-court/2025/189-2025.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Delaware Supreme Court Case 189-2025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: DFS"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

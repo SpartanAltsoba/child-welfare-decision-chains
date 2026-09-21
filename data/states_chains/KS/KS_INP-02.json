@@ -79,6 +79,48 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Kansas state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "T.H. v. University of Kansas Hospital Authority",
+          "citation": "53 Kan. App. 2d 332, 388 P.3d 181 (2017)",
+          "court": "Court of Appeals of Kansas",
+          "year": 2017,
+          "date_decided": "2017-01-06",
+          "holding": "The court affirmed dismissal of a malpractice suit against a physician who reported suspected sexual abuse, holding that K.S.A. 38-2223(f) immunizes reporters who negligently misdiagnose abuse and that the immunity is lost only if the plaintiff pleads facts supporting actual malice, meaning a specific intent to injure.",
+          "relevance": "The statutory immunity runs to 'anyone' who reports without malice, so voluntary reporters enjoy the same protection the court applied here.",
+          "quote": "In sum, we find that K.S.A. 2015 Supp. 38-2223(f) provides immunity to doctors who negligently misdiagnose child abuse",
+          "url": "https://www.courtlistener.com/opinion/4336421/th-and-cc-v-university-of-kansas-hosp-auth/",
+          "courtlistener_cluster_id": 4336421
+        },
+        {
+          "case_name": "Beebe v. Fraktman",
+          "citation": "22 Kan. App. 2d 493, 921 P.2d 216 (1996)",
+          "court": "Court of Appeals of Kansas",
+          "year": 1996,
+          "date_decided": "1996-05-24",
+          "holding": "The court affirmed summary judgment for SRS workers sued for a negligent child abuse investigation preceding a child's death, holding that the reporting and investigation statute creates only a duty to the public at large and that the decision whether to open a file for further investigation is a discretionary function immune under the Kansas Tort Claims Act.",
+          "relevance": "A reporter who is told the agency will follow up cannot convert that assurance into a special duty running to the child.",
+          "quote": "The decision whether to open a file for further investigation is a discretionary function",
+          "url": "https://www.courtlistener.com/opinion/1119423/beebe-v-fraktman/",
+          "courtlistener_cluster_id": 1119423
+        },
+        {
+          "case_name": "Halley v. Huckaby",
+          "citation": "902 F.3d 1136 (10th Cir. 2018)",
+          "court": "United States Court of Appeals for the Tenth Circuit",
+          "year": 2018,
+          "date_decided": "2018-08-27",
+          "holding": "In a case beginning with an anonymous hotline call, the court affirmed the denial of qualified immunity to the child welfare specialist and the officer who directed a six-year-old's seizure and transport from school for questioning, while reversing as to the officer who merely transported the child and as to the Fourteenth Amendment familial association claim.",
+          "relevance": "A third-party report is the lawful starting point for agency action, but it does not by itself supply the individualized justification a seizure requires.",
+          "quote": "The district court correctly determined that two of the three defendants were not entitled to qualified immunity on the Fourth Amendment unlawful seizure claim",
+          "url": "https://www.courtlistener.com/opinion/4530346/halley-v-huckaby/",
+          "courtlistener_cluster_id": 4530346
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Kansas%22%20AND%20%28%22Kansas%20Department%20for%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Kansas Department for Children and Families",
         "DCF",
@@ -90,148 +132,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Kansas%22%20AND%20%28%22Kansas%20Department%20for%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "mandatory reporting",
-        "failure to report",
-        "reporter immunity",
-        "hotline"
-      ],
-      "jurisdiction": "Kansas state courts",
-      "key_cases": [
-        {
-          "case_id": "119012",
-          "title": "In re Mason",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/119012.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 119012 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "129013",
-          "title": "In re Wagle",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/129013.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 129013 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "20346",
-          "title": "In re Holmes",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/20346.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 20346 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "13805",
-          "title": "In re Peterson, II",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/13805.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 13805 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "118723",
-          "title": "In re Sullivan",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/118723.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 118723 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "125499",
-          "title": "In re McVey",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/125499.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 125499 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "127835",
-          "title": "In re Valdez",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/127835.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 127835 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "124395",
-          "title": "In re Martinez",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/124395.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 124395 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "125968",
-          "title": "In re Barnds",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/125968.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 125968 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "126718",
-          "title": "In re K.W.D.",
-          "url": "https://law.justia.com/cases/kansas/supreme-court/2025/126718.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Kansas Supreme Court Case 126718 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

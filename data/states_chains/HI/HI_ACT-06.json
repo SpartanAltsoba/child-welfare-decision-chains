@@ -120,6 +120,48 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Hawaii state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Mann v. County of San Diego",
+          "citation": "907 F.3d 1154 (9th Cir. 2018)",
+          "court": "United States Court of Appeals for the Ninth Circuit",
+          "year": 2018,
+          "date_decided": "2018-10-31",
+          "holding": "The court held that the County violated parents' Fourteenth Amendment rights by subjecting removed children to invasive medical examinations without notifying the parents and without either parental consent or judicial authorization, absent a medical emergency or risk that evidence would dissipate.",
+          "relevance": "It marks the boundary between genuinely emergent medical care, which may proceed, and investigatory examinations, which may not.",
+          "quote": "the County is required to notify the parents and obtain parental consent (or a court order) in advance of performing the Polinsky medical examinations",
+          "url": "https://www.courtlistener.com/opinion/4548912/mark-mann-v-county-of-san-diego/",
+          "courtlistener_cluster_id": 4548912
+        },
+        {
+          "case_name": "In the Interest of Doe",
+          "citation": "96 Haw. 272, 30 P.3d 878 (2001)",
+          "court": "Supreme Court of Hawai'i",
+          "year": 2001,
+          "date_decided": "2001-08-30",
+          "holding": "The court held that the family court lacked jurisdiction to order the Department of Health to fund services where IDEA remedies were unexhausted, but that the child's status as a ward of the State created an independent state-law basis obligating the State, with DHS ultimately accountable, to pay for his mental health services.",
+          "relevance": "It is the Hawai'i authority obligating the State to pay for a ward's psychological and mental health care.",
+          "quote": "we hold that the family court correctly concluded that an independent state basis exists under which John is entitled to receive payment for the mental health services",
+          "url": "https://www.courtlistener.com/opinion/2622598/in-the-interest-of-doe/",
+          "courtlistener_cluster_id": 2622598
+        },
+        {
+          "case_name": "Kaho'ohanohano ex rel. Morales-Kaho'ohanohano v. Department of Human Services",
+          "citation": "117 Haw. 262, 178 P.3d 538 (2008)",
+          "court": "Supreme Court of Hawai'i",
+          "year": 2008,
+          "date_decided": "2008-03-20",
+          "holding": "The court affirmed a negligence judgment against DHS, holding that once DHS receives a report of suspected child abuse, HRS chapter 587 and its implementing rules create a special relationship and an affirmative legal duty to investigate reasonably and to protect the reported child from further harm.",
+          "relevance": "DHS's duty encompassed obtaining protective action for a child already medically documented as injured, informing decisions to secure emergency care.",
+          "quote": "Accordingly, we conclude that DHS had a duty to protect Minor under the circumstances of this case.",
+          "url": "https://www.courtlistener.com/opinion/6615449/kahoohanohano-ex-rel-morales-kahoohanohano-v-department-of-human/",
+          "courtlistener_cluster_id": 6615449
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Hawaii%22%20AND%20%28%22Hawaii%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Hawaii Department of Human Services",
         "CPS",
@@ -131,149 +173,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Hawaii%22%20AND%20%28%22Hawaii%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "removal",
-        "emergency custody",
-        "placement",
-        "reunification",
-        "services"
-      ],
-      "jurisdiction": "Hawaii state courts",
-      "key_cases": [
-        {
-          "case_id": "scpr-25-0000877",
-          "title": "In re: Hughes",
-          "url": "https://law.justia.com/cases/hawaii/supreme-court/2025/scpr-25-0000877.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Hawaii Supreme Court Case scpr-25-0000877 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "scpr-25-0000864",
-          "title": "In re: Watumull",
-          "url": "https://law.justia.com/cases/hawaii/supreme-court/2025/scpr-25-0000864.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Hawaii Supreme Court Case scpr-25-0000864 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "scpr-25-0000806",
-          "title": "In re: Hirata",
-          "url": "https://law.justia.com/cases/hawaii/supreme-court/2025/scpr-25-0000806.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Hawaii Supreme Court Case scpr-25-0000806 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "scwc-24-0000751",
-          "title": "In re: Tax Appeal of Rohlfing III and Rohlfing",
-          "url": "https://law.justia.com/cases/hawaii/supreme-court/2025/scwc-24-0000751.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Hawaii Supreme Court Case scwc-24-0000751 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "scpr-25-0000801",
-          "title": "In re: Chun",
-          "url": "https://law.justia.com/cases/hawaii/supreme-court/2025/scpr-25-0000801.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Hawaii Supreme Court Case scpr-25-0000801 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "scpr-25-0000742",
-          "title": "In re: Federle",
-          "url": "https://law.justia.com/cases/hawaii/supreme-court/2025/scpr-25-0000742.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Hawaii Supreme Court Case scpr-25-0000742 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "scpr-25-0000787",
-          "title": "In re: Miyake",
-          "url": "https://law.justia.com/cases/hawaii/supreme-court/2025/scpr-25-0000787.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Hawaii Supreme Court Case scpr-25-0000787 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "scpr-25-0000758",
-          "title": "In re: Kirschner",
-          "url": "https://law.justia.com/cases/hawaii/supreme-court/2025/scpr-25-0000758.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Hawaii Supreme Court Case scpr-25-0000758 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "scpr-25-0000775",
-          "title": "In re: Pritikin",
-          "url": "https://law.justia.com/cases/hawaii/supreme-court/2025/scpr-25-0000775.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Hawaii Supreme Court Case scpr-25-0000775 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "scpr-25-0000628",
-          "title": "In re: Brothers",
-          "url": "https://law.justia.com/cases/hawaii/supreme-court/2025/scpr-25-0000628.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Hawaii Supreme Court Case scpr-25-0000628 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

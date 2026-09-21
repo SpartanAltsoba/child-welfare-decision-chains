@@ -132,6 +132,60 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Louisiana state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Gates v. Texas Department of Protective & Regulatory Services",
+          "citation": "537 F.3d 404 (5th Cir. 2008)",
+          "court": "United States Court of Appeals for the Fifth Circuit",
+          "year": 2008,
+          "date_decided": "2008-07-31",
+          "holding": "The Fifth Circuit held that a child may not be seized from the home absent a court order, parental consent, or exigent circumstances, defined as reasonable cause to believe the child is in imminent danger of physical or sexual abuse; the warrantless entry into the home was not justified, though the removal itself was reasonable on those facts.",
+          "relevance": "Is the controlling circuit standard for the emergency-removal decision that La. Ch.C. arts. 619-620 authorize by instanter order.",
+          "quote": "there is reasonable cause to believe that the child is in imminent danger of physical or sexual abuse if he remains in his home",
+          "url": "https://www.courtlistener.com/opinion/62905/gates-v-texas-deparment-of-protective-regulatory-services/",
+          "courtlistener_cluster_id": 62905
+        },
+        {
+          "case_name": "State ex rel. L.B.",
+          "citation": "986 So. 2d 62 (La. 2008)",
+          "court": "Supreme Court of Louisiana",
+          "year": 2008,
+          "date_decided": "2008-07-17",
+          "holding": "The Louisiana Supreme Court reversed the juvenile court's refusal to find the infant a child in need of care, holding that expert medical evidence of repeated non-accidental trauma established reasonable grounds and that the agency need only prove the petition's allegations by a preponderance.",
+          "relevance": "Shows the emergency-removal sequence under La. Ch.C. arts. 619-624 and the proof required to continue custody.",
+          "quote": "It is not the OCS's duty to prove its case beyond a reasonable doubt, by clear and convincing evidence, or to disprove every hypothesis of innocence.",
+          "url": "https://www.courtlistener.com/opinion/7849856/state-ex-rel-lb/",
+          "courtlistener_cluster_id": 7849856
+        },
+        {
+          "case_name": "State ex rel. A.T.",
+          "citation": "936 So. 2d 79 (La. 2006)",
+          "court": "Supreme Court of Louisiana",
+          "year": 2006,
+          "date_decided": "2006-07-06",
+          "holding": "The Louisiana Supreme Court affirmed reversal of a termination judgment, holding that where reunification is the permanent plan the department must make reasonable efforts to help the parent remove the impediments to reunification - here to obtain suitable and affordable housing - before seeking termination under La. Ch.C. art. 1015(5).",
+          "relevance": "Confirms that the court must determine at the instanter stage whether reasonable efforts were made to prevent or eliminate the need for removal.",
+          "quote": "the duty to make reasonable efforts to remove the impediments to reunification does not necessarily stop once the children are removed from the parent's custody",
+          "url": "https://www.courtlistener.com/opinion/7840865/state-ex-rel-at/",
+          "courtlistener_cluster_id": 7840865
+        },
+        {
+          "case_name": "Wernecke v. Garcia",
+          "citation": "591 F.3d 386 (5th Cir. 2009)",
+          "court": "United States Court of Appeals for the Fifth Circuit",
+          "year": 2009,
+          "date_decided": "2009-12-15",
+          "holding": "The Fifth Circuit held the caseworker's entry pursuant to a state removal order objectively reasonable and granted the supervisor immunity, but affirmed the denial of qualified immunity to the caseworker for seizing two siblings where, on the plaintiffs' version of the facts, no imminent danger existed.",
+          "relevance": "It adapts the Gates exigency factors to a child-endangerment rather than an abuse investigation, listing the severity, duration, frequency and imminence of the danger and the availability of less extreme solutions.",
+          "quote": "Gates was not required to give social workers fair notice that imminent danger must exist before a child may be removed without a warrant or court order",
+          "url": "https://www.courtlistener.com/opinion/1463447/wernecke-v-garcia/",
+          "courtlistener_cluster_id": 1463447
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Louisiana%22%20AND%20%28%22Louisiana%20Department%20of%20Children%20and%20Family%20Services%22%20OR%20%22DCFS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Louisiana Department of Children and Family Services",
         "DCFS",
@@ -143,149 +197,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Louisiana%22%20AND%20%28%22Louisiana%20Department%20of%20Children%20and%20Family%20Services%22%20OR%20%22DCFS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "investigation",
-        "substantiation",
-        "evidence standard",
-        "due process",
-        "reasonable efforts"
-      ],
-      "jurisdiction": "Louisiana state courts",
-      "key_cases": [
-        {
-          "case_id": "2025-b-00537",
-          "title": "IN RE: HENRY L. KLEIN",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2025-b-00537.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2025-b-00537 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "2025-o-00994",
-          "title": "IN RE: JUDGE ROYALE COLBERT",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2025-o-00994.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2025-o-00994 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2025-o-01127",
-          "title": "IN RE: JUDGE TIFFANY FOXWORTH-ROBERTS",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2025-o-01127.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2025-o-01127 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2025-o-00879",
-          "title": "IN RE: JUDGE JENNIFER M. MEDLEY",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2025-o-00879.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2025-o-00879 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2025-o-00320",
-          "title": "IN RE: JUDGE DONALD \"CHICK\" FORET TWENTY-FOURTH JUDICIAL DISTRICT COURT PARISH OF JEFFERSON STATE OF LOUISIANA",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2025-o-00320.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2025-o-00320 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2024-ck-00254",
-          "title": "In re D.D.",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2024-ck-00254.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2024-ck-00254 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "2023-ba-00159",
-          "title": "IN RE: COMMITTEE ON BAR ADMISSIONS CFN-1791",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2025/2023-ba-00159.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2023-ba-00159 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2023-ba-01455",
-          "title": "IN RE: COMMITTEE ON BAR ADMISSIONS CFN-65372",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2024/2023-ba-01455.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2023-ba-01455 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2024-b-00479",
-          "title": "IN RE: TRINA TRINHTHI CHU",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2024/2024-b-00479.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2024-b-00479 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2024-b-00520",
-          "title": "IN RE: NED FRANKLIN PIERCE SONNIER, SR.",
-          "url": "https://law.justia.com/cases/louisiana/supreme-court/2024/2024-b-00520.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Louisiana Supreme Court Case 2024-b-00520 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

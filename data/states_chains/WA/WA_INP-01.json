@@ -116,6 +116,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Washington state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "Tyner v. Department of Social & Health Services, Child Protective Services",
+          "citation": "141 Wn.2d 68, 1 P.3d 1148 (2000)",
+          "court": "Washington Supreme Court",
+          "year": 2000,
+          "date_decided": "2000-06-15",
+          "holding": "The court held that RCW 26.44.050 impliedly creates a negligent-investigation cause of action in favor of a child's parents, including parents themselves suspected of abuse, and that a later judicial no-contact order does not automatically break legal causation unless all material information was placed before the court.",
+          "relevance": "Establishes that the reporting-and-investigation scheme of chapter 26.44 RCW, which begins with a mandated report, runs to the benefit of parents as well as children.",
+          "quote": "We conclude that under RCW 26.44.050, CPS owes a duty of care to a child's parents, even those suspected of abusing their own children, when investigating allegations of child abuse.",
+          "url": "https://www.courtlistener.com/opinion/2552284/tyner-v-dshs-child-protective-serv/",
+          "courtlistener_cluster_id": 2552284
+        },
+        {
+          "case_name": "Wrigley v. State",
+          "citation": "195 Wn.2d 65, 455 P.3d 1138 (2020)",
+          "court": "Washington Supreme Court",
+          "year": 2020,
+          "date_decided": "2020-01-23",
+          "holding": "The court held that the statutory duty to investigate is triggered only by a report of abuse or neglect that has already occurred, so a parent's prediction of future harm from a proposed placement did not invoke DSHS's duty under former RCW 26.44.050.",
+          "relevance": "Defines what a mandated reporter must communicate before the agency's investigative duty attaches: past or ongoing conduct, not a prediction.",
+          "quote": "Generally, a report initiates the dependency process. The duty to investigate cannot be invoked until receipt of a report.",
+          "url": "https://www.courtlistener.com/opinion/4714773/wrigley-v-state/",
+          "courtlistener_cluster_id": 4714773
+        },
+        {
+          "case_name": "Dunning v. Paccerelli",
+          "citation": "63 Wn. App. 232, 818 P.2d 34 (1991)",
+          "court": "Court of Appeals of Washington",
+          "year": 1991,
+          "date_decided": "1991-12-10",
+          "holding": "The court held that caseworkers and DSHS have only qualified, not absolute, immunity for reporting and investigating child abuse and for placing names on the central registry, and that the good-faith condition of the RCW 26.44.060 immunity is a question of fact.",
+          "relevance": "Defines the scope of the reporter immunity mandated reporters rely on: it is qualified and conditioned on good faith.",
+          "quote": "The determination of good faith under RCW 26.44.060 necessarily presents issues of fact.",
+          "url": "https://www.courtlistener.com/opinion/1227028/dunning-v-paccerelli/",
+          "courtlistener_cluster_id": 1227028
+        },
+        {
+          "case_name": "Yonker v. Department of Social & Health Services",
+          "citation": "85 Wn. App. 71, 930 P.2d 958 (1997)",
+          "court": "Court of Appeals of Washington",
+          "year": 1997,
+          "date_decided": "1997-02-10",
+          "holding": "The court held that the public duty doctrine does not shield DSHS from a negligence claim by a mother and child whose reports of possible abuse the Department declined to investigate, because they fall within the particular and circumscribed class chapter 26.44 RCW was enacted to protect, and reversed summary judgment for the State.",
+          "relevance": "The origin of the enforceable investigative duty under chapter 26.44 RCW, on facts where caseworkers agreed the report indicated possible abuse and still did nothing.",
+          "quote": "If there is a question whether a report is sufficient to invoke the duty to investigate, that issue will be resolved on a case-by-case basis.",
+          "url": "https://www.courtlistener.com/opinion/6993314/yonker-v-department-of-social-health-services/",
+          "courtlistener_cluster_id": 6993314
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Washington%22%20AND%20%28%22Washington%20Department%20of%20Children%20Youth%20%26%20Families%22%20OR%20%22DCYF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Washington Department of Children Youth & Families",
         "DCYF",
@@ -127,148 +181,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Washington%22%20AND%20%28%22Washington%20Department%20of%20Children%20Youth%20%26%20Families%22%20OR%20%22DCYF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "mandatory reporting",
-        "failure to report",
-        "reporter immunity",
-        "hotline"
-      ],
-      "jurisdiction": "Washington state courts",
-      "key_cases": [
-        {
-          "case_id": "104-087-3",
-          "title": "In re Recall of Olsen (Majority)",
-          "url": "https://law.justia.com/cases/washington/supreme-court/2025/104-087-3.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Washington Supreme Court Case 104-087-3 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "202-239-1",
-          "title": "In re Disciplinary Proceeding Against Flood (Majority and Dissent)",
-          "url": "https://law.justia.com/cases/washington/supreme-court/2025/202-239-1.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Washington Supreme Court Case 202-239-1 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "103-672-8",
-          "title": "In re Personal Restraint of Schoenhals (Majority and Concurrence)",
-          "url": "https://law.justia.com/cases/washington/supreme-court/2025/103-672-8.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Washington Supreme Court Case 103-672-8 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "103-768-6",
-          "title": "In re Dependency of C.J.J.I. (Majority)",
-          "url": "https://law.justia.com/cases/washington/supreme-court/2025/103-768-6.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Washington Supreme Court Case 103-768-6 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re, dependency"
-        },
-        {
-          "case_id": "103-542-0",
-          "title": "In re Recall of Ruelas (Majority)",
-          "url": "https://law.justia.com/cases/washington/supreme-court/2025/103-542-0.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Washington Supreme Court Case 103-542-0 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "202-188-3",
-          "title": "In re Disciplinary Proceeding Against Wallstrom (Majority)",
-          "url": "https://law.justia.com/cases/washington/supreme-court/2025/202-188-3.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Washington Supreme Court Case 202-188-3 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "103-314-1",
-          "title": "In re Recall of Suggs (Majority)",
-          "url": "https://law.justia.com/cases/washington/supreme-court/2025/103-314-1.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Washington Supreme Court Case 103-314-1 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "103-444-0",
-          "title": "In re Recall of Ruelas (Majority and Dissent)",
-          "url": "https://law.justia.com/cases/washington/supreme-court/2025/103-444-0.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Washington Supreme Court Case 103-444-0 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "103-541-1",
-          "title": "In Re Dependency of C.J.J.I. (Majority)",
-          "url": "https://law.justia.com/cases/washington/supreme-court/2025/103-541-1.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Washington Supreme Court Case 103-541-1 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re, dependency"
-        },
-        {
-          "case_id": "102-486-0",
-          "title": "In re Dependency of M.L.W. (Majority, Concurrence and Dissent)",
-          "url": "https://law.justia.com/cases/washington/supreme-court/2024/102-486-0.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Washington Supreme Court Case 102-486-0 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re, dependency"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     },
     "childwelfare_gov": {
       "resources": [

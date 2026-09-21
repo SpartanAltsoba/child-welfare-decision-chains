@@ -144,6 +144,36 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Vermont state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "In re B.S.",
+          "citation": "166 Vt. 345, 693 A.2d 716 (1997)",
+          "court": "Supreme Court of Vermont",
+          "year": 1997,
+          "date_decided": "1997-03-28",
+          "holding": "Termination was affirmed: an ADA noncompliance claim is not a defense to a termination petition because the ADA does not directly apply to such proceedings, and a stipulation limiting SRS's recommendations had no greater force than a judgment and was modifiable on changed circumstances.",
+          "relevance": "B.S. is the controlling Vermont answer to disability-discrimination claims raised against DCF in a termination case.",
+          "quote": "We conclude that the ADA does not directly apply to TPR proceedings.",
+          "url": "https://www.courtlistener.com/opinion/8209505/in-re-bs/",
+          "courtlistener_cluster_id": 8209505
+        },
+        {
+          "case_name": "In re A.J.",
+          "citation": "169 Vt. 577, 733 A.2d 36 (1999) (mem.)",
+          "court": "Supreme Court of Vermont",
+          "year": 1999,
+          "date_decided": "1999-04-01",
+          "holding": "No ICWA notice was required where the asserted tribes, the Abenaki and Micmac, are not federally recognized, and excluding non-recognized tribes from ICWA does not violate equal protection.",
+          "relevance": "A.J. rejects an equal-protection challenge to the federal-recognition line, which is the framework for any claimed tribal or ancestry-based discrimination in a Vermont child-welfare case.",
+          "quote": "we agree with the court's conclusion in T.I.S. that the ICWA exclusion of non-recognized tribes does not violate the Equal Protection Clause",
+          "url": "https://www.courtlistener.com/opinion/8209593/in-re-aj/",
+          "courtlistener_cluster_id": 8209593
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Vermont%22%20AND%20%28%22Vermont%20Department%20for%20Children%20and%20Families%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Vermont Department for Children and Families",
         "CPS",
@@ -155,149 +185,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Vermont%22%20AND%20%28%22Vermont%20Department%20for%20Children%20and%20Families%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "wrongful removal",
-        "1983 claim",
-        "civil rights",
-        "immunity",
-        "damages"
-      ],
-      "jurisdiction": "Vermont state courts",
-      "key_cases": [
-        {
-          "case_id": "24-ap-374",
-          "title": "In re Petition of Otter Creek Solar LLC",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/24-ap-374.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 24-ap-374 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-ap-292",
-          "title": "In re Appeal of H.D.",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/25-ap-292.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 25-ap-292 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-ap-005",
-          "title": "In re Petition of Randolph Davis Solar LLC",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/25-ap-005.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 25-ap-005 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-ap-217",
-          "title": "In re J.D. and C.D., Juveniles",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/25-ap-217.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 25-ap-217 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "25-ap-220",
-          "title": "In re G.B., Juvenile",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/25-ap-220.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 25-ap-220 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "25-ap-236",
-          "title": "In re A.K. and P.K., Juveniles",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/25-ap-236.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 25-ap-236 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "25-ap-253",
-          "title": "In re N.S., Juvenile",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/25-ap-253.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 25-ap-253 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "25-ap-054",
-          "title": "In re Holland Cannabis, LLC",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/25-ap-054.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 25-ap-054 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-ap-038",
-          "title": "In re Lake Bomoseen Association and Lake Bomoseen Preservation Trust Denial",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/25-ap-038.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 25-ap-038 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-ap-116",
-          "title": "In re Guardianship of Alice Thomas (Brenda Leonard)",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/25-ap-116.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 25-ap-116 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

@@ -158,6 +158,36 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Nebraska state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Robert M. on behalf of Bella O. v. Danielle O.",
+          "citation": "303 Neb. 268, 928 N.W.2d 407 (2019)",
+          "court": "Nebraska Supreme Court",
+          "year": 2019,
+          "date_decided": "2019-05-31",
+          "holding": "The court held that a child is a victim of abuse under the Protection from Domestic Abuse Act where a credible threat, which may be implied from a pattern of conduct, is directed at the child's caretakers and causes them reasonably to fear for the child's safety, and affirmed the protection order entered on the child's behalf.",
+          "relevance": "This is the Nebraska Supreme Court's controlling construction of who may obtain a domestic abuse protection order on a child's behalf and what threat evidence suffices.",
+          "quote": "we conclude that the trial court did not err in determining that Bella was a victim of abuse within the meaning of § 42-903.",
+          "url": "https://www.courtlistener.com/opinion/4625043/robert-m-on-behalf-of-bella-o-v-danielle-o/",
+          "courtlistener_cluster_id": 4625043
+        },
+        {
+          "case_name": "Maria A. on behalf of Leslie G. v. Oscar G.",
+          "citation": "301 Neb. 673, 919 N.W.2d 841 (2018)",
+          "court": "Nebraska Supreme Court",
+          "year": 2018,
+          "date_decided": "2018-11-30",
+          "holding": "The court held that whether abuse within the meaning of Neb. Rev. Stat. § 42-903 occurred is the threshold question at a § 42-925 show-cause hearing, that a court may then also weigh factors bearing on the likelihood of future harm in deciding whether the order should remain in effect, and affirmed rescission of the ex parte protection order a mother had obtained on her child's behalf.",
+          "relevance": "It is the companion to Robert M. on behalf of Bella O. on the protective-order route for a child: the petitioner must first establish statutory abuse, and even then the court decides prospectively whether the order should remain in effect.",
+          "quote": "Whether domestic abuse occurred is a threshold issue in determining whether an ex parte protection order should be affirmed",
+          "url": "https://www.courtlistener.com/opinion/4568697/maria-a-on-behalf-of-leslie-g-v-oscar-g/",
+          "courtlistener_cluster_id": 4568697
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Nebraska%22%20AND%20%28%22Nebraska%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Nebraska Department of Health and Human Services",
         "CPS",
@@ -169,149 +199,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Nebraska%22%20AND%20%28%22Nebraska%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "removal",
-        "emergency custody",
-        "placement",
-        "reunification",
-        "services"
-      ],
-      "jurisdiction": "Nebraska state courts",
-      "key_cases": [
-        {
-          "case_id": "s-25-149",
-          "title": "In re Interest of Jerel S.",
-          "url": "https://law.justia.com/cases/nebraska/supreme-court/2025/s-25-149.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nebraska Supreme Court Case s-25-149 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re interest, In re, Interest of"
-        },
-        {
-          "case_id": "s-25-046",
-          "title": "In re Interest of M.S.",
-          "url": "https://law.justia.com/cases/nebraska/supreme-court/2025/s-25-046.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nebraska Supreme Court Case s-25-046 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re interest, In re, Interest of initials"
-        },
-        {
-          "case_id": "s-24-680",
-          "title": "In re Estate of Walker",
-          "url": "https://law.justia.com/cases/nebraska/supreme-court/2025/s-24-680.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nebraska Supreme Court Case s-24-680 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s-23-915",
-          "title": "In re Estate of Harchelroad",
-          "url": "https://law.justia.com/cases/nebraska/supreme-court/2025/s-23-915.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nebraska Supreme Court Case s-23-915 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s-24-251",
-          "title": "In re Guardianship of Tomas J.",
-          "url": "https://law.justia.com/cases/nebraska/supreme-court/2025/s-24-251.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nebraska Supreme Court Case s-24-251 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "s-23-848",
-          "title": "In re Estate of Guenther",
-          "url": "https://law.justia.com/cases/nebraska/supreme-court/2025/s-23-848.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nebraska Supreme Court Case s-23-848 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s-24-068",
-          "title": "In re Estate of Weeder",
-          "url": "https://law.justia.com/cases/nebraska/supreme-court/2025/s-24-068.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nebraska Supreme Court Case s-24-068 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s-23-856",
-          "title": "In re Masek Family Trust",
-          "url": "https://law.justia.com/cases/nebraska/supreme-court/2025/s-23-856.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nebraska Supreme Court Case s-23-856 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a-24-937",
-          "title": "In re Estate of Hyde",
-          "url": "https://law.justia.com/cases/nebraska/court-of-appeals/2025/a-24-937.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Nebraska Court Of Appeals Case a-24-937 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a-25-061",
-          "title": "In re Estate of Carrier",
-          "url": "https://law.justia.com/cases/nebraska/court-of-appeals/2025/a-25-061.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Nebraska Court Of Appeals Case a-25-061 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {
