@@ -1,6 +1,6 @@
 # Backlog for v1.2.0
 
-Items carried out of the v1.0.1 verification passes that remain open after v1.1.0 (case-law items are resolved by v1.1.0 and removed here). 455 per-jurisdiction items are listed in `carried_to_v1.2.0.json` in the verifiers' words.
+Items carried out of the v1.0.1 verification passes that remain open after v1.1.0 (case-law items are resolved by v1.1.0 and removed here). 455 per-jurisdiction items are listed in `docs/carried_to_v1.2.0.json` in the verifiers' words.
 
 ## Cross-cutting
 
