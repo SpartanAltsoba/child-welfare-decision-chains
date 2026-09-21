@@ -155,6 +155,84 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Michigan state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "In re Mason",
+          "citation": "486 Mich. 142, 782 N.W.2d 747 (2010)",
+          "court": "Michigan Supreme Court",
+          "year": 2010,
+          "date_decided": "2010-05-26",
+          "holding": "The Court reversed a termination where the incarcerated father was excluded from hearings and his rights were ended essentially because he was in prison, without the court evaluating DHS's efforts or his ability to place the children with relatives.",
+          "relevance": "Foster placement of a child whose parent is incarcerated does not relieve the agency of engaging that parent in the case.",
+          "quote": "The mere present inability to personally care for one's children as a result of incarceration does not constitute grounds for termination.",
+          "url": "https://www.courtlistener.com/opinion/831254/in-re-mason/",
+          "courtlistener_cluster_id": 831254
+        },
+        {
+          "case_name": "In re Rood",
+          "citation": "483 Mich. 73, 763 N.W.2d 587 (2009) (opinion by Corrigan, J.)",
+          "court": "Michigan Supreme Court",
+          "year": 2009,
+          "date_decided": "2009-04-02",
+          "holding": "In a lead opinion the Court affirmed reversal of a termination because DHS's and the court's repeated failures to notify the father of hearings and to locate, assess and engage him denied him minimal procedural due process.",
+          "relevance": "Placement of the child in foster care does not excuse the state from locating and assessing a non-custodial parent as a placement resource.",
+          "quote": "A parent whose parental rights have not been terminated, including one who is not a named respondent, must be notified of and permitted to participate in each hearing",
+          "url": "https://www.courtlistener.com/opinion/837290/in-re-rood/",
+          "courtlistener_cluster_id": 837290
+        },
+        {
+          "case_name": "In re Detmer/Beaudry",
+          "citation": "321 Mich. App. 49, 910 N.W.2d 318 (2017)",
+          "court": "Michigan Court of Appeals",
+          "year": 2017,
+          "date_decided": "2017-08-22",
+          "holding": "The Court held MIFPA's special protections applied to the child taken from the mother's care even though she was placed with a relative, and vacated for non-compliance, but held they did not apply to the sibling the mother voluntarily placed with his non-respondent father.",
+          "relevance": "An Indian child moved out of the parent's home into any placement triggers MIFPA's emergency and placement protections.",
+          "quote": "we hold that the special protections set forth in the Michigan Indian Family Preservation Act do apply to AB's removal",
+          "url": "https://www.courtlistener.com/opinion/8283550/in-re-detmerbeaudry/",
+          "courtlistener_cluster_id": 8283550
+        },
+        {
+          "case_name": "Santosky v. Kramer",
+          "citation": "455 U.S. 745 (1982)",
+          "court": "Supreme Court of the United States",
+          "year": 1982,
+          "date_decided": "1982-03-24",
+          "holding": "The Court held that before a State may terminate parental rights due process requires proof by at least clear and convincing evidence, and vacated New York's use of a fair-preponderance standard.",
+          "relevance": "The Court held the parental liberty interest survives removal and temporary state custody, which is why placement does not lower the state's burden.",
+          "quote": "We hold that such a standard adequately conveys to the factfinder the level of subjective certainty about his factual conclusions necessary to satisfy due process.",
+          "url": "https://www.courtlistener.com/opinion/110676/santosky-v-kramer/",
+          "courtlistener_cluster_id": 110676
+        },
+        {
+          "case_name": "In re COH",
+          "citation": "495 Mich. 184, 848 N.W.2d 107 (2014)",
+          "court": "Michigan Supreme Court",
+          "year": 2014,
+          "date_decided": "2014-04-22",
+          "holding": "The Court held that the relative-placement preference in MCL 722.954a does not apply to a post-termination guardianship determination under MCL 712A.19c(2), and that the trial court permissibly compared placement options using Child Custody Act best-interest factors.",
+          "relevance": "It clarifies the relationship between the placement preference that applies while the child is in foster care and the later permanency decision.",
+          "quote": "we hold that there is no preference for placement with relatives as part of a guardianship determination under MCL 712A.19c(2)",
+          "url": "https://www.courtlistener.com/opinion/8001639/in-re-coh/",
+          "courtlistener_cluster_id": 8001639
+        },
+        {
+          "case_name": "In re Olive/Metts Minors",
+          "citation": "297 Mich. App. 35, 823 N.W.2d 144 (2012)",
+          "court": "Michigan Court of Appeals",
+          "year": 2012,
+          "date_decided": "2012-06-05",
+          "holding": "The Court affirmed termination as to three children but vacated the best-interest analysis as to twins placed with a relative, holding the trial court must decide best interests for each child individually and must expressly address relative placement.",
+          "relevance": "Placement decisions for a sibling group cannot be made wholesale; each child's circumstances must be addressed.",
+          "quote": "We hold that the trial court has a duty to decide the best interests of each child individually.",
+          "url": "https://www.courtlistener.com/opinion/8006642/in-re-olivemetts-minors/",
+          "courtlistener_cluster_id": 8006642
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Michigan%22%20AND%20%28%22Michigan%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Michigan Department of Health and Human Services",
         "CPS",
@@ -166,136 +244,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Michigan%22%20AND%20%28%22Michigan%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "removal",
-        "emergency custody",
-        "placement",
-        "reunification",
-        "services"
-      ],
-      "jurisdiction": "Michigan state courts",
-      "key_cases": [
-        {
-          "case_id": "167745",
-          "title": "In Re Barber/Espinoza Minors (Opinion on Application - Reverse CoA)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2025/167745.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 167745 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "165666",
-          "title": "In Re Contempt Of Kathy H Murphy (Opinion on Application - Reverse CoA)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2025/165666.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 165666 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "166509",
-          "title": "In Re Lange (Opinion on Application - Remand to TC)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2025/166509.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 166509 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "165018",
-          "title": "In Re Guardianship Of Mary Ann Malloy (Opinion on Application - Remand to TC)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2024/165018.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 165018 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "165020",
-          "title": "In Re Guardianship Of Dana Jenkins (Opinion on Application - Remand to TC)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2024/165020.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 165020 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "162260",
-          "title": "In Re Tracy E. Green, Judge (Opinion - Leave Granted)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2023/162260.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 162260 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "164311",
-          "title": "In re Parole of Richard Allen McBrayer (Opinion - Leave Granted)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2023/164311.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 164311 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "161535",
-          "title": "In Re Von Greiff Estate (Opinion on Application - Affirm CoA)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2022/161535.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 161535 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "161839-0",
-          "title": "In Re Morrow",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2022/161839-0.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 161839-0 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

@@ -149,6 +149,84 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Montana state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Santosky v. Kramer",
+          "citation": "455 U.S. 745 (1982)",
+          "court": "Supreme Court of the United States",
+          "year": 1982,
+          "date_decided": "1982-02-22",
+          "holding": "Before a State may sever parental rights, the Due Process Clause requires proof by at least clear and convincing evidence; New York's preponderance standard was unconstitutional.",
+          "relevance": "It is the federal constitutional floor that Montana's § 41-3-609 clear-and-convincing requirement implements, and the authority to cite if any Montana proceeding applies a lesser standard to termination.",
+          "quote": "due process requires that the State support its allegations by at least clear and convincing evidence",
+          "url": "https://www.courtlistener.com/opinion/110676/santosky-v-kramer/",
+          "courtlistener_cluster_id": 110676
+        },
+        {
+          "case_name": "In re the Custody and Parental Rights of C.J.K.",
+          "citation": "2005 MT 67, 326 Mont. 289, 109 P.3d 232",
+          "court": "Montana Supreme Court",
+          "year": 2005,
+          "date_decided": "2005-03-22",
+          "holding": "The party seeking termination must prove each statutory requirement of § 41-3-609 by clear and convincing evidence, and in doing so the court gives primary consideration to the child's physical, mental and emotional conditions and needs, which take precedence over parental rights.",
+          "relevance": "It is the clean Montana statement of both the burden of proof and the best-interests priority that govern every termination of parental rights in this state.",
+          "quote": "Moreover, the party seeking to terminate parental rights must demonstrate by clear and convincing evidence that the statutory requirements for termination have been met.",
+          "url": "https://www.courtlistener.com/opinion/887347/in-the-matter-of-custody-and-parental-rights-of-cjk/",
+          "courtlistener_cluster_id": 887347
+        },
+        {
+          "case_name": "In re the Custody and Parental Rights of D.A.",
+          "citation": "2008 MT 247, 344 Mont. 513, 189 P.3d 631",
+          "court": "Montana Supreme Court",
+          "year": 2008,
+          "date_decided": "2008-07-15",
+          "holding": "The § 41-3-604(1) presumption that termination serves the child's best interests once the child has been in foster care 15 of the most recent 22 months does not relieve the State of proving the substantive § 41-3-609 grounds by clear and convincing evidence; termination was affirmed because the court made those independent findings.",
+          "relevance": "It is the Montana case that stops the ASFA 15-of-22 timeline from operating as an automatic ground for termination and keeps the State to its full burden.",
+          "quote": "The party seeking termination must still meet the clear and convincing burden of proof, as well as the substantive statutory requirements of § 41-3-609, MCA.",
+          "url": "https://www.courtlistener.com/opinion/888390/in-re-the-custody-parental-rights-of-da/",
+          "courtlistener_cluster_id": 888390
+        },
+        {
+          "case_name": "In re M.A.L.",
+          "citation": "2006 MT 299, 334 Mont. 436, 148 P.3d 606",
+          "court": "Montana Supreme Court",
+          "year": 2006,
+          "date_decided": "2006-11-21",
+          "holding": "Termination was affirmed: a certified copy of a prior conviction for a sexual offense against a child is clear and convincing evidence of an aggravated circumstance under § 41-3-609, and the State need not separately prove the circumstances of the conviction.",
+          "relevance": "It defines both who bears the burden and what proof suffices when Montana terminates on an aggravated-circumstances ground rather than treatment-plan failure.",
+          "quote": "It is the State's burden to prove by clear and convincing evidence that an aggravated circumstance exists, and thus that the termination of parental rights is appropriate.",
+          "url": "https://www.courtlistener.com/opinion/8071367/in-re-mal/",
+          "courtlistener_cluster_id": 8071367
+        },
+        {
+          "case_name": "In re A.M.G.",
+          "citation": "2022 MT 175",
+          "court": "Montana Supreme Court",
+          "year": 2022,
+          "date_decided": "2022-09-13",
+          "holding": "Termination was affirmed; the district court did not abuse its discretion in finding that the conduct or condition rendering the mother unfit — her unaddressed mental health and domestic violence treatment goals — was unlikely to change within a reasonable time.",
+          "relevance": "It supplies the Montana standard for the most contested termination element — whether the parent's disqualifying condition is likely to change in a reasonable time — and confirms that a conclusion of no change can be undermined if the Department did not make reasonable efforts.",
+          "quote": "In determining what constitutes a reasonable time, courts must consider that the best interest of the child, though balanced with the right to parent, is “paramount.”",
+          "url": "https://www.courtlistener.com/opinion/8240926/matter-of-amg-smh-yinc/",
+          "courtlistener_cluster_id": 8240926
+        },
+        {
+          "case_name": "Jackson v. State",
+          "citation": "1998 MT 46, 287 Mont. 473, 956 P.2d 35",
+          "court": "Montana Supreme Court",
+          "year": 1998,
+          "date_decided": "1998-03-10",
+          "holding": "Summary judgment for the State was reversed: once the State volunteered information about an adoptive child's biological family it assumed a duty to convey that information with due care, and there were triable issues on foreseeability and on whether the Jacksons would have adopted but for the State's alleged withholding and misrepresentation.",
+          "relevance": "This is Montana's wrongful-adoption decision: it defines the disclosure duty the State owes adoptive parents at the point a child's permanency is finalized through adoption.",
+          "quote": "it assumed a duty to do so with due care and to refrain from negligently misrepresenting that information to the Jacksons",
+          "url": "https://www.courtlistener.com/opinion/884783/jackson-v-state/",
+          "courtlistener_cluster_id": 884783
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Montana%22%20AND%20%28%22Montana%20Department%20of%20Public%20Health%20and%20Human%20Services%22%20OR%20%22DPHHS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Montana Department of Public Health and Human Services",
         "DPHHS",
@@ -160,149 +238,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Montana%22%20AND%20%28%22Montana%20Department%20of%20Public%20Health%20and%20Human%20Services%22%20OR%20%22DPHHS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "termination of parental rights",
-        "TPR",
-        "adoption",
-        "permanency",
-        "aging out"
-      ],
-      "jurisdiction": "Montana state courts",
-      "key_cases": [
-        {
-          "case_id": "da-24-0664",
-          "title": "In Re the Adoption of X.K.D.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-24-0664.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-24-0664 (2025)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "da-25-0189",
-          "title": "In re Adoption of A.K.M. & R.J.M.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0189.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-25-0189 (2025)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "da-23-0611-0",
-          "title": "Matter of the Adoption of C.M.C.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2024/da-23-0611-0.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-23-0611-0 (2024)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: Matter of adoption, Matter of"
-        },
-        {
-          "case_id": "da-23-0611",
-          "title": "Matter of the Adoption of C.M.C.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2024/da-23-0611.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-23-0611 (2024)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: Matter of adoption, Matter of"
-        },
-        {
-          "case_id": "da-19-0272",
-          "title": "In re Adoption of N.P.M.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2020/da-19-0272.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-19-0272 (2020)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "da-20-0614",
-          "title": "Adoption of R.D.J.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2021/da-20-0614.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-20-0614 (2021)",
-          "relevance_score": 2.2,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "Medium: adoption"
-        },
-        {
-          "case_id": "da-22-0287",
-          "title": "In re Guardianship of L.R.T.S.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2023/da-22-0287.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-22-0287 (2023)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "da-20-0402",
-          "title": "In re Guardianship of J.S.M.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2021/da-20-0402.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-20-0402 (2021)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "da-22-0616",
-          "title": "Guardianship of M.H.O.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2024/da-22-0616.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-22-0616 (2024)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "Medium: guardianship"
-        },
-        {
-          "case_id": "da-20-0403",
-          "title": "Guardianship of G.R.M.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2021/da-20-0403.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-20-0403 (2021)",
-          "relevance_score": 1.7,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "Medium: guardianship"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

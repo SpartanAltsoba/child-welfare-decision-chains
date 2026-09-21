@@ -165,6 +165,48 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "North Dakota state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Niska v. Falconer",
+          "citation": "2012 ND 245, 824 N.W.2d 778",
+          "court": "North Dakota Supreme Court",
+          "year": 2012,
+          "date_decided": "2012-11-27",
+          "holding": "The court reversed a domestic violence protection order and remanded because the referee's findings were too conclusory to show actual or imminent domestic violence proven by a preponderance of the evidence.",
+          "relevance": "States the burden and required findings for a protective order used to remove an abuser or bar contact instead of removing the child.",
+          "quote": "a party seeking a domestic violence protection order must prove actual or imminent domestic violence by a preponderance of the evidence",
+          "url": "https://www.courtlistener.com/opinion/8246633/niska-v-falconer/",
+          "courtlistener_cluster_id": 8280896
+        },
+        {
+          "case_name": "Hanneman v. Nygaard",
+          "citation": "2010 ND 113, 784 N.W.2d 117",
+          "court": "North Dakota Supreme Court",
+          "year": 2010,
+          "date_decided": "2010-06-17",
+          "holding": "The court affirmed a two-year domestic violence protection order, holding that dismissal of an earlier petition for non-appearance did not bar a second petition alleging new incidents, and that the district court's sparse findings of assault and threatening behavior were adequate to show actual or imminent domestic violence and were not clearly erroneous.",
+          "relevance": "One of the two source decisions Niska rests on: it fixes the preponderance burden, requires specific findings of actual or imminent domestic violence, and confirms that past abuse and the history of the relationship are relevant context when a protective order is used to separate the abuser rather than remove the child.",
+          "quote": "A petitioner seeking a domestic violence protection order must prove \"actual or imminent domestic violence\" by a preponderance of evidence.",
+          "url": "https://www.courtlistener.com/opinion/898743/hanneman-v-nygaard/",
+          "courtlistener_cluster_id": 898743
+        },
+        {
+          "case_name": "Lenton v. Lenton",
+          "citation": "2010 ND 125, 784 N.W.2d 131",
+          "court": "North Dakota Supreme Court",
+          "year": 2010,
+          "date_decided": "2010-06-30",
+          "holding": "The court affirmed a two-year domestic violence protection order, holding that domestic violence may be found on actual physical harm or on the infliction of fear of imminent physical harm, but never on fear alone of harm that might occur at some indefinite future time, and that the findings here met that standard.",
+          "relevance": "The companion source decision to Hanneman, drawing the line that a protective order cannot rest on fear of some future harm, and correcting earlier opinions that had blurred 'actual' and 'imminent' — the precise defect that produced reversal in Niska.",
+          "quote": "We emphasize that when a finding of domestic violence is based solely on fear, the fear must be of imminent physical harm.",
+          "url": "https://www.courtlistener.com/opinion/898737/lenton-v-lenton/",
+          "courtlistener_cluster_id": 898737
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22North%20Dakota%22%20AND%20%28%22North%20Dakota%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "North Dakota Department of Human Services",
         "CPS",
@@ -176,149 +218,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22North%20Dakota%22%20AND%20%28%22North%20Dakota%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "removal",
-        "emergency custody",
-        "placement",
-        "reunification",
-        "services"
-      ],
-      "jurisdiction": "North Dakota state courts",
-      "key_cases": [
-        {
-          "case_id": "20250206",
-          "title": "Matter of Hansen Trust",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2025/20250206.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20250206 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "20250378",
-          "title": "Interest of J.C. 2025 ND 217",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2025/20250378.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20250378 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of initials"
-        },
-        {
-          "case_id": "20250379",
-          "title": "Interest of S.C.Y.",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2025/20250379.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20250379 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of initials"
-        },
-        {
-          "case_id": "20250394",
-          "title": "Interest of G.S. 2025 ND 214",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2025/20250394.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20250394 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of initials"
-        },
-        {
-          "case_id": "20250395",
-          "title": "Interest of A.S. 2025 ND 214",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2025/20250395.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20250395 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of initials"
-        },
-        {
-          "case_id": "20250371",
-          "title": "Interest of A.D.-B. 2025 ND 203",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2025/20250371.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20250371 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of initials"
-        },
-        {
-          "case_id": "20250372",
-          "title": "Interest of M.D.-B. 2025 ND 203",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2025/20250372.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20250372 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of initials"
-        },
-        {
-          "case_id": "20250373",
-          "title": "Interest of C.B. 2025 ND 203",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2025/20250373.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20250373 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of initials"
-        },
-        {
-          "case_id": "20250397",
-          "title": "Interest of B.L.H. 2025 ND 207",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2025/20250397.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20250397 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of initials"
-        },
-        {
-          "case_id": "20250320",
-          "title": "Interest of M.P. 2025 ND 181",
-          "url": "https://law.justia.com/cases/north-dakota/supreme-court/2025/20250320.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Dakota Supreme Court Case 20250320 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Interest of initials"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

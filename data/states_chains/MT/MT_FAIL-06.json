@@ -142,6 +142,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Montana state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Mercer v. Montana Department of Public Health & Human Services",
+          "citation": "2025 MT 9",
+          "court": "Montana Supreme Court",
+          "year": 2025,
+          "date_decided": "2025-01-17",
+          "holding": "A mandatory preliminary injunction requiring DPHHS to disclose child abuse and neglect case records to a state legislator conducting a statutory review under § 41-3-205(4) was affirmed; the legislator had an absolute statutory right to the described records subject only to the statute's own limits, and a stipulation barring further disclosure minimized any harm to the Department.",
+          "relevance": "It is the controlling Montana decision rejecting an agency's attempt to narrow a statutory disclosure obligation for child-protection records.",
+          "quote": "This statute requires that child abuse and neglect “case records” be kept confidential but also provides for disclosure of such records upon satisfaction of statutory criteria",
+          "url": "https://www.courtlistener.com/opinion/10316885/mercer-v-dphhs/",
+          "courtlistener_cluster_id": 10316885
+        },
+        {
+          "case_name": "Shockley v. Cascade County",
+          "citation": "2014 MT 281, 376 Mont. 493, 336 P.3d 375",
+          "court": "Montana Supreme Court",
+          "year": 2014,
+          "date_decided": "2014-10-21",
+          "holding": "Any Montana citizen has standing under Article II, Section 9 to seek judicial relief for a denial of access to the documents of any Montana public body, without needing a nexus to or residence in that body's jurisdiction; the individual-privacy limitation and any confidentiality provisions remain to be applied on remand.",
+          "relevance": "It is the Montana Supreme Court's standing rule for suing over a refusal to disclose public records, subject to the individual-privacy balance.",
+          "quote": "We hold Article II, Section 9 grants a right to judicial relief to a Montana citizen alleging denial of access to a document of a Montana public body.",
+          "url": "https://www.courtlistener.com/opinion/2744364/shockley-v-cascade-county/",
+          "courtlistener_cluster_id": 2744364
+        },
+        {
+          "case_name": "In re Petition of Missoula County Public Schools",
+          "citation": "2015 MT 95, 378 Mont. 451, 345 P.3d 1035",
+          "court": "Montana Supreme Court",
+          "year": 2015,
+          "date_decided": "2015-03-31",
+          "holding": "The district court's in camera, document-by-document balancing of individual privacy against the merits of public disclosure was affirmed; investigatory documents in a public employee's personnel file were not protected where the employee occupied a position of public trust.",
+          "relevance": "It forecloses the common agency response that investigatory or personnel records are categorically exempt, and requires a fact-specific privacy balance instead.",
+          "quote": "There is no blanket exemption from the right to know for documents simply because they are contained in a personnel file.",
+          "url": "https://www.courtlistener.com/opinion/2790432/missoula-county-public-schools-v-bitterroot-star/",
+          "courtlistener_cluster_id": 2790432
+        },
+        {
+          "case_name": "Billings Gazette v. City of Billings",
+          "citation": "2013 MT 334, 372 Mont. 409, 313 P.3d 129",
+          "court": "Montana Supreme Court",
+          "year": 2013,
+          "date_decided": "2013-11-08",
+          "holding": "The order requiring the City to disclose the identities of five employees disciplined for viewing pornography on City computers was reversed: under the three-step Article II, Section 9 analysis, a public employee who holds no position of public trust and whose misconduct violated no duty requiring a high level of public trust has a reasonable expectation of privacy in his identity in internal disciplinary matters that clearly exceeds the merits of disclosure.",
+          "relevance": "It is Montana's controlling right-to-know privacy-balancing framework and the necessary caution to any transparency demand: the balance can and does come out against disclosure when the individual holds no position of public trust.",
+          "quote": "each request requires a fact specific, case-by-case analysis of the interests at issue and a balancing of the demands of individual privacy and the merits of public disclosure",
+          "url": "https://www.courtlistener.com/opinion/2641776/billings-gazette-v-city-of-billings/",
+          "courtlistener_cluster_id": 2641776
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Montana%22%20AND%20%28%22Montana%20Department%20of%20Public%20Health%20and%20Human%20Services%22%20OR%20%22DPHHS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Montana Department of Public Health and Human Services",
         "DPHHS",
@@ -153,149 +207,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Montana%22%20AND%20%28%22Montana%20Department%20of%20Public%20Health%20and%20Human%20Services%22%20OR%20%22DPHHS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "wrongful removal",
-        "1983 claim",
-        "civil rights",
-        "immunity",
-        "damages"
-      ],
-      "jurisdiction": "Montana state courts",
-      "key_cases": [
-        {
-          "case_id": "da-25-0077",
-          "title": "In re Marriage of Steinbeisser",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0077.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-25-0077 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "da-25-0386",
-          "title": "Matter of K.H. & D.H., YINC",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0386.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-25-0386 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of initials"
-        },
-        {
-          "case_id": "da-25-0073",
-          "title": "Matter of J.D.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0073.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-25-0073 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of initials"
-        },
-        {
-          "case_id": "da-25-0146",
-          "title": "In re C.M.B.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0146.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-25-0146 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "da-25-0273",
-          "title": "In re Parenting of A.M.B.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0273.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-25-0273 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "da-25-0341",
-          "title": "In re Estate of Damjanovich",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0341.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-25-0341 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "da-24-0148",
-          "title": "In re J.L.O.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-24-0148.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-24-0148 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "da-24-0187",
-          "title": "In re P.G.J.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-24-0187.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-24-0187 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "da-24-0469",
-          "title": "In re Potter Exemption Trust",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-24-0469.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-24-0469 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "da-22-0645",
-          "title": "In re T.W.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-22-0645.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-22-0645 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

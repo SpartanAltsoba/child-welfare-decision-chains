@@ -86,6 +86,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Minnesota state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Burton v. Richmond",
+          "citation": "276 F.3d 973 (8th Cir. 2002)",
+          "court": "United States Court of Appeals for the Eighth Circuit",
+          "year": 2002,
+          "date_decided": "2002-01-11",
+          "holding": "The court affirmed denial of qualified immunity to state caseworkers, holding it was clearly established that children placed in state foster custody have a substantive due process right to protection, medical care and supervision.",
+          "relevance": "It is the controlling circuit precedent for § 1983 liability of caseworkers when a child is harmed while under agency supervision.",
+          "quote": "Accordingly, we affirm the district court's denial of the Defendants' motion to dismiss based upon qualified immunity.",
+          "url": "https://www.courtlistener.com/opinion/776145/heather-burton-v-patricia-richmond/",
+          "courtlistener_cluster_id": 776145
+        },
+        {
+          "case_name": "James v. Friend",
+          "citation": "458 F.3d 726 (8th Cir. 2006)",
+          "court": "United States Court of Appeals for the Eighth Circuit",
+          "year": 2006,
+          "date_decided": "2006-08-10",
+          "holding": "The court affirmed summary judgment for child-protection workers after a foster child's death, holding their conduct did not amount to the deliberate indifference required to shock the conscience.",
+          "relevance": "It defines the deliberate-indifference threshold a family must meet to hold caseworkers liable for a child's death under supervision.",
+          "quote": "When deliberation is practical, the officials' conduct will not be found to be conscience-shocking unless the officials acted with deliberate indifference.",
+          "url": "https://www.courtlistener.com/opinion/795306/sidney-james-on-behalf-of-dominic-james-deceased-and-on-his-own-behalf-v/",
+          "courtlistener_cluster_id": 795306
+        },
+        {
+          "case_name": "In re Welfare of the Child of J.K.T.",
+          "citation": "814 N.W.2d 76 (Minn. Ct. App. 2012)",
+          "court": "Court of Appeals of Minnesota",
+          "year": 2012,
+          "date_decided": "2012-05-21",
+          "holding": "The court held that a parent's appeal from a termination order remains justiciable after the child's death because collateral consequences attach to the order, and affirmed the termination on the merits.",
+          "relevance": "It confirms that a child's death under agency involvement does not extinguish review of the agency's and court's determinations.",
+          "quote": "We conclude that collateral consequences attach to the termination order because it may affect any future termination proceedings against appellant.",
+          "url": "https://www.courtlistener.com/opinion/8280589/in-re-the-welfare-of-the-child-of-jkt/",
+          "courtlistener_cluster_id": 8280589
+        },
+        {
+          "case_name": "Radke v. County of Freeborn",
+          "citation": "694 N.W.2d 788 (Minn. 2005)",
+          "court": "Supreme Court of Minnesota",
+          "year": 2005,
+          "date_decided": "2005-04-21",
+          "holding": "Reversing the court of appeals and reinstating a wrongful-death complaint, the court held that a common-law negligence action may be maintained against a county and its child-protection workers for negligence in the investigation of, and intervention in, reports of suspected child abuse required under the Child Abuse Reporting Act.",
+          "relevance": "It is the Minnesota Supreme Court's holding that a wrongful-death negligence action lies against a county and its named child-protection workers when a child under active investigation is killed.",
+          "quote": "Accordingly, we hold that a cause of action can be maintained for negligence in the investigation of child abuse and neglect reports as required under CARA.",
+          "url": "https://www.courtlistener.com/opinion/2071545/radke-v-county-of-freeborn/",
+          "courtlistener_cluster_id": 2071545
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Minnesota%22%20AND%20%28%22Minnesota%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Minnesota Department of Human Services",
         "CPS",
@@ -97,149 +151,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Minnesota%22%20AND%20%28%22Minnesota%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "wrongful removal",
-        "1983 claim",
-        "civil rights",
-        "immunity",
-        "damages"
-      ],
-      "jurisdiction": "Minnesota state courts",
-      "key_cases": [
-        {
-          "case_id": "a24-1562",
-          "title": "In the Matter of the Petition of Minnesota Association of Residential Services Homes (MARSH) under Minn. Stat. Â§ 14.381, subd. 1, for a Declaration that the Minnesota Department of Human Services Is Enforcing Unadopted Rules",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2025/a24-1562.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a24-1562 (2025)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "minnesota department of human services"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "a24-0126",
-          "title": "In re the Matter of: Western Prairie Human Services, Respondent, Commissioner of Minnesota Department of Human Services, Respondent, vs. County of Benton, Appellant",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2024/a24-0126.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a24-0126 (2024)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "minnesota department of human services"
-          ],
-          "child_welfare_reason": "High: In re, Matter of"
-        },
-        {
-          "case_id": "a22-0367",
-          "title": "In the Matter of the Surveillance and Integrity Review Appeal by Smart Choice Health Care Corporation and Farah Jama Mohamed, Relators, vs. Minnesota Department of Human Services, Respondent",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2022/a22-0367.html",
-          "year": 2022,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a22-0367 (2022)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "minnesota department of human services"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "a20-1300",
-          "title": "In re the Matter of: Dorothy Geyen, Respondent, vs. Commissioner of Minnesota Department of Human Services, Appellant, Carver County Health and Human Services, Respondent below",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2021/a20-1300.html",
-          "year": 2021,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a20-1300 (2021)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "minnesota department of human services"
-          ],
-          "child_welfare_reason": "High: In re, Matter of"
-        },
-        {
-          "case_id": "a24-1673",
-          "title": "In the Matter of the Welfare of the Child of: B.D.D. and D.A.A.",
-          "url": "https://law.justia.com/cases/minnesota/supreme-court/2025/a24-1673.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Minnesota Supreme Court Case a24-1673 (2025)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "a25-0905",
-          "title": "In the Matter of the Welfare of the Child(ren) of: M. P. and A. P., Parents",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2025/a25-0905.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a25-0905 (2025)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "a25-0619",
-          "title": "In the Matter of: Lydia Christine Holm-Kolodiazhna and on behalf of Minor Child, petitioner, Respondent, vs. James Edwin Gordy Jr., Appellant",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2025/a25-0619.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a25-0619 (2025)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "a25-0966",
-          "title": "In the Matter of the Welfare of the Children of: C. H. G. and R. R. G., Parents",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2025/a25-0966.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a25-0966 (2025)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "a25-0981",
-          "title": "In the Matter of the Welfare of the Child(ren) of: J. L. C. R. and M. A. C. P., Parents",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2025/a25-0981.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a25-0981 (2025)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "a25-0988",
-          "title": "In the Matter of the Welfare of the Child of: K. M. S. and J. J. S., Parents",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2025/a25-0988.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a25-0988 (2025)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

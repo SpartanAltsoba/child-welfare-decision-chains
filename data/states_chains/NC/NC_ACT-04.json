@@ -161,6 +161,84 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "North Carolina state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "In re E.R.",
+          "citation": "248 N.C. App. 345, 795 S.E.2d 103 (2016)",
+          "court": "Court of Appeals of North Carolina",
+          "year": 2016,
+          "date_decided": "2016-07-19",
+          "holding": "The Court of Appeals reversed a permanency planning order awarding guardianship to non-relatives because the trial court made no findings explaining why placement with the children's paternal grandmother was not in their best interests, as N.C.G.S. § 7B-903(a1) requires, and held that ICWA compliance did not excuse those findings.",
+          "relevance": "E.R. is the leading NC authority enforcing the statutory relative-placement priority at review and permanency planning hearings.",
+          "quote": "Such concerns, however, do not obviate the need for findings of fact under N.C. Gen. Stat. § 7B-903(a1) if the court chooses a nonrelative placement for a juvenile.",
+          "url": "https://www.courtlistener.com/opinion/7477123/in-re-er/",
+          "courtlistener_cluster_id": 7477123
+        },
+        {
+          "case_name": "In re N.H.",
+          "citation": "255 N.C. App. 501, 804 S.E.2d 841 (2017)",
+          "court": "Court of Appeals of North Carolina",
+          "year": 2017,
+          "date_decided": "2017-09-19",
+          "holding": "The Court of Appeals affirmed a guardianship award, holding that the proposed guardian's sworn (if unspecific) testimony that she was willing and financially able to care for the child was competent evidence supporting the trial court's verification of adequate resources under N.C.G.S. § 7B-600(c).",
+          "relevance": "It sets the evidentiary threshold a kinship caregiver must meet before being appointed guardian.",
+          "quote": "our standard of review merely asks if there was competent evidence, even hearsay evidence, at trial to support the trial court's findings",
+          "url": "https://www.courtlistener.com/opinion/4427111/in-re-nh/",
+          "courtlistener_cluster_id": 4427111
+        },
+        {
+          "case_name": "David N. v. Jason N.",
+          "citation": "359 N.C. 303, 608 S.E.2d 751 (2005)",
+          "court": "Supreme Court of North Carolina",
+          "year": 2005,
+          "date_decided": "2005-03-04",
+          "holding": "The Supreme Court held that a trial court's finding that a parent is fit does not preclude a separate conclusion, supported by clear and convincing evidence, that the parent acted inconsistently with his constitutionally protected status, permitting custody to be shared with or given to third parties.",
+          "relevance": "It is the authority applied when kin or other third parties seek custody over a parent's objection.",
+          "quote": "a determination that a natural parent has acted in a way inconsistent with his constitutionally protected status must be supported by clear and convincing evidence",
+          "url": "https://www.courtlistener.com/opinion/1253510/david-n-v-jason-n/",
+          "courtlistener_cluster_id": 1253510
+        },
+        {
+          "case_name": "Adams v. Tessener",
+          "citation": "354 N.C. 57, 550 S.E.2d 499 (2001)",
+          "court": "Supreme Court of North Carolina",
+          "year": 2001,
+          "date_decided": "2001-08-17",
+          "holding": "The Supreme Court held that a natural parent's paramount constitutional right to custody may be displaced in favor of a third party only on clear and convincing evidence of unfitness, neglect, or conduct inconsistent with the parent's protected status, and never merely because a different placement would be better for the child.",
+          "relevance": "Awarding custody to relatives or other third parties is constitutionally constrained by the same clear and convincing standard.",
+          "quote": "The Due Process Clause ensures that the government cannot unconstitutionally infringe upon a parent's paramount right to custody solely to obtain a better result for the child.",
+          "url": "https://www.courtlistener.com/opinion/1241889/adams-v-tessener/",
+          "courtlistener_cluster_id": 1241889
+        },
+        {
+          "case_name": "Petersen v. Rogers",
+          "citation": "337 N.C. 397, 445 S.E.2d 901 (1994)",
+          "court": "Supreme Court of North Carolina",
+          "year": 1994,
+          "date_decided": "1994-07-29",
+          "holding": "The Supreme Court held that absent a finding that the parents are unfit or have neglected their child's welfare, the parents' constitutionally protected paramount right to custody, care and control prevails over the competing claim of third parties (here, former prospective adoptive parents), so the trial court could not award them custody and did not err in leaving any visitation to the parents' consent.",
+          "relevance": "Petersen is the foundational NC Supreme Court holding that relatives or other third parties cannot be given custody over a parent's objection absent unfitness or neglect, and it is the source on which Adams v. Tessener and David N. v. Jason N. are built.",
+          "quote": "absent a finding that parents (i) are unfit or (ii) have neglected the welfare of their children, the constitutionally-protected paramount right of parents to custody, care, and control of their children must prevail",
+          "url": "https://www.courtlistener.com/opinion/1310933/petersen-v-rogers/",
+          "courtlistener_cluster_id": 1310933
+        },
+        {
+          "case_name": "Troxel v. Granville",
+          "citation": "530 U.S. 57 (2000)",
+          "court": "Supreme Court of the United States",
+          "year": 2000,
+          "date_decided": "2000-06-05",
+          "holding": "The Supreme Court held that Washington's third-party visitation statute, as applied to order grandparent visitation over the objection of a mother never found unfit and without according her determination any special weight, violated her Fourteenth Amendment due process right to make decisions concerning the care, custody and control of her children.",
+          "relevance": "Troxel is the federal source of the rule Adams v. Tessener applies in North Carolina: a court may not award custody or visitation to grandparents or other third parties simply because it thinks that arrangement better for the child.",
+          "quote": "if a fit parent's decision of the kind at issue here becomes subject to judicial review, the court must accord at least some special weight to the parent's own determination",
+          "url": "https://www.courtlistener.com/opinion/1087668/troxel-v-granville/",
+          "courtlistener_cluster_id": 1087668
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22North%20Carolina%22%20AND%20%28%22North%20Carolina%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "North Carolina Department of Health and Human Services",
         "CPS",
@@ -172,149 +250,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22North%20Carolina%22%20AND%20%28%22North%20Carolina%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "removal",
-        "emergency custody",
-        "placement",
-        "reunification",
-        "services"
-      ],
-      "jurisdiction": "North Carolina state courts",
-      "key_cases": [
-        {
-          "case_id": "24-687",
-          "title": "In re: Foreclosure of a Deed of Tr. Executed by Raymond Carpenter",
-          "url": "https://law.justia.com/cases/north-carolina/court-of-appeals/2025/24-687.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "North Carolina Court Of Appeals Case 24-687 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "closure"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "240pa21",
-          "title": "In re Foreclosure of a Lien by Executive Office Park of Durham Ass'n against Rock",
-          "url": "https://law.justia.com/cases/north-carolina/supreme-court/2022/240pa21.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "North Carolina Supreme Court Case 240pa21 (2022)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "closure"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "265pa24",
-          "title": "In re A.D.H",
-          "url": "https://law.justia.com/cases/north-carolina/supreme-court/2025/265pa24.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Carolina Supreme Court Case 265pa24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "92a25",
-          "title": "In re Godfrey",
-          "url": "https://law.justia.com/cases/north-carolina/supreme-court/2025/92a25.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Carolina Supreme Court Case 92a25 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "188pa24",
-          "title": "In re E.H. & R.H.",
-          "url": "https://law.justia.com/cases/north-carolina/supreme-court/2025/188pa24.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Carolina Supreme Court Case 188pa24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "321a24",
-          "title": "In re Kimble",
-          "url": "https://law.justia.com/cases/north-carolina/supreme-court/2025/321a24.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Carolina Supreme Court Case 321a24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "168pa22",
-          "title": "Doe v. Roman Cath. Diocese",
-          "url": "https://law.justia.com/cases/north-carolina/supreme-court/2025/168pa22.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Carolina Supreme Court Case 168pa22 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        },
-        {
-          "case_id": "25-366",
-          "title": "In re: S.A.B.S",
-          "url": "https://law.justia.com/cases/north-carolina/court-of-appeals/2025/25-366.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "North Carolina Court Of Appeals Case 25-366 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "25-140",
-          "title": "In re: D.V.P",
-          "url": "https://law.justia.com/cases/north-carolina/court-of-appeals/2025/25-140.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "North Carolina Court Of Appeals Case 25-140 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "25-228",
-          "title": "In re: A.R.-B",
-          "url": "https://law.justia.com/cases/north-carolina/court-of-appeals/2025/25-228.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "North Carolina Court Of Appeals Case 25-228 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

@@ -156,6 +156,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Nebraska state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "State ex rel. Veskrna v. Steel",
+          "citation": "296 Neb. 581, 894 N.W.2d 788 (2017)",
+          "court": "Nebraska Supreme Court",
+          "year": 2017,
+          "date_decided": "2017-05-05",
+          "holding": "The court held that the requested judicial branch education records were public records under Neb. Rev. Stat. § 84-712.01 with no applicable statutory exception, and affirmed the mandamus judgment compelling their disclosure with one internal email redacted, together with costs and attorney fees.",
+          "relevance": "The decision rejects reliance on an unwritten internal confidentiality policy, which is the same defense that defeats transparency for review-panel records.",
+          "quote": "we affirm the judgment of the district court granting Veskrna access to the records found in exhibit 4, with the specified email redacted",
+          "url": "https://www.courtlistener.com/opinion/4413217/state-ex-rel-veskrna-v-steel/",
+          "courtlistener_cluster_id": 4413217
+        },
+        {
+          "case_name": "In re Interest of Jordon B.",
+          "citation": "312 Neb. 827, 981 N.W.2d 242 (2022)",
+          "court": "Nebraska Supreme Court",
+          "year": 2022,
+          "date_decided": "2022-11-04",
+          "holding": "The court held that foster parents have a statutory right to participate in review hearings but no right to intervene as parties or to appeal a placement order, and that the adult adoptive relative was not a 'sibling' entitled to intervene.",
+          "relevance": "The court describes the statutory review-hearing participation right that is the state-level analogue to independent citizen review of placements.",
+          "quote": "We conclude that as foster parents, the Todds did not have the right to intervene as parties and did not have the right to appeal the juvenile court's placement order.",
+          "url": "https://www.courtlistener.com/opinion/9343410/in-re-interest-of-jordon-b/",
+          "courtlistener_cluster_id": 9343410
+        },
+        {
+          "case_name": "Suter v. Artist M.",
+          "citation": "503 U.S. 347 (1992)",
+          "court": "Supreme Court of the United States",
+          "year": 1992,
+          "date_decided": "1992-03-25",
+          "holding": "The Court held that the Adoption Assistance and Child Welfare Act's requirement that States make 'reasonable efforts' to prevent removal and reunify families creates no privately enforceable right under § 1983 or directly under the Act.",
+          "relevance": "Citizen review panels exist in part to supply the scrutiny this decision removes from the courts.",
+          "quote": "We hold that the Act does not create an enforceable right on behalf of respondents.",
+          "url": "https://www.courtlistener.com/opinion/112712/suter-v-artist-m/",
+          "courtlistener_cluster_id": 112712
+        },
+        {
+          "case_name": "OMNI Behavioral Health v. Nebraska Foster Care Review Bd.",
+          "citation": "277 Neb. 641, 764 N.W.2d 398 (2009)",
+          "court": "Nebraska Supreme Court",
+          "year": 2009,
+          "date_decided": "2009-04-23",
+          "holding": "The court held that the State Foster Care Review Board's statutory authority under Neb. Rev. Stat. § 43-1303 to visit and observe foster care facilities is not facially unconstitutional for want of implementing regulations, and that any Fourth Amendment or state constitutional challenge to a particular home visit must be judged case by case under a reasonableness standard, affirming summary judgment for the Board.",
+          "relevance": "This is the Nebraska Supreme Court's description of the State Foster Care Review Board and its local boards — Nebraska's independent placement review bodies and the closest state analogue to a CAPTA § 5106a(c) citizen review panel — and of the visits and reporting through which they exercise that review.",
+          "quote": "any claim that a home visit by the State Board infringes upon Fourth Amendment rights, or corresponding rights under the Nebraska Constitution, must be judged by a standard of reasonableness",
+          "url": "https://www.courtlistener.com/opinion/1238826/omni-behavioral-health-v-nebraska-foster-care-review-bd/",
+          "courtlistener_cluster_id": 1238826
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Nebraska%22%20AND%20%28%22Nebraska%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Nebraska Department of Health and Human Services",
         "CPS",
@@ -167,148 +221,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Nebraska%22%20AND%20%28%22Nebraska%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "missing child",
-        "amber alert",
-        "custodial interference",
-        "parental kidnapping"
-      ],
-      "jurisdiction": "Nebraska state courts",
-      "key_cases": [
-        {
-          "case_id": "s-25-149",
-          "title": "In re Interest of Jerel S.",
-          "url": "https://law.justia.com/cases/nebraska/supreme-court/2025/s-25-149.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nebraska Supreme Court Case s-25-149 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re interest, In re, Interest of"
-        },
-        {
-          "case_id": "s-25-046",
-          "title": "In re Interest of M.S.",
-          "url": "https://law.justia.com/cases/nebraska/supreme-court/2025/s-25-046.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nebraska Supreme Court Case s-25-046 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re interest, In re, Interest of initials"
-        },
-        {
-          "case_id": "s-24-680",
-          "title": "In re Estate of Walker",
-          "url": "https://law.justia.com/cases/nebraska/supreme-court/2025/s-24-680.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nebraska Supreme Court Case s-24-680 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s-23-915",
-          "title": "In re Estate of Harchelroad",
-          "url": "https://law.justia.com/cases/nebraska/supreme-court/2025/s-23-915.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nebraska Supreme Court Case s-23-915 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s-24-251",
-          "title": "In re Guardianship of Tomas J.",
-          "url": "https://law.justia.com/cases/nebraska/supreme-court/2025/s-24-251.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nebraska Supreme Court Case s-24-251 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "s-23-848",
-          "title": "In re Estate of Guenther",
-          "url": "https://law.justia.com/cases/nebraska/supreme-court/2025/s-23-848.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nebraska Supreme Court Case s-23-848 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s-24-068",
-          "title": "In re Estate of Weeder",
-          "url": "https://law.justia.com/cases/nebraska/supreme-court/2025/s-24-068.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nebraska Supreme Court Case s-24-068 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s-23-856",
-          "title": "In re Masek Family Trust",
-          "url": "https://law.justia.com/cases/nebraska/supreme-court/2025/s-23-856.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nebraska Supreme Court Case s-23-856 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a-24-937",
-          "title": "In re Estate of Hyde",
-          "url": "https://law.justia.com/cases/nebraska/court-of-appeals/2025/a-24-937.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Nebraska Court Of Appeals Case a-24-937 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a-25-061",
-          "title": "In re Estate of Carrier",
-          "url": "https://law.justia.com/cases/nebraska/court-of-appeals/2025/a-25-061.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Nebraska Court Of Appeals Case a-25-061 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

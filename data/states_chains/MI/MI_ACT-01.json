@@ -147,6 +147,60 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Michigan state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "In re JK",
+          "citation": "468 Mich. 202, 661 N.W.2d 216 (2003)",
+          "court": "Michigan Supreme Court",
+          "year": 2003,
+          "date_decided": "2003-05-20",
+          "holding": "The Court held the trial court clearly erred in terminating the rights of a mother who had fulfilled every requirement of her parent-agency agreement, because compliance is affirmative evidence of her ability to provide proper care and custody.",
+          "relevance": "Voluntary participation in services is not neutral; Michigan law treats completion of the agreed plan as evidence of parental fitness.",
+          "quote": "the parent's compliance with the parent-agency agreement is evidence of her ability to provide proper care and custody",
+          "url": "https://www.courtlistener.com/opinion/848810/in-re-jk/",
+          "courtlistener_cluster_id": 848810
+        },
+        {
+          "case_name": "In re Hicks/Brown",
+          "citation": "No. 153786 (Mich. May 8, 2017)",
+          "court": "Michigan Supreme Court",
+          "year": 2017,
+          "date_decided": "2017-05-08",
+          "holding": "The Court vacated a termination order, holding that the Department's statutory duty to make reasonable efforts at reunification includes reasonably modifying its services to accommodate a parent's known disability under Title II of the ADA.",
+          "relevance": "Voluntary services offered to a disabled parent must be modified to be meaningful, or the state has not really offered them.",
+          "quote": "Absent reasonable modifications to the services or programs offered to a disabled parent, the Department has failed in its duty under the ADA to reasonably accommodate a disability.",
+          "url": "https://www.courtlistener.com/opinion/4389733/in-re-hicksbrown-minors/",
+          "courtlistener_cluster_id": 4389733
+        },
+        {
+          "case_name": "Smith v Williams-Ash",
+          "citation": "520 F.3d 596 (6th Cir. 2008)",
+          "court": "United States Court of Appeals for the Sixth Circuit",
+          "year": 2008,
+          "date_decided": "2008-03-26",
+          "holding": "The Sixth Circuit affirmed summary judgment for the caseworker, holding that parents who voluntarily consent to a safety plan removing their children from the home are not entitled to a pre-deprivation hearing where they never used the plan's stated mechanism to withdraw that consent.",
+          "relevance": "Voluntary services and placements keep their voluntary character only while consent lasts, and Smith places on the parent the burden of using the plan's revocation mechanism to end them.",
+          "quote": "the Smiths needed to explicitly withdraw the consent they explicitly gave, thus requiring Children's Services to either return the children or file a formal complaint against them",
+          "url": "https://www.courtlistener.com/opinion/1201271/smith-v-williams-ash/",
+          "courtlistener_cluster_id": 1201271
+        },
+        {
+          "case_name": "Schulkers v Kammer",
+          "citation": "955 F.3d 520 (6th Cir. 2020)",
+          "court": "United States Court of Appeals for the Sixth Circuit",
+          "year": 2020,
+          "date_decided": "2020-03-30",
+          "holding": "The Sixth Circuit affirmed the denial of qualified immunity on the Fourteenth Amendment claims, holding that a safety plan excuses the state from affording a parent process only where the parent's consent is voluntary and free of duress, and it reversed on the Fourth Amendment claims while holding prospectively that a social worker needs at least reasonable suspicion of abuse to conduct an in-school interview without a warrant or consent.",
+          "relevance": "Services and restrictions labeled voluntary lose that character when the agency obtains them by duress or refuses to lift them on request.",
+          "quote": "The only exception to this rule is when a parent voluntarily consents to the terms of a safety plan without duress.",
+          "url": "https://www.courtlistener.com/opinion/4520785/holly-schulkers-v-elizabeth-kammer/",
+          "courtlistener_cluster_id": 4740438
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Michigan%22%20AND%20%28%22Michigan%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Michigan Department of Health and Human Services",
         "CPS",
@@ -158,136 +212,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Michigan%22%20AND%20%28%22Michigan%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "removal",
-        "emergency custody",
-        "placement",
-        "reunification",
-        "services"
-      ],
-      "jurisdiction": "Michigan state courts",
-      "key_cases": [
-        {
-          "case_id": "167745",
-          "title": "In Re Barber/Espinoza Minors (Opinion on Application - Reverse CoA)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2025/167745.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 167745 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "165666",
-          "title": "In Re Contempt Of Kathy H Murphy (Opinion on Application - Reverse CoA)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2025/165666.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 165666 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "166509",
-          "title": "In Re Lange (Opinion on Application - Remand to TC)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2025/166509.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 166509 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "165018",
-          "title": "In Re Guardianship Of Mary Ann Malloy (Opinion on Application - Remand to TC)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2024/165018.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 165018 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "165020",
-          "title": "In Re Guardianship Of Dana Jenkins (Opinion on Application - Remand to TC)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2024/165020.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 165020 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "162260",
-          "title": "In Re Tracy E. Green, Judge (Opinion - Leave Granted)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2023/162260.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 162260 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "164311",
-          "title": "In re Parole of Richard Allen McBrayer (Opinion - Leave Granted)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2023/164311.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 164311 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "161535",
-          "title": "In Re Von Greiff Estate (Opinion on Application - Affirm CoA)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2022/161535.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 161535 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "161839-0",
-          "title": "In Re Morrow",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2022/161839-0.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 161839-0 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

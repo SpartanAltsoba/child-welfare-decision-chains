@@ -151,6 +151,84 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "North Carolina state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "In re W.B.M.",
+          "citation": "202 N.C. App. 606, 690 S.E.2d 41 (2010)",
+          "court": "Court of Appeals of North Carolina",
+          "year": 2010,
+          "date_decided": "2010-03-02",
+          "holding": "The Court of Appeals held that placement on the Responsible Individuals List deprives a person of liberty interests protected by Article I, Section 19 of the North Carolina Constitution, and that the statutory scheme was unconstitutional because it permitted listing without a pre-deprivation hearing at which the director must prove abuse or serious neglect by a preponderance of the evidence.",
+          "relevance": "This is the controlling NC authority on the due-process rights that attach when an agency substantiates abuse or serious neglect and names a responsible individual.",
+          "quote": "we hold that an individual has a right to notice and an opportunity to be heard before being placed on the RIL",
+          "url": "https://www.courtlistener.com/opinion/1405237/in-re-wbm/",
+          "courtlistener_cluster_id": 1405237
+        },
+        {
+          "case_name": "In re Montgomery",
+          "citation": "311 N.C. 101, 316 S.E.2d 246 (1984)",
+          "court": "Supreme Court of North Carolina",
+          "year": 1984,
+          "date_decided": "1984-06-05",
+          "holding": "The Supreme Court upheld the statutory neglect ground for termination and held that neglect turns on the circumstances and conditions surrounding the child rather than on parental fault, reversing the Court of Appeals' narrower construction.",
+          "relevance": "Montgomery supplies the substantive definition of neglect that an agency must satisfy to reach a founded finding.",
+          "quote": "In determining whether a child is neglected, the determinative factors are the circumstances and conditions surrounding the child, not the fault or culpability of the parent.",
+          "url": "https://www.courtlistener.com/opinion/1333701/matter-of-montgomery/",
+          "courtlistener_cluster_id": 1333701
+        },
+        {
+          "case_name": "In re S.C.R.",
+          "citation": "217 N.C. App. 166, 718 S.E.2d 709 (2011)",
+          "court": "Court of Appeals of North Carolina",
+          "year": 2011,
+          "date_decided": "2011-11-15",
+          "holding": "The Court of Appeals reversed adjudications of neglect and dependency and remanded because the trial court recited allegations rather than making its own findings linking the mother's conduct to the statutory definitions.",
+          "relevance": "The agency must prove, and the court must independently find, facts linking parental conduct to the statutory definitions.",
+          "quote": "The fact that the child has special needs does not automatically render the child dependent or neglected.",
+          "url": "https://www.courtlistener.com/opinion/8912669/in-re-scr/",
+          "courtlistener_cluster_id": 8912669
+        },
+        {
+          "case_name": "State v. Towe",
+          "citation": "366 N.C. 56, 732 S.E.2d 564 (2012)",
+          "court": "Supreme Court of North Carolina",
+          "year": 2012,
+          "date_decided": "2012-06-14",
+          "holding": "The Supreme Court held it was plain error to admit an expert's opinion that the child had in fact been sexually abused where there was no supporting physical evidence, while confirming that a properly qualified expert may testify about the characteristics of sexually abused children and whether the alleged victim exhibits them.",
+          "relevance": "It limits reliance on expert opinion that abuse occurred when no physical findings support the diagnosis, a recurring basis for substantiation.",
+          "quote": "However, if a proper foundation has been laid, an expert may testify about the characteristics of sexually abused children and whether an alleged victim exhibits such characteristics.",
+          "url": "https://www.courtlistener.com/opinion/6835782/state-v-towe/",
+          "courtlistener_cluster_id": 6835782
+        },
+        {
+          "case_name": "In re L.C.",
+          "citation": "253 N.C. App. 67, 800 S.E.2d 82 (2017)",
+          "court": "Court of Appeals of North Carolina",
+          "year": 2017,
+          "date_decided": "2017-04-18",
+          "holding": "The Court of Appeals held that a respondent parent called as a witness by DSS in an abuse, neglect, and dependency hearing is a compelled rather than voluntary witness, so her Fifth Amendment privilege remained available question by question and was violated when she was required to answer.",
+          "relevance": "Findings supporting a substantiated determination cannot rest on testimony compelled in violation of the parent's Fifth Amendment privilege.",
+          "quote": "When a witness is compelled to testify, however, her right to assert the privilege is preserved until such time as an answer to a particular question would incriminate her.",
+          "url": "https://www.courtlistener.com/opinion/4383621/in-re-lc/",
+          "courtlistener_cluster_id": 4383621
+        },
+        {
+          "case_name": "State v. Stancil",
+          "citation": "355 N.C. 266, 559 S.E.2d 788 (2002)",
+          "court": "Supreme Court of North Carolina",
+          "year": 2002,
+          "date_decided": "2002-03-07",
+          "holding": "The Supreme Court held per curiam that it was error to admit a pediatrician's opinion that the child was in fact sexually assaulted where thorough examination and testing revealed no physical evidence of abuse, though on this record the error did not rise to plain error; a properly founded expert may still testify to the profiles of sexually abused children and whether the complainant has consistent characteristics.",
+          "relevance": "It bars an agency or prosecutor from resting a determination that abuse occurred on an expert's unsupported opinion that it did, when no physical findings support the diagnosis.",
+          "quote": "absent physical evidence supporting a diagnosis of sexual abuse, such testimony is an impermissible opinion regarding the victim's credibility",
+          "url": "https://www.courtlistener.com/opinion/1337407/state-v-stancil/",
+          "courtlistener_cluster_id": 1337407
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22North%20Carolina%22%20AND%20%28%22North%20Carolina%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "North Carolina Department of Health and Human Services",
         "CPS",
@@ -162,149 +240,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22North%20Carolina%22%20AND%20%28%22North%20Carolina%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "investigation",
-        "substantiation",
-        "evidence standard",
-        "due process",
-        "reasonable efforts"
-      ],
-      "jurisdiction": "North Carolina state courts",
-      "key_cases": [
-        {
-          "case_id": "265pa24",
-          "title": "In re A.D.H",
-          "url": "https://law.justia.com/cases/north-carolina/supreme-court/2025/265pa24.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Carolina Supreme Court Case 265pa24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "92a25",
-          "title": "In re Godfrey",
-          "url": "https://law.justia.com/cases/north-carolina/supreme-court/2025/92a25.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Carolina Supreme Court Case 92a25 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "188pa24",
-          "title": "In re E.H. & R.H.",
-          "url": "https://law.justia.com/cases/north-carolina/supreme-court/2025/188pa24.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Carolina Supreme Court Case 188pa24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "321a24",
-          "title": "In re Kimble",
-          "url": "https://law.justia.com/cases/north-carolina/supreme-court/2025/321a24.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Carolina Supreme Court Case 321a24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "168pa22",
-          "title": "Doe v. Roman Cath. Diocese",
-          "url": "https://law.justia.com/cases/north-carolina/supreme-court/2025/168pa22.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "North Carolina Supreme Court Case 168pa22 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        },
-        {
-          "case_id": "25-366",
-          "title": "In re: S.A.B.S",
-          "url": "https://law.justia.com/cases/north-carolina/court-of-appeals/2025/25-366.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "North Carolina Court Of Appeals Case 25-366 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "25-140",
-          "title": "In re: D.V.P",
-          "url": "https://law.justia.com/cases/north-carolina/court-of-appeals/2025/25-140.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "North Carolina Court Of Appeals Case 25-140 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "25-228",
-          "title": "In re: A.R.-B",
-          "url": "https://law.justia.com/cases/north-carolina/court-of-appeals/2025/25-228.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "North Carolina Court Of Appeals Case 25-228 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "25-341",
-          "title": "In re: A.M.B",
-          "url": "https://law.justia.com/cases/north-carolina/court-of-appeals/2025/25-341.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "North Carolina Court Of Appeals Case 25-341 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "25-375",
-          "title": "In re: I.H., A.H., R.H",
-          "url": "https://law.justia.com/cases/north-carolina/court-of-appeals/2025/25-375.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "North Carolina Court Of Appeals Case 25-375 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

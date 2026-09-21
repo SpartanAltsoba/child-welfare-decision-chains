@@ -146,6 +146,84 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Michigan state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "In re Mason",
+          "citation": "486 Mich. 142, 782 N.W.2d 747 (2010)",
+          "court": "Michigan Supreme Court",
+          "year": 2010,
+          "date_decided": "2010-05-26",
+          "holding": "The Court reversed a termination where the incarcerated father was excluded from hearings and his rights were ended essentially because he was in prison, without the court evaluating DHS's efforts or his ability to place the children with relatives.",
+          "relevance": "A parent's willingness to place children with kin is relevant to permanency and must be weighed before rights are severed.",
+          "quote": "The mere present inability to personally care for one's children as a result of incarceration does not constitute grounds for termination.",
+          "url": "https://www.courtlistener.com/opinion/831254/in-re-mason/",
+          "courtlistener_cluster_id": 831254
+        },
+        {
+          "case_name": "In re COH",
+          "citation": "495 Mich. 184, 848 N.W.2d 107 (2014)",
+          "court": "Michigan Supreme Court",
+          "year": 2014,
+          "date_decided": "2014-04-22",
+          "holding": "The Court held that the relative-placement preference in MCL 722.954a does not apply to a post-termination guardianship determination under MCL 712A.19c(2), and that the trial court permissibly compared placement options using Child Custody Act best-interest factors.",
+          "relevance": "COH is the controlling Michigan authority on how a juvenile guardianship is selected once parental rights have been terminated.",
+          "quote": "we hold that there is no preference for placement with relatives as part of a guardianship determination under MCL 712A.19c(2)",
+          "url": "https://www.courtlistener.com/opinion/8001639/in-re-coh/",
+          "courtlistener_cluster_id": 8001639
+        },
+        {
+          "case_name": "In re Moss",
+          "citation": "301 Mich. App. 76, 836 N.W.2d 182 (2013)",
+          "court": "Michigan Court of Appeals",
+          "year": 2013,
+          "date_decided": "2013-05-09",
+          "holding": "The Court held that after a statutory ground is proved by clear and convincing evidence, the best-interest determination under MCL 712A.19b(5) need only be proved by a preponderance of the evidence, and affirmed the termination.",
+          "relevance": "Because best interests are decided by a preponderance, an alternative permanency plan such as guardianship must be weighed at that lower standard.",
+          "quote": "we hold that whether termination of parental rights is in the best interests of the child must be proved by a preponderance of the evidence",
+          "url": "https://www.courtlistener.com/opinion/8006821/in-re-moss/",
+          "courtlistener_cluster_id": 8006821
+        },
+        {
+          "case_name": "In re Olive/Metts Minors",
+          "citation": "297 Mich. App. 35, 823 N.W.2d 144 (2012)",
+          "court": "Michigan Court of Appeals",
+          "year": 2012,
+          "date_decided": "2012-06-05",
+          "holding": "The Court affirmed termination as to three children but vacated the best-interest analysis as to twins placed with a relative, holding the trial court must decide best interests for each child individually and must expressly address relative placement.",
+          "relevance": "Where a child is already with kin, the court must explain why guardianship or continued relative care is not preferable to termination.",
+          "quote": "We hold that the trial court has a duty to decide the best interests of each child individually.",
+          "url": "https://www.courtlistener.com/opinion/8006642/in-re-olivemetts-minors/",
+          "courtlistener_cluster_id": 8006642
+        },
+        {
+          "case_name": "In re Williams",
+          "citation": "501 Mich. 289, 915 N.W.2d 328 (2018)",
+          "court": "Michigan Supreme Court",
+          "year": 2018,
+          "date_decided": "2018-05-18",
+          "holding": "The Court held that a parent of an Indian child who executes a consent under MCL 712B.13 of MIFPA may withdraw it any time before a final adoption order, even in a child protective proceeding, although the department may then refile under MCL 712B.15.",
+          "relevance": "A voluntary release by the parent of an Indian child is revocable until adoption is final, which directly affects whether guardianship or adoption can be finalized.",
+          "quote": "He was therefore entitled to withdraw his consent at any time before entry of a final order of adoption.",
+          "url": "https://www.courtlistener.com/opinion/8284536/in-re-williams/",
+          "courtlistener_cluster_id": 8284536
+        },
+        {
+          "case_name": "Bowie v Arder",
+          "citation": "441 Mich. 23, 490 N.W.2d 568 (1992)",
+          "court": "Michigan Supreme Court",
+          "year": 1992,
+          "date_decided": "1992-09-22",
+          "holding": "The Court held that circuit courts have subject-matter jurisdiction over third-party custody actions under the Child Custody Act but that a third party gains no standing to seek custody merely because the child lives or once lived with him, and that a court exceeds its jurisdiction by transferring custody from a parent where there is no genuine custody dispute.",
+          "relevance": "Bowie is the threshold standing rule a Michigan relative or proposed guardian must satisfy before any court can consider giving them legal custody, and it is cited inside In re Sanders.",
+          "quote": "a third party does not gain standing to petition for custody under the act because a child resides with the third party",
+          "url": "https://www.courtlistener.com/opinion/2116959/bowie-v-arder/",
+          "courtlistener_cluster_id": 2116959
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Michigan%22%20AND%20%28%22Michigan%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Michigan Department of Health and Human Services",
         "CPS",
@@ -157,136 +235,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Michigan%22%20AND%20%28%22Michigan%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "termination of parental rights",
-        "TPR",
-        "adoption",
-        "permanency",
-        "aging out"
-      ],
-      "jurisdiction": "Michigan state courts",
-      "key_cases": [
-        {
-          "case_id": "165018",
-          "title": "In Re Guardianship Of Mary Ann Malloy (Opinion on Application - Remand to TC)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2024/165018.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 165018 (2024)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "165020",
-          "title": "In Re Guardianship Of Dana Jenkins (Opinion on Application - Remand to TC)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2024/165020.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 165020 (2024)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "167745",
-          "title": "In Re Barber/Espinoza Minors (Opinion on Application - Reverse CoA)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2025/167745.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 167745 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "165666",
-          "title": "In Re Contempt Of Kathy H Murphy (Opinion on Application - Reverse CoA)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2025/165666.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 165666 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "166509",
-          "title": "In Re Lange (Opinion on Application - Remand to TC)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2025/166509.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 166509 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "162260",
-          "title": "In Re Tracy E. Green, Judge (Opinion - Leave Granted)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2023/162260.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 162260 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "164311",
-          "title": "In re Parole of Richard Allen McBrayer (Opinion - Leave Granted)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2023/164311.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 164311 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "161535",
-          "title": "In Re Von Greiff Estate (Opinion on Application - Affirm CoA)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2022/161535.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 161535 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "161839-0",
-          "title": "In Re Morrow",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2022/161839-0.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 161839-0 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

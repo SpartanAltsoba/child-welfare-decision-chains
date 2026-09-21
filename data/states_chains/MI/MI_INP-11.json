@@ -138,6 +138,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Michigan state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "In re Morris",
+          "citation": "491 Mich. 81 (2012)",
+          "court": "Michigan Supreme Court",
+          "year": 2012,
+          "date_decided": "2012-05-04",
+          "holding": "The Court conditionally reversed for ICWA-notice violations, holding that almost any indicium of tribal membership triggers 25 USC 1912(a) notice, that a parent cannot waive the tribe's independent rights, and that the trial court must maintain a documentary record of notice and proof of service.",
+          "relevance": "Morris sets Michigan's very low threshold for ICWA notice and makes the trial court responsible for documenting that notice was actually served.",
+          "quote": "we hold that virtually any criteria on which tribal membership might be based suffices to trigger the 25 USC 1912(a) notice requirement",
+          "url": "https://www.courtlistener.com/opinion/8001634/in-re-morris/",
+          "courtlistener_cluster_id": 8001634
+        },
+        {
+          "case_name": "In re Williams",
+          "citation": "501 Mich. 289, 915 N.W.2d 328 (2018)",
+          "court": "Michigan Supreme Court",
+          "year": 2018,
+          "date_decided": "2018-05-18",
+          "holding": "The Court held that a parent of an Indian child who executes a consent under MCL 712B.13 of MIFPA may withdraw it any time before a final adoption order, even in a child protective proceeding, although the department may then refile under MCL 712B.15.",
+          "relevance": "MIFPA and ICWA apply together in Michigan, and a parent of an Indian child keeps MIFPA's withdrawal right even inside a child protective case.",
+          "quote": "He was therefore entitled to withdraw his consent at any time before entry of a final order of adoption.",
+          "url": "https://www.courtlistener.com/opinion/8284536/in-re-williams/",
+          "courtlistener_cluster_id": 8284536
+        },
+        {
+          "case_name": "In re Detmer/Beaudry",
+          "citation": "321 Mich. App. 49, 910 N.W.2d 318 (2017)",
+          "court": "Michigan Court of Appeals",
+          "year": 2017,
+          "date_decided": "2017-08-22",
+          "holding": "The Court held MIFPA's special protections applied to the child taken from the mother's care even though she was placed with a relative, and vacated for non-compliance, but held they did not apply to the sibling the mother voluntarily placed with his non-respondent father.",
+          "relevance": "Detmer defines what counts as a 'removal' that triggers MIFPA in Michigan, including a removal into relative care.",
+          "quote": "we hold that the special protections set forth in the Michigan Indian Family Preservation Act do apply to AB's removal",
+          "url": "https://www.courtlistener.com/opinion/8283550/in-re-detmerbeaudry/",
+          "courtlistener_cluster_id": 8283550
+        },
+        {
+          "case_name": "In re Payne/Pumphrey/Fortson",
+          "citation": "311 Mich. App. 49, 874 N.W.2d 205 (2015)",
+          "court": "Michigan Court of Appeals",
+          "year": 2015,
+          "date_decided": "2015-06-11",
+          "holding": "The Court reversed the termination of parental rights to two Indian children because the trial court's beyond-a-reasonable-doubt finding of likely serious harm was not supported by the qualified-expert-witness testimony ICWA and MIFPA require.",
+          "relevance": "The qualified expert witness is a mandatory component of the evidentiary finding in every Michigan ICWA/MIFPA termination.",
+          "quote": "in order to terminate parental rights to an Indian child, a trial court's \"beyond a reasonable doubt\" finding must \"contain\" or \"encompass\" testimony of a qualified expert witness",
+          "url": "https://www.courtlistener.com/opinion/8007066/in-re-paynepumphreyfortson/",
+          "courtlistener_cluster_id": 8007066
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Michigan%22%20AND%20%28%22Michigan%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Michigan Department of Health and Human Services",
         "CPS",
@@ -149,135 +203,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Michigan%22%20AND%20%28%22Michigan%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "mandatory reporting",
-        "failure to report",
-        "reporter immunity",
-        "hotline"
-      ],
-      "jurisdiction": "Michigan state courts",
-      "key_cases": [
-        {
-          "case_id": "167745",
-          "title": "In Re Barber/Espinoza Minors (Opinion on Application - Reverse CoA)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2025/167745.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 167745 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "165666",
-          "title": "In Re Contempt Of Kathy H Murphy (Opinion on Application - Reverse CoA)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2025/165666.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 165666 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "166509",
-          "title": "In Re Lange (Opinion on Application - Remand to TC)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2025/166509.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 166509 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "165018",
-          "title": "In Re Guardianship Of Mary Ann Malloy (Opinion on Application - Remand to TC)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2024/165018.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 165018 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "165020",
-          "title": "In Re Guardianship Of Dana Jenkins (Opinion on Application - Remand to TC)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2024/165020.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 165020 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "162260",
-          "title": "In Re Tracy E. Green, Judge (Opinion - Leave Granted)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2023/162260.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 162260 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "164311",
-          "title": "In re Parole of Richard Allen McBrayer (Opinion - Leave Granted)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2023/164311.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 164311 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "161535",
-          "title": "In Re Von Greiff Estate (Opinion on Application - Affirm CoA)",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2022/161535.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 161535 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "161839-0",
-          "title": "In Re Morrow",
-          "url": "https://law.justia.com/cases/michigan/supreme-court/2022/161839-0.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Michigan Supreme Court Case 161839-0 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

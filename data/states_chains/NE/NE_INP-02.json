@@ -158,6 +158,36 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Nebraska state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "In re Interest of B.B.",
+          "citation": "29 Neb. App. 1, 951 N.W.2d 526 (2020)",
+          "court": "Nebraska Court of Appeals",
+          "year": 2020,
+          "date_decided": "2020-10-13",
+          "holding": "The court held that the reporter-immunity provision of Neb. Rev. Stat. § 28-716 protects a person who makes a mandated child abuse or neglect report from civil or criminal liability but does not bar the juvenile court from acquiring jurisdiction over the reporting parent and her children under § 43-247(3)(a).",
+          "relevance": "The § 28-716 immunity the court construes runs to 'any person participating in ... the making of a report,' not only to listed professionals, which is the legal footing for voluntary third-party reports.",
+          "quote": "they are designed to compel notification of child abuse or neglect to proper authorities in order to place such children and their parents under the supervision of the juvenile court",
+          "url": "https://www.courtlistener.com/opinion/4798208/in-re-interest-of-bb/",
+          "courtlistener_cluster_id": 4798208
+        },
+        {
+          "case_name": "Shearer v. Leuenberger",
+          "citation": "256 Neb. 566, 591 N.W.2d 762 (1999)",
+          "court": "Nebraska Supreme Court",
+          "year": 1999,
+          "date_decided": "1999-04-02",
+          "holding": "The court held that the child abuse immunity provision of Neb. Rev. Stat. § 28-716 gives the Department's director and investigator state-law immunity for placing a mother's name on the Abused or Neglected Child Registry but does not reach a claim advanced under 42 U.S.C. § 1983, and affirmed dismissal because the Department and its officials in their official capacities are not 'persons' under § 1983 and the registry procedures used violated no clearly established right.",
+          "relevance": "The § 28-716 immunity the court construes runs to 'any person participating in an investigation or the making of a report,' which is the same provision that shields a non-mandated third-party reporter, and the court fixes its outer limit at maliciously false statements.",
+          "quote": "the immunity from liability under state law provided by § 28-716 does not apply to a claim advanced under federal law",
+          "url": "https://www.courtlistener.com/opinion/1313347/shearer-v-leuenberger/",
+          "courtlistener_cluster_id": 1313347
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Nebraska%22%20AND%20%28%22Nebraska%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Nebraska Department of Health and Human Services",
         "CPS",
@@ -169,148 +199,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Nebraska%22%20AND%20%28%22Nebraska%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "mandatory reporting",
-        "failure to report",
-        "reporter immunity",
-        "hotline"
-      ],
-      "jurisdiction": "Nebraska state courts",
-      "key_cases": [
-        {
-          "case_id": "s-25-149",
-          "title": "In re Interest of Jerel S.",
-          "url": "https://law.justia.com/cases/nebraska/supreme-court/2025/s-25-149.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nebraska Supreme Court Case s-25-149 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re interest, In re, Interest of"
-        },
-        {
-          "case_id": "s-25-046",
-          "title": "In re Interest of M.S.",
-          "url": "https://law.justia.com/cases/nebraska/supreme-court/2025/s-25-046.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nebraska Supreme Court Case s-25-046 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re interest, In re, Interest of initials"
-        },
-        {
-          "case_id": "s-24-680",
-          "title": "In re Estate of Walker",
-          "url": "https://law.justia.com/cases/nebraska/supreme-court/2025/s-24-680.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nebraska Supreme Court Case s-24-680 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s-23-915",
-          "title": "In re Estate of Harchelroad",
-          "url": "https://law.justia.com/cases/nebraska/supreme-court/2025/s-23-915.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nebraska Supreme Court Case s-23-915 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s-24-251",
-          "title": "In re Guardianship of Tomas J.",
-          "url": "https://law.justia.com/cases/nebraska/supreme-court/2025/s-24-251.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nebraska Supreme Court Case s-24-251 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "s-23-848",
-          "title": "In re Estate of Guenther",
-          "url": "https://law.justia.com/cases/nebraska/supreme-court/2025/s-23-848.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nebraska Supreme Court Case s-23-848 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s-24-068",
-          "title": "In re Estate of Weeder",
-          "url": "https://law.justia.com/cases/nebraska/supreme-court/2025/s-24-068.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nebraska Supreme Court Case s-24-068 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s-23-856",
-          "title": "In re Masek Family Trust",
-          "url": "https://law.justia.com/cases/nebraska/supreme-court/2025/s-23-856.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Nebraska Supreme Court Case s-23-856 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a-24-937",
-          "title": "In re Estate of Hyde",
-          "url": "https://law.justia.com/cases/nebraska/court-of-appeals/2025/a-24-937.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Nebraska Court Of Appeals Case a-24-937 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a-25-061",
-          "title": "In re Estate of Carrier",
-          "url": "https://law.justia.com/cases/nebraska/court-of-appeals/2025/a-25-061.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Nebraska Court Of Appeals Case a-25-061 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

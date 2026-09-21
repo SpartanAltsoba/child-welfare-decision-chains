@@ -140,6 +140,48 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Montana state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "Keates v. Koile",
+          "citation": "883 F.3d 1228 (9th Cir. 2018)",
+          "court": "United States Court of Appeals for the Ninth Circuit",
+          "year": 2018,
+          "date_decided": "2018-03-06",
+          "holding": "Dismissal of a mother's and daughter's familial-association claims on qualified immunity was reversed: taking a child from her mother at a hospital and continuing to detain her at a treatment center after professionals concluded she was a low suicide risk required reasonable cause to believe she faced imminent danger, and concern about the mother's lack of health insurance did not supply it.",
+          "relevance": "It is the Ninth Circuit authority on removing a child for emergency psychiatric evaluation and detaining her in a treatment center without a court order.",
+          "quote": "Lack of health insurance, by contrast, does not provide a reasonable cause to believe a child is in imminent danger.",
+          "url": "https://www.courtlistener.com/opinion/4474827/ellen-keates-v-michael-koile/",
+          "courtlistener_cluster_id": 4474827
+        },
+        {
+          "case_name": "Calabretta v. Floyd",
+          "citation": "189 F.3d 808 (9th Cir. 1999)",
+          "court": "United States Court of Appeals for the Ninth Circuit",
+          "year": 1999,
+          "date_decided": "1999-08-26",
+          "holding": "A social worker and a police officer who coerced entry into a family home to investigate an anonymous abuse report, without a warrant, consent or exigency, and who had a child's clothing removed for a visual inspection, were not entitled to qualified immunity; the administrative-search doctrine does not exempt child-protection home entries.",
+          "relevance": "It treats the visual body inspection of a child as a search requiring justification, which constrains any non-consensual examination of a child in an investigation.",
+          "quote": "Under White, appellants' claim, that “a search warrant is not required for home investigatory visits by social workers,” is simply not the law.",
+          "url": "https://www.courtlistener.com/opinion/7078750/calabretta-v-floyd/",
+          "courtlistener_cluster_id": 7078750
+        },
+        {
+          "case_name": "Wallis ex rel. Wallis v. Spencer",
+          "citation": "202 F.3d 1126 (9th Cir. 2000)",
+          "court": "United States Court of Appeals for the Ninth Circuit",
+          "year": 1999,
+          "date_decided": "1999-09-14",
+          "holding": "Summary judgment for the City was reversed in substantial part: officials may not seize children on an uncorroborated account of abuse without first pursuing reasonable avenues of investigation, and absent a reasonable concern that physical evidence will dissipate or an urgent medical problem the state must notify parents and obtain judicial approval before subjecting a seized child to an investigatory physical examination.",
+          "relevance": "It is the binding circuit authority on subjecting a seized child to an investigatory physical or medical examination, requiring parental notice and judicial approval unless evidence would dissipate or an urgent medical problem requires immediate attention.",
+          "quote": "the police cannot seize children suspected of being abused or neglected unless reasonable avenues of investigation are first pursued",
+          "url": "https://www.courtlistener.com/opinion/7079922/wallis-ex-rel-wallis-v-spencer/",
+          "courtlistener_cluster_id": 7079922
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Montana%22%20AND%20%28%22Montana%20Department%20of%20Public%20Health%20and%20Human%20Services%22%20OR%20%22DPHHS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Montana Department of Public Health and Human Services",
         "DPHHS",
@@ -151,149 +193,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Montana%22%20AND%20%28%22Montana%20Department%20of%20Public%20Health%20and%20Human%20Services%22%20OR%20%22DPHHS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "removal",
-        "emergency custody",
-        "placement",
-        "reunification",
-        "services"
-      ],
-      "jurisdiction": "Montana state courts",
-      "key_cases": [
-        {
-          "case_id": "da-25-0077",
-          "title": "In re Marriage of Steinbeisser",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0077.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-25-0077 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "da-25-0386",
-          "title": "Matter of K.H. & D.H., YINC",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0386.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-25-0386 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of initials"
-        },
-        {
-          "case_id": "da-25-0073",
-          "title": "Matter of J.D.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0073.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-25-0073 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of initials"
-        },
-        {
-          "case_id": "da-25-0146",
-          "title": "In re C.M.B.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0146.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-25-0146 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "da-25-0273",
-          "title": "In re Parenting of A.M.B.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0273.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-25-0273 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "da-25-0341",
-          "title": "In re Estate of Damjanovich",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-25-0341.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-25-0341 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "da-24-0148",
-          "title": "In re J.L.O.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-24-0148.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-24-0148 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "da-24-0187",
-          "title": "In re P.G.J.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-24-0187.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-24-0187 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "da-24-0469",
-          "title": "In re Potter Exemption Trust",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-24-0469.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-24-0469 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "da-22-0645",
-          "title": "In re T.W.",
-          "url": "https://law.justia.com/cases/montana/supreme-court/2025/da-22-0645.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Montana Supreme Court Case da-22-0645 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

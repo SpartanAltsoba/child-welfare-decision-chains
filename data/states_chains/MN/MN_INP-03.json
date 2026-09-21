@@ -88,6 +88,48 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Minnesota state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-20",
+      "key_cases": [
+        {
+          "case_name": "K.D. v. County of Crow Wing",
+          "citation": "434 F.3d 1051 (8th Cir. 2006)",
+          "court": "United States Court of Appeals for the Eighth Circuit",
+          "year": 2006,
+          "date_decided": "2006-01-18",
+          "holding": "The court held that emergency removal of a child without a court order is constitutionally permitted when continued parental custody poses an imminent threat to the child's health or welfare, and affirmed summary judgment for the Minnesota county and officers.",
+          "relevance": "The case arose from a law-enforcement encounter in Crow Wing County that led to protective custody of a child.",
+          "quote": "In cases in which continued parental custody poses an imminent threat to the child's health or welfare, emergency removal of children without a court order is constitutionally permitted.",
+          "url": "https://www.courtlistener.com/opinion/792986/kd-a-minor-through-his-mother-michelle-deason-michelle-deason/",
+          "courtlistener_cluster_id": 792986
+        },
+        {
+          "case_name": "Riehm v. Engelking",
+          "citation": "538 F.3d 952 (8th Cir. 2008)",
+          "court": "United States Court of Appeals for the Eighth Circuit",
+          "year": 2008,
+          "date_decided": "2008-08-15",
+          "holding": "The court held that a Minnesota county social worker's 72-hour protective hold of a student under an ex parte order was objectively reasonable and that the order was not so lacking in probable cause as to make reliance on it unreasonable, granting qualified immunity.",
+          "relevance": "The hold followed a coordinated school, police and county response to a student's writings.",
+          "quote": "The ex parte order was not so lacking in indicia of probable cause as to render Diercks's reliance on it unreasonable.",
+          "url": "https://www.courtlistener.com/opinion/1443178/riehm-v-engelking/",
+          "courtlistener_cluster_id": 1443178
+        },
+        {
+          "case_name": "Heartland Academy Community Church v. Waddle",
+          "citation": "427 F.3d 525 (8th Cir. 2005)",
+          "court": "United States Court of Appeals for the Eighth Circuit",
+          "year": 2005,
+          "date_decided": "2005-10-14",
+          "holding": "The court affirmed injunctive and declaratory relief, holding that the wholesale removal of boarding students on stale ex parte orders or with no order at all, absent exigent circumstances, violated the Fourth Amendment.",
+          "relevance": "It addresses a coordinated law-enforcement and child-welfare sweep and the constitutional limits on such joint action.",
+          "quote": "Waddle effected the wholesale removal of HCA's boarding students with ex parte orders or no orders at all in the absence of exigent circumstances",
+          "url": "https://www.courtlistener.com/opinion/792293/heartland-academy-community-church-v-michael-waddle/",
+          "courtlistener_cluster_id": 792293
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Minnesota%22%20AND%20%28%22Minnesota%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Minnesota Department of Human Services",
         "CPS",
@@ -99,148 +141,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Minnesota%22%20AND%20%28%22Minnesota%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "mandatory reporting",
-        "failure to report",
-        "reporter immunity",
-        "hotline"
-      ],
-      "jurisdiction": "Minnesota state courts",
-      "key_cases": [
-        {
-          "case_id": "a24-1562",
-          "title": "In the Matter of the Petition of Minnesota Association of Residential Services Homes (MARSH) under Minn. Stat. Â§ 14.381, subd. 1, for a Declaration that the Minnesota Department of Human Services Is Enforcing Unadopted Rules",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2025/a24-1562.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a24-1562 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "minnesota department of human services"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "a24-0126",
-          "title": "In re the Matter of: Western Prairie Human Services, Respondent, Commissioner of Minnesota Department of Human Services, Respondent, vs. County of Benton, Appellant",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2024/a24-0126.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a24-0126 (2024)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "minnesota department of human services"
-          ],
-          "child_welfare_reason": "High: In re, Matter of"
-        },
-        {
-          "case_id": "a22-0367",
-          "title": "In the Matter of the Surveillance and Integrity Review Appeal by Smart Choice Health Care Corporation and Farah Jama Mohamed, Relators, vs. Minnesota Department of Human Services, Respondent",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2022/a22-0367.html",
-          "year": 2022,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a22-0367 (2022)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "minnesota department of human services"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "a20-1300",
-          "title": "In re the Matter of: Dorothy Geyen, Respondent, vs. Commissioner of Minnesota Department of Human Services, Appellant, Carver County Health and Human Services, Respondent below",
-          "url": "https://law.justia.com/cases/minnesota/court-of-appeals/2021/a20-1300.html",
-          "year": 2021,
-          "court": "Court Of Appeals",
-          "citation": "Minnesota Court Of Appeals Case a20-1300 (2021)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "minnesota department of human services"
-          ],
-          "child_welfare_reason": "High: In re, Matter of"
-        },
-        {
-          "case_id": "a22-1688",
-          "title": "In the Matter of the SIRS Appeal by Best Care, LLC",
-          "url": "https://law.justia.com/cases/minnesota/supreme-court/2025/a22-1688.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Minnesota Supreme Court Case a22-1688 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "a24-0509",
-          "title": "In re Petition for Disciplinary Action Against",
-          "url": "https://law.justia.com/cases/minnesota/supreme-court/2025/a24-0509.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Minnesota Supreme Court Case a24-0509 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a24-0128",
-          "title": "In the Matter of the Civil Commitment of: Swope",
-          "url": "https://law.justia.com/cases/minnesota/supreme-court/2025/a24-0128.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Minnesota Supreme Court Case a24-0128 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "a24-1189",
-          "title": "In re Johnson Trust",
-          "url": "https://law.justia.com/cases/minnesota/supreme-court/2025/a24-1189.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Minnesota Supreme Court Case a24-1189 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a24-1673",
-          "title": "In the Matter of the Welfare of the Child of: B.D.D. and D.A.A.",
-          "url": "https://law.justia.com/cases/minnesota/supreme-court/2025/a24-1673.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Minnesota Supreme Court Case a24-1673 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "a23-0459",
-          "title": "In the Matter of the Welfare of: C.T.B",
-          "url": "https://law.justia.com/cases/minnesota/supreme-court/2025/a23-0459.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Minnesota Supreme Court Case a23-0459 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {
