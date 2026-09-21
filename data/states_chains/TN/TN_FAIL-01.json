@@ -112,6 +112,84 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Tennessee state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "Pittman v. Cuyahoga County Department of Children & Family Services",
+          "citation": "640 F.3d 716 (6th Cir. 2011)",
+          "court": "United States Court of Appeals for the Sixth Circuit",
+          "year": 2011,
+          "date_decided": "2011-05-20",
+          "holding": "The Sixth Circuit reversed the denial of immunity, holding a social worker absolutely immune for the custody complaint, supporting affidavits and recommendations she filed with the juvenile court, even against allegations that she made intentional misrepresentations.",
+          "relevance": "Shows that reversal of an agency's court filings rarely translates into damages liability for the worker.",
+          "quote": "Whether Hurry made intentional misrepresentations to the juvenile court in the complaint and affidavits does not affect the conclusion that she is entitled to absolute immunity.",
+          "url": "https://www.courtlistener.com/opinion/217073/pittman-v-cuyahoga-county-department-of-children-family-services/",
+          "courtlistener_cluster_id": 217073
+        },
+        {
+          "case_name": "M.L.B. v. S.L.J.",
+          "citation": "519 U.S. 102 (1996)",
+          "court": "Supreme Court of the United States",
+          "year": 1996,
+          "date_decided": "1996-12-16",
+          "holding": "The Supreme Court held that a State may not condition an indigent parent's appeal from a decree terminating parental rights on her ability to pay record-preparation fees.",
+          "relevance": "Removes a cost barrier that would otherwise prevent correction of erroneous termination orders on appeal.",
+          "quote": "Mississippi may not withhold from M. L. B. \"a 'record of sufficient completeness' to permit proper [appellate] consideration of [her] claims.\"",
+          "url": "https://www.courtlistener.com/opinion/9281247/m-l-b-v-s-l-j/",
+          "courtlistener_cluster_id": 9281247
+        },
+        {
+          "case_name": "In re Taylor B.W.",
+          "citation": "397 S.W.3d 105 (Tenn. 2013)",
+          "court": "Tennessee Supreme Court",
+          "year": 2013,
+          "date_decided": "2013-02-21",
+          "holding": "The court reversed termination, holding that the petitioners failed to prove by clear and convincing evidence that terminating the mother's parental rights was in the children's best interests.",
+          "relevance": "Is an appellate reversal of a termination for insufficient best-interest proof.",
+          "quote": "We conclude that Father and Stepmother failed to prove by clear and convincing evidence that termination of Mother's parental rights is in the best interests of the children.",
+          "url": "https://www.courtlistener.com/opinion/1043906/in-re-taylor-b-w/",
+          "courtlistener_cluster_id": 1043906
+        },
+        {
+          "case_name": "In re Carrington H.",
+          "citation": "483 S.W.3d 507 (Tenn. 2016)",
+          "court": "Tennessee Supreme Court",
+          "year": 2016,
+          "date_decided": "2016-01-29",
+          "holding": "The court held that due process entitles parents to fundamentally fair procedures in termination proceedings, that Tennessee's statutory right to appointed counsel plus mandatory appellate review of every ground and the best-interest finding supply that fairness, and that no collateral ineffective-assistance attack is available.",
+          "relevance": "Requires appellate courts to review all grounds and the best-interest finding even if unchallenged, which is how erroneous terminations are corrected.",
+          "quote": "We hold that parents are constitutionally entitled to fundamentally fair procedures in parental termination proceedings.",
+          "url": "https://www.courtlistener.com/opinion/3173639/in-re-carrington-h/",
+          "courtlistener_cluster_id": 3173639
+        },
+        {
+          "case_name": "Fitzpatrick v. Tennessee Department of Children's Services",
+          "citation": "No. M2013-00823-COA-R3-CV (Tenn. Ct. App. Mar. 18, 2014)",
+          "court": "Court of Appeals of Tennessee",
+          "year": 2014,
+          "date_decided": "2014-03-18",
+          "holding": "Reviewing DCS's classification of foster parents as indicated perpetrators of neglect, the court held they received the fundamentally fair procedures due process requires through the file review and contested administrative hearing, affirmed the lack-of-supervision indication, and remanded on attorney's fees for the reversed environmental-neglect indication.",
+          "relevance": "Demonstrates judicial and administrative reversal of an erroneous agency classification.",
+          "quote": "Procedural due process requires a government entity to employ fundamentally fair procedures whenever it acts to deprive a person of a right to or interest in life, liberty, or property.",
+          "url": "https://www.courtlistener.com/opinion/2669670/jeff-and-melissa-fitzpatrick-v-state-of-tennessee-department-of/",
+          "courtlistener_cluster_id": 2669670
+        },
+        {
+          "case_name": "In re Angela E.",
+          "citation": "303 S.W.3d 240 (Tenn. 2010)",
+          "court": "Tennessee Supreme Court",
+          "year": 2010,
+          "date_decided": "2010-02-16",
+          "holding": "The court reversed and remanded for a new hearing, holding that a termination order must contain the findings of fact and conclusions of law required by Tenn. Code Ann. sec. 36-1-113(c) and (k) even where the parent consents, and that an appellate court cannot review the decision without them.",
+          "relevance": "Is the Tennessee Supreme Court authority requiring reversal and remand when a termination order omits the statutory findings, the most common route to correcting a defective order.",
+          "quote": "We may not conduct de novo review of the termination decision in the absence of such findings.",
+          "url": "https://www.courtlistener.com/opinion/1057633/in-re-angela-e/",
+          "courtlistener_cluster_id": 1057633
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Tennessee%22%20AND%20%28%22Tennessee%20Department%20of%20Children%27s%20Services%22%20OR%20%22DCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Tennessee Department of Children's Services",
         "DCS",
@@ -123,149 +201,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Tennessee%22%20AND%20%28%22Tennessee%20Department%20of%20Children%27s%20Services%22%20OR%20%22DCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "wrongful removal",
-        "1983 claim",
-        "civil rights",
-        "immunity",
-        "damages"
-      ],
-      "jurisdiction": "Tennessee state courts",
-      "key_cases": [
-        {
-          "case_id": "m2024-00474-cca-r3-co",
-          "title": "State of Tennessee v. Nathaniel Buchanan, In Re: McAdoo Bonding Company, Surety",
-          "url": "https://law.justia.com/cases/tennessee/court-of-criminal-appeals/2025/m2024-00474-cca-r3-co.html",
-          "year": 2025,
-          "court": "Court Of Criminal Appeals",
-          "citation": "Tennessee Court Of Criminal Appeals Case m2024-00474-cca-r3-co (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "m2024-00797-coa-r9-jv",
-          "title": "In Re Markus E.",
-          "url": "https://law.justia.com/cases/tennessee/court-of-criminal-appeals/2025/m2024-00797-coa-r9-jv.html",
-          "year": 2025,
-          "court": "Court Of Criminal Appeals",
-          "citation": "Tennessee Court Of Criminal Appeals Case m2024-00797-coa-r9-jv (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "w2024-01063-cca-r3-cd",
-          "title": "In Re: Tennessee Bonding Company, Inc., d/b/a Action Bail Bonding",
-          "url": "https://law.justia.com/cases/tennessee/court-of-criminal-appeals/2025/w2024-01063-cca-r3-cd.html",
-          "year": 2025,
-          "court": "Court Of Criminal Appeals",
-          "citation": "Tennessee Court Of Criminal Appeals Case w2024-01063-cca-r3-cd (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "m2024-01260-coa-r3-pt",
-          "title": "In Re Taron H.",
-          "url": "https://law.justia.com/cases/tennessee/court-of-criminal-appeals/2025/m2024-01260-coa-r3-pt.html",
-          "year": 2025,
-          "court": "Court Of Criminal Appeals",
-          "citation": "Tennessee Court Of Criminal Appeals Case m2024-01260-coa-r3-pt (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "w2024-00425-cca-r3-cd",
-          "title": "In Re Ann Blankenship (d/b/a Ann Blankenship Bonding)",
-          "url": "https://law.justia.com/cases/tennessee/court-of-criminal-appeals/2025/w2024-00425-cca-r3-cd.html",
-          "year": 2025,
-          "court": "Court Of Criminal Appeals",
-          "citation": "Tennessee Court Of Criminal Appeals Case w2024-00425-cca-r3-cd (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "m2024-00972-cca-r3-co",
-          "title": "In Re Bail U Out Bonding",
-          "url": "https://law.justia.com/cases/tennessee/court-of-criminal-appeals/2025/m2024-00972-cca-r3-co.html",
-          "year": 2025,
-          "court": "Court Of Criminal Appeals",
-          "citation": "Tennessee Court Of Criminal Appeals Case m2024-00972-cca-r3-co (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "e2025-00486-coa-r3-pt",
-          "title": "IN RE MAISYNN Y.",
-          "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2025/e2025-00486-coa-r3-pt.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Tennessee Court Of Appeals Case e2025-00486-coa-r3-pt (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "m2024-01421-coa-r3-pt",
-          "title": "In Re Ka'Myiah M. et al.",
-          "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2025/m2024-01421-coa-r3-pt.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Tennessee Court Of Appeals Case m2024-01421-coa-r3-pt (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "w2025-00474-coa-r3-pt",
-          "title": "In Re Arlo L.",
-          "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2025/w2025-00474-coa-r3-pt.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Tennessee Court Of Appeals Case w2025-00474-coa-r3-pt (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "e2024-01574-coa-r3-pt",
-          "title": "IN RE LINCOLN S. ET AL.",
-          "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2025/e2024-01574-coa-r3-pt.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Tennessee Court Of Appeals Case e2024-01574-coa-r3-pt (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

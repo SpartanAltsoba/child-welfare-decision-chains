@@ -95,6 +95,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Tennessee state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "Pittman v. Cuyahoga County Department of Children & Family Services",
+          "citation": "640 F.3d 716 (6th Cir. 2011)",
+          "court": "United States Court of Appeals for the Sixth Circuit",
+          "year": 2011,
+          "date_decided": "2011-05-20",
+          "holding": "The Sixth Circuit reversed the denial of immunity, holding a social worker absolutely immune for the custody complaint, supporting affidavits and recommendations she filed with the juvenile court, even against allegations that she made intentional misrepresentations.",
+          "relevance": "Limits the damages remedy against caseworkers whose court submissions preceded a bad outcome.",
+          "quote": "Whether Hurry made intentional misrepresentations to the juvenile court in the complaint and affidavits does not affect the conclusion that she is entitled to absolute immunity.",
+          "url": "https://www.courtlistener.com/opinion/217073/pittman-v-cuyahoga-county-department-of-children-family-services/",
+          "courtlistener_cluster_id": 217073
+        },
+        {
+          "case_name": "DeShaney v. Winnebago County Department of Social Services",
+          "citation": "489 U.S. 189 (1989)",
+          "court": "Supreme Court of the United States",
+          "year": 1989,
+          "date_decided": "1989-02-22",
+          "holding": "The Supreme Court held that the Due Process Clause imposes no affirmative duty on a State to protect a child from private violence, so county social workers were not liable for failing to remove a child they knew was being abused.",
+          "relevance": "Sets the constitutional limit on section 1983 claims arising from a child's death under agency supervision.",
+          "quote": "nothing in the language of the Due Process Clause itself requires the State to protect the life, liberty, and property of its citizens against invasion by private actors",
+          "url": "https://www.courtlistener.com/opinion/112202/deshaney-v-winnebago-county-department-of-social-services/",
+          "courtlistener_cluster_id": 112202
+        },
+        {
+          "case_name": "Draper v. Westerfield",
+          "citation": "181 S.W.3d 283 (Tenn. 2005)",
+          "court": "Tennessee Supreme Court",
+          "year": 2005,
+          "date_decided": "2005-10-12",
+          "holding": "In a wrongful-death action arising from a fatal child abuse case, the court held that the reporting statute's immunity under Tenn. Code Ann. sec. 37-1-410(a) protects only persons who actually make a report of harm, and that the physician who did not report was not immune.",
+          "relevance": "Supplies Tennessee's rule on immunity in litigation following a child's death after an unreported disclosure.",
+          "quote": "immunity under Tennessee Code Annotated section 37-1-410(a) is afforded only to those who actually report harm",
+          "url": "https://www.courtlistener.com/opinion/1058197/draper-v-westerfield/",
+          "courtlistener_cluster_id": 1058197
+        },
+        {
+          "case_name": "Holloway v. Brush",
+          "citation": "220 F.3d 767 (6th Cir. 2000) (en banc)",
+          "court": "United States Court of Appeals for the Sixth Circuit",
+          "year": 2000,
+          "date_decided": "2000-07-31",
+          "holding": "Sitting en banc, the Sixth Circuit reversed the grant of absolute immunity to a caseworker sued for concealing from the juvenile court that the mother wished to assert her parental rights, holding that absolute immunity reaches only functions performed as a legal advocate, while affirming judgment for the county.",
+          "relevance": "Supplies the test a family must satisfy to reach a caseworker in damages for conduct outside her advocacy role.",
+          "quote": "absolute immunity extends to social workers only when they are acting in the capacity of legal advocates",
+          "url": "https://www.courtlistener.com/opinion/769670/sammye-r-holloway-v-sally-brush-clermont-county-ohio/",
+          "courtlistener_cluster_id": 769670
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Tennessee%22%20AND%20%28%22Tennessee%20Department%20of%20Children%27s%20Services%22%20OR%20%22DCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Tennessee Department of Children's Services",
         "DCS",
@@ -106,149 +160,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Tennessee%22%20AND%20%28%22Tennessee%20Department%20of%20Children%27s%20Services%22%20OR%20%22DCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "wrongful removal",
-        "1983 claim",
-        "civil rights",
-        "immunity",
-        "damages"
-      ],
-      "jurisdiction": "Tennessee state courts",
-      "key_cases": [
-        {
-          "case_id": "e2022-00897-coa-r3-cv",
-          "title": "In Re Estate of Martha Maxine Childress",
-          "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2023/e2022-00897-coa-r3-cv.html",
-          "year": 2023,
-          "court": "Court Of Appeals",
-          "citation": "Tennessee Court Of Appeals Case e2022-00897-coa-r3-cv (2023)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "m2024-00474-cca-r3-co",
-          "title": "State of Tennessee v. Nathaniel Buchanan, In Re: McAdoo Bonding Company, Surety",
-          "url": "https://law.justia.com/cases/tennessee/court-of-criminal-appeals/2025/m2024-00474-cca-r3-co.html",
-          "year": 2025,
-          "court": "Court Of Criminal Appeals",
-          "citation": "Tennessee Court Of Criminal Appeals Case m2024-00474-cca-r3-co (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "m2024-00797-coa-r9-jv",
-          "title": "In Re Markus E.",
-          "url": "https://law.justia.com/cases/tennessee/court-of-criminal-appeals/2025/m2024-00797-coa-r9-jv.html",
-          "year": 2025,
-          "court": "Court Of Criminal Appeals",
-          "citation": "Tennessee Court Of Criminal Appeals Case m2024-00797-coa-r9-jv (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "w2024-01063-cca-r3-cd",
-          "title": "In Re: Tennessee Bonding Company, Inc., d/b/a Action Bail Bonding",
-          "url": "https://law.justia.com/cases/tennessee/court-of-criminal-appeals/2025/w2024-01063-cca-r3-cd.html",
-          "year": 2025,
-          "court": "Court Of Criminal Appeals",
-          "citation": "Tennessee Court Of Criminal Appeals Case w2024-01063-cca-r3-cd (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "m2024-01260-coa-r3-pt",
-          "title": "In Re Taron H.",
-          "url": "https://law.justia.com/cases/tennessee/court-of-criminal-appeals/2025/m2024-01260-coa-r3-pt.html",
-          "year": 2025,
-          "court": "Court Of Criminal Appeals",
-          "citation": "Tennessee Court Of Criminal Appeals Case m2024-01260-coa-r3-pt (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "w2024-00425-cca-r3-cd",
-          "title": "In Re Ann Blankenship (d/b/a Ann Blankenship Bonding)",
-          "url": "https://law.justia.com/cases/tennessee/court-of-criminal-appeals/2025/w2024-00425-cca-r3-cd.html",
-          "year": 2025,
-          "court": "Court Of Criminal Appeals",
-          "citation": "Tennessee Court Of Criminal Appeals Case w2024-00425-cca-r3-cd (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "m2024-00972-cca-r3-co",
-          "title": "In Re Bail U Out Bonding",
-          "url": "https://law.justia.com/cases/tennessee/court-of-criminal-appeals/2025/m2024-00972-cca-r3-co.html",
-          "year": 2025,
-          "court": "Court Of Criminal Appeals",
-          "citation": "Tennessee Court Of Criminal Appeals Case m2024-00972-cca-r3-co (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "e2025-00486-coa-r3-pt",
-          "title": "IN RE MAISYNN Y.",
-          "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2025/e2025-00486-coa-r3-pt.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Tennessee Court Of Appeals Case e2025-00486-coa-r3-pt (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "m2024-01421-coa-r3-pt",
-          "title": "In Re Ka'Myiah M. et al.",
-          "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2025/m2024-01421-coa-r3-pt.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Tennessee Court Of Appeals Case m2024-01421-coa-r3-pt (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "w2025-00474-coa-r3-pt",
-          "title": "In Re Arlo L.",
-          "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2025/w2025-00474-coa-r3-pt.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Tennessee Court Of Appeals Case w2025-00474-coa-r3-pt (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

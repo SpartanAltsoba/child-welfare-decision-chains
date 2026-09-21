@@ -96,6 +96,84 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Tennessee state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "Rippy ex rel. Rippy v. Hattaway",
+          "citation": "270 F.3d 416 (6th Cir. 2001)",
+          "court": "United States Court of Appeals for the Sixth Circuit",
+          "year": 2001,
+          "date_decided": "2001-11-02",
+          "holding": "In a suit against Tennessee DCS officials, the Sixth Circuit reversed the denial of qualified immunity, holding that the plaintiffs had not identified a particularized, clearly established right that the challenged custody procedures violated.",
+          "relevance": "Sets the particularity a Tennessee plaintiff must show to overcome qualified immunity in a DCS custody case.",
+          "quote": "a plaintiff overcomes a qualified immunity defense only by identifying a particularized, clearly established right that is violated by the promulgation and enforcement of specified procedures",
+          "url": "https://www.courtlistener.com/opinion/775423/travis-rippy-by-next-friend-aaron-and-janet-rippy-aaron-rippy-and/",
+          "courtlistener_cluster_id": 775423
+        },
+        {
+          "case_name": "Eidson v. Tennessee Department of Children's Services",
+          "citation": "510 F.3d 631 (6th Cir. 2007)",
+          "court": "United States Court of Appeals for the Sixth Circuit",
+          "year": 2007,
+          "date_decided": "2007-12-20",
+          "holding": "The Sixth Circuit affirmed dismissal of a father's section 1983 claims against Tennessee DCS as time-barred, holding the claims accrued at the initial removal, that continued custody was not a continuing violation, and that Heck does not delay accrual in the pre-conviction setting.",
+          "relevance": "Supplies the one-year Tennessee limitations rule and accrual date that control wrongful-removal suits in this circuit.",
+          "quote": "the rule of Heck does not apply in the pre-conviction setting to delay accrual of plaintiffs due process cause of action",
+          "url": "https://www.courtlistener.com/opinion/1390209/eidson-v-tennessee-department-of-childrens-services/",
+          "courtlistener_cluster_id": 1390209
+        },
+        {
+          "case_name": "Andrews v. Hickman County",
+          "citation": "700 F.3d 845 (6th Cir. 2012)",
+          "court": "United States Court of Appeals for the Sixth Circuit",
+          "year": 2012,
+          "date_decided": "2012-12-03",
+          "holding": "In a Tennessee case, the Sixth Circuit held that social workers are bound by the Fourth Amendment's warrant requirement when entering a home to investigate, that the plaintiffs alleged a violation, but that the social workers were entitled to qualified immunity because the right was not clearly established in 2008; the deputy's denial of immunity was affirmed.",
+          "relevance": "Is the controlling Sixth Circuit authority that a warrantless CPS home entry violates the Fourth Amendment.",
+          "quote": "we agree that a social worker, like other state officers, is governed by the Fourth Amendment's warrant requirement",
+          "url": "https://www.courtlistener.com/opinion/812950/robert-andrews-v-hickman-county-tennessee/",
+          "courtlistener_cluster_id": 812950
+        },
+        {
+          "case_name": "Kovacic v. Cuyahoga County Department of Children & Family Services",
+          "citation": "724 F.3d 687 (6th Cir. 2013)",
+          "court": "United States Court of Appeals for the Sixth Circuit",
+          "year": 2013,
+          "date_decided": "2013-07-31",
+          "holding": "The Sixth Circuit affirmed denial of absolute and qualified immunity to social workers who removed children without a warrant, holding it was clearly established by 2002 that the Fourth Amendment's warrant requirement and its exigency exception apply to child removals.",
+          "relevance": "Holds that caseworkers lose immunity for warrantless removals absent exigent circumstances.",
+          "quote": "it was clearly established that Fourth Amendment warrant requirements, including the exigent-circumstances exception, apply to the removal of children from their homes by social workers",
+          "url": "https://www.courtlistener.com/opinion/1035935/kovacic-v-cuyahoga-county-department-of-children-family-services/",
+          "courtlistener_cluster_id": 1035935
+        },
+        {
+          "case_name": "State v. Meeks",
+          "citation": "262 S.W.3d 710 (Tenn. 2008)",
+          "court": "Tennessee Supreme Court",
+          "year": 2008,
+          "date_decided": "2008-09-02",
+          "holding": "The court held the warrantless entry lawful, setting out Tennessee's exigent-circumstances test: whether the circumstances gave rise to an objectively reasonable belief of a compelling need to act with insufficient time to obtain a warrant.",
+          "relevance": "Provides the state-law benchmark against which a warrantless entry preceding removal is measured.",
+          "quote": "the inquiry is whether the circumstances give rise to an objectively reasonable belief that there was a compelling need to act and insufficient time to obtain a warrant",
+          "url": "https://www.courtlistener.com/opinion/1057727/state-v-meeks/",
+          "courtlistener_cluster_id": 1057727
+        },
+        {
+          "case_name": "Stanley v. Illinois",
+          "citation": "405 U.S. 645 (1972)",
+          "court": "Supreme Court of the United States",
+          "year": 1972,
+          "date_decided": "1972-04-03",
+          "holding": "The Supreme Court reversed, holding that Illinois could not presume an unwed father unfit and take his children as dependents without any hearing on his fitness, because due process requires such a hearing before removal and equal protection forbids withholding it from one class of parents.",
+          "relevance": "Supplies the due-process baseline against which a removal accomplished with no hearing and no emergency is measured.",
+          "quote": "We have concluded that all Illinois parents are constitutionally entitled to a hearing on their fitness before their children are removed from their custody.",
+          "url": "https://www.courtlistener.com/opinion/108497/stanley-v-illinois/",
+          "courtlistener_cluster_id": 108497
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Tennessee%22%20AND%20%28%22Tennessee%20Department%20of%20Children%27s%20Services%22%20OR%20%22DCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Tennessee Department of Children's Services",
         "DCS",
@@ -107,149 +185,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Tennessee%22%20AND%20%28%22Tennessee%20Department%20of%20Children%27s%20Services%22%20OR%20%22DCS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "wrongful removal",
-        "1983 claim",
-        "civil rights",
-        "immunity",
-        "damages"
-      ],
-      "jurisdiction": "Tennessee state courts",
-      "key_cases": [
-        {
-          "case_id": "m2024-00474-cca-r3-co",
-          "title": "State of Tennessee v. Nathaniel Buchanan, In Re: McAdoo Bonding Company, Surety",
-          "url": "https://law.justia.com/cases/tennessee/court-of-criminal-appeals/2025/m2024-00474-cca-r3-co.html",
-          "year": 2025,
-          "court": "Court Of Criminal Appeals",
-          "citation": "Tennessee Court Of Criminal Appeals Case m2024-00474-cca-r3-co (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "m2024-00797-coa-r9-jv",
-          "title": "In Re Markus E.",
-          "url": "https://law.justia.com/cases/tennessee/court-of-criminal-appeals/2025/m2024-00797-coa-r9-jv.html",
-          "year": 2025,
-          "court": "Court Of Criminal Appeals",
-          "citation": "Tennessee Court Of Criminal Appeals Case m2024-00797-coa-r9-jv (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "w2024-01063-cca-r3-cd",
-          "title": "In Re: Tennessee Bonding Company, Inc., d/b/a Action Bail Bonding",
-          "url": "https://law.justia.com/cases/tennessee/court-of-criminal-appeals/2025/w2024-01063-cca-r3-cd.html",
-          "year": 2025,
-          "court": "Court Of Criminal Appeals",
-          "citation": "Tennessee Court Of Criminal Appeals Case w2024-01063-cca-r3-cd (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "m2024-01260-coa-r3-pt",
-          "title": "In Re Taron H.",
-          "url": "https://law.justia.com/cases/tennessee/court-of-criminal-appeals/2025/m2024-01260-coa-r3-pt.html",
-          "year": 2025,
-          "court": "Court Of Criminal Appeals",
-          "citation": "Tennessee Court Of Criminal Appeals Case m2024-01260-coa-r3-pt (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "w2024-00425-cca-r3-cd",
-          "title": "In Re Ann Blankenship (d/b/a Ann Blankenship Bonding)",
-          "url": "https://law.justia.com/cases/tennessee/court-of-criminal-appeals/2025/w2024-00425-cca-r3-cd.html",
-          "year": 2025,
-          "court": "Court Of Criminal Appeals",
-          "citation": "Tennessee Court Of Criminal Appeals Case w2024-00425-cca-r3-cd (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "m2024-00972-cca-r3-co",
-          "title": "In Re Bail U Out Bonding",
-          "url": "https://law.justia.com/cases/tennessee/court-of-criminal-appeals/2025/m2024-00972-cca-r3-co.html",
-          "year": 2025,
-          "court": "Court Of Criminal Appeals",
-          "citation": "Tennessee Court Of Criminal Appeals Case m2024-00972-cca-r3-co (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "e2025-00486-coa-r3-pt",
-          "title": "IN RE MAISYNN Y.",
-          "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2025/e2025-00486-coa-r3-pt.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Tennessee Court Of Appeals Case e2025-00486-coa-r3-pt (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "m2024-01421-coa-r3-pt",
-          "title": "In Re Ka'Myiah M. et al.",
-          "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2025/m2024-01421-coa-r3-pt.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Tennessee Court Of Appeals Case m2024-01421-coa-r3-pt (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "w2025-00474-coa-r3-pt",
-          "title": "In Re Arlo L.",
-          "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2025/w2025-00474-coa-r3-pt.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Tennessee Court Of Appeals Case w2025-00474-coa-r3-pt (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "e2024-01574-coa-r3-pt",
-          "title": "IN RE LINCOLN S. ET AL.",
-          "url": "https://law.justia.com/cases/tennessee/court-of-appeals/2025/e2024-01574-coa-r3-pt.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Tennessee Court Of Appeals Case e2024-01574-coa-r3-pt (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {
