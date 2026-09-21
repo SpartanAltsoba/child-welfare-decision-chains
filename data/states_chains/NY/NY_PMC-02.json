@@ -120,6 +120,48 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "New York state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "Mark G. v. Sabol",
+          "citation": "93 N.Y.2d 710, 717 N.E.2d 1067, 695 N.Y.S.2d 730 (1999)",
+          "court": "New York Court of Appeals",
+          "year": 1999,
+          "date_decided": "1999-08-31",
+          "holding": "The Court held that no private right of action for money damages may be implied from title 4 or title 6 of article 6 of the Social Services Law for a child-welfare agency's failure to provide statutorily mandated services, because the Legislature enacted a comprehensive enforcement scheme centered on monitoring and loss of State reimbursement.",
+          "relevance": "Loss of State reimbursement to non-compliant local districts is the fiscal accountability mechanism the Court found exclusive.",
+          "quote": "Recognition of such a private right of action under title 4 would not be consistent with the legislative scheme",
+          "url": "https://www.courtlistener.com/opinion/2165417/mark-g-v-sabol/",
+          "courtlistener_cluster_id": 2165417
+        },
+        {
+          "case_name": "Marisol A. v. Giuliani",
+          "citation": "126 F.3d 372 (2d Cir. 1997)",
+          "court": "United States Court of Appeals for the Second Circuit",
+          "year": 1997,
+          "date_decided": "1997-09-26",
+          "holding": "The Second Circuit affirmed certification of a Rule 23(b)(2) class of children in or at risk of entering New York City's child welfare system challenging systemic failures, while directing the district court to refine the class into subclasses before trial.",
+          "relevance": "Court-supervised structural relief provides the audit-like accounting that the statutory scheme alone does not compel.",
+          "quote": "we hold that the district court did not abuse its discretion by certifying the class at this point in the litigation",
+          "url": "https://www.courtlistener.com/opinion/746860/marisol-v-giuliani/",
+          "courtlistener_cluster_id": 746860
+        },
+        {
+          "case_name": "Elisa W. v. City of New York",
+          "citation": "82 F.4th 115 (2d Cir. 2023)",
+          "court": "United States Court of Appeals for the Second Circuit",
+          "year": 2023,
+          "date_decided": "2023-09-19",
+          "holding": "The Second Circuit vacated the denial of class certification to children in New York City foster care alleging systemic deficiencies, holding that the district court applied an incorrect legal framework to commonality and typicality, and remanded for reconsideration of the class and subclasses.",
+          "relevance": "It keeps open the principal judicial mechanism for compelled system-wide accounting in New York City.",
+          "quote": "The district court erred in its analysis of commonality and typicality under Rule 23",
+          "url": "https://www.courtlistener.com/opinion/9426937/elisa-w-v-city-of-new-york/",
+          "courtlistener_cluster_id": 9426937
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22New%20York%22%20AND%20%28%22New%20York%20State%20Office%20of%20Children%20and%20Family%20Services%22%20OR%20%22OCFS%22%20OR%20%22Administration%20for%20Children%27s%20Services%22%20OR%20%22ACS%22%20OR%20%22CPS%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "New York State Office of Children and Family Services",
         "OCFS",
@@ -131,148 +173,7 @@
         "42 U.S.C. 1983",
         "reasonable efforts",
         "reunification"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22New%20York%22%20AND%20%28%22New%20York%20State%20Office%20of%20Children%20and%20Family%20Services%22%20OR%20%22OCFS%22%20OR%20%22Administration%20for%20Children%27s%20Services%22%20OR%20%22ACS%22%20OR%20%22CPS%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "missing child",
-        "amber alert",
-        "custodial interference",
-        "parental kidnapping"
-      ],
-      "jurisdiction": "New York state courts",
-      "key_cases": [
-        {
-          "case_id": "111",
-          "title": "Matter of Mantilla v New York City Dept. of Hous. Preserv. & Dev.",
-          "url": "https://law.justia.com/cases/new-york/court-of-appeals/2025/111.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New York Court Of Appeals Case 111 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "131",
-          "title": "Matter of Miller",
-          "url": "https://law.justia.com/cases/new-york/court-of-appeals/2025/131.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New York Court Of Appeals Case 131 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "128-ssm-3",
-          "title": "Matter of Jensen v Commissioner of Labor",
-          "url": "https://law.justia.com/cases/new-york/court-of-appeals/2025/128-ssm-3.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New York Court Of Appeals Case 128-ssm-3 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "129-ssm-5",
-          "title": "Matter of Carmody (Commissioner of Labor)",
-          "url": "https://law.justia.com/cases/new-york/court-of-appeals/2025/129-ssm-5.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New York Court Of Appeals Case 129-ssm-5 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "85",
-          "title": "Matter of Parker J.",
-          "url": "https://law.justia.com/cases/new-york/court-of-appeals/2025/85.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New York Court Of Appeals Case 85 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "69",
-          "title": "Matter of First United Methodist Church in Flushing v Assessor, Town of Callicoon",
-          "url": "https://law.justia.com/cases/new-york/court-of-appeals/2025/69.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New York Court Of Appeals Case 69 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "88",
-          "title": "Matter of McLaurin v New York City Tr. Auth.",
-          "url": "https://law.justia.com/cases/new-york/court-of-appeals/2025/88.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New York Court Of Appeals Case 88 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "92",
-          "title": "Matter of Aungst v Family Dollar",
-          "url": "https://law.justia.com/cases/new-york/court-of-appeals/2025/92.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New York Court Of Appeals Case 92 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "93",
-          "title": "Matter of Garcia v WTC Volunteer",
-          "url": "https://law.justia.com/cases/new-york/court-of-appeals/2025/93.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New York Court Of Appeals Case 93 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "68",
-          "title": "In re K.Y.Z. (W.Z.)",
-          "url": "https://law.justia.com/cases/new-york/court-of-appeals/2025/68.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New York Court Of Appeals Case 68 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

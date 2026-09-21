@@ -88,6 +88,48 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Oregon state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "Humphries v. County of Los Angeles",
+          "citation": "554 F.3d 1170 (9th Cir. 2009)",
+          "court": "United States Court of Appeals for the Ninth Circuit",
+          "year": 2009,
+          "date_decided": "2009-01-30",
+          "holding": "The court held that maintaining a child abuse central index of 'substantiated' abusers, with no meaningful procedure to challenge a listing, deprives listed persons of a stigma-plus liberty interest without due process.",
+          "relevance": "This is the controlling circuit authority on the due process owed before and after a person is recorded as a substantiated child abuser in a state registry.",
+          "quote": "We conclude that there is a substantial risk that individuals will be erroneously listed on the CACI, and that California offers insufficient means for correcting those errors.",
+          "url": "https://www.courtlistener.com/opinion/1276651/humphries-v-county-of-los-angeles/",
+          "courtlistener_cluster_id": 1276651
+        },
+        {
+          "case_name": "Kasliner v. Dept. of Human Services",
+          "citation": "330 Or. App. 85 (2024)",
+          "court": "Court of Appeals of Oregon",
+          "year": 2024,
+          "date_decided": "2024-01-04",
+          "holding": "The court affirmed a judgment remanding a DHS 'founded' child-abuse determination, holding the circuit court properly found the investigation biased and the founded determination unsupported by substantial evidence, and properly awarded attorney fees.",
+          "relevance": "This is the leading recent Oregon decision on judicial review of a DHS 'founded' abuse determination issued as an order in other than a contested case.",
+          "quote": "In this case, the circuit court expressly found that DHS had conducted a biased investigation, a finding that the circuit court in Querbach did not make.",
+          "url": "https://www.courtlistener.com/opinion/10144019/kasliner-v-dept-of-human-services/",
+          "courtlistener_cluster_id": 10144019
+        },
+        {
+          "case_name": "Querbach v. Dept. of Human Services",
+          "citation": "369 Or. 786, 512 P.3d 432 (2022)",
+          "court": "Oregon Supreme Court",
+          "year": 2022,
+          "date_decided": "2022-06-16",
+          "holding": "Reviewing a DHS \"founded\" child-abuse determination as an order in other than a contested case, the court held that the governing threshold is the rule's \"reasonable cause to believe\" standard rather than probable cause, that review is for substantial evidence on the record developed in the circuit court, and that the circuit court's criticisms of DHS's investigative process were not relevant to that review.",
+          "relevance": "This is the Oregon Supreme Court's controlling decision on what a \"founded\" abuse determination means and how a court reviews it, and it is the case Kasliner is expressly framed as continuing from.",
+          "quote": "the issue is whether the record developed in the circuit court, when viewed as a whole, would permit a reasonable person to make the determinations that the agency did here.",
+          "url": "https://www.courtlistener.com/opinion/10160897/querbach-v-dept-of-human-services/",
+          "courtlistener_cluster_id": 10160897
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Oregon%22%20AND%20%28%22Oregon%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Oregon Department of Human Services",
         "CPS",
@@ -99,149 +141,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Oregon%22%20AND%20%28%22Oregon%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "investigation",
-        "substantiation",
-        "evidence standard",
-        "due process",
-        "reasonable efforts"
-      ],
-      "jurisdiction": "Oregon state courts",
-      "key_cases": [
-        {
-          "case_id": "s071019",
-          "title": "In re Gregory Mark Abel",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2025/s071019.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s071019 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a184792",
-          "title": "In re Oregon State Hospital",
-          "url": "https://law.justia.com/cases/oregon/court-of-appeals/2025/a184792.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Oregon Court Of Appeals Case a184792 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s071223",
-          "title": "In re Flint",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2024/s071223.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s071223 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s070455",
-          "title": "In re Munn",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2024/s070455.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s070455 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s068780",
-          "title": "In re: Sause and Schnitzer",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2023/s068780.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s068780 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s069006",
-          "title": "In re Duboff",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2023/s069006.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s069006 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a173412",
-          "title": "Doe v. First Christian Church of The Dalles",
-          "url": "https://law.justia.com/cases/oregon/court-of-appeals/2023/a173412.html",
-          "year": 2023,
-          "court": "Court Of Appeals",
-          "citation": "Oregon Court Of Appeals Case a173412 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        },
-        {
-          "case_id": "s068805",
-          "title": "In re Keller",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2022/s068805.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s068805 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s068497",
-          "title": "In re Ard",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2021/s068497.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s068497 (2021)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s067932",
-          "title": "In re Kauffman",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2021/s067932.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s067932 (2021)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

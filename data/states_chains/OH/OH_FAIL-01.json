@@ -92,6 +92,84 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Ohio state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "In re Adams",
+          "citation": "115 Ohio St.3d 86, 873 N.E.2d 886 (2007)",
+          "court": "Supreme Court of Ohio",
+          "year": 2007,
+          "date_decided": "2007-10-03",
+          "holding": "An order continuing temporary custody is not a final, appealable order, because although a juvenile custody hearing is a special proceeding the order must also affect a substantial right, and the continuation of temporary custody does not foreclose appropriate relief later.",
+          "relevance": "It tells a family which interim juvenile court rulings can be challenged immediately and which must wait, the gateway question for any appeal.",
+          "quote": "While a juvenile custody hearing is a special proceeding, a juvenile court order must also affect a substantial right to be a final, appealable order under R.C. 2505.02(B)(2).",
+          "url": "https://www.courtlistener.com/opinion/6896408/in-re-adams/",
+          "courtlistener_cluster_id": 6896408
+        },
+        {
+          "case_name": "In re C.B.",
+          "citation": "129 Ohio St.3d 231, 2011-Ohio-2899 (2011)",
+          "court": "Supreme Court of Ohio",
+          "year": 2011,
+          "date_decided": "2011-06-22",
+          "holding": "An order that denies the agency's motion for permanent custody, terminates the agency's temporary custody and awards legal custody to a parent is a final, appealable order under R.C. 2505.02 because it affects the substantial rights of the parties and ends the proceeding.",
+          "relevance": "It defines which agency-adverse and parent-adverse custody rulings can be appealed at all.",
+          "quote": "In contrast, a parent does have a substantial right in the custody of his or her child.",
+          "url": "https://www.courtlistener.com/opinion/2691127/in-re-cb/",
+          "courtlistener_cluster_id": 2691127
+        },
+        {
+          "case_name": "In re A.M.",
+          "citation": "2020-Ohio-5102 (Ohio 2020)",
+          "court": "Supreme Court of Ohio",
+          "year": 2020,
+          "date_decided": "2020-11-03",
+          "holding": "R.C. 2151.414(D)(1) requires a juvenile court to consider each listed best-interest factor but not to discuss each one expressly, so long as the reviewing court can discern from the decision and judgment entry that the factors were considered.",
+          "relevance": "It sets the threshold a parent must meet to get a permanent-custody judgment reversed for inadequate findings, and it is the current standard of appellate review.",
+          "quote": "we hold that R.C. 2151.414(D)(1) does not require a juvenile court to expressly discuss each of the best-interest factors in R.C. 2151.414(D)(1)(a) through (e). Consideration is all the statute requires.",
+          "url": "https://www.courtlistener.com/opinion/4802967/in-re-am-slip-opinion/",
+          "courtlistener_cluster_id": 4802967
+        },
+        {
+          "case_name": "In re B.C.",
+          "citation": "141 Ohio St.3d 55, 21 N.E.3d 308 (2014)",
+          "court": "Supreme Court of Ohio",
+          "year": 2014,
+          "date_decided": "2014-10-16",
+          "holding": "Due process does not entitle a parent whose rights have been terminated to file a delayed appeal; Ohio's existing procedures, including the expedited appeal timelines, are constitutionally adequate.",
+          "relevance": "It is the decisive Ohio authority on appellate timeliness after termination: a missed appeal deadline is ordinarily fatal, which makes the 30-day window the single most important date for a parent.",
+          "quote": "We therefore hold that Ohio's current procedures comport with due process and that a delayed appeal is not constitutionally required to protect the parent's interest.",
+          "url": "https://www.courtlistener.com/opinion/2742896/in-re-bc/",
+          "courtlistener_cluster_id": 2742896
+        },
+        {
+          "case_name": "In re K.T.1",
+          "citation": "2018-Ohio-4312, 121 N.E.3d 847 (Ohio Ct. App. 2018)",
+          "court": "Court of Appeals of Ohio, First Appellate District",
+          "year": 2018,
+          "date_decided": "2018-10-24",
+          "holding": "Affirming in part and reversing in part custody dispositions for four siblings, the court held that where reunification within a reasonable time was not possible the mandatory disposition of R.C. 2151.414(D)(2) applied, and it explained that sufficiency review asks whether the evidence justified the juvenile court's findings under the clear-and-convincing standard.",
+          "relevance": "It states the sufficiency and manifest-weight standards an Ohio appellate court applies when a parent challenges a custody or permanent-custody judgment.",
+          "quote": "Our sufficiency review asks whether enough evidence exists to justify the juvenile court's relevant findings under a clear-and-convincing standard.",
+          "url": "https://www.courtlistener.com/opinion/4546916/in-re-kt1/",
+          "courtlistener_cluster_id": 4546916
+        },
+        {
+          "case_name": "In re H.F.",
+          "citation": "120 Ohio St.3d 499, 2008-Ohio-6810, 900 N.E.2d 607 (2008)",
+          "court": "Supreme Court of Ohio",
+          "year": 2008,
+          "date_decided": "2008-12-31",
+          "holding": "An adjudication of abuse, dependency or neglect coupled with an award of temporary custody under R.C. 2151.353(A)(2) is a final order that must be appealed within 30 days under App.R. 4(A), and App.R. 4(B)(5) gives no second opportunity to appeal that adjudication after the final dispositional order terminating parental rights.",
+          "relevance": "H.F. is the third pillar of the Adams/C.B./B.C. line: the adjudication order is final when entered, so a parent who waits for the permanent-custody judgment forfeits every challenge to the adjudication.",
+          "quote": "App.R. 4(B)(5) does not apply to adjudication orders that include a finding of neglect, abuse, or dependency and a grant of temporary custody to a children services agency",
+          "url": "https://www.courtlistener.com/opinion/2689963/in-re-hf/",
+          "courtlistener_cluster_id": 2689963
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Ohio%22%20AND%20%28%22Ohio%20Department%20of%20Job%20and%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Ohio Department of Job and Family Services",
         "CPS",
@@ -103,149 +181,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Ohio%22%20AND%20%28%22Ohio%20Department%20of%20Job%20and%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "wrongful removal",
-        "1983 claim",
-        "civil rights",
-        "immunity",
-        "damages"
-      ],
-      "jurisdiction": "Ohio state courts",
-      "key_cases": [
-        {
-          "case_id": "2023-0656",
-          "title": "Page v. Geauga County Probate & Juvenile Court",
-          "url": "https://law.justia.com/cases/ohio/supreme-court-of-ohio/2023/2023-0656.html",
-          "year": 2023,
-          "court": "Supreme Court Of Ohio",
-          "citation": "Ohio Supreme Court Of Ohio Case 2023-0656 (2023)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Juvenile Court"
-        },
-        {
-          "case_id": "2022-ohio-4378",
-          "title": "In re Cases Held for the Decision in Elliot v. Durrani",
-          "url": "https://law.justia.com/cases/ohio/supreme-court-of-ohio/2022/2022-ohio-4378.html",
-          "year": 2022,
-          "court": "Supreme Court Of Ohio",
-          "citation": "Ohio Supreme Court Of Ohio Case 2022-ohio-4378 (2022)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "2022-ohio-1352",
-          "title": "In re Cases Held for the Decision in State v. Maddox",
-          "url": "https://law.justia.com/cases/ohio/supreme-court-of-ohio/2022/2022-ohio-1352.html",
-          "year": 2022,
-          "court": "Supreme Court Of Ohio",
-          "citation": "Ohio Supreme Court Of Ohio Case 2022-ohio-1352 (2022)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "109930",
-          "title": "In re Wesley v. Cuyahoga Cty. Court of Common Pleas",
-          "url": "https://law.justia.com/cases/ohio/eighth-district-court-of-appeals/2020/109930.html",
-          "year": 2020,
-          "court": "Eighth District Court Of Appeals",
-          "citation": "Ohio Eighth District Court Of Appeals Case 109930 (2020)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re name, In re"
-        },
-        {
-          "case_id": "c-250544",
-          "title": "In re A.J.",
-          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250544.html",
-          "year": 2025,
-          "court": "First District Court Of Appeals",
-          "citation": "Ohio First District Court Of Appeals Case c-250544 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "c-250454",
-          "title": "In re E.J.",
-          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250454.html",
-          "year": 2025,
-          "court": "First District Court Of Appeals",
-          "citation": "Ohio First District Court Of Appeals Case c-250454 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "c-250179",
-          "title": "In re L.K.",
-          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250179.html",
-          "year": 2025,
-          "court": "First District Court Of Appeals",
-          "citation": "Ohio First District Court Of Appeals Case c-250179 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "c-250248",
-          "title": "In re D.B.",
-          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250248.html",
-          "year": 2025,
-          "court": "First District Court Of Appeals",
-          "citation": "Ohio First District Court Of Appeals Case c-250248 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "c-240566",
-          "title": "In re J.W.",
-          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-240566.html",
-          "year": 2025,
-          "court": "First District Court Of Appeals",
-          "citation": "Ohio First District Court Of Appeals Case c-240566 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "c-250379",
-          "title": "In re M. Children",
-          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250379.html",
-          "year": 2025,
-          "court": "First District Court Of Appeals",
-          "citation": "Ohio First District Court Of Appeals Case c-250379 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initial"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

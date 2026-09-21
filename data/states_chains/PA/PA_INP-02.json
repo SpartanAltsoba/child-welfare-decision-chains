@@ -104,6 +104,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Pennsylvania state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "In the Interest of Y.W.-B.",
+          "citation": "No. 1 EAP 2021 (Pa. Dec. 23, 2021)",
+          "court": "Supreme Court of Pennsylvania",
+          "year": 2021,
+          "date_decided": "2021-12-23",
+          "holding": "The court reversed the Superior Court, holding that an order compelling a parent to admit child-welfare workers into the home requires probable cause evaluated under ordinary search-and-seizure principles, and that a single stale, uncorroborated anonymous report did not supply it.",
+          "relevance": "A third-party report is the starting point, not the end point; its veracity and reliability must be assessed before entry is compelled.",
+          "quote": "We expressly hold that there is no \"social worker exception\" to compliance with constitutional limitations on an entry into a home without consent or exigent circumstances.",
+          "url": "https://www.courtlistener.com/opinion/5311733/in-the-interest-of-yw-b-apl-of-jb/",
+          "courtlistener_cluster_id": 5311733
+        },
+        {
+          "case_name": "Good v. Dauphin County Social Services for Children & Youth",
+          "citation": "891 F.2d 1087 (3d Cir. 1989)",
+          "court": "United States Court of Appeals for the Third Circuit",
+          "year": 1989,
+          "date_decided": "1989-12-15",
+          "holding": "The court reversed summary judgment on qualified immunity, holding that on the mother's version of the facts a caseworker and police officer entered the home and strip-searched the child without valid consent, a warrant, or exigent circumstances, violating clearly established law.",
+          "relevance": "A single anonymous report of unspecified bruises did not justify forced entry or a body search.",
+          "quote": "under these circumstances a reasonable law enforcement officer could not have believed Ms. Good had given legally effective consent to either the entry or the subsequent strip search",
+          "url": "https://www.courtlistener.com/opinion/533797/good-v-dauphin-county-social-services-for-children-and-youth/",
+          "courtlistener_cluster_id": 533797
+        },
+        {
+          "case_name": "Croft v. Westmoreland County Children & Youth Services",
+          "citation": "103 F.3d 1123 (3d Cir. 1997)",
+          "court": "United States Court of Appeals for the Third Circuit",
+          "year": 1997,
+          "date_decided": "1997-01-06",
+          "holding": "Reversing summary judgment for the caseworker, the court held that forcing a father from his home on the basis of an uncorroborated anonymous tip violated the family's substantive due process rights because the caseworker lacked objectively reasonable grounds to suspect abuse.",
+          "relevance": "A third-party allegation must be corroborated before it can justify coercive interference with the family.",
+          "quote": "we hold that she lacked objectively reasonable grounds to believe the child had been sexually abused or was in imminent danger of sexual abuse",
+          "url": "https://www.courtlistener.com/opinion/732428/croft-v-westmoreland-county-children-and-youth-services/",
+          "courtlistener_cluster_id": 732428
+        },
+        {
+          "case_name": "Heinrich v. Conemaugh Valley Memorial Hospital",
+          "citation": "648 A.2d 53, 436 Pa. Super. 465 (1994)",
+          "court": "Superior Court of Pennsylvania",
+          "year": 1994,
+          "date_decided": "1994-09-21",
+          "holding": "Affirming dismissal on preliminary objections, the court held that hospital staff and physicians who reported suspected child abuse were immune under 23 Pa.C.S. § 6318 because general averments of malice failed to plead the specific facts needed to rebut the statutory presumption of a reporter's good faith.",
+          "relevance": "Confirms that the immunity and good-faith presumption protect the report itself, whatever its ultimate accuracy, so long as bad faith is not specifically pleaded.",
+          "quote": "We cannot fault Appellees, given the criminal penalty imposed for failing to report suspected child abuse, from making a report under these circumstances.",
+          "url": "https://www.courtlistener.com/opinion/1523464/heinrich-v-conemaugh-valley-memorial-hospital/",
+          "courtlistener_cluster_id": 1523464
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Pennsylvania%22%20AND%20%28%22Pennsylvania%20Department%20of%20Human%20Services%22%20OR%20%22Children%20and%20Youth%20Services%22%20OR%20%22CYS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Pennsylvania Department of Human Services",
         "Children and Youth Services",
@@ -115,148 +169,7 @@
         "reasonable efforts",
         "reunification",
         "emergency removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Pennsylvania%22%20AND%20%28%22Pennsylvania%20Department%20of%20Human%20Services%22%20OR%20%22Children%20and%20Youth%20Services%22%20OR%20%22CYS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "mandatory reporting",
-        "failure to report",
-        "reporter immunity",
-        "hotline"
-      ],
-      "jurisdiction": "Pennsylvania state courts",
-      "key_cases": [
-        {
-          "case_id": "216-wal-2025",
-          "title": "In Re: Blythedale Park of: EQT Artemis - No. (Granted) (petitions for allowance of appeal)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/216-wal-2025.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 216-wal-2025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "1029-supreme-court-rules",
-          "title": "In Re: Appointments to the Orphans' Court Procedural Rules Committee (appointment)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/1029-supreme-court-rules.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 1029-supreme-court-rules (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "3093-dd3",
-          "title": "In the Matter of: Paul T. Sosnowski (disciplinary order)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/3093-dd3.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 3093-dd3 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "471-mal-2025",
-          "title": "In Re: Estate of Byerley, D. of: Byerley, D. (petitions for allowance of appeal)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/471-mal-2025.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 471-mal-2025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "398-judicial-classification",
-          "title": "In Re: Reassignment of Honorable Sierra Thomas Street to CCP First Judicial District Orphans' Division (appointment)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/398-judicial-classification.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 398-judicial-classification (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "399-judicial-classification",
-          "title": "In Re: Reassignment of Honorable Daine A. Grey to CCP First Judicial District Trial Division (appointment)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/399-judicial-classification.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 399-judicial-classification (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "65-rst-2025",
-          "title": "In the Matter of: James Richard Koban, II (disciplinary order)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/65-rst-2025.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 65-rst-2025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "66-rst-2025",
-          "title": "In the Matter of: Jarrod W. Harmon (disciplinary order)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/66-rst-2025.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 66-rst-2025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "648-judicial-administration-2025",
-          "title": "In RE: Duty Assignment Schedule for Emergency itions in the Year 2026 (rules)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/648-judicial-administration-2025.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 648-judicial-administration-2025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "593-mal-2025",
-          "title": "In Re: Adopt. of: J.E.M.-M., a Minor (petitions for allowance of appeal)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/593-mal-2025.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 593-mal-2025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

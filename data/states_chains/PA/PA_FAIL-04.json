@@ -104,6 +104,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Pennsylvania state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "DeShaney v. Winnebago County Department of Social Services",
+          "citation": "489 U.S. 189 (1989)",
+          "court": "Supreme Court of the United States",
+          "year": 1989,
+          "date_decided": "1989-02-22",
+          "holding": "The Court affirmed, holding that the Due Process Clause imposes no affirmative constitutional duty on a child-protection agency to protect a child from private violence where the child remains in the parent's custody rather than in state custody.",
+          "relevance": "Distinguishes children harmed in the home, who have no constitutional protection claim, from children the state has taken into custody.",
+          "quote": "nothing in the language of the Due Process Clause itself requires the State to protect the life, liberty, and property of its citizens against invasion by private actors",
+          "url": "https://www.courtlistener.com/opinion/112202/deshaney-v-winnebago-cty-dss/",
+          "courtlistener_cluster_id": 112202
+        },
+        {
+          "case_name": "Nicini v. Morra",
+          "citation": "212 F.3d 798 (3d Cir. 2000)",
+          "court": "United States Court of Appeals for the Third Circuit",
+          "year": 2000,
+          "date_decided": "2000-05-19",
+          "holding": "Sitting en banc, the court held that placing a child in state-regulated foster care creates a special relationship imposing affirmative constitutional duties, but affirmed summary judgment because the caseworker's conduct amounted at most to negligence and did not shock the conscience.",
+          "relevance": "The governing Third Circuit standard for liability when a child is injured or dies in state-arranged placement.",
+          "quote": "when the state places a child in state-regulated foster care, the state has entered into a special relationship with that child which imposes upon it certain affirmative duties",
+          "url": "https://www.courtlistener.com/opinion/768726/nicini-v-morra/",
+          "courtlistener_cluster_id": 768726
+        },
+        {
+          "case_name": "In the Interest of L.V.",
+          "citation": "127 A.3d 831 (Pa. Super. 2015)",
+          "court": "Superior Court of Pennsylvania",
+          "year": 2015,
+          "date_decided": "2015-11-12",
+          "holding": "The court affirmed the dependency adjudication of a child certified as a near fatality, holding the trial court did not abuse its discretion where medical evidence established extensive inflicted injuries and the mother failed to seek treatment.",
+          "relevance": "Shows the dependency response required when a child suffers near-fatal harm.",
+          "quote": "In order to adjudicate a child dependent, the court must determine that the above definition has been met by clear and convincing evidence.",
+          "url": "https://www.courtlistener.com/opinion/3154267/in-the-interest-of-lv-a-minor/",
+          "courtlistener_cluster_id": 3154267
+        },
+        {
+          "case_name": "K.H. v. Kumar",
+          "citation": "122 A.3d 1080 (Pa. Super. 2015)",
+          "court": "Superior Court of Pennsylvania",
+          "year": 2015,
+          "date_decided": "2015-08-25",
+          "holding": "Reversing summary judgment and remanding, the court held that although the CPSL creates no private cause of action for failure to report suspected child abuse, a child may pursue an ordinary medical-malpractice claim where expert testimony would let a jury find that the physicians' standard of care required them to recognize and report the abuse.",
+          "relevance": "Supplies the Pennsylvania route to civil accountability where a child is catastrophically injured after professionals failed to report, the CPSL itself furnishing no remedy.",
+          "quote": "the CPSL does not expressly preclude civil liability for a failure to report abuse, nor immunize those who fail in their reporting obligations",
+          "url": "https://www.courtlistener.com/opinion/2830539/kh-v-kumar-s-md/",
+          "courtlistener_cluster_id": 2830539
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Pennsylvania%22%20AND%20%28%22Pennsylvania%20Department%20of%20Human%20Services%22%20OR%20%22Children%20and%20Youth%20Services%22%20OR%20%22CYS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Pennsylvania Department of Human Services",
         "Children and Youth Services",
@@ -115,149 +169,7 @@
         "reasonable efforts",
         "reunification",
         "emergency removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Pennsylvania%22%20AND%20%28%22Pennsylvania%20Department%20of%20Human%20Services%22%20OR%20%22Children%20and%20Youth%20Services%22%20OR%20%22CYS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "wrongful removal",
-        "1983 claim",
-        "civil rights",
-        "immunity",
-        "damages"
-      ],
-      "jurisdiction": "Pennsylvania state courts",
-      "key_cases": [
-        {
-          "case_id": "154-wal-2022",
-          "title": "In Re: Trust Under Will for Campbell, C. (petitions for allowance of appeal)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2022/154-wal-2022.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 154-wal-2022 (2022)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "216-wal-2025",
-          "title": "In Re: Blythedale Park of: EQT Artemis - No. (Granted) (petitions for allowance of appeal)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/216-wal-2025.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 216-wal-2025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "1029-supreme-court-rules",
-          "title": "In Re: Appointments to the Orphans' Court Procedural Rules Committee (appointment)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/1029-supreme-court-rules.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 1029-supreme-court-rules (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "3093-dd3",
-          "title": "In the Matter of: Paul T. Sosnowski (disciplinary order)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/3093-dd3.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 3093-dd3 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "471-mal-2025",
-          "title": "In Re: Estate of Byerley, D. of: Byerley, D. (petitions for allowance of appeal)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/471-mal-2025.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 471-mal-2025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "398-judicial-classification",
-          "title": "In Re: Reassignment of Honorable Sierra Thomas Street to CCP First Judicial District Orphans' Division (appointment)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/398-judicial-classification.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 398-judicial-classification (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "399-judicial-classification",
-          "title": "In Re: Reassignment of Honorable Daine A. Grey to CCP First Judicial District Trial Division (appointment)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/399-judicial-classification.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 399-judicial-classification (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "65-rst-2025",
-          "title": "In the Matter of: James Richard Koban, II (disciplinary order)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/65-rst-2025.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 65-rst-2025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "66-rst-2025",
-          "title": "In the Matter of: Jarrod W. Harmon (disciplinary order)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/66-rst-2025.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 66-rst-2025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "648-judicial-administration-2025",
-          "title": "In RE: Duty Assignment Schedule for Emergency itions in the Year 2026 (rules)",
-          "url": "https://law.justia.com/cases/pennsylvania/supreme-court/2025/648-judicial-administration-2025.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Pennsylvania Supreme Court Case 648-judicial-administration-2025 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

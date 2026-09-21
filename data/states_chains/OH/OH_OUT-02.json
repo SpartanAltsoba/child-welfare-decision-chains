@@ -84,6 +84,84 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Ohio state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "Santosky v. Kramer",
+          "citation": "455 U.S. 745 (1982)",
+          "court": "Supreme Court of the United States",
+          "year": 1982,
+          "date_decided": "1982-02-22",
+          "holding": "Before a State may sever the rights of parents in their natural child, due process requires that it support its allegations by at least clear and convincing evidence; a fair preponderance standard is unconstitutional in a permanent neglect proceeding.",
+          "relevance": "It is the controlling federal authority behind Ohio's clear-and-convincing requirement in R.C. 2151.414.",
+          "quote": "Evaluation of the three Eldridge factors compels the conclusion that use of a \"fair preponderance of the evidence\" standard in such proceedings is inconsistent with due process.",
+          "url": "https://www.courtlistener.com/opinion/110676/santosky-v-kramer/",
+          "courtlistener_cluster_id": 110676
+        },
+        {
+          "case_name": "In re William S.",
+          "citation": "75 Ohio St.3d 95, 661 N.E.2d 738 (1996)",
+          "court": "Supreme Court of Ohio",
+          "year": 1996,
+          "date_decided": "1996-03-04",
+          "holding": "A juvenile court may not find that a child cannot or should not be placed with either parent unless it finds by clear and convincing evidence that at least one of the then eight enumerated R.C. 2151.414(E) factors exists; general concerns outside the list will not do.",
+          "relevance": "This is the foundational Ohio holding that permanent custody requires a specific, enumerated statutory finding proved by clear and convincing evidence.",
+          "quote": "permanent custody may not be granted unless the trial court finds clear and convincing evidence that one or more of the eight enumerated factors in R.C. 2151.414(E) exist",
+          "url": "https://www.courtlistener.com/opinion/6880711/in-re-william-s/",
+          "courtlistener_cluster_id": 6880711
+        },
+        {
+          "case_name": "In re D.A.",
+          "citation": "113 Ohio St.3d 88 (2007)",
+          "court": "Supreme Court of Ohio",
+          "year": 2007,
+          "date_decided": "2007-03-28",
+          "holding": "The Court reversed a termination of parental rights that rested solely on the parents' cognitive disability, holding that a child's best interest may not be determined solely on the basis of the parents' limited cognitive abilities.",
+          "relevance": "It constrains the R.C. 2151.414 best-interest analysis by forbidding termination grounded solely on a parent's cognitive limitations.",
+          "quote": "We hold that the termination of appellants' parental rights based solely on mental retardation does not comply with R.C. 2151.414.",
+          "url": "https://www.courtlistener.com/opinion/6895759/in-re-da/",
+          "courtlistener_cluster_id": 6895759
+        },
+        {
+          "case_name": "In re A.M.",
+          "citation": "2020-Ohio-5102 (Ohio 2020)",
+          "court": "Supreme Court of Ohio",
+          "year": 2020,
+          "date_decided": "2020-11-03",
+          "holding": "R.C. 2151.414(D)(1) requires a juvenile court to consider each listed best-interest factor but not to discuss each one expressly, so long as the reviewing court can discern from the decision and judgment entry that the factors were considered.",
+          "relevance": "It is the governing Ohio statement of how the R.C. 2151.414(D)(1) best-interest analysis must be documented at termination.",
+          "quote": "we hold that R.C. 2151.414(D)(1) does not require a juvenile court to expressly discuss each of the best-interest factors in R.C. 2151.414(D)(1)(a) through (e). Consideration is all the statute requires.",
+          "url": "https://www.courtlistener.com/opinion/4802967/in-re-am-slip-opinion/",
+          "courtlistener_cluster_id": 4802967
+        },
+        {
+          "case_name": "In re Adoption of M.B.",
+          "citation": "131 Ohio St.3d 186, 2012-Ohio-236 (2012)",
+          "court": "Supreme Court of Ohio",
+          "year": 2012,
+          "date_decided": "2012-01-25",
+          "holding": "De minimis monetary gifts from a biological parent to a child are not maintenance and support under R.C. 3107.07(A), and the petitioner bears the burden of proving the failure to support and its lack of justifiable cause by clear and convincing evidence, with a dual standard of appellate review.",
+          "relevance": "Where adoption proceeds without parental consent, this case sets the burden of proof and the standard of review that decide whether the parent's veto survives.",
+          "quote": "A probate court determination of whether a financial contribution constitutes maintenance and support for purposes of R.C. 3107.07(A) is reviewed for an abuse of discretion",
+          "url": "https://www.courtlistener.com/opinion/2690924/in-re-adoption-of-mb/",
+          "courtlistener_cluster_id": 2690924
+        },
+        {
+          "case_name": "In re Adoption of Y.E.F.",
+          "citation": "2020-Ohio-6785 (Ohio 2020)",
+          "court": "Supreme Court of Ohio",
+          "year": 2020,
+          "date_decided": "2020-12-22",
+          "holding": "Denial of an indigent parent's request for appointed counsel in a probate adoption proceeding is a final, appealable order, and equal protection is violated by giving indigent parents appointed counsel when their rights are terminated in juvenile court but not when they are terminated by adoption in probate court.",
+          "relevance": "It extends appointed counsel to indigent parents contesting a stepparent or private adoption that would terminate their rights.",
+          "quote": "the child and the child's parents are statutorily entitled to legal representation, including a right to appointed counsel if they are indigent, at all stages of the proceedings",
+          "url": "https://www.courtlistener.com/opinion/4841697/in-re-adoption-of-yef-slip-opinion/",
+          "courtlistener_cluster_id": 4841697
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Ohio%22%20AND%20%28%22Ohio%20Department%20of%20Job%20and%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Ohio Department of Job and Family Services",
         "CPS",
@@ -95,149 +173,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Ohio%22%20AND%20%28%22Ohio%20Department%20of%20Job%20and%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "termination of parental rights",
-        "TPR",
-        "adoption",
-        "permanency",
-        "aging out"
-      ],
-      "jurisdiction": "Ohio state courts",
-      "key_cases": [
-        {
-          "case_id": "30444",
-          "title": "In re Adoption of W.M.J.",
-          "url": "https://law.justia.com/cases/ohio/second-district-court-of-appeals/2025/30444.html",
-          "year": 2025,
-          "court": "Second District Court Of Appeals",
-          "citation": "Ohio Second District Court Of Appeals Case 30444 (2025)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "30432",
-          "title": "In re Adoption of E.G.B.",
-          "url": "https://law.justia.com/cases/ohio/second-district-court-of-appeals/2025/30432.html",
-          "year": 2025,
-          "court": "Second District Court Of Appeals",
-          "citation": "Ohio Second District Court Of Appeals Case 30432 (2025)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "30380",
-          "title": "In re Adoption of Z.D.W.",
-          "url": "https://law.justia.com/cases/ohio/second-district-court-of-appeals/2025/30380.html",
-          "year": 2025,
-          "court": "Second District Court Of Appeals",
-          "citation": "Ohio Second District Court Of Appeals Case 30380 (2025)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "30404",
-          "title": "In re Adoption of D.X.B.",
-          "url": "https://law.justia.com/cases/ohio/second-district-court-of-appeals/2025/30404.html",
-          "year": 2025,
-          "court": "Second District Court Of Appeals",
-          "citation": "Ohio Second District Court Of Appeals Case 30404 (2025)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "2025-ca-1",
-          "title": "In re Adoption of B.M.H.M",
-          "url": "https://law.justia.com/cases/ohio/second-district-court-of-appeals/2025/2025-ca-1.html",
-          "year": 2025,
-          "court": "Second District Court Of Appeals",
-          "citation": "Ohio Second District Court Of Appeals Case 2025-ca-1 (2025)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "2024-ca-24-2",
-          "title": "In re Adoption of G.A.J.-K.",
-          "url": "https://law.justia.com/cases/ohio/second-district-court-of-appeals/2025/2024-ca-24-2.html",
-          "year": 2025,
-          "court": "Second District Court Of Appeals",
-          "citation": "Ohio Second District Court Of Appeals Case 2024-ca-24-2 (2025)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "3-25-08",
-          "title": "In re Adoption of D.C.H.",
-          "url": "https://law.justia.com/cases/ohio/third-district-court-of-appeals/2025/3-25-08.html",
-          "year": 2025,
-          "court": "Third District Court Of Appeals",
-          "citation": "Ohio Third District Court Of Appeals Case 3-25-08 (2025)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "13-25-07",
-          "title": "In re Adoption of T.M.Z.",
-          "url": "https://law.justia.com/cases/ohio/third-district-court-of-appeals/2025/13-25-07.html",
-          "year": 2025,
-          "court": "Third District Court Of Appeals",
-          "citation": "Ohio Third District Court Of Appeals Case 13-25-07 (2025)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "5-24-37",
-          "title": "In re Adoption of V.C.",
-          "url": "https://law.justia.com/cases/ohio/third-district-court-of-appeals/2025/5-24-37.html",
-          "year": 2025,
-          "court": "Third District Court Of Appeals",
-          "citation": "Ohio Third District Court Of Appeals Case 5-24-37 (2025)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "25ca005",
-          "title": "In re Adoption of A.K.H.",
-          "url": "https://law.justia.com/cases/ohio/fifth-district-court-of-appeals/2025/25ca005.html",
-          "year": 2025,
-          "court": "Fifth District Court Of Appeals",
-          "citation": "Ohio Fifth District Court Of Appeals Case 25ca005 (2025)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "adoption"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

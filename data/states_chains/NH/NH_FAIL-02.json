@@ -78,6 +78,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "New Hampshire state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "Watterson v. Page",
+          "citation": "987 F.2d 1 (1st Cir. 1993)",
+          "court": "United States Court of Appeals for the First Circuit",
+          "year": 1993,
+          "date_decided": "1993-02-09",
+          "holding": "In a case arising from a New Hampshire DCYS investigation and ex parte removal, the court affirmed dismissal of the 42 U.S.C. § 1983 claims against a court-appointed psychologist and her supervisor because the complaint stated no violation of any federal constitutional right, and affirmed dismissal of the state law claims as barred by the reporter immunity of RSA 169-C:31.",
+          "relevance": "This is the controlling First Circuit authority for New Hampshire wrongful removal claims premised on family integrity and on allegedly false or negligent reports.",
+          "quote": "the relationship between parent and child may be investigated and terminated by the state provided constitutionally adequate procedures are followed",
+          "url": "https://www.courtlistener.com/opinion/601477/valerie-watterson-v-eileen-page/",
+          "courtlistener_cluster_id": 601477
+        },
+        {
+          "case_name": "Frazier v. Bailey",
+          "citation": "957 F.2d 920 (1st Cir. 1992)",
+          "court": "United States Court of Appeals for the First Circuit",
+          "year": 1992,
+          "date_decided": "1992-02-24",
+          "holding": "The court held that private individuals under contract with the State to perform child abuse counseling and investigation may assert qualified immunity because they are the functional equivalent of public officials, and that they were entitled to it as a matter of law because the right to family integrity was not sufficiently particularized to put them on notice that their conduct was unlawful.",
+          "relevance": "This case, with Watterson, sets the First Circuit's qualified immunity framework for damages actions against child protection investigators, including contractors.",
+          "quote": "the right to family integrity has not been so particularized as to put defendants on notice that their conduct was unlawful",
+          "url": "https://www.courtlistener.com/opinion/578605/kevin-frazier-v-edward-n-bailey/",
+          "courtlistener_cluster_id": 578605
+        },
+        {
+          "case_name": "Tower v. Leslie-Brown",
+          "citation": "326 F.3d 290 (1st Cir. 2003)",
+          "court": "United States Court of Appeals for the First Circuit",
+          "year": 2003,
+          "date_decided": "2003-04-22",
+          "holding": "The court affirmed summary judgment for a caseworker and a state trooper, holding that removal of all five children was supported by an objectively reasonable suspicion of abuse and an imminent threat of abuse, and that a post-deprivation hearing three business days after the removal satisfied procedural due process.",
+          "relevance": "A removal that meets the reasonable suspicion threshold and is followed by a prompt post-deprivation hearing is not an unlawful removal under § 1983.",
+          "quote": "no substantive due process violation is stated if there existed a reasonable suspicion that abuse had occurred or that a threat of abuse was imminent at the time of removal",
+          "url": "https://www.courtlistener.com/opinion/200436/tower-v-leslie-brown/",
+          "courtlistener_cluster_id": 200436
+        },
+        {
+          "case_name": "Hatch v. Department for Children, Youth & Their Families (State of Rhode Island)",
+          "citation": "274 F.3d 12 (1st Cir. 2001)",
+          "court": "United States Court of Appeals for the First Circuit",
+          "year": 2001,
+          "date_decided": "2001-12-17",
+          "holding": "The court held that the Constitution permits a caseworker to take a child into temporary custody without a prior hearing when the caseworker has a reasonable suspicion that abuse has occurred or that a threat of abuse is imminent, and affirmed the denial of leave to amend because the caseworker had such a suspicion and was entitled to qualified immunity.",
+          "relevance": "A removal supported by reasonable suspicion is not unlawful, and the opinion sets out the three-step qualified immunity inquiry that governs damages claims against the caseworker who ordered it.",
+          "quote": "Because the welfare of the child is paramount, an objectively reasonable suspicion of abuse justifies protective measures.",
+          "url": "https://www.courtlistener.com/opinion/775863/richard-h-hatch-jr-v-department-for-children-youth-and-their-families/",
+          "courtlistener_cluster_id": 775863
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22New%20Hampshire%22%20AND%20%28%22New%20Hampshire%20Division%20for%20Children%20Youth%20and%20Families%22%20OR%20%22DCYF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "New Hampshire Division for Children Youth and Families",
         "DCYF",
@@ -89,149 +143,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22New%20Hampshire%22%20AND%20%28%22New%20Hampshire%20Division%20for%20Children%20Youth%20and%20Families%22%20OR%20%22DCYF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "wrongful removal",
-        "1983 claim",
-        "civil rights",
-        "immunity",
-        "damages"
-      ],
-      "jurisdiction": "New Hampshire state courts",
-      "key_cases": [
-        {
-          "case_id": "2025-0068",
-          "title": "In re G.W.",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2025/2025-0068.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2025-0068 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "2024-0180",
-          "title": "Doe v. Concord Police Department",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2025/2024-0180.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2024-0180 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        },
-        {
-          "case_id": "2024-0467",
-          "title": "In re Guardianship of K.S.",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2025/2024-0467.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2024-0467 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "2024-0686",
-          "title": "In re K.O.",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2025/2024-0686.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2024-0686 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "2024-0051",
-          "title": "In the Matter of LeGault & LeGault",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2025/2024-0051.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2024-0051 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "2024-0680",
-          "title": "In re Guardianship of K.C.",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2025/2024-0680.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2024-0680 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "2023-0678",
-          "title": "In the Matter of Penichet and Corroon",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2025/2023-0678.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2023-0678 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "2024-0092",
-          "title": "In re M.T.",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2025/2024-0092.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2024-0092 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "2024-0287",
-          "title": "In re J.M.",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2024/2024-0287.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2024-0287 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "2023-0297",
-          "title": "In the Matter of Nadeau & Nadeau",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2024/2023-0297.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2023-0297 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

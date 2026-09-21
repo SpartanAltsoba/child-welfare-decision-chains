@@ -159,6 +159,84 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "New Jersey state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "Department of Children & Families, Division of Youth & Family Services v. T.B.",
+          "citation": "207 N.J. 294, 24 A.3d 290 (2011)",
+          "court": "Supreme Court of New Jersey",
+          "year": 2011,
+          "date_decided": "2011-08-08",
+          "holding": "The Court reversed a substantiated neglect finding and ordered the mother's name removed from the Child Abuse Registry because leaving a child briefly without confirming a grandparent was home was negligent but not grossly negligent.",
+          "relevance": "T.B. is the leading example of a court vacating an agency substantiation and ordering registry removal.",
+          "quote": "every failure to perform a cautionary act is not abuse or neglect.",
+          "url": "https://www.courtlistener.com/opinion/2328634/department-of-children-families-v-tb/",
+          "courtlistener_cluster_id": 2328634
+        },
+        {
+          "case_name": "New Jersey Department of Children & Families v. A.L.",
+          "citation": "213 N.J. 1, 59 A.3d 576 (2013)",
+          "court": "Supreme Court of New Jersey",
+          "year": 2013,
+          "date_decided": "2013-02-06",
+          "holding": "The Court reversed an abuse-or-neglect finding based on prenatal cocaine use, holding Title 9 requires competent proof of actual harm to the child or of imminent danger or substantial risk of harm.",
+          "relevance": "A.L. is the Supreme Court's reversal of an agency finding unsupported by competent evidence of harm.",
+          "quote": "If an expectant mother's drug use causes actual harm to the physical, mental, or emotional condition of a newborn child, a finding of abuse or neglect is appropriate.",
+          "url": "https://www.courtlistener.com/opinion/7409531/new-jersey-department-of-children-families-v-al/",
+          "courtlistener_cluster_id": 7409531
+        },
+        {
+          "case_name": "Department of Children & Families v. E.D.-O.",
+          "citation": "223 N.J. 166, 121 A.3d 832 (2015)",
+          "court": "Supreme Court of New Jersey",
+          "year": 2015,
+          "date_decided": "2015-08-20",
+          "holding": "The Court held that imminent risk is measured at the time of the triggering event but that a categorical approach is improper, and remanded the mother's substantiation to the Office of Administrative Law for a hearing on the totality of the circumstances.",
+          "relevance": "E.D.-O. vacates the agency's summary disposition and remands for the hearing due process requires.",
+          "quote": "We also hold that the Division should have referred the mother's appeal to the OAL for a hearing.",
+          "url": "https://www.courtlistener.com/opinion/2828898/department-of-children-families-v-ed-o/",
+          "courtlistener_cluster_id": 2828898
+        },
+        {
+          "case_name": "N.J. Department of Children & Families v. R.R.",
+          "citation": "454 N.J. Super. 37, 184 A.3d 114 (App. Div. 2018)",
+          "court": "New Jersey Superior Court, Appellate Division",
+          "year": 2018,
+          "date_decided": "2018-03-19",
+          "holding": "The court reversed a 'not established' finding as unsupported by the record and directed that the allegation be deemed 'unfounded' so the records would be treated accordingly.",
+          "relevance": "R.R. is an appellate reversal of an agency finding, with a direction that the records be expunged.",
+          "quote": "As we find that the Division erred in finding the allegation was \"not established,\" the Division shall deem the allegation to be \"unfounded\" and treat the records accordingly.",
+          "url": "https://www.courtlistener.com/opinion/6484475/nj-dept-of-children-families-v-rr/",
+          "courtlistener_cluster_id": 6484475
+        },
+        {
+          "case_name": "New Jersey Division of Youth & Family Services v. B.R.",
+          "citation": "192 N.J. 301, 929 A.2d 1034 (2007)",
+          "court": "Supreme Court of New Jersey",
+          "year": 2007,
+          "date_decided": "2007-07-25",
+          "holding": "The Court held that a parent in a termination case is entitled to effective assistance of counsel measured by the Strickland standard and raised on direct appeal, but affirmed because counsel's performance was not ineffective.",
+          "relevance": "B.R. creates the procedure for challenging a termination judgment on the ground that appointed counsel was ineffective.",
+          "quote": "Either way, the performance of that counsel must be effective.",
+          "url": "https://www.courtlistener.com/opinion/2279222/new-jersey-division-of-youth-family-services-v-br/",
+          "courtlistener_cluster_id": 2279222
+        },
+        {
+          "case_name": "New Jersey Division of Youth & Family Services v. M.M.",
+          "citation": "189 N.J. 261, 914 A.2d 1265 (2007)",
+          "court": "Supreme Court of New Jersey",
+          "year": 2007,
+          "date_decided": "2007-02-08",
+          "holding": "The Court reversed the Appellate Division and reinstated the termination of the father's parental rights, holding that appellate review of a Family Part termination judgment is limited and that the trial court's findings, supported by adequate and credible evidence, were entitled to deference.",
+          "relevance": "M.M. is the controlling statement of when a Family Part child-welfare fact-finding may and may not be disturbed on appeal, the threshold every reversal argument must clear.",
+          "quote": "A reviewing court should uphold the factual findings undergirding the trial court's decision if they are supported by \"adequate, substantial and credible evidence\" on the record.",
+          "url": "https://www.courtlistener.com/opinion/2362914/new-jersey-division-of-youth-family-services-v-mm/",
+          "courtlistener_cluster_id": 2362914
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22New%20Jersey%22%20AND%20%28%22New%20Jersey%20Department%20of%20Children%20and%20Families%22%20OR%20%22DCPP%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "New Jersey Department of Children and Families",
         "DCPP",
@@ -170,149 +248,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22New%20Jersey%22%20AND%20%28%22New%20Jersey%20Department%20of%20Children%20and%20Families%22%20OR%20%22DCPP%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "wrongful removal",
-        "1983 claim",
-        "civil rights",
-        "immunity",
-        "damages"
-      ],
-      "jurisdiction": "New Jersey state courts",
-      "key_cases": [
-        {
-          "case_id": "a-44-22",
-          "title": "DCPP v. D.C.A. and J.J.C.B.",
-          "url": "https://law.justia.com/cases/new-jersey/supreme-court/2023/a-44-22.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "New Jersey Supreme Court Case a-44-22 (2023)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "dcpp"
-          ],
-          "child_welfare_reason": "High: DCPP"
-        },
-        {
-          "case_id": "a-57-18",
-          "title": "S.C. v. New Jersey Department of Children and Families",
-          "url": "https://law.justia.com/cases/new-jersey/supreme-court/2020/a-57-18.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "New Jersey Supreme Court Case a-57-18 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "new jersey department of children and families"
-          ],
-          "child_welfare_reason": "High: DCF"
-        },
-        {
-          "case_id": "a-61-62-19",
-          "title": "In re Opinion No. 735 of the Supreme Court Advisory Committee on Professional Ethics",
-          "url": "https://law.justia.com/cases/new-jersey/supreme-court/2025/a-61-62-19.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Jersey Supreme Court Case a-61-62-19 (2025)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a-44-45-46-47-48-49-50-51-52-23",
-          "title": "In re Opinion No. 745 of the Supreme Court Advisory Committee on Professional Ethics",
-          "url": "https://law.justia.com/cases/new-jersey/supreme-court/2025/a-44-45-46-47-48-49-50-51-52-23.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Jersey Supreme Court Case a-44-45-46-47-48-49-50-51-52-23 (2025)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a-26-24",
-          "title": "In the Matter of the Certificates of Nicholas Cilento, State Board of Examiners, New Jersey Department of Education",
-          "url": "https://law.justia.com/cases/new-jersey/supreme-court/2025/a-26-24.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Jersey Supreme Court Case a-26-24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "a-68-24",
-          "title": "In the Matter of the Verified Petition for the Proposed Creation of a PK-12 All-Purpose Regional School District",
-          "url": "https://law.justia.com/cases/new-jersey/supreme-court/2025/a-68-24.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Jersey Supreme Court Case a-68-24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "a-15-24",
-          "title": "In re the Matter Concerning the State Grand Jury",
-          "url": "https://law.justia.com/cases/new-jersey/supreme-court/2025/a-15-24.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Jersey Supreme Court Case a-15-24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a-33-24",
-          "title": "In the Matter of Protest Filed by El Sol Contracting and Construction Corp., Contract T100.638",
-          "url": "https://law.justia.com/cases/new-jersey/supreme-court/2025/a-33-24.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Jersey Supreme Court Case a-33-24 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "a-42-23",
-          "title": "In re Appeal of the New Jersey Department of Environmental Protection's September 6, 2022 Denial of Request for Adjudicatory Hearing",
-          "url": "https://law.justia.com/cases/new-jersey/supreme-court/2025/a-42-23.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Jersey Supreme Court Case a-42-23 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a-28-23",
-          "title": "In the Matter of the Estate of Jones",
-          "url": "https://law.justia.com/cases/new-jersey/supreme-court/2025/a-28-23.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Jersey Supreme Court Case a-28-23 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

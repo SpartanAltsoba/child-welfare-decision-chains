@@ -131,6 +131,84 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "New Mexico state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "Schwartz v. Booker",
+          "citation": "702 F.3d 573 (10th Cir. 2012)",
+          "court": "United States Court of Appeals for the Tenth Circuit",
+          "year": 2012,
+          "date_decided": "2012-12-19",
+          "holding": "The court held that caseworkers who failed to investigate abuse referrals and closed a foster child's case before he was starved and beaten to death were not entitled to qualified immunity, because the special relationship with a child in state custody and his right to reasonable safety were clearly established.",
+          "relevance": "It is the circuit's leading decision on caseworker liability for a child's death in foster care.",
+          "quote": "plaintiffs sufficiently pled facts, when taken as true, that show Booker and Peagler plausibly violated Chandler's substantive due process right to be reasonably safe while in foster care",
+          "url": "https://www.courtlistener.com/opinion/813921/schwartz-v-booker/",
+          "courtlistener_cluster_id": 813921
+        },
+        {
+          "case_name": "Currier v. Doran",
+          "citation": "242 F.3d 905 (10th Cir. 2001)",
+          "court": "United States Court of Appeals for the Tenth Circuit",
+          "year": 2001,
+          "date_decided": "2001-03-01",
+          "holding": "The court held that DeShaney does not foreclose a substantive due process claim where state officials affirmatively created or increased the danger to a child, affirmed the denial of qualified immunity to two New Mexico child-welfare defendants whose conduct placed the children with the father who killed one of them, and reversed the denial of immunity as to two other defendants.",
+          "relevance": "A child died of his father's abuse after state officials' conduct moved him into that home, and this opinion supplies the circuit standard for holding the State answerable for that death.",
+          "quote": "The danger creation theory, however, focuses on the affirmative actions of the state in placing the plaintiff in harm's way",
+          "url": "https://www.courtlistener.com/opinion/160810/currier-v-doran/",
+          "courtlistener_cluster_id": 160810
+        },
+        {
+          "case_name": "Yvonne L. v. New Mexico Department of Human Services",
+          "citation": "959 F.2d 883 (10th Cir. 1992)",
+          "court": "United States Court of Appeals for the Tenth Circuit",
+          "year": 1992,
+          "date_decided": "1992-03-24",
+          "holding": "The court held that children in New Mexico state custody had a clearly established Fourteenth Amendment right to reasonable safety measured by the Youngberg professional judgment standard and reversed qualified immunity on that claim, while affirming that 42 U.S.C. Section 671(a)(10) of the AACWA is too vague and amorphous to be enforced under Section 1983.",
+          "relevance": "It supplies the liability standard when children in New Mexico state custody are seriously harmed in placement.",
+          "quote": "while it does not require actual knowledge the children will be harmed, it implies abdication of the duty to act professionally in making the placements",
+          "url": "https://www.courtlistener.com/opinion/9006488/yvonne-l-v-new-mexico-department-of-human-services/",
+          "courtlistener_cluster_id": 9006488
+        },
+        {
+          "case_name": "Quevedo ex rel. Bevan v. New Mexico Children, Youth & Families Department",
+          "citation": "2016-NMCA-101, 385 P.3d 657",
+          "court": "New Mexico Court of Appeals",
+          "year": 2016,
+          "date_decided": "2016-08-31",
+          "holding": "The court held that disputed material facts about whether and how CYFD placed children at a private residential ranch precluded summary judgment on whether the Tort Claims Act building waiver in Section 41-4-6(A) permitted suit, and it reversed and remanded.",
+          "relevance": "It is the New Mexico vehicle for suing CYFD when children suffer serious harm in a placement the agency arranged.",
+          "quote": "We conclude that questions of material fact preclude summary judgment on the issue of whether the TCA's building waiver applies to permit Plaintiffs' suit",
+          "url": "https://www.courtlistener.com/opinion/4331998/quevedo-ex-rel-bevan-v-new-mexico-children-youth-families-department/",
+          "courtlistener_cluster_id": 4331998
+        },
+        {
+          "case_name": "T.D. v. Patton",
+          "citation": "868 F.3d 1209 (10th Cir. 2017)",
+          "court": "United States Court of Appeals for the Tenth Circuit",
+          "year": 2017,
+          "date_decided": "2017-08-28",
+          "holding": "The court held that a caseworker who recommended and maintained a child's placement with a father she had reason to believe was abusing him, and who withheld her concerns from the juvenile court, violated the child's clearly established substantive due process right to be free from state-created danger.",
+          "relevance": "It supplies the standard for caseworker liability when a placement decision leads to severe abuse of a child in care.",
+          "quote": "we conclude that, under Currier, Ms. Patton violated T.D.'s clearly established substantive due process constitutional right to be free of a state official's creation of danger from a private actor",
+          "url": "https://www.courtlistener.com/opinion/4422214/td-v-patton/",
+          "courtlistener_cluster_id": 4422214
+        },
+        {
+          "case_name": "Young v. Van Duyne",
+          "citation": "2004-NMCA-074, 135 N.M. 695, 92 P.3d 1269",
+          "court": "New Mexico Court of Appeals",
+          "year": 2004,
+          "date_decided": "2004-04-28",
+          "holding": "The court held that sovereign immunity did not bar, at the pleading stage, the claim that CYFD failed before adoption to disclose the child's known dangerous tendencies, but affirmed dismissal of the claims based on CYFD's post-adoption knowledge and conduct.",
+          "relevance": "The adopted child killed his adoptive mother, and the case sets out when the State may be answerable for that outcome.",
+          "quote": "we remand for further proceedings as to whether Plaintiff can show preadoption circumstances resulting in a breach of a duty to disclose the dangerous tendencies",
+          "url": "https://www.courtlistener.com/opinion/2521525/young-v-van-duyne/",
+          "courtlistener_cluster_id": 2521525
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22New%20Mexico%22%20AND%20%28%22New%20Mexico%20Children%20Youth%20and%20Families%20Department%22%20OR%20%22CYFD%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "New Mexico Children Youth and Families Department",
         "CYFD",
@@ -142,149 +220,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22New%20Mexico%22%20AND%20%28%22New%20Mexico%20Children%20Youth%20and%20Families%20Department%22%20OR%20%22CYFD%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "termination of parental rights",
-        "TPR",
-        "adoption",
-        "permanency",
-        "aging out"
-      ],
-      "jurisdiction": "New Mexico state courts",
-      "key_cases": [
-        {
-          "case_id": "a-1-ca-41980",
-          "title": "In re Guardianship & Conservatorship of Linda D. (Unpublished Opinion)",
-          "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2025/a-1-ca-41980.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New Mexico Court Of Appeals Case a-1-ca-41980 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "a-1-ca-42477",
-          "title": "In re Guardianship of Kenya A.C. (Unpublished Opinion)",
-          "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2025/a-1-ca-42477.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New Mexico Court Of Appeals Case a-1-ca-42477 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "a-1-ca-41410",
-          "title": "In re Guardianship of John F. J. (Unpublished Opinion)",
-          "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2024/a-1-ca-41410.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "New Mexico Court Of Appeals Case a-1-ca-41410 (2024)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "a-1-ca-41078",
-          "title": "In re Kinship Guardianship Neneah L. v. Lara (Unpublished Opinion)",
-          "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2023/a-1-ca-41078.html",
-          "year": 2023,
-          "court": "Court Of Appeals",
-          "citation": "New Mexico Court Of Appeals Case a-1-ca-41078 (2023)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s-1-sc-40711",
-          "title": "In re Rael (Unpublished Opinion)",
-          "url": "https://law.justia.com/cases/new-mexico/supreme-court/2025/s-1-sc-40711.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Mexico Supreme Court Case s-1-sc-40711 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s-1-sc-40571",
-          "title": "In re Valdez (Unpublished Opinion)",
-          "url": "https://law.justia.com/cases/new-mexico/supreme-court/2025/s-1-sc-40571.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Mexico Supreme Court Case s-1-sc-40571 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a-1-ca-41751",
-          "title": "In re Estate of Sanchez (Unpublished Opinion)",
-          "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2025/a-1-ca-41751.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New Mexico Court Of Appeals Case a-1-ca-41751 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a-1-ca-42499",
-          "title": "In re Estate of Carr (Unpublished Opinion)",
-          "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2025/a-1-ca-42499.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New Mexico Court Of Appeals Case a-1-ca-42499 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a-1-ca-40832",
-          "title": "In re Maestas (Unpublished Opinion)",
-          "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2025/a-1-ca-40832.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New Mexico Court Of Appeals Case a-1-ca-40832 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a-1-ca-41794",
-          "title": "In re Dissolution of ROI Enters., LLC (Unpublished Opinion)",
-          "url": "https://law.justia.com/cases/new-mexico/court-of-appeals/2025/a-1-ca-41794.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New Mexico Court Of Appeals Case a-1-ca-41794 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

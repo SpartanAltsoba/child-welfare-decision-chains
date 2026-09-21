@@ -98,6 +98,84 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Rhode Island state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "In re Violet G.",
+          "citation": "212 A.3d 160 (R.I. 2019)",
+          "court": "Supreme Court of Rhode Island",
+          "year": 2019,
+          "date_decided": "2019-06-19",
+          "holding": "Termination was affirmed where DCYF developed four case plans tailored to the mother's issues and the Family Court correctly concluded the department satisfied its statutory reasonable-efforts obligation notwithstanding her non-compliance.",
+          "relevance": "Violet G. defines what a carefully tailored Rhode Island case plan must contain to count as a reasonable effort.",
+          "quote": "we are of the opinion that the Family Court justice correctly concluded that DCYF complied with its statutory obligation to make reasonable efforts to reunify respondent with Violet",
+          "url": "https://www.courtlistener.com/opinion/4631055/in-re-violet-g/",
+          "courtlistener_cluster_id": 4631055
+        },
+        {
+          "case_name": "In re Daniel D.",
+          "citation": "9 A.3d 651 (R.I. 2010)",
+          "court": "Supreme Court of Rhode Island",
+          "year": 2010,
+          "date_decided": "2010-12-09",
+          "holding": "Termination on abandonment and desertion grounds was affirmed where the father expressed no interest in reunification and had no contact for the statutory six-month period, and the best-interests finding was supported by legally competent evidence.",
+          "relevance": "The case shows how a parent's refusal to engage with offered services is documented and used.",
+          "quote": "Therefore, the trial justice's finding that termination was in the best interests of the children is supported by legally competent evidence, and we decline to disturb this finding on appeal.",
+          "url": "https://www.courtlistener.com/opinion/2553233/in-re-daniel-d/",
+          "courtlistener_cluster_id": 2553233
+        },
+        {
+          "case_name": "Suter v. Artist M.",
+          "citation": "503 U.S. 347 (1992)",
+          "court": "Supreme Court of the United States",
+          "year": 1992,
+          "date_decided": "1992-03-25",
+          "holding": "The Adoption Assistance and Child Welfare Act's 'reasonable efforts' requirement, 42 U.S.C. § 671(a)(15), creates no right enforceable by foster children either directly or through 42 U.S.C. § 1983.",
+          "relevance": "The federal reasonable-efforts duty that underlies voluntary service plans is a funding condition, not a private entitlement, so relief must be sought in Family Court.",
+          "quote": "We hold that the Act does not create an enforceable right on behalf of respondents.",
+          "url": "https://www.courtlistener.com/opinion/112712/suter-v-artist-m/",
+          "courtlistener_cluster_id": 112712
+        },
+        {
+          "case_name": "Health and Hospital Corporation of Marion Cty. v. Talevski",
+          "citation": "599 U.S. 166 (2023)",
+          "court": "Supreme Court of the United States",
+          "year": 2023,
+          "date_decided": "2023-06-08",
+          "holding": "Spending Clause statutes can create rights enforceable under section 1983; the Federal Nursing Home Reform Act's unnecessary-restraint and predischarge-notice provisions unambiguously confer individual rights, and the Act's own enforcement scheme does not foreclose a section 1983 suit, so the judgment for the resident was affirmed.",
+          "relevance": "The reasonable-efforts duty behind a Rhode Island voluntary service plan is still most naturally enforced in Family Court, but Talevski requires that conclusion to be reached through its unambiguous-conferral analysis rather than by citing Suter alone.",
+          "quote": "our precedent sets a demanding bar: Statutory provisions must unambiguously confer individual federal rights.",
+          "url": "https://www.courtlistener.com/opinion/9404968/health-and-hospital-corporation-of-marion-cty-v-talevski/",
+          "courtlistener_cluster_id": 9404968
+        },
+        {
+          "case_name": "In re Lauren B.",
+          "citation": "78 A.3d 752 (R.I. 2013)",
+          "court": "Supreme Court of Rhode Island",
+          "year": 2013,
+          "date_decided": "2013-11-04",
+          "holding": "Termination was affirmed because DCYF's case plans were targeted to the conduct that caused removal and the father refused to complete them, and the Court reiterated that DCYF need not show extraordinary efforts to reunite parent and child.",
+          "relevance": "Lauren B. is the current Rhode Island statement of what a voluntary or agency service plan must contain to qualify as reasonable efforts: services aimed at the actual reasons the children came into care.",
+          "quote": "the services offered were patently targeted to address the reasons that Lauren and Stephanie were placed into care",
+          "url": "https://www.courtlistener.com/opinion/2716965/in-re-lauren-b/",
+          "courtlistener_cluster_id": 2716965
+        },
+        {
+          "case_name": "In re Steven D.",
+          "citation": "23 A.3d 1138 (R.I. 2011)",
+          "court": "Supreme Court of Rhode Island",
+          "year": 2011,
+          "date_decided": "2011-06-29",
+          "holding": "Both termination decrees were vacated: DCYF failed to make reasonable efforts as to the mother because it never offered substance-abuse treatment for what it identified as her primary barrier to reunification, and the father's unfitness was never proved by clear and convincing evidence.",
+          "relevance": "The case holds that a service plan is not a reasonable effort when it omits treatment for the very condition DCYF and its own expert identified as the principal barrier to reunification.",
+          "quote": "due process requires that, before the state may terminate a parent's rights in his or her children, the state must support its allegations by clear and convincing evidence",
+          "url": "https://www.courtlistener.com/opinion/5144553/in-re-steven-d/",
+          "courtlistener_cluster_id": 5144553
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Rhode%20Island%22%20AND%20%28%22Rhode%20Island%20Department%20of%20Children%20Youth%20%26%20Families%22%20OR%20%22DCYF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Rhode Island Department of Children Youth & Families",
         "DCYF",
@@ -109,149 +187,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Rhode%20Island%22%20AND%20%28%22Rhode%20Island%20Department%20of%20Children%20Youth%20%26%20Families%22%20OR%20%22DCYF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "removal",
-        "emergency custody",
-        "placement",
-        "reunification",
-        "services"
-      ],
-      "jurisdiction": "Rhode Island state courts",
-      "key_cases": [
-        {
-          "case_id": "23-57",
-          "title": "In re J.R.; In re E.R.; In re A.R.; In re D.R",
-          "url": "https://law.justia.com/cases/rhode-island/supreme-court/2025/23-57.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Rhode Island Supreme Court Case 23-57 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "23-224",
-          "title": "In re N.O.",
-          "url": "https://law.justia.com/cases/rhode-island/supreme-court/2025/23-224.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Rhode Island Supreme Court Case 23-224 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "23-115",
-          "title": "In re CVS Health Corporation Securities Litigation",
-          "url": "https://law.justia.com/cases/rhode-island/supreme-court/2025/23-115.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Rhode Island Supreme Court Case 23-115 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "22-142",
-          "title": "In re B.M.",
-          "url": "https://law.justia.com/cases/rhode-island/supreme-court/2024/22-142.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Rhode Island Supreme Court Case 22-142 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "22-226",
-          "title": "In re A.N.",
-          "url": "https://law.justia.com/cases/rhode-island/supreme-court/2024/22-226.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Rhode Island Supreme Court Case 22-226 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "22-302",
-          "title": "In re C.R.",
-          "url": "https://law.justia.com/cases/rhode-island/supreme-court/2024/22-302.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Rhode Island Supreme Court Case 22-302 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "22-59",
-          "title": "In re N.D.",
-          "url": "https://law.justia.com/cases/rhode-island/supreme-court/2024/22-59.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Rhode Island Supreme Court Case 22-59 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "22-75",
-          "title": "In re N.B.",
-          "url": "https://law.justia.com/cases/rhode-island/supreme-court/2024/22-75.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Rhode Island Supreme Court Case 22-75 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "22-355",
-          "title": "In re Da Cruz",
-          "url": "https://law.justia.com/cases/rhode-island/supreme-court/2024/22-355.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Rhode Island Supreme Court Case 22-355 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "22-77",
-          "title": "In re R.M.",
-          "url": "https://law.justia.com/cases/rhode-island/supreme-court/2023/22-77.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Rhode Island Supreme Court Case 22-77 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

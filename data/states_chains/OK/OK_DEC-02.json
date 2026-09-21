@@ -88,6 +88,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Oklahoma state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "State v. Frazier (In re P.F.)",
+          "citation": "2005 OK CIV APP 50, 118 P.3d 224",
+          "court": "Court of Civil Appeals of Oklahoma",
+          "year": 2005,
+          "date_decided": "2005-06-28",
+          "holding": "The court reversed a deprived adjudication that rested on a DHS worker's recounting of the child's and other declarants' out-of-court statements, because the trial court made none of the reliability and trustworthiness findings the hearsay statutes require.",
+          "relevance": "Frazier is the key Oklahoma authority on the evidentiary limits of investigative child interviews, including recorded forensic interviews.",
+          "quote": "Subsection B(l) imposes upon the trial court an affirmative duty to make a specific finding of reliability, according to a general set of criteria.",
+          "url": "https://www.courtlistener.com/opinion/5323474/state-v-frazier/",
+          "courtlistener_cluster_id": 5323474
+        },
+        {
+          "case_name": "Roska v. Peterson",
+          "citation": "328 F.3d 1230 (10th Cir. 2003)",
+          "court": "United States Court of Appeals for the Tenth Circuit",
+          "year": 2003,
+          "date_decided": "2003-04-29",
+          "holding": "The Tenth Circuit held that caseworkers who entered a family's home and removed a child without a warrant, prior notice or a hearing, in the absence of exigent or extraordinary circumstances, violated the Fourth and Fourteenth Amendments, though the defendants might still establish qualified immunity on remand.",
+          "relevance": "The decision governs how far investigators may go physically into a home before a warrant becomes necessary.",
+          "quote": "We find no special need that renders the warrant requirement impracticable when social workers enter a home to remove a child, absent exigent circumstances.",
+          "url": "https://www.courtlistener.com/opinion/781963/roska-v-peterson/",
+          "courtlistener_cluster_id": 781963
+        },
+        {
+          "case_name": "Halley v. Huckaby",
+          "citation": "902 F.3d 1136 (10th Cir. 2018)",
+          "court": "United States Court of Appeals for the Tenth Circuit",
+          "year": 2018,
+          "date_decided": "2018-08-27",
+          "holding": "In a suit arising from Oklahoma DHS's seizure and questioning of a child at school, the Tenth Circuit affirmed the denial of qualified immunity to the DHS specialist and the sheriff's deputy on the Fourth Amendment claim, reversed as to the officer who merely transported the child, and reversed on the familial-association claim as not clearly established.",
+          "relevance": "The decision constrains how an accepted report may be investigated through custodial questioning of the child.",
+          "quote": "Unless officials have judicial authorization, however, they cannot seize a child without at least having reasonable suspicion of imminent danger.",
+          "url": "https://www.courtlistener.com/opinion/4530346/halley-v-huckaby/",
+          "courtlistener_cluster_id": 4530346
+        },
+        {
+          "case_name": "In the Matter of J.D.H.",
+          "citation": "2006 OK 5, 130 P.3d 245",
+          "court": "Supreme Court of Oklahoma",
+          "year": 2006,
+          "date_decided": "2006-01-24",
+          "holding": "The court vacated the Court of Civil Appeals opinion and affirmed the deprived adjudication of all four children, holding a therapist's account of a child's statements was admissible under the medical diagnosis or treatment hearsay exception and that competent evidence supported the adjudications.",
+          "relevance": "J.D.H. defines when statements a child makes during treatment following an investigation may be repeated in court, the counterpart to Frazier's limits on investigative interviews.",
+          "quote": "On appeal from an order declaring a child deprived, we will affirm the trial court's findings if they are supported by competent evidence.",
+          "url": "https://www.courtlistener.com/opinion/2622689/in-re-jdh/",
+          "courtlistener_cluster_id": 2622689
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Oklahoma%22%20AND%20%28%22Oklahoma%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Oklahoma Department of Human Services",
         "CPS",
@@ -99,149 +153,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Oklahoma%22%20AND%20%28%22Oklahoma%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "investigation",
-        "substantiation",
-        "evidence standard",
-        "due process",
-        "reasonable efforts"
-      ],
-      "jurisdiction": "Oklahoma state courts",
-      "key_cases": [
-        {
-          "case_id": "118243",
-          "title": "In the Matter of the Assessments for Tax Year 2012",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2021/118243.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case 118243 (2021)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "scbd-8012",
-          "title": "IN RE: Rules of the Supreme Court for Mandatory Continuing Legal Education",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/scbd-8012.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case scbd-8012 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "122249",
-          "title": "IN THE MATTER OF THE ESTATE OF EVANS v. GREER",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/122249.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case 122249 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "scbd-7913",
-          "title": "IN THE MATTER OF THE REINSTATEMENT OF BRANDY KEARNEY CHAMBERS",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/scbd-7913.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case scbd-7913 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "2025-ok-83",
-          "title": "In Re: Rules of the Supreme Court of the State of Oklahoma on Legal Internship",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/2025-ok-83.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case 2025-ok-83 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "121662",
-          "title": "In the Matter of the Estate of Hill v. Hill",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/121662.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case 121662 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "scbd-7792",
-          "title": "IN THE MATTER OF THE REINSTATEMENT OF CAREY",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/scbd-7792.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case scbd-7792 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "2025-ok-70",
-          "title": "In re: Amendments to Rule 24-Voluntary Retired Certificate Status and Inactive Status of the Rules of the State Board of Examiners of Certified Shorthand Reporters",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/2025-ok-70.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case 2025-ok-70 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "123007",
-          "title": "IN RE INITIATIVE PETITION NO. 448, STATE QUESTION NO. 836: THE OKLAHOMA REPUBLICAN PARTY v. SETTER",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/123007.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case 123007 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "123375",
-          "title": "IN THE MATTER OF THE DISCIPLINARY PROCEEDING CONCERNING MUELLER",
-          "url": "https://law.justia.com/cases/oklahoma/supreme-court/2025/123375.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Oklahoma Supreme Court Case 123375 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

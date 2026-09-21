@@ -88,6 +88,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Rhode Island state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "Suter v. Artist M.",
+          "citation": "503 U.S. 347 (1992)",
+          "court": "Supreme Court of the United States",
+          "year": 1992,
+          "date_decided": "1992-03-25",
+          "holding": "The Adoption Assistance and Child Welfare Act's 'reasonable efforts' requirement, 42 U.S.C. § 671(a)(15), creates no right enforceable by foster children either directly or through 42 U.S.C. § 1983.",
+          "relevance": "Audit and fiscal findings under the same IV-E framework are enforced through funding penalties rather than litigation.",
+          "quote": "We hold that the Act does not create an enforceable right on behalf of respondents.",
+          "url": "https://www.courtlistener.com/opinion/112712/suter-v-artist-m/",
+          "courtlistener_cluster_id": 112712
+        },
+        {
+          "case_name": "Pontarelli v. Rhode Island Department of Elementary & Secondary Education",
+          "citation": "176 A.3d 472 (R.I. 2018)",
+          "court": "Supreme Court of Rhode Island",
+          "year": 2018,
+          "date_decided": "2018-01-16",
+          "holding": "The requested records fell within an APRA exception and were not public records, so the agency's denial was upheld; separately, any reason not stated in the denial is deemed waived absent good cause.",
+          "relevance": "Audit-adjacent personnel and investigative material held by a state agency may fall outside APRA entirely.",
+          "quote": "we hold without hesitation that the records Pontarelli requested are not public records for the purposes of APRA",
+          "url": "https://www.courtlistener.com/opinion/4459570/paul-e-pontarelli-v-rhode-island-department-of-elementary-and-secondary/",
+          "courtlistener_cluster_id": 4459570
+        },
+        {
+          "case_name": "Blessing v. Freestone",
+          "citation": "520 U.S. 329 (1997)",
+          "court": "Supreme Court of the United States",
+          "year": 1997,
+          "date_decided": "1997-04-21",
+          "holding": "A section 1983 plaintiff must identify the particular statutory provision said to confer an individual federal right; Title IV-D's 'substantial compliance' requirement is only a systemwide yardstick for the Secretary and confers no such right, so the judgment was vacated for provision-by-provision analysis.",
+          "relevance": "Blessing describes the funding-reduction mechanism as the enforcement tool for plan noncompliance, which is the same fiscal-penalty track that governs IV-E audit findings against Rhode Island.",
+          "quote": "In order to seek redress through § 1983, however, a plaintiff must assert the violation of a federal right, not merely a violation of federal law.",
+          "url": "https://www.courtlistener.com/opinion/118101/blessing-v-freestone/",
+          "courtlistener_cluster_id": 118101
+        },
+        {
+          "case_name": "Health and Hospital Corporation of Marion Cty. v. Talevski",
+          "citation": "599 U.S. 166 (2023)",
+          "court": "Supreme Court of the United States",
+          "year": 2023,
+          "date_decided": "2023-06-08",
+          "holding": "Spending Clause statutes can create rights enforceable under section 1983; the Federal Nursing Home Reform Act's unnecessary-restraint and predischarge-notice provisions unambiguously confer individual rights, and the Act's own enforcement scheme does not foreclose a section 1983 suit, so the judgment for the resident was affirmed.",
+          "relevance": "Talevski leaves fiscal and audit conditions enforced through funding penalties while preserving private enforcement for provisions that are genuinely rights-creating.",
+          "quote": "our precedent sets a demanding bar: Statutory provisions must unambiguously confer individual federal rights.",
+          "url": "https://www.courtlistener.com/opinion/9404968/health-and-hospital-corporation-of-marion-cty-v-talevski/",
+          "courtlistener_cluster_id": 9404968
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Rhode%20Island%22%20AND%20%28%22Rhode%20Island%20Department%20of%20Children%20Youth%20%26%20Families%22%20OR%20%22DCYF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Rhode Island Department of Children Youth & Families",
         "DCYF",
@@ -99,148 +153,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Rhode%20Island%22%20AND%20%28%22Rhode%20Island%20Department%20of%20Children%20Youth%20%26%20Families%22%20OR%20%22DCYF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "missing child",
-        "amber alert",
-        "custodial interference",
-        "parental kidnapping"
-      ],
-      "jurisdiction": "Rhode Island state courts",
-      "key_cases": [
-        {
-          "case_id": "23-57",
-          "title": "In re J.R.; In re E.R.; In re A.R.; In re D.R",
-          "url": "https://law.justia.com/cases/rhode-island/supreme-court/2025/23-57.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Rhode Island Supreme Court Case 23-57 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "23-224",
-          "title": "In re N.O.",
-          "url": "https://law.justia.com/cases/rhode-island/supreme-court/2025/23-224.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Rhode Island Supreme Court Case 23-224 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "23-115",
-          "title": "In re CVS Health Corporation Securities Litigation",
-          "url": "https://law.justia.com/cases/rhode-island/supreme-court/2025/23-115.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Rhode Island Supreme Court Case 23-115 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "22-142",
-          "title": "In re B.M.",
-          "url": "https://law.justia.com/cases/rhode-island/supreme-court/2024/22-142.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Rhode Island Supreme Court Case 22-142 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "22-226",
-          "title": "In re A.N.",
-          "url": "https://law.justia.com/cases/rhode-island/supreme-court/2024/22-226.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Rhode Island Supreme Court Case 22-226 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "22-302",
-          "title": "In re C.R.",
-          "url": "https://law.justia.com/cases/rhode-island/supreme-court/2024/22-302.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Rhode Island Supreme Court Case 22-302 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "22-59",
-          "title": "In re N.D.",
-          "url": "https://law.justia.com/cases/rhode-island/supreme-court/2024/22-59.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Rhode Island Supreme Court Case 22-59 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "22-75",
-          "title": "In re N.B.",
-          "url": "https://law.justia.com/cases/rhode-island/supreme-court/2024/22-75.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Rhode Island Supreme Court Case 22-75 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "22-355",
-          "title": "In re Da Cruz",
-          "url": "https://law.justia.com/cases/rhode-island/supreme-court/2024/22-355.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Rhode Island Supreme Court Case 22-355 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "22-77",
-          "title": "In re R.M.",
-          "url": "https://law.justia.com/cases/rhode-island/supreme-court/2023/22-77.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Rhode Island Supreme Court Case 22-77 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

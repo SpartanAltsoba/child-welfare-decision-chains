@@ -76,6 +76,84 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Ohio state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "Kovacic v. Cuyahoga Cty. Dept. of Children & Family Servs.",
+          "citation": "724 F.3d 687 (6th Cir. 2013)",
+          "court": "United States Court of Appeals for the Sixth Circuit",
+          "year": 2013,
+          "date_decided": "2013-07-31",
+          "holding": "Ohio social workers who entered a home and removed children without a warrant were not entitled to qualified immunity on the children's Fourth Amendment claims because a warrantless removal requires exigency, not merely probable cause, although the workers retained absolute immunity for preparing the temporary emergency care order and initiating the proceedings.",
+          "relevance": "This is the leading Ohio-origin Section 1983 decision on warrantless removal of children, and the starting point for any wrongful-removal claim in this circuit.",
+          "quote": "The relevant question is whether there was exigency, not probable cause: in the absence of exigency, a warrant is required, even \"when probable cause is clearly present.\"",
+          "url": "https://www.courtlistener.com/opinion/1035935/kovacic-v-cuyahoga-county-department-of-children-family-services/",
+          "courtlistener_cluster_id": 1035935
+        },
+        {
+          "case_name": "Andrews v. Hickman County",
+          "citation": "700 F.3d 845 (6th Cir. 2012)",
+          "court": "United States Court of Appeals for the Sixth Circuit",
+          "year": 2012,
+          "date_decided": "2012-12-03",
+          "holding": "The Sixth Circuit held that social workers are bound by the Fourth Amendment's warrant requirement when entering a home and that no social-worker exception exists, but granted qualified immunity because that rule was not clearly established in the circuit at the time of the entry.",
+          "relevance": "It supplies the rule that makes warrantless entries and removals by caseworkers actionable, subject to qualified immunity.",
+          "quote": "we agree that a social worker, like other state officers, is governed by the Fourth Amendment's warrant requirement",
+          "url": "https://www.courtlistener.com/opinion/812950/robert-andrews-v-hickman-county-tennessee/",
+          "courtlistener_cluster_id": 812950
+        },
+        {
+          "case_name": "Bambach v. Moegle",
+          "citation": "92 F.4th 615 (6th Cir. 2024)",
+          "court": "United States Court of Appeals for the Sixth Circuit",
+          "year": 2024,
+          "date_decided": "2024-02-08",
+          "holding": "Because the father had consented to the initial removal and safety arrangement, no clearly established law put the caseworker on notice that her conduct violated the family's Fourth or Fourteenth Amendment rights, and qualified immunity was granted.",
+          "relevance": "It marks the boundary of the wrongful-removal claim: consent, not exigency, decided the case.",
+          "quote": "Absent certain exigent circumstances, the state's termination of or interference with parental rights—even temporarily—requires some measure of procedural protection, like proper notice and an opportunity for a hearing.",
+          "url": "https://www.courtlistener.com/opinion/9473552/mark-bambach-v-gina-moegle/",
+          "courtlistener_cluster_id": 9473552
+        },
+        {
+          "case_name": "Brent v. Wayne Cty. Dept. of Human Servs.",
+          "citation": "901 F.3d 656 (6th Cir. 2018)",
+          "court": "United States Court of Appeals for the Sixth Circuit",
+          "year": 2018,
+          "date_decided": "2018-08-23",
+          "holding": "Social workers who initiate child-removal proceedings are absolutely immune for their role in preparing and presenting the removal petition, even from allegations that they knowingly made false statements, though immunity does not extend to the manner of executing a removal order.",
+          "relevance": "It is the controlling circuit rule that defeats most damages claims premised on falsehoods in the removal petition, and it tells families to attack the execution of the removal rather than its initiation.",
+          "quote": "The doctrine of absolute immunity applies even if social workers make knowingly false statements in the petition for a removal order and while advocating before the court.",
+          "url": "https://www.courtlistener.com/opinion/4529474/nathaniel-brent-v-wayne-cty-dept-of-human-servs/",
+          "courtlistener_cluster_id": 4529474
+        },
+        {
+          "case_name": "In re Murray",
+          "citation": "52 Ohio St.3d 155, 556 N.E.2d 1169 (1990)",
+          "court": "Supreme Court of Ohio",
+          "year": 1990,
+          "date_decided": "1990-07-03",
+          "holding": "An adjudication of dependency followed by an award of temporary custody to a children services board is a final, appealable order, and the Court grounded that conclusion in the fundamental liberty interest and paramount right of suitable parents in the custody of their children.",
+          "relevance": "It is the state-law counterpart to the federal substantive due process interest invoked in wrongful-removal claims.",
+          "quote": "Parents have a \"fundamental liberty-interest\" in the care, custody, and management of the child.",
+          "url": "https://www.courtlistener.com/opinion/6870542/in-re-murray/",
+          "courtlistener_cluster_id": 6870542
+        },
+        {
+          "case_name": "Holloway v. Brush",
+          "citation": "220 F.3d 767 (6th Cir. 2000) (en banc)",
+          "court": "United States Court of Appeals for the Sixth Circuit",
+          "year": 2000,
+          "date_decided": "2000-07-31",
+          "holding": "Sitting en banc in an Ohio case, the court reversed summary judgment based on absolute immunity, holding that a caseworker is absolutely immune only for acts performed as a legal advocate and not for out-of-court administrative or investigative conduct, so a caseworker who allegedly concealed from the juvenile court that the mother had been located, and concealed the pendency of the permanent-custody decision from her, was not absolutely immune.",
+          "relevance": "It is the en banc decision Brent applies and quotes; a wrongful-removal claim survives only to the extent it targets conduct outside the advocacy function, and the Ohio statutory duty to seek the parents' agreement on the case plan is such conduct.",
+          "quote": "social workers are absolutely immune only when they are acting in their capacity as legal advocates - initiating court actions or testifying under oath",
+          "url": "https://www.courtlistener.com/opinion/769670/sammye-r-holloway-v-sally-brush-clermont-county-ohio/",
+          "courtlistener_cluster_id": 769670
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Ohio%22%20AND%20%28%22Ohio%20Department%20of%20Job%20and%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Ohio Department of Job and Family Services",
         "CPS",
@@ -87,149 +165,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Ohio%22%20AND%20%28%22Ohio%20Department%20of%20Job%20and%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "wrongful removal",
-        "1983 claim",
-        "civil rights",
-        "immunity",
-        "damages"
-      ],
-      "jurisdiction": "Ohio state courts",
-      "key_cases": [
-        {
-          "case_id": "28855",
-          "title": "In re Removal of Whaley",
-          "url": "https://law.justia.com/cases/ohio/second-district-court-of-appeals/2020/28855.html",
-          "year": 2020,
-          "court": "Second District Court Of Appeals",
-          "citation": "Ohio Second District Court Of Appeals Case 28855 (2020)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "c-250544",
-          "title": "In re A.J.",
-          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250544.html",
-          "year": 2025,
-          "court": "First District Court Of Appeals",
-          "citation": "Ohio First District Court Of Appeals Case c-250544 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "c-250454",
-          "title": "In re E.J.",
-          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250454.html",
-          "year": 2025,
-          "court": "First District Court Of Appeals",
-          "citation": "Ohio First District Court Of Appeals Case c-250454 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "c-250179",
-          "title": "In re L.K.",
-          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250179.html",
-          "year": 2025,
-          "court": "First District Court Of Appeals",
-          "citation": "Ohio First District Court Of Appeals Case c-250179 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "c-250248",
-          "title": "In re D.B.",
-          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250248.html",
-          "year": 2025,
-          "court": "First District Court Of Appeals",
-          "citation": "Ohio First District Court Of Appeals Case c-250248 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "c-240566",
-          "title": "In re J.W.",
-          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-240566.html",
-          "year": 2025,
-          "court": "First District Court Of Appeals",
-          "citation": "Ohio First District Court Of Appeals Case c-240566 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "c-250379",
-          "title": "In re M. Children",
-          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250379.html",
-          "year": 2025,
-          "court": "First District Court Of Appeals",
-          "citation": "Ohio First District Court Of Appeals Case c-250379 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initial"
-        },
-        {
-          "case_id": "c-240546",
-          "title": "In re G.T.",
-          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-240546.html",
-          "year": 2025,
-          "court": "First District Court Of Appeals",
-          "citation": "Ohio First District Court Of Appeals Case c-240546 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "c-250178",
-          "title": "In re A.H.",
-          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250178.html",
-          "year": 2025,
-          "court": "First District Court Of Appeals",
-          "citation": "Ohio First District Court Of Appeals Case c-250178 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "c-250222",
-          "title": "In re R.K.",
-          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250222.html",
-          "year": 2025,
-          "court": "First District Court Of Appeals",
-          "citation": "Ohio First District Court Of Appeals Case c-250222 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

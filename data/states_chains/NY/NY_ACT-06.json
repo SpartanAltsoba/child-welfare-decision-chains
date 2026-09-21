@@ -120,6 +120,36 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "New York state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "Matter of Hofbauer",
+          "citation": "47 N.Y.2d 648, 393 N.E.2d 1009, 419 N.Y.S.2d 936 (1979)",
+          "court": "New York Court of Appeals",
+          "year": 1979,
+          "date_decided": "1979-07-10",
+          "holding": "The Court affirmed dismissal of neglect petitions, holding that parents who sought accredited medical assistance and chose a treatment recommended by a duly licensed physician and not totally rejected by all responsible medical authority have not failed to supply adequate medical care.",
+          "relevance": "This is the leading New York authority on when the State may override parental medical decision-making for a child.",
+          "quote": "have provided for their child a treatment which is recommended by their physician and which has not been totally rejected by all responsible medical authority",
+          "url": "https://www.courtlistener.com/opinion/5683552/in-re-hofbauer/",
+          "courtlistener_cluster_id": 5683552
+        },
+        {
+          "case_name": "Matter of Storar (Eichner v. Dillon)",
+          "citation": "52 N.Y.2d 363, 420 N.E.2d 64, 438 N.Y.S.2d 266 (1981)",
+          "court": "New York Court of Appeals",
+          "year": 1981,
+          "date_decided": "1981-03-31",
+          "holding": "Reversing in the Storar case, the Court held that although a parent or guardian may consent to medical treatment on behalf of an infant, the parent may not deny a child all treatment for a life-threatening condition even on religious grounds, and that the mother of a profoundly retarded man with the mental age of an infant therefore could not refuse the blood transfusions needed to keep him alive.",
+          "relevance": "This is the Court of Appeals' statement of when the State may authorize immediate lifesaving medical care over a parent's objection, and it marks the boundary with Matter of Hofbauer: courts do not choose among reasonable treatments the parents have selected, but they will not allow a parent to withhold all treatment where the child's life is at stake.",
+          "quote": "the courts may not permit a parent to deny a child all treatment for a condition which threatens his life",
+          "url": "https://www.courtlistener.com/opinion/5684709/eichner-v-dillon/",
+          "courtlistener_cluster_id": 5684709
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22New%20York%22%20AND%20%28%22New%20York%20State%20Office%20of%20Children%20and%20Family%20Services%22%20OR%20%22OCFS%22%20OR%20%22Administration%20for%20Children%27s%20Services%22%20OR%20%22ACS%22%20OR%20%22CPS%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "New York State Office of Children and Family Services",
         "OCFS",
@@ -131,149 +161,7 @@
         "42 U.S.C. 1983",
         "reasonable efforts",
         "reunification"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22New%20York%22%20AND%20%28%22New%20York%20State%20Office%20of%20Children%20and%20Family%20Services%22%20OR%20%22OCFS%22%20OR%20%22Administration%20for%20Children%27s%20Services%22%20OR%20%22ACS%22%20OR%20%22CPS%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "removal",
-        "emergency custody",
-        "placement",
-        "reunification",
-        "services"
-      ],
-      "jurisdiction": "New York state courts",
-      "key_cases": [
-        {
-          "case_id": "13",
-          "title": "Matter of People Care Inc. v City of N.Y. Human Resources Admin.",
-          "url": "https://law.justia.com/cases/new-york/court-of-appeals/2021/13.html",
-          "year": 2021,
-          "court": "Court Of Appeals",
-          "citation": "New York Court Of Appeals Case 13 (2021)",
-          "relevance_score": 1.5,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "111",
-          "title": "Matter of Mantilla v New York City Dept. of Hous. Preserv. & Dev.",
-          "url": "https://law.justia.com/cases/new-york/court-of-appeals/2025/111.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New York Court Of Appeals Case 111 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "131",
-          "title": "Matter of Miller",
-          "url": "https://law.justia.com/cases/new-york/court-of-appeals/2025/131.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New York Court Of Appeals Case 131 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "128-ssm-3",
-          "title": "Matter of Jensen v Commissioner of Labor",
-          "url": "https://law.justia.com/cases/new-york/court-of-appeals/2025/128-ssm-3.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New York Court Of Appeals Case 128-ssm-3 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "129-ssm-5",
-          "title": "Matter of Carmody (Commissioner of Labor)",
-          "url": "https://law.justia.com/cases/new-york/court-of-appeals/2025/129-ssm-5.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New York Court Of Appeals Case 129-ssm-5 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "85",
-          "title": "Matter of Parker J.",
-          "url": "https://law.justia.com/cases/new-york/court-of-appeals/2025/85.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New York Court Of Appeals Case 85 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "69",
-          "title": "Matter of First United Methodist Church in Flushing v Assessor, Town of Callicoon",
-          "url": "https://law.justia.com/cases/new-york/court-of-appeals/2025/69.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New York Court Of Appeals Case 69 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "88",
-          "title": "Matter of McLaurin v New York City Tr. Auth.",
-          "url": "https://law.justia.com/cases/new-york/court-of-appeals/2025/88.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New York Court Of Appeals Case 88 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "92",
-          "title": "Matter of Aungst v Family Dollar",
-          "url": "https://law.justia.com/cases/new-york/court-of-appeals/2025/92.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New York Court Of Appeals Case 92 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "93",
-          "title": "Matter of Garcia v WTC Volunteer",
-          "url": "https://law.justia.com/cases/new-york/court-of-appeals/2025/93.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "New York Court Of Appeals Case 93 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

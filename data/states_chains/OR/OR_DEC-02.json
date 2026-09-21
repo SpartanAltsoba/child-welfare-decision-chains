@@ -88,6 +88,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Oregon state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "Greene v. Camreta",
+          "citation": "588 F.3d 1011 (9th Cir. 2009)",
+          "court": "United States Court of Appeals for the Ninth Circuit",
+          "year": 2009,
+          "date_decided": "2009-12-10",
+          "holding": "In an Oregon case, the court held that the in-school seizure and interview of a child by a caseworker and deputy without a warrant, court order, exigency or parental consent violated the Fourth Amendment (though those defendants had qualified immunity), and that the subsequent removal and medical examination also violated the family's rights.",
+          "relevance": "Describes the constitutional constraints on how an accepted report is investigated when the child is interviewed away from the parents.",
+          "quote": "we hold that the investigation conducted by Camreta and Alford and the removal and examination instigated by Camreta all violated Sarah and the girls' constitutional rights",
+          "url": "https://www.courtlistener.com/opinion/1309523/greene-v-camreta/",
+          "courtlistener_cluster_id": 1309523
+        },
+        {
+          "case_name": "State ex rel Dept. of Human Services v. W. P.",
+          "citation": "345 Or. 657, 202 P.3d 167 (2009)",
+          "court": "Oregon Supreme Court",
+          "year": 2009,
+          "date_decided": "2009-02-05",
+          "holding": "Weighing deterrence against child safety, the court held that evidence obtained through an unlawful search is not subject to exclusion in a juvenile dependency proceeding.",
+          "relevance": "Tells a parent that the fruits of an unlawful search may still be used to open and prove a dependency case, even though the search itself may support other remedies.",
+          "quote": "we conclude that the federal exclusionary rule does not apply in juvenile dependency proceedings",
+          "url": "https://www.courtlistener.com/opinion/7016101/state-ex-rel-department-of-human-services-v-w-p/",
+          "courtlistener_cluster_id": 7016101
+        },
+        {
+          "case_name": "Calabretta v. Floyd",
+          "citation": "189 F.3d 808 (9th Cir. 1999)",
+          "court": "United States Court of Appeals for the Ninth Circuit",
+          "year": 1999,
+          "date_decided": "1999-08-26",
+          "holding": "The court held that a social worker and police officer were not entitled to qualified immunity for a coerced warrantless entry into a home to investigate suspected child abuse, or for the strip search of a three-year-old, because the Fourth Amendment applies to child-abuse investigations.",
+          "relevance": "Establishes that accepting a report for investigation does not license entry into the home without consent, a warrant, or exigency.",
+          "quote": "It does not hold that the social worker may enter the home despite the absence of consent or exigency.",
+          "url": "https://www.courtlistener.com/opinion/7078750/calabretta-v-floyd/",
+          "courtlistener_cluster_id": 7078750
+        },
+        {
+          "case_name": "Camreta v. Greene",
+          "citation": "563 U.S. 692 (2011)",
+          "court": "Supreme Court of the United States",
+          "year": 2011,
+          "date_decided": "2011-05-26",
+          "holding": "The Court held that it generally may review a constitutional ruling at the behest of a government official who prevailed below on qualified immunity, but that this Oregon case had become moot because the child had grown up and moved away, and it therefore vacated the part of the Ninth Circuit's opinion deciding the Fourth Amendment question about the in-school interview.",
+          "relevance": "Controls the citable status of the Ninth Circuit's constraints on interviewing a child away from the parents once a report is accepted for investigation.",
+          "quote": "we vacate the part of the Ninth Circuit's opinion that decided the Fourth Amendment issue.",
+          "url": "https://www.courtlistener.com/opinion/7344718/camreta-v-greene/",
+          "courtlistener_cluster_id": 7344718
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Oregon%22%20AND%20%28%22Oregon%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Oregon Department of Human Services",
         "CPS",
@@ -99,149 +153,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Oregon%22%20AND%20%28%22Oregon%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "investigation",
-        "substantiation",
-        "evidence standard",
-        "due process",
-        "reasonable efforts"
-      ],
-      "jurisdiction": "Oregon state courts",
-      "key_cases": [
-        {
-          "case_id": "s071019",
-          "title": "In re Gregory Mark Abel",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2025/s071019.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s071019 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a184792",
-          "title": "In re Oregon State Hospital",
-          "url": "https://law.justia.com/cases/oregon/court-of-appeals/2025/a184792.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Oregon Court Of Appeals Case a184792 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s071223",
-          "title": "In re Flint",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2024/s071223.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s071223 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s070455",
-          "title": "In re Munn",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2024/s070455.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s070455 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s068780",
-          "title": "In re: Sause and Schnitzer",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2023/s068780.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s068780 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s069006",
-          "title": "In re Duboff",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2023/s069006.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s069006 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a173412",
-          "title": "Doe v. First Christian Church of The Dalles",
-          "url": "https://law.justia.com/cases/oregon/court-of-appeals/2023/a173412.html",
-          "year": 2023,
-          "court": "Court Of Appeals",
-          "citation": "Oregon Court Of Appeals Case a173412 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        },
-        {
-          "case_id": "s068805",
-          "title": "In re Keller",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2022/s068805.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s068805 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s068497",
-          "title": "In re Ard",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2021/s068497.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s068497 (2021)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s067932",
-          "title": "In re Kauffman",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2021/s067932.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s067932 (2021)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

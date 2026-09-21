@@ -75,6 +75,48 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Ohio state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "State ex rel. Cincinnati Enquirer v. Jones-Kelley",
+          "citation": "118 Ohio St.3d 81 (2008)",
+          "court": "Supreme Court of Ohio",
+          "year": 2008,
+          "date_decided": "2008-04-17",
+          "holding": "The Court granted mandamus compelling the Department of Job and Family Services to release a requested database, holding the custodian failed to carry its burden of showing the records fell squarely within a statutory exception and that a later amendment excluding foster-caregiver information did not apply retroactively.",
+          "relevance": "Audit and misuse-of-funds analysis depends on obtaining agency datasets under this standard.",
+          "quote": "A custodian does not meet this burden if it has not proven that the requested records fall squarely within the exception.",
+          "url": "https://www.courtlistener.com/opinion/6897825/state-ex-rel-cincinnati-enquirer-v-jones-kelley/",
+          "courtlistener_cluster_id": 6897825
+        },
+        {
+          "case_name": "State ex rel. Cincinnati Enquirer v. Bloom",
+          "citation": "177 Ohio St.3d 174, 251 N.E.3d 79 (2024)",
+          "court": "Supreme Court of Ohio",
+          "year": 2024,
+          "date_decided": "2024-10-22",
+          "holding": "Interpreting the Ohio Constitution's open courts provision independently, the Court held that it creates a presumption of public access to juvenile delinquency proceedings which a statute cannot override, so a juvenile proceeding may not be closed without an individualized determination balancing the competing interests.",
+          "relevance": "Public access to proceedings is a precondition for meaningful external audit of juvenile court practice.",
+          "quote": "the open courts provision provides a presumption of public access to juvenile delinquency proceedings",
+          "url": "https://www.courtlistener.com/opinion/10680589/state-ex-rel-cincinnati-enquirer-v-bloom/",
+          "courtlistener_cluster_id": 10680589
+        },
+        {
+          "case_name": "State ex rel. Scripps Howard Broadcasting Co. v. Cuyahoga Cty. Court of Common Pleas, Juv. Div.",
+          "citation": "73 Ohio St.3d 19, 652 N.E.2d 179 (1995)",
+          "court": "Supreme Court of Ohio",
+          "year": 1995,
+          "date_decided": "1995-07-13",
+          "holding": "The Court granted mandamus compelling a juvenile judge to release the transcript of a contempt proceeding held in his juvenile case, holding that the right of public access extends to transcripts as well as live proceedings and that Juv.R. 37(B) could not be applied to withhold the transcript without the findings required by In re T.R. that access could harm the child and that the harm outweighs the benefits of access.",
+          "relevance": "Meaningful audit of juvenile court practice requires the underlying record, and this decision establishes that access to an open proceeding carries access to its transcript.",
+          "quote": "The right of access includes both the live proceedings and the transcripts which document those proceedings.",
+          "url": "https://www.courtlistener.com/opinion/6879392/state-ex-rel-scripps-howard-broadcasting-co-v-cuyahoga-county-court-of/",
+          "courtlistener_cluster_id": 6879392
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Ohio%22%20AND%20%28%22Ohio%20Department%20of%20Job%20and%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Ohio Department of Job and Family Services",
         "CPS",
@@ -86,148 +128,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Ohio%22%20AND%20%28%22Ohio%20Department%20of%20Job%20and%20Family%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "missing child",
-        "amber alert",
-        "custodial interference",
-        "parental kidnapping"
-      ],
-      "jurisdiction": "Ohio state courts",
-      "key_cases": [
-        {
-          "case_id": "c-250544",
-          "title": "In re A.J.",
-          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250544.html",
-          "year": 2025,
-          "court": "First District Court Of Appeals",
-          "citation": "Ohio First District Court Of Appeals Case c-250544 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "c-250454",
-          "title": "In re E.J.",
-          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250454.html",
-          "year": 2025,
-          "court": "First District Court Of Appeals",
-          "citation": "Ohio First District Court Of Appeals Case c-250454 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "c-250179",
-          "title": "In re L.K.",
-          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250179.html",
-          "year": 2025,
-          "court": "First District Court Of Appeals",
-          "citation": "Ohio First District Court Of Appeals Case c-250179 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "c-250248",
-          "title": "In re D.B.",
-          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250248.html",
-          "year": 2025,
-          "court": "First District Court Of Appeals",
-          "citation": "Ohio First District Court Of Appeals Case c-250248 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "c-240566",
-          "title": "In re J.W.",
-          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-240566.html",
-          "year": 2025,
-          "court": "First District Court Of Appeals",
-          "citation": "Ohio First District Court Of Appeals Case c-240566 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "c-250379",
-          "title": "In re M. Children",
-          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250379.html",
-          "year": 2025,
-          "court": "First District Court Of Appeals",
-          "citation": "Ohio First District Court Of Appeals Case c-250379 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initial"
-        },
-        {
-          "case_id": "c-240546",
-          "title": "In re G.T.",
-          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-240546.html",
-          "year": 2025,
-          "court": "First District Court Of Appeals",
-          "citation": "Ohio First District Court Of Appeals Case c-240546 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "c-250178",
-          "title": "In re A.H.",
-          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250178.html",
-          "year": 2025,
-          "court": "First District Court Of Appeals",
-          "citation": "Ohio First District Court Of Appeals Case c-250178 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "c-250222",
-          "title": "In re R.K.",
-          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250222.html",
-          "year": 2025,
-          "court": "First District Court Of Appeals",
-          "citation": "Ohio First District Court Of Appeals Case c-250222 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "c-250160",
-          "title": "In re D.K.",
-          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2025/c-250160.html",
-          "year": 2025,
-          "court": "First District Court Of Appeals",
-          "citation": "Ohio First District Court Of Appeals Case c-250160 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

@@ -77,6 +77,60 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "New Hampshire state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "Suter v. Artist M.",
+          "citation": "503 U.S. 347 (1992)",
+          "court": "Supreme Court of the United States",
+          "year": 1992,
+          "date_decided": "1992-03-25",
+          "holding": "The Court held that the 'reasonable efforts' requirement of the Adoption Assistance and Child Welfare Act, 42 U.S.C. § 671(a)(15), does not create a right enforceable by beneficiaries either through 42 U.S.C. § 1983 or by implied private right of action.",
+          "relevance": "CFSR monitoring and program improvement plans matter because no private federal cause of action exists to compel reasonable efforts.",
+          "quote": "We hold that the Act does not create an enforceable right on behalf of respondents",
+          "url": "https://www.courtlistener.com/opinion/112712/suter-v-artist-m/",
+          "courtlistener_cluster_id": 112712
+        },
+        {
+          "case_name": "DeShaney v. Winnebago County Department of Social Services",
+          "citation": "489 U.S. 189 (1989)",
+          "court": "Supreme Court of the United States",
+          "year": 1989,
+          "date_decided": "1989-02-22",
+          "holding": "The Court held that a child protection agency's failure to remove a child from an abusive parent, despite repeated reports and its own suspicions, did not deprive the child of liberty without due process, because the Due Process Clause imposes no affirmative duty on the State to protect against private violence absent a custodial relationship.",
+          "relevance": "Because federal constitutional liability is unavailable, performance review such as the CFSR is the principal accountability mechanism for agency inaction.",
+          "quote": "nothing in the language of the Due Process Clause itself requires the State to protect the life, liberty, and property of its citizens against invasion by private actors",
+          "url": "https://www.courtlistener.com/opinion/112202/deshaney-v-winnebago-county-department-of-social-services/",
+          "courtlistener_cluster_id": 112202
+        },
+        {
+          "case_name": "In re J.B.",
+          "citation": "2024 N.H. 63",
+          "court": "Supreme Court of New Hampshire",
+          "year": 2024,
+          "date_decided": "2024-11-08",
+          "holding": "The court affirmed termination of the mother's rights for failure to correct conditions of neglect within twelve months, holding that DCYF's efforts — visitation support, case management, multiple service providers and offered therapy — were reasonable in light of its staff and financial constraints.",
+          "relevance": "By expressly discounting DCYF's obligations for its staffing and funding limits, the court ties the legal reasonable efforts standard to agency capacity, the same variable federal reviews measure.",
+          "quote": "DCYF must make reasonable efforts given its available staff and financial resources to maintain the legal bond between parent and child",
+          "url": "https://www.courtlistener.com/opinion/10266978/in-re-jb/",
+          "courtlistener_cluster_id": 10266978
+        },
+        {
+          "case_name": "In re Juvenile 2006-833",
+          "citation": "156 N.H. 482, 937 A.2d 297 (2007)",
+          "court": "Supreme Court of New Hampshire",
+          "year": 2007,
+          "date_decided": "2007-12-04",
+          "holding": "The court denied certiorari, holding that DCYF made reasonable efforts where it researched and supplied referrals to three prescription assistance agencies and a pharmacy discount card for the mother's psychiatric medications, and that the family division therefore properly ordered DCYF to file a termination petition.",
+          "relevance": "By measuring the agency's legal obligation against its staff and financial resources, the court makes agency capacity a legal variable, which is exactly what federal CFSR performance review measures.",
+          "quote": "However, we have recognized that the State's ability to provide adequate services is constrained by its staff and financial limitations.",
+          "url": "https://www.courtlistener.com/opinion/2394304/in-re-juvenile-2006-833/",
+          "courtlistener_cluster_id": 2394304
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22New%20Hampshire%22%20AND%20%28%22New%20Hampshire%20Division%20for%20Children%20Youth%20and%20Families%22%20OR%20%22DCYF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "New Hampshire Division for Children Youth and Families",
         "DCYF",
@@ -88,148 +142,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22New%20Hampshire%22%20AND%20%28%22New%20Hampshire%20Division%20for%20Children%20Youth%20and%20Families%22%20OR%20%22DCYF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "missing child",
-        "amber alert",
-        "custodial interference",
-        "parental kidnapping"
-      ],
-      "jurisdiction": "New Hampshire state courts",
-      "key_cases": [
-        {
-          "case_id": "2025-0068",
-          "title": "In re G.W.",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2025/2025-0068.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2025-0068 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "2024-0180",
-          "title": "Doe v. Concord Police Department",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2025/2024-0180.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2024-0180 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        },
-        {
-          "case_id": "2024-0467",
-          "title": "In re Guardianship of K.S.",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2025/2024-0467.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2024-0467 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "2024-0686",
-          "title": "In re K.O.",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2025/2024-0686.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2024-0686 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "2024-0051",
-          "title": "In the Matter of LeGault & LeGault",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2025/2024-0051.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2024-0051 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "2024-0680",
-          "title": "In re Guardianship of K.C.",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2025/2024-0680.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2024-0680 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "2023-0678",
-          "title": "In the Matter of Penichet and Corroon",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2025/2023-0678.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2023-0678 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        },
-        {
-          "case_id": "2024-0092",
-          "title": "In re M.T.",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2025/2024-0092.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2024-0092 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "2024-0287",
-          "title": "In re J.M.",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2024/2024-0287.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2024-0287 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "2023-0297",
-          "title": "In the Matter of Nadeau & Nadeau",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2024/2023-0297.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2023-0297 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Matter of"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

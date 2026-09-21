@@ -86,6 +86,84 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "New Hampshire state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "Santosky v. Kramer",
+          "citation": "455 U.S. 745 (1982)",
+          "court": "Supreme Court of the United States",
+          "year": 1982,
+          "date_decided": "1982-03-24",
+          "holding": "The Court held that before a State may sever completely and irrevocably the rights of parents in their natural child, the Due Process Clause of the Fourteenth Amendment requires proof by at least clear and convincing evidence; New York's fair preponderance standard was unconstitutional.",
+          "relevance": "This is the federal constitutional floor for termination of parental rights, above which New Hampshire has set an even higher beyond-a-reasonable-doubt standard by statute.",
+          "quote": "due process requires that the State support its allegations by at least clear and convincing evidence",
+          "url": "https://www.courtlistener.com/opinion/110676/santosky-v-kramer/",
+          "courtlistener_cluster_id": 110676
+        },
+        {
+          "case_name": "In re Michael E.",
+          "citation": "162 N.H. 520, 34 A.3d 632 (2011)",
+          "court": "Supreme Court of New Hampshire",
+          "year": 2011,
+          "date_decided": "2011-09-22",
+          "holding": "The court affirmed termination for failure to correct conditions of neglect, holding that the petitioner must prove a statutory ground beyond a reasonable doubt and that DCYF's efforts to assist an incarcerated mother were reasonable when judged against its staffing and financial limitations.",
+          "relevance": "This is the controlling statement of New Hampshire's unusually high burden of proof for termination of parental rights: beyond a reasonable doubt.",
+          "quote": "Before a court may order the termination of a parent’s rights, the petitioning party must prove a statutory ground for termination beyond a reasonable doubt",
+          "url": "https://www.courtlistener.com/opinion/8093362/in-re-michael-e/",
+          "courtlistener_cluster_id": 8093362
+        },
+        {
+          "case_name": "In re C.M. & a.",
+          "citation": "166 N.H. 764, 103 A.3d 1192 (2014)",
+          "court": "Supreme Court of New Hampshire",
+          "year": 2014,
+          "date_decided": "2014-09-30",
+          "holding": "The court affirmed the terminations, holding that a de novo superior court appeal in the neglect case did not restart the twelve-month correction period, that the judge who presided over the neglect case was not required to recuse, and that a parent's failure to appeal the neglect dispositional order forecloses relitigating those issues in the termination appeal.",
+          "relevance": "This case states New Hampshire's two-step termination analysis — statutory ground proved beyond a reasonable doubt, then a separate best-interest determination — and holds that unappealed neglect orders bind the parent at the termination stage.",
+          "quote": "Once a statutory ground is established, the court must then consider whether termination is in the child’s best interest",
+          "url": "https://www.courtlistener.com/opinion/2738141/in-re-cm-a/",
+          "courtlistener_cluster_id": 2738141
+        },
+        {
+          "case_name": "In re K.O.",
+          "citation": "2025 N.H. 39",
+          "court": "Supreme Court of New Hampshire",
+          "year": 2025,
+          "date_decided": "2025-09-04",
+          "holding": "The court held that a parent cannot raise the Americans with Disabilities Act as a defense in a termination of parental rights proceeding, found the evidence supported the trial court's findings that DCYF made reasonable efforts to assist the disabled father and that the mother failed to correct the conditions of neglect, and affirmed the terminations.",
+          "relevance": "This is the most recent New Hampshire statement on termination for failure to correct conditions and on the role of the pre-adoptive placement in the best-interest finding.",
+          "quote": "the father cannot, as a matter of law, raise the ADA as a defense in a termination of parental rights proceeding",
+          "url": "https://www.courtlistener.com/opinion/10666105/in-re-ko/",
+          "courtlistener_cluster_id": 10666105
+        },
+        {
+          "case_name": "In re C.O.; In re G.L.",
+          "citation": "171 N.H. 748, 203 A.3d 870 (2019)",
+          "court": "Supreme Court of New Hampshire",
+          "year": 2019,
+          "date_decided": "2019-02-01",
+          "holding": "The court affirmed termination, holding that DCYF's reunification services must be accessible, available and appropriate in light of its resources, and that the circuit court could draw an adverse inference from the mother's continued refusal to acknowledge the sexual abuse even though RSA 169-C:12-a protected her testimony from use in the criminal case.",
+          "relevance": "This case supplies the accessible-available-appropriate test for reasonable efforts and holds that a parent's refusal to acknowledge the abuse can itself support termination.",
+          "quote": "it was permissible under these circumstances for the circuit court to draw an adverse inference from the respondent’s failure to acknowledge wrongdoing",
+          "url": "https://www.courtlistener.com/opinion/4586614/in-re-co-in-re-gl/",
+          "courtlistener_cluster_id": 4586614
+        },
+        {
+          "case_name": "In re C.M.",
+          "citation": "2024 N.H. 45",
+          "court": "Supreme Court of New Hampshire",
+          "year": 2024,
+          "date_decided": "2024-08-29",
+          "holding": "Assuming without deciding that RSA 170-C:10's statutory right to counsel supports an ineffective assistance challenge in a termination case and that the criminal prejudice standard would apply, the court held the mother failed to show a reasonable probability of a different result and affirmed the termination and the best-interest finding.",
+          "relevance": "The court affirmed the best-interest determination on a record of continued incarceration, no sustained sobriety, and children transitioning to an adoptive placement.",
+          "quote": "If the right to bring an ineffectiveness claim is to be recognized, the procedure to be followed requires a balancing of these interests, including a child’s need for permanency",
+          "url": "https://www.courtlistener.com/opinion/10096940/in-re-cm/",
+          "courtlistener_cluster_id": 10096940
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22New%20Hampshire%22%20AND%20%28%22New%20Hampshire%20Division%20for%20Children%20Youth%20and%20Families%22%20OR%20%22DCYF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "New Hampshire Division for Children Youth and Families",
         "DCYF",
@@ -97,149 +175,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22New%20Hampshire%22%20AND%20%28%22New%20Hampshire%20Division%20for%20Children%20Youth%20and%20Families%22%20OR%20%22DCYF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "termination of parental rights",
-        "TPR",
-        "adoption",
-        "permanency",
-        "aging out"
-      ],
-      "jurisdiction": "New Hampshire state courts",
-      "key_cases": [
-        {
-          "case_id": "2024-0467",
-          "title": "In re Guardianship of K.S.",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2025/2024-0467.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2024-0467 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "2024-0680",
-          "title": "In re Guardianship of K.C.",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2025/2024-0680.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2024-0680 (2025)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "2022-0664",
-          "title": "In re Guardianship of J.H.",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2024/2022-0664.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2022-0664 (2024)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "2021-0408",
-          "title": "In re Guardianship of D.E.",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2023/2021-0408.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2021-0408 (2023)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "2021-0118",
-          "title": "In re Guardianship of C.R.",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2022/2021-0118.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2021-0118 (2022)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "2021-0199",
-          "title": "In re Guardianship of B.C.",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2021/2021-0199.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2021-0199 (2021)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "2020-0368",
-          "title": "In re Guardianship of D.E.",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2020/2020-0368.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2020-0368 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "2018-0701",
-          "title": "In re Guardianship of L.N.",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2020/2018-0701.html",
-          "year": 2020,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2018-0701 (2020)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "2025-0068",
-          "title": "In re G.W.",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2025/2025-0068.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2025-0068 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "2024-0180",
-          "title": "Doe v. Concord Police Department",
-          "url": "https://law.justia.com/cases/new-hampshire/supreme-court/2025/2024-0180.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "New Hampshire Supreme Court Case 2024-0180 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

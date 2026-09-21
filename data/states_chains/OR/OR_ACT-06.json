@@ -88,6 +88,36 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Oregon state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "Dept. of Human Services v. S. M.",
+          "citation": "355 Or. 241, 323 P.3d 947 (2014)",
+          "court": "Oregon Supreme Court",
+          "year": 2014,
+          "date_decided": "2014-04-24",
+          "holding": "The court affirmed that DHS, as the children's court-appointed legal guardian, had statutory authority to consent to immunizations over the parents' objection, subject to its own rules requiring notice and an opportunity for the parents to be heard in juvenile court.",
+          "relevance": "Directly resolves the scope of DHS's authority to authorize medical care for a ward over parental objection.",
+          "quote": "Indeed, immunization is less invasive and more routine than surgery, which DHS specifically may authorize as the wards' legal guardian.",
+          "url": "https://www.courtlistener.com/opinion/2711395/department-of-human-services-v-s-m/",
+          "courtlistener_cluster_id": 2711395
+        },
+        {
+          "case_name": "State ex rel Juv. Dept. v. Smith",
+          "citation": "205 Or. App. 152, 133 P.3d 924 (2006)",
+          "court": "Court of Appeals of Oregon",
+          "year": 2006,
+          "date_decided": "2006-04-19",
+          "holding": "The court affirmed appointment of an independent health-care guardian for a severely disabled ward with authority to withhold or withdraw life-sustaining procedures over the mother's objection, emphasizing the stringency of the statutory criteria where a guardian displaces a parent.",
+          "relevance": "This is the Oregon authority on court authorization of grave medical decisions for a child in agency custody over a parent's objection, and on how demanding the showing must be.",
+          "quote": "Further, we emphasize that, despite the imprecision of the statutory language, the criterion that the statute establishes is stringent, at least where the guardian replaces a minor's parent.",
+          "url": "https://www.courtlistener.com/opinion/7043525/state-ex-rel-juvenile-department-v-smith/",
+          "courtlistener_cluster_id": 7043525
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Oregon%22%20AND%20%28%22Oregon%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Oregon Department of Human Services",
         "CPS",
@@ -99,149 +129,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Oregon%22%20AND%20%28%22Oregon%20Department%20of%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "removal",
-        "emergency custody",
-        "placement",
-        "reunification",
-        "services"
-      ],
-      "jurisdiction": "Oregon state courts",
-      "key_cases": [
-        {
-          "case_id": "s071019",
-          "title": "In re Gregory Mark Abel",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2025/s071019.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s071019 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a184792",
-          "title": "In re Oregon State Hospital",
-          "url": "https://law.justia.com/cases/oregon/court-of-appeals/2025/a184792.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Oregon Court Of Appeals Case a184792 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s071223",
-          "title": "In re Flint",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2024/s071223.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s071223 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s070455",
-          "title": "In re Munn",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2024/s070455.html",
-          "year": 2024,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s070455 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s068780",
-          "title": "In re: Sause and Schnitzer",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2023/s068780.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s068780 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s069006",
-          "title": "In re Duboff",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2023/s069006.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s069006 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "a173412",
-          "title": "Doe v. First Christian Church of The Dalles",
-          "url": "https://law.justia.com/cases/oregon/court-of-appeals/2023/a173412.html",
-          "year": 2023,
-          "court": "Court Of Appeals",
-          "citation": "Oregon Court Of Appeals Case a173412 (2023)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        },
-        {
-          "case_id": "s068805",
-          "title": "In re Keller",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2022/s068805.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s068805 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s068497",
-          "title": "In re Ard",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2021/s068497.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s068497 (2021)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "s067932",
-          "title": "In re Kauffman",
-          "url": "https://law.justia.com/cases/oregon/supreme-court/2021/s067932.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Oregon Supreme Court Case s067932 (2021)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {
