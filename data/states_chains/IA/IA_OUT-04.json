@@ -70,9 +70,37 @@
     "case_law": {
       "jurisdiction": "Iowa state courts",
       "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
-      "verified_date": "2026-09-20",
-      "key_cases": [],
-      "_note": "No verified on-point authority was found for this decision point in this jurisdiction as of verified_date; see the federal baseline node for the governing federal standard.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "E.M. v. Nebraska Dept. of Health & Human Servs.",
+          "citation": "306 Neb. 1 (2020)",
+          "court": "Nebraska Supreme Court",
+          "year": 2020,
+          "date_decided": "2020-06-05",
+          "holding": "Nebraska's extended foster care program (Bridge to Independence, created by the Young Adult Bridge to Independence Act) is a state public benefit governed by 8 U.S.C. § 1621 and Neb. Rev. Stat. § 4-108; because the applicants were not lawfully present and the Legislature had not expressly, by reference to immigration status, extended eligibility to aliens not lawfully present, the agency properly denied them participation in extended foster care, and the eligibility regulation did not violate the separation of powers clause.",
+          "relevance": "It is the only squarely on-point highest-court decision found in the region holding that eligibility for a post-18 extended foster care program is controlled by the program's own enabling statute and federal benefit-eligibility limits — the exact question OUT-04 poses when a youth seeks to remain in care after aging out.",
+          "quote": "Section 1621 required an affirmative provision to make unlawful aliens eligible for YABI, but the Legislature did not.",
+          "url": "https://www.courtlistener.com/opinion/4780805/em-v-nebraska-dept-of-health-human-servs/",
+          "courtlistener_cluster_id": 4780805,
+          "weight": "persuasive",
+          "published": true
+        },
+        {
+          "case_name": "J.S. v. Nebraska Dept. of Health & Human Servs.",
+          "citation": "306 Neb. 20 (2020)",
+          "court": "Nebraska Supreme Court",
+          "year": 2020,
+          "date_decided": "2020-06-05",
+          "holding": "A young adult who had been accepted into Nebraska's extended foster care program (B2I) was still not eligible for Medicaid after turning 19: the state plan's lawfully-residing child coverage stopped at age 19, the federal former-foster-care Medicaid category already existed independent of B2I, and the statute listing 'medical care' among B2I's extended services did not itself confer Medicaid eligibility on a young adult who is not lawfully present. The court expressly noted her participation in B2I was not contested.",
+          "relevance": "It matters at OUT-04 because it holds that a service listed in an extended-foster-care statute (medical care for young adults) does not by itself create entitlement to that benefit — the youth must still satisfy the benefit program's own eligibility rules.",
+          "quote": "Because the state Medicaid plan already covered former foster care youth, § 43-4505(1) was not a material change in state law.",
+          "url": "https://www.courtlistener.com/opinion/4780804/js-v-nebraska-dept-of-health-human-servs/",
+          "courtlistener_cluster_id": 4780804,
+          "weight": "persuasive",
+          "published": true
+        }
+      ],
       "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Iowa%22%20AND%20%28%22Iowa%20Department%20of%20Human%20Services%22%20OR%20%22DHS%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Iowa Department of Human Services",

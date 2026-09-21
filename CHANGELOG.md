@@ -2,6 +2,25 @@
 
 All notable changes to the US Child Welfare Decision Chain Dataset. Versioning follows the policy in README.md (PATCH = corrections, URL updates, source revisions).
 
+## v1.1.1 — 2026-09-21
+
+Patch release: a deeper search for the six decision points that carried no verified on-point case law in v1.1.0 (unpublished decisions, in-state federal district and circuit courts, neighboring-state highest courts, and the jurisdiction's own statutory terms of art), with the same retrieve-read-quote-verify standard.
+
+### Case law added
+
+- **Iowa, court-ordered referral (INP-04):** seven authorities, including *In the Interest of G.R.*, 348 N.W.2d 627 (Iowa 1984), *In re the Marriage of Reschly*, 334 N.W.2d 720 (Iowa 1983) and *Webster v. Westlake*, 41 F.4th 1004 (8th Cir. 2022); two unpublished Iowa Court of Appeals decisions and two out-of-state decisions are labeled persuasive.
+- **Maine, court-ordered referral (INP-04):** *Ziehm v. Ziehm*, 433 A.2d 725 (Me. 1981) and *Needham v. Needham*, 2022 ME 7, 267 A.3d 1112; a Vermont decision labeled persuasive.
+- **Rhode Island, request for help (INP-05):** *In re Kurt H.*, 152 A.3d 408 (R.I. 2017), *In re Adam R.*, 665 A.2d 882 (R.I. 1995) and *In re N.B.* (R.I. 2024); a Connecticut decision labeled persuasive.
+- **Wyoming, court-ordered referral (INP-04):** *In re WDW*, 2010 WY 9, 224 P.3d 14.
+- **Iowa, extended foster care (OUT-04):** no Iowa decision exists; two Nebraska Supreme Court decisions on the same program design, *E.M.* and *J.S. v. Nebraska Department of Health & Human Services*, 306 Neb. 1 and 306 Neb. 20 (2020), are included and labeled persuasive.
+- **North Dakota, extended foster care (OUT-04):** no decision in any of the sources searched; the node now records the search and what a practitioner should rely on instead.
+
+### Fields
+
+Case entries may now carry `weight` ("binding" or "persuasive") and `published` (false for unpublished or memorandum decisions). A node's `_note` may carry a jurisdiction-specific statement where no on-point authority exists.
+
+Files: 2,634. Root hash `5d117bbef8f01a0d3287c9a7a96a53098d58984beaad4be3616398599c8a9030`.
+
 ## v1.1.0 — 2026-09-21
 
 Feature release (MINOR): the case-law layer was rebuilt for every jurisdiction and added to the federal baseline. No jurisdictions or node types were added or removed.

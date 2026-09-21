@@ -1,6 +1,6 @@
 {
  "state": "WY",
- "verified_date": "2026-09-20",
+ "verified_date": "2026-09-21",
  "cases": [
   {
    "cluster_id": 2768609,
@@ -808,6 +808,23 @@
     "PMC-02": "The withheld records were the Department of Family Services' own budget-reduction plans, precisely the class of financial documents a funding audit depends on.",
     "INP-09": "Public disclosure of agency records is how outside oversight bodies obtain the material that triggers systemic review."
    }
+  },
+  {
+   "cluster_id": 2637672,
+   "case_name": "In re WDW",
+   "citation": "2010 WY 9, 224 P.3d 14",
+   "court": "Wyoming Supreme Court",
+   "court_id": "wyo",
+   "date_decided": "2010-01-28",
+   "year": 2010,
+   "url": "https://www.courtlistener.com/opinion/2637672/in-re-wdw/",
+   "holding": "Where a termination-of-parental-rights petition is filed by someone other than an authorized agency, Wyo. Stat. Ann. 14-2-314 requires the court to direct that a social study be made by the county public-assistance/social-services office, and that direction should issue when the petition is filed; on these facts, however, the father intentionally waived the timing objection by asking the court to try the case without the study, and he failed to show prejudice from the study's late completion or from its omission of a personal interview with him, so the termination order was affirmed.",
+   "quote": "The statutory language is mandatory and the social study should have been ordered when the petition was filed.",
+   "relevance": {
+    "INP-04": "This is the clearest Wyoming holding that a court order directing the child-welfare agency to investigate and assess a family is a mandatory, statutorily triggered step in a civil child-welfare proceeding, which is exactly the INP-04 court-ordered-referral trigger."
+   },
+   "weight": "binding",
+   "published": true
   }
  ],
  "node_map": {
@@ -825,7 +842,9 @@
    10005456,
    2520914
   ],
-  "INP-04": [],
+  "INP-04": [
+   2637672
+  ],
   "INP-05": [
    5326182,
    1087668,
@@ -1068,6 +1087,7 @@
   "Missing (for a later pass): In the Interest of HP, 2004 WY 82, 93 P.3d 982 (Wyo. 2004) — confirmed to exist (CourtListener cluster 2580989, Published). This is the authority the brief's own cases rest on and it is absent. In re DRS cites HP, ¶ 26, 93 P.3d at 990 in the sentence immediately following the quote the brief attributes to DRS as the 'origin' of the case-by-case reasonable-efforts inquiry, and KC cites HP, ¶ 25, 93 P.3d at 989 as the source of the preponderance burden for a permanency-plan change. The brief has now twice mis-identified a derivative restatement as the source (first SRS for the 'indefinite period' rule, now DRS for case-by-case efforts). HP belongs at ACT-02, DEC-06 and OUT-01.",
   "Missing (for a later pass): In re RE, 2011 WY 170, 267 P.3d 1092 (Wyo. 2011) — confirmed to exist (CourtListener clusters 2331610 and 5326739, both carrying 2011 WY 170 and 267 P.3d 1092; note the duplicate, one styled 'In Re Re' and one 'JO v. State'). KC cites RE, ¶ 12, 267 P.3d at 1096 as the direct authority for the State's preponderance burden on a permanency-plan change — i.e. for the very proposition the brief quotes KC for. Belongs at ACT-02 and OUT-01.",
   "Missing (for a later pass): MB v. Laramie County Department of Family Services ex rel. LB, 933 P.2d 1126 (Wyo. 1997) — confirmed to exist (CourtListener cluster 1375530). In re \"H\" Children cites MB, 933 P.2d at 1129 for both the fundamental-rights framing and the clear-and-convincing termination standard, and uses it as the contrast that makes the neglect preponderance holding intelligible. With OUT-02 now resting on Santosky plus modern restatements, the Wyoming case that ties the federal floor to S 14-2-309 is missing. Belongs at OUT-02 and DEC-03.",
-  "Missing (for a later pass): A Wyoming authority on the burden of proof at a shelter-care hearing — the brief's own note records that RTB, 2024 WY 75 n.3, observed that Wyoming precedent does not clearly set this burden. That is correctly flagged as an open question, but DEC-04 and INP-12 currently imply a settled framework. The notes should carry the open question into the node-level prose so a practitioner briefing a shelter-care challenge knows the point is unresolved rather than assuming Gomes supplies the state-law answer."
+  "Missing (for a later pass): A Wyoming authority on the burden of proof at a shelter-care hearing — the brief's own note records that RTB, 2024 WY 75 n.3, observed that Wyoming precedent does not clearly set this burden. That is correctly flagged as an open question, but DEC-04 and INP-12 currently imply a settled framework. The notes should carry the open question into the node-level prose so a practitioner briefing a shelter-care challenge knows the point is unresolved rather than assuming Gomes supplies the state-law answer.",
+  "2026-09-21 INP-04: added 1 verified authorities after a deeper search: In re WDW"
  ]
 }

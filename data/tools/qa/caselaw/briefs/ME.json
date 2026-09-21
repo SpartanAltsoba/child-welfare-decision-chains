@@ -1,6 +1,6 @@
 {
  "state": "ME",
- "verified_date": "2026-09-20",
+ "verified_date": "2026-09-21",
  "cases": [
   {
    "cluster_id": 2071480,
@@ -800,6 +800,57 @@
     "FAIL-04": "This is the controlling federal baseline for every failure-to-protect claim against a child-welfare agency, and the source of the special-relationship and custodial-restraint framework that J.R. v. Gloria applies in the First Circuit; absent custody, agency knowledge of the danger creates no constitutional duty.",
     "OUT-06": "A child's catastrophic injury after repeated agency contact does not by itself state a constitutional claim, which is why Maine serious-injury and fatality cases proceed, if at all, on the narrow custodial special-relationship theory the Court reserved for children placed by the State in foster homes."
    }
+  },
+  {
+   "cluster_id": 2280426,
+   "case_name": "Ziehm v. Ziehm",
+   "citation": "433 A.2d 725 (Me. 1981)",
+   "court": "Supreme Judicial Court of Maine",
+   "court_id": "me",
+   "date_decided": "1981-08-10",
+   "year": 1981,
+   "url": "https://www.courtlistener.com/opinion/2280426/ziehm-v-ziehm/",
+   "holding": "The Law Court held that the custody-investigation statute (then 19 M.R.S.A. § 751, recodified as 19-A M.R.S. § 905) makes a report prepared by the Department of Human Services at the divorce court's request receivable in evidence, and that the statute as so construed does not violate either parent's procedural due process rights because counsel have access to the report at least three days before hearing and are assured a reasonable opportunity to cross-examine its author and rebut its conclusions and underlying facts; the change-of-custody judgment was affirmed.",
+   "quote": "custody reports of the DHS requested by the divorce court receivable as evidence in aid of the court's responsibilities as parens patriae to determine the best interests of the child",
+   "relevance": {
+    "INP-04": "This is the only Maine appellate decision that actually adjudicates the court-ordered-referral mechanism at INP-04 — a judge in a pending civil case directing the state child-welfare agency to investigate a family — and it fixes both the evidentiary status of the agency's resulting report and the due-process floor (advance disclosure plus cross-examination) that attaches to it."
+   },
+   "weight": "binding",
+   "published": true
+  },
+  {
+   "cluster_id": 6246011,
+   "case_name": "Needham v. Needham",
+   "citation": "2022 ME 7, 267 A.3d 1112",
+   "court": "Supreme Judicial Court of Maine",
+   "court_id": "me",
+   "date_decided": "2022-01-27",
+   "year": 2022,
+   "url": "https://www.courtlistener.com/opinion/6246011/teresa-d-needham-v-charles-d-needham/",
+   "holding": "The Law Court vacated a parental rights and responsibilities judgment because the trial court's own extensive examination of a party about a child-protective substantiation that was still on appeal, conducted over counsel's objection, was not harmless error. In explaining what the trial court could have done instead, the Court identified ordering a Departmental investigation as part of a custody study under 19-A M.R.S. § 905, continuing the proceeding for additional evidence, or appointing a guardian ad litem under 19-A M.R.S. § 1507 — this list of alternative avenues is reasoning explaining the error, not the operative holding.",
+   "quote": "The court also could have ordered the Department to investigate the parents for suspected abuse as part of a custody study",
+   "relevance": {
+    "INP-04": "It is the modern Law Court's own confirmation that a Maine judge presiding over a civil family matter may order the Department to investigate suspected abuse, and it names the live statute (19-A M.R.S. § 905) and cites Ziehm as controlling it — which is exactly the INP-04 pathway and the citation a practitioner needs today."
+   },
+   "weight": "binding",
+   "published": true
+  },
+  {
+   "cluster_id": 4890927,
+   "case_name": "In re Appeal of T.O. & L.O.",
+   "citation": "2021 VT 41, 257 A.3d 240",
+   "court": "Vermont Supreme Court",
+   "court_id": "vt",
+   "date_decided": "2021-06-11",
+   "year": 2021,
+   "url": "https://www.courtlistener.com/opinion/4890927/in-re-appeal-of-to-lo/",
+   "holding": "The Vermont Supreme Court affirmed the Human Services Board's conclusion that it lacked jurisdiction over grandparents' claims that DCF failed to comply with state and federal relative-placement provisions, holding that the relatives' avenue for protecting any such interest is the family division of the superior court — where they may seek party status under 33 V.S.A. § 5102(22)(F) and ask the court to exercise its power under 33 V.S.A. § 5308(d) to order DCF to investigate and report.",
+   "quote": "they may request that the court order DCF to assess them for custody or placement",
+   "relevance": {
+    "INP-04": "It is the closest neighboring-state analogue to the INP-04 mechanism — a highest court describing the trial court's express statutory power to direct the child-welfare agency to investigate and file findings within a pending case — and it shows the referral being used as a party-driven request, a framing Maine's § 905 case law does not yet address."
+   },
+   "weight": "persuasive",
+   "published": true
   }
  ],
  "node_map": {
@@ -816,7 +867,11 @@
    775863,
    1926300
   ],
-  "INP-04": [],
+  "INP-04": [
+   2280426,
+   6246011,
+   4890927
+  ],
   "INP-05": [
    2809775,
    4496072,
@@ -1051,6 +1106,7 @@
   "Missing (for a later pass): Guardianship of Jeremiah T., 2009 ME 74, 976 A.2d 955 — the decision that first held proof of parental unfitness is a required element for a minor guardianship over a parent's objection; Guardianship of Jewel M. states the rule with an 'Id.' cite to it, and Chamberlain, Grenier and Gabriel Johnson all sit downstream of it. Missing from OUT-03 and INP-05. (Citation confirmed on CourtListener.)",
   "Missing (for a later pass): In re Cody T., 2009 ME 95, 979 A.2d 81 — the incarcerated-parent decision that In re Alijah K. distinguishes in the very passage the brief quotes ('neither In re Cody T. nor any other authority gives a parent a \"pass\"'); a practitioner briefing OUT-02 for an incarcerated parent needs the case being limited, not only the limiting case. (Citation confirmed on CourtListener.)",
   "Missing (for a later pass): Rideout v. Riendeau, 2000 ME 198, 761 A.2d 291 — the Law Court's leading constitutional decision on when a third party may obtain court-ordered access to a child over a fit parent's objection; it is the constitutional backdrop for the entire INP-05/ACT-04/OUT-03 private-caregiver line and is absent. (Citation confirmed on CourtListener.)",
-  "Missing (for a later pass): Troxel v. Granville, 530 U.S. 57 (2000) — the federal constitutional baseline for the presumption that a fit parent acts in the child's best interest, which every Maine third-party guardianship and de facto parentage case in this brief presupposes; the brief supplies Santosky for the termination standard but nothing for the fit-parent presumption."
+  "Missing (for a later pass): Troxel v. Granville, 530 U.S. 57 (2000) — the federal constitutional baseline for the presumption that a fit parent acts in the child's best interest, which every Maine third-party guardianship and de facto parentage case in this brief presupposes; the brief supplies Santosky for the termination standard but nothing for the fit-parent presumption.",
+  "2026-09-21 INP-04: added 3 verified authorities after a deeper search: Ziehm v. Ziehm; Needham v. Needham; In re Appeal of T.O. & L.O."
  ]
 }
