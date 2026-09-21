@@ -151,6 +151,48 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Wisconsin state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "In re Guardianship of James D.K.",
+          "citation": "2006 WI 68, 291 Wis. 2d 333, 718 N.W.2d 38",
+          "court": "Wisconsin Supreme Court",
+          "year": 2006,
+          "date_decided": "2006-06-13",
+          "holding": "Over a parent's objection a court may appoint a nonparent guardian of a minor only on a showing of extraordinary circumstances affecting the child's health or safety, and then only if the appointment is in the child's best interests.",
+          "relevance": "Extraordinary circumstances requiring medical aid are an express basis for appointing a guardian to authorize care.",
+          "quote": "a court is authorized under chapter 880 to appoint a nonparent as guardian of a minor if there exist extraordinary circumstances affecting the health or safety of the minor",
+          "url": "https://www.courtlistener.com/opinion/1233152/in-matter-of-the-guardianship-of-james-dk/",
+          "courtlistener_cluster_id": 1233152
+        },
+        {
+          "case_name": "State v. Boggess",
+          "citation": "115 Wis. 2d 443, 340 N.W.2d 516 (1983)",
+          "court": "Wisconsin Supreme Court",
+          "year": 1983,
+          "date_decided": "1983-11-30",
+          "holding": "A social worker and police officer may enter a home without a warrant to check on children reported abused only if the officer is actually motivated by a need to render aid and, objectively, a reasonable person would have believed an emergency existed.",
+          "relevance": "It authorizes immediate entry where children are believed to need aid for actual or threatened physical injury.",
+          "quote": "Both tests must be satisfied before a warrantless entry will be justified under the emergency rule exception.",
+          "url": "https://www.courtlistener.com/opinion/1704091/state-v-boggess/",
+          "courtlistener_cluster_id": 1704091
+        },
+        {
+          "case_name": "Estate of Hammersley v. Wisconsin County Mutual Insurance Co.",
+          "citation": "2012 WI App 44, 340 Wis. 2d 557, 811 N.W.2d 878",
+          "court": "Court of Appeals of Wisconsin",
+          "year": 2012,
+          "date_decided": "2012-03-06",
+          "holding": "A county crisis worker who investigated a report and declined an emergency detention acted in good faith as a matter of law and is immune under Wis. Stat. sec. 51.15(11) from liability for the killings that followed.",
+          "relevance": "It is the Wisconsin standard governing a county worker's decision whether to compel emergency psychiatric care.",
+          "quote": "In light of these undisputed facts, we conclude that no reasonable fact-finder could infer a lack of good faith.",
+          "url": "https://www.courtlistener.com/opinion/8238688/estate-of-hammersley-v-wisconsin-county-mutual-insurance/",
+          "courtlistener_cluster_id": 8238688
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Wisconsin%22%20AND%20%28%22Wisconsin%20Department%20of%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Wisconsin Department of Children and Families",
         "DCF",
@@ -162,150 +204,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Wisconsin%22%20AND%20%28%22Wisconsin%20Department%20of%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "removal",
-        "emergency custody",
-        "placement",
-        "reunification",
-        "services"
-      ],
-      "jurisdiction": "Wisconsin state courts",
-      "key_cases": [
-        {
-          "case_id": "2024ap000472",
-          "title": "S. G. v. Wisconsin Department of Children and Families",
-          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2025/2024ap000472.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Wisconsin Court Of Appeals Case 2024ap000472 (2025)",
-          "relevance_score": 3.0,
-          "matched_keywords": [
-            "wisconsin department of children and families",
-            "dcf"
-          ],
-          "child_welfare_reason": "High: DCF"
-        },
-        {
-          "case_id": "2022ap001812",
-          "title": "Kenosha County DCFS v. D.R.-R.",
-          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2023/2022ap001812.html",
-          "year": 2023,
-          "court": "Court Of Appeals",
-          "citation": "Wisconsin Court Of Appeals Case 2022ap001812 (2023)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "dcf"
-          ],
-          "child_welfare_reason": "High: DCFS"
-        },
-        {
-          "case_id": "2024ap001166",
-          "title": "Jackson County DHS v. A. M. N.",
-          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2025/2024ap001166.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Wisconsin Court Of Appeals Case 2024ap001166 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: DHS"
-        },
-        {
-          "case_id": "2024ap001459",
-          "title": "Jane Doe v. Jay C. Lick, D.O.",
-          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2025/2024ap001459.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Wisconsin Court Of Appeals Case 2024ap001459 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Jane Doe, Doe plaintiff"
-        },
-        {
-          "case_id": "2024ap000553",
-          "title": "Fond du Lac County DSS v. T. P. W., Jr",
-          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2024/2024ap000553.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Wisconsin Court Of Appeals Case 2024ap000553 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: DSS"
-        },
-        {
-          "case_id": "2024ap000733-0",
-          "title": "Waushara County DHS v. A. M. S.",
-          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2024/2024ap000733-0.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Wisconsin Court Of Appeals Case 2024ap000733-0 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: DHS"
-        },
-        {
-          "case_id": "2024ap000733",
-          "title": "Waushara County DHS v. A. M. S.",
-          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2024/2024ap000733.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Wisconsin Court Of Appeals Case 2024ap000733 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: DHS"
-        },
-        {
-          "case_id": "2024ap000081",
-          "title": "Winnebago County DHS v. C. R. Q., II",
-          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2024/2024ap000081.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Wisconsin Court Of Appeals Case 2024ap000081 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: DHS"
-        },
-        {
-          "case_id": "2023ap001496",
-          "title": "Jackson County DHS v. I. J. R.",
-          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2024/2023ap001496.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Wisconsin Court Of Appeals Case 2023ap001496 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: DHS"
-        },
-        {
-          "case_id": "2023ap001947",
-          "title": "Dane County DHS v. J. K.",
-          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2024/2023ap001947.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Wisconsin Court Of Appeals Case 2023ap001947 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: DHS"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

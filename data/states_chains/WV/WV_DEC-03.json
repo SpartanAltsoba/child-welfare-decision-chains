@@ -86,6 +86,84 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "West Virginia state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "In the Interest of Tiffany Marie S.",
+          "citation": "196 W. Va. 223, 470 S.E.2d 177 (1996)",
+          "court": "Supreme Court of Appeals of West Virginia",
+          "year": 1996,
+          "date_decided": "1996-03-20",
+          "holding": "Affirming a finding of abuse and neglect, the Court held that a circuit court's findings of fact in an abuse and neglect case may be disturbed only if clearly erroneous, while its conclusions of law are reviewed de novo, and that the Department must prove the conditions existing when the petition was filed by clear and convincing proof.",
+          "relevance": "It fixes the clear-and-convincing burden the Department carries to establish abuse or neglect as of the date of the petition.",
+          "quote": "absent a mistake of law, an appellate tribunal should disturb a circuit court's determination only if it is clearly erroneous",
+          "url": "https://www.courtlistener.com/opinion/1201720/in-interest-of-tiffany-marie-s/",
+          "courtlistener_cluster_id": 1201720
+        },
+        {
+          "case_name": "In re Christina L.",
+          "citation": "194 W. Va. 446, 460 S.E.2d 692 (1995)",
+          "court": "Supreme Court of Appeals of West Virginia",
+          "year": 1995,
+          "date_decided": "1995-07-11",
+          "holding": "The Court held that a child living in a home where another child was physically or sexually abused, and who is therefore at risk, is an 'abused child' under the statute, while declining to adopt any blanket rule that rights to all children in the home must be terminated.",
+          "relevance": "It defines when a substantiated finding may extend to siblings who were not themselves directly harmed.",
+          "quote": "there need not be a showing by the Department that each child in the home is directly abused, either sexually or physically, before termination of parental rights is sought",
+          "url": "https://www.courtlistener.com/opinion/1342969/in-re-christina-l/",
+          "courtlistener_cluster_id": 1342969
+        },
+        {
+          "case_name": "In re Z.S.-1 and Z.S.-2",
+          "citation": "Nos. 22-0478 & 22-602 (W. Va. Nov. 9, 2023)",
+          "court": "Supreme Court of Appeals of West Virginia",
+          "year": 2023,
+          "date_decided": "2023-11-09",
+          "holding": "Vacating the adjudicatory and dispositional orders, the Court held that a Rule 26(a) stipulated adjudication must contain agreed facts supporting court involvement and a statement of the respondent's problems, and that without a proper adjudication the circuit court had no jurisdiction to proceed to disposition.",
+          "relevance": "A founded finding must be made on the record in the form the rules require, including for stipulations.",
+          "quote": "Without properly made findings of abuse and/or neglect at adjudication, a case cannot proceed to disposition",
+          "url": "https://www.courtlistener.com/opinion/9438430/in-re-zs-1-and-zs-2-and-in-re-zs-1-and-zs-2/",
+          "courtlistener_cluster_id": 9438430
+        },
+        {
+          "case_name": "Santosky v. Kramer",
+          "citation": "455 U.S. 745 (1982)",
+          "court": "Supreme Court of the United States",
+          "year": 1982,
+          "date_decided": "1982-03-24",
+          "holding": "The Court held that before a State may irrevocably sever the rights of parents in their natural child, the Due Process Clause requires proof by at least clear and convincing evidence.",
+          "relevance": "It is the federal constitutional floor for the proof that must ultimately support a maltreatment finding used to sever parental rights.",
+          "quote": "due process requires that the State support its allegations by at least clear and convincing evidence",
+          "url": "https://www.courtlistener.com/opinion/110676/santosky-v-kramer/",
+          "courtlistener_cluster_id": 110676
+        },
+        {
+          "case_name": "State v. T.C.",
+          "citation": "172 W. Va. 47, 303 S.E.2d 685 (1983)",
+          "court": "Supreme Court of Appeals of West Virginia",
+          "year": 1983,
+          "date_decided": "1983-05-25",
+          "holding": "Remanding for a proper adjudicatory hearing, the Court held that a circuit court may not reach any dispositional alternative until it has held a hearing and determined whether the child is abused or neglected, and that a voluntary arrangement among the parties cannot bypass that threshold question.",
+          "relevance": "It is the origin of the rule In re Z.S. enforces: the adjudicatory finding of abuse or neglect is the gateway every founded determination must pass through before the court may act.",
+          "quote": "have determined \"whether such child is abused or neglected.\" Such a finding is the prerequisite to any further proceedings in the case.",
+          "url": "https://www.courtlistener.com/opinion/8217726/state-v-tc/",
+          "courtlistener_cluster_id": 8217726
+        },
+        {
+          "case_name": "In the Interest of S.C.",
+          "citation": "168 W. Va. 366, 284 S.E.2d 867 (1981)",
+          "court": "Supreme Court of Appeals of West Virginia",
+          "year": 1981,
+          "date_decided": "1981-12-03",
+          "holding": "Affirming termination of parental rights, the Court held that the Department bears a burden that never shifts to the parent — to prove by clear and convincing evidence the conditions of neglect existing when the petition was filed — and that a bare recital of statutory language does not satisfy the findings requirement, although that error was waived here.",
+          "relevance": "It is the origin of the burden the brief otherwise attributes to Tiffany Marie S.: a founded finding must rest on clear and convincing proof of conditions existing at the time of the petition, and the burden remains on the Department throughout, even during an improvement period.",
+          "quote": "The proper question is whether the evidence which the State Department of Welfare did present was clear and convincing proof of neglect existing at the time the petition was filed.",
+          "url": "https://www.courtlistener.com/opinion/1302179/in-the-interest-of-s-c/",
+          "courtlistener_cluster_id": 1302179
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22West%20Virginia%22%20AND%20%28%22West%20Virginia%20Department%20of%20Health%20and%20Human%20Resources%22%20OR%20%22DHHR%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "West Virginia Department of Health and Human Resources",
         "DHHR",
@@ -97,149 +175,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22West%20Virginia%22%20AND%20%28%22West%20Virginia%20Department%20of%20Health%20and%20Human%20Resources%22%20OR%20%22DHHR%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "investigation",
-        "substantiation",
-        "evidence standard",
-        "due process",
-        "reasonable efforts"
-      ],
-      "jurisdiction": "West Virginia state courts",
-      "key_cases": [
-        {
-          "case_id": "21-0627",
-          "title": "In re J.S., L.S., and H.S. and State ex rel. D.S. and V.S. v. The Honorable Richard A. Facemire, Judge of the Circuit Court of Braxton County, and the West Virginia Department of Health and Human Resources (Memorandum Decision)",
-          "url": "https://law.justia.com/cases/west-virginia/supreme-court/2022/21-0627.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "West Virginia Supreme Court Case 21-0627 (2022)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "west virginia department of health and human resources"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "24-310",
-          "title": "In re Adoption of R.B. (Memorandum Decision)",
-          "url": "https://law.justia.com/cases/west-virginia/supreme-court/2025/24-310.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "West Virginia Supreme Court Case 24-310 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re adoption, In re"
-        },
-        {
-          "case_id": "24-440",
-          "title": "In re T.P., S.P., M.P., E.P., and A.P.-1 (Memorandum Decision)",
-          "url": "https://law.justia.com/cases/west-virginia/supreme-court/2025/24-440.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "West Virginia Supreme Court Case 24-440 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "24-495",
-          "title": "In re K.H. and Q.H. (Memorandum Decision)",
-          "url": "https://law.justia.com/cases/west-virginia/supreme-court/2025/24-495.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "West Virginia Supreme Court Case 24-495 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "24-675",
-          "title": "In re A.E. and L.J. (Memorandum Decision)",
-          "url": "https://law.justia.com/cases/west-virginia/supreme-court/2025/24-675.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "West Virginia Supreme Court Case 24-675 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "24-683",
-          "title": "In re M.V. (Memorandum Decision)",
-          "url": "https://law.justia.com/cases/west-virginia/supreme-court/2025/24-683.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "West Virginia Supreme Court Case 24-683 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "24-693",
-          "title": "In re A.A.-1 and E.A. (Memorandum Decision)",
-          "url": "https://law.justia.com/cases/west-virginia/supreme-court/2025/24-693.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "West Virginia Supreme Court Case 24-693 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "24-718",
-          "title": "In re N.M., B.M., C.M., P.M., A.H., and Z.H. (Memorandum Decision)",
-          "url": "https://law.justia.com/cases/west-virginia/supreme-court/2025/24-718.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "West Virginia Supreme Court Case 24-718 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "24-739",
-          "title": "In re D.H., A.H., and G.W. (Memorandum Decision)",
-          "url": "https://law.justia.com/cases/west-virginia/supreme-court/2025/24-739.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "West Virginia Supreme Court Case 24-739 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        },
-        {
-          "case_id": "24-741",
-          "title": "In re T.W. and J.M.-1 (Memorandum Decision)",
-          "url": "https://law.justia.com/cases/west-virginia/supreme-court/2025/24-741.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "West Virginia Supreme Court Case 24-741 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

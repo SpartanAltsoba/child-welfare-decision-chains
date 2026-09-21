@@ -163,6 +163,84 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Wisconsin state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "Joni B. v. State",
+          "citation": "202 Wis. 2d 1, 549 N.W.2d 411 (1996)",
+          "court": "Wisconsin Supreme Court",
+          "year": 1996,
+          "date_decided": "1996-06-13",
+          "holding": "The amendment to Wis. Stat. sec. 48.23(3) barring courts from appointing counsel for anyone but the child in CHIPS cases violates the separation of powers and the Due Process Clause; courts must retain discretion to appoint counsel for parents case by case.",
+          "relevance": "When a county files a CHIPS petition, the circuit court retains discretion to appoint counsel for an indigent parent.",
+          "quote": "We conclude that fundamental fairness requires that a circuit judge be given the discretion to make the determination of what due process requires on a case-by-case basis.",
+          "url": "https://www.courtlistener.com/opinion/2031959/joni-b-v-state/",
+          "courtlistener_cluster_id": 2031959
+        },
+        {
+          "case_name": "M.W. v. Monroe County DHS",
+          "citation": "116 Wis. 2d 432, 342 N.W.2d 410 (1984)",
+          "court": "Wisconsin Supreme Court",
+          "year": 1984,
+          "date_decided": "1984-01-31",
+          "holding": "Wisconsin's Children's Code requires that a parent who appears in a termination proceeding actually be represented by counsel in court; absent a knowing and voluntary waiver established by careful questioning, the resulting order cannot stand.",
+          "relevance": "It sets the representation prerequisite that attaches as soon as a petition brings a parent before the juvenile court.",
+          "quote": "it becomes the duty of the court to determine by careful questioning that the waiver of counsel's presence is knowledgeable and voluntary",
+          "url": "https://www.courtlistener.com/opinion/1270990/mw-v-monroe-county-department-of-human-services/",
+          "courtlistener_cluster_id": 1270990
+        },
+        {
+          "case_name": "Eau Claire County DHS v. S.E.",
+          "citation": "2021 WI 56",
+          "court": "Wisconsin Supreme Court",
+          "year": 2021,
+          "date_decided": "2021-06-10",
+          "holding": "TPR warning notice under Wis. Stat. sec. 48.356 must identify the grounds, including sub-parts, applicable when the CHIPS order is entered; a later amendment shortening the continuing-CHIPS timeframe did not require new notice and did not violate due process.",
+          "relevance": "Valid warning notice at the CHIPS stage is a statutory prerequisite to a later TPR petition.",
+          "quote": "Sophie's notice needed to identify only the grounds for termination that existed at the time of the initial CHIPS order.",
+          "url": "https://www.courtlistener.com/opinion/4890438/eau-claire-county-department-of-human-services-v-s-e/",
+          "courtlistener_cluster_id": 4890438
+        },
+        {
+          "case_name": "T.H. v. La Crosse County",
+          "citation": "147 Wis. 2d 22, 433 N.W.2d 16 (Ct. App. 1988)",
+          "court": "Court of Appeals of Wisconsin",
+          "year": 1988,
+          "date_decided": "1988-09-29",
+          "holding": "The 30-day time limits in Wis. Stat. secs. 48.30(6) and 48.31(7) are mandatory; failure to meet them deprives the juvenile court of competency to hear the petition, requiring the dispositional orders to be vacated and the petitions dismissed.",
+          "relevance": "Filing a CHIPS petition starts mandatory clocks that, if missed, cost the court its competency.",
+          "quote": "We conclude that the thirty-day time limit in each section is mandatory.",
+          "url": "https://www.courtlistener.com/opinion/8237392/th-v-la-crosse-county/",
+          "courtlistener_cluster_id": 8237392
+        },
+        {
+          "case_name": "In Interest of M.D.(S)",
+          "citation": "168 Wis. 2d 995, 485 N.W.2d 52 (1992)",
+          "court": "Wisconsin Supreme Court",
+          "year": 1992,
+          "date_decided": "1992-06-17",
+          "holding": "The Wisconsin legislature intended the statutory right to appointed counsel in a termination of parental rights proceeding to include the right to effective counsel, so the court did not reach the parents' constitutional arguments and remanded for a Machner hearing on trial counsel's performance.",
+          "relevance": "It completes the representation guarantee that attaches when a petition brings an indigent parent before the juvenile court: appointment alone is not enough, the lawyer must be effective.",
+          "quote": "It is axiomatic that the right to be represented by appointed counsel is worthless unless that right includes the right to effective counsel.",
+          "url": "https://www.courtlistener.com/opinion/1599987/in-interest-of-md-s/",
+          "courtlistener_cluster_id": 1599987
+        },
+        {
+          "case_name": "Waukesha County v. Steven H.",
+          "citation": "2000 WI 28, 233 Wis. 2d 344, 607 N.W.2d 607",
+          "court": "Wisconsin Supreme Court",
+          "year": 2000,
+          "date_decided": "2000-03-24",
+          "holding": "Only the last order placing a child outside the home before a TPR petition is filed must carry the written sec. 48.356(2) warning, and although the circuit court erred under sec. 48.422(3) by failing to hear testimony supporting the petition's allegations, Steven H. was not prejudiced.",
+          "relevance": "It fixes which out-of-home placement orders must carry the TPR warning before a county may file a petition, and what the court must hear once it does.",
+          "quote": "We conclude that the legislature intended the circuit court to hear testimony in support of the allegations because testimony safeguards accurate fact-finding and protects the parents.",
+          "url": "https://www.courtlistener.com/opinion/1305105/waukesha-county-v-steven-h/",
+          "courtlistener_cluster_id": 1305105
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Wisconsin%22%20AND%20%28%22Wisconsin%20Department%20of%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Wisconsin Department of Children and Families",
         "DCF",
@@ -174,150 +252,7 @@
         "reunification",
         "emergency removal",
         "wrongful removal"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Wisconsin%22%20AND%20%28%22Wisconsin%20Department%20of%20Children%20and%20Families%22%20OR%20%22DCF%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "investigation",
-        "substantiation",
-        "evidence standard",
-        "due process",
-        "reasonable efforts"
-      ],
-      "jurisdiction": "Wisconsin state courts",
-      "key_cases": [
-        {
-          "case_id": "2024ap000472",
-          "title": "S. G. v. Wisconsin Department of Children and Families",
-          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2025/2024ap000472.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Wisconsin Court Of Appeals Case 2024ap000472 (2025)",
-          "relevance_score": 3.0,
-          "matched_keywords": [
-            "wisconsin department of children and families",
-            "dcf"
-          ],
-          "child_welfare_reason": "High: DCF"
-        },
-        {
-          "case_id": "2022ap001812",
-          "title": "Kenosha County DCFS v. D.R.-R.",
-          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2023/2022ap001812.html",
-          "year": 2023,
-          "court": "Court Of Appeals",
-          "citation": "Wisconsin Court Of Appeals Case 2022ap001812 (2023)",
-          "relevance_score": 2.0,
-          "matched_keywords": [
-            "dcf"
-          ],
-          "child_welfare_reason": "High: DCFS"
-        },
-        {
-          "case_id": "2024ap001166",
-          "title": "Jackson County DHS v. A. M. N.",
-          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2025/2024ap001166.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Wisconsin Court Of Appeals Case 2024ap001166 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: DHS"
-        },
-        {
-          "case_id": "2024ap001459",
-          "title": "Jane Doe v. Jay C. Lick, D.O.",
-          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2025/2024ap001459.html",
-          "year": 2025,
-          "court": "Court Of Appeals",
-          "citation": "Wisconsin Court Of Appeals Case 2024ap001459 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Jane Doe, Doe plaintiff"
-        },
-        {
-          "case_id": "2024ap000553",
-          "title": "Fond du Lac County DSS v. T. P. W., Jr",
-          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2024/2024ap000553.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Wisconsin Court Of Appeals Case 2024ap000553 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: DSS"
-        },
-        {
-          "case_id": "2024ap000733-0",
-          "title": "Waushara County DHS v. A. M. S.",
-          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2024/2024ap000733-0.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Wisconsin Court Of Appeals Case 2024ap000733-0 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: DHS"
-        },
-        {
-          "case_id": "2024ap000733",
-          "title": "Waushara County DHS v. A. M. S.",
-          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2024/2024ap000733.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Wisconsin Court Of Appeals Case 2024ap000733 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: DHS"
-        },
-        {
-          "case_id": "2024ap000081",
-          "title": "Winnebago County DHS v. C. R. Q., II",
-          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2024/2024ap000081.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Wisconsin Court Of Appeals Case 2024ap000081 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: DHS"
-        },
-        {
-          "case_id": "2023ap001496",
-          "title": "Jackson County DHS v. I. J. R.",
-          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2024/2023ap001496.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Wisconsin Court Of Appeals Case 2023ap001496 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: DHS"
-        },
-        {
-          "case_id": "2023ap001947",
-          "title": "Dane County DHS v. J. K.",
-          "url": "https://law.justia.com/cases/wisconsin/court-of-appeals/2024/2023ap001947.html",
-          "year": 2024,
-          "court": "Court Of Appeals",
-          "citation": "Wisconsin Court Of Appeals Case 2023ap001947 (2024)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: DHS"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

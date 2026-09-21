@@ -153,6 +153,60 @@
       ]
     },
     "case_law": {
+      "jurisdiction": "Vermont state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "In re Guardianship of S.O. (L.O. and T.O., Appellants)",
+          "citation": "2021 VT 89, 268 A.3d 49",
+          "court": "Supreme Court of Vermont",
+          "year": 2021,
+          "date_decided": "2021-11-12",
+          "holding": "Dismissal of grandparents' guardianship petition without a merits hearing was affirmed because, once parental rights were terminated and residual rights transferred to DCF, 14 V.S.A. §§ 2626 and 2627 gave them no right to a consensual or nonconsensual guardianship.",
+          "relevance": "S.O. is the controlling Vermont authority on when guardianship is and is no longer available as a permanency route for relatives.",
+          "quote": "we conclude as a matter of law that grandparents are not entitled to a consensual or nonconsensual guardianship under the plain language of 14 V.S.A. §§ 2626 and 2627",
+          "url": "https://www.courtlistener.com/opinion/5296943/in-re-guardianship-of-so-lo-and-to-appellants/",
+          "courtlistener_cluster_id": 5296943
+        },
+        {
+          "case_name": "In re C.B., Juvenile",
+          "citation": "2020 VT 80",
+          "court": "Supreme Court of Vermont",
+          "year": 2020,
+          "date_decided": "2020-09-25",
+          "holding": "Termination was affirmed; while a CHINS case is pending the probate division cannot adjudicate a minor guardianship petition, but the family division may do so after transfer under 14 V.S.A. § 2624(b), and father's unpreserved objection to the absence of a relative suitability assessment failed.",
+          "relevance": "The case establishes that the family division, not the probate division, decides a minor guardianship once a CHINS case is pending.",
+          "quote": "while a CHINS case is pending, the probate division does not have jurisdiction to adjudicate the minor guardianship petition",
+          "url": "https://www.courtlistener.com/opinion/4789485/in-re-cb-juvenile/",
+          "courtlistener_cluster_id": 4789485
+        },
+        {
+          "case_name": "In re K.M.M.",
+          "citation": "2011 VT 30, 189 Vt. 372",
+          "court": "Supreme Court of Vermont",
+          "year": 2011,
+          "date_decided": "2011-03-04",
+          "holding": "Denial of the grandfather's petition to terminate parental rights was affirmed, but the refusal to terminate the voluntary guardianship was reversed and the case remanded to transfer custody of the child to her fit father.",
+          "relevance": "It applies the constitutional rule that a third party cannot keep custody over a fit parent on a bare best-interests comparison.",
+          "quote": "Once the court made findings supporting the denial of the termination of parental rights petition, there was no reason not to return K.M.M. to her fit parent",
+          "url": "https://www.courtlistener.com/opinion/8210061/in-re-kmm/",
+          "courtlistener_cluster_id": 8210061
+        },
+        {
+          "case_name": "In re Appeal of T.O. & L.O.",
+          "citation": "2021 VT 41, 257 A.3d 240",
+          "court": "Supreme Court of Vermont",
+          "year": 2021,
+          "date_decided": "2021-06-11",
+          "holding": "The Human Services Board lacked jurisdiction over grandparents' claim that DCF failed to comply with state and federal relative-placement requirements; their remedy lies in the family division of the superior court, and no due process violation resulted.",
+          "relevance": "Relatives seeking placement or permanency must pursue party status or a guardianship petition in the family division rather than an administrative appeal.",
+          "quote": "That procedure is access to the family division, not to the Human Services Board.",
+          "url": "https://www.courtlistener.com/opinion/4890927/in-re-appeal-of-to-lo/",
+          "courtlistener_cluster_id": 4890927
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Vermont%22%20AND%20%28%22Vermont%20Department%20for%20Children%20and%20Families%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Vermont Department for Children and Families",
         "CPS",
@@ -164,149 +218,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Vermont%22%20AND%20%28%22Vermont%20Department%20for%20Children%20and%20Families%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "termination of parental rights",
-        "TPR",
-        "adoption",
-        "permanency",
-        "aging out"
-      ],
-      "jurisdiction": "Vermont state courts",
-      "key_cases": [
-        {
-          "case_id": "25-ap-116",
-          "title": "In re Guardianship of Alice Thomas (Brenda Leonard)",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/25-ap-116.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 25-ap-116 (2025)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "24-ap-287",
-          "title": "In re Guardianship of Emily Bacher (Gregory Bacher)",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/24-ap-287.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 24-ap-287 (2025)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "22-ap-324",
-          "title": "In re Vermont Permanency Initiative, Inc.",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2023/22-ap-324.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 22-ap-324 (2023)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "permanency"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "22-ap-153",
-          "title": "In re Guardianship of Virginia Black (Elizabeth Black & Jonathan Black, Appellants)",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2023/22-ap-153.html",
-          "year": 2023,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 22-ap-153 (2023)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "2021-106",
-          "title": "In re Guardianship of S.O.",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2021/2021-106.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 2021-106 (2021)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "2020-014",
-          "title": "In re Guardianship of A.S. (David Searles, Appellant)",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2021/2020-014.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 2020-014 (2021)",
-          "relevance_score": 2.5,
-          "matched_keywords": [
-            "guardianship"
-          ],
-          "child_welfare_reason": "High: In re guardianship, In re"
-        },
-        {
-          "case_id": "24-ap-374",
-          "title": "In re Petition of Otter Creek Solar LLC",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/24-ap-374.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 24-ap-374 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-ap-292",
-          "title": "In re Appeal of H.D.",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/25-ap-292.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 25-ap-292 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-ap-005",
-          "title": "In re Petition of Randolph Davis Solar LLC",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/25-ap-005.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 25-ap-005 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "25-ap-217",
-          "title": "In re J.D. and C.D., Juveniles",
-          "url": "https://law.justia.com/cases/vermont/supreme-court/2025/25-ap-217.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Vermont Supreme Court Case 25-ap-217 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re initials"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

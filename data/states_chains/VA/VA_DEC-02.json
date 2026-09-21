@@ -132,6 +132,72 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Virginia state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "Jones v. West",
+          "citation": "46 Va. App. 309, 616 S.E.2d 790 (2005)",
+          "court": "Court of Appeals of Virginia",
+          "year": 2005,
+          "date_decided": "2005-08-09",
+          "holding": "The Court of Appeals of Virginia affirmed dismissal of a founded sexual abuse complaint, holding that the local department's failure to tape record the child victim's interview, absent any specific determination that recording was impractical or inappropriate under 22 VAC 40-705-80(B)(1), violated required procedure and was not harmless error.",
+          "relevance": "This is the controlling Virginia authority on the mandatory interview and recording procedures a CPS investigation must follow.",
+          "quote": "It was essential, therefore, for the hearing officer to have access to the precise substance of S.J.’s statements.",
+          "url": "https://www.courtlistener.com/opinion/1063431/jones-v-west/",
+          "courtlistener_cluster_id": 1063431
+        },
+        {
+          "case_name": "Wildauer v. Frederick County",
+          "citation": "993 F.2d 369 (4th Cir. 1993)",
+          "court": "United States Court of Appeals for the Fourth Circuit",
+          "year": 1993,
+          "date_decided": "1993-05-05",
+          "holding": "The Fourth Circuit affirmed summary judgment for the county, holding that a social worker's consented-to investigative home visit accompanied by deputies did not violate the Fourth Amendment because such visits are not measured by criminal search standards and consent to the caseworker's entry extended to the accompanying officials.",
+          "relevance": "This is the controlling Fourth Circuit rule on caseworker home entry and consent during a child protective investigation.",
+          "quote": "Furthermore, investigative home visits by social workers are not subject to the same scrutiny as searches in the criminal context.",
+          "url": "https://www.courtlistener.com/opinion/606677/wildauer-v-frederick-county/",
+          "courtlistener_cluster_id": 606677
+        },
+        {
+          "case_name": "J.P. v. Carter",
+          "citation": "24 Va. App. 707, 485 S.E.2d 162 (1997)",
+          "court": "Court of Appeals of Virginia",
+          "year": 1997,
+          "date_decided": "1997-05-13",
+          "holding": "The Court of Appeals of Virginia affirmed a founded sexual abuse disposition, holding that neither the statute nor due process requires the investigator to contact the accused before entering the initial determination, because the statutory amendment request, local conference and Commissioner's hearing supply the process due.",
+          "relevance": "It is the controlling Virginia holding that pre-determination contact with the accused is preferred but not legally required to validate an investigation.",
+          "quote": "While it is clearly preferable for an investigating official to contact the accused and any interested party, it is not a prerequisite to a valid determination.",
+          "url": "https://www.courtlistener.com/opinion/1067469/jp-v-carter/",
+          "courtlistener_cluster_id": 1067469
+        },
+        {
+          "case_name": "Jackson v. W.",
+          "citation": "14 Va. App. 391, 419 S.E.2d 385 (1992)",
+          "court": "Court of Appeals of Virginia",
+          "year": 1992,
+          "date_decided": "1992-05-05",
+          "holding": "The Court of Appeals of Virginia reversed, upholding the Department's child protective services guidelines and holding that a 'founded' disposition that only threatens reputation and speculative future consequences does not deprive the alleged abuser of a liberty or property interest requiring additional procedural safeguards.",
+          "relevance": "It holds the Department's function to be adjudicative as well as investigative, which is why the due process inquiry applies at all.",
+          "quote": "However, a person’s reputation alone is not a liberty or property interest and thus is not entitled to due process protection.",
+          "url": "https://www.courtlistener.com/opinion/1338732/jackson-v-w/",
+          "courtlistener_cluster_id": 1338732
+        },
+        {
+          "case_name": "Vosburg v. Department Of Social Services",
+          "citation": "884 F.2d 133 (4th Cir. 1989)",
+          "court": "United States Court of Appeals for the Fourth Circuit",
+          "year": 1989,
+          "date_decided": "1989-08-29",
+          "holding": "The Fourth Circuit affirmed summary judgment for Virginia social workers, holding that they are absolutely immune from § 1983 liability arising from their decision to file a removal petition because that function is prosecutorial, while expressly declining to extend that immunity to their conduct in investigating whether a petition should be filed.",
+          "relevance": "The Court expressly refused to immunize the investigation that precedes a removal petition, which is why the investigative stage remains the litigable part of a Virginia CPS case.",
+          "quote": "We emphasize, however, that our grant of absolute immunity applies only to those activities of social workers that could be deemed prosecutorial.",
+          "url": "https://www.courtlistener.com/opinion/528465/vosburg-v-department-of-social-services/",
+          "courtlistener_cluster_id": 528465
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Virginia%22%20AND%20%28%22Virginia%20Department%20of%20Social%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Virginia Department of Social Services",
         "CPS",
@@ -143,71 +209,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Virginia%22%20AND%20%28%22Virginia%20Department%20of%20Social%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "investigation",
-        "substantiation",
-        "evidence standard",
-        "due process",
-        "reasonable efforts"
-      ],
-      "jurisdiction": "Virginia state courts",
-      "key_cases": [
-        {
-          "case_id": "240316",
-          "title": "In Re: Hargrove",
-          "url": "https://law.justia.com/cases/virginia/supreme-court/2025/240316.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Virginia Supreme Court Case 240316 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "240794",
-          "title": "Doe v. Green",
-          "url": "https://law.justia.com/cases/virginia/supreme-court/2025/240794.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Virginia Supreme Court Case 240794 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        },
-        {
-          "case_id": "210489",
-          "title": "In re Honorable Bennett",
-          "url": "https://law.justia.com/cases/virginia/supreme-court/2022/210489.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Virginia Supreme Court Case 210489 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "200386",
-          "title": "Doe v. Baker",
-          "url": "https://law.justia.com/cases/virginia/supreme-court/2021/200386.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Virginia Supreme Court Case 200386 (2021)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {

@@ -132,6 +132,72 @@
       "provisions_triggered": []
     },
     "case_law": {
+      "jurisdiction": "Virginia state courts",
+      "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "Weaver v. Roanoke Department of Human Resources",
+          "citation": "220 Va. 921, 265 S.E.2d 692 (1980)",
+          "court": "Supreme Court of Virginia",
+          "year": 1980,
+          "date_decided": "1980-04-18",
+          "holding": "The Supreme Court of Virginia reversed the termination of both parents' residual parental rights because the record contained no evidence that social agencies made the 'reasonable and appropriate efforts' that Code § 16.1-283(C)(2) requires before rights may be severed, and directed that termination statutes be read to preserve the parent-child relationship where possible.",
+          "relevance": "Virginia's foundational termination case arises from children placed in foster care partly at the parents' own request, and holds that the agency, not the family, bears the burden of showing services were offered.",
+          "quote": "Statutes terminating the legal relationship between parent and child should be interpreted consistently with the governmental objective of preserving, when possible, the parent-child relationship.",
+          "url": "https://www.courtlistener.com/opinion/1246307/weaver-v-roanoke-department-of-human-resources/",
+          "courtlistener_cluster_id": 1246307
+        },
+        {
+          "case_name": "Toombs v. Lynchburg Division of Social Services",
+          "citation": "223 Va. 225, 288 S.E.2d 405 (1982)",
+          "court": "Supreme Court of Virginia",
+          "year": 1982,
+          "date_decided": "1982-03-12",
+          "holding": "The Supreme Court of Virginia affirmed termination under Code § 16.1-283(C)(2), holding that whether parental visitation must continue after a termination petition is filed is decided case by case with the child's best interests as the guiding principle, and that clear and convincing evidence supported the statutory factors here.",
+          "relevance": "The children entered foster care through the parents' own approach to the agency, and the Court still required the Division to prove the statutory grounds by clear and convincing evidence.",
+          "quote": "The question must be resolved, however, in light of the facts of each case, with the best interests of the child as the guiding principle.",
+          "url": "https://www.courtlistener.com/opinion/6823914/toombs-v-lynchburg-division-of-social-services/",
+          "courtlistener_cluster_id": 6927650
+        },
+        {
+          "case_name": "Harris v. Lynchburg Division of Social Services",
+          "citation": "223 Va. 235, 288 S.E.2d 410 (1982)",
+          "court": "Supreme Court of Virginia",
+          "year": 1982,
+          "date_decided": "1982-03-12",
+          "holding": "The Supreme Court of Virginia affirmed termination as to the mother but reversed as to the father, holding that undisputed evidence that a parent was never offered or provided services overcomes the statutory prima facie case and puts the agency to full proof of the § 16.1-283(C)(2) factors.",
+          "relevance": "A parent who never asked for and was never offered help cannot be terminated on a prima facie showing alone.",
+          "quote": "where, as here, there is undisputed evidence that a parent has not been offered or provided services, the prima facie case is overcome",
+          "url": "https://www.courtlistener.com/opinion/6823915/harris-v-lynchburg-division-of-social-services/",
+          "courtlistener_cluster_id": 6927651
+        },
+        {
+          "case_name": "Rocka v. Roanoke County Department of Public Welfare",
+          "citation": "215 Va. 515, 211 S.E.2d 76 (1975)",
+          "court": "Supreme Court of Virginia",
+          "year": 1975,
+          "date_decided": "1975-01-20",
+          "holding": "The Supreme Court of Virginia reversed an order granting a welfare board permanent custody with the right to place for adoption, holding that in a contest between a parent and a non-parent the rule of comparative best interests does not apply and the board must prove parental unfitness by clear and convincing evidence, and directing an interlocutory award of custody to the mother so she could demonstrate her present fitness.",
+          "relevance": "The mother herself asked the Board to take her children and place them in foster care until she could find work and a home, and the Court held that request could not be converted into permanent severance without proof of unfitness.",
+          "quote": "We believe that the evidence of parental unfitness in this record is less than clear and convincing and, thus, insufficient to divest a parent of custody of its child.",
+          "url": "https://www.courtlistener.com/opinion/1323663/rocka-v-roanoke-county-department-of-public-welfare/",
+          "courtlistener_cluster_id": 1323663
+        },
+        {
+          "case_name": "Watson v. Shepard",
+          "citation": "217 Va. 538, 229 S.E.2d 897 (1976)",
+          "court": "Supreme Court of Virginia",
+          "year": 1976,
+          "date_decided": "1976-11-24",
+          "holding": "The Supreme Court of Virginia affirmed the denial of a mother's petition to regain custody, holding that because a prior juvenile court order entered after her voluntary relinquishment, an investigation and a hearing had altered her custody rights she bore the burden of showing changed circumstances, but reversed the interlocutory adoption decree because the prospective adoptive parents were separating.",
+          "relevance": "The mother's own voluntary written relinquishment of custody, acted on after a thorough investigation and a hearing, is what shifted the burden against her when she later asked for her child back.",
+          "quote": "the burden was not upon the Shepards, as the mother argues, to show parental unfitness",
+          "url": "https://www.courtlistener.com/opinion/1400294/watson-v-shepard/",
+          "courtlistener_cluster_id": 1400294
+        }
+      ],
+      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Virginia%22%20AND%20%28%22Virginia%20Department%20of%20Social%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Virginia Department of Social Services",
         "CPS",
@@ -143,70 +209,7 @@
         "emergency removal",
         "wrongful removal",
         "exigent circumstances"
-      ],
-      "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Virginia%22%20AND%20%28%22Virginia%20Department%20of%20Social%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
-      "relevant_case_types": [
-        "mandatory reporting",
-        "failure to report",
-        "reporter immunity",
-        "hotline"
-      ],
-      "jurisdiction": "Virginia state courts",
-      "key_cases": [
-        {
-          "case_id": "240316",
-          "title": "In Re: Hargrove",
-          "url": "https://law.justia.com/cases/virginia/supreme-court/2025/240316.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Virginia Supreme Court Case 240316 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "240794",
-          "title": "Doe v. Green",
-          "url": "https://law.justia.com/cases/virginia/supreme-court/2025/240794.html",
-          "year": 2025,
-          "court": "Supreme Court",
-          "citation": "Virginia Supreme Court Case 240794 (2025)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        },
-        {
-          "case_id": "210489",
-          "title": "In re Honorable Bennett",
-          "url": "https://law.justia.com/cases/virginia/supreme-court/2022/210489.html",
-          "year": 2022,
-          "court": "Supreme Court",
-          "citation": "Virginia Supreme Court Case 210489 (2022)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: In re"
-        },
-        {
-          "case_id": "200386",
-          "title": "Doe v. Baker",
-          "url": "https://law.justia.com/cases/virginia/supreme-court/2021/200386.html",
-          "year": 2021,
-          "court": "Supreme Court",
-          "citation": "Virginia Supreme Court Case 200386 (2021)",
-          "relevance_score": 1.0,
-          "matched_keywords": [
-            "child welfare"
-          ],
-          "child_welfare_reason": "High: Doe plaintiff"
-        }
-      ],
-      "_note": "Use search URL to find relevant cases on CourtListener"
+      ]
     }
   },
   "state_agency": {
