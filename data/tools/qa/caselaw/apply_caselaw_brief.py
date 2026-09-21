@@ -72,6 +72,8 @@ def entry_for(c, node):
         "quote": c["quote"],
         "url": c["url"],
         "courtlistener_cluster_id": c["cluster_id"],
+        **({"weight": c["weight"]} if c.get("weight") else {}),
+        **({"published": c["published"]} if "published" in c else {}),
     }
 
 
@@ -84,7 +86,10 @@ def rewrite_layer(d, brief, node_key):
         "verified_date": brief["verified_date"],
         "key_cases": [entry_for(cases[i], node_key) for i in brief["node_map"].get(node_key, [])],
     }
-    if not new["key_cases"]:
+    custom = (brief.get("node_notes") or {}).get(node_key)
+    if custom:
+        new["_note"] = custom
+    elif not new["key_cases"]:
         new["_note"] = "No verified on-point authority was found for this decision point in this jurisdiction as of verified_date; see the federal baseline node for the governing federal standard."
     for keep in ("courtlistener_search_url", "search_keywords"):
         if old.get(keep):

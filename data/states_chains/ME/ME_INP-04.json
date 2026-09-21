@@ -129,9 +129,51 @@
     "case_law": {
       "jurisdiction": "Maine state courts",
       "method": "v1.1.0 case-law rebuild: authorities selected per decision point, each opinion retrieved from CourtListener and read; holding and quote taken from the opinion text; independently re-verified before release. Previous keyword-matched Justia listings were removed.",
-      "verified_date": "2026-09-20",
-      "key_cases": [],
-      "_note": "No verified on-point authority was found for this decision point in this jurisdiction as of verified_date; see the federal baseline node for the governing federal standard.",
+      "verified_date": "2026-09-21",
+      "key_cases": [
+        {
+          "case_name": "Ziehm v. Ziehm",
+          "citation": "433 A.2d 725 (Me. 1981)",
+          "court": "Supreme Judicial Court of Maine",
+          "year": 1981,
+          "date_decided": "1981-08-10",
+          "holding": "The Law Court held that the custody-investigation statute (then 19 M.R.S.A. § 751, recodified as 19-A M.R.S. § 905) makes a report prepared by the Department of Human Services at the divorce court's request receivable in evidence, and that the statute as so construed does not violate either parent's procedural due process rights because counsel have access to the report at least three days before hearing and are assured a reasonable opportunity to cross-examine its author and rebut its conclusions and underlying facts; the change-of-custody judgment was affirmed.",
+          "relevance": "This is the only Maine appellate decision that actually adjudicates the court-ordered-referral mechanism at INP-04 — a judge in a pending civil case directing the state child-welfare agency to investigate a family — and it fixes both the evidentiary status of the agency's resulting report and the due-process floor (advance disclosure plus cross-examination) that attaches to it.",
+          "quote": "custody reports of the DHS requested by the divorce court receivable as evidence in aid of the court's responsibilities as parens patriae to determine the best interests of the child",
+          "url": "https://www.courtlistener.com/opinion/2280426/ziehm-v-ziehm/",
+          "courtlistener_cluster_id": 2280426,
+          "weight": "binding",
+          "published": true
+        },
+        {
+          "case_name": "Needham v. Needham",
+          "citation": "2022 ME 7, 267 A.3d 1112",
+          "court": "Supreme Judicial Court of Maine",
+          "year": 2022,
+          "date_decided": "2022-01-27",
+          "holding": "The Law Court vacated a parental rights and responsibilities judgment because the trial court's own extensive examination of a party about a child-protective substantiation that was still on appeal, conducted over counsel's objection, was not harmless error. In explaining what the trial court could have done instead, the Court identified ordering a Departmental investigation as part of a custody study under 19-A M.R.S. § 905, continuing the proceeding for additional evidence, or appointing a guardian ad litem under 19-A M.R.S. § 1507 — this list of alternative avenues is reasoning explaining the error, not the operative holding.",
+          "relevance": "It is the modern Law Court's own confirmation that a Maine judge presiding over a civil family matter may order the Department to investigate suspected abuse, and it names the live statute (19-A M.R.S. § 905) and cites Ziehm as controlling it — which is exactly the INP-04 pathway and the citation a practitioner needs today.",
+          "quote": "The court also could have ordered the Department to investigate the parents for suspected abuse as part of a custody study",
+          "url": "https://www.courtlistener.com/opinion/6246011/teresa-d-needham-v-charles-d-needham/",
+          "courtlistener_cluster_id": 6246011,
+          "weight": "binding",
+          "published": true
+        },
+        {
+          "case_name": "In re Appeal of T.O. & L.O.",
+          "citation": "2021 VT 41, 257 A.3d 240",
+          "court": "Vermont Supreme Court",
+          "year": 2021,
+          "date_decided": "2021-06-11",
+          "holding": "The Vermont Supreme Court affirmed the Human Services Board's conclusion that it lacked jurisdiction over grandparents' claims that DCF failed to comply with state and federal relative-placement provisions, holding that the relatives' avenue for protecting any such interest is the family division of the superior court — where they may seek party status under 33 V.S.A. § 5102(22)(F) and ask the court to exercise its power under 33 V.S.A. § 5308(d) to order DCF to investigate and report.",
+          "relevance": "It is the closest neighboring-state analogue to the INP-04 mechanism — a highest court describing the trial court's express statutory power to direct the child-welfare agency to investigate and file findings within a pending case — and it shows the referral being used as a party-driven request, a framing Maine's § 905 case law does not yet address.",
+          "quote": "they may request that the court order DCF to assess them for custody or placement",
+          "url": "https://www.courtlistener.com/opinion/4890927/in-re-appeal-of-to-lo/",
+          "courtlistener_cluster_id": 4890927,
+          "weight": "persuasive",
+          "published": true
+        }
+      ],
       "courtlistener_search_url": "https://www.courtlistener.com/?q=%22Maine%22%20AND%20%28%22Maine%20Department%20of%20Health%20and%20Human%20Services%22%20OR%20%22CPS%22%20OR%20%22due%20process%22%20OR%20%2214th%20Amendment%22%20OR%20%2242%20U.S.C.%201983%22%29&type=o&order_by=score+desc",
       "search_keywords": [
         "Maine Department of Health and Human Services",
